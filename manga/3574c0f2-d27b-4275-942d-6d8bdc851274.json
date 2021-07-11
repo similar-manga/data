@@ -7,6 +7,14 @@
    "title": {
     "en": "Kuroi Hon"
    },
+   "altTitles": [
+    {
+     "en": "Black Book"
+    },
+    {
+     "en": "黒異本"
+    }
+   ],
    "description": {
     "en": "Seven stories adapted from the horror of Hokazono Masaya."
    },
@@ -31,67 +39,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-23T18:31:25+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "c3f17d43-f1ed-4300-b52d-22cb5fd1de3c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hokazono Masaya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f8109563-b8f8-4643-8247-f3ebadc97454",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takaminato Motosuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "490beb00-0638-4c72-a5bb-b2d7663c3f80",
-   "type": "chapter"
-  },
-  {
-   "id": "dc860de9-c78c-42a5-9738-b5da70aa31ed",
-   "type": "chapter"
-  },
-  {
-   "id": "f53a3ffc-dcc1-4780-bcde-efe57d26579a",
-   "type": "chapter"
-  },
-  {
-   "id": "0c790907-36de-42e4-ad9e-4dabcf110b72",
-   "type": "chapter"
-  },
-  {
-   "id": "1727f830-fe42-42be-9a99-5a68c0ab7ab2",
-   "type": "chapter"
-  },
-  {
-   "id": "f195cf32-0b0a-4a6d-8b08-77ce1c8e9b26",
-   "type": "chapter"
-  },
-  {
-   "id": "78812615-9d94-4faf-a7ae-ed0682ec1292",
-   "type": "chapter"
-  },
-  {
-   "id": "77f208b2-1617-4353-958b-c6b6a06db550",
-   "type": "chapter"
-  },
-  {
-   "id": "45044280-ee01-41c9-a6fe-d128056aba53",
-   "type": "chapter"
-  },
-  {
-   "id": "59da7feb-39bb-4093-a475-e263c674c248",
-   "type": "chapter"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "fcc7c4e0-8693-4fab-ad9d-552878b73553",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:52:27+00:00",
+    "description": "",
+    "fileName": "dac672e5-e6c1-42c8-8216-87efda454b09.jpg",
+    "updatedAt": "2021-05-24T16:52:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

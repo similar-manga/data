@@ -7,6 +7,14 @@
    "title": {
     "en": "Sensei Datte Yarashii Koto Shitai"
    },
+   "altTitles": [
+    {
+     "en": "Sensei Datteyarashii Koto Shitai"
+    },
+    {
+     "en": "センセーだってやらしいことしたい"
+    }
+   ],
    "description": {
     "en": "After his dream of becoming a professional musician was crushed, Ren was forced to work at the kindergarten run by his parents. Ren's unmotivated and lazy personality clashes with that of the super serious teacher Kiichi, whom he watches closely every day. However, Kiichi's straightforward kindness and purity creates new and unique feelings..."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,8 +58,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,71 +72,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-09T23:21:47+00:00",
+   "updatedAt": "2021-05-25T15:43:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "cb6af9a8-f7d3-4e00-bef3-72b8b23ff34f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ushino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cb6af9a8-f7d3-4e00-bef3-72b8b23ff34f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ushino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d441f2ea-d1fd-49b5-b066-b31c502096b9",
-   "type": "chapter"
-  },
-  {
-   "id": "c84853dc-da5e-4504-9e9c-b35bf158b12a",
-   "type": "chapter"
-  },
-  {
-   "id": "94302bb3-2dc9-4719-bbfa-b4420dd98ae8",
-   "type": "chapter"
-  },
-  {
-   "id": "33a8bada-566e-44eb-8e32-39ec651fa1dc",
-   "type": "chapter"
-  },
-  {
-   "id": "15977259-e255-4371-a074-5c4acc327881",
-   "type": "chapter"
-  },
-  {
-   "id": "e6adae19-bd5f-479a-b03b-84b1a5375fdf",
-   "type": "chapter"
-  },
-  {
-   "id": "660d0e86-05af-4182-9a47-f9888d397adf",
-   "type": "chapter"
-  },
-  {
-   "id": "f8ccbbc7-69ea-4d55-b649-10aaebda8954",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "ac50487f-b91e-4ffd-9e90-8283dd335606",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:30:29+00:00",
+    "description": "",
+    "fileName": "8876b863-666f-421b-86c6-8adbf128f405.jpg",
+    "updatedAt": "2021-05-24T18:30:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

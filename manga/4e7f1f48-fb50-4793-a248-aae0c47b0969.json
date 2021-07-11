@@ -11,7 +11,6 @@
     "en": "[b]Links:[/b]\r\n[*][url=https://www.pixiv.net/member.php?id=18392249]Author's Pixiv[/url]\r\n[*][url=https://twitter.com/surfing_orange]Author's Twitter[/url]"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,8 +31,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,39 +45,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-08T17:49:35+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "cdca2e59-89f8-40ad-94c4-d817fc13555f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Surfing Orange (Circle)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cdca2e59-89f8-40ad-94c4-d817fc13555f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Surfing Orange (Circle)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f993a26a-e18c-49db-848e-8f03f18046e8",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "89ec7d0a-06a6-4ff2-b158-68435e4b431d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:05+00:00",
+    "description": "",
+    "fileName": "6dce8161-da94-493c-842d-ae56d5fa99a4.jpg",
+    "updatedAt": "2021-05-24T17:22:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

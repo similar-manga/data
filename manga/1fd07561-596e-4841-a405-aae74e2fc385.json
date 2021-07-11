@@ -7,6 +7,11 @@
    "title": {
     "en": "Tamaranaidesho?"
    },
+   "altTitles": [
+    {
+     "en": "たまらないでしょ?"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,8 +43,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,43 +57,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-14T20:31:20+00:00",
+   "updatedAt": "2021-05-25T15:40:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "c9c525ae-b917-48a7-9008-e3ab62c2d9b8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kusabi Keri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c9c525ae-b917-48a7-9008-e3ab62c2d9b8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kusabi Keri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1e2dc462-9ead-4bc0-aa59-21b45e36983b",
-   "type": "chapter"
-  },
-  {
-   "id": "09be3839-1f0f-4076-84d7-8c275217a280",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "8625946d-68b4-4f2e-894a-523fe3edf993",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:49+00:00",
+    "description": "",
+    "fileName": "b2d649c5-e75e-447f-9865-3f5b40894a41.jpg",
+    "updatedAt": "2021-05-24T17:22:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

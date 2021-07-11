@@ -8,10 +8,10 @@
     "en": "Testify"
    },
    "description": {
-    "en": "[u]English[/u]\r\n\u0026quot;Testify,\u0026quot; by Karyu, is a surprisingly sweet vampire story.\r\n[u]Polish/Polski[/u]"
+    "en": "\"Testify,\" by Karyu, is a surprisingly sweet vampire story.",
+    "pl": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +22,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,8 +32,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +46,8 @@
       "name": {
        "en": "Vampires"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -52,43 +58,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-08T18:34:42+00:00",
+   "updatedAt": "2021-05-25T15:48:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "f44f0f71-06db-4757-b3e4-be81f78fc998",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Karyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f44f0f71-06db-4757-b3e4-be81f78fc998",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Karyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "90ca2d4e-b055-4e69-af1c-be247ec1d110",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "d7d1730f-6eb0-4ba6-9437-602cac38664c",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "2bb0ea9c-439f-4fbb-a6be-6cd5e043b470",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:51:39+00:00",
+    "description": "",
+    "fileName": "20936c10-8567-4530-af10-20e5d2a44f69.png",
+    "updatedAt": "2021-05-24T17:51:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

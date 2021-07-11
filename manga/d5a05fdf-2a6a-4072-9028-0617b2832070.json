@@ -22,6 +22,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -32,6 +34,8 @@
       "name": {
        "en": "Military"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,39 +46,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-11T09:28:06+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "c4b523c3-9ed5-45a2-baa2-70e9a378f6e9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yukimi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c4b523c3-9ed5-45a2-baa2-70e9a378f6e9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yukimi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "018c6472-e6a4-469a-bf30-a366e8599d15",
-   "type": "chapter"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "9fdcd39f-95c5-4f77-9a60-0514dba63185",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:29:47+00:00",
+    "description": "",
+    "fileName": "01d864c7-ea49-4601-9cc1-5a10983acb67.jpg",
+    "updatedAt": "2021-05-24T17:29:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

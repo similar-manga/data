@@ -7,6 +7,11 @@
    "title": {
     "en": "Happy Birthday"
    },
+   "altTitles": [
+    {
+     "en": "ハッピーバースデー"
+    }
+   ],
    "description": {
     "en": "Sakuto, a company employee. Kousuke, a bar manager. Yuutarou, a shop manager. The three of them met in college and have been close friends ever since. Although they each have different sexualities, jobs, and personalities, the three friends have each lost their own grip on life, friendships, and love. Even so, they believe in themselves and move forward."
    },
@@ -29,8 +34,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,71 +48,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-28T01:46:28+00:00",
+   "updatedAt": "2021-05-25T15:49:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "2ea36133-ffde-4502-89f9-b25c4a5d3d54",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ymz",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2ea36133-ffde-4502-89f9-b25c4a5d3d54",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ymz",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c4b599cf-367d-4703-9e0a-861f6379ffb1",
-   "type": "chapter"
-  },
-  {
-   "id": "a6f92669-d467-4a1c-b188-fd101f5fd8d3",
-   "type": "chapter"
-  },
-  {
-   "id": "0d7bdc6d-be70-4868-89e5-c33213c15b4a",
-   "type": "chapter"
-  },
-  {
-   "id": "1f156784-8fd9-4b89-b5ec-369c733c7628",
-   "type": "chapter"
-  },
-  {
-   "id": "4b565ffe-ef11-48c8-8d07-aa09df8427d2",
-   "type": "chapter"
-  },
-  {
-   "id": "03d76dda-0ff6-4fd7-8aea-4552be3d2f7b",
-   "type": "chapter"
-  },
-  {
-   "id": "adde8f2d-2d34-41dd-bc18-c65360e19614",
-   "type": "chapter"
-  },
-  {
-   "id": "88dd6ca7-113c-4091-8535-c4d55a18d934",
-   "type": "chapter"
-  },
-  {
-   "id": "eaf869b5-9aa9-4cdd-9d93-91f677c997e8",
-   "type": "chapter"
-  },
-  {
-   "id": "d44e1111-309b-481a-a6a5-aef4013b2416",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "6b9bb3f8-51ca-4f78-b338-6df6b2e24aee",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:54+00:00",
+    "description": "",
+    "fileName": "95b94a73-3259-49b4-a0b5-a1212e08bf39.jpg",
+    "updatedAt": "2021-05-24T17:02:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

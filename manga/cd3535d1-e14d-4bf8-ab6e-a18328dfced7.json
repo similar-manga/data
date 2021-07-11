@@ -7,6 +7,17 @@
    "title": {
     "en": "Hatsukiai"
    },
+   "altTitles": [
+    {
+     "en": "はつきあい"
+    },
+    {
+     "en": "初恋 (Kazama Ayami)"
+    },
+    {
+     "en": "初戀"
+    }
+   ],
    "description": {
     "en": "A collection of short stories about first romantic relationships. When young people first start dating, there's a lot of shyness, miscommunication, and embarrassment involved. How do you figure out the perfect time to grab a girl's hand while walking together? When is the right time to share your first kiss? These brief stories capture the innocent awkwardness and the excitement of falling in love."
    },
@@ -33,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +56,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,75 +68,53 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-11T05:46:28+00:00",
+   "updatedAt": "2021-05-25T15:47:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "9506fe82-8de7-44f1-82e2-17ab4f49f427",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kazama Ayami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9506fe82-8de7-44f1-82e2-17ab4f49f427",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kazama Ayami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ac51ad7f-fff1-4ec1-ae8a-8d573879da15",
-   "type": "chapter"
-  },
-  {
-   "id": "0257e824-2b08-4b25-be01-18a72abed8af",
-   "type": "chapter"
-  },
-  {
-   "id": "61dc0be4-909c-4b6f-a1ff-c648bccb06a1",
-   "type": "chapter"
-  },
-  {
-   "id": "e1ae21f0-27a0-440c-90c2-142b9e170351",
-   "type": "chapter"
-  },
-  {
-   "id": "047a66f1-4e43-461c-96f8-712d11adf055",
-   "type": "chapter"
-  },
-  {
-   "id": "17834ce0-e264-4b41-9afb-aac4c3a520c6",
-   "type": "chapter"
-  },
-  {
-   "id": "4ae67975-7c45-423a-aa63-d7766b7f813a",
-   "type": "chapter"
-  },
-  {
-   "id": "bc336799-5f47-414b-b7c1-8e54cb86325b",
-   "type": "chapter"
-  },
-  {
-   "id": "6dcc9f63-8995-4ded-b86b-5ac416b33ccb",
-   "type": "chapter"
-  },
-  {
-   "id": "aaa83c0d-0822-4eed-b60f-808e3817734e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
+   "id": "096f7001-3fa1-4fe0-bd0d-481b0e8caeb6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:44+00:00",
+    "description": "",
+    "fileName": "14fd0302-fdb2-4f07-9e3a-778aefecbe6b.jpg",
+    "updatedAt": "2021-05-24T17:09:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

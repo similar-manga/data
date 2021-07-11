@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "suggestive",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +46,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -53,6 +58,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,47 +70,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-20T09:52:03+00:00",
+   "updatedAt": "2021-05-25T15:41:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "150c771c-9e4d-4cd6-a34f-cd6580ae4bf7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Rob Saint",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "150c771c-9e4d-4cd6-a34f-cd6580ae4bf7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Rob Saint",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9e6968c4-727b-4bf4-9436-df977ee6dc10",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "99bcada7-27a0-4f0a-8fc6-d4d4b5e0a236",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:11:27+00:00",
+    "description": "",
+    "fileName": "16e6e5ba-9dea-4787-967c-83016d641512.jpg",
+    "updatedAt": "2021-05-24T18:11:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

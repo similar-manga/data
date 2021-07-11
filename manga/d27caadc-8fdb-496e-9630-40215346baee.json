@@ -7,6 +7,14 @@
    "title": {
     "en": "[another] Xak"
    },
+   "altTitles": [
+    {
+     "en": "(Another) Xak"
+    },
+    {
+     "en": "Another Xak"
+    }
+   ],
    "description": {
     "en": "[another] Xak manga was based on the games, called Xak. They were popular in the late 1980s and early 1990s. Originally published in Comic Saga/Comic PC World, it was going to be a two part manga. But Seta Noriyasu had other things to deal with. This manga takes place after Xak III(game), and our characters encounter a mystery fog...Only 50 pages have been released."
    },
@@ -14,7 +22,6 @@
     "mu": "41328"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +33,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +57,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,43 +69,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-15T00:06:14+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "cca1c21b-608b-4f5a-b338-6fec72507214",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SETA Noriyasu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cca1c21b-608b-4f5a-b338-6fec72507214",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SETA Noriyasu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "112b6fd0-f4a9-4488-996b-6eead518d52b",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "dca3fd98-2c66-4fa9-9a76-0d2b28d44979",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:04+00:00",
+    "description": "",
+    "fileName": "8d7bd5dd-54b7-4d03-b381-b445a4d4c981.jpg",
+    "updatedAt": "2021-05-24T17:08:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

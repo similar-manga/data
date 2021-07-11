@@ -7,6 +7,11 @@
    "title": {
     "en": "XX Partner"
    },
+   "altTitles": [
+    {
+     "en": "XX 파트너"
+    }
+   ],
    "description": {
     "en": "Hajoon, troubled by the news of his one-sided love's marriage, ends up having a one night stand, with his college senior, Taehyuk.  Hajoon thinks of it as a mistake and feels guilty but instead, Taehyuk makes a suggestion on how to help Hajun forget about Minseong..."
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,8 +41,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +55,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +67,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -66,6 +79,8 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -76,75 +91,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-15T18:06:39+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "ead24fc0-8212-4d70-a9eb-1a224ffe337a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Dunarae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ead24fc0-8212-4d70-a9eb-1a224ffe337a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Dunarae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "188dd559-053a-442b-9970-c1a57b09f24e",
-   "type": "chapter"
-  },
-  {
-   "id": "d70b110c-89ab-4a98-bcb1-7e76ab68909c",
-   "type": "chapter"
-  },
-  {
-   "id": "17ad8ef3-f956-4250-bec5-70c7ab5772d3",
-   "type": "chapter"
-  },
-  {
-   "id": "e0ac45d0-97b7-4a67-80a2-bf88f06c8f35",
-   "type": "chapter"
-  },
-  {
-   "id": "92633e64-76ab-4807-8256-a6f169161893",
-   "type": "chapter"
-  },
-  {
-   "id": "b61c393d-f9f8-45f1-925c-dbc74f519fba",
-   "type": "chapter"
-  },
-  {
-   "id": "bbd2a868-5367-4e22-9ff5-bb5483dd4ae7",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "e0042880-f89f-4f1f-97db-9a8e8561874f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:27:27+00:00",
+    "description": "",
+    "fileName": "62e8dbf8-19f0-4ab7-8e5a-3f0ee89bb465.png",
+    "updatedAt": "2021-05-24T18:27:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

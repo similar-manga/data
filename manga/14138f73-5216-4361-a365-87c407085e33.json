@@ -7,6 +7,11 @@
    "title": {
     "en": "Puppeteer"
    },
+   "altTitles": [
+    {
+     "en": "人形使い"
+    }
+   ],
    "description": {
     "en": "Garo oneshot from 1982-07."
    },
@@ -17,7 +22,6 @@
     "mal": "94130"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -28,6 +32,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +44,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +56,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,43 +68,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-29T08:01:38+00:00",
+   "updatedAt": "2021-05-25T15:39:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "f00f0231-4ab2-4dc6-8afb-54da85e7f6ce",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murata Eeji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f00f0231-4ab2-4dc6-8afb-54da85e7f6ce",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murata Eeji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2828e3df-a151-4404-b031-e9a762a25fae",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "86b8d621-6516-4f15-a7c4-36f4ca1c61aa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:53:09+00:00",
+    "description": "",
+    "fileName": "f64d1cce-f934-4d26-b3aa-233667e8a354.jpg",
+    "updatedAt": "2021-05-24T16:53:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

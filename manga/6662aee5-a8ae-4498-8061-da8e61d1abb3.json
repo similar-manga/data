@@ -14,7 +14,6 @@
     "mu": "146070"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,8 +34,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +48,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -55,43 +60,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-07T21:06:07+00:00",
+   "updatedAt": "2021-05-25T15:43:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "e301cd1c-9f31-4c34-90a3-63ddff1c57b9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hide38",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e301cd1c-9f31-4c34-90a3-63ddff1c57b9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hide38",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3eff1009-d7f7-4c9a-b7a1-bf2e9a099de7",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "99ea320e-a7d4-4f68-acc3-d7407fe2e450",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:46+00:00",
+    "description": "",
+    "fileName": "4309c1e3-bebd-4c80-96d7-71c1d93e7329.jpg",
+    "updatedAt": "2021-05-24T17:03:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

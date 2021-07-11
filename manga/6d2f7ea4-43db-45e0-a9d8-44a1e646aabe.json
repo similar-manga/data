@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Hypnosis Mic -Division Rap Battle- side F.P \u0026amp; M"
+    "en": "Hypnosis Mic -Division Rap Battle- side F.P \u0026 M"
    },
+   "altTitles": [
+    {
+     "en": "ヒプノシスマイク -Division Rap Battle- side F.P \u0026 M"
+    }
+   ],
    "description": {
     "en": "Manga adaptation of the divisions from Hypnosis Microphone, Fling Posse and Matenrou.\r\n\r\nEvil Line Records is responsible for the original work, while Yuichiro Momose is the franchise's scenario writer."
    },
@@ -17,7 +22,6 @@
     "mu": "150191"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "ongoing",
    "contentRating": "safe",
@@ -29,6 +33,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,39 +45,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-24T12:12:28+00:00",
+   "updatedAt": "2021-05-25T15:43:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "1820bd01-d43b-4f87-a121-1713516d74ac",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yuichiro Momose",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8d5dbadd-46c1-40ac-ab0c-5c6e58d4e4e7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kiiko Shiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ca17d33d-fb15-47c8-be69-9aa11bc25d8a",
-   "type": "chapter"
-  },
-  {
-   "id": "62b50a02-4aa5-4524-8ded-d7675af3b15c",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "15083931-765b-4fc4-80d2-5a669a0db21f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:27:44+00:00",
+    "description": "",
+    "fileName": "b67d1f30-0996-4fc9-89fd-e9474fcba9df.jpg",
+    "updatedAt": "2021-05-24T17:27:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

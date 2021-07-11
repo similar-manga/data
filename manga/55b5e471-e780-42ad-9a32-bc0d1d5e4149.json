@@ -5,10 +5,30 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon Fushigi no Dungeon: Honoo no Tankentai"
+    "en": "Pokémon Fushigi no Dungeon: Honoo no Tankentai"
    },
+   "altTitles": [
+    {
+     "en": "Pocket Monsters"
+    },
+    {
+     "en": "Pokémon"
+    },
+    {
+     "en": "Pokémon Mystery Dungeon: Blazing Exploration Team"
+    },
+    {
+     "en": "Pokemon"
+    },
+    {
+     "en": "Pokemon Fushigi no Dungeon: Honoo no Tankentai"
+    },
+    {
+     "en": "ポケモン不思議のダンジョン 炎の探検隊"
+    }
+   ],
    "description": {
-    "en": "Manga based on Pok\u0026eacute;mon Mystery Dungeon: Explorers of Time and Explorers of Darkness."
+    "en": "Manga based on Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness."
    },
    "links": {
     "al": "54234",
@@ -30,6 +50,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +62,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,59 +74,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-04T20:18:52+00:00",
+   "updatedAt": "2021-05-25T15:42:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "c6802259-a5c4-4248-9a69-ae479fb56c51",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MIZOBUCHI Makoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c6802259-a5c4-4248-9a69-ae479fb56c51",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MIZOBUCHI Makoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2200246d-67b3-461c-8d20-6db8cb5b26c6",
-   "type": "chapter"
-  },
-  {
-   "id": "37282f03-fb5e-4c7a-b4b7-be8208e12e6b",
-   "type": "chapter"
-  },
-  {
-   "id": "b5b11b22-5e18-4e58-a662-1771ef3693a3",
-   "type": "chapter"
-  },
-  {
-   "id": "799b8731-506f-42b5-ac35-a1d10aae1f6a",
-   "type": "chapter"
-  },
-  {
-   "id": "45c47332-7e57-45a1-9c07-c68ee3630d6d",
-   "type": "chapter"
-  },
-  {
-   "id": "819027bd-57cb-4baf-943a-db94e7eb849d",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "871c65bf-5075-4f53-9741-ff72cd0f91fe",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:52+00:00",
+    "description": "",
+    "fileName": "f47b9f53-1c1d-4485-919e-bb1bcadf9e6d.jpg",
+    "updatedAt": "2021-05-24T17:06:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -30,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,43 +42,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-22T15:44:15+00:00",
+   "updatedAt": "2021-05-25T15:38:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "ac4a9f01-ba5a-4b16-86d9-110cb051c6b7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "CHUNG Yi Won",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ac4a9f01-ba5a-4b16-86d9-110cb051c6b7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "CHUNG Yi Won",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bf22deaf-52f1-40dc-8dba-c6bc5994d5d9",
-   "type": "chapter"
-  },
-  {
-   "id": "b476e88d-34f4-43ae-8f71-f0fc510429c4",
-   "type": "chapter"
-  },
-  {
-   "id": "52467d3c-f915-4b41-8715-d22864416dd8",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "705d2599-1b92-4f61-9993-1fb619ab7a17",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:03+00:00",
+    "description": "",
+    "fileName": "7d630d02-b958-437b-b565-0532ed31377a.jpg",
+    "updatedAt": "2021-05-24T17:09:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

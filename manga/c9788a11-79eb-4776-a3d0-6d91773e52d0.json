@@ -7,6 +7,20 @@
    "title": {
     "en": "Burning Pen"
    },
+   "altTitles": [
+    {
+     "en": "Blazing Pen"
+    },
+    {
+     "en": "Moeyo Pen"
+    },
+    {
+     "en": "元祖!漫画狂战记"
+    },
+    {
+     "en": "燃えよペン"
+    }
+   ],
    "description": {
     "en": "Hot blooded manga about... writing manga."
    },
@@ -31,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +57,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,75 +69,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-18T03:43:36+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "d2947a20-bedd-4cff-874f-ca2e68099eff",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimamoto Kazuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d2947a20-bedd-4cff-874f-ca2e68099eff",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimamoto Kazuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7c790269-2c4f-429c-9019-820e6ac6f6e3",
-   "type": "chapter"
-  },
-  {
-   "id": "7776dec9-f7ff-46f0-9c7b-754d5d506b5e",
-   "type": "chapter"
-  },
-  {
-   "id": "269a864e-8bba-4294-9332-3d110027d69f",
-   "type": "chapter"
-  },
-  {
-   "id": "a46d6a32-fabe-46b5-90dc-dcbde906fafb",
-   "type": "chapter"
-  },
-  {
-   "id": "3de176ca-378b-4582-be95-d5de3dec4f9b",
-   "type": "chapter"
-  },
-  {
-   "id": "ce296052-82c6-4be3-b18e-1bc989c79135",
-   "type": "chapter"
-  },
-  {
-   "id": "d4265385-9995-40a3-9df8-8eadf9788246",
-   "type": "chapter"
-  },
-  {
-   "id": "30232a50-4011-4cdd-af93-b51456d5bec1",
-   "type": "chapter"
-  },
-  {
-   "id": "4c85be71-9b94-43ad-a5c9-7f7d51edd72b",
-   "type": "chapter"
-  },
-  {
-   "id": "41ad428e-188b-45ac-bdae-6037c3d9c4e7",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "eef4ab76-b46c-4feb-9cb3-96e8de10e8a0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:41+00:00",
+    "description": "",
+    "fileName": "bb7514b4-0c2a-4c59-ab8a-c6b7267d84b2.jpg",
+    "updatedAt": "2021-05-24T16:49:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

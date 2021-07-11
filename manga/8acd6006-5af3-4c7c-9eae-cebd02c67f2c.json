@@ -11,7 +11,6 @@
     "en": "A collection of stand alone single page comics/images by Momomomomom\r\n\r\nNote: The genres may vary depending on the image.\r\n\r\nArtist's Twitter: https://twitter.com/momomomomom_"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,8 +55,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +69,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -72,6 +81,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -82,6 +93,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -92,63 +105,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-16T01:08:44+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "bf330265-93b9-4469-b915-b6e0fb9fe8d9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Momomomomom",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bf330265-93b9-4469-b915-b6e0fb9fe8d9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Momomomomom",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "89ea7f40-d1fc-44a2-945e-a4296077dee1",
-   "type": "chapter"
-  },
-  {
-   "id": "0e84462f-64fd-4cae-baea-27e3c14d2f34",
-   "type": "chapter"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "3fda0343-6963-4f7c-8d6f-70b3b72eef8b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:14:30+00:00",
+    "description": "",
+    "fileName": "d4f4a09e-f70c-40e3-bd5e-cdb2be593ef8.png",
+    "updatedAt": "2021-05-28T23:14:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

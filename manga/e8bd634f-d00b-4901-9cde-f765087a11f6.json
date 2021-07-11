@@ -14,7 +14,6 @@
     "raw": "https://www.pixiv.net/member_illust.php?id=324429"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "hiatus",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,35 +36,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-29T14:58:49+00:00",
+   "updatedAt": "2021-05-25T15:49:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "2530998b-b9c0-4274-8066-afc2efd4f242",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kogashirow",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2530998b-b9c0-4274-8066-afc2efd4f242",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kogashirow",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f61b835f-699b-46d3-90d2-98caa931c981",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "f62b9c46-cd9a-4fd4-b180-ed98ce8b1298",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:16+00:00",
+    "description": "",
+    "fileName": "792db18a-e119-4be6-97d1-bdd95aff0c9c.jpg",
+    "updatedAt": "2021-05-24T17:06:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

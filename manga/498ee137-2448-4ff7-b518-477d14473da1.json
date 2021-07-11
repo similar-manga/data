@@ -7,6 +7,14 @@
    "title": {
     "en": "Akujiki no Dinner"
    },
+   "altTitles": [
+    {
+     "en": "Bitter Releve"
+    },
+    {
+     "en": "悪食のディナー"
+    }
+   ],
    "description": {
     "en": "About a vampire with peculiar tastes."
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -34,8 +44,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,47 +58,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-17T03:30:58+00:00",
+   "updatedAt": "2021-05-25T15:42:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "66ce5fea-6ea6-4884-899d-890e1ab890a2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ogawa Chise",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66ce5fea-6ea6-4884-899d-890e1ab890a2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ogawa Chise",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e0435ab9-e84e-4d30-b10f-2cb422d828b4",
-   "type": "chapter"
-  },
-  {
-   "id": "46dd3339-72ba-45b6-bfae-899c25aae632",
-   "type": "chapter"
-  },
-  {
-   "id": "9a0975e6-9b56-4349-b67f-8dbb8adbe02e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "51f39eb6-f462-4f44-b9a1-ff83ecdf3597",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:36+00:00",
+    "description": "",
+    "fileName": "fcc4aea5-69b3-4801-8138-5015e4472a7d.jpg",
+    "updatedAt": "2021-05-24T17:01:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

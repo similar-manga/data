@@ -7,6 +7,44 @@
    "title": {
     "en": "H.P. Lovecraft's The Outsider and Other Stories"
    },
+   "altTitles": [
+    {
+     "en": "Anton Pavlovich Chekhov's The House with the Mezzanine"
+    },
+    {
+     "en": "Carib Song's A Barnstormer on Pont-Neuf"
+    },
+    {
+     "en": "H.P. Lovecraft's The Outsider"
+    },
+    {
+     "en": "Ju-ga"
+    },
+    {
+     "en": "Maxim Gorky's Twenty-six Men and the Girl"
+    },
+    {
+     "en": "Sanyutei Encho's Kasane Souetsu Groshi"
+    },
+    {
+     "en": "The Outsider: Extra Works"
+    },
+    {
+     "en": "アウトサイダー"
+    },
+    {
+     "en": "ポンヌフ橋の放浪芸人"
+    },
+    {
+     "en": "中二階のある家"
+    },
+    {
+     "en": "二十六人の男とー人の少女"
+    },
+    {
+     "en": "累 宗悦殺し　其ノ一"
+    }
+   ],
    "description": {
     "en": "A collection of stories:\r\n\r\n1. The Outsider by H.P. Lovecraft\r\n2. The House with the Mezzanine by Anton Pavlovich Chekhov\r\n3. Twenty-six Men and a Girl by Maxim Gorky\r\n4. Ju-ga Original Series by Tanabe Gou"
    },
@@ -31,6 +69,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -41,6 +81,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,39 +93,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-09T13:27:46+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "af83ff7a-060e-439b-bc76-3731c72da9db",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Howard Phillips Lovecraft",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f2c387dd-fd1c-4bad-ab7b-9f007943e046",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tanabe Gou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fd37123c-7559-4306-9abd-ce8600eac0ad",
-   "type": "chapter"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "b3ae59d7-b552-4f9c-a601-d83fee75d4c9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:36:54+00:00",
+    "description": "",
+    "fileName": "9615dfd7-45d8-43cd-aea6-0af2ebab117c.jpg",
+    "updatedAt": "2021-05-24T17:36:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

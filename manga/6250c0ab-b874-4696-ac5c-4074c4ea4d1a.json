@@ -7,6 +7,11 @@
    "title": {
     "en": "Solfege"
    },
+   "altTitles": [
+    {
+     "en": "ソルフェージュ"
+    }
+   ],
    "description": {
     "en": "Kugayama is a gifted music teacher, but a man with little ambition or desire. Born to a wealthy and prominent family, Kugayama passes his days simply going through the motions and existing. When ex-student Azuma Tanaka requests his help in studying for a prestigious music school's entrance exam, his budding youth and enthusiasm invoke a passion in Kugayama that he has never experienced before."
    },
@@ -28,8 +33,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,31 +47,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-02-09T18:48:19+00:00",
+   "updatedAt": "2020-02-09T18:48:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "b2f4735d-bdb5-448b-bd43-0ca875b14f86",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshinaga Fumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b2f4735d-bdb5-448b-bd43-0ca875b14f86",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshinaga Fumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "4d54018a-4419-4fb5-b5e9-e5936efe96a7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:44:28+00:00",
+    "description": "",
+    "fileName": "df5f475d-29be-46e5-8dcf-3ec39e62c169.jpg",
+    "updatedAt": "2021-05-24T17:44:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

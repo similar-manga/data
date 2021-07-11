@@ -7,6 +7,11 @@
    "title": {
     "en": "My Home"
    },
+   "altTitles": [
+    {
+     "en": "まい・ほーむ"
+    }
+   ],
    "description": {
     "en": "Life at home isn't easy for Mai. Even though she's still in elementary school, she's always taking care of her irresponsible, immature father. Every day is far from ordinary as Mai deals with (and occasionally joins in on) whatever childish antics her father is up to next."
    },
@@ -33,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +50,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -53,75 +62,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-31T20:48:14+00:00",
+   "updatedAt": "2021-05-25T15:47:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "1fb69651-ace2-4455-bce1-38a1104a9780",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Munko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1fb69651-ace2-4455-bce1-38a1104a9780",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Munko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dd866a42-dcb9-44e2-8e86-feaef72e09bb",
-   "type": "chapter"
-  },
-  {
-   "id": "62b09380-2cff-4aab-92d4-8df546e3830c",
-   "type": "chapter"
-  },
-  {
-   "id": "044f8e6a-aa3a-4e9e-80bb-db5e8d33c21d",
-   "type": "chapter"
-  },
-  {
-   "id": "8f364ef2-04f8-4da6-ae1c-bfdd7b339e80",
-   "type": "chapter"
-  },
-  {
-   "id": "cc7a214c-477a-491e-932a-728bcbe8415a",
-   "type": "chapter"
-  },
-  {
-   "id": "320240ec-ef80-47ad-a5cf-082e4c01d50a",
-   "type": "chapter"
-  },
-  {
-   "id": "ba37ac3c-13bb-4b6c-b7f6-db52f4b8b017",
-   "type": "chapter"
-  },
-  {
-   "id": "9bcf96f3-91d7-41d0-b571-3a0a462f7c41",
-   "type": "chapter"
-  },
-  {
-   "id": "dfe36cd7-c71e-47d3-8f57-0e2adc0d19b7",
-   "type": "chapter"
-  },
-  {
-   "id": "816aec90-58fd-4ae5-bda8-f65bce62436d",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "7264e82c-879f-4f42-82ef-797799bd47a9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:29+00:00",
+    "description": "",
+    "fileName": "4f76165d-925b-41fe-b3e6-b991f973fb08.jpg",
+    "updatedAt": "2021-05-24T17:06:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

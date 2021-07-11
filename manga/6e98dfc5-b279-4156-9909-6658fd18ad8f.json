@@ -7,6 +7,14 @@
    "title": {
     "en": "To Start"
    },
+   "altTitles": [
+    {
+     "en": "Başlamak"
+    },
+    {
+     "en": "시작을 위하여"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -15,7 +23,6 @@
     "mu": "107530"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +34,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,35 +46,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-29T02:59:18+00:00",
+   "updatedAt": "2021-05-25T15:43:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "30b4c874-38fb-43a9-9d74-5e7fe80fbfc6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "IL-WOL",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "30b4c874-38fb-43a9-9d74-5e7fe80fbfc6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "IL-WOL",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e850c208-a544-456a-8a3a-0ecbba0e92f2",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "3c036d38-926d-4f04-92ac-b30d0151d583",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:24:29+00:00",
+    "description": "",
+    "fileName": "1bf57cb6-c49b-458b-8dd1-b765720c5d7b.jpg",
+    "updatedAt": "2021-05-24T17:24:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

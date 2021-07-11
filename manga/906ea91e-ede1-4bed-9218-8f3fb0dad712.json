@@ -7,6 +7,11 @@
    "title": {
     "en": "Stand By Me"
    },
+   "altTitles": [
+    {
+     "en": "スタンド・バイ・ミー"
+    }
+   ],
    "description": {
     "en": "Tatsuru encounters a young man looking for rice porridge during his shift at the local supermarket - unfortunately, he's sick as a dog. Turns out, he's as affectionate as one, too."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,41 +45,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-24T12:52:40+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "8b24e057-0c1b-4bd4-a91f-24371abec8b2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ebara Tomoe",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8b24e057-0c1b-4bd4-a91f-24371abec8b2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ebara Tomoe",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a80446ab-aabb-4edf-931b-63a4a7cb5154",
-   "type": "chapter"
-  },
-  {
-   "id": "5f8a8a47-f70d-4d5e-abce-044f6c340a2d",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "973a99c0-d3b8-4f9d-8946-10c905970dd5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:13:02+00:00",
+    "description": "",
+    "fileName": "14954a51-37b9-4354-8ba9-c82b8e96f5bd.png",
+    "updatedAt": "2021-05-24T17:13:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -21,6 +21,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -31,35 +33,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-26T14:38:28+00:00",
+   "updatedAt": "2021-05-25T15:42:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "cd11f9fe-ef6e-4693-a44e-3f16ec5628fc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kou Mashiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cd11f9fe-ef6e-4693-a44e-3f16ec5628fc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kou Mashiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d1902312-dbbf-46aa-afda-dc2ddfe1f32f",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "983c0771-7970-4f03-87f5-5c3e8ba3fef1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:08:01+00:00",
+    "description": "",
+    "fileName": "4d69c40b-3367-4503-ad69-e0a160413fb5.jpg",
+    "updatedAt": "2021-05-24T18:08:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Base to Base"
    },
+   "altTitles": [
+    {
+     "en": "베이스 투 베이스"
+    }
+   ],
    "description": {
     "en": "Sung Moon High is fields one the country's top 5 high school baseball teams. On the field, players hit hard, run fast, and pull their weight to strive towards victory. Off the field, competition is fierce with students vying for position - and affection. Some might play for love of the game, others are just in it for love."
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,8 +55,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +69,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,6 +81,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -78,6 +93,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -88,51 +105,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-03-03T07:09:09+00:00",
+   "updatedAt": "2020-03-03T07:09:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "ecb0d0e9-d2ac-44fd-b40c-52ee54a2c336",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ban",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ecb0d0e9-d2ac-44fd-b40c-52ee54a2c336",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ban",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "07b385ad-ff23-4fb9-8d04-020868c9bd77",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:47:14+00:00",
+    "description": "",
+    "fileName": "37226dca-78fa-433b-90c2-f1f1b8582e7c.png",
+    "updatedAt": "2021-05-24T17:47:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

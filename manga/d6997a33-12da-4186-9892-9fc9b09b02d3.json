@@ -7,6 +7,14 @@
    "title": {
     "en": "Pentacle"
    },
+   "altTitles": [
+    {
+     "en": "PENTACLE(펜타클)"
+    },
+    {
+     "en": "펜타클"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -17,7 +25,6 @@
     "mu": "103824"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -29,6 +36,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,35 +48,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-05T06:32:04+00:00",
+   "updatedAt": "2021-05-25T15:48:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "1d29de9c-b4cc-4280-81b7-5ca771bdf08d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KIM Rack Hyun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1d29de9c-b4cc-4280-81b7-5ca771bdf08d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KIM Rack Hyun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a3c7306c-5b16-4d8a-b500-61064b625ea4",
-   "type": "chapter"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "17627915-cd7a-4f74-a319-2c622eb48021",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:49+00:00",
+    "description": "",
+    "fileName": "186a39ff-82e8-43c3-b3b0-2d43e2cee70a.jpg",
+    "updatedAt": "2021-05-24T16:56:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

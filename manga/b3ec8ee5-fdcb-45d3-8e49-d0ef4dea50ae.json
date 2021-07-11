@@ -7,6 +7,17 @@
    "title": {
     "en": "Tengoku no Mail"
    },
+   "altTitles": [
+    {
+     "en": "Heaven's Mail"
+    },
+    {
+     "en": "天国のメール"
+    },
+    {
+     "en": "天国来的简讯"
+    }
+   ],
    "description": {
     "en": "Emi has a friend she keep in contact via text messages, Kei. They promised to meet in the summer but Kei didn't come. It turns out Kei has actually passed away! So who has been messaging Emi? And at the same time, Emi meets Kazumi who reminds her of Kei. Who exactly is Kazumi?"
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,51 +54,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-06T01:46:08+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "b65a2cad-f74d-4b37-acca-ed06d9ca9625",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ODA Mitsuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b65a2cad-f74d-4b37-acca-ed06d9ca9625",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ODA Mitsuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c95e0631-6292-47f8-907d-6622baccf867",
-   "type": "chapter"
-  },
-  {
-   "id": "b5a9f17d-1d08-47e5-8577-f4b76794aa7a",
-   "type": "chapter"
-  },
-  {
-   "id": "29ac586a-8626-4ef1-891a-be6022422f8f",
-   "type": "chapter"
-  },
-  {
-   "id": "d83be98a-0d5e-4b5b-adae-a7764db46d44",
-   "type": "chapter"
-  },
-  {
-   "id": "849e6cd8-b855-4309-a1f8-a76589c100d4",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "ee99ed6b-7d3b-4f49-b71d-dfca19276868",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:11+00:00",
+    "description": "",
+    "fileName": "139be9de-6fd8-450b-9d66-83de56f62817.png",
+    "updatedAt": "2021-05-24T17:04:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

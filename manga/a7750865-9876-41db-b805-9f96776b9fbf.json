@@ -7,6 +7,11 @@
    "title": {
     "en": "Spicy Spies"
    },
+   "altTitles": [
+    {
+     "en": "スパイシー・スパイズ"
+    }
+   ],
    "description": {
     "en": "18-year-old Hondanaka Koyuki is an apprentice spy. Her current job is to infiltrate a party in order to learn the planned fate of a specific shopping center. However, she is inexperienced at sneaking about and is not particularly suave. Will she and her mentor be able to complete their task?"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,47 +47,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-23T05:05:37+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "791db2e7-345e-4c29-a0e4-ebf8348426c5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Konno Takashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "791db2e7-345e-4c29-a0e4-ebf8348426c5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Konno Takashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6973d75a-ded1-4f21-be18-7091376062ce",
-   "type": "chapter"
-  },
-  {
-   "id": "261b509e-c30a-4601-902d-bb1a469dad50",
-   "type": "chapter"
-  },
-  {
-   "id": "f387c1a6-0067-4cb5-a957-705789123af9",
-   "type": "chapter"
-  },
-  {
-   "id": "2b0c35e9-42f6-4bfc-af04-203456299403",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "7ee7edd0-8dbc-4fa1-8b22-0aea16a26cbd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:53:56+00:00",
+    "description": "",
+    "fileName": "109abdbd-4a56-49d8-9973-f17cee3feb4f.jpg",
+    "updatedAt": "2021-05-24T16:53:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

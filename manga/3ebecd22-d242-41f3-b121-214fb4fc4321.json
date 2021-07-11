@@ -29,6 +29,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +41,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +53,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,59 +65,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-28T20:44:18+00:00",
+   "updatedAt": "2021-05-25T15:41:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "9e6c2ec5-f0e3-4917-9ab6-aab2af237554",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKEYASU Sawaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9e6c2ec5-f0e3-4917-9ab6-aab2af237554",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKEYASU Sawaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b6268d5b-1a84-40bd-962d-63de59168abb",
-   "type": "chapter"
-  },
-  {
-   "id": "6294f9d8-5885-4448-bf1f-6d73e2cc6b09",
-   "type": "chapter"
-  },
-  {
-   "id": "d2118939-b74d-429a-b268-eeae74e4db22",
-   "type": "chapter"
-  },
-  {
-   "id": "0687d3a6-3658-4e18-8198-3ddfe3f2022f",
-   "type": "chapter"
-  },
-  {
-   "id": "2ede58e7-c4ab-4deb-a118-b9f8d55e3054",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "0b2c149f-4251-4f5a-8363-faca4ca65743",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:27+00:00",
+    "description": "",
+    "fileName": "05ef8c85-ed91-4df1-beaf-e54d587f6146.jpg",
+    "updatedAt": "2021-05-24T16:59:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

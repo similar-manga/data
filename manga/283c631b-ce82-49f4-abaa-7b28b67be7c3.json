@@ -23,6 +23,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,35 +35,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-20T16:59:53+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "3619fb4c-2c89-46e7-a82c-cec18df43a20",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Dowman Sayman",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3619fb4c-2c89-46e7-a82c-cec18df43a20",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Dowman Sayman",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "88ff7add-2f21-407c-8507-a108ddda19c6",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "70d7f967-4c75-4f1d-ad2f-b1fc60bbb870",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:11+00:00",
+    "description": "",
+    "fileName": "ced51184-0a87-4a62-8e07-acb84cd3344b.jpg",
+    "updatedAt": "2021-05-24T17:38:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

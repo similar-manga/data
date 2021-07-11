@@ -23,6 +23,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +35,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -43,43 +47,53 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-31T20:11:49+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "6b3e25cf-8d0d-4abb-b75e-7960fcad2ff6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Anthology",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6b3e25cf-8d0d-4abb-b75e-7960fcad2ff6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Anthology",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7b0b7a42-fd45-41b7-b348-ef638fda9110",
-   "type": "chapter"
-  },
-  {
-   "id": "110e2584-0191-4623-b033-6c137642975c",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
+   "id": "84e23826-ce0d-4f70-8a45-713a96f46a10",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:05:01+00:00",
+    "description": "",
+    "fileName": "d65e5d77-6b00-43b9-8c62-041159979fe0.jpg",
+    "updatedAt": "2021-05-24T18:05:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

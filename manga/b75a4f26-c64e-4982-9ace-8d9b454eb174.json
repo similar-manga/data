@@ -7,6 +7,14 @@
    "title": {
     "en": "Final Fantasy XII"
    },
+   "altTitles": [
+    {
+     "en": "Final Fantasy 12"
+    },
+    {
+     "en": "ファイナルファンタジーXII"
+    }
+   ],
    "description": {
     "en": "This is the story of a world called Ivalice. It is a time when the existence of magick is still commonplace, and soaring airships cover the vast sky. Princess Ashe has vowed to restore her ruined country. Together with a few companions, she waits for an opportunity to strike back. A direct adaptation of the hit RPG!"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +74,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,83 +86,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-07T08:06:24+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "d3f3a154-a8b5-4c2d-8201-c8286913189d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Amou Gin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d3f3a154-a8b5-4c2d-8201-c8286913189d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Amou Gin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7273fce6-f039-4f7b-a065-dcb8665f5214",
-   "type": "chapter"
-  },
-  {
-   "id": "dd031db0-cdbc-4757-b782-a9f5f4e9bfc7",
-   "type": "chapter"
-  },
-  {
-   "id": "b6fd557f-2e76-4bc6-b4d8-e530c7932bb4",
-   "type": "chapter"
-  },
-  {
-   "id": "baecf7e5-2491-4651-96c5-3ed6df7dc086",
-   "type": "chapter"
-  },
-  {
-   "id": "0e772d27-abb0-483d-b4d6-69116efe8345",
-   "type": "chapter"
-  },
-  {
-   "id": "740daec0-b085-4a8c-8c90-41838245b137",
-   "type": "chapter"
-  },
-  {
-   "id": "e5c0b552-ef09-4343-9e42-8f24f384ad25",
-   "type": "chapter"
-  },
-  {
-   "id": "e5efbeee-311e-49ba-9dc4-337d3b3d4952",
-   "type": "chapter"
-  },
-  {
-   "id": "b8081ad2-d12b-4507-86c3-9beb55d9f72b",
-   "type": "chapter"
-  },
-  {
-   "id": "5ea72635-7c1b-4d7b-b7df-4c78ab933760",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "93b4e17a-b615-4f95-8b4b-ce0a022e268e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:42:59+00:00",
+    "description": "",
+    "fileName": "03ce63a7-9924-4bdf-b5d7-28e83775b3fe.jpg",
+    "updatedAt": "2021-05-24T18:42:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

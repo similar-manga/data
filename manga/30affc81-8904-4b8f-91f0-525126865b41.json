@@ -7,11 +7,15 @@
    "title": {
     "en": "Lemon Taste"
    },
+   "altTitles": [
+    {
+     "en": "レモンテイスト"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +62,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -62,47 +74,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-25T19:36:42+00:00",
+   "updatedAt": "2021-05-25T15:40:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "75a23b28-80bc-43de-9e31-713001ec2af5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MOMOSE An",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "75a23b28-80bc-43de-9e31-713001ec2af5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MOMOSE An",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7dce8c7d-bbf4-4af2-b77b-56bf0117fa09",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "be37f4bb-f8ef-4ff5-a2c3-81ee3878a8f1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:15+00:00",
+    "description": "",
+    "fileName": "dab24830-7ce8-40a8-830a-d6f425884a9a.jpg",
+    "updatedAt": "2021-05-24T18:04:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

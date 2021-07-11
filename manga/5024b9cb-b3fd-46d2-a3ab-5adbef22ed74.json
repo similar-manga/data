@@ -7,6 +7,23 @@
    "title": {
     "en": "Koohi Jikan"
    },
+   "altTitles": [
+    {
+     "en": "Coffee Jikan"
+    },
+    {
+     "en": "Coffee Time"
+    },
+    {
+     "en": "Kōhī Jikan"
+    },
+    {
+     "en": "Koohii Jikan"
+    },
+    {
+     "en": "珈琲時間"
+    }
+   ],
    "description": {
     "en": "This is a collection of short stories that all involve coffee in some way."
    },
@@ -30,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,75 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-15T09:00:42+00:00",
+   "updatedAt": "2021-05-25T15:42:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "c817e5d4-0cb9-4466-817e-d55b4bd8dbd5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Toyoda Tetsuya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c817e5d4-0cb9-4466-817e-d55b4bd8dbd5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Toyoda Tetsuya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d86026ff-5c67-482f-accd-1b1cacc6b973",
-   "type": "chapter"
-  },
-  {
-   "id": "3a0a08ac-d57f-4579-bc48-0459f58defd7",
-   "type": "chapter"
-  },
-  {
-   "id": "7cbad8bf-e8d6-4fec-b931-a889a2a641e5",
-   "type": "chapter"
-  },
-  {
-   "id": "88dda71b-6145-4d94-ab3a-55cffe1042a2",
-   "type": "chapter"
-  },
-  {
-   "id": "7724a4df-0089-4963-af2f-15eff28ebea6",
-   "type": "chapter"
-  },
-  {
-   "id": "023a8d19-e29a-4c23-b7d4-4589ded1c3f1",
-   "type": "chapter"
-  },
-  {
-   "id": "4edd77b0-0b1e-44ba-ae95-67a9b3d38ef7",
-   "type": "chapter"
-  },
-  {
-   "id": "c97beca0-b28a-458b-a469-c626544cb673",
-   "type": "chapter"
-  },
-  {
-   "id": "d29af241-cadd-4852-bd77-18174fcc7670",
-   "type": "chapter"
-  },
-  {
-   "id": "ae005403-a25d-478c-b120-41f18238664f",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "1addeeb7-9364-4fb9-ab25-45af3a1c10a2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:49:14+00:00",
+    "description": "",
+    "fileName": "27daea4e-d7e4-4caf-b27a-25f631a9f4d0.jpg",
+    "updatedAt": "2021-05-24T17:49:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

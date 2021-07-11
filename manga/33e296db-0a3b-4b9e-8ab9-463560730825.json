@@ -5,7 +5,7 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "She\u0026rsquo;s Coming Tonight"
+    "en": "She’s Coming Tonight"
    },
    "description": {
     "en": ""
@@ -14,7 +14,6 @@
     "mu": "170754"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +49,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +61,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -66,6 +73,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -76,51 +85,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-04T19:51:58+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "3749c8e1-a4d3-4d98-958b-4fa575d7f6b7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKAHASHI Rumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3749c8e1-a4d3-4d98-958b-4fa575d7f6b7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKAHASHI Rumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bafbc6a4-59ef-4b3a-93cd-0c6b4b06a0ea",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "1dbfc7aa-be38-4fd4-a144-c7ab531ca08b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:17:45+00:00",
+    "description": "",
+    "fileName": "52d6cedd-713a-47b8-ad15-4bf9fe0c79cc.jpg",
+    "updatedAt": "2021-05-24T17:17:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

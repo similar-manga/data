@@ -7,6 +7,17 @@
    "title": {
     "en": "Miki no Houkago"
    },
+   "altTitles": [
+    {
+     "en": "Afterschool Miki"
+    },
+    {
+     "en": "Miki After School"
+    },
+    {
+     "en": "ミキの放課後"
+    }
+   ],
    "description": {
     "en": "A pure-hearted girl(?)'s first love story.\r\nOne day after school, Itsuki sees a beautiful girl coming out of the mens' toilet.\r\nHer true identity is that of Miki, a plain and quiet classmate, crossdressing.\r\nSince then, Itsuki has been taking care of Miki, but then, another cross-dressing girl appears...!"
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +52,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,6 +78,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -71,83 +90,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-28T03:23:15+00:00",
+   "updatedAt": "2021-05-25T15:46:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "d516fd6a-09d2-4295-b9f2-a7ef2cddf584",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsumura Chita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d516fd6a-09d2-4295-b9f2-a7ef2cddf584",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsumura Chita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "99c46bb4-164d-4c49-aad0-cd20a3f28e5b",
-   "type": "chapter"
-  },
-  {
-   "id": "472cc20e-548b-4454-9019-5e3477c77d1a",
-   "type": "chapter"
-  },
-  {
-   "id": "8baccf1d-e918-478b-8c47-64201836fb72",
-   "type": "chapter"
-  },
-  {
-   "id": "0907bac8-6d6e-47a9-b369-18578b7648bb",
-   "type": "chapter"
-  },
-  {
-   "id": "164f39ec-ed75-429a-9b38-52e35175896f",
-   "type": "chapter"
-  },
-  {
-   "id": "9ec70e13-5d7b-464f-af72-3c2f26240459",
-   "type": "chapter"
-  },
-  {
-   "id": "21facd2e-488d-45c3-bb89-317d72ae5937",
-   "type": "chapter"
-  },
-  {
-   "id": "11e6634a-f7e4-45c7-a8eb-06ae0514ba47",
-   "type": "chapter"
-  },
-  {
-   "id": "b4e64659-f609-4480-b9cb-581db19579f5",
-   "type": "chapter"
-  },
-  {
-   "id": "d191b882-5835-4cb1-9f0c-ae0375c74807",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "9ce9461f-2b73-4f7a-917c-e65327103c89",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:38:57+00:00",
+    "description": "",
+    "fileName": "84d60488-55d2-4a93-bbf1-213079f403d8.jpg",
+    "updatedAt": "2021-05-24T18:38:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

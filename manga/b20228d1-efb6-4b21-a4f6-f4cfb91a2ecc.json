@@ -7,6 +7,23 @@
    "title": {
     "en": "The Little Match Girl"
    },
+   "altTitles": [
+    {
+     "en": "La Petite Fille aux Allumettes"
+    },
+    {
+     "en": "Macchi Shoujo"
+    },
+    {
+     "en": "Продавец спичек"
+    },
+    {
+     "en": "دخترک کبریت فروش"
+    },
+    {
+     "en": "火柴少女"
+    }
+   ],
    "description": {
     "en": "Money. Power. Fame. Everyone has something they want, and Rin the match peddler is here to offer you your wildest dreams on a silver platter. All you have to do to get everything you've ever wanted is light a match, but be careful; play with fire, and you might get burned."
    },
@@ -32,6 +49,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +61,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +73,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -62,79 +85,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-08T19:08:20+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "10cf1846-4b30-4ac5-a351-c26e33d09b90",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Suzuki Sanami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "10cf1846-4b30-4ac5-a351-c26e33d09b90",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Suzuki Sanami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "94da708b-c7f8-40b4-aadf-89adc81788b9",
-   "type": "chapter"
-  },
-  {
-   "id": "41e05353-2c04-4e44-b8ae-0682bb523a90",
-   "type": "chapter"
-  },
-  {
-   "id": "59fde0dd-7a70-43ba-a21e-4e15d3ae98c0",
-   "type": "chapter"
-  },
-  {
-   "id": "fc6e6126-7fb3-4073-80e7-0fb24b1685ae",
-   "type": "chapter"
-  },
-  {
-   "id": "b75d27bb-ddb0-41ef-ac01-a13f6f92eb00",
-   "type": "chapter"
-  },
-  {
-   "id": "3c944a68-4d4e-4c72-b296-f2189e80d9ea",
-   "type": "chapter"
-  },
-  {
-   "id": "f13f7528-1e4a-441f-894f-d75b6cebcb4b",
-   "type": "chapter"
-  },
-  {
-   "id": "c134ea1e-b2d9-4a47-aadc-99479e62725b",
-   "type": "chapter"
-  },
-  {
-   "id": "96466aef-1012-4cbc-8498-556114089a55",
-   "type": "chapter"
-  },
-  {
-   "id": "a0e6035f-af0b-4fc2-a107-11c4c06c025e",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "15cca89b-4aaf-4f1c-ad39-7a84b9f499b2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:47:29+00:00",
+    "description": "",
+    "fileName": "fc6d2160-ceb3-4007-ab68-e96e10eb24c1.jpg",
+    "updatedAt": "2021-05-24T16:47:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

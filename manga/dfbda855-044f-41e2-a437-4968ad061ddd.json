@@ -7,6 +7,14 @@
    "title": {
     "en": "Nakanaide yo Baby"
    },
+   "altTitles": [
+    {
+     "en": "Baby Please Don't Cry"
+    },
+    {
+     "en": "泣かないでよベイビー"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -58,43 +72,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-19T08:31:20+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "d25e1187-ac76-423b-8f0a-73098601b27e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamamoto Ataru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d25e1187-ac76-423b-8f0a-73098601b27e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamamoto Ataru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8d61cf48-b76f-498a-b34a-607cc8612795",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "ef523413-ad6f-4f7b-ae61-bc98685339e1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:34:20+00:00",
+    "description": "",
+    "fileName": "d862c972-85fc-4036-92d6-1a9e9598f812.jpg",
+    "updatedAt": "2021-05-24T17:34:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

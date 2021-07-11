@@ -7,6 +7,11 @@
    "title": {
     "en": "Hara Peko Mitsuba Chinko"
    },
+   "altTitles": [
+    {
+     "en": "はらぺこみつばちんこ"
+    }
+   ],
    "description": {
     "en": "An eight page short in which a starving student discovers that the plant he found in an alley is really a beautiful young man who wants to feed him..."
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +54,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,51 +68,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-28T14:30:06+00:00",
+   "updatedAt": "2021-05-25T15:44:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "4687d8de-2087-48e2-9156-7ed8f83dc22a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nangoku Banana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4687d8de-2087-48e2-9156-7ed8f83dc22a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nangoku Banana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7a47b61f-b5be-4250-b108-a34964bf582d",
-   "type": "chapter"
-  },
-  {
-   "id": "ed16055e-b823-4ad9-8e45-5d92fc05ad2c",
-   "type": "chapter"
-  },
-  {
-   "id": "29f1e5a4-7e8a-4929-a0aa-102e7c9147bb",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "fcfce553-d803-4f3f-9b8e-d9a790265c12",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:46:47+00:00",
+    "description": "",
+    "fileName": "e161a60d-0b0c-42fe-868f-74cf66bfc2c0.jpg",
+    "updatedAt": "2021-05-24T17:46:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

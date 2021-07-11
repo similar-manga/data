@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -30,8 +31,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,39 +45,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-10T05:26:17+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "4c8368b4-a43a-47c8-842e-8c208e7d25d2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Doors",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4c8368b4-a43a-47c8-842e-8c208e7d25d2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Doors",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "03e0ee97-125f-4d0a-a5e7-bc12cbc7174a",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "ceb926ef-b90a-4ff5-912f-8da4749fb50d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:47:39+00:00",
+    "description": "",
+    "fileName": "74b0f6b0-b59d-4e7b-9b13-f106c2228068.jpg",
+    "updatedAt": "2021-05-24T16:47:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

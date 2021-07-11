@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Saki \u0026amp; Final Fantasy XIV"
+    "en": "Saki \u0026 Final Fantasy XIV"
    },
    "description": {
     "en": "As the title indicates, it's a collaboration project with the FFXIV game. Main story seems to be Saki, Nodoka and Tacos travel to the world of FFXIV (as their game avatars) to play mahjong."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +46,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -51,8 +56,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,6 +70,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -73,6 +82,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -83,63 +94,65 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-06T11:59:21+00:00",
+   "updatedAt": "2021-05-25T15:48:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "3e3e68c0-e9bc-4042-a0ce-26c8b4aec8bc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kobayashi Ritz",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8a3f66c2-a473-4f73-a5e7-942d8cc766b2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kiyoshi Saya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8a3f66c2-a473-4f73-a5e7-942d8cc766b2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kiyoshi Saya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fc9c01dd-3707-4ef1-9cc3-d2daa85fbe2c",
-   "type": "chapter"
-  },
-  {
-   "id": "de3c1ec4-db4b-4098-8dc7-de43cbc7d0f3",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "62fdf17e-617a-4fb2-971e-2aa8608db88b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:30:04+00:00",
+    "description": "",
+    "fileName": "0e7238da-751b-483c-9ff2-ea989d0b94ec.png",
+    "updatedAt": "2021-05-24T18:30:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "B-flat no Sonata"
    },
+   "altTitles": [
+    {
+     "en": "B♭ no Sonata"
+    },
+    {
+     "en": "B♭のソナタ"
+    }
+   ],
    "description": {
     "en": "A series of strange, surreal stories from 1983."
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,55 +49,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-07T23:05:13+00:00",
+   "updatedAt": "2021-05-25T15:40:28+00:00"
   }
  },
  "relationships": [
   {
    "id": "3469c1e0-ab60-410a-92d6-78ed7de24fad",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fukuyama Youji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3469c1e0-ab60-410a-92d6-78ed7de24fad",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fukuyama Youji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fcd24d0b-4045-4e82-8f25-5cbb45657535",
-   "type": "chapter"
-  },
-  {
-   "id": "3f415771-13e1-4d2b-8303-b54ca2b4fdfa",
-   "type": "chapter"
-  },
-  {
-   "id": "56059ec7-9bff-4f02-9f06-8d1a91e8e4bd",
-   "type": "chapter"
-  },
-  {
-   "id": "a76b83a4-eb33-4d15-aa25-1984a1a91788",
-   "type": "chapter"
-  },
-  {
-   "id": "2a1eb953-d455-43ed-aa32-f1f561566ccb",
-   "type": "chapter"
-  },
-  {
-   "id": "7aaf48c0-aa03-4d09-b95c-bccc9d8b527d",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "0aadd9a9-1d46-4f28-ae80-da39074cd8c9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:47:21+00:00",
+    "description": "",
+    "fileName": "528135f4-5870-4700-8e29-c5de96837971.jpg",
+    "updatedAt": "2021-05-24T16:47:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

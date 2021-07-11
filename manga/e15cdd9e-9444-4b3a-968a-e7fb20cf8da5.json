@@ -7,6 +7,11 @@
    "title": {
     "en": "Toy Paradise"
    },
+   "altTitles": [
+    {
+     "en": "トイ・パラダイス"
+    }
+   ],
    "description": {
     "en": "The fully automated theme park, 'Toy Paradise'!! It's supposed to be a fun place, but has it changed!? A disaster, horror story about a robot world that has turned frightful!!"
    },
@@ -22,6 +27,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +39,8 @@
       "name": {
        "en": "Thriller"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +51,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,47 +63,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-22T19:29:49+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "85e5cdb7-1f1f-4c01-bfce-5562431b4f16",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Megasawara",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "85e5cdb7-1f1f-4c01-bfce-5562431b4f16",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Megasawara",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8680dc9e-ad2e-41d3-8d5c-e0a73e74b377",
-   "type": "chapter"
-  },
-  {
-   "id": "00c08633-cad8-496c-8dcb-cc16e4f936cc",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "07251805-a27e-4d59-b488-f0bfbec15168",
-   "type": "tag"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "731455e3-acbe-4f57-bf84-5036c7e635f3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:28:15+00:00",
+    "description": "",
+    "fileName": "fc76e274-777b-491d-a2e7-03391256fad0.jpg",
+    "updatedAt": "2021-05-24T18:28:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

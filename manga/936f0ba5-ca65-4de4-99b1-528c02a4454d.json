@@ -5,8 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "HUNTER\u0026times;HUNTER - DIGITAL COLORED COMICS"
+    "en": "HUNTER×HUNTER - DIGITAL COLORED COMICS"
    },
+   "altTitles": [
+    {
+     "en": "Hunter x Hunter"
+    },
+    {
+     "en": "Hunter x Hunter - Digital Colored Comics"
+    },
+    {
+     "en": "Hunter x Hunter (Official Colored)"
+    },
+    {
+     "en": "ハンター×ハンター"
+    }
+   ],
    "description": {
     "en": "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters."
    },
@@ -27,6 +41,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +53,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +65,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +77,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -67,6 +89,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -77,6 +101,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -87,6 +113,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -97,6 +125,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -107,99 +137,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-11T14:37:00+00:00",
+   "updatedAt": "2021-05-25T15:45:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "00345ac8-e515-458d-a11d-56cfd1cb253b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Togashi Yoshihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "00345ac8-e515-458d-a11d-56cfd1cb253b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Togashi Yoshihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e54b860c-0079-4911-9a21-23dfd9d1a889",
-   "type": "chapter"
-  },
-  {
-   "id": "0aebb758-e68d-458e-9848-15e4e12c2528",
-   "type": "chapter"
-  },
-  {
-   "id": "ccbb0fee-46f6-431d-b65d-676cde6531f8",
-   "type": "chapter"
-  },
-  {
-   "id": "564af3b3-f23c-4dfa-b194-14dedc3eca6a",
-   "type": "chapter"
-  },
-  {
-   "id": "093b658d-7d81-4302-83ec-85624ff3c9fc",
-   "type": "chapter"
-  },
-  {
-   "id": "b2f01b4e-f494-4d64-b8af-b172ec4a83de",
-   "type": "chapter"
-  },
-  {
-   "id": "c9f4eb62-42e2-439a-9d6d-fab165c50fb0",
-   "type": "chapter"
-  },
-  {
-   "id": "b899dba7-e6a7-4a7e-b508-9fb59532a0e9",
-   "type": "chapter"
-  },
-  {
-   "id": "fba0fade-d4a4-4764-9cca-a27a73245b26",
-   "type": "chapter"
-  },
-  {
-   "id": "08bed3dc-444b-427a-a961-5b42ff5ea09c",
-   "type": "chapter"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "bc0f4345-be87-4fec-8a1f-04b836365e6a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:48:14+00:00",
+    "description": "",
+    "fileName": "6814c2a2-adaf-4273-b39d-13791a86aed9.jpg",
+    "updatedAt": "2021-05-24T17:48:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Ani no Hanashi"
    },
+   "altTitles": [
+    {
+     "en": "Рассказ о брате"
+    },
+    {
+     "en": "兄の話"
+    }
+   ],
    "description": {
     "en": "Fumi's family consists of him, his working mother, his bed-ridden grandmother and his older brother. Fumi admires his kind older brother who manages his studies, sports and housework perfectly. One day, however, Fumi's feelings are tested when his brother's best friend enters their lives.\r\n\r\nA young heterosexual man's account of his childhood with his gay older brother."
    },
@@ -27,8 +35,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,47 +61,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-27T13:59:16+00:00",
+   "updatedAt": "2021-05-25T15:41:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "5a4a22d0-88ac-4b64-bc80-777907f95038",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ike Reibun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5a4a22d0-88ac-4b64-bc80-777907f95038",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ike Reibun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dd2ccf38-3700-4593-b85f-5c376fbbd06f",
-   "type": "chapter"
-  },
-  {
-   "id": "21f5ba0d-0e14-4023-a5de-dc7f3f62c517",
-   "type": "chapter"
-  },
-  {
-   "id": "c56d4359-a836-4dca-81a9-bdfef0f56190",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "733a8966-84ff-4f53-bd12-02fc7929b509",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:43:10+00:00",
+    "description": "",
+    "fileName": "302aed7d-f57a-4e0a-b841-d1fa04c1e0fd.jpg",
+    "updatedAt": "2021-05-24T16:43:10+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

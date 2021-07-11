@@ -7,6 +7,11 @@
    "title": {
     "en": "Enchant Land"
    },
+   "altTitles": [
+    {
+     "en": "エンチャントランド"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,31 +46,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-07-08T15:29:29+00:00",
+   "updatedAt": "2020-07-08T15:29:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "8229af38-7153-426e-bd70-3156911fbba4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tomizawa Hitoshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8229af38-7153-426e-bd70-3156911fbba4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tomizawa Hitoshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "6fee1f59-6fe8-4f09-b818-c896e0fc987a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:02:15+00:00",
+    "description": "",
+    "fileName": "86afcf4c-0fbe-4587-819f-389329bbb657.jpg",
+    "updatedAt": "2021-05-24T18:02:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

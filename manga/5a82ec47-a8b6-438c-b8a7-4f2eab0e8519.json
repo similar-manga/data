@@ -15,7 +15,6 @@
     "mu": "21398"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "ongoing",
    "contentRating": "safe",
@@ -27,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,43 +62,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-12T09:55:59+00:00",
+   "updatedAt": "2021-05-25T15:42:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "2bc2b2d2-ac4e-48c1-8fe5-69bd4c97abe8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jin Kyoung",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2bc2b2d2-ac4e-48c1-8fe5-69bd4c97abe8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jin Kyoung",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c2fcdbe5-f902-47d2-ac54-6cd62bbaa4ce",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "2ba43fbf-4737-4fbf-b26e-553da2a9d6b4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:55:40+00:00",
+    "description": "",
+    "fileName": "7e76bdca-1f27-480c-8245-320f57445390.png",
+    "updatedAt": "2021-05-24T17:55:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

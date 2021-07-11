@@ -15,7 +15,6 @@
     "mu": "7772"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +38,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,43 +50,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-19T20:50:02+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "905b92b2-b961-47ab-bb86-90c93226702a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shin-Jeong-Min Ahn",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "905b92b2-b961-47ab-bb86-90c93226702a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shin-Jeong-Min Ahn",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "75ca8e78-4ec1-4fe1-b73f-d1dfc4b4eb64",
-   "type": "chapter"
-  },
-  {
-   "id": "c05a2d44-4ac3-4a7b-88fd-9ec98457e588",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "887fed34-8c22-4fc1-9a8f-29fa0adb5ff9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:23:25+00:00",
+    "description": "",
+    "fileName": "c65db38c-374a-40e6-85a0-fbee6287838d.png",
+    "updatedAt": "2021-05-24T17:23:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

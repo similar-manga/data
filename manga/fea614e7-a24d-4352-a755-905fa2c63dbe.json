@@ -7,6 +7,11 @@
    "title": {
     "en": "Comic Master J"
    },
+   "altTitles": [
+    {
+     "en": "コミックマスターJ"
+    }
+   ],
    "description": {
     "en": "Legend says if you write a message in the Bulletin Board of the Shibuya train station, a misterious man may help you finish your manga. Comic Master J is the legendary assistant that can finish a draft in no time regardless of the drawing style in exchange of 50.000 dollars. However, he will not work in your manga if it doesnt have a soul.\r\nBut... what is J's true identity? why does he wear an overcoat filled with drawing utensils? and more important... why is it that a man with such talent decided to move in the shadows of this industry instead of working on his own manga?"
    },
@@ -18,7 +23,6 @@
     "mu": "11024"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -30,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,47 +46,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-03T09:32:12+00:00",
+   "updatedAt": "2021-05-25T15:50:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "c30f7475-060c-491e-b042-9113d5c4e9ca",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tabata Yoshiaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9efa8f9e-8ebb-4591-8242-9a4b35af859d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yugo Yuuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5bedc1e8-8413-4233-b441-98ea2863b231",
-   "type": "chapter"
-  },
-  {
-   "id": "93e34af6-58e6-4ba4-92e0-2ba416ba3265",
-   "type": "chapter"
-  },
-  {
-   "id": "47db5946-8bb3-4d14-a4f2-3a1ef163f514",
-   "type": "chapter"
-  },
-  {
-   "id": "cb6b1808-3c2b-44b8-aeae-5def6fd6f8ff",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0dd65a8c-cb3f-4f56-ab31-b313246df2a3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:43:00+00:00",
+    "description": "",
+    "fileName": "733f76d5-455d-490f-a81a-902129e9ed0e.jpg",
+    "updatedAt": "2021-05-24T18:43:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -14,7 +14,6 @@
     "raw": "https://twitter.com/folder_hn/status/1223179328352972800"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +48,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +60,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -65,47 +72,53 @@
       "name": {
        "en": "Aliens"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-15T11:59:11+00:00",
+   "updatedAt": "2021-05-25T15:43:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "e51c30ca-d59d-4440-9ab8-2b68a950b96b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Folder_hn",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e51c30ca-d59d-4440-9ab8-2b68a950b96b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Folder_hn",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "79b22041-1b07-4c0d-b90e-c78daefb9acc",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e64f6742-c834-471d-8d72-dd51fc02b835",
-   "type": "tag"
+   "id": "c5c54396-30af-4fde-85b5-15f626eb00b1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:18:47+00:00",
+    "description": "",
+    "fileName": "dc0ca49f-0d64-4d81-b6a2-e5d956fda761.jpg",
+    "updatedAt": "2021-05-24T18:18:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

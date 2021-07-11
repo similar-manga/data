@@ -7,6 +7,20 @@
    "title": {
     "en": "H.P. Lovecraft's The Call of Cthulhu"
    },
+   "altTitles": [
+    {
+     "en": "Cthulhu no Yobigoe (TANABE Gou)"
+    },
+    {
+     "en": "クトゥルフの呼び声"
+    },
+    {
+     "en": "克苏鲁的呼唤"
+    },
+    {
+     "en": "克蘇魯的呼喚"
+    }
+   ],
    "description": {
     "en": "Manga adaption of H. P. Lovecraft's The Call of Cthulhu."
    },
@@ -32,6 +46,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +58,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -52,67 +70,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-23T05:23:40+00:00",
+   "updatedAt": "2021-05-25T15:43:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "af83ff7a-060e-439b-bc76-3731c72da9db",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Howard Phillips Lovecraft",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f2c387dd-fd1c-4bad-ab7b-9f007943e046",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tanabe Gou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dae7204a-7e6d-4bfa-8ed0-18ad79040c1d",
-   "type": "chapter"
-  },
-  {
-   "id": "f2c69be6-2094-4dc5-939e-2da64a2b2ff2",
-   "type": "chapter"
-  },
-  {
-   "id": "f396f372-d470-4165-9082-161613058213",
-   "type": "chapter"
-  },
-  {
-   "id": "e59dec48-1347-4721-bcc7-eb1dd5083c25",
-   "type": "chapter"
-  },
-  {
-   "id": "85f9493a-aa58-461e-9868-2d69882e3373",
-   "type": "chapter"
-  },
-  {
-   "id": "da10a1ec-786e-4bd2-96d9-797ad987ec83",
-   "type": "chapter"
-  },
-  {
-   "id": "339f2b18-ab32-4aab-84a3-084fafdee8ff",
-   "type": "chapter"
-  },
-  {
-   "id": "7848bf31-a6ad-486b-be85-78c1005505b9",
-   "type": "chapter"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "14c760da-09e2-4f84-a982-d16910d279f5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:34:50+00:00",
+    "description": "",
+    "fileName": "d2a72209-cb64-439b-bd2b-4348d1fb748c.jpg",
+    "updatedAt": "2021-05-24T17:34:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

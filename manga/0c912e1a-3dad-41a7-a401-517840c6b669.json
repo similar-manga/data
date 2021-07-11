@@ -14,7 +14,6 @@
     "mu": "155692"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +49,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,47 +61,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-13T16:12:18+00:00",
+   "updatedAt": "2021-05-25T15:39:21+00:00"
   }
  },
  "relationships": [
   {
    "id": "13ce6d7e-5c17-4ca6-bd1c-5ec0e6805036",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aki Momiji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "13ce6d7e-5c17-4ca6-bd1c-5ec0e6805036",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aki Momiji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3af75e35-651b-48e0-9e85-2067932a3e2c",
-   "type": "chapter"
-  },
-  {
-   "id": "fb1171a4-1285-44bc-9929-7a44fa4d5025",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "5d6bd2e7-7eac-4fd6-99e8-a5b034a6759b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:44:57+00:00",
+    "description": "",
+    "fileName": "cd7bf11c-d0c7-495b-9155-675b7a85cfe2.jpg",
+    "updatedAt": "2021-05-24T17:44:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

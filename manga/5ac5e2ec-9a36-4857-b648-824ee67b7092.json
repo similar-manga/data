@@ -7,6 +7,11 @@
    "title": {
     "en": "Maou Voice"
    },
+   "altTitles": [
+    {
+     "en": "魔王ボイス"
+    }
+   ],
    "description": {
     "en": "In a world where demons and humans are at war, there exists a Demon King, whose voice holds a power that destroys all in its way. When an unusual Hero attacks his castle, what's a Demon King to do other than confess his love? But thanks to meddling minions and the inconvenience of a voice that destroys everything in its path, his confession may not go according to plan..."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +58,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,47 +70,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-18T23:46:33+00:00",
+   "updatedAt": "2021-05-25T15:42:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "52f66e9c-995a-4209-9a72-a4f9bee3e390",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KAWAGUCHI Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "52f66e9c-995a-4209-9a72-a4f9bee3e390",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KAWAGUCHI Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3ca31873-15e0-42c6-8a8c-fff016e24b71",
-   "type": "chapter"
-  },
-  {
-   "id": "d1a18b2c-ec84-4265-b619-808b0425099d",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "a6220ec9-9812-4fee-a3c0-0823785e9c2d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:54:58+00:00",
+    "description": "",
+    "fileName": "f9537e66-7bd5-46b6-8374-f51d7dab97f7.jpg",
+    "updatedAt": "2021-05-24T16:54:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

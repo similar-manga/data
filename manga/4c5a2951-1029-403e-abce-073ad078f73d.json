@@ -7,6 +7,17 @@
    "title": {
     "en": "Sore wa Himitsu Desu"
    },
+   "altTitles": [
+    {
+     "en": "It's A Secret"
+    },
+    {
+     "en": "That's A Secret"
+    },
+    {
+     "en": "それは秘密です"
+    }
+   ],
    "description": {
     "en": "Kaneshiro Jou is a middle-aged man who has just been dumped by his lover when he is unexpectedly killed. Then it turns out that was a mistake, and he he gets to keep living - with a surprising twist."
    },
@@ -28,8 +39,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,39 +53,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-10T04:05:35+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "3ac883b5-67e1-48a9-a280-6993a19180c6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Naono Bohra",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3ac883b5-67e1-48a9-a280-6993a19180c6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Naono Bohra",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d6cb2aa5-9981-4549-a7fb-61372e83166c",
-   "type": "chapter"
-  },
-  {
-   "id": "3e30e5e7-ca8c-4d4b-b370-98924334cbf5",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "5bda5ab4-bca0-4fe4-b663-a85be9fb02f2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:26+00:00",
+    "description": "",
+    "fileName": "315a88ea-0def-49c3-b70a-8eeb55ee2e09.png",
+    "updatedAt": "2021-05-24T17:18:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

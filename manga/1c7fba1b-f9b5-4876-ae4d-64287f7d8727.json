@@ -7,6 +7,14 @@
    "title": {
     "en": "Nodomoto ni Yoake no Aji"
    },
+   "altTitles": [
+    {
+     "en": "The Taste Of Daybreak In My Throat"
+    },
+    {
+     "en": "喉元に夜明けの味"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,45 +57,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-28T21:53:21+00:00",
+   "updatedAt": "2021-05-25T15:40:04+00:00"
   }
  },
  "relationships": [
   {
    "id": "8704ae19-576d-4a27-ab75-d862163acd5a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ueda Aki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8704ae19-576d-4a27-ab75-d862163acd5a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ueda Aki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "42b44858-5fd7-4e92-ba30-640e38c73408",
-   "type": "chapter"
-  },
-  {
-   "id": "f0b1811e-0845-49d8-8785-89b30afb32e1",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "9fc7bbda-0691-4f29-a1a7-d31dc518c202",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:46:51+00:00",
+    "description": "",
+    "fileName": "f81a1a00-a07c-4c17-a565-8c2dfcb9887c.jpg",
+    "updatedAt": "2021-05-24T17:46:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

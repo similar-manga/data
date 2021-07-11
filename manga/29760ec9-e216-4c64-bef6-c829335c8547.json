@@ -7,6 +7,11 @@
    "title": {
     "en": "Whistle!"
    },
+   "altTitles": [
+    {
+     "en": "ホイッスル!"
+    }
+   ],
    "description": {
     "en": "Everybody has a dream, and for Shou Kazamatsuri, that dream is simple: he wants to be the best soccer player he can possibly be. He's the spirited leader of the Josui Junior High team and everyone looks up to him. In turn, he tries to keep the team together at any cost!"
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +49,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,71 +61,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-05T03:38:21+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "9489e0cf-cb0b-49d8-9af1-c952aaaa96bd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Higuchi Daisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9489e0cf-cb0b-49d8-9af1-c952aaaa96bd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Higuchi Daisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "734f45bd-f3de-470c-acc3-3b0d59506f22",
-   "type": "chapter"
-  },
-  {
-   "id": "65283cbf-9faf-46b9-ad3d-b94991411862",
-   "type": "chapter"
-  },
-  {
-   "id": "942b7ae7-d79f-4e69-bc99-a028c7c1d673",
-   "type": "chapter"
-  },
-  {
-   "id": "cb65a8ee-5e8a-421f-ab3b-7532f721b500",
-   "type": "chapter"
-  },
-  {
-   "id": "be8b634e-6d5a-4a3c-ab90-2cd4b5bb2e12",
-   "type": "chapter"
-  },
-  {
-   "id": "ea094b97-17f6-45df-b34f-57c762c1cb84",
-   "type": "chapter"
-  },
-  {
-   "id": "0def06cf-de59-4304-b102-53c01ea57259",
-   "type": "chapter"
-  },
-  {
-   "id": "ba9a9ce3-938c-4af2-a65e-61d3468bf632",
-   "type": "chapter"
-  },
-  {
-   "id": "641d6883-292f-4062-abec-a2d128d8db21",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "8a53f143-3784-4fd4-87e7-1d5cde9ce449",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:37:53+00:00",
+    "description": "",
+    "fileName": "0eb192ad-68fa-4093-864c-7ad795f5df62.jpg",
+    "updatedAt": "2021-05-24T17:37:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

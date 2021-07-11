@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Aikatsu! Manga \u0026amp; 12 Seiza Uranai"
+    "en": "Aikatsu! Manga \u0026 12 Seiza Uranai"
    },
+   "altTitles": [
+    {
+     "en": "Aikatsu! Manga \u0026 12 Constellation Fortunes"
+    },
+    {
+     "en": "アイカツ!まんが\u002612星座うらない"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +22,6 @@
     "mu": "94819"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +33,8 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -36,35 +45,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-06T15:18:49+00:00",
+   "updatedAt": "2021-05-25T15:49:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "812110ba-a81f-45a0-bc6c-f73cf9e77454",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kanaki Shiori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "738d674d-0852-414d-91d1-da719071d5f7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nao Kodaka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9e314af2-119e-4736-8a55-ef0178139e0f",
-   "type": "chapter"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "ce2c40bb-090c-4f92-8f62-7e6ac1509fab",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:40:15+00:00",
+    "description": "",
+    "fileName": "9ad81c30-6b62-4415-9e1a-35ec2cbcf81b.jpg",
+    "updatedAt": "2021-05-24T17:40:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

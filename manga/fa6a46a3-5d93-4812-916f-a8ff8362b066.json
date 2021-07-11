@@ -18,7 +18,6 @@
     "mu": "54210"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +41,8 @@
       "name": {
        "en": "Award Winning"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -50,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,43 +65,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-28T03:58:41+00:00",
+   "updatedAt": "2021-05-25T15:49:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "23f36bfa-3cbf-47f2-8639-28820a0313f4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Unknown",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "23f36bfa-3cbf-47f2-8639-28820a0313f4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Unknown",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0000f0b9-14cf-4ad7-b25b-8a20316912cf",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "117abd8b-c23c-4f7d-82c3-f5edac0807a3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:16:58+00:00",
+    "description": "",
+    "fileName": "86cc374c-21a6-4cab-9ffe-9e043d24f74f.jpg",
+    "updatedAt": "2021-05-24T17:16:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

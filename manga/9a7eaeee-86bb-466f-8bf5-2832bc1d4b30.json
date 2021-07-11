@@ -26,6 +26,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,8 +36,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,71 +50,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-14T07:13:05+00:00",
+   "updatedAt": "2021-05-25T15:45:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "620fdcd2-5343-4a22-bc4c-9926f76b1bbc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Touge Hiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "620fdcd2-5343-4a22-bc4c-9926f76b1bbc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Touge Hiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bf5133a3-2a53-43f1-a603-16b1e88ad949",
-   "type": "chapter"
-  },
-  {
-   "id": "2e114497-6486-4074-9e69-0e4ad93a6344",
-   "type": "chapter"
-  },
-  {
-   "id": "f53533de-0925-4c31-8699-b0f5123b4953",
-   "type": "chapter"
-  },
-  {
-   "id": "7bb5b9d5-af02-4513-a114-5780a8062bfc",
-   "type": "chapter"
-  },
-  {
-   "id": "9b7b20c6-69da-4108-9c7f-c145ba587740",
-   "type": "chapter"
-  },
-  {
-   "id": "c8d9ee32-2ba2-47b2-9232-bb653fb0a305",
-   "type": "chapter"
-  },
-  {
-   "id": "acea238c-ed75-42a5-989f-acbed499b4f7",
-   "type": "chapter"
-  },
-  {
-   "id": "df404421-91df-4143-be10-9fb7bb532c7b",
-   "type": "chapter"
-  },
-  {
-   "id": "bb3dbb9a-dd37-4353-8d2e-a5584db0fa79",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "33aa48b8-ad7b-4fcb-9787-1c044558419a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:01+00:00",
+    "description": "",
+    "fileName": "1c2cc601-a2a0-4764-821e-fdd6a8f98d2d.jpg",
+    "updatedAt": "2021-05-24T17:08:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

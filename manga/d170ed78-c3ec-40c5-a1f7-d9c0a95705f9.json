@@ -30,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,39 +54,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-27T15:59:11+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "d3f3db34-6248-4e0c-b1ba-aaa27c7127d7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YUKINA Kinako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d3f3db34-6248-4e0c-b1ba-aaa27c7127d7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YUKINA Kinako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "de1d46fc-dbed-4109-a538-6dc01a53c454",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "924b37c1-76aa-4faf-9d4d-28213ed48657",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:02:05+00:00",
+    "description": "",
+    "fileName": "328bef08-7cc4-4513-be71-2de893bd6cf2.jpg",
+    "updatedAt": "2021-05-24T18:02:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "South Prince North Princess"
    },
+   "altTitles": [
+    {
+     "en": "サウス・プリンス☆ノース・プリンセス"
+    },
+    {
+     "en": "サウスプリンス・ノースプリンセス"
+    }
+   ],
    "description": {
     "en": "Once upon a time, there was a lazy crown prince named South of the Shield kingdom. He had spent the rest of his days ditching classes and reading picture books. One day, however, the king was ill and it was time for him to step up and replace his father and fulfill his duty as a king-substitute."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,63 +63,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-13T17:49:05+00:00",
+   "updatedAt": "2021-05-25T15:42:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "52f1ba49-e956-449c-8f06-5486cba6d243",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YAMAGUCHI Miyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "52f1ba49-e956-449c-8f06-5486cba6d243",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YAMAGUCHI Miyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "04dfaec8-cfb9-4e8e-a610-e64300c38c18",
-   "type": "chapter"
-  },
-  {
-   "id": "e8a69edf-c2fb-4593-a97f-f53b05ef1124",
-   "type": "chapter"
-  },
-  {
-   "id": "0e5c906b-cf6f-47f5-b1ed-a8f856992132",
-   "type": "chapter"
-  },
-  {
-   "id": "bfccf5f3-3d20-4256-b500-ad263554456d",
-   "type": "chapter"
-  },
-  {
-   "id": "9088a182-1070-49f2-8206-e83261c9446c",
-   "type": "chapter"
-  },
-  {
-   "id": "37cf4ceb-6aa1-4936-812b-ec67f32b6e6c",
-   "type": "chapter"
-  },
-  {
-   "id": "a3566c89-90cf-4136-8172-3bdac10e5d0f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "e89eed81-854c-4ffb-903a-213d04ea4b3d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:22+00:00",
+    "description": "",
+    "fileName": "0bb41641-ab9f-494d-9070-9d168b5ca5aa.png",
+    "updatedAt": "2021-05-24T17:15:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

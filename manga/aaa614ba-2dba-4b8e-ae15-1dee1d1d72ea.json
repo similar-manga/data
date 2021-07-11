@@ -7,6 +7,14 @@
    "title": {
     "en": "The Chronicle of Seven Cities"
    },
+   "altTitles": [
+    {
+     "en": "Nana Toshi Monogatari"
+    },
+    {
+     "en": "七都市物語"
+    }
+   ],
    "description": {
     "en": "The story is set in a near-future Earth, in the aftermath of a major disaster that shifts the planet's polar axis 90 degrees, situating the poles along the equatorial line and killing everyone on Earth. A moon-based colony avoids the disaster, and begins recolonizing the depopulated Earth by establishing seven cities in strategic locations. However, to ensure the loyalty of the Earth colony, the moon establishes an orbital defense system that destroys anything that flies 500 meters in the air. When an unknown virus kills everyone on the moon, humanity becomes trapped on Earth, where the political intrigues of the seven cities continue to play out."
    },
@@ -34,6 +42,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +54,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,6 +66,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -64,6 +78,8 @@
       "name": {
        "en": "Post-Apocalyptic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -74,55 +90,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-10T05:53:12+00:00",
+   "updatedAt": "2021-05-25T15:46:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "926a25dd-9405-48c0-9a1a-1bf1b61a7961",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tanaka Yoshiki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c601afd4-5db8-41df-bad8-58470c5be0f8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fukuda Ikumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "54a31a4c-b800-4fcf-bc95-62dfee1e3192",
-   "type": "chapter"
-  },
-  {
-   "id": "ea9804b7-a0b3-4f36-a6b4-789a25c27968",
-   "type": "chapter"
-  },
-  {
-   "id": "dcd09ef5-1619-4dd2-a6d8-8bd525cabd50",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "9467335a-1b83-4497-9231-765337a00b96",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "7f9a4e15-fefd-4f74-adf6-20a89da34cdf",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:44:33+00:00",
+    "description": "",
+    "fileName": "0bae26dd-41b7-4fac-8f71-b21a3fcf648b.jpg",
+    "updatedAt": "2021-05-24T17:44:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

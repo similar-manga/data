@@ -7,6 +7,14 @@
    "title": {
     "en": "Hanakage no Kioku"
    },
+   "altTitles": [
+    {
+     "en": "Flower Shadow's Memory"
+    },
+    {
+     "en": "花影の記憶"
+    }
+   ],
    "description": {
     "en": "Arthur and Laurent were childhood friends that grew up together, but they had the difference of a noble and servant status. As they grew older, they came to understand the difference in their stations. Although both of them have affections for each other, such feelings could not be accepted..."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,63 +74,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-23T05:53:21+00:00",
+   "updatedAt": "2021-05-25T15:44:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "b39f4f77-36a8-45c3-964d-fa7fde9ee334",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mieno Saori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b39f4f77-36a8-45c3-964d-fa7fde9ee334",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mieno Saori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c3460da3-ee48-460b-a146-113325ebca88",
-   "type": "chapter"
-  },
-  {
-   "id": "d70493e6-f976-4132-80e4-652e6132bc7e",
-   "type": "chapter"
-  },
-  {
-   "id": "cc60e283-0d92-4735-9280-464a9268e6e7",
-   "type": "chapter"
-  },
-  {
-   "id": "3603069a-2c0f-4a50-9bf0-d8e69b5d501b",
-   "type": "chapter"
-  },
-  {
-   "id": "e1c4dc73-3c0f-4b62-835c-cedf48688001",
-   "type": "chapter"
-  },
-  {
-   "id": "90bfeb64-2243-4560-b098-fedeccc68485",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "c87fd14c-38e6-4f02-a7f4-93669ddb855e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:31:08+00:00",
+    "description": "",
+    "fileName": "948df162-457d-4fed-9223-8d4fc745ce64.jpg",
+    "updatedAt": "2021-05-24T17:31:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,17 @@
    "title": {
     "en": "Osananajimi"
    },
+   "altTitles": [
+    {
+     "en": "Osana Najimi"
+    },
+    {
+     "en": "幼なじみ"
+    },
+    {
+     "en": "萌妹爱放电"
+    }
+   ],
    "description": {
     "en": "A collection of oneshots about childhood friends."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Genderswap"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -51,39 +66,53 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-01T16:33:08+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "e4571bcc-76d7-4b13-b6b9-41b87557ae9c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MIKOKUNO Homare",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e4571bcc-76d7-4b13-b6b9-41b87557ae9c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MIKOKUNO Homare",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4b546b20-e527-45c0-a6ac-e2cc92955690",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "2bd2e8d0-f146-434a-9b51-fc9ff2c5fe6a",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
+   "id": "2b98d0c6-2723-4f14-b780-19e13deec601",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:35:52+00:00",
+    "description": "",
+    "fileName": "696bc7c6-a87a-4dfe-b1a9-affc6431bd99.jpg",
+    "updatedAt": "2021-05-24T17:35:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

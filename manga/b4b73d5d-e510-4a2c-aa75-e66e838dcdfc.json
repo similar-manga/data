@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "◯ wa \u0026times; o Taisetsu ni Surubeki Darou?"
+    "en": "◯ wa × o Taisetsu ni Surubeki Darou?"
    },
+   "altTitles": [
+    {
+     "en": "◯ Should Take Good Care of ×, Right?"
+    },
+    {
+     "en": "◯は×を大切にするべきだろう？"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,31 +29,53 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-01T05:53:12+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "6726bd7f-4e1e-4fb4-bef3-1723daf38644",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hisakawa Tinn",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6726bd7f-4e1e-4fb4-bef3-1723daf38644",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hisakawa Tinn",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "76ba516f-8f78-4e5e-a0ad-7dfd1717d4f6",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
+   "id": "22b222c5-3afc-4fc3-97e2-0acc402410d7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:09+00:00",
+    "description": "",
+    "fileName": "8b8f61d4-aa0a-443c-a953-ae5aa603e46b.jpg",
+    "updatedAt": "2021-05-24T17:21:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

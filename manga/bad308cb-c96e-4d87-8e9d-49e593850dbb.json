@@ -27,6 +27,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,71 +39,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-04T14:35:21+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "cb8d306e-4e8f-4889-9828-f04655f69540",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "The Rads",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d799cdfd-8d37-4fb0-9d48-09542685b598",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ingoo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "45315f34-b210-4b12-965a-c99e32e255ae",
-   "type": "chapter"
-  },
-  {
-   "id": "e2628869-c09a-4d98-9ae7-7fb9ba5c97c5",
-   "type": "chapter"
-  },
-  {
-   "id": "0c36f0d0-1cc1-4f85-a0cf-68af73c1aae3",
-   "type": "chapter"
-  },
-  {
-   "id": "b107a33b-f78e-447f-9fe3-d84cd0193a7a",
-   "type": "chapter"
-  },
-  {
-   "id": "d77619b3-6426-4bed-9d24-16b572a44a36",
-   "type": "chapter"
-  },
-  {
-   "id": "6a2e3cc2-4e5c-4d90-ab9d-d078cf03146e",
-   "type": "chapter"
-  },
-  {
-   "id": "9e9e686c-3542-41b7-8d54-6e2b9e0b5625",
-   "type": "chapter"
-  },
-  {
-   "id": "6c97d508-84b8-42a5-ab86-ac53e7fda330",
-   "type": "chapter"
-  },
-  {
-   "id": "ef97191b-4823-4d90-a4af-9debb9387e26",
-   "type": "chapter"
-  },
-  {
-   "id": "85c9c913-a670-4899-bab8-b4bdf6c6900e",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "bd6665c5-9d91-4f7e-9a35-0c72281547f1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:17:44+00:00",
+    "description": "",
+    "fileName": "1664023e-57bd-4259-a601-4f81336bdecb.jpg",
+    "updatedAt": "2021-05-24T17:17:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

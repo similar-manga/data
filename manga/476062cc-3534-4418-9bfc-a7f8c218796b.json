@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Zh\u0026egrave;ng er bā jīng"
+    "en": "Zhèng er bā jīng"
    },
+   "altTitles": [
+    {
+     "en": "正儿八经"
+    }
+   ],
    "description": {
     "en": ""
    },
-   "originalLanguage": "zh-hk",
-   "lastChapter": "0",
+   "originalLanguage": "zh",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,41 +49,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-17T14:50:07+00:00",
+   "updatedAt": "2021-05-25T15:41:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "dbdfeabe-a391-4577-9dbd-408f4a31e975",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Bīng Sè",
+    "updatedAt": "2021-05-15T21:06:43+00:00",
+    "version": 2
+   }
   },
   {
    "id": "dbdfeabe-a391-4577-9dbd-408f4a31e975",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Bīng Sè",
+    "updatedAt": "2021-05-15T21:06:43+00:00",
+    "version": 2
+   }
   },
   {
-   "id": "c18fa60f-cd66-444a-a587-3bf881b8335f",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "87238951-6bde-4f51-98a5-d8981e402bbb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:34:06+00:00",
+    "description": "",
+    "fileName": "fbd2b566-1fee-47b3-a13a-0bd33b80ccbd.jpg",
+    "updatedAt": "2021-05-24T17:34:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

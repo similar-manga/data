@@ -27,6 +27,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,8 +37,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,39 +51,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-28T17:56:19+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "7becc15c-7a58-434c-bc2a-6e692d7fec4a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mani",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7becc15c-7a58-434c-bc2a-6e692d7fec4a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mani",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f0007e6a-8b2a-4d8b-9693-5270ce52618d",
-   "type": "chapter"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "f467644c-1887-4f49-ab49-a7bec84c18fa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:24:35+00:00",
+    "description": "",
+    "fileName": "5aa05d1a-e507-4abc-99f7-a407b28a2a7d.jpg",
+    "updatedAt": "2021-05-24T18:24:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -14,7 +14,6 @@
     "mu": "141959"
    },
    "originalLanguage": "tl",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,39 +36,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-12T03:12:16+00:00",
+   "updatedAt": "2021-05-25T15:42:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "2b32b2b8-2f4a-4d14-88e7-4a0941a6586d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Olrac Jebs Tae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2b32b2b8-2f4a-4d14-88e7-4a0941a6586d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Olrac Jebs Tae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5186ba46-9312-4a31-a3d4-5359c6d068ab",
-   "type": "chapter"
-  },
-  {
-   "id": "ed1fc5d5-0df9-4ab2-9045-6f29d485e6c0",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "dae44a5f-8e30-4f40-a3cd-b0d2c0b23746",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:02+00:00",
+    "description": "",
+    "fileName": "30a6725d-2843-4b18-a716-5a292535ff9b.jpg",
+    "updatedAt": "2021-05-24T17:01:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

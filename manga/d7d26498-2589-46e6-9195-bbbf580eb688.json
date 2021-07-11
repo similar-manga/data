@@ -7,6 +7,17 @@
    "title": {
     "en": "Pink Rush"
    },
+   "altTitles": [
+    {
+     "en": "Pink Lash"
+    },
+    {
+     "en": "ピンク・ラッシュ"
+    },
+    {
+     "en": "ピンクラッシュ"
+    }
+   ],
    "description": {
     "en": "A series about two idol singers, Sana and Maru. The two girls are managed by the same company, but they couldn't be more different in their attitudes toward their fans and their work. Will they find common ground in feelings for each other?"
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +52,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +78,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,83 +90,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-08T15:37:12+00:00",
+   "updatedAt": "2021-05-25T15:48:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "a419d52d-9911-4c9d-8eac-182391b04efb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tono",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a419d52d-9911-4c9d-8eac-182391b04efb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tono",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "88cd108b-4c29-4973-ab6f-048a58cbe73f",
-   "type": "chapter"
-  },
-  {
-   "id": "8c93cd08-016b-444f-84cf-6027a0a1f0b1",
-   "type": "chapter"
-  },
-  {
-   "id": "cb8d2497-0cf3-4999-ac0f-8d632f58d415",
-   "type": "chapter"
-  },
-  {
-   "id": "c79bae38-b836-46fa-9464-14cec52cbbc8",
-   "type": "chapter"
-  },
-  {
-   "id": "2e628df7-43fa-4b31-a8d9-cbb50576da62",
-   "type": "chapter"
-  },
-  {
-   "id": "c4004c6c-fb2c-4dbd-b106-ca1751a13dfd",
-   "type": "chapter"
-  },
-  {
-   "id": "21cf3967-a300-4d6a-adb1-fe5fabfe0a7e",
-   "type": "chapter"
-  },
-  {
-   "id": "adcee917-e720-4af4-93ca-260995bb033b",
-   "type": "chapter"
-  },
-  {
-   "id": "69519e98-5a1c-4a1e-ba1c-330ed71e7464",
-   "type": "chapter"
-  },
-  {
-   "id": "baac3718-7e21-4416-9100-afa85f593bbc",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "694cd177-b170-4f69-ae5a-f43d991536ab",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:40:19+00:00",
+    "description": "",
+    "fileName": "8b1b9e8b-862b-4e7f-975a-2b69a9553daf.jpg",
+    "updatedAt": "2021-05-24T18:40:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

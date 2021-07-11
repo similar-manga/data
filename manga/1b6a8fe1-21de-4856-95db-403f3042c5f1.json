@@ -14,7 +14,6 @@
     "mu": "139215"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "suggestive",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,43 +48,53 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-31T19:58:31+00:00",
+   "updatedAt": "2021-05-25T15:40:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "e2f754fb-515f-4da2-bb7e-0e19b5cf4712",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minami Aomori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e2f754fb-515f-4da2-bb7e-0e19b5cf4712",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minami Aomori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "46233b0b-ef9c-4088-90b0-3d0c13c0f4a2",
-   "type": "chapter"
-  },
-  {
-   "id": "0e415532-f487-449f-b432-0110497449c6",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
+   "id": "dd05fe39-0670-4f9d-b634-71f0d159cc6b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:47+00:00",
+    "description": "",
+    "fileName": "e9d28f68-314e-4eb8-af7d-48a15703bb22.jpg",
+    "updatedAt": "2021-05-24T16:59:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

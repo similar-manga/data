@@ -7,6 +7,20 @@
    "title": {
     "en": "Hitosaki no Hana"
    },
+   "altTitles": [
+    {
+     "en": "Kobore Mono"
+    },
+    {
+     "en": "Things that Drip"
+    },
+    {
+     "en": "ひとさきの花"
+    },
+    {
+     "en": "ひとさきの花 藤野もやむ短編集"
+    }
+   ],
    "description": {
     "en": "A collection of short stories:\r\n\r\n1) Kobore Mono (Things That Drip)\r\n2) Kimochi Kurabe: Natsu (A Measure of Feelings: Summer)\r\n3-5) Hitosaki no Hana (A Single Bloom)\r\n- Oohime\r\n- Yoshitaka\r\n- Sakura Shibe Furu (Falling Sakura Pistils)"
    },
@@ -30,6 +44,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +56,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +68,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,47 +80,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-25T01:43:11+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "f07a2118-a9c8-4adc-a8ee-cc38a1ed789e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "FUJINO Moyamu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f07a2118-a9c8-4adc-a8ee-cc38a1ed789e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "FUJINO Moyamu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "db8937c7-7a34-4720-9d58-5c9e5fc95825",
-   "type": "chapter"
-  },
-  {
-   "id": "85e6328c-175b-4e7c-9e28-da2b95e118bf",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "a7898210-3120-4f1b-8320-ab36869997f5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:59:29+00:00",
+    "description": "",
+    "fileName": "86aaa81c-bbed-44f9-b82f-db250d450573.jpg",
+    "updatedAt": "2021-05-24T17:59:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

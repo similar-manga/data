@@ -7,6 +7,11 @@
    "title": {
     "en": "Kurikaesu"
    },
+   "altTitles": [
+    {
+     "en": "繰り返す"
+    }
+   ],
    "description": {
     "en": "Gintama doujinshi."
    },
@@ -23,6 +28,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -31,8 +38,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +52,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -53,43 +64,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-27T22:08:37+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "9cda4c34-0065-482b-96d0-3bd688c196f3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Harada",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9cda4c34-0065-482b-96d0-3bd688c196f3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Harada",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "394f4c8b-d230-4498-ba6e-9285f346ae6d",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "bfe8c9fb-3aab-4fc8-b5a4-3c01d7a4be53",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:46:42+00:00",
+    "description": "",
+    "fileName": "d3c245f7-3c40-43cf-93f7-9599c3e8591b.jpg",
+    "updatedAt": "2021-05-24T17:46:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

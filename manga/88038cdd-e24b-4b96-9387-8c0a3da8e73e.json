@@ -7,11 +7,18 @@
    "title": {
     "en": "Sailor Moon - Let's Meet in the Movie Version (Doujishi)"
    },
+   "altTitles": [
+    {
+     "en": "Let's Meet in the Movie Version"
+    },
+    {
+     "en": "Sailor Moon dj - Let's Meet in the Movie Version"
+    }
+   ],
    "description": {
-    "en": "\u0026quot;Let's Meet in the Movie Version\u0026quot; is a wacky parody story by Morishima Akiko (of the circle Girlish)."
+    "en": "\"Let's Meet in the Movie Version\" is a wacky parody story by Morishima Akiko (of the circle Girlish)."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,8 +51,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,43 +65,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-02T14:37:09+00:00",
+   "updatedAt": "2021-05-25T15:44:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "aa490df4-d255-4d53-b51e-632cf83a83f9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Morishima Akiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "aa490df4-d255-4d53-b51e-632cf83a83f9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Morishima Akiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "56933f7b-67d3-41ec-8707-21b1b92edb77",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "dd441437-c149-4fbc-aa1a-5858bc94fbcf",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:57:59+00:00",
+    "description": "",
+    "fileName": "fa56af91-8971-46aa-b449-40bf4068ee7d.jpg",
+    "updatedAt": "2021-05-24T17:57:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

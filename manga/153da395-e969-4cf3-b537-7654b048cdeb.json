@@ -7,6 +7,17 @@
    "title": {
     "en": "Game Gag 1P Comic SEGA-hen"
    },
+   "altTitles": [
+    {
+     "en": "Game Gag 1P Comic SEGA Edition"
+    },
+    {
+     "en": "GAMEST 126"
+    },
+    {
+     "en": "ゲームギャグ 1Pコミック セガ編"
+    }
+   ],
    "description": {
     "en": "Game Gag 1P Comic Sega-hen (ゲームギャグ 1Pコミック セガ編) is a Japanese gag comic in the Gamest Comics series, this one being dedicated to Sega. It features things from Sonic, Virtua Fighter, Fighting Vipers, NiGHTS into Dreams, Phantasy Star, and more."
    },
@@ -23,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +46,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,39 +58,53 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-08T20:52:49+00:00",
+   "updatedAt": "2021-05-25T15:39:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c15fe7fd-766b-4550-adec-b2a9394b2c22",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
+   "id": "1dd062e4-7202-4f6e-a451-dadd80a1c421",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:07:22+00:00",
+    "description": "",
+    "fileName": "a2c82a9d-d7a9-4f76-8770-f25f2bce9ce8.jpg",
+    "updatedAt": "2021-05-24T17:07:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

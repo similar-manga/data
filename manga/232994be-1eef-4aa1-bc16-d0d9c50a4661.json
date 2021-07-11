@@ -7,6 +7,17 @@
    "title": {
     "en": "Seitokai no Himegoto"
    },
+   "altTitles": [
+    {
+     "en": "Princesses in the Student Council"
+    },
+    {
+     "en": "学生会的秘密事"
+    },
+    {
+     "en": "生徒会のヒメゴト"
+    }
+   ],
    "description": {
     "en": "Shirayuri Girls' High School is a high school like any other. It has its own rules and regulations, and of course, you'd expect a Student Council to help maintain them. The Student Council itself, however, is a different problem entirely.\r\n\r\nA perverted President who likes girls, a tsukkomi Vice-President, an over-zealous Treasurer and a quiet, brooding Secretary. This unlikely quartet forms Shirayuri Girls' High School's Student Council.\r\n\r\nWhat could possibly go wrong?"
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +51,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,59 +65,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-21T19:12:26+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "a3e761d7-c68c-485a-bdb0-1d0edaeffeed",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MINAZUKI Shinobu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a3e761d7-c68c-485a-bdb0-1d0edaeffeed",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MINAZUKI Shinobu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "42dd6bc8-c397-450d-bd86-6c1252aff890",
-   "type": "chapter"
-  },
-  {
-   "id": "f9b93d6b-fa31-4cda-b2d0-67078a4322b7",
-   "type": "chapter"
-  },
-  {
-   "id": "fda7beba-266e-4ebb-9ac4-fa82720be419",
-   "type": "chapter"
-  },
-  {
-   "id": "ffa8372b-b43b-40ee-81e3-e9cd05d71a67",
-   "type": "chapter"
-  },
-  {
-   "id": "7ddaf200-96c9-48a8-acf1-483cc29c5c40",
-   "type": "chapter"
-  },
-  {
-   "id": "bbe8730b-6f9a-40a4-9ef7-133ac7287a9d",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "7c0275f5-f908-4f4e-95c5-4e0f14433077",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:42:36+00:00",
+    "description": "",
+    "fileName": "04f6763b-d4f3-49d0-be0f-dd3ad204a1ad.jpg",
+    "updatedAt": "2021-05-24T16:42:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

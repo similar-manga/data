@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Ibunka \u0026quot;Ran\u0026quot; Kouryuu Kouhen"
+    "en": "Ibunka \"Ran\" Kouryuu Kouhen"
    },
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,35 +33,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-06T20:53:39+00:00",
+   "updatedAt": "2021-05-25T15:39:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "dc1f41d8-3048-486b-a7c0-23824a7bb88d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mitsuba Minoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "dc1f41d8-3048-486b-a7c0-23824a7bb88d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mitsuba Minoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "15e08314-46bb-4ca9-a440-03ff6362400d",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "d1e48b63-a050-4f28-bdd2-5f2d1b41855b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:21:41+00:00",
+    "description": "",
+    "fileName": "46810658-64d5-4ad4-8ed0-9a894a4a7f06.jpg",
+    "updatedAt": "2021-05-24T18:21:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

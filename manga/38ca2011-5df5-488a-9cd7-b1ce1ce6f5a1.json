@@ -7,8 +7,16 @@
    "title": {
     "en": "Romanticer's High"
    },
+   "altTitles": [
+    {
+     "en": "ロマンチッカーズ・ハイ"
+    },
+    {
+     "en": "浪漫主义者的妄想"
+    }
+   ],
    "description": {
-    "en": "Kaitou and Azuma are salesmen at a company who don\u0026rsquo;t seem to get along. Kaitou decides to take Azuma drinking to try and figure out why everyone is gaga over him, when Kaitou knows he's not so bad himself."
+    "en": "Kaitou and Azuma are salesmen at a company who don’t seem to get along. Kaitou decides to take Azuma drinking to try and figure out why everyone is gaga over him, when Kaitou knows he's not so bad himself."
    },
    "links": {
     "al": "99262",
@@ -31,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,59 +63,53 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-17T16:38:33+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "d877cc44-5e0c-4bff-8910-84595f58be79",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimojou Mituki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d877cc44-5e0c-4bff-8910-84595f58be79",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimojou Mituki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4300fa68-135c-4338-8bda-fae2daa19982",
-   "type": "chapter"
-  },
-  {
-   "id": "ebb21269-bcaa-44e4-988f-fa43b42cc048",
-   "type": "chapter"
-  },
-  {
-   "id": "09ac3eb9-c79f-4d37-9216-f7852916613b",
-   "type": "chapter"
-  },
-  {
-   "id": "81da86bf-ee0c-4d51-b9c5-88ace56a7d81",
-   "type": "chapter"
-  },
-  {
-   "id": "169a4977-39e2-46ba-9806-b7ffc2082321",
-   "type": "chapter"
-  },
-  {
-   "id": "4db193c3-97df-48d6-81ff-ab492137cf74",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
+   "id": "ed877b97-d8b0-4f3e-bd30-45c586ccc59e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:54:53+00:00",
+    "description": "",
+    "fileName": "1bcd3149-df97-4044-a677-e572d637aba7.jpg",
+    "updatedAt": "2021-05-24T16:54:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

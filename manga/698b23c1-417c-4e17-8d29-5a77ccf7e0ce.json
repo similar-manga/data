@@ -7,6 +7,14 @@
    "title": {
     "en": "Halfmoon Emotion"
    },
+   "altTitles": [
+    {
+     "en": "Yatteranneeze! Gaiden"
+    },
+    {
+     "en": "ハーフムーン・エモーション"
+    }
+   ],
    "description": {
     "en": "It's been about 2 years since the end of Yatteraneeze! and Chisato and Kanae have FINALLY gotten their shit together... or have they? They still fight all the time, clash at work and glare at each other across the breakfast table. But a little adversity has a funny way of bringing people together..."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,51 +62,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-15T20:56:26+00:00",
+   "updatedAt": "2021-05-25T15:43:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "f412de45-c4fc-4378-bcf9-7fd578efb3b6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akizuki Kou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4cbc87ce-2e9e-4967-a95d-56f7308d02fe",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koide Mieko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c5e86940-8543-4a36-bd6d-b78b2ad88996",
-   "type": "chapter"
-  },
-  {
-   "id": "d05f96af-e768-48dd-bcda-f776496d107f",
-   "type": "chapter"
-  },
-  {
-   "id": "37f56ac0-e58c-4843-906e-14ca7fae9cb7",
-   "type": "chapter"
-  },
-  {
-   "id": "186710ed-8d10-45c5-8e23-7f3daca2f232",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "d6c69b8b-7e71-4f87-b1f5-99075f240c9b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:37:42+00:00",
+    "description": "",
+    "fileName": "05ddf58c-fe42-4078-be9a-dc3b0090e7df.png",
+    "updatedAt": "2021-05-24T18:37:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

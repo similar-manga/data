@@ -7,6 +7,17 @@
    "title": {
     "en": "Last Fantasy"
    },
+   "altTitles": [
+    {
+     "en": "最后狂想曲"
+    },
+    {
+     "en": "魔法勇士"
+    },
+    {
+     "en": "라스트환타지"
+    }
+   ],
    "description": {
     "en": "Tian and Drei von Richenstein, two unlikely heroes, embark on an adventure filled with excitement, intrigue, and comic relief. Their adventures are complicated by the fact that they have a knack for making allies into new enemies..."
    },
@@ -18,7 +29,6 @@
     "mu": "14187"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +51,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,35 +63,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-06-19T23:09:09+00:00",
+   "updatedAt": "2019-06-19T23:09:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "789cba1f-09ec-4630-8a1f-10bcb46a8f87",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HON Creative",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "52ccc6b0-3f45-4c7c-ba25-229bae578ecb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KWON Yong-Wan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "f7f3fc1a-1c68-4f0f-92f2-c0ddd2a94061",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:16:00+00:00",
+    "description": "",
+    "fileName": "22aa317a-2f40-4ea9-9606-d089cdcbf202.jpg",
+    "updatedAt": "2021-05-24T17:16:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

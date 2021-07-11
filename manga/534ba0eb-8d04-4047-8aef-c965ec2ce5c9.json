@@ -18,7 +18,6 @@
     "mu": "96827"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +29,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +41,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,51 +53,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-07T11:09:28+00:00",
+   "updatedAt": "2021-05-25T15:42:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "87fc00f4-764b-4555-af70-3becfdea5743",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Harumoto Kazuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "87fc00f4-764b-4555-af70-3becfdea5743",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Harumoto Kazuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5bf44c62-e5a5-4200-85a3-4a733666d5c5",
-   "type": "chapter"
-  },
-  {
-   "id": "ce091096-1eb1-4192-884c-26a11ee9c435",
-   "type": "chapter"
-  },
-  {
-   "id": "8fe43628-3a41-4dd6-b8e5-4ed073a275a3",
-   "type": "chapter"
-  },
-  {
-   "id": "c66478cd-590d-4c7d-84b6-b40bc6478191",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "74bf2611-7e20-4fd9-994a-8ffecf2c498e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:39:58+00:00",
+    "description": "",
+    "fileName": "b532bc2d-1af0-4170-96d3-8af3159dd4f8.jpg",
+    "updatedAt": "2021-05-24T16:39:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

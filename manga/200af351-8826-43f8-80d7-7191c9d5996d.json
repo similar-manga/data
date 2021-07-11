@@ -7,6 +7,11 @@
    "title": {
     "en": "Swapping"
    },
+   "altTitles": [
+    {
+     "en": "스와핑"
+    }
+   ],
    "description": {
     "en": "Coming soon!"
    },
@@ -15,7 +20,6 @@
     "raw": "https://ridibooks.com/books/297033947"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "erotica",
    "tags": [
@@ -26,6 +30,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -34,8 +40,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +54,8 @@
       "name": {
        "en": "Crime"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +66,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -66,75 +78,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-01T21:42:12+00:00",
+   "updatedAt": "2021-05-25T15:40:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "e67c11ea-c66a-4acb-8afa-d0cd56254447",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chaepali",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8e6b561b-1e5d-47d5-aa06-6ed18a84ddc7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Gaetsaeng",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cded1cba-1997-42e6-ba1c-5855944a3518",
-   "type": "chapter"
-  },
-  {
-   "id": "633fa079-75ed-44d6-8724-0fad45204cf3",
-   "type": "chapter"
-  },
-  {
-   "id": "4080d246-e8cf-4700-9c7e-79cab205aae9",
-   "type": "chapter"
-  },
-  {
-   "id": "6df13066-4f29-43ba-be32-f0ab8c364837",
-   "type": "chapter"
-  },
-  {
-   "id": "6993ffe9-49d6-4d1d-b3f7-b7f304e28742",
-   "type": "chapter"
-  },
-  {
-   "id": "85122e16-7e91-48c3-acf5-d89e4a695899",
-   "type": "chapter"
-  },
-  {
-   "id": "aa237152-a51f-4587-bac1-25d07bbcbaed",
-   "type": "chapter"
-  },
-  {
-   "id": "0890fbf0-b923-49db-9306-a9bd8f1e35e6",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "5c18c5ae-550e-4fb8-aec4-a1188c606a67",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:29:31+00:00",
+    "description": "",
+    "fileName": "794a2743-769f-4216-baa2-5a1e4d9dce00.jpg",
+    "updatedAt": "2021-05-24T18:29:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

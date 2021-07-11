@@ -7,6 +7,23 @@
    "title": {
     "en": "The Weird Storm Boy Matenro"
    },
+   "altTitles": [
+    {
+     "en": "Kaze no Matenro"
+    },
+    {
+     "en": "Kaze no Matenrou"
+    },
+    {
+     "en": "Weird Storm Boy"
+    },
+    {
+     "en": "Кадзэно Матэнро. Удивительный мальчик-шторм"
+    },
+    {
+     "en": "風の魔転郎"
+    }
+   ],
    "description": {
     "en": "It's about a boy with mysterious powers who transfers from school to school, fighting various monsters."
    },
@@ -29,6 +46,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +58,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -49,6 +70,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -59,59 +82,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-11T05:34:10+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "14bfa022-74cc-450b-af1f-2eb4be1f07ca",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maruo Suehiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "14bfa022-74cc-450b-af1f-2eb4be1f07ca",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maruo Suehiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "20f3c393-b924-4e60-83c7-0a7d768cc1b5",
-   "type": "chapter"
-  },
-  {
-   "id": "3cdb8f6a-4818-4324-9e26-38181b293c22",
-   "type": "chapter"
-  },
-  {
-   "id": "5d875415-fa2e-4f8b-9bac-82769f34c2a7",
-   "type": "chapter"
-  },
-  {
-   "id": "bcf02c7b-5614-4a77-8ea9-f2967e93aeae",
-   "type": "chapter"
-  },
-  {
-   "id": "a8d6747a-6d64-4829-972a-a934f7190136",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "2c3a4974-f20d-4fb9-b0e5-6d5f56fe93e6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:56+00:00",
+    "description": "",
+    "fileName": "c1624059-de12-42fc-8bf7-a0466c19b21b.jpg",
+    "updatedAt": "2021-05-24T17:00:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

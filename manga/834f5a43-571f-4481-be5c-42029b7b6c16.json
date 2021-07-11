@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +46,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,47 +58,65 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-16T23:42:27+00:00",
+   "updatedAt": "2021-05-25T15:44:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "2e0bcb92-05aa-49ea-a80e-fbcd87e9a573",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YATATE Hajime",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f0bcc02c-16fe-4b5a-9ead-0ab578f2eee4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SUMERAGI Natsuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f0bcc02c-16fe-4b5a-9ead-0ab578f2eee4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SUMERAGI Natsuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8c6f2fbd-01c0-4cca-a42c-d1d559ef5d69",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "eb5a55de-b86c-4fc8-9358-da96fc99ee3c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:23:04+00:00",
+    "description": "",
+    "fileName": "d927b5cb-b951-4bec-8e3b-5ccb659be60d.jpg",
+    "updatedAt": "2021-05-24T17:23:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

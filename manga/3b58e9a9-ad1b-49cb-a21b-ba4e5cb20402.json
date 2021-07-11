@@ -11,7 +11,6 @@
     "en": "[b]Links:[/b]\r\n[*][url=https://twitter.com/fukuma333]Author's Twitter[/url]\r\n[*][url=https://www.pixiv.net/user/2681983/series/27856]Webcomic[/url]"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,39 +45,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-07T13:40:04+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "57b15f50-e12b-43ee-a475-74f4f7945324",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Azuma Fuyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "57b15f50-e12b-43ee-a475-74f4f7945324",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Azuma Fuyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0b10ff10-1192-4f39-84b3-db5e88446b3c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "2db0b21f-a2ca-4f79-a600-19e746332d8f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:05:49+00:00",
+    "description": "",
+    "fileName": "d7c95142-8ef9-4764-b8bd-795723c9f979.png",
+    "updatedAt": "2021-05-24T18:05:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

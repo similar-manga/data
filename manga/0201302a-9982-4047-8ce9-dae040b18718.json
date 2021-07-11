@@ -7,6 +7,23 @@
    "title": {
     "en": "Gambler's Parade"
    },
+   "altTitles": [
+    {
+     "en": "Gamblers Parade"
+    },
+    {
+     "en": "Шествие игроков"
+    },
+    {
+     "en": "ギャンブラーズパレード"
+    },
+    {
+     "en": "賭徒遊行"
+    },
+    {
+     "en": "赌徒游行"
+    }
+   ],
    "description": {
     "en": "Shinonome Karin is a very unlucky girl. Very. After a terrible morning she is late to her first day at a new school but everything ends with a very strange gamble... When all seemed lost she is saved by her history teacher... That also hates gambling!"
    },
@@ -34,6 +51,8 @@
       "name": {
        "en": "Traditional Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -44,6 +63,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,6 +75,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -64,6 +87,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -74,83 +99,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-15T05:29:34+00:00",
+   "updatedAt": "2021-05-25T15:38:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "a0b44104-8823-4a89-ae22-7c316c47aba6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kodaka Kazutaka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d061eb4d-81fa-4ead-931b-8a1649d934b3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakayama Atsushi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "db818275-4c6e-435d-b4f0-3dc85411ee9b",
-   "type": "chapter"
-  },
-  {
-   "id": "342abb74-4b53-4ebc-830d-4cbce56c7fc1",
-   "type": "chapter"
-  },
-  {
-   "id": "62d3c923-c62c-40a1-bf2a-ddaacfb6d268",
-   "type": "chapter"
-  },
-  {
-   "id": "9fbd3dfa-af38-4786-ac48-874359b7d7e0",
-   "type": "chapter"
-  },
-  {
-   "id": "8bf0d8df-1333-4a9e-83ee-35b15d2ea94c",
-   "type": "chapter"
-  },
-  {
-   "id": "e47ef1ac-d902-43ba-8304-2c9abbc2ebc0",
-   "type": "chapter"
-  },
-  {
-   "id": "1e3d1189-28ad-4046-8eba-7ada551843c5",
-   "type": "chapter"
-  },
-  {
-   "id": "06b7ca7f-a566-4f86-87d2-3f23b782286d",
-   "type": "chapter"
-  },
-  {
-   "id": "c12d760d-9883-4afd-ae9e-cb6924e8493d",
-   "type": "chapter"
-  },
-  {
-   "id": "4429db4f-4cbc-42a1-822d-1d363eaf0250",
-   "type": "chapter"
-  },
-  {
-   "id": "31932a7e-5b8e-49a6-9f12-2afa39dc544c",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "545af951-290d-4f1d-b4aa-61671d6a1751",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:50+00:00",
+    "description": "",
+    "fileName": "8c541d04-60ea-446a-9b2a-3c3a4366ed66.jpg",
+    "updatedAt": "2021-05-24T17:22:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

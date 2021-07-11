@@ -7,6 +7,14 @@
    "title": {
     "en": "Houkago Drop"
    },
+   "altTitles": [
+    {
+     "en": "After School Drop"
+    },
+    {
+     "en": "放課後ドロップ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -37,8 +47,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +61,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -59,6 +73,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -69,79 +85,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-04T11:39:49+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "37c7136c-2033-4b63-8934-9326b275fb03",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Haruki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "37c7136c-2033-4b63-8934-9326b275fb03",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Haruki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fd774974-471b-4bbd-8afb-e2b56e9d7a67",
-   "type": "chapter"
-  },
-  {
-   "id": "dc903a17-fdae-4aab-a57b-a17d1ceabc35",
-   "type": "chapter"
-  },
-  {
-   "id": "c7810cab-e1a6-4561-86d7-9c11971dd296",
-   "type": "chapter"
-  },
-  {
-   "id": "1f9710ec-81e6-4cb7-8056-c867f8ef0623",
-   "type": "chapter"
-  },
-  {
-   "id": "99031b71-60dc-45e5-8069-bf787eb5164b",
-   "type": "chapter"
-  },
-  {
-   "id": "5a1f6eb3-8ffb-42b1-aa61-65e411c86f08",
-   "type": "chapter"
-  },
-  {
-   "id": "db25ffa8-d5c9-480f-b6a7-d167894ce049",
-   "type": "chapter"
-  },
-  {
-   "id": "aee5115e-bc8b-45fa-97dc-c48e7f4b2bcd",
-   "type": "chapter"
-  },
-  {
-   "id": "73bfae9d-47bb-49f7-b686-bbadfcda5c56",
-   "type": "chapter"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "fd4b4e7b-60ef-4faf-b1c7-94ce9e52ffbd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:14:22+00:00",
+    "description": "",
+    "fileName": "75c045d8-11f9-42bf-977e-db631b599ba5.jpg",
+    "updatedAt": "2021-05-24T17:14:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

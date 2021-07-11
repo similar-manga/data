@@ -7,6 +7,17 @@
    "title": {
     "en": "Her Memories..."
    },
+   "altTitles": [
+    {
+     "en": "Kanojo no Omoide..."
+    },
+    {
+     "en": "Memories of Her..."
+    },
+    {
+     "en": "彼女の想いで・・・"
+    }
+   ],
    "description": {
     "en": "Collection of short stories including:\r\n\r\n[1]. Flower (1979)\r\n[2]. Memories (1980)\r\n[3]. Sound of Sand (1979)\r\n[4]. Farewell to Weapons (1981)\r\n[5]. Hair (1979)\r\n[6]. Electric Bird Land (1980)\r\n[7]. Minor Swing (1977)\r\n[8]. Chronicle of the Planet Tako:\r\na/ Chronicle of the Planet TAKO, I-II (1981)\r\nb/ Chronicle of The Planet TAKO, Chapter of Dawnlight (1982)\r\n[9]. Fire Ball, I-II (1979)\r\n[10]. That's Amazing World:\r\na/ Magic Pot of Aladdin (1981)\r\nb/ Noah's Ark (1981)\r\nc/ The Old Man and the Sea (1981)\r\nd/ Knights of the Round Table (1981)"
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +65,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +77,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-24T04:24:17+00:00",
+   "updatedAt": "2021-05-25T15:41:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "e9bed64d-c055-456a-80a7-afceb0896531",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Otomo Katsuhiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e9bed64d-c055-456a-80a7-afceb0896531",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Otomo Katsuhiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "319d374e-76a9-475b-a767-c10da29955af",
-   "type": "chapter"
-  },
-  {
-   "id": "6eeebb63-1fdc-4697-a2f9-04a14e33f1a0",
-   "type": "chapter"
-  },
-  {
-   "id": "2533abbc-5a0c-4f8c-a513-fd29e902b9fd",
-   "type": "chapter"
-  },
-  {
-   "id": "932f7c5f-2f2a-4409-a75f-cfddde86a2e9",
-   "type": "chapter"
-  },
-  {
-   "id": "7102a59b-cf00-4e4c-9ca9-ba6ebf59f699",
-   "type": "chapter"
-  },
-  {
-   "id": "f4e39161-8847-4835-af5e-40cfab4ec12b",
-   "type": "chapter"
-  },
-  {
-   "id": "8787057d-2c2b-4f4c-9a2f-387da90403f6",
-   "type": "chapter"
-  },
-  {
-   "id": "422dcddc-b7ca-4a0d-8b53-805155b3deb0",
-   "type": "chapter"
-  },
-  {
-   "id": "d878a546-bda9-44fe-9caa-11a8a3ea6395",
-   "type": "chapter"
-  },
-  {
-   "id": "a1ab4b64-1a20-4eb9-993c-7e1fd2300d1d",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "c753bec9-3d3f-4f06-9650-448c96bca146",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:38:36+00:00",
+    "description": "",
+    "fileName": "1de21a95-a980-4926-bc28-72dd9a7f7f59.jpg",
+    "updatedAt": "2021-05-24T18:38:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

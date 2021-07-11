@@ -7,6 +7,11 @@
    "title": {
     "en": "OneeLoli Manga"
    },
+   "altTitles": [
+    {
+     "en": "おねロリまんが"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -22,6 +27,8 @@
       "name": {
        "en": "Loli"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -32,43 +39,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-20T23:23:45+00:00",
+   "updatedAt": "2021-05-25T15:44:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "6c8ece32-16da-49cc-b777-e64391567a84",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itou Hachi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6c8ece32-16da-49cc-b777-e64391567a84",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itou Hachi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6879dff7-9478-4240-986c-b63fa92ef1d5",
-   "type": "chapter"
-  },
-  {
-   "id": "7ab98e49-9e7f-4572-8f71-dac830804ca4",
-   "type": "chapter"
-  },
-  {
-   "id": "329235ec-614e-4ff2-94a5-cb764af9078a",
-   "type": "chapter"
-  },
-  {
-   "id": "2d1f5d56-a1e5-4d0d-a961-2193588b08ec",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "14063a24-59eb-4f12-9ab0-34c4bf70bcd3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:45:56+00:00",
+    "description": "",
+    "fileName": "6de05077-e2cf-4833-ad25-500fe2f4f92a.jpg",
+    "updatedAt": "2021-05-24T17:45:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

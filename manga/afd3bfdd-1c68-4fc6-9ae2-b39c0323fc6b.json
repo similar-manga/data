@@ -34,6 +34,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +46,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,59 +58,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-02T10:20:55+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "5dc94796-799b-488f-9a0e-6a21d3df1049",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamashita Tomoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5dc94796-799b-488f-9a0e-6a21d3df1049",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamashita Tomoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ec3aadf5-e9db-4fae-aad7-327370f2e87e",
-   "type": "chapter"
-  },
-  {
-   "id": "fcb0abd8-32ee-4158-8ec4-60a2a196c864",
-   "type": "chapter"
-  },
-  {
-   "id": "7b0ed3cc-2511-4c43-b7fa-c00e1fc32188",
-   "type": "chapter"
-  },
-  {
-   "id": "cc4b9960-4a2b-4405-a92a-45e2613cf53e",
-   "type": "chapter"
-  },
-  {
-   "id": "8f2fa254-d84e-4f47-bca9-1bc592149a8a",
-   "type": "chapter"
-  },
-  {
-   "id": "ee60aa9f-b6ca-4d6d-baee-03a059d8d9a4",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "7cb18577-a24c-4fac-8d57-85e0cbf2fa1c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:17:30+00:00",
+    "description": "",
+    "fileName": "d7c93c0d-0211-4656-b705-aba04def00b1.jpg",
+    "updatedAt": "2021-05-24T17:17:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

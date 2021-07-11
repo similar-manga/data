@@ -5,10 +5,21 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Suicidal Companyman \u0026amp; Vampire Schoolgirl"
+    "en": "Suicidal Companyman \u0026 Vampire Schoolgirl"
    },
+   "altTitles": [
+    {
+     "en": "Shinitai Shachiku to Kyuuketsu JK"
+    },
+    {
+     "en": "The Corporate Slave Who Wishes to Die \u0026 the High School Girl Who's a Vampire"
+    },
+    {
+     "en": "死にたい社畜と吸血JK"
+    }
+   ],
    "description": {
-    "en": "\u0026quot;Work is so hard... I just want to be at peace...\u0026quot;\r\nWhen a corporate slave on the verge of breaking down encounters a beautiful girl searching for blood...\r\nIs this what I was waiting for... A blissful death?\r\n\u0026quot;What? You want to be killed? I just want some blood.\u0026quot;\r\n\u0026quot;Eeeehhhh, you must be kidding me!\u0026quot;\r\nToday, tomorrow, and the future ahead, I want to live because I want to be killed by you!\r\nA fateful, life-or-death romantic comedy!"
+    "en": "\"Work is so hard... I just want to be at peace...\"\r\nWhen a corporate slave on the verge of breaking down encounters a beautiful girl searching for blood...\r\nIs this what I was waiting for... A blissful death?\r\n\"What? You want to be killed? I just want some blood.\"\r\n\"Eeeehhhh, you must be kidding me!\"\r\nToday, tomorrow, and the future ahead, I want to live because I want to be killed by you!\r\nA fateful, life-or-death romantic comedy!"
    },
    "links": {
     "ap": "shinitai-shachiku-to-kyuuketsu-jk",
@@ -16,7 +27,6 @@
     "raw": "https://comic-meteor.jp/kyuuketsushachiku/"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -28,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +62,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +74,8 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -68,47 +86,53 @@
       "name": {
        "en": "Vampires"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-01T04:04:45+00:00",
+   "updatedAt": "2021-05-25T15:41:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "147c28f8-5f5b-4c8d-844e-855a02149ee6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Masayoshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "147c28f8-5f5b-4c8d-844e-855a02149ee6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Masayoshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0cd08bc5-0d61-4e0f-9108-182019b88db7",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
-  },
-  {
-   "id": "d7d1730f-6eb0-4ba6-9437-602cac38664c",
-   "type": "tag"
+   "id": "e1cd6901-f7e6-4f28-940b-0f54ecc99aab",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:01:22+00:00",
+    "description": "",
+    "fileName": "ba0f453e-c5fe-42d1-bd3b-688775a2bccf.jpg",
+    "updatedAt": "2021-05-24T18:01:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

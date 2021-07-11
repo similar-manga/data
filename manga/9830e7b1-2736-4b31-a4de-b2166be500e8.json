@@ -15,7 +15,6 @@
     "raw": "https://drive.google.com/file/d/0B-TfDmNTXN_6SldERVlZS1pXSjg/view"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +26,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,39 +38,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-28T00:32:29+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "e9bed64d-c055-456a-80a7-afceb0896531",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Otomo Katsuhiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e9bed64d-c055-456a-80a7-afceb0896531",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Otomo Katsuhiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5b9f9b61-b4cb-4af8-acfc-ccfb0f6405de",
-   "type": "chapter"
-  },
-  {
-   "id": "46c01d5f-f1a9-4e01-aba0-56872cfcc9e7",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "ca40c3df-40f2-4ffe-9d5e-2d8bfdcb1788",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:43:13+00:00",
+    "description": "",
+    "fileName": "612a759d-829b-40c2-b844-c32e9ac799cf.jpg",
+    "updatedAt": "2021-05-24T16:43:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

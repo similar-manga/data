@@ -7,6 +7,14 @@
    "title": {
     "en": "Twinkle Nora"
    },
+   "altTitles": [
+    {
+     "en": "The Twinkle Nora"
+    },
+    {
+     "en": "トゥインクル・ノーラ"
+    }
+   ],
    "description": {
     "en": "An anthology collection featuring Nora and other unrelated stories."
    },
@@ -16,7 +24,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "1",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -27,6 +34,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +46,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,55 +58,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-11T15:03:54+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "b0b77939-146d-40cb-83f5-057cc8e5dd0c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mikuriya Satomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b0b77939-146d-40cb-83f5-057cc8e5dd0c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mikuriya Satomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2f986917-7bd7-4ae2-bc7f-8aaa3952c5bf",
-   "type": "chapter"
-  },
-  {
-   "id": "de25721c-02fa-4904-9e55-3c911763591c",
-   "type": "chapter"
-  },
-  {
-   "id": "13101515-fcf0-4b77-9c7c-73cdffaa6561",
-   "type": "chapter"
-  },
-  {
-   "id": "7028522d-5fb0-4cdf-a8ac-1359f2e06288",
-   "type": "chapter"
-  },
-  {
-   "id": "905f40e7-592f-4421-9148-8e86fe5ed6e6",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "c423fb34-b2ec-4fa7-ad3f-8e9b488c6f40",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:37:09+00:00",
+    "description": "",
+    "fileName": "ffd9515c-f221-4649-97d5-257b21c04ef7.jpg",
+    "updatedAt": "2021-05-24T17:37:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

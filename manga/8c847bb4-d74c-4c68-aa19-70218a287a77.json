@@ -7,6 +7,20 @@
    "title": {
     "en": "It's a Cat"
    },
+   "altTitles": [
+    {
+     "en": "Mon chat"
+    },
+    {
+     "en": "This Is a Cat"
+    },
+    {
+     "en": "Yuppy"
+    },
+    {
+     "en": "ユッピー"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +28,6 @@
     "raw": "https://www.pixiv.net/en/artworks/68751269"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +50,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +62,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -55,63 +74,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-12T19:01:56+00:00",
+   "updatedAt": "2021-05-25T15:44:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "78a77a0a-3d0e-4b68-96e9-784d144abdcd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Barikios",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "78a77a0a-3d0e-4b68-96e9-784d144abdcd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Barikios",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "acf137e1-3f39-44fd-ad81-752bff7183ff",
-   "type": "chapter"
-  },
-  {
-   "id": "e43dd548-e5fb-45cc-80b1-736591590a73",
-   "type": "chapter"
-  },
-  {
-   "id": "a77de08c-e708-46c1-82c8-c20007925b09",
-   "type": "chapter"
-  },
-  {
-   "id": "3754df8b-f760-44fb-860e-82c9e8c5c087",
-   "type": "chapter"
-  },
-  {
-   "id": "77ec84de-4d05-454a-938d-a83ca8793370",
-   "type": "chapter"
-  },
-  {
-   "id": "7ec6d0b7-1032-4e37-a4f2-9b9ce38bcfc0",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "818525f5-a697-4f86-b8c7-a1ed4b284c51",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:37:14+00:00",
+    "description": "",
+    "fileName": "4cae7449-7784-4ffd-aaf7-c1f6bd58a830.jpg",
+    "updatedAt": "2021-05-24T17:37:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

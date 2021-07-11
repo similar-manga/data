@@ -14,7 +14,6 @@
     "raw": "https://www.chil-chil.net/goodsDetail/goods_id/55173/"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,77 +46,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-31T07:11:46+00:00",
+   "updatedAt": "2021-05-25T15:42:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "03a33b14-0182-4d26-837a-d9dfedb85d7d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "RnoenM",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "03a33b14-0182-4d26-837a-d9dfedb85d7d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "RnoenM",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e56c553e-7f1b-4dde-a53c-977379f5cb95",
-   "type": "chapter"
-  },
-  {
-   "id": "c61499db-66d9-4e17-a234-8ba3092f62fc",
-   "type": "chapter"
-  },
-  {
-   "id": "2c70b908-8a89-4acd-99ab-ad65050149d7",
-   "type": "chapter"
-  },
-  {
-   "id": "50cca4a6-b13d-44af-a76c-712d6f3b4fa8",
-   "type": "chapter"
-  },
-  {
-   "id": "9132d892-1a19-4410-8148-1a007ed69bdd",
-   "type": "chapter"
-  },
-  {
-   "id": "82a3343c-c2c4-43a6-80e6-e45b0147a58e",
-   "type": "chapter"
-  },
-  {
-   "id": "0263856e-5c1f-43d1-8f03-ea5e5f3f66a9",
-   "type": "chapter"
-  },
-  {
-   "id": "ec1dee1f-0683-47d6-a6c8-3e00ec23a6ec",
-   "type": "chapter"
-  },
-  {
-   "id": "cce8dad1-3918-4390-9a23-73f07e222c23",
-   "type": "chapter"
-  },
-  {
-   "id": "735c1e19-8ec4-44a0-aff9-35899932ac3f",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "4787470a-147a-4f73-b3e6-d351e7bf0a76",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:00+00:00",
+    "description": "",
+    "fileName": "86d5bec8-1ecc-418f-b3bb-d3892a9968ce.jpg",
+    "updatedAt": "2021-05-24T17:21:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

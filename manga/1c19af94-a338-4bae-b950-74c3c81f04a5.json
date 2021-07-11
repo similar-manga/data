@@ -7,6 +7,11 @@
    "title": {
     "en": "Shigurein"
    },
+   "altTitles": [
+    {
+     "en": "Sig Rain"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -15,7 +20,6 @@
     "mu": "166029"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,39 +54,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-23T19:18:20+00:00",
+   "updatedAt": "2021-05-25T15:40:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "7a75deb5-4835-4af8-92ff-81de3934349e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hanimi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7a75deb5-4835-4af8-92ff-81de3934349e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hanimi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ceeb6b5b-9a41-47cb-9c9b-e0699badab4c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "251efd48-1e0c-4fe7-a579-1d9e54eefc64",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:00:25+00:00",
+    "description": "",
+    "fileName": "5adedfa4-02d2-4f8f-b225-ad8a75015505.png",
+    "updatedAt": "2021-05-24T18:00:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

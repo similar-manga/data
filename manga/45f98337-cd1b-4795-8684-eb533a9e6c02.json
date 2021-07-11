@@ -28,6 +28,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +40,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,6 +52,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,79 +64,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-28T13:54:40+00:00",
+   "updatedAt": "2021-05-25T15:41:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "1da90c11-37ef-445e-89ba-d0b8b7da8fd6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kemi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1da90c11-37ef-445e-89ba-d0b8b7da8fd6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kemi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0b0277ca-88a7-44e6-bf2e-1b8aa2a757f3",
-   "type": "chapter"
-  },
-  {
-   "id": "23dddb56-6938-44e9-a08e-3c8c348d86cb",
-   "type": "chapter"
-  },
-  {
-   "id": "f540e97b-b640-4ce0-88f8-3bbbfd3f79ba",
-   "type": "chapter"
-  },
-  {
-   "id": "bfa84995-cdd8-49dd-9853-7495ee53f38e",
-   "type": "chapter"
-  },
-  {
-   "id": "fe543698-e1e5-4bc2-b1fc-22d67f5e9b2c",
-   "type": "chapter"
-  },
-  {
-   "id": "2d0d6dcd-c131-4314-9b57-f895f1d9003d",
-   "type": "chapter"
-  },
-  {
-   "id": "f3e979d8-0f1c-4e33-8ebc-d897b8ea3a3b",
-   "type": "chapter"
-  },
-  {
-   "id": "31ddd4db-2d71-47f6-be64-f1ce43a530ae",
-   "type": "chapter"
-  },
-  {
-   "id": "4b0d8b2e-fb80-4107-92b2-7276c68b5bf0",
-   "type": "chapter"
-  },
-  {
-   "id": "0a9f537e-7e3a-4d6c-802a-f6d2bd6c45e9",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "4e4a6eba-47d8-4fb8-9262-f69b5f890ef9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:57+00:00",
+    "description": "",
+    "fileName": "d4a5ce9b-ebd3-42c1-aeb3-eb67890f6d2b.jpg",
+    "updatedAt": "2021-05-24T17:02:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

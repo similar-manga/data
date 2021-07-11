@@ -14,7 +14,6 @@
     "mu": "11462"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "erotica",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +60,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,6 +72,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -75,87 +84,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-03T06:04:01+00:00",
+   "updatedAt": "2021-05-25T15:40:04+00:00"
   }
  },
  "relationships": [
   {
    "id": "8db9a588-b949-419a-871e-440ba775c837",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakuraga Mei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8db9a588-b949-419a-871e-440ba775c837",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakuraga Mei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ea7b7072-945f-419a-bf2e-9e4d81114578",
-   "type": "chapter"
-  },
-  {
-   "id": "5a1ea43f-8c56-4fca-804e-79e85065bdd6",
-   "type": "chapter"
-  },
-  {
-   "id": "9583c054-2da5-4c7d-a07c-2172d4a33b57",
-   "type": "chapter"
-  },
-  {
-   "id": "d845834d-15fe-499c-a833-62c87a28eb19",
-   "type": "chapter"
-  },
-  {
-   "id": "57143de8-7b36-468a-ac4c-3dc9f9e6aa6f",
-   "type": "chapter"
-  },
-  {
-   "id": "a2a946a7-bbd9-477b-9ea2-cf90bf3c29d1",
-   "type": "chapter"
-  },
-  {
-   "id": "e72e3a06-7be5-4518-9c9f-69ea0a07d7d0",
-   "type": "chapter"
-  },
-  {
-   "id": "8f474ed7-45d7-4458-ad88-d4c38e3153a5",
-   "type": "chapter"
-  },
-  {
-   "id": "aba58901-5fc5-4c97-b4d3-c7fbae4443e0",
-   "type": "chapter"
-  },
-  {
-   "id": "15d76a6d-2add-40e0-81e6-5e80f8755558",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "e2877244-cc98-4f42-9ca3-a1d02c0c6696",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:25+00:00",
+    "description": "",
+    "fileName": "1f82fdbb-b87d-48a0-aa5c-ad8ace065bc9.jpg",
+    "updatedAt": "2021-05-24T18:17:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

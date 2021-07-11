@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Bear Hunter \u0026mdash; Fubuki-gō"
+    "en": "Bear Hunter — Fubuki-gō"
    },
+   "altTitles": [
+    {
+     "en": "Bear Hunter - Contestant Fubuki"
+    }
+   ],
    "description": {
     "en": "The story is about Fubuki's training as Matagi-inu, hunting dog, with his master the Matagi hunter Jūzaburō. Fubuki and his master will try to kill the bear that killed the host's grandson. At the end of the story, as well as a bear that Jūzaburō get killed, when Fubuki leaves his home village and never return."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +51,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,43 +63,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-16T21:14:48+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "3fe96657-327a-406d-9acd-48cd42b60558",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKAHASHI Yoshihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3fe96657-327a-406d-9acd-48cd42b60558",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKAHASHI Yoshihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "58d5b6cb-362b-4fc0-9867-404b9a3d6a43",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "6356c620-add0-4f17-8720-7e435e916841",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:45:22+00:00",
+    "description": "",
+    "fileName": "16e09ce8-4dc6-4656-8c2d-677c39d811a8.png",
+    "updatedAt": "2021-05-24T17:45:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Onna Kyoushi"
    },
+   "altTitles": [
+    {
+     "en": "Female Teacher"
+    },
+    {
+     "en": "女教師"
+    }
+   ],
    "description": {
     "en": "Kyoko's a recent graduate who just began teaching at a local high school. Being a new teacher, she spends her days battling with the ups and downs that comes with the job. But one day, she notices that a student of hers, Sakurai, has been paying her a little too much attention, and when they wind up being in the same room after school...."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,43 +51,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-14T19:03:05+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "8233edc8-e58e-4d75-b17f-746013a1d1cf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujii Mitsuru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8233edc8-e58e-4d75-b17f-746013a1d1cf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujii Mitsuru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "65c078ac-03a7-4143-b09b-b2e3d54e5d25",
-   "type": "chapter"
-  },
-  {
-   "id": "1a3b7fd4-2230-499a-9cb6-bd6c2954688b",
-   "type": "chapter"
-  },
-  {
-   "id": "6c5274da-825f-4cb3-82fd-cdebe1cbbb7a",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "2f4ecf72-899c-4f8f-8cc0-b4b3bdd2f590",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:20:53+00:00",
+    "description": "",
+    "fileName": "15bc5f98-ed30-4f59-92c9-ffceb453c536.jpg",
+    "updatedAt": "2021-05-24T18:20:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

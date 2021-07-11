@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,35 +33,53 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-15T16:42:10+00:00",
+   "updatedAt": "2021-05-25T15:48:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "aa490df4-d255-4d53-b51e-632cf83a83f9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Morishima Akiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "aa490df4-d255-4d53-b51e-632cf83a83f9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Morishima Akiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c972e2b4-4d40-4a8e-a4b0-9891e2021570",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
+   "id": "ea7166c5-0504-4f3d-b310-917df297b949",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:14:31+00:00",
+    "description": "",
+    "fileName": "348e14a8-69eb-40b2-bcac-8282e9e3e8d8.jpg",
+    "updatedAt": "2021-05-24T18:14:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

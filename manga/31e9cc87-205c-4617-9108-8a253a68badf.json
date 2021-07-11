@@ -7,11 +7,15 @@
    "title": {
     "en": "Dodoitsu"
    },
+   "altTitles": [
+    {
+     "en": "都々逸"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,43 +51,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-19T08:57:05+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "1fb30ab9-394c-46e6-9117-4a08c4606294",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohue Aguri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1fb30ab9-394c-46e6-9117-4a08c4606294",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohue Aguri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b6445a86-f165-4503-a652-2b5afdebd3bb",
-   "type": "chapter"
-  },
-  {
-   "id": "86b09a34-7237-4191-8f89-1fb00ef17f7e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "9e2bd40d-907a-4fb1-8357-3dad6e324ae1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:35:36+00:00",
+    "description": "",
+    "fileName": "27b09b18-49f4-4deb-91ca-057c90b360d2.jpg",
+    "updatedAt": "2021-05-24T18:35:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

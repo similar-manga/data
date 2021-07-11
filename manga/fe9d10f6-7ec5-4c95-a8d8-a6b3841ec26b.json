@@ -27,6 +27,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,31 +39,53 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-10-19T23:04:23+00:00",
+   "updatedAt": "2020-10-19T23:04:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "6e1ee75f-d309-4de4-bf27-881dcfbdc8f2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MUKOJIMA Kamome",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6e1ee75f-d309-4de4-bf27-881dcfbdc8f2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MUKOJIMA Kamome",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
+   "id": "8e58a9a3-83c7-4f08-be04-356a58e3191e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:15:16+00:00",
+    "description": "",
+    "fileName": "0de1bdc4-3997-40bb-aad3-f4ff18885172.jpg",
+    "updatedAt": "2021-05-24T18:15:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

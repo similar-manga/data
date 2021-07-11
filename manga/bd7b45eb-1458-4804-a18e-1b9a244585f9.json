@@ -25,6 +25,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +61,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,6 +73,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -75,6 +85,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -85,91 +97,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-21T02:10:35+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "2a04bd24-da9a-42b0-a927-817b1c3825ef",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Reon Merryweatherey",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "92fcd789-e020-4e83-8d22-d0379cc7ed85",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Selgadis",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b08b2dd1-8e8d-4194-b485-cad745931570",
-   "type": "chapter"
-  },
-  {
-   "id": "744c8177-90cd-48f3-b8d5-efcc2569ffcd",
-   "type": "chapter"
-  },
-  {
-   "id": "0168df00-60c5-48fa-b2b0-70763b4bbf69",
-   "type": "chapter"
-  },
-  {
-   "id": "761389ac-e6ff-4d33-888d-436eb0a86617",
-   "type": "chapter"
-  },
-  {
-   "id": "760979f2-df9f-4666-ad44-0a4587f986b1",
-   "type": "chapter"
-  },
-  {
-   "id": "20e8107f-caf3-4b34-9323-fad2ac70baec",
-   "type": "chapter"
-  },
-  {
-   "id": "56b1f7ce-fd97-4d60-87b7-6145e09aa958",
-   "type": "chapter"
-  },
-  {
-   "id": "29417e09-2001-4076-ac88-6b80a51bf529",
-   "type": "chapter"
-  },
-  {
-   "id": "5b5b7e08-a4d8-459e-a977-83222d1d8641",
-   "type": "chapter"
-  },
-  {
-   "id": "f1869ed9-5d2b-4dc0-b46b-61878ffcc776",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "979d0d53-6fc9-4fcd-83f3-e00359b75859",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:30:52+00:00",
+    "description": "",
+    "fileName": "6f6a998e-1351-423e-a1f4-ee422e380775.jpg",
+    "updatedAt": "2021-05-24T17:30:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Tiger \u0026amp; Bunny - Me o Tojite (Doujinshi)"
+    "en": "Tiger \u0026 Bunny - Me o Tojite (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Tiger \u0026 Bunny dj - Me wo Tojite"
+    }
+   ],
    "description": {
     "en": "Pairing: Barnaby x Kotetsu"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "erotica",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -30,8 +36,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +50,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -52,39 +62,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-07-09T05:55:49+00:00",
+   "updatedAt": "2019-07-09T05:55:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "5d0f307c-ef7b-4899-bc08-91edb089f14e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asou Kai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5d0f307c-ef7b-4899-bc08-91edb089f14e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asou Kai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "909a23db-3717-4f7a-801a-f69e2b7f76a1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:18+00:00",
+    "description": "",
+    "fileName": "737fe999-7c46-48fe-bf54-959f2c014d34.jpg",
+    "updatedAt": "2021-05-24T17:18:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

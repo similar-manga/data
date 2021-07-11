@@ -7,6 +7,17 @@
    "title": {
     "en": "Aquarium (TANIGUCHI Tomoko)"
    },
+   "altTitles": [
+    {
+     "en": "The Flying Stewardess"
+    },
+    {
+     "en": "The Heart is Your Kingdom"
+    },
+    {
+     "en": "アクエリアム"
+    }
+   ],
    "description": {
     "en": "Consists of three stories:\r\n\r\n1. Aquarium\r\n2. The Flying Stewardess\r\n3. The Heart is Your Kingdom\r\n\r\nFrom CPM:\r\nThree tales of love, loss, and longing.\r\nA trio of girls tackle the trials of adolescence and try to find happiness."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +65,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,51 +77,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-29T01:15:38+00:00",
+   "updatedAt": "2021-05-25T15:40:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "f5d4bba2-984f-4a8e-884e-cac60478fd28",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TANIGUCHI Tomoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f5d4bba2-984f-4a8e-884e-cac60478fd28",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TANIGUCHI Tomoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c9e84c45-7429-4c1f-8f7e-fd90faa488d6",
-   "type": "chapter"
-  },
-  {
-   "id": "9325ea62-f96b-4fa5-bfd5-bbedc678d2de",
-   "type": "chapter"
-  },
-  {
-   "id": "de6a9e65-eaf9-4287-af61-573d95af6768",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "630841c2-8d92-4ffd-b08e-96b8938aafa4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:11+00:00",
+    "description": "",
+    "fileName": "2a07e78a-f704-4f2b-bb6b-7e0fac241499.jpg",
+    "updatedAt": "2021-05-24T17:06:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

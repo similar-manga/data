@@ -7,6 +7,14 @@
    "title": {
     "en": "Poncho."
    },
+   "altTitles": [
+    {
+     "en": "Poncho (TAKASHIMA Hiromi)"
+    },
+    {
+     "en": "ポンチョ。"
+    }
+   ],
    "description": {
     "en": "4-koma about the funny moments of Hiroshi and his girlfriend's little sister Pon."
    },
@@ -18,7 +26,6 @@
     "mu": "40359"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +49,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -50,43 +61,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-21T01:19:44+00:00",
+   "updatedAt": "2021-05-25T15:42:54+00:00"
   }
  },
  "relationships": [
   {
    "id": "79b364d5-dcb1-4345-a707-8cfd8127b08d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takashima Hiromi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "79b364d5-dcb1-4345-a707-8cfd8127b08d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takashima Hiromi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6ecfb9c3-1dc8-4767-aaac-86074e4ed015",
-   "type": "chapter"
-  },
-  {
-   "id": "37dbeee6-c8a7-4cac-8ef6-42d1f8f91f00",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0edbde25-f9d9-4f11-8faf-38f61a9c478e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:23:35+00:00",
+    "description": "",
+    "fileName": "0f186834-78ee-403a-93d2-5982f6e7798a.jpg",
+    "updatedAt": "2021-05-24T17:23:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

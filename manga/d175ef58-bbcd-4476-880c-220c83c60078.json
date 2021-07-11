@@ -7,6 +7,11 @@
    "title": {
     "en": "Mata, Koko Kara!!"
    },
+   "altTitles": [
+    {
+     "en": "また、ここから！！"
+    }
+   ],
    "description": {
     "en": "Okada is once again dumped by his girlfriend. He runs into Kitazawa, an old friend, and the two end up talking about their days at school... before landing in bed together."
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,8 +47,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,43 +61,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-06T00:16:54+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "5a37d2f4-e225-49a2-9d7d-66c91afe8b31",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakata Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5a37d2f4-e225-49a2-9d7d-66c91afe8b31",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakata Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "134365b8-a610-4c1d-a282-4736f436edf8",
-   "type": "chapter"
-  },
-  {
-   "id": "ff5a38d8-faaa-45ff-9e54-de54a7b522d4",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "3f038b36-e1fb-4fcc-9da9-f9f7742b2e69",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:07:02+00:00",
+    "description": "",
+    "fileName": "611fcf39-99a5-41da-abba-ab03093ffc7e.jpg",
+    "updatedAt": "2021-05-24T17:07:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

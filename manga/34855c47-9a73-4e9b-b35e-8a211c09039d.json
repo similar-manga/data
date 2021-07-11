@@ -5,16 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Diez a\u0026ntilde;os amandote"
+    "en": "Diez años amandote"
    },
+   "altTitles": [
+    {
+     "en": "最喜欢你的那十年"
+    }
+   ],
    "description": {
-    "en": "Tres involucrados en una historia que dura diez a\u0026ntilde;os, sobre un amor puro que naci\u0026oacute; en la escuela ."
+    "en": "Tres involucrados en una historia que dura diez años, sobre un amor puro que nació en la escuela ."
    },
    "links": {
     "ap": "ten-years-love-you"
    },
-   "originalLanguage": "zh-hk",
-   "lastChapter": "0",
+   "originalLanguage": "zh",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,8 +39,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +53,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +65,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -65,43 +77,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-07-12T04:38:23+00:00",
+   "updatedAt": "2019-07-12T04:38:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "5f478450-1b57-462e-b06a-7335d9d857f7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nico",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "564acccb-efec-4abc-bbe3-81e81089dac3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "鱼丸",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "10587c20-cf3b-4f61-b503-51cb77ccd84f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:38+00:00",
+    "description": "",
+    "fileName": "408868d4-92cd-4d26-b2b0-85eb1d99303f.jpg",
+    "updatedAt": "2021-05-24T17:18:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

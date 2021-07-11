@@ -7,6 +7,11 @@
    "title": {
     "en": "Kigatsuitara Boku Wa Kare Wo..."
    },
+   "altTitles": [
+    {
+     "en": "気が付いたら僕は彼を..."
+    }
+   ],
    "description": {
     "en": "a short twitter series by @BaitoTackey"
    },
@@ -14,7 +19,6 @@
     "raw": "https://twitter.com/BaitoTackey/status/1264913347939430403?s=20"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "ongoing",
    "contentRating": "safe",
@@ -26,6 +30,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,8 +40,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +54,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -56,51 +66,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-03T04:39:32+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "bc749559-3485-473d-8969-58c37f1619e7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Baito Asuka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bc749559-3485-473d-8969-58c37f1619e7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Baito Asuka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b3b9e009-35df-4e1d-ac87-9d5f4faaa7ab",
-   "type": "chapter"
-  },
-  {
-   "id": "2a698d0e-6821-4c88-9ff7-7c2d52875158",
-   "type": "chapter"
-  },
-  {
-   "id": "e84d22d4-2df5-473e-8bde-1bb78f23a97d",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "42eb2d37-144f-4fc2-abe1-9a1bd2b21937",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:05:18+00:00",
+    "description": "",
+    "fileName": "d8f02a5c-d8fa-4597-86d7-d9c56ad4269b.jpg",
+    "updatedAt": "2021-05-24T18:05:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

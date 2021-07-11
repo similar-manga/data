@@ -7,6 +7,11 @@
    "title": {
     "en": "Sherlock: Her Majesty's Detective"
    },
+   "altTitles": [
+    {
+     "en": "셜록 : 여왕폐하의 탐정"
+    }
+   ],
    "description": {
     "en": "A new take on a classic tale, Sherlock Holmes and Dr. Jane Watson attempt to solve a strange and supernatural death in a fictionalized version of 19th century Britain. With the country at war, Sherlock and Jane soon realize that they have uncovered an intricate network of secrets that leads to a much larger and more dangerous plan that puts the whole world at risk."
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +57,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -58,6 +69,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,6 +81,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -78,6 +93,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -88,91 +105,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-02T18:13:03+00:00",
+   "updatedAt": "2021-05-25T15:42:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "6b72adf4-c7a1-49c7-95db-f687a1b22371",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Go Kyung-Oh",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e3843b25-80cf-47c9-bea0-9e1a6e737cdd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Zohan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ecb1ffe9-6c87-419c-b428-91ec07261eed",
-   "type": "chapter"
-  },
-  {
-   "id": "d5ec6ab6-fd87-4579-aafb-c4c382010456",
-   "type": "chapter"
-  },
-  {
-   "id": "f52aceaf-13be-4a95-943f-be33efc8eaa2",
-   "type": "chapter"
-  },
-  {
-   "id": "b09a26c4-326d-4746-9fb5-22dcab9a3c70",
-   "type": "chapter"
-  },
-  {
-   "id": "98aac011-2171-4c0a-b05d-1298f34ca049",
-   "type": "chapter"
-  },
-  {
-   "id": "9704c548-ac6f-41ac-aff6-8deac07b3f3b",
-   "type": "chapter"
-  },
-  {
-   "id": "bf09973f-d7b0-470c-8e9b-e7f74b744fb8",
-   "type": "chapter"
-  },
-  {
-   "id": "d0cdaee5-b169-4b42-88c2-0b96335ab182",
-   "type": "chapter"
-  },
-  {
-   "id": "0a71cb6e-94d8-42f6-933b-08015bc77d14",
-   "type": "chapter"
-  },
-  {
-   "id": "5f4f65e6-5b56-4886-a1ef-ac6ee676ecbd",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "df6f46fe-d342-4fd3-88e6-baa9bc65702a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:21:07+00:00",
+    "description": "",
+    "fileName": "7e3f7e13-4269-4dcc-a00c-0b681de34e65.jpg",
+    "updatedAt": "2021-05-24T18:21:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

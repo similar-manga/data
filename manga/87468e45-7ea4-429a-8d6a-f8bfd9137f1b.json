@@ -7,6 +7,14 @@
    "title": {
     "en": "Bokura wa Minna Uso Bakari"
    },
+   "altTitles": [
+    {
+     "en": "The Endless Lies We Tell"
+    },
+    {
+     "en": "ぼくらはみんなうそばかり"
+    }
+   ],
    "description": {
     "en": "Shinji leads a dull office life during the day, but he finds a way to escape from the monotony. At night, he lavishes himself with beautiful clothing and... one-night stands. Then along comes Yusei, a young man with the sex skills needed to keep Shinji coming back. Yusei's more earnest than he appears, and wants more from Shinji than just a one-time deal. But, what is it exactly that Yusei desires...?"
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,8 +47,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +61,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +73,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,51 +85,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-31T14:15:50+00:00",
+   "updatedAt": "2021-05-25T15:44:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "b77a014c-0c3b-466b-a7af-7ccee653bc92",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hirama Mitsunaga",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b77a014c-0c3b-466b-a7af-7ccee653bc92",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hirama Mitsunaga",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "413655b1-a44e-483e-ac10-8421d7a6d480",
-   "type": "chapter"
-  },
-  {
-   "id": "49e692a9-c1e0-44c5-a243-cf117f5746a6",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "58402249-f3af-4f9e-8f3e-91a53749e5f2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:13:54+00:00",
+    "description": "",
+    "fileName": "be1f8464-f6e3-4445-9b5a-4e1390732697.jpg",
+    "updatedAt": "2021-05-24T17:13:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

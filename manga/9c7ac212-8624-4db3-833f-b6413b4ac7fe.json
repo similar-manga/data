@@ -15,8 +15,7 @@
     "mu": "131657",
     "raw": "http://ac.qq.com/Comic/comicInfo/id/537697"
    },
-   "originalLanguage": "zh-hk",
-   "lastChapter": "0",
+   "originalLanguage": "zh",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -27,6 +26,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,35 +38,53 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-22T16:57:15+00:00",
+   "updatedAt": "2021-05-25T15:45:37+00:00"
   }
  },
  "relationships": [
   {
    "id": "ba83541e-05c5-49e4-8fb3-e68eb0ecbc8f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ȵ�夏洛克",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "515ef424-9195-4a4d-93e1-be0d9526c3ab",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ű�月郎",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3d91e434-04fe-4b36-8129-11b181fc79c5",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
+   "id": "c275b607-a61e-4f47-ae19-5a9a2c374547",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:23+00:00",
+    "description": "",
+    "fileName": "0c207438-38ea-4297-a54a-a82112255894.jpg",
+    "updatedAt": "2021-05-24T16:55:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

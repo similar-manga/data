@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Komi-san wa, Komyushou desu. - The Komis\u0026rsquo; Sibling Playtime (Doujinshi)"
+    "en": "Komi-san wa, Komyushou desu. - The Komis’ Sibling Playtime (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Komi-ke no Kyoudai Asobi"
+    },
+    {
+     "en": "古見家の姉弟あそび"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "pornographic",
@@ -23,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +42,8 @@
       "name": {
        "en": "Incest"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,39 +54,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-24T22:13:03+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "ca2fca6f-baf6-42d8-9665-66c452a9c658",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Guhan Shounen",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ca2fca6f-baf6-42d8-9665-66c452a9c658",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Guhan Shounen",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a509d280-1e88-49cb-819a-68f4af1fdd2c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5bd0e105-4481-44ca-b6e7-7544da56b1a3",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "a2f5473b-ca36-4ff5-9f11-fa07c0a2aca2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:00:35+00:00",
+    "description": "",
+    "fileName": "8ec8823a-a579-49d9-b06f-8587c96ee367.jpg",
+    "updatedAt": "2021-05-24T18:00:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

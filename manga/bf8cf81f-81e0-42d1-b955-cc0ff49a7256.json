@@ -7,6 +7,14 @@
    "title": {
     "en": "Taishou Romantica"
    },
+   "altTitles": [
+    {
+     "en": "大正 ロマンチカ"
+    },
+    {
+     "en": "大正古董浪漫谭"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -17,7 +25,6 @@
     "mu": "80872"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "ongoing",
    "contentRating": "safe",
@@ -29,6 +36,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,51 +48,53 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-13T03:56:23+00:00",
+   "updatedAt": "2021-05-25T15:47:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "94bc5a4c-b7c1-4bd3-b3b3-4a61caf6a8cc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Odawara Mizue",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "94bc5a4c-b7c1-4bd3-b3b3-4a61caf6a8cc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Odawara Mizue",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ba2c1a3c-f7a5-4029-a64c-47340e1981aa",
-   "type": "chapter"
-  },
-  {
-   "id": "f101f8d5-38a5-4526-af31-841112360157",
-   "type": "chapter"
-  },
-  {
-   "id": "0db6a79c-732b-4de9-90cf-f4abf055da6b",
-   "type": "chapter"
-  },
-  {
-   "id": "45d2458b-99c0-4e5f-9daa-45946a4e6877",
-   "type": "chapter"
-  },
-  {
-   "id": "b5b8461a-8ad1-4d73-acf5-765964b5f819",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
+   "id": "2b4c3af3-2f53-4fc0-b7a6-e061a791d758",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:54:24+00:00",
+    "description": "",
+    "fileName": "d9adf1f2-3768-4575-80f8-3b7b8ccb9537.jpg",
+    "updatedAt": "2021-05-24T16:54:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Mugentou"
    },
+   "altTitles": [
+    {
+     "en": "Mugen-tou"
+    },
+    {
+     "en": "無限島"
+    }
+   ],
    "description": {
     "en": "Kooru, a young elementary school girl from Tokyo, is suddenly given the news that she will be moving to Mugentou along with the rest of her family. It's a mysterious secluded island lost to the times and cut off from the rest of civilization. It lacks the many technological advances but has abundant natural life and beauty complemented with many magical and paranormal phenomenons.\r\n\r\nFollow along and see where Kooru's imagination will take her."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -51,39 +63,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-07T17:08:15+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "ea8b10ae-4988-4c8d-a94e-c0a103b2220e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakagawa Yuukei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ea8b10ae-4988-4c8d-a94e-c0a103b2220e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakagawa Yuukei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9bf838da-41d4-4c96-8dba-bf9cdea17acc",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "7b55ab40-291a-4fb4-8660-8532c867632b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:12:46+00:00",
+    "description": "",
+    "fileName": "1f8c3f4c-4c7e-4c4d-8dc0-16186bbc96a8.jpg",
+    "updatedAt": "2021-05-24T18:12:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

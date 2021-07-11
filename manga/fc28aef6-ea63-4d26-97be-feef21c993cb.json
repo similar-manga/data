@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Mischief Makers Story Outline \u0026amp; Opening Manga"
+    "en": "Mischief Makers Story Outline \u0026 Opening Manga"
    },
+   "altTitles": [
+    {
+     "en": "Yuke-Yuke!! Trouble Makers Story Outline \u0026 Opening Manga"
+    },
+    {
+     "en": "ゆけゆけ!!トラブルメーカーズ"
+    }
+   ],
    "description": {
     "en": "The manga that comes with the Japanese manual to Mischief Makers. Reads left to right."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +42,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +54,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -53,6 +66,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,6 +78,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -73,6 +90,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -83,55 +102,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-12T01:59:16+00:00",
+   "updatedAt": "2021-05-25T15:49:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "a7d5f6f6-2c24-4059-9a1a-25378ad9ccf1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HAN",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a7d5f6f6-2c24-4059-9a1a-25378ad9ccf1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HAN",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1293fe96-308b-4501-9f58-fb689d8d588b",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "b4c2f7e9-0781-4f4d-8df7-ae8ab3f03e87",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:26:59+00:00",
+    "description": "",
+    "fileName": "5be51a62-1552-4f1f-b818-eae983204344.jpg",
+    "updatedAt": "2021-05-24T18:26:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Kodomo ga Neta Ato de"
    },
+   "altTitles": [
+    {
+     "en": "After the Child Sleeps"
+    },
+    {
+     "en": "子供が寝た後で"
+    }
+   ],
    "description": {
     "en": "A single father takes pity on a drunken man outside his bar, only to be taunted by his equally adorable, and impudent young daughter. Little did they know that he will play a major part in their life."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,51 +74,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-21T18:16:00+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "4378911c-996c-4b83-b1d1-122680e4c6a8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiiragi Nozomu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4378911c-996c-4b83-b1d1-122680e4c6a8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiiragi Nozomu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7c0c536b-c9b8-4803-bb87-b841f70fc026",
-   "type": "chapter"
-  },
-  {
-   "id": "27ccd3dc-20f0-4b61-a739-a483e690c122",
-   "type": "chapter"
-  },
-  {
-   "id": "444556a4-280e-4961-80e0-fa9dd82879a4",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "a91df688-5b97-4f8d-9554-f5737522c00c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:52:43+00:00",
+    "description": "",
+    "fileName": "0066a5c8-bc19-4dba-962a-07aae3f81e1b.jpg",
+    "updatedAt": "2021-05-24T16:52:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

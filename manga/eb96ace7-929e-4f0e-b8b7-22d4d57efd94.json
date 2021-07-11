@@ -7,6 +7,11 @@
    "title": {
     "en": "Dragon Recipe"
    },
+   "altTitles": [
+    {
+     "en": "드래곤 레시피"
+    }
+   ],
    "description": {
     "en": "Insia wields the holy sword Kalsis to harvest the highest of delicacies, dragon meat, and become the greatest dragon meat chef."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +71,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,6 +83,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -80,87 +95,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-17T21:48:26+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "e3c1526a-7f64-45f0-85d1-cc78f4664a80",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yeop",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "108cfaa6-86ca-4427-b176-a41e26e99334",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ELDO",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "68a17a40-74cd-4a47-825b-d48a3b548059",
-   "type": "chapter"
-  },
-  {
-   "id": "9e481768-4cd1-450b-ae91-4731b5d5d1aa",
-   "type": "chapter"
-  },
-  {
-   "id": "0f0d4baf-3ad8-492a-9008-09df9b647ba9",
-   "type": "chapter"
-  },
-  {
-   "id": "d0570d84-b43b-462f-be83-af8620f5be0c",
-   "type": "chapter"
-  },
-  {
-   "id": "2a95ac81-1c1c-4266-9c2e-7105a269f95f",
-   "type": "chapter"
-  },
-  {
-   "id": "2561a659-893a-4ef7-8ff2-090efbbfe625",
-   "type": "chapter"
-  },
-  {
-   "id": "9501e6fc-5648-44e1-a428-06e4ff947652",
-   "type": "chapter"
-  },
-  {
-   "id": "e5352a47-7bcb-4bb6-b9ac-da820cf58487",
-   "type": "chapter"
-  },
-  {
-   "id": "a68c9650-5101-4fea-8292-e5e57888f854",
-   "type": "chapter"
-  },
-  {
-   "id": "4a026fc8-c2d5-4480-a285-13ddb2083bcf",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "d478a0e2-2641-4f67-b2c1-f5e71d09eecd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:42:14+00:00",
+    "description": "",
+    "fileName": "e2fa7b5f-03b1-4dd3-82ff-0e1001005fb7.jpg",
+    "updatedAt": "2021-05-24T16:42:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

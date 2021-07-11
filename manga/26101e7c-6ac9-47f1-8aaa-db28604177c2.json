@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Jalape\u0026ntilde;o"
+    "en": "Jalapeño"
    },
+   "altTitles": [
+    {
+     "en": "Jalapeno"
+    },
+    {
+     "en": "Zombie Oldie"
+    },
+    {
+     "en": "ハラペーニョ"
+    }
+   ],
    "description": {
     "en": "Collection of various Karasawa gag stories, each exploring a slightly different style of art and humor. Topics are super-heroes, samurai, martial arts, animals, and zombies."
    },
@@ -15,7 +26,6 @@
     "mu": "31115"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,39 +60,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-09T13:36:28+00:00",
+   "updatedAt": "2021-05-25T15:40:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "11a89bc8-2c7d-421d-a4ac-b93d5a548c6d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KARASAWA Nawoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "11a89bc8-2c7d-421d-a4ac-b93d5a548c6d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KARASAWA Nawoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "47c97ff9-3a39-4f3c-bacb-e782e1a0ec6f",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "2a127cf4-fd95-4ff1-800a-acbc92d1d789",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:47:36+00:00",
+    "description": "",
+    "fileName": "2f6eb958-3c3e-429b-9c94-25207a3d2cd5.jpg",
+    "updatedAt": "2021-05-24T16:47:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

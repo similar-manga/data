@@ -14,7 +14,6 @@
     "mu": "171116"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,8 +34,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,51 +48,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-16T19:47:22+00:00",
+   "updatedAt": "2021-05-25T15:49:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "16c09365-4bc5-49c0-a458-a6f588b85b36",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Youha",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "16c09365-4bc5-49c0-a458-a6f588b85b36",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Youha",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1edf124d-3861-4247-a9b1-976f018e3c33",
-   "type": "chapter"
-  },
-  {
-   "id": "d46cdd11-c446-43f5-ac7b-617de53dfea1",
-   "type": "chapter"
-  },
-  {
-   "id": "eee6c506-aa11-44fd-8694-cdf7baaa1e6f",
-   "type": "chapter"
-  },
-  {
-   "id": "bd2433a3-0906-49c5-9fc9-c2490cd1968e",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "be0d7dc6-caa1-4f99-b666-76021a2e13fa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:03:16+00:00",
+    "description": "",
+    "fileName": "b608a696-7d0a-46b9-ad03-d1b9ef6ffb9e.jpg",
+    "updatedAt": "2021-05-24T18:03:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

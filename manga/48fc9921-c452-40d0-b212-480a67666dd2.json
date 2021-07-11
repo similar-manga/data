@@ -7,6 +7,14 @@
    "title": {
     "en": "Ys Taiyou no Kamen"
    },
+   "altTitles": [
+    {
+     "en": "Ys Mask of the Sun"
+    },
+    {
+     "en": "イース太陽の仮面"
+    }
+   ],
    "description": {
     "en": "Adol has returned to the town of Minea, where his adventures began. After hanging around for a while and conversing with old friends, he decides to set sail for the overseas land of Celceta."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,55 +63,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-02T03:24:34+00:00",
+   "updatedAt": "2021-05-25T15:42:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "107bd376-ca24-4749-8a29-52b15974c242",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okuda Hitoshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "107bd376-ca24-4749-8a29-52b15974c242",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okuda Hitoshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cdf54e05-d192-4b17-a3e9-99bea6333871",
-   "type": "chapter"
-  },
-  {
-   "id": "fa5afc87-25b3-4a76-829b-ff637c737070",
-   "type": "chapter"
-  },
-  {
-   "id": "3d2d47bf-0c76-4200-85fe-3527793f0103",
-   "type": "chapter"
-  },
-  {
-   "id": "9716754f-0d6f-4185-85a0-dc6676dd5034",
-   "type": "chapter"
-  },
-  {
-   "id": "11386364-ac1b-484c-97eb-42024335f515",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "ad39d396-7e92-4ff2-9839-b89e46ec2f53",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:36+00:00",
+    "description": "",
+    "fileName": "77e207b6-21ce-450b-99cb-043dd671d8c6.jpg",
+    "updatedAt": "2021-05-24T17:06:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

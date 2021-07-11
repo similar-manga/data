@@ -7,6 +7,11 @@
    "title": {
     "en": "Fraction"
    },
+   "altTitles": [
+    {
+     "en": "フラクション"
+    }
+   ],
    "description": {
     "en": "The first half of the book is made up by the titular story, a serial killer thriller that gets all kinds of meta and crazy as it progresses. The second half of the book consists of a short interview with Kago (and Ryuichi Kasumi, a Japanese crime fiction writer) and a number of short stories.\r\n\r\n(Source: Caterpillar)"
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -49,6 +58,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +70,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,83 +82,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-09T14:18:37+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "ab61e894-a0cb-4bbe-b554-785fc75c5964",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kago Shintaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ab61e894-a0cb-4bbe-b554-785fc75c5964",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kago Shintaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9859833f-8468-41d8-af31-a6736e3faddc",
-   "type": "chapter"
-  },
-  {
-   "id": "1a1b8fa1-e505-4cc6-8392-3552f91841a2",
-   "type": "chapter"
-  },
-  {
-   "id": "47dd673a-4365-4693-8f58-6dfbf932d7dc",
-   "type": "chapter"
-  },
-  {
-   "id": "16723ef2-3051-4536-949a-8ad42a492ba2",
-   "type": "chapter"
-  },
-  {
-   "id": "8e50cd6e-d5bb-4556-8093-15812d7832e5",
-   "type": "chapter"
-  },
-  {
-   "id": "dba08023-0f29-431c-aeca-e0c09af91aac",
-   "type": "chapter"
-  },
-  {
-   "id": "5ffb0c35-8114-4382-b25f-3669cdb1f37d",
-   "type": "chapter"
-  },
-  {
-   "id": "72b76602-7159-4c3e-a830-9c701ae44c38",
-   "type": "chapter"
-  },
-  {
-   "id": "04ae40a9-e3bd-45c4-b08e-3f3641e672f5",
-   "type": "chapter"
-  },
-  {
-   "id": "1fe51fdd-3dd7-45b4-a06f-86cd74a55199",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "584dc441-de4b-4f52-9649-b3a3fd074434",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:40:25+00:00",
+    "description": "",
+    "fileName": "4af04bf9-01a2-4acc-b850-0f756823f628.jpg",
+    "updatedAt": "2021-05-24T18:40:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

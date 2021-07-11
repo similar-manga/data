@@ -7,6 +7,11 @@
    "title": {
     "en": "Soft Romantic"
    },
+   "altTitles": [
+    {
+     "en": "ソフトロマンティック"
+    }
+   ],
    "description": {
     "en": "Shuka Nakagawa is a man in a woman's manga world. Cute, into feminine things, he and his new editor, Kenji Asama, have to compete with women artists for publication. With Kenji's support, just how far can Shuka go... and how far can he fall?"
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,8 +42,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,59 +56,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-09-12T17:42:22+00:00",
+   "updatedAt": "2020-09-12T17:42:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "30d6d26e-5b2b-4621-9c27-f24f26b940e6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murakami Sachi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "30d6d26e-5b2b-4621-9c27-f24f26b940e6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murakami Sachi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "018d12e4-0255-4498-8982-de3d3aaf063a",
-   "type": "chapter"
-  },
-  {
-   "id": "1a1b2a22-d5dc-4255-9520-a3f8567a1db0",
-   "type": "chapter"
-  },
-  {
-   "id": "a34d9094-6229-4310-9033-f708c024d60a",
-   "type": "chapter"
-  },
-  {
-   "id": "7a67f06c-26ce-46cc-990b-203d745c100e",
-   "type": "chapter"
-  },
-  {
-   "id": "41542df8-fb60-4c78-b6c9-000ff4aeeb41",
-   "type": "chapter"
-  },
-  {
-   "id": "61d15a04-07af-484e-890f-1469145b525e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "eb4a56f0-eaa0-4fa5-bfbd-d037265899a9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:10:04+00:00",
+    "description": "",
+    "fileName": "25a637c6-a63b-4a84-8acd-c569e1b6c877.jpg",
+    "updatedAt": "2021-05-24T18:10:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

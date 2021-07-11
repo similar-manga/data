@@ -19,7 +19,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "1",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -31,6 +30,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,35 +54,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-07-11T12:44:47+00:00",
+   "updatedAt": "2018-07-11T12:44:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "c7337cdb-d164-4858-a6f3-346348f8fa28",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kobayashi Motofumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c7337cdb-d164-4858-a6f3-346348f8fa28",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kobayashi Motofumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "2293bc4c-65a6-4f1c-88ce-ae1b4c907ddd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:40:36+00:00",
+    "description": "",
+    "fileName": "7c75e86e-603d-485e-9a56-99964ae5fd77.jpg",
+    "updatedAt": "2021-05-24T18:40:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

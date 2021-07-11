@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "The Salary Man \u0026amp; Tofu the Funny Cat"
+    "en": "The Salary Man \u0026 Tofu the Funny Cat"
    },
+   "altTitles": [
+    {
+     "en": "นายหัวยุ่งกับเต้าหู้ แมวจอมป่วน"
+    }
+   ],
    "description": {
     "en": "When Messy, an average office worker encounters a mischievous stray cat named Tofu, his live changes forever. Everyday becomes a crazy new adventure, but that's what makes life fun!"
    },
@@ -14,7 +19,6 @@
     "raw": "http://www.webtoons.com/th/comedy/the-salaryman-and-tofu-the-funny-cat/list?title_no=378"
    },
    "originalLanguage": "th",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,75 +53,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-23T07:16:02+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "a52d2623-d2bf-400f-9a5b-9372e9b0f28f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chestnut",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "822fdec1-4bcd-4944-8aca-41fbe584ba71",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ringo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "69c3e5fc-cd5e-415e-bfc2-198015abd2e4",
-   "type": "chapter"
-  },
-  {
-   "id": "7f306588-0180-4cd6-8ca0-c68df2b888bb",
-   "type": "chapter"
-  },
-  {
-   "id": "a3141461-8b47-4c33-b7e9-04ffa7c9815f",
-   "type": "chapter"
-  },
-  {
-   "id": "c73cfd6a-de1a-423c-8af3-25e844bad28d",
-   "type": "chapter"
-  },
-  {
-   "id": "921d6350-dc17-41aa-a808-c317cd975a65",
-   "type": "chapter"
-  },
-  {
-   "id": "69706e5c-fd7e-45fd-b0bd-9c9c205ba82f",
-   "type": "chapter"
-  },
-  {
-   "id": "241b96eb-1005-4f99-acd1-67fa5e10b55a",
-   "type": "chapter"
-  },
-  {
-   "id": "afdde77f-57ac-4f73-8995-f043903f1165",
-   "type": "chapter"
-  },
-  {
-   "id": "5d9db660-4a48-4d5e-bc74-fed02a5522c2",
-   "type": "chapter"
-  },
-  {
-   "id": "4a4a8525-3f00-4d10-aa3e-dfc413865f05",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "d9a9c62a-9d95-4f56-ae2f-6e36bdcf69a7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:18+00:00",
+    "description": "",
+    "fileName": "7bee08fc-5bf4-4680-a985-303d55164a3b.jpg",
+    "updatedAt": "2021-05-24T17:02:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,17 @@
    "title": {
     "en": "Fure Fure Shoujo"
    },
+   "altTitles": [
+    {
+     "en": "Cheer Cheer Cheer!"
+    },
+    {
+     "en": "Fure Fure Girl"
+    },
+    {
+     "en": "フレフレ少女"
+    }
+   ],
    "description": {
     "en": "Momoko is a shy girl who spends all her time reading girly novels. She longs to fall in love like the heroines in the stories she reads, and one day her dream seems to come true! After a fateful encounter worthy of a novel, Momoko decides she's in love with Oshima, her school's ace baseball player. But how can she get closer to him?\r\n\r\nAfter consulting her precious books, she eventually ends up helping to revive the unpopular traditional Japanese cheering club to cheer at the school's baseball games. However, they've only got just enough members to keep it from being abolished, and none of them seem to know exactly what they're doing. Their first performance is so dreadful that people even blame them for the baseball team's defeat! Their ragtag cheer squad will have to get its act together if Momoko is to have any chance of realizing her fiction-worthy romance!"
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,47 +78,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-06T09:49:45+00:00",
+   "updatedAt": "2021-05-25T15:39:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "afca7e03-a6e1-49bf-8775-448da1c8d141",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshizuki Kumichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "afca7e03-a6e1-49bf-8775-448da1c8d141",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshizuki Kumichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0bd4d0fb-e114-4422-b3e5-33b146219953",
-   "type": "chapter"
-  },
-  {
-   "id": "b5722ba9-e9b7-4a20-92de-4e858c661a8e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "d7313e37-23fc-4f57-8c8b-c312388165f6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:43:20+00:00",
+    "description": "",
+    "fileName": "dbaa8dd9-ffcf-405b-903e-ed8dfae39d18.jpg",
+    "updatedAt": "2021-05-24T18:43:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -14,7 +14,6 @@
     "mu": "145718"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +48,8 @@
       "name": {
        "en": "Medical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,51 +60,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-05T09:28:25+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "508631f5-09de-4ae1-87ed-4b6179254ca1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Urasawa Naoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "508631f5-09de-4ae1-87ed-4b6179254ca1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Urasawa Naoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e34e8143-284c-414b-93b5-d014f40cfbd1",
-   "type": "chapter"
-  },
-  {
-   "id": "a37a83dd-927b-47c4-b9d9-b63429f5cc5c",
-   "type": "chapter"
-  },
-  {
-   "id": "07cc7838-d28c-456c-8820-93de917b2920",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "c8cbe35b-1b2b-4a3f-9c37-db84c4514856",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "7c0e96ea-2625-4f80-b923-8ff07c1356cf",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:29+00:00",
+    "description": "",
+    "fileName": "44de88b6-1828-475e-bd8b-fddbb2eb85b2.jpg",
+    "updatedAt": "2021-05-24T17:03:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

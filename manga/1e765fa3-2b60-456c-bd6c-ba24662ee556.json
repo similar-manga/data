@@ -7,6 +7,14 @@
    "title": {
     "en": "Sports Girl"
    },
+   "altTitles": [
+    {
+     "en": "Hook Your Favorite Sport!"
+    },
+    {
+     "en": "스포츠걸이 좋아!"
+    }
+   ],
    "description": {
     "en": "A sweaty woman is a beautiful woman! Martial arts, swimming, cycling, athletics, healthy, sticky... The girls of exercise and sexy sports"
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +72,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,6 +84,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -78,6 +96,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -88,91 +108,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-18T07:39:30+00:00",
+   "updatedAt": "2021-05-25T15:40:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "d6b0de7f-e504-4f84-8ba9-6d2583021a9a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chance",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a02b7eca-95f6-4d36-bff0-c747da4b54a6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "GAMANG",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "71b42b40-63c9-4aa3-abbb-80f670bac84b",
-   "type": "chapter"
-  },
-  {
-   "id": "1da4d006-efa3-4f89-ae6c-910437967a39",
-   "type": "chapter"
-  },
-  {
-   "id": "d989e9b8-a8c4-4975-b5bd-aedf69916da0",
-   "type": "chapter"
-  },
-  {
-   "id": "a4fc083d-eaf4-46e6-93c5-a9ae8269f4c7",
-   "type": "chapter"
-  },
-  {
-   "id": "26890e61-59c7-4b79-81d8-cb7ff0815052",
-   "type": "chapter"
-  },
-  {
-   "id": "32892f20-7707-4af0-84ec-32ac6025389c",
-   "type": "chapter"
-  },
-  {
-   "id": "ef37f3fa-43d4-46b5-aed0-f05b5c945505",
-   "type": "chapter"
-  },
-  {
-   "id": "cab4bccf-e287-4f5e-8dde-53f21d2bf6e2",
-   "type": "chapter"
-  },
-  {
-   "id": "13eb3553-2f4b-45b9-b36e-e2d4dd8d3cca",
-   "type": "chapter"
-  },
-  {
-   "id": "e212d783-0ca0-4d73-9adb-c27b39667439",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "66834db0-a440-4fad-957a-6568ccd1e88b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:51:54+00:00",
+    "description": "",
+    "fileName": "326ac00c-c635-4180-a565-c49c9c048d7a.jpg",
+    "updatedAt": "2021-05-24T16:51:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

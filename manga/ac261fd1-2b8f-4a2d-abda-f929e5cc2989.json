@@ -7,6 +7,17 @@
    "title": {
     "en": "Tsumanuda Fight Town"
    },
+   "altTitles": [
+    {
+     "en": "Tsumanuda Fuaito Taun"
+    },
+    {
+     "en": "Tsumanuda Kakutou Machi"
+    },
+    {
+     "en": "ツマヌダ格闘街"
+    }
+   ],
    "description": {
     "en": "The 18-year-old Mitsuru Yaegashi arrives in Tokyo planning to become a professional illustrator. While searching for cheap apartments he suddenly gets wrapped up in in the Town Renewal Project, becoming part of the Fight Town. He fights his first fight against a boxer to defend the boxer's grandmother and prove him wrong. After becoming part of fight town he wants to leave but after registering there is a penalty fine and he will be charged by the police for the fight!"
    },
@@ -34,6 +45,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +57,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,47 +69,53 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-24T06:57:00+00:00",
+   "updatedAt": "2021-05-25T15:46:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "4e507559-62d2-48c8-8fe2-c0a91de8800f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ueyama Michiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4e507559-62d2-48c8-8fe2-c0a91de8800f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ueyama Michiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ae2f3785-1b30-4d4a-8230-5c708e43cf4b",
-   "type": "chapter"
-  },
-  {
-   "id": "4edd639a-10e5-4efe-8abf-75ff7396383f",
-   "type": "chapter"
-  },
-  {
-   "id": "43febf73-abd0-44ab-b278-84676cb99365",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
+   "id": "b8cd83c2-c61c-4f46-b6ac-5c572cafc151",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:03+00:00",
+    "description": "",
+    "fileName": "faf364d7-0c66-4b44-881c-f287f588a3d2.jpg",
+    "updatedAt": "2021-05-24T16:55:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

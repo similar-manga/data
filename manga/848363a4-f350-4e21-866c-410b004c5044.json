@@ -7,6 +7,14 @@
    "title": {
     "en": "Mist Story"
    },
+   "altTitles": [
+    {
+     "en": "ミスト・ストーリー"
+    },
+    {
+     "en": "ミストストーリー"
+    }
+   ],
    "description": {
     "en": "Mist Story is a one volume horror anthology by Go Nagai from 1992."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Demons"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Ghosts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -60,6 +74,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -70,6 +86,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -80,79 +98,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-13T00:08:02+00:00",
+   "updatedAt": "2021-05-25T15:44:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "1a76535a-b389-4e42-9130-a71d0ec94611",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nagai Go",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1a76535a-b389-4e42-9130-a71d0ec94611",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nagai Go",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "530c4cdc-0f26-4797-8ae1-5af3ea6436b8",
-   "type": "chapter"
-  },
-  {
-   "id": "98d9c812-f545-4f9f-92a5-aa9152fffa8e",
-   "type": "chapter"
-  },
-  {
-   "id": "a28f4e96-477a-49a5-99a6-0170a863a02d",
-   "type": "chapter"
-  },
-  {
-   "id": "60115956-80fd-4b80-b2fd-d87ff9905857",
-   "type": "chapter"
-  },
-  {
-   "id": "bccc18b6-ae8e-4b5b-8b6b-51b89cd0508b",
-   "type": "chapter"
-  },
-  {
-   "id": "8cc66416-c371-40b2-b47a-e23d97bb7653",
-   "type": "chapter"
-  },
-  {
-   "id": "2e66d29b-968b-4d3c-a922-a96113e465fd",
-   "type": "chapter"
-  },
-  {
-   "id": "32f7889c-4e5e-4de7-9fee-7694a66754be",
-   "type": "chapter"
-  },
-  {
-   "id": "39730448-9a5f-48a2-85b0-a70db87b1233",
-   "type": "tag"
-  },
-  {
-   "id": "3bb26d85-09d5-4d2e-880c-c34b974339e9",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "4609270c-49cd-4fd3-b3f5-8c23d2181156",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:41:46+00:00",
+    "description": "",
+    "fileName": "fa004eae-53d1-4a71-8281-9a823a5552a8.jpg",
+    "updatedAt": "2021-05-24T16:41:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

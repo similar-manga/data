@@ -28,8 +28,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,75 +54,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-27T00:05:35+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "cf5f57ec-0f87-4df8-8f75-afc91cfcd247",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kawai Hideki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cf5f57ec-0f87-4df8-8f75-afc91cfcd247",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kawai Hideki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "070c125c-b9f6-4495-82ab-6fdbf83e7f3e",
-   "type": "chapter"
-  },
-  {
-   "id": "fed42bd9-c8db-4753-8d59-21cd35a17fab",
-   "type": "chapter"
-  },
-  {
-   "id": "34ca68d3-42c9-47f7-b910-7f354f30d16b",
-   "type": "chapter"
-  },
-  {
-   "id": "5f610223-a962-4f95-a496-afc9cf76712b",
-   "type": "chapter"
-  },
-  {
-   "id": "4dff38b1-bbe0-4474-b866-2b0a11c62e88",
-   "type": "chapter"
-  },
-  {
-   "id": "b8e752af-5b2f-4756-9883-d1a4c2fe47dc",
-   "type": "chapter"
-  },
-  {
-   "id": "331660e8-6bbc-474d-b073-41b966c4b612",
-   "type": "chapter"
-  },
-  {
-   "id": "a35507bb-676c-4dc7-88a3-03d633cf24b8",
-   "type": "chapter"
-  },
-  {
-   "id": "f6ec56f6-2afd-415d-b4e4-407fb98cf27e",
-   "type": "chapter"
-  },
-  {
-   "id": "19bff2a2-f7ca-4129-9917-4bbbf42dc4da",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "008a657c-58cf-4f3c-9191-2349de167ac3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:52:52+00:00",
+    "description": "",
+    "fileName": "669a364d-c7ea-4049-8bf7-fabc85cb563f.jpg",
+    "updatedAt": "2021-05-24T16:52:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

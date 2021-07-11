@@ -7,6 +7,14 @@
    "title": {
     "en": "Shakotan★Boogie"
    },
+   "altTitles": [
+    {
+     "en": "シャコタン・ブギ"
+    },
+    {
+     "en": "シャコタン☆ブギ"
+    }
+   ],
    "description": {
     "en": "Detailing the adventures of two friends interested in shakotan, a style of modified Japanese cars."
    },
@@ -34,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,6 +66,8 @@
       "name": {
        "en": "Mafia"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -64,43 +78,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-16T14:21:15+00:00",
+   "updatedAt": "2021-05-25T15:45:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "010d0640-8eb9-4bfa-b519-030cb5b6523f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kusunoki Michiharu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "010d0640-8eb9-4bfa-b519-030cb5b6523f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kusunoki Michiharu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c8cd18a2-8624-435e-a2fa-ea8916329b5c",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "50c347b5-d2a3-4f5c-bb96-8d8e14c5acb2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:25+00:00",
+    "description": "",
+    "fileName": "1b2dce5a-5449-4a27-ae31-3063c087593d.jpg",
+    "updatedAt": "2021-05-24T17:41:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

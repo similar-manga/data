@@ -7,6 +7,11 @@
    "title": {
     "en": "Seishun Panda!"
    },
+   "altTitles": [
+    {
+     "en": "青春パンダ!"
+    }
+   ],
    "description": {
     "en": "Nagisa's best friend is Yumi who is smart and beautiful. Ryou, her childhood friend, points that out every chance he gets. When Yumi falls in love with Kei, who is as intelligent and beautiful as Yumi, Nagisa tries hard to get the two of them together. But Nagisa soon finds out that Kei likes people with an outgoing personality....like Nagisa. Ryou has a crush on Nagisa too! And so a love square forms!!"
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,47 +48,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-19T03:14:43+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "2a21e93b-82f6-4719-b27e-cd34d7717e20",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kimura Ayako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2a21e93b-82f6-4719-b27e-cd34d7717e20",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kimura Ayako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d26950b4-0411-4284-b7cc-0230ad975e08",
-   "type": "chapter"
-  },
-  {
-   "id": "bbb5a22b-c18a-4118-9ea6-e13f3dfa5384",
-   "type": "chapter"
-  },
-  {
-   "id": "b63455e0-e4b0-4784-8ed4-5c2a4f090f3a",
-   "type": "chapter"
-  },
-  {
-   "id": "ded8c4b0-52e3-43c7-ba6f-a527da702d90",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "6706d41a-2a22-4f73-8bb9-2b3310ea3ded",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:53:37+00:00",
+    "description": "",
+    "fileName": "cd6c329d-d71a-4052-b35f-4776fc14840f.jpg",
+    "updatedAt": "2021-05-24T17:53:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -14,7 +14,6 @@
     "mu": "169746"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +48,8 @@
       "name": {
        "en": "Magical Girls"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,45 +58,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-25T18:03:41+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "20b745e3-8065-4eed-96b5-05a3684ed2f3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hino Arashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "20b745e3-8065-4eed-96b5-05a3684ed2f3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hino Arashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c86cc287-eefe-442d-82e3-6de90f32553c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "81c836c9-914a-4eca-981a-560dad663e73",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
+   "id": "dabe2a01-32c1-4f98-ab40-e2f4107530f9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:07:53+00:00",
+    "description": "",
+    "fileName": "017dc9a6-e235-47a7-8577-4a3efc7868a6.png",
+    "updatedAt": "2021-05-24T18:07:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

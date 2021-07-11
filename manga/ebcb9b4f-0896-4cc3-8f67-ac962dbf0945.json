@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Touhou - Nazrin and the Red-Color Caf\u0026eacute; (Doujinshi)"
+    "en": "Touhou - Nazrin and the Red-Color Café (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "ナズーリンと赤色カフェ"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,6 +50,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,43 +62,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-15T15:49:20+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "7c06d8b9-cd13-4672-ad2e-97ea3950169e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akagashi Hagane",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7c06d8b9-cd13-4672-ad2e-97ea3950169e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akagashi Hagane",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "790a7515-f5ac-47c2-95c6-a6ff51139bbc",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "960386ed-ecf6-4f59-b2c3-c1505dcf4402",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:03:09+00:00",
+    "description": "",
+    "fileName": "70a05380-895f-4902-9438-1026e3b1596b.jpg",
+    "updatedAt": "2021-05-24T18:03:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

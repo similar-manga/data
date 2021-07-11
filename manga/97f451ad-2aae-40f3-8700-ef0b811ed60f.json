@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Loli"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -30,8 +31,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,39 +45,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-05T12:53:58+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "92b1eb9d-d333-43e2-9d9a-ea91ad9d0023",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koguroya.",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "aa149aee-53b3-45da-8f9b-0bda8a03351b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koguro.",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a8b9dac6-4eaf-44cb-8997-a13aadcfc328",
-   "type": "chapter"
-  },
-  {
-   "id": "2d1f5d56-a1e5-4d0d-a961-2193588b08ec",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "b08458de-7fef-4f71-853b-8d44ec6ae84f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:18+00:00",
+    "description": "",
+    "fileName": "f22f3bc3-8b19-4fbd-af67-840a5388bfe7.jpg",
+    "updatedAt": "2021-05-24T17:00:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

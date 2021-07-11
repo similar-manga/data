@@ -28,6 +28,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +40,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +52,8 @@
       "name": {
        "en": "Zombies"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -58,6 +64,8 @@
       "name": {
        "en": "Post-Apocalyptic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -68,83 +76,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-01T10:16:10+00:00",
+   "updatedAt": "2021-05-25T15:40:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "d22feb1a-7cd7-46e5-9cd6-d1516a0cb0ef",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oono Kousuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d22feb1a-7cd7-46e5-9cd6-d1516a0cb0ef",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oono Kousuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "192bc65e-99fb-45b6-b98c-f0056f3dc616",
-   "type": "chapter"
-  },
-  {
-   "id": "dbcffa0e-8d81-42aa-91f6-a7e86003b06f",
-   "type": "chapter"
-  },
-  {
-   "id": "45b585df-ecb5-4fc7-96d0-01850e11a5c1",
-   "type": "chapter"
-  },
-  {
-   "id": "c4c4812e-a409-49e5-b9f0-29f1442106b9",
-   "type": "chapter"
-  },
-  {
-   "id": "8c2c227d-1764-4560-9bef-13fa7e6bf7bb",
-   "type": "chapter"
-  },
-  {
-   "id": "4903e694-ee1b-4198-8670-ac861b0af18f",
-   "type": "chapter"
-  },
-  {
-   "id": "9a58d6d3-56c0-42a3-ae88-b3d454d6dd9f",
-   "type": "chapter"
-  },
-  {
-   "id": "fbcd0d8f-55cc-4027-96bf-5a25a12e5620",
-   "type": "chapter"
-  },
-  {
-   "id": "20877693-ca28-40f8-912d-e7b4d10107bc",
-   "type": "chapter"
-  },
-  {
-   "id": "0b8c5e24-1631-4ce3-8c51-469f8969202b",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "631ef465-9aba-4afb-b0fc-ea10efe274a8",
-   "type": "tag"
-  },
-  {
-   "id": "9467335a-1b83-4497-9231-765337a00b96",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "cfe8a5ef-0a68-4f40-b406-9ab1afde7b0e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:14+00:00",
+    "description": "",
+    "fileName": "854335da-7fe0-4417-b240-d2f44c382251.png",
+    "updatedAt": "2021-05-24T18:17:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

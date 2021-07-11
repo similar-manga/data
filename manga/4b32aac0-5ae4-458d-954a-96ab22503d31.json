@@ -11,7 +11,6 @@
     "en": "Mio x Ritsu. Anthology."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -20,8 +19,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,43 +45,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-02T16:13:07+00:00",
+   "updatedAt": "2021-05-25T15:42:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "fec4bd31-c949-40a3-94cc-b240541f692a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okeya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fec4bd31-c949-40a3-94cc-b240541f692a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okeya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "95393a95-d1b5-411d-82e1-2fd30ae0562b",
-   "type": "chapter"
-  },
-  {
-   "id": "4dce3e5e-a673-476f-bc72-5c94edd834df",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "af2d2a0a-9cbe-4f41-a859-906fded7af26",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:25:05+00:00",
+    "description": "",
+    "fileName": "c0b9b61f-c1fa-4532-98bb-c1407c24aea7.jpg",
+    "updatedAt": "2021-05-24T17:25:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

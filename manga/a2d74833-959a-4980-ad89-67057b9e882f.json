@@ -7,6 +7,17 @@
    "title": {
     "en": "The Dress"
    },
+   "altTitles": [
+    {
+     "en": "El vestido"
+    },
+    {
+     "en": "Платье"
+    },
+    {
+     "en": "드레스"
+    }
+   ],
    "description": {
     "en": "A temptation from which you can't escape..."
    },
@@ -18,7 +29,6 @@
     "mu": "3277"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +40,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +52,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +64,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +76,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -70,51 +88,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-08T10:24:31+00:00",
+   "updatedAt": "2021-05-25T15:45:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "2c2b37f8-bcc2-49f0-b4b6-437242896aca",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "JO Juhee",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8c11b5c1-a712-402b-8fd2-6427b537a686",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SEO Yoon Young",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9d08198b-c1c5-4ce6-af9d-3a6692966749",
-   "type": "chapter"
-  },
-  {
-   "id": "d20f2e8a-9e14-4b50-88f7-9b52a1995a9d",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "b46b9b5e-c75b-4faa-a465-f7e2e9aa4e6b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:44:18+00:00",
+    "description": "",
+    "fileName": "e5643f16-3b9f-40c2-b06d-367795b3c820.jpg",
+    "updatedAt": "2021-05-24T16:44:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

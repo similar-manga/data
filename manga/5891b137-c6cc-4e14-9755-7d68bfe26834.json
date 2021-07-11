@@ -16,7 +16,6 @@
     "mu": "6907"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -27,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,55 +50,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-18T19:33:25+00:00",
+   "updatedAt": "2021-05-25T15:42:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "48c3c186-8ae4-4538-9124-f6efa29a2a8f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MIHARA Mitsukazu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "48c3c186-8ae4-4538-9124-f6efa29a2a8f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MIHARA Mitsukazu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c8c2161b-55f7-4938-9841-c03e72a61529",
-   "type": "chapter"
-  },
-  {
-   "id": "23504d12-8b44-4608-8036-783b1fc16fe3",
-   "type": "chapter"
-  },
-  {
-   "id": "4d6aea07-dc5a-4d6d-829c-05fe2badecfa",
-   "type": "chapter"
-  },
-  {
-   "id": "a520cdae-fa67-4a59-a0b5-ca0859676823",
-   "type": "chapter"
-  },
-  {
-   "id": "2df9063d-7029-4737-90ec-e5f9a3a9a983",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "447f428c-9431-4fc8-a037-21eda259e745",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:11+00:00",
+    "description": "",
+    "fileName": "28198c62-462b-4e5a-bd5b-e9c27b12f35e.jpg",
+    "updatedAt": "2021-05-24T16:50:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

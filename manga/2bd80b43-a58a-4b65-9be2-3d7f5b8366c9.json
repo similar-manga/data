@@ -7,11 +7,15 @@
    "title": {
     "en": "Toby Is Taken"
    },
+   "altTitles": [
+    {
+     "en": "Тоби занят"
+    }
+   ],
    "description": {
     "en": "Если бы ты только взглянул..."
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Thriller"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -30,41 +36,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-25T17:30:04+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "711db4c3-73f8-44c7-ba6c-98a784b57025",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TheSundaesundae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "711db4c3-73f8-44c7-ba6c-98a784b57025",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TheSundaesundae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "75d0d38f-097a-43cb-8a2f-4c82ed177521",
-   "type": "chapter"
-  },
-  {
-   "id": "a42086e9-d48e-4bda-9aaa-8b89d8d752df",
-   "type": "chapter"
-  },
-  {
-   "id": "07251805-a27e-4d59-b488-f0bfbec15168",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "bdc27444-29ad-4f32-bbc6-2d93f3a76cac",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:16+00:00",
+    "description": "",
+    "fileName": "c9aea563-c3ce-494a-b250-0480c14833c6.png",
+    "updatedAt": "2021-05-24T18:04:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

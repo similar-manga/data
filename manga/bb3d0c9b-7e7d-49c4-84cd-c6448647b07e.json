@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Osananajimi ( \u0026acute;Д`) Haa Haa (decensored)"
+    "en": "Osananajimi ( ´Д`) Haa Haa (decensored)"
    },
    "description": {
     "en": ""
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +45,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -52,6 +57,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,51 +69,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-20T10:44:42+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "9ecb6af9-d73f-476b-84e9-781523850b0f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "yamakumo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9ecb6af9-d73f-476b-84e9-781523850b0f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "yamakumo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "721eddd5-fd67-4177-92c6-854fe07c7ae7",
-   "type": "chapter"
-  },
-  {
-   "id": "68af8d4b-c4b5-4491-a7e8-eee195187ef6",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "d66a15d5-fce6-4f14-a52a-8f6731c88f96",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:49:16+00:00",
+    "description": "",
+    "fileName": "97389643-7321-41be-9bbe-9bfc8d129dac.jpg",
+    "updatedAt": "2021-05-24T17:49:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

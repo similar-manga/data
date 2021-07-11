@@ -7,6 +7,14 @@
    "title": {
     "en": "Job hunting, Living together, Everyday meal"
    },
+   "altTitles": [
+    {
+     "en": "Shuukatsu, Dousei, mainichi gohan"
+    },
+    {
+     "en": "就活、同棲、まいにちごはん"
+    }
+   ],
    "description": {
     "en": "Satoru Marui, 4th year in college is looking for a job while living with her boyfriend, who is an excellent cook. It's already summer and she hasn't gotten a job offer yet.."
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,39 +61,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-29T09:09:43+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "dcb42d6f-5a7a-4ec3-9e6d-2771e96d5aaa",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maejima",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "dcb42d6f-5a7a-4ec3-9e6d-2771e96d5aaa",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maejima",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "744d0a8c-8116-4ab9-b81a-ee19ff698006",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "de1a17e5-4db0-4feb-96fa-0a657209532b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:12:34+00:00",
+    "description": "",
+    "fileName": "62241072-213b-4558-bc84-808a127b2546.jpg",
+    "updatedAt": "2021-05-24T18:12:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

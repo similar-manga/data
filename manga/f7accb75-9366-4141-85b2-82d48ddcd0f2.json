@@ -7,6 +7,14 @@
    "title": {
     "en": "So You're Not Alone, I Will"
    },
+   "altTitles": [
+    {
+     "en": "So You're Not Alone, I Will"
+    },
+    {
+     "en": "あなたがひとりにならないからわたしは"
+    }
+   ],
    "description": {
     "en": "At the end of school, Senri talks to her best friend, Chisaki, about how she's never able to spend time with her crush because he's always with his friend. Is there more than meets the eye here?"
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -34,8 +44,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,39 +58,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-11T23:14:14+00:00",
+   "updatedAt": "2021-05-25T15:49:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "4f18b397-db65-4b41-8e56-7bf9d4c93c39",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Remare Fujino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4f18b397-db65-4b41-8e56-7bf9d4c93c39",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Remare Fujino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3af5087e-9a0f-4295-ab62-b17aa58c2ea3",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "01fd487d-62da-4f0c-8c55-57bd886f35e2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:09:57+00:00",
+    "description": "",
+    "fileName": "9b906f34-5259-4998-8efb-040ce87c4829.jpg",
+    "updatedAt": "2021-05-24T18:09:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

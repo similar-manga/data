@@ -7,6 +7,14 @@
    "title": {
     "en": "Koigokoro wa Neko o mo Nurasu"
    },
+   "altTitles": [
+    {
+     "en": "Even A Cat Bathes In The River Of Love"
+    },
+    {
+     "en": "恋心は猫をも濡らす"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,47 +62,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-16T23:26:12+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "14b49416-4c6f-47a0-b972-25d3666487d0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsumizu Ritsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "14b49416-4c6f-47a0-b972-25d3666487d0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsumizu Ritsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5f1692d8-7098-4f9a-820f-4aca915c0d1a",
-   "type": "chapter"
-  },
-  {
-   "id": "41ae4482-be99-4024-9954-a0540fe701a3",
-   "type": "chapter"
-  },
-  {
-   "id": "bd405f4f-10e2-4500-8df9-b52d9d814d5c",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "9bbbed93-b053-4f5c-9373-cf926f970064",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:48:24+00:00",
+    "description": "",
+    "fileName": "e94c7c5f-5fd1-4357-a1ac-d5e11543ec98.jpg",
+    "updatedAt": "2021-05-24T16:48:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

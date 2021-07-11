@@ -7,6 +7,11 @@
    "title": {
     "en": "The same old Kouhai Runa Yureto"
    },
+   "altTitles": [
+    {
+     "en": "あの子はいつも揺戸瑠菜"
+    }
+   ],
    "description": {
     "en": "A story about a girl named Runa Yureto, who has Phantom Vibration Syndrome, that basically makes her not stop vibing."
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -48,6 +57,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -58,47 +69,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-10T10:03:32+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "7b281caf-bc01-4c1c-b683-c00828182877",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akatsuka Taishou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7b281caf-bc01-4c1c-b683-c00828182877",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akatsuka Taishou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ac6ca6aa-359f-4f52-abe4-1260398a5623",
-   "type": "chapter"
-  },
-  {
-   "id": "62aec59e-4005-4c67-88d6-dc6df254fd57",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "3f7bf3c8-7fa6-4f13-b8de-53c3a4764c90",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:13:44+00:00",
+    "description": "",
+    "fileName": "dd5a279a-07db-43f9-9764-9b73fc362cb1.jpg",
+    "updatedAt": "2021-05-24T18:13:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,17 @@
    "title": {
     "en": "Science vs. Magic"
    },
+   "altTitles": [
+    {
+     "en": "Kagaku to Mahou no Kakutouka-tachi"
+    },
+    {
+     "en": "Наука против Магии"
+    },
+    {
+     "en": "科学と魔法の格闘家たち"
+    }
+   ],
    "description": {
     "en": "Special one-shot! Drawn by One-Punch Man artist Yusuke Murata with story by Inukorosuke! A no-holds-barred fight between science and magic!"
    },
@@ -18,7 +29,6 @@
     "mu": "155469"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +40,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +52,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +64,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +76,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -70,51 +88,53 @@
       "name": {
        "en": "Magic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-30T01:17:45+00:00",
+   "updatedAt": "2021-05-25T15:42:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "9fd31f85-4072-4f12-a038-3e48438f8218",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inukorosuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "47cd4e57-3fc4-4d76-97e4-b3933a5b05ef",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murata Yuusuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6b993e31-926e-4392-b17c-86a09cd7e1a3",
-   "type": "chapter"
-  },
-  {
-   "id": "0b4fc5d9-f94e-46f6-b079-34960a77f898",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-   "type": "tag"
+   "id": "68253366-2dfa-4f26-a42d-8ac241a51c8e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:43:00+00:00",
+    "description": "",
+    "fileName": "72077fb5-89ab-4d5e-bec4-3824714f9803.jpg",
+    "updatedAt": "2021-05-24T17:43:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

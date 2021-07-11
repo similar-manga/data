@@ -7,11 +7,18 @@
    "title": {
     "en": "Yuusha de aru AllStars"
    },
+   "altTitles": [
+    {
+     "en": "Hero GP"
+    },
+    {
+     "en": "Yuusha GP"
+    }
+   ],
    "description": {
     "en": "Christian era Hero group vs year 300 DE Hero Group"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,39 +41,53 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-04T01:52:42+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "dd015357-05d2-42bb-bd8a-c5fe09334bff",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kotamaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "dd015357-05d2-42bb-bd8a-c5fe09334bff",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kotamaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f1ecb820-3cda-4457-960f-8c9013cb34f0",
-   "type": "chapter"
-  },
-  {
-   "id": "31304cf4-fa51-479c-8afc-05b55bd26ae3",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
+   "id": "c3e08a4a-51f9-4f5c-bb22-c6a6eafe178d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:21:16+00:00",
+    "description": "",
+    "fileName": "6f5cfffa-5861-4232-93a8-21d782941f2d.jpg",
+    "updatedAt": "2021-05-24T18:21:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

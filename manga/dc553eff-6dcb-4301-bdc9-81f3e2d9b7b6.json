@@ -7,6 +7,14 @@
    "title": {
     "en": "toaru futari no shuumatsu"
    },
+   "altTitles": [
+    {
+     "en": "A Certain Couple's Weekend"
+    },
+    {
+     "en": "とある二人の週末"
+    }
+   ],
    "description": {
     "en": "One shot form yuri hime"
    },
@@ -22,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,41 +52,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-06T13:02:40+00:00",
+   "updatedAt": "2021-05-25T15:48:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "20b745e3-8065-4eed-96b5-05a3684ed2f3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hino Arashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "20b745e3-8065-4eed-96b5-05a3684ed2f3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hino Arashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "44321401-bfed-46fe-92e9-603fd6e590a2",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
+   "id": "3fad12ca-41df-4fb5-96a8-93fea0e87c14",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:30:07+00:00",
+    "description": "",
+    "fileName": "dce1babd-721a-4a3a-aedb-449bff0939f1.png",
+    "updatedAt": "2021-05-24T18:30:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

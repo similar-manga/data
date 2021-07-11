@@ -7,6 +7,14 @@
    "title": {
     "en": "Strobe Light"
    },
+   "altTitles": [
+    {
+     "en": "Strobe Lights"
+    },
+    {
+     "en": "ストロボライト"
+    }
+   ],
    "description": {
     "en": "In the night train, Tadashi Hamazaki remembers how he met his ex-girlfriend Mika Machida... in an extraordinary way.\r\n\r\nBy the author of China Girl, and Swweeet."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,39 +63,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-18T10:35:01+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "2dea8a39-a6b4-4b6a-814f-6de12d31e1ad",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aoyama Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2dea8a39-a6b4-4b6a-814f-6de12d31e1ad",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aoyama Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b3eccfb1-d799-4ac6-bc6b-907811378f36",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "bd348a37-a162-4fe1-85c7-14aca317abb0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:54:58+00:00",
+    "description": "",
+    "fileName": "f81281dd-b869-493c-a4ba-aaa285d0d8cd.jpg",
+    "updatedAt": "2021-05-24T16:54:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

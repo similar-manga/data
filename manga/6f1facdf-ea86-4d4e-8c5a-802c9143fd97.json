@@ -7,6 +7,11 @@
    "title": {
     "en": "The Poet Who Buys Words"
    },
+   "altTitles": [
+    {
+     "en": "언어를 사는 시인"
+    }
+   ],
    "description": {
     "en": "A traveling poet who writes poems with words he buys from people... A girl with a mysterious tattoo... What are their stories?"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,47 +59,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-08-14T09:54:20+00:00",
+   "updatedAt": "2018-08-14T09:54:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "8120e144-2fb7-44a2-9c2e-27d26a8a1b0b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Uhm Jung Hyun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8120e144-2fb7-44a2-9c2e-27d26a8a1b0b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Uhm Jung Hyun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "65a019da-b5be-4885-9f9e-14b3588ed389",
-   "type": "chapter"
-  },
-  {
-   "id": "c77284ca-d105-4041-bc45-68a4b803fd84",
-   "type": "chapter"
-  },
-  {
-   "id": "ad2ef61a-b841-4b0c-bf58-122790cd59ca",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "b7c91bfa-0ade-4f4e-a7da-5588ad963a8c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:41:52+00:00",
+    "description": "",
+    "fileName": "dee922e1-3c42-4a90-8cd3-d7be915ecbbc.jpg",
+    "updatedAt": "2021-05-24T16:41:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

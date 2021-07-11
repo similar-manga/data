@@ -7,6 +7,17 @@
    "title": {
     "en": "The Cherry Orchard"
    },
+   "altTitles": [
+    {
+     "en": "Sakura no Sono"
+    },
+    {
+     "en": "Vişne Bahçesi"
+    },
+    {
+     "en": "櫻の園"
+    }
+   ],
    "description": {
     "en": "The drama club at Ouka Academy has a yearly tradition of putting Anton Chekhov's The Cherry Orchard every year for the school's founding day festival. These four interwoven tales of love and friendship focus on four girls in the drama club as they prepare for this year's presentation."
    },
@@ -31,8 +42,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,51 +56,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-21T06:39:17+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "1b2470a7-7c2c-4608-848f-eeb767b626ec",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshida Akimi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1b2470a7-7c2c-4608-848f-eeb767b626ec",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshida Akimi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fe9c1f50-01f8-4c92-9f5a-5e05269a782c",
-   "type": "chapter"
-  },
-  {
-   "id": "2bc10055-ae66-4d29-802c-764f6e6ec664",
-   "type": "chapter"
-  },
-  {
-   "id": "f85b382f-2458-40af-a29e-4976b0b9a7a1",
-   "type": "chapter"
-  },
-  {
-   "id": "a6406de4-f0d1-4a54-b37c-dd2047b0794a",
-   "type": "chapter"
-  },
-  {
-   "id": "6884e599-e393-4b3e-8706-002bb0c55f68",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "bcd81d78-40ca-4fa1-ada6-3e0fc9329f5b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:12+00:00",
+    "description": "",
+    "fileName": "7ba77651-7f7b-473a-966e-29c386358f62.jpg",
+    "updatedAt": "2021-05-24T16:55:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

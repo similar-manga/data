@@ -5,16 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Our Country\u0026rsquo;s Hero"
+    "en": "Our Country’s Hero"
    },
+   "altTitles": [
+    {
+     "en": "国之盾牌"
+    }
+   ],
    "description": {
     "en": "Three years ago, in order to solve the shocking drug case, National Security Investigator Wang Ye broke into the criminal gang to collect evidence, but was imprisoned because he was missing on the line and could not prove his undercover identity. Three years later, the unsung hero returns, he is lurking for justice again!"
    },
    "links": {
     "raw": "http://m.kuman55.com/12173/"
    },
-   "originalLanguage": "zh-hk",
-   "lastChapter": "0",
+   "originalLanguage": "zh",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,6 +53,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +65,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -65,43 +77,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-10-02T15:15:33+00:00",
+   "updatedAt": "2020-10-02T15:15:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "6e77ded5-ce4d-4d0e-b08d-869dcf52d031",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "彩竹文化",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "99534993-bbfc-4f0c-84d6-9b6451a7a539",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:12:56+00:00",
+    "description": "",
+    "fileName": "c72d43fb-1d8d-47a3-a185-7a4a4edce935.jpg",
+    "updatedAt": "2021-05-24T18:12:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

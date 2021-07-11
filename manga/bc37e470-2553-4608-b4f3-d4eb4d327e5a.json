@@ -7,6 +7,11 @@
    "title": {
     "en": "Cream and Cat"
    },
+   "altTitles": [
+    {
+     "en": "クリームと猫"
+    }
+   ],
    "description": {
     "en": "Too deeply in love Model x Hairdresser who isn't good at being alone!\r\nThe feelings of two people continue to fall apart...\r\nHaru, who has been cheated on by his girlfriends twice in a row, was bewildered to learn that the affair they had was with the same guy.\r\nHaru is agonizing over why they are tormenting him like this, and is surprised when this exact guy suddenly comes to his house...\r\nWhat is his purpose, why does he put his hands on himself AND his girlfriends? And what is the answer to all of this..."
    },
@@ -25,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,8 +40,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +54,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -55,47 +66,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-02T08:36:25+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "2cb0271e-52f6-4e95-b16c-7697c90c2647",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Doji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2cb0271e-52f6-4e95-b16c-7697c90c2647",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Doji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9d083447-1f2d-42a6-b7de-9fe6ebe8b782",
-   "type": "chapter"
-  },
-  {
-   "id": "5d032eec-dadd-4edd-836e-90a3dc369661",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "18d54e7f-61e5-4f7e-b851-e799eadb8bb2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:05:12+00:00",
+    "description": "",
+    "fileName": "6f7444dc-e508-42a9-9632-58c21b51761a.jpg",
+    "updatedAt": "2021-05-24T18:05:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

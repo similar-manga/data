@@ -16,7 +16,6 @@
     "mu": "7736"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -27,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +38,8 @@
       "name": {
        "en": "Incest"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -45,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,51 +74,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-23T08:31:40+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "9b15d49f-822c-4342-9968-637428dcdeb4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Konno Kita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9b15d49f-822c-4342-9968-637428dcdeb4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Konno Kita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d8e01020-99a5-4fad-9a33-e32937237981",
-   "type": "chapter"
-  },
-  {
-   "id": "57b8da55-fb67-4fbb-824e-b70baeeec451",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5bd0e105-4481-44ca-b6e7-7544da56b1a3",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "c0999d47-b5b3-4f00-84a4-a992f9fd5b1d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:23:48+00:00",
+    "description": "",
+    "fileName": "d54657b9-4027-4cf1-8194-a043045762f4.jpg",
+    "updatedAt": "2021-05-24T17:23:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

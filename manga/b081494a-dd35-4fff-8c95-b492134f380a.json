@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "JoJo's Bizarre Adventure - Jekyll \u0026amp; Hyde 5M (Doujinshi)"
+    "en": "JoJo's Bizarre Adventure - Jekyll \u0026 Hyde 5M (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "JEKYLLとHYDEの５ｍ"
+    },
+    {
+     "en": "Jojo Part 5 Doujinshi"
+    }
+   ],
    "description": {
-    "en": "\u0026quot;I believe that a Stand's appearance deeply reflects the User's mentality.\u0026quot; English translated and typeset version of Royen's one-shot manga centering around Pannacotta Fugo; \u0026quot;Jekyll and Hyde 5M\u0026quot;."
+    "en": "\"I believe that a Stand's appearance deeply reflects the User's mentality.\" English translated and typeset version of Royen's one-shot manga centering around Pannacotta Fugo; \"Jekyll and Hyde 5M\"."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +54,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +66,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -63,6 +78,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -73,6 +90,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -83,6 +102,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -93,59 +114,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-03T03:14:04+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "6948dc95-54bd-48ec-a046-ea468e3623b8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Royen",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6948dc95-54bd-48ec-a046-ea468e3623b8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Royen",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1d35dff9-5743-4b29-b405-27160ac48698",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "ee2310ce-ad8e-4fd0-a600-eda1efe6192d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:17:33+00:00",
+    "description": "",
+    "fileName": "a366b87c-9474-49a3-a3b6-970967412461.jpg",
+    "updatedAt": "2021-05-24T17:17:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

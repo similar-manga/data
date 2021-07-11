@@ -7,6 +7,26 @@
    "title": {
     "en": "Hidoku Shinai de Plus+"
    },
+   "altTitles": [
+    {
+     "en": "Don't Be Cruel: Plus+"
+    },
+    {
+     "en": "Hidoku Shinai de +"
+    },
+    {
+     "en": "Hidoku Shinai de Plus+"
+    },
+    {
+     "en": "Hidoku Shinaide Plus+"
+    },
+    {
+     "en": "Hidoku Shinaide+"
+    },
+    {
+     "en": "酷くしないでPlus＋"
+    }
+   ],
    "description": {
     "en": "A collection of unrelated stories from the life of Maya and Nemu."
    },
@@ -32,6 +52,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +64,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,8 +74,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +88,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -72,6 +100,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -82,6 +112,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -92,91 +124,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-06T05:33:30+00:00",
+   "updatedAt": "2021-05-25T15:43:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "1696b018-ca96-45cc-8c17-b30cc1432170",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nekota Yonezou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1696b018-ca96-45cc-8c17-b30cc1432170",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nekota Yonezou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0b1a30e0-693b-4b4e-8ef1-c0e7f9d7ce97",
-   "type": "chapter"
-  },
-  {
-   "id": "1c32a556-5a5b-4f6c-a5e3-3401da8e64ba",
-   "type": "chapter"
-  },
-  {
-   "id": "63f8a285-dc8b-4781-91ed-49290ddc1deb",
-   "type": "chapter"
-  },
-  {
-   "id": "d0200fce-dadc-42ea-817f-fae4233edc42",
-   "type": "chapter"
-  },
-  {
-   "id": "9313c92f-25ef-493b-a3fd-7dd2f1ee7adf",
-   "type": "chapter"
-  },
-  {
-   "id": "1ac39ed7-c7fa-47c2-b7e4-8520c9ec681c",
-   "type": "chapter"
-  },
-  {
-   "id": "3f5f2c07-7c61-4d9d-b720-a5fb315f1e46",
-   "type": "chapter"
-  },
-  {
-   "id": "3982e4b3-915d-4e96-bd4f-86b1a391184a",
-   "type": "chapter"
-  },
-  {
-   "id": "d162a479-02f9-47fc-9a0b-2c6916bdebf0",
-   "type": "chapter"
-  },
-  {
-   "id": "22d828b4-d8b1-4e72-bc62-77153fb43e64",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "daa2e7e9-e479-4f95-8b55-ee37df56689c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:07:03+00:00",
+    "description": "",
+    "fileName": "e71cb178-7045-4ccb-906d-7a2bec32eda0.jpg",
+    "updatedAt": "2021-05-24T17:07:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

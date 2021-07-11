@@ -7,6 +7,14 @@
    "title": {
     "en": "The Story of a White Mouse"
    },
+   "altTitles": [
+    {
+     "en": "Die Geschichte einer weißen Maus"
+    },
+    {
+     "en": "어느 흰 쥐의 이야기"
+    }
+   ],
    "description": {
     "en": "A short one-strip oneshot about a life of a certain white mouse."
    },
@@ -14,7 +22,6 @@
     "mu": "64501"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +33,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +45,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +57,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,47 +69,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-04T02:18:37+00:00",
+   "updatedAt": "2021-05-25T15:39:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "0c3d31e3-f01f-465a-b7d7-095b2dc4f049",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oo-Gi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0c3d31e3-f01f-465a-b7d7-095b2dc4f049",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oo-Gi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "83ff267d-3f59-4591-965d-8af285fd7250",
-   "type": "chapter"
-  },
-  {
-   "id": "72c1f585-22cb-48c2-bcf3-c027bfed5142",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "8d5ae65f-ccac-4f54-892a-63d5229994ff",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:36:40+00:00",
+    "description": "",
+    "fileName": "1a9e5a91-d647-4728-9347-2a4076dfd555.jpg",
+    "updatedAt": "2021-05-24T17:36:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

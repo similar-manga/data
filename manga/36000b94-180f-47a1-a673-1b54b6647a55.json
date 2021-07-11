@@ -7,6 +7,11 @@
    "title": {
     "en": "Salomelic"
    },
+   "altTitles": [
+    {
+     "en": "さろめりっく"
+    }
+   ],
    "description": {
     "en": "Salome moves around a lot with her mother. She's learned not to get too close to anyone at each new school, or to let them find out her secret: she's a witch! \r\n\r\nWhen the sunny Hikari tries to make friends with her, Salome thinks she's just being nice out of obligation, so she decides to find out what Hikari really thinks of her..."
    },
@@ -28,8 +33,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,63 +71,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-29T00:17:13+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "b632eb9e-cb83-4c46-8538-aa3c72e8dc90",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hakamada Mera",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b632eb9e-cb83-4c46-8538-aa3c72e8dc90",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hakamada Mera",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5a191880-cb00-48e5-b121-2152d7ec60ab",
-   "type": "chapter"
-  },
-  {
-   "id": "38fbf9db-07b5-4bd8-a7ff-56c449c744fd",
-   "type": "chapter"
-  },
-  {
-   "id": "93d2f914-2399-4182-a195-6f21d8fa56f5",
-   "type": "chapter"
-  },
-  {
-   "id": "394a74df-ce21-43ec-8082-ebba4696a705",
-   "type": "chapter"
-  },
-  {
-   "id": "7fca88d4-8ccf-4805-a4c7-1708050c404d",
-   "type": "chapter"
-  },
-  {
-   "id": "4c8a1173-d0db-4bfd-ac3e-05a7e0a04f61",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "887aa436-afbc-4fe5-91bd-1cc3a6123e59",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:43:17+00:00",
+    "description": "",
+    "fileName": "a35229ea-a623-440c-a9d6-c8345400e1fe.jpg",
+    "updatedAt": "2021-05-24T16:43:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

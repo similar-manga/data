@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Kimetsu no Yaiba - Kanao \u0026rarr;Tanjirou (Doujinshi)"
+    "en": "Kimetsu no Yaiba - Kanao →Tanjirou (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "TanKana (Kanao →Tanjirou)"
+    },
+    {
+     "en": "炭カナ(カナ→炭)"
+    }
+   ],
    "description": {
     "en": "[b]Links:[/b]\r\n[*][url=https://twitter.com/mutospectacle]Artist's Twitter[/url]\r\n[*][url=https://www.pixiv.net/member.php?id=26177160]Artist's Pixiv[/url]"
    },
@@ -22,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +54,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -52,43 +66,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-14T19:07:50+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "c1c84f24-a73f-4a78-acb3-5971a062b30c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "mutospectacle",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c1c84f24-a73f-4a78-acb3-5971a062b30c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "mutospectacle",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "25c8c02b-955c-452c-910c-5d2206b40fe3",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "c4cd0328-f750-4fc9-9bea-bc484b5e3054",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:48:35+00:00",
+    "description": "",
+    "fileName": "108f770d-7a24-44ca-8032-b9895041a8ae.png",
+    "updatedAt": "2021-05-24T17:48:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Signal 100"
    },
+   "altTitles": [
+    {
+     "en": "シグナル100"
+    }
+   ],
    "description": {
     "en": "A group of high school students were spending their peaceful days freely until they have been chosen as the participants of the game where everyone is being hypnotized until they commit suicide. No one is safe from a sudden death, so what will they do to avoid their fates?"
    },
@@ -33,6 +38,8 @@
       "name": {
        "en": "Thriller"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +50,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +62,8 @@
       "name": {
        "en": "Survival"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -63,6 +74,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -73,6 +86,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -83,6 +98,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -93,6 +110,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -103,6 +122,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -113,99 +134,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-05T13:19:44+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "a573ec48-4713-4246-8dd5-8b23cdd99228",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyatsuki Arata",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6af8e2e3-45ed-4630-99e9-1cbbc268b513",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kondou Shigure",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9ce6b32c-5b1a-4ce1-98d9-1c28f585f431",
-   "type": "chapter"
-  },
-  {
-   "id": "533e5d41-06ef-4ad3-85b9-ec2c3c1defc2",
-   "type": "chapter"
-  },
-  {
-   "id": "e4957297-5df5-4c9c-b85c-53da36410495",
-   "type": "chapter"
-  },
-  {
-   "id": "48b2d52b-88fe-42df-9301-dd2fe5a32f14",
-   "type": "chapter"
-  },
-  {
-   "id": "b6b91379-d253-4b62-bba5-6e9b41568204",
-   "type": "chapter"
-  },
-  {
-   "id": "54968ed1-be32-4213-9278-31d4d2f5da54",
-   "type": "chapter"
-  },
-  {
-   "id": "5a0ac0d8-29fd-4301-a208-1c8e59072a3a",
-   "type": "chapter"
-  },
-  {
-   "id": "258fdfdb-42c1-475a-a588-ae7c2125c0d9",
-   "type": "chapter"
-  },
-  {
-   "id": "18abe6cb-e5b8-48e0-ab7f-688e4250024c",
-   "type": "chapter"
-  },
-  {
-   "id": "945eb55d-329b-4ec5-a18a-96b25619fa2d",
-   "type": "chapter"
-  },
-  {
-   "id": "07251805-a27e-4d59-b488-f0bfbec15168",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "2a4c7056-010c-4f3a-b860-50f95c092597",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:58:20+00:00",
+    "description": "",
+    "fileName": "26800640-0e6c-43bf-88dd-b846312da079.jpg",
+    "updatedAt": "2021-05-24T17:58:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

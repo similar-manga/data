@@ -7,6 +7,14 @@
    "title": {
     "en": "Mewtwo no Gyakushuu"
    },
+   "altTitles": [
+    {
+     "en": "Pokémon: Mewtwo Strikes Back!"
+    },
+    {
+     "en": "ポケットモンスター ミュウツーの逆襲"
+    }
+   ],
    "description": {
     "en": "Satoshi and company are challenged by a strange, cloaked pokemon, known to the reader as Team Rocket's genetic monster, Mewtwo. It's up to Satoshi to challenge this mysterious being..."
    },
@@ -23,6 +31,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +43,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +55,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +67,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -63,47 +79,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-11-05T06:48:19+00:00",
+   "updatedAt": "2019-11-05T06:48:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "cb46da7d-4a47-41a5-a975-4eb6dd02deeb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ono Toshihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cb46da7d-4a47-41a5-a975-4eb6dd02deeb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ono Toshihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6363078d-c909-4ce5-bc77-9725eb226ff7",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "e682b625-0579-4f54-86c5-704da8dc8c3c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:40+00:00",
+    "description": "",
+    "fileName": "ccb3c752-ffe2-4c21-ac6c-d7eeb811a821.jpg",
+    "updatedAt": "2021-05-24T17:32:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

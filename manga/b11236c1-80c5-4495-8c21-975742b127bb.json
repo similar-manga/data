@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Hypnosis Mic -Division Rap Battle- side B.B \u0026amp; M.T.C"
+    "en": "Hypnosis Mic -Division Rap Battle- side B.B \u0026 M.T.C"
    },
+   "altTitles": [
+    {
+     "en": "ヒプノシスマイク -Division Rap Battle- side B.B \u0026 M.T.C"
+    }
+   ],
    "description": {
     "en": "Manga adaptation of the divisions from Hypnosis Microphone, Buster Bros!!! and MAD TRIGGER CREW.\r\n\r\nEvil Line Records is responsible for the original work, while Yuichiro Momose is the franchise's scenario writer."
    },
@@ -17,7 +22,6 @@
     "mu": "150192"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -29,6 +33,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,35 +45,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-24T11:40:48+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "1820bd01-d43b-4f87-a121-1713516d74ac",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yuichiro Momose",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "95ceff81-a4d2-4a7b-91df-1f4a803a8537",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tetsuji Kanie",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "71fc8b99-878e-4418-8ea1-1da3d15e1c11",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "526c4988-af14-4f3c-a7a5-7546a6c6dc55",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:27:45+00:00",
+    "description": "",
+    "fileName": "81b554ea-73a9-43c2-a3d8-7e10ef1ed789.png",
+    "updatedAt": "2021-05-24T17:27:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

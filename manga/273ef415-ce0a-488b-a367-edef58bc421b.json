@@ -7,6 +7,11 @@
    "title": {
     "en": "Tabun Couple"
    },
+   "altTitles": [
+    {
+     "en": "Maybe a couple"
+    }
+   ],
    "description": {
     "en": "Childhood friends become lovers"
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,47 +55,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-26T00:01:29+00:00",
+   "updatedAt": "2021-05-25T15:40:28+00:00"
   }
  },
  "relationships": [
   {
    "id": "338f30ef-eb85-4125-a4f8-1a3b8ab8d8f4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NISHINO Hina",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "338f30ef-eb85-4125-a4f8-1a3b8ab8d8f4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NISHINO Hina",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c7f054da-5670-483d-a664-1a4a8ba67da3",
-   "type": "chapter"
-  },
-  {
-   "id": "cdd72a56-328c-457a-8d08-bba9220fc347",
-   "type": "chapter"
-  },
-  {
-   "id": "6363dfbf-8214-4b1d-a3f8-e5219d10d640",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "c2db806b-2a10-4fa0-91e6-402d534057b2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:21+00:00",
+    "description": "",
+    "fileName": "954e170b-4695-4f04-81c9-f0ef7b84d714.jpg",
+    "updatedAt": "2021-05-24T17:20:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

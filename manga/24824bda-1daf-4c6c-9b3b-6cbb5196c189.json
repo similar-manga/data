@@ -14,7 +14,6 @@
     "raw": "https://romiromi-yuri.tumblr.com/post/178843629201"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,8 +34,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +48,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -55,47 +60,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-28T03:46:13+00:00",
+   "updatedAt": "2021-05-25T15:40:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "febec0c0-04e8-4b3d-a804-7ccb6512eae8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Rokuromi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "febec0c0-04e8-4b3d-a804-7ccb6512eae8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Rokuromi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9fcec1ea-c2a2-456a-bd30-a8218652e3c5",
-   "type": "chapter"
-  },
-  {
-   "id": "5259180d-57b6-4dfe-a521-e0103e0acc90",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "aee63293-d3ec-4fcf-b729-db1f7cc421fb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:24:22+00:00",
+    "description": "",
+    "fileName": "ce71f68b-cddd-496a-bf12-4afa77ff0f2c.png",
+    "updatedAt": "2021-05-24T17:24:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

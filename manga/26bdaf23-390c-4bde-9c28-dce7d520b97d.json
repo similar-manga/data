@@ -7,6 +7,14 @@
    "title": {
     "en": "Gokuto Jihen"
    },
+   "altTitles": [
+    {
+     "en": "Underworld Capital Incident"
+    },
+    {
+     "en": "獄都事変"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -34,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +54,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,6 +66,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -64,71 +78,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-26T17:13:59+00:00",
+   "updatedAt": "2021-05-25T15:40:28+00:00"
   }
  },
  "relationships": [
   {
    "id": "a8bcda64-c0fb-4a26-8d94-2950cd3973d7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Rinne Dou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fc77ff3c-7de8-48de-86e5-f0230cc4a26e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aono Nachi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "895c9cde-27ae-4423-9632-e2724921d359",
-   "type": "chapter"
-  },
-  {
-   "id": "5ad2c416-3420-4e6f-a7f6-2d06f0e47982",
-   "type": "chapter"
-  },
-  {
-   "id": "d92eea62-1070-4f25-811c-1efe26e84d09",
-   "type": "chapter"
-  },
-  {
-   "id": "55e44d55-af87-4f23-9d00-2f74b5dd4e85",
-   "type": "chapter"
-  },
-  {
-   "id": "80038113-f0aa-40e8-a764-df026a7551ba",
-   "type": "chapter"
-  },
-  {
-   "id": "ecc436c6-756a-4f81-8696-c8ba5bd2d8eb",
-   "type": "chapter"
-  },
-  {
-   "id": "9dc9698d-942c-4793-9613-c394bd9fbe6c",
-   "type": "chapter"
-  },
-  {
-   "id": "69027a38-a326-4090-bf73-ae9a32496435",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "5f60f17a-8a5c-4f8d-9eca-b3c634bdd69e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:52:48+00:00",
+    "description": "",
+    "fileName": "7828a934-1f25-4cec-a4f3-c84f25b962b2.jpg",
+    "updatedAt": "2021-05-24T16:52:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

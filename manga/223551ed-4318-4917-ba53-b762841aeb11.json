@@ -7,6 +7,11 @@
    "title": {
     "en": "At 9am. I was in front of the TV."
    },
+   "altTitles": [
+    {
+     "en": "午前9時にはテレビの前で。"
+    }
+   ],
    "description": {
     "en": "Short story about 2 people in the entertainment industry"
    },
@@ -14,7 +19,6 @@
     "raw": "https://twitter.com/m0721804/status/1225740514680397825"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,39 +53,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-15T04:25:16+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "d69be8cf-0148-4b28-9cb3-9e7e9c221311",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kudo Makoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d69be8cf-0148-4b28-9cb3-9e7e9c221311",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kudo Makoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "908f3e24-877b-4435-8a08-a523313c8356",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "069af685-af74-4fc0-b231-2b13cd6da9eb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:00+00:00",
+    "description": "",
+    "fileName": "e1b6213b-7cf6-4eeb-8fb3-c9ad86d061e4.jpg",
+    "updatedAt": "2021-05-24T17:56:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

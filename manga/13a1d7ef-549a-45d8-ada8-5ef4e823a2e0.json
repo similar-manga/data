@@ -7,6 +7,11 @@
    "title": {
     "en": "Yandere vs. Yandere"
    },
+   "altTitles": [
+    {
+     "en": "ヤンデレvsヤンデレ"
+    }
+   ],
    "description": {
     "en": "Author's Twitter: [url=https://twitter.com/no_1090]@no_1090[/url]"
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +55,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -56,47 +67,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-12-07T02:21:44+00:00",
+   "updatedAt": "2019-12-07T02:21:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "0cd2b737-4e24-472d-88d3-c342e1474835",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsukamoto Yumehiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0cd2b737-4e24-472d-88d3-c342e1474835",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsukamoto Yumehiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3a1cba06-2b9e-475f-86d8-51e14eb24c42",
-   "type": "chapter"
-  },
-  {
-   "id": "8c36d2c6-bef4-4176-9b56-502d08a71442",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "3d265aac-bd78-4f88-bf30-a2ea209c1f34",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:36:34+00:00",
+    "description": "",
+    "fileName": "12dc86c8-e121-4179-9acd-b229e2793fb2.png",
+    "updatedAt": "2021-05-24T17:36:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

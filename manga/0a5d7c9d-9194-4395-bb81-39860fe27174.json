@@ -11,7 +11,6 @@
     "en": "A MOTHER 3 doujin about the Ultimate Chimera escaping the Chimera Laboratory."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Monsters"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +57,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -62,6 +69,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -72,51 +81,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-21T04:05:44+00:00",
+   "updatedAt": "2021-05-25T15:39:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "d0024a53-f461-4182-9868-d88d5a994e6d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "chico",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d0024a53-f461-4182-9868-d88d5a994e6d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "chico",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ad9643dd-77e9-4d20-a484-e33a94eab2a5",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "97ec8841-39f6-4f6e-a97c-2d93316f9ed0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:15:29+00:00",
+    "description": "",
+    "fileName": "b9274a7a-e222-4c78-b71b-0d3a8e337404.jpg",
+    "updatedAt": "2021-05-24T18:15:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,8 +5,25 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Ordinary\u0026plusmn;"
+    "en": "Ordinary±"
    },
+   "altTitles": [
+    {
+     "en": "Ordinary"
+    },
+    {
+     "en": "Ordinary Plus Minus"
+    },
+    {
+     "en": "Ordinary+-"
+    },
+    {
+     "en": "オーディナリー プラスマイナス"
+    },
+    {
+     "en": "オーディナリー±"
+    }
+   ],
    "description": {
     "en": "Imari Matoba looks to be an ordinary, physically-weak high-school student. But this quiet, nondescript girl is actually an assassin - a top gunfighter with unlimited potential who can take down several armed men at once..."
    },
@@ -29,6 +46,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +58,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,55 +70,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-13T20:21:39+00:00",
+   "updatedAt": "2021-05-25T15:38:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "ee30d44f-1e95-4510-b97b-9495232a93ac",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Keitarou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ee30d44f-1e95-4510-b97b-9495232a93ac",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Keitarou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e66d315a-5775-4a8e-8acf-c20c46b5b987",
-   "type": "chapter"
-  },
-  {
-   "id": "75117c11-ec91-4fcd-9e8f-e09c8aac1818",
-   "type": "chapter"
-  },
-  {
-   "id": "fdcf7254-2e45-49c3-a7e6-f79ea16c78c4",
-   "type": "chapter"
-  },
-  {
-   "id": "40ae8dda-84fe-4d9f-b82e-1a8a3d06fb38",
-   "type": "chapter"
-  },
-  {
-   "id": "1cf171ee-cd77-4e17-8789-17a010842b6e",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "52c42283-ca86-4f70-8da4-aefae14ffde4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:19:49+00:00",
+    "description": "",
+    "fileName": "7a86cee8-7cea-46fe-a3e4-7286adf79d36.jpg",
+    "updatedAt": "2021-05-24T18:19:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

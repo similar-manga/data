@@ -11,7 +11,6 @@
     "en": "Baby Junna and Baby Nana do things.\r\n\r\nSource: https://twitter.com/hamc9162/status/1123312037654740992\r\nGive the author a follow and a retweet if you will."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,8 +31,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,39 +45,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-07T08:10:00+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "1bb4c8dd-3aa7-4711-b9a2-08ee69777b79",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "hamc9162",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1bb4c8dd-3aa7-4711-b9a2-08ee69777b79",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "hamc9162",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c5fc8748-bd8c-4bc3-9cf9-a5e63bced220",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "fa2c808b-ec8a-4f52-b28d-531018b3516c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:36:35+00:00",
+    "description": "",
+    "fileName": "61e0e9ef-a1e4-4d3c-826b-3bd65bbb5859.jpg",
+    "updatedAt": "2021-05-24T17:36:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

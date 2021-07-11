@@ -14,7 +14,6 @@
     "ap": "love-story-not"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,35 +37,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-25T00:50:22+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "8242f4e8-8768-4b30-a445-0c6646924941",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "JUNG Gwa Jang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8242f4e8-8768-4b30-a445-0c6646924941",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "JUNG Gwa Jang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fbf35c8d-c06b-4aca-92a0-53cde5533cf1",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "ba95d477-d2e1-4f60-b68d-e7dc6cf4b656",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:24:02+00:00",
+    "description": "",
+    "fileName": "0bf52188-297e-4d9b-8636-c1948f42854f.png",
+    "updatedAt": "2021-05-24T17:24:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -11,7 +11,6 @@
     "en": "Character book with curiosities, summaries, analyzes and recapitulation of events up to the first volumes of Ring ni Kakero 2."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -43,6 +46,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,6 +58,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,43 +70,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-09-23T15:26:12+00:00",
+   "updatedAt": "2020-09-23T15:26:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "75c02982-6af3-4d51-86eb-0cb5fc96e4b0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurumada Masami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "75c02982-6af3-4d51-86eb-0cb5fc96e4b0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurumada Masami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "8ba90a69-1ae1-4fd9-a8ab-58ebfd02021b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:11:49+00:00",
+    "description": "",
+    "fileName": "fd0baf3e-db16-46db-93f1-78b9439dfc1e.jpg",
+    "updatedAt": "2021-05-24T18:11:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

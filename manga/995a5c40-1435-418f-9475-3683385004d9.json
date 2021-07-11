@@ -7,6 +7,17 @@
    "title": {
     "en": "Sano-kun wa Ijiwaru"
    },
+   "altTitles": [
+    {
+     "en": "Sano, You are Meanie!"
+    },
+    {
+     "en": "佐野くんはいじわる"
+    },
+    {
+     "en": "佐野君好坏坏"
+    }
+   ],
    "description": {
     "en": "Sano, the handsome and popular guy who sits next to me in class, has made it his hobby to tease me. He always acts like a prince in front of his other friends, so why am I the only one he treats this way? Somehow, though, despite his nosiness, he still always pays attention to me. It's the kind of nosiness that could make a girl's heart skip a beat!"
    },
@@ -28,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,55 +63,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-20T04:21:59+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "3b2c6865-557f-4d38-a4f8-fd59a78dd1d5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Senri Miko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3b2c6865-557f-4d38-a4f8-fd59a78dd1d5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Senri Miko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4af8cfd6-8855-420f-9cb5-1cbed2ab356d",
-   "type": "chapter"
-  },
-  {
-   "id": "415f3c93-5d56-45e5-8aed-6febd29978ac",
-   "type": "chapter"
-  },
-  {
-   "id": "0c91eae6-2cab-42c9-853e-598931d831ef",
-   "type": "chapter"
-  },
-  {
-   "id": "619846d5-bb42-4324-b765-76388a62eb57",
-   "type": "chapter"
-  },
-  {
-   "id": "2718f3c4-dadb-42fa-a68e-32bdc2e25a46",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "41e4f2c6-a254-4f14-b22c-aa084d87d989",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:51+00:00",
+    "description": "",
+    "fileName": "14a5ac36-fcfd-4505-a259-72a4f8165c4f.jpg",
+    "updatedAt": "2021-05-24T17:41:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

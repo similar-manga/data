@@ -7,6 +7,17 @@
    "title": {
     "en": "Clear Color"
    },
+   "altTitles": [
+    {
+     "en": "Berrak Renkler"
+    },
+    {
+     "en": "Clear Colour"
+    },
+    {
+     "en": "لون واضح"
+    }
+   ],
    "description": {
     "en": "My world has always been a colorless bubble. But she burst it with nothing more than her smile and her words, turning it into a kaleidoscope of vibrant colors.\r\n\r\n(Source: Batoto)"
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +78,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -71,55 +90,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-25T07:57:23+00:00",
+   "updatedAt": "2021-05-25T15:45:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "4169f178-459e-47de-8227-b44438f1476a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HOSHIYA Kaori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4169f178-459e-47de-8227-b44438f1476a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HOSHIYA Kaori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0326ac10-c730-4189-b965-2860cf11c7e3",
-   "type": "chapter"
-  },
-  {
-   "id": "3599c8f8-6697-4e1b-8978-9192b36366df",
-   "type": "chapter"
-  },
-  {
-   "id": "ad9dffb7-30c0-46e3-8726-89586da58dc7",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0019eaaa-f0e7-4f0f-bc54-5a85dc8cd45a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:19+00:00",
+    "description": "",
+    "fileName": "2c3c4418-0cb9-4ed6-821e-a5ff51a1c50c.jpg",
+    "updatedAt": "2021-05-24T16:49:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

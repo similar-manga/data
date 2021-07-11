@@ -7,6 +7,11 @@
    "title": {
     "en": "You're the best! Furby-kun!!"
    },
+   "altTitles": [
+    {
+     "en": "C'est toi le meilleur ! Furby-kun !!"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -22,6 +27,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,39 +39,53 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-07T11:32:26+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "23f36bfa-3cbf-47f2-8639-28820a0313f4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Unknown",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "23f36bfa-3cbf-47f2-8639-28820a0313f4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Unknown",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8b40a6ca-3fe9-43fb-8837-ec1705370a1b",
-   "type": "chapter"
-  },
-  {
-   "id": "1bfdab68-de1c-419a-8e54-775f90238c79",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
+   "id": "c014d03b-dbe1-4fa7-a312-66e494962f26",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:29:19+00:00",
+    "description": "",
+    "fileName": "b029f95a-1c5a-42d2-bc21-f7fab1acf0f9.png",
+    "updatedAt": "2021-05-24T17:29:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Crows Ladies"
    },
+   "altTitles": [
+    {
+     "en": "クローズLadies"
+    }
+   ],
    "description": {
     "en": "Experience some of Crows' most iconic chapters in an entirely new and exciting (read: genderbending and saucy) way!"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,59 +47,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-07T10:58:58+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "4115e9c0-79b7-4dbc-addd-8dd477465f15",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Suzuki Dai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4115e9c0-79b7-4dbc-addd-8dd477465f15",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Suzuki Dai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c6cb02b2-5850-4ce8-9682-929a43464203",
-   "type": "chapter"
-  },
-  {
-   "id": "35d00929-36df-48b3-9151-9cad652541bf",
-   "type": "chapter"
-  },
-  {
-   "id": "1a6ef3c2-e024-480a-99c6-d2ef331811cd",
-   "type": "chapter"
-  },
-  {
-   "id": "61fd75c8-27a2-4e27-a6f2-a8d45c5522a3",
-   "type": "chapter"
-  },
-  {
-   "id": "3ff9a2f0-b983-4b34-b632-25ead4753106",
-   "type": "chapter"
-  },
-  {
-   "id": "93d8e451-0a5e-45bd-bc23-06029ee4f14b",
-   "type": "chapter"
-  },
-  {
-   "id": "d6fd1e24-7c27-4b33-a859-67029848a420",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "9625e2f1-198e-4fd4-b3a9-2fb04da10319",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:43+00:00",
+    "description": "",
+    "fileName": "7b0c2a3c-0e72-4613-b4cc-c7a78b846645.jpg",
+    "updatedAt": "2021-05-24T16:50:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

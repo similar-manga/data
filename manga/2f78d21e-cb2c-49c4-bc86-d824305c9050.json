@@ -7,6 +7,11 @@
    "title": {
     "en": "Phobia"
    },
+   "altTitles": [
+    {
+     "en": "フォビア"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -15,7 +20,6 @@
     "mu": "176116"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -27,6 +31,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +43,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -47,6 +55,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,55 +67,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-20T09:27:07+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "c0fcfb71-fd2d-4833-a7d6-2c577563b88b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hara Katsunori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3030cbbb-6b12-420e-becc-67d78136f425",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Gotou Yukiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "46fe621e-ebba-4423-b950-d948b421274d",
-   "type": "chapter"
-  },
-  {
-   "id": "bca74479-6000-4b51-8746-f2065ba8f304",
-   "type": "chapter"
-  },
-  {
-   "id": "327f546e-0649-4fdb-970d-b0616b6adbd4",
-   "type": "chapter"
-  },
-  {
-   "id": "9e7e5cc5-4bec-438b-bbfb-7c30755143d6",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "d7fd87cb-f206-4fcc-a054-507087e23e6c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:27:59+00:00",
+    "description": "",
+    "fileName": "5b26035a-9212-4137-bbad-397d3225c367.jpg",
+    "updatedAt": "2021-05-24T18:27:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

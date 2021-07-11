@@ -27,6 +27,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +39,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +63,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -67,6 +75,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -77,6 +87,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -87,67 +99,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-10T12:25:26+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "1d1457b6-39c9-4a36-b260-b1e8402c0fca",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Madobuchiya (Nishin)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1d1457b6-39c9-4a36-b260-b1e8402c0fca",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Madobuchiya (Nishin)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f7c38a8a-c0b9-44a3-9b81-9be5348774fc",
-   "type": "chapter"
-  },
-  {
-   "id": "7d2ee328-3ab9-4534-8fdb-bbb217b1e7d5",
-   "type": "chapter"
-  },
-  {
-   "id": "49898f56-d8aa-4040-b515-7bd16a72ee73",
-   "type": "chapter"
-  },
-  {
-   "id": "39581daa-2a66-4fdc-aee5-48f0c04469a8",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "14e49f9b-ba62-4fe3-b418-24e3443dbb2c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:03+00:00",
+    "description": "",
+    "fileName": "2b615b17-9e41-4600-a267-dc29109c844f.jpg",
+    "updatedAt": "2021-05-24T17:04:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

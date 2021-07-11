@@ -7,6 +7,11 @@
    "title": {
     "en": "Back to the Hero"
    },
+   "altTitles": [
+    {
+     "en": "バック・トゥ・ザ・ヒーロー"
+    }
+   ],
    "description": {
     "en": "The miraculous encounter that changed my entire world."
    },
@@ -19,7 +24,6 @@
     "mu": "98645"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -31,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,51 +71,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-24T14:00:54+00:00",
+   "updatedAt": "2021-05-25T15:44:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "45c7851d-b8d8-4471-8520-ef3789e7dc78",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Houzuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "45c7851d-b8d8-4471-8520-ef3789e7dc78",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Houzuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c3f1eb2f-2d70-4bbe-bcb7-992c148028ed",
-   "type": "chapter"
-  },
-  {
-   "id": "6f86709b-3230-4b3e-90ae-562454953c84",
-   "type": "chapter"
-  },
-  {
-   "id": "76c4f087-f261-432d-a228-49612471a39e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "4b255918-abae-4f82-8b1a-888ab4c63482",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:13+00:00",
+    "description": "",
+    "fileName": "e21a5c2d-7ace-4103-a49f-451ea3f69fc0.jpg",
+    "updatedAt": "2021-05-24T16:49:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

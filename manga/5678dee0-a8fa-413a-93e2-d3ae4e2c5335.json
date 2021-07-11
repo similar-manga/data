@@ -7,6 +7,14 @@
    "title": {
     "en": "Soutaisei Koufukuron"
    },
+   "altTitles": [
+    {
+     "en": "Relativity Eudaemonics"
+    },
+    {
+     "en": "相対性幸福論"
+    }
+   ],
    "description": {
     "en": "Aachan is in love with his best friend, Kei. Sadly, he doesn't think he has any chance with Kei at all. Aachan tries his best to bring happiness to Kei by supporting his love interest instead.\r\n\r\nIt appears that Kei is in love with Sagawa-senpai. In order to bring said happiness to Kei, Aachan uses any method he can think of to bring those two together, completely disregarding his own feelings. But what about his own happiness?"
    },
@@ -27,8 +35,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,39 +61,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-21T08:21:49+00:00",
+   "updatedAt": "2021-05-25T15:42:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "b77a014c-0c3b-466b-a7af-7ccee653bc92",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hirama Mitsunaga",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b77a014c-0c3b-466b-a7af-7ccee653bc92",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hirama Mitsunaga",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d74d140c-ccc1-4971-b577-5dc5b5f52c07",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "090577f4-fd8e-4fe5-a9f9-30daab23f48a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:12:39+00:00",
+    "description": "",
+    "fileName": "5e3c6a24-55ea-4f3e-afb3-454131d4b48f.png",
+    "updatedAt": "2021-05-24T17:12:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

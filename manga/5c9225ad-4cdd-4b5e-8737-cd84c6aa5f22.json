@@ -7,6 +7,14 @@
    "title": {
     "en": "Super Mario World Nintendo Official Guidebook"
    },
+   "altTitles": [
+    {
+     "en": "Super Mario World Guide"
+    },
+    {
+     "en": "スーパーマリオワールド 任天堂公式ガイドブック"
+    }
+   ],
    "description": {
     "en": "Two guidebooks for Super Mario World published by APE Inc. with a variety of comics and 4-koma."
    },
@@ -22,6 +30,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,43 +42,53 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-11T09:30:04+00:00",
+   "updatedAt": "2021-05-25T15:42:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "024585df-57a6-4287-a500-f17c06799355",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nintendo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "024585df-57a6-4287-a500-f17c06799355",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nintendo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "33689f91-d6bb-4543-ae0c-04bc57af6c72",
-   "type": "chapter"
-  },
-  {
-   "id": "a68bd214-3b08-4d71-a586-b427fb77a00d",
-   "type": "chapter"
-  },
-  {
-   "id": "a96d2db2-cce9-4a38-9094-d7fab967087a",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
+   "id": "61c3b508-b4b9-4f75-a4b5-9df1a3d8e61f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:26+00:00",
+    "description": "",
+    "fileName": "3f29b457-eade-4736-ac23-3508041de66f.jpg",
+    "updatedAt": "2021-05-24T17:33:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

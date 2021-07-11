@@ -7,6 +7,14 @@
    "title": {
     "en": "Kaijuu no Buki Shokunin"
    },
+   "altTitles": [
+    {
+     "en": "Monster Arms Dealer"
+    },
+    {
+     "en": "改獣の武器職人"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -32,6 +40,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +52,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,39 +64,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-16T07:33:25+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "fa632a39-3ec2-4139-8ee4-b341680f6771",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tanizaki Shuuhei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fa632a39-3ec2-4139-8ee4-b341680f6771",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tanizaki Shuuhei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6acace9f-2552-47a4-9348-92b9d52b480b",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "219b431b-9f27-4f16-8184-f82cdc0d3e5e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:38+00:00",
+    "description": "",
+    "fileName": "a836bfe7-9cd7-4175-9417-92ab70a3c34a.png",
+    "updatedAt": "2021-05-24T17:15:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

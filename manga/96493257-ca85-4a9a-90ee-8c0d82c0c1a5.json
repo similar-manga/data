@@ -7,6 +7,11 @@
    "title": {
     "en": "Zombie Romanticism"
    },
+   "altTitles": [
+    {
+     "en": "ゾンビ ロマンチシズム"
+    }
+   ],
    "description": {
     "en": "A collection of stories about relationships between men and women either of whom just happens to be a zombie."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,63 +60,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-20T15:26:52+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "0bf050d8-9f55-4d3c-ab57-7c189a109337",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mutsuki Nozomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0bf050d8-9f55-4d3c-ab57-7c189a109337",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mutsuki Nozomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bc8717fb-f109-4617-80a9-11c9364b3eeb",
-   "type": "chapter"
-  },
-  {
-   "id": "d8d593bd-3827-4dc0-a85a-c4d0b7774b2f",
-   "type": "chapter"
-  },
-  {
-   "id": "1d18bf96-9873-4523-9d2d-e30b5d5bfe9f",
-   "type": "chapter"
-  },
-  {
-   "id": "6853421f-c823-45b5-9574-593cf1fc7151",
-   "type": "chapter"
-  },
-  {
-   "id": "6520f73d-db34-45bb-85fa-133612afaac8",
-   "type": "chapter"
-  },
-  {
-   "id": "cd7479a7-f900-4117-8edd-fb5ceef2a93f",
-   "type": "chapter"
-  },
-  {
-   "id": "ad5381ac-2572-4cb5-973d-1282ac9b2eea",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "5cd712f7-c79b-4fd8-b975-43f09e46cb52",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:38:07+00:00",
+    "description": "",
+    "fileName": "28e4e5f8-bf28-47ea-9f42-8bb65e9abea0.jpg",
+    "updatedAt": "2021-05-24T18:38:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

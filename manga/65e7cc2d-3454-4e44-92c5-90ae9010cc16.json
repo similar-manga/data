@@ -18,7 +18,6 @@
     "mu": "64315"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -30,6 +29,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +53,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +65,8 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -70,6 +77,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -80,63 +89,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-26T09:36:28+00:00",
+   "updatedAt": "2021-05-25T15:43:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "2aedf749-a8c7-457c-b2a8-1d72248d8dfe",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ha Il-Kwon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "01881cb1-c195-4559-a76a-87a79afeacd7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Naka Senta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "95a674cf-4a14-4473-b508-3ad5277ee34e",
-   "type": "chapter"
-  },
-  {
-   "id": "06d36689-badd-4163-abb6-7fc9be066d8d",
-   "type": "chapter"
-  },
-  {
-   "id": "fbf39ef9-e4ce-4ed8-a790-cfbdd5073398",
-   "type": "chapter"
-  },
-  {
-   "id": "0032652c-1d7c-457f-9914-e99e70b8c15f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "1011e4ba-a274-4fad-ad76-d2640622db28",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:03+00:00",
+    "description": "",
+    "fileName": "701f9925-0d9e-48cb-b0e1-255a45680233.jpg",
+    "updatedAt": "2021-05-24T16:57:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

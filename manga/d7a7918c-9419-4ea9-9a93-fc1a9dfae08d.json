@@ -7,6 +7,14 @@
    "title": {
     "en": "Happy"
    },
+   "altTitles": [
+    {
+     "en": "Happy (Hwadam CHAE)"
+    },
+    {
+     "en": "해피"
+    }
+   ],
    "description": {
     "en": "I believed I could become happy one day. I desperately tried, and I finally became happy. At least until I met him."
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +58,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +70,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -66,43 +82,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-09-25T23:22:16+00:00",
+   "updatedAt": "2020-09-25T23:22:16+00:00"
   }
  },
  "relationships": [
   {
    "id": "20862b73-252b-432f-9364-97a8566c22eb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "채화담",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d3cbb5c2-e4a0-4460-96a5-87b095244694",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "김홍태",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "5e65751a-e994-4f03-ba5c-ba8a5ca135a0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:12:03+00:00",
+    "description": "",
+    "fileName": "d0539455-f28e-4fb7-97db-9f8ee377b3ae.jpg",
+    "updatedAt": "2021-05-24T18:12:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

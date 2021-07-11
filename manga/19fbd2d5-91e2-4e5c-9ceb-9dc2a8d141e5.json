@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "K\u0026auml;mpfer - Kanojo no Sentaku -Senou Natsuru no Baai- (Doujinshi)"
+    "en": "Kämpfer - Kanojo no Sentaku -Senou Natsuru no Baai- (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Her Choice - The Case of Senou Natsuru"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,35 +38,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-10T06:24:41+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "90d85bce-cff9-4c24-8767-f914a73025c3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Crazy9",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "770071e9-f925-4952-b3f4-a65121f4683d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ichitaka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fe9dd648-5b5d-4c4e-858b-8d946f2e6bd0",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "35c47912-0ced-4f95-9518-e89bdab2d03d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:19+00:00",
+    "description": "",
+    "fileName": "e826eeb4-4ed1-4089-b925-d5363af6e43e.jpg",
+    "updatedAt": "2021-05-24T17:11:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

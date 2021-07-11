@@ -7,6 +7,14 @@
    "title": {
     "en": "Tonari no Oniisan"
    },
+   "altTitles": [
+    {
+     "en": "The Big Brother Next Door"
+    },
+    {
+     "en": "隣のお兄さん"
+    }
+   ],
    "description": {
     "en": "People say first love is the hardest to forget... And it is, at least for Hiroto. As much as he wants to, he just can't get Wataru out of his heart and mind. Hiroto has to learn to live with it... and with Wataru as his roommate, moving on will certainly be the hardest thing to do."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,45 +60,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-09T03:49:10+00:00",
+   "updatedAt": "2021-05-25T15:41:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "5d0f307c-ef7b-4899-bc08-91edb089f14e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asou Kai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5d0f307c-ef7b-4899-bc08-91edb089f14e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asou Kai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6695340a-1c47-4799-a7d0-1dd37a9fa728",
-   "type": "chapter"
-  },
-  {
-   "id": "af022dc2-5d6a-4cc3-82b0-e39561ae8d21",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "84269b87-983e-4f84-8be2-07588a7e791a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:18+00:00",
+    "description": "",
+    "fileName": "1df9c409-248a-4ce6-9608-84c4203edf75.png",
+    "updatedAt": "2021-05-24T17:18:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

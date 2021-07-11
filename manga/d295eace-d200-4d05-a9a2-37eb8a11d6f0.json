@@ -7,6 +7,11 @@
    "title": {
     "en": "The Letter"
    },
+   "altTitles": [
+    {
+     "en": "Tegami"
+    }
+   ],
    "description": {
     "en": "A short story of a boy and his savior."
    },
@@ -14,7 +19,6 @@
     "mu": "145044"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,35 +41,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-28T07:03:05+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "214ae782-5eef-497a-ab0f-3ca125d75db2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "214ae782-5eef-497a-ab0f-3ca125d75db2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c631f26b-5597-4d61-94a6-d16df676b7b7",
-   "type": "chapter"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "54645012-76f1-4f02-8ff7-c5597013d2ea",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:56+00:00",
+    "description": "",
+    "fileName": "22aa9889-c883-42c8-9d4e-9c04ab91f1fd.jpg",
+    "updatedAt": "2021-05-24T17:02:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

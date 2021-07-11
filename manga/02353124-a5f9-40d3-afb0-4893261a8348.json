@@ -7,11 +7,15 @@
    "title": {
     "en": "Mobius Strip"
    },
+   "altTitles": [
+    {
+     "en": "モビウスストリップ"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -30,8 +36,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,35 +50,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-01-26T02:07:18+00:00",
+   "updatedAt": "2021-01-26T02:07:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "4dd8395e-bca9-4539-928c-b2c37f1b1b05",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sawamotosoji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "5a8051fd-2f2b-4f6f-af23-6731b5891b00",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:28:37+00:00",
+    "description": "",
+    "fileName": "716945f9-ca66-418c-beb5-d5935cae700a.jpg",
+    "updatedAt": "2021-05-24T18:28:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

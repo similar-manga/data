@@ -7,11 +7,15 @@
    "title": {
     "en": "Natsu no Yoru"
    },
+   "altTitles": [
+    {
+     "en": "Summer Night"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "suggestive",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Shota"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,39 +50,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-17T13:24:49+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "f7f3cb8f-3fff-45b1-97b8-af4e2cce5389",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Natsuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f7f3cb8f-3fff-45b1-97b8-af4e2cce5389",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Natsuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9479aa7f-5d35-4fc3-8814-e717d95ecac9",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "ddefd648-5140-4e5f-ba18-4eca4071d19b",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "1964de13-c8ac-4f6a-b7ca-463692a141a6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:32:00+00:00",
+    "description": "",
+    "fileName": "fe77517b-a166-45ac-b50b-53f7dd72abcc.jpg",
+    "updatedAt": "2021-05-24T18:32:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

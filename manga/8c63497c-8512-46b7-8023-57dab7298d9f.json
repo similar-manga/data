@@ -7,6 +7,14 @@
    "title": {
     "en": "Haru no Nioi"
    },
+   "altTitles": [
+    {
+     "en": "Scent Of Spring"
+    },
+    {
+     "en": "春のニオイ"
+    }
+   ],
    "description": {
     "en": "The slender stranger with a handsome face comes to buy flowers on this particular day every month. Who are the flowers for? Should you find the courage to strike up a conversation? Would it look weird after so long? Drawn by the scent of spring, the tender bud hidden within their hearts looks set to bloom at last...."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,55 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-28T04:01:38+00:00",
+   "updatedAt": "2021-05-25T15:44:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "d6ac7473-7fdc-4d07-89ea-aa6c932ff35a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsutomu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d6ac7473-7fdc-4d07-89ea-aa6c932ff35a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsutomu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8e04b1b7-735d-45b5-b687-9ad165232da4",
-   "type": "chapter"
-  },
-  {
-   "id": "b8b34b41-89f3-42db-a7be-2a51c3c79da1",
-   "type": "chapter"
-  },
-  {
-   "id": "544f6258-ada0-4beb-9607-4f350115b93c",
-   "type": "chapter"
-  },
-  {
-   "id": "7f2a2fa6-3b38-43b8-8a17-02176e6000d9",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "e2ebe679-ec61-4fc0-afcb-c41871c9ceb4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:40+00:00",
+    "description": "",
+    "fileName": "0a586d07-2d07-4712-a955-21addb60d7ac.jpg",
+    "updatedAt": "2021-05-24T16:49:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

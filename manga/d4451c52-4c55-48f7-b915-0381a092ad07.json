@@ -7,6 +7,14 @@
    "title": {
     "en": "Namida no Suisou"
    },
+   "altTitles": [
+    {
+     "en": "A Tank of Tears"
+    },
+    {
+     "en": "涙の水槽"
+    }
+   ],
    "description": {
     "en": "A very short story (7 pages) about an imaginative young girl in need of a good cry."
    },
@@ -17,7 +25,6 @@
     "mu": "39593"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -28,6 +35,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,35 +47,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-15T10:37:29+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "94f75dc3-088e-4e01-9df1-ff2a613c14e9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kimura Hikage",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ae570387-3b0a-440a-9aae-47fb517cfa81",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0a0f8d34-e00c-4fe6-95c7-0ef5becdebd0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:36+00:00",
+    "description": "",
+    "fileName": "4115db47-be47-4c0d-b5ea-3a9343c78c39.jpg",
+    "updatedAt": "2021-05-24T17:04:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

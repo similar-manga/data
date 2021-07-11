@@ -7,6 +7,14 @@
    "title": {
     "en": "Hizashi"
    },
+   "altTitles": [
+    {
+     "en": "Sunshine"
+    },
+    {
+     "en": "陽射し"
+    }
+   ],
    "description": {
     "en": "A collection of 10 short stories; first published 1981-07-01."
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,75 +61,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-17T23:30:18+00:00",
+   "updatedAt": "2021-05-25T15:39:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "f9215409-2745-46bd-b299-51cd9856e86d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Azuma Hideo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f9215409-2745-46bd-b299-51cd9856e86d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Azuma Hideo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "93669d37-d1de-4134-b067-5c2c0be5955e",
-   "type": "chapter"
-  },
-  {
-   "id": "b9757c24-a9ff-4703-a23a-e7ea931dddad",
-   "type": "chapter"
-  },
-  {
-   "id": "fbcc23b4-54c9-4efb-85ea-2daa7fffa6a5",
-   "type": "chapter"
-  },
-  {
-   "id": "c6629695-4573-4a37-8fba-03943a9b9dcb",
-   "type": "chapter"
-  },
-  {
-   "id": "5b3e26a0-1f3a-4a11-948b-02c4a6da23b0",
-   "type": "chapter"
-  },
-  {
-   "id": "79e20685-b823-4229-927c-7d6f4c0eb3c3",
-   "type": "chapter"
-  },
-  {
-   "id": "b195b10f-ee22-472b-88b8-9ebb67db93df",
-   "type": "chapter"
-  },
-  {
-   "id": "afb2bd56-216c-4abd-919e-96a17ec7c12c",
-   "type": "chapter"
-  },
-  {
-   "id": "f67915ed-1d41-46ac-b795-89a8dd0a773a",
-   "type": "chapter"
-  },
-  {
-   "id": "93193c20-6a4d-44a5-947b-570350464974",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "57f5bb82-2082-4fd2-b3a7-5acdb3266126",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:32+00:00",
+    "description": "",
+    "fileName": "32426590-db3e-429f-8206-290caa84acd7.jpg",
+    "updatedAt": "2021-05-24T16:49:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

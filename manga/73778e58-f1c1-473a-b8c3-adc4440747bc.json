@@ -7,6 +7,11 @@
    "title": {
     "en": "Oh My Hero!"
    },
+   "altTitles": [
+    {
+     "en": "オーマイヒーロー！"
+    }
+   ],
    "description": {
     "en": "Inui works part-time dressing up as a tokusatsu hero (think Power Ranger) in shows for children. He meets the Mugita family, a father and his son who have a lot of love for one particular ranger. As the Mugita family is always watching his shows with great passion, Inui took an interest in them and he is happy when they invite him to their house. But while he enjoys spending time in their warm company, Inui is troubled because some desires in him awaken when he thinks about Daddy-Mugita."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,63 +60,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-14T06:35:41+00:00",
+   "updatedAt": "2021-05-25T15:43:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "bcc2e724-b64d-4b75-a137-69f3d4755945",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Cocomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bcc2e724-b64d-4b75-a137-69f3d4755945",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Cocomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "522bf71f-5891-4f85-8e05-37680c047fe6",
-   "type": "chapter"
-  },
-  {
-   "id": "ea22284d-71e9-4c2d-b885-9ed3be601628",
-   "type": "chapter"
-  },
-  {
-   "id": "d8b4bc0c-d183-4b09-8722-1b7e9792e1b0",
-   "type": "chapter"
-  },
-  {
-   "id": "73970796-8e1a-4fbe-9a37-26e6e94d3cf6",
-   "type": "chapter"
-  },
-  {
-   "id": "028e4c4d-65ab-4681-98ce-fe4bdacc3c12",
-   "type": "chapter"
-  },
-  {
-   "id": "d34c0c85-d856-4df2-9e08-a88bbaa95cf6",
-   "type": "chapter"
-  },
-  {
-   "id": "05f15eee-2ea7-4760-8490-d93e380ddea1",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "b94ac8cd-51ac-4f67-a7bb-fb0147c272bd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:30:09+00:00",
+    "description": "",
+    "fileName": "981df213-95e5-47bd-aad7-4d4cd3ae0060.jpg",
+    "updatedAt": "2021-05-24T17:30:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

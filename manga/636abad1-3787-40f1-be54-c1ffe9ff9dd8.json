@@ -7,6 +7,17 @@
    "title": {
     "en": "The Witch of Kokonoka"
    },
+   "altTitles": [
+    {
+     "en": "Kokonoka no Majo"
+    },
+    {
+     "en": "Penyihir Hutan Kokonoka"
+    },
+    {
+     "en": "ココノカの魔女"
+    }
+   ],
    "description": {
     "en": "Rumors are abound regarding a witch that lives in the forest near the village, unnerving the villagers. That's when Salami, who was out collecting herbs in the woods, encounters a girl who looks just like her."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,47 +78,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-30T13:22:11+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "0b8ed7c8-d61e-4ce2-b303-47787440ab03",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kirihara Idumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0b8ed7c8-d61e-4ce2-b303-47787440ab03",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kirihara Idumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0bec86a6-0fc6-4a86-9d56-bc3f6a92c7f6",
-   "type": "chapter"
-  },
-  {
-   "id": "84db0f1d-f970-413d-8a97-80ae155af62e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "30e320d1-307b-4f7b-992a-66f6430dd61f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:37+00:00",
+    "description": "",
+    "fileName": "53f9e324-4239-465c-8707-3c70ef4fff3b.jpg",
+    "updatedAt": "2021-05-24T16:59:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

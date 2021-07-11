@@ -7,11 +7,18 @@
    "title": {
     "en": "Death"
    },
+   "altTitles": [
+    {
+     "en": "Shi"
+    },
+    {
+     "en": "死"
+    }
+   ],
    "description": {
     "en": "A young boy comes to an understanding about death."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +42,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,39 +54,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-22T21:07:35+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "4f014ddc-c821-4392-b711-086e28c9fd7a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shirohata March",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4f014ddc-c821-4392-b711-086e28c9fd7a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shirohata March",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bd20fbc1-227a-43eb-8585-a141937f3d8a",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "ae7b60ec-5477-4fd7-8005-774715384f72",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:23:47+00:00",
+    "description": "",
+    "fileName": "62adaea8-c272-4179-a861-aedd9bfcc793.jpg",
+    "updatedAt": "2021-05-24T17:23:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

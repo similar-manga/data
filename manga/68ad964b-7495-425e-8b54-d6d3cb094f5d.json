@@ -17,7 +17,6 @@
     "mu": "31941"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -29,6 +28,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,39 +40,53 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-02T11:19:29+00:00",
+   "updatedAt": "2021-05-25T15:43:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "75c02982-6af3-4d51-86eb-0cb5fc96e4b0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurumada Masami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "75c02982-6af3-4d51-86eb-0cb5fc96e4b0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurumada Masami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1d8c7c27-8172-4a7d-94a9-d2f0151709fa",
-   "type": "chapter"
-  },
-  {
-   "id": "da8f631c-059f-4cef-88d7-c9dbdebaaecc",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
+   "id": "94322bcd-6442-4f24-89dc-1d9a89d3085b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:40+00:00",
+    "description": "",
+    "fileName": "acdd4fe6-c9af-40be-afd8-c11affd7bbf9.jpg",
+    "updatedAt": "2021-05-24T17:06:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

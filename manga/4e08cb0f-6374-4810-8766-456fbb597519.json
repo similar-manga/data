@@ -7,6 +7,11 @@
    "title": {
     "en": "Hyanghyeon Text"
    },
+   "altTitles": [
+    {
+     "en": "향현문자"
+    }
+   ],
    "description": {
     "en": "Oh well"
    },
@@ -14,7 +19,6 @@
     "raw": "https://ridibooks.com/books/4357000015"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "erotica",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,8 +39,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +53,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -55,47 +65,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-03T21:39:25+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "04664c57-e6e8-4ce2-aa5d-1a8dfe603374",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chepali",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "da0abff2-57b4-424b-9167-5f67d8103e2c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aeju",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7e663e43-be2b-4f24-a15a-d410008d6dac",
-   "type": "chapter"
-  },
-  {
-   "id": "8b97ab95-523b-4d66-9319-52334a34dc88",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "c0529338-6115-4f5a-bd03-666c2e682620",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:21:14+00:00",
+    "description": "",
+    "fileName": "a0d023ed-118a-4f32-8d17-6bba2ac753b6.jpg",
+    "updatedAt": "2021-05-24T18:21:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

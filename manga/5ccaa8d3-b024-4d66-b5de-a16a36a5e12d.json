@@ -7,6 +7,11 @@
    "title": {
     "en": "Shinonome-san, Itsumade Iru no?"
    },
+   "altTitles": [
+    {
+     "en": "東雲さん、いつまでいるの?"
+    }
+   ],
    "description": {
     "en": "Since the death of his grandfather, Nakaruma Haru has closed the bakery that they ran together, and wrestled with the future. Having made the decision to re-open the bakery alone, he visits the cemetery to inform his grandfather. There he sees a strange man who appears to be an undertaker visiting the graves. Later on, when the same man appears, taking shelter from the rain outside of his shop, he impulsively invites him in and offers him a room for the night."
    },
@@ -33,6 +38,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,79 +74,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-01T07:21:27+00:00",
+   "updatedAt": "2021-05-25T15:42:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "ccd69bcb-a1e2-4a20-adbf-d22584333daf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mizuki Tama",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ccd69bcb-a1e2-4a20-adbf-d22584333daf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mizuki Tama",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a0607ee9-4036-4fe4-bc28-fc223392929e",
-   "type": "chapter"
-  },
-  {
-   "id": "b4f651a7-1838-4469-9269-4ff7398cc100",
-   "type": "chapter"
-  },
-  {
-   "id": "4c2e3ffb-5830-43af-8fa6-67d4d166ad94",
-   "type": "chapter"
-  },
-  {
-   "id": "6649c236-dd97-4cc7-a0f3-0678a61e4a81",
-   "type": "chapter"
-  },
-  {
-   "id": "f8b42655-45ee-4397-9fae-1e70dcbef5dc",
-   "type": "chapter"
-  },
-  {
-   "id": "0b145bb6-a4fd-4247-8e95-2f246e2489cf",
-   "type": "chapter"
-  },
-  {
-   "id": "22f67fb9-8284-4430-a8e1-97a12dfc411b",
-   "type": "chapter"
-  },
-  {
-   "id": "ba448464-a152-499a-8079-1dd149d3e300",
-   "type": "chapter"
-  },
-  {
-   "id": "887935dc-656b-4036-89f4-5ade7a76b692",
-   "type": "chapter"
-  },
-  {
-   "id": "f7e45c27-1c48-4c33-84ac-afca42eda7dc",
-   "type": "chapter"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "549ec9e8-c162-4f9c-9778-2f8faf369946",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:32+00:00",
+    "description": "",
+    "fileName": "1f7fc13c-f3bc-4a28-8cf4-10c6b3f8fbb6.jpg",
+    "updatedAt": "2021-05-24T17:06:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

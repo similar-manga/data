@@ -8,10 +8,9 @@
     "en": "Penguin Rumble"
    },
    "description": {
-    "en": "Welcome to Noak\u0026rsquo;s Park! Erika moves to Stockholm to apply for her dream job at the futuristic animal shelter Noak\u0026rsquo;s Park, something she has dream of since she was a kid. That\u0026rsquo;s where she discovers that she has the rare gift of being able to speak to the animals!"
+    "en": "Welcome to Noak’s Park! Erika moves to Stockholm to apply for her dream job at the futuristic animal shelter Noak’s Park, something she has dream of since she was a kid. That’s where she discovers that she has the rare gift of being able to speak to the animals!"
    },
    "originalLanguage": "sv",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,35 +45,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-02-24T08:59:43+00:00",
+   "updatedAt": "2021-02-24T08:59:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "f49841df-153c-4842-b110-f0cb6633a614",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Joakim Waller",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f49841df-153c-4842-b110-f0cb6633a614",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Joakim Waller",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "ead37967-78f1-4f5c-8926-78e52c4c8e37",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:32:49+00:00",
+    "description": "",
+    "fileName": "3ffa4b72-fa6b-46c7-ab99-756b3c4ddafc.jpg",
+    "updatedAt": "2021-05-24T18:32:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

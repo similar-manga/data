@@ -7,6 +7,20 @@
    "title": {
     "en": "Koko ni Iru yo!"
    },
+   "altTitles": [
+    {
+     "en": "An deiner Seite"
+    },
+    {
+     "en": "Here I am!"
+    },
+    {
+     "en": "I Am Here!"
+    },
+    {
+     "en": "ココにいるよ！"
+    }
+   ],
    "description": {
     "en": "Hikage is a reclusive 8th grader who no one seems to notice. She finds comfort in her blog, and the people who comment on it. Everything changes one day when two cute boys notice her. These boys are the most popular kids in the entire school. When one of them tells her something that she's always wanted to hear, she might not be as invisible as she thought..."
    },
@@ -33,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +71,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -63,79 +83,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-04T22:51:26+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "1030ecb8-595f-4862-800e-b453cd810dfe",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TOOYAMA Ema",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1030ecb8-595f-4862-800e-b453cd810dfe",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TOOYAMA Ema",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f13bd015-b8d8-47ff-8dfd-38538b43e0c6",
-   "type": "chapter"
-  },
-  {
-   "id": "6b36eee1-69db-43c0-a25a-c646f9495d50",
-   "type": "chapter"
-  },
-  {
-   "id": "0c619ffe-79be-483e-8d8d-03828a092eb8",
-   "type": "chapter"
-  },
-  {
-   "id": "ecb398e7-95e6-45f1-a269-5366c11e7847",
-   "type": "chapter"
-  },
-  {
-   "id": "3f98c98b-def7-4631-88e8-ebd4401359c9",
-   "type": "chapter"
-  },
-  {
-   "id": "2dc65312-8dbd-4d6b-b204-66fab3440663",
-   "type": "chapter"
-  },
-  {
-   "id": "586cecb1-cea7-40f4-9270-0828d7044e3b",
-   "type": "chapter"
-  },
-  {
-   "id": "e691582b-9c8f-4d54-bbc1-6c0da32b560c",
-   "type": "chapter"
-  },
-  {
-   "id": "3c0c8c56-0df4-44e8-9739-00e645b4f730",
-   "type": "chapter"
-  },
-  {
-   "id": "6c65a402-5eaa-40d0-8e08-4203550ac967",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "2d4a5948-f3bd-4f2f-acb0-e8458136fc99",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:10+00:00",
+    "description": "",
+    "fileName": "1f38f0b4-ad68-4f14-a550-aacdd385ab6a.jpg",
+    "updatedAt": "2021-05-24T17:03:10+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

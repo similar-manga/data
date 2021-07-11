@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Axis Powers Hetalia dj - franciaxEspa\u0026ntilde;a"
+    "en": "Axis Powers Hetalia dj - franciaxEspaña"
    },
+   "altTitles": [
+    {
+     "en": "Axis Powers Hetalia dj - Flores silvestres"
+    },
+    {
+     "en": "Hetalia: Axis Powers dj"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "suggestive",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,41 +39,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-31T22:29:07+00:00",
+   "updatedAt": "2021-05-25T15:45:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "662109a0-82b1-46c7-ab7e-a6d679e7b9c3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimajima Othello",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "662109a0-82b1-46c7-ab7e-a6d679e7b9c3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimajima Othello",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "565fc7f6-02ea-4252-a657-4477ad08cf44",
-   "type": "chapter"
-  },
-  {
-   "id": "c4d8095f-664d-49d4-b04b-c2c1770055d5",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "38249564-2fb6-4f14-b520-1b7a0e7bab5d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:29:24+00:00",
+    "description": "",
+    "fileName": "f2bcc29b-2877-4141-aefa-083c23e0a6b0.jpg",
+    "updatedAt": "2021-05-24T18:29:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

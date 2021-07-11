@@ -7,6 +7,11 @@
    "title": {
     "en": "A Gyaru Manga in 3 Panels"
    },
+   "altTitles": [
+    {
+     "en": "ギャルＪＫ漫画3コマ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -22,6 +27,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +39,8 @@
       "name": {
        "en": "Demons"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +63,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +75,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -72,51 +87,53 @@
       "name": {
        "en": "Gyaru"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-14T00:18:42+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "aa606e7a-eed7-4d1c-b55e-0c9e0cbb0d74",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakamura Enjitsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "aa606e7a-eed7-4d1c-b55e-0c9e0cbb0d74",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakamura Enjitsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "40d9cd9d-519d-4dfe-b161-d8aa3c22a64c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "39730448-9a5f-48a2-85b0-a70db87b1233",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "fad12b5e-68ba-460e-b933-9ae8318f5b65",
-   "type": "tag"
+   "id": "096c17b5-270e-4fd7-84d2-4cffe714b9d1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:10:14+00:00",
+    "description": "",
+    "fileName": "9868beed-f58b-41bc-b5b1-6ad2c5819b94.jpg",
+    "updatedAt": "2021-05-24T18:10:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

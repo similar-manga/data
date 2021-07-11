@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -42,35 +45,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-03-17T13:40:53+00:00",
+   "updatedAt": "2021-03-17T13:40:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "3a23d388-73cf-4120-a1ed-02165f78dcca",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "bro idk",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "79f777dc-6c87-4f4d-9761-0a3dd0edb4dd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:35:20+00:00",
+    "description": "",
+    "fileName": "76a4894e-e247-4522-b4d0-439bf74d4a13.jpg",
+    "updatedAt": "2021-05-24T18:35:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

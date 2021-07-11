@@ -7,6 +7,14 @@
    "title": {
     "en": "Hello Baby"
    },
+   "altTitles": [
+    {
+     "en": "مرحباً صغيري"
+    },
+    {
+     "en": "ハローベイビー"
+    }
+   ],
    "description": {
     "en": "A story of love, life, and betrayal.\r\n\r\nSet in a certain city, a would-be gangster wanting to be recognized takes on a dangerous offer, to kill a boss of a Yakuza."
    },
@@ -18,7 +26,6 @@
     "mu": "14586"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +49,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +61,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,63 +73,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-19T02:41:06+00:00",
+   "updatedAt": "2021-05-25T15:42:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "d21d9b2b-27b4-44bc-9a6d-493bf98ed42c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Morita Masanori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "428cec94-ea5c-40dc-9da3-7d0361cb0f41",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Obata Takeshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ac3f04f4-ef9b-4671-aef4-24cb6df6dfe3",
-   "type": "chapter"
-  },
-  {
-   "id": "6566f34e-a3d7-4baf-b384-0c2a4f0735c2",
-   "type": "chapter"
-  },
-  {
-   "id": "26b2afc5-ac5d-4ade-a3a2-0a2f06db24a6",
-   "type": "chapter"
-  },
-  {
-   "id": "cbcfde76-7021-42e6-8b4b-5308cdc0245f",
-   "type": "chapter"
-  },
-  {
-   "id": "14488275-cdbf-4997-8407-ed3035a6c8e7",
-   "type": "chapter"
-  },
-  {
-   "id": "1f9bf2af-1dee-4e28-ba4b-d7e9149b95ff",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "bf6da8a8-a4c7-4f0d-934d-c636ce923704",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:52+00:00",
+    "description": "",
+    "fileName": "61b95c6f-8070-4a87-aaf0-beaf74e2ab0f.jpg",
+    "updatedAt": "2021-05-24T17:18:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

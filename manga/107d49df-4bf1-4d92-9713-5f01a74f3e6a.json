@@ -7,6 +7,11 @@
    "title": {
     "en": "Rock Me Amadeus"
    },
+   "altTitles": [
+    {
+     "en": "ロックミー アマデウス"
+    }
+   ],
    "description": {
     "en": "Otoya, a student at a prestigious music high school, can't stand classical music. Why would he, when rock is so much cooler in every way? It's got beat, drums, speed, everything that classical just doesn't have. But what if listening to classical music could summon beings from an alternate dimension to do battle? Not so boring now, is it?"
    },
@@ -33,6 +38,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +50,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +62,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -63,6 +74,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -73,6 +86,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -83,51 +98,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-29T03:29:10+00:00",
+   "updatedAt": "2021-05-25T15:39:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "e1022bd5-e737-488e-b28b-79eed8028fba",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inabe Kazu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e1022bd5-e737-488e-b28b-79eed8028fba",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inabe Kazu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4b85c2f1-9baf-4e03-ab7c-e2d01f4e1bc0",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "bea5bb32-745b-4f4d-8189-ca858e265792",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:46:24+00:00",
+    "description": "",
+    "fileName": "b750aca1-0ea7-4668-b937-2be6b3fc2b5b.jpg",
+    "updatedAt": "2021-05-24T16:46:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

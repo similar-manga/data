@@ -7,6 +7,14 @@
    "title": {
     "en": "Owaru Heart Janee"
    },
+   "altTitles": [
+    {
+     "en": "Neverending Heart"
+    },
+    {
+     "en": "終わるHeartじゃねえ"
+    }
+   ],
    "description": {
     "en": "Rinzy's a famous hard rock musician. His ex-girlfriend, the model Katherine, commits suicide in front of him and he fails to help her. JP, a 16 year old homeless kid happens to be the only witness. In order to prevent exposure and scandal, Rinzy's manager, Stella, hires JP as Rinzy's assistant."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,51 +63,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-13T12:07:33+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "742bed0c-c41a-410a-95d4-e30153cbfcd1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Souryo Fuyumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "742bed0c-c41a-410a-95d4-e30153cbfcd1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Souryo Fuyumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7e13db12-823f-47e2-b3be-69a9269f7b89",
-   "type": "chapter"
-  },
-  {
-   "id": "a6424747-d2ee-444d-b9c1-b855ddf9472d",
-   "type": "chapter"
-  },
-  {
-   "id": "72e555e6-b151-4452-90d3-3f8151ba0eba",
-   "type": "chapter"
-  },
-  {
-   "id": "8577039d-263a-414d-a438-3800330d8c03",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "66904819-129b-4ff7-a504-877b712bb727",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:12:33+00:00",
+    "description": "",
+    "fileName": "4c58de54-2825-4d65-abab-fe1f0d46a86f.jpg",
+    "updatedAt": "2021-05-24T17:12:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

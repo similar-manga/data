@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "th",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Ghosts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -30,37 +31,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-05T00:25:26+00:00",
+   "updatedAt": "2021-05-25T15:45:45+00:00"
   }
  },
  "relationships": [
   {
    "id": "feb459bc-0ee6-4986-b145-9667da830ebe",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kiriga",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "feb459bc-0ee6-4986-b145-9667da830ebe",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kiriga",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "964f8f5a-46bb-4a8a-a981-fd1932674ad6",
-   "type": "chapter"
-  },
-  {
-   "id": "3bb26d85-09d5-4d2e-880c-c34b974339e9",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
+   "id": "47f924db-063b-4f2b-b96f-dcd2e714dabd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:01:50+00:00",
+    "description": "",
+    "fileName": "fc57489f-e114-43f8-858d-4213139f7d62.jpg",
+    "updatedAt": "2021-05-24T18:01:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

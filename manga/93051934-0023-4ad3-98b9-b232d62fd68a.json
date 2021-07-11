@@ -22,6 +22,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,47 +34,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-09-19T18:09:55+00:00",
+   "updatedAt": "2018-09-19T18:09:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "0669bf79-ca27-4f50-9b48-741fb235137f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohba Tsugumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "428cec94-ea5c-40dc-9da3-7d0361cb0f41",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Obata Takeshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "227f2474-cc0c-4749-9cce-40cb7c17c55e",
-   "type": "chapter"
-  },
-  {
-   "id": "d0a50d92-5dd1-413f-8b3c-11b1ddd58630",
-   "type": "chapter"
-  },
-  {
-   "id": "cdf9ddb3-8740-4295-b07e-a98fb18fba75",
-   "type": "chapter"
-  },
-  {
-   "id": "83dea844-e4ea-4bd1-872a-bb9e6f9c0620",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "2026fbc8-79f3-4f08-92e2-950982e9fef6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:45:27+00:00",
+    "description": "",
+    "fileName": "38444f3f-fec4-4503-9a7c-5e97c0675cef.jpg",
+    "updatedAt": "2021-05-24T16:45:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

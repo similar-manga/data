@@ -7,11 +7,15 @@
    "title": {
     "en": "Boys Love"
    },
+   "altTitles": [
+    {
+     "en": "보이즈 러브"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "erotica",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,47 +74,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-27T10:18:37+00:00",
+   "updatedAt": "2021-05-25T15:49:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "f16297e1-d7fd-40da-b5eb-541b4067c34b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Dog-aeg",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f16297e1-d7fd-40da-b5eb-541b4067c34b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Dog-aeg",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "74f255e2-2b21-4bbd-91c3-816e107accfc",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "6f084849-9f9a-4f3c-91a1-8d25d6783df4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:28:48+00:00",
+    "description": "",
+    "fileName": "ded3ba58-7f67-4c2b-88ed-988ba0d46983.jpg",
+    "updatedAt": "2021-05-24T18:28:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

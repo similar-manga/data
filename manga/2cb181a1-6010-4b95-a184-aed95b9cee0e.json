@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Slow Start - \u0026quot;Hitochigai\u0026quot; Sengoku Kamuri (Doujinshi)"
+    "en": "Slow Start - \"Hitochigai\" Sengoku Kamuri (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "『人違い』千石 冠"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,35 +38,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-11T16:34:07+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "9e6a3839-de09-4967-b50f-7a516c179485",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tyagama",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9e6a3839-de09-4967-b50f-7a516c179485",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tyagama",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a889b035-3bda-441d-b604-841ea5d9fe22",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "ed7192a1-1579-4f0a-89ca-95e99e6d3579",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:26:11+00:00",
+    "description": "",
+    "fileName": "b44794f8-e68e-416d-bb5a-74bfb7c44730.jpg",
+    "updatedAt": "2021-05-24T17:26:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

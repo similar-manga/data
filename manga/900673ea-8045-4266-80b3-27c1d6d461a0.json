@@ -30,6 +30,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,6 +54,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,8 +64,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,6 +78,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -80,87 +90,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-10-03T13:01:21+00:00",
+   "updatedAt": "2018-10-03T13:01:21+00:00"
   }
  },
  "relationships": [
   {
    "id": "76bc65c6-60d7-41df-8d18-cf25f3575cca",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yukimura",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "76bc65c6-60d7-41df-8d18-cf25f3575cca",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yukimura",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "21acfb29-7b5e-4679-9310-7178f362327b",
-   "type": "chapter"
-  },
-  {
-   "id": "59c022d1-a746-4482-9451-7673b28ff81c",
-   "type": "chapter"
-  },
-  {
-   "id": "bab8a691-ca4c-4bd3-8fd2-f7c602eade3b",
-   "type": "chapter"
-  },
-  {
-   "id": "5b20abd4-0241-4df3-b0cf-2c590e00c22d",
-   "type": "chapter"
-  },
-  {
-   "id": "ea1bbbd8-bdcc-4ff8-812d-202dc5424457",
-   "type": "chapter"
-  },
-  {
-   "id": "368bf88d-7cc4-4abf-9f30-e33546f4093b",
-   "type": "chapter"
-  },
-  {
-   "id": "c0c0f566-4d15-4905-aa36-a09d1e6359a2",
-   "type": "chapter"
-  },
-  {
-   "id": "dd608425-87cd-44bf-979e-090e850da984",
-   "type": "chapter"
-  },
-  {
-   "id": "dd1ee866-e172-4066-a51c-22656ef11088",
-   "type": "chapter"
-  },
-  {
-   "id": "18f559a0-bbb9-4d97-b859-08540f5094fd",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "baaf9d10-bf9c-4f21-9780-0eec54d15cdc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:46:53+00:00",
+    "description": "",
+    "fileName": "aacbc33e-5e3e-4667-91f0-306a871184ff.jpg",
+    "updatedAt": "2021-05-24T16:46:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

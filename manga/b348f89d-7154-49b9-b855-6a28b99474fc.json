@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Isekai Izakaya \u0026quot;Nobu\u0026quot; - Shinobu to Taishou Koto Gohan"
+    "en": "Isekai Izakaya \"Nobu\" - Shinobu to Taishou Koto Gohan"
    },
+   "altTitles": [
+    {
+     "en": "Izakaya Nobu Shinobuto Gohan"
+    },
+    {
+     "en": "異世界居酒屋「のぶ」 しのぶと大将の古都ごはん"
+    }
+   ],
    "description": {
     "en": "[url=http://manga-zip.net/archives/95106.html/]Raw[/url]"
    },
@@ -20,7 +28,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "2",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -32,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +51,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +63,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,39 +75,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-05-12T22:47:20+00:00",
+   "updatedAt": "2019-05-12T22:47:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "971b5feb-8a44-4716-b09e-8f1bbbf7e43f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Semikawa Natsuya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1ae0104b-a503-4c2d-b8f8-414e8a07da93",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kururi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "dbfe6543-14c0-4f9e-932f-3fde72f77870",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:37+00:00",
+    "description": "",
+    "fileName": "38f3a83a-ffdd-4c57-babd-fc17a2a48863.jpg",
+    "updatedAt": "2021-05-24T17:11:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

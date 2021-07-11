@@ -7,6 +7,11 @@
    "title": {
     "en": "Gakuen Kino"
    },
+   "altTitles": [
+    {
+     "en": "学園キノ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -19,7 +24,6 @@
     "nu": "gakuen-kino"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -31,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,31 +47,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-12-06T12:06:53+00:00",
+   "updatedAt": "2019-12-06T12:06:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "8ee5750e-a169-4f7d-88af-346b1d4997fb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHIGUSAWA Keiichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3df0dcf3-13b4-49ff-8153-f3a9a8216b5e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "DENNOU Ouwadan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "3ad7de6f-9f32-4fc4-adf3-57bbff4cc74f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:36:28+00:00",
+    "description": "",
+    "fileName": "427cd653-d599-4259-94bc-4c6dfd01c0b3.jpg",
+    "updatedAt": "2021-05-24T17:36:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,39 +33,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-15T12:32:39+00:00",
+   "updatedAt": "2021-05-25T15:45:45+00:00"
   }
  },
  "relationships": [
   {
    "id": "51949129-08e9-40ae-b0e3-e7a2dda6f7c7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Winter Scenery",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "38f51c53-6a5f-422c-93ff-40a5fa80c4e3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hato Kannazuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "65c71209-9df4-422f-b200-6c6af2040fc1",
-   "type": "chapter"
-  },
-  {
-   "id": "a9035944-9669-44cc-a4a6-b447a6431bdb",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "66ce5c71-71a2-4f39-9907-2d57ca4b736b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:48:41+00:00",
+    "description": "",
+    "fileName": "9ef194f2-c4b1-432b-b1bb-dcdbbada9774.jpg",
+    "updatedAt": "2021-05-24T17:48:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

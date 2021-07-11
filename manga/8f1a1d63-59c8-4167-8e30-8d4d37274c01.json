@@ -7,6 +7,17 @@
    "title": {
     "en": "Mach GoGoGo"
    },
+   "altTitles": [
+    {
+     "en": "Mach 555"
+    },
+    {
+     "en": "Speed Racer"
+    },
+    {
+     "en": "マッハ ゴゴゴ"
+    }
+   ],
    "description": {
     "en": "An 18-year-old driver competes on the international racing circuit. AH!"
    },
@@ -17,7 +28,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "2",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -29,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +51,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,43 +63,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-19T18:42:24+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "ad0ae236-de21-42f7-8611-195340d9064d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tatsuo Yoshida",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ad0ae236-de21-42f7-8611-195340d9064d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tatsuo Yoshida",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5159a0ad-7823-4bc8-bd07-9fba5133b760",
-   "type": "chapter"
-  },
-  {
-   "id": "64d8d93b-dbd9-4d88-bb7b-6d0f57040261",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "84e2cd2f-6402-4f52-be80-ccb8ab368c0d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:29+00:00",
+    "description": "",
+    "fileName": "510ccbb0-294c-4921-b413-6ed97298e9c2.jpg",
+    "updatedAt": "2021-05-24T17:56:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

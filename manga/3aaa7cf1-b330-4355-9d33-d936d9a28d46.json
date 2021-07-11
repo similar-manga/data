@@ -7,6 +7,23 @@
    "title": {
     "en": "Man-ken"
    },
+   "altTitles": [
+    {
+     "en": "Man-ken"
+    },
+    {
+     "en": "Manken"
+    },
+    {
+     "en": "Manken."
+    },
+    {
+     "en": "マンけん。"
+    },
+    {
+     "en": "漫研"
+    }
+   ],
    "description": {
     "en": "Higasa Sachi draws manga, but keeps it hidden from her classmates and acts like a model student. Alice Toyozaki is openly otaku, draws manga in class, and is bullied by her classmates. One day Sachi stands up for Alice and is consequently invited to the manga research club."
    },
@@ -34,6 +51,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +63,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -54,51 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-21T15:06:02+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "b7a8409d-bc30-4836-af7a-f3bbb26850a5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katou Daiki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b7a8409d-bc30-4836-af7a-f3bbb26850a5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katou Daiki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "eb3864a0-057f-4512-b488-ac1b373b796e",
-   "type": "chapter"
-  },
-  {
-   "id": "4741f8c4-9607-4fe0-ba0f-21845bcee747",
-   "type": "chapter"
-  },
-  {
-   "id": "4e39f64f-1dd3-4946-a962-24df912915e4",
-   "type": "chapter"
-  },
-  {
-   "id": "f874030d-80db-414b-bdab-fdfcd187c7b2",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "1f75312b-a4f0-4f99-ba01-58f903279357",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:52:36+00:00",
+    "description": "",
+    "fileName": "b01a834d-2f25-4435-8f63-7449c25f1403.png",
+    "updatedAt": "2021-05-24T16:52:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -15,7 +15,6 @@
     "raw": "https://comic.naver.com/challenge/list.nhn?titleId=739628"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +25,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -46,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +61,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -66,6 +73,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -76,6 +85,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -86,83 +97,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-09T00:08:32+00:00",
+   "updatedAt": "2021-05-25T15:44:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "27217af8-5429-4c18-aeb4-131f81553834",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nebillim",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "27217af8-5429-4c18-aeb4-131f81553834",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nebillim",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "850578c6-5dbd-40f8-85c3-a997d595e7db",
-   "type": "chapter"
-  },
-  {
-   "id": "51f87155-c7bb-4a4c-885d-f4cffc4b7527",
-   "type": "chapter"
-  },
-  {
-   "id": "c70a5758-a9ea-4257-b98e-715bd4c9fed8",
-   "type": "chapter"
-  },
-  {
-   "id": "b87c8e39-804a-4735-94b5-2109c4c1d890",
-   "type": "chapter"
-  },
-  {
-   "id": "15850379-9139-4463-bd06-f2b1f94956c7",
-   "type": "chapter"
-  },
-  {
-   "id": "097c6e22-5f6b-4164-85e3-b3df4948709f",
-   "type": "chapter"
-  },
-  {
-   "id": "83c544b0-a224-404c-96d0-c69c34ec1125",
-   "type": "chapter"
-  },
-  {
-   "id": "e84fe497-f6ac-4b59-ba96-812267c71ad8",
-   "type": "chapter"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "eba0355f-a933-4ff2-bce4-fb7c3fcca4d3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:55:15+00:00",
+    "description": "",
+    "fileName": "d80aac11-b5a2-4de0-9ea3-03e5b8bddd6b.jpg",
+    "updatedAt": "2021-05-24T17:55:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

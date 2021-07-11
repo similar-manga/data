@@ -7,6 +7,14 @@
    "title": {
     "en": "New Face"
    },
+   "altTitles": [
+    {
+     "en": "New Identity"
+    },
+    {
+     "en": "뉴페이스"
+    }
+   ],
    "description": {
     "en": "My soul enters into my friend's body. Now, I decide to take advantage of your body, as well as your girlfriend!"
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,71 +47,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-06T02:30:16+00:00",
+   "updatedAt": "2021-05-25T15:40:04+00:00"
   }
  },
  "relationships": [
   {
    "id": "3d4e301f-294b-4e28-b72f-4c66e5cc0c03",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "LSD",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3d4e301f-294b-4e28-b72f-4c66e5cc0c03",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "LSD",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d83a17d7-0512-4e67-bbaa-694c5780668c",
-   "type": "chapter"
-  },
-  {
-   "id": "bb72dafe-3400-4f9f-bce4-e8bfde79584d",
-   "type": "chapter"
-  },
-  {
-   "id": "f7e6bbf8-d691-4070-8616-43804d255b01",
-   "type": "chapter"
-  },
-  {
-   "id": "66765419-1a29-4c1a-81db-dcaae044724d",
-   "type": "chapter"
-  },
-  {
-   "id": "ecd7f6a1-51dd-4a10-83dd-fa7a8bc5b7b5",
-   "type": "chapter"
-  },
-  {
-   "id": "e51d2954-e6eb-45d3-b81c-2b149d17897c",
-   "type": "chapter"
-  },
-  {
-   "id": "f6b19476-ed50-4c52-8098-057c85f58421",
-   "type": "chapter"
-  },
-  {
-   "id": "56a327dd-b8cb-4ea7-bdc1-c4071bf646da",
-   "type": "chapter"
-  },
-  {
-   "id": "cbcd28e7-5f25-49a8-9384-abf484d7542b",
-   "type": "chapter"
-  },
-  {
-   "id": "972993ee-ca02-481e-a245-72da0bf9c261",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "3ecec751-fc56-4f9e-93ae-a5cabdbfc36e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:44+00:00",
+    "description": "",
+    "fileName": "38ba9d44-8101-45c1-bcab-c3b3deb9fb42.jpg",
+    "updatedAt": "2021-05-24T17:21:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

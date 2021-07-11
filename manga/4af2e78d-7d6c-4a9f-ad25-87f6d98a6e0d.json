@@ -5,10 +5,24 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Uroboros\u0026rsquo; Circle"
+    "en": "Uroboros’ Circle"
    },
+   "altTitles": [
+    {
+     "en": "Uroboros’s Circle"
+    },
+    {
+     "en": "Uroborosu no Wa"
+    },
+    {
+     "en": "ウロボロスの輪"
+    },
+    {
+     "en": "沃洛波羅斯之輪迴"
+    }
+   ],
    "description": {
-    "en": "\u0026ldquo;The moment you open the letter, you will be cursed. After reading the letter, you have to make two copies and send it to a close friend within 24 hours.\u0026rdquo;\r\n\r\nEveryone knows what it\u0026rsquo;s like to pass notes in class. People carelessly write about things like love or gossip. One day, everything suddenly turns out evil\u0026hellip;"
+    "en": "“The moment you open the letter, you will be cursed. After reading the letter, you have to make two copies and send it to a close friend within 24 hours.”\r\n\r\nEveryone knows what it’s like to pass notes in class. People carelessly write about things like love or gossip. One day, everything suddenly turns out evil…"
    },
    "links": {
     "kt": "12842",
@@ -27,6 +41,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +53,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +65,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +77,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,83 +89,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-31T02:47:59+00:00",
+   "updatedAt": "2021-05-25T15:42:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "53d7e3e6-acef-46e4-ad66-e5510a64655d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kanari Youzaburou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ee459977-3f7b-426e-90d2-9077302ba3aa",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamamoto Keiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3663350c-acb2-4289-8312-dd9814f44029",
-   "type": "chapter"
-  },
-  {
-   "id": "e7531fa2-7355-467e-afbd-724f53969d23",
-   "type": "chapter"
-  },
-  {
-   "id": "7096e024-fa57-46e6-b4c1-6a9b930d4d59",
-   "type": "chapter"
-  },
-  {
-   "id": "c470b3c2-648c-4c99-aa26-258a7f828f87",
-   "type": "chapter"
-  },
-  {
-   "id": "dbe74bf2-6bbc-43c5-a7e8-7aa1722f521f",
-   "type": "chapter"
-  },
-  {
-   "id": "0289ebd0-af86-4c29-b894-b1087b2ea88e",
-   "type": "chapter"
-  },
-  {
-   "id": "d4682928-dbb7-48f0-b3ed-5a4a3e061eec",
-   "type": "chapter"
-  },
-  {
-   "id": "88426bd8-5308-48b9-8018-08c8fdbbdc84",
-   "type": "chapter"
-  },
-  {
-   "id": "dc75a4ef-8813-4499-8574-ec1b7cf1bc67",
-   "type": "chapter"
-  },
-  {
-   "id": "9500b550-8ee2-42ec-a226-61367134051f",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "2d2ed2a1-27c6-4f74-9282-13792e492320",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:18+00:00",
+    "description": "",
+    "fileName": "6cf9a7b5-cadf-4f4a-ae0e-f3e2f2adf277.jpg",
+    "updatedAt": "2021-05-24T17:32:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

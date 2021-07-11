@@ -7,6 +7,11 @@
    "title": {
     "en": "My Lovely Cat, Matilda"
    },
+   "altTitles": [
+    {
+     "en": "僕のマチルダ"
+    }
+   ],
    "description": {
     "en": "A short oneshot of the comedic daily interactions and antics of Matilda the cat and her doting owner, Shibata."
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +57,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -58,43 +69,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-28T01:20:23+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "3d85f570-08ba-47ee-ae2d-cc52a02fa9f4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yuki Nojin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3d85f570-08ba-47ee-ae2d-cc52a02fa9f4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yuki Nojin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f5df706d-d3e7-4243-acd5-0678842ee051",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "540390a3-09a2-4f07-bbfb-3eb1f002f421",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:16:57+00:00",
+    "description": "",
+    "fileName": "64266e91-1ed9-4cac-a9b1-247616088e15.png",
+    "updatedAt": "2021-05-24T17:16:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

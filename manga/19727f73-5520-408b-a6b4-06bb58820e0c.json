@@ -5,10 +5,18 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Fuwa Fuwa\u0026hearts;Cinnamon"
+    "en": "Fuwa Fuwa♥Cinnamon"
    },
+   "altTitles": [
+    {
+     "en": "Fluffy, Fluffy Cinnamoroll"
+    },
+    {
+     "en": "ふわふわ♥シナモン"
+    }
+   ],
    "description": {
-    "en": "Cinnamoroll is a cloud puppy, born high above the earth. When he learns to fly, he decides to move the surface to interact with other puppies like him. He moves into Cafe Cinnamon where the owner names him \u0026ldquo;Cinnamoroll\u0026rdquo; after his curly tail, which looks like a cinnamon roll. Cinnamoroll meets Mocha, Chiffon, Cappuccino, Milk, and Espresso and the group has lots of fun following treasure maps, going to amusement parks, and doing other magical things. Even the villain dark cloud Cavity can't keep these pups down!"
+    "en": "Cinnamoroll is a cloud puppy, born high above the earth. When he learns to fly, he decides to move the surface to interact with other puppies like him. He moves into Cafe Cinnamon where the owner names him “Cinnamoroll” after his curly tail, which looks like a cinnamon roll. Cinnamoroll meets Mocha, Chiffon, Cappuccino, Milk, and Espresso and the group has lots of fun following treasure maps, going to amusement parks, and doing other magical things. Even the villain dark cloud Cavity can't keep these pups down!"
    },
    "links": {
     "al": "48307",
@@ -18,7 +26,6 @@
     "mu": "16676"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,31 +49,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-08-09T02:16:10+00:00",
+   "updatedAt": "2019-08-09T02:16:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "f4ccf79b-cca1-4ad9-a9b4-6de67426d4c4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chisato Seki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e4fa6eea-c92a-4978-8b05-75dd12c63665",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yumi Tsukirino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "41b321fe-4945-4f4c-b00a-51f95845f89e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:09+00:00",
+    "description": "",
+    "fileName": "923f0b32-83a3-4e87-9d25-c4109f505ed6.jpg",
+    "updatedAt": "2021-05-24T17:22:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

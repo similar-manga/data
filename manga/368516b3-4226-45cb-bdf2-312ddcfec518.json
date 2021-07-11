@@ -18,7 +18,6 @@
     "mu": "58159"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +29,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +41,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,47 +53,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-15T22:43:53+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "bf213ba8-a3a5-4771-84e9-e7d755993343",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKANO Masayuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bf213ba8-a3a5-4771-84e9-e7d755993343",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKANO Masayuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dce660d2-5886-4ad3-a99e-cb5ebfe4dc41",
-   "type": "chapter"
-  },
-  {
-   "id": "b3b66c82-efdf-4d0a-97bf-3779de48964f",
-   "type": "chapter"
-  },
-  {
-   "id": "1be09d78-d9d0-4a85-868c-d724edd59bd9",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "b5a2d4d2-3d50-4f5b-8fff-dc04c12c2763",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:49:58+00:00",
+    "description": "",
+    "fileName": "3619583d-a4b3-46b3-8896-60d8f50dc882.jpg",
+    "updatedAt": "2021-05-24T17:49:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

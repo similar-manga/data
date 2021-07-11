@@ -7,6 +7,14 @@
    "title": {
     "en": "Ashita Naku"
    },
+   "altTitles": [
+    {
+     "en": "I'll Cry Tomorrow"
+    },
+    {
+     "en": "明日泣く"
+    }
+   ],
    "description": {
     "en": "Ichimura has just quit his job of eight years and lost his girlfriend. While feeling bummed out and uninspired, his best friend from college appears on his doorstep. But maybe there is more to their friendship than meets the eye..."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,43 +74,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-02T13:43:21+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "f914b87e-9536-4573-8e93-273bd95aec1a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamada Yugi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f914b87e-9536-4573-8e93-273bd95aec1a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamada Yugi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3e566f44-28d7-4da2-b8d4-e00d08a728b4",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "04ef5cc9-fd77-4f30-a60d-b5b88ac966e2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:10:26+00:00",
+    "description": "",
+    "fileName": "2ddf39a1-80c2-4cdb-9d0c-57c911ef946c.jpg",
+    "updatedAt": "2021-05-24T17:10:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

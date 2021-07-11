@@ -7,11 +7,15 @@
    "title": {
     "en": "The Story of How I met a Vampire"
    },
+   "altTitles": [
+    {
+     "en": "내가 만난 뱀파이어 이야기"
+    }
+   ],
    "description": {
     "en": "(From the authors twitter: During the Halloween season I suddenly started to draw this)"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Vampires"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,39 +51,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-03T10:09:36+00:00",
+   "updatedAt": "2021-05-25T15:45:37+00:00"
   }
  },
  "relationships": [
   {
    "id": "770f2d1b-b89d-488d-a7f8-12b011a0b4e1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hanla Gamgyul",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "770f2d1b-b89d-488d-a7f8-12b011a0b4e1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hanla Gamgyul",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "af77e09e-c8b8-4c0d-88d4-f78820eedfe8",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "d7d1730f-6eb0-4ba6-9437-602cac38664c",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "af13b516-91fc-4ff6-b59e-adcb484fe7d1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:25:11+00:00",
+    "description": "",
+    "fileName": "e3ccc078-eddf-406c-8592-a6968bbe1111.jpg",
+    "updatedAt": "2021-05-24T17:25:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Dog Food Acorn"
    },
+   "altTitles": [
+    {
+     "en": "Gae Bapdotori"
+    },
+    {
+     "en": "개밥도토리"
+    }
+   ],
    "description": {
     "en": "Jo Yeong-su turns into a dog after being involved in an accident. Now he has to hide the fact he's a dog from his blind employer so he can make ends meet."
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +71,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +83,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -77,6 +95,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -87,91 +107,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-16T23:01:16+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "5a32597d-74b6-4c13-8b56-918183a0274b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "호형",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "91ecb853-c9b3-4e05-aa5a-c49201d841e1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "망기",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "39a9ed9b-d535-4fd7-a013-cc12b9412cd8",
-   "type": "chapter"
-  },
-  {
-   "id": "8453dfb2-04ba-4e36-a247-e2e6070b4715",
-   "type": "chapter"
-  },
-  {
-   "id": "bff188f1-c98a-4bb9-8f8b-e1d95597bb45",
-   "type": "chapter"
-  },
-  {
-   "id": "ccdef25f-a6d1-4dcc-940d-00a91ebd0e54",
-   "type": "chapter"
-  },
-  {
-   "id": "74042b01-7f99-48bd-985b-93204ef44142",
-   "type": "chapter"
-  },
-  {
-   "id": "f861ed88-f438-4ca7-b80d-738b9be2c4fb",
-   "type": "chapter"
-  },
-  {
-   "id": "2df25afe-5299-43bf-a8f4-34d2f671d694",
-   "type": "chapter"
-  },
-  {
-   "id": "7b127408-70b6-4619-b00a-0ea69905e5bb",
-   "type": "chapter"
-  },
-  {
-   "id": "ce9232bf-03b3-407d-8e72-e0ccbf2db2b1",
-   "type": "chapter"
-  },
-  {
-   "id": "af537027-7619-4666-a044-a05adff84192",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "c9b9fa2b-6e30-4fbe-a12f-c3861af40191",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:14:15+00:00",
+    "description": "",
+    "fileName": "caaaff5d-ae71-42ac-9340-898307db0be4.png",
+    "updatedAt": "2021-05-28T23:14:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

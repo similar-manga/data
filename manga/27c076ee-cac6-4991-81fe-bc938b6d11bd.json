@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Hyakujitsu no Bara - Night \u0026amp; Spice (Doujinshi)"
+    "en": "Hyakujitsu no Bara - Night \u0026 Spice (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Maiden Rose dj - Night \u0026 Spice "
+    },
+    {
+     "en": "百日の薔薇 dj - 夜とスパイス"
+    }
+   ],
    "description": {
     "en": "An innocent and charming chibi doujinshi of 'Maiden Rose: Rose of One-Hundred Days'."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -20,8 +27,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +41,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,39 +53,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-27T07:22:06+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "52911fe8-9a69-4b3a-9e65-c92d80b5f9de",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kohaku Sabou (Inariya Fusanosuke)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "52911fe8-9a69-4b3a-9e65-c92d80b5f9de",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kohaku Sabou (Inariya Fusanosuke)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7d664c8a-72a2-48c7-a004-2f862cf8d2ae",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "72726ef4-df3b-4f73-a24c-6d2f5e14a0b1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:46:39+00:00",
+    "description": "",
+    "fileName": "fc70de1d-989b-4f0e-8154-714cd89d73d3.jpg",
+    "updatedAt": "2021-05-24T17:46:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

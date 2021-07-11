@@ -7,6 +7,14 @@
    "title": {
     "en": "Spell"
    },
+   "altTitles": [
+    {
+     "en": "Cast A Spell On You"
+    },
+    {
+     "en": "スペル"
+    }
+   ],
    "description": {
     "en": "Second-year college student Takamasa Natori isn't fond of date parties. For the most part, he finds the women pretentious and the whole concept a complete waste of time. But when his long time friend Takeda needs a favor, he finds himself being dragged to yet another one. This party ends up being a little different when he meets Junpei Kisugi. Kisugi is an old friend of Takeda and the two hit it off immediately. Unfortunately, Kisugi currently has a lover, Tooru; and Natori finds himself falling deeper and deeper under Kisugi's spell. Can Natori bring himself to confess his feelings?"
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,63 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-18T16:29:02+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "adf83034-5078-4a46-b508-2858e8ded19d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujiyama Hyouta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "adf83034-5078-4a46-b508-2858e8ded19d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujiyama Hyouta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "993e652d-6265-496d-becb-81134f2460c4",
-   "type": "chapter"
-  },
-  {
-   "id": "bae42b4e-db1e-40b6-bc84-6833847cf1d6",
-   "type": "chapter"
-  },
-  {
-   "id": "87783def-765f-4495-a50b-1500749b6433",
-   "type": "chapter"
-  },
-  {
-   "id": "98d80e61-ed4a-44b3-bc18-b0a54006010d",
-   "type": "chapter"
-  },
-  {
-   "id": "b24f121f-d830-4378-8dd2-93232bb0ae91",
-   "type": "chapter"
-  },
-  {
-   "id": "3ea9948a-46e6-4354-bac3-4ea347772f1a",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "8c9b23c1-6cc8-4f12-8bbd-e934ee884a49",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:41+00:00",
+    "description": "",
+    "fileName": "4fbdae2c-dd0c-428e-a7c8-260048b177bc.jpg",
+    "updatedAt": "2021-05-24T17:41:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

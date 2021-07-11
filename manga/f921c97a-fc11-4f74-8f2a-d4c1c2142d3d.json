@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon the Movie: Everyone's Story - Episode Zeraora"
+    "en": "Pokémon the Movie: Everyone's Story - Episode Zeraora"
    },
+   "altTitles": [
+    {
+     "en": "Pokémon Le Film 21 - L'Épisode de Zeraora"
+    }
+   ],
    "description": {
-    "en": "New manga for the upcoming Pok\u0026eacute;mon movie."
+    "en": "New manga for the upcoming Pokémon movie."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,47 +26,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-01T13:26:57+00:00",
+   "updatedAt": "2021-05-25T15:49:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "8fc2a5d7-1f4e-434b-8452-1de6f1da5e62",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kemon Kawamoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8fc2a5d7-1f4e-434b-8452-1de6f1da5e62",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kemon Kawamoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c27bfd4e-2b19-4185-8e6c-149022931a45",
-   "type": "chapter"
-  },
-  {
-   "id": "f61e8cca-97b1-4c65-9e02-bcc46ba9ccd9",
-   "type": "chapter"
-  },
-  {
-   "id": "39444274-1deb-42d6-a2d0-7d617352525f",
-   "type": "chapter"
-  },
-  {
-   "id": "26dd3ca0-d2fc-4388-8762-a5016b93c5cb",
-   "type": "chapter"
-  },
-  {
-   "id": "6f79213a-e91d-4550-9aa5-36a2daed1c39",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "83d41b16-7cad-4f8d-b87d-7ffa9ee50b38",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:10:17+00:00",
+    "description": "",
+    "fileName": "32c0df54-fa1d-4b2f-a86e-c9d3749fde34.jpg",
+    "updatedAt": "2021-05-24T17:10:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

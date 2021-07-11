@@ -7,6 +7,11 @@
    "title": {
     "en": "Number Three"
    },
+   "altTitles": [
+    {
+     "en": "ナンバー参"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -46,6 +55,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,51 +67,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-02T11:26:12+00:00",
+   "updatedAt": "2021-05-25T15:44:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "228a9745-0175-4486-9129-9397f5e3eac3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nikora",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "228a9745-0175-4486-9129-9397f5e3eac3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nikora",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f464b548-f385-4c34-a653-234c36363a3d",
-   "type": "chapter"
-  },
-  {
-   "id": "cc364fb5-0482-4f8b-b651-07f43c39cc02",
-   "type": "chapter"
-  },
-  {
-   "id": "90cb8098-f4d7-4f25-b606-c5c300d4ba24",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "472e1e80-2619-4f3d-beec-d1dcf021a082",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:17+00:00",
+    "description": "",
+    "fileName": "45bf5c9f-f71f-48a2-865d-089839359a16.jpg",
+    "updatedAt": "2021-05-24T17:21:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Sword Art Online - Material Edition: Remix"
    },
+   "altTitles": [
+    {
+     "en": "マテリアル・エディション：リミックス"
+    }
+   ],
    "description": {
     "en": "The Material Edition: Remix is an official collection of Material Edition and Character Edition short stories by the author of the Sword Art Online light novel, Kawahara Reki. The collection was originally released at the Sword Art Online 10 year anniversary technology demonstration event named Ex-Chronicle, held on August 4-18, 2019. The manga Material Editions were redrawn by the Phantom Bullet and Project Alicization manga artist Yamada Koutarou for this collection."
    },
@@ -14,7 +19,6 @@
     "ap": "sword-art-online-material-edition-remix"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +30,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +42,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +54,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -56,6 +66,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,51 +78,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-28T14:46:21+00:00",
+   "updatedAt": "2021-05-25T15:50:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "24f37f56-2983-4505-b531-80fcb8082597",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kawahara Reki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f08e9c31-758c-4d15-a7f3-b8c52f91f473",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamada Koutarou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b9f99874-64b3-4d26-953c-fe369fe72d13",
-   "type": "chapter"
-  },
-  {
-   "id": "a7f816fb-4398-46bc-9206-a45348ab9c00",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "826c9f32-f695-4f2c-a61d-244039f7471c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:24:35+00:00",
+    "description": "",
+    "fileName": "99cc09e6-63bd-40a1-9988-1361174d2cb0.png",
+    "updatedAt": "2021-05-24T18:24:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

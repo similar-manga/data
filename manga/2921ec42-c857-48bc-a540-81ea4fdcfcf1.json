@@ -12,7 +12,6 @@
    },
    "originalLanguage": "fr",
    "lastVolume": "5",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -23,6 +22,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,31 +34,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-05-22T18:59:58+00:00",
+   "updatedAt": "2020-05-22T18:59:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "1047f922-266b-40ff-b4dd-29f3ca4dcd47",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mig",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "306e2007-539b-43e8-8a81-c8f53d8d2ec8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Saïd Sassine",
+    "updatedAt": "2021-05-15T21:06:43+00:00",
+    "version": 2
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "e9ad2c6a-0371-4f3c-9e17-736273fd5c9c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:49+00:00",
+    "description": "",
+    "fileName": "4c7bf8d8-afa2-42dd-a77e-29cb0d4a46f3.jpg",
+    "updatedAt": "2021-05-24T17:56:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

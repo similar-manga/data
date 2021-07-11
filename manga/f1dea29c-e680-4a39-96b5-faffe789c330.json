@@ -11,7 +11,6 @@
     "en": "A young protagonist known as Hiro is on a quest to becoming the Oshu Supreme but due to his foolish antics his plan doesn't go as smoothly as he wishes."
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,39 +46,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-16T05:46:57+00:00",
+   "updatedAt": "2021-05-25T15:49:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "ee5d2672-eb0a-4cc2-827a-1aeffe6bda95",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Keita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "baa7d00d-82fb-418d-b371-469fd575467e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sabbath",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fb86dd11-02d4-4eb4-af5a-1bf8d374fc01",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "4a026c95-1dc6-4f4b-a185-bcbd5cf877d0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:59:31+00:00",
+    "description": "",
+    "fileName": "5861271f-ec3b-4daa-8ffa-64ef8ecdf4a8.png",
+    "updatedAt": "2021-05-24T17:59:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

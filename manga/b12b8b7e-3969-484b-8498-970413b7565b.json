@@ -5,10 +5,18 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Drea\u0026bull;Mer"
+    "en": "Drea•Mer"
    },
+   "altTitles": [
+    {
+     "en": "DREA・MER"
+    },
+    {
+     "en": "ドリー・マー"
+    }
+   ],
    "description": {
-    "en": "One day, in the year 2015, our protagonist, Ma-kun, is put to sleep by a massive herd of \u0026quot;sheep\u0026quot; that suddenly fell from the sky. With the help of Dolly, he returns to reality from his dreams, but finds that the world is now all fluffy! How will he fight against the \u0026quot;sheep\u0026quot; that keep attacking him!?"
+    "en": "One day, in the year 2015, our protagonist, Ma-kun, is put to sleep by a massive herd of \"sheep\" that suddenly fell from the sky. With the help of Dolly, he returns to reality from his dreams, but finds that the world is now all fluffy! How will he fight against the \"sheep\" that keep attacking him!?"
    },
    "links": {
     "al": "86379",
@@ -30,6 +38,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Post-Apocalyptic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +74,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,6 +86,8 @@
       "name": {
        "en": "Monster Girls"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -80,87 +98,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-19T03:40:39+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "eeddd9ca-7fbf-45ba-9e60-b6a590d42c22",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Bako Hajime",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "eeddd9ca-7fbf-45ba-9e60-b6a590d42c22",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Bako Hajime",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "07cff29c-5431-44b5-9182-17b0af5292f0",
-   "type": "chapter"
-  },
-  {
-   "id": "d95c8596-ea80-4241-85cd-02e7e2eae844",
-   "type": "chapter"
-  },
-  {
-   "id": "48983817-caa2-498a-9b7a-aa0aacf41ab7",
-   "type": "chapter"
-  },
-  {
-   "id": "65b4d264-1001-427a-9b2b-cafc07eda243",
-   "type": "chapter"
-  },
-  {
-   "id": "bf7afc95-8b39-4f1f-a320-f3c26cc05a42",
-   "type": "chapter"
-  },
-  {
-   "id": "398c06f9-aa09-4cdf-8e09-98dcd5de6e5d",
-   "type": "chapter"
-  },
-  {
-   "id": "428cb532-2d68-4493-946b-61c130b9880e",
-   "type": "chapter"
-  },
-  {
-   "id": "4aab7f3b-ec3a-4e42-9ec8-1d1058221fc6",
-   "type": "chapter"
-  },
-  {
-   "id": "cee3e2c9-b917-4c2a-a866-3320c2126f97",
-   "type": "chapter"
-  },
-  {
-   "id": "23411071-4615-4a1a-9dc8-ecd18a30c93a",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "9467335a-1b83-4497-9231-765337a00b96",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "dd1f77c5-dea9-4e2b-97ae-224af09caf99",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "ca3cac53-3dcc-4ff6-9638-fc0bab620076",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:48:38+00:00",
+    "description": "",
+    "fileName": "8b9bb686-ae3c-415d-8cb8-b516f864e0bf.jpg",
+    "updatedAt": "2021-05-24T16:48:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

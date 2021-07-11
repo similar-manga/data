@@ -27,6 +27,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +39,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,79 +63,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-02T21:55:39+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "752a4eff-1b7b-4e5e-8508-4a5180b35805",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hyun Yeh-ji; Kang Ji-Young",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "752a4eff-1b7b-4e5e-8508-4a5180b35805",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hyun Yeh-ji; Kang Ji-Young",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a0295555-731e-44ee-b361-b6e3600c229b",
-   "type": "chapter"
-  },
-  {
-   "id": "eb2b81c1-cf8f-46d9-b117-e40a7084e555",
-   "type": "chapter"
-  },
-  {
-   "id": "12837d77-8361-45ae-bb6a-5d0eae4c8388",
-   "type": "chapter"
-  },
-  {
-   "id": "910eda7e-ae25-41ed-bcac-a83cf549c0d1",
-   "type": "chapter"
-  },
-  {
-   "id": "e1a79232-6aca-4343-8874-3f17ebd7f274",
-   "type": "chapter"
-  },
-  {
-   "id": "816f4025-229d-4a15-9fb8-61940aeeb6fb",
-   "type": "chapter"
-  },
-  {
-   "id": "dc671a47-3d60-4087-b560-743f10f2d206",
-   "type": "chapter"
-  },
-  {
-   "id": "3878ec12-c4da-43cf-951d-1b37818f578a",
-   "type": "chapter"
-  },
-  {
-   "id": "60d64534-3a9d-40e4-9147-a496d486ef33",
-   "type": "chapter"
-  },
-  {
-   "id": "41a2692c-1953-4d82-a857-3ded23d87bc9",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "caa0391c-6ea9-4fba-a669-b78f0b229932",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:42:58+00:00",
+    "description": "",
+    "fileName": "b4f2fb2d-44a3-4e62-8060-9b3932f4897f.jpg",
+    "updatedAt": "2021-05-24T18:42:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

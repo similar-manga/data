@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Wolf \u0026amp; Mary"
+    "en": "Wolf \u0026 Mary"
    },
+   "altTitles": [
+    {
+     "en": "Wolf and Mary"
+    },
+    {
+     "en": "野狼与玛莉"
+    }
+   ],
    "description": {
     "en": "Ordinary guy on an ordinary day woke up in an ordinary house next to an... ordinary dead body, what would you do?"
    },
@@ -17,7 +25,7 @@
     "mal": "57391",
     "mu": "103113"
    },
-   "originalLanguage": "zh",
+   "originalLanguage": "zh-hk",
    "lastChapter": "3",
    "publicationDemographic": "seinen",
    "status": "completed",
@@ -30,6 +38,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,47 +62,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-08-03T13:45:29+00:00",
+   "updatedAt": "2018-08-03T13:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "e4cda019-4b55-4623-97b4-1cef10f95ebb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Cheng Kin Wo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a68bfaec-bea8-44bf-9fc6-20fbfd890a58",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tang Chi Fai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "59ec8bae-8fa6-4cba-87e2-d1b284e71488",
-   "type": "chapter"
-  },
-  {
-   "id": "5c0fb074-39ba-429f-b26e-7a30e5d0ad0a",
-   "type": "chapter"
-  },
-  {
-   "id": "05d6075e-7870-4ca8-b703-e99ecf324dd6",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "bbd718f7-984b-4f9f-a79e-5a2f2400809a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:43:02+00:00",
+    "description": "",
+    "fileName": "da8911c9-d623-4a47-9cd1-9b182fca284e.jpg",
+    "updatedAt": "2021-05-24T18:43:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Shu no Kigen"
    },
+   "altTitles": [
+    {
+     "en": "Aruji no Kigen"
+    },
+    {
+     "en": "主のキゲン"
+    }
+   ],
    "description": {
     "en": "On earth's last day the survivor is a hikkikomori?"
    },
@@ -18,7 +26,6 @@
     "mu": "107112"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "suggestive",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +49,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,43 +61,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-20T15:46:03+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "a827b502-eda4-4e18-9e51-8fb7467c034f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hirokatsu Kihara",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2488c533-704a-442a-9a09-48ad4539b23e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Park Sung-Woo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e25189b7-6d4e-42a4-9083-34c4c4666239",
-   "type": "chapter"
-  },
-  {
-   "id": "242f0665-18be-4a7d-b8d3-9ed13978416f",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "ef9830f8-c585-4fc6-86f8-380a4f6eca0b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:42:30+00:00",
+    "description": "",
+    "fileName": "8c03036a-49bc-466e-8208-c8e8aa39d6ae.jpg",
+    "updatedAt": "2021-05-24T16:42:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

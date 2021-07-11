@@ -30,6 +30,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,75 +54,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-15T12:44:08+00:00",
+   "updatedAt": "2021-05-25T15:45:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "48392797-0753-4f5f-a2e2-19e3e6cddfac",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Franz Kafka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5bf15065-2e02-41ac-90b6-90eeab468ab1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NISHIOKA Kyoudai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "be593078-1c88-4bc7-a3a9-640540c04d2a",
-   "type": "chapter"
-  },
-  {
-   "id": "c7a4087a-b587-4695-a80a-8ad2109179d4",
-   "type": "chapter"
-  },
-  {
-   "id": "b6ffc90a-40e1-46dd-8e72-36f4b84e3e7a",
-   "type": "chapter"
-  },
-  {
-   "id": "32870f99-3c1b-4f04-80e5-22796240ecd6",
-   "type": "chapter"
-  },
-  {
-   "id": "9c903d4c-5ac9-42c7-bbae-74d27601863f",
-   "type": "chapter"
-  },
-  {
-   "id": "a0a34c5e-9ac4-4a9b-b634-2f3e0c527191",
-   "type": "chapter"
-  },
-  {
-   "id": "7fa60cfb-f035-4a09-88b4-c027ce641613",
-   "type": "chapter"
-  },
-  {
-   "id": "00f33a33-bf6b-49f2-9298-e7a86a78ccc0",
-   "type": "chapter"
-  },
-  {
-   "id": "90de6739-6cc7-40c6-9739-8da51e7d2ecf",
-   "type": "chapter"
-  },
-  {
-   "id": "97aa733e-091b-4411-a751-9faa11c770eb",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "ad94b7b4-ddb1-4fb1-b885-5d4cff95399e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:37+00:00",
+    "description": "",
+    "fileName": "42747bb6-392d-405e-b80b-7a1d47641532.jpg",
+    "updatedAt": "2021-05-24T17:04:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

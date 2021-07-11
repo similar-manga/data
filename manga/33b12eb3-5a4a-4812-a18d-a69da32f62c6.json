@@ -20,7 +20,7 @@
    "lastChapter": "42",
    "publicationDemographic": "seinen",
    "status": "completed",
-   "contentRating": "suggestive",
+   "contentRating": "erotica",
    "tags": [
     {
      "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
@@ -29,6 +29,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +41,8 @@
       "name": {
        "en": "Time Travel"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -49,6 +53,8 @@
       "name": {
        "en": "Monsters"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -59,6 +65,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,6 +77,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -79,6 +89,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -89,6 +101,8 @@
       "name": {
        "en": "Magic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -99,6 +113,8 @@
       "name": {
        "en": "Philosophical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -109,6 +125,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -119,6 +137,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -129,6 +149,8 @@
       "name": {
        "en": "Monster Girls"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -139,111 +161,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-01T15:01:06+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "29fed18d-2eef-4356-ac77-e06573b267c7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Rikudo Koshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "29fed18d-2eef-4356-ac77-e06573b267c7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Rikudo Koshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c98ceaf7-433e-49ea-9e3c-3fed42aa31a9",
-   "type": "chapter"
-  },
-  {
-   "id": "69c32423-d503-4774-8cd4-65e6b6ad1964",
-   "type": "chapter"
-  },
-  {
-   "id": "d84be849-658a-4cfd-8e39-d1e1bf9b9dca",
-   "type": "chapter"
-  },
-  {
-   "id": "b07f3e0e-e54b-4cbb-8c9a-40173f608cd8",
-   "type": "chapter"
-  },
-  {
-   "id": "47cb143e-7d55-416b-8b22-ff8ec0e3ff4d",
-   "type": "chapter"
-  },
-  {
-   "id": "8a073138-321e-4190-ae77-581c55e6aadd",
-   "type": "chapter"
-  },
-  {
-   "id": "37210dd3-8e4b-4250-8c15-a484bb9bd09d",
-   "type": "chapter"
-  },
-  {
-   "id": "cde4a422-57a4-4747-b621-e23349f3fd9c",
-   "type": "chapter"
-  },
-  {
-   "id": "96b77e62-7765-4535-96d1-06298d35c54a",
-   "type": "chapter"
-  },
-  {
-   "id": "0f659028-d1e7-4d03-8279-8369eeda5017",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "292e862b-2d17-4062-90a2-0356caa4ae27",
-   "type": "tag"
-  },
-  {
-   "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-   "type": "tag"
-  },
-  {
-   "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "dd1f77c5-dea9-4e2b-97ae-224af09caf99",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "28b2b459-e6c9-4f27-9226-4098b5276fc2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:14+00:00",
+    "description": "",
+    "fileName": "d7df98c2-c5b4-4e4c-80ae-b51dfbe59fad.jpg",
+    "updatedAt": "2021-05-24T18:17:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

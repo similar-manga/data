@@ -7,6 +7,14 @@
    "title": {
     "en": "Hatarake, Kentauros!"
    },
+   "altTitles": [
+    {
+     "en": "Gallop!"
+    },
+    {
+     "en": "はたらけ、ケンタウロス!"
+    }
+   ],
    "description": {
     "en": "After the passing of the Equal Opportunity Employment Act, everyone has equal rights in the workplace. Unfortunately, there are still many logistical difficulties yet to be overcome. For one, how's a centaur supposed to sit at a desk made for humans, anyway?"
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,79 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-14T04:29:02+00:00",
+   "updatedAt": "2021-05-25T15:39:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "d2df4b59-1965-484f-b9fa-cd9db59a293b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Est Em",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d2df4b59-1965-484f-b9fa-cd9db59a293b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Est Em",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8ada6edc-fa3b-4ed8-914d-b453380b69da",
-   "type": "chapter"
-  },
-  {
-   "id": "d918f517-d72e-4f5f-b0e5-afff5414d85e",
-   "type": "chapter"
-  },
-  {
-   "id": "90bcceb2-f38d-4f64-bf5b-338b90db1016",
-   "type": "chapter"
-  },
-  {
-   "id": "4e7b48a8-d05f-4686-a5ba-3f9f7025d1f8",
-   "type": "chapter"
-  },
-  {
-   "id": "5e388e9c-99cb-40d7-8f8b-78a0e22c33ce",
-   "type": "chapter"
-  },
-  {
-   "id": "632e419b-b9ff-40e8-ae94-2f73aa528a86",
-   "type": "chapter"
-  },
-  {
-   "id": "36f5a8e2-7d5c-41f9-b544-1d4ef2d567e8",
-   "type": "chapter"
-  },
-  {
-   "id": "79efd08b-b0b4-40cd-8e70-c5615bf16a36",
-   "type": "chapter"
-  },
-  {
-   "id": "f9895a0a-bfe4-4131-be0b-6893698c2cd3",
-   "type": "chapter"
-  },
-  {
-   "id": "32e0d1f6-d504-467a-b684-2f6707fa5407",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "c9c27e94-3265-4f09-8055-4f3900138f69",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:13:22+00:00",
+    "description": "",
+    "fileName": "01dc5f82-75d2-4dca-9b30-44865e889d9b.jpg",
+    "updatedAt": "2021-05-24T17:13:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

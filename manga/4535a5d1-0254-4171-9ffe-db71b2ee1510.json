@@ -7,6 +7,11 @@
    "title": {
     "en": "May I Shake Your Hand"
    },
+   "altTitles": [
+    {
+     "en": "우리 악수할까요"
+    }
+   ],
    "description": {
     "en": "Lynn has a special ability where she can foresee the image of the last goodbye if she holds a man's hand. She's on a search to find her last love where she will only be separated by old age."
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +56,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -57,79 +68,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-11T13:53:51+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "84c6a997-5f32-4c5f-8f60-c07d3703eb33",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Linwoo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2b488251-a0e8-4c0d-bd84-d979276ec3b3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Noe",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "11868219-540f-4a76-83cc-f410835a485b",
-   "type": "chapter"
-  },
-  {
-   "id": "0a5577ae-e4e5-408a-97fb-85e7ea8dec7e",
-   "type": "chapter"
-  },
-  {
-   "id": "65b3e2fd-9614-4762-92d7-c6a396db05bd",
-   "type": "chapter"
-  },
-  {
-   "id": "57d7f4bc-75be-4d63-8e55-4e6e3fd5b818",
-   "type": "chapter"
-  },
-  {
-   "id": "7cf7a7bd-5835-4f72-8051-688766da4d96",
-   "type": "chapter"
-  },
-  {
-   "id": "2c5a9dd5-5497-4afc-b39e-bc5fbbf3f19c",
-   "type": "chapter"
-  },
-  {
-   "id": "5754fa7e-3e07-4e7a-a0dc-2da511ff8d50",
-   "type": "chapter"
-  },
-  {
-   "id": "85761220-789a-4690-ba20-d8accca93e4b",
-   "type": "chapter"
-  },
-  {
-   "id": "7f27ae90-a593-4b9b-a021-7b2126aa5c15",
-   "type": "chapter"
-  },
-  {
-   "id": "a3b937b3-af99-4ce9-bfba-b0a43182419b",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "34ca5778-e6e2-4fd5-9690-b94855cfcc4d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:25+00:00",
+    "description": "",
+    "fileName": "884cd8a0-45bf-45e4-85ef-8cd99c2a4fac.jpg",
+    "updatedAt": "2021-05-24T17:22:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

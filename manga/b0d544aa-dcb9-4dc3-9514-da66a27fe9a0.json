@@ -7,6 +7,11 @@
    "title": {
     "en": "Grandma Mameng"
    },
+   "altTitles": [
+    {
+     "en": "Lola Mameng"
+    }
+   ],
    "description": {
     "en": "A battle between a helpless-looking (but badass) grandma and two millenials."
    },
@@ -14,7 +19,6 @@
     "mu": "141302"
    },
    "originalLanguage": "tl",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,35 +41,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-08T19:31:27+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "210e85a4-893a-428b-b2d9-771b84941b0e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kong",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "210e85a4-893a-428b-b2d9-771b84941b0e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kong",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3c1de3d9-5085-4460-becb-0cd22a52c302",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "5fd9a3f0-c794-4f3c-a609-be24f6018d0f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:41+00:00",
+    "description": "",
+    "fileName": "7c2c7f82-921e-48e7-b8a1-b22a5ae710cf.jpg",
+    "updatedAt": "2021-05-24T17:00:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

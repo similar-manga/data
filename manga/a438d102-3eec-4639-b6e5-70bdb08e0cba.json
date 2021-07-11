@@ -18,7 +18,6 @@
     "mu": "85758"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +28,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,35 +40,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-03T16:42:59+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "00c65698-6af2-4661-bfa2-fc9b122f9fbc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Park-hyun Sun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "00c65698-6af2-4661-bfa2-fc9b122f9fbc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Park-hyun Sun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6dcaa49a-aa86-411b-ba81-ccf244f3a791",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "7af6ec5d-4c6e-4f04-bca2-463b4aef1105",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:46:53+00:00",
+    "description": "",
+    "fileName": "e0cec663-8f15-49ac-8ce3-b11fcf334a8a.jpg",
+    "updatedAt": "2021-05-24T16:46:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

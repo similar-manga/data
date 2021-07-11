@@ -7,6 +7,14 @@
    "title": {
     "en": "Hoshifuru Oka no Majo"
    },
+   "altTitles": [
+    {
+     "en": "The Witch from Falling Star Hill"
+    },
+    {
+     "en": "星降る丘の魔女"
+    }
+   ],
    "description": {
     "en": "Incompetent apprentice witch Maeria gets thrown out after feeding her master curry flavored with cursed apples. Can Maeria make up for her mistake and get back into her master's good graces?"
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,39 +61,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-25T19:30:58+00:00",
+   "updatedAt": "2021-05-25T15:44:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "5e79d2d7-b506-4c58-a716-645566cccfe5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KAUTA Mato",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5e79d2d7-b506-4c58-a716-645566cccfe5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KAUTA Mato",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4565fdb7-aa44-40cf-a2b0-719d6cfb644c",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "591fd1d9-565b-4f70-8e20-c0861840bbff",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:16:42+00:00",
+    "description": "",
+    "fileName": "625eef1a-b785-421e-b94d-00500d000351.jpg",
+    "updatedAt": "2021-05-24T17:16:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

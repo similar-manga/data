@@ -7,6 +7,14 @@
    "title": {
     "en": "Hero Waltz 2.0"
    },
+   "altTitles": [
+    {
+     "en": "Hero Waltz Season 2"
+    },
+    {
+     "en": "히어로 왈츠 2.0"
+    }
+   ],
    "description": {
     "en": "Hero Waltz 2.0 follows on directly from the first season. Sung-tae and Ga-ram are now in their final year of high school. While it appears that everything is in its rightful place, there is someone lurking in the shadows. Who could it be!?"
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +72,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,6 +84,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -78,6 +96,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -88,91 +108,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-31T08:53:39+00:00",
+   "updatedAt": "2021-05-25T15:40:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "730cf03e-fca2-4612-b7dd-890cf029fd4c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Penguin Juice",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "730cf03e-fca2-4612-b7dd-890cf029fd4c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Penguin Juice",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "24376b8e-53ca-4b1d-8896-49ff3e1949d7",
-   "type": "chapter"
-  },
-  {
-   "id": "38bcbcf5-99c4-4064-b41a-6cc560ce5a80",
-   "type": "chapter"
-  },
-  {
-   "id": "5acad891-5a5a-400a-acc9-744628cd8a24",
-   "type": "chapter"
-  },
-  {
-   "id": "06136f72-f32d-4628-bf7a-32d7560b97ba",
-   "type": "chapter"
-  },
-  {
-   "id": "477b2743-8fac-4e91-9d8f-a7c85ad481e5",
-   "type": "chapter"
-  },
-  {
-   "id": "68503578-736f-4cab-94cd-67c1ac9b9ef3",
-   "type": "chapter"
-  },
-  {
-   "id": "e14162ea-2345-41b8-990a-046454c2d460",
-   "type": "chapter"
-  },
-  {
-   "id": "c41cde90-5011-4be5-a2f7-96289350e853",
-   "type": "chapter"
-  },
-  {
-   "id": "fa002fd1-7de4-434e-a84f-af2ce255e293",
-   "type": "chapter"
-  },
-  {
-   "id": "afc55ee9-ef34-427b-b47e-c7a1d8c9737d",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "19dff372-7701-4f42-9eb3-1bf5017ffa43",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:44+00:00",
+    "description": "",
+    "fileName": "9e25d41f-07b0-417d-a257-d0c3629a65d6.jpg",
+    "updatedAt": "2021-05-24T16:59:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

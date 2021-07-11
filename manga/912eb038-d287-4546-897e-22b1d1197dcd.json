@@ -11,7 +11,6 @@
     "en": "Follows multiple characters from fictional works who attend Cyborgs Anonymous, a support group made for those who lost or replaced parts of themselves with mechanical augments."
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,6 +45,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -52,6 +57,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -62,6 +69,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -72,63 +81,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-03T19:01:06+00:00",
+   "updatedAt": "2021-05-25T15:45:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "e025a3e3-1d9b-4f4a-8a6e-690e1eb7671f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "El Cuervo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e025a3e3-1d9b-4f4a-8a6e-690e1eb7671f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "El Cuervo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fdb7397d-6570-461b-99a2-061650b956d5",
-   "type": "chapter"
-  },
-  {
-   "id": "769f0c55-0d9c-4a9f-9086-5046f86b96e3",
-   "type": "chapter"
-  },
-  {
-   "id": "8926746f-591c-4e63-a38d-77531241e467",
-   "type": "chapter"
-  },
-  {
-   "id": "cf590e54-b8b4-4a21-8e87-c5819c50b283",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "5e36c9de-ae82-4f4e-ae25-de9eccea00ad",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:21:14+00:00",
+    "description": "",
+    "fileName": "294cf00f-26ac-4ef6-b964-b8ba6da5fb13.png",
+    "updatedAt": "2021-05-24T18:21:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

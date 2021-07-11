@@ -7,11 +7,18 @@
    "title": {
     "en": "The Invincible Chocolate"
    },
+   "altTitles": [
+    {
+     "en": "Muteki no Chokorēto"
+    },
+    {
+     "en": "無敵のチョコレート"
+    }
+   ],
    "description": {
     "en": "Oneshot story about an office worker and his Valentine's Day."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +41,8 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,39 +53,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-22T04:45:17+00:00",
+   "updatedAt": "2021-05-25T15:49:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "a47785dc-be7d-48c1-b580-26cbf98532db",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tachibana Oreco",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a47785dc-be7d-48c1-b580-26cbf98532db",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tachibana Oreco",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7462046e-b906-4530-9ae2-294bc0b3e0e9",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "09b34066-d403-4fb1-9fdf-9f965fa37332",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:32:32+00:00",
+    "description": "",
+    "fileName": "e5f59fab-bf34-4b56-8fda-b61b03c9eba1.png",
+    "updatedAt": "2021-05-24T18:32:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

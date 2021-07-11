@@ -7,6 +7,14 @@
    "title": {
     "en": "Realist ni Yoru Romanticism"
    },
+   "altTitles": [
+    {
+     "en": "Realist's Romanticism"
+    },
+    {
+     "en": "リアリストによるロマンチシズム"
+    }
+   ],
    "description": {
     "en": "University student Yuki excels in nothing but housework. As such, it's no wonder he's growing anxious because his job hunt is turning fruitless. One day, his father, a university professor, arranges an interview for him to be the assistant to a famous public speaker, Professor Kodaka."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,59 +62,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-28T16:09:51+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "4fa1033b-0ea4-4df5-980f-5976b2ea2ab9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kinoshita Keiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4fa1033b-0ea4-4df5-980f-5976b2ea2ab9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kinoshita Keiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "79526917-c384-4f97-9756-593c7f94d0dc",
-   "type": "chapter"
-  },
-  {
-   "id": "bf662d9b-93c1-41b5-9645-bccf7e18b9b0",
-   "type": "chapter"
-  },
-  {
-   "id": "2c3d8c18-ed4c-4dae-b549-1fa8c7d6db0c",
-   "type": "chapter"
-  },
-  {
-   "id": "26b95dfa-e9e1-485f-9fd4-bff57642fe9e",
-   "type": "chapter"
-  },
-  {
-   "id": "7d0691bd-ac1c-4f5e-9d01-7bfbba83ddcc",
-   "type": "chapter"
-  },
-  {
-   "id": "9ff6a489-958c-48ba-a46d-3a724f20b743",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "8d18d148-bb13-4f45-b5aa-7ae02c5e92a4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:43+00:00",
+    "description": "",
+    "fileName": "366d8615-1297-4b25-99e9-f117cc86ed0f.jpg",
+    "updatedAt": "2021-05-24T16:49:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

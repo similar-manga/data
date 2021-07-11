@@ -7,6 +7,14 @@
    "title": {
     "en": "Sacharias no Me"
    },
+   "altTitles": [
+    {
+     "en": "The Eyes Of Sacharias"
+    },
+    {
+     "en": "サハリアスの眼"
+    }
+   ],
    "description": {
     "en": "A very short story about Eduard and Carrel, who are trying to find their own path to love."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,47 +74,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-18T02:35:21+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "4580f7cb-0f24-4fe7-a18e-e281dcd894b7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aoi Aki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4580f7cb-0f24-4fe7-a18e-e281dcd894b7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aoi Aki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "98110840-2e5b-4ee9-85c6-31d850133d7b",
-   "type": "chapter"
-  },
-  {
-   "id": "b4f4d36f-04a2-4317-90bd-96f93951dd94",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "9d2d3315-1285-4fa7-8991-5ed31596dc60",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:45:18+00:00",
+    "description": "",
+    "fileName": "b46bc30f-3e53-4c72-b3fb-489339b06d63.jpg",
+    "updatedAt": "2021-05-24T16:45:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -24,6 +24,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,6 +36,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -44,67 +48,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-05T17:47:17+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "cdc06157-e7db-40c3-8354-70a283657f46",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ironon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cdc06157-e7db-40c3-8354-70a283657f46",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ironon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "36056993-d4c5-49c1-90c1-e1eab24627eb",
-   "type": "chapter"
-  },
-  {
-   "id": "e61a74f8-9e0b-460c-acea-62385e7e16ca",
-   "type": "chapter"
-  },
-  {
-   "id": "ad1b95c0-2c0f-4e75-8d10-afb69d9982f6",
-   "type": "chapter"
-  },
-  {
-   "id": "1d9856a8-160c-4bb6-9784-48291ead2124",
-   "type": "chapter"
-  },
-  {
-   "id": "f08a0b99-d4d1-4c35-b566-3912a4737182",
-   "type": "chapter"
-  },
-  {
-   "id": "ca6ffd43-46f9-41f6-a711-017c5207ea05",
-   "type": "chapter"
-  },
-  {
-   "id": "8592595c-befe-4a79-bdeb-b4527da44686",
-   "type": "chapter"
-  },
-  {
-   "id": "2e0bf861-c24b-41b9-906c-627de0396f49",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "9a0f61a3-60bc-4f80-994b-a0451ac17dcd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:52+00:00",
+    "description": "",
+    "fileName": "4e02943f-14fb-42a8-9f93-139a9ae5b06f.jpg",
+    "updatedAt": "2021-05-24T18:33:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

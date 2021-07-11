@@ -7,6 +7,11 @@
    "title": {
     "en": "Frog and Haru's Super Beast Comic"
    },
+   "altTitles": [
+    {
+     "en": "蛙とハルの超獣戯画"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +19,6 @@
     "mu": "140067"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +30,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +42,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,39 +54,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-03-17T14:20:16+00:00",
+   "updatedAt": "2019-03-17T14:20:16+00:00"
   }
  },
  "relationships": [
   {
    "id": "7d46d5d9-0087-4e89-ad13-a98121161560",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshikage",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7d46d5d9-0087-4e89-ad13-a98121161560",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshikage",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ee9c5c97-c133-49d8-8990-32ea5eaa3208",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "63b4edb6-4c86-4fd9-a0f1-6a1242089fda",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:50+00:00",
+    "description": "",
+    "fileName": "5e2664b7-c750-4362-89f4-95ef3bff0891.jpg",
+    "updatedAt": "2021-05-24T17:04:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

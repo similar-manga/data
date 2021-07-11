@@ -7,6 +7,14 @@
    "title": {
     "en": "Eternal Arcadia"
    },
+   "altTitles": [
+    {
+     "en": "Skies of Arcadia"
+    },
+    {
+     "en": "エターナルアルカディア"
+    }
+   ],
    "description": {
     "en": "A mysterious girl, Fina, is pursued by a fleet of Valua, an empire which holds mighty military power. Vyce, a Blue Air Pirate which advocates justice, attempts to rescue her. Her objective is unknown, but it unmistakably influences the fate of the planet."
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,71 +49,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-01T13:09:43+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "75df0ab1-7edb-4c95-a4d7-1c07c107238e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujimoto Junya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c115813b-ea9c-4e59-9c2f-637a3a48c64c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hoshi Itsuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e1f1f7b9-0735-4704-87f6-b741f74b80a9",
-   "type": "chapter"
-  },
-  {
-   "id": "7d19f115-9a7e-4858-95b3-1b249fffb7b3",
-   "type": "chapter"
-  },
-  {
-   "id": "978c06c7-8c99-444e-972d-997fe712593e",
-   "type": "chapter"
-  },
-  {
-   "id": "c8c69ad1-21e6-466c-884c-5a030ccd1056",
-   "type": "chapter"
-  },
-  {
-   "id": "f2fad77e-ecac-432e-ad9b-2fae0c77bb4b",
-   "type": "chapter"
-  },
-  {
-   "id": "14926b83-4847-4211-b4d7-537b8cd45303",
-   "type": "chapter"
-  },
-  {
-   "id": "e7e7398a-0173-4d46-b82b-c96cf87dbb9c",
-   "type": "chapter"
-  },
-  {
-   "id": "3e222c09-e625-4b9c-ae87-155f1a76cfbf",
-   "type": "chapter"
-  },
-  {
-   "id": "d413ed91-2907-4356-8e72-10ea271815dc",
-   "type": "chapter"
-  },
-  {
-   "id": "d1f71a20-cf7a-4cec-bfe2-e624e25c1f54",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "c7657298-d135-4f00-b7b4-058472deba84",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:35+00:00",
+    "description": "",
+    "fileName": "5d7985da-8e2f-40bd-aa19-c9bbe5cad112.jpg",
+    "updatedAt": "2021-05-24T17:06:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Sitting Down"
    },
+   "altTitles": [
+    {
+     "en": "着席"
+    }
+   ],
    "description": {
     "en": "All Miki wanted to do was sit down..."
    },
@@ -25,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,47 +66,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-13T07:24:34+00:00",
+   "updatedAt": "2021-05-25T15:47:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "940a4092-9019-433d-b0d3-dcf10de888d9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oshioka Yamato",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "940a4092-9019-433d-b0d3-dcf10de888d9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oshioka Yamato",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3dba6381-7a6b-4cd8-af54-c3ecc6f3a28d",
-   "type": "chapter"
-  },
-  {
-   "id": "56b1acea-fb75-4d62-a02c-59cfe273f1a8",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "160676eb-e136-4f91-9db0-d85b5d1cac1a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:39+00:00",
+    "description": "",
+    "fileName": "3fad79d1-1ede-4d94-bb09-061d698c5044.png",
+    "updatedAt": "2021-05-24T17:33:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

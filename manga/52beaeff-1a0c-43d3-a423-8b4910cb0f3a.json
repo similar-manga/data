@@ -7,6 +7,11 @@
    "title": {
     "en": "Fine Play"
    },
+   "altTitles": [
+    {
+     "en": "ファイン　プレイ"
+    }
+   ],
    "description": {
     "en": "Nanafuji is a regular customer at the cafe where Kaji works as a waiter. The two became quite friendly when Kaji returned Nanafuji's lost cellphone to him. Kaji told Nanafuji that he had a problem with a stalker and the latter suggested that he should pretend to be Kaji's lover to make the stalker give up on Kaji..."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,45 +56,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-26T13:36:08+00:00",
+   "updatedAt": "2021-05-25T15:42:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "f01401d0-33c6-4a3b-ac93-7914786aca92",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kano Shiuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f01401d0-33c6-4a3b-ac93-7914786aca92",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kano Shiuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "58488561-5480-47aa-be51-cce521ab6639",
-   "type": "chapter"
-  },
-  {
-   "id": "b9524639-6db9-4dc9-955a-a8d4fb168058",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "418e264c-e37f-4fe2-8b84-e7faafc737a3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:01:00+00:00",
+    "description": "",
+    "fileName": "a8edde0f-fde4-45fd-95ab-9a5a692b3dd2.jpg",
+    "updatedAt": "2021-05-24T18:01:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

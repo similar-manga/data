@@ -7,11 +7,15 @@
    "title": {
     "en": "Alice in Deadly School"
    },
+   "altTitles": [
+    {
+     "en": "アリス イン デッドリースクール"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -31,8 +37,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +51,8 @@
       "name": {
        "en": "Zombies"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,39 +63,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-02-25T05:02:50+00:00",
+   "updatedAt": "2021-02-25T05:02:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "77ce5761-425e-433e-9126-165f98ff9e9e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ajiko Kojima",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "de917ef5-b937-4d5f-a26b-978525911944",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kaworu Asaku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "631ef465-9aba-4afb-b0fc-ea10efe274a8",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "9c5dbbac-d755-4fcf-ba00-d4fe453f7ee7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:32:51+00:00",
+    "description": "",
+    "fileName": "d8a874ef-0321-4c83-86b8-a480a003b9b9.jpg",
+    "updatedAt": "2021-05-24T18:32:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

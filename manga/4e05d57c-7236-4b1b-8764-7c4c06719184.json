@@ -7,6 +7,17 @@
    "title": {
     "en": "Liber"
    },
+   "altTitles": [
+    {
+     "en": "LIBER - Heterogeneous Criminal Investigation Unit"
+    },
+    {
+     "en": "LIBER - Heterojen Cinai Soruşturma Birimi"
+    },
+    {
+     "en": "LIBER - リベル-異質犯罪捜査係"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -18,7 +29,6 @@
     "mu": "170392"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -30,6 +40,8 @@
       "name": {
        "en": "Thriller"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +52,8 @@
       "name": {
        "en": "Crime"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +64,8 @@
       "name": {
        "en": "Police"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,6 +76,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,75 +88,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-16T02:12:03+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "0062c510-e3d3-4917-b52e-790fe5ef2a78",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KURAZONO Norihiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0062c510-e3d3-4917-b52e-790fe5ef2a78",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KURAZONO Norihiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "89cbfbf5-412a-4d7a-8112-631eb35e17d6",
-   "type": "chapter"
-  },
-  {
-   "id": "66d7fd96-aac9-4e72-8f4a-939e253c7f40",
-   "type": "chapter"
-  },
-  {
-   "id": "dc85e052-d5a6-47dd-bdec-82abad6e8ae6",
-   "type": "chapter"
-  },
-  {
-   "id": "4475f84f-181e-4a3e-9d68-8761679cb466",
-   "type": "chapter"
-  },
-  {
-   "id": "b4c671d6-dafa-4e65-be69-c41f6304f6fc",
-   "type": "chapter"
-  },
-  {
-   "id": "2adbd0d8-7a29-4c8e-8f23-c09855519e54",
-   "type": "chapter"
-  },
-  {
-   "id": "fa9b8461-7abe-4319-beae-c34ad33e5b51",
-   "type": "chapter"
-  },
-  {
-   "id": "a84e7957-396d-4436-8f36-082f35b8db48",
-   "type": "chapter"
-  },
-  {
-   "id": "07251805-a27e-4d59-b488-f0bfbec15168",
-   "type": "tag"
-  },
-  {
-   "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
-   "type": "tag"
-  },
-  {
-   "id": "df33b754-73a3-4c54-80e6-1a74a8058539",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "5f4308de-f05d-4f2e-83c0-f23ca9a5688b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:14:36+00:00",
+    "description": "",
+    "fileName": "da4ca2ad-cfdf-40d3-90c2-2e32acaa4d11.jpg",
+    "updatedAt": "2021-05-24T18:14:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

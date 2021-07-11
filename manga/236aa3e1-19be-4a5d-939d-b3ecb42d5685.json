@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Diana \u0026amp; Artemis"
+    "en": "Diana \u0026 Artemis"
    },
+   "altTitles": [
+    {
+     "en": "ディアーナ＆アルテミス"
+    }
+   ],
    "description": {
     "en": "Lunanexus is a city on the surface of the Moon. A city with population of 2 million people, where the class divide is huge and increasing shortage of water appears at the forefront. People from the lower class are forced to live on a limited water ration. In the underground world, water is more expensive than drugs."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +63,8 @@
       "name": {
        "en": "Crime"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,6 +75,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -73,47 +87,53 @@
       "name": {
        "en": "Police"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-10-08T08:59:03+00:00",
+   "updatedAt": "2020-10-08T08:59:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "f1f5339e-b608-42f1-b536-bc42273e739e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OHTAGAKI Yasuo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f1f5339e-b608-42f1-b536-bc42273e739e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OHTAGAKI Yasuo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "df33b754-73a3-4c54-80e6-1a74a8058539",
-   "type": "tag"
+   "id": "614527ad-4ac7-4ffc-8a3b-5b66eb9b97cb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:13:33+00:00",
+    "description": "",
+    "fileName": "d8c4a38f-ec68-4a58-a7a4-2e5e3159de51.png",
+    "updatedAt": "2021-05-24T18:13:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

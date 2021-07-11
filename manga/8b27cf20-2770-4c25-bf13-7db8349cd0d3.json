@@ -7,6 +7,14 @@
    "title": {
     "en": "My First Planet"
    },
+   "altTitles": [
+    {
+     "en": "Hajimete no Seisai"
+    },
+    {
+     "en": "はじめての星栽"
+    }
+   ],
    "description": {
     "en": "Oneshot from Harta 32 (March 2016)."
    },
@@ -18,7 +26,6 @@
     "mu": "131743"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +61,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,59 +73,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-23T18:16:59+00:00",
+   "updatedAt": "2021-05-25T15:44:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "7cd4cd19-53e6-400c-95d9-4c89f0eecd09",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Hirona",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7cd4cd19-53e6-400c-95d9-4c89f0eecd09",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Hirona",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a63fed83-5e7b-4714-8ce8-9166b919b9f9",
-   "type": "chapter"
-  },
-  {
-   "id": "3d919dfe-c2f4-45b9-842e-6524ab7558fa",
-   "type": "chapter"
-  },
-  {
-   "id": "31efe59e-4c1c-4d09-82af-646cebb59c4a",
-   "type": "chapter"
-  },
-  {
-   "id": "f1d6a54f-555b-45f1-a8e0-64f3e44ff4ea",
-   "type": "chapter"
-  },
-  {
-   "id": "1ec21f76-ee60-4cd2-8228-81682e88cbba",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "80fae363-9c10-4f9e-9f7d-48a0cc6443a3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:31+00:00",
+    "description": "",
+    "fileName": "dbfcf891-025c-4207-914c-fdfad5fc70e9.png",
+    "updatedAt": "2021-05-24T16:55:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

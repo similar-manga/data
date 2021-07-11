@@ -7,6 +7,17 @@
    "title": {
     "en": "Gesshi"
    },
+   "altTitles": [
+    {
+     "en": "Mumyoutou"
+    },
+    {
+     "en": "Unsigned Blade"
+    },
+    {
+     "en": "月刺"
+    }
+   ],
    "description": {
     "en": "Saku, an assassin, believes his life is meant to be lived by the sword. After a night of brutal killing however, he is left wounded and helpless in the hands of Shakou, a mysterious doctor, and the only witness to his crimes. Fate seems to have ordained this encounter as secrets are broken and emotions run wild..."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +51,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +65,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -60,63 +77,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-24T19:52:57+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "89009c23-181a-4b2f-a663-a16626427826",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Duo Brand.",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "89009c23-181a-4b2f-a663-a16626427826",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Duo Brand.",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9dbde87e-ae94-4ebd-8bf6-41373df8795d",
-   "type": "chapter"
-  },
-  {
-   "id": "d1097e03-f6b6-451c-870d-5665fa25b4df",
-   "type": "chapter"
-  },
-  {
-   "id": "2fb3589b-643c-4ca6-b07a-1484ba72a3fb",
-   "type": "chapter"
-  },
-  {
-   "id": "c036ec66-85a7-4f9e-95de-8e310770c6ff",
-   "type": "chapter"
-  },
-  {
-   "id": "e0589edd-97e4-4b91-8b5a-4760ab6eab4b",
-   "type": "chapter"
-  },
-  {
-   "id": "ec952ace-e85a-4ed7-b3a2-8da24b51e817",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "0641edf1-0f7c-4f12-a6d7-0aa0f02dd28d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:31:19+00:00",
+    "description": "",
+    "fileName": "6e09b7a9-50e6-42ef-b30c-e10afb63af65.jpg",
+    "updatedAt": "2021-05-24T17:31:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

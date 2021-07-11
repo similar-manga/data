@@ -7,6 +7,11 @@
    "title": {
     "en": "Triangle Bookend"
    },
+   "altTitles": [
+    {
+     "en": "トライアングル・ブックエンド"
+    }
+   ],
    "description": {
     "en": "Naoki has a bad habit of seducing other people's lovers, and after a fight with his friend, he was sent to his uncle for the entire summer holiday as a punishment. There he meets Kei, the gloomy assistant of his uncle. But soon after arriving, Naoki discovers, that Kei is not exactly just a live-in assistant..."
    },
@@ -25,8 +30,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,51 +56,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-28T17:19:53+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "f4aeb09f-3846-47ea-a3ed-67ef8e1a8cde",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kashiwagi Kano",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f4aeb09f-3846-47ea-a3ed-67ef8e1a8cde",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kashiwagi Kano",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "81769080-8455-4464-946a-7a49a0e6d17c",
-   "type": "chapter"
-  },
-  {
-   "id": "6817c210-8a25-47f7-97af-2d6a0d0b445d",
-   "type": "chapter"
-  },
-  {
-   "id": "caaca26f-8851-491b-be08-a9fd021642c6",
-   "type": "chapter"
-  },
-  {
-   "id": "b7a9f022-cf8d-441a-a6df-1626df87d3f4",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "a1ee0bd3-c1bd-4f78-a08a-889cb0fc0352",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:12:30+00:00",
+    "description": "",
+    "fileName": "a785f768-dd06-44f1-ba3e-c73ac2931e4a.jpg",
+    "updatedAt": "2021-05-24T18:12:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Seitokai no Nichijou"
    },
+   "altTitles": [
+    {
+     "en": "生徒会の日常"
+    }
+   ],
    "description": {
     "en": "Sidestory of Seitokai no Ichizon."
    },
@@ -19,7 +24,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "1",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "suggestive",
@@ -31,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +59,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,6 +71,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -71,47 +83,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-05T08:21:20+00:00",
+   "updatedAt": "2021-05-25T15:47:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "2f9ab844-6fbb-4610-802c-dc6f0b390fc3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aoi Sekina",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1f122ca5-522e-4068-8d7b-2d48123fdb12",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ashio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "98aa2943-d734-4fe1-9e15-43fc24e6e8bc",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0e684e12-3aa6-4f1f-bb70-3a3cb40cad13",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:30+00:00",
+    "description": "",
+    "fileName": "b5823907-a82b-4724-b1bf-2f635ffbe57f.jpg",
+    "updatedAt": "2021-05-24T17:03:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,10 +5,15 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Cucumber \u0026times; Sandwich"
+    "en": "Cucumber × Sandwich"
    },
+   "altTitles": [
+    {
+     "en": "キューカンバー×サンドイッチ"
+    }
+   ],
    "description": {
-    "en": "After losing their parents at an early age, Natsuhiko and Haru had to be seperated. Years later, Natsuhiko opened a caf\u0026eacute; hoping to fulfill his and his parents' dreams. After an incident with a customer, Natsuhiko finds out that said customer is his younger brother. Unfortunately, he now works as a host. Not only that, Natsuhiko had racked up plenty of debt to finance his caf\u0026eacute;. Can Natsuhiko overcome these obstacles and convince his younger brother to come back and keep his caf\u0026eacute;, and their dreams, alive?"
+    "en": "After losing their parents at an early age, Natsuhiko and Haru had to be seperated. Years later, Natsuhiko opened a café hoping to fulfill his and his parents' dreams. After an incident with a customer, Natsuhiko finds out that said customer is his younger brother. Unfortunately, he now works as a host. Not only that, Natsuhiko had racked up plenty of debt to finance his café. Can Natsuhiko overcome these obstacles and convince his younger brother to come back and keep his café, and their dreams, alive?"
    },
    "links": {
     "al": "47537",
@@ -31,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,59 +60,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-14T18:08:27+00:00",
+   "updatedAt": "2021-05-25T15:39:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "8dcecac6-c67e-4fd9-928a-3461f24b3742",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akai Higasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8dcecac6-c67e-4fd9-928a-3461f24b3742",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akai Higasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f6c9cf69-0e62-4aab-9f6e-a686031bee48",
-   "type": "chapter"
-  },
-  {
-   "id": "8bbfeab6-bb31-47c9-afed-f76d10d534e0",
-   "type": "chapter"
-  },
-  {
-   "id": "ea24ff5e-5796-4281-b1cb-426cd106b88e",
-   "type": "chapter"
-  },
-  {
-   "id": "70e7b657-7e5a-450e-b3c2-212a41bb9778",
-   "type": "chapter"
-  },
-  {
-   "id": "74163e67-f588-413e-aef4-9c2c253c95b2",
-   "type": "chapter"
-  },
-  {
-   "id": "24cfc34d-2819-40a2-a509-996aa7c3f3f7",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "ac13bdc4-cfea-4fea-a035-ebdc74660409",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:48:08+00:00",
+    "description": "",
+    "fileName": "f1e90dcf-c1ca-4194-826a-6ce7b5db713b.jpg",
+    "updatedAt": "2021-05-24T16:48:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

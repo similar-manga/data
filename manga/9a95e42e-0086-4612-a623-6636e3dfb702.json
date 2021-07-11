@@ -7,6 +7,17 @@
    "title": {
     "en": "Change Partner"
    },
+   "altTitles": [
+    {
+     "en": "Do You Want To Change Partners?"
+    },
+    {
+     "en": "Let's Swap"
+    },
+    {
+     "en": "바꿔볼래?"
+    }
+   ],
    "description": {
     "en": "Do you want to change partners? People can feel the best feeling when they only look for what they want...Are you ready to change partners?"
    },
@@ -28,6 +39,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,75 +51,65 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-07T06:59:58+00:00",
+   "updatedAt": "2021-05-25T15:45:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "658c7fb8-a837-41e7-94b4-3077336b62e3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Husky Guy",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9e0d0121-ed6f-4fc2-92c8-e2f046050b74",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Huski-nom",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7aa5479f-e4ca-4de3-9c06-13af12a3ef65",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lim-Hyung",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bebf8fc4-7e4b-43f1-9572-7353644b201f",
-   "type": "chapter"
-  },
-  {
-   "id": "fd1b4e36-1092-4d22-a938-701304a3bbfc",
-   "type": "chapter"
-  },
-  {
-   "id": "2573258e-a2c4-43f1-82bf-41561414711e",
-   "type": "chapter"
-  },
-  {
-   "id": "21ac5c45-749d-4610-97de-bc951e02691f",
-   "type": "chapter"
-  },
-  {
-   "id": "b8ab4b45-886f-4e38-8fb1-f4d3a9441910",
-   "type": "chapter"
-  },
-  {
-   "id": "8e6c6aa0-ad1d-4359-a7bd-3c805a8bad1f",
-   "type": "chapter"
-  },
-  {
-   "id": "ad4c42d5-d48a-4098-a18e-41f1bab08e9e",
-   "type": "chapter"
-  },
-  {
-   "id": "4991ee49-089a-4067-bfa7-4585b674c876",
-   "type": "chapter"
-  },
-  {
-   "id": "812e330a-3230-432a-af5b-77b6c4db64c6",
-   "type": "chapter"
-  },
-  {
-   "id": "5bb39fd4-2dea-43f5-8a99-663cc6871ff7",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "0f6e2913-254d-4f1c-852a-84a53269ce2d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:53+00:00",
+    "description": "",
+    "fileName": "7a309a86-fdf6-4a41-9b4a-10b05a6a610a.jpg",
+    "updatedAt": "2021-05-24T17:21:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon Adventures XY"
+    "en": "Pokémon Adventures XY"
    },
+   "altTitles": [
+    {
+     "en": "ポケットモンスターSPECIAL XY"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,47 +51,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-11-22T07:45:34+00:00",
+   "updatedAt": "2019-11-22T07:45:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "35737c39-0c8c-4120-8bf8-60b0565b6937",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hidenori Kusaka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b2ce1484-cd09-4098-a32d-17d0cafb52cc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Satoshi Yamamoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9ef03080-666a-4cfd-bdb9-dca304fccd62",
-   "type": "chapter"
-  },
-  {
-   "id": "e3ec64f8-75b5-4699-b314-296d4756372f",
-   "type": "chapter"
-  },
-  {
-   "id": "ddd38fe4-fe7e-41ca-9c8d-d67addc0203b",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "66316053-3592-4fa4-a6e2-048296b7e635",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:34:42+00:00",
+    "description": "",
+    "fileName": "ef49fa6c-922c-4cea-8bfb-bb22abbf1384.png",
+    "updatedAt": "2021-05-24T17:34:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

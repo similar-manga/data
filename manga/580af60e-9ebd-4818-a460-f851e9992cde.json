@@ -5,7 +5,7 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "LOVE \u0026amp; HATE"
+    "en": "LOVE \u0026 HATE"
    },
    "description": {
     "en": "Ichigo was once a popular detective that used his good looks as a weapon. However, now that he's completely worn out, he is in needy circumstances... A man named Kuki Otohide then requests his services. Ichigo is enthusiastic about the reward, since it's been a while for him. Unfortunately, he fails, after all, his client had to help him out. However, there was something Kuki wanted to check with Ichigo, so he suddenly pressed him for... what?!"
@@ -15,7 +15,6 @@
     "mu": "160937"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +25,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,45 +47,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-02T17:11:41+00:00",
+   "updatedAt": "2021-05-25T15:42:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "0e464012-427b-406e-880a-e7880cffddf5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takagi Ryou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0e464012-427b-406e-880a-e7880cffddf5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takagi Ryou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "be45b251-c24b-4689-9690-9641c723a7f4",
-   "type": "chapter"
-  },
-  {
-   "id": "10bdb280-92ba-46f7-b61c-7ceb883b244f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "74f2c6b0-d01b-4f4a-adf3-6546dcb26c6c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:25:29+00:00",
+    "description": "",
+    "fileName": "2e9f0cae-1646-4009-9dde-e85b36f6b19c.jpg",
+    "updatedAt": "2021-05-24T18:25:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

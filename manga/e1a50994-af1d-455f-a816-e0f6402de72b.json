@@ -17,7 +17,6 @@
     "mu": "13692"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "ongoing",
    "contentRating": "safe",
@@ -29,6 +28,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +40,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +52,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -59,55 +64,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-16T09:44:59+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "9c0f8fd2-0568-49db-9f51-f96d9639adb6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Miyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9c0f8fd2-0568-49db-9f51-f96d9639adb6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Miyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "85448fa1-37bd-40e4-a4b8-adf07dd3a5bc",
-   "type": "chapter"
-  },
-  {
-   "id": "4a750173-d40b-470f-8e04-7ead1e3992c2",
-   "type": "chapter"
-  },
-  {
-   "id": "a5c1138c-330b-4c6b-9ff6-015edc89b51b",
-   "type": "chapter"
-  },
-  {
-   "id": "c49ca69e-df5c-4e3e-b700-542a879e3086",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "29433752-f382-4f72-a222-ed8a3669d8f5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:51:42+00:00",
+    "description": "",
+    "fileName": "dfb46f18-04f2-433c-a4be-14b37d08b4fd.jpg",
+    "updatedAt": "2021-05-24T16:51:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

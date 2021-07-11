@@ -5,13 +5,23 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Project SEKAI \u0026mdash; TsukaEmu (doujinshi)"
+    "en": "Project SEKAI — TsukaEmu (doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Project SEKAI: Цукаса и Эму"
+    },
+    {
+     "en": "Project SEKAI: Цуккасса тата Ему"
+    },
+    {
+     "en": "司えむ"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +32,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +56,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +68,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -62,6 +80,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -72,55 +92,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-03T07:26:32+00:00",
+   "updatedAt": "2021-05-25T15:43:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "72d6db85-092f-4e9f-88c8-7f63108d1b23",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "is2kyudo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "72d6db85-092f-4e9f-88c8-7f63108d1b23",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "is2kyudo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "11f104d6-a6f7-4e02-b357-e8cdcfd9a256",
-   "type": "chapter"
-  },
-  {
-   "id": "e90a97ce-ffc5-4e60-9deb-6a865de94b4b",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "97cf489f-ad27-4f68-b905-220ec6b14074",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:15:42+00:00",
+    "description": "",
+    "fileName": "10e5c4d4-1486-4bbb-ab2a-ee6e6c35497b.jpg",
+    "updatedAt": "2021-05-28T23:15:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

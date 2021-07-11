@@ -14,7 +14,6 @@
     "mu": "69585"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "Crime"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +49,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,43 +61,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-16T19:38:50+00:00",
+   "updatedAt": "2021-05-25T15:49:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "508631f5-09de-4ae1-87ed-4b6179254ca1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Urasawa Naoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "508631f5-09de-4ae1-87ed-4b6179254ca1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Urasawa Naoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e66c2eee-0d79-4d27-9521-4a9fc9c7fd86",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "43b19787-5ece-4fba-9371-20ef20b163e2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:18:59+00:00",
+    "description": "",
+    "fileName": "ae67fcb1-264b-40f3-a8b5-13013ab83180.jpg",
+    "updatedAt": "2021-05-24T18:18:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Cherry Lip"
    },
+   "altTitles": [
+    {
+     "en": "チェリーリップ"
+    }
+   ],
    "description": {
     "en": "A short story about some foxgirls eating food."
    },
@@ -18,7 +23,6 @@
     "mu": "41408"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +33,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +57,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,43 +69,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-03T08:11:29+00:00",
+   "updatedAt": "2021-05-25T15:42:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "8850cf6a-e75c-4f2d-97fc-33f061d29f52",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Amano Sakuya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8850cf6a-e75c-4f2d-97fc-33f061d29f52",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Amano Sakuya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f7573ae4-6299-4658-801a-3d365557261d",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "2a0b8f03-c66f-4f43-bddb-68067e1e7b4a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:10:29+00:00",
+    "description": "",
+    "fileName": "f69ea996-c06b-4414-b908-1dc9275863cc.jpg",
+    "updatedAt": "2021-05-24T17:10:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

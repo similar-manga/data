@@ -7,8 +7,13 @@
    "title": {
     "en": "Modernist"
    },
+   "altTitles": [
+    {
+     "en": "모더니스트"
+    }
+   ],
    "description": {
-    "en": "\u0026quot;The things that my brother had, always seemed tempting to me.\u0026rdquo; \r\n\r\nSangYeon, a supposedly friend of Hoseok, suddenly appears at his funeral.\r\nUpon interacting with his younger brother, Hoil, whom he shares moment of sadness with, Hoil gradually starts to develop feelings for him."
+    "en": "\"The things that my brother had, always seemed tempting to me.” \r\n\r\nSangYeon, a supposedly friend of Hoseok, suddenly appears at his funeral.\r\nUpon interacting with his younger brother, Hoil, whom he shares moment of sadness with, Hoil gradually starts to develop feelings for him."
    },
    "links": {
     "ap": "modernist",
@@ -26,6 +31,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,8 +53,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +67,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -66,59 +79,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-18T02:32:24+00:00",
+   "updatedAt": "2021-05-25T15:39:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "ea42e453-906c-46f4-9002-ad2830fe8e2e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "원추리",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ea42e453-906c-46f4-9002-ad2830fe8e2e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "원추리",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "519c3993-b64a-4754-a889-0fbfa7838601",
-   "type": "chapter"
-  },
-  {
-   "id": "7454f6cc-1228-422d-9953-36be18ed9d4c",
-   "type": "chapter"
-  },
-  {
-   "id": "a26185b8-68f3-42b0-84be-5d5baadbf580",
-   "type": "chapter"
-  },
-  {
-   "id": "2967a8ee-f618-49de-92a3-4b4ef9defa2b",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "42136f8d-eaa1-4f7f-ba2b-78e0349efb86",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:23:19+00:00",
+    "description": "",
+    "fileName": "0402d678-7d68-4245-ae0b-7e43ce73b277.jpg",
+    "updatedAt": "2021-05-24T18:23:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

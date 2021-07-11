@@ -5,8 +5,28 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Asuka\u0026sup2;"
+    "en": "Asuka²"
    },
+   "altTitles": [
+    {
+     "en": "Asuka2"
+    },
+    {
+     "en": "Double Asuka"
+    },
+    {
+     "en": "アスカ²"
+    },
+    {
+     "en": "ダブル　アスカ"
+    },
+    {
+     "en": "飛鳥X明日香"
+    },
+    {
+     "en": "飞鸟X明日香"
+    }
+   ],
    "description": {
     "en": "From Reverein Scanlations:\r\n\r\nA series of short stories featuring two characters with the same name, Asuka Koji and Takaki Asuka. They both have super powers and share a common love: SAKE! This really has no real plot but it provides a lot of entertainment and random characters from her other works also appear."
    },
@@ -19,7 +39,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "1",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "cancelled",
    "contentRating": "safe",
@@ -31,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,39 +62,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-01T05:09:04+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "fa58abcd-fa80-45ec-8cb9-d8cd4c5e82b6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohkami Mineko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fa58abcd-fa80-45ec-8cb9-d8cd4c5e82b6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohkami Mineko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2a93b9b6-5df6-4fb7-9806-bb4bb5a4a493",
-   "type": "chapter"
-  },
-  {
-   "id": "51a29ad4-6f7b-4fba-b742-b651b7246ed2",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "654dc741-a896-4fd3-a506-dde11cab9ed2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:46+00:00",
+    "description": "",
+    "fileName": "27fba68d-d277-435e-84c6-ab08f576307f.jpg",
+    "updatedAt": "2021-05-24T16:59:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

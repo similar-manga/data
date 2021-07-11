@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "V\u0026Iacute;A L\u0026Aacute;CTEA 1ra. AVENIDA"
+    "en": "VÍA LÁCTEA 1ra. AVENIDA"
    },
    "description": {
     "en": ""
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -31,37 +32,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-10T01:28:25+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "8f232b8e-575b-4f42-94f0-f9a9d2482701",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lange",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ad2ee35f-03e6-4947-9de5-849da7d2138e",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "45240ed3-5acc-4f61-a71c-20b91fc51d7f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:30:30+00:00",
+    "description": "",
+    "fileName": "3a6b2dd6-4d22-47bd-b04f-b70fa5acc5b3.jpg",
+    "updatedAt": "2021-05-24T18:30:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

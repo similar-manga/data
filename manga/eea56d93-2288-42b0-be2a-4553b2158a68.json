@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Tiger \u0026amp; Bunny - Good Night Good Sleep Good Dreams"
+    "en": "Tiger \u0026 Bunny - Good Night Good Sleep Good Dreams"
    },
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -20,8 +19,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,35 +33,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-02T19:30:48+00:00",
+   "updatedAt": "2021-05-25T15:49:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "715c3a06-10aa-4cfb-a789-e4733a138e63",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Watanabe Asia",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "715c3a06-10aa-4cfb-a789-e4733a138e63",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Watanabe Asia",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "61d404cd-fc6a-412c-9304-4a89166be235",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "bc7df51c-7767-4f60-b56c-f4c67e398f82",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:21+00:00",
+    "description": "",
+    "fileName": "eaf76023-da77-408d-a104-6141b766c722.jpg",
+    "updatedAt": "2021-05-24T18:17:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

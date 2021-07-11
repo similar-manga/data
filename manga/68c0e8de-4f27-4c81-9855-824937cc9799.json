@@ -7,6 +7,11 @@
    "title": {
     "en": "Katamuku Karada"
    },
+   "altTitles": [
+    {
+     "en": "傾くからだ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,8 +53,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +67,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -66,47 +79,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-18T11:47:52+00:00",
+   "updatedAt": "2021-05-25T15:43:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "5842d54c-60c2-4323-8be8-80435bf05144",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okuda Waku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5842d54c-60c2-4323-8be8-80435bf05144",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okuda Waku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bf14981b-401f-4100-977f-56b8e2d0baf1",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "629ed933-0325-4ff5-9c0e-b21386b96002",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:51+00:00",
+    "description": "",
+    "fileName": "408c997b-f11c-4025-87c6-59e909f47a59.jpg",
+    "updatedAt": "2021-05-24T17:15:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

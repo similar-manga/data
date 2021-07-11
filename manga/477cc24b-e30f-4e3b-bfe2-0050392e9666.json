@@ -7,11 +7,15 @@
    "title": {
     "en": "Iron Cry"
    },
+   "altTitles": [
+    {
+     "en": "Железный плач"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,43 +38,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-06T22:14:11+00:00",
+   "updatedAt": "2021-05-25T15:41:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "d32e00da-bdc9-4127-a3e0-0d6bbf230e58",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nippa Takahide",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d32e00da-bdc9-4127-a3e0-0d6bbf230e58",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nippa Takahide",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f46dd78d-3c63-4b8c-aa28-df56e7e41401",
-   "type": "chapter"
-  },
-  {
-   "id": "edc5220e-e4af-47b8-841b-e39f80335ecd",
-   "type": "chapter"
-  },
-  {
-   "id": "5d269d47-0571-408e-a75e-4c0d31e5131e",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "fb786f38-1b31-4f1b-ad00-b45ec2b7efc3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:14:37+00:00",
+    "description": "",
+    "fileName": "f024c631-3dee-4224-8dcc-f0d26b9324b0.jpg",
+    "updatedAt": "2021-05-24T17:14:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

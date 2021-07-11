@@ -7,6 +7,14 @@
    "title": {
     "en": "Yumeyume Onmyouji Kidan"
    },
+   "altTitles": [
+    {
+     "en": "Dreams, The Sorcerer's Demonic Tale"
+    },
+    {
+     "en": "夢々陰陽師鬼談"
+    }
+   ],
    "description": {
     "en": "Seimei of Abe, perhaps the most famous and powerful sorcerer in Japan. This title contains two stories about him, the first concerning a demoness who fell in love with him, and the second revolving around a young Seimei as he met his future wife."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,51 +74,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-25T23:17:31+00:00",
+   "updatedAt": "2021-05-25T15:49:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "51d0644d-c9c2-45fe-9e36-d9b23205161e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aramata Hiroshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4de1fa9a-5fbc-4827-849b-e717b22e7fcb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kugo Naoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cb58eb01-dc29-46b2-a6f3-51e8ab1ba306",
-   "type": "chapter"
-  },
-  {
-   "id": "cacb2200-dcca-4cbf-ad6e-c120c771d80c",
-   "type": "chapter"
-  },
-  {
-   "id": "496c0f9e-1692-4217-a574-c3620814813a",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "aa42874c-ea48-4f7e-a7da-a0b2268372aa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:52:42+00:00",
+    "description": "",
+    "fileName": "455eeabf-ada5-4d76-8d36-fbcc76503126.jpg",
+    "updatedAt": "2021-05-24T16:52:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

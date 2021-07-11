@@ -7,6 +7,14 @@
    "title": {
     "en": "Letter from the Dark"
    },
+   "altTitles": [
+    {
+     "en": "Yami kara no Shoutaijou"
+    },
+    {
+     "en": "闇からの招待状"
+    }
+   ],
    "description": {
     "en": "Story 1: Having lost her dad, Hiroko goes to her mom's place to reunited after 6 years.  \r\n\r\nStory 2: A group of young people who was hiking get stuck at an old shrine because of bad weather.\r\n\r\nStory 3: A group of people met up to tell their own horror stories."
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -49,39 +61,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-25T23:59:40+00:00",
+   "updatedAt": "2021-05-25T15:39:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "d69eaac8-5cfb-4818-bf88-b7a4e87ab1c4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Watari Chie",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d69eaac8-5cfb-4818-bf88-b7a4e87ab1c4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Watari Chie",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1382efd1-51bf-480c-999b-3ea656592677",
-   "type": "chapter"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "2dab0b24-8101-4f8d-9a87-4b6a12227067",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:43:00+00:00",
+    "description": "",
+    "fileName": "e8208c12-5be3-44cc-813b-4dd294c6d107.jpg",
+    "updatedAt": "2021-05-24T16:43:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

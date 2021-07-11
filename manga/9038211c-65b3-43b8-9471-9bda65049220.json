@@ -7,6 +7,23 @@
    "title": {
     "en": "The Wolf Won't Sleep"
    },
+   "altTitles": [
+    {
+     "en": "Ookami wa Nemuranai"
+    },
+    {
+     "en": "Wolf never sleeps"
+    },
+    {
+     "en": "Wolf schläft Nie"
+    },
+    {
+     "en": "Волк не дремлет"
+    },
+    {
+     "en": "狼は眠らない"
+    }
+   ],
    "description": {
     "en": "On a fervent quest to become stronger ---- the heroic tales of the adventurer Lecan start! \r\n\r\nThe One-Eyed Wolf  Lecan jumped into a black hole he found in the confines of a labyrinth, falling into another world. No matter the world he is in, the adventurer Lecan doesn't lose his way. Seeking strength, challenging labyrinths, and defeating formidable foes ---- This is the stout fantasy written by Shien BIS (Henkyou no Roukishi), combined with the passionate art of Shinkawa Gonbe (Yokohama-eki SF)."
    },
@@ -36,6 +53,8 @@
       "name": {
        "en": "Monsters"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -46,6 +65,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +77,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,6 +89,8 @@
       "name": {
        "en": "Magic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -76,6 +101,8 @@
       "name": {
        "en": "Isekai"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -86,6 +113,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -96,91 +125,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-11T10:50:37+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "ce4d241d-98fd-437d-98d5-3eb1f86a02eb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shien BIS",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7b805505-89e2-4c42-b7ce-1095c904abab",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shinkawa Gonbe",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d46c346f-06e0-4bd3-ac71-93f1d7204b67",
-   "type": "chapter"
-  },
-  {
-   "id": "b1c7d47e-ba86-467a-ba14-afe84e21d454",
-   "type": "chapter"
-  },
-  {
-   "id": "d8bc8c23-9412-4655-acca-4c4f49a17350",
-   "type": "chapter"
-  },
-  {
-   "id": "5aba909f-91dd-41e6-94e7-8c62f516663c",
-   "type": "chapter"
-  },
-  {
-   "id": "d9c04324-f205-4870-9d9f-1b4649b02961",
-   "type": "chapter"
-  },
-  {
-   "id": "129ccc55-5a31-4fb0-8b17-a4a6820cacf8",
-   "type": "chapter"
-  },
-  {
-   "id": "36fc26b0-4e99-44f4-8d56-f36df9059d8d",
-   "type": "chapter"
-  },
-  {
-   "id": "d1ae69a0-6809-4321-bbf6-0a5bf743acbe",
-   "type": "chapter"
-  },
-  {
-   "id": "543e16c5-2d82-4b29-b027-67aebdc33ad8",
-   "type": "chapter"
-  },
-  {
-   "id": "c7c87130-f1cb-4fa9-9553-db7ccf36d9ef",
-   "type": "chapter"
-  },
-  {
-   "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-   "type": "tag"
-  },
-  {
-   "id": "ace04997-f6bd-436e-b261-779182193d3d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "792f65dc-ce43-4fde-87bc-c34201409ddf",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:37:08+00:00",
+    "description": "",
+    "fileName": "87f53051-4860-41f4-a8ec-bb0b42f8d11e.jpg",
+    "updatedAt": "2021-05-24T17:37:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

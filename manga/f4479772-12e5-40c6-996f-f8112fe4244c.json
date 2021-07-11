@@ -32,6 +32,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +56,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -62,59 +68,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-03-21T13:47:07+00:00",
+   "updatedAt": "2018-03-21T13:47:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "edb9a9ae-8cbf-4d0b-a54a-96c71bfdca2f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mamiya Rin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "edb9a9ae-8cbf-4d0b-a54a-96c71bfdca2f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mamiya Rin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "58e2ae32-bdda-45f7-8743-835b0e358cf8",
-   "type": "chapter"
-  },
-  {
-   "id": "107a3ebd-05fb-443e-aeff-134340684e8c",
-   "type": "chapter"
-  },
-  {
-   "id": "c56755fe-ac4a-4fe3-8512-9017b01347a7",
-   "type": "chapter"
-  },
-  {
-   "id": "72527373-ef14-4314-8b27-0f5de14f8906",
-   "type": "chapter"
-  },
-  {
-   "id": "c5675ffd-6787-4fc4-a095-2d8162e65b89",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "d7635ccb-118c-4f24-9603-f7b112f97ef2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:44+00:00",
+    "description": "",
+    "fileName": "e9761795-ec99-4e38-a989-303f6c2f9088.jpg",
+    "updatedAt": "2021-05-24T17:21:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -16,7 +16,6 @@
     "mal": "17116"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -27,6 +26,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +38,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,6 +50,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,39 +62,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-04-03T10:32:34+00:00",
+   "updatedAt": "2019-04-03T10:32:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "23f36bfa-3cbf-47f2-8639-28820a0313f4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Unknown",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "23f36bfa-3cbf-47f2-8639-28820a0313f4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Unknown",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "17bcc447-36b5-4f86-b18a-35fab5a12afe",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:46+00:00",
+    "description": "",
+    "fileName": "1e7c19db-3d46-491c-ba1c-f4d8f1a77c89.jpg",
+    "updatedAt": "2021-05-24T17:06:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

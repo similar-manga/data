@@ -16,10 +16,9 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "9",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
-   "contentRating": "suggestive",
+   "contentRating": "erotica",
    "tags": [
     {
      "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
@@ -28,6 +27,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,35 +39,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-11T09:08:05+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "86fbec7b-90f3-4a57-b3c5-85387f66415e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shion Mitsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "366e9767-e0c3-4c79-ab5e-ba99318f754e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Narita Manabu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a4a57a7a-ba4b-4ea8-b4a0-0df8471ad453",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "b879090f-c4b9-4fe5-9b9e-af3bf80d3f0e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:30:39+00:00",
+    "description": "",
+    "fileName": "41a9fc20-d86d-4d3c-b305-485c25879f30.jpg",
+    "updatedAt": "2021-05-24T18:30:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

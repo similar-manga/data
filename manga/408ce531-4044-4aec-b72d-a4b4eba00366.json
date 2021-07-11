@@ -7,11 +7,18 @@
    "title": {
     "en": "Gampuku"
    },
+   "altTitles": [
+    {
+     "en": "Hiramoto Akira Illustrations"
+    },
+    {
+     "en": "平本アキラ画集"
+    }
+   ],
    "description": {
     "en": "A series of illustrations from Hiramoto Akira's collection of works. Most of the illustrations are from Prison School."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "suggestive",
@@ -23,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +54,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,63 +66,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-09T15:56:33+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "bb7c8f8b-f82d-4a73-9f87-02713ca82722",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiramoto Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bb7c8f8b-f82d-4a73-9f87-02713ca82722",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiramoto Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a14d8eae-1e19-496e-bd60-ee2fc12a9d56",
-   "type": "chapter"
-  },
-  {
-   "id": "ab71105e-ac29-410d-89c0-a55b410fe5e2",
-   "type": "chapter"
-  },
-  {
-   "id": "a2a1ff78-cf06-413b-ba8a-cb75b34c32a6",
-   "type": "chapter"
-  },
-  {
-   "id": "27f57345-0caf-42dd-98ef-b02b3ce94668",
-   "type": "chapter"
-  },
-  {
-   "id": "07f34062-9115-4b8d-b884-d018d51d6df8",
-   "type": "chapter"
-  },
-  {
-   "id": "be0eeff4-0840-4c90-9ebc-6d36ca6b504e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "1d58f3b5-c67b-4fb6-bf57-0ffa97900c48",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:26:38+00:00",
+    "description": "",
+    "fileName": "656eedc4-cae5-4c1a-8988-0137d03b2f85.jpg",
+    "updatedAt": "2021-05-24T18:26:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

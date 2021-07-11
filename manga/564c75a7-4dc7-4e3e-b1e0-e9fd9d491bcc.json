@@ -7,6 +7,14 @@
    "title": {
     "en": "Kiss Yori Toiki Yori"
    },
+   "altTitles": [
+    {
+     "en": "Better than Kisses and Sighs"
+    },
+    {
+     "en": "キスより吐息より"
+    }
+   ],
    "description": {
     "en": "Shirou's cousin is violent and a little strange but for some reason Shirou can't seem to dislike him..."
    },
@@ -24,8 +32,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +46,8 @@
       "name": {
        "en": "Incest"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -46,43 +58,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-05T17:29:14+00:00",
+   "updatedAt": "2021-05-25T15:42:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "ac8edee0-d9d0-4383-a22f-4dfea812535a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KAGUYAMA Kazuho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ac8edee0-d9d0-4383-a22f-4dfea812535a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KAGUYAMA Kazuho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "92f24e14-b9e7-4d58-a1b8-75cf5c14d1c3",
-   "type": "chapter"
-  },
-  {
-   "id": "7b03218a-98d6-44a7-a573-b97596c52326",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "5bd0e105-4481-44ca-b6e7-7544da56b1a3",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "f9c16815-27d6-4fb4-a926-67fc584bd780",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:26:08+00:00",
+    "description": "",
+    "fileName": "b6f5b204-da5f-438c-9c1b-63d43bf57e4d.jpg",
+    "updatedAt": "2021-05-24T18:26:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

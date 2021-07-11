@@ -5,10 +5,21 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Mimi kara Kanjite\u0026hellip;"
+    "en": "Mimi kara Kanjite…"
    },
+   "altTitles": [
+    {
+     "en": "Feeling From the Ear…"
+    },
+    {
+     "en": "从耳朵传来的感觉…"
+    },
+    {
+     "en": "耳から感じて…"
+    }
+   ],
    "description": {
-    "en": "这本恋耳癖真是让我耳目一新\u0026hellip;\u0026hellip;\r\n从此我的知识库里又多了一个奇怪的东西"
+    "en": "这本恋耳癖真是让我耳目一新……\r\n从此我的知识库里又多了一个奇怪的东西"
    },
    "originalLanguage": "ja",
    "lastChapter": "1",
@@ -23,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,35 +46,53 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-12-07T22:13:22+00:00",
+   "updatedAt": "2020-12-07T22:13:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "23b1f60e-75b7-44d1-90cf-0bc0755dace0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Porry",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "23b1f60e-75b7-44d1-90cf-0bc0755dace0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Porry",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c52d1aad-0066-473d-9c2a-aceb644a64e2",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
+   "id": "1e2e3357-6003-4fae-8955-a78fe6255c1a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:21:48+00:00",
+    "description": "",
+    "fileName": "dfc18275-01ef-4793-b5ad-9dee1d46a272.jpg",
+    "updatedAt": "2021-05-24T18:21:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

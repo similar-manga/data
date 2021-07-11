@@ -7,6 +7,11 @@
    "title": {
     "en": "All Nude"
    },
+   "altTitles": [
+    {
+     "en": "オールヌード"
+    }
+   ],
    "description": {
     "en": "Collection of short stories from Sugimura Shinichi."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +71,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-14T01:19:04+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "6e4fb1e1-26a6-46d4-b2d2-ae8980e5f3b1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sugimura Shinichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6e4fb1e1-26a6-46d4-b2d2-ae8980e5f3b1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sugimura Shinichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e28b4fc0-c4d4-4033-9acc-388ee294f3b4",
-   "type": "chapter"
-  },
-  {
-   "id": "382b876a-e61a-4336-b8ae-8ed13424a418",
-   "type": "chapter"
-  },
-  {
-   "id": "df05638e-b9c5-48c3-80f1-0aff9f8ab0a9",
-   "type": "chapter"
-  },
-  {
-   "id": "629a5217-02a4-462b-9ef4-7a899decbd93",
-   "type": "chapter"
-  },
-  {
-   "id": "9ea4fdb8-c65e-4653-8bc0-5650a344e4ca",
-   "type": "chapter"
-  },
-  {
-   "id": "a962bb52-7bbc-4753-9726-a6e94a1873f2",
-   "type": "chapter"
-  },
-  {
-   "id": "e367ceb4-9465-45b8-8acd-6c51d6306e54",
-   "type": "chapter"
-  },
-  {
-   "id": "47c98c88-667b-487d-9e0c-47a9f02b6a98",
-   "type": "chapter"
-  },
-  {
-   "id": "4aeac521-6df8-4c8f-9706-d32d7801c3bc",
-   "type": "chapter"
-  },
-  {
-   "id": "f9d5a8a3-37e0-4ed4-a271-ae7abb368d43",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "4b68ba34-37dc-4fd3-a22a-de0cd7105ab4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:13:12+00:00",
+    "description": "",
+    "fileName": "3bdfb1b4-4565-4972-9333-a24fe94b9cc0.jpg",
+    "updatedAt": "2021-05-24T17:13:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

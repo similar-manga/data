@@ -7,6 +7,11 @@
    "title": {
     "en": "Sawaranaide, Kowareteimasu"
    },
+   "altTitles": [
+    {
+     "en": "さわらないで、壊れています"
+    }
+   ],
    "description": {
     "en": "From a school story of a kouhai being fooled by his ill-mannered senpai, to vampires and time travel, the vast, heart-clinching world of Kashio is jam-packed into this book!"
    },
@@ -28,8 +33,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,51 +59,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-04T21:35:38+00:00",
+   "updatedAt": "2021-05-25T15:45:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "bfec9e65-872b-45c0-8d59-128d829c9aa3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kashio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bfec9e65-872b-45c0-8d59-128d829c9aa3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kashio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2c68b5e1-a41a-4713-bb8e-473504de4f54",
-   "type": "chapter"
-  },
-  {
-   "id": "660c507d-f9a4-45cf-803e-14d46dfed1b5",
-   "type": "chapter"
-  },
-  {
-   "id": "b96375c7-c73e-42aa-aa97-568ede2ee1c6",
-   "type": "chapter"
-  },
-  {
-   "id": "2018ccc2-af0a-497f-9dc0-588f10562de4",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "94a0b716-ff25-4f7a-b7a1-83cfa8b97fab",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:36:18+00:00",
+    "description": "",
+    "fileName": "e021e171-481b-4d93-82c6-6457abccefab.jpg",
+    "updatedAt": "2021-05-24T17:36:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

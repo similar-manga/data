@@ -7,6 +7,20 @@
    "title": {
     "en": "Shisougaku Tantei"
    },
+   "altTitles": [
+    {
+     "en": "Death Phase Detective"
+    },
+    {
+     "en": "死相学侦探"
+    },
+    {
+     "en": "死相学探偵"
+    },
+    {
+     "en": "死相學偵探"
+    }
+   ],
    "description": {
     "en": "A man who can see the omen of death on certain people solves cases using his strange ability."
    },
@@ -14,7 +28,6 @@
     "mu": "174597"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -26,6 +39,8 @@
       "name": {
        "en": "Crime"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +51,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,43 +63,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-17T12:51:11+00:00",
+   "updatedAt": "2021-05-25T15:49:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "686cb10c-d16e-462f-920a-a71e1c281594",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MITSUDA Shinzo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cd60725f-de90-430e-b441-5f487bd1bf31",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NISHIZUKA em",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "80dba232-e62e-45f2-a453-f052500cd988",
-   "type": "chapter"
-  },
-  {
-   "id": "c8d06483-bc8e-4d18-98c9-60544601deb4",
-   "type": "chapter"
-  },
-  {
-   "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "1363bdc0-6d40-4f43-a07d-99d81535d335",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:27:37+00:00",
+    "description": "",
+    "fileName": "81f782cf-3aee-4b0d-8b88-4e801ed19ee7.jpg",
+    "updatedAt": "2021-05-24T18:27:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

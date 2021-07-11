@@ -15,7 +15,6 @@
     "mu": "151007"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +26,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +38,8 @@
       "name": {
        "en": "Philosophical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,47 +50,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-12-23T03:54:25+00:00",
+   "updatedAt": "2020-12-23T03:54:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "5de748c1-accc-4a99-9d97-c7431e8d5a94",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KONDOH Akino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5de748c1-accc-4a99-9d97-c7431e8d5a94",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KONDOH Akino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0603443e-5ba7-49bf-a789-ca6d1bdd7f5a",
-   "type": "chapter"
-  },
-  {
-   "id": "06d9622c-200c-4ff7-bf0e-7061b607127a",
-   "type": "chapter"
-  },
-  {
-   "id": "4839a00e-2288-4a20-a59d-93e2d956de41",
-   "type": "chapter"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "70fa8d0e-2a84-4f13-a03d-14a4c43d5045",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:23:55+00:00",
+    "description": "",
+    "fileName": "484e284a-24ba-42d5-8832-868ae9616561.jpg",
+    "updatedAt": "2021-05-24T18:23:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

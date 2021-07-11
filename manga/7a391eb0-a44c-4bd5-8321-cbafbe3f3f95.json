@@ -7,11 +7,15 @@
    "title": {
     "en": "Nobody Knows"
    },
+   "altTitles": [
+    {
+     "en": "아무도 모른다"
+    }
+   ],
    "description": {
     "en": "Promotional webtoon for the Kdrama 'Nobody Knows'"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,43 +50,65 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-06T17:58:07+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "f2e481f1-220c-4951-af34-0055f5c9d23e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Eun-Hyang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "582a3c36-8894-4f41-9f15-eadc6098b851",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Han Seok",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a6bd57a1-667c-4abe-9533-e029534c562c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lee Ha-Joo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "97b4f1be-5018-4eab-97f9-047e68b8ef5e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "127387bc-ceb3-4ffa-8e61-29eaf3fe2ae8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:49+00:00",
+    "description": "",
+    "fileName": "30655fba-16c5-435d-bc5d-8cc327d1ae90.png",
+    "updatedAt": "2021-05-24T18:17:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

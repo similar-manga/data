@@ -23,6 +23,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -31,41 +33,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-23T01:45:49+00:00",
+   "updatedAt": "2021-05-25T15:42:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "ac210912-c7e2-4a5e-8eb8-6cee9d1f4765",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kanda Neko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ac210912-c7e2-4a5e-8eb8-6cee9d1f4765",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kanda Neko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "806ace69-bbd2-4a92-aca0-c3c6e9fec19b",
-   "type": "chapter"
-  },
-  {
-   "id": "e0ca5d41-8424-46b6-84a9-afd4ae975aef",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "682ce66d-6063-4f0e-86b0-ee5903083f22",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:07+00:00",
+    "description": "",
+    "fileName": "1c844f7c-61b4-4e1a-bb8b-b40b9b76993a.jpg",
+    "updatedAt": "2021-05-24T17:09:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

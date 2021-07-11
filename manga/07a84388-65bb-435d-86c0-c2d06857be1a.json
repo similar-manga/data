@@ -7,6 +7,14 @@
    "title": {
     "en": "My Little Princess"
    },
+   "altTitles": [
+    {
+     "en": "Watashi no Chiisana Ohime-sama"
+    },
+    {
+     "en": "私のちいさなお姫さま。"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -15,7 +23,6 @@
     "mu": "142240"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +56,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +70,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -67,51 +82,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-13T03:28:40+00:00",
+   "updatedAt": "2021-05-25T15:39:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "3f632f0e-c5e8-498e-bae3-a98ae87be703",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hara Yui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3f632f0e-c5e8-498e-bae3-a98ae87be703",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hara Yui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4a665856-c668-4e9a-9684-bd19f9e74efc",
-   "type": "chapter"
-  },
-  {
-   "id": "569b5926-f756-4793-992c-ef89673d194c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "3d06663d-8076-4fb4-8009-0b7b212ba470",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:09+00:00",
+    "description": "",
+    "fileName": "604eb068-dd69-4ea6-a00b-d1c3ec4bb262.jpg",
+    "updatedAt": "2021-05-24T17:01:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

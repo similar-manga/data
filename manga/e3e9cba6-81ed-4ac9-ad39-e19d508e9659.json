@@ -7,6 +7,14 @@
    "title": {
     "en": "Koto no Ha"
    },
+   "altTitles": [
+    {
+     "en": "Bladed Words"
+    },
+    {
+     "en": "言の刃"
+    }
+   ],
    "description": {
     "en": "Cruel words turn into swords which pierce the hearts of the people they are directed at. Will a boy and a girl be able to overcome the misunderstandings created by their words?"
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -57,43 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-01T14:58:19+00:00",
+   "updatedAt": "2021-05-25T15:48:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "3dcdf16c-f239-4ff7-8808-b882fbe00005",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SUDOU Sakana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3dcdf16c-f239-4ff7-8808-b882fbe00005",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SUDOU Sakana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dc634614-f53d-43e6-aefa-e3afb6d12470",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "08e4eac6-2eea-4fa6-a890-94e3e40ce46a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:53+00:00",
+    "description": "",
+    "fileName": "8359eabb-2bbb-4a03-ac58-46542c67d5a0.png",
+    "updatedAt": "2021-05-24T16:59:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

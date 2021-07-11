@@ -7,6 +7,11 @@
    "title": {
     "en": "Curtain Call Below the World"
    },
+   "altTitles": [
+    {
+     "en": "세상아래 커튼콜"
+    }
+   ],
    "description": {
     "en": "A nameless DJ hosting a radio show listens to darker versions of most famous fairy tales."
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,6 +57,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +69,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,6 +81,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -78,63 +93,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-23T16:14:06+00:00",
+   "updatedAt": "2021-05-25T15:42:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "8f7ad396-65ac-4252-960e-899112f716c5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c7e0328c-8fcb-4049-8f15-e3ffd1a8145c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tae Kyung",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a6f37fd4-5f62-4c8f-a25c-38540003f511",
-   "type": "chapter"
-  },
-  {
-   "id": "3e9358e3-94d3-474f-ac2d-188a0896a48d",
-   "type": "chapter"
-  },
-  {
-   "id": "4b8b360e-b25c-4c74-83c4-17764275a645",
-   "type": "chapter"
-  },
-  {
-   "id": "4d60be3c-aa42-4490-af15-3640e24ebfff",
-   "type": "chapter"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "e42ac2f8-f6fb-4f7e-80c8-62aaedbd5b4d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:30+00:00",
+    "description": "",
+    "fileName": "87f0c655-b03c-427f-b0ba-bf5dc586b1a7.jpg",
+    "updatedAt": "2021-05-24T17:38:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

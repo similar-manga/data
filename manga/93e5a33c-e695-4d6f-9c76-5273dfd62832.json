@@ -22,6 +22,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +46,8 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -52,6 +58,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -62,6 +70,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -72,75 +82,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-08T23:48:21+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "0dc32432-7211-4802-a0ce-3a255ce2a21a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "maximaxi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0dc32432-7211-4802-a0ce-3a255ce2a21a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "maximaxi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b60625b7-23f7-4499-a2bb-f080146021d7",
-   "type": "chapter"
-  },
-  {
-   "id": "1bb7e9ee-6d75-4c08-86bc-6dd1d625c5e9",
-   "type": "chapter"
-  },
-  {
-   "id": "f9312cde-1939-48e5-9096-25024172c80d",
-   "type": "chapter"
-  },
-  {
-   "id": "6ba80189-d328-4702-a45a-6bad6f00e7f3",
-   "type": "chapter"
-  },
-  {
-   "id": "8eaeeea9-244a-4850-b712-c373ec96aaa4",
-   "type": "chapter"
-  },
-  {
-   "id": "0f7cf69c-a4cf-4c07-a2c2-8aae736abe3e",
-   "type": "chapter"
-  },
-  {
-   "id": "34596915-31ff-4288-810e-f1ad5f3a7d45",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "41935c8b-9660-4fb4-bc6e-91a5792e2329",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:10+00:00",
+    "description": "",
+    "fileName": "7a2d7f82-eb0f-4a48-9feb-0ab7dad906dd.png",
+    "updatedAt": "2021-05-24T17:11:10+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

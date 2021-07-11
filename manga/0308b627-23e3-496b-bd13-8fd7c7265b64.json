@@ -7,6 +7,14 @@
    "title": {
     "en": "1P Comic Dragon Quest Monsters: Terry no Wonderland"
    },
+   "altTitles": [
+    {
+     "en": "1P Comic Dragon Quest Monsters - Terry no Wonderland"
+    },
+    {
+     "en": "1Pコミックドラゴンクエストモンスターズ テリーのワンダーランド"
+    }
+   ],
    "description": {
     "en": "A retelling of sorts of the first Dragon Quest Monsters game focused more on adventure and jokes than saving Terry's sister."
    },
@@ -25,6 +33,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +57,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +69,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -65,71 +81,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-07T23:17:41+00:00",
+   "updatedAt": "2021-05-25T15:38:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "d12a2df4-dcca-401e-bcd1-ca2bd6d16ff8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murakami Yumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d12a2df4-dcca-401e-bcd1-ca2bd6d16ff8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murakami Yumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d40a25a0-782f-481b-85c0-406632513955",
-   "type": "chapter"
-  },
-  {
-   "id": "d8b5a7ca-8d3e-4205-baa4-c72ac2061559",
-   "type": "chapter"
-  },
-  {
-   "id": "c66ab009-66a0-41e7-880e-edb1a6015660",
-   "type": "chapter"
-  },
-  {
-   "id": "bc01d437-3959-4e51-ad15-e9b112320405",
-   "type": "chapter"
-  },
-  {
-   "id": "1ee1bb2e-a076-4a58-96f4-c11b2dc90a85",
-   "type": "chapter"
-  },
-  {
-   "id": "026ac8de-5767-4cc6-8587-d109945df69b",
-   "type": "chapter"
-  },
-  {
-   "id": "1184d854-d7c8-4e08-91ce-b5540a73bb79",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "35357679-8e49-4fe9-80d4-65846e287cd0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:40:01+00:00",
+    "description": "",
+    "fileName": "8e71cd4a-22ca-4371-afb7-2b739bb9849d.jpg",
+    "updatedAt": "2021-05-24T16:40:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "My Maria"
    },
+   "altTitles": [
+    {
+     "en": "나의 마리아"
+    }
+   ],
    "description": {
     "en": "Everywhere is hell and New York is the worst place of them all. Besides the very few who are rich, the rest suffer from starvation. Some people work as cleaners to survive and that's exactly how Maria makes her living. After every job, she then prays for the ones she's killed (Tapas)"
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +56,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -57,6 +68,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +80,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -77,47 +92,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-12-14T19:34:44+00:00",
+   "updatedAt": "2019-12-14T19:34:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "b6c9e93b-2b3e-4989-837e-20c3d30060c3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Michii",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b6c9e93b-2b3e-4989-837e-20c3d30060c3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Michii",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "bf91bf81-6a4a-4f55-819f-6eb7bac6ce0c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:37:28+00:00",
+    "description": "",
+    "fileName": "50bf0965-5b2d-4dad-afcb-921c28a0762e.jpg",
+    "updatedAt": "2021-05-24T17:37:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

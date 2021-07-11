@@ -14,7 +14,6 @@
     "raw": "https://toptoon.com/comic/ep_list/floor_noise"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "pornographic",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +48,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -55,6 +60,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,47 +72,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-01T18:48:19+00:00",
+   "updatedAt": "2021-05-25T15:47:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "a09f7660-2f1c-484f-b9a4-de0e88cf07fd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Danmuji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cfe3e4d8-5844-4b26-afe8-27bd97c0a18d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ha Huek",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c082624e-b25c-4972-af93-25c1ea3662ca",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "9c52e144-a010-4f73-b100-084ee8ca64d3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:25+00:00",
+    "description": "",
+    "fileName": "0dddfd00-185c-4eab-8956-afa4b9d52eb1.jpg",
+    "updatedAt": "2021-05-24T18:33:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

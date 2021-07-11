@@ -7,6 +7,14 @@
    "title": {
     "en": "Gerard to Jacques"
    },
+   "altTitles": [
+    {
+     "en": "Gerard And Jacques"
+    },
+    {
+     "en": "ジェラールとジャック"
+    }
+   ],
    "description": {
     "en": "Just before the start of the French Revolution, a commoner named Gerard pays a visit to a high-class brothel, where he sleeps with, and then buys the freedom of Jacques, a young noble sold into prostitution. Jacques looks down on commoners and Gerard has his reasons for hating the nobility, but they're thrown together once again when Jacques ends up being hired as Gerard's new houseboy. Jacques' determination to make his own way in the world, and Gerard's surprising, quirky shows of kindness slowly bring the two together into a romance for the ages!"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +74,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -70,83 +86,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-07T07:10:37+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "b2f4735d-bdb5-448b-bd43-0ca875b14f86",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshinaga Fumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b2f4735d-bdb5-448b-bd43-0ca875b14f86",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshinaga Fumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "007d8a23-922a-47ba-8785-e360697756c3",
-   "type": "chapter"
-  },
-  {
-   "id": "0861f768-8d01-4688-9150-52601aeb1cd5",
-   "type": "chapter"
-  },
-  {
-   "id": "9f844508-c0e5-4368-8e74-db85e40ee1cc",
-   "type": "chapter"
-  },
-  {
-   "id": "69110257-d6f5-4ad3-a956-fe67941662bc",
-   "type": "chapter"
-  },
-  {
-   "id": "eec1e0ce-e46d-462a-9c6d-024a953a1aef",
-   "type": "chapter"
-  },
-  {
-   "id": "e782b88e-7945-415f-82ce-8671714aaf24",
-   "type": "chapter"
-  },
-  {
-   "id": "f1862d6c-4408-46d5-95e5-998704f0d41b",
-   "type": "chapter"
-  },
-  {
-   "id": "b0029f3b-dd12-4161-bfe5-c2e7d9a92e5a",
-   "type": "chapter"
-  },
-  {
-   "id": "ab3768d9-031a-4a78-86aa-2b2ee6cb1434",
-   "type": "chapter"
-  },
-  {
-   "id": "e5466f0f-2a50-4948-ae01-28022ea4871a",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "ae096133-25e4-4f74-989a-3b21c7920462",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:44:04+00:00",
+    "description": "",
+    "fileName": "326dea7f-2c2a-4586-85a6-a76c059a72a4.jpg",
+    "updatedAt": "2021-05-24T17:44:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

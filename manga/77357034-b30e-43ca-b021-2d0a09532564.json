@@ -7,6 +7,14 @@
    "title": {
     "en": "Datte Aishiteru"
    },
+   "altTitles": [
+    {
+     "en": "Because I Love You"
+    },
+    {
+     "en": "だって愛してる"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,43 +51,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-20T05:25:18+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "b38232e3-21e4-4af0-9d78-48a8ba6f73b8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MUNKO",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b38232e3-21e4-4af0-9d78-48a8ba6f73b8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MUNKO",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "41d0f5cc-fd44-408d-a00c-ebe20e13023b",
-   "type": "chapter"
-  },
-  {
-   "id": "14a69874-e28a-43b1-8d37-567b1351a813",
-   "type": "chapter"
-  },
-  {
-   "id": "66b0d06b-7edd-4466-b8c6-0324abadd22a",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "c01791e9-4d50-4fa1-b3a4-390ccb196ced",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:38:06+00:00",
+    "description": "",
+    "fileName": "81628175-b8b8-46a3-b29a-1d97e60a55bf.jpg",
+    "updatedAt": "2021-05-24T18:38:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

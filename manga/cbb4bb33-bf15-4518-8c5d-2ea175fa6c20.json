@@ -7,6 +7,11 @@
    "title": {
     "en": "Seinen Dreamy"
    },
+   "altTitles": [
+    {
+     "en": "青年ドリーミー"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -15,7 +20,6 @@
     "mu": "143447"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,8 +40,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +54,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -56,51 +66,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-02T12:13:07+00:00",
+   "updatedAt": "2021-05-25T15:47:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "5208c1bb-be09-4948-b2fb-fdad353d562e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MOFUMOFU Edako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5208c1bb-be09-4948-b2fb-fdad353d562e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MOFUMOFU Edako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "753e57a3-ef25-4410-b9df-20b51325a8a5",
-   "type": "chapter"
-  },
-  {
-   "id": "9b8996ad-e013-432f-9f69-ec4dba4c105f",
-   "type": "chapter"
-  },
-  {
-   "id": "ba6cbfb3-503c-4018-80c7-9ed58309e644",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "5d81c5dd-a863-4fe1-a257-c67e28c1e72e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:33+00:00",
+    "description": "",
+    "fileName": "b25d6004-057f-4b97-b0d6-5ab37534db82.jpg",
+    "updatedAt": "2021-05-24T18:33:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,8 +7,19 @@
    "title": {
     "en": "I'm A Pet"
    },
+   "altTitles": [
+    {
+     "en": "Boku wa Pet"
+    },
+    {
+     "en": "Boku wa Petto"
+    },
+    {
+     "en": "ぼくはペット"
+    }
+   ],
    "description": {
-    "en": "Living like a housewife but just a kouhai. Will this \u0026quot;pet's\u0026quot; love be recognized?"
+    "en": "Living like a housewife but just a kouhai. Will this \"pet's\" love be recognized?"
    },
    "links": {
     "mu": "47438"
@@ -26,6 +37,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +49,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +61,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,8 +71,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,51 +85,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-19T13:01:51+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "7e3988a3-b4ca-4f0e-9bac-06e9512837d1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oki Ginjou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7e3988a3-b4ca-4f0e-9bac-06e9512837d1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oki Ginjou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "89fb04c1-e9b3-463b-a739-2f33ea936034",
-   "type": "chapter"
-  },
-  {
-   "id": "aa5068a0-8b80-493e-9959-5d567c7f01f9",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "d1401cde-5c35-4fae-81b5-d010a8fa833c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:02+00:00",
+    "description": "",
+    "fileName": "926e1f68-208f-4ef7-8762-60548b67647f.png",
+    "updatedAt": "2021-05-24T17:38:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

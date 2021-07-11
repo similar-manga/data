@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,39 +45,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-26T13:55:19+00:00",
+   "updatedAt": "2021-05-25T15:47:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "f4b55aaf-ec76-4ef8-8b69-ddfd2310a6a3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yaritai Houdai (Circle)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f4b55aaf-ec76-4ef8-8b69-ddfd2310a6a3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yaritai Houdai (Circle)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "26050668-7383-4f7e-b2ef-60cbaa315769",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "a57ac90e-c541-4fb0-b063-e66efade4498",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:38:47+00:00",
+    "description": "",
+    "fileName": "285d9567-10ff-4672-a9ac-a64c5292a8f6.jpg",
+    "updatedAt": "2021-05-24T18:38:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

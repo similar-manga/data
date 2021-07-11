@@ -7,6 +7,26 @@
    "title": {
     "en": "1/2 Fairy!"
    },
+   "altTitles": [
+    {
+     "en": "1|2 Fairy!"
+    },
+    {
+     "en": "Half Fairy!"
+    },
+    {
+     "en": "Hanbun Fairy!"
+    },
+    {
+     "en": "The Children of Planet A"
+    },
+    {
+     "en": "نصف جنية!"
+    },
+    {
+     "en": "はんぶん フェアリー"
+    }
+   ],
    "description": {
     "en": "From Wingtip Cafe:\r\nEllen moves to a new house in the country side. There she meets a spunky green-haired elf and learns an alarming truth. She?s a half fairy! \r\n\r\n- The Children of Planet A - \r\nPaula's father is a novelist. One day, she comes across a story that he had written long ago and took the words from the story into her life.\r\n\r\nPlus two other stories"
    },
@@ -31,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +63,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,47 +75,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-27T15:25:33+00:00",
+   "updatedAt": "2021-05-25T15:50:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "83b0c7aa-05b8-4163-8166-40e7eae9faeb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okano Fumika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "83b0c7aa-05b8-4163-8166-40e7eae9faeb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okano Fumika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4c7432b0-e185-48e5-84bc-d50bbe46ccca",
-   "type": "chapter"
-  },
-  {
-   "id": "3dfeb429-db35-4414-a243-94bfd994066e",
-   "type": "chapter"
-  },
-  {
-   "id": "9fb047b9-74ea-421b-9c8b-ad36ec318e59",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "a3fe797d-0146-4fbd-9904-78f32a8e71f2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:28:37+00:00",
+    "description": "",
+    "fileName": "f6cf77e2-f2ea-4b70-ad84-92f0c076e0cb.jpg",
+    "updatedAt": "2021-05-24T17:28:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

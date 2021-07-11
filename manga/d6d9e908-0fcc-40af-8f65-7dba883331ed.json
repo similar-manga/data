@@ -7,6 +7,17 @@
    "title": {
     "en": "Chiisako no Niwa"
    },
+   "altTitles": [
+    {
+     "en": "Chiisako Garden"
+    },
+    {
+     "en": "Chiisako's Garden"
+    },
+    {
+     "en": "ちいさこの庭"
+    }
+   ],
    "description": {
     "en": "A collection of stories that revolves around Chiisako and the humans around them.\r\n\r\nGarden 1 \r\n-  A little girl's unexpected meeting in the secret garden of their new house.\r\nGarden 2 \r\n- A romance novelist and an editor's mountain trip together.\r\nGarden 3 \r\n- A withdrawn teenage boy saves a girl from a crow.\r\nGarden 4 \r\n- The tipping point of the relationship between a young wife and her older husband.\r\nGarden 5 \r\n- An author's precious memory involving a prince."
    },
@@ -35,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +58,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +70,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,51 +82,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-14T13:37:46+00:00",
+   "updatedAt": "2021-05-25T15:48:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "b7e9d858-fcdd-4fe8-877e-d81ea3bc8eae",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kodama Yuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b7e9d858-fcdd-4fe8-877e-d81ea3bc8eae",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kodama Yuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1d54f7d0-b717-4d3d-8c50-1a2fef7bea8b",
-   "type": "chapter"
-  },
-  {
-   "id": "4153fd58-5e4e-4e9a-b216-8d00208b7cb7",
-   "type": "chapter"
-  },
-  {
-   "id": "76fdc855-1fde-45c0-8926-a51ff8e96a3b",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "f3c21413-f2eb-4fe6-8954-e66287ee9a00",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:57+00:00",
+    "description": "",
+    "fileName": "55f12689-7bd2-4458-978c-e505ac7a303d.jpg",
+    "updatedAt": "2021-05-24T17:18:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

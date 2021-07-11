@@ -7,6 +7,11 @@
    "title": {
     "en": "Superior Day"
    },
+   "altTitles": [
+    {
+     "en": "우월한하루"
+    }
+   ],
    "description": {
     "en": "What would you do if you found out that your neighbour is a serial killer?\r\n\r\nBut more importantly: what would you do if some unknown third person was trying to make you kill him?!"
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,6 +57,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +69,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,83 +81,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-01-19T11:52:57+00:00",
+   "updatedAt": "2021-05-25T15:39:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "0686351f-1496-4916-9ca9-8f1d0524ea02",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Team Getname",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0686351f-1496-4916-9ca9-8f1d0524ea02",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Team Getname",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a33fab90-beec-4be8-bed3-d6fa55526df7",
-   "type": "chapter"
-  },
-  {
-   "id": "e2a223fd-236b-485d-b34e-b5902ed488ad",
-   "type": "chapter"
-  },
-  {
-   "id": "d3d76ef2-023f-44c0-a264-25e8acdbfbbb",
-   "type": "chapter"
-  },
-  {
-   "id": "3aa127d2-4ab6-4d0e-9549-d16b9648820f",
-   "type": "chapter"
-  },
-  {
-   "id": "aa1628dd-a70d-46c0-8112-6d57c12d4bfd",
-   "type": "chapter"
-  },
-  {
-   "id": "3f8ad695-91b9-4e99-9fb3-f03b1b921dda",
-   "type": "chapter"
-  },
-  {
-   "id": "06ea0f87-02aa-4160-9a6d-763756e47154",
-   "type": "chapter"
-  },
-  {
-   "id": "2f8a9e2e-8903-415b-a22a-eb083e1bb51b",
-   "type": "chapter"
-  },
-  {
-   "id": "8debbdaf-da25-4a42-97c9-b1731fd57cc6",
-   "type": "chapter"
-  },
-  {
-   "id": "ce6cd14c-295b-4beb-88b4-46f25f7e1f87",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "ee654b9f-2057-4fa8-b658-e7e9f1bbee1d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:37:33+00:00",
+    "description": "",
+    "fileName": "bc4f26b9-400e-44d0-abb9-2785bdd7b953.jpg",
+    "updatedAt": "2021-05-24T18:37:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

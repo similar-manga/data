@@ -7,6 +7,17 @@
    "title": {
     "en": "Te Asobi."
    },
+   "altTitles": [
+    {
+     "en": "Hand to Hand"
+    },
+    {
+     "en": "te a so bi."
+    },
+    {
+     "en": "てあそび。"
+    }
+   ],
    "description": {
     "en": "A secret love exchanged from hand to hand."
    },
@@ -33,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +56,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,6 +68,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -63,79 +80,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-22T13:00:12+00:00",
+   "updatedAt": "2021-05-25T15:39:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "45dd4934-c215-4d31-bf2e-9ca79b45df07",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ootake Toshitomo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "45dd4934-c215-4d31-bf2e-9ca79b45df07",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ootake Toshitomo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d8db2afd-7557-40c3-8b89-258851e8cf22",
-   "type": "chapter"
-  },
-  {
-   "id": "1ac97fcd-10a3-40d9-8311-eca98aca36eb",
-   "type": "chapter"
-  },
-  {
-   "id": "2f82758c-81fa-455e-ac31-23a04552089b",
-   "type": "chapter"
-  },
-  {
-   "id": "4c356f04-0250-460a-a5da-822a84a6bafc",
-   "type": "chapter"
-  },
-  {
-   "id": "5a840653-64a2-4ebb-b5d7-97c5f117a9b0",
-   "type": "chapter"
-  },
-  {
-   "id": "9fce9a1d-e8d2-4cd0-ab7d-ef0603511df8",
-   "type": "chapter"
-  },
-  {
-   "id": "2ea8e5a3-7a1e-4fe3-92df-4a9ee5408ecf",
-   "type": "chapter"
-  },
-  {
-   "id": "ca752366-e757-4a3c-9598-0de8235d7c6a",
-   "type": "chapter"
-  },
-  {
-   "id": "fbfaeb94-5987-4404-97cd-8e1bde5f0a32",
-   "type": "chapter"
-  },
-  {
-   "id": "145aff43-f67a-4bbd-a1b1-a60ea8369be5",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "8a7ef784-b7c5-4f8b-b588-5d331eafe717",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:31:05+00:00",
+    "description": "",
+    "fileName": "b8a6a35f-fdf2-4b7e-8252-d3568943a463.jpg",
+    "updatedAt": "2021-05-24T17:31:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

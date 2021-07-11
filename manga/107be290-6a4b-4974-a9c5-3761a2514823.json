@@ -7,6 +7,11 @@
    "title": {
     "en": "Azumanga Daioh (2009 Print)"
    },
+   "altTitles": [
+    {
+     "en": "Azumanga Daioh (10th Anniversary Print)"
+    }
+   ],
    "description": {
     "en": "For the 10th anniversary of Azumanga Daioh in 2009, the original four volumes of the manga were recollected into three new volumes, with updated artwork by original author Kiyohiko Azuma, as well as new side stories featuring the familiar characters. A welcome return to the humor and ordeals of Chiyo-chan, Tomo, Yomi, Sakaki, Kagura, and Osaka, in an all-new way!"
    },
@@ -24,6 +29,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,6 +41,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -44,6 +53,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -54,79 +65,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-20T03:28:10+00:00",
+   "updatedAt": "2021-05-25T15:39:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "e3d5ec0e-9ecb-4ac6-86b2-59ddad281b5b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Azuma Kiyohiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e3d5ec0e-9ecb-4ac6-86b2-59ddad281b5b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Azuma Kiyohiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f6f57267-b466-407d-9bf0-1c7d55bc040d",
-   "type": "chapter"
-  },
-  {
-   "id": "db728e69-9069-4185-8baa-f3bb4e3c5091",
-   "type": "chapter"
-  },
-  {
-   "id": "d090f6c6-5bf3-48d3-a26e-666852016bca",
-   "type": "chapter"
-  },
-  {
-   "id": "a93dbfab-c1f6-429a-888c-e57037ad6755",
-   "type": "chapter"
-  },
-  {
-   "id": "566a4688-47bc-45a1-8902-c4a11739386f",
-   "type": "chapter"
-  },
-  {
-   "id": "c6e5dd1c-b41f-4c6c-8ec0-33e37bbbee4d",
-   "type": "chapter"
-  },
-  {
-   "id": "21752b8c-f86c-4d0f-b36e-7d31cfedda57",
-   "type": "chapter"
-  },
-  {
-   "id": "c25f0956-260b-41d5-9a14-01b76ebf6b1b",
-   "type": "chapter"
-  },
-  {
-   "id": "f7ca7966-a947-4566-96a0-babd9f2caa44",
-   "type": "chapter"
-  },
-  {
-   "id": "cf0e1ed8-5da8-4de8-899d-333375a5508e",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "7571662b-51d5-4fc4-b511-41a28d9cdc1f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:03:36+00:00",
+    "description": "",
+    "fileName": "d5e98892-12ac-4dc0-b35b-0d8cad28b926.jpg",
+    "updatedAt": "2021-05-24T18:03:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

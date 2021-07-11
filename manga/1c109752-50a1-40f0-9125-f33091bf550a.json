@@ -7,6 +7,11 @@
    "title": {
     "en": "New York New York"
    },
+   "altTitles": [
+    {
+     "en": "ニューヨーク・ニューヨーク"
+    }
+   ],
    "description": {
     "en": "Kain Walker is a New York policeman who is admired and appreciated by all of his colleagues. Scared of disappointing his fellow officers and also frightened of being discovered, Kain hides that he is gay and abstains from any relationships... until the day his path crosses that of Mel Frederics, a calm and soft-spoken young man with a dark past."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +71,8 @@
       "name": {
        "en": "Police"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -70,6 +83,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -80,87 +95,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-17T15:03:44+00:00",
+   "updatedAt": "2021-05-25T15:40:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "76a1a409-fe96-49e0-9dbe-71449296fdb2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ragawa Marimo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "76a1a409-fe96-49e0-9dbe-71449296fdb2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ragawa Marimo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "81bb5a4a-40fe-46bf-8ad5-e0d33a9992b0",
-   "type": "chapter"
-  },
-  {
-   "id": "e94492c0-9a42-4011-89d9-15bdf10132ff",
-   "type": "chapter"
-  },
-  {
-   "id": "f4c8ea47-c192-47b6-8cb1-3865aa6b6daf",
-   "type": "chapter"
-  },
-  {
-   "id": "032b4719-c5bc-4b4f-83df-75744a4e16a2",
-   "type": "chapter"
-  },
-  {
-   "id": "1345b1b7-b4e1-4bb2-a0b2-ee9e7615ca04",
-   "type": "chapter"
-  },
-  {
-   "id": "05ca1e2b-8166-467e-b685-ea2b9893f8ff",
-   "type": "chapter"
-  },
-  {
-   "id": "33481a0c-efa6-4bcc-ba6e-01738a1377fb",
-   "type": "chapter"
-  },
-  {
-   "id": "89fc77e7-623c-4037-beb0-f2e85dea8d57",
-   "type": "chapter"
-  },
-  {
-   "id": "eeeaca1b-b465-43c5-844c-fdc95110f225",
-   "type": "chapter"
-  },
-  {
-   "id": "b52787d0-35d1-4f75-abd5-d41e1aed34e5",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "df33b754-73a3-4c54-80e6-1a74a8058539",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "334bf7e5-4c6b-4ffb-abdb-0e1e94569168",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:15+00:00",
+    "description": "",
+    "fileName": "aeaf6e4e-51e3-48e4-bf79-8f7a054234e1.jpg",
+    "updatedAt": "2021-05-24T16:49:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

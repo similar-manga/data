@@ -7,6 +7,11 @@
    "title": {
     "en": "Heroines"
    },
+   "altTitles": [
+    {
+     "en": "ヒロインズ"
+    }
+   ],
    "description": {
     "en": "[url=https://twitter.com/kx_rx_hx]Artist Twitter[/url]"
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +56,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -57,71 +68,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-25T23:53:56+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "b5309864-cf2f-4b4c-808e-dd43056700b1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kuroha",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b5309864-cf2f-4b4c-808e-dd43056700b1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kuroha",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fea375cd-3ba2-48a5-8c3f-531cb14657f3",
-   "type": "chapter"
-  },
-  {
-   "id": "f7abec82-987f-485a-8065-74fd30cbbb2c",
-   "type": "chapter"
-  },
-  {
-   "id": "b76d018e-bdc8-4e3c-91d0-0769584bdea9",
-   "type": "chapter"
-  },
-  {
-   "id": "0e863965-77e5-4760-a3d3-bdffde0a7810",
-   "type": "chapter"
-  },
-  {
-   "id": "661b3775-2fe9-48bd-af0f-3fa66d6c1b58",
-   "type": "chapter"
-  },
-  {
-   "id": "f58020a2-3b7e-41f9-a97e-777a285aef87",
-   "type": "chapter"
-  },
-  {
-   "id": "2029b109-d685-4219-bac7-040cc5cc52df",
-   "type": "chapter"
-  },
-  {
-   "id": "6c02b9da-bab4-4c9a-a428-100523d42486",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "f2c478bf-0050-4f33-bc20-2cad628a68e5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:12:06+00:00",
+    "description": "",
+    "fileName": "4543b3ea-c0bd-4215-9759-f5f811b0ee78.png",
+    "updatedAt": "2021-05-24T18:12:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,11 +7,15 @@
    "title": {
     "en": "Family Vacation"
    },
+   "altTitles": [
+    {
+     "en": "Liburan Keluarga"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "id",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,35 +38,53 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-22T05:24:29+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "002ee6fa-b0be-478b-a76e-9bb1984616f4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kharisma Jati",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "002ee6fa-b0be-478b-a76e-9bb1984616f4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kharisma Jati",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "54c91ba2-ec5e-4bdf-8803-1d78b7e0c2c5",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
+   "id": "babaf580-2312-4f6b-973e-4c9c4340131b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:20+00:00",
+    "description": "",
+    "fileName": "e3fac225-f553-4460-9c62-b87ffaaa2c94.jpg",
+    "updatedAt": "2021-05-24T17:38:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

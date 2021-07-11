@@ -7,6 +7,11 @@
    "title": {
     "en": "Yokokuhan - The Copycat"
    },
+   "altTitles": [
+    {
+     "en": "予告犯-THE COPYCAT"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,31 +48,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-09-07T13:18:05+00:00",
+   "updatedAt": "2018-09-07T13:18:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "1bd1c9f8-3a33-47eb-8000-3a484c478ce0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsutsui Tetsuya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7116c446-2f76-4845-8210-f4db09e5d769",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Obata Fumio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "f9bd9a6d-d341-4f3f-9f6d-7819e5d3eb7d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:44:15+00:00",
+    "description": "",
+    "fileName": "adb107fa-a2c4-4d9d-9a35-afd71f2eaead.jpg",
+    "updatedAt": "2021-05-24T16:44:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

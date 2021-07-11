@@ -7,6 +7,23 @@
    "title": {
     "en": "Boku no Chopin"
    },
+   "altTitles": [
+    {
+     "en": "Boku no Shopan"
+    },
+    {
+     "en": "My Chopin"
+    },
+    {
+     "en": "Мой Шопен"
+    },
+    {
+     "en": "僕のショパン"
+    },
+    {
+     "en": "나의 쇼팽"
+    }
+   ],
    "description": {
     "en": "Chopin and Liszt - both great composers, friends, and rivals. Liszt, after Chopin's death, remembers their meeting, their friendship, their lives together, and the music they made."
    },
@@ -20,7 +37,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "2",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -32,6 +48,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +60,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,8 +70,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,79 +84,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-04T20:15:06+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "672e4e1c-c0ae-4bdf-a64c-110a9df7a83a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Momoyuki Kotori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "672e4e1c-c0ae-4bdf-a64c-110a9df7a83a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Momoyuki Kotori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "494f2f23-224f-4959-abf7-e990f2639323",
-   "type": "chapter"
-  },
-  {
-   "id": "45e0af3b-7c08-490c-871c-0a8cdd62d406",
-   "type": "chapter"
-  },
-  {
-   "id": "cbc724ce-584f-48f6-adc3-c9935ff463eb",
-   "type": "chapter"
-  },
-  {
-   "id": "ddd16da8-9f16-45bf-aa9b-48e881b4fc68",
-   "type": "chapter"
-  },
-  {
-   "id": "2a60a8c0-bf76-4baf-802d-879846278850",
-   "type": "chapter"
-  },
-  {
-   "id": "73a819f4-f457-4fed-9cbb-e4ebb3b369f3",
-   "type": "chapter"
-  },
-  {
-   "id": "7f855ba3-df3d-4381-82b7-9bcd70071463",
-   "type": "chapter"
-  },
-  {
-   "id": "63431911-2f8c-4326-8d5d-6a1ec7c1655d",
-   "type": "chapter"
-  },
-  {
-   "id": "7aef0bbd-9157-4b98-9078-985cdec467e3",
-   "type": "chapter"
-  },
-  {
-   "id": "62875878-05fd-4202-b539-7e1ac55c2c6f",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "a9d10f82-6d45-4f80-a837-39b3d573ced4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:37:32+00:00",
+    "description": "",
+    "fileName": "21456f7d-73f0-49ce-84e4-5cf6150a4ae7.jpg",
+    "updatedAt": "2021-05-24T17:37:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

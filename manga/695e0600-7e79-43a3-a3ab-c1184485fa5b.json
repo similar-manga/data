@@ -7,6 +7,14 @@
    "title": {
     "en": "The Stand-up Guy"
    },
+   "altTitles": [
+    {
+     "en": "Seonnam"
+    },
+    {
+     "en": "선남"
+    }
+   ],
    "description": {
     "en": "Lovelyn, a company where all the employees are underwear models... I thought this was my dream job, but why are these girls looking at me like that?"
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,75 +61,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-18T16:39:32+00:00",
+   "updatedAt": "2021-05-25T15:43:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "7529ff50-035c-405f-b77e-85a6397af471",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Dolphin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4eb76a73-7f57-4566-a10e-767e9035f832",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "464",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5689a04b-da4a-45d4-a765-63d65aa23893",
-   "type": "chapter"
-  },
-  {
-   "id": "8809f9a1-c57c-4b23-80df-d03e4fcc5ae6",
-   "type": "chapter"
-  },
-  {
-   "id": "8b27b04f-38e3-4869-9609-aa4543853343",
-   "type": "chapter"
-  },
-  {
-   "id": "feeadfd6-1304-4bb3-b169-10484e35732d",
-   "type": "chapter"
-  },
-  {
-   "id": "c638eb91-97f5-4390-ad30-0623eaae804f",
-   "type": "chapter"
-  },
-  {
-   "id": "da4e106c-04a3-4460-b190-edc989006aa1",
-   "type": "chapter"
-  },
-  {
-   "id": "4ef7589c-e23f-4b88-aedd-1eb6ef156305",
-   "type": "chapter"
-  },
-  {
-   "id": "0bac01bf-844e-4672-a1e7-08ad0998ee42",
-   "type": "chapter"
-  },
-  {
-   "id": "89273308-6b2d-41e1-a7bd-eaffbe2121d4",
-   "type": "chapter"
-  },
-  {
-   "id": "360ed5bc-09d3-499a-bd99-5b99179400bd",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "9ca9d545-0dcf-4f70-a1c9-9db9828b5d28",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:30:38+00:00",
+    "description": "",
+    "fileName": "f8a62ab3-c9b6-4670-a7ac-92f8c24a467f.jpg",
+    "updatedAt": "2021-05-24T17:30:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

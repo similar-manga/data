@@ -15,7 +15,6 @@
     "raw": "https://seiga.nicovideo.jp/comic/50465"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +25,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +49,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -56,71 +61,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-05T11:40:58+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "85d8b831-c483-4742-897f-ac03664106ea",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kamis",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "85d8b831-c483-4742-897f-ac03664106ea",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kamis",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9cfe56ab-3fbd-4079-99a4-a52db91fe6c0",
-   "type": "chapter"
-  },
-  {
-   "id": "cffe8ac3-0b85-41f1-8825-3862165ea7d6",
-   "type": "chapter"
-  },
-  {
-   "id": "f6c0bd30-35a5-4f66-8373-67dd7b46efe6",
-   "type": "chapter"
-  },
-  {
-   "id": "f1a934b5-52bd-4323-9787-4df6d89c0831",
-   "type": "chapter"
-  },
-  {
-   "id": "a8b04df6-6e6e-4344-af71-4f6a6c3b1497",
-   "type": "chapter"
-  },
-  {
-   "id": "bce17f2f-63ce-455d-81f8-6a2d58a95749",
-   "type": "chapter"
-  },
-  {
-   "id": "1c4bae57-90f4-4b4a-ae52-7c8fdb1afad5",
-   "type": "chapter"
-  },
-  {
-   "id": "4ad95848-1c27-49ff-8b08-3652d6af247a",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "12d00f69-9c86-4ffa-9e16-d08f9df2c157",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:26:03+00:00",
+    "description": "",
+    "fileName": "80d2d4ab-1040-487e-bbd8-f8cd7ab56348.jpg",
+    "updatedAt": "2021-05-24T18:26:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

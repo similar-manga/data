@@ -5,8 +5,37 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "1.8m\u0026sup2; no Himegoto"
+    "en": "1.8m² no Himegoto"
    },
+   "altTitles": [
+    {
+     "en": "1.8 Square Meter no Himegoto"
+    },
+    {
+     "en": "1.8 Square Meter of Secret"
+    },
+    {
+     "en": "1.8m² no Himegoto"
+    },
+    {
+     "en": "1.8m²的秘密基地"
+    },
+    {
+     "en": "1.8m2 no Himegoto"
+    },
+    {
+     "en": "1.8m2の秘めごと"
+    },
+    {
+     "en": "No Secret in 1.8m²"
+    },
+    {
+     "en": "Secret 1.8 Square Meters"
+    },
+    {
+     "en": "Skala Cinta 1.8 Meter Persegi"
+    }
+   ],
    "description": {
     "en": "A girl who sneaked into her boyfriend's closet. Later, as she heard the conversation between her lover and his best friend, she started to think which one she loved more, her current lover or his best friend."
    },
@@ -31,6 +60,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +72,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,51 +84,53 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-18T20:21:10+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "5b234bef-acd9-4d89-9487-1d45d12e3ec4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ozaki Ira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5b234bef-acd9-4d89-9487-1d45d12e3ec4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ozaki Ira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "60a4c331-ad8f-4a1e-aacf-2a68c340bc13",
-   "type": "chapter"
-  },
-  {
-   "id": "ce5719a9-4c55-4010-8762-76f559ee6443",
-   "type": "chapter"
-  },
-  {
-   "id": "528dfa18-f29e-43b1-801e-7a079effda56",
-   "type": "chapter"
-  },
-  {
-   "id": "5be6d225-c1f4-437b-8e76-642b2ade4fcf",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
+   "id": "55be7749-c6a4-4f1e-ac41-8705128fe680",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:37+00:00",
+    "description": "",
+    "fileName": "2ef3b4ce-6632-409f-88cc-df9c9bf1adfe.png",
+    "updatedAt": "2021-05-24T17:18:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

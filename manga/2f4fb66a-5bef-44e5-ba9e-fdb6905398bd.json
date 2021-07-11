@@ -7,6 +7,14 @@
    "title": {
     "en": "Delivery"
    },
+   "altTitles": [
+    {
+     "en": "デリバリー"
+    },
+    {
+     "en": "正妹宅急便"
+    }
+   ],
    "description": {
     "en": "Delivery consists of a series of stories which paint a bleak and realistic picture of the women in the water trade, i.e, prostitution. Something for more mature readers with a dash of tragedy thrown in."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,75 +63,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-01-30T15:56:43+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "d3f6ecd8-9bad-4513-8fc5-64fc3ba1c86d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohta Tohko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "af731d75-2b41-416d-8d26-49b207720fb7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Teshirogi Shiori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cd45ac0e-06cc-45d2-abef-2888b543c9c9",
-   "type": "chapter"
-  },
-  {
-   "id": "3e8a7171-9fd9-47a2-9d25-f57078396dd4",
-   "type": "chapter"
-  },
-  {
-   "id": "1a3e51bd-42a7-4749-a468-fae8f77dc509",
-   "type": "chapter"
-  },
-  {
-   "id": "7819b076-11fb-4f07-9d81-42d099a72cf0",
-   "type": "chapter"
-  },
-  {
-   "id": "1b261b1b-b84c-45ca-bc97-432a89585d96",
-   "type": "chapter"
-  },
-  {
-   "id": "0502afb0-83ad-41a4-b879-7673bb96990c",
-   "type": "chapter"
-  },
-  {
-   "id": "61c0f224-1b9f-4ed4-b5fa-d7942b692b96",
-   "type": "chapter"
-  },
-  {
-   "id": "f8b9ca2d-16dd-4c16-800f-ce6bc2268e47",
-   "type": "chapter"
-  },
-  {
-   "id": "a962bbdd-1a87-4380-a44d-16844d3ba945",
-   "type": "chapter"
-  },
-  {
-   "id": "364de12d-cf89-41e4-9cb1-b8193025a2eb",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "dfad4712-dd96-4f42-9f3b-cc948a392b00",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:30:18+00:00",
+    "description": "",
+    "fileName": "a7603de0-ebaf-4164-b03d-475ad0685f82.jpg",
+    "updatedAt": "2021-05-24T18:30:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

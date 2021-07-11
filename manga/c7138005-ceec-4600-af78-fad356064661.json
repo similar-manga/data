@@ -7,6 +7,14 @@
    "title": {
     "en": "Let's La Gon"
    },
+   "altTitles": [
+    {
+     "en": "Rettsura Gon"
+    },
+    {
+     "en": "レッツラゴン"
+    }
+   ],
    "description": {
     "en": "Let's La Gon is a gag manga series revolving around a young boy named Gon, his father, and pet bear Beramatcha, as they lead a dysfunctional life of poverty, and the bizarre antics that go on in their lives. The manga is known for being somewhat darker and more surreal than other works from it's author, Akatsuka, making for an experience unlike many other gag comedy manga."
    },
@@ -17,7 +25,6 @@
     "mu": "89617"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -29,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +48,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,39 +60,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-05T16:10:30+00:00",
+   "updatedAt": "2021-05-25T15:47:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "6fd3a650-49fa-4c76-8c70-887140289cca",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akatsuka Fujio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6fd3a650-49fa-4c76-8c70-887140289cca",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akatsuka Fujio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d3dfbb4e-73bc-4afc-bb1c-fc9d5a1eddc2",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "165c8218-6704-4f6a-a5ac-2de32b37aacb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:51:14+00:00",
+    "description": "",
+    "fileName": "1498a069-0fe6-49b3-be40-4f54375cdf95.jpg",
+    "updatedAt": "2021-05-24T17:51:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

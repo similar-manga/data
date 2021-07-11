@@ -7,6 +7,11 @@
    "title": {
     "en": "Monglu's Master"
    },
+   "altTitles": [
+    {
+     "en": "몽루의 주인"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,35 +43,53 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-19T06:26:30+00:00",
+   "updatedAt": "2021-05-25T15:45:45+00:00"
   }
  },
  "relationships": [
   {
    "id": "f031b5c7-7224-438f-892d-99578a3a633e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HappyMill",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a5d030a5-956b-4f39-b587-e0e2c576f936",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "시트러스 (Citrus)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "beb6b6e7-8319-4bc7-ad8f-9ece96c96c23",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
+   "id": "c29f56b7-ce73-4f0d-8bb9-9f0333a3401f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:05:03+00:00",
+    "description": "",
+    "fileName": "ce4410b6-0977-420d-aac6-1e0ef79cbec7.png",
+    "updatedAt": "2021-05-24T17:05:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

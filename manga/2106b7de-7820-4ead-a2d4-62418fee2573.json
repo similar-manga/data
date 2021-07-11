@@ -11,7 +11,6 @@
     "en": "Encyclopedia made by fans in celebration of Saint Seiya's 25th anniversary."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -43,51 +46,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-23T13:19:34+00:00",
+   "updatedAt": "2021-05-25T15:40:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "75c02982-6af3-4d51-86eb-0cb5fc96e4b0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurumada Masami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "75c02982-6af3-4d51-86eb-0cb5fc96e4b0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurumada Masami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "620e6570-b042-49fb-a57b-50867f19a400",
-   "type": "chapter"
-  },
-  {
-   "id": "54715234-74ea-44bb-ba81-98978cc5b926",
-   "type": "chapter"
-  },
-  {
-   "id": "b72ff669-80a5-404d-8823-fdb1b20ed72e",
-   "type": "chapter"
-  },
-  {
-   "id": "9eb9fc8e-4c27-4f63-9f8a-1d07fe82abca",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "880fd52b-ace3-4fcb-8f29-7eda93bcec98",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:11:48+00:00",
+    "description": "",
+    "fileName": "13101101-f965-4cde-842f-6e96ba7e65f7.jpg",
+    "updatedAt": "2021-05-24T18:11:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

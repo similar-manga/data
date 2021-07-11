@@ -5,8 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Kanon \u0026amp; AIR Sky"
+    "en": "Kanon \u0026 AIR Sky"
    },
+   "altTitles": [
+    {
+     "en": "Kanon \u0026 Air"
+    },
+    {
+     "en": "Kanon \u0026 AIRスカイ"
+    },
+    {
+     "en": "Kanon/Air"
+    },
+    {
+     "en": "Kanon\u0026AIR スカイ"
+    }
+   ],
    "description": {
     "en": "This is a crossover between Kanon (Key) and AIR (Key). Each chapter is a separate story of Kanon or AIR, they're just short mini stories that were never seen in the anime."
    },
@@ -32,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +58,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,8 +68,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +82,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -72,87 +94,65 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-11T04:13:27+00:00",
+   "updatedAt": "2021-05-25T15:45:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "13e107d9-85f9-4850-a4e3-39d891335a5b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Izumi Rei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8fb0acc6-5120-4fe5-a39f-7d57e0e98292",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Key",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "13e107d9-85f9-4850-a4e3-39d891335a5b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Izumi Rei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "efcf38ad-f2b0-4c60-9b3b-0c2ba8f91107",
-   "type": "chapter"
-  },
-  {
-   "id": "1b223a7b-d1d5-429e-9ffd-34e51d72f215",
-   "type": "chapter"
-  },
-  {
-   "id": "4ba96699-595b-44ed-b989-8863dfd6fbaa",
-   "type": "chapter"
-  },
-  {
-   "id": "0765385f-6716-4f59-ac80-8c6dd77b71ac",
-   "type": "chapter"
-  },
-  {
-   "id": "43cc781d-bb96-42fa-a3ed-eb58e55f952c",
-   "type": "chapter"
-  },
-  {
-   "id": "7aeb6d43-d204-4c93-bba7-57cdae58ea6a",
-   "type": "chapter"
-  },
-  {
-   "id": "32f35d4a-2023-4e39-91c8-adc0a6197b7b",
-   "type": "chapter"
-  },
-  {
-   "id": "4b426979-1b68-4d1f-8e4e-44a6bb75daf0",
-   "type": "chapter"
-  },
-  {
-   "id": "06071c91-52f5-478a-a88b-e2fd4ef1f7c1",
-   "type": "chapter"
-  },
-  {
-   "id": "1f67bd42-e17c-491a-a482-86bbdb7099f7",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "d8e40f55-363e-4f33-a9f1-57eb29fc17a4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:44:39+00:00",
+    "description": "",
+    "fileName": "87492729-067a-4dde-9096-511f4a207357.jpg",
+    "updatedAt": "2021-05-24T17:44:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "OTOKONOKO FU\u0026hearts;ZOKU"
+    "en": "OTOKONOKO FU♥ZOKU"
    },
+   "altTitles": [
+    {
+     "en": "(C91)  (OTOKONOKO Matome Hon 2013-2015+α)"
+    },
+    {
+     "en": "男の娘風俗♥ (OTOKONOKOまとめ本 2013-2015+α)"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,8 +39,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,39 +53,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-12T20:55:07+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "9beebd6b-a068-4aca-92c5-e4840862bf0b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Candy Paddle",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "106addcc-01f9-4e7e-b779-082b26b2ea40",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nemunemu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "97796302-4d43-4170-bc8c-107156fd9b97",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "ba99608b-60a1-4fb9-8ae3-7aeb47543f73",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:07:51+00:00",
+    "description": "",
+    "fileName": "484a17b4-cd94-4b30-8a10-c3e5adc3c07d.jpg",
+    "updatedAt": "2021-05-24T17:07:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

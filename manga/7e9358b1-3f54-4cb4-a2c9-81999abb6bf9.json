@@ -7,8 +7,13 @@
    "title": {
     "en": "Salad Bowl"
    },
+   "altTitles": [
+    {
+     "en": "サラダボウル"
+    }
+   ],
    "description": {
-    "en": "Vihta, Avan and Yuta travel the world in their moving trailer \u0026quot;The Sauna\u0026quot;. Buying food, buying clothes... It's not an easy life when they share no similarities in age, origin or personality,  but they live together like a family and manage to get by. Everything changed when one day, a mysterious little girl wandered into the Sauna. The journey begins to deliver this little girl back to her home town."
+    "en": "Vihta, Avan and Yuta travel the world in their moving trailer \"The Sauna\". Buying food, buying clothes... It's not an easy life when they share no similarities in age, origin or personality,  but they live together like a family and manage to get by. Everything changed when one day, a mysterious little girl wandered into the Sauna. The journey begins to deliver this little girl back to her home town."
    },
    "links": {
     "ap": "salad-bowl",
@@ -30,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,43 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-29T16:00:20+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "ffc084fd-84ad-40a1-bc55-74ce000c2007",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Key Yang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ffc084fd-84ad-40a1-bc55-74ce000c2007",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Key Yang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b6ff9ce3-9620-43cd-9792-c05a599238fc",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "8a20d2e5-97c0-4f83-8a6f-8ab576e27061",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:35:37+00:00",
+    "description": "",
+    "fileName": "c285d705-49e8-46e9-a256-f0eb891d89d1.jpg",
+    "updatedAt": "2021-05-24T17:35:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

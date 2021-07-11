@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Maji Love Brother Chu\u0026hearts;"
+    "en": "Maji Love Brother Chu♥"
    },
+   "altTitles": [
+    {
+     "en": "Gekkan Web Otoko no Ko-llection! S Vol. 19"
+    },
+    {
+     "en": "マジLOVEブラザーちゅ♥ (月刊Web男の娘・れくしょんッ！S Vol.19)"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,37 +39,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-16T10:24:12+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "3b7d3a29-1b59-4ec7-9262-788424fdee1c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tomi.",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3b7d3a29-1b59-4ec7-9262-788424fdee1c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tomi.",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "09b245ce-e562-44ad-b97d-68830e572969",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "318d8ba1-12ae-4fa7-8b7e-77b876977c0d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:15+00:00",
+    "description": "",
+    "fileName": "d32610f7-df33-4283-9bab-c8231983c94d.png",
+    "updatedAt": "2021-05-24T17:08:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

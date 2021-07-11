@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "DRAMAtical \u0026ndash; Seishun Moratorium"
+    "en": "DRAMAtical – Seishun Moratorium"
    },
    "description": {
     "en": "Virus x Trip x Aoba"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -20,8 +19,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,35 +33,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-27T09:25:48+00:00",
+   "updatedAt": "2021-05-25T15:40:04+00:00"
   }
  },
  "relationships": [
   {
    "id": "224e7442-0821-439c-9d56-7bdb6b290371",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Honeorizon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3d5d7214-4243-4365-9b54-7024f98ca43a",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "814981dc-1101-4f09-bd21-cb0aeb6d1a63",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:16:39+00:00",
+    "description": "",
+    "fileName": "8e0c8195-0342-43ee-9425-2977ea75e6d1.jpg",
+    "updatedAt": "2021-05-24T18:16:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

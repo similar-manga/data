@@ -7,6 +7,14 @@
    "title": {
     "en": "Zelda no Densetsu (Ran Maru)"
    },
+   "altTitles": [
+    {
+     "en": "The Legend of Zelda: The Hyrule Fantasy"
+    },
+    {
+     "en": "ゼルダの伝説 わんぱっくコミックス"
+    }
+   ],
    "description": {
     "en": "Legend of Zelda adaptation by Ranmaru."
    },
@@ -17,7 +25,6 @@
     "mu": "143752"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -29,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,35 +48,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-26T22:38:08+00:00",
+   "updatedAt": "2021-05-25T15:39:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "c6a5ba4f-10cd-45d7-a5d5-6c5f06971ada",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ran Maru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c6a5ba4f-10cd-45d7-a5d5-6c5f06971ada",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ran Maru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f61adf7e-fbe4-4b25-b7b1-546e2fd251e7",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "4646ed13-2725-4f6a-b74d-fcf7d66af5ba",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:37+00:00",
+    "description": "",
+    "fileName": "ed582d34-3e0c-4c7e-a13d-e51ff26ac57e.jpg",
+    "updatedAt": "2021-05-24T17:09:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

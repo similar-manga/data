@@ -7,6 +7,11 @@
    "title": {
     "en": "Paranoia Star"
    },
+   "altTitles": [
+    {
+     "en": "パラノイア・スター"
+    }
+   ],
    "description": {
     "en": "Collection of short stories by Maruo.\r\n\r\nIt's almost impossible to summarize them, most of them aren't really plot driven but they deal with abnormal states of the mind and are permeated by a general surrealism.\r\n\r\nAs in many of this works, he shows references to the art and culture of 1920s and 1930s Japan and Germany which had inspired his own artistic style."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +60,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -61,79 +72,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-09T08:51:31+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "14bfa022-74cc-450b-af1f-2eb4be1f07ca",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maruo Suehiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "14bfa022-74cc-450b-af1f-2eb4be1f07ca",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maruo Suehiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "acea8cd9-9c36-4bb7-bab7-764b00e91f35",
-   "type": "chapter"
-  },
-  {
-   "id": "d074f4d2-73b4-443e-bb97-462488b79f68",
-   "type": "chapter"
-  },
-  {
-   "id": "9eaadae4-fc3b-419a-a451-637be86a41ab",
-   "type": "chapter"
-  },
-  {
-   "id": "99ac350c-83e7-4c0b-886f-c39fb4e48f4b",
-   "type": "chapter"
-  },
-  {
-   "id": "2c966c90-7c64-422e-86b9-a27b395c3aa4",
-   "type": "chapter"
-  },
-  {
-   "id": "c5e7c776-edb4-4ea0-8bca-edd36793e7f6",
-   "type": "chapter"
-  },
-  {
-   "id": "b3875088-5416-470c-8ca9-9242c0b6b16e",
-   "type": "chapter"
-  },
-  {
-   "id": "66f9646a-5190-4084-a066-f76f73242c03",
-   "type": "chapter"
-  },
-  {
-   "id": "766a4a7a-51e9-473a-bd4c-a94aa5a1935d",
-   "type": "chapter"
-  },
-  {
-   "id": "5b9107e8-4365-4841-9160-8bd0f08fe595",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "af78da95-ea6e-4fca-b021-dbdf4cdc484a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:47:33+00:00",
+    "description": "",
+    "fileName": "9ce11d2d-56ec-4db0-807c-9c3ef7aad53e.jpg",
+    "updatedAt": "2021-05-24T16:47:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

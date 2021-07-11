@@ -31,6 +31,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +43,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,53 +53,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-05T03:46:53+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "216d28cc-ddd3-4ad8-ae2c-0f6e97ec9118",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hidou Tei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "216d28cc-ddd3-4ad8-ae2c-0f6e97ec9118",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hidou Tei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e50752e8-3022-499b-8c5a-5699e28174c7",
-   "type": "chapter"
-  },
-  {
-   "id": "28c47822-2db5-4f18-a29a-ff3e196d2255",
-   "type": "chapter"
-  },
-  {
-   "id": "ba2a2073-7ce4-4e5b-a4c5-d2ad3eea495d",
-   "type": "chapter"
-  },
-  {
-   "id": "c8af5bce-1760-4ac4-bc85-d39d931e1542",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "71a7843f-302d-4f0a-bd23-30a82b2f668a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:17:48+00:00",
+    "description": "",
+    "fileName": "f5629ed2-8596-4fa4-8b12-cf0699fa9aa7.jpg",
+    "updatedAt": "2021-05-24T17:17:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Yajuu de Hatsukoi"
    },
+   "altTitles": [
+    {
+     "en": "Savage Innocence"
+    },
+    {
+     "en": "野獣で初恋"
+    }
+   ],
    "description": {
     "en": "A physically overgrown, dedicated to sports yet mentally immature college student finds love for the first time."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,59 +62,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-30T04:02:47+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "cf57cb6c-16a5-4a3c-9b54-857028a71132",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamato Nase",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cf57cb6c-16a5-4a3c-9b54-857028a71132",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamato Nase",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fdfc253b-d841-4086-bd0b-beacda9a50f4",
-   "type": "chapter"
-  },
-  {
-   "id": "60ea6825-ef99-4f05-a629-24b818233726",
-   "type": "chapter"
-  },
-  {
-   "id": "70a5bec9-4b82-461b-b011-2e0365b7f571",
-   "type": "chapter"
-  },
-  {
-   "id": "10e309cf-41b1-4c24-9383-856e92da3163",
-   "type": "chapter"
-  },
-  {
-   "id": "c06916d4-d22a-4e74-b5a1-47a5a70d0e33",
-   "type": "chapter"
-  },
-  {
-   "id": "477929d9-949b-41af-983d-ac52f3b1977f",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "5cb3be53-d2e9-4f15-a1a3-693f4335affe",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:53+00:00",
+    "description": "",
+    "fileName": "8acce5fd-54ad-4b04-9d07-5948d431bb25.jpg",
+    "updatedAt": "2021-05-24T16:49:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

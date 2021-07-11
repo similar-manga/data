@@ -15,7 +15,6 @@
     "mu": "139839"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +38,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,39 +50,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-04T01:01:02+00:00",
+   "updatedAt": "2021-05-25T15:47:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "20a23f34-2f26-4546-834d-ca06fba77612",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Saki Setouichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "20a23f34-2f26-4546-834d-ca06fba77612",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Saki Setouichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2a83fcb1-133b-4732-9696-c34545922f20",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "895fe152-f518-4f1c-aca2-50be5ec9b210",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:09+00:00",
+    "description": "",
+    "fileName": "2d7ed84d-5ed5-46d3-98d1-beba5f1f28e4.jpg",
+    "updatedAt": "2021-05-24T17:00:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

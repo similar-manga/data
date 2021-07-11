@@ -7,6 +7,17 @@
    "title": {
     "en": "Nani mo Nai Kedo Sora wa Aoi"
    },
+   "altTitles": [
+    {
+     "en": "There's Nothing But the Sky is Blue"
+    },
+    {
+     "en": "何もないけど空は青い"
+    },
+    {
+     "en": "何も無いけど空は青い"
+    }
+   ],
    "description": {
     "en": "Scientists predicted an imminent meteor impact on Earth that would annihilate civilization, but contrary to their prediction, the meteor missed Earth. Though avoiding immediate destruction, humanity found that the meteor left behind something in its wake, something that would change the course of civilization forever: a new form of bacteria that ate through all known metals.\r\n\r\nFacing this new era where all metals turn to ash, Jinkichi and his classmates will have to survive with little help from the Japanese government. Some of his classmates have already begun to understand that the norms of the past have collapsed, and lawlessness will be the new law. Jinkichi will have to protect himself as well as his classmates from the violence that ensues."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,51 +78,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-10-31T11:10:47+00:00",
+   "updatedAt": "2018-10-31T11:10:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "91b7131b-2f23-49d6-a915-6661807b940a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nishimori Hiroyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1d248ca3-1379-423e-876b-9d86b1010777",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Iinuma Yuuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "48e5fd8b-1cac-4446-bf5f-71ec752a10b6",
-   "type": "chapter"
-  },
-  {
-   "id": "e10b1e8b-694e-42b6-b6f6-2d84e09a0343",
-   "type": "chapter"
-  },
-  {
-   "id": "92e773b8-64c1-47ae-bf68-604d44c210ab",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "f225e6e6-f909-4fb1-84ca-54aeb3c93b00",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:00+00:00",
+    "description": "",
+    "fileName": "c7913877-fbc9-4fea-bbaf-9dadc2e86abc.jpg",
+    "updatedAt": "2021-05-24T16:50:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

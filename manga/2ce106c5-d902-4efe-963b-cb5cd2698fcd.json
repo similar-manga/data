@@ -11,7 +11,6 @@
     "en": "Animan's dream is to become an anime protagonist, but he's stuck in a manga...?"
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +46,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +58,8 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -63,6 +70,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -73,51 +82,53 @@
       "name": {
        "en": "Gyaru"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-31T16:20:40+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "0dc32432-7211-4802-a0ce-3a255ce2a21a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "maximaxi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0dc32432-7211-4802-a0ce-3a255ce2a21a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "maximaxi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "49f82da5-9d2a-4666-a0e7-501023086cae",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "fad12b5e-68ba-460e-b933-9ae8318f5b65",
-   "type": "tag"
+   "id": "9050f4cf-bd98-4f39-8859-4cc3926ece27",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:43:12+00:00",
+    "description": "",
+    "fileName": "fafe2c55-a04f-48bc-8510-b95f628f1baa.png",
+    "updatedAt": "2021-05-24T17:43:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Kennel Tokorozawa"
    },
+   "altTitles": [
+    {
+     "en": "ケンネル所沢"
+    }
+   ],
    "description": {
     "en": "Pet shop owner's daughter Chika Tokorozawa spends every waking hour with her dog, Rin Tin Tin, who repays her love by watching over her while she sleeps."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,39 +46,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-20T05:07:06+00:00",
+   "updatedAt": "2021-05-25T15:38:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "be29afd6-2fcd-459b-b8da-b6dc2126bbab",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ootsubo Maki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "be29afd6-2fcd-459b-b8da-b6dc2126bbab",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ootsubo Maki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2760453d-1e77-4873-bcca-e055db45e615",
-   "type": "chapter"
-  },
-  {
-   "id": "26957c82-e2eb-44c8-a50f-3dbed20c468f",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "a0e423c2-993b-4f4e-9dbc-263acc72d054",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:11:26+00:00",
+    "description": "",
+    "fileName": "966d4c50-8428-42c3-907e-84af743cbf68.jpg",
+    "updatedAt": "2021-05-24T18:11:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

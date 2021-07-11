@@ -7,6 +7,14 @@
    "title": {
     "en": "Souryuuden Gengashuu"
    },
+   "altTitles": [
+    {
+     "en": "Sohryuden: Legend of the Dragon Kings"
+    },
+    {
+     "en": "創竜伝原画集"
+    }
+   ],
    "description": {
     "en": "CLAMP version of Souryuuden"
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,39 +59,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-18T23:30:09+00:00",
+   "updatedAt": "2021-05-25T15:46:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "926a25dd-9405-48c0-9a1a-1bf1b61a7961",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tanaka Yoshiki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "60bc549c-f2ac-488e-9b83-c840a76d17ce",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "CLAMP",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f4f794af-bb8e-4714-bedd-5cc04cdceff1",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "1ab46768-c769-4f23-a91a-e9002591ef3d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:03:29+00:00",
+    "description": "",
+    "fileName": "f5014b08-e967-4567-b72c-26dc2aada856.jpg",
+    "updatedAt": "2021-05-24T18:03:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

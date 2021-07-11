@@ -7,6 +7,17 @@
    "title": {
     "en": "Street Crossing Manga"
    },
+   "altTitles": [
+    {
+     "en": "Oudanhodou no Manga"
+    },
+    {
+     "en": "Манга про переход через улицу"
+    },
+    {
+     "en": "横断歩道の漫画"
+    }
+   ],
    "description": {
     "en": "A story about a mother and daughter waiting to cross the street."
    },
@@ -26,6 +37,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +61,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -56,59 +73,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-19T15:34:25+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "7b281caf-bc01-4c1c-b683-c00828182877",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akatsuka Taishou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7b281caf-bc01-4c1c-b683-c00828182877",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akatsuka Taishou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "326782a1-d133-472b-8386-36725708e369",
-   "type": "chapter"
-  },
-  {
-   "id": "b9504b0c-8815-4c20-9301-7978f8155080",
-   "type": "chapter"
-  },
-  {
-   "id": "58112233-6f17-4f70-82fb-c206a736fd5c",
-   "type": "chapter"
-  },
-  {
-   "id": "13e05c00-f54c-4050-8ba2-34010e9606b1",
-   "type": "chapter"
-  },
-  {
-   "id": "baf4b110-1e6f-4721-aafe-23c20fab1ebe",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "a1f4c710-a6dc-4f11-8ed9-f0fe1d379d95",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:59:57+00:00",
+    "description": "",
+    "fileName": "dc6a5844-db08-46b7-922f-8b9e37f935ec.jpg",
+    "updatedAt": "2021-05-24T17:59:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

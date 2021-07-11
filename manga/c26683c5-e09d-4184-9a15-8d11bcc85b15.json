@@ -7,6 +7,14 @@
    "title": {
     "en": "Neko to Matatabi"
    },
+   "altTitles": [
+    {
+     "en": "Cat And Silvervine"
+    },
+    {
+     "en": "ねことまたたび"
+    }
+   ],
    "description": {
     "en": "Yutai and Gou have been going out for several months. Gou is like a cat and when he's angry he always leaves Yutai's side. The day after a fight, Gou left for his hometown. What will Yutai do?"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +74,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,47 +86,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-10T17:46:57+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "c19dc364-c98e-481d-9273-03a3c5b67821",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katou Setsuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c19dc364-c98e-481d-9273-03a3c5b67821",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katou Setsuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a76afcdf-d25d-4d40-9839-38725e06bded",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "600a123b-feb9-4fc2-ab77-e5e44afa62c5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:41:33+00:00",
+    "description": "",
+    "fileName": "cad03d5d-fbcf-4cea-98f7-4c28a08e3914.jpg",
+    "updatedAt": "2021-05-24T16:41:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

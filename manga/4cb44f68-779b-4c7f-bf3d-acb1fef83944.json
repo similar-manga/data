@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon Mystery Dungeon: Explorers of Time and Darkness"
+    "en": "Pokémon Mystery Dungeon: Explorers of Time and Darkness"
    },
    "description": {
-    "en": "Short promotional comic for the Pok\u0026eacute;mon Mystery Dungeon video game series. Features a Turtwig and Chimchar duo on their first mission. Reads left to right."
+    "en": "Short promotional comic for the Pokémon Mystery Dungeon video game series. Features a Turtwig and Chimchar duo on their first mission. Reads left to right."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Isekai"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,43 +46,65 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-06T12:00:10+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "41757057-73be-4ffd-9705-5c29182fe23c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "CHUNSOFT",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "979166dc-ef24-4894-b617-c16ccab5b373",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "The Pokémon Company",
+    "updatedAt": "2021-05-15T21:06:43+00:00",
+    "version": 2
+   }
   },
   {
    "id": "6f9ea927-873b-4ebe-85da-7df8ccda1e46",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ken Sugimori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1d6c2e37-365f-46d3-9965-b38894aff818",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "ace04997-f6bd-436e-b261-779182193d3d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "831290f1-b8c8-4fbe-a452-898d43106710",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:47+00:00",
+    "description": "",
+    "fileName": "b3305154-edf9-4fb4-8d52-c5f566cf7512.png",
+    "updatedAt": "2021-05-24T17:21:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

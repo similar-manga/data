@@ -7,6 +7,20 @@
    "title": {
     "en": "Yawahada"
    },
+   "altTitles": [
+    {
+     "en": "Soft Skin"
+    },
+    {
+     "en": "ヤワハダ"
+    },
+    {
+     "en": "柔肌"
+    },
+    {
+     "en": "柔肌 (ハルミチヒロ)"
+    }
+   ],
    "description": {
     "en": "Collection released in 2019."
    },
@@ -29,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +55,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,8 +65,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +79,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,43 +91,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-03-29T08:59:03+00:00",
+   "updatedAt": "2020-03-29T08:59:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "976f6bd7-cb61-4589-b4e5-7f9d7979e11d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Harumi Chihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "976f6bd7-cb61-4589-b4e5-7f9d7979e11d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Harumi Chihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "a1f2f9ee-c5ce-4fdf-94a3-9a9bb7331cda",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:50:23+00:00",
+    "description": "",
+    "fileName": "acb7f985-eeba-42c2-8be0-5f4ff5d7da33.jpg",
+    "updatedAt": "2021-05-24T17:50:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

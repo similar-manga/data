@@ -27,6 +27,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +51,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -57,79 +63,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-07T15:17:01+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "093554fb-7a44-43bb-9bd1-8c5b3492dad1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Neck Pillow",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d08814be-7d96-48f0-8096-267ded89a639",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Paper",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "473445f9-4cd7-422a-a271-97a7fa06d694",
-   "type": "chapter"
-  },
-  {
-   "id": "3dbb63b7-a2bf-42e7-a22b-15c07a2e39ae",
-   "type": "chapter"
-  },
-  {
-   "id": "aa5b2965-49df-44ae-9796-2e384deecc62",
-   "type": "chapter"
-  },
-  {
-   "id": "0dd3a821-7355-4341-a06b-b566541afa11",
-   "type": "chapter"
-  },
-  {
-   "id": "f8424d42-dda3-4559-97b8-2c496f0a7d39",
-   "type": "chapter"
-  },
-  {
-   "id": "8b104c08-d0be-43d9-a816-0e049baa5baa",
-   "type": "chapter"
-  },
-  {
-   "id": "966700db-9fba-4843-afc5-192fcb9fae48",
-   "type": "chapter"
-  },
-  {
-   "id": "8730ea4d-bd17-4c6a-bf58-8833c499241b",
-   "type": "chapter"
-  },
-  {
-   "id": "d8ab5e69-ca71-41c4-9b5a-8abc59f50e4d",
-   "type": "chapter"
-  },
-  {
-   "id": "02a7c0c7-c7df-42d9-9bca-d54417baca1a",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "069ef028-7867-4f09-b4e2-b08610cc5231",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:09:24+00:00",
+    "description": "",
+    "fileName": "d9776eb0-9ca2-4ef5-af6d-44410bce0e6f.jpg",
+    "updatedAt": "2021-05-24T18:09:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

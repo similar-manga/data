@@ -7,6 +7,14 @@
    "title": {
     "en": "Hatarakimasen!"
    },
+   "altTitles": [
+    {
+     "en": "I Would Not Work!"
+    },
+    {
+     "en": "働きません！"
+    }
+   ],
    "description": {
     "en": "Shiomi finally got his dream job as an editor, but the company goes bankrupt. Ikeuchi, his (rich) best friend and junior from university, takes the opportunity to confess his love and ask Shiomi to move in with him and become his 'bride' instead of working. Shiomi instead starts working at his co-worker's new editing company, and after seeing Shiomi's other boss, a flashy gay young man, Ikeuchi decides to work part-time at the company."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,51 +62,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-02T06:12:33+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "f914b87e-9536-4573-8e93-273bd95aec1a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamada Yugi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f914b87e-9536-4573-8e93-273bd95aec1a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamada Yugi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c6cf3115-2f05-4b93-8916-2b4b5b14e172",
-   "type": "chapter"
-  },
-  {
-   "id": "78c40246-e522-43dc-a9c4-a8ef52c4ec49",
-   "type": "chapter"
-  },
-  {
-   "id": "ce1edc1c-8bd8-4fce-a164-9971f6429d66",
-   "type": "chapter"
-  },
-  {
-   "id": "76c8a4d1-e2d1-42cd-8e42-931ffa222b3c",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "0c8131e4-103d-4f14-8842-fd29d1ac73f9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:53:24+00:00",
+    "description": "",
+    "fileName": "280c4063-7c0e-4f6e-a24d-c903ea61dc9c.jpg",
+    "updatedAt": "2021-05-24T16:53:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -23,6 +23,8 @@
       "name": {
        "en": "Samurai"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -33,35 +35,53 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-14T08:22:09+00:00",
+   "updatedAt": "2021-05-25T15:45:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "dc1f0702-053c-499f-bc23-2bf9ece0eab9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yumura Teruhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "dc1f0702-053c-499f-bc23-2bf9ece0eab9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yumura Teruhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "563d4512-d4ad-4795-a374-27c7d909703d",
-   "type": "chapter"
-  },
-  {
-   "id": "81183756-1453-4c81-aa9e-f6e1b63be016",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
+   "id": "003afbd3-d65d-4fb3-b7fe-30603b8248a9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:55:53+00:00",
+    "description": "",
+    "fileName": "012bab49-be3d-4086-9137-117453290f7d.png",
+    "updatedAt": "2021-05-24T17:55:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

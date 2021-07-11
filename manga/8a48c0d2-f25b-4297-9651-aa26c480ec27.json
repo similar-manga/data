@@ -7,6 +7,14 @@
    "title": {
     "en": "I want to take a soul examination"
    },
+   "altTitles": [
+    {
+     "en": "想让你替我考试"
+    },
+    {
+     "en": "替え魂受験、したいんです"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -25,6 +33,8 @@
       "name": {
        "en": "Ghosts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -35,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,47 +57,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-25T05:57:27+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "0b39c4bc-1367-495b-addf-661ea2fc7e8b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "こうし",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8582849a-3bb7-49d0-b4cc-058460c6963f",
-   "type": "chapter"
-  },
-  {
-   "id": "ffb1bc2f-e890-4a1e-bab2-7852297ba424",
-   "type": "chapter"
-  },
-  {
-   "id": "6f4803a3-8d5d-4937-a616-bd79f6a1b4fc",
-   "type": "chapter"
-  },
-  {
-   "id": "3bb26d85-09d5-4d2e-880c-c34b974339e9",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "eabb31b8-26b6-4f35-a5ba-7cf89cc09071",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:12:01+00:00",
+    "description": "",
+    "fileName": "4ef674a3-6195-4d82-a4c2-12b210fd3537.jpg",
+    "updatedAt": "2021-05-24T18:12:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

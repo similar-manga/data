@@ -7,6 +7,11 @@
    "title": {
     "en": "Wendy"
    },
+   "altTitles": [
+    {
+     "en": "ウエンディ"
+    }
+   ],
    "description": {
     "en": "Is this a dream? Reality? Or maybe something else...?\r\nEvery night, a mysterious man who styles himself Peter Pan sneaks up in Manami's room. He takes her with him to Neverland, an eerie place created out of human desire. Neither pain nor obligation exist in this place. A fairytale land of freedom, where people live governed only by their own instincts. There, all of reality's troubles and unpleasantness may be forgotten. However... being human may not be quite as bad as it sounds."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -51,6 +60,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +72,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,83 +84,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-18T00:01:58+00:00",
+   "updatedAt": "2021-05-25T15:42:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "4d69ca6c-2356-4bd9-b23b-8a6a48d09e77",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Jiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4d69ca6c-2356-4bd9-b23b-8a6a48d09e77",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Jiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a36ac235-5faf-4213-b321-ef6209d76f44",
-   "type": "chapter"
-  },
-  {
-   "id": "21fd03f4-5478-45cb-ac84-d174a6c07b9c",
-   "type": "chapter"
-  },
-  {
-   "id": "fcce4e94-37d8-4953-adda-2e7819fd7b76",
-   "type": "chapter"
-  },
-  {
-   "id": "e5d1d522-6aa7-41e6-a65d-6669dd119a1b",
-   "type": "chapter"
-  },
-  {
-   "id": "c55768d9-5a14-40b5-b35d-fa01630dcc6d",
-   "type": "chapter"
-  },
-  {
-   "id": "603f7369-ac1c-4bcb-a8df-6797a35e3076",
-   "type": "chapter"
-  },
-  {
-   "id": "f3fc0ced-1731-41e3-9121-e73a29ef5fcd",
-   "type": "chapter"
-  },
-  {
-   "id": "50cd7837-6b87-43f6-986a-91b6ad22a90c",
-   "type": "chapter"
-  },
-  {
-   "id": "615a4f58-67ab-48d9-aa8d-a250a569a0db",
-   "type": "chapter"
-  },
-  {
-   "id": "a53eef3b-7084-4e46-8e10-58af6dfd5e7d",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "65d50675-765e-4f1f-b29e-1101c83f1dc8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:33+00:00",
+    "description": "",
+    "fileName": "9b35e05e-9a25-4dfc-b19a-e03a5353c04d.jpg",
+    "updatedAt": "2021-05-24T16:49:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

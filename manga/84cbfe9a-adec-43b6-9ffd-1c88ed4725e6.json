@@ -7,6 +7,11 @@
    "title": {
     "en": "36 Degrees"
    },
+   "altTitles": [
+    {
+     "en": "36度"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,63 +56,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-06T01:35:38+00:00",
+   "updatedAt": "2021-05-25T15:44:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "3030cbbb-6b12-420e-becc-67d78136f425",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Gotou Yukiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3030cbbb-6b12-420e-becc-67d78136f425",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Gotou Yukiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f83fbe8f-166d-45ab-b2cc-765cc7e99716",
-   "type": "chapter"
-  },
-  {
-   "id": "eed0b617-d801-4ce8-9560-b04a2e31e764",
-   "type": "chapter"
-  },
-  {
-   "id": "1a509acd-5fd7-40e9-9203-967507802f03",
-   "type": "chapter"
-  },
-  {
-   "id": "2c630071-8067-4788-bcb1-6ecc933dd0ae",
-   "type": "chapter"
-  },
-  {
-   "id": "29511bf7-23d5-4ae0-a692-576597c42c9e",
-   "type": "chapter"
-  },
-  {
-   "id": "9b9ce32e-1422-4506-afc0-8e7429725dc1",
-   "type": "chapter"
-  },
-  {
-   "id": "8eca205b-5e9b-4767-b389-254195fe2ad1",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "dd88e283-1fc7-4f4e-9b7e-7d165c58840c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:40:11+00:00",
+    "description": "",
+    "fileName": "3e43175e-e996-40f9-af32-6e95a4fee79f.jpg",
+    "updatedAt": "2021-05-24T17:40:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

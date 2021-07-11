@@ -7,6 +7,14 @@
    "title": {
     "en": "Fly Like A Butterfly, Sting Like A Bee"
    },
+   "altTitles": [
+    {
+     "en": "Butterfly Sting"
+    },
+    {
+     "en": "나비처럼 날아 벌처럼 쏘다"
+    }
+   ],
    "description": {
     "en": "Ranju's sinful(?) gaze is always focused on the kind and popular angelic-like beauty in school, Jiha. When Ranju overhears that Jiha will be going on a date, she becomes determined to seduce her before it happens!"
    },
@@ -22,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -30,8 +40,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +54,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -52,39 +66,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-03-16T11:17:50+00:00",
+   "updatedAt": "2021-03-16T11:17:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "c7c7a273-08e2-49a0-97ee-f2c88fe4a233",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Joosang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c7c7a273-08e2-49a0-97ee-f2c88fe4a233",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Joosang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "3512b2be-cf55-4fbb-8d1a-7bb1e927ba3f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:35:13+00:00",
+    "description": "",
+    "fileName": "1791c4ec-4889-4af7-a301-ecff86dc4a9c.jpg",
+    "updatedAt": "2021-05-24T18:35:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

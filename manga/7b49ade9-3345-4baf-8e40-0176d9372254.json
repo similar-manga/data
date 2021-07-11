@@ -5,10 +5,18 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "NEWS\u0026times;it"
+    "en": "NEWS×it"
    },
+   "altTitles": [
+    {
+     "en": "NEWS x it"
+    },
+    {
+     "en": "ニュース×イット"
+    }
+   ],
    "description": {
-    "en": "NEWS\u0026times;it, a news program that broadcasts every weekday at 22:00, where the main anchor Reiko Mutou gives the news in an overwhelmingly \u0026quot;Free\u0026quot; way."
+    "en": "NEWS×it, a news program that broadcasts every weekday at 22:00, where the main anchor Reiko Mutou gives the news in an overwhelmingly \"Free\" way."
    },
    "links": {
     "al": "94552",
@@ -29,59 +37,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-14T22:28:28+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "b5309864-cf2f-4b4c-808e-dd43056700b1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kuroha",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b5309864-cf2f-4b4c-808e-dd43056700b1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kuroha",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "896cc9ec-34d2-4505-beff-5d45e0313b82",
-   "type": "chapter"
-  },
-  {
-   "id": "c602b37f-b4be-43b7-ad88-169b0d9b58e7",
-   "type": "chapter"
-  },
-  {
-   "id": "a0cbc84f-161a-471c-9e65-70900290cf54",
-   "type": "chapter"
-  },
-  {
-   "id": "feef2c4c-df31-4ace-b62a-f369013fd6bb",
-   "type": "chapter"
-  },
-  {
-   "id": "5a93092c-718c-4ba9-acfc-953eeab664f8",
-   "type": "chapter"
-  },
-  {
-   "id": "fb16d1e6-8ec4-4c45-970d-390af3befa9b",
-   "type": "chapter"
-  },
-  {
-   "id": "e82ca54e-5b51-4f8a-a562-93dd20e92100",
-   "type": "chapter"
-  },
-  {
-   "id": "801c9d3a-6d82-47fd-b9fe-3e6360b92628",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "995cd0c6-aa1a-4f81-9a6a-b6e585a2102b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:14:07+00:00",
+    "description": "",
+    "fileName": "1d7546ea-8145-4ac1-82b1-85a1256ea6e0.png",
+    "updatedAt": "2021-05-28T23:14:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

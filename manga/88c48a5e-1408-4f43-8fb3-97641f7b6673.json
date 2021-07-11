@@ -7,11 +7,18 @@
    "title": {
     "en": "Welcome to PSO!! (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Welcome to Phantasy Star Online"
+    },
+    {
+     "en": "Welcome to ファンタシースターオンラインVer.2"
+    }
+   ],
    "description": {
     "en": "A Phantasy Star Online comic anthology."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +41,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +53,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +65,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -62,51 +77,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-08T20:21:10+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "39bf954d-fc38-4b0b-bc56-886486ebeceb",
-   "type": "chapter"
-  },
-  {
-   "id": "1cb87e9c-1f63-4793-8326-09ceea0dbeb0",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "01c47c09-966e-4ff0-9a99-5a26ec1370c4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:07:20+00:00",
+    "description": "",
+    "fileName": "d70b60ac-d16c-45c1-a69b-cf042d881a30.jpg",
+    "updatedAt": "2021-05-24T17:07:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

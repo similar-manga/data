@@ -26,6 +26,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +38,8 @@
       "name": {
        "en": "Mafia"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -46,35 +50,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-05-03T20:08:12+00:00",
+   "updatedAt": "2020-05-03T20:08:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "dfddd044-4a04-420e-99fe-1203aa9d041c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yeom",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "dfddd044-4a04-420e-99fe-1203aa9d041c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yeom",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "6165a695-702b-4f30-90e8-92b4eb69205a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:54:41+00:00",
+    "description": "",
+    "fileName": "810e5238-5351-41d9-8f4e-d038e2e99b88.jpg",
+    "updatedAt": "2021-05-24T17:54:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,10 +5,15 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Body \u0026amp; Soul"
+    "en": "Body \u0026 Soul"
    },
+   "altTitles": [
+    {
+     "en": "ボディ\u0026ソウル"
+    }
+   ],
    "description": {
-    "en": "From Shoujo Manga Maniac:\r\nBody \u0026amp; Soul is a manga \u0026quot;wellness guide,\u0026quot; and also a surprising and touching love story. The initial story of Miku's quest for health precedes a fantastic love adventure, where love appears little by little, and where we don't expect it..."
+    "en": "From Shoujo Manga Maniac:\r\nBody \u0026 Soul is a manga \"wellness guide,\" and also a surprising and touching love story. The initial story of Miku's quest for health precedes a fantastic love adventure, where love appears little by little, and where we don't expect it..."
    },
    "links": {
     "al": "34517",
@@ -31,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,79 +60,65 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-16T22:10:25+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "45b9d5e4-6c2c-437a-bc63-32bb365e0f44",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Terakado Takumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a4c81ea8-67a8-40f9-a468-d95ef2c8fce8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakurazawa Erica",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a4c81ea8-67a8-40f9-a468-d95ef2c8fce8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakurazawa Erica",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fa3fff0f-3ee0-4929-b3bd-5d99e58cf24f",
-   "type": "chapter"
-  },
-  {
-   "id": "f45ba98e-5a8b-4d77-8dee-986b8d8b0dad",
-   "type": "chapter"
-  },
-  {
-   "id": "084a0b92-1b49-46d1-a5dc-f05f06227df6",
-   "type": "chapter"
-  },
-  {
-   "id": "56aebcbd-444e-4766-b48a-25e22de6e4b7",
-   "type": "chapter"
-  },
-  {
-   "id": "df55bc31-afc7-4047-8bd0-edcc783a421e",
-   "type": "chapter"
-  },
-  {
-   "id": "e9788a8e-85f6-4708-b117-963e72214f4f",
-   "type": "chapter"
-  },
-  {
-   "id": "4fba2e03-424e-4fc1-acf0-9c07a6add022",
-   "type": "chapter"
-  },
-  {
-   "id": "b3ee35fe-b54f-4e8e-b35b-e444bafb81b7",
-   "type": "chapter"
-  },
-  {
-   "id": "ac4d52f5-0b5e-4675-a05e-1196e233114c",
-   "type": "chapter"
-  },
-  {
-   "id": "4c988be2-237d-46d5-a200-1e91efc24156",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "011a1ee6-20f2-4fe4-ba06-48db0f5ca319",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:54:48+00:00",
+    "description": "",
+    "fileName": "f9dbe7be-0def-4060-be29-f9d294332ee4.png",
+    "updatedAt": "2021-05-24T16:54:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

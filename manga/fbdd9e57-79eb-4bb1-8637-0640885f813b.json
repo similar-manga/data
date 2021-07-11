@@ -7,6 +7,14 @@
    "title": {
     "en": "Let's Play Lovegames, Shall We?"
    },
+   "altTitles": [
+    {
+     "en": "Kyou wa Nani shiyo"
+    },
+    {
+     "en": "今日はナニしよ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,8 +47,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,39 +61,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-18T09:51:43+00:00",
+   "updatedAt": "2021-05-25T15:49:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "2c877039-dd6e-4190-8e98-ac7a9a5f591f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tamaki Nozomu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2c877039-dd6e-4190-8e98-ac7a9a5f591f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tamaki Nozomu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "04a9b7b2-11a7-49ae-8e92-019bf1ee39f8",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "140cbd81-b818-4f13-860e-a887963b0693",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:56+00:00",
+    "description": "",
+    "fileName": "50a498ca-329b-43db-8631-d7f5499bfe2d.jpg",
+    "updatedAt": "2021-05-24T17:04:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

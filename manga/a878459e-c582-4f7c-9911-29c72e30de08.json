@@ -7,6 +7,14 @@
    "title": {
     "en": "Karekano Gokko"
    },
+   "altTitles": [
+    {
+     "en": "Kare Kano Gokko"
+    },
+    {
+     "en": "カレカノ ゴッコ"
+    }
+   ],
    "description": {
     "en": "Mizuki is the most beautiful girl in the school. Even though she met a boy who's as beautiful as her?!"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,51 +62,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-29T09:49:05+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "65a041b0-c22d-491e-bc57-d57b82c92f1a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yasuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "65a041b0-c22d-491e-bc57-d57b82c92f1a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yasuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "de01a4b8-a475-4df9-81bb-4d1512b35ece",
-   "type": "chapter"
-  },
-  {
-   "id": "da82c086-ad69-48cc-a62a-45cbd7f83eba",
-   "type": "chapter"
-  },
-  {
-   "id": "ba45e204-94a8-4ddc-85bc-873441b73e44",
-   "type": "chapter"
-  },
-  {
-   "id": "6bdb0ca9-d245-4fff-ae4d-f49266e38d3f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "9cb7f092-64fe-4f3c-a332-a25036091f06",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:46:25+00:00",
+    "description": "",
+    "fileName": "f3a9ee01-174b-4d79-9b9d-154311b14474.jpg",
+    "updatedAt": "2021-05-24T16:46:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

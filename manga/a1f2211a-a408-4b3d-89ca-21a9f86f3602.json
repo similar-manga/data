@@ -23,6 +23,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +35,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,39 +47,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-20T20:52:59+00:00",
+   "updatedAt": "2021-05-25T15:45:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "aabe86af-48a3-422d-ba56-82e1aa2c94bd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Marrs Lee",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "05576740-a4f8-4c6a-9a79-bd0ee2e28c1a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mukaide Masaichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e02d8854-d630-4da0-b101-d375f83d13c7",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "763a8a46-fc2b-4fb3-853d-cfeab5a4c153",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:03:41+00:00",
+    "description": "",
+    "fileName": "36ee2d6f-9647-438b-8132-59e8b2dfc5c8.jpg",
+    "updatedAt": "2021-05-24T18:03:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

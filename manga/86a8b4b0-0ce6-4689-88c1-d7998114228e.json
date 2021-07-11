@@ -7,6 +7,17 @@
    "title": {
     "en": "Kimi Dake ni Focus"
    },
+   "altTitles": [
+    {
+     "en": "Focus Only on You"
+    },
+    {
+     "en": "Kimi Dake ni Fookasu"
+    },
+    {
+     "en": "君だけにフォーカス"
+    }
+   ],
    "description": {
     "en": "Kyoutaro is an up-and-coming photographer who is given the opportunity of a lifetime to shoot an ad campaign with his idol.  But when one of his models calls out sick, it looks like he'll lose his chance.  But who's that stunning guy arranging the flowers?"
    },
@@ -28,6 +39,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +63,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,51 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-20T06:26:39+00:00",
+   "updatedAt": "2021-05-25T15:44:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "d30c5c10-3efe-490c-96fb-b063ce897833",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Homiya Minori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "accc15c3-bef5-402d-9236-4bdf559292cf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maruya Kae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7f386894-89fe-43de-a9a4-c7c75a1c08f2",
-   "type": "chapter"
-  },
-  {
-   "id": "fbc6e21a-9a55-406c-a345-36e58a034b09",
-   "type": "chapter"
-  },
-  {
-   "id": "fcafdbf0-e93a-4814-9c3a-dc5b29dc412a",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "d1180fbf-5460-4f27-98e5-a077270911c9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:27:15+00:00",
+    "description": "",
+    "fileName": "47272b6e-9d9b-4a24-bd98-4ca530c5cf43.jpg",
+    "updatedAt": "2021-05-24T18:27:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

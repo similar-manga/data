@@ -11,7 +11,6 @@
     "en": "A girl named Lisa works as a model. She is very famous and adored by everyone. But one day, during a photo shoot, she disappeared. It turned out that she was called to another world to become a hero!"
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "suggestive",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,39 +45,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-04T08:58:44+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "aac85b72-bc92-4291-873c-3fe152cac694",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Domitori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "aac85b72-bc92-4291-873c-3fe152cac694",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Domitori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "faed745a-fad2-4d08-8128-a1b8df2e2240",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "7d023cd2-80d0-4f3d-8141-1459220ca6c6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:31+00:00",
+    "description": "",
+    "fileName": "74d15756-8fda-4fa7-8935-f9869a5e1c9d.jpg",
+    "updatedAt": "2021-05-24T18:17:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

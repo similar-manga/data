@@ -7,6 +7,11 @@
    "title": {
     "en": "Guardian Dog"
    },
+   "altTitles": [
+    {
+     "en": "Цепной Пёс"
+    }
+   ],
    "description": {
     "en": "Kurosaka Gengo is just your normal highschool boy, who likes to skip cleaning duty. However, Gengo's peaceful life ends when he comes across a strange man. That man claims to be an alien and is in need of Gengo's body to survive on earth. Not only does Gengo deal with the alien, but with others that are after him!"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +71,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-06T00:58:24+00:00",
+   "updatedAt": "2021-05-25T15:40:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "963a94f9-521d-4fb5-819b-2c5d3b6aa319",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shirakawa Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d307cd92-fcc3-4389-a621-3ae94b3632a6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fukaki Shouko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "356ea3d6-de1a-4a77-baa1-ef1afdfc3de8",
-   "type": "chapter"
-  },
-  {
-   "id": "8545139f-65ba-4ad4-b314-3bea30cf119f",
-   "type": "chapter"
-  },
-  {
-   "id": "63c7ac0f-879b-46d4-aaa7-f6720f096fe3",
-   "type": "chapter"
-  },
-  {
-   "id": "00bb71c5-014a-49fb-a817-17850a51b907",
-   "type": "chapter"
-  },
-  {
-   "id": "b338547a-9427-40d8-ba40-9115cb9849ce",
-   "type": "chapter"
-  },
-  {
-   "id": "5dc151a2-7fc5-49a8-805d-78e950580321",
-   "type": "chapter"
-  },
-  {
-   "id": "d7da44dc-480a-4466-bc9b-f8a47ef8a715",
-   "type": "chapter"
-  },
-  {
-   "id": "2023a7f6-aadd-4067-9244-e415ba4fd594",
-   "type": "chapter"
-  },
-  {
-   "id": "3eb0eec3-fdfd-4581-99c2-d68f8b854308",
-   "type": "chapter"
-  },
-  {
-   "id": "edcb3548-cf26-4dbb-aaf8-989892d35894",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "8624f92c-2d65-4f58-8628-757d016216ea",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:41:50+00:00",
+    "description": "",
+    "fileName": "2b9a397d-a117-42c0-af68-30fb24637f03.jpg",
+    "updatedAt": "2021-05-24T18:41:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

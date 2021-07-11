@@ -7,6 +7,11 @@
    "title": {
     "en": "Magicalize"
    },
+   "altTitles": [
+    {
+     "en": "まじカライズ"
+    }
+   ],
    "description": {
     "en": "Yaida Masaki is a part time janitor for a publishing company.  One day he finds out the boss's daughter has a secret. He ends up having to cover for her and help her keep her secret."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +71,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-12T01:35:19+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "9e176625-0502-42eb-af89-126ac6ad1ea7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsunagami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "77c2ad42-7a0a-4615-b23f-4836fdfa7a42",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inomaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "17b9d83d-2f01-41a6-86c5-9e642025921a",
-   "type": "chapter"
-  },
-  {
-   "id": "c878ae33-d2f3-4d0d-8769-092657916e05",
-   "type": "chapter"
-  },
-  {
-   "id": "3a6c5048-8531-4aa3-8e37-764dd3a661bf",
-   "type": "chapter"
-  },
-  {
-   "id": "e8eb0370-c0f5-4576-968c-656a8e93ada6",
-   "type": "chapter"
-  },
-  {
-   "id": "831baa36-b3c8-44ef-afab-5d3213b7824b",
-   "type": "chapter"
-  },
-  {
-   "id": "0c123a75-5879-4dd4-8a3c-7c6ff74d679f",
-   "type": "chapter"
-  },
-  {
-   "id": "540ee70f-9b69-49a1-b6af-35809ea20e78",
-   "type": "chapter"
-  },
-  {
-   "id": "b387246a-ca28-4fdf-936b-397691a6ae1a",
-   "type": "chapter"
-  },
-  {
-   "id": "e9fd6ff0-c48c-44d5-ae28-82fa38766846",
-   "type": "chapter"
-  },
-  {
-   "id": "dfe5736e-ffba-4e96-b3bf-a67e01116d4e",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "6e249a0c-86ff-4f03-8cae-9d84fbcfb139",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:32+00:00",
+    "description": "",
+    "fileName": "c4b6c4fc-b40a-4153-a822-8b1ac048488d.jpg",
+    "updatedAt": "2021-05-24T16:57:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

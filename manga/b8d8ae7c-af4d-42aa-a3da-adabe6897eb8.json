@@ -11,7 +11,6 @@
     "en": "made in /a/"
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -43,6 +46,8 @@
       "name": {
        "en": "Magic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,63 +58,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-27T16:51:01+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "01b2f4af-99d0-4e18-a8d8-aa1b44352204",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "N/a/rrator",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "01b2f4af-99d0-4e18-a8d8-aa1b44352204",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "N/a/rrator",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8c8434b9-0648-4c7d-9303-c6275ed08f31",
-   "type": "chapter"
-  },
-  {
-   "id": "36cd21de-b8a7-4192-929c-53f29462c460",
-   "type": "chapter"
-  },
-  {
-   "id": "b489defc-ca22-4ed2-b324-e3f6c8a441d1",
-   "type": "chapter"
-  },
-  {
-   "id": "530de760-9ab1-4a83-a35d-24ad02054f5b",
-   "type": "chapter"
-  },
-  {
-   "id": "b932647c-4347-4ae8-ae51-30c29ba7d4fa",
-   "type": "chapter"
-  },
-  {
-   "id": "d56512c4-ae2b-41d4-aaad-2aead34ab92e",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
-  },
-  {
-   "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "810ff98b-7e97-4fb0-8dc8-1a4eda25df8e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:20:32+00:00",
+    "description": "",
+    "fileName": "1d0c5020-ae80-499e-8bc6-290db3e9b2da.png",
+    "updatedAt": "2021-05-24T18:20:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

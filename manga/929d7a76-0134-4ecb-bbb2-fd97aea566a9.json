@@ -7,6 +7,14 @@
    "title": {
     "en": "Be Our Guest"
    },
+   "altTitles": [
+    {
+     "en": "لتكن ضيفنا"
+    },
+    {
+     "en": "ビー アワー ゲスト"
+    }
+   ],
    "description": {
     "en": "Izumi wants to inherit her mother's resturaunt, however, she has no natural cooking ability. Izumi's childhood friend Reiji also wants to inherit the resturaunt, however, he's a cooking prodigy."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,43 +62,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-04T11:02:25+00:00",
+   "updatedAt": "2021-05-25T15:45:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "9209c0a5-884a-4e9e-bf9d-2c6bef936444",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "AZUMA Yuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9209c0a5-884a-4e9e-bf9d-2c6bef936444",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "AZUMA Yuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "928b0b7f-fdd8-4798-9829-dbf28584edc9",
-   "type": "chapter"
-  },
-  {
-   "id": "7f283e10-9d3e-4eff-81b6-0fab9176d661",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "ee20d080-f0d8-4f11-8824-c50fb3d0228d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:09:01+00:00",
+    "description": "",
+    "fileName": "27ff4a4e-be77-4798-8be2-dca182a1febc.jpg",
+    "updatedAt": "2021-05-24T18:09:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

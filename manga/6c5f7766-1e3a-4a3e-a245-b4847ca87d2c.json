@@ -10,9 +10,7 @@
    "description": {
     "en": ""
    },
-   "isLocked": true,
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -23,6 +21,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -31,8 +31,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,43 +45,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-17T13:01:41+00:00",
+   "updatedAt": "2021-05-25T15:43:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "5531ff7a-630e-439e-a20e-e2b642bceebe",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tamamushi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5531ff7a-630e-439e-a20e-e2b642bceebe",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tamamushi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8d9327fa-4c63-4385-88d2-a79d899b650e",
-   "type": "chapter"
-  },
-  {
-   "id": "22bc92fc-dd14-4b31-b0ae-9e1d2e2b780e",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "42ec47b4-b1b4-4fbc-9945-d4c65b99a225",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:14:54+00:00",
+    "description": "",
+    "fileName": "2e0a4f62-35c0-494c-8d52-6d9cac9f0229.jpg",
+    "updatedAt": "2021-05-24T18:14:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Chess Isle"
    },
+   "altTitles": [
+    {
+     "en": "Остров Шахмат"
+    },
+    {
+     "en": "체스아일"
+    }
+   ],
    "description": {
     "en": "Cliff Dillon appears to be just another delinquent looking for a place in Seoul's seedy underworld. But is that really all? Or is there more to this tough, good-looking high-school student than meets the eye?"
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -49,6 +61,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +73,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -69,6 +85,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -79,87 +97,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-01-30T18:03:22+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "f871636a-817b-42ef-b5c4-28ea9c90c565",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Cid",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f871636a-817b-42ef-b5c4-28ea9c90c565",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Cid",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f5644d5d-31d8-406f-a24e-85de92839979",
-   "type": "chapter"
-  },
-  {
-   "id": "b0166478-4874-448f-bef2-e84e78547f52",
-   "type": "chapter"
-  },
-  {
-   "id": "18e97668-6155-48c4-9aed-0a59536808d3",
-   "type": "chapter"
-  },
-  {
-   "id": "1072d1c9-ddb5-4a21-bc98-d7599f1c6859",
-   "type": "chapter"
-  },
-  {
-   "id": "1920c415-9106-47d0-9ddc-a496f1a2fce6",
-   "type": "chapter"
-  },
-  {
-   "id": "b1eb219d-4c5e-4dda-a856-e11be499bf25",
-   "type": "chapter"
-  },
-  {
-   "id": "b2b3e3f9-cd07-43c6-84a3-9dfbef358d96",
-   "type": "chapter"
-  },
-  {
-   "id": "8431a5a8-3703-448e-8319-db43337a0b82",
-   "type": "chapter"
-  },
-  {
-   "id": "f27a2b53-f880-42ba-8c8d-2e6e29de2429",
-   "type": "chapter"
-  },
-  {
-   "id": "17b39766-55a8-4dbd-9307-b4a8a34f920a",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "5a973cfa-98c4-4f98-b4c5-c555e9ed6404",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:32:08+00:00",
+    "description": "",
+    "fileName": "dddab101-3d35-450b-9789-7bf94ef92d11.jpg",
+    "updatedAt": "2021-05-24T18:32:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

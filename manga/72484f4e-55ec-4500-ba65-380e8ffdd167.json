@@ -7,11 +7,24 @@
    "title": {
     "en": "The Hyrule Fantasy (Famicom RPG Book)"
    },
+   "altTitles": [
+    {
+     "en": "Beep's Famicom RPG Book"
+    },
+    {
+     "en": "The Hyrule Fantasy - The Legend of Zelda (Family Computer RPG Book)"
+    },
+    {
+     "en": "ファミリーコンピュータRPGブック"
+    },
+    {
+     "en": "紅白機RPG之書"
+    }
+   ],
    "description": {
     "en": "Part of a game guide that covers 3 games (Zelda, Dragon Quest and Hydlide), each with a small manga story."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +35,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +59,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +71,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -62,47 +83,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-12T13:47:17+00:00",
+   "updatedAt": "2021-05-25T15:43:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "5b8827c8-39f3-4a62-8598-e6928b75799f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshikazu Senda",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5b8827c8-39f3-4a62-8598-e6928b75799f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshikazu Senda",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1fa55f74-7f7f-45c0-aa8c-04ea1c12ba9c",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "2f504580-e009-4f99-b1ca-1e20867ce93f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:40:57+00:00",
+    "description": "",
+    "fileName": "3e2da348-bf32-41f0-a3f6-e726f798dc03.jpg",
+    "updatedAt": "2021-05-24T17:40:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

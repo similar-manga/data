@@ -7,6 +7,14 @@
    "title": {
     "en": "Will"
    },
+   "altTitles": [
+    {
+     "en": "功夫少女"
+    },
+    {
+     "en": "윌"
+    }
+   ],
    "description": {
     "en": "Hyun Min is the sole survivor of an accident which took the lives of his parents. Is there a special reason why he was the only one who survived? Is it a curse or a blessing?\r\n\r\nOne day he discovers a book in his parents belongings. His life will never be the same again... What will the future hold for him? Is there something in his family's past?\r\n\r\nOne clan is after him and another is out to protect him."
    },
@@ -15,7 +23,6 @@
     "mu": "6360"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +34,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +58,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,51 +70,53 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-28T17:04:28+00:00",
+   "updatedAt": "2021-05-25T15:47:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "c6489b46-aa31-4507-bd35-2dfff7568db0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Jun Hyeong",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f4301095-16c0-4da4-aae0-03aaa07e3be5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jun Hyuseung",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dc819169-ca12-4e01-8c02-3d531b1c1983",
-   "type": "chapter"
-  },
-  {
-   "id": "c24b4eb8-c163-4463-be19-3aa9bb0bcb80",
-   "type": "chapter"
-  },
-  {
-   "id": "084ff2c1-eea4-48b5-a93e-3ba977035bb2",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
+   "id": "88a93509-06c5-4f21-adce-7b82f27b416a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:39:07+00:00",
+    "description": "",
+    "fileName": "d735be8d-c60a-4379-a86e-cea2663cf0b6.jpg",
+    "updatedAt": "2021-05-24T17:39:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

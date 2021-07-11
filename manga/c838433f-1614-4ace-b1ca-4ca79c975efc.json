@@ -27,6 +27,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +39,8 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,67 +51,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-06T05:25:58+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "2a04bd24-da9a-42b0-a927-817b1c3825ef",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Reon Merryweatherey",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e65645c4-755f-4459-b4f1-b554e512608a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kaitsu Tokiyas",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b1147683-58b8-4a8f-bf9e-da8f98a2af0d",
-   "type": "chapter"
-  },
-  {
-   "id": "fc02e580-cd6a-4208-8947-a7d66371e626",
-   "type": "chapter"
-  },
-  {
-   "id": "76aad06f-e593-4cfe-89f1-8dab208142fb",
-   "type": "chapter"
-  },
-  {
-   "id": "73cf5486-64d5-4392-a38a-d7f9d29cad31",
-   "type": "chapter"
-  },
-  {
-   "id": "67f748b8-c03d-4ecd-99a9-18d920bdfb31",
-   "type": "chapter"
-  },
-  {
-   "id": "f0eabab2-d370-482d-8fa6-6b2c676e12df",
-   "type": "chapter"
-  },
-  {
-   "id": "b96283f2-2183-4f97-b66c-f9f7280848e9",
-   "type": "chapter"
-  },
-  {
-   "id": "c0c680a6-3cf9-4988-a548-e0322c3925be",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "4632fbfd-f3e7-4f0d-9282-2ba3f79d0786",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:36+00:00",
+    "description": "",
+    "fileName": "a98d703a-4a1d-46a6-8eef-4f23310316b0.jpg",
+    "updatedAt": "2021-05-24T16:50:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

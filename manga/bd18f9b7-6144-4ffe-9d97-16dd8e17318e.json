@@ -7,6 +7,20 @@
    "title": {
     "en": "Ristorante Paradiso"
    },
+   "altTitles": [
+    {
+     "en": "Rispara"
+    },
+    {
+     "en": "Risutorante Paradiizo"
+    },
+    {
+     "en": "リストランテ・パラディーゾ"
+    },
+    {
+     "en": "天堂餐館"
+    }
+   ],
    "description": {
     "en": "Ristorante Paradiso follows the protagonist, Nicoletta, as she comes to Rome from the Italian countryside and becomes an apprentice in Casetta dell'Orso, a restaurant owned by her mother Olga's new husband, Lorenzo, and meets its colorful staff."
    },
@@ -33,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +59,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +71,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,79 +83,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-28T06:18:47+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "6a2a28fa-706d-4f58-a99d-b7ee94b57962",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ONO Natsume",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6a2a28fa-706d-4f58-a99d-b7ee94b57962",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ONO Natsume",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6a1eaeff-f918-4985-804a-2865f422aaf6",
-   "type": "chapter"
-  },
-  {
-   "id": "abaa4989-fa3a-4d83-a43d-2bc9262fc746",
-   "type": "chapter"
-  },
-  {
-   "id": "2648be09-2042-480e-b764-bbc0c9246a60",
-   "type": "chapter"
-  },
-  {
-   "id": "ee94d470-a554-46bb-ba91-fd7a36f5b911",
-   "type": "chapter"
-  },
-  {
-   "id": "0de69cf3-da58-4750-a058-40af84341ab1",
-   "type": "chapter"
-  },
-  {
-   "id": "8d3c975d-53fd-4afe-83a2-0c3d1d7eed8e",
-   "type": "chapter"
-  },
-  {
-   "id": "5e5930d0-e31b-4c08-a9f3-487eef892756",
-   "type": "chapter"
-  },
-  {
-   "id": "83a0b295-9e65-4a80-adce-8059bfa4ef72",
-   "type": "chapter"
-  },
-  {
-   "id": "ac4cfac2-079a-48d1-bf56-53c600d86550",
-   "type": "chapter"
-  },
-  {
-   "id": "0e7bbf40-4ccb-4316-8160-b6b2d73f647f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "ddfca133-1d39-4fa0-9086-9253ae8d9d74",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:42:24+00:00",
+    "description": "",
+    "fileName": "4832efbc-aa47-4c1e-b219-8701f6bf8c31.jpg",
+    "updatedAt": "2021-05-24T18:42:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

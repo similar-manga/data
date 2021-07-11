@@ -7,6 +7,11 @@
    "title": {
     "en": "Maji de Watashi ni Koi shinasai! After party!!"
    },
+   "altTitles": [
+    {
+     "en": "Эй, люби меня всерьёз! После вечеринки!!"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +55,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,79 +67,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-05T21:31:52+00:00",
+   "updatedAt": "2021-05-25T15:42:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "abbe1ef5-a975-4ad4-bb49-a3431fcc984f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minato Soft",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a2229052-7477-4ef8-81e1-9ef0afd79150",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ketsuyuki Tamon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8dc4bbaa-ab64-4a9e-9311-4fbc25dd4a65",
-   "type": "chapter"
-  },
-  {
-   "id": "9c78304d-09d3-4a0d-9600-21f59a6216de",
-   "type": "chapter"
-  },
-  {
-   "id": "bf90eece-dcd9-4c46-8bef-a238b4e5ad98",
-   "type": "chapter"
-  },
-  {
-   "id": "3b95d4c4-c3cf-4dbd-9b51-0005c6d5f55e",
-   "type": "chapter"
-  },
-  {
-   "id": "c3e16da1-1307-4097-a06f-96e21667aeb5",
-   "type": "chapter"
-  },
-  {
-   "id": "2b4baeac-3b0c-43f4-a5d0-b54729864585",
-   "type": "chapter"
-  },
-  {
-   "id": "31597f16-efba-4ec8-8be8-5b6200934f95",
-   "type": "chapter"
-  },
-  {
-   "id": "89022b1d-0a41-473c-be89-54696efa393a",
-   "type": "chapter"
-  },
-  {
-   "id": "ea4e6e16-873d-4c7d-a2de-ce55bda3f67c",
-   "type": "chapter"
-  },
-  {
-   "id": "ae80f861-3bb5-4c90-a096-c45418d473e3",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "e59f4ce0-164d-4f84-a4e1-396b4266ede0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:01:53+00:00",
+    "description": "",
+    "fileName": "e02fd078-f835-4640-80f6-67c80a092baa.jpg",
+    "updatedAt": "2021-05-24T18:01:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Treasure Chest"
    },
+   "altTitles": [
+    {
+     "en": "Takarabako"
+    },
+    {
+     "en": "たからばこ"
+    }
+   ],
    "description": {
     "en": "A couple on a picnic make two separate discoveries that send their date in an entirely unexpected direction."
    },
@@ -14,7 +22,6 @@
     "mu": "166615"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +33,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +45,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +57,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,43 +69,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-04T12:17:13+00:00",
+   "updatedAt": "2021-05-25T15:46:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "4f158588-ab5e-4a08-8a0c-bd672ce9c3e5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YANAGI Aki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4f158588-ab5e-4a08-8a0c-bd672ce9c3e5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YANAGI Aki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2d790279-4cc8-4725-bfa2-9d666c9277e7",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "d1fa179a-ecd9-4f0c-b870-720fa3522b18",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:01:45+00:00",
+    "description": "",
+    "fileName": "8bf1906e-19b3-4505-a871-0ad5dba20e7c.jpg",
+    "updatedAt": "2021-05-24T18:01:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

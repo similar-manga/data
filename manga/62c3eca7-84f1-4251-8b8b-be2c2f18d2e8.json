@@ -7,6 +7,11 @@
    "title": {
     "en": "Private Magician"
    },
+   "altTitles": [
+    {
+     "en": "プライベート　マジシャン"
+    }
+   ],
    "description": {
     "en": "Kasumi's day just keeps getting worse and worse. First he's dumped by a classmate, and then a strange fortune-teller shakes his world as he reveals himself to be in search of a master. And who could the lucky boy be...?"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Magic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,63 +71,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-12-23T23:05:42+00:00",
+   "updatedAt": "2019-12-23T23:05:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "a0dfd70e-b8c7-4c46-82e2-3cfc1b1c9012",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takashima Kazusa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a0dfd70e-b8c7-4c46-82e2-3cfc1b1c9012",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takashima Kazusa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4447bfbd-3e97-453b-a71c-01e2e11ae61b",
-   "type": "chapter"
-  },
-  {
-   "id": "6838675c-1a36-4932-b4fe-42eec2f3ebc7",
-   "type": "chapter"
-  },
-  {
-   "id": "ef41c346-3f0f-4d21-9c06-37dc1e7151eb",
-   "type": "chapter"
-  },
-  {
-   "id": "2740c1ab-86dc-4bcc-8a5e-614cb4f48713",
-   "type": "chapter"
-  },
-  {
-   "id": "ff725913-c3b2-4d49-b88e-b8eff37a39ec",
-   "type": "chapter"
-  },
-  {
-   "id": "6dce8576-e30c-4edc-b37a-d08111416437",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "f173522d-bcc6-4f42-965f-8801a7769cf0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:32+00:00",
+    "description": "",
+    "fileName": "0432639e-8425-41ee-b572-ebcee6ac928c.jpg",
+    "updatedAt": "2021-05-24T17:38:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

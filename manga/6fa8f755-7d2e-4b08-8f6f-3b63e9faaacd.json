@@ -7,6 +7,11 @@
    "title": {
     "en": "Happy Nest"
    },
+   "altTitles": [
+    {
+     "en": "ハピネス-happy nest-"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -15,7 +20,6 @@
     "mu": "165019"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -34,8 +40,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,39 +54,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-13T12:49:42+00:00",
+   "updatedAt": "2021-05-25T15:43:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "05fe2866-ec4e-4136-99ca-8e1f4cd83d19",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakamura Yukichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "05fe2866-ec4e-4136-99ca-8e1f4cd83d19",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakamura Yukichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ac40f4de-114a-4f15-9f41-468120e2a98e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "249a3997-6c41-4f62-8746-682251df8f6c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:49+00:00",
+    "description": "",
+    "fileName": "ea45c973-d0ac-4629-b2da-81e08ed33b38.jpg",
+    "updatedAt": "2021-05-24T17:18:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

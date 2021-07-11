@@ -7,6 +7,11 @@
    "title": {
     "en": "Shisha no Gakuensai"
    },
+   "altTitles": [
+    {
+     "en": "School Day of the Dead"
+    }
+   ],
    "description": {
     "en": "Machiko transfers schools after witnessing her friend's suicide. Now, at her new high school a string of murders is occurring. It seems as though Machiko can't escape such bloody events after all.."
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,59 +56,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-14T12:35:26+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "5dafe8fd-bc3f-4aff-aff3-a23f7364a825",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "AKAGAWA Jiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1947ca17-2309-4943-bbb8-f159ea7b259b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "AKIYOSHI Nana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5a4940c4-db0e-4d42-a506-10693b539e1c",
-   "type": "chapter"
-  },
-  {
-   "id": "26cce949-9a56-41a4-9463-47e7b781f2d6",
-   "type": "chapter"
-  },
-  {
-   "id": "ac12b4ea-49de-4556-8d7d-1d0a488fc0e8",
-   "type": "chapter"
-  },
-  {
-   "id": "94a10e8b-435e-49df-93c4-54c104387da7",
-   "type": "chapter"
-  },
-  {
-   "id": "415163ca-786c-4239-aa5a-704b43350daf",
-   "type": "chapter"
-  },
-  {
-   "id": "1281d18e-f87c-4ca4-b761-25bb43385336",
-   "type": "chapter"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "389600bb-ba6d-4ffd-81ea-a39f779059cb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:55:53+00:00",
+    "description": "",
+    "fileName": "bcc78673-85d0-4c75-9224-63a6e809f11c.gif",
+    "updatedAt": "2021-05-24T17:55:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,13 +5,23 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Nordic Girl \u0026Aring;sa discovers the Mysteries of Japan"
+    "en": "Nordic Girl Åsa discovers the Mysteries of Japan"
    },
+   "altTitles": [
+    {
+     "en": "Hokuō Joshi Åsa ga Mitsuketa Nihon no Fushigi,"
+    },
+    {
+     "en": "That’s what Åsa found in Japan"
+    },
+    {
+     "en": "北欧女子オーサが見つけた日本の不思議,"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +32,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +44,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,35 +56,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-02-24T07:24:44+00:00",
+   "updatedAt": "2021-02-24T07:24:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "801d61d6-0cf1-4a2c-bf2f-79aa1c48b36c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Åsa Ekström",
+    "updatedAt": "2021-05-15T21:06:43+00:00",
+    "version": 2
+   }
   },
   {
    "id": "801d61d6-0cf1-4a2c-bf2f-79aa1c48b36c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Åsa Ekström",
+    "updatedAt": "2021-05-15T21:06:43+00:00",
+    "version": 2
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "b5909c37-bf15-4f58-83e2-f8986e2ea29f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:32:47+00:00",
+    "description": "",
+    "fileName": "13d3f397-9790-44e9-8ec4-b6294bdd0a5c.png",
+    "updatedAt": "2021-05-24T18:32:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

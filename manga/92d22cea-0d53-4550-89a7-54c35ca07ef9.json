@@ -7,6 +7,11 @@
    "title": {
     "en": "Bokutachi no Mozart"
    },
+   "altTitles": [
+    {
+     "en": "Our Mozart"
+    }
+   ],
    "description": {
     "en": "cute music story, two other less cute stories"
    },
@@ -14,7 +19,6 @@
     "mu": "20211"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +42,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -46,6 +54,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,43 +66,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-12T06:55:42+00:00",
+   "updatedAt": "2021-05-25T15:45:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "54394b1a-404c-401d-bbd3-af9a38706c99",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshi Masako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "54394b1a-404c-401d-bbd3-af9a38706c99",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshi Masako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ae32af76-3eb3-475e-86ec-d250d260539e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "903e979f-0e10-4f51-b93a-402bd2b79a58",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:40:54+00:00",
+    "description": "",
+    "fileName": "e44ef785-a0ba-403a-8f9c-ff33f88dd741.jpg",
+    "updatedAt": "2021-05-24T17:40:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

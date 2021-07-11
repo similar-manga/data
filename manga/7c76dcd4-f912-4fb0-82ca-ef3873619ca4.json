@@ -7,6 +7,14 @@
    "title": {
     "en": "Insects"
    },
+   "altTitles": [
+    {
+     "en": "インセクツ "
+    },
+    {
+     "en": "昆虫末日"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -25,6 +33,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,71 +45,53 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-24T06:55:51+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "a9e1ea86-ad5a-44e1-a5fd-bf920c69654e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SUGIYAMA Satoshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a9e1ea86-ad5a-44e1-a5fd-bf920c69654e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SUGIYAMA Satoshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "caa2f25c-7f40-4c56-a913-57e9456e13fb",
-   "type": "chapter"
-  },
-  {
-   "id": "fcca91d5-fe27-4bb7-a51e-7220b9bc01f7",
-   "type": "chapter"
-  },
-  {
-   "id": "e4e28c0f-c3e8-48ba-957e-d77c9ca86d02",
-   "type": "chapter"
-  },
-  {
-   "id": "5fca89bc-878d-400a-aa81-76096dac3741",
-   "type": "chapter"
-  },
-  {
-   "id": "5eb0e696-2774-4033-8d52-32000a8de8cd",
-   "type": "chapter"
-  },
-  {
-   "id": "b5c0b87b-579a-49e8-a539-90de7e2a4287",
-   "type": "chapter"
-  },
-  {
-   "id": "c20c1c56-5728-4303-94d9-916ba309c274",
-   "type": "chapter"
-  },
-  {
-   "id": "31702eec-fef1-464c-b089-d8d5c5b873be",
-   "type": "chapter"
-  },
-  {
-   "id": "45859c5f-6e71-4faf-98ea-ccf87bc9d31e",
-   "type": "chapter"
-  },
-  {
-   "id": "9c118b6e-6b63-47ea-bc84-ccc240525608",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
+   "id": "3381ac4c-4a33-4fd3-ad73-70e20e33d789",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:27:45+00:00",
+    "description": "",
+    "fileName": "62d43f3b-bbe3-42a7-aa84-73778b78e06f.png",
+    "updatedAt": "2021-05-24T17:27:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

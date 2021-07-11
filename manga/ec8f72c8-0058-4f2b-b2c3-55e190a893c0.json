@@ -5,16 +5,23 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Monster DJ - Play \u0026lsquo;Memory\u0026rsquo; For Me"
+    "en": "Monster DJ - Play ‘Memory’ For Me"
    },
+   "altTitles": [
+    {
+     "en": "Monster dj - Play Memory For Me"
+    },
+    {
+     "en": "The Song of Memory"
+    }
+   ],
    "description": {
-    "en": "DJ Donald tries to find out the identity of the mysterious girl who always calls to request the song \u0026lsquo;Memory\u0026rsquo;."
+    "en": "DJ Donald tries to find out the identity of the mysterious girl who always calls to request the song ‘Memory’."
    },
    "links": {
     "mu": "13789"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +32,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,35 +44,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-15T00:00:30+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "09c6634a-905a-4d2c-9916-547a40c76959",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamashita Tomomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "09c6634a-905a-4d2c-9916-547a40c76959",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamashita Tomomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "590227f1-d6df-409c-82ef-f98ad95f859f",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "76d489d3-af35-4f51-846c-3b1c63ee5901",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:14:14+00:00",
+    "description": "",
+    "fileName": "4283f834-8f4c-4125-a825-f9f1b2331e38.jpg",
+    "updatedAt": "2021-05-24T17:14:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

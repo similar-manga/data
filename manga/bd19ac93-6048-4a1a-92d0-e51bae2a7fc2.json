@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Love\u0026hearts;Master X"
+    "en": "Love♥Master X"
    },
+   "altTitles": [
+    {
+     "en": "Love Master X"
+    },
+    {
+     "en": "ラブ♥マスターX"
+    },
+    {
+     "en": "ラブマスターX"
+    }
+   ],
    "description": {
     "en": "Who's in love right now?!\r\nNozawa Nao is just a normal middle schooler, except that she's been obsessively studying about love and romance. Will her thoroughly-researched tactics help her snare the man of her dreams?!"
    },
@@ -33,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,35 +56,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-17T13:57:18+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "66b1422f-d3da-423a-9563-41c9993aff7d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ANNO Moyoco",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b1422f-d3da-423a-9563-41c9993aff7d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ANNO Moyoco",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e9c508da-0667-40ac-9a4b-9d1a465e27e4",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "77f09d10-c895-4f7b-aa65-86b03344fe44",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:23:08+00:00",
+    "description": "",
+    "fileName": "9e44924b-c6c6-47df-94b6-f318a2d706b4.jpg",
+    "updatedAt": "2021-05-24T17:23:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Director's Dessert"
    },
+   "altTitles": [
+    {
+     "en": "His Dessert"
+    },
+    {
+     "en": "이사님의 디저트"
+    }
+   ],
    "description": {
     "en": "A dessert given by the director, whom I met on a bad day. It was so sweet that I licked the cream off the director's finger. He seems to want to do something else with my tongue. Did I somehow accidentally provoked a gangster(?)'s director?"
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +71,8 @@
       "name": {
        "en": "Crime"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +83,8 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -77,6 +95,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -87,75 +107,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-13T19:52:57+00:00",
+   "updatedAt": "2021-05-25T15:43:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "2e595b07-21a3-463d-b7ca-6ae809d3e282",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "12",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2e595b07-21a3-463d-b7ca-6ae809d3e282",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "12",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d4510e70-409f-4bbd-a4d5-605ae438aaf8",
-   "type": "chapter"
-  },
-  {
-   "id": "e6c355a8-1916-4131-bf1e-683dfa1daf6b",
-   "type": "chapter"
-  },
-  {
-   "id": "d25dedcd-ceb2-460f-88cc-7ab357df80ab",
-   "type": "chapter"
-  },
-  {
-   "id": "a4ae88a5-89e6-447b-a0ca-ec315d6d9340",
-   "type": "chapter"
-  },
-  {
-   "id": "3b981eb3-a66a-49c2-ae27-ec20f428fdea",
-   "type": "chapter"
-  },
-  {
-   "id": "2b4c3e6f-0687-4eed-b210-1f798ff78c23",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
-   "type": "tag"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "1f48590d-357b-4fc2-abff-385dc0cd536d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:18:37+00:00",
+    "description": "",
+    "fileName": "9dee5478-b326-4d44-812f-d6c515e04fc2.jpg",
+    "updatedAt": "2021-05-24T18:18:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

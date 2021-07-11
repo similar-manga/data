@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Motokare\u0026times;Jyoshi\u0026times;Hatuecchi"
+    "en": "Motokare×Jyoshi×Hatuecchi"
    },
+   "altTitles": [
+    {
+     "en": "前男友×上司×初体验"
+    }
+   ],
    "description": {
-    "en": "隐藏在心底的，初恋时的痛苦回忆。\r\n\u0026hellip;那个人从今天开始成了上司！！\r\n到，到底怎么做才算是\r\n普通的对待\u0026hellip;！？"
+    "en": "隐藏在心底的，初恋时的痛苦回忆。\r\n…那个人从今天开始成了上司！！\r\n到，到底怎么做才算是\r\n普通的对待…！？"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "erotica",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,39 +51,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-30T14:17:48+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "c8a23127-29f2-4f2e-9371-9c52960c1d4e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hizuki Haruka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c8a23127-29f2-4f2e-9371-9c52960c1d4e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hizuki Haruka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b24b3ecf-a6e7-4090-a10e-494d69fd09d8",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "1c696ff8-7258-4f12-a528-0e186d6b0633",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:29:17+00:00",
+    "description": "",
+    "fileName": "e9fc9106-07da-46d3-a709-3d470beb8d6c.jpg",
+    "updatedAt": "2021-05-24T18:29:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

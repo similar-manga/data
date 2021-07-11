@@ -7,6 +7,11 @@
    "title": {
     "en": "Assassin ROSE"
    },
+   "altTitles": [
+    {
+     "en": "暗殺者ROSE-アサシンロゼ-"
+    }
+   ],
    "description": {
     "en": "A story about two brothers crawling to survive in the mafias."
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Thriller"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +49,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +61,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +73,8 @@
       "name": {
        "en": "Crime"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -72,6 +85,8 @@
       "name": {
        "en": "Mafia"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -82,6 +97,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -92,6 +109,8 @@
       "name": {
        "en": "Shota"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -102,67 +121,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-03T08:14:26+00:00",
+   "updatedAt": "2021-05-25T15:39:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "a9bde45f-4b3d-4748-b194-e2da9863ca37",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sayu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f1ee958a-0a6f-4ac0-bd8e-737e4513a1d8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Odayaka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2b306bb8-66b8-4b2f-b4d2-6444953f07a6",
-   "type": "chapter"
-  },
-  {
-   "id": "18369e4c-2f69-499b-be36-c2400228b065",
-   "type": "chapter"
-  },
-  {
-   "id": "8399d24c-06fb-45e1-89b4-02e30e1a44e1",
-   "type": "chapter"
-  },
-  {
-   "id": "07251805-a27e-4d59-b488-f0bfbec15168",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
-   "type": "tag"
-  },
-  {
-   "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ddefd648-5140-4e5f-ba18-4eca4071d19b",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "6b5a0b0a-1af1-4fad-a6a3-b6234c1b96c2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:51:00+00:00",
+    "description": "",
+    "fileName": "4aac0460-47c2-4b68-a121-caf991ada0e9.jpg",
+    "updatedAt": "2021-05-24T17:51:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

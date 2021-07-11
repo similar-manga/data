@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Okitsune-sama de Chu\u0026hearts;"
+    "en": "Okitsune-sama de Chu♥"
    },
+   "altTitles": [
+    {
+     "en": "Okitsune-sama de Chu"
+    },
+    {
+     "en": "おキツネさまでChu♥"
+    }
+   ],
    "description": {
     "en": "Our protagonist, Moji Shimeta, just so happens to fulfill the stereotype for being a worthless human. His inability to carry out a conversation has left him at the bottom of the barrel as far as friends are concerned.\r\n\r\nThat Shimeta fell in love with the school idol Ishikawa Yuuko, however that kind of love is absolutely, perfectly, and completely impossible. During this time, the messenger of the gods, Osaki, appeared to grant Moji's request with a price attached concerning Moji's cooperation in catching some runaway evil spirits. However to catch them all, Osaki uses Moji as a vessel to become a servent of Uganomitamanokami (aka Inari) called Youko. Lots of Ecchi situations and humiliation abound at Moji's expense."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Genderswap"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +75,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -71,83 +87,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-21T05:41:43+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "36b4007f-ceb8-40b4-8020-2553d51f07f0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sumino Yuuji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "36b4007f-ceb8-40b4-8020-2553d51f07f0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sumino Yuuji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f9690d83-94f9-4ea2-9896-92139fb72720",
-   "type": "chapter"
-  },
-  {
-   "id": "a1279934-339b-473c-815e-6ce8f8931806",
-   "type": "chapter"
-  },
-  {
-   "id": "b10de8b0-d93d-435e-a8c4-54492c64f9b0",
-   "type": "chapter"
-  },
-  {
-   "id": "fe79a6fc-1aff-4a15-9bf7-50a7f0652891",
-   "type": "chapter"
-  },
-  {
-   "id": "34326138-abe1-40ef-913a-8d9f20a31a74",
-   "type": "chapter"
-  },
-  {
-   "id": "c55799c0-f8a3-4588-b44f-4ab0cafc49f9",
-   "type": "chapter"
-  },
-  {
-   "id": "04276619-10e0-488f-8c8b-f98774a80cd4",
-   "type": "chapter"
-  },
-  {
-   "id": "420c6580-8ee8-49af-b5e8-bb6a4cc7c6df",
-   "type": "chapter"
-  },
-  {
-   "id": "b3dc017a-a9a7-442f-a555-3d24ca438c9e",
-   "type": "chapter"
-  },
-  {
-   "id": "3c3d292f-89ae-4575-ad50-330a66fd34ba",
-   "type": "chapter"
-  },
-  {
-   "id": "2bd2e8d0-f146-434a-9b51-fc9ff2c5fe6a",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "ff758d51-c5c7-4f06-af14-ac8358384f16",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:38:11+00:00",
+    "description": "",
+    "fileName": "27066e16-37f1-452f-b60a-338dc07d1d17.jpg",
+    "updatedAt": "2021-05-24T18:38:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Muddy"
    },
+   "altTitles": [
+    {
+     "en": "MUDDY"
+    },
+    {
+     "en": "マディ"
+    }
+   ],
    "description": {
     "en": "Clay, a child prodigy, was hired at the age of 14 to become a professor to make chimeras, creatures made with a fusion of various materials. However, after he was hired, he was unable to meet the expectations of the company that hired him and was fired. He comes upon an abandoned research facility and creates a human child chimera and names him Muddy. Together, they will go out into the world and find out what Muddy is capable of."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,71 +51,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-10T03:53:16+00:00",
+   "updatedAt": "2021-05-25T15:43:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "db8d0f4f-661f-46e1-9496-53bde04e438b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aimoto Shou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "db8d0f4f-661f-46e1-9496-53bde04e438b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aimoto Shou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a6e8d392-9f49-4d2c-b59e-eaaf58e395e6",
-   "type": "chapter"
-  },
-  {
-   "id": "45c4eb3c-2eb4-48d3-913f-df95d33c67c5",
-   "type": "chapter"
-  },
-  {
-   "id": "badce15c-2a90-4244-892f-a746dad94489",
-   "type": "chapter"
-  },
-  {
-   "id": "c6be7967-e23a-42dd-bc03-2c8c2993b1df",
-   "type": "chapter"
-  },
-  {
-   "id": "c1015b5c-28e8-4ec4-bc5a-9254197d7936",
-   "type": "chapter"
-  },
-  {
-   "id": "c23bf226-cb8d-40d6-933d-7b5a8bf0273e",
-   "type": "chapter"
-  },
-  {
-   "id": "75c97c19-c4fb-4d82-b831-4d623ba875f8",
-   "type": "chapter"
-  },
-  {
-   "id": "8d611af1-d731-4a7a-b179-ba4a6e725b3e",
-   "type": "chapter"
-  },
-  {
-   "id": "574e02fe-1a10-4263-aec7-dd3efdd117c8",
-   "type": "chapter"
-  },
-  {
-   "id": "8cbc148f-1c8a-4a54-9fbf-d9b16a7e9edc",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "93d7a13f-e2c5-4fae-befc-daa30dd2cb00",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:51:01+00:00",
+    "description": "",
+    "fileName": "a44b9487-b965-46de-9060-81d3a5ed2fea.jpg",
+    "updatedAt": "2021-05-24T16:51:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

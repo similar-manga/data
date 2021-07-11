@@ -7,6 +7,11 @@
    "title": {
     "en": "Ginger Honey"
    },
+   "altTitles": [
+    {
+     "en": "ジンジャーハニー"
+    }
+   ],
    "description": {
     "en": "On his way home from school, Minoru discovers his older brother, Yoshino, making out with his male gym teacher! To confuse the matter even more, he also notices his brother's best friend, Seto, shooting longing glances at Yoshino! And for some reason, that revelation makes Minoru's chest hurt. Could what he's feeling actually be love?!"
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,8 +58,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +72,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -71,47 +84,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-18T04:18:52+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "4e8b18e5-b77f-43dd-95e0-286330a8af13",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsume Isaku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4e8b18e5-b77f-43dd-95e0-286330a8af13",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsume Isaku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6655ea71-e06a-46d0-8ff1-3f04e1ef437d",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "adede6bb-6386-4f28-a85b-835b598f6853",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:37:53+00:00",
+    "description": "",
+    "fileName": "bc3791cc-d2f2-489d-b687-d15601f5a74b.jpg",
+    "updatedAt": "2021-05-24T17:37:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

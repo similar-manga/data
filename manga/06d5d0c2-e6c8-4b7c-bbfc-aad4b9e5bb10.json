@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Kyoushi \u0026times; Seito no Yuri Anthology Comic"
+    "en": "Kyoushi × Seito no Yuri Anthology Comic"
    },
+   "altTitles": [
+    {
+     "en": "Teacher x Student Yuri Anthology Comic"
+    },
+    {
+     "en": "教師×生徒の百合アンソロジーコミック"
+    }
+   ],
    "description": {
     "en": "Teacher x Student Yuri\r\nCover: Tooyama Ema\r\nIllustration: Nekota\r\n\r\n1.  Tooyama Ema\r\n2. Yoshino Kaya\r\n3. Kobato Neneko\r\n4. Noda Nonda\r\n5. Chioka Nanae\r\n6. Gotou Yuuki\r\n7. Nanasaka Nana\r\n8. Hiratsuka Shino\r\n9. Sawamura Mariko\r\n10. Yukio Yuki"
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,8 +59,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,155 +73,281 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-22T18:30:16+00:00",
+   "updatedAt": "2021-05-25T15:39:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "42931a4a-b810-4c34-8b02-5499fec2925c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chioka Nanae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4bafd945-30f7-44e6-8f02-156e7c34d5f4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Gotou Yuuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6690dde6-769a-4893-8370-cb309f7c411d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kobato Neneko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7152b4d6-97d3-4563-8fc7-92c2c948f6f7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sawamura Mariko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "73251625-a62f-4b43-9601-d1522e275901",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiratsuka Shino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ba110a37-94a4-4a3d-9423-7cd5dd8ebc96",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshino Kaya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d19c91cf-87d7-49bc-8735-9574cc2084e9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Noda Nonda",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d89a5a2b-bf29-4dd5-a1c3-412bf45300fc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tooyama Ema",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e342c215-ca40-45f7-9ecf-0062c9fdbc08",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yukio Yuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f420f789-6f2a-4d56-a634-28030269337b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nanasaka Nana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "160d6a81-b01a-459c-823e-78a409542b20",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nekota",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "42931a4a-b810-4c34-8b02-5499fec2925c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chioka Nanae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4bafd945-30f7-44e6-8f02-156e7c34d5f4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Gotou Yuuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6690dde6-769a-4893-8370-cb309f7c411d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kobato Neneko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7152b4d6-97d3-4563-8fc7-92c2c948f6f7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sawamura Mariko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "73251625-a62f-4b43-9601-d1522e275901",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiratsuka Shino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ba110a37-94a4-4a3d-9423-7cd5dd8ebc96",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshino Kaya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d19c91cf-87d7-49bc-8735-9574cc2084e9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Noda Nonda",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d89a5a2b-bf29-4dd5-a1c3-412bf45300fc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tooyama Ema",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e342c215-ca40-45f7-9ecf-0062c9fdbc08",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yukio Yuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f420f789-6f2a-4d56-a634-28030269337b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nanasaka Nana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8c6a05d2-246f-4309-ab48-09778095ba5e",
-   "type": "chapter"
-  },
-  {
-   "id": "d50e067f-dc41-4863-b858-7ee9df3a1746",
-   "type": "chapter"
-  },
-  {
-   "id": "c4342431-58e5-471a-9c63-6559f5b63f9e",
-   "type": "chapter"
-  },
-  {
-   "id": "5ff5379f-2f1c-48d2-ac23-6c68cb15ef0a",
-   "type": "chapter"
-  },
-  {
-   "id": "5a4ac101-ba9c-4452-9c02-d92cfa1b2a16",
-   "type": "chapter"
-  },
-  {
-   "id": "4fbb5ea8-0c09-402a-bb89-e7b8ed81ccc8",
-   "type": "chapter"
-  },
-  {
-   "id": "7d77b562-58ca-4268-a2f4-95cac3b80a4f",
-   "type": "chapter"
-  },
-  {
-   "id": "29811b2c-c6b6-4bc4-8a37-302b005bf60d",
-   "type": "chapter"
-  },
-  {
-   "id": "6dfdc599-476f-490f-8976-d827e1074cf1",
-   "type": "chapter"
-  },
-  {
-   "id": "7305f706-53ae-45ce-8cdb-b31699bce72a",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "13c6e853-fc6c-4f5b-9bb4-5ff4e796905d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:00:17+00:00",
+    "description": "",
+    "fileName": "9dd14d6c-4d65-41df-b4dc-fa2a7a299158.jpg",
+    "updatedAt": "2021-05-24T18:00:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

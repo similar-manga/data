@@ -7,6 +7,11 @@
    "title": {
     "en": "Short Peace"
    },
+   "altTitles": [
+    {
+     "en": "ショート・ピース"
+    }
+   ],
    "description": {
     "en": "A volume consisting of three different stories related to the world of cinema and film.\r\n\r\n1. Short Peace (ch. 1), published on 2014/02.\r\n2. Pretty Fly (ch. 2-3), published on 2014/07 and 2014/08.\r\n3. Slow-motion reflex (ch. 4-5), published on 2017/09 and 2017/10.\r\n\r\nAt the end of the volume there is an extra story about how both Short Peace and Ao Ashi were created by the author and the editorial staff."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +58,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -59,43 +70,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-10T12:40:51+00:00",
+   "updatedAt": "2021-05-25T15:41:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "c60b8feb-97fd-4340-866c-58e825d9b3d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kobayashi Yuugo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c60b8feb-97fd-4340-866c-58e825d9b3d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kobayashi Yuugo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ecd237f0-115c-4dfb-888a-8ad2ba07180c",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "01e4bbe9-13dd-4fdd-883b-2a9998ba3bd8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:36:59+00:00",
+    "description": "",
+    "fileName": "ef6adfb6-ff92-4ad3-9da2-748f05be8cc3.jpg",
+    "updatedAt": "2021-05-24T17:36:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

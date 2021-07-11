@@ -7,6 +7,17 @@
    "title": {
     "en": "Ritou no Umi"
    },
+   "altTitles": [
+    {
+     "en": "Isolated Island's Umi"
+    },
+    {
+     "en": "Lost at Sea"
+    },
+    {
+     "en": "りとうのうみ"
+    }
+   ],
    "description": {
     "en": "So there's a magazine called Gelatin where various manga artists are given some coloring crayons and then told to draw whatever they want in full color. The plot for this is about a guy and a girl who go on a mission to retrieve a pair of shorts from an island... aaaaand that's it. All you'll find is a nice slice-of-life story and lovely colored pages."
    },
@@ -34,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +57,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,75 +69,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-24T08:03:56+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "f6964e63-39ac-417d-947b-9c6202d81dd8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takamichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f6964e63-39ac-417d-947b-9c6202d81dd8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takamichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e34dea2e-1347-4b97-87ff-e960a6620aa8",
-   "type": "chapter"
-  },
-  {
-   "id": "6a2403e1-7528-4d29-a4ff-7c177bbc8cb3",
-   "type": "chapter"
-  },
-  {
-   "id": "03df2a9b-2833-481e-8718-e49327e1c1f7",
-   "type": "chapter"
-  },
-  {
-   "id": "ebadf03c-0b94-4da4-b08a-73968ef26bff",
-   "type": "chapter"
-  },
-  {
-   "id": "1c9af1c2-e3e9-4bd8-af59-7aebcb51879f",
-   "type": "chapter"
-  },
-  {
-   "id": "633ef5d1-a0ec-48e1-8ad0-c902e5955a01",
-   "type": "chapter"
-  },
-  {
-   "id": "bab26d91-1600-40f3-a3e5-3b2f1c7ae980",
-   "type": "chapter"
-  },
-  {
-   "id": "81bd8c69-c4e5-411d-836a-7792e5abf0e5",
-   "type": "chapter"
-  },
-  {
-   "id": "3e78ffd2-a36b-49a7-b364-81ca342753b3",
-   "type": "chapter"
-  },
-  {
-   "id": "0b770fd7-c006-44cd-acd4-8a85f764e9e9",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "3ffcccac-fcf9-4fc0-9a2e-f96327bec4b6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:16:07+00:00",
+    "description": "",
+    "fileName": "2d43ae79-9cbf-4fbe-8cdf-95314b69f3bc.jpg",
+    "updatedAt": "2021-05-28T23:16:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

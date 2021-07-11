@@ -7,6 +7,14 @@
    "title": {
     "en": "Shounen Houkokusho"
    },
+   "altTitles": [
+    {
+     "en": "A Boy's Report"
+    },
+    {
+     "en": "少年報告書"
+    }
+   ],
    "description": {
     "en": "Harumi is living with his lover, Ryouichi, and his son, Shuu. The three of them are living happily until someone comes to discuss a marriage interview for Harumi?!"
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,43 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-02T03:20:48+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "fb84c864-1c18-4a10-9105-6a63dd3b6644",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakiya Haruhi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a990211e-a6a3-4997-9c38-504a4119a106",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Machiko Madoka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7e22a373-3fec-4448-8a31-00f72ac08739",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "f6b41759-16cc-4fb9-a1a3-bbf5f7d28aed",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:22+00:00",
+    "description": "",
+    "fileName": "af1ea57b-0d84-4439-a33a-73d6a209d688.jpg",
+    "updatedAt": "2021-05-24T17:32:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Splash"
    },
+   "altTitles": [
+    {
+     "en": "どぼん"
+    }
+   ],
    "description": {
     "en": "The girl heard a sound of splash from the dike. What did the sea floor hide?\r\nDebut one-shot from Kouhei Shibata."
    },
@@ -15,7 +20,6 @@
     "mu": "165578"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +31,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,8 +41,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,43 +55,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-18T19:31:18+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "3d715610-7244-4dec-ad30-ec9e2250e763",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kouhei Shibata",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3d715610-7244-4dec-ad30-ec9e2250e763",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kouhei Shibata",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6b6e5ed2-1386-4989-9523-3809cd2b42d9",
-   "type": "chapter"
-  },
-  {
-   "id": "a36bf4a7-6fb7-4354-a80a-aa502a3346cb",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "fddc59d7-5f14-4f49-8c37-224c7f25ee51",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:59:51+00:00",
+    "description": "",
+    "fileName": "7eac78f9-674f-4e3a-8ad3-d30b411a9a8a.png",
+    "updatedAt": "2021-05-24T17:59:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

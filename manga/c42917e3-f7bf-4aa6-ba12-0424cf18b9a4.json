@@ -29,6 +29,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,8 +51,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +65,8 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -69,6 +77,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -79,87 +89,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-21T04:38:23+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "c0ab1182-ac57-4bcc-89e6-5f9eccc1dcae",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Seri Minase",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c0ab1182-ac57-4bcc-89e6-5f9eccc1dcae",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Seri Minase",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a8526525-54ef-44d3-b640-57e76c2ffdd0",
-   "type": "chapter"
-  },
-  {
-   "id": "156636e8-27ea-440d-a340-82a433d82dd0",
-   "type": "chapter"
-  },
-  {
-   "id": "c0ee2e88-206d-4c83-bbc5-8b1d5d09d527",
-   "type": "chapter"
-  },
-  {
-   "id": "3f0fc596-eaaa-4449-ab60-d3fa8454f9f1",
-   "type": "chapter"
-  },
-  {
-   "id": "44315a8f-0769-4e8f-8a70-f6bde7709a85",
-   "type": "chapter"
-  },
-  {
-   "id": "f646d2f3-47a5-49f0-8248-e6f825dc59f5",
-   "type": "chapter"
-  },
-  {
-   "id": "e882ff36-4641-4590-b4e6-a9f8db6f19ec",
-   "type": "chapter"
-  },
-  {
-   "id": "af490342-23f4-4a7d-a516-c13bd99a9161",
-   "type": "chapter"
-  },
-  {
-   "id": "53ef86fd-841b-4661-bb36-bd4342577ffe",
-   "type": "chapter"
-  },
-  {
-   "id": "db9e7a74-8fa5-47c1-82c9-4e45238dd76d",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "63bb2b25-f949-4f89-bd3d-abb58ab4f583",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:38:10+00:00",
+    "description": "",
+    "fileName": "1a9589de-e04f-48b4-9ce4-f6290c9c977e.jpg",
+    "updatedAt": "2021-05-24T18:38:10+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

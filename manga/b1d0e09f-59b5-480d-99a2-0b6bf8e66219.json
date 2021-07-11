@@ -7,11 +7,15 @@
    "title": {
     "en": "Usagi - Yasei no Touhai-"
    },
+   "altTitles": [
+    {
+     "en": "兎 -野性の闘牌-"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,43 +51,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-05T01:01:51+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "f8c92289-ebcb-46a4-8fc4-cacc487946d3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itou Makoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f8c92289-ebcb-46a4-8fc4-cacc487946d3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itou Makoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c7b63bf6-6bb9-463f-917d-dd216f418a34",
-   "type": "chapter"
-  },
-  {
-   "id": "e74cd6d7-cb18-4e38-9718-25c035d96d70",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "55af5fce-6b58-4ffb-8752-572d7f0fe058",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:25+00:00",
+    "description": "",
+    "fileName": "70913cbc-fae9-4c77-b443-c2333bfd9f9c.jpg",
+    "updatedAt": "2021-05-24T17:03:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

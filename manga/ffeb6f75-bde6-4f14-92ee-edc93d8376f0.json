@@ -14,7 +14,6 @@
     "mu": "91365"
    },
    "originalLanguage": "fr",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,35 +49,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-10-25T00:02:28+00:00",
+   "updatedAt": "2018-10-25T00:02:28+00:00"
   }
  },
  "relationships": [
   {
    "id": "79be3dc9-a7c5-4117-8251-dde21fb83210",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "IZU",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "962a8fc7-4dc8-4856-bf8a-2e81b79c8bf3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHONEN",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "eef7a913-510a-4fb0-9c4d-4f707532f1fb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:18+00:00",
+    "description": "",
+    "fileName": "f70ba274-7e4d-4d78-b684-26ae2b2a17ae.jpg",
+    "updatedAt": "2021-05-24T16:49:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

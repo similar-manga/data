@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Sequestro \u0026amp; Choque"
+    "en": "Sequestro \u0026 Choque"
    },
    "description": {
     "en": ""
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +45,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -52,47 +57,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-21T19:13:25+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "42284ca8-0ae5-4909-89ea-6fd3b9e34e6d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Wann",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "42284ca8-0ae5-4909-89ea-6fd3b9e34e6d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Wann",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4cc9315a-d2c8-471c-af18-c93d47253936",
-   "type": "chapter"
-  },
-  {
-   "id": "a4ea4fde-2485-48dc-afa3-2bd9d87b85b6",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "862cedaa-c8d2-4f96-bd15-18a0adbcf82e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:28:07+00:00",
+    "description": "",
+    "fileName": "e5126b95-4acf-4681-ac5d-41dfacbea9ae.jpg",
+    "updatedAt": "2021-05-24T18:28:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -11,7 +11,6 @@
     "en": "Akira x Mamori"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "suggestive",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -30,8 +31,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,39 +45,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-19T14:06:09+00:00",
+   "updatedAt": "2021-05-25T15:48:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "da51e2b1-7182-4498-bebd-16258e9262f3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "da51e2b1-7182-4498-bebd-16258e9262f3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dcff4cdd-3cb5-4752-b38f-721916b169cf",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "fa7688a0-8bcf-4f43-bfac-24a52f4b91c5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:15:13+00:00",
+    "description": "",
+    "fileName": "10617eeb-0918-4282-8986-098478d424c9.png",
+    "updatedAt": "2021-05-24T18:15:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

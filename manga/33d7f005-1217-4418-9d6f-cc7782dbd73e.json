@@ -7,6 +7,17 @@
    "title": {
     "en": "The Last Cruise"
    },
+   "altTitles": [
+    {
+     "en": "Saigo no Yuuransen  "
+    },
+    {
+     "en": "The Last Pleasure Boat"
+    },
+    {
+     "en": "最後の遊覧船"
+    }
+   ],
    "description": {
     "en": "After becoming the target of an internet witch hunt, and with a fast approaching deadline for her new script, writer Youko Kojiri flees to her hometown. But on the cruise connecting the lake's piers, many loops and turns are awaiting her."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,47 +66,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-25T13:27:26+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "6e4fb1e1-26a6-46d4-b2d2-ae8980e5f3b1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sugimura Shinichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6e4fb1e1-26a6-46d4-b2d2-ae8980e5f3b1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sugimura Shinichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ca9bf5aa-f334-477d-a4a2-8e7b48f94c4f",
-   "type": "chapter"
-  },
-  {
-   "id": "d703cb56-7967-4fe3-adf8-028cb67b2b9a",
-   "type": "chapter"
-  },
-  {
-   "id": "2fca8140-36e9-4576-a89c-62a24b3c5d2c",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "f2d7b1da-b297-4f0e-9329-73360b177f79",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:28:35+00:00",
+    "description": "",
+    "fileName": "bd02cfa7-e69b-4a00-8720-4e69d966b3d9.png",
+    "updatedAt": "2021-05-24T18:28:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Mie Hariatte Surechigai"
    },
+   "altTitles": [
+    {
+     "en": "見栄張りあってすれ違い"
+    }
+   ],
    "description": {
     "en": "Minoru, a salesman, dislikes his co-worker Shinji, who likes to grope him and confess his love. Even though Minoru rejects his advances, the persistent Shinji refuses to give up!"
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,8 +56,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,79 +70,53 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-31T14:24:31+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "e6c73bbb-46b0-4a76-ab54-4235865f6391",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yukue Moegi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e6c73bbb-46b0-4a76-ab54-4235865f6391",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yukue Moegi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7c073a25-dc38-491f-894f-1548050c2263",
-   "type": "chapter"
-  },
-  {
-   "id": "25fee941-3e23-4ccc-9318-d0f4eab58dba",
-   "type": "chapter"
-  },
-  {
-   "id": "c6c02af0-4bc0-4101-badf-9a340a7a3289",
-   "type": "chapter"
-  },
-  {
-   "id": "4b1c12f5-2e36-45dc-b30c-60532f402829",
-   "type": "chapter"
-  },
-  {
-   "id": "7ca99b3e-a7f5-4737-8156-ec9011b5eace",
-   "type": "chapter"
-  },
-  {
-   "id": "bf93acec-c3e9-44ca-ae08-7c88d85eff00",
-   "type": "chapter"
-  },
-  {
-   "id": "cc0a10d6-f0ae-42f9-a157-34038d837a57",
-   "type": "chapter"
-  },
-  {
-   "id": "af8b8b3b-6fa0-4e42-9af0-384a34ac7d17",
-   "type": "chapter"
-  },
-  {
-   "id": "27c7b67f-198e-44c2-9033-1154c828224c",
-   "type": "chapter"
-  },
-  {
-   "id": "6c6c0dcd-ec4d-4492-85a3-1c531ffead4a",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
+   "id": "6ae73efb-7e8e-4f0e-bd96-7cbab35813b1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:08+00:00",
+    "description": "",
+    "fileName": "b58aab92-1f11-4490-b4af-596c25228672.jpg",
+    "updatedAt": "2021-05-24T17:32:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

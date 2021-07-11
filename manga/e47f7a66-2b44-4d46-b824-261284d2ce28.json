@@ -7,6 +7,11 @@
    "title": {
     "en": "Space Sweepers"
    },
+   "altTitles": [
+    {
+     "en": "승리호"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +19,6 @@
     "mu": "176598"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,6 +53,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +65,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -65,51 +77,53 @@
       "name": {
        "en": "Aliens"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-15T12:52:00+00:00",
+   "updatedAt": "2021-05-25T15:48:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "04c3383f-7659-4b83-8876-9306ac531e43",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "홍작가",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "aa2fdb73-4f1f-488d-a106-1c7886399f11",
-   "type": "chapter"
-  },
-  {
-   "id": "7f876689-7650-404b-8546-4fe896c4e844",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e64f6742-c834-471d-8d72-dd51fc02b835",
-   "type": "tag"
+   "id": "7c232dc7-0dcd-4f0e-9476-a02cbc7c726d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:16:13+00:00",
+    "description": "",
+    "fileName": "5d9bb0ea-997c-4f47-806e-46d4eabd1b47.png",
+    "updatedAt": "2021-05-28T23:16:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

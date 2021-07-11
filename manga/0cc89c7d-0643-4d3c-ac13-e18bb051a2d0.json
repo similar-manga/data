@@ -7,11 +7,18 @@
    "title": {
     "en": "Idaho"
    },
+   "altTitles": [
+    {
+     "en": "Idaho"
+    },
+    {
+     "en": "アイダホ"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +30,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +42,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,6 +54,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -53,43 +66,53 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-27T08:15:45+00:00",
+   "updatedAt": "2021-05-25T15:39:21+00:00"
   }
  },
  "relationships": [
   {
    "id": "097eeeb9-80d7-41db-98ef-d7f51505f435",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nihei Tsutomu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "097eeeb9-80d7-41db-98ef-d7f51505f435",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nihei Tsutomu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9f52ef21-9dd7-43a6-94f4-8d48edb44e99",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
+   "id": "46380c94-dd16-4f0d-a07b-5304bedbfeb2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:00:53+00:00",
+    "description": "",
+    "fileName": "4ef154bf-5b58-49c2-aa71-662b026dc194.jpg",
+    "updatedAt": "2021-05-24T18:00:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

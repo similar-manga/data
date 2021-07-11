@@ -5,8 +5,25 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Tiger \u0026amp; Bunny - The Comic"
+    "en": "Tiger \u0026 Bunny - The Comic"
    },
+   "altTitles": [
+    {
+     "en": "TIGER \u0026 BUNNY - THE COMIC"
+    },
+    {
+     "en": "Tiger \u0026 Bunny (UEDA Hiroshi)"
+    },
+    {
+     "en": "Tiger \u0026 Bunny the Comic"
+    },
+    {
+     "en": "Tiger and Bunny"
+    },
+    {
+     "en": "TIGER\u0026BUNNY THE COMIC"
+    }
+   ],
    "description": {
     "en": "Serialized in Miracle Jump:\r\n\r\nThe Metropolis Sternbild is protected by people with special abilities, the NEXT. Most of them work as the defenders of peace known as heroes, commercialized crime fighters who are promoted and rated by the media.\r\n\r\nAmong them are veteran hero Kaburagi T. Kotetsu, called Wild Tiger, and rookie Barnaby J. Brooks who's been nicknamed Bunny by his partner, much to the latter's chagrin. The unlikely pair clashes like fire and water: the nonchalant loner Tiger only wants to act as an ally of justice and skips media events as much as he can, while the straitlaced Barnaby has a more modern approach towards his job and enjoys the attention he gets as a public figure.\r\n\r\nWhen a former hero known as Lunatic starts to wreck havoc and kills criminals instead of arresting them, these two have to reconcile their differences in order to fight their mysterious opponent."
    },
@@ -31,6 +48,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +60,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,75 +72,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-04T10:01:04+00:00",
+   "updatedAt": "2021-05-25T15:43:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "ed9f4cbb-ac9b-4beb-9371-2b3df3ae3a21",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshida Erika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cd555428-fb36-4079-80f4-c252a7527d3f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ueda Hiroshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "520519c2-c7fe-40d7-b236-825fa87d94ee",
-   "type": "chapter"
-  },
-  {
-   "id": "c870612d-d444-47e8-bdd2-944850bf279b",
-   "type": "chapter"
-  },
-  {
-   "id": "235e2254-789d-4000-936c-619dfcb0d1ea",
-   "type": "chapter"
-  },
-  {
-   "id": "45adcfa7-20f5-4eb0-9809-f1c5582e70d7",
-   "type": "chapter"
-  },
-  {
-   "id": "6ebc387e-e8eb-4528-a095-4003c0936912",
-   "type": "chapter"
-  },
-  {
-   "id": "a1cf9916-ced0-4a13-8c49-835448c844b7",
-   "type": "chapter"
-  },
-  {
-   "id": "7a9e8d0f-3867-44d6-aa39-5ff83ff1f3bf",
-   "type": "chapter"
-  },
-  {
-   "id": "a2188f78-884b-415e-ba70-e99855f255e9",
-   "type": "chapter"
-  },
-  {
-   "id": "8e3c2122-c8a8-4c60-9e23-2830d5ffa4b1",
-   "type": "chapter"
-  },
-  {
-   "id": "e23fbdfd-f599-4805-a4af-60dcbc1e8957",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "3ae292dc-0b67-4f5b-a75a-3c5f5c31677c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:36:28+00:00",
+    "description": "",
+    "fileName": "628c2146-e792-4fd8-9962-77f90386d227.jpg",
+    "updatedAt": "2021-05-24T18:36:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

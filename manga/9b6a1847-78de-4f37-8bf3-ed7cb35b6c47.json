@@ -11,7 +11,6 @@
     "en": "Pairing: America x England"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,8 +31,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,39 +45,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-19T11:10:37+00:00",
+   "updatedAt": "2021-05-25T15:45:37+00:00"
   }
  },
  "relationships": [
   {
    "id": "1cc624b7-0b90-4a9e-9a80-d715ff2c77f2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiina Ritsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1cc624b7-0b90-4a9e-9a80-d715ff2c77f2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiina Ritsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "59bbec5e-2324-404a-878f-4993264e909d",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "c15b559f-a32d-4f21-b64b-685963a9d15c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:11:21+00:00",
+    "description": "",
+    "fileName": "0c3912cb-1cdb-4a95-8636-767f9b4c87b4.jpg",
+    "updatedAt": "2021-05-24T18:11:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

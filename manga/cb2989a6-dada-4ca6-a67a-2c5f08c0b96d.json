@@ -7,6 +7,20 @@
    "title": {
     "en": "Killer Stall"
    },
+   "altTitles": [
+    {
+     "en": "Batch Killer"
+    },
+    {
+     "en": "Killer Bunsig"
+    },
+    {
+     "en": "Killer Snack Bar"
+    },
+    {
+     "en": "킬러분식"
+    }
+   ],
    "description": {
     "en": "One thing is for certain - if you exercise violence, that violence will return to you in any shape or form.\r\n\r\nThe man who bakes flour-based food and runs an eatery, has a darker past than anyone could ever guess.\r\n\r\n...unless you see the name of his store."
    },
@@ -28,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +54,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +66,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -58,6 +78,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,83 +90,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-26T12:18:22+00:00",
+   "updatedAt": "2021-05-25T15:47:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "a7d5f6f6-2c24-4059-9a1a-25378ad9ccf1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HAN",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a7d5f6f6-2c24-4059-9a1a-25378ad9ccf1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HAN",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5697592d-a1cc-4551-b57d-84ec913338e1",
-   "type": "chapter"
-  },
-  {
-   "id": "a79ee5c8-ce3f-4f22-85cc-fe129b33a553",
-   "type": "chapter"
-  },
-  {
-   "id": "c01905a9-8140-4df8-80cd-dd43f05149b3",
-   "type": "chapter"
-  },
-  {
-   "id": "72ae34aa-d874-451b-bf26-0b44043064aa",
-   "type": "chapter"
-  },
-  {
-   "id": "792fd5d2-8543-4643-9d20-f4196ed2e91f",
-   "type": "chapter"
-  },
-  {
-   "id": "f158735f-a677-4502-a546-99736a5ee9a6",
-   "type": "chapter"
-  },
-  {
-   "id": "421ddc56-731e-4f2e-b489-b2929b4c6cdd",
-   "type": "chapter"
-  },
-  {
-   "id": "200e924b-6792-4905-8e71-287e8cb55b0c",
-   "type": "chapter"
-  },
-  {
-   "id": "72d57c86-0b1b-4f1a-9d3e-49e75171792f",
-   "type": "chapter"
-  },
-  {
-   "id": "4368ab9a-8170-4857-9726-6760c0ea4483",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "994a813a-29e4-4fb3-8be7-cd83315da9af",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:53+00:00",
+    "description": "",
+    "fileName": "e8dca7a5-4d5c-4f01-aa00-7964074223d8.jpg",
+    "updatedAt": "2021-05-24T18:33:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

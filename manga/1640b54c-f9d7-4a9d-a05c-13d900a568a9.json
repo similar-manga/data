@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "\u0026iexcl;Luego de ese momento!"
+    "en": "¡Luego de ese momento!"
    },
+   "altTitles": [
+    {
+     "en": "그 순간 그때"
+    }
+   ],
    "description": {
-    "en": "Minseong, el alfa dominante y popular de la escuela. Se dio cuenta que perdi\u0026oacute; su inhibidor al mismo instante que su Rut lleg\u0026oacute;, teniendo sexo semi consciente de la situaci\u0026oacute;n. \r\nSu acompa\u0026ntilde;ante fue \u0026quot;Inseo\u0026quot;, que toma la misma clase de artes liberales,\r\nMinseong pens\u0026oacute; que era un encuentro natural entre un Alpha y  un Omega, \u0026iexcl;\u0026iquest;pero In-seo era un beta?!"
+    "en": "Minseong, el alfa dominante y popular de la escuela. Se dio cuenta que perdió su inhibidor al mismo instante que su Rut llegó, teniendo sexo semi consciente de la situación. \r\nSu acompañante fue \"Inseo\", que toma la misma clase de artes liberales,\r\nMinseong pensó que era un encuentro natural entre un Alpha y  un Omega, ¡¿pero In-seo era un beta?!"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -30,8 +36,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,59 +50,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-20T23:10:18+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "6bd4fd25-89be-4af3-bc1a-569f20b94b38",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "란게",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6bd4fd25-89be-4af3-bc1a-569f20b94b38",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "란게",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bbb993f8-b1ee-4304-a640-aefe9e02ef1d",
-   "type": "chapter"
-  },
-  {
-   "id": "633d6f14-a4a0-4254-9d9a-5601c44321cd",
-   "type": "chapter"
-  },
-  {
-   "id": "b55f3a77-d026-4c54-bc63-6877b2e46f50",
-   "type": "chapter"
-  },
-  {
-   "id": "a1626814-ecbd-4717-aa8a-ba197c1a0267",
-   "type": "chapter"
-  },
-  {
-   "id": "fb92dc6e-bee7-4a8b-8ea4-7a2ec0cfbaf5",
-   "type": "chapter"
-  },
-  {
-   "id": "532378fe-ab7c-4e7c-8280-bc210a384dcf",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "d5c558c2-593b-4f73-8b2f-acbc5da019d7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:28:02+00:00",
+    "description": "",
+    "fileName": "6095df8b-f7ab-49f8-bfc5-50ac82554b73.png",
+    "updatedAt": "2021-05-24T18:28:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

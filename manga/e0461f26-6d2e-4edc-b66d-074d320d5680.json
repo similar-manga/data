@@ -5,16 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "This World\u0026rsquo;s Treasures"
+    "en": "This World’s Treasures"
    },
+   "altTitles": [
+    {
+     "en": "尘灯宝谭"
+    }
+   ],
    "description": {
     "en": ""
    },
    "links": {
     "raw": "https://www.ohmanhua.com/11667/"
    },
-   "originalLanguage": "zh-hk",
-   "lastChapter": "0",
+   "originalLanguage": "zh",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,6 +53,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +65,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,6 +77,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -75,47 +89,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-09-19T18:33:53+00:00",
+   "updatedAt": "2020-09-19T18:33:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "d44d0a51-3f6d-4366-9376-b1f3a0528f6d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "鲜漫文化",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "953917d0-5baa-4f19-b51d-60b76b13c625",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:11:22+00:00",
+    "description": "",
+    "fileName": "e2c854f1-2b4a-4c87-bb07-5342ac8f4868.jpg",
+    "updatedAt": "2021-05-24T18:11:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

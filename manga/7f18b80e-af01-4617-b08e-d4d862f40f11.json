@@ -7,6 +7,17 @@
    "title": {
     "en": "Hiyama Kentarou no Ninshin"
    },
+   "altTitles": [
+    {
+     "en": "Hiyama Kentaro no Ninshin"
+    },
+    {
+     "en": "Kentaro Hiyama's First Pregnancy"
+    },
+    {
+     "en": "ヒヤマケンタロウの妊娠"
+    }
+   ],
    "description": {
     "en": "You ever watch that movie Junior?"
    },
@@ -32,6 +43,8 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,51 +55,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-06T08:19:31+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "e456d029-93d9-4227-85a5-15110ac9f526",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SAKAI Eri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e456d029-93d9-4227-85a5-15110ac9f526",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SAKAI Eri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d051727e-5ea7-48c8-a845-d381ce7ed67e",
-   "type": "chapter"
-  },
-  {
-   "id": "f8df2b10-e5af-4566-a7c5-be9cc66f1451",
-   "type": "chapter"
-  },
-  {
-   "id": "9c4ce9e8-33c0-476c-bda8-259fdbc8d297",
-   "type": "chapter"
-  },
-  {
-   "id": "e8c9ea50-cd66-4a2c-9891-5154e8bf593e",
-   "type": "chapter"
-  },
-  {
-   "id": "32adb517-3016-4591-9f69-b058bdaf3982",
-   "type": "chapter"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "4d232446-e6eb-4ff7-bc0b-a803e4aeeeba",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:58:24+00:00",
+    "description": "",
+    "fileName": "639bf6f1-e46d-4140-afd2-e4e41db0a3d0.jpg",
+    "updatedAt": "2021-05-24T17:58:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,39 +33,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-12T03:23:35+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "2feef35f-c5cf-464e-9b81-69285dd80294",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsunako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2feef35f-c5cf-464e-9b81-69285dd80294",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsunako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "10d74fb7-cf5d-48c3-9299-45392ee9065c",
-   "type": "chapter"
-  },
-  {
-   "id": "85fd4afa-b834-4c13-a8bd-e0fc6b67ce91",
-   "type": "chapter"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "450a7c48-5714-4f8a-bedb-8a1dbde5e6eb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:02:40+00:00",
+    "description": "",
+    "fileName": "78250520-94a0-44ec-a2a0-503ce7990621.png",
+    "updatedAt": "2021-05-24T18:02:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

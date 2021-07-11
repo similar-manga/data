@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Yotsuba\u0026amp;! - Yanda\u0026amp;! (Doujinshi)"
+    "en": "Yotsuba\u0026! - Yanda\u0026! (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Yotsuba\u0026! dj - Yanda\u0026!"
+    }
+   ],
    "description": {
     "en": "Yanda x Koiwai"
    },
@@ -14,7 +19,6 @@
     "mu": "80211"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -23,8 +27,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,39 +53,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-19T05:40:34+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "75bc82dc-24c4-4a46-95ab-57354fdab52d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hideyoshico",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "75bc82dc-24c4-4a46-95ab-57354fdab52d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hideyoshico",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "395cdd5c-ad62-4bf1-b1e8-5f1fa490e70e",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "69fb3ff5-4983-4f4e-aa6f-b9b8bf8e73cb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:37:58+00:00",
+    "description": "",
+    "fileName": "0c436fd4-b2af-4717-bb5e-0e78b2ec6d8c.jpg",
+    "updatedAt": "2021-05-24T18:37:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

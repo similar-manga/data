@@ -7,6 +7,14 @@
    "title": {
     "en": "Otona no Manaa"
    },
+   "altTitles": [
+    {
+     "en": "Adult's Manner"
+    },
+    {
+     "en": "大人のマナー"
+    }
+   ],
    "description": {
     "en": "Six months ago, a book store manager taught high-school student Minami a lesson about loitering and gave him a job. Since then Minami finds himself slowly falling in love with his strict and sometimes violent manager."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,51 +74,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-03T12:37:14+00:00",
+   "updatedAt": "2021-05-25T15:42:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "f4269227-161b-407d-9d29-9b67e06db230",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Suzuki Tsuta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f4269227-161b-407d-9d29-9b67e06db230",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Suzuki Tsuta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a937986e-37f2-4222-a79b-2d65f2634e29",
-   "type": "chapter"
-  },
-  {
-   "id": "de46a279-e5dd-42cf-8dc2-3d8c4ba97caf",
-   "type": "chapter"
-  },
-  {
-   "id": "2637a05f-ae25-44c3-a3e4-b323862c512e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "8b978cc1-50c0-4f8b-b837-e1359e17f239",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:16+00:00",
+    "description": "",
+    "fileName": "365f259b-cd7a-4378-b245-b0f4edab1ada.jpg",
+    "updatedAt": "2021-05-24T17:03:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

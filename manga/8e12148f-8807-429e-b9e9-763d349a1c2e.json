@@ -7,6 +7,11 @@
    "title": {
     "en": "Gakuen no Akuma"
    },
+   "altTitles": [
+    {
+     "en": "学園の悪魔"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -23,6 +28,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +40,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,8 +50,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +64,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -63,43 +76,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-10-08T15:58:22+00:00",
+   "updatedAt": "2018-10-08T15:58:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "99da1f4f-d4d3-4d62-8a63-88c3fa00679b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kamon Saeko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "99da1f4f-d4d3-4d62-8a63-88c3fa00679b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kamon Saeko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "044b9fbf-f1fd-4fd3-ad38-dd4f76f66b18",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:47:28+00:00",
+    "description": "",
+    "fileName": "7d1be3b6-039c-44a6-8959-8ab93122492b.jpg",
+    "updatedAt": "2021-05-24T16:47:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

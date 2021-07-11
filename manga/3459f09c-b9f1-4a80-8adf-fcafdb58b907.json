@@ -7,6 +7,14 @@
    "title": {
     "en": "Sekai no Hate Yori Konnichiwa"
    },
+   "altTitles": [
+    {
+     "en": "Say Hello From The End Of The World"
+    },
+    {
+     "en": "世界の果てよりこんにちは"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,8 +58,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +72,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,43 +84,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-01-31T19:30:38+00:00",
+   "updatedAt": "2020-01-31T19:30:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "ca353d9a-3573-4b9f-9f53-9824d9bf28d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nekono Mariko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ca353d9a-3573-4b9f-9f53-9824d9bf28d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nekono Mariko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "28b010d4-88b5-4f83-a292-8f8e827f9a88",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:43:12+00:00",
+    "description": "",
+    "fileName": "972a1b62-cef2-4952-86e1-7df9796224b3.jpg",
+    "updatedAt": "2021-05-24T17:43:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

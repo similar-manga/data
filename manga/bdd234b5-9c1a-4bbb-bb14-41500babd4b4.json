@@ -7,11 +7,15 @@
    "title": {
     "en": "Sly Cooper: Phantom Thief"
    },
+   "altTitles": [
+    {
+     "en": "怪盗スライクーパー"
+    }
+   ],
    "description": {
     "en": "Goofy goods-gaffling escapades with the PlayStation 2's thieving raccoon."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,47 +50,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-06T23:13:44+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "a297023a-bc3f-4696-82db-c9aa74d34cae",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Imaki Shoji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a297023a-bc3f-4696-82db-c9aa74d34cae",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Imaki Shoji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d7978667-c3e5-4448-b33b-e01eeaa479e2",
-   "type": "chapter"
-  },
-  {
-   "id": "61bc3d0b-da97-4bf7-aeb9-d3da303f0783",
-   "type": "chapter"
-  },
-  {
-   "id": "e142ea03-e08f-443b-98da-ad1b04e9384e",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "11e3eb4e-7f2c-4fcc-b537-9ac0aebee305",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:40:15+00:00",
+    "description": "",
+    "fileName": "b40a82eb-c57a-4fc9-b768-2341ed0b5692.jpg",
+    "updatedAt": "2021-05-24T17:40:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

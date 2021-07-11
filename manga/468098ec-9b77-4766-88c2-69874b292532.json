@@ -7,6 +7,17 @@
    "title": {
     "en": "Atatamete Kureru Hito"
    },
+   "altTitles": [
+    {
+     "en": "Atatamete Kureru Hito."
+    },
+    {
+     "en": "Heat Up, Warm Up"
+    },
+    {
+     "en": "あたためてくれるひと"
+    }
+   ],
    "description": {
     "en": "After a tiring day at work, Sasaki only had a small wish: to have Oyakodon. What will happen when he receives advice from the stoic convenience store assistant, Oka, to have more vegetables?"
    },
@@ -29,6 +40,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,8 +50,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +64,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,63 +76,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-16T18:45:02+00:00",
+   "updatedAt": "2021-05-25T15:41:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "80a84a19-2933-470f-85b8-8961619b6a15",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yasuei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "80a84a19-2933-470f-85b8-8961619b6a15",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yasuei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8f8ebc80-329a-4d01-8e43-ddcc273d6acd",
-   "type": "chapter"
-  },
-  {
-   "id": "17a4b209-98a0-4c28-badf-e72b3e45e1fa",
-   "type": "chapter"
-  },
-  {
-   "id": "1461c599-9fc3-41f9-87da-b979ec2450e1",
-   "type": "chapter"
-  },
-  {
-   "id": "763a8831-a435-4736-95f6-eb9e59ae0734",
-   "type": "chapter"
-  },
-  {
-   "id": "840c58b3-cf5e-4541-8e9f-185a0641515d",
-   "type": "chapter"
-  },
-  {
-   "id": "85446d9a-8576-44f3-88dd-c2088ea80ad0",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "8de7b110-3e61-4f85-8fa6-e48799b0cb7e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:30:26+00:00",
+    "description": "",
+    "fileName": "b9d9df6e-7838-4370-8f85-2e910a62402c.jpg",
+    "updatedAt": "2021-05-24T17:30:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

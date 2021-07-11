@@ -7,6 +7,11 @@
    "title": {
     "en": "Itsushika Kimi no Toriko"
    },
+   "altTitles": [
+    {
+     "en": "いつしかキミの虜"
+    }
+   ],
    "description": {
     "en": "Walking through the park, student Aoi sees Kouki, his friend from middle school. Aoi hasn't seen him in three years, since Kouki did something terrible, then ran away. But Kouki's not through with Aoi yet..."
    },
@@ -19,7 +24,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "1",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -30,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +44,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,43 +58,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-19T22:31:45+00:00",
+   "updatedAt": "2021-05-25T15:41:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "8fa28b66-5f2c-4f87-ac13-4282d11f313b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakura Bunshichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8fa28b66-5f2c-4f87-ac13-4282d11f313b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakura Bunshichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c7888c25-c92f-498c-b0c7-246684bfb946",
-   "type": "chapter"
-  },
-  {
-   "id": "6f445cfd-5179-4f05-a7aa-eab938c77bda",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "44de71eb-ab46-4f0e-bc8a-fc11cd3fc899",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:04+00:00",
+    "description": "",
+    "fileName": "9cdf991d-2351-4228-9d7d-cb01349f21c4.jpg",
+    "updatedAt": "2021-05-24T17:38:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

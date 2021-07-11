@@ -7,6 +7,17 @@
    "title": {
     "en": "Moshi watashi ga dokusai-shadattanara"
    },
+   "altTitles": [
+    {
+     "en": "If I were a dictator"
+    },
+    {
+     "en": "もし私が独裁者だったなら"
+    },
+    {
+     "en": "如果我是独裁者的话"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -22,6 +33,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,43 +45,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-27T21:21:32+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "ee6c4b84-6f5f-44ca-b7a4-1a1a0195ac53",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MATSUMOTO Jiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ee6c4b84-6f5f-44ca-b7a4-1a1a0195ac53",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MATSUMOTO Jiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "821e64ba-aef6-4a0f-9e2c-c3d1da7a9fee",
-   "type": "chapter"
-  },
-  {
-   "id": "7f785a81-630d-4b6f-b405-14e7bb9a1fb9",
-   "type": "chapter"
-  },
-  {
-   "id": "f526e3ae-8a7e-4a56-9429-0c65981d7668",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "b442db29-5ba6-4f67-b87b-0b6caf7bad8e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:24:29+00:00",
+    "description": "",
+    "fileName": "5714b598-f6c1-437a-b199-a3e7782327c0.png",
+    "updatedAt": "2021-05-24T18:24:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

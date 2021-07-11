@@ -7,6 +7,17 @@
    "title": {
     "en": "Batsu Game"
    },
+   "altTitles": [
+    {
+     "en": "×ゲーム"
+    },
+    {
+     "en": "×游戏"
+    },
+    {
+     "en": "×遊戲"
+    }
+   ],
    "description": {
     "en": "On a dare, Nagami kisses a random guy that just happens to be walking down the street. He apologizes and just laughs it off with his friends, but when some days later he accidentally meets this person again, things take a rather unexpected turn."
    },
@@ -31,8 +42,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +56,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,75 +68,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-27T06:46:40+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "a4ed27a0-4a94-4063-9a20-78ed99e79ed4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Conro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a4ed27a0-4a94-4063-9a20-78ed99e79ed4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Conro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8d533fcc-93db-4d9d-8a1a-5c25d3a58242",
-   "type": "chapter"
-  },
-  {
-   "id": "70446683-bb75-48c8-b57e-fd8d6e89ba87",
-   "type": "chapter"
-  },
-  {
-   "id": "96f5e225-8581-4e96-a1f1-a3291496ff1b",
-   "type": "chapter"
-  },
-  {
-   "id": "6e74e81b-3a67-4f61-93b2-b668a18ff1bf",
-   "type": "chapter"
-  },
-  {
-   "id": "ebef1460-a40a-4d9a-81b7-6fd91ddf401a",
-   "type": "chapter"
-  },
-  {
-   "id": "e42a653d-a8e6-45ce-a657-fbc79f48d075",
-   "type": "chapter"
-  },
-  {
-   "id": "f6717178-78b3-482e-bdba-64dd825b8553",
-   "type": "chapter"
-  },
-  {
-   "id": "cfb14b5c-c494-4f48-a446-3dd070c6ce87",
-   "type": "chapter"
-  },
-  {
-   "id": "10795380-8792-4c41-a28e-606a70914b69",
-   "type": "chapter"
-  },
-  {
-   "id": "b7fdd5c1-fc71-4ba5-8ff3-a65e9434b658",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "42b0997e-0d54-4fa7-9a1d-42986c7b0d99",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:46+00:00",
+    "description": "",
+    "fileName": "f823bf32-e7e1-4e63-bb04-a09f79e2d992.jpg",
+    "updatedAt": "2021-05-24T17:02:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -14,7 +14,6 @@
     "mu": "154120"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +60,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -65,55 +72,53 @@
       "name": {
        "en": "Delinquents"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-02T09:10:03+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "2e23c6ec-6697-4533-8768-dc86729f916d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Antonio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2e23c6ec-6697-4533-8768-dc86729f916d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Antonio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d6c3d75a-2c21-4067-9552-65da369a701b",
-   "type": "chapter"
-  },
-  {
-   "id": "7fc8828d-3371-4420-8b3e-62bf43f2a64f",
-   "type": "chapter"
-  },
-  {
-   "id": "d31b1c4c-4923-4257-8827-c0448a0d0593",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "da2d50ca-3018-4cc0-ac7a-6b7d472a29ea",
-   "type": "tag"
+   "id": "a43f9ed2-fc54-4f9f-b6a2-634db57e8d40",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:08:45+00:00",
+    "description": "",
+    "fileName": "442c0128-aa62-4432-a626-36b5536bf14c.jpg",
+    "updatedAt": "2021-05-24T18:08:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

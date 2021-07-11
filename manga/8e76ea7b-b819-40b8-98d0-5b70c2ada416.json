@@ -7,6 +7,11 @@
    "title": {
     "en": "A Cute Bird Comes to an Office Lady Who Is Tired and Healed by Birdwatching"
    },
+   "altTitles": [
+    {
+     "en": "疲れたOLさんの所に可愛い野鳥"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -24,6 +29,8 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -32,8 +39,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +53,8 @@
       "name": {
        "en": "Monster Girls"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -54,51 +65,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-25T17:00:22+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "e74315fe-5e1d-4801-8e81-e0a73882ff13",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akamaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e74315fe-5e1d-4801-8e81-e0a73882ff13",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akamaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d92ec704-251e-4d68-9ce3-b5c7c7141ad0",
-   "type": "chapter"
-  },
-  {
-   "id": "567424fb-35cf-476a-976e-43b93282e3fa",
-   "type": "chapter"
-  },
-  {
-   "id": "1a656e66-d6a9-4947-b18d-de8de2852c53",
-   "type": "chapter"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "dd1f77c5-dea9-4e2b-97ae-224af09caf99",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "afec0d9d-443b-4f90-9912-e6436fb6869c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:07:53+00:00",
+    "description": "",
+    "fileName": "959f0f08-d40d-47da-9937-7e56b4179e03.png",
+    "updatedAt": "2021-05-24T18:07:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

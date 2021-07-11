@@ -7,6 +7,14 @@
    "title": {
     "en": "Sweet Poolside"
    },
+   "altTitles": [
+    {
+     "en": "Suite Poolside"
+    },
+    {
+     "en": "スイートプールサイド"
+    }
+   ],
    "description": {
     "en": "Shy boy meets girl in the middle school swimming club. The girl with a certain aesthetics problem will seek his help."
    },
@@ -32,6 +40,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +52,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +64,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,79 +76,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-07T07:59:30+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "ac27ae52-3ed1-4784-9885-f2985b6a602f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oshimi Shuzo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ac27ae52-3ed1-4784-9885-f2985b6a602f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oshimi Shuzo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2be6ebfa-5e2c-4af4-8f60-d6881083d8a8",
-   "type": "chapter"
-  },
-  {
-   "id": "0462e82b-1e11-4c7a-9404-3f4363556322",
-   "type": "chapter"
-  },
-  {
-   "id": "0559bb75-bcf8-4f53-a1b5-0c310d7f60d7",
-   "type": "chapter"
-  },
-  {
-   "id": "d698f58d-8680-4c5d-8cfc-047a880e8028",
-   "type": "chapter"
-  },
-  {
-   "id": "f65362e2-51a6-4ad3-8e38-978fbb206f1c",
-   "type": "chapter"
-  },
-  {
-   "id": "17ab751a-e13b-4f06-91be-c32e73b48d3b",
-   "type": "chapter"
-  },
-  {
-   "id": "11d30e30-3b2b-4dc8-aa47-2191e30e87a2",
-   "type": "chapter"
-  },
-  {
-   "id": "f302ee5c-b59d-4981-a83c-845388ddade9",
-   "type": "chapter"
-  },
-  {
-   "id": "ef1250b4-50a8-4270-a144-99a48acdea98",
-   "type": "chapter"
-  },
-  {
-   "id": "514416c4-552c-4e39-8657-963eb624a720",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "2de21107-2673-4fdb-8f4b-e50c24bf0bd8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:39:58+00:00",
+    "description": "",
+    "fileName": "05a7a886-0b3d-4fba-a887-52d90e54e60f.jpg",
+    "updatedAt": "2021-05-24T16:39:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

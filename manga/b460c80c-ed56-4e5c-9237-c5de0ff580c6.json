@@ -7,6 +7,14 @@
    "title": {
     "en": "Ijimete Hoshii no?"
    },
+   "altTitles": [
+    {
+     "en": "You Want To Be Teased?"
+    },
+    {
+     "en": "いじめて欲しいの?"
+    }
+   ],
    "description": {
     "en": "A teacher tries to control a delinquent student."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,43 +74,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-17T23:02:15+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "931e50a7-b1a9-4efb-8aaf-e0d038797c76",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hakutou Noriko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "931e50a7-b1a9-4efb-8aaf-e0d038797c76",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hakutou Noriko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "21d0e3e4-24ce-4f8c-89d5-d90e27633a9e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "24a43022-99c1-4f47-8ea4-f7a86616be0c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:37:51+00:00",
+    "description": "",
+    "fileName": "83762c86-0118-4027-9341-d0a075c348b4.jpg",
+    "updatedAt": "2021-05-24T17:37:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Archaic Smile"
    },
+   "altTitles": [
+    {
+     "en": "Архаическая улыбка"
+    },
+    {
+     "en": "アルカイック スマイル"
+    }
+   ],
    "description": {
     "en": "A warm, comforting romantic comedy revolving around a couple and a Buddha statue."
    },
@@ -17,7 +25,6 @@
     "mu": "30629"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -29,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,39 +48,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-06T15:33:06+00:00",
+   "updatedAt": "2021-05-25T15:49:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "17fb34dc-220f-4ea2-89ff-9fb9a2c452ba",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takaha Mako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ee84cbdc-02ac-483d-8b03-308a36601c03",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sadamoto Yoshiyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "558acf15-e045-4b73-b13e-053bef23c8dd",
-   "type": "chapter"
-  },
-  {
-   "id": "183f4a24-505c-477b-8762-4f11e30fb869",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "ccfd009c-28ce-4f48-b72c-61bf76599316",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:38+00:00",
+    "description": "",
+    "fileName": "57117c12-1a40-455e-a2ca-43c75f6747d5.jpg",
+    "updatedAt": "2021-05-24T17:03:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

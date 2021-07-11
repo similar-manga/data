@@ -7,11 +7,21 @@
    "title": {
     "en": "Order Maid"
    },
+   "altTitles": [
+    {
+     "en": "Custom-Built"
+    },
+    {
+     "en": "Order Made"
+    },
+    {
+     "en": "オーダーメード"
+    }
+   ],
    "description": {
     "en": "A 2008 COMITIA oneshot by Kikai."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +32,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +44,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +56,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +68,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -62,47 +80,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-28T06:02:33+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "588c5f99-3ff8-4ac0-a562-5e1c86bfc71b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kikai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "588c5f99-3ff8-4ac0-a562-5e1c86bfc71b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kikai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fdf25e31-b6aa-4950-aa46-dd2794c98b46",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "5d16ef68-4c84-4f2e-96b2-d00a6b7d477e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:20:36+00:00",
+    "description": "",
+    "fileName": "b68c163b-2b7f-4646-b55e-05efba07a44d.jpg",
+    "updatedAt": "2021-05-24T18:20:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

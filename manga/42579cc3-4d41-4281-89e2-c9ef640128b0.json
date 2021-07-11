@@ -7,6 +7,11 @@
    "title": {
     "en": "Tomba! The Wild Adventures"
    },
+   "altTitles": [
+    {
+     "en": "トンバ！ザ・ワイルドアドベンチャー"
+    }
+   ],
    "description": {
     "en": "Tomba's a wild boy living a peaceful life - that is, until the Evil Pigs come along and start messing up his island! Follow Tomba, Charles the monkey and more on a series of exciting adventures based in the world of the beloved PS1 cult classic. Get ready, because it's Tomba Time!"
    },
@@ -23,6 +28,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +40,8 @@
       "name": {
        "en": "Demons"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,6 +52,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,6 +64,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,6 +76,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -73,55 +88,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-05T22:26:39+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "db080e97-6397-4e3a-82ea-cc856b0c80a0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Masato Ichishiki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "db080e97-6397-4e3a-82ea-cc856b0c80a0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Masato Ichishiki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1c7a7644-a281-4268-9276-76ea98d24ff0",
-   "type": "chapter"
-  },
-  {
-   "id": "0f7b7f62-2dc6-48e8-bfc1-db757053313d",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "39730448-9a5f-48a2-85b0-a70db87b1233",
-   "type": "tag"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "10e90027-b3c8-4fe1-bf84-9375a3ffaf7f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:45+00:00",
+    "description": "",
+    "fileName": "70ef8648-1bad-4e7e-bb86-542ae0db54b9.jpg",
+    "updatedAt": "2021-05-24T18:17:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

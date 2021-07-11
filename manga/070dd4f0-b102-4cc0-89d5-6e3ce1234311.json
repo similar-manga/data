@@ -7,6 +7,11 @@
    "title": {
     "en": "Sentimental Honey"
    },
+   "altTitles": [
+    {
+     "en": "多愁善感的甜心"
+    }
+   ],
    "description": {
     "en": "A cute short story about a girl who's a tomboy, but whenever she's around him, she seems to turn girly."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,39 +59,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-20T21:15:08+00:00",
+   "updatedAt": "2021-05-25T15:39:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "6815c7ce-03f5-444b-abed-0778f0ef6322",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "AIKAWA Saki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6815c7ce-03f5-444b-abed-0778f0ef6322",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "AIKAWA Saki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e28c9e2e-a051-4304-b0a6-cf5168b20445",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "a2bde545-2ea6-4f25-a8c8-2d018e0abf38",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:38:09+00:00",
+    "description": "",
+    "fileName": "d6d010ec-152b-4087-90a9-f3f789e717a5.jpg",
+    "updatedAt": "2021-05-24T18:38:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

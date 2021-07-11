@@ -7,6 +7,14 @@
    "title": {
     "en": "Yarouze!"
    },
+   "altTitles": [
+    {
+     "en": "Let's Do It!"
+    },
+    {
+     "en": "やろうぜ!"
+    }
+   ],
    "description": {
     "en": "Etsushi Fuwa is your typical playboy high-school student. He dates several different girls at once, usually spends his nights in clubs or bars, and often seduces rich older women into giving him money in return for his...services.\r\n\r\nAimlessly drifting through life with nothing to care about and no-one to call a real friend, he happens upon fellow second-year Sou Kusanagi, who is well-known for being both a 'spunky midget' and a rabid fan of motorcycle racing. Something about this ambitious kid with his bright, confident eyes and never-say-die attitude intrigues Fuwa. Figuring he can always quit whenever he feels like it, he pretends to know all about motorcycles and asks to be Kusanagi's partner for an upcoming two-person racing event."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +74,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-11T08:18:03+00:00",
+   "updatedAt": "2021-05-25T15:42:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "398e06dd-9cff-4b62-94ad-0c61f48d8f55",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ishihara Satoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "398e06dd-9cff-4b62-94ad-0c61f48d8f55",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ishihara Satoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8db3f34b-f9c7-47e5-9e49-15c26faa403f",
-   "type": "chapter"
-  },
-  {
-   "id": "8a1ab185-ffe8-4eb9-904d-6fe6b66bfbba",
-   "type": "chapter"
-  },
-  {
-   "id": "81836ddc-2494-4b81-ad6d-d24dfdce4cfe",
-   "type": "chapter"
-  },
-  {
-   "id": "ef776ea4-0605-42f6-ae11-91cf546d792d",
-   "type": "chapter"
-  },
-  {
-   "id": "12e00348-e7cf-4892-86f1-81453806cba7",
-   "type": "chapter"
-  },
-  {
-   "id": "1a35958f-b4d8-454d-8e56-ab01dd556a7b",
-   "type": "chapter"
-  },
-  {
-   "id": "326f5563-e25a-4947-9d17-79b124cb61d5",
-   "type": "chapter"
-  },
-  {
-   "id": "265706a1-0210-4526-969b-c110a00b38ce",
-   "type": "chapter"
-  },
-  {
-   "id": "e9cc561f-5240-41ea-b2aa-0fcc690f3412",
-   "type": "chapter"
-  },
-  {
-   "id": "b995b878-ac98-46c3-b58d-bcc022b09c1d",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "c8ec3ac7-14e4-4f75-a84c-8619cc3bc7e2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:04+00:00",
+    "description": "",
+    "fileName": "b0854268-98f2-418c-af14-cb34b0532924.png",
+    "updatedAt": "2021-05-24T17:15:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

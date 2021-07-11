@@ -18,7 +18,6 @@
     "mu": "53040"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "ongoing",
    "contentRating": "safe",
@@ -30,6 +29,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,31 +41,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-11-28T13:33:30+00:00",
+   "updatedAt": "2018-11-28T13:33:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "ef635ee2-791d-4db0-8006-1fec306c2294",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Julia James",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c085f291-4e4a-4871-89a0-365e2b1dec9e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "FUJITA Kazuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "d2df104b-9115-4fe0-8cc6-e5714c5d0a69",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:52:59+00:00",
+    "description": "",
+    "fileName": "c64a6310-2876-4763-9da1-20145038ab12.jpg",
+    "updatedAt": "2021-05-24T16:52:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

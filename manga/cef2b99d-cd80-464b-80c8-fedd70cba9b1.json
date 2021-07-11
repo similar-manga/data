@@ -7,6 +7,20 @@
    "title": {
     "en": "SK8R'S"
    },
+   "altTitles": [
+    {
+     "en": "Sk8rs"
+    },
+    {
+     "en": "Skater's"
+    },
+    {
+     "en": "Skaters"
+    },
+    {
+     "en": "スケーターズ"
+    }
+   ],
    "description": {
     "en": "A group of wild, unruly teenagers who become friends due to their shared passion for skateboarding."
    },
@@ -34,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +60,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,71 +72,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-13T13:35:48+00:00",
+   "updatedAt": "2021-05-25T15:47:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "a6cedb6d-022a-4de9-a629-4fd0280ec78f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tojitsuki Hajime",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a6cedb6d-022a-4de9-a629-4fd0280ec78f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tojitsuki Hajime",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "abd6650b-bb53-43bf-ae8d-fb53a4330904",
-   "type": "chapter"
-  },
-  {
-   "id": "aa6bcd8f-3f58-4b9f-adbb-01fd1f005792",
-   "type": "chapter"
-  },
-  {
-   "id": "be7d1e35-ba58-445c-96a6-19574902ff0d",
-   "type": "chapter"
-  },
-  {
-   "id": "3df12308-3ce8-4fd8-a4c9-b1967d67e65e",
-   "type": "chapter"
-  },
-  {
-   "id": "930dd3e6-00c9-4f0d-b12c-81878330591f",
-   "type": "chapter"
-  },
-  {
-   "id": "e412b826-a2bc-48e3-97e4-1ce2bcab68cf",
-   "type": "chapter"
-  },
-  {
-   "id": "e37c5e9e-3a98-498b-be7b-08d0bfc5d4a8",
-   "type": "chapter"
-  },
-  {
-   "id": "8dd5bd8c-c4da-474d-b366-a6896c5c6823",
-   "type": "chapter"
-  },
-  {
-   "id": "e6dfd2fb-f9d4-46e9-b9d1-77da42572cde",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "45a4ba43-5a59-4f0a-9c06-64315ce8c0b6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:20+00:00",
+    "description": "",
+    "fileName": "611d5e25-1a78-45ee-9c1e-5fba6645d594.png",
+    "updatedAt": "2021-05-24T17:15:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

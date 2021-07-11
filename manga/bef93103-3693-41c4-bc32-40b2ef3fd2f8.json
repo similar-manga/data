@@ -7,6 +7,14 @@
    "title": {
     "en": "Blue Striker"
    },
+   "altTitles": [
+    {
+     "en": "Синий Страйкер"
+    },
+    {
+     "en": "ブルーストライカー"
+    }
+   ],
    "description": {
     "en": "A once popular action hero finds himself involved with a strange game."
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,43 +61,53 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-23T16:07:23+00:00",
+   "updatedAt": "2021-05-25T15:47:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "890373e9-3e0d-4805-acd2-49606ff6c94e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shibata Yokusaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "717990fb-f368-480f-869e-9c9e12d512a2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sawa Makoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cb1e63a4-a569-455c-a5ce-12c7175f6294",
-   "type": "chapter"
-  },
-  {
-   "id": "01306e33-390e-43ca-9daa-f23d1b619b95",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
+   "id": "d084daee-3dca-4fd7-b4e0-301e86e11fa8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:23:52+00:00",
+    "description": "",
+    "fileName": "9593df37-ab2d-48c9-9724-5bec587be7d5.jpg",
+    "updatedAt": "2021-05-24T17:23:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

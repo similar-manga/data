@@ -7,6 +7,17 @@
    "title": {
     "en": "Mebae no March"
    },
+   "altTitles": [
+    {
+     "en": "March Bud"
+    },
+    {
+     "en": "Mebae no Maachi"
+    },
+    {
+     "en": "めばえのマーチ"
+    }
+   ],
    "description": {
     "en": "Contains three stories.\r\n1) Chimi is impatiently awaiting spring and her 14th birthday. Not yet ready to give up her tomboy ways, Chimi has a lot of confusion to deal with when she feels the first stirrings of girlhood awakening inside her."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,43 +54,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-18T01:21:22+00:00",
+   "updatedAt": "2021-05-25T15:43:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "7917ff51-0b19-4c5c-8a01-bb81f8cd6cd7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hasegawa Jun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7917ff51-0b19-4c5c-8a01-bb81f8cd6cd7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hasegawa Jun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "89e6ecb6-6c91-407e-a183-fee64a646a7a",
-   "type": "chapter"
-  },
-  {
-   "id": "2a5940e1-a621-45a6-861c-f603276ca095",
-   "type": "chapter"
-  },
-  {
-   "id": "99e42768-53ff-475d-88db-4a7b6d882b97",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "aa68490e-cbe1-4f51-9c1f-17d971a512df",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:17:37+00:00",
+    "description": "",
+    "fileName": "709b4005-e198-4964-9eba-cf5e90d75a4f.jpg",
+    "updatedAt": "2021-05-24T17:17:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

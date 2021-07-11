@@ -7,6 +7,14 @@
    "title": {
     "en": "Innocent Noise"
    },
+   "altTitles": [
+    {
+     "en": "Inosento Noizu"
+    },
+    {
+     "en": "イノセントノイズ"
+    }
+   ],
    "description": {
     "en": "Six stories by Imura Ei.\r\n\r\n1. Ongaku nante Doudemoii\r\n2-3. Hitsuji to Hyouka\r\n4. Natsuyasumi\r\n5. Tenshi ga Ita Hi\r\n6. Utsukushii naru Hi\r\n7. Ongaku nante Doudemoii: Side Ruriko"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +74,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,71 +86,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-16T18:32:44+00:00",
+   "updatedAt": "2021-05-25T15:39:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "cdcda791-852f-454c-9fac-6c3e2aba80ed",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Imura Ei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cdcda791-852f-454c-9fac-6c3e2aba80ed",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Imura Ei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e5f2fe71-0c04-45e8-8789-1e82f0063f0b",
-   "type": "chapter"
-  },
-  {
-   "id": "4e996347-1379-41f0-8113-771974160148",
-   "type": "chapter"
-  },
-  {
-   "id": "49878fb6-fa66-455e-b57f-ab7d2f15c7f0",
-   "type": "chapter"
-  },
-  {
-   "id": "0643b1a0-0a90-4ed9-8802-6954844c1816",
-   "type": "chapter"
-  },
-  {
-   "id": "87ddfb4a-91ee-4f7d-aac1-f8302db8dabc",
-   "type": "chapter"
-  },
-  {
-   "id": "acdde6af-cd10-48d0-8a29-827c7ea06044",
-   "type": "chapter"
-  },
-  {
-   "id": "73b2eae4-89fd-4580-a028-6cc197a12654",
-   "type": "chapter"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "b135d7d2-5233-4f50-9641-e50fa5e19602",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:32+00:00",
+    "description": "",
+    "fileName": "ff8e1554-652d-474c-86d6-3ef5b78deef8.jpg",
+    "updatedAt": "2021-05-24T17:01:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

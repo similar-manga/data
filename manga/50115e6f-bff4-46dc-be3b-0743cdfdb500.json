@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Queen's Blade - Hide \u0026amp; Seek"
+    "en": "Queen's Blade - Hide \u0026 Seek"
    },
+   "altTitles": [
+    {
+     "en": "クイーンズブレイド Hide \u0026 Seek"
+    }
+   ],
    "description": {
     "en": "In the tradition, it is only the strongest women that can rule this kingdom. The battle that decides the strongest woman done once every four years. This battle is called Queen's Blade. Erina is ordered to bring back her runaway sister, Reina, who's participating in the Queen's Blade tournament."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -51,75 +60,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-01-20T23:45:54+00:00",
+   "updatedAt": "2021-05-25T15:42:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "7f64d00f-dd7f-4956-b2b2-1bcb48f1f7df",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hobby Japan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "730310b6-79aa-498a-9271-92d5693491dd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nanzaki Iku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "21a6cb32-73a1-4c61-8849-2c21061314e3",
-   "type": "chapter"
-  },
-  {
-   "id": "670e2732-1076-44b7-933d-70b7d9095908",
-   "type": "chapter"
-  },
-  {
-   "id": "f22e6262-6e8b-4ae0-b43c-9bf43eb80464",
-   "type": "chapter"
-  },
-  {
-   "id": "a9bf6d5b-7672-4ae9-aacd-425d76a6672a",
-   "type": "chapter"
-  },
-  {
-   "id": "15c9e743-1716-43a0-ae95-371eb8c234ac",
-   "type": "chapter"
-  },
-  {
-   "id": "86e9021b-912d-4d2a-81ca-7064b69ce240",
-   "type": "chapter"
-  },
-  {
-   "id": "16f91492-564d-4292-a9cc-63c174e0ea3d",
-   "type": "chapter"
-  },
-  {
-   "id": "6464d123-7b6a-4a28-afe7-506d1b01d9e8",
-   "type": "chapter"
-  },
-  {
-   "id": "fa2797d0-d900-461e-9692-aea6e74ef77c",
-   "type": "chapter"
-  },
-  {
-   "id": "4857f981-05c1-4d6e-bb6f-1617b5f4c8c9",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "cde5fe20-55f8-4f8d-b88b-531f7b8fd8c4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:47:55+00:00",
+    "description": "",
+    "fileName": "31472e11-aeae-4456-a4a6-d298528ca33d.jpg",
+    "updatedAt": "2021-05-24T16:47:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

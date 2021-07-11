@@ -7,6 +7,17 @@
    "title": {
     "en": "Ichigo no Gakkou"
    },
+   "altTitles": [
+    {
+     "en": "Ichigo's School"
+    },
+    {
+     "en": "いちごの学校"
+    },
+    {
+     "en": "草莓老师的学校"
+    }
+   ],
    "description": {
     "en": "Itabashi Kurumi was a regular, everyday High School student...until she got pregnant by none other than her teacher, Oomiya Ichigo-sensei. Now pregnant, Kurumi dropped out of school and Oomiya got fired from his job. Half a year later, the two get married and live with their kid. The two of them have to get through the many obstacles ahead of them, as they now face only challenges."
    },
@@ -32,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +55,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +67,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +79,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -72,63 +91,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-25T15:08:20+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "bb7c9343-c2d3-462d-ac59-ffe89475a2d0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SATOU Nanki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d16c9f9d-1c44-438f-abda-3407dad9525b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KIZUKI Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e04bb605-61be-420f-99bb-c91a048d3947",
-   "type": "chapter"
-  },
-  {
-   "id": "4c71f78c-6b45-41d0-b51f-f469da2f6f14",
-   "type": "chapter"
-  },
-  {
-   "id": "c4812cda-c0da-4e0c-83f3-d8bea5fe1609",
-   "type": "chapter"
-  },
-  {
-   "id": "45b25a11-0fa3-405e-b5b8-a644a89f4e14",
-   "type": "chapter"
-  },
-  {
-   "id": "a3be2425-80bf-495c-a858-0dbb22d103c0",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "fa3ea86f-303a-4fbb-a230-f68b023a79e1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:24+00:00",
+    "description": "",
+    "fileName": "e6292c04-fe4f-4781-bdaa-f8095ea07a10.jpg",
+    "updatedAt": "2021-05-24T16:56:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

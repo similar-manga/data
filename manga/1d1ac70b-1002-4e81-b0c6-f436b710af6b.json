@@ -7,6 +7,14 @@
    "title": {
     "en": "The Morning Train Next to the Person I Like"
    },
+   "altTitles": [
+    {
+     "en": "Asa Densha de Suki na Hito to Tonari ni natta Hanashi"
+    },
+    {
+     "en": "朝電車で好きな人と隣になった話"
+    }
+   ],
    "description": {
     "en": "She sleeps, she scores."
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +46,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +58,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -56,6 +70,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -66,51 +82,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-12T11:54:06+00:00",
+   "updatedAt": "2021-05-25T15:40:04+00:00"
   }
  },
  "relationships": [
   {
    "id": "f92eae29-fbb4-40a0-bffe-ae3be253c4df",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sensiya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f92eae29-fbb4-40a0-bffe-ae3be253c4df",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sensiya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f8d6498d-a0cb-45a4-99ea-ebd46eb40c63",
-   "type": "chapter"
-  },
-  {
-   "id": "719b9ca1-b7ef-4ef6-b86f-276505a727e9",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "d45557e0-d0fb-4fc8-a6dd-83e4a23c1f39",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:10:02+00:00",
+    "description": "",
+    "fileName": "7f42b1f9-33f6-4a33-8f64-9ba94d97d842.png",
+    "updatedAt": "2021-05-24T18:10:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

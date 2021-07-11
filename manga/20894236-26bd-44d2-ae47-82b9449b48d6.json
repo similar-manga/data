@@ -7,6 +7,11 @@
    "title": {
     "en": "Deception"
    },
+   "altTitles": [
+    {
+     "en": "현혹"
+    }
+   ],
    "description": {
     "en": "The story of an artist who becomes entrapped by the charms of his beautiful client and is unable to escape from the mysteries surrounding the identity of the captivating woman."
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Thriller"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -46,6 +55,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +67,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -66,6 +79,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -76,6 +91,8 @@
       "name": {
        "en": "Vampires"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -86,6 +103,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -96,6 +115,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -106,83 +127,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-14T13:28:15+00:00",
+   "updatedAt": "2021-05-25T15:40:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "e379d052-5ee3-46ab-ae52-4f0fd7571366",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Author Hong(홍작가)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e379d052-5ee3-46ab-ae52-4f0fd7571366",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Author Hong(홍작가)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5b3877ee-35b7-478c-96d2-68602713166e",
-   "type": "chapter"
-  },
-  {
-   "id": "e26fd88b-b39c-48e3-b452-02380b7e54e9",
-   "type": "chapter"
-  },
-  {
-   "id": "c046cd84-572b-45a9-a3ce-2f0782038047",
-   "type": "chapter"
-  },
-  {
-   "id": "eb705e9f-940f-41a6-82c4-9256811621ec",
-   "type": "chapter"
-  },
-  {
-   "id": "2f2f0086-4836-4389-ab71-9decc01c765c",
-   "type": "chapter"
-  },
-  {
-   "id": "49480c06-326b-48fd-a11f-b0112587f012",
-   "type": "chapter"
-  },
-  {
-   "id": "07251805-a27e-4d59-b488-f0bfbec15168",
-   "type": "tag"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "d7d1730f-6eb0-4ba6-9437-602cac38664c",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "fd280ac5-90c0-4f3a-81dc-46be666c4ec0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:06:35+00:00",
+    "description": "",
+    "fileName": "ff267dfb-211b-434c-b8b8-c9277dbde08c.png",
+    "updatedAt": "2021-05-24T18:06:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

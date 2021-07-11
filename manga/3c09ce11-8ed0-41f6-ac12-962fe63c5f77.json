@@ -7,6 +7,11 @@
    "title": {
     "en": "MY LITTLE MARS"
    },
+   "altTitles": [
+    {
+     "en": "マイリトルマーズ"
+    }
+   ],
    "description": {
     "en": "Oneshot from WSJ 2020 #12."
    },
@@ -15,7 +20,6 @@
     "mal": "128054"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +31,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +43,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +55,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,51 +67,53 @@
       "name": {
        "en": "Military"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-08T22:54:43+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "0d92e1eb-7843-4d12-a935-3cb2e3213503",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yu Odoriba",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0d92e1eb-7843-4d12-a935-3cb2e3213503",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yu Odoriba",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a1c02a45-61c7-4779-979d-338b9bbd9b68",
-   "type": "chapter"
-  },
-  {
-   "id": "d1d80815-14d9-45a0-9f29-acc80a1d8e30",
-   "type": "chapter"
-  },
-  {
-   "id": "feede61a-d44b-4f2a-b42b-25893bfd3e94",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
-   "type": "tag"
+   "id": "09527645-e7ce-4f7b-8445-94558a68fa3c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:05:59+00:00",
+    "description": "",
+    "fileName": "bca1c38c-a951-4873-88bb-a1b23ac2d412.jpg",
+    "updatedAt": "2021-05-24T18:05:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

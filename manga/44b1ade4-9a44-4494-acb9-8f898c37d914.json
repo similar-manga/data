@@ -7,6 +7,11 @@
    "title": {
     "en": "Mamotte Agemasu!"
    },
+   "altTitles": [
+    {
+     "en": "守ってあげます！"
+    }
+   ],
    "description": {
     "en": "Takao-kun is deeply obsessed with his older brother, a clumsy but nice teacher. His brother suddenly has some serious problems because of one student. Takao decides to become friends with this rich and annoying boy to help out his brother. Will he succeed? Who is the mysterious brother-stalker?!"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,55 +71,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-28T17:32:21+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "cf57cb6c-16a5-4a3c-9b54-857028a71132",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamato Nase",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cf57cb6c-16a5-4a3c-9b54-857028a71132",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamato Nase",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bdf6154f-0eb3-49e2-9d1c-e165fa6ab8ea",
-   "type": "chapter"
-  },
-  {
-   "id": "0d36209e-9ab0-43a6-b5fb-addbb2bb1c03",
-   "type": "chapter"
-  },
-  {
-   "id": "de87bd1b-e03c-4787-9274-93b911036662",
-   "type": "chapter"
-  },
-  {
-   "id": "6c92d56c-38b5-4da2-8f83-e9310e709248",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "2ff2195d-0361-4ff1-959b-70ce56a3cccc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:03+00:00",
+    "description": "",
+    "fileName": "bf7c9615-7d0a-48f2-bf7b-9a79c54e9851.jpg",
+    "updatedAt": "2021-05-24T16:56:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

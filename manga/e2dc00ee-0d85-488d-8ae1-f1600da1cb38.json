@@ -7,6 +7,11 @@
    "title": {
     "en": "Flash! Kimengumi"
    },
+   "altTitles": [
+    {
+     "en": "フラッシュ!奇面組"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -51,43 +60,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-23T04:50:02+00:00",
+   "updatedAt": "2021-05-25T15:48:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "a33729ef-45b3-43e6-ac94-b861cd6d519b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shinzawa Motoei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a33729ef-45b3-43e6-ac94-b861cd6d519b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shinzawa Motoei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "de8187e4-39e9-44f0-828c-c23a8ff175cd",
-   "type": "chapter"
-  },
-  {
-   "id": "a64071ea-9960-4ba3-89dc-4947056007ce",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "4a8380e3-412a-4f53-a209-aaba370d3243",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:31:08+00:00",
+    "description": "",
+    "fileName": "f817918b-ba53-4ed1-9fd1-d436091b2499.jpg",
+    "updatedAt": "2021-05-24T17:31:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Red String"
    },
+   "altTitles": [
+    {
+     "en": "붉은 실"
+    }
+   ],
    "description": {
     "en": "The story of a boy and girl whose lives were one day entwined by red string. Literally."
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,6 +56,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +68,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +80,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -77,87 +92,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-17T05:28:55+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "29a2c03f-d68b-4ed0-9043-a7f0ba710e40",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Dong Bi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "29a2c03f-d68b-4ed0-9043-a7f0ba710e40",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Dong Bi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2f736510-15a0-4248-8f06-27b8f068fb3f",
-   "type": "chapter"
-  },
-  {
-   "id": "0eea537b-41e4-4be3-a17f-dab820815eda",
-   "type": "chapter"
-  },
-  {
-   "id": "b48e4d03-ac33-4f0e-87fc-5f70f86e685e",
-   "type": "chapter"
-  },
-  {
-   "id": "7b1e8346-5cc5-4d93-afbf-008d6263dfc5",
-   "type": "chapter"
-  },
-  {
-   "id": "ec89374a-0ad2-4d16-ae18-285ecebde26f",
-   "type": "chapter"
-  },
-  {
-   "id": "776e5266-70dc-4b8b-a97e-a5e3e78b6106",
-   "type": "chapter"
-  },
-  {
-   "id": "7aebbc54-cf26-4cb5-8bb3-14bb4e1989bc",
-   "type": "chapter"
-  },
-  {
-   "id": "723835db-ca8c-418c-b3bd-40e0bcbcab33",
-   "type": "chapter"
-  },
-  {
-   "id": "fd281d38-4a51-4eed-b408-ca8da66b1ae2",
-   "type": "chapter"
-  },
-  {
-   "id": "ffec545a-7ac3-40c0-ad1f-1efb4fc24157",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "e04a2cd8-f594-4fed-9495-206024be2ca5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:45:10+00:00",
+    "description": "",
+    "fileName": "8c9fe9c8-d19a-4a90-b377-2961891524ea.jpg",
+    "updatedAt": "2021-05-24T16:45:10+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

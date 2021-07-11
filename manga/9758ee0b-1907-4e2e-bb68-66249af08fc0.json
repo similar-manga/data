@@ -7,6 +7,11 @@
    "title": {
     "en": "Bitter Sweet Sandwich"
    },
+   "altTitles": [
+    {
+     "en": "苦甜三明治"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -25,53 +30,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-10T16:54:08+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "577d5146-e3c6-4a64-a57d-8117bf7dff51",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ryo (椋)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "577d5146-e3c6-4a64-a57d-8117bf7dff51",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ryo (椋)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d83ee9c2-33e3-43c0-8721-139c24944a0f",
-   "type": "chapter"
-  },
-  {
-   "id": "ab00ccd9-8b8f-48ee-a03b-d9df5a9dca12",
-   "type": "chapter"
-  },
-  {
-   "id": "6ceb09a5-c462-4bdc-83ea-3c53a51a9c5a",
-   "type": "chapter"
-  },
-  {
-   "id": "e372bcc1-457a-49a8-935f-1c8c7c11b27d",
-   "type": "chapter"
-  },
-  {
-   "id": "8b8dd1f1-9019-44dd-9c59-aa649c8298cd",
-   "type": "chapter"
-  },
-  {
-   "id": "c0e23e08-b13a-4fd5-9d56-0f78b5476ccd",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "f07ca529-6143-4f27-874d-9c4e3e130506",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:36:59+00:00",
+    "description": "",
+    "fileName": "cac5f99b-b831-43bf-87ce-3f41dc392fb7.jpg",
+    "updatedAt": "2021-05-24T17:36:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

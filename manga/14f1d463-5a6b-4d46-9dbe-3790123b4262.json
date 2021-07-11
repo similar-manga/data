@@ -7,6 +7,17 @@
    "title": {
     "en": "Mura Matsuri"
    },
+   "altTitles": [
+    {
+     "en": "Muramatsuri"
+    },
+    {
+     "en": "村祀"
+    },
+    {
+     "en": "村祀り"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +25,6 @@
     "mu": "113790"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "suggestive",
@@ -26,6 +36,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +48,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +60,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -56,39 +72,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-04-15T22:36:10+00:00",
+   "updatedAt": "2020-04-15T22:36:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "87ac9fe7-4010-46fe-bb1d-23733bc85d10",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KIGUCHI Gin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c30e059c-1eb7-4b93-a4d1-71b12a890b65",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YAMAGUCHI Masakazu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "5c0bc871-0751-4fed-bba9-3ba556ece336",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:52:32+00:00",
+    "description": "",
+    "fileName": "9e8b60ec-5c99-4ffa-94a3-62b4cca75867.jpg",
+    "updatedAt": "2021-05-24T17:52:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -27,6 +27,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,8 +37,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,55 +51,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-21T03:31:18+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "f8d53d83-85cb-4cd3-93ae-3730bb84b022",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takanashi Morimichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f8d53d83-85cb-4cd3-93ae-3730bb84b022",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takanashi Morimichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c4390ac3-2635-43b3-888b-509bf3d2cc88",
-   "type": "chapter"
-  },
-  {
-   "id": "cc1d1f15-ec30-4e83-b435-ca46768b9f70",
-   "type": "chapter"
-  },
-  {
-   "id": "bbbd25f5-031a-406d-8c5c-dcf31754bc18",
-   "type": "chapter"
-  },
-  {
-   "id": "a75d50ea-c3f3-491a-9bd2-95c5eda23eb6",
-   "type": "chapter"
-  },
-  {
-   "id": "025a9f12-1122-4306-a73b-afd692b3abe8",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "bedddf9d-cd52-4f78-9721-2c0d143e6ea0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:32+00:00",
+    "description": "",
+    "fileName": "a39bac7d-7345-4225-a255-a9a034cf0824.jpg",
+    "updatedAt": "2021-05-24T16:58:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

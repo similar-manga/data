@@ -25,6 +25,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,63 +37,53 @@
       "name": {
        "en": "Mecha"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-10T16:07:03+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "3922fa26-2a6f-4c59-b31f-4daa5ebed46c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kazuho Hyodo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c8ecc5fd-ff52-40d3-b954-429e01b1e006",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kazushi Hinoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c2cbc1f8-80fa-4e92-a547-3915bcef8493",
-   "type": "chapter"
-  },
-  {
-   "id": "bc16cd29-5278-418e-bd19-25753848725b",
-   "type": "chapter"
-  },
-  {
-   "id": "24714d1b-728b-464b-bb2b-120148b7361f",
-   "type": "chapter"
-  },
-  {
-   "id": "3129892f-334e-4f59-8ffb-ded3ace1ed1d",
-   "type": "chapter"
-  },
-  {
-   "id": "b5acbace-ba01-4605-b70f-ebe6d796e8da",
-   "type": "chapter"
-  },
-  {
-   "id": "60a40b98-8436-4e14-8d40-6a7da3de0dcf",
-   "type": "chapter"
-  },
-  {
-   "id": "5ef36a59-6df4-402a-9aee-116c3501ee7d",
-   "type": "chapter"
-  },
-  {
-   "id": "61fde8f0-57b4-429d-91d1-ce0c57b3faaf",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "50880a9d-5440-4732-9afb-8f457127e836",
-   "type": "tag"
+   "id": "1ecd2a3a-6a79-4f80-9b47-14cd435193a2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:06+00:00",
+    "description": "",
+    "fileName": "a1912256-5f8d-45a7-a97c-dc1e85025c74.jpg",
+    "updatedAt": "2021-05-24T17:04:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

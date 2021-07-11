@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,51 +46,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-09T23:34:05+00:00",
+   "updatedAt": "2021-05-25T15:47:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f62f47cb-93b8-422e-a74f-0a3709182c50",
-   "type": "chapter"
-  },
-  {
-   "id": "410659c6-89f0-4912-9ab0-f266aaab7d8f",
-   "type": "chapter"
-  },
-  {
-   "id": "d128fe84-b0e5-4b22-b5ac-cac78903f417",
-   "type": "chapter"
-  },
-  {
-   "id": "b9529175-85b7-49cd-8496-7f87470f65db",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "6f6fc97a-5ff6-4fa2-8bd4-7681c4da79bd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:48:02+00:00",
+    "description": "",
+    "fileName": "decf062e-7289-4797-8895-b8460049a5c7.jpg",
+    "updatedAt": "2021-05-24T17:48:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

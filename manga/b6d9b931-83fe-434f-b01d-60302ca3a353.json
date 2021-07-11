@@ -7,6 +7,17 @@
    "title": {
     "en": "Planet of Wheat"
    },
+   "altTitles": [
+    {
+     "en": "Mugi no Wakusei"
+    },
+    {
+     "en": "Planet of the Wheat"
+    },
+    {
+     "en": "麦の惑星"
+    }
+   ],
    "description": {
     "en": "In a mountainside bakery, Konta, a young shopkeeper, comes across Mamita, a stranded alien looking for food. As Konta winds up taking him in as his little brother, so begins the story of the baker and the little alien."
    },
@@ -16,7 +27,6 @@
     "mu": "123282"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -28,6 +38,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +50,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +62,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,47 +74,53 @@
       "name": {
        "en": "Aliens"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-04T04:22:19+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "d9f953db-a05a-43bf-b1e0-280e013e8cbe",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Torino Shino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d9f953db-a05a-43bf-b1e0-280e013e8cbe",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Torino Shino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c5dce94a-3040-4013-884e-4057908a2192",
-   "type": "chapter"
-  },
-  {
-   "id": "02f90a06-a71b-4985-a7a7-793515f1a5d2",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "e64f6742-c834-471d-8d72-dd51fc02b835",
-   "type": "tag"
+   "id": "3ce288da-6599-4f6b-b9cf-998c398f4a96",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:01:43+00:00",
+    "description": "",
+    "fileName": "d4e2b2af-b9e0-4c6f-85ae-dee69dcdad55.png",
+    "updatedAt": "2021-05-24T18:01:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -11,7 +11,6 @@
     "en": "A boy fights to avenge a friend."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,39 +46,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-03T01:09:23+00:00",
+   "updatedAt": "2021-05-25T15:45:37+00:00"
   }
  },
  "relationships": [
   {
    "id": "33ca9c46-aca7-45f8-9be6-a91deeed8e8e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itagaki Keisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "33ca9c46-aca7-45f8-9be6-a91deeed8e8e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itagaki Keisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "69ce8614-7905-400b-a9e7-52fd5bd6d71a",
-   "type": "chapter"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "3a5d8f9c-fa9c-4f74-bc60-d786dfa17dd9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:22+00:00",
+    "description": "",
+    "fileName": "4dfa6863-8cdd-4e9f-9183-11bde6c05efa.jpg",
+    "updatedAt": "2021-05-24T17:21:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

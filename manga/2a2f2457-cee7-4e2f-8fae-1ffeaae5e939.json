@@ -7,11 +7,18 @@
    "title": {
     "en": "Folklore of Kudan"
    },
+   "altTitles": [
+    {
+     "en": "Фольклор Кудана"
+    },
+    {
+     "en": "クダンノフォークロア"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +30,8 @@
       "name": {
        "en": "Ghosts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -31,8 +40,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +54,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,39 +66,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-02-24T13:13:00+00:00",
+   "updatedAt": "2021-02-24T13:13:00+00:00"
   }
  },
  "relationships": [
   {
    "id": "ceb2c72d-abaf-43aa-ba9f-f5ecdfcb2138",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimizu Hatsumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "355201e0-7690-4113-a0f1-a7528299da8f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nichiru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3bb26d85-09d5-4d2e-880c-c34b974339e9",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "053b34e5-50c6-4f4b-bdff-7f1e12f81d19",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:32:48+00:00",
+    "description": "",
+    "fileName": "b55b4ad7-5449-4ad5-8ef1-6c4f2ff43439.jpg",
+    "updatedAt": "2021-05-24T18:32:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

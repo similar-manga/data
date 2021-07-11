@@ -7,6 +7,14 @@
    "title": {
     "en": "Kin no Tamago"
    },
+   "altTitles": [
+    {
+     "en": "Golden Eggs"
+    },
+    {
+     "en": "金のタマゴ"
+    }
+   ],
    "description": {
     "en": "To sell 10 million copies! This is the dream of the newbie editor, Sakurai Tamako. As she goes through funny moments, sad times, and even hardships, Tamako is running towards her dream!"
    },
@@ -33,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +53,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -53,75 +65,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-01T23:54:35+00:00",
+   "updatedAt": "2021-05-25T15:49:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "0b1ac2bb-3831-46ab-bdf4-50952b054493",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katsuwo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0b1ac2bb-3831-46ab-bdf4-50952b054493",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katsuwo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a8a507cc-a59e-4064-b0d8-66f8721f9b24",
-   "type": "chapter"
-  },
-  {
-   "id": "26643845-b784-4b83-bd61-46bdfa3c4fec",
-   "type": "chapter"
-  },
-  {
-   "id": "ea4ab468-972e-45f8-acfc-d139164f5cf2",
-   "type": "chapter"
-  },
-  {
-   "id": "0ba77278-36db-4a86-8aa2-415384a0d344",
-   "type": "chapter"
-  },
-  {
-   "id": "e4fbf356-4373-4045-8556-3539c6a00554",
-   "type": "chapter"
-  },
-  {
-   "id": "9e0dc774-4c42-450f-9987-6855f7ab4ab0",
-   "type": "chapter"
-  },
-  {
-   "id": "07e9f9c7-2554-464b-8afb-5b87bde04c20",
-   "type": "chapter"
-  },
-  {
-   "id": "cbcea529-1fa6-4e15-bcfd-dc60b715c2cf",
-   "type": "chapter"
-  },
-  {
-   "id": "6708233a-2b90-449f-979d-27aac71bb07f",
-   "type": "chapter"
-  },
-  {
-   "id": "c4af0fcb-805a-41f7-8dbb-f49ee3b1538b",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "058ca62e-9b43-4f03-9626-bda1e34667ca",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:30+00:00",
+    "description": "",
+    "fileName": "4cf533c9-161a-4557-9507-a60dabaf1044.jpg",
+    "updatedAt": "2021-05-24T16:56:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

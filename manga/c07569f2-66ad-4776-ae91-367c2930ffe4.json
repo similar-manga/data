@@ -7,6 +7,17 @@
    "title": {
     "en": "My Solo Exchange Diary"
    },
+   "altTitles": [
+    {
+     "en": "Exchange Diaries by Myself"
+    },
+    {
+     "en": "Hitori Koukan Nikki"
+    },
+    {
+     "en": "一人交換日記"
+    }
+   ],
    "description": {
     "en": "Nagata Kabi uses engaging diary comics to explore her personal issues surrounding mental health, identity, and intimacy. Her relationship with her parents is growing more difficult than ever, and she struggles with the idea of living alone for the first time. Join her on her heart-wrenching, relatable journey through the challenges of adulthood."
    },
@@ -34,6 +45,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,8 +55,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,6 +69,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -64,79 +81,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-15T16:13:17+00:00",
+   "updatedAt": "2021-05-25T15:47:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "9005e689-2e66-4e35-b8f6-94e14b72ce70",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nagata Kabi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9005e689-2e66-4e35-b8f6-94e14b72ce70",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nagata Kabi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "03581af5-ab5e-4238-9ff4-6cab0d0fa6f9",
-   "type": "chapter"
-  },
-  {
-   "id": "7041e986-99e7-4384-8d49-15dfbbe59018",
-   "type": "chapter"
-  },
-  {
-   "id": "33aa8013-5e2e-4a77-b793-572b4953c733",
-   "type": "chapter"
-  },
-  {
-   "id": "857960f4-d679-4148-be69-d9ff2feb5913",
-   "type": "chapter"
-  },
-  {
-   "id": "732cfd05-e0cf-4663-bba4-c8152d15741c",
-   "type": "chapter"
-  },
-  {
-   "id": "62b92153-8689-4611-ab88-3ca12a0df4ad",
-   "type": "chapter"
-  },
-  {
-   "id": "3f8cadb3-55b7-4f03-a0fd-b8110fb41eb2",
-   "type": "chapter"
-  },
-  {
-   "id": "6126387f-2f48-4a01-a6b9-d64aabd2c4bf",
-   "type": "chapter"
-  },
-  {
-   "id": "ad8c917b-a407-4b9f-875f-fa15574c9e3e",
-   "type": "chapter"
-  },
-  {
-   "id": "1c432855-91bd-4497-acdd-ac4b26856e4d",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "08b79d67-fd13-4fa0-8c54-87277a2928fa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:57+00:00",
+    "description": "",
+    "fileName": "e2c4299a-0e28-4e9a-8458-aabbf91296d5.jpg",
+    "updatedAt": "2021-05-24T17:11:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

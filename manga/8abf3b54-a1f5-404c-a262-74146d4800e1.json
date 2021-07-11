@@ -7,6 +7,20 @@
    "title": {
     "en": "Tadaima Shugyouchuu"
    },
+   "altTitles": [
+    {
+     "en": "Right now, I'm in the pursuit of knowledge"
+    },
+    {
+     "en": "Tadaima Shuugyouchuu"
+    },
+    {
+     "en": "Tadaima Syugyoutyuu"
+    },
+    {
+     "en": "ただいま修行中。"
+    }
+   ],
    "description": {
     "en": "Danny is an American teenager living in Japan. He came to Japan to improve his karate, but fell in love with Shinobu, master of a dojo."
    },
@@ -31,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +55,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,59 +69,53 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-13T23:05:42+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "4c9a26ef-fc4a-456a-831e-eed9d6538228",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Momozuki Haruka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4c9a26ef-fc4a-456a-831e-eed9d6538228",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Momozuki Haruka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "39a5172c-0d01-4762-ac91-2426c19b6bf2",
-   "type": "chapter"
-  },
-  {
-   "id": "445a2f87-b530-4ea0-be87-5b5054752006",
-   "type": "chapter"
-  },
-  {
-   "id": "7d7c9c44-10ce-45e5-b835-08a6b09c6a79",
-   "type": "chapter"
-  },
-  {
-   "id": "8064348b-bce8-4078-a000-f291cd7294ed",
-   "type": "chapter"
-  },
-  {
-   "id": "23e19ad7-18dc-41b9-acb9-294270a1c53e",
-   "type": "chapter"
-  },
-  {
-   "id": "825b4136-6534-4d2c-97ac-cea8dd38ad0f",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
+   "id": "5b51b011-e7db-4fd4-9f31-ba4a532d0670",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:21+00:00",
+    "description": "",
+    "fileName": "c0283ecc-0e62-421c-9d08-aed45d77dc18.jpg",
+    "updatedAt": "2021-05-24T17:15:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

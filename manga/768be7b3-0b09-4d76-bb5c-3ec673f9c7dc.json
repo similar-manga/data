@@ -7,6 +7,14 @@
    "title": {
     "en": "Nagisa Shokudou"
    },
+   "altTitles": [
+    {
+     "en": "Nagisa Cafeteria"
+    },
+    {
+     "en": "なぎさ食堂"
+    }
+   ],
    "description": {
     "en": "This 4-koma tells the story of Kurihara Nagisa, a high-school girl who loves eating and cooking. Together with her friends Kanako and Chiaki, the three girls bond over recipes and delicious food."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,63 +63,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-18T19:45:44+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "1ee4a096-296b-4a5e-9910-3af2dbfc6345",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujisawa Kamiya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1ee4a096-296b-4a5e-9910-3af2dbfc6345",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujisawa Kamiya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c0c115eb-4f7f-43b8-9606-31539c472929",
-   "type": "chapter"
-  },
-  {
-   "id": "7975c3aa-54da-4880-b4aa-6bb0516b8b35",
-   "type": "chapter"
-  },
-  {
-   "id": "c5068ad8-c383-4c3b-8919-b1faf7ebb401",
-   "type": "chapter"
-  },
-  {
-   "id": "0f5f8e28-704f-4a92-acd5-d3d1c974ec20",
-   "type": "chapter"
-  },
-  {
-   "id": "e1010f0c-d61d-4bf7-9d21-a18b73b393d4",
-   "type": "chapter"
-  },
-  {
-   "id": "a60072b8-48ae-4f94-8efb-446487900c70",
-   "type": "chapter"
-  },
-  {
-   "id": "9dc4351f-1ae8-461c-8352-6b09e280794b",
-   "type": "chapter"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "d544ca62-0def-4f22-aeb1-b458fd2d6c80",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:48:35+00:00",
+    "description": "",
+    "fileName": "b5855c30-1ad1-4968-b9bd-a9c62cee17c5.jpg",
+    "updatedAt": "2021-05-24T16:48:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

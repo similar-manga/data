@@ -15,7 +15,6 @@
     "raw": "https://pops.vn/comics/hydrangea-5ecbae110687870034da80a4"
    },
    "originalLanguage": "vi",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +25,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -46,6 +49,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -56,47 +61,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-25T20:42:00+00:00",
+   "updatedAt": "2021-05-25T15:41:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "c67f6f0d-f616-4eb4-a7bd-eb4cfbea3218",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MONI COMIC",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c67f6f0d-f616-4eb4-a7bd-eb4cfbea3218",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MONI COMIC",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "976c032e-c1b0-459e-984a-e6e70bcda55c",
-   "type": "chapter"
-  },
-  {
-   "id": "37f1a2a7-0868-48f7-beb8-4fb1039bd7a0",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "3c228760-9596-4f6e-8318-c0625a3b9292",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:07:53+00:00",
+    "description": "",
+    "fileName": "0a22a77a-166c-4d86-b38f-fe9d2fbb7f8e.jpg",
+    "updatedAt": "2021-05-24T18:07:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

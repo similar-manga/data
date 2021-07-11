@@ -11,7 +11,6 @@
     "en": "A light story..."
    },
    "originalLanguage": "vi",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,35 +33,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-02T03:29:29+00:00",
+   "updatedAt": "2021-05-25T15:40:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "78162ed3-e8b9-484b-922a-86e22d1a29d1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sky2Sky",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "78162ed3-e8b9-484b-922a-86e22d1a29d1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sky2Sky",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "123f8719-2a45-470e-80c5-adfff746d8cc",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "24ed58d3-591e-4f00-997d-03fee4cd31c7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:43:40+00:00",
+    "description": "",
+    "fileName": "0df54531-6f44-496b-8ca2-03fc1a85dd95.jpg",
+    "updatedAt": "2021-05-24T16:43:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

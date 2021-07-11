@@ -7,6 +7,20 @@
    "title": {
     "en": "Tenshi no Pocket"
    },
+   "altTitles": [
+    {
+     "en": "I Have Love"
+    },
+    {
+     "en": "the Avante-gardes"
+    },
+    {
+     "en": "To You"
+    },
+    {
+     "en": "天使のポケット"
+    }
+   ],
    "description": {
     "en": "A collection of short stories.\r\n1) Angel's Pocket (Tenshi no Pocket) \r\n2) To You, the Avante-gardes (Abangyado na Kimitachi e)\r\n3) I Have Love (Wagahai ni Ai Ariki)\r\n4) 9 o'Clock Bomb (9-ji Bakudan)"
    },
@@ -30,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +56,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -50,51 +68,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-30T13:34:39+00:00",
+   "updatedAt": "2021-05-25T15:49:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "07879917-7014-4ffd-a4bc-7bae2ef5f37e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKANASHI Mitsuba",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "07879917-7014-4ffd-a4bc-7bae2ef5f37e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKANASHI Mitsuba",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "28896501-3589-4117-8e4d-63ae4197de3b",
-   "type": "chapter"
-  },
-  {
-   "id": "5be7ad31-b672-4821-a912-950c205dfcb4",
-   "type": "chapter"
-  },
-  {
-   "id": "36d54c3b-68b4-4a5a-9821-312bda98b0b6",
-   "type": "chapter"
-  },
-  {
-   "id": "026d2664-b11f-41aa-a4ad-4590a59dfa88",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "8479bee8-7cc0-4f9b-b176-7a434d523110",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:53:11+00:00",
+    "description": "",
+    "fileName": "ac2e1f94-cb56-40e0-9ed9-bc4e7df3b089.jpg",
+    "updatedAt": "2021-05-24T16:53:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

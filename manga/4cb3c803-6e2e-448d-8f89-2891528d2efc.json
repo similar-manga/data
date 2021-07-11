@@ -5,10 +5,15 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "\u0026ldquo;Ou no Saien\u0026rdquo; no Kishi to, \u0026ldquo;Yasai\u0026rdquo; no Ojou-sama"
+    "en": "“Ou no Saien” no Kishi to, “Yasai” no Ojou-sama"
    },
+   "altTitles": [
+    {
+     "en": "『王の菜園』の騎士と、『野菜』のお嬢様"
+    }
+   ],
    "description": {
-    "en": "Constantin de Arambourg, knight of the garden, is an overly serious knight who guards the king's kitchen garden. One day, he met a beautiful woman chasing a rabbit in the garden. When she caught the rabbit with her bare hands, she said: \u0026quot;I'll turn you into a meat pie, rabbit!\u0026quot; When she said this with a smile, his heart was struck like lighting - fall in love!"
+    "en": "Constantin de Arambourg, knight of the garden, is an overly serious knight who guards the king's kitchen garden. One day, he met a beautiful woman chasing a rabbit in the garden. When she caught the rabbit with her bare hands, she said: \"I'll turn you into a meat pie, rabbit!\" When she said this with a smile, his heart was struck like lighting - fall in love!"
    },
    "links": {
     "mal": "128528",
@@ -16,7 +21,6 @@
     "raw": "https://hobbyjapan.co.jp/comic/series/saien/"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "ongoing",
    "contentRating": "safe",
@@ -28,6 +32,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +44,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,43 +56,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-10T20:36:45+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "9500fcc5-343b-4232-9aae-282d9a30ee0f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Emoto Mashimesa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f52ad127-b9d4-4bcb-9cf2-4624375992da",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tanuda Niso",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0169d6d8-3622-41c7-8e4a-bda263705e6f",
-   "type": "chapter"
-  },
-  {
-   "id": "ef6f338a-d5a8-4c86-9b71-f4f170e33fb5",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "ec07ec75-bce4-4fc3-989a-e048d03fa50f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:13:50+00:00",
+    "description": "",
+    "fileName": "ba51893f-7858-4a09-a7e3-1a2374182973.jpg",
+    "updatedAt": "2021-05-24T18:13:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

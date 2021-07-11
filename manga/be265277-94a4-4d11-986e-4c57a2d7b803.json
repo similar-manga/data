@@ -7,6 +7,14 @@
    "title": {
     "en": "JK Shousetsuka Ppoi!"
    },
+   "altTitles": [
+    {
+     "en": "JK小説家っぽい"
+    },
+    {
+     "en": "She Looks Like a Novelist!"
+    }
+   ],
    "description": {
     "en": "At her high school entrance ceremony, Hibino Yuika meets the pretty Hoshizawa Nabi who... looks like a novelist?"
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -61,6 +75,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -71,83 +87,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-08-01T12:01:38+00:00",
+   "updatedAt": "2020-08-01T12:01:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "3a176b7e-12bf-4a77-b574-57ec557d8469",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mikami Teren",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0b2ae641-7060-4b1e-8881-146d4e3d0917",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "01f90f80-db3e-43db-9b53-6e1406db658a",
-   "type": "chapter"
-  },
-  {
-   "id": "b5c026f6-3ebf-4be7-86d3-0deb035b9ef1",
-   "type": "chapter"
-  },
-  {
-   "id": "04af60fb-b99d-458e-8283-b55be98b6222",
-   "type": "chapter"
-  },
-  {
-   "id": "d1a3de33-bb23-4a10-a433-2d26dc0d60f2",
-   "type": "chapter"
-  },
-  {
-   "id": "f4013d3e-bc20-4f5f-91fb-4cb999dbbbc6",
-   "type": "chapter"
-  },
-  {
-   "id": "7634938a-b7fd-4cd9-a157-2a642dfb4ad2",
-   "type": "chapter"
-  },
-  {
-   "id": "21a99fc2-4efb-4b23-ac43-356638b596f2",
-   "type": "chapter"
-  },
-  {
-   "id": "d76a099c-e593-497a-b917-d56c38182116",
-   "type": "chapter"
-  },
-  {
-   "id": "dd14d87a-b88b-49ad-87b7-14256906e96d",
-   "type": "chapter"
-  },
-  {
-   "id": "3e4a5c59-dfe7-4974-baa3-de5f50f0303d",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "d56c51e4-5518-4fa4-84a4-a6946676fc72",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:05:06+00:00",
+    "description": "",
+    "fileName": "408bc655-3a30-4b34-8bc3-65c3e5aa707f.jpg",
+    "updatedAt": "2021-05-24T18:05:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Hikari-Man"
    },
+   "altTitles": [
+    {
+     "en": "HIKARI-MAN"
+    },
+    {
+     "en": "光人"
+    }
+   ],
    "description": {
     "en": "Yamamoto's new comic . The story follows Hikari Shirochi, an ordinary high-school boy whose hobbies are games and PC-modding. In the first chapter, mysterious phenomena occur to his body, which conducts static electricity unusually well."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,55 +75,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-18T10:15:50+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "0299a49a-493d-42e3-b48c-026941f7b146",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamamoto Hideo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0299a49a-493d-42e3-b48c-026941f7b146",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamamoto Hideo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bb84a101-e926-4d6a-8547-17dc60072062",
-   "type": "chapter"
-  },
-  {
-   "id": "e295e8eb-b796-410f-8468-0afbd678f500",
-   "type": "chapter"
-  },
-  {
-   "id": "4e1ec2be-cf90-43f9-ac52-4f2e417b58b4",
-   "type": "chapter"
-  },
-  {
-   "id": "bf7c447a-a466-4e85-8519-1833e4ed9570",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "6e15afd4-a317-4f17-ba93-ba9756dd3abb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:48:33+00:00",
+    "description": "",
+    "fileName": "5fc14c2e-d0a9-44c2-9c43-0a65eceb9077.jpg",
+    "updatedAt": "2021-05-24T16:48:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

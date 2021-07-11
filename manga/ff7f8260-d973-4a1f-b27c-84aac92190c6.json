@@ -7,6 +7,11 @@
    "title": {
     "en": "Rice is stronger than my BF"
    },
+   "altTitles": [
+    {
+     "en": "밥보다 남친"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -25,6 +30,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,55 +66,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-18T17:28:35+00:00",
+   "updatedAt": "2021-05-25T15:50:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "53a67d70-d0e8-4a66-9e6f-61deb0fef541",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "R Is None",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "53a67d70-d0e8-4a66-9e6f-61deb0fef541",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "R Is None",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "77176957-9531-4761-9002-ca9fc5a65978",
-   "type": "chapter"
-  },
-  {
-   "id": "a2d4ba39-c1e4-4ca2-ab0a-fb36939d9a9e",
-   "type": "chapter"
-  },
-  {
-   "id": "0337c09e-0380-4fbb-b8fc-11fb1038b859",
-   "type": "chapter"
-  },
-  {
-   "id": "dd3879fe-2383-4439-8ff4-626063cea578",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "daf93fc5-497c-4f2f-9b62-d4c7fb5e2e04",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:16+00:00",
+    "description": "",
+    "fileName": "61e4bf72-0e36-4a9e-901d-68ed953077ed.jpg",
+    "updatedAt": "2021-05-24T16:58:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

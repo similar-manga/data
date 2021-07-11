@@ -7,6 +7,23 @@
    "title": {
     "en": "Inu Five"
    },
+   "altTitles": [
+    {
+     "en": "Inu Five"
+    },
+    {
+     "en": "Inu Go"
+    },
+    {
+     "en": "Inu-Go"
+    },
+    {
+     "en": "いぬ五"
+    },
+    {
+     "en": "犬五"
+    }
+   ],
    "description": {
     "en": "The story starts when our main character tells his boss that his five puppies are cute. Little did he know that he would end up raising them!"
    },
@@ -28,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,71 +57,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-03T02:17:38+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "53660e09-57a4-4f06-a76e-db6180241c2a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sonishi Kenji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "53660e09-57a4-4f06-a76e-db6180241c2a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sonishi Kenji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "71b43a0e-fe39-49c2-8b50-5e4f2a5026a0",
-   "type": "chapter"
-  },
-  {
-   "id": "1318df2f-7833-4d13-a95f-6f0fc33d32ef",
-   "type": "chapter"
-  },
-  {
-   "id": "d8fd7aef-6091-42da-81ed-0884ee550f05",
-   "type": "chapter"
-  },
-  {
-   "id": "b7ffbeef-2fa8-4299-8402-b9f9918f261c",
-   "type": "chapter"
-  },
-  {
-   "id": "d9c1095b-ea4a-4521-905b-809f22d5c041",
-   "type": "chapter"
-  },
-  {
-   "id": "fa93ed26-1ab5-4039-a9f7-b9afed4773b9",
-   "type": "chapter"
-  },
-  {
-   "id": "b26e46af-aae8-483c-8349-c90c93d1823d",
-   "type": "chapter"
-  },
-  {
-   "id": "e6e63872-1a79-4871-bcde-a05088c4b99f",
-   "type": "chapter"
-  },
-  {
-   "id": "112fd719-8a17-4ef0-9e82-7b7fa1c6b42a",
-   "type": "chapter"
-  },
-  {
-   "id": "e510bd5e-b3bd-490b-9241-558660b1991c",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "ef6045da-946a-4fb8-82ca-217bca677e55",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:37+00:00",
+    "description": "",
+    "fileName": "a3af06ba-8a19-4b8b-9cba-e5b8f9b69948.jpg",
+    "updatedAt": "2021-05-24T16:56:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

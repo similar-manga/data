@@ -7,6 +7,11 @@
    "title": {
     "en": "Baki Gaiden - Kenjin"
    },
+   "altTitles": [
+    {
+     "en": "バキ外伝 拳刃"
+    }
+   ],
    "description": {
     "en": "Spin-off series, written and illustrated by Miyatani Kengo, representing and describing Doppo's adventures."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,55 +60,53 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-12T21:06:46+00:00",
+   "updatedAt": "2021-05-25T15:42:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "33ca9c46-aca7-45f8-9be6-a91deeed8e8e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itagaki Keisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "028fea66-3aad-41a7-bdb6-df62497d9d3d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyatani Kengo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f1c8c316-6b8c-4d25-bf1c-6eb92bf9fc28",
-   "type": "chapter"
-  },
-  {
-   "id": "1b85fc1e-bc33-4634-9d3b-c787ebd13794",
-   "type": "chapter"
-  },
-  {
-   "id": "9616f676-011a-4a16-8be5-b274ae0fdd92",
-   "type": "chapter"
-  },
-  {
-   "id": "a2b8ea7e-9849-43e0-ac1d-b1d0f6c19c6f",
-   "type": "chapter"
-  },
-  {
-   "id": "b8660d09-b1b5-4034-bf07-f7bcb593d43d",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
+   "id": "af01a4fb-228a-4fe5-a2fe-6ce786d3e7d5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:39+00:00",
+    "description": "",
+    "fileName": "60fd6421-71aa-4376-9d10-c39e4cc3727c.jpg",
+    "updatedAt": "2021-05-24T16:57:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

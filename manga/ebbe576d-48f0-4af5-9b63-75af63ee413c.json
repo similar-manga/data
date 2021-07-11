@@ -7,6 +7,11 @@
    "title": {
     "en": "Bokura no Q"
    },
+   "altTitles": [
+    {
+     "en": "ぼくらのＱ"
+    }
+   ],
    "description": {
     "en": "People are becoming possessed by a strange orb, but why? What fate does this mysterious object have in store for the world?"
    },
@@ -17,7 +22,6 @@
     "mu": "141593"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -29,6 +33,8 @@
       "name": {
        "en": "Thriller"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +45,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +57,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -59,43 +69,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-06T01:03:00+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "fa150c2b-62af-4dcc-885f-e64829f37dae",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ichima Kenji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fa150c2b-62af-4dcc-885f-e64829f37dae",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ichima Kenji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5249e8a3-8284-44d4-93d7-0a8587180243",
-   "type": "chapter"
-  },
-  {
-   "id": "07251805-a27e-4d59-b488-f0bfbec15168",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "952b18d5-4b2f-4f2f-ba06-fd0ea249beb6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:13:16+00:00",
+    "description": "",
+    "fileName": "ed5a2d95-8bb9-4d33-b2f6-f05c967c7c8b.jpg",
+    "updatedAt": "2021-05-24T18:13:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

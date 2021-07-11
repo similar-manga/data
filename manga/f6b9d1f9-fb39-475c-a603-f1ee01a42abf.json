@@ -7,6 +7,11 @@
    "title": {
     "en": "Love Skit"
    },
+   "altTitles": [
+    {
+     "en": "ラブスキット"
+    }
+   ],
    "description": {
     "en": "After his sister's death, high school student Aoto lives with his brother-in-law Takashi whom he is secretly in love with. Takashi has to go on a business trip and asks his friend Masayuki to keep an eye on Aoto. Aoto doesn't know how to handle the flirty Masayuki."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +71,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,59 +83,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-22T18:04:21+00:00",
+   "updatedAt": "2021-05-25T15:49:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "afffe32b-a98c-4356-acc4-e7e98150a558",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Honjou Rie",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "afffe32b-a98c-4356-acc4-e7e98150a558",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Honjou Rie",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "30f0c818-34c4-4878-8308-4bd62ca15742",
-   "type": "chapter"
-  },
-  {
-   "id": "dd6bbae2-b839-4a82-8327-fe324f8adc84",
-   "type": "chapter"
-  },
-  {
-   "id": "6bddc903-9435-44f8-a590-576e8574ce6b",
-   "type": "chapter"
-  },
-  {
-   "id": "53b3d1f4-c100-4477-8dd7-b2f8527adcd3",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "f753ebef-70c6-4fe8-85ef-4dc0a8c1c4cc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:24+00:00",
+    "description": "",
+    "fileName": "42ad4948-ccb4-440f-a4e6-064ca74801d3.jpg",
+    "updatedAt": "2021-05-24T17:38:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

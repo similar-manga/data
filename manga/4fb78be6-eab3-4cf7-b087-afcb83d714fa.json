@@ -7,6 +7,14 @@
    "title": {
     "en": "Oishii Kamishama"
    },
+   "altTitles": [
+    {
+     "en": "Delicious Venus"
+    },
+    {
+     "en": "おいしい神しゃま"
+    }
+   ],
    "description": {
     "en": "A full color gourmet comedy that features a cute new character every week!"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,75 +62,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-03T22:31:15+00:00",
+   "updatedAt": "2021-05-25T15:42:16+00:00"
   }
  },
  "relationships": [
   {
    "id": "1102ebb9-3d8b-483b-86a3-cfeb07923d5d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujisawa Tohru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1102ebb9-3d8b-483b-86a3-cfeb07923d5d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujisawa Tohru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "533b7eee-7ea9-4b2c-8879-176c2557abe3",
-   "type": "chapter"
-  },
-  {
-   "id": "e17ac3b3-293f-4904-991b-86b1d8ddcd14",
-   "type": "chapter"
-  },
-  {
-   "id": "10d1d1f1-c7e5-4d08-b3dd-734989052af2",
-   "type": "chapter"
-  },
-  {
-   "id": "cb797267-3572-4f4c-8bd3-f2ee7ff73488",
-   "type": "chapter"
-  },
-  {
-   "id": "84dfd131-9f97-4d59-bef0-10ec1da1388f",
-   "type": "chapter"
-  },
-  {
-   "id": "4abba334-2622-4312-a7ce-354808a8b1d8",
-   "type": "chapter"
-  },
-  {
-   "id": "c146a4d3-bcef-453a-9659-e1733429ee07",
-   "type": "chapter"
-  },
-  {
-   "id": "18846117-d9e1-4807-a18d-e9ffde30221b",
-   "type": "chapter"
-  },
-  {
-   "id": "d6021554-7266-49b4-a092-35af51f123bb",
-   "type": "chapter"
-  },
-  {
-   "id": "550460bf-c7f4-42d8-afd9-a6cd358982f4",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "b2acfb1d-1138-4f76-bb68-ecc0d16f83ca",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:46:53+00:00",
+    "description": "",
+    "fileName": "48d602ac-ed2d-426d-84da-21bcf5daa552.jpg",
+    "updatedAt": "2021-05-24T16:46:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

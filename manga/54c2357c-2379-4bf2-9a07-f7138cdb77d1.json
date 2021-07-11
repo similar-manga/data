@@ -7,6 +7,11 @@
    "title": {
     "en": "Nadeshiko Hiyori"
    },
+   "altTitles": [
+    {
+     "en": "ナデシコヒヨリ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -24,8 +29,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -46,67 +55,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-14T17:00:12+00:00",
+   "updatedAt": "2021-05-25T15:42:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "e8616273-2726-4154-b473-b7d16a729472",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maruta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e8616273-2726-4154-b473-b7d16a729472",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maruta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "85c585b4-8747-4e0c-bb3c-6b8d649906a9",
-   "type": "chapter"
-  },
-  {
-   "id": "70e0789e-b573-4639-9936-1da0bf00cca9",
-   "type": "chapter"
-  },
-  {
-   "id": "1821848a-2bd3-4c6d-8efd-bf5ca8bc8dfe",
-   "type": "chapter"
-  },
-  {
-   "id": "2bf70a95-ec3e-4362-9d2d-37748106db05",
-   "type": "chapter"
-  },
-  {
-   "id": "0af80eb2-e9c5-4500-a97b-e51442f5e3ef",
-   "type": "chapter"
-  },
-  {
-   "id": "773cc715-33b0-4ca5-93fa-801fedcfeafc",
-   "type": "chapter"
-  },
-  {
-   "id": "dfe9e5c6-4696-4066-89dd-58af2baa7f29",
-   "type": "chapter"
-  },
-  {
-   "id": "ab4639d8-c926-42bb-b857-fed64cb36db3",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "efd6c8cd-6a4d-4fc9-b4c8-41edd34e57b1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:51+00:00",
+    "description": "",
+    "fileName": "f5c877d6-642a-43a2-948f-f4dc38c1ae0a.jpg",
+    "updatedAt": "2021-05-24T17:11:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

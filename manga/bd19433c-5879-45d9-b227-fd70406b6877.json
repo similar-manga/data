@@ -7,6 +7,23 @@
    "title": {
     "en": "L'Amant"
    },
+   "altTitles": [
+    {
+     "en": "Koibito"
+    },
+    {
+     "en": "L’Amant ー愛人ー"
+    },
+    {
+     "en": "The Lover"
+    },
+    {
+     "en": "ラマン"
+    },
+    {
+     "en": "愛人"
+    }
+   ],
    "description": {
     "en": "This is an adaptation of Marguerite Duras semi autobiographical novel of the same name. \r\n\r\nNOTE: This entire manga reads from LEFT to RIGHT instead of the usual Right to Left. Don't get confused now."
    },
@@ -16,7 +33,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "1",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -27,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +55,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +67,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -57,6 +79,8 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -67,47 +91,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-24T10:23:03+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "76a9ca05-e5d2-4a29-a54c-723e0d741c59",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Marguerite Duras",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6c765574-186c-41cc-9c37-3c88e570de51",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahama Kan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f399d253-62f7-4981-926d-6c491d7fe20f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "37fb68de-a509-4f2a-bc42-0f3950ca300d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:31:17+00:00",
+    "description": "",
+    "fileName": "afb00407-5e50-4fff-ba3a-8c46fe055a7c.jpg",
+    "updatedAt": "2021-05-24T17:31:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

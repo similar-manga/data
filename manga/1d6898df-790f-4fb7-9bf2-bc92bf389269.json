@@ -7,6 +7,17 @@
    "title": {
     "en": "Kin-iro Mosaic Anthology Comic I"
    },
+   "altTitles": [
+    {
+     "en": "Kiniro Mosaic Anthology Comic"
+    },
+    {
+     "en": "Kinmoza! Anthology Comic"
+    },
+    {
+     "en": "きんいろモザイク　アンソロジーコミック"
+    }
+   ],
    "description": {
     "en": "Compilation of various stories and art by various authors like Sora Egumi, koi, and many more to coincide with the release of 1st season of the TV adaptation of Hara Yui's golden comedy, Kin-iro Mosaic."
    },
@@ -15,7 +26,6 @@
     "mal": "107292"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -27,6 +37,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,8 +47,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +61,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -57,6 +73,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -67,51 +85,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-30T14:52:15+00:00",
+   "updatedAt": "2021-05-25T15:40:04+00:00"
   }
  },
  "relationships": [
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a7de0d73-76fd-4dfb-aa96-15471c5d7771",
-   "type": "chapter"
-  },
-  {
-   "id": "6e50e754-7175-46ce-b0fc-6b9ea90cf2df",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "f7a79926-5c6e-4ffb-afcf-04918434a221",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:24:43+00:00",
+    "description": "",
+    "fileName": "2c748268-085e-4d3f-bec9-6ab52be40149.png",
+    "updatedAt": "2021-05-24T17:24:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

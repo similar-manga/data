@@ -7,6 +7,14 @@
    "title": {
     "en": "Kyou Kara Zombie!"
    },
+   "altTitles": [
+    {
+     "en": "Zombie From Now On!"
+    },
+    {
+     "en": "今日からゾンビ！"
+    }
+   ],
    "description": {
     "en": "Puuka is an unpopular bikini model. On the way to a spot for a photo-shoot, she and her manager hit a zombie with the car. When Puuka tries to escape she gets bitten and turns into a zombie herself. How will she continue her career as a zombie?"
    },
@@ -14,7 +22,7 @@
     "al": "103230",
     "amz": "https://www.amazon.co.jp/dp/B01M5G73VF/",
     "ap": "kyo-kara-zombie",
-    "cdj": "http://www.cdjapan.co.jp/searches?term.cat_id=UD-14\u0026amp;page=\u0026amp;agg_use=cat_ids_hierarchal_treeish_foldable\u0026amp;term.media_format=\u0026amp;q=%E4%BB%8A%E6%97%A5%E3%81%8B%E3%82%89%E3%82%BE%E3%83%B3%E3%83%93",
+    "cdj": "http://www.cdjapan.co.jp/searches?term.cat_id=UD-14\u0026page=\u0026agg_use=cat_ids_hierarchal_treeish_foldable\u0026term.media_format=\u0026q=%E4%BB%8A%E6%97%A5%E3%81%8B%E3%82%89%E3%82%BE%E3%83%B3%E3%83%93",
     "ebj": "https://www.ebookjapan.jp/ebj/387265/",
     "kt": "50171",
     "mal": "108483",
@@ -34,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +54,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,6 +66,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -64,71 +78,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-19T08:48:43+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "688ec13d-3501-4a7d-a743-9755221e0696",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ISHIKAWA Yugo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "230a1eae-e294-4924-81f4-6f28c2cd4029",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ARAKI Tsukasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b44b46e0-26c8-4f00-842f-32a1ed1fbbb9",
-   "type": "chapter"
-  },
-  {
-   "id": "dbf14098-83f4-4505-bbe1-6ddb3c4efa50",
-   "type": "chapter"
-  },
-  {
-   "id": "5789c699-7cce-4270-a76f-9f03a77fac96",
-   "type": "chapter"
-  },
-  {
-   "id": "82324e19-b54b-4713-8b3d-91641843bc4a",
-   "type": "chapter"
-  },
-  {
-   "id": "5b3ce042-1dd3-4047-bf09-79a1b11003bd",
-   "type": "chapter"
-  },
-  {
-   "id": "8f75ebcb-b388-4a73-878f-9c29354e7823",
-   "type": "chapter"
-  },
-  {
-   "id": "d28c9df9-6cc6-4a8b-a964-d8d7abfbff64",
-   "type": "chapter"
-  },
-  {
-   "id": "21dc4004-d77f-40b1-b345-d9db48bc3371",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "2bdcd106-3b6b-4f67-8673-f53f4df19bd7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:50+00:00",
+    "description": "",
+    "fileName": "024def5b-3d2b-4ef3-a496-cffca6f6a7aa.jpg",
+    "updatedAt": "2021-05-24T17:01:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

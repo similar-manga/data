@@ -18,7 +18,6 @@
     "mu": "37451"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,35 +41,53 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-23T15:56:53+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "68e5fd92-32e0-490d-b4b6-16ed6188f0a2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakamura Sayumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cc610378-1eaa-4b85-b27f-e5ed94b9f4d9",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
+   "id": "4aacc877-6322-4f03-ac04-b703ef9ab5b5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:34:52+00:00",
+    "description": "",
+    "fileName": "4d75fbb9-2bad-4a62-a83a-3ad3c488c378.jpg",
+    "updatedAt": "2021-05-24T17:34:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Yoake no Inu"
    },
+   "altTitles": [
+    {
+     "en": "A Dog At Daybreak"
+    },
+    {
+     "en": "夜明けの犬"
+    }
+   ],
    "description": {
     "en": "Koinui Akira lives with his senior co-worker and develops feelings for him."
    },
@@ -28,8 +36,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,43 +62,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-15T14:38:28+00:00",
+   "updatedAt": "2021-05-25T15:45:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "04415d72-72c4-4981-a83a-4cdb57f8d682",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimaji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "04415d72-72c4-4981-a83a-4cdb57f8d682",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimaji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "33da53e4-0dd5-434c-acea-69e311065461",
-   "type": "chapter"
-  },
-  {
-   "id": "7b5a33d7-6541-443f-885f-6939f2ec6973",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0728426f-0077-4f66-bdb8-bfdf29f85b2f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:45:12+00:00",
+    "description": "",
+    "fileName": "77cee973-bbcc-4e67-b471-f8e0b0e38397.jpg",
+    "updatedAt": "2021-05-24T17:45:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

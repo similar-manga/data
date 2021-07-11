@@ -7,6 +7,11 @@
    "title": {
     "en": "Magarikado no Bokura"
    },
+   "altTitles": [
+    {
+     "en": "曲がり角のボクら"
+    }
+   ],
    "description": {
     "en": "3: [b]Minna Kirakira[/b] (みんなきらきら)\r\nDaddy, Mommy, and Mika make up the perfect modern family. Mika is Daddy's little princess, and he won't hand her over to any one. But when handsome Atsushi-sensei at the daycare center becomes Mika's perfect prince, sparks fly. What ever will Daddy do?"
    },
@@ -34,6 +39,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -44,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,6 +63,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -64,51 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-16T17:10:03+00:00",
+   "updatedAt": "2021-05-25T15:48:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "dc5c64ac-abc2-45e6-8d1a-83347fa2a7bc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakamura Asumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "dc5c64ac-abc2-45e6-8d1a-83347fa2a7bc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakamura Asumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fbac611f-10c2-4a8e-953c-3abe5153620f",
-   "type": "chapter"
-  },
-  {
-   "id": "725a6735-8392-4ec5-98c3-add319729f93",
-   "type": "chapter"
-  },
-  {
-   "id": "dc7f92c4-f4ad-4696-81af-20943f68110a",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "270ca3dd-ff2b-4f86-ab19-995cc01b3282",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:16:04+00:00",
+    "description": "",
+    "fileName": "d0b9a69c-5eaa-4967-a0ab-16577eb27b76.jpg",
+    "updatedAt": "2021-05-24T17:16:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

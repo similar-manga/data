@@ -14,7 +14,6 @@
     "mu": "156"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,39 +49,53 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-23T06:44:22+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "e06ced84-33d2-478b-af7f-175700c689f3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Tsutomu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e06ced84-33d2-478b-af7f-175700c689f3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Tsutomu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e8d0a74f-8273-4879-93a9-67686594d445",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
+   "id": "f83addc2-e910-4fbc-bbb4-a811b7631b35",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:18+00:00",
+    "description": "",
+    "fileName": "82aaf902-ef88-4d59-8f84-c35875be13f5.jpg",
+    "updatedAt": "2021-05-24T17:02:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

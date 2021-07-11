@@ -7,6 +7,11 @@
    "title": {
     "en": "Carbonator"
    },
+   "altTitles": [
+    {
+     "en": "カーボネーター"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -17,7 +22,6 @@
     "mu": "133719"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -28,6 +32,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +44,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,43 +56,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-03T11:15:52+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "ede52b5c-86aa-4f1f-a3e1-42c0641f6234",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Muragimo Atsuhito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ede52b5c-86aa-4f1f-a3e1-42c0641f6234",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Muragimo Atsuhito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2f7b4d5e-9fc8-4e5d-9f95-8ed8c7413293",
-   "type": "chapter"
-  },
-  {
-   "id": "0eb2abce-4e32-409a-b6e1-a763b753f73e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "2fbcaa32-ba44-4fdf-a20a-85277957ceb6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:40+00:00",
+    "description": "",
+    "fileName": "824d8006-4e77-4fb7-b409-f24c71a8803e.jpg",
+    "updatedAt": "2021-05-24T16:56:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

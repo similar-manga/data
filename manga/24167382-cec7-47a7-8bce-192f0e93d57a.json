@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "otona\u0026hearts;pink"
+    "en": "otona♥pink"
    },
+   "altTitles": [
+    {
+     "en": "Otona Pink"
+    },
+    {
+     "en": "otona・pink"
+    },
+    {
+     "en": "浪漫粉紅系"
+    }
+   ],
    "description": {
     "en": "Sensei, please teach me about love.\r\nSenou Miku is a normal high school girl. On the day that she had her first boyfriend, her mother had a job transfer. And then, her guardian, who came to live with her, turned out to be her homeroom teacher, Nishizono-sensei..."
    },
@@ -32,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +55,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +67,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,79 +79,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-27T07:14:34+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "f0fe4e16-5ce6-49b8-a83d-65a40318340b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SATO Zakuri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f0fe4e16-5ce6-49b8-a83d-65a40318340b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SATO Zakuri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "79a9f186-1de2-41ae-ade4-65054fae98c9",
-   "type": "chapter"
-  },
-  {
-   "id": "8e1ba905-82e0-4ed4-9f58-5d0ef0cbefec",
-   "type": "chapter"
-  },
-  {
-   "id": "d73dc8be-7a03-4eec-a97d-0c5436b70dba",
-   "type": "chapter"
-  },
-  {
-   "id": "db6f7774-ae63-4da8-9431-91102279b872",
-   "type": "chapter"
-  },
-  {
-   "id": "e73c19d3-33ec-45f7-b671-dc491934ec71",
-   "type": "chapter"
-  },
-  {
-   "id": "95cd516b-a451-4116-a4c7-97b0e3ee4969",
-   "type": "chapter"
-  },
-  {
-   "id": "0378d47f-f5fb-4688-9db0-9a24e1a7e506",
-   "type": "chapter"
-  },
-  {
-   "id": "007f42a5-0c73-4c0a-bd3e-2290f511b925",
-   "type": "chapter"
-  },
-  {
-   "id": "5262c4c8-d341-49ed-8ec3-00d607fd1334",
-   "type": "chapter"
-  },
-  {
-   "id": "d857ac98-65ae-4340-ac81-b2cfd16a1349",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "dae67c9b-70c9-4fe6-a447-70f8eb9d75b1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:52+00:00",
+    "description": "",
+    "fileName": "b4133430-4e5c-45be-b4d8-2f45f80dafc9.jpg",
+    "updatedAt": "2021-05-24T16:57:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

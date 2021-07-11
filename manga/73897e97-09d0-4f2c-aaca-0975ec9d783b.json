@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Tiger \u0026amp; Bunny - Kanshoukai (Doujinshi)"
+    "en": "Tiger \u0026 Bunny - Kanshoukai (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Tiger \u0026 Bunny dj - Kanshoukai"
+    },
+    {
+     "en": "鑑賞会。"
+    }
+   ],
    "description": {
     "en": "Pairing: Barnaby x Kotetsu"
    },
@@ -14,7 +22,6 @@
     "mu": "132030"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -23,8 +30,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,35 +44,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-05T14:22:04+00:00",
+   "updatedAt": "2021-05-25T15:43:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "81c4d1e5-a305-4e72-b4bb-dee7de3954ce",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mekoro (Meco)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "81c4d1e5-a305-4e72-b4bb-dee7de3954ce",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mekoro (Meco)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b6f6b8e8-1d91-4424-a298-e553b304a371",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "561c0974-84ce-4f51-b60a-77b3c9cad13e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:42+00:00",
+    "description": "",
+    "fileName": "d52e1903-7ba5-426f-a7e8-4a9fb79a0aa3.jpg",
+    "updatedAt": "2021-05-24T17:21:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Medical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,39 +45,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-11T21:00:42+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "5dd9a2db-d24e-4452-8be6-ccc4bd64375d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kirekawa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5dd9a2db-d24e-4452-8be6-ccc4bd64375d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kirekawa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5cbef151-d3f1-432e-851d-5e57840b6b87",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "c8cbe35b-1b2b-4a3f-9c37-db84c4514856",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "91d04bf0-5550-4fe7-a756-bd94ae45869c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:34:38+00:00",
+    "description": "",
+    "fileName": "dbae6a53-8fd7-4c98-a7d4-bbfb42bd2c18.jpg",
+    "updatedAt": "2021-05-24T18:34:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

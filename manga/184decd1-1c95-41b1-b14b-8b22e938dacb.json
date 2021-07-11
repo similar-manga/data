@@ -7,6 +7,11 @@
    "title": {
     "en": "Himawari Memory"
    },
+   "altTitles": [
+    {
+     "en": "Sunflower Memory"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +19,6 @@
     "mu": "135901"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,6 +53,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +65,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,51 +77,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-16T11:39:10+00:00",
+   "updatedAt": "2021-05-25T15:39:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "39dcd951-59aa-4009-be8e-259a546a5614",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kaltoma",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "39dcd951-59aa-4009-be8e-259a546a5614",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kaltoma",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "992b6639-75cc-4d02-a349-0cb1a1faf38e",
-   "type": "chapter"
-  },
-  {
-   "id": "40cf9258-d6c0-4b30-b656-ccc1d8609824",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "35be944a-94ac-4f2f-8444-0bd8b8161c05",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:02+00:00",
+    "description": "",
+    "fileName": "465f227e-c8aa-4e7e-9de4-a984d32bfaf5.jpg",
+    "updatedAt": "2021-05-24T16:58:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

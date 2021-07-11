@@ -7,6 +7,20 @@
    "title": {
     "en": "Zelda no Densetsu - Kamigami no Triforce (Himekawa Akira)"
    },
+   "altTitles": [
+    {
+     "en": "The Legend of Zelda - A Link to the Past (2005)"
+    },
+    {
+     "en": "The Legend of Zelda - A Link to the Past (HIMEKAWA Akira)"
+    },
+    {
+     "en": "The Legend of Zelda - Kamigami no Triforce (2005)"
+    },
+    {
+     "en": "ゼルダの伝説　神々のトライフォース"
+    }
+   ],
    "description": {
     "en": "At the beginning of A Link to the Past, a young boy named Link is awakened by a telepathic message from Princess Zelda, who says that she is locked in the dungeon of Hyrule Castle. As the message closes, Link finds his uncle ready for battle, telling Link to remain in bed. However, Link ignores his uncle's command, and after his uncle leaves, follows him to Hyrule Castle. When he arrives, he finds his uncle seriously wounded. Link's uncle tells Link to rescue Princess Zelda from her prison, giving him a sword and shield. Link navigates the castle and rescues Zelda from her cell, and the two escape into a secret passage through the sewers that leads to a sanctuary."
    },
@@ -29,6 +43,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +55,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +67,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,59 +79,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-03T03:40:58+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "024585df-57a6-4287-a500-f17c06799355",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nintendo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e9f7cf94-75a1-4346-b11b-88faa2cec686",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Himekawa Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cd230328-c5ce-4018-a615-3e0f03888666",
-   "type": "chapter"
-  },
-  {
-   "id": "cbfacb49-e509-4ed2-885c-59df03e98f1d",
-   "type": "chapter"
-  },
-  {
-   "id": "7bca6bcc-3bf3-4780-80bf-33a2d8691084",
-   "type": "chapter"
-  },
-  {
-   "id": "b8d379b2-529b-4983-bb13-ae963c82cab4",
-   "type": "chapter"
-  },
-  {
-   "id": "1126e749-7043-4bfd-861d-292b85174ae5",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "ea2ac576-80e9-4f99-8609-30a219b0e0ae",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:46+00:00",
+    "description": "",
+    "fileName": "7c98e00e-fe39-4d5a-ba6e-6959edb5d873.jpg",
+    "updatedAt": "2021-05-24T17:06:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

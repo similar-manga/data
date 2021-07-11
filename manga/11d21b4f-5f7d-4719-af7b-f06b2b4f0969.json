@@ -7,6 +7,11 @@
    "title": {
     "en": "Trick Code"
    },
+   "altTitles": [
+    {
+     "en": "트릭코드"
+    }
+   ],
    "description": {
     "en": "The mystery club called Logic Tree investigates mysterious events."
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,6 +56,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -57,6 +68,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,67 +80,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-18T01:13:39+00:00",
+   "updatedAt": "2021-05-25T15:39:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "cc3d472c-13c7-490d-98dd-2b234157ab76",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fantasy Turtle",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cc3d472c-13c7-490d-98dd-2b234157ab76",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fantasy Turtle",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "900981a3-3414-474d-9a4d-b727a2ec76cf",
-   "type": "chapter"
-  },
-  {
-   "id": "91582590-272b-44da-ac29-8b9e6107ac75",
-   "type": "chapter"
-  },
-  {
-   "id": "2dce5305-d814-4a79-9164-35c923707a18",
-   "type": "chapter"
-  },
-  {
-   "id": "cfe2edb5-d319-4c2a-afb2-15b0e6bba47c",
-   "type": "chapter"
-  },
-  {
-   "id": "127e6182-e7d4-4eb1-99f5-8662e52d2150",
-   "type": "chapter"
-  },
-  {
-   "id": "8579fe88-f970-417b-a05a-b44e75ebe9e7",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "fec72436-8ba4-4f82-8b36-4c22f0957d4b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:48:58+00:00",
+    "description": "",
+    "fileName": "1cf39f5d-5abb-4827-8476-e6c6eabc5b30.png",
+    "updatedAt": "2021-05-24T17:48:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Yuri!!! on Ice - B to F (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Yuri!!! on Ice dj - Beginning To Following"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -23,6 +28,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -31,8 +38,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,39 +52,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-21T14:13:03+00:00",
+   "updatedAt": "2021-05-25T15:40:28+00:00"
   }
  },
  "relationships": [
   {
    "id": "550de3a3-8ba5-4735-99e2-3f8324e3b7b8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tadano",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1aef06cc-7ca7-48f0-93ea-462a325477fd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "*53",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ad863c88-9bd4-49ac-b27a-050e113f2e33",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "de5edfe8-f315-4f66-a06b-281178d616a1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:53:14+00:00",
+    "description": "",
+    "fileName": "24bc8e79-bae8-4f27-873b-a68833313a69.jpg",
+    "updatedAt": "2021-05-24T17:53:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

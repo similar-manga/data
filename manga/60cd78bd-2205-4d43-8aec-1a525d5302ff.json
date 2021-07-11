@@ -7,6 +7,17 @@
    "title": {
     "en": "Himitsu ni Shiroyo!!"
    },
+   "altTitles": [
+    {
+     "en": "Himitsu ni shiro yo!!  "
+    },
+    {
+     "en": "Keep it Secret!! "
+    },
+    {
+     "en": "ヒミツにしろよ!!"
+    }
+   ],
    "description": {
     "en": "High school student Koshika, likes cute things since he was a child. He also has a secret hobby of crossdressing as a girl but was accidentally caught by his classmate Oozeki. \r\nTo prevent rumors from spreading, he kept him under surveillance by following him everywhere he goes."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +63,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +77,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -70,83 +89,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-15T04:26:15+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "87ba9efa-1ec6-43f6-b0b2-6b5904748af1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Satomaru Mami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "87ba9efa-1ec6-43f6-b0b2-6b5904748af1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Satomaru Mami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a7a4f6a3-f0ab-4e38-82f3-e7383325a8f1",
-   "type": "chapter"
-  },
-  {
-   "id": "fbd04d28-28ea-4206-9313-724aa2360b52",
-   "type": "chapter"
-  },
-  {
-   "id": "c1712c62-33e6-40b3-ae84-b92c08e8e990",
-   "type": "chapter"
-  },
-  {
-   "id": "aabf301c-5f07-4433-a094-2de3645aeff2",
-   "type": "chapter"
-  },
-  {
-   "id": "b99d154a-796b-4e8c-b952-218b9cd3bf1d",
-   "type": "chapter"
-  },
-  {
-   "id": "4d512812-622b-4f11-bf49-94e2a57b5b90",
-   "type": "chapter"
-  },
-  {
-   "id": "cb7b4742-b07f-4c4a-9c52-7aa8065fc4c9",
-   "type": "chapter"
-  },
-  {
-   "id": "d8eb4568-dad8-4863-88d5-8b9e59841bcd",
-   "type": "chapter"
-  },
-  {
-   "id": "b02fe38c-ac6c-4f3c-8e56-a053e2a48279",
-   "type": "chapter"
-  },
-  {
-   "id": "1994e107-f652-4e06-a6e0-7e3a486e3cb6",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "138b36b8-44d0-4f9d-b49b-69acf9877283",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:50+00:00",
+    "description": "",
+    "fileName": "1ed4c9ab-9b08-42bd-a3b5-0cb100421754.jpg",
+    "updatedAt": "2021-05-24T17:22:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

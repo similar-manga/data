@@ -7,6 +7,14 @@
    "title": {
     "en": "Yomitai Hon wa Nai Keredo"
    },
+   "altTitles": [
+    {
+     "en": "Even Though There's No Book I Want To Read"
+    },
+    {
+     "en": "読みたい本はないけれど"
+    }
+   ],
    "description": {
     "en": "Ryouhei is a high school student at risk of repeating another year. For the first time in years, he visits the library to study. However, he encounters a cute girl studying opposite him! Even though there's no book he wants to read, he visits the library the following day, the day after that, and so on. \r\n\r\nThe library is quiet, but his heart sure isn't! How will this quiet romantic comedy unfold?"
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,43 +60,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-20T06:21:54+00:00",
+   "updatedAt": "2021-05-25T15:45:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "b8bd1845-f533-4a90-b9f8-cce442ce847a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Monma Tsukasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3ba90418-9195-480f-a4cf-e89c6d332541",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mutou Mayumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "37de5172-2222-473b-9eec-7c00165d63f1",
-   "type": "chapter"
-  },
-  {
-   "id": "7b2eaed3-7e02-4844-876c-36dc2a27785d",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "add7f29b-f7a6-4f7f-81ef-a364bccd1355",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:27:16+00:00",
+    "description": "",
+    "fileName": "29257a55-4b0d-4394-bdea-411a1cef7f87.jpg",
+    "updatedAt": "2021-05-24T17:27:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

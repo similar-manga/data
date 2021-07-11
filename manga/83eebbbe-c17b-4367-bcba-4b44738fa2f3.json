@@ -7,6 +7,14 @@
    "title": {
     "en": "Natsume Isaku Zenshuu"
    },
+   "altTitles": [
+    {
+     "en": "The Complete Works of Natsume Isaku"
+    },
+    {
+     "en": "夏目イサク全集"
+    }
+   ],
    "description": {
     "en": "Compilations of featured work by Natsume Isaku from multiple magazines."
    },
@@ -25,6 +33,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,8 +55,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,75 +69,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-16T14:13:32+00:00",
+   "updatedAt": "2021-05-25T15:44:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "4e8b18e5-b77f-43dd-95e0-286330a8af13",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsume Isaku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4e8b18e5-b77f-43dd-95e0-286330a8af13",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsume Isaku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3b540215-a548-455d-93f9-0a359934d99e",
-   "type": "chapter"
-  },
-  {
-   "id": "d2b80f30-5f6c-4b0a-a309-206724a37532",
-   "type": "chapter"
-  },
-  {
-   "id": "3bc15868-c608-4380-b974-4a241f2c3453",
-   "type": "chapter"
-  },
-  {
-   "id": "7e897559-c9f6-4222-96f4-14a4592163d2",
-   "type": "chapter"
-  },
-  {
-   "id": "c51de377-33e4-48eb-be68-c197d57be988",
-   "type": "chapter"
-  },
-  {
-   "id": "d74a42e5-b7db-4731-95be-60ddc33010b1",
-   "type": "chapter"
-  },
-  {
-   "id": "7b750476-c5b8-447f-99be-450574f25710",
-   "type": "chapter"
-  },
-  {
-   "id": "3cbb2645-74a3-4002-88aa-524711ae691f",
-   "type": "chapter"
-  },
-  {
-   "id": "1246cbec-c353-40c6-8bd7-25a716da03ef",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "25ad3e8a-dd72-4f7d-a039-778d1801f16f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:59:34+00:00",
+    "description": "",
+    "fileName": "92ab412a-2c3d-4825-b5b5-9f2ff70161e7.png",
+    "updatedAt": "2021-05-24T17:59:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

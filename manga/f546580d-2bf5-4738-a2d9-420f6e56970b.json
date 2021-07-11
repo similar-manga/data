@@ -14,7 +14,6 @@
     "mu": "165421"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "Demons"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -46,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,47 +61,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-16T18:26:49+00:00",
+   "updatedAt": "2021-05-25T15:49:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "96e59554-bbe6-4187-bf35-1161874926f3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hino Hideshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "96e59554-bbe6-4187-bf35-1161874926f3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hino Hideshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bc42b502-34ff-4620-a4f7-f51a33e901d0",
-   "type": "chapter"
-  },
-  {
-   "id": "30a009db-bc8d-4817-b850-f35dccc12ba7",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "39730448-9a5f-48a2-85b0-a70db87b1233",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "2fd65cb2-9683-4f60-a788-cc1eb791e407",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:59:36+00:00",
+    "description": "",
+    "fileName": "118d9f22-3f6c-48ac-9b2a-ccf03b48a06f.png",
+    "updatedAt": "2021-05-24T17:59:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

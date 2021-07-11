@@ -7,6 +7,14 @@
    "title": {
     "en": "Midnight Rain"
    },
+   "altTitles": [
+    {
+     "en": "Полуночный дождь"
+    },
+    {
+     "en": "ミッドナイトレイン"
+    }
+   ],
    "description": {
     "en": "A man with a 10-year history of debt x A lone wolf who likes to fight.\r\n\r\nJust like a cat has wandered into his life of paying back debt...?\r\n\r\nIn a deserted coin laundry, Ethan asks the name of a man with an unpleasant look in his eyes.\r\n\r\nThe man named Mike once again shows up before him, covered in wounds this time.\r\n\r\nA dramatic BL featuring these cool but somehow cute men!"
    },
@@ -26,8 +34,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,75 +60,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-16T06:40:36+00:00",
+   "updatedAt": "2021-05-25T15:45:37+00:00"
   }
  },
  "relationships": [
   {
    "id": "d3aaac78-ea19-490f-bd62-d6c8b5121201",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "CTK",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d3aaac78-ea19-490f-bd62-d6c8b5121201",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "CTK",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "344a7ceb-f7fa-417f-b43e-dfbe17df9061",
-   "type": "chapter"
-  },
-  {
-   "id": "b3559896-57fc-482b-900a-a88aec7e8aa4",
-   "type": "chapter"
-  },
-  {
-   "id": "4a876c6e-95a8-4a8d-ae71-9d1b108f1e00",
-   "type": "chapter"
-  },
-  {
-   "id": "8f33d2b4-18db-499d-981b-b2e286de0e40",
-   "type": "chapter"
-  },
-  {
-   "id": "948a3308-4776-4813-8053-4f1a3e1bd366",
-   "type": "chapter"
-  },
-  {
-   "id": "9e68c124-3f0f-4aa7-ad2d-a3ea1c585159",
-   "type": "chapter"
-  },
-  {
-   "id": "8ee46f57-57bf-49db-8e04-a47356e37c11",
-   "type": "chapter"
-  },
-  {
-   "id": "82c8e93f-016d-4f90-8687-69e70297f21b",
-   "type": "chapter"
-  },
-  {
-   "id": "473da871-5107-4dad-9d03-e9f217c85d0d",
-   "type": "chapter"
-  },
-  {
-   "id": "7c4e577e-f87e-4b66-b849-66eb9bd10ca7",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "6de3e710-94ab-4f34-9d3b-7eb7779ac6fc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:42+00:00",
+    "description": "",
+    "fileName": "0f528f60-ef69-4848-b046-796de06be5f1.jpg",
+    "updatedAt": "2021-05-24T17:04:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

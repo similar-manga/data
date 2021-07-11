@@ -7,6 +7,23 @@
    "title": {
     "en": "Flowers Crossing the Aegean Sea"
    },
+   "altTitles": [
+    {
+     "en": "Aege-kai wo Wataru Hanatachi"
+    },
+    {
+     "en": "Aegea-kai wo Wataru Hana-tachi"
+    },
+    {
+     "en": "Ege-kai wo Wataru Hana-tachi"
+    },
+    {
+     "en": "Ege-kai wo Wataru Hanatachi"
+    },
+    {
+     "en": "エーゲ海を渡る花たち"
+    }
+   ],
    "description": {
     "en": "Mid-15th century Ferrara, Italy, Lisa who dreams of traveling the world meets Olha from Qirm (now Crimea). Olha wishes to search for her sister in Crete, while Lisa wishes to accompany her... Their journey begins now!"
    },
@@ -33,6 +50,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +62,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,51 +74,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-23T22:46:30+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "ceea8b37-fc89-46ce-a0d0-a548764cca98",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hinoshita Akame",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ceea8b37-fc89-46ce-a0d0-a548764cca98",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hinoshita Akame",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d677a189-85e7-4e32-8706-c4e180de1bd1",
-   "type": "chapter"
-  },
-  {
-   "id": "08ddf986-2ea0-4688-8f78-d9b61b969f77",
-   "type": "chapter"
-  },
-  {
-   "id": "1caa7eba-9c7d-4a13-aa6b-0c977942fdf2",
-   "type": "chapter"
-  },
-  {
-   "id": "254bf1c6-92ce-40a6-808e-7d796480c11a",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "307057a0-f068-4f97-a45e-17e6fccae130",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:31:16+00:00",
+    "description": "",
+    "fileName": "538a560b-b32e-4018-ad39-bdb40f351d13.jpg",
+    "updatedAt": "2021-05-24T17:31:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

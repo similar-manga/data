@@ -7,6 +7,17 @@
    "title": {
     "en": "Josee to Tora to Sakana-tachi"
    },
+   "altTitles": [
+    {
+     "en": "Josee, the Tiger and the Fish"
+    },
+    {
+     "en": "ジョゼと虎と魚たち"
+    },
+    {
+     "en": "조제, 호랑이 그리고 물고기들"
+    }
+   ],
    "description": {
     "en": "The story centers on the relationship between Tsuneo and Josee. Tsuneo is a university student, and Josee is a young girl who has rarely gone out of the house by herself due to her being unable to walk. The two meet when Tsuneo finds Josee's grandmother taking her out for a morning walk."
    },
@@ -29,6 +40,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +52,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,51 +64,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-27T11:19:58+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "e36c8a49-cd3e-4e52-be84-916303f3dea8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tanabe Seiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "492a8f03-5ffa-494e-8415-70d7537a4515",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Emoto Nao",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "056e84d0-ac92-4a6e-8c1d-737e2a8cff79",
-   "type": "chapter"
-  },
-  {
-   "id": "7fd6a6f4-5530-410e-abe1-7e52a3bd655e",
-   "type": "chapter"
-  },
-  {
-   "id": "dcc28472-a424-486d-8003-78ddd7461ecd",
-   "type": "chapter"
-  },
-  {
-   "id": "b238eef8-fdcb-4a66-8e59-d911cf2324b5",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "ec195041-02d4-4f64-9820-f5114181392d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:24:25+00:00",
+    "description": "",
+    "fileName": "4a828062-107d-4f0f-99f9-cc9cc4f77004.jpg",
+    "updatedAt": "2021-05-24T18:24:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

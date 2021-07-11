@@ -7,8 +7,16 @@
    "title": {
     "en": "Blooming Sequence"
    },
+   "altTitles": [
+    {
+     "en": "Время цвести"
+    },
+    {
+     "en": "블루밍 시퀀스"
+    }
+   ],
    "description": {
-    "en": "Seowoo, president of the film club, is standing outside in the rain, a welcome break from the noisy and chaotic bar behind her, when a girl with orange hair stumbles out the doors and practically into her arms. Then she begins singing \u0026ldquo;Dancing in the Rain\u0026rdquo; while... dancing in the rain. It\u0026rsquo;s a minute encounter, really, but Seowoo has seen the greatest romances bloom from the smallest moments in the movies. So when Hayoung shows up to join the film club, Seowoo \u0026ndash; who\u0026rsquo;s not even sure what she herself is feeling \u0026ndash; finds her heart skipping a beat."
+    "en": "Seowoo, president of the film club, is standing outside in the rain, a welcome break from the noisy and chaotic bar behind her, when a girl with orange hair stumbles out the doors and practically into her arms. Then she begins singing “Dancing in the Rain” while... dancing in the rain. It’s a minute encounter, really, but Seowoo has seen the greatest romances bloom from the smallest moments in the movies. So when Hayoung shows up to join the film club, Seowoo – who’s not even sure what she herself is feeling – finds her heart skipping a beat."
    },
    "links": {
     "al": "100488",
@@ -30,6 +38,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +74,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-26T05:49:45+00:00",
+   "updatedAt": "2021-05-25T15:40:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "9c6b00a7-be88-45b0-a282-1398c57a42c5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lee Eul",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9c6b00a7-be88-45b0-a282-1398c57a42c5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lee Eul",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d5f042b6-63d9-4f7d-aa2f-40bb39e642da",
-   "type": "chapter"
-  },
-  {
-   "id": "220f2acd-172f-4f88-afb2-aaab1a6136f1",
-   "type": "chapter"
-  },
-  {
-   "id": "22ff6742-c36f-4b25-bd7b-f0147705ef12",
-   "type": "chapter"
-  },
-  {
-   "id": "7f8ed70c-ef25-4dd9-8b07-d26c595f61c5",
-   "type": "chapter"
-  },
-  {
-   "id": "6003911c-090b-4793-a4f2-7da391ef3b22",
-   "type": "chapter"
-  },
-  {
-   "id": "86786132-d9cf-46cb-a5a5-1a1f8b54b9d7",
-   "type": "chapter"
-  },
-  {
-   "id": "12aca985-f477-4439-8b5b-7df376d79d68",
-   "type": "chapter"
-  },
-  {
-   "id": "fa736cd1-82b9-449d-9731-2fd3f4e2bc81",
-   "type": "chapter"
-  },
-  {
-   "id": "e1bce63a-d2d3-48fd-a11c-766f2989959a",
-   "type": "chapter"
-  },
-  {
-   "id": "30d49b0f-5535-4271-9085-278737258735",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "a4bc3ae9-ff78-4f88-bfa3-38d34f4e1853",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:22+00:00",
+    "description": "",
+    "fileName": "0bea4ff1-f9ce-491f-b6d2-4c7b3d465b04.jpg",
+    "updatedAt": "2021-05-24T17:20:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

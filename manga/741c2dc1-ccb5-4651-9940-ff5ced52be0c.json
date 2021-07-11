@@ -30,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,41 +52,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-13T01:09:23+00:00",
+   "updatedAt": "2021-05-25T15:43:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "d56819e1-ffd3-4a56-ba08-0cf2c7064c3d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hidaka Shoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d56819e1-ffd3-4a56-ba08-0cf2c7064c3d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hidaka Shoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6811ec67-6cd7-4a88-b866-3e0dcd9b29a0",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "ad488545-3ca7-4fd0-bac2-1eea99273352",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:40:47+00:00",
+    "description": "",
+    "fileName": "2caa33d6-a516-4d72-b174-f385aecb3be3.jpg",
+    "updatedAt": "2021-05-24T18:40:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,7 +5,7 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon Hard-Mode"
+    "en": "Pokémon Hard-Mode"
    },
    "description": {
     "en": "Coming soon...\r\n\r\nOfficial English:\r\nhttp://www.nuzlocke.com/"
@@ -14,7 +14,6 @@
     "raw": "http://www.nuzlocke.com/"
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +49,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,79 +61,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-21T19:45:54+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "8df15733-e3d4-44b8-8677-6360d67fd4b4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nick Franco",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8df15733-e3d4-44b8-8677-6360d67fd4b4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nick Franco",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "38eddb49-fc38-4f8f-a8e9-7d79de6c81be",
-   "type": "chapter"
-  },
-  {
-   "id": "da12a572-23b3-48a3-b493-13c1b8104391",
-   "type": "chapter"
-  },
-  {
-   "id": "63b4988e-13d4-4695-be8f-3ad6e5a34e9b",
-   "type": "chapter"
-  },
-  {
-   "id": "f4bcc10a-3aa9-44b7-b89c-e2203c68ef9b",
-   "type": "chapter"
-  },
-  {
-   "id": "fb86c39c-5b45-4ddf-94aa-e74edba7e4b6",
-   "type": "chapter"
-  },
-  {
-   "id": "652cee75-ba54-480c-a06c-04019180d5db",
-   "type": "chapter"
-  },
-  {
-   "id": "7ad83cbe-ad77-4118-a4ca-983ad1521bb4",
-   "type": "chapter"
-  },
-  {
-   "id": "d64cfe81-466d-4ae0-8c4c-53b99a41579f",
-   "type": "chapter"
-  },
-  {
-   "id": "54acad9c-9c3b-4f38-904e-2a7555ca9a80",
-   "type": "chapter"
-  },
-  {
-   "id": "1ce5e748-a9da-4c18-91f6-65da3f47ccb2",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "466a7654-344f-4f93-b782-b633f84d8a3f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:19:50+00:00",
+    "description": "",
+    "fileName": "1865e341-d4dc-4acf-abee-d1a00a0771cc.jpg",
+    "updatedAt": "2021-05-24T17:19:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Seifuku Robinson"
    },
+   "altTitles": [
+    {
+     "en": "制服ロビンソン"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +49,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +61,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +73,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -72,6 +85,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -82,63 +97,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-18T14:31:05+00:00",
+   "updatedAt": "2021-05-25T15:39:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "89c5ded3-3964-4eec-b3b2-813b17be2d7b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minoboshi Tarou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "89c5ded3-3964-4eec-b3b2-813b17be2d7b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minoboshi Tarou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4cfa8c56-421a-4650-aa2a-492eb43c67bb",
-   "type": "chapter"
-  },
-  {
-   "id": "e8e4a33d-550a-49e8-9baa-b715ad2b0e2a",
-   "type": "chapter"
-  },
-  {
-   "id": "4bb70566-4e46-4398-8037-845e053f7a09",
-   "type": "chapter"
-  },
-  {
-   "id": "9ab24a46-933b-402e-82fd-1964310e804c",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "545ad9f5-d358-4ff6-93bb-8fc4ac80c0c7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:51:59+00:00",
+    "description": "",
+    "fileName": "6f8ca635-dc95-49b7-8bbf-f0d01bee7c7e.jpg",
+    "updatedAt": "2021-05-24T16:51:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

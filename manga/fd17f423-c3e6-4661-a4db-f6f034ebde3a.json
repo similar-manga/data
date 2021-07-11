@@ -5,8 +5,25 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Rockman Battle \u0026amp; Chase"
+    "en": "Rockman Battle \u0026 Chase"
    },
+   "altTitles": [
+    {
+     "en": "Mega Man: Battle \u0026 Chase"
+    },
+    {
+     "en": "Rockman Grand Prix"
+    },
+    {
+     "en": "Rockman Great Car Racing"
+    },
+    {
+     "en": "Rockman: Battle \u0026 Chase"
+    },
+    {
+     "en": "洛克人大賽車"
+    }
+   ],
    "description": {
     "en": "When Shadow Man's house breaks, he enters a racing competition to earn money."
    },
@@ -16,7 +33,7 @@
     "mal": "21630",
     "mu": "148015"
    },
-   "originalLanguage": "zh-hk",
+   "originalLanguage": "zh",
    "lastVolume": "1",
    "lastChapter": "8",
    "status": "completed",
@@ -29,6 +46,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +58,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,67 +70,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-05T01:35:29+00:00",
+   "updatedAt": "2021-05-25T15:49:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "78bb3ffb-c650-4d50-9350-3fa31a28ae01",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Wu Yang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "78bb3ffb-c650-4d50-9350-3fa31a28ae01",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Wu Yang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0e0f7bff-cf9c-497d-badc-dc9a2b456cb8",
-   "type": "chapter"
-  },
-  {
-   "id": "453037d3-c09a-4100-8ac6-2f21bfd4b5d3",
-   "type": "chapter"
-  },
-  {
-   "id": "b9ed0021-8abb-49b0-b9f5-2c22059be829",
-   "type": "chapter"
-  },
-  {
-   "id": "d8f1b406-11db-48c2-b56d-664d05a262b4",
-   "type": "chapter"
-  },
-  {
-   "id": "e9b28228-e695-46ed-91e9-faad981625d5",
-   "type": "chapter"
-  },
-  {
-   "id": "08ffe23e-6fa0-413a-b366-e3a3d00791c9",
-   "type": "chapter"
-  },
-  {
-   "id": "3b8abb92-a920-4ec9-9893-1e6bd9cc13e1",
-   "type": "chapter"
-  },
-  {
-   "id": "75f296f2-63f1-4d01-a963-a01ec3197113",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "b4b75f38-8672-4f85-b600-a46c30dd614e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:54+00:00",
+    "description": "",
+    "fileName": "c5ac0567-a6cc-44b9-86db-958b0d34649b.jpg",
+    "updatedAt": "2021-05-24T17:06:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

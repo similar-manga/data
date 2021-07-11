@@ -7,6 +7,11 @@
    "title": {
     "en": "Heart Core"
    },
+   "altTitles": [
+    {
+     "en": "ハート・コア"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -23,6 +28,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +40,8 @@
       "name": {
        "en": "Virtual Reality"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,6 +52,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,63 +64,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-08T07:26:03+00:00",
+   "updatedAt": "2021-05-25T15:47:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "1e4bb0ac-a477-4a96-8cf0-1085fda15f91",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Proton Zaurus",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1e4bb0ac-a477-4a96-8cf0-1085fda15f91",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Proton Zaurus",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9935519e-9639-4a53-bebc-55fec6e9ca41",
-   "type": "chapter"
-  },
-  {
-   "id": "82688f21-985f-4577-9379-f304bdf39b3d",
-   "type": "chapter"
-  },
-  {
-   "id": "ca8b73d8-3fc1-42d1-9c40-3b7c9641ed63",
-   "type": "chapter"
-  },
-  {
-   "id": "a06d01cb-c66e-4adf-b290-bfcf2a633d1a",
-   "type": "chapter"
-  },
-  {
-   "id": "41395332-46eb-42c2-9d1d-2466004d7e90",
-   "type": "chapter"
-  },
-  {
-   "id": "c14733c7-c06f-404d-be62-1437b81e7327",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "8c86611e-fab7-4986-9dec-d1a2f44acdd5",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "e602dbb9-4d76-4fe9-91ce-d88535b9e5a7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:59+00:00",
+    "description": "",
+    "fileName": "32c92679-4ae3-4621-86a6-ad953a275d22.jpg",
+    "updatedAt": "2021-05-24T18:17:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

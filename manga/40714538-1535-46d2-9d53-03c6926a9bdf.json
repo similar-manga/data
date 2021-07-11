@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon: 1P Comic Theatre"
+    "en": "Pokémon: 1P Comic Theatre"
    },
    "description": {
     "en": "1 page gag strips of manga published in Gag King magazine by Square Enix"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,35 +33,53 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-30T15:45:04+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "f7f5e0f1-22b2-47a6-9d57-5403c1963af3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MIHO Narita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f7f5e0f1-22b2-47a6-9d57-5403c1963af3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MIHO Narita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0cd18170-5b24-447d-8199-c2a654a98eb5",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
+   "id": "93dfd4b8-848d-4f99-b977-13c3da65797e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:35:44+00:00",
+    "description": "",
+    "fileName": "5943ed01-48af-40ad-a119-e7e1f9c09b29.jpg",
+    "updatedAt": "2021-05-24T17:35:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

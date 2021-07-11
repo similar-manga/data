@@ -7,6 +7,11 @@
    "title": {
     "en": "Iskra"
    },
+   "altTitles": [
+    {
+     "en": "이스크라"
+    }
+   ],
    "description": {
     "en": "A mysterious boy named Song Jiang takes part in a revolution of young heroes, who are trying to change the evils in the world and fight against false leaders."
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,6 +56,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +68,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -67,83 +80,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-18T18:04:01+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "ac20eaeb-db14-4b85-849d-fe418b1c641e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "LEE Choong-Ho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ac20eaeb-db14-4b85-849d-fe418b1c641e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "LEE Choong-Ho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ec6c204e-6db8-4a30-b7d5-56e82ea27efb",
-   "type": "chapter"
-  },
-  {
-   "id": "192c1a6b-9724-4ebe-9c37-c39b33c6059e",
-   "type": "chapter"
-  },
-  {
-   "id": "f841a14a-9c13-4589-9327-cfc016080324",
-   "type": "chapter"
-  },
-  {
-   "id": "14d441d0-fc31-472a-8634-a9936eb425ca",
-   "type": "chapter"
-  },
-  {
-   "id": "e888342c-4e05-4ea7-b5fc-41ee40c37f69",
-   "type": "chapter"
-  },
-  {
-   "id": "bc5461fb-0ac4-4111-b61d-306f586a7ef6",
-   "type": "chapter"
-  },
-  {
-   "id": "edb1f614-5113-492a-8c44-54be3326abba",
-   "type": "chapter"
-  },
-  {
-   "id": "6d2d1a04-a42b-44b1-b69a-f22953a2dbe6",
-   "type": "chapter"
-  },
-  {
-   "id": "b559256e-fb9e-4572-8c91-22b81a85fad6",
-   "type": "chapter"
-  },
-  {
-   "id": "1d8bdb48-69c7-45c4-90cf-21d9772f78bf",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "2c40232c-8348-4f34-912e-519802a35c55",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:40+00:00",
+    "description": "",
+    "fileName": "51885236-2171-43b5-ab39-97c2c601b6e4.jpg",
+    "updatedAt": "2021-05-24T17:41:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

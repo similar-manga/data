@@ -7,6 +7,11 @@
    "title": {
     "en": "Famicom Rocky"
    },
+   "altTitles": [
+    {
+     "en": "ファミコンロッキー"
+    }
+   ],
    "description": {
     "en": "Famicom Rocky is basically Rocky the movie, but with old NES-era video games. The series stars an ineloquent brute of a protagonist who has long, extensive training montages so that he can dramatically compete against vaguely imposing rivals who, for narrative purposes, are deluded into thinking they're better at video games than him."
    },
@@ -14,7 +19,6 @@
     "mu": "50871"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +30,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,39 +42,53 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-10T02:05:49+00:00",
+   "updatedAt": "2021-05-25T15:42:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "e18ea36e-57e7-4edb-aa26-5fb78f01afe6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Motoyuki Asai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e18ea36e-57e7-4edb-aa26-5fb78f01afe6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Motoyuki Asai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "569634c4-35bf-4e21-8dcb-1e2e5a7f6573",
-   "type": "chapter"
-  },
-  {
-   "id": "504bc240-675f-4c50-8546-7eb6b23728d4",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
+   "id": "ab59c34f-edfc-4ff0-b4a1-59374baaebd9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:19+00:00",
+    "description": "",
+    "fileName": "332bd7cf-6fa0-44f4-b9b0-484b0521d4f4.jpg",
+    "updatedAt": "2021-05-24T16:57:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

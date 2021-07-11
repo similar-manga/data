@@ -7,6 +7,14 @@
    "title": {
     "en": "22xx"
    },
+   "altTitles": [
+    {
+     "en": "22 エックス エックス"
+    },
+    {
+     "en": "22XX"
+    }
+   ],
    "description": {
     "en": "About a robot, Jack, who appears frequently in Shimizu's SF stories. He's a robot with very human-like psyche and he once believed that he was human and he can even consume food, unlike many of the other robots of those times. However, a cruel incident opened his eyes to the truth and he decided to perform bounty-hunting duties on a strange planet. That's where he meets Ruby, who turns into an innocent-looking youngster and a beautiful and seducing woman at night... she's a Photuris - a human tribe that preys on other humans in order to survive..."
    },
@@ -32,6 +40,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +52,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +64,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,43 +76,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-19T16:47:15+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "decb77f5-5223-49f8-8deb-cf9881e0f945",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHIMIZU Reiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "decb77f5-5223-49f8-8deb-cf9881e0f945",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHIMIZU Reiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d94ea8a9-7796-496e-a1b2-634fefd00a12",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "f6029313-ca17-4f48-b78b-50feb5cc7d41",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:12:27+00:00",
+    "description": "",
+    "fileName": "c7513dbf-f7af-40aa-ad3f-c3ae8c50dfd8.jpg",
+    "updatedAt": "2021-05-24T17:12:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

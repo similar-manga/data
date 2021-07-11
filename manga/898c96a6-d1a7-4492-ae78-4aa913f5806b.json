@@ -16,7 +16,6 @@
     "raw": "https://www.peanutoon.com/ko/comic/detail/1187"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "erotica",
    "tags": [
@@ -27,6 +26,8 @@
       "name": {
        "en": "Thriller"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +38,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +74,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -77,6 +86,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -87,91 +98,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-31T15:49:01+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "60b2f6c7-ecab-4654-befe-ca7cd02f3ffc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Totiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "60b2f6c7-ecab-4654-befe-ca7cd02f3ffc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Totiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0ade73b9-6be4-452c-9ae2-553331859288",
-   "type": "chapter"
-  },
-  {
-   "id": "d3ff02f4-5cb5-4a1d-ba88-cdbf134cea0e",
-   "type": "chapter"
-  },
-  {
-   "id": "523a7d55-4328-4522-a483-a7d66845447e",
-   "type": "chapter"
-  },
-  {
-   "id": "603c08a3-c914-436c-9c4c-c7981e9da000",
-   "type": "chapter"
-  },
-  {
-   "id": "3a8cce62-4d6d-4a97-b53b-fd371d5bdac5",
-   "type": "chapter"
-  },
-  {
-   "id": "97621dc4-f7e2-4da4-8aa6-13e8ec107cf3",
-   "type": "chapter"
-  },
-  {
-   "id": "1e2ad23c-e0c4-45ad-a235-fe1c4c8b3023",
-   "type": "chapter"
-  },
-  {
-   "id": "41ab10af-7909-4441-a9d3-00aceef4005b",
-   "type": "chapter"
-  },
-  {
-   "id": "129d7ce1-7710-40f9-af8f-804e67074b1a",
-   "type": "chapter"
-  },
-  {
-   "id": "1e928f60-73d1-4712-a56e-3ebe2e9dee3c",
-   "type": "chapter"
-  },
-  {
-   "id": "07251805-a27e-4d59-b488-f0bfbec15168",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "b0e2f7e8-cdb6-4ffb-b1d8-55efaf8d9206",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:43:12+00:00",
+    "description": "",
+    "fileName": "0023de94-c450-4e9c-b7db-ebb4217d2aa3.png",
+    "updatedAt": "2021-05-24T17:43:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

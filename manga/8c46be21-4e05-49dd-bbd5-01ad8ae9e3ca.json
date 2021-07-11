@@ -7,6 +7,11 @@
    "title": {
     "en": "Season"
    },
+   "altTitles": [
+    {
+     "en": "シーズン"
+    }
+   ],
    "description": {
     "en": "On a cold winter day, a man visits Inose Azuma and his sick mother. Matsuoka Sueji used to work for the Inose family and now works as a lender. He then offers much needed assistance to Azuma and his mother. At first, Azuma is suspicious of Matsuoka, but Matsuoka confesses that he is there to return a favor. After seeing that, Azuma slowly becomes attracted to Matsuoka. However, where will Matsuoka draw the line? For two individuals born and raised under different conditions, winter, spring, summer and fall pass between these two."
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,8 +43,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,63 +57,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-13T09:46:38+00:00",
+   "updatedAt": "2021-05-25T15:44:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "13fcd17c-0766-48e9-8c45-11bf8bb635ab",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asou Mitsuaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "13fcd17c-0766-48e9-8c45-11bf8bb635ab",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asou Mitsuaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "43ca7914-4cc8-4d0f-803a-92804c06a861",
-   "type": "chapter"
-  },
-  {
-   "id": "7f8e8296-798b-4847-8463-929faf395eea",
-   "type": "chapter"
-  },
-  {
-   "id": "17f765c5-6efd-484e-b9da-872e3c406aca",
-   "type": "chapter"
-  },
-  {
-   "id": "75fa6211-393e-41f6-a8e5-03abc78f3880",
-   "type": "chapter"
-  },
-  {
-   "id": "b5f1f899-cc6f-46cd-9a1e-51482dc753f6",
-   "type": "chapter"
-  },
-  {
-   "id": "234383e3-99d1-43f5-b239-46773f0d8ff2",
-   "type": "chapter"
-  },
-  {
-   "id": "7cc4076a-3461-4e46-8a03-3e048215be63",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "21f02f96-905f-4f1b-9f53-eaf2771d0196",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:42+00:00",
+    "description": "",
+    "fileName": "ad4bd413-2c93-401d-81cc-2ce88d8d3a55.jpg",
+    "updatedAt": "2021-05-24T16:57:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

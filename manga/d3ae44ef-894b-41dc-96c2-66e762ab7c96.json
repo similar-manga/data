@@ -7,6 +7,14 @@
    "title": {
     "en": "Ou to Sokkin"
    },
+   "altTitles": [
+    {
+     "en": "The King and the Attendant"
+    },
+    {
+     "en": "王と側近"
+    }
+   ],
    "description": {
     "en": "About a dying king and his attendant."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,43 +62,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-22T15:26:03+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "dc5c64ac-abc2-45e6-8d1a-83347fa2a7bc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakamura Asumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "dc5c64ac-abc2-45e6-8d1a-83347fa2a7bc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakamura Asumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5340eeaa-8a74-4c52-b6cd-c3c1592a86f3",
-   "type": "chapter"
-  },
-  {
-   "id": "f8d61d5d-62d8-4753-8e74-087e45cc737c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "f047d42f-3d1f-4f27-9642-bfa8ff6ee810",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:22+00:00",
+    "description": "",
+    "fileName": "5889449d-eb7a-4df1-90da-4fa0b540ae95.jpg",
+    "updatedAt": "2021-05-24T17:38:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

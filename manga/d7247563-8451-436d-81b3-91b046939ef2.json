@@ -7,11 +7,15 @@
    "title": {
     "en": "Knight of Benevolence"
    },
+   "altTitles": [
+    {
+     "en": "博愛の騎士"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Virtual Reality"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -40,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +62,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -62,47 +74,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-23T12:56:26+00:00",
+   "updatedAt": "2021-05-25T15:48:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "e8beaf6c-8d76-41bd-902d-ae6e77b344a6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ain",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e8beaf6c-8d76-41bd-902d-ae6e77b344a6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ain",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4472355d-ad64-486b-b061-4f30ccb4ae54",
-   "type": "chapter"
-  },
-  {
-   "id": "8c86611e-fab7-4986-9dec-d1a2f44acdd5",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "4aaca7cf-f48d-4fbf-ba96-9318c75a085b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:56+00:00",
+    "description": "",
+    "fileName": "91a03e69-4bfb-4b56-8775-9c38a456bd3c.jpg",
+    "updatedAt": "2021-05-24T17:56:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

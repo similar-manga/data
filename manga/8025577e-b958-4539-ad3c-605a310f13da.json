@@ -7,6 +7,14 @@
    "title": {
     "en": "Nichijo Lock"
    },
+   "altTitles": [
+    {
+     "en": "Nichijou Lock"
+    },
+    {
+     "en": "日常ロック"
+    }
+   ],
    "description": {
     "en": "PKST has been caught in jail after a heist, and Torazo is the only one that isn't in the prison. Will Peinto, Kuronoa and Sinigami be able to escape safely..."
    },
@@ -16,7 +24,6 @@
     "mu": "176103"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -28,6 +35,8 @@
       "name": {
        "en": "Crime"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +47,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +59,8 @@
       "name": {
        "en": "Police"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -58,51 +71,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-20T11:02:05+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "01164f00-bc3c-4345-b021-0fe44a1156bf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Torazo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f4ecf2a3-07f5-406e-acbd-a6c23dc3f769",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kouyou Matsunami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a3577b2c-ddfc-4f08-8d08-f11e7ee4d875",
-   "type": "chapter"
-  },
-  {
-   "id": "27235e9a-3960-4580-ab17-0f67d2cf2643",
-   "type": "chapter"
-  },
-  {
-   "id": "916adb49-7a5c-4f4e-a2f8-17c2ededa6df",
-   "type": "chapter"
-  },
-  {
-   "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "df33b754-73a3-4c54-80e6-1a74a8058539",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "32d0b160-b8c8-4f48-abfe-2324eab04aae",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:27:58+00:00",
+    "description": "",
+    "fileName": "4cab1386-090f-4415-816d-bebf67fbcb90.jpg",
+    "updatedAt": "2021-05-24T18:27:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

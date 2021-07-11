@@ -19,7 +19,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "7",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -31,6 +30,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +42,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +54,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,55 +66,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-04T22:03:41+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "905aaced-1556-4925-bff0-14ea277fb0b1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kamijo Atsushi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "905aaced-1556-4925-bff0-14ea277fb0b1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kamijo Atsushi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "91fd3573-d069-403a-9460-886a3b980f61",
-   "type": "chapter"
-  },
-  {
-   "id": "610d35b8-0f62-43f9-bc6e-7bb0addd9735",
-   "type": "chapter"
-  },
-  {
-   "id": "07e9349d-cec7-4a4a-b44f-3ff1d34eabe6",
-   "type": "chapter"
-  },
-  {
-   "id": "90ceea58-f4b9-4d78-924f-48cac56d269c",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "b725ab4a-06dc-4fd7-9466-d2d03647c4d3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:40:44+00:00",
+    "description": "",
+    "fileName": "4fa8a30c-17b8-4111-89c8-a1de2326022f.jpg",
+    "updatedAt": "2021-05-24T18:40:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

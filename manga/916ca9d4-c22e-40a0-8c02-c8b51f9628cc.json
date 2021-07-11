@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,6 +45,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,8 +55,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,63 +69,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-29T09:46:08+00:00",
+   "updatedAt": "2021-05-25T15:45:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "136f396f-2cff-4607-b1e7-ef8b9582e407",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Swangsart",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "06dce344-e24f-45c1-8afc-a0bfb93ea425",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Siobhan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6d0e232e-9c6b-436d-829f-aa6de491860f",
-   "type": "chapter"
-  },
-  {
-   "id": "f528835b-14ad-4456-ba2d-8196069d0bbb",
-   "type": "chapter"
-  },
-  {
-   "id": "bd8f30d7-c51c-4e8e-91ec-e48c12303446",
-   "type": "chapter"
-  },
-  {
-   "id": "b688db56-ae95-4fc5-84d7-7e1205a4fd64",
-   "type": "chapter"
-  },
-  {
-   "id": "fe5d3c5c-fef5-4027-8313-410701c61376",
-   "type": "chapter"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "42efd9b7-c941-4f6a-9d47-85cf19f091ff",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:24:44+00:00",
+    "description": "",
+    "fileName": "8162bb64-fc90-4b07-9165-4794026bdec4.png",
+    "updatedAt": "2021-05-24T18:24:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

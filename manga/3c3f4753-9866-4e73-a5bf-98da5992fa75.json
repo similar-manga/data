@@ -7,6 +7,14 @@
    "title": {
     "en": "Silver Kamuy"
    },
+   "altTitles": [
+    {
+     "en": "Silver Kamui"
+    },
+    {
+     "en": "シルバーカムイ"
+    }
+   ],
    "description": {
     "en": "Silver Kamuy is Golden Kamuy with the characters reimagined as elderly people."
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +61,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +73,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,51 +85,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-05T23:51:58+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "90a8830b-8539-42dd-9760-25fddeea1a38",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Noda Satoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "90a8830b-8539-42dd-9760-25fddeea1a38",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Noda Satoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b7a97661-1bc1-40d1-9609-ba416ff34ce0",
-   "type": "chapter"
-  },
-  {
-   "id": "ca50bb12-328b-4f12-9f44-ecadf0545912",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "7788d16a-4fa9-4f77-9ee7-2004454b9bdb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:43+00:00",
+    "description": "",
+    "fileName": "d0556016-700d-44ee-8854-a9e954f19099.png",
+    "updatedAt": "2021-05-24T17:21:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

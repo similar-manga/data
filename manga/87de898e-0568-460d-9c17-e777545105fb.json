@@ -7,6 +7,11 @@
    "title": {
     "en": "Look over here, Hamppoya"
    },
+   "altTitles": [
+    {
+     "en": "여길봐 햄뽀야!"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,8 +55,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,79 +69,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-06T09:22:51+00:00",
+   "updatedAt": "2021-05-25T15:44:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "a263c61a-ae66-4814-933e-ad1d4a6d65c6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hamnong",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a263c61a-ae66-4814-933e-ad1d4a6d65c6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hamnong",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "85ea47fc-4b35-4d14-a440-23992a7e5a38",
-   "type": "chapter"
-  },
-  {
-   "id": "9e51f6de-294a-4912-a649-258a6454eac6",
-   "type": "chapter"
-  },
-  {
-   "id": "fa9433f0-3144-4a0c-ba8d-2e72ddaa014e",
-   "type": "chapter"
-  },
-  {
-   "id": "a3f9d537-d6e0-4b3e-8ab5-13014ccff640",
-   "type": "chapter"
-  },
-  {
-   "id": "3ff95d7d-5ec3-4592-a155-2c5cb17998f9",
-   "type": "chapter"
-  },
-  {
-   "id": "bdcaa308-4eea-45a5-b59e-f2bf7f4595f3",
-   "type": "chapter"
-  },
-  {
-   "id": "36c1d2a1-b941-41dc-978f-5fbefb893876",
-   "type": "chapter"
-  },
-  {
-   "id": "5520831b-52a5-4d0b-8aa8-aa1260ad75d7",
-   "type": "chapter"
-  },
-  {
-   "id": "36ad3883-ad0b-474f-ae46-df1d6a055e4f",
-   "type": "chapter"
-  },
-  {
-   "id": "2f20851f-e5e4-4a0e-80b9-c344772ec661",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "36299465-9451-4f8f-9e9d-02dd8708abcd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:58:25+00:00",
+    "description": "",
+    "fileName": "bc612578-e3a1-495e-bcf1-b3fe48b7d572.png",
+    "updatedAt": "2021-05-24T17:58:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

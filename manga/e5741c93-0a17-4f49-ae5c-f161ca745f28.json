@@ -7,6 +7,11 @@
    "title": {
     "en": "Tsurugane Sensei"
    },
+   "altTitles": [
+    {
+     "en": "Tsurugane-Sensei"
+    }
+   ],
    "description": {
     "en": "A classroom full of delinquent troublemakers with bad grades receives a new teacher: the mysterious Tsurugane-Sensei, who claims that he can resolve any problem by using money."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,43 +46,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-28T20:05:44+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "674b238c-b18b-410c-b019-1d1001f7f9b1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kamo Yuji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "674b238c-b18b-410c-b019-1d1001f7f9b1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kamo Yuji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ff596486-eb39-4790-a4b3-b6cb4650dbab",
-   "type": "chapter"
-  },
-  {
-   "id": "abbdcde1-62d5-4d71-baab-5d9fb4d7b16a",
-   "type": "chapter"
-  },
-  {
-   "id": "395e3f1a-98b2-4e79-b1bb-0d0a07b27a19",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "7efa16ac-e8ea-4f72-8cad-0464b22eee32",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:43+00:00",
+    "description": "",
+    "fileName": "5b750d70-2b9c-4dfd-9420-d5d9fdb38326.jpg",
+    "updatedAt": "2021-05-24T17:20:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

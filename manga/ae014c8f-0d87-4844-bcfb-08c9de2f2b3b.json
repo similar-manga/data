@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "suggestive",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,35 +34,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-03T21:10:42+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "7a355b3c-defa-45a8-ad26-937f69dc1e9c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Seo Kouji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7a355b3c-defa-45a8-ad26-937f69dc1e9c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Seo Kouji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "50cb0764-ef09-4f33-b5ba-23debbd46e6b",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "f98c6169-7891-4fb3-b242-efc7839b86aa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:43:51+00:00",
+    "description": "",
+    "fileName": "591d8632-120b-490e-bc0f-296dbb55648a.jpg",
+    "updatedAt": "2021-05-24T16:43:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

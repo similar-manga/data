@@ -7,6 +7,17 @@
    "title": {
     "en": "Terror Night"
    },
+   "altTitles": [
+    {
+     "en": "Teller Night"
+    },
+    {
+     "en": "テラーナイト"
+    },
+    {
+     "en": "恐怖骑士"
+    }
+   ],
    "description": {
     "en": "A certain town where rumors of the occult have suddenly been increasing.\r\n\r\nSei, who lives in this town, encounters a strange girl. The girl wrongly thinks Sei is hitting on her and ends up tagging along with him. However, as it turns out, the strange girl is a certain legendary existence..."
    },
@@ -34,6 +45,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +57,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,6 +69,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -64,79 +81,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-13T19:11:36+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "e55942a4-37e6-47c6-9461-320a8c969880",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsukimi Takashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e55942a4-37e6-47c6-9461-320a8c969880",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsukimi Takashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "549b29f6-b668-41c3-9fc9-cc2c72632575",
-   "type": "chapter"
-  },
-  {
-   "id": "07ed607e-0346-487d-8abf-431d5e9ed06e",
-   "type": "chapter"
-  },
-  {
-   "id": "a5cb4286-30f1-40eb-bb9e-70ad6e48cf03",
-   "type": "chapter"
-  },
-  {
-   "id": "722f9f9d-e3de-4bd4-9bed-99b0fc9da1a0",
-   "type": "chapter"
-  },
-  {
-   "id": "67c44553-9a4d-45d5-b781-8db2d7ac6858",
-   "type": "chapter"
-  },
-  {
-   "id": "98ced14a-c580-45e1-8c5e-9164dbd0904f",
-   "type": "chapter"
-  },
-  {
-   "id": "f3fabe58-7baf-41c2-afb7-56b81c049e80",
-   "type": "chapter"
-  },
-  {
-   "id": "24c9ae55-2104-4501-bb1e-000d1fe02aa1",
-   "type": "chapter"
-  },
-  {
-   "id": "e8b99605-9f4c-4c8e-8e3f-4154936c35a3",
-   "type": "chapter"
-  },
-  {
-   "id": "4fcd49a1-ce5b-4f55-bc86-60393bb94891",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "c0a935b9-6ebe-4faa-967a-353accbcf486",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:40+00:00",
+    "description": "",
+    "fileName": "124e4f8d-4a9a-4889-b89a-32954adad591.jpg",
+    "updatedAt": "2021-05-24T17:22:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

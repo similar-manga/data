@@ -7,11 +7,15 @@
    "title": {
     "en": "Baka na Oni"
    },
+   "altTitles": [
+    {
+     "en": "ばかな鬼"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,39 +51,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-21T20:18:42+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "6ca25164-bc17-40d3-9f4f-d9403a90de15",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kujiraba",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6ca25164-bc17-40d3-9f4f-d9403a90de15",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kujiraba",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5f7f3673-49e3-48cb-9a8f-d1bf13ce6e8a",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "735b4a48-d8db-4f82-bf95-584b5474d8e5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:32:29+00:00",
+    "description": "",
+    "fileName": "7ddb4755-45c1-4ca4-8836-df94623eca2c.png",
+    "updatedAt": "2021-05-24T18:32:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

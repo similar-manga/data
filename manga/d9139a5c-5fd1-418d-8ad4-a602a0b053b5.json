@@ -7,6 +7,11 @@
    "title": {
     "en": "Noraneko to Hidamari"
    },
+   "altTitles": [
+    {
+     "en": "Stray Cat and the Sunny Spot"
+    }
+   ],
    "description": {
     "en": "Touko is a shy girl who loves animals, but because of her gloomy appearance, they always run away. One day, has a casual encounter with Akito, a boy who has always watched her from far and who ... will help her get closer to them?"
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,51 +55,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-26T10:15:40+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "c39ea659-7dce-4b25-9641-24f6a18c0f60",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shiraishi Yuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2e407d0e-ae32-49f1-ad14-3ca3504576e5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "shiraishi Yuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c009cad7-2443-47ec-bf76-d1175cf94040",
-   "type": "chapter"
-  },
-  {
-   "id": "ddd8fd79-4dc4-4dd2-98c4-8eadf25e803e",
-   "type": "chapter"
-  },
-  {
-   "id": "0362c77a-fabd-40da-9898-82c7f943c160",
-   "type": "chapter"
-  },
-  {
-   "id": "8e90a09d-0278-41bf-9251-6dd1cb066db4",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "7074c253-adf9-4faa-b1a7-79cb5d418e01",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:46:31+00:00",
+    "description": "",
+    "fileName": "2e6182d7-2d87-4c63-9b0e-04141389d160.png",
+    "updatedAt": "2021-05-24T17:46:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

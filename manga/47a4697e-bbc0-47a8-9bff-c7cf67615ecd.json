@@ -7,6 +7,14 @@
    "title": {
     "en": "Edo Karuta"
    },
+   "altTitles": [
+    {
+     "en": "Edo Card Game"
+    },
+    {
+     "en": "江戸カルタ"
+    }
+   ],
    "description": {
     "en": "A collection of historic short stories, each associated with a karuta card. The stories revolve around the red-light district of Yoshiwara, in Edo."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,47 +51,53 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-04T09:29:24+00:00",
+   "updatedAt": "2021-05-25T15:41:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "4d877946-3a72-46e7-8621-bf05862088f6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "AME Arare",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4d877946-3a72-46e7-8621-bf05862088f6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "AME Arare",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "87bd7834-08e0-47e2-8085-974f1e756a9a",
-   "type": "chapter"
-  },
-  {
-   "id": "e562bd57-7929-4d63-a07b-4f0e20c7879e",
-   "type": "chapter"
-  },
-  {
-   "id": "97c92bdd-74dc-4e70-8e9f-1889be610b4d",
-   "type": "chapter"
-  },
-  {
-   "id": "6f38120e-c6a1-45c2-9e17-57ab32e8640e",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
+   "id": "fab5966b-f2dd-4f2f-9ad0-9f2a32c3dddf",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:36:28+00:00",
+    "description": "",
+    "fileName": "144ed386-d85a-4dd1-bb2d-95bbc700467e.jpg",
+    "updatedAt": "2021-05-24T18:36:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

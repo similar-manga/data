@@ -7,6 +7,11 @@
    "title": {
     "en": "Over Steam"
    },
+   "altTitles": [
+    {
+     "en": "오버 스팀"
+    }
+   ],
    "description": {
     "en": "In the aftermath of a great war between humanity and creatures known as the Talaiv, the storms of war are brewing again."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -49,6 +58,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +70,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,6 +82,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -79,6 +94,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -89,91 +106,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-03T21:38:26+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "6985a59e-17cb-440b-b711-f99b4465b5f2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "유동혁",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b3c2b99e-2743-4e58-a15b-311a4b4b2034",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "서윤교",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7bc99375-7c01-4948-b423-ab9dd838a041",
-   "type": "chapter"
-  },
-  {
-   "id": "26a0fcb0-b942-40fe-ab96-a2cde8ae8bdb",
-   "type": "chapter"
-  },
-  {
-   "id": "d10adbc8-0ebd-430e-9329-4a3da0fc991c",
-   "type": "chapter"
-  },
-  {
-   "id": "d3c5228c-564b-409a-ae8b-d9f8aeb23ac8",
-   "type": "chapter"
-  },
-  {
-   "id": "640bea7e-619d-481c-98e1-c399e32c0fd7",
-   "type": "chapter"
-  },
-  {
-   "id": "43d42857-1bfe-4a01-8c3f-02e4d40c49bc",
-   "type": "chapter"
-  },
-  {
-   "id": "98dee0db-3afd-4416-b284-a745d8108b53",
-   "type": "chapter"
-  },
-  {
-   "id": "2717a2e0-c893-40fd-9373-1dc3327f80d6",
-   "type": "chapter"
-  },
-  {
-   "id": "2809022e-3cf8-4dcf-a825-5ec351541dc0",
-   "type": "chapter"
-  },
-  {
-   "id": "536eb45e-7900-40b6-8c65-d36caa49d8a4",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "b7bb3f9d-e900-4fbe-aeed-1761897afe32",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:39:45+00:00",
+    "description": "",
+    "fileName": "e5a5a0d8-8a6f-4ff4-9541-cfdf98915733.jpg",
+    "updatedAt": "2021-05-24T18:39:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

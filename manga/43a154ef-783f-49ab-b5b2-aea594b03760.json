@@ -7,6 +7,11 @@
    "title": {
     "en": "0.0 Mhz"
    },
+   "altTitles": [
+    {
+     "en": "0.0Mhz"
+    }
+   ],
    "description": {
     "en": "A group of young people tormented by ghosts join hands to find a scientific explanation for their paranormal experiences -- and a way out of them. In their desperate quest, they visit a haunted house and encounter a terrifying, blood-thirsty ghost with a tragic past. Will they come out alive? Or will they too become possessed by demon spirits?"
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,6 +49,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +61,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -62,79 +73,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-11T00:08:52+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "4adb18eb-2401-421b-907b-842a54dfc912",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jangjak",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4adb18eb-2401-421b-907b-842a54dfc912",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jangjak",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "735d9f9e-79d8-4219-b95c-d38e5c4dcc86",
-   "type": "chapter"
-  },
-  {
-   "id": "9051c11a-311b-4b8b-97a1-b8af2c37ed0a",
-   "type": "chapter"
-  },
-  {
-   "id": "d66a6f7c-c9e7-461c-99fc-05bd5584806f",
-   "type": "chapter"
-  },
-  {
-   "id": "a779802a-19f3-4e45-a1d5-60afa29d9014",
-   "type": "chapter"
-  },
-  {
-   "id": "ed6d9372-4799-4f73-8570-d663d198e32e",
-   "type": "chapter"
-  },
-  {
-   "id": "f6ab54c5-3c4d-4ae4-b540-102d6e848fdd",
-   "type": "chapter"
-  },
-  {
-   "id": "d13b192e-dd66-4c50-9020-22bc7f7f5cd8",
-   "type": "chapter"
-  },
-  {
-   "id": "a3b74abd-9b95-4dd4-8543-dd5afe9438f6",
-   "type": "chapter"
-  },
-  {
-   "id": "fd9e5162-db95-4c6e-bb11-74bd011b5610",
-   "type": "chapter"
-  },
-  {
-   "id": "13d80bcf-37c8-4d90-886e-8645e8334364",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "0251e669-538f-4f77-bb47-3ea9cd868656",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:44:34+00:00",
+    "description": "",
+    "fileName": "d9467163-118e-437c-8d9b-894c0a329331.jpg",
+    "updatedAt": "2021-05-24T16:44:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

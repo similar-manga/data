@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Grimm \u0026amp; Gritty"
+    "en": "Grimm \u0026 Gritty"
    },
+   "altTitles": [
+    {
+     "en": "Grimm and Gritty "
+    },
+    {
+     "en": "Grimm Gritty"
+    },
+    {
+     "en": "グリム＆グリッティ"
+    }
+   ],
    "description": {
     "en": "The manga stars Shinra Touya, a high school student attacked one night by a fairy tale monster. The girl who comes to his rescue is Alisha, a famous idol, dressed for battle."
    },
@@ -35,6 +46,8 @@
       "name": {
        "en": "Monsters"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -45,6 +58,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +70,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,6 +82,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -75,6 +94,8 @@
       "name": {
        "en": "Magical Girls"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -85,6 +106,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -95,6 +118,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -105,95 +130,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-15T03:14:14+00:00",
+   "updatedAt": "2021-05-25T15:45:37+00:00"
   }
  },
  "relationships": [
   {
    "id": "9d0c41fc-26d7-469f-b5b7-a1575466c1e4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyama Yuuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "89caf804-303d-4688-8219-882fe2d8029e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Bamyuuda Saimaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "868ba73f-1c38-4d2d-a4c6-43ae7e4b19f4",
-   "type": "chapter"
-  },
-  {
-   "id": "bc8288db-3a29-4f77-9d38-0aef98d619d5",
-   "type": "chapter"
-  },
-  {
-   "id": "6d26cd46-d698-4cdd-83ab-6d547e1d80b1",
-   "type": "chapter"
-  },
-  {
-   "id": "ae01d71c-19ba-4326-95ab-6ff7a1843d71",
-   "type": "chapter"
-  },
-  {
-   "id": "d0989c93-c285-43af-8e7a-1f8f91d23c12",
-   "type": "chapter"
-  },
-  {
-   "id": "1fd962f5-f259-4ac8-9466-b5cad00c97ce",
-   "type": "chapter"
-  },
-  {
-   "id": "540cee3f-898f-4732-b5f0-558937512556",
-   "type": "chapter"
-  },
-  {
-   "id": "287877b5-50fc-4807-ae77-6509871686fb",
-   "type": "chapter"
-  },
-  {
-   "id": "43e5cad4-d8a5-45b0-b76e-6ee961d1fbd9",
-   "type": "chapter"
-  },
-  {
-   "id": "96829b5b-5ff5-41d2-a738-0b413dd57f4f",
-   "type": "chapter"
-  },
-  {
-   "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "81c836c9-914a-4eca-981a-560dad663e73",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "bddd20f2-b73c-4f43-bffc-a0f79f4c87b9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:36+00:00",
+    "description": "",
+    "fileName": "067f6e57-47f0-4664-9942-9ee7d6f3de8d.jpg",
+    "updatedAt": "2021-05-24T17:04:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

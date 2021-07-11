@@ -7,6 +7,14 @@
    "title": {
     "en": "Kaeremasen."
    },
+   "altTitles": [
+    {
+     "en": "You Can't Go Home."
+    },
+    {
+     "en": "帰れません。"
+    }
+   ],
    "description": {
     "en": "Lately in this neighborhood, there have been several sightings of a suspicious man around 40 years old. Several female students are being followed. If you see a suspicious man, run away immediately. As much as possible, make sure you are not alone."
    },
@@ -15,7 +23,6 @@
     "mu": "127941"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +34,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +46,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,39 +58,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-25T21:03:59+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "eff4cae2-17b7-4e34-8b73-9eeb77270f31",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakamoto Isao",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "eff4cae2-17b7-4e34-8b73-9eeb77270f31",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakamoto Isao",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8a433662-47a5-43b2-88d9-540ee7fead59",
-   "type": "chapter"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "21a576bd-0c91-4f0d-baa5-1018ccaa843f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:13:14+00:00",
+    "description": "",
+    "fileName": "547a2043-814a-41bc-a7eb-90ffb23ef01f.jpg",
+    "updatedAt": "2021-05-24T17:13:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

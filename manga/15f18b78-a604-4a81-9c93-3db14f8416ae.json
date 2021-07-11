@@ -7,6 +7,11 @@
    "title": {
     "en": "Cigarette"
    },
+   "altTitles": [
+    {
+     "en": "담배"
+    }
+   ],
    "description": {
     "en": "Shin Jinwoo, who is being forced to quit smoking by his girlfriend, suddenly has a hoobae confess to him. How will a cigarette close the distance between the two?"
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +56,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,8 +66,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +80,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -77,6 +92,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -87,59 +104,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-07-04T23:53:46+00:00",
+   "updatedAt": "2020-07-04T23:53:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "1c838885-b55d-48f5-9080-ebb966c0d21b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "시리얼",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1c838885-b55d-48f5-9080-ebb966c0d21b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "시리얼",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "50b1f2c9-08d3-4a0d-9ebb-774ca21b9071",
-   "type": "chapter"
-  },
-  {
-   "id": "e19ba7da-1f25-49c8-a739-ec731c7ef780",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "064e235c-4384-4f1f-9eb9-95355938962c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:01:48+00:00",
+    "description": "",
+    "fileName": "9bdcbf4b-084a-457d-8e8c-4841821bc91b.png",
+    "updatedAt": "2021-05-24T18:01:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

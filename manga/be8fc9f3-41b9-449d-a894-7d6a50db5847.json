@@ -7,6 +7,11 @@
    "title": {
     "en": "Yamada-kun to Tanaka Kachou"
    },
+   "altTitles": [
+    {
+     "en": "山田くんと田中課長"
+    }
+   ],
    "description": {
     "en": "Section Chief Tanaka is a zealous 30-year-old who works for Oote Food's advertising group. Yamada, a cool subordinate, is tasked to look after Chief Tanaka and he is very much envied by his colleagues."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,43 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-26T23:53:07+00:00",
+   "updatedAt": "2021-05-25T15:47:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "14b49416-4c6f-47a0-b972-25d3666487d0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsumizu Ritsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "14b49416-4c6f-47a0-b972-25d3666487d0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsumizu Ritsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5db3563b-ae3c-4066-8433-1b1e53f6b401",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "54439dec-376e-4f28-bc3b-942a8502c313",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:14+00:00",
+    "description": "",
+    "fileName": "46d6a35d-7fcd-4fb1-a25e-beda24225551.jpg",
+    "updatedAt": "2021-05-24T16:59:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

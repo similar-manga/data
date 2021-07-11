@@ -7,6 +7,11 @@
    "title": {
     "en": "Doraemon Plus"
    },
+   "altTitles": [
+    {
+     "en": "ドラえもんプラス"
+    }
+   ],
    "description": {
     "en": "A collection of short stories that were not published in the original 45 volumes of Doraemon."
    },
@@ -18,7 +23,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "6",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +33,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +57,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +69,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -69,83 +81,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-29T03:00:17+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "42d595b6-d361-4f55-a04d-2010950d6d66",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujiko F. Fujio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "42d595b6-d361-4f55-a04d-2010950d6d66",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujiko F. Fujio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "41999712-274c-4435-91f8-1f6e4b92b3a9",
-   "type": "chapter"
-  },
-  {
-   "id": "ec53145c-7680-4282-9433-f3a27e6b10d6",
-   "type": "chapter"
-  },
-  {
-   "id": "24794273-b670-48f0-9b61-f020f3baa0db",
-   "type": "chapter"
-  },
-  {
-   "id": "1517d518-9458-4474-815e-4f5aec14abad",
-   "type": "chapter"
-  },
-  {
-   "id": "91aab33c-2d13-46cd-846e-64d34ec6cd6f",
-   "type": "chapter"
-  },
-  {
-   "id": "f7a8e41f-1cb3-4d57-8bba-9e79f479fd69",
-   "type": "chapter"
-  },
-  {
-   "id": "3d6be7d3-5065-4747-9ecb-56a9c95b9640",
-   "type": "chapter"
-  },
-  {
-   "id": "2812a100-a9e4-450c-9741-99e17aa0f8e2",
-   "type": "chapter"
-  },
-  {
-   "id": "93126013-d0f1-45a9-99d5-cc892a4cc3b0",
-   "type": "chapter"
-  },
-  {
-   "id": "050bbdb2-375f-4825-84a3-699591b0acb5",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "98a263a1-cd01-4f50-b83a-fc9f47b26c40",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:01:05+00:00",
+    "description": "",
+    "fileName": "74266cfe-0b15-4ac3-afdc-10c705e417df.jpg",
+    "updatedAt": "2021-05-24T18:01:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

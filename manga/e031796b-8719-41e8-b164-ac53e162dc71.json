@@ -7,11 +7,18 @@
    "title": {
     "en": "Tembin"
    },
+   "altTitles": [
+    {
+     "en": "天平"
+    },
+    {
+     "en": "天秤"
+    }
+   ],
    "description": {
     "en": "楽しんでもらえれば幸いです。"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +42,8 @@
       "name": {
        "en": "Thriller"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +54,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -53,43 +66,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-04T12:45:56+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "ae4536e1-af64-441a-9174-8049be9569f1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "宮前ユウ",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0008a6d6-f7c5-45b2-8aa4-95015a453e33",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "07251805-a27e-4d59-b488-f0bfbec15168",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "b2174159-4d59-4f00-b883-108941380a00",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:45+00:00",
+    "description": "",
+    "fileName": "e5551857-e696-4c49-aabd-6e694fc57866.jpg",
+    "updatedAt": "2021-05-24T18:33:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

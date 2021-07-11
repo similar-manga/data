@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "KISS\u0026times;DEATH"
+    "en": "KISS×DEATH"
    },
+   "altTitles": [
+    {
+     "en": "KISS x DEATH"
+    },
+    {
+     "en": "キス×デス"
+    },
+    {
+     "en": "キスデス"
+    }
+   ],
    "description": {
     "en": "A new manga by Kano Yasuhiro - author of [url=https://mangadex.org/title/200]MX0[/url]!\r\n\r\nFrom the perspective of an alien planet with super-advanced technology and tiny (1/60th the size of a human) inhabitants, planet Earth was the perfect location to banish their worst criminals. Five of said criminals were sent to the planet to be exiled, attached to little critters like frogs and rabbits so they can never be fully active. Due to an accident, these five criminals managed to escape and attach themselves to five different girls that were nearby. The one responsible for the banishment of these five criminals now must detach them from the girls by mouth-to-mouth release."
    },
@@ -32,6 +43,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +55,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +67,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +79,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -72,83 +91,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-05T08:49:13+00:00",
+   "updatedAt": "2021-05-25T15:43:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "886439ce-58bb-4d16-ba26-4c1a8da25111",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kano Yasuhiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "886439ce-58bb-4d16-ba26-4c1a8da25111",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kano Yasuhiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "22f4e3f2-1548-47b0-8959-1e521c0fff34",
-   "type": "chapter"
-  },
-  {
-   "id": "4e8bf2eb-d304-431a-b844-ee89207a5397",
-   "type": "chapter"
-  },
-  {
-   "id": "075b5c3f-20b2-42b7-b8fb-f2c3a3a09c3d",
-   "type": "chapter"
-  },
-  {
-   "id": "091b3ee9-aac2-425a-a82b-241bca17c4a4",
-   "type": "chapter"
-  },
-  {
-   "id": "6d7e6d6e-3320-4204-bbb6-5c7edbc0c7c5",
-   "type": "chapter"
-  },
-  {
-   "id": "c3e691af-2e37-4782-baaf-32847e4b2562",
-   "type": "chapter"
-  },
-  {
-   "id": "17c4572d-cc43-43b3-a1c3-7a375b5e7217",
-   "type": "chapter"
-  },
-  {
-   "id": "5fd7b6d5-b9e2-46c1-9bbd-3f417026f28b",
-   "type": "chapter"
-  },
-  {
-   "id": "a62c188f-f5b3-400e-ac73-6ab3b4a6f56e",
-   "type": "chapter"
-  },
-  {
-   "id": "bed78cf7-b3c8-4989-8943-913403e65ff1",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "82117d2e-7ad7-4fa5-9b42-70db269d964b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:47:04+00:00",
+    "description": "",
+    "fileName": "caa87a93-0c77-4ded-87e9-877f689fb2e8.jpg",
+    "updatedAt": "2021-05-24T16:47:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

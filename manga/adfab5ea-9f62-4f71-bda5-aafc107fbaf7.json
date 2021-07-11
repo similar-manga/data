@@ -32,6 +32,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +44,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,47 +56,65 @@
       "name": {
        "en": "Mecha"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-19T05:44:20+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "11962960-22c5-4479-9f66-f64b5e60342d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Stan Lee",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "aa9d8afa-2b6b-46ab-ad4f-fa0766f39fbb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "BONES",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "09d7c846-54d2-48fd-a4ab-71b4d2053786",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OOTA Tamon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "af24e874-1f1f-41a4-b26a-2d186649b77e",
-   "type": "chapter"
-  },
-  {
-   "id": "affa84fa-e36f-4bb4-9629-63618dc59175",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "50880a9d-5440-4732-9afb-8f457127e836",
-   "type": "tag"
+   "id": "de3f24d8-3a12-4f90-b45d-e75969cc6afa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:57+00:00",
+    "description": "",
+    "fileName": "4702cc78-df6a-4006-96d3-875d2f353b91.jpg",
+    "updatedAt": "2021-05-24T17:15:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

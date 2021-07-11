@@ -16,7 +16,6 @@
     "mu": "204"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,8 +24,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,39 +38,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-21T03:01:26+00:00",
+   "updatedAt": "2021-05-25T15:49:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "9b15d49f-822c-4342-9968-637428dcdeb4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Konno Kita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9b15d49f-822c-4342-9968-637428dcdeb4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Konno Kita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f8272515-a54b-4889-a5cf-c9781cca2a02",
-   "type": "chapter"
-  },
-  {
-   "id": "c26d1cfb-764c-40d1-8c63-878d1470c449",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "e96ea9ea-a878-4f80-9638-6927e5109572",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:28:02+00:00",
+    "description": "",
+    "fileName": "68a69384-b885-476b-ac54-6f57b7bb8549.jpg",
+    "updatedAt": "2021-05-24T18:28:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

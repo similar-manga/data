@@ -23,6 +23,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +35,8 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,6 +47,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,43 +59,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-25T10:31:45+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "a2b46d8e-0b41-48fb-9229-3bf317f5ea15",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inariya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e5e43282-57b0-4b9e-9b09-c10701c9f93f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cff3c941-fed0-4e7e-b798-15c03e454712",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "f608bb47-a453-4fca-856f-c7a8412338b3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:49:58+00:00",
+    "description": "",
+    "fileName": "1b08f9ca-af24-4587-9133-310a72619087.png",
+    "updatedAt": "2021-05-24T17:49:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

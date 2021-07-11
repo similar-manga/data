@@ -5,7 +5,7 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Togainu no Chi \u0026ndash; Babelist"
+    "en": "Togainu no Chi – Babelist"
    },
    "description": {
     "en": "Pairing: Shiki x Akira"
@@ -20,8 +20,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,35 +34,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-02T17:35:38+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "36282534-f2c7-4b6c-acc7-fd3aa43e9bb6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "K (Ten)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "36282534-f2c7-4b6c-acc7-fd3aa43e9bb6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "K (Ten)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d25b90b7-029a-4696-ba4d-9f6db8a45883",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "51bbe6fe-5e17-4f09-ab91-3afe5bfb5986",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:23+00:00",
+    "description": "",
+    "fileName": "1ad50d2b-5149-42ed-8d27-a1c308a9c47e.png",
+    "updatedAt": "2021-05-24T17:32:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

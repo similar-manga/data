@@ -7,6 +7,11 @@
    "title": {
     "en": "Ringo, Ki kara Ochiru"
    },
+   "altTitles": [
+    {
+     "en": "りんご、木から落ちる"
+    }
+   ],
    "description": {
     "en": "1. Ringo, Ki kara Ochiru\r\n2. Michi to no Souguu\r\n3. Kanojo nano ni Otoko \r\n4. Ore wa Ninkimono\r\n- sequel: Boku wa Ninkimono (Erotoro v.4)\r\n5. Afterward and Omake"
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +60,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,59 +72,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-11T19:35:24+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "ac592ba4-b2b0-454c-9f96-f49c500369d1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inutoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "978e0a58-b9de-48f1-9541-14967993c226",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Syohei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5c9f04bb-995e-4a50-bd3c-f75108f45de3",
-   "type": "chapter"
-  },
-  {
-   "id": "5db19bc2-d91d-43a4-835c-7a5f38a2a8bc",
-   "type": "chapter"
-  },
-  {
-   "id": "a37226d7-3ba2-4e3f-ac0f-29e1518a4194",
-   "type": "chapter"
-  },
-  {
-   "id": "ef58d4ae-22f9-494e-bee0-ecb69398774a",
-   "type": "chapter"
-  },
-  {
-   "id": "231c213d-858e-4ba8-99ce-869ce6f9eaa6",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "3f93af8a-13a0-4ffb-bd60-a33e50bad449",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:07:41+00:00",
+    "description": "",
+    "fileName": "6518b46f-1d4c-475f-9109-f2b1685d76c1.png",
+    "updatedAt": "2021-05-24T17:07:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

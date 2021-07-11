@@ -7,6 +7,17 @@
    "title": {
     "en": "Cha! Chu! Cho!"
    },
+   "altTitles": [
+    {
+     "en": "Cha Chu Cho"
+    },
+    {
+     "en": "Cha wo Chutto Chotto ne"
+    },
+    {
+     "en": "チャ・チュ・チョ"
+    }
+   ],
    "description": {
     "en": "Short, cute 4-koma about a cat's digestive problems."
    },
@@ -18,7 +29,6 @@
     "mu": "9914"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +39,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +63,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -59,47 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-15T19:53:07+00:00",
+   "updatedAt": "2021-05-25T15:38:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "4635c4ff-5d82-4983-9f92-5972a5806458",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mihara Ei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4635c4ff-5d82-4983-9f92-5972a5806458",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mihara Ei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "173193fd-0aad-4e26-bf1a-2be4b37bb144",
-   "type": "chapter"
-  },
-  {
-   "id": "4d3103e9-ebb6-42c3-8779-eedb20cc3a44",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "5db02517-6bc1-4f08-8865-633e7566161c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:37:39+00:00",
+    "description": "",
+    "fileName": "9c2ae81b-06ca-4f91-b8c6-24dfade4f107.jpg",
+    "updatedAt": "2021-05-24T18:37:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

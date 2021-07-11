@@ -7,6 +7,14 @@
    "title": {
     "en": "Koi no Kutsuoto"
    },
+   "altTitles": [
+    {
+     "en": "Footsteps Of Love"
+    },
+    {
+     "en": "恋の靴音"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -27,8 +35,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +61,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,43 +73,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-19T05:47:17+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "8fb35b2b-8501-460a-b228-2a393467dcb6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aoyama Toomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8fb35b2b-8501-460a-b228-2a393467dcb6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aoyama Toomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f0c53906-b87d-4c64-ba5d-30e1b1807bc4",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "08084eba-b13e-4f11-882c-f442e5e170c4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:48:40+00:00",
+    "description": "",
+    "fileName": "b06ba70f-cc02-4041-ac25-c3fcb0c0a5ba.jpg",
+    "updatedAt": "2021-05-24T16:48:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

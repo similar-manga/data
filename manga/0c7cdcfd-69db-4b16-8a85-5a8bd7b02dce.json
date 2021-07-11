@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Shingeki no Kyojin - Hey Corporal, Don\u0026rsquo;t Think You\u0026rsquo;ve Won (Doujinshi)"
+    "en": "Shingeki no Kyojin - Hey Corporal, Don’t Think You’ve Won (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Shingeki no Kyojin dj - Oi Heichou Sore de Watashu ni Katta to Omou na"
+    },
+    {
+     "en": "進撃の巨人 dj - おい兵長それで私に勝ったと思うな"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +22,6 @@
     "mu": "116632"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +32,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,43 +44,77 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-21T11:36:42+00:00",
+   "updatedAt": "2021-05-25T15:39:21+00:00"
   }
  },
  "relationships": [
   {
    "id": "7d63bc93-9d3e-4dab-97d7-3e81697d5279",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "93b47a58-e324-4a41-b955-ac44a9526deb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lie-Thunder (Circle)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7d63bc93-9d3e-4dab-97d7-3e81697d5279",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "93b47a58-e324-4a41-b955-ac44a9526deb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lie-Thunder (Circle)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6e0a9cfb-58be-4368-a60c-d4b2059bcb04",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "92bed31b-e3a7-4f34-9d0b-c02ec21febd6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:48:53+00:00",
+    "description": "",
+    "fileName": "509130d3-89a9-4336-8429-b41f63bf202e.jpg",
+    "updatedAt": "2021-05-24T16:48:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,11 +7,15 @@
    "title": {
     "en": "Queen's Blade - Amara Academy"
    },
+   "altTitles": [
+    {
+     "en": "クイーンズブレイド アマラ学園"
+    }
+   ],
    "description": {
     "en": "Short manga by F.S. about his Queen's Blade characters in a high-school setting."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,43 +62,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-27T12:23:18+00:00",
+   "updatedAt": "2021-05-25T15:40:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "7f64d00f-dd7f-4956-b2b2-1bcb48f1f7df",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hobby Japan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a6ec235c-ecb5-464f-9778-a7ad9569f065",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "F.S.",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e39ef4ee-e8a8-4999-9002-eb5255f34e80",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "5308d0f6-1d16-4fa1-bc11-7407037ff1df",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:24:25+00:00",
+    "description": "",
+    "fileName": "8dcb8232-0691-4d1d-bd09-09e4be5d5f96.png",
+    "updatedAt": "2021-05-24T18:24:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

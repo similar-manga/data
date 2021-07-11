@@ -7,6 +7,29 @@
    "title": {
     "en": "Welcome To Room #305!"
    },
+   "altTitles": [
+    {
+     "en": "Eoseo Oseyo 305 ho-e!"
+    },
+    {
+     "en": "L'Appart 305"
+    },
+    {
+     "en": "Welcome to Room 305!"
+    },
+    {
+     "en": "ようこそ、305号室へ"
+    },
+    {
+     "en": "歡迎來到305號"
+    },
+    {
+     "en": "어서오세요! 305호에!"
+    },
+    {
+     "en": "어서오세요.305호에"
+    }
+   ],
    "description": {
     "en": "Light-hearted homophobe - genki gay guy cohabitation comedy.\r\n\r\nYou'll laugh, you'll cry, you'll roll your eyes and who knows? You just might learn something."
    },
@@ -30,6 +53,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +65,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +77,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +89,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -70,6 +101,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -80,87 +113,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-01-21T00:49:13+00:00",
+   "updatedAt": "2021-05-25T15:43:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "81e69ad4-576f-454d-a376-6629f26d1052",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "WaNan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "81e69ad4-576f-454d-a376-6629f26d1052",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "WaNan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "89f66a48-24fc-4ded-bf52-b8a79759a6b9",
-   "type": "chapter"
-  },
-  {
-   "id": "6625b76f-8583-47a7-bde7-1260889c42e8",
-   "type": "chapter"
-  },
-  {
-   "id": "7b6a6fd6-a37c-4a1e-8a58-cc4e0c32daf0",
-   "type": "chapter"
-  },
-  {
-   "id": "d8d9fd59-849d-42ee-931f-5d856337d0f1",
-   "type": "chapter"
-  },
-  {
-   "id": "b152ca00-db3e-4b38-b0ea-367bf033ee3e",
-   "type": "chapter"
-  },
-  {
-   "id": "5f0aa944-fdcc-4d5f-9480-3c8561923412",
-   "type": "chapter"
-  },
-  {
-   "id": "891e1eb6-00f5-44bf-8205-fc08518e9b0f",
-   "type": "chapter"
-  },
-  {
-   "id": "e04c1420-6ef2-43c7-bbbf-5d0d3f84e83e",
-   "type": "chapter"
-  },
-  {
-   "id": "c2cab84d-b0a8-4d28-9fa7-895997dbc464",
-   "type": "chapter"
-  },
-  {
-   "id": "464ba3c5-25d0-434d-9803-9e285697413c",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "fc958589-357e-4f21-8e35-57381dc1d8ff",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:48:17+00:00",
+    "description": "",
+    "fileName": "88b8027d-41c5-4931-a8af-57ad7527ef02.jpg",
+    "updatedAt": "2021-05-24T16:48:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

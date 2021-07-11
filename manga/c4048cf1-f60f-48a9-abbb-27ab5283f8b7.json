@@ -7,6 +7,14 @@
    "title": {
     "en": "The School Girl's Glasses"
    },
+   "altTitles": [
+    {
+     "en": "School Girl's Glasses"
+    },
+    {
+     "en": "The School Girls Glasses"
+    }
+   ],
    "description": {
     "en": "The musings of a bespectacled school girl."
    },
@@ -15,7 +23,6 @@
     "mu": "144619"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +46,8 @@
       "name": {
        "en": "Philosophical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +58,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -57,43 +70,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-25T15:12:06+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "f5567bec-c7e6-47de-adde-3f5382e470fc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nii Michiyo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f5567bec-c7e6-47de-adde-3f5382e470fc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nii Michiyo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cdf947a5-19cd-49b2-aa33-27b24c6d746e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "68ad92b4-0031-4f8b-97af-7ad05d0fe199",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:38+00:00",
+    "description": "",
+    "fileName": "570a788f-993c-4b1a-8af4-633f22ba987f.jpg",
+    "updatedAt": "2021-05-24T17:02:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

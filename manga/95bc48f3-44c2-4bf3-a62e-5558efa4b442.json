@@ -7,6 +7,11 @@
    "title": {
     "en": "Girls, Brooms, and Tomato Sauce"
    },
+   "altTitles": [
+    {
+     "en": "Girl and Broom and Tomato Sauce"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -22,6 +27,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,39 +39,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-07-11T11:13:34+00:00",
+   "updatedAt": "2019-07-11T11:13:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "e179fcd9-eeb4-4a17-88ed-7414ce74db1d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Meguro Sankichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e179fcd9-eeb4-4a17-88ed-7414ce74db1d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Meguro Sankichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5a952e6f-b51c-4d8c-810a-61d15ffb11f5",
-   "type": "chapter"
-  },
-  {
-   "id": "7e1e4176-36cb-4f1b-a693-a07bd753a5cf",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "99ab2edc-bbfa-4f4c-a125-c635b8bbafd0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:34+00:00",
+    "description": "",
+    "fileName": "ff416686-a286-490b-81de-10ca837f4474.png",
+    "updatedAt": "2021-05-24T17:18:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

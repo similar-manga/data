@@ -7,6 +7,11 @@
    "title": {
     "en": "Koi wa itsumo arashi youni"
    },
+   "altTitles": [
+    {
+     "en": "Love is Like a Hurricane"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -17,7 +22,6 @@
     "mal": "1384"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,8 +30,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,43 +44,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-17T10:47:20+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "dc44aadb-b9c5-4445-8f3a-a680c3bc72c4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tokiya Shimazaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "72c1ed8b-0fa2-40a2-8983-cfd464865117",
-   "type": "chapter"
-  },
-  {
-   "id": "e27ab6a9-fd40-43c0-8b28-9d380df54918",
-   "type": "chapter"
-  },
-  {
-   "id": "630dbe2b-6782-4388-8a18-66c413514b98",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "6a137a75-9412-4fa0-bff2-bb4eb03f8583",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:23:07+00:00",
+    "description": "",
+    "fileName": "3ec9c9f0-cf2c-4c77-bd57-555956612d51.jpg",
+    "updatedAt": "2021-05-24T17:23:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

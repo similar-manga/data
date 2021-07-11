@@ -7,6 +7,17 @@
    "title": {
     "en": "Black Magic"
    },
+   "altTitles": [
+    {
+     "en": "Чёрная магия"
+    },
+    {
+     "en": "ブラックマジック"
+    },
+    {
+     "en": "黑魔法"
+    }
+   ],
    "description": {
     "en": "It's a time in the future -- a time where the creation of life itself has evolved to include biodroids named after the ancient Greeks and cyborg warriors programmed to destroy. The power struggle between the various synthetic life-forms and the humans could mean the end of all life. But there is one, named Typhon, who may be able to prevent that."
    },
@@ -33,6 +44,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +56,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,51 +68,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-09T02:28:38+00:00",
+   "updatedAt": "2021-05-25T15:49:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "7a52298d-444b-4e52-b1cd-9467af8de279",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHIROW Masamune",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7a52298d-444b-4e52-b1cd-9467af8de279",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHIROW Masamune",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "92f85302-95a7-4f47-919b-6764ae73d682",
-   "type": "chapter"
-  },
-  {
-   "id": "fca8e392-b9c9-449f-a4da-0f9e336f5758",
-   "type": "chapter"
-  },
-  {
-   "id": "feb3659b-90a7-4b79-99d2-34168bf11f30",
-   "type": "chapter"
-  },
-  {
-   "id": "ed7a88d3-eed2-41c4-a529-30d75d873fc5",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "61922242-3810-4f21-8f5b-6da9c97a5183",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:14:50+00:00",
+    "description": "",
+    "fileName": "8b5d166f-e8ab-4dd8-952e-7d9de1d921aa.jpg",
+    "updatedAt": "2021-05-24T17:14:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

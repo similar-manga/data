@@ -7,6 +7,11 @@
    "title": {
     "en": "Serendipity"
    },
+   "altTitles": [
+    {
+     "en": "세렌디피티"
+    }
+   ],
    "description": {
     "en": "About a rich man unable to open his heart to others and a woman who is poor but lives life filled with love and hope."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +58,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -59,6 +70,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,6 +82,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -79,6 +94,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -89,6 +106,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -99,95 +118,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-13T22:24:41+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "910ab32c-03d8-4517-a0a4-7f1cde98a6ea",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Woo Eun-Ji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f8a0e8c0-aa55-47cc-906c-a5a7f53d2992",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hong Sung-Gyung",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "92ba858d-8c3b-4680-9257-376253e3b0dc",
-   "type": "chapter"
-  },
-  {
-   "id": "16b8de43-d366-4211-bc0e-f502e8571edc",
-   "type": "chapter"
-  },
-  {
-   "id": "4b63ddc8-974f-433f-9bad-6c9f93f0dc19",
-   "type": "chapter"
-  },
-  {
-   "id": "dc0f437e-4dce-48d4-89e8-12c85a9d6b2b",
-   "type": "chapter"
-  },
-  {
-   "id": "e51e4cbd-823f-4652-8cf0-df4c5db54fcd",
-   "type": "chapter"
-  },
-  {
-   "id": "0249a56f-fd29-470d-9b26-5f498d9569c1",
-   "type": "chapter"
-  },
-  {
-   "id": "bf237532-6121-4070-83a1-14fa23e7ade8",
-   "type": "chapter"
-  },
-  {
-   "id": "ea7d845d-41ad-4cca-8041-48a425fc043b",
-   "type": "chapter"
-  },
-  {
-   "id": "a20062d8-383f-43d1-afce-bc98b25607fc",
-   "type": "chapter"
-  },
-  {
-   "id": "2cb2bfb2-272f-40ad-8a4f-a9676cba15df",
-   "type": "chapter"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "b4ed7f25-6fec-4f5b-921e-1d2383f1119e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:46:07+00:00",
+    "description": "",
+    "fileName": "efc8379f-a199-4b5d-b9a0-6ba8fc071e85.jpg",
+    "updatedAt": "2021-05-24T16:46:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

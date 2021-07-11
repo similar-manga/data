@@ -7,6 +7,11 @@
    "title": {
     "en": "Swallowtail"
    },
+   "altTitles": [
+    {
+     "en": "스왈로테일"
+    }
+   ],
    "description": {
     "en": "[url=https://timatima.booth.pm/items/1217457]Japanese ver.[/url]\r\n[url=https://twitter.com/swallowtail_gl]Author Twitter[/url]"
    },
@@ -15,7 +20,6 @@
     "raw": "https://swallowtail.postype.com/"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +30,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -34,8 +40,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +54,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -56,51 +66,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-21T09:53:02+00:00",
+   "updatedAt": "2021-05-25T15:48:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "7a99e643-7e1c-441c-ba1c-fc7b79294bb2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "noppi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "705454df-0389-40b4-bd2d-00af869bb352",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "tima",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5d471610-11d9-4668-b77b-5ea08cef9390",
-   "type": "chapter"
-  },
-  {
-   "id": "e607729a-67b8-4ab7-9a0b-40e64c1587e9",
-   "type": "chapter"
-  },
-  {
-   "id": "148db068-4dc4-4c03-a573-aae89dee0d93",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "23e141c4-6f6f-4f44-bb56-49169bcb6c89",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:16+00:00",
+    "description": "",
+    "fileName": "225fefe8-1f40-4ca1-90c2-914c6af62293.png",
+    "updatedAt": "2021-05-24T17:38:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

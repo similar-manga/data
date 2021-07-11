@@ -28,8 +28,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,43 +42,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-15T21:40:34+00:00",
+   "updatedAt": "2021-05-25T15:42:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "ff388c9d-a2ea-4043-9385-e0d0d313c67a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tohjoh Asami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ff388c9d-a2ea-4043-9385-e0d0d313c67a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tohjoh Asami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "05e6cc1a-ff33-4868-a123-fc0d710a5501",
-   "type": "chapter"
-  },
-  {
-   "id": "29d8f67f-3eb6-4760-950a-546aab7cef8e",
-   "type": "chapter"
-  },
-  {
-   "id": "698ad5a2-c6ee-4515-94b3-9c2b5b63eac5",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "eab25894-3ce0-4fc3-9c9b-26eb17e929e7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:57+00:00",
+    "description": "",
+    "fileName": "202ccfb4-d003-446c-a891-11892fa0d968.jpg",
+    "updatedAt": "2021-05-24T17:33:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

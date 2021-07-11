@@ -7,6 +7,14 @@
    "title": {
     "en": "Rockman 8"
    },
+   "altTitles": [
+    {
+     "en": "MegaMan 8"
+    },
+    {
+     "en": "ロックマン8"
+    }
+   ],
    "description": {
     "en": "Wily's robots are still menacing Mega Man, and now the mysterious interstellar robot Duo barges his way into the skirmish."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Mecha"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,43 +74,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-11T11:05:03+00:00",
+   "updatedAt": "2021-05-25T15:41:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "53639f15-eda6-4cd4-8c39-90a6d45c0265",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Izuki Kooji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "53639f15-eda6-4cd4-8c39-90a6d45c0265",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Izuki Kooji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "05c98286-d644-4fde-ac0d-a19f4e7b1338",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "50880a9d-5440-4732-9afb-8f457127e836",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "9c7364c4-1df4-4f42-a2e0-a59b70cb6938",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:26+00:00",
+    "description": "",
+    "fileName": "2b1ca059-d539-4047-913f-e079cdae8bc3.jpg",
+    "updatedAt": "2021-05-24T17:33:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

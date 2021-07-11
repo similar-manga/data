@@ -23,6 +23,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +35,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -43,6 +47,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,79 +59,53 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-18T15:47:42+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "f0de8c7c-70c9-4ed8-83d5-ddc1b7639f15",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chiba Toshirou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f0de8c7c-70c9-4ed8-83d5-ddc1b7639f15",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chiba Toshirou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d609c747-f508-4d33-b7b4-903e8cb9d13f",
-   "type": "chapter"
-  },
-  {
-   "id": "15e960ea-52d6-4caf-9370-6170637ae7d2",
-   "type": "chapter"
-  },
-  {
-   "id": "31e188b5-a10f-4e4b-98e5-414199fbefaa",
-   "type": "chapter"
-  },
-  {
-   "id": "1a293e2d-43d0-4606-9b37-9f084900763b",
-   "type": "chapter"
-  },
-  {
-   "id": "93a4324c-4fa3-4e9d-82df-b3f52b4c71e3",
-   "type": "chapter"
-  },
-  {
-   "id": "923916ab-d85f-4cc9-b36c-b5288c6d38f4",
-   "type": "chapter"
-  },
-  {
-   "id": "c54c6eb2-e5a2-4cfd-9565-2ddc85ca37c5",
-   "type": "chapter"
-  },
-  {
-   "id": "29753fb1-8e8b-4821-9e55-ae28ff0db448",
-   "type": "chapter"
-  },
-  {
-   "id": "688569c4-cf27-4e3e-ab7b-b9007bba4ea1",
-   "type": "chapter"
-  },
-  {
-   "id": "2885bae6-ded6-4235-8a9f-531fdfd84575",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
+   "id": "0f3fa19f-0f0f-4f7c-aa95-21d4c37e8d04",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:22+00:00",
+    "description": "",
+    "fileName": "0898fe52-9893-4e0a-aadf-ae6f79e818f8.jpg",
+    "updatedAt": "2021-05-24T17:56:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

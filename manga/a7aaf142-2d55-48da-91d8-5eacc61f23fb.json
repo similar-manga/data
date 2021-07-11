@@ -7,6 +7,11 @@
    "title": {
     "en": "Oh My! Hotel!"
    },
+   "altTitles": [
+    {
+     "en": "오 마이! 호텔!"
+    }
+   ],
    "description": {
     "en": "Cool and sexy hotel concierge  [b]X[/b] Arrogant and fussy prince... How will things turn out?\r\n(Random Fujoshis Scans)"
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +54,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +68,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -67,83 +80,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-18T19:39:00+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "5bb11187-e2f1-4355-847e-9d77f577c3ba",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jamong",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "953dfc92-a5b8-4ffb-b15b-ed92f0a3a25a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Pagoi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "17bf0133-dd9c-45bb-ad74-884d936f47b0",
-   "type": "chapter"
-  },
-  {
-   "id": "18076a4c-75b2-4d7e-94a3-8b862fc18886",
-   "type": "chapter"
-  },
-  {
-   "id": "6f455f6f-7655-4604-84cc-01974ca47186",
-   "type": "chapter"
-  },
-  {
-   "id": "186ab0da-cbb5-48e7-b5ca-de429ecbeb0f",
-   "type": "chapter"
-  },
-  {
-   "id": "694b15eb-d179-4488-ac90-93000af5b8b9",
-   "type": "chapter"
-  },
-  {
-   "id": "8617c7d3-9e33-4b4a-ba29-2cb81199e490",
-   "type": "chapter"
-  },
-  {
-   "id": "db60d7b4-3e2c-4954-bc85-43255abe46cf",
-   "type": "chapter"
-  },
-  {
-   "id": "0e69d583-ec6b-49d4-9649-97b24f7c0b36",
-   "type": "chapter"
-  },
-  {
-   "id": "55cc2ed8-70e3-406f-b591-34a809c5a5a8",
-   "type": "chapter"
-  },
-  {
-   "id": "392e5cc7-1ae5-4f42-96e2-4526540e2525",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "43b74656-1940-4f56-97f4-f4803374e08b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:41+00:00",
+    "description": "",
+    "fileName": "0b784551-a37a-45bf-98c5-466094bcf3fe.jpg",
+    "updatedAt": "2021-05-24T17:41:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

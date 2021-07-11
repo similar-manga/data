@@ -7,6 +7,11 @@
    "title": {
     "en": "Wrong Appeal"
    },
+   "altTitles": [
+    {
+     "en": "잘못된 어필"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -18,7 +23,6 @@
     "mu": "47083"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +46,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,39 +58,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-09T01:17:45+00:00",
+   "updatedAt": "2021-05-25T15:47:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "8c71c3f0-9843-490c-a2b3-183ff0973e31",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lee Ji-Hyun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8c71c3f0-9843-490c-a2b3-183ff0973e31",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lee Ji-Hyun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c0235307-bc68-4494-b8cd-7a9925f3c9af",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "8d5d21ad-304e-4f20-ad85-078490ee1f21",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:13+00:00",
+    "description": "",
+    "fileName": "e40d254d-1a4a-4336-84c2-e9635031c058.png",
+    "updatedAt": "2021-05-24T16:57:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

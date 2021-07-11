@@ -5,10 +5,25 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Cat \u0026amp; Me"
+    "en": "Cat \u0026 Me"
    },
+   "altTitles": [
+    {
+     "en": "Cat and Me"
+    },
+    {
+     "en": "고양이 과 나"
+    },
+    {
+     "en": "고양이(님) 과 나"
+    },
+    {
+     "en": "고양이님 과 나"
+    }
+   ],
    "description": {
-    "en": "A manhwa about an owner and her cat.\r\n\r\n[u][b]Polish / Polski:[/b][/u]  [spoiler]O pewnym kocie i jego właścicielce. Polecany wszystkim, kt\u0026oacute;rzy wiedzą, co znaczy mieć w domu kota ^^ [/spoiler]"
+    "en": "A manhwa about an owner and her cat.",
+    "pl": "O pewnym kocie i jego właścicielce. Polecany wszystkim, którzy wiedzą, co znaczy mieć w domu kota ^^"
    },
    "links": {
     "al": "41526",
@@ -30,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,47 +57,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-08T22:39:27+00:00",
+   "updatedAt": "2021-05-25T15:42:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "1267768f-f550-4342-bfd2-a515c52639e8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Yun A",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1267768f-f550-4342-bfd2-a515c52639e8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Yun A",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "81a5af79-d8bf-48b4-985e-69962e12644c",
-   "type": "chapter"
-  },
-  {
-   "id": "6908a8da-06f0-43a9-8550-5d0a8403bb41",
-   "type": "chapter"
-  },
-  {
-   "id": "b2bd365a-42b4-4e53-b578-5dc710a736c3",
-   "type": "chapter"
-  },
-  {
-   "id": "8d610141-3fa0-4fa6-bf06-798e08830baa",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "11c1456a-974d-4f99-90a7-241863a0462f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:12+00:00",
+    "description": "",
+    "fileName": "0ef1cb38-2717-4742-8650-a2948ee1c2a9.jpg",
+    "updatedAt": "2021-05-24T16:57:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

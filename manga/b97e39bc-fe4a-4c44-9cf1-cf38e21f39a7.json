@@ -7,6 +7,14 @@
    "title": {
     "en": "Black Dress"
    },
+   "altTitles": [
+    {
+     "en": "Woman In Mourning and the Neighbor"
+    },
+    {
+     "en": "喪服を着た女性と隣人女性の話"
+    }
+   ],
    "description": {
     "en": "A oneshot about a woman in mourning and her neighbor."
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -34,8 +44,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +58,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -56,47 +70,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-15T08:57:45+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "bdc140b9-36fd-4a41-9141-5b001859a48d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Isoya Yuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bdc140b9-36fd-4a41-9141-5b001859a48d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Isoya Yuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "19dfe207-c8e8-41d4-936c-ded0f5c6fd10",
-   "type": "chapter"
-  },
-  {
-   "id": "51a754b9-8b1b-4dfa-8082-13de0ae6186d",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "1b7486ae-bfa7-4fd1-acf3-abaff93886e5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:03:05+00:00",
+    "description": "",
+    "fileName": "d66fb6b1-290c-4797-a403-d43dab158b4b.jpg",
+    "updatedAt": "2021-05-24T18:03:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

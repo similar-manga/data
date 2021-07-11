@@ -7,11 +7,15 @@
    "title": {
     "en": "My Favorite Death"
    },
+   "altTitles": [
+    {
+     "en": "マイ・フェイバリット・デス"
+    }
+   ],
    "description": {
     "en": "A 2007 COMITIA oneshot by Kikai."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,6 +50,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -52,43 +62,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-28T05:30:53+00:00",
+   "updatedAt": "2021-05-25T15:43:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "588c5f99-3ff8-4ac0-a562-5e1c86bfc71b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kikai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "588c5f99-3ff8-4ac0-a562-5e1c86bfc71b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kikai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e461f83a-7cb6-44ee-b261-917ab98c13aa",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "d538e2b9-ba36-4f26-bbb5-d7a2076d3c9f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:20:37+00:00",
+    "description": "",
+    "fileName": "86b1a958-efb2-48b6-a946-7941ef57d702.jpg",
+    "updatedAt": "2021-05-24T18:20:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

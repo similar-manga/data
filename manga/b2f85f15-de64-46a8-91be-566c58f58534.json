@@ -7,6 +7,14 @@
    "title": {
     "en": "I Want to Be a Prince!"
    },
+   "altTitles": [
+    {
+     "en": "Wangjanimi Doego Sipeo!!"
+    },
+    {
+     "en": "왕자님이 되고 싶어!!"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -58,6 +72,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -68,59 +84,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-21T14:39:57+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "4f8bb049-f1b2-4408-8085-09f6024ed89f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kairin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4f8bb049-f1b2-4408-8085-09f6024ed89f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kairin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "25e15365-599b-4d68-ba84-3e3c4f29784d",
-   "type": "chapter"
-  },
-  {
-   "id": "cbfbb869-e428-44b2-9f02-0fcc5f52b6c6",
-   "type": "chapter"
-  },
-  {
-   "id": "72a2b054-c5de-4eb0-a8a9-7253c93f13a9",
-   "type": "chapter"
-  },
-  {
-   "id": "4177268c-02d1-4f6f-b9f9-1421da3c4464",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "670ff896-d426-4fa5-afca-8f6ef42d95e3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:42:02+00:00",
+    "description": "",
+    "fileName": "6a0364a9-4539-40ba-9c83-ba5718d61971.jpg",
+    "updatedAt": "2021-05-24T17:42:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

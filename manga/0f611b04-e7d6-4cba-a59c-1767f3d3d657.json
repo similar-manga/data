@@ -5,10 +5,18 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Up \u0026amp; Down"
+    "en": "Up \u0026 Down"
    },
+   "altTitles": [
+    {
+     "en": "Up and Down"
+    },
+    {
+     "en": "위아래"
+    }
+   ],
    "description": {
-    "en": "\u0026ldquo;When you go to work, don\u0026rsquo;t you at least have sex with one of the women there?\u0026rdquo;\r\nWith his friend\u0026rsquo;s advice in mind, Dong Woo who just joined a new company will meet his new hot president."
+    "en": "“When you go to work, don’t you at least have sex with one of the women there?”\r\nWith his friend’s advice in mind, Dong Woo who just joined a new company will meet his new hot president."
    },
    "links": {
     "ap": "up-and-down",
@@ -27,6 +35,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -57,6 +71,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +83,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -77,87 +95,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-28T11:27:41+00:00",
+   "updatedAt": "2021-05-25T15:39:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "658c7fb8-a837-41e7-94b4-3077336b62e3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Husky Guy",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "54faab86-3885-4d7f-adfb-6f184b0a6f8d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Edge Edge",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d7a7b095-424b-42c2-a0fc-9514115ab686",
-   "type": "chapter"
-  },
-  {
-   "id": "b647d608-cacf-4946-9961-ac918ba499cc",
-   "type": "chapter"
-  },
-  {
-   "id": "441ed279-f4f8-43b2-be3e-a44ab6c1437e",
-   "type": "chapter"
-  },
-  {
-   "id": "ffbbd295-245f-4907-9100-747c4dd01841",
-   "type": "chapter"
-  },
-  {
-   "id": "d740a867-e4ac-4e0d-ab68-996d99da96b4",
-   "type": "chapter"
-  },
-  {
-   "id": "f2e38ca4-fd4b-4ec4-9c3c-ed0807e8dad4",
-   "type": "chapter"
-  },
-  {
-   "id": "3cc08d6a-22a5-4633-aa07-3fcae06aa57f",
-   "type": "chapter"
-  },
-  {
-   "id": "f16458bd-2b26-408b-933e-4d7232cb5b87",
-   "type": "chapter"
-  },
-  {
-   "id": "f127bba0-4003-49f1-8efc-d23e370df769",
-   "type": "chapter"
-  },
-  {
-   "id": "5e5ffb76-e09a-4acd-a502-67bff60327dc",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "0b32724b-cf83-4fbe-baea-474f7c604b3d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:35+00:00",
+    "description": "",
+    "fileName": "fc15dadd-2b6a-43c7-ac8e-9f58a54d4cbe.jpg",
+    "updatedAt": "2021-05-24T18:04:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

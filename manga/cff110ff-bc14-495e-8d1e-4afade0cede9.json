@@ -7,6 +7,11 @@
    "title": {
     "en": "Deep Black"
    },
+   "altTitles": [
+    {
+     "en": "ディープ ブラック"
+    }
+   ],
    "description": {
     "en": "The superhero Deep Black sets out to solve the mystery of the Glory of the Seven Sages paintings. Mystery shrouds the situation and the characters as Deep Black encounters car chases, burglary cases, bomb threats, and meets Ghost, the handsome thief who escapes and slips away from DB."
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +54,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +68,8 @@
       "name": {
        "en": "Superhero"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +80,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -77,71 +92,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-02T13:16:27+00:00",
+   "updatedAt": "2021-05-25T15:47:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "c2f4c39a-a7c8-4e67-b722-f59e1310a482",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MAMAHARA Ellie",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c2f4c39a-a7c8-4e67-b722-f59e1310a482",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MAMAHARA Ellie",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c3326f84-a082-42d0-be1c-f1cb8c9dd0a8",
-   "type": "chapter"
-  },
-  {
-   "id": "60b71052-c09e-4ac0-8d74-067f06f44fda",
-   "type": "chapter"
-  },
-  {
-   "id": "32d63f6a-81d7-4153-a6f7-3dfaba5848e2",
-   "type": "chapter"
-  },
-  {
-   "id": "cd0a8fec-b171-42f7-8891-a5e6ad678b70",
-   "type": "chapter"
-  },
-  {
-   "id": "91518646-1912-4e5d-9683-caabd0f9a24a",
-   "type": "chapter"
-  },
-  {
-   "id": "9342935f-07a4-4978-949b-3ada6eaffd1c",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "7064a261-a137-4d3a-8848-2d385de3a99c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "b7f5f766-b5bb-4ff7-ab48-9b3634ec0cbc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:30+00:00",
+    "description": "",
+    "fileName": "86325e0b-46b6-46a1-a8f5-1251ce43c773.jpg",
+    "updatedAt": "2021-05-24T18:33:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

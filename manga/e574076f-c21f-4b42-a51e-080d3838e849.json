@@ -7,6 +7,17 @@
    "title": {
     "en": "Prince Collection"
    },
+   "altTitles": [
+    {
+     "en": "Locker 1999"
+    },
+    {
+     "en": "プリンスコレクション"
+    },
+    {
+     "en": "王子俱樂部"
+    }
+   ],
    "description": {
     "en": "Collection of short stories about a Host Club 'Prince'.\r\n\r\n1) Call 1: Kyou\r\n2) Call 2: Shou\r\n3) Call 3: Kaoru\r\n4) Birthday Call\r\n5) Prince Call\r\n6) Last Call\r\n7) Hakuba no Ouji-sama"
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,59 +54,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-07T12:21:29+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "b70ab441-fcd3-4166-b6ca-0681f6668933",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oda Aya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b70ab441-fcd3-4166-b6ca-0681f6668933",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oda Aya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b46b7146-a127-4d32-85d4-1c95a8f31a82",
-   "type": "chapter"
-  },
-  {
-   "id": "0d9a737a-a02a-4275-9156-c69bc5a30d2b",
-   "type": "chapter"
-  },
-  {
-   "id": "3cc71aef-ed14-4d25-a27a-dca1d6811593",
-   "type": "chapter"
-  },
-  {
-   "id": "44df9ec7-e07f-4655-9e1b-63922b325ffb",
-   "type": "chapter"
-  },
-  {
-   "id": "0e7ac88c-d861-492f-b581-7c10ccf84a81",
-   "type": "chapter"
-  },
-  {
-   "id": "46ae49a8-d444-4cee-8deb-f8f6415431d5",
-   "type": "chapter"
-  },
-  {
-   "id": "e83aecc5-47d6-4b1d-b93e-6d1f4de96549",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "ee1eb9ff-0e99-4f98-9152-55cb7250ca63",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:03+00:00",
+    "description": "",
+    "fileName": "d2c50ef6-9b50-448a-bda1-1ae2430e5a68.jpg",
+    "updatedAt": "2021-05-24T16:57:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,7 +5,7 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "I\u0026rsquo;m Sorry, I Love You"
+    "en": "I’m Sorry, I Love You"
    },
    "description": {
     "en": ""
@@ -22,6 +22,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,33 +32,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-05-04T19:01:06+00:00",
+   "updatedAt": "2019-05-04T19:01:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "c4dee29e-c757-4fbb-8133-e223fc375bb2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakahara Tsubaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c4dee29e-c757-4fbb-8133-e223fc375bb2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakahara Tsubaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
+   "id": "7a3d8b5c-c211-4f0d-a302-0d5ac0f95deb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:10:43+00:00",
+    "description": "",
+    "fileName": "9b9e924a-f4b3-4d45-80af-6b9845cea072.png",
+    "updatedAt": "2021-05-24T17:10:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

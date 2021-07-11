@@ -7,6 +7,14 @@
    "title": {
     "en": "Furachi na Bokura"
    },
+   "altTitles": [
+    {
+     "en": "Furachina Bokura"
+    },
+    {
+     "en": "フラチな僕ら"
+    }
+   ],
    "description": {
     "en": "Sequel to Itaike na Bokura (chapters 5-6) and Yakkai na Bokura."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,51 +60,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-13T21:57:37+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "0eb45252-4367-4da1-bf3a-8331aa84235f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fuwa Shinri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0eb45252-4367-4da1-bf3a-8331aa84235f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fuwa Shinri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dc26e92c-403e-46b9-969b-b24ae9edab62",
-   "type": "chapter"
-  },
-  {
-   "id": "272eb891-8084-4efd-befe-15902775ecfa",
-   "type": "chapter"
-  },
-  {
-   "id": "ba9f925e-fe04-46c2-aa4d-046255566453",
-   "type": "chapter"
-  },
-  {
-   "id": "417e799a-0640-4a68-afe1-4bc938b6f54c",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "2a1e4620-64cd-4f65-b19a-64ae0cd1c062",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:14:13+00:00",
+    "description": "",
+    "fileName": "0bef5b06-0d60-4f60-b389-041570febc25.jpg",
+    "updatedAt": "2021-05-24T18:14:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

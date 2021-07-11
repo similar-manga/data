@@ -7,6 +7,11 @@
    "title": {
     "en": "Crueler Than Dead"
    },
+   "altTitles": [
+    {
+     "en": "クルエラー ザン デッド"
+    }
+   ],
    "description": {
     "en": "After awakening in an empty room, Akagi Maki, a college freshman, hears the cries of someone only to discover a small child under a pile of rubble.\r\n\r\nShe would soon discover the post-apocalyptic destruction that took place in Tokyo..."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Zombies"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -51,6 +60,8 @@
       "name": {
        "en": "Post-Apocalyptic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,6 +72,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -71,6 +84,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -81,51 +96,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-02T20:13:57+00:00",
+   "updatedAt": "2021-05-25T15:47:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "b14e32c0-1e43-477f-9462-b4a797ff30fc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsukasa Saimura",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1bbd8010-c005-4f34-90d1-79bb9847d545",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kozo Takahashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b154dc89-80fb-4da3-a5ac-8366cfe50ce1",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "631ef465-9aba-4afb-b0fc-ea10efe274a8",
-   "type": "tag"
-  },
-  {
-   "id": "9467335a-1b83-4497-9231-765337a00b96",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "6bb80e95-b911-4f26-9304-8c401d9b1978",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:35:16+00:00",
+    "description": "",
+    "fileName": "7c5d3441-565b-43e0-b66f-a790231aa87b.jpg",
+    "updatedAt": "2021-05-24T17:35:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

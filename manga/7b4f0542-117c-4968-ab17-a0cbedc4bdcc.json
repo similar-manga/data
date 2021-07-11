@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Persona 4 \u0026amp; Persona 3 \u0026amp; Persona 3 Portable - Tartaros Gekijou"
+    "en": "Persona 4 \u0026 Persona 3 \u0026 Persona 3 Portable - Tartaros Gekijou"
    },
+   "altTitles": [
+    {
+     "en": "Tartarus Theater"
+    }
+   ],
    "description": {
     "en": "Persona 4koma. Started off as a web manga before being picked up for serialization."
    },
@@ -16,7 +21,6 @@
     "mal": "67819"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -27,6 +31,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +43,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,35 +55,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-10-09T00:56:36+00:00",
+   "updatedAt": "2018-10-09T00:56:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "bd482728-a11e-4f6b-a318-4dc2060f8510",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YASOHACHI Ryou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bd482728-a11e-4f6b-a318-4dc2060f8510",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YASOHACHI Ryou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "af2d9ede-aefc-4f9d-b855-7af0961b0f84",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:47:30+00:00",
+    "description": "",
+    "fileName": "f4628abf-35af-49de-850b-84a6d3728beb.jpg",
+    "updatedAt": "2021-05-24T16:47:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

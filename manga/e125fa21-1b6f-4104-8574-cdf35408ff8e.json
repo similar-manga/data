@@ -7,6 +7,14 @@
    "title": {
     "en": "Remote"
    },
+   "altTitles": [
+    {
+     "en": ".remote."
+    },
+    {
+     "en": "リモート"
+    }
+   ],
    "description": {
     "en": "Kurumi Ayaki is a recently-retired police officer with a record of excellence on the force and the guts and guile to back it up. In order to earn some extra money for her upcoming wedding, she has to return to the force ... and is 'rewarded' with an assignment to an elite unit whose charge it is to solve those crimes that have been classified as unsolvable.\r\n\r\nPartnered with a mysterious young genius who is unable to feel emotions, or even to leave his room, she acts as his eyes and ears to piece together clues even as her own personal life falls apart around her."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,79 +75,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-21T23:52:27+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "f4dbac59-c66e-4d8f-90fa-d48db6aa3242",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Amagi Seimaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fdef1044-5266-4a14-9b65-f7460a432240",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koshiba Tetsuya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f4fb4d1b-cc78-4925-8a81-b7fe8d983f54",
-   "type": "chapter"
-  },
-  {
-   "id": "075c96ae-15e4-487e-b3c8-2d657295ff2f",
-   "type": "chapter"
-  },
-  {
-   "id": "2d4d4974-f088-4ed4-93e6-63f9f513dfc7",
-   "type": "chapter"
-  },
-  {
-   "id": "298325a4-fa2f-40bb-9569-d8b397e60b81",
-   "type": "chapter"
-  },
-  {
-   "id": "37bb0cb9-39d0-44f8-a2fd-9b1621cc736f",
-   "type": "chapter"
-  },
-  {
-   "id": "14c24d86-d0b8-427b-bcfc-7ec15976f148",
-   "type": "chapter"
-  },
-  {
-   "id": "0ff3185a-f8e1-4846-aace-83d224b548ee",
-   "type": "chapter"
-  },
-  {
-   "id": "476111a8-9ceb-4785-9b0d-772ef1d2aae5",
-   "type": "chapter"
-  },
-  {
-   "id": "4ac6c572-0dc2-45d9-bfb9-c6b5235e4598",
-   "type": "chapter"
-  },
-  {
-   "id": "11e45040-7e9d-4be6-b31f-2049dd47af70",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "e1cfa107-4271-4f60-8918-410d5a55fc84",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:05:24+00:00",
+    "description": "",
+    "fileName": "b91ab0f3-e91a-49c8-8b06-5b79a99d4b14.jpg",
+    "updatedAt": "2021-05-24T17:05:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,17 @@
    "title": {
     "en": "Virtus"
    },
+   "altTitles": [
+    {
+     "en": "Virtus, le sang des gladiateurs"
+    },
+    {
+     "en": "ヴィルトゥス"
+    },
+    {
+     "en": "비르투스"
+    }
+   ],
    "description": {
     "en": "Year 185, Commodus emperor, cruel and thirsty for blood, led Rome to its ruin. Instead of governing he prefers fighting in the arena. For, Marcia, his concubine, Rome has lost what has made its pride : The Warrior Spirit Virtus\r\nDesperate, she ask a witch for help. With magic, she casts a group of prisonners from the modern japanese era."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,51 +78,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-26T00:06:24+00:00",
+   "updatedAt": "2021-05-25T15:42:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "2e52baa5-9fb8-4e76-9049-95d7b9d9205a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Gibbon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a1182034-8790-4b9d-804f-f0020daea121",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shinanogawa Hideo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "914e9abb-5817-43a2-ad36-a63513e5ab7a",
-   "type": "chapter"
-  },
-  {
-   "id": "93c6e435-8168-4dad-9a90-100fc1439c0c",
-   "type": "chapter"
-  },
-  {
-   "id": "b34fafed-1ef2-4344-b100-1b0e64dd52ff",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "1069f21b-aa60-4f89-9438-6badd8003cb7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:43+00:00",
+    "description": "",
+    "fileName": "91476cb2-2c06-43f3-bbbb-1f3705cbf456.png",
+    "updatedAt": "2021-05-24T16:55:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

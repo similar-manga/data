@@ -7,6 +7,11 @@
    "title": {
     "en": "The Dream I Had When I Died"
    },
+   "altTitles": [
+    {
+     "en": "Shinde Shimatta Boku no Mita Yume"
+    }
+   ],
    "description": {
     "en": "The story of a young boy who decides to commit suicide, only to find himself in a strange world after his death, told in the form of a picture book."
    },
@@ -21,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -31,35 +38,53 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-11T18:36:50+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "fdbf703d-0cd5-4f72-8faa-28e50107c919",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nishioka Kyoudai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fdbf703d-0cd5-4f72-8faa-28e50107c919",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nishioka Kyoudai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "24c5a0c1-7d73-4b20-ab99-fbea4c27cd2d",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
+   "id": "d9143a13-b66e-4fb8-a067-f612e518cb03",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:35+00:00",
+    "description": "",
+    "fileName": "49f06eab-88c8-48e4-830e-1ae27e1c8597.jpg",
+    "updatedAt": "2021-05-24T17:18:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -8,10 +8,9 @@
     "en": "Vagabond: The LAST Manga Exhibition Complete Catalogue"
    },
    "description": {
-    "en": "The \u0026quot;true\u0026quot; final chapter of Vagabond by Takehiko Inoue, which was shown in The LAST Manga Exhibition that took place in Ueno Royal Museum in 2008 as well as The LAST Manga Exhibition Complete Catalogue; a printed catalogue that included all the artworks showcased in the exhibition, however due to the limited number of copies, only a very small number of fans were able to get their hands on it."
+    "en": "The \"true\" final chapter of Vagabond by Takehiko Inoue, which was shown in The LAST Manga Exhibition that took place in Ueno Royal Museum in 2008 as well as The LAST Manga Exhibition Complete Catalogue; a printed catalogue that included all the artworks showcased in the exhibition, however due to the limited number of copies, only a very small number of fans were able to get their hands on it."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Samurai"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,51 +46,65 @@
       "name": {
        "en": "Philosophical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-19T20:13:37+00:00",
+   "updatedAt": "2021-05-25T15:50:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "0b59098f-13c0-41cb-a110-9cbcec72dc0c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inoue Takehiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3eea6828-d5a8-4243-815b-852d7323a447",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshikawa Eiji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0b59098f-13c0-41cb-a110-9cbcec72dc0c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inoue Takehiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "000a14dc-a1b7-49ff-bb83-dc36a3c5e55f",
-   "type": "chapter"
-  },
-  {
-   "id": "a3ba444c-06e4-4563-8d41-c0429219e63f",
-   "type": "chapter"
-  },
-  {
-   "id": "702d15c3-640d-41d7-a257-d9a75cebe23e",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "81183756-1453-4c81-aa9e-f6e1b63be016",
-   "type": "tag"
-  },
-  {
-   "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
-   "type": "tag"
+   "id": "b1188022-1d9b-4fd9-b79b-b92f1178dced",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:23:32+00:00",
+    "description": "",
+    "fileName": "030763b8-0aae-459c-8c82-4985222e9167.jpg",
+    "updatedAt": "2021-05-24T18:23:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

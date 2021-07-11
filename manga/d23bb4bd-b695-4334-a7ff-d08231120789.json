@@ -7,6 +7,11 @@
    "title": {
     "en": "Shinobi no Ban"
    },
+   "altTitles": [
+    {
+     "en": "忍のBAN"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,39 +49,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-11-16T15:33:16+00:00",
+   "updatedAt": "2018-11-16T15:33:16+00:00"
   }
  },
  "relationships": [
   {
    "id": "a04b2e4d-33ac-4b6d-a90c-7314d8778475",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kokuzawa Yousuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a04b2e4d-33ac-4b6d-a90c-7314d8778475",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kokuzawa Yousuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "58ba6838-84bd-47d3-b899-cf8a156da98b",
-   "type": "chapter"
-  },
-  {
-   "id": "47b0f394-82d0-47d6-9872-789c565e605d",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "c912b595-0a6f-4fa1-8f28-11a3ba5d327f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:51:46+00:00",
+    "description": "",
+    "fileName": "985be210-9856-4818-8e63-0fc62332babd.png",
+    "updatedAt": "2021-05-24T16:51:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

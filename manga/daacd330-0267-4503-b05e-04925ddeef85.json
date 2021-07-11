@@ -7,6 +7,14 @@
    "title": {
     "en": "Star Fox: Farewell, Beloved Falco"
    },
+   "altTitles": [
+    {
+     "en": "Sutā Fokkusu ~Saraba Itoshi no Faruko~"
+    },
+    {
+     "en": "スターフォックス〜さらば愛しのファルコ〜"
+    }
+   ],
    "description": {
     "en": "Star Fox: Farewell, Beloved Falco is a manga created by Nintendo, and part of the Star Fox series. \r\nThe manga chronicles the events between Star Fox 64 and Star Fox Adventures and, as the title implies, explains how and why Falco Lombardi left Fox McCloud's team. The manga was only released in Japan, and came with the Japanese version of Star Fox Adventures."
    },
@@ -18,7 +26,6 @@
     "mu": "59200"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +49,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,39 +61,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-02T02:21:15+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "024585df-57a6-4287-a500-f17c06799355",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nintendo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "024585df-57a6-4287-a500-f17c06799355",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nintendo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ac16a951-3e5c-4c0b-8e6a-1258a0f14461",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "f4a1109c-1f47-4f8a-9ad9-0028b6d69c19",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:36+00:00",
+    "description": "",
+    "fileName": "2d06b78a-d6cf-42b7-b0a8-54ce05f7226a.jpg",
+    "updatedAt": "2021-05-24T17:06:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

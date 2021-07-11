@@ -7,11 +7,18 @@
    "title": {
     "en": "The Honest Man's Stroll"
    },
+   "altTitles": [
+    {
+     "en": "La Ballade de l'Honnête Homme"
+    },
+    {
+     "en": "La Passeggiata del Brav'Uomo"
+    }
+   ],
    "description": {
     "en": "In a small town lives an honest man. He is admired by most but begrudged by one who is determined to take his place."
    },
    "originalLanguage": "fr",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +41,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +53,8 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -52,6 +65,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,55 +77,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-08T22:01:53+00:00",
+   "updatedAt": "2021-05-25T15:39:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "43ab7de0-d23a-415b-bcf6-41f952b04bb8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Louis",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fdbd7fb7-8118-4b28-8e2a-2779313543f8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Horacio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "806ea129-cb97-4e6a-a7ec-9b2373443206",
-   "type": "chapter"
-  },
-  {
-   "id": "9abbf42e-251a-4293-9b6f-66866d4dc3c5",
-   "type": "chapter"
-  },
-  {
-   "id": "88d856b7-5e4d-4755-b81f-dcdc4c4e9ba3",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "4d933b5b-d521-4f8e-8e5e-7ec4eff37252",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:55:18+00:00",
+    "description": "",
+    "fileName": "d6dbea3f-2cee-4508-85c9-e13e22bd4e6c.jpg",
+    "updatedAt": "2021-05-24T17:55:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

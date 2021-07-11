@@ -7,6 +7,11 @@
    "title": {
     "en": "Midnight Carrier"
    },
+   "altTitles": [
+    {
+     "en": "ミッドナイトキャリアー"
+    }
+   ],
    "description": {
     "en": "Meet Yohji and Iku, a couple of transporters (truck drivers) who have found a fun way of passing those long hours on the road. Meanwhile, their boss (who is quite amusing) is depending on them to make sure that they don't lose customers to a rival transportation company. Can they help keep their company alive?"
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,8 +44,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,59 +58,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-06T20:01:48+00:00",
+   "updatedAt": "2021-05-25T15:49:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "d25dffb1-d2ea-4a8e-a8f2-3fbb16c2c80b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nishimura Shuuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d25dffb1-d2ea-4a8e-a8f2-3fbb16c2c80b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nishimura Shuuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e2c71a2e-fa81-4ef1-a739-2b3a22404254",
-   "type": "chapter"
-  },
-  {
-   "id": "a25de442-c649-4d6e-88e0-bad2d7bda491",
-   "type": "chapter"
-  },
-  {
-   "id": "e318a980-5a88-421a-8582-0eb05221c908",
-   "type": "chapter"
-  },
-  {
-   "id": "e64fd46c-65bc-47d4-9020-a8253b54c635",
-   "type": "chapter"
-  },
-  {
-   "id": "0561cb68-4f01-40ae-8c70-34a30ecadf6a",
-   "type": "chapter"
-  },
-  {
-   "id": "8d3cccb9-f68f-44e9-9dd6-b6de7cfa2e99",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "97cbe2f2-8407-4f9f-a903-63ac4240b3a7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:11:55+00:00",
+    "description": "",
+    "fileName": "c8ea4336-bb29-4b85-8c08-4ab680fb8a07.jpg",
+    "updatedAt": "2021-05-24T18:11:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

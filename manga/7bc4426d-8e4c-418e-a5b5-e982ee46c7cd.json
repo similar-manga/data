@@ -8,7 +8,7 @@
     "en": "Phase 20"
    },
    "description": {
-    "en": "Aboard the luxury liner Phase 20, a girl named Ran finds herself and the rest of the crew taken hostage by the illusive and nefarious \u0026quot;20 Faces.\u0026quot;"
+    "en": "Aboard the luxury liner Phase 20, a girl named Ran finds herself and the rest of the crew taken hostage by the illusive and nefarious \"20 Faces.\""
    },
    "links": {
     "al": "55243",
@@ -27,6 +27,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,43 +51,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-15T22:41:55+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "e47f3d10-109f-4d41-bfc6-d554328c4cf2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kigitsu Katsuhisa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e47f3d10-109f-4d41-bfc6-d554328c4cf2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kigitsu Katsuhisa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "545ca1c6-bceb-4161-af6e-c6fc9625a785",
-   "type": "chapter"
-  },
-  {
-   "id": "83f99202-1cda-4079-81ec-0fef5ec9f584",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "fe1ecd83-0483-4f85-9ca0-af0a09856378",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:13+00:00",
+    "description": "",
+    "fileName": "18d55f7d-dcf5-4e9b-aea9-34702092d6d8.jpg",
+    "updatedAt": "2021-05-24T17:15:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

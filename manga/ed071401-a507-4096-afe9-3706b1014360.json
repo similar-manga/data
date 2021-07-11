@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Tameshite Saiminjutsu \u0026hearts;"
+    "en": "Tameshite Saiminjutsu ♥"
    },
+   "altTitles": [
+    {
+     "en": "Hypnosis Trial ♥"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Loli"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -32,35 +38,53 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-31T15:26:52+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "ec206ed3-39ad-45a4-9ce1-450d4a8ccc3d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ponsuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ec206ed3-39ad-45a4-9ce1-450d4a8ccc3d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ponsuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dcf55fba-28de-47ec-9d56-c20d3d81a6f0",
-   "type": "chapter"
-  },
-  {
-   "id": "2d1f5d56-a1e5-4d0d-a961-2193588b08ec",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
+   "id": "a9a6d9d5-e335-4f6e-8050-d1e92512596d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:05:00+00:00",
+    "description": "",
+    "fileName": "97dc3276-6f42-4bd6-89bb-f1e2d771fb8e.png",
+    "updatedAt": "2021-05-24T18:05:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,8 +5,31 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Kiss Shite\u0026hearts;Esper Girl"
+    "en": "Kiss Shite♥Esper Girl"
    },
+   "altTitles": [
+    {
+     "en": "K I S Sして・超能力少女"
+    },
+    {
+     "en": "K I S Sして♥超能力少女"
+    },
+    {
+     "en": "KISS Shite ・Chou Nouryoku Shoujo"
+    },
+    {
+     "en": "Kiss Shite Chounouryoku Shoujo"
+    },
+    {
+     "en": "Kiss Shite! Esper Girl"
+    },
+    {
+     "en": "KISS超能力少女"
+    },
+    {
+     "en": "キスしてエスパーガール"
+    }
+   ],
    "description": {
     "en": "Maho-chan has been able to bend spoons ever since childhood and her friend, Keisuke-kun has always been fascinated by her supernatural powers."
    },
@@ -29,6 +52,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +64,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,55 +76,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-17T07:26:52+00:00",
+   "updatedAt": "2021-05-25T15:41:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "c08d0e7c-793f-4664-8640-ed66faa9c09b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YAGAMI Chitose",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c08d0e7c-793f-4664-8640-ed66faa9c09b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YAGAMI Chitose",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c59af034-41be-4d1e-9a66-52ffdecd4717",
-   "type": "chapter"
-  },
-  {
-   "id": "1890c563-f5ff-464a-aa23-94268356b776",
-   "type": "chapter"
-  },
-  {
-   "id": "dc0837b5-ebdc-41ae-b734-07fdbcd237ec",
-   "type": "chapter"
-  },
-  {
-   "id": "2da61e0b-c722-4dbf-b664-79f5c6dba2b3",
-   "type": "chapter"
-  },
-  {
-   "id": "c6ecbdb4-ea53-4a83-bf95-b02bf6ea6c0e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "ba1f1bfb-4c1d-4f09-80dc-d14855d4f59e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:51:22+00:00",
+    "description": "",
+    "fileName": "88aa5f81-31d1-4976-a19d-93f80aea0c24.jpg",
+    "updatedAt": "2021-05-24T17:51:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

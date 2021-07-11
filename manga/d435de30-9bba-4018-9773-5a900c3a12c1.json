@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Gunka no Baltzar Gaiden \u0026ndash; Yuukoku no Liebknecht"
+    "en": "Gunka no Baltzar Gaiden – Yuukoku no Liebknecht"
    },
+   "altTitles": [
+    {
+     "en": "Gunka no Baltzar Gaiden - Yuukoku no Liebknecht"
+    },
+    {
+     "en": "Gunka no Baltzar Side Story - Liebknecht the Patriot"
+    },
+    {
+     "en": "軍靴のバルツァー外伝 憂国のリープクネヒト"
+    }
+   ],
    "description": {
     "en": "The story of Liebknecht after he ran away from his country and before he met Baltzar again."
    },
@@ -18,7 +29,6 @@
     "mu": "121605"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -30,6 +40,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,39 +52,53 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-29T13:16:17+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "0a178b9c-5bdf-4035-9c3f-5856ddde32a2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NAKAJIMA Michitsune",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0a178b9c-5bdf-4035-9c3f-5856ddde32a2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NAKAJIMA Michitsune",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "eea5113d-033f-4498-b94b-606bb745365a",
-   "type": "chapter"
-  },
-  {
-   "id": "82d562e7-f98c-47e5-a135-dd015f9a01e4",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
+   "id": "6d859a54-f0c1-4f52-bf05-58bdc90b31a4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:47+00:00",
+    "description": "",
+    "fileName": "7717689d-94ca-4402-a1b1-968e64aab51a.jpg",
+    "updatedAt": "2021-05-24T16:49:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

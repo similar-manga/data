@@ -7,6 +7,14 @@
    "title": {
     "en": "Jinki Extend - Relation"
    },
+   "altTitles": [
+    {
+     "en": "ジンキ・エクステンド ～リレイション"
+    },
+    {
+     "en": "人机 Extend Relation"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -15,7 +23,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "5",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "hiatus",
    "contentRating": "safe",
@@ -27,6 +34,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +46,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +58,8 @@
       "name": {
        "en": "Mecha"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +70,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -67,6 +82,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -77,51 +94,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-06T01:45:09+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "eab45cf4-082b-4d32-93ac-ea75ffd5807f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TSUNASHIMA Shirou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "eab45cf4-082b-4d32-93ac-ea75ffd5807f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TSUNASHIMA Shirou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3c18b01f-84a6-4a15-ae4d-ceaea16ea755",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "50880a9d-5440-4732-9afb-8f457127e836",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "97ed9e54-fafc-4f63-b7a9-6a54f9cf3127",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:01:55+00:00",
+    "description": "",
+    "fileName": "0cc1a7a2-6b7c-4ad3-bacc-03b0d200301c.jpg",
+    "updatedAt": "2021-05-24T18:01:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

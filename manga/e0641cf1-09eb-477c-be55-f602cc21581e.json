@@ -7,6 +7,17 @@
    "title": {
     "en": "I Suspect my Childhood Friend is a Lesbian"
    },
+   "altTitles": [
+    {
+     "en": "I Suspect My Childhood Friend to be a Lesbian"
+    },
+    {
+     "en": "Osananajimi rezu giwaku"
+    },
+    {
+     "en": "幼馴染レズ疑惑"
+    }
+   ],
    "description": {
     "en": "The title sums it up."
    },
@@ -28,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,8 +61,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +75,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -68,6 +87,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -78,75 +99,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-13T03:42:56+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "d7358461-3ecb-422c-87d0-8d09c4c56a18",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mochi Au Lait",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b2ae0bae-d43e-4696-8e4e-6cfd464bc4b2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Majoccoid",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f16fb789-fb00-44b7-a3e5-9009a3995efc",
-   "type": "chapter"
-  },
-  {
-   "id": "97982de4-1015-43f0-9690-40563e8561bf",
-   "type": "chapter"
-  },
-  {
-   "id": "4fcca755-1de9-4bf6-a383-883bc199a31a",
-   "type": "chapter"
-  },
-  {
-   "id": "e652ecbc-0f43-47f0-a1ae-ec0309b606ca",
-   "type": "chapter"
-  },
-  {
-   "id": "bfb43100-2592-4ab2-b7f0-00aeb528fa73",
-   "type": "chapter"
-  },
-  {
-   "id": "64a6edf0-4f9e-4332-b669-8b25ec9dd3dc",
-   "type": "chapter"
-  },
-  {
-   "id": "30f181e2-74ac-45d9-a2f8-baf8c79a8707",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "51722e13-4576-4fd4-9384-454da57fedaa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:37+00:00",
+    "description": "",
+    "fileName": "d3e36fc5-1110-4bd5-9c32-2cb48245fee3.jpg",
+    "updatedAt": "2021-05-24T17:33:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

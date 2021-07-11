@@ -7,6 +7,14 @@
    "title": {
     "en": "Oitekebori Blues"
    },
+   "altTitles": [
+    {
+     "en": "Still Got the Blues"
+    },
+    {
+     "en": "おいてけぼりブルース"
+    }
+   ],
    "description": {
     "en": "Kuniyoshi is high-strung and ambitious. Hirayama... is not. They worked together until Hirayama suddenly quit. That's when Kuniyoshi realized how much Hirayama meant to him. But it's always Kuniyoshi pushing their relationship and he doesn't know what Hirayama really thinks."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +74,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -68,8 +84,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -80,71 +98,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-02T01:50:34+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "76bc65c6-60d7-41df-8d18-cf25f3575cca",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yukimura",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "76bc65c6-60d7-41df-8d18-cf25f3575cca",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yukimura",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4332cac6-9da5-42b1-8354-51ae4f3c936d",
-   "type": "chapter"
-  },
-  {
-   "id": "3a2d4713-fe9a-4376-8c57-1ce7c44e6693",
-   "type": "chapter"
-  },
-  {
-   "id": "ce1edbfc-0584-4d01-90d6-048c265c84e4",
-   "type": "chapter"
-  },
-  {
-   "id": "eb02aa3c-3bf4-4e3b-b73c-8492f7969ff9",
-   "type": "chapter"
-  },
-  {
-   "id": "e4c9f1af-16a9-437e-8ead-36a5cd2f7806",
-   "type": "chapter"
-  },
-  {
-   "id": "dc32679e-f59a-461d-9db9-3f16ae34407b",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "24281f65-3c21-4fac-bf97-6227007d3949",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:39:37+00:00",
+    "description": "",
+    "fileName": "51f13df4-13c6-421b-9568-bf4832a9621a.jpg",
+    "updatedAt": "2021-05-24T18:39:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

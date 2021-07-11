@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Love Live! \u0026mdash; Sore o Watashi wa Koi to Shiru (Doujinshi)"
+    "en": "Love Live! — Sore o Watashi wa Koi to Shiru (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "That Is What I Know to Be Love (Love Live!)"
+    },
+    {
+     "en": "それを私は恋と知る (ラブライブ!)"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -31,8 +40,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,47 +54,77 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-06T10:40:26+00:00",
+   "updatedAt": "2021-05-25T15:42:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "688a48c6-92ac-4f1f-87a9-5b4665eec400",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Durian",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ce24adf0-8b8a-40e3-8de2-1c77290593fb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miwaku no Kajitsu (Circle)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "688a48c6-92ac-4f1f-87a9-5b4665eec400",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Durian",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ce24adf0-8b8a-40e3-8de2-1c77290593fb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miwaku no Kajitsu (Circle)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9107036e-f10d-441e-b288-9c819d23b7df",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "97ef1e1b-f2a6-4f70-9064-4be7615dcc7d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:58+00:00",
+    "description": "",
+    "fileName": "d1d5e13c-ab73-4e19-81e3-5a0efa4237a1.jpg",
+    "updatedAt": "2021-05-24T18:33:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

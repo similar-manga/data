@@ -27,8 +27,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +41,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,43 +53,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-04-22T21:00:52+00:00",
+   "updatedAt": "2019-04-22T21:00:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "cf51f8a4-a452-4964-b247-f96564539866",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "So-Sol",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cf51f8a4-a452-4964-b247-f96564539866",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "So-Sol",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "40dc60a4-e5a8-4bc2-9a27-8e0ad9d91c26",
-   "type": "chapter"
-  },
-  {
-   "id": "cc45b637-be57-4928-9efc-01c006e62cfe",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "1a4c5d61-8ccc-4f5e-82c5-f1325a260c90",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:05+00:00",
+    "description": "",
+    "fileName": "1340f910-bb23-4242-9c34-9908c0cc0b83.png",
+    "updatedAt": "2021-05-24T17:09:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

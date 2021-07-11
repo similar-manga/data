@@ -7,11 +7,18 @@
    "title": {
     "en": "Touhou - Idakisu! (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Touhou dj - Idakisu!"
+    },
+    {
+     "en": "懐キス!"
+    }
+   ],
    "description": {
     "en": "Mokou finally defeats Kaguya and complete her impossible requests, only to forget what doing so means."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -20,8 +27,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,39 +41,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-08T09:50:54+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "d1b15e30-8b0f-43ae-8668-510de22123d3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chihagura",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0f3e1a44-c1c0-485b-98dd-c99f277aae62",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hachi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "afc131d7-042f-4002-94b8-57bd2204231e",
-   "type": "chapter"
-  },
-  {
-   "id": "cc9cedbc-49b9-4d28-be73-5fefbdb1f567",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "944c6e7b-1b56-4f65-ad2d-d2dcc5d5e131",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:41:16+00:00",
+    "description": "",
+    "fileName": "b76426d2-82a0-4926-bab0-2345c58dd9de.jpg",
+    "updatedAt": "2021-05-24T16:41:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

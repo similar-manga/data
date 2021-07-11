@@ -7,6 +7,17 @@
    "title": {
     "en": "Kyou, Curry!"
    },
+   "altTitles": [
+    {
+     "en": "Today, Curry!"
+    },
+    {
+     "en": "今日、カレー!"
+    },
+    {
+     "en": "今日咖哩"
+    }
+   ],
    "description": {
     "en": "Haruse Urara is a little girl who helps her papa with his curry shop. Traveling in the car that makes up his shop, they sell curry all around a small, supernaturally quirky island. Two teenage girls--the rambunctious and cheerful Subaru, and the shyer, less adventurous Yoriko-- also work with Urara and her papa. Each day, they come up with new curry flavors and get to know the strange, friendly, and occasionally magical inhabitants of their tiny island!"
    },
@@ -29,6 +40,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +52,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +64,8 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -59,79 +76,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-01T08:52:40+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "5e42dd15-1299-4abf-8860-a82dda6c38b6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHIMANO Yae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5e42dd15-1299-4abf-8860-a82dda6c38b6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHIMANO Yae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "92fbcafa-add2-46e4-9bab-d34530ebc4c5",
-   "type": "chapter"
-  },
-  {
-   "id": "6612dd2d-18d9-47ed-9875-9932e57382df",
-   "type": "chapter"
-  },
-  {
-   "id": "ec931fef-c61d-42f7-8980-8c1b2cfaf54c",
-   "type": "chapter"
-  },
-  {
-   "id": "ab890a70-c3d0-40d5-838c-2f354e25d38b",
-   "type": "chapter"
-  },
-  {
-   "id": "50781236-8159-4ad3-9e72-27a21958448b",
-   "type": "chapter"
-  },
-  {
-   "id": "8f6269a0-a4f0-4c9b-84b3-b3616907c84b",
-   "type": "chapter"
-  },
-  {
-   "id": "2754b1de-fa9f-4fdb-919d-218fa910213b",
-   "type": "chapter"
-  },
-  {
-   "id": "4c71e24b-8248-4580-909d-effd089c4c9f",
-   "type": "chapter"
-  },
-  {
-   "id": "c9b6b86a-cc35-4c8c-80d6-b9331c089325",
-   "type": "chapter"
-  },
-  {
-   "id": "d0cfbd1c-d93e-448b-831d-1ed3942b369d",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "7b5bebec-1e20-4faf-8f1e-5a556cccb899",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:38+00:00",
+    "description": "",
+    "fileName": "ab0e345b-cf47-4503-a0dc-652b260e1410.jpg",
+    "updatedAt": "2021-05-24T17:33:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

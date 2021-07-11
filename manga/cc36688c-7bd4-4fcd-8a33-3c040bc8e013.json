@@ -7,6 +7,14 @@
    "title": {
     "en": "Welcome to the Prison Town!"
    },
+   "altTitles": [
+    {
+     "en": "Prison Town e Youkoso!"
+    },
+    {
+     "en": "監獄街へようこそ！"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -33,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,8 +51,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +65,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,79 +77,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-10T06:16:10+00:00",
+   "updatedAt": "2021-05-25T15:47:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "607e25de-106e-4f54-bfd9-8ea52407cbd3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Neji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "607e25de-106e-4f54-bfd9-8ea52407cbd3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Neji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7bdb793c-8871-45c1-b9bd-28758d4d166c",
-   "type": "chapter"
-  },
-  {
-   "id": "6cfa0415-e99f-4d87-b222-3c92b75edde8",
-   "type": "chapter"
-  },
-  {
-   "id": "69482113-998c-4a8f-b6ef-ae6befdd8cfe",
-   "type": "chapter"
-  },
-  {
-   "id": "5dafaf5a-f0d0-480c-a85b-ff933de07e24",
-   "type": "chapter"
-  },
-  {
-   "id": "7460cc9e-36e4-4af6-8e5f-59d3d036d88d",
-   "type": "chapter"
-  },
-  {
-   "id": "f61e9348-e75d-443a-aee7-27cc30e73e0e",
-   "type": "chapter"
-  },
-  {
-   "id": "5877a679-5db3-44d3-b6e3-230aea04576b",
-   "type": "chapter"
-  },
-  {
-   "id": "1d52cdd9-5fa2-4e9e-951d-4ed6e1afc65e",
-   "type": "chapter"
-  },
-  {
-   "id": "11c99b2c-f70f-42fd-bd8d-d917b4740b27",
-   "type": "chapter"
-  },
-  {
-   "id": "7e7bba80-3bfd-48fb-ad5e-d857df8c5fcf",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "9a5f0a56-7757-4f88-b05e-099af82f34e9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:26:02+00:00",
+    "description": "",
+    "fileName": "e654262e-5c2c-46ac-b77b-99230616689f.jpg",
+    "updatedAt": "2021-05-24T17:26:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

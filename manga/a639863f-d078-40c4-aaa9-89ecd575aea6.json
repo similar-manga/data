@@ -7,6 +7,17 @@
    "title": {
     "en": "Pen Tablet and Tank"
    },
+   "altTitles": [
+    {
+     "en": "Pentabu to Sensha"
+    },
+    {
+     "en": "Планшет и танк"
+    },
+    {
+     "en": "ペンタブと戦車"
+    }
+   ],
    "description": {
     "en": "A young artist of antropomorphic military machines slips through time and finds himself in the year 1939 on Mongolian-Manchurian border where he discovers a rather unusual fan of his work in the form of Japanese tank crew commander."
    },
@@ -32,6 +43,8 @@
       "name": {
        "en": "Time Travel"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,6 +55,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +67,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,79 +79,53 @@
       "name": {
        "en": "Military"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-17T20:59:23+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "83f0bb48-c804-400f-a40c-776f98714c47",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakakibara Rem",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "83f0bb48-c804-400f-a40c-776f98714c47",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakakibara Rem",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7c106623-cfb2-4fbe-888d-7e3db2c0cc08",
-   "type": "chapter"
-  },
-  {
-   "id": "33ea7081-deac-46d5-8a83-c132db3c3b04",
-   "type": "chapter"
-  },
-  {
-   "id": "a5231429-ea6b-4421-aabb-b5c4ebd1f401",
-   "type": "chapter"
-  },
-  {
-   "id": "7f4e8bd6-82da-4fbc-8324-315ed05eada5",
-   "type": "chapter"
-  },
-  {
-   "id": "531f14f6-9a6a-4bac-bced-331d9ab42048",
-   "type": "chapter"
-  },
-  {
-   "id": "4af5e6b8-28ad-4421-a667-e0225488e9d3",
-   "type": "chapter"
-  },
-  {
-   "id": "47e0cb96-63dc-4f9b-8c95-2f51eedbab13",
-   "type": "chapter"
-  },
-  {
-   "id": "44dde782-e179-4a60-8970-9e6ea3902fdb",
-   "type": "chapter"
-  },
-  {
-   "id": "3d5d9dfd-db0e-45cf-b3ea-ad7e64c62650",
-   "type": "chapter"
-  },
-  {
-   "id": "9a664f27-3319-4372-943d-2544c23bde1f",
-   "type": "chapter"
-  },
-  {
-   "id": "292e862b-2d17-4062-90a2-0356caa4ae27",
-   "type": "tag"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
-   "type": "tag"
+   "id": "7945eb26-9837-4f2e-b0f5-c2d9538b15ec",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:12:15+00:00",
+    "description": "",
+    "fileName": "7cb54092-dfd7-4816-a808-393c37e53b94.jpg",
+    "updatedAt": "2021-05-24T17:12:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

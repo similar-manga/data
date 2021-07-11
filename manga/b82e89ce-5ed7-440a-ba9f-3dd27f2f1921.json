@@ -5,8 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Saishu \u0026amp; Roido Meru!!"
+    "en": "Saishu \u0026 Roido Meru!!"
    },
+   "altTitles": [
+    {
+     "en": "Capture Android Meru!!"
+    },
+    {
+     "en": "Saishuu \u0026 Roido Meru!!"
+    },
+    {
+     "en": "イシュー\u0026ロイド める!!"
+    },
+    {
+     "en": "美爾的人類採集作業！！"
+    }
+   ],
    "description": {
     "en": "A summer vacation assignment that involves the capture of human kind? Not only did Rairu and Ome became slaves, even the genuis Betta got dragged into this mess! What will eventually happened to Japan?"
    },
@@ -30,39 +44,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-09T08:07:33+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "d81c973b-74b1-478b-a91f-8d8d774c9a2b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sacchi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d81c973b-74b1-478b-a91f-8d8d774c9a2b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sacchi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6c993f73-1a75-4db4-8d9d-ecce009d1d89",
-   "type": "chapter"
-  },
-  {
-   "id": "3e6cb42f-e12f-4ec5-859b-cf03518d27dc",
-   "type": "chapter"
-  },
-  {
-   "id": "e78e282a-c4c8-40c9-be77-dce020449f67",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "9f60f096-ab14-4f06-8806-4bd6852690ba",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:42:35+00:00",
+    "description": "",
+    "fileName": "a47da09b-4578-4e8d-b826-dd049bdf0c82.jpg",
+    "updatedAt": "2021-05-24T16:42:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

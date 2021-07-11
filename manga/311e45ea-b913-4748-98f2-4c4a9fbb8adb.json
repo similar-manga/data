@@ -7,6 +7,14 @@
    "title": {
     "en": "May Belongs to Me"
    },
+   "altTitles": [
+    {
+     "en": "Oworui Juin"
+    },
+    {
+     "en": "오월의 주인"
+    }
+   ],
    "description": {
     "en": "Without a stable job or home, Joo May lives recklessly, drifting from one lover's house to another. One day, May passes out, almost beaten to death by an ex-boyfriend he bumped into. When he wakes, he finds himself chained up in the house of Shin Jooin, the clean-cut man who apparently rescued him. But there's something off about Jooin, who treats May almost like a pet... Who is Jooin really, and what is he hiding?"
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -49,6 +61,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,8 +71,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,6 +85,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -79,6 +97,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -89,6 +109,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -99,6 +121,8 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -109,103 +133,65 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-21T21:31:32+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "1c838885-b55d-48f5-9080-ebb966c0d21b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "시리얼",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7c1d71c0-b91c-4b80-af52-e98c050efd3a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "얼",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7e339784-fde7-4dad-96fc-72590d1a689a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "개살구",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5f18e8f5-65f1-4b69-b1b2-662df70922eb",
-   "type": "chapter"
-  },
-  {
-   "id": "b0bda993-ede2-4559-987c-95891501f611",
-   "type": "chapter"
-  },
-  {
-   "id": "c3325046-7874-4aad-b74f-b05014339a55",
-   "type": "chapter"
-  },
-  {
-   "id": "cd3499fb-11e7-4cac-b082-e41ee79ff8d6",
-   "type": "chapter"
-  },
-  {
-   "id": "1fea4808-a23d-4135-9758-f5c8be69c667",
-   "type": "chapter"
-  },
-  {
-   "id": "65c07ce2-f60d-40b7-95a8-0f8bf2fbe338",
-   "type": "chapter"
-  },
-  {
-   "id": "b6ea8c77-01ca-4d27-a8b1-662cd1127c7b",
-   "type": "chapter"
-  },
-  {
-   "id": "68fc89f0-fc0c-4d7b-ad5a-f068889cf037",
-   "type": "chapter"
-  },
-  {
-   "id": "9c1fe734-555b-48b7-b27b-ff14a70d2447",
-   "type": "chapter"
-  },
-  {
-   "id": "d61456b5-1b37-416f-bd38-27a736eedbfd",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "81e1848b-eabe-4f25-961c-38a5c5ca7e53",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:42:03+00:00",
+    "description": "",
+    "fileName": "cb4dba67-9f24-44ad-aa70-6a9d5747be98.jpg",
+    "updatedAt": "2021-05-24T17:42:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,11 +7,15 @@
    "title": {
     "en": "Heroes of the Eastern Zhou Era"
    },
+   "altTitles": [
+    {
+     "en": "东周英雄传"
+    }
+   ],
    "description": {
     "en": "An anthology of stories of characters from the Eastern Zhou (770-256 BC) from various states who left their marks in history.\r\nSome were successful and some failed in their endeavors but all achieved fame, if not notoriety."
    },
-   "originalLanguage": "zh",
-   "lastChapter": "0",
+   "originalLanguage": "zh-hk",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +50,8 @@
       "name": {
        "en": "Military"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -52,63 +62,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-25T04:22:28+00:00",
+   "updatedAt": "2021-05-25T15:45:45+00:00"
   }
  },
  "relationships": [
   {
    "id": "ef1610f5-00e7-4c8c-9a09-e9c5651fa299",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Zheng Wen (郑问)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "149186fa-91ef-400e-bc28-832d008bd315",
-   "type": "chapter"
-  },
-  {
-   "id": "8e2d13fc-6c25-4991-8460-1a30dd4cbcf3",
-   "type": "chapter"
-  },
-  {
-   "id": "f5687515-e329-4ae4-97a9-9380aa7cf501",
-   "type": "chapter"
-  },
-  {
-   "id": "caea644f-2bcc-41a6-aea0-518fdeea34dc",
-   "type": "chapter"
-  },
-  {
-   "id": "95bc9c57-dec9-4256-9174-c92c481a4de3",
-   "type": "chapter"
-  },
-  {
-   "id": "87758625-8f8e-4c86-af39-203e1dd52f9d",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "adbfa1ce-338c-4f5c-8fe7-c6dbe323ca74",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:11:59+00:00",
+    "description": "",
+    "fileName": "56fd85e1-dcae-4d29-b214-3349d2dbafdf.jpg",
+    "updatedAt": "2021-05-24T18:11:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

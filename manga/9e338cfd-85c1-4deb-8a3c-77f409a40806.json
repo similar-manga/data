@@ -7,6 +7,11 @@
    "title": {
     "en": "Amanojaku ni Koishite!"
    },
+   "altTitles": [
+    {
+     "en": "あまのじゃくに恋して！"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,59 +60,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-18T07:27:02+00:00",
+   "updatedAt": "2021-05-25T15:45:45+00:00"
   }
  },
  "relationships": [
   {
    "id": "606ca5d8-8b5f-4675-9c0c-78c4e908778a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aion Kiu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "606ca5d8-8b5f-4675-9c0c-78c4e908778a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aion Kiu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d1aa4b66-e01d-40cd-9d5d-ad5a94442913",
-   "type": "chapter"
-  },
-  {
-   "id": "0360bac9-6e4d-49f5-81c5-8644b54862ef",
-   "type": "chapter"
-  },
-  {
-   "id": "13aefffe-b3db-41f0-88ea-5623cd499100",
-   "type": "chapter"
-  },
-  {
-   "id": "41a390ef-3f30-4d27-8b6a-781fbd798c68",
-   "type": "chapter"
-  },
-  {
-   "id": "e8d4fbdb-b907-475d-bfe5-f6e4a4f4b2ae",
-   "type": "chapter"
-  },
-  {
-   "id": "6a111fa7-091c-4a47-b91a-f6e97501ab43",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "243459c9-15dd-4feb-969f-1de137b9615b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:14+00:00",
+    "description": "",
+    "fileName": "f8620d91-b6e8-42e6-bd76-20f4f5901e31.jpg",
+    "updatedAt": "2021-05-24T16:58:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

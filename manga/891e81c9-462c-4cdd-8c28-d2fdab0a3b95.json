@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,39 +33,53 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-05T07:23:45+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "f81a6f20-ed85-41b1-87e7-2cc0c3eeecf5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "seNMU",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f81a6f20-ed85-41b1-87e7-2cc0c3eeecf5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "seNMU",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "74df18f4-4052-4237-8b5a-c361daa1776c",
-   "type": "chapter"
-  },
-  {
-   "id": "f5ae10c5-d544-4a5a-99d4-6b189b9d678f",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
+   "id": "f95c5880-affe-4f02-ba4a-a42ceaf63ca8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:55+00:00",
+    "description": "",
+    "fileName": "b069b4a5-06ad-4e18-8576-5bf444b604ea.png",
+    "updatedAt": "2021-05-24T17:06:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

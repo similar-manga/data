@@ -5,10 +5,18 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Beank \u0026amp; Rosa"
+    "en": "Beank \u0026 Rosa"
    },
+   "altTitles": [
+    {
+     "en": "Бинк \u0026 Роза"
+    },
+    {
+     "en": "ビーンク\u0026ロサ"
+    }
+   ],
    "description": {
-    "en": "\u0026quot;I don't need ordinary friends.\u0026quot;\r\nThis is the story of the boy Beank and the girl Rosa, living in an abandoned RV."
+    "en": "\"I don't need ordinary friends.\"\r\nThis is the story of the boy Beank and the girl Rosa, living in an abandoned RV."
    },
    "links": {
     "kt": "56587",
@@ -28,6 +36,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +72,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,6 +84,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -78,59 +96,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-02T14:46:40+00:00",
+   "updatedAt": "2021-05-25T15:48:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "747fcae3-ad82-46a9-816d-46f119cb5699",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Imitation Crystal",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "747fcae3-ad82-46a9-816d-46f119cb5699",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Imitation Crystal",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cff067ab-feac-433c-915c-7b3a53ad3a85",
-   "type": "chapter"
-  },
-  {
-   "id": "29347341-9a4f-4df4-ac1e-328ccb481465",
-   "type": "chapter"
-  },
-  {
-   "id": "f77750f1-1954-4fe8-b766-c58001881bff",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "518b4022-4d85-4fc2-93e4-fae6ed5d2661",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:10:26+00:00",
+    "description": "",
+    "fileName": "fc3980c9-bf60-4cf5-a38f-b88f3d55c341.jpg",
+    "updatedAt": "2021-05-24T17:10:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

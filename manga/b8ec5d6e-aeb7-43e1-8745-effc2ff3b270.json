@@ -8,10 +8,9 @@
     "en": "the book eating magician"
    },
    "description": {
-    "en": "[\u0026lsquo;Lightning Magic Primer\u0026rsquo; has been consumed. Your understanding is very high.] [The 2nd Circle magic \u0026lsquo;Lightning Bolt\u0026rsquo; has been acquired.] The unprecedented magician who will eat all the magic books of the world has appeared !"
+    "en": "[‘Lightning Magic Primer’ has been consumed. Your understanding is very high.] [The 2nd Circle magic ‘Lightning Bolt’ has been acquired.] The unprecedented magician who will eat all the magic books of the world has appeared !"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +45,8 @@
       "name": {
        "en": "Magic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -52,6 +57,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,43 +69,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-01-31T08:45:56+00:00",
+   "updatedAt": "2021-01-31T08:45:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "b8b391f9-4773-498c-b768-f6cf598a6427",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "McEnroe",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4b699a98-225b-4738-8166-0d235dddbd90",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Theodore Miller",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "93f07398-143e-4f98-96b3-2f9005b5aa8c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:29:20+00:00",
+    "description": "",
+    "fileName": "03995c59-f93d-4b4d-8919-a288b8e7e672.jpg",
+    "updatedAt": "2021-05-24T18:29:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

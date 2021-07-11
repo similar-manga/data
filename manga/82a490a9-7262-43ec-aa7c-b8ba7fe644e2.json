@@ -15,7 +15,6 @@
     "kt": "56484"
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +25,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -46,75 +49,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-07T06:03:22+00:00",
+   "updatedAt": "2021-05-25T15:44:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "bfb2f925-6f89-4016-9b32-a0f6ec5c87b7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "soaporsalad",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bfb2f925-6f89-4016-9b32-a0f6ec5c87b7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "soaporsalad",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0b4c6bd5-8566-45d7-80f7-bb71b33570dc",
-   "type": "chapter"
-  },
-  {
-   "id": "5f3cdda9-aa70-4dbf-b243-eb074daecbd7",
-   "type": "chapter"
-  },
-  {
-   "id": "979d144e-561c-4189-9df2-7716f8aadb88",
-   "type": "chapter"
-  },
-  {
-   "id": "4e41912b-e9d7-429e-b2ff-d9d2925fbe9d",
-   "type": "chapter"
-  },
-  {
-   "id": "4196b870-848f-4a3c-a56e-db3fe376f88b",
-   "type": "chapter"
-  },
-  {
-   "id": "b42a4aaa-22b1-4bf4-af0b-73367cf48558",
-   "type": "chapter"
-  },
-  {
-   "id": "0d3f92ff-4c21-4535-80bf-1ff62f3bc925",
-   "type": "chapter"
-  },
-  {
-   "id": "0a9d3caf-a0a9-4cb4-8ea5-b75c31970668",
-   "type": "chapter"
-  },
-  {
-   "id": "fb0cccb5-4216-488c-ad77-bfa3ab7cd7e8",
-   "type": "chapter"
-  },
-  {
-   "id": "5becf8a3-2ffd-4bdf-82fe-c0281ba0d569",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "f02eecb6-e7e3-4f3f-852f-bb71029f60e3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:36:33+00:00",
+    "description": "",
+    "fileName": "2b4b69f4-e205-4c5a-ad20-a144f4fde33c.jpg",
+    "updatedAt": "2021-05-24T17:36:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

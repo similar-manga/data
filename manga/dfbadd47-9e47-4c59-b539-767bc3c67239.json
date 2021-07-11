@@ -7,6 +7,20 @@
    "title": {
     "en": "Unhero"
    },
+   "altTitles": [
+    {
+     "en": "[Un]hero"
+    },
+    {
+     "en": "[Не]Герой"
+    },
+    {
+     "en": "Unhero"
+    },
+    {
+     "en": "언히어로"
+    }
+   ],
    "description": {
     "en": "The Damned Devil's Army are rampaging around the world and the only person who can stop them is the Earth Warrior."
    },
@@ -18,7 +32,6 @@
     "mu": "36833"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,39 +66,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-12T12:22:48+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "30483c43-dbf8-4c2a-a149-50e0d3bbaba3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KIM Jae-Hwan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "963e5bc4-a9aa-48ea-81db-960408c94709",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "JO Seung-Yeop",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "69d01288-7a5b-496e-a9e5-1cf799332ad7",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "3c382dc3-666b-4f98-917a-ed5dedc2f041",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:19+00:00",
+    "description": "",
+    "fileName": "8501843d-a865-42b1-b0f0-3ff15fb6240b.jpg",
+    "updatedAt": "2021-05-24T17:11:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

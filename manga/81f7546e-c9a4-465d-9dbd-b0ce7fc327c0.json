@@ -7,6 +7,14 @@
    "title": {
     "en": "Dragon in the Kitchen"
    },
+   "altTitles": [
+    {
+     "en": "Daidokoro no Dragon"
+    },
+    {
+     "en": "台所のドラゴン"
+    }
+   ],
    "description": {
     "en": "Eastern Europe, 1980s. A Japanese Art student finds a mysterious egg in her new house. Born from it is a small lizard-like creature that shrieks in a strange voice. A new life begins together."
    },
@@ -33,6 +41,8 @@
       "name": {
        "en": "Monsters"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +65,8 @@
       "name": {
        "en": "Magic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -63,6 +77,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -73,6 +89,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -83,87 +101,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-13T20:25:26+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "d2eeb50f-4c2b-4011-8d1d-472875161516",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimada Lily",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "011b845d-d644-413f-858a-d7c6e85ab153",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyoshi Furumachi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fd6e1f63-fc66-42a5-ab33-95eac77beb02",
-   "type": "chapter"
-  },
-  {
-   "id": "15f3dd8b-c61b-45e6-8f3a-628619345439",
-   "type": "chapter"
-  },
-  {
-   "id": "a268e0d0-061b-4262-9c56-12b5d0da7dcf",
-   "type": "chapter"
-  },
-  {
-   "id": "e25855be-50a9-4843-8f5c-c9f62911541f",
-   "type": "chapter"
-  },
-  {
-   "id": "009c6d43-c022-4df9-bc6f-fdd6a0d69d90",
-   "type": "chapter"
-  },
-  {
-   "id": "158783a1-74d2-49ef-832a-598915280987",
-   "type": "chapter"
-  },
-  {
-   "id": "787c8564-4383-4de7-aafe-5b71efa7b6cc",
-   "type": "chapter"
-  },
-  {
-   "id": "36522c69-34a5-434f-9c99-bcdbcd3f5440",
-   "type": "chapter"
-  },
-  {
-   "id": "24e19c7c-a4c6-45f8-b784-6d34e1594b36",
-   "type": "chapter"
-  },
-  {
-   "id": "f9f27edd-a32a-4c6e-9c19-ed19d0509941",
-   "type": "chapter"
-  },
-  {
-   "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "206ed444-c7c5-4ff0-a883-c8f9d83a43ce",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:43+00:00",
+    "description": "",
+    "fileName": "a1715df5-8b2d-4d08-a8e9-f1044d3bfc76.jpg",
+    "updatedAt": "2021-05-24T17:11:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

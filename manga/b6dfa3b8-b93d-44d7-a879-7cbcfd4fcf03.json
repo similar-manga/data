@@ -7,6 +7,20 @@
    "title": {
     "en": "-PIQUANT-"
    },
+   "altTitles": [
+    {
+     "en": "Pikon - PIQUANT"
+    },
+    {
+     "en": "PIQUANT"
+    },
+    {
+     "en": "ピコン -PIQUANT-"
+    },
+    {
+     "en": "피콘 - PIQUANT"
+    }
+   ],
    "description": {
     "en": "Just an every day life of cute girls doing cute things \r\n(and slightly gay)"
    },
@@ -26,6 +40,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,8 +50,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +64,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -56,6 +76,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -66,67 +88,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-21T06:49:47+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "62b3ce42-21ab-4dab-94ce-7f7116d51190",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ryon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "62b3ce42-21ab-4dab-94ce-7f7116d51190",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ryon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "916a1b3d-3d84-46f0-8204-8175e6e9c5ef",
-   "type": "chapter"
-  },
-  {
-   "id": "3a8e5aa3-c13f-43e9-bd3d-86d65228d1c1",
-   "type": "chapter"
-  },
-  {
-   "id": "b14dd04f-0b70-4885-aa32-14f678be6f58",
-   "type": "chapter"
-  },
-  {
-   "id": "e447b461-0978-4da8-a55c-25dcd377836a",
-   "type": "chapter"
-  },
-  {
-   "id": "56e4ff66-ee7f-4d0d-83a7-b7b503497b04",
-   "type": "chapter"
-  },
-  {
-   "id": "6c37fc92-ccc7-4ecc-b1e9-c4111fb755b6",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "2a69fcd4-e2c9-4f17-95be-97cab883ce24",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:53:11+00:00",
+    "description": "",
+    "fileName": "1dee3da3-01c4-4aa9-a462-ec51902ac31f.jpg",
+    "updatedAt": "2021-05-24T17:53:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

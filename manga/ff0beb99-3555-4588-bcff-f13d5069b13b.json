@@ -7,6 +7,17 @@
    "title": {
     "en": "Hey! Doctor"
    },
+   "altTitles": [
+    {
+     "en": "Hey Doctor"
+    },
+    {
+     "en": "ヘイ、ドクター"
+    },
+    {
+     "en": "ヘイ！ドクター"
+    }
+   ],
    "description": {
     "en": "Collection of 7 stories:\r\n\r\n1-3) A highschool boy falls into the river on the way home from school. He gets a fever and is forced to go to the hospital to get some medicine. But man, what's with that doctor and his treatments?!\r\n\r\n4) The boss of the highschooler falls in love with a Ramen Delivery man.\r\n\r\n5-6) A boy on the baseball team is fed up with all the talk about the model at his school. The model told everyone he likes someone whos on the baseball team which caused a riot. The boy could care less, but... can he easily forget the kiss?"
    },
@@ -26,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,8 +59,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,63 +73,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-04T09:15:57+00:00",
+   "updatedAt": "2021-05-25T15:50:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "8a260ce0-03e2-43ab-8660-6664737598d3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UCHIDA Kaoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8a260ce0-03e2-43ab-8660-6664737598d3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UCHIDA Kaoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "609da3f1-893a-46dd-b977-4cdbe0ff4f05",
-   "type": "chapter"
-  },
-  {
-   "id": "ab74ced6-2e03-449a-af81-e0482ceefed8",
-   "type": "chapter"
-  },
-  {
-   "id": "23e6a865-5f57-45ae-8ecc-948196c92bc9",
-   "type": "chapter"
-  },
-  {
-   "id": "82d7e77b-4a3c-466f-bbd7-2e936c8819a8",
-   "type": "chapter"
-  },
-  {
-   "id": "83c8aa61-f844-4d99-86b2-a09cd9ab5fd5",
-   "type": "chapter"
-  },
-  {
-   "id": "fd8de835-7fbf-4aab-aebd-571de08cefa7",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "41473f80-7729-4f86-8942-5189eeab1b0d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:21:19+00:00",
+    "description": "",
+    "fileName": "ad14bc6f-55ea-4259-8cbb-ea24ff363e6e.jpg",
+    "updatedAt": "2021-05-24T18:21:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,17 @@
    "title": {
     "en": "Mahou Tsukai to Koi no Biyaku"
    },
+   "altTitles": [
+    {
+     "en": "Mahoutsukai to Koi no Biyaku"
+    },
+    {
+     "en": "The Wizard and the Love Potion"
+    },
+    {
+     "en": "魔法使いと恋の媚薬"
+    }
+   ],
    "description": {
     "en": "In this twist on familiar fairytale tropes, a persecuted wizard makes a love potion for a girl he saved several years ago."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +65,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,51 +77,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-20T08:22:48+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "f7bd2b40-7961-4b1d-84d0-be18e3ef9931",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Toyota Yuu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f7bd2b40-7961-4b1d-84d0-be18e3ef9931",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Toyota Yuu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0e11f770-2066-4e43-91f9-2c506f3e46b4",
-   "type": "chapter"
-  },
-  {
-   "id": "b39ff5d5-0be0-4254-9cea-d5466c0c77e2",
-   "type": "chapter"
-  },
-  {
-   "id": "43a335c0-d763-4fe5-a63c-fbcc06537a10",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "14916c75-03c3-4fd7-8b87-e89038f2fa0c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:42:29+00:00",
+    "description": "",
+    "fileName": "3b3e5c7f-6528-4c30-8e59-6233b20eec0b.jpg",
+    "updatedAt": "2021-05-24T16:42:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

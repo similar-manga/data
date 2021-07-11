@@ -7,6 +7,20 @@
    "title": {
     "en": "Sutenaide My Hero"
    },
+   "altTitles": [
+    {
+     "en": "Don't Throw Me, My Hero"
+    },
+    {
+     "en": "我的英雄請別扔下我"
+    },
+    {
+     "en": "捨てないでマイヒーロー"
+    },
+    {
+     "en": "버리지 말아줘, 마이 히어로"
+    }
+   ],
    "description": {
     "en": "Kaede, an Alpha, saves Azusa, an Omega that was being bullied, and he moves to another city right after. Many years later, they meet again and Azusa says that he wants to pay him back and that he'll do anything if Kaede gives him the chance. Fortunately or unfortunately, playboy Kaede just can't reject such an opportunity for amusement."
    },
@@ -27,8 +41,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +55,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -49,75 +67,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-25T13:32:12+00:00",
+   "updatedAt": "2021-05-25T15:44:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "4588c93d-aa18-420e-8a31-64d8349cfea0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Himoda Q",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4588c93d-aa18-420e-8a31-64d8349cfea0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Himoda Q",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ea587875-de92-4002-92c7-375e2a76494b",
-   "type": "chapter"
-  },
-  {
-   "id": "2ea6d70a-c48f-438e-a97c-5bc753e34658",
-   "type": "chapter"
-  },
-  {
-   "id": "9e516103-0e41-46d1-b206-88406b8f1775",
-   "type": "chapter"
-  },
-  {
-   "id": "032e8b8d-ca70-4f3e-8e7c-f7ee94148b02",
-   "type": "chapter"
-  },
-  {
-   "id": "796dcb87-e0b4-41e6-94da-a85ec72e411d",
-   "type": "chapter"
-  },
-  {
-   "id": "21116b02-a251-4a08-9c4f-7764dc16964b",
-   "type": "chapter"
-  },
-  {
-   "id": "0619f777-99ac-43ed-8526-5e2b129f3794",
-   "type": "chapter"
-  },
-  {
-   "id": "6ff98ed9-d20e-40f1-8126-0442d26495d5",
-   "type": "chapter"
-  },
-  {
-   "id": "d3c3dcf4-1948-48ae-80c6-191a469c83fa",
-   "type": "chapter"
-  },
-  {
-   "id": "5fa89570-d00e-4b36-97af-14c9687536db",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "e0a9afaa-9626-4f2b-a528-c04e3a1cc0b8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:27:53+00:00",
+    "description": "",
+    "fileName": "0b27a8b1-03fa-4517-a8cf-f678992430f4.jpg",
+    "updatedAt": "2021-05-24T17:27:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

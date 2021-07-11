@@ -7,6 +7,14 @@
    "title": {
     "en": "Colors of the Wind"
    },
+   "altTitles": [
+    {
+     "en": "Baramui Saek"
+    },
+    {
+     "en": "바람의 색"
+    }
+   ],
    "description": {
     "en": "A beautiful love story between a boy and a girl, that takes place in Hokkaido."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +72,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -68,83 +84,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-11T00:04:55+00:00",
+   "updatedAt": "2021-05-25T15:42:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "2a78743b-3ff7-4ac3-ab0c-f7030ebc1eb9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jae-A",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4c6a247b-faf5-4a16-99b8-51caa784bea5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lim Kwang-Mook",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "76ae697f-8bb2-4531-b37c-edcb249c533a",
-   "type": "chapter"
-  },
-  {
-   "id": "4ed02f8b-7a7d-49b5-ab61-ce5021d5707b",
-   "type": "chapter"
-  },
-  {
-   "id": "9ba5fae1-438c-4715-b483-98560c421196",
-   "type": "chapter"
-  },
-  {
-   "id": "02123ef4-aa48-4018-b353-bb99b65b9929",
-   "type": "chapter"
-  },
-  {
-   "id": "ce4c220c-0989-4231-885f-080c93442cfb",
-   "type": "chapter"
-  },
-  {
-   "id": "9d9dd061-05aa-4b7e-84d0-22726f55bd3c",
-   "type": "chapter"
-  },
-  {
-   "id": "6d2dfac8-d437-4ae5-9f0f-0138455fce38",
-   "type": "chapter"
-  },
-  {
-   "id": "d22ee663-28bf-41eb-bd4c-50de3af58182",
-   "type": "chapter"
-  },
-  {
-   "id": "4fe1f8b6-f794-4928-bc7b-e10b25ada95c",
-   "type": "chapter"
-  },
-  {
-   "id": "c5fec8b6-daae-4854-90c3-162e49d18980",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "edf89841-91bb-4fb7-b9ef-7dc650a910b9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:40:34+00:00",
+    "description": "",
+    "fileName": "404f1985-1d91-48b3-9873-ded816d4f33e.jpg",
+    "updatedAt": "2021-05-24T18:40:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

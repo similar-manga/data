@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Kyou Kara Ore Wa!!: Sagawa the Hero \u0026amp; Those Two"
+    "en": "Kyou Kara Ore Wa!!: Sagawa the Hero \u0026 Those Two"
    },
+   "altTitles": [
+    {
+     "en": "From Today, It's My Turn!!: Sagawa the Hero \u0026 Those Two"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,79 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-15T00:00:30+00:00",
+   "updatedAt": "2021-05-25T15:41:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "91b7131b-2f23-49d6-a915-6661807b940a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nishimori Hiroyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "91b7131b-2f23-49d6-a915-6661807b940a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nishimori Hiroyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "28e865b3-da27-48a1-94d8-218965a00c7a",
-   "type": "chapter"
-  },
-  {
-   "id": "7e7204df-c5b6-44b1-bdc9-b33541373718",
-   "type": "chapter"
-  },
-  {
-   "id": "5d5643f3-2ada-4a36-bd70-9fa36a56a479",
-   "type": "chapter"
-  },
-  {
-   "id": "41365194-c11c-489a-9ec9-80f0245923ab",
-   "type": "chapter"
-  },
-  {
-   "id": "1cd01daf-e38c-41c8-af6e-1c33db5e1447",
-   "type": "chapter"
-  },
-  {
-   "id": "772a6305-9859-40ac-b513-06e853a905d2",
-   "type": "chapter"
-  },
-  {
-   "id": "dfb58c15-0117-413a-b0e8-d8c9ed884f72",
-   "type": "chapter"
-  },
-  {
-   "id": "eeca9801-cf8a-4209-93cd-ee295c4692b0",
-   "type": "chapter"
-  },
-  {
-   "id": "47e51e49-bae8-49ee-a17c-b7b4c29d1efd",
-   "type": "chapter"
-  },
-  {
-   "id": "3de63ee5-2e34-41f2-a182-831826d087c5",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "bdc58a96-8f4e-4f34-a7e1-21cd813e68f1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:30:16+00:00",
+    "description": "",
+    "fileName": "8c023d46-c26c-4fd7-817d-869894f2ca00.jpg",
+    "updatedAt": "2021-05-24T17:30:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Honto no Uso"
    },
+   "altTitles": [
+    {
+     "en": "True Lies"
+    },
+    {
+     "en": "ほんとの嘘"
+    }
+   ],
    "description": {
     "en": "A short story about a conservative older office worker dating a 20 years younger kōhai."
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -34,8 +44,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,43 +58,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-26T23:51:08+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "f4269227-161b-407d-9d29-9b67e06db230",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Suzuki Tsuta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f4269227-161b-407d-9d29-9b67e06db230",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Suzuki Tsuta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c16ac258-1d03-48fb-801e-6cd50031cf56",
-   "type": "chapter"
-  },
-  {
-   "id": "05de7378-e5d5-4bdd-9eb6-ff4ea6aea04e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0cad77f0-dae4-4fab-b224-c55a80148d50",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:52+00:00",
+    "description": "",
+    "fileName": "75a6c22e-3a8b-47bc-ae59-600eec19e7a3.jpg",
+    "updatedAt": "2021-05-24T16:55:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

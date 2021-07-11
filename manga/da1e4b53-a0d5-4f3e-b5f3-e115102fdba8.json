@@ -30,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +54,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,79 +66,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-01-27T16:42:29+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "004864e2-efcb-4276-a734-e231e261e268",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YAMADA Maya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "004864e2-efcb-4276-a734-e231e261e268",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YAMADA Maya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a222aa6a-a601-4b36-bb9a-b3636b9b8ff4",
-   "type": "chapter"
-  },
-  {
-   "id": "702dd932-a7eb-469d-966a-57defcd1b2aa",
-   "type": "chapter"
-  },
-  {
-   "id": "c7618881-575a-4fde-8b8b-e0b7e10942fc",
-   "type": "chapter"
-  },
-  {
-   "id": "acca24fa-8df4-4db8-9a79-6e2d326bf460",
-   "type": "chapter"
-  },
-  {
-   "id": "965baa3b-b49a-40a5-a0ca-89b097c1d23a",
-   "type": "chapter"
-  },
-  {
-   "id": "90ce268e-429d-43c9-9413-db1c08463b71",
-   "type": "chapter"
-  },
-  {
-   "id": "eaf91c81-549d-4e56-a701-dbbb8eeb6e6a",
-   "type": "chapter"
-  },
-  {
-   "id": "c7568a77-2e4d-48b9-bdc1-a55717cc0d8a",
-   "type": "chapter"
-  },
-  {
-   "id": "82ba1c72-0aaa-4a1c-a2c9-e774e5d109c0",
-   "type": "chapter"
-  },
-  {
-   "id": "ca1b12b5-3e06-4f58-adb6-1ec7e8800085",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0c3baa6b-0037-4f0c-8fcf-64fcd698f143",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:58:53+00:00",
+    "description": "",
+    "fileName": "b0ef2fc1-8fe9-4d1d-9054-b8c74a2ca3ff.jpg",
+    "updatedAt": "2021-05-24T17:58:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

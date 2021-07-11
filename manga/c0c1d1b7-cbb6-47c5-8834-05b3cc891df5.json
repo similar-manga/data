@@ -7,6 +7,11 @@
    "title": {
     "en": "Sekai wa Shippo de Dekiteiru"
    },
+   "altTitles": [
+    {
+     "en": "世界は尻尾でできている"
+    }
+   ],
    "description": {
     "en": "Kurushima Iori lives in a world where humans and half-beasts coexist peacefully. After an accident kills the last pair of Japanese wolves, their son Riku is left an orphan. Riku is thus entrusted to Kurushima's department. Deciding to care for him personally, he moves them to a small town where the only other Japanese wolf lives, in order for Riku to learn how to live as a wolf."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,8 +56,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,79 +70,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-12T05:22:31+00:00",
+   "updatedAt": "2021-05-25T15:47:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "afffe32b-a98c-4356-acc4-e7e98150a558",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Honjou Rie",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "afffe32b-a98c-4356-acc4-e7e98150a558",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Honjou Rie",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f1c47a5d-2d94-433d-af54-32ad5bbb0166",
-   "type": "chapter"
-  },
-  {
-   "id": "814e1633-7971-44c7-b3b7-9bc1bccc0c07",
-   "type": "chapter"
-  },
-  {
-   "id": "f6191c7e-d089-4657-a432-385bfcd3a004",
-   "type": "chapter"
-  },
-  {
-   "id": "3f607a92-698c-44b0-84b0-c4c9acf3e2a7",
-   "type": "chapter"
-  },
-  {
-   "id": "a0f32679-cb1d-45f5-bbd3-549f9e132588",
-   "type": "chapter"
-  },
-  {
-   "id": "7331dc90-ddf7-4561-9f6b-1cbebc0c4ad3",
-   "type": "chapter"
-  },
-  {
-   "id": "572e3e7d-d547-4a6e-a4e5-661f140249ad",
-   "type": "chapter"
-  },
-  {
-   "id": "c9da39e4-16bf-4e18-931d-6f2cbbf75a06",
-   "type": "chapter"
-  },
-  {
-   "id": "b8ea781b-c68a-4f53-b8d1-ead4555719b3",
-   "type": "chapter"
-  },
-  {
-   "id": "fea15776-df23-4c35-b600-6b73eae6c4eb",
-   "type": "chapter"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "8ddba124-9e4e-4fd6-a63f-77f438193ef0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:33+00:00",
+    "description": "",
+    "fileName": "73f644a0-c24e-4e61-991e-c4a5526f7a59.jpg",
+    "updatedAt": "2021-05-24T17:11:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -14,7 +14,6 @@
     "engtl": "http://tapastic.com/episode/82915"
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "suggestive",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +49,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +61,8 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -66,55 +73,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-13T16:48:43+00:00",
+   "updatedAt": "2021-05-25T15:39:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "2a04bd24-da9a-42b0-a927-817b1c3825ef",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Reon Merryweatherey",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4822bd9e-fced-4bf1-aa67-268dfd3a9cb2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mirko Di Franco",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6d28f40f-c9fe-4fa0-9bcf-94965cd2e758",
-   "type": "chapter"
-  },
-  {
-   "id": "4234b6c7-d7ce-4dbd-9065-63b61c7be526",
-   "type": "chapter"
-  },
-  {
-   "id": "612346f0-d165-48b4-bfb6-97e911684584",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "a5a00961-ab53-4f7c-bfc7-c56ce70ea406",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:48:01+00:00",
+    "description": "",
+    "fileName": "89c68013-33a1-495f-823a-8d5bd371914d.jpg",
+    "updatedAt": "2021-05-24T16:48:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

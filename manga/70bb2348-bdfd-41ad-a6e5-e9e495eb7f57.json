@@ -14,7 +14,6 @@
     "mu": "143582"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,8 +34,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,39 +48,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-17T23:02:25+00:00",
+   "updatedAt": "2021-05-25T15:43:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "5c7af7d1-46e7-4fbb-92fe-55dea6d00204",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Komiya Hitoma (Meiteitei.)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5c7af7d1-46e7-4fbb-92fe-55dea6d00204",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Komiya Hitoma (Meiteitei.)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f2f52411-cd8a-40fd-8c7d-2e0ae2ed676c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "e52e3692-e810-4f45-82a4-62ce9593c73c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:42+00:00",
+    "description": "",
+    "fileName": "879a19dc-e8a7-459f-9800-1398bba7688a.jpg",
+    "updatedAt": "2021-05-24T17:01:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Motte Meisubeshi"
    },
+   "altTitles": [
+    {
+     "en": "Contented"
+    },
+    {
+     "en": "以て瞑すべし"
+    }
+   ],
    "description": {
     "en": "Accountant-turned-samurai Sawamura is having a difficult time being accepted by the other samurai. Many times, store owner Yasuke has rescued him and helped heal his wounds. Now Sawamura is face-to-face with death by uncovering possible embezzlement. Will Yasuke rescue him again? Will Yasuke be the one to teach Sawamura how to correctly wield his sword?"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,47 +74,53 @@
       "name": {
        "en": "Samurai"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-10T03:02:15+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "3ac883b5-67e1-48a9-a280-6993a19180c6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Naono Bohra",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3ac883b5-67e1-48a9-a280-6993a19180c6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Naono Bohra",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "45d10164-a460-4ebb-97c5-63bb879f60e4",
-   "type": "chapter"
-  },
-  {
-   "id": "2b7674d5-0a40-455d-936b-121090fa3929",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "81183756-1453-4c81-aa9e-f6e1b63be016",
-   "type": "tag"
+   "id": "0eb8484a-2808-4f0a-bf50-0f3ca8a07974",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:23+00:00",
+    "description": "",
+    "fileName": "430a12ba-6ce8-4f37-9955-cc87b7745802.png",
+    "updatedAt": "2021-05-24T17:18:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Fairytale of Winter"
    },
+   "altTitles": [
+    {
+     "en": "冬日童话"
+    }
+   ],
    "description": {
     "en": "A story about a snow princess created by humans."
    },
@@ -17,8 +22,7 @@
     "mal": "23749",
     "mu": "61819"
    },
-   "originalLanguage": "zh-hk",
-   "lastChapter": "0",
+   "originalLanguage": "zh",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +58,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,51 +70,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-12T04:47:05+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "a7c879ec-b762-4731-b4d5-d1e6c72169ac",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Xia Da",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a7c879ec-b762-4731-b4d5-d1e6c72169ac",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Xia Da",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "92aa734f-45c1-4bcd-886a-fa27526342f6",
-   "type": "chapter"
-  },
-  {
-   "id": "fc86f043-53b6-4e38-aad6-f4295c075dc9",
-   "type": "chapter"
-  },
-  {
-   "id": "f84f3bf6-adf9-4054-be8a-305551d3c10e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "fa9eff04-af6a-4f9d-beae-bcb5eba94d42",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:53+00:00",
+    "description": "",
+    "fileName": "4da6d4eb-d12d-4291-947d-437343dabebb.jpg",
+    "updatedAt": "2021-05-24T18:17:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

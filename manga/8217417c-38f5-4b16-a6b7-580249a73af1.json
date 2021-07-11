@@ -7,6 +7,11 @@
    "title": {
     "en": "Tsutsui Manga Tokuhon Futatabi"
    },
+   "altTitles": [
+    {
+     "en": "筒井漫画涜本ふたたび"
+    }
+   ],
    "description": {
     "en": "Comics based on stories by Yasutaka Tsutsui (science fiction author who previously wrote The Girl Who Leapt Through Time and Paprika). Two volumes long."
    },
@@ -14,7 +19,6 @@
     "mu": "157889"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,39 +41,53 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-31T05:18:35+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "a01d2575-1d6b-474f-afee-bc461a5117e0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yasutaka Tsutsui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d5f6ce26-f3c9-477c-824a-db7c5ee11d18",
-   "type": "chapter"
-  },
-  {
-   "id": "78c71d40-a92a-4492-b429-c64492073cdf",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
+   "id": "a231dbdd-17b9-4fc2-9e14-f7c8d40ecc2a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:50:37+00:00",
+    "description": "",
+    "fileName": "57f02c92-4a3b-4e03-b248-a49acce007ad.jpg",
+    "updatedAt": "2021-05-24T17:50:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

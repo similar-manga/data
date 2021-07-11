@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Love Live! \u0026mdash; The Palm of Your Hand"
+    "en": "Love Live! — The Palm of Your Hand"
    },
+   "altTitles": [
+    {
+     "en": "Kimi no Tenohira"
+    },
+    {
+     "en": "君の手のひら"
+    }
+   ],
    "description": {
-    "en": "[url=https://www.pixiv.net/member.php?id=11628043][img]https://i.imgur.com/oiVINmy.png[/img] Author\u0026rsquo;s Pixiv[/url]\r\n[url=https://twitter.com/_jo_er_][img]https://i.imgur.com/dQCXZkU.png[/img] Author\u0026rsquo;s Twitter[/url]"
+    "en": "[url=https://www.pixiv.net/member.php?id=11628043][img]https://i.imgur.com/oiVINmy.png[/img] Author’s Pixiv[/url]\r\n[url=https://twitter.com/_jo_er_][img]https://i.imgur.com/dQCXZkU.png[/img] Author’s Twitter[/url]"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,41 +39,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-31T18:47:29+00:00",
+   "updatedAt": "2021-05-25T15:39:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "017b0452-0756-47bf-b877-c151092d9c9d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Joa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "017b0452-0756-47bf-b877-c151092d9c9d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Joa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f6139f6b-c608-4d72-b5ab-12dd90c52fbc",
-   "type": "chapter"
-  },
-  {
-   "id": "0403b0fb-ada6-4ff5-a323-9b6feaaa2ca6",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
+   "id": "2181c452-8728-4f43-8bd6-c928473f856c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:29:23+00:00",
+    "description": "",
+    "fileName": "429f1658-950a-484e-ba94-e93059dc7118.png",
+    "updatedAt": "2021-05-24T18:29:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Twenty's Lovestory"
    },
+   "altTitles": [
+    {
+     "en": "투엔티스"
+    }
+   ],
    "description": {
     "en": "Kim Myung-Hyun's new story about a 20 year old woman. What does she want to do?"
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +58,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,79 +70,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-04T10:18:17+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "e1a997de-ffff-431d-8b54-2a8872e4d7ff",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Myoung Hyoun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e1a997de-ffff-431d-8b54-2a8872e4d7ff",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Myoung Hyoun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bf370ee3-5568-4907-af8e-e4bbfe72b154",
-   "type": "chapter"
-  },
-  {
-   "id": "ac7ac9a6-f494-41de-9e16-aff046a5bc88",
-   "type": "chapter"
-  },
-  {
-   "id": "ff0fd9a0-cc77-473e-80b5-0fb46a40025e",
-   "type": "chapter"
-  },
-  {
-   "id": "ae3493aa-8aa8-44a6-8e28-1f41c0ec4e62",
-   "type": "chapter"
-  },
-  {
-   "id": "789c32b9-5f88-481c-9d90-5a4ff2c8cb77",
-   "type": "chapter"
-  },
-  {
-   "id": "31362221-2eed-4acd-b0e4-93610a785f29",
-   "type": "chapter"
-  },
-  {
-   "id": "1e57017f-c6b2-4b93-9a33-b10c922322b3",
-   "type": "chapter"
-  },
-  {
-   "id": "e639fb8a-a2a5-418c-9f63-649f0748242d",
-   "type": "chapter"
-  },
-  {
-   "id": "b801cee8-fa8a-4749-86e2-091c2e3b8ca4",
-   "type": "chapter"
-  },
-  {
-   "id": "1f487736-1da0-4fa7-b663-2385e4c0ea9e",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "d2baed11-d557-4f20-8079-d737ac359c1a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:39:49+00:00",
+    "description": "",
+    "fileName": "596f0306-f467-4413-aa65-62d68e2ab4e8.jpg",
+    "updatedAt": "2021-05-24T18:39:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

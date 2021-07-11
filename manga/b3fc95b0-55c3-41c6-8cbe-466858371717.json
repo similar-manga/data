@@ -7,6 +7,17 @@
    "title": {
     "en": "Wild Arms Advanced 3rd Anthology Comic"
    },
+   "altTitles": [
+    {
+     "en": "Wild Arms 3 Anthology Comic"
+    },
+    {
+     "en": "Wild Arms Advanced Third Anthology Comic"
+    },
+    {
+     "en": "ワイルドアームズアドヴァンスドサードアンソロジーコミック"
+    }
+   ],
    "description": {
     "en": "A collection of short manga stories by various artists based on the PS2 video game, Wild Arms 3."
    },
@@ -17,7 +28,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "2",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -28,6 +38,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,47 +62,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-30T21:57:18+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1b210b60-1a09-43a5-a44a-8631020676c3",
-   "type": "chapter"
-  },
-  {
-   "id": "2507094f-c3b1-418c-b08e-3c13343443f1",
-   "type": "chapter"
-  },
-  {
-   "id": "a46c2c29-4536-4235-ad51-dfde5a5e00a1",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "f09a6938-7fc5-4fa0-8a60-52ee75378e02",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:54:20+00:00",
+    "description": "",
+    "fileName": "97b429f5-3150-4282-9389-7572ddfa3932.jpg",
+    "updatedAt": "2021-05-24T17:54:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

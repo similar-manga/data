@@ -7,6 +7,17 @@
    "title": {
     "en": "Megane na Kanojo"
    },
+   "altTitles": [
+    {
+     "en": "Glasses Girlfriend"
+    },
+    {
+     "en": "眼鏡なカノジョ"
+    },
+    {
+     "en": "眼镜女友"
+    }
+   ],
    "description": {
     "en": "Short stories where heroines try to hide themselves behind their glasses. Will they be able to find love anyway?"
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -61,75 +78,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-03T07:06:21+00:00",
+   "updatedAt": "2021-05-25T15:42:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "b725a7f0-f226-4dc9-bf6a-864ccf9b9e49",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TOBI",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b725a7f0-f226-4dc9-bf6a-864ccf9b9e49",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TOBI",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "375ce805-f6a3-4bee-87aa-8458bf4b408d",
-   "type": "chapter"
-  },
-  {
-   "id": "246e6bae-17e5-434f-bd77-4670373f83af",
-   "type": "chapter"
-  },
-  {
-   "id": "68092c6d-af19-4692-8c4b-ca037fc91d3b",
-   "type": "chapter"
-  },
-  {
-   "id": "87cb42f2-9e83-4aa2-9070-bd6cacddecf9",
-   "type": "chapter"
-  },
-  {
-   "id": "2464e228-0ea9-4d2d-9930-e0e4e5fd9eb3",
-   "type": "chapter"
-  },
-  {
-   "id": "0c2083cd-f6db-4b89-9078-5ad3c0643ef8",
-   "type": "chapter"
-  },
-  {
-   "id": "aad8fed8-8c3b-4dc6-92aa-3ba0624eb357",
-   "type": "chapter"
-  },
-  {
-   "id": "83882c1f-8868-4cc0-9fe3-b6c177d5255c",
-   "type": "chapter"
-  },
-  {
-   "id": "7efda5ca-1909-4297-9a39-629706931f94",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "418e60d9-33db-4fa5-826e-d1fe62f5d08c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:36:22+00:00",
+    "description": "",
+    "fileName": "49c879bd-950f-40ae-865f-490b1d8dc127.jpg",
+    "updatedAt": "2021-05-24T18:36:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

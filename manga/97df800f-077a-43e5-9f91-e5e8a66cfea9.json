@@ -5,10 +5,21 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Henai Caf\u0026eacute;"
+    "en": "Henai Café"
    },
+   "altTitles": [
+    {
+     "en": "Freaks' Café"
+    },
+    {
+     "en": "Henai Cafe"
+    },
+    {
+     "en": "偏愛カフェ"
+    }
+   ],
    "description": {
-    "en": "Somewhere there is a strange caf\u0026eacute; called \u0026quot;Statice\u0026quot; where all sorts of even stranger people meet, each with a very special and different fetish. The owner, Mr. Sennichi, welcomes these special customers every day, and tries to help them solve their fetish related problems."
+    "en": "Somewhere there is a strange café called \"Statice\" where all sorts of even stranger people meet, each with a very special and different fetish. The owner, Mr. Sennichi, welcomes these special customers every day, and tries to help them solve their fetish related problems."
    },
    "links": {
     "bw": "series/96862",
@@ -29,6 +40,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +52,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +64,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +76,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,6 +88,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -79,63 +100,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-27T18:36:30+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "675d246b-c53b-4170-837c-085f6db7bc90",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Arisaki Meika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "675d246b-c53b-4170-837c-085f6db7bc90",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Arisaki Meika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "13bec4e1-1dcd-4ef6-b138-4c3db4fd9af7",
-   "type": "chapter"
-  },
-  {
-   "id": "343c892f-244f-441e-8951-df31fc44dba2",
-   "type": "chapter"
-  },
-  {
-   "id": "1a52a4fd-c786-46de-86ec-219e9004808b",
-   "type": "chapter"
-  },
-  {
-   "id": "aa6a2042-0a6a-4a77-90b9-2f93bc3e0767",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "deb2eaab-70b1-4f0f-860e-4d987fd57682",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:08:06+00:00",
+    "description": "",
+    "fileName": "a6a9c5ff-8385-4400-a791-593f52dd1542.jpg",
+    "updatedAt": "2021-05-24T18:08:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

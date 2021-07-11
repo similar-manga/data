@@ -7,6 +7,11 @@
    "title": {
     "en": "Virtua Fighter"
    },
+   "altTitles": [
+    {
+     "en": "バーチャファイター"
+    }
+   ],
    "description": {
     "en": "Virtua Fighter adaptation drawn by Yoshihide Fujiwara, who also drew the manga Kenji. \r\nKenji was a huge influence on Yu Suzuki and the development of Virtua Fighter, as well as the spread of Chinese martial arts in Japan. In fact, a bunch of Akira's signature moves are prominently featured in Kenji, so for the author to do the Virtua Fighter manga is like coming full circle.\r\n\r\nThe story revolves around Akira advancing through the world martial arts tournament and uncovering a secret ploy by Dural."
    },
@@ -15,7 +20,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "2",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +30,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -36,35 +42,53 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-19T00:01:48+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "f40323a3-6ad4-4b28-b023-6e4d00e52980",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nanatsuki Kyoichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d4bd7c05-4986-424a-99d1-30d7d56daa95",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujiwara Yoshihide",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5d6ce2fe-4b2e-464e-b569-1ae858658133",
-   "type": "chapter"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
+   "id": "8df7cfd6-28da-4f2f-95d2-917df069d697",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:03:30+00:00",
+    "description": "",
+    "fileName": "2324a30e-0614-428c-99f0-d5d7c8053ef7.jpg",
+    "updatedAt": "2021-05-24T18:03:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

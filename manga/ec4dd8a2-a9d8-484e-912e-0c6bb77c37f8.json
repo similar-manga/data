@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Black \u0026amp; White"
+    "en": "Black \u0026 White"
    },
+   "altTitles": [
+    {
+     "en": "白と黒"
+    },
+    {
+     "en": "白と黒 -Black \u0026 White-"
+    }
+   ],
    "description": {
     "en": "In a major bank, Shirakawa Junko, working in the overseas investor business department, is an elite prospect who is admired by her peers. One day, Kuroda Kayo, who entered the company at the same time, is transferred to Shirakawa's department. Shirakawa is put in charge of Kuroda's department training, causing their work lives to be turned upside down. How will their bizarre and violent relationship play out within the pit of conspiracy and evil called a bank?!"
    },
@@ -16,7 +24,6 @@
     "raw": "https://j-nbooks.jp/comic/original.php?oKey=187"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -27,6 +34,8 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -37,6 +46,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -45,8 +56,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,71 +70,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-26T08:20:30+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "8dd51132-4bd0-4f37-b16b-3f4335d4604a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sal Jiang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8dd51132-4bd0-4f37-b16b-3f4335d4604a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sal Jiang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fb87fdd0-b5b9-4c79-9f84-ae3e0b8014e1",
-   "type": "chapter"
-  },
-  {
-   "id": "2981421d-9639-4bab-8f13-b97a433ca635",
-   "type": "chapter"
-  },
-  {
-   "id": "f6c3c00e-cf96-477d-bbab-3a7c32024fba",
-   "type": "chapter"
-  },
-  {
-   "id": "bbc17ef7-fa52-4577-85bd-9135f78e7519",
-   "type": "chapter"
-  },
-  {
-   "id": "700feceb-0d63-4720-a9a1-3408f1d179d8",
-   "type": "chapter"
-  },
-  {
-   "id": "0e562da1-41be-49e0-b802-af957fba7645",
-   "type": "chapter"
-  },
-  {
-   "id": "932ad942-3059-4ec1-8fe6-ab94d4ca9321",
-   "type": "chapter"
-  },
-  {
-   "id": "a7d39baf-3b7e-4347-a4f9-91eb4a1a2328",
-   "type": "chapter"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "6675df06-f1da-4f4a-a1fd-5704e3e471ed",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:12:07+00:00",
+    "description": "",
+    "fileName": "2e100d86-a4e6-48e2-9d48-1a431ad1c509.jpg",
+    "updatedAt": "2021-05-24T18:12:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,10 +7,15 @@
    "title": {
     "en": "It's All About Love"
    },
+   "altTitles": [
+    {
+     "en": "爱的名义"
+    }
+   ],
    "description": {
     "en": ""
    },
-   "originalLanguage": "zh-hk",
+   "originalLanguage": "zh",
    "lastChapter": "1",
    "publicationDemographic": "josei",
    "status": "completed",
@@ -23,6 +28,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +40,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -43,43 +52,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-31T08:12:18+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "8f760520-381c-4fc6-9189-5830db2137d9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "LAN",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8f760520-381c-4fc6-9189-5830db2137d9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "LAN",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cda235d9-6b18-403b-97a8-82296c03bea5",
-   "type": "chapter"
-  },
-  {
-   "id": "2ac5ae96-834c-4699-99df-3b7dbe1063a2",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "13d5680a-5a64-4f71-9621-751aee9db934",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:25:04+00:00",
+    "description": "",
+    "fileName": "5d3f2ddd-5a79-4849-8e50-03cc687c6076.jpg",
+    "updatedAt": "2021-05-24T18:25:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

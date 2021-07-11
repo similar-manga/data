@@ -5,7 +5,7 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Togainu no Chi \u0026ndash; Maximum Impulse"
+    "en": "Togainu no Chi – Maximum Impulse"
    },
    "description": {
     "en": "Pairing : Shiki x Akira\r\nAkira is being violated by Shiki, but although Akira tries to convince himself that he doesn't care about him, he catches himself spying on Shiki while he's showering."
@@ -20,8 +20,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,35 +34,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-02T19:10:37+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "c23060aa-d509-47a1-a678-95f32e3fa045",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asaga China",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c23060aa-d509-47a1-a678-95f32e3fa045",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asaga China",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c15e52e2-a8e0-4eaa-92d0-01a4064a67d4",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "971fdd98-4f4f-4ff9-8bd2-fcf0a22df67f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:24+00:00",
+    "description": "",
+    "fileName": "94d90c4a-730f-4dbf-b902-3517b6e47177.jpg",
+    "updatedAt": "2021-05-24T17:32:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

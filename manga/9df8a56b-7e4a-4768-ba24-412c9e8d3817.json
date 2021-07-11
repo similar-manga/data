@@ -7,6 +7,17 @@
    "title": {
     "en": "Akai Kemono"
    },
+   "altTitles": [
+    {
+     "en": "Red Beast"
+    },
+    {
+     "en": "Syn.Red Beast"
+    },
+    {
+     "en": "アカイケモノ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -18,7 +29,6 @@
     "mu": "110337"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -30,6 +40,8 @@
       "name": {
        "en": "Monsters"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -40,6 +52,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +64,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -60,6 +76,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,43 +88,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-11-02T04:24:07+00:00",
+   "updatedAt": "2019-11-02T04:24:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "aa7961bf-5e80-4717-ba1e-9e32f3fa8f44",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NAKAHIRA Masahiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "aa7961bf-5e80-4717-ba1e-9e32f3fa8f44",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NAKAHIRA Masahiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "fc829d9b-66c5-4fa3-90c0-a1ebff549847",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:21+00:00",
+    "description": "",
+    "fileName": "2ad2389e-127c-4674-8780-9e7488c1cdee.jpg",
+    "updatedAt": "2021-05-24T17:32:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

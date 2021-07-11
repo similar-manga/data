@@ -7,6 +7,11 @@
    "title": {
     "en": "Your Forest"
    },
+   "altTitles": [
+    {
+     "en": "당신의 숲"
+    }
+   ],
    "description": {
     "en": "A handsome knight visits Baum's place who has spent mostly quiet days in his entire life. Baum's life is about to get colorful in more ways than one."
    },
@@ -16,7 +21,6 @@
     "raw": "http://www.foxtoon.com/challenge/comic/3346"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -27,6 +31,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,45 +41,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-22T01:11:22+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "c5866d29-50b8-49a4-a58d-2d38c43f71ac",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "별무리",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c5866d29-50b8-49a4-a58d-2d38c43f71ac",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "별무리",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "af84ceb8-2227-495f-8132-88f16dae1fd7",
-   "type": "chapter"
-  },
-  {
-   "id": "3f78f384-d3ca-494e-a636-19ed510dbba4",
-   "type": "chapter"
-  },
-  {
-   "id": "7d7ebf98-4ba1-4eda-9d9b-836a5fc54765",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "aa4ec854-55a2-4f80-aa98-7a65face0f4e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:09+00:00",
+    "description": "",
+    "fileName": "1e7ce339-76df-4c16-93ba-2d52b3047570.jpg",
+    "updatedAt": "2021-05-24T17:02:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

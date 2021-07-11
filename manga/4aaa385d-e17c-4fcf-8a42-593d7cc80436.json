@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Boku no Hero Academia - \u0026amp;-and- (Doujinshi)"
+    "en": "Boku no Hero Academia - \u0026-and- (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "僕のヒーローアカデミア \u0026-and-"
+    }
+   ],
    "description": {
     "en": "A gag book featuring a story about Kacchan shortly after his house arrest ends and 2 stories starring Monoma and Shinso! Takes place after the 2nd semester graduation ceremony."
    },
@@ -14,7 +19,6 @@
     "mu": "160652"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +53,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -55,6 +65,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,47 +77,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-21T22:14:41+00:00",
+   "updatedAt": "2021-05-25T15:42:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "dc0c9611-7ac8-407b-b3e7-dc28a098f9a0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Gang Age",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d9e2d401-02ca-4506-8b8f-776ed6bbc168",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "choke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fd62a422-c84b-469b-8252-8fd5b9ea6a95",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "df1a369f-1d78-4f04-826b-4deb34990b3a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:07:28+00:00",
+    "description": "",
+    "fileName": "8ba2660f-c210-4eb7-9b2a-a192717c71b8.jpg",
+    "updatedAt": "2021-05-24T18:07:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

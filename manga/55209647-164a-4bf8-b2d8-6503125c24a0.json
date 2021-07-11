@@ -14,7 +14,6 @@
     "mu": "38529"
    },
    "originalLanguage": "ms",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,39 +37,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-25T03:49:50+00:00",
+   "updatedAt": "2021-05-25T15:42:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "fbf843ad-6f16-4ee5-b244-6f95c152e29d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "WONG Ben",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fbf843ad-6f16-4ee5-b244-6f95c152e29d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "WONG Ben",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "62ed81d7-00d5-4508-99b5-e1a22dd02cb1",
-   "type": "chapter"
-  },
-  {
-   "id": "15d0d606-1903-4910-8409-6d644e512d62",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "53911456-5ffa-4f7f-a5f1-5279113b90c5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:35:01+00:00",
+    "description": "",
+    "fileName": "d87a35ee-1379-459c-a924-1cba322b2af9.jpg",
+    "updatedAt": "2021-05-24T17:35:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

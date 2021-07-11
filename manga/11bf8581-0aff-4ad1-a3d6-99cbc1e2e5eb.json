@@ -7,6 +7,20 @@
    "title": {
     "en": "Dolque!"
    },
+   "altTitles": [
+    {
+     "en": "Dorukue!"
+    },
+    {
+     "en": "Idol Quest"
+    },
+    {
+     "en": "Idol-Ota save the world!?"
+    },
+    {
+     "en": "ドルクエ！"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +45,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +57,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +69,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,43 +81,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-07T06:35:11+00:00",
+   "updatedAt": "2021-05-25T15:39:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "51a16281-7e7a-49a3-939d-9710ab1714c9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hara Masaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "51a16281-7e7a-49a3-939d-9710ab1714c9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hara Masaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5ebbf71d-8160-4249-9b6e-07dace58aae8",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "110b28ee-dd52-4f02-865e-785f3603da8e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:31+00:00",
+    "description": "",
+    "fileName": "05d89f9d-c085-43cc-8010-07d40bb33b20.png",
+    "updatedAt": "2021-05-24T17:00:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

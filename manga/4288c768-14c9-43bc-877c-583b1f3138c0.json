@@ -7,6 +7,17 @@
    "title": {
     "en": "Interw@//"
    },
+   "altTitles": [
+    {
+     "en": "Interwall"
+    },
+    {
+     "en": "インターウォール"
+    },
+    {
+     "en": "インターウォール interw@//"
+    }
+   ],
    "description": {
     "en": "Full-colour web manga."
    },
@@ -17,7 +28,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "1",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -28,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +50,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,6 +62,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,39 +74,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-07-19T19:13:05+00:00",
+   "updatedAt": "2019-07-19T19:13:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "4c4b32fa-3de0-40c0-abc7-fcc7270a679f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sasaki Mitsuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4c4b32fa-3de0-40c0-abc7-fcc7270a679f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sasaki Mitsuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "b8f130bf-3755-4fef-9864-169a0acc6015",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:19:34+00:00",
+    "description": "",
+    "fileName": "ab67b12f-1523-4b3b-a4b9-aed4ef331f2a.jpg",
+    "updatedAt": "2021-05-24T17:19:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

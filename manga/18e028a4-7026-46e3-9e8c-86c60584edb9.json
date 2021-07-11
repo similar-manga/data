@@ -5,8 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Blind M\u0026auml;rchen"
+    "en": "Blind Märchen"
    },
+   "altTitles": [
+    {
+     "en": "Blind Fairy Tale"
+    },
+    {
+     "en": "Blind Marchen"
+    },
+    {
+     "en": "Ослеплённая сказками"
+    },
+    {
+     "en": "블라인드 메르헨"
+    }
+   ],
    "description": {
     "en": "The love story between a blind girl who lives in fairytales and a hard boiled boy who no longer believes.\r\nAfter the accident, Ai Rin is no longer too sure. She cannot see, and she isn't even sure if her 'family' is her real one. She doesn't remember if she had any sisters or even an angry mother. While Lee Su's family was completely destroyed. His father is now drunk, and he doesn't have any money to pay for the surgery his little sister needs. He stopped believing in magic and fairytales long ago. But the two meet by chance, Ai Rin, a fairytale writer, and Lee Su, a hat seller."
    },
@@ -31,6 +45,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +57,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -51,6 +69,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,79 +81,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-29T11:45:04+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "675172ee-8b61-410d-bb23-4a9f5fa8be7b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yun Hyun Seok",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7bb5a88a-4c10-4dd8-98eb-981b0d913c93",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yeon Woo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3a3a5056-5161-48dd-b124-8cd38985c7ec",
-   "type": "chapter"
-  },
-  {
-   "id": "6aadeb8b-c59c-4447-9fd0-d620e90eb4ae",
-   "type": "chapter"
-  },
-  {
-   "id": "7669b88f-1d79-425c-8bb9-cdbdb869d52a",
-   "type": "chapter"
-  },
-  {
-   "id": "80e9e675-1927-4eb6-9e29-b47f6ad2b923",
-   "type": "chapter"
-  },
-  {
-   "id": "87c24548-aec0-4402-aad7-ce83a05ba389",
-   "type": "chapter"
-  },
-  {
-   "id": "2d21239b-7eca-4351-9e0d-e09f09be56d0",
-   "type": "chapter"
-  },
-  {
-   "id": "05ab40eb-b414-475f-a100-aeff022204c3",
-   "type": "chapter"
-  },
-  {
-   "id": "a25f523c-bc94-4605-b1d5-2c98531f099a",
-   "type": "chapter"
-  },
-  {
-   "id": "3d98e717-4c93-4782-a882-7f6b30cccb94",
-   "type": "chapter"
-  },
-  {
-   "id": "a20d20d1-ee3c-4afb-ae2e-5f42186e9478",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "6f22e04a-ac15-4f7d-9632-1f86ca7c33ae",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:30:38+00:00",
+    "description": "",
+    "fileName": "de8605e3-8601-4f35-9ad8-91b0f882c8cf.jpg",
+    "updatedAt": "2021-05-24T17:30:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,8 +7,22 @@
    "title": {
     "en": "Captain Harlock"
    },
+   "altTitles": [
+    {
+     "en": "Space Pirate Captain Harlock"
+    },
+    {
+     "en": "Space Pirate Captain Herlock"
+    },
+    {
+     "en": "Uchuu Kaizoku Captain Harlock"
+    },
+    {
+     "en": "宇宙海賊キャプテンハーロック"
+    }
+   ],
    "description": {
-    "en": "\u0026quot;I fight only for what I believe in...for no one's sake...only for what's deep in my heart. I sail amongst the stars...people call me: Captain Harlock.\u0026quot;\r\n\r\nTruer words never spoken. Now! Embark upon an adventure into the infinite sea with the last brave souls of humanity aboard the Arcadia!"
+    "en": "\"I fight only for what I believe in...for no one's sake...only for what's deep in my heart. I sail amongst the stars...people call me: Captain Harlock.\"\r\n\r\nTruer words never spoken. Now! Embark upon an adventure into the infinite sea with the last brave souls of humanity aboard the Arcadia!"
    },
    "links": {
     "al": "35115",
@@ -32,6 +46,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +58,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +70,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,51 +82,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-21T22:15:40+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "97d2763e-6980-41e4-b69e-be641f4dd306",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Leiji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "97d2763e-6980-41e4-b69e-be641f4dd306",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Leiji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3080afbc-6824-4b81-a42c-c1caf9655306",
-   "type": "chapter"
-  },
-  {
-   "id": "5f0bcb3c-7d48-4dbb-b789-bb491ec8eab6",
-   "type": "chapter"
-  },
-  {
-   "id": "7b290985-8230-4a57-99bf-0f2618bc3700",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "93bbf52a-4c02-4f8d-9fde-438df088b5d9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:33+00:00",
+    "description": "",
+    "fileName": "9468aba1-0c36-46c3-80bb-c5a9f5785857.jpg",
+    "updatedAt": "2021-05-24T17:56:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

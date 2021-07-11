@@ -7,6 +7,11 @@
    "title": {
     "en": "Make Me Happy"
    },
+   "altTitles": [
+    {
+     "en": "メイク・ミー・ハッピー"
+    }
+   ],
    "description": {
     "en": "Shiba owns a small software firm. Naomi, who works there part-time as he studies at the university, is comfortable with his homosexuality. So, despite Shiba's being 36 years old, Naomi can't help but be attracted to his boss! But, does Shiba feel the same way?"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +71,8 @@
       "name": {
        "en": "Incest"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -70,6 +83,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -80,87 +95,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-23T09:01:31+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "bed686a9-f1c8-475d-9ad0-57b6245a851f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyamoto Kano",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bed686a9-f1c8-475d-9ad0-57b6245a851f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyamoto Kano",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "825c3d63-fec2-4e41-9827-693b5a5a64e1",
-   "type": "chapter"
-  },
-  {
-   "id": "ed7cb56b-965b-473a-9f8a-dc19bd54477b",
-   "type": "chapter"
-  },
-  {
-   "id": "ca0ad894-78b7-4a97-a25f-462cce528e8d",
-   "type": "chapter"
-  },
-  {
-   "id": "bd891a3b-1c35-4382-bd32-31d84aca9fdf",
-   "type": "chapter"
-  },
-  {
-   "id": "b5bfae69-e3ef-4bec-9e54-c147fa59f854",
-   "type": "chapter"
-  },
-  {
-   "id": "040d5b70-c7a5-4a8a-98ba-49d92db4b0b5",
-   "type": "chapter"
-  },
-  {
-   "id": "ba161476-b91c-4eb5-ae21-29d9005894ed",
-   "type": "chapter"
-  },
-  {
-   "id": "66cf15ce-fd39-495a-b4e5-225b13f2282e",
-   "type": "chapter"
-  },
-  {
-   "id": "b1645697-c996-46e4-a5bf-819bcba44eac",
-   "type": "chapter"
-  },
-  {
-   "id": "151be4ea-c57f-48a8-abf0-7456b17eb221",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "5bd0e105-4481-44ca-b6e7-7544da56b1a3",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "5c31abc8-0e1b-4fa7-a513-97c1c92a221f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:52:26+00:00",
+    "description": "",
+    "fileName": "652f80fb-54d7-48a6-a8ab-61cfed04c8d5.jpg",
+    "updatedAt": "2021-05-24T16:52:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

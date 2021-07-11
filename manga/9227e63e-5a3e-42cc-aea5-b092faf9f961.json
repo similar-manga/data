@@ -7,6 +7,17 @@
    "title": {
     "en": "Billy the Kid 21-mai no Album"
    },
+   "altTitles": [
+    {
+     "en": "Billy the Kid - 21 Albums"
+    },
+    {
+     "en": "Billy the Kid 21 Albums"
+    },
+    {
+     "en": "ビリー・ザ・キッド21枚のALBUM"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -33,6 +44,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +56,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +68,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -63,39 +80,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-09-12T21:35:29+00:00",
+   "updatedAt": "2019-09-12T21:35:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "e05e9267-65ed-4c37-afec-a9af7fed1ed6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ROKUDA Noboru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e05e9267-65ed-4c37-afec-a9af7fed1ed6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ROKUDA Noboru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "263a4ad4-06df-4f2f-b601-206e0dc971e0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:26:21+00:00",
+    "description": "",
+    "fileName": "87073d4b-c10b-4242-aa81-ceccd694b117.png",
+    "updatedAt": "2021-05-24T17:26:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

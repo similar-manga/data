@@ -15,7 +15,6 @@
     "engtl": "https://www.lezhin.com/en/comic/mlls"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -24,8 +23,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,51 +37,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-24T07:14:04+00:00",
+   "updatedAt": "2021-05-25T15:49:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "2279c943-5796-4634-8d4c-dad399cad852",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Today",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "267f5963-da32-4c68-8e37-4bf159b239a6",
-   "type": "chapter"
-  },
-  {
-   "id": "49a5e0a7-b17f-4ea1-b6eb-7fef68e8cab4",
-   "type": "chapter"
-  },
-  {
-   "id": "b82e433b-f222-49ea-b086-dd406ed2f13e",
-   "type": "chapter"
-  },
-  {
-   "id": "a919aba2-f088-4a66-979a-d6bed31df578",
-   "type": "chapter"
-  },
-  {
-   "id": "a41e131d-ee90-4605-82a6-27b5e2520289",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "4eeb77a1-3811-4f49-9f72-c0cc425f6cc6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:07:42+00:00",
+    "description": "",
+    "fileName": "c4824423-f401-42f0-bcf8-910a23233367.jpg",
+    "updatedAt": "2021-05-24T18:07:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

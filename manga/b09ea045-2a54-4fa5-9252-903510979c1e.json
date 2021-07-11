@@ -7,6 +7,20 @@
    "title": {
     "en": "Virtual Grimm Fairy Tale"
    },
+   "altTitles": [
+    {
+     "en": "Beojyual Grimn"
+    },
+    {
+     "en": "Virtual Grimm Donghwa"
+    },
+    {
+     "en": "Virtual Picture Story"
+    },
+    {
+     "en": "버츄얼 그림동화"
+    }
+   ],
    "description": {
     "en": "This is how people experience a virtual Grimm fairy tale. Each fairy tale hides a cruel story of ambition, pain and obsession."
    },
@@ -27,6 +41,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +53,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +65,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +77,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,71 +89,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-17T04:34:17+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "699f2d80-1cde-4ccf-bb10-4f9e45347752",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kyeong-Ok Kang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "699f2d80-1cde-4ccf-bb10-4f9e45347752",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kyeong-Ok Kang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "80761989-9666-4fdd-b4f3-bf29c7f8c890",
-   "type": "chapter"
-  },
-  {
-   "id": "a4e0b70a-e48f-4a5e-afc3-0cfaa2bb46df",
-   "type": "chapter"
-  },
-  {
-   "id": "3135bfea-2b14-4269-9630-0876525fc1c7",
-   "type": "chapter"
-  },
-  {
-   "id": "e147898f-22da-4458-8927-274eeb4326eb",
-   "type": "chapter"
-  },
-  {
-   "id": "70f465e0-f029-4b55-a191-97c5c0724d87",
-   "type": "chapter"
-  },
-  {
-   "id": "c4180bbc-7240-4bbf-8e71-28d1df1e7bff",
-   "type": "chapter"
-  },
-  {
-   "id": "03f18299-094d-480f-bcd3-d30f465ef1ee",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "8f384913-017e-4f5c-a8f2-85ea63176128",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:34+00:00",
+    "description": "",
+    "fileName": "8e45cc27-aed2-4a39-9d1a-f3e784717f44.jpg",
+    "updatedAt": "2021-05-24T17:01:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

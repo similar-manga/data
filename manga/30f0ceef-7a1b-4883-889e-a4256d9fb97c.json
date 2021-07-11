@@ -7,6 +7,11 @@
    "title": {
     "en": "Seductive Uniform"
    },
+   "altTitles": [
+    {
+     "en": "유니폼 완전정복"
+    }
+   ],
    "description": {
     "en": "Uniforms that tempt you and make you fantasize. Can you withstand the allure of uniforms?"
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,75 +56,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-18T10:05:20+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "ba589e24-37ae-48c8-97a1-096b2be777f2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Durufix",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ba589e24-37ae-48c8-97a1-096b2be777f2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Durufix",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1ae5daea-89c2-484e-ba23-70b0c5713c9d",
-   "type": "chapter"
-  },
-  {
-   "id": "52114d56-08d6-4e56-8c24-c59bbc7a8e16",
-   "type": "chapter"
-  },
-  {
-   "id": "b2963286-242f-46cc-a338-d4692ba39cb3",
-   "type": "chapter"
-  },
-  {
-   "id": "65f4ac14-5922-4418-b6a3-047a5689f8a7",
-   "type": "chapter"
-  },
-  {
-   "id": "f901c51b-295a-48bb-b545-bc1554e86c52",
-   "type": "chapter"
-  },
-  {
-   "id": "817fbf57-5655-49c2-818f-5ff6c8e15d48",
-   "type": "chapter"
-  },
-  {
-   "id": "57430667-2af8-407f-bafc-0f0662abb001",
-   "type": "chapter"
-  },
-  {
-   "id": "5d664655-94e3-4cfe-afe0-b8cfca6c75d2",
-   "type": "chapter"
-  },
-  {
-   "id": "16f7d71b-0876-4ea4-9eed-94b8e40d515b",
-   "type": "chapter"
-  },
-  {
-   "id": "ce4cdb5e-82cb-43be-9fab-926f6c33d640",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "2b1c9fe8-ef56-4f75-994a-9b0098d1c1df",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:14+00:00",
+    "description": "",
+    "fileName": "b2c7685d-4e13-492b-bc89-67d8522a52c2.jpg",
+    "updatedAt": "2021-05-24T16:58:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

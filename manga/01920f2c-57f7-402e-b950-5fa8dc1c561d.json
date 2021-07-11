@@ -7,6 +7,17 @@
    "title": {
     "en": "Hirahira no Tree"
    },
+   "altTitles": [
+    {
+     "en": "Hirahira no Tsuri"
+    },
+    {
+     "en": "The Frilly Tree"
+    },
+    {
+     "en": "ひらひらのツリー"
+    }
+   ],
    "description": {
     "en": "Frill is a young boy who travels from town to town, selling the beautiful flowers that grow on his back. One day, the flowers on his back mysteriously begin to wilt and Frill worries that he can no longer grow any flowers."
    },
@@ -17,7 +28,6 @@
     "mal": "54223"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -29,6 +39,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +51,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,39 +63,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-05T13:23:40+00:00",
+   "updatedAt": "2021-05-25T15:38:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "08d60f38-179c-4e86-a44f-1a660bf7c56b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hosuka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "08d60f38-179c-4e86-a44f-1a660bf7c56b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hosuka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "05a15404-1139-48b1-add4-bce58b91e2b8",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "ab9a061b-9c68-4f5e-b94a-19d255535431",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:52+00:00",
+    "description": "",
+    "fileName": "cef54c8c-b072-406c-9130-c30ceb76aa2b.jpg",
+    "updatedAt": "2021-05-24T16:56:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

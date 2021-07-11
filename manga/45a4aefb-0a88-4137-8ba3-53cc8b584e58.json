@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Ui \u0026amp; Kiki"
+    "en": "Ui \u0026 Kiki"
    },
+   "altTitles": [
+    {
+     "en": "Uikiki"
+    },
+    {
+     "en": "ういきき"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +22,6 @@
     "raw": "https://book.dmm.co.jp/detail/b159baklo01707/"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,31 +32,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-13T04:00:10+00:00",
+   "updatedAt": "2021-05-25T15:41:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "e3c8e721-e150-4717-910e-60fe6d1ba992",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Usakun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e3c8e721-e150-4717-910e-60fe6d1ba992",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Usakun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "76cf4e1f-a0c9-42dd-84ba-e60743422cff",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "da2c53a6-2fcd-4f2e-9362-3993de60c30a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:37:19+00:00",
+    "description": "",
+    "fileName": "43c83930-dccd-4ba2-8700-fb8c32e26df8.jpg",
+    "updatedAt": "2021-05-24T17:37:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,8 +7,16 @@
    "title": {
     "en": "The Hat"
    },
+   "altTitles": [
+    {
+     "en": "Boushi"
+    },
+    {
+     "en": "ぼうし"
+    }
+   ],
    "description": {
-    "en": "You mustn\u0026rsquo;t ever look down into the depths of your memories\u0026mdash;"
+    "en": "You mustn’t ever look down into the depths of your memories—"
    },
    "links": {
     "al": "116271",
@@ -27,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Thriller"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "Ghosts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -57,6 +71,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,47 +83,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-09T19:39:59+00:00",
+   "updatedAt": "2021-05-25T15:47:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "f3f6782a-4f0b-4648-b9eb-a3fc76354214",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakamoto Ichio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f3f6782a-4f0b-4648-b9eb-a3fc76354214",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakamoto Ichio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0ec2000b-ac8c-4a58-81ca-e56667cae2b0",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "07251805-a27e-4d59-b488-f0bfbec15168",
-   "type": "tag"
-  },
-  {
-   "id": "3bb26d85-09d5-4d2e-880c-c34b974339e9",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "6d4137dc-4e22-4f23-b1c7-0769bf6060db",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:55:23+00:00",
+    "description": "",
+    "fileName": "87ee00db-095a-4712-b714-a05d80bc7438.png",
+    "updatedAt": "2021-05-24T17:55:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

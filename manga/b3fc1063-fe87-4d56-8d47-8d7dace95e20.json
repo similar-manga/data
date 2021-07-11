@@ -7,6 +7,17 @@
    "title": {
     "en": "Z Mazinger"
    },
+   "altTitles": [
+    {
+     "en": "Zeta Mazinger"
+    },
+    {
+     "en": "Zeus Mazinger"
+    },
+    {
+     "en": "Zマジンガー"
+    }
+   ],
    "description": {
     "en": "A retelling of Mazinger Z mixed with ancient Greek mythology with a modern touch."
    },
@@ -28,6 +39,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +51,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +63,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +75,8 @@
       "name": {
        "en": "Mecha"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,6 +87,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -78,6 +99,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -88,6 +111,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -98,59 +123,53 @@
       "name": {
        "en": "Aliens"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-12T06:26:49+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "1a76535a-b389-4e42-9130-a71d0ec94611",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nagai Go",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1a76535a-b389-4e42-9130-a71d0ec94611",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nagai Go",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ce9e3c29-843c-4bbd-bd58-fed2928aa899",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "50880a9d-5440-4732-9afb-8f457127e836",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e64f6742-c834-471d-8d72-dd51fc02b835",
-   "type": "tag"
+   "id": "6589ff2d-db35-4f21-b135-0e7436d8fd84",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:48:20+00:00",
+    "description": "",
+    "fileName": "b9e5c063-c986-4f0d-ac79-37fed609bf67.jpg",
+    "updatedAt": "2021-05-24T17:48:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

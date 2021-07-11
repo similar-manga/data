@@ -7,6 +7,26 @@
    "title": {
     "en": "A Girl in the Clouds"
    },
+   "altTitles": [
+    {
+     "en": "Guleum-eul Nubineun Sonyeo"
+    },
+    {
+     "en": "Gureumeul Nubineun Sonyeo"
+    },
+    {
+     "en": "The Girl Who Cross-Stitched Clouds"
+    },
+    {
+     "en": "Девушка в облаках"
+    },
+    {
+     "en": "فتاةٌ نسجت حُبُكًا من السّحُب"
+    },
+    {
+     "en": "구름을 누비는 소녀"
+    }
+   ],
    "description": {
     "en": "A village like fairytale. A meeting of a sixteen years old boy and a girl."
    },
@@ -30,6 +50,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +62,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -50,6 +74,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +86,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -70,6 +98,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -80,87 +110,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-06T05:47:07+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "f8a9b51a-22e7-4660-b314-237d9e0b96f7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jeong Gi-lim",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c44afa52-a1e1-4233-9c62-2eba4ce37a7a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oh Eun-ji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "65bdb1e0-e79b-449d-83b4-fc340725a178",
-   "type": "chapter"
-  },
-  {
-   "id": "26c99ba7-0c64-42a6-94c1-8ae3b60d107b",
-   "type": "chapter"
-  },
-  {
-   "id": "8b1c13a5-76c0-4c42-b482-f4939a6460cf",
-   "type": "chapter"
-  },
-  {
-   "id": "73979213-4e12-4ec2-a907-149a7d2bd1bc",
-   "type": "chapter"
-  },
-  {
-   "id": "2571463e-27b4-48c1-8bac-7e8b7f36b081",
-   "type": "chapter"
-  },
-  {
-   "id": "c5841e06-3c11-49d3-b1ee-170011b1e61d",
-   "type": "chapter"
-  },
-  {
-   "id": "22a75ca0-ed93-4f3d-a456-4e68dbc8787a",
-   "type": "chapter"
-  },
-  {
-   "id": "e683cab0-f317-44ca-87ff-adb91d04817f",
-   "type": "chapter"
-  },
-  {
-   "id": "c24a65bb-7104-4454-9129-d5810f09ae9f",
-   "type": "chapter"
-  },
-  {
-   "id": "da9827e0-abd6-4ad1-8e97-09baa37aa3bb",
-   "type": "chapter"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "94d56c44-b16c-4f04-af33-eca80ab8cd00",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:22+00:00",
+    "description": "",
+    "fileName": "3fdb464b-99fd-4841-acae-926b18610802.jpg",
+    "updatedAt": "2021-05-24T17:00:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Drop Frame"
    },
+   "altTitles": [
+    {
+     "en": "ドロップフレーム"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,59 +49,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-23T20:23:37+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "e1a32bf1-24bf-466a-800d-61b02a0519ee",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nariie Shinichirou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e1a32bf1-24bf-466a-800d-61b02a0519ee",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nariie Shinichirou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "13a26bac-759b-4ae9-8956-0bd41a55b92f",
-   "type": "chapter"
-  },
-  {
-   "id": "886e34bc-2644-4736-9486-1818ac08f053",
-   "type": "chapter"
-  },
-  {
-   "id": "85b07c4f-7083-4917-ad8c-5b7a8ed94718",
-   "type": "chapter"
-  },
-  {
-   "id": "c36318a0-b479-4004-8fb9-6bc8f599d3b9",
-   "type": "chapter"
-  },
-  {
-   "id": "ca22bdb2-8fe3-4b9e-b7e7-e269530e317c",
-   "type": "chapter"
-  },
-  {
-   "id": "320be69f-3bbd-4188-ab65-a8b781da4e34",
-   "type": "chapter"
-  },
-  {
-   "id": "9485e9a8-9d9e-4352-b835-ad38769417ec",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "8485c2bc-8dd4-4f5d-a462-da595a7a9d41",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:30+00:00",
+    "description": "",
+    "fileName": "97fbc479-b3ee-4ea9-b3be-a0b4084c0cb0.jpg",
+    "updatedAt": "2021-05-24T16:55:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

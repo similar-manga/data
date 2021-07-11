@@ -7,6 +7,14 @@
    "title": {
     "en": "Sunglasses"
    },
+   "altTitles": [
+    {
+     "en": "Kuro Megane"
+    },
+    {
+     "en": "黒めがね"
+    }
+   ],
    "description": {
     "en": "The story of a traveling blind girl who plays the shamisen and her encounter with an author who seems to always wear sunglasses wherever he goes."
    },
@@ -16,7 +24,6 @@
     "mu": "148468"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -28,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +47,8 @@
       "name": {
        "en": "Philosophical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +59,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,47 +71,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-15T23:04:53+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "b80a86bd-ce34-4095-abec-98f287941974",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kyou Machiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b80a86bd-ce34-4095-abec-98f287941974",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kyou Machiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2a18bd56-2da4-42bf-bde1-715d4a7e80ce",
-   "type": "chapter"
-  },
-  {
-   "id": "d6106412-274d-440f-96a2-0a38c280fc7f",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "bdc146aa-bf9b-4f48-81a5-e81d00e3d3e8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:58+00:00",
+    "description": "",
+    "fileName": "7629e263-f96a-4aa5-b065-dcd50e72f05f.png",
+    "updatedAt": "2021-05-24T17:11:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -31,6 +31,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +43,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,43 +55,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-06T19:51:18+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "3ac544ac-da6c-4b5e-81ae-a0696ad84386",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SATZ",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "017c672b-45d4-4c5c-a7f2-d27c67548217",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKAMI Yuuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "68723d8e-d1ec-4efc-b295-c5da87967587",
-   "type": "chapter"
-  },
-  {
-   "id": "31dc0bca-fcf4-4b35-927f-338d7af62e72",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "52f0a1a8-4064-4f7d-8b0c-d7674a6f39d5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:41:07+00:00",
+    "description": "",
+    "fileName": "9a2e63d0-1746-4653-b847-ce3970063413.png",
+    "updatedAt": "2021-05-24T16:41:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

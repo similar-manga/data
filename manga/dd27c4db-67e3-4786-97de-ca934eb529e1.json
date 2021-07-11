@@ -14,7 +14,6 @@
     "mu": "123505"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,35 +36,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-23T07:40:48+00:00",
+   "updatedAt": "2021-05-25T15:48:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "3749c8e1-a4d3-4d98-958b-4fa575d7f6b7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKAHASHI Rumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3749c8e1-a4d3-4d98-958b-4fa575d7f6b7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKAHASHI Rumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7732b5b5-4492-4ee4-955e-0d137801aa1e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "bfdb252e-6029-4fe6-92e4-a399197ef9d3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:23:51+00:00",
+    "description": "",
+    "fileName": "fead1001-c55b-455e-85bf-9815266eef71.jpg",
+    "updatedAt": "2021-05-24T17:23:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Papa To Arukou"
    },
+   "altTitles": [
+    {
+     "en": "パパと歩こう"
+    },
+    {
+     "en": "親親My Baby"
+    }
+   ],
    "description": {
     "en": "Eight years have passed since Haruna, once a child genius, quit university and became a poor detective. Haruna's uncle suddenly visits with a job for him--to take care of a child helper-robot, A-3. Will A-3 help Haruna find what is missing from his life?"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,51 +50,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-11T09:28:06+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "ddd001eb-9ad2-42e5-a9d4-7a382bfc9cb1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shin Yui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ddd001eb-9ad2-42e5-a9d4-7a382bfc9cb1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shin Yui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c89be87c-6626-4192-b46d-267c300c9e31",
-   "type": "chapter"
-  },
-  {
-   "id": "696a82fa-c431-48c1-9ac7-efb391ebff4e",
-   "type": "chapter"
-  },
-  {
-   "id": "e7f2d343-3666-4825-9047-e3a14294943f",
-   "type": "chapter"
-  },
-  {
-   "id": "80b2d01f-6a83-4feb-b394-f58e52df9427",
-   "type": "chapter"
-  },
-  {
-   "id": "5c6af469-920e-487b-93cc-0e49b4504438",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "f9627f74-b05f-4f04-99f0-9701fcb93448",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:56+00:00",
+    "description": "",
+    "fileName": "54419298-6e4e-4eb4-9f22-06516e313c92.jpg",
+    "updatedAt": "2021-05-24T17:09:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

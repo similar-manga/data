@@ -7,6 +7,14 @@
    "title": {
     "en": "Watashi no Kidou"
    },
+   "altTitles": [
+    {
+     "en": "My Path"
+    },
+    {
+     "en": "わたしの軌道"
+    }
+   ],
    "description": {
     "en": "The end of the world is coming and a bunch of girls gather on the roof to greet their death."
    },
@@ -18,7 +26,6 @@
     "mu": "27967"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +36,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +48,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,8 +58,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,43 +72,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-21T16:50:22+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "a343fc43-606a-419a-b655-85f856d3ba83",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurogane Ken",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a343fc43-606a-419a-b655-85f856d3ba83",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurogane Ken",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b4a91e36-69f6-4f51-9d31-ce007db1c3d5",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "97bc9af3-61f8-4f69-923a-f5277adb8ec0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:16:12+00:00",
+    "description": "",
+    "fileName": "62086e34-74cf-421d-ac0f-9ac4862984e5.png",
+    "updatedAt": "2021-05-24T17:16:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

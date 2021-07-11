@@ -7,11 +7,18 @@
    "title": {
     "en": "Touhou Project - Naganakidori"
    },
+   "altTitles": [
+    {
+     "en": "Eternity crying bird"
+    },
+    {
+     "en": "Вечная плачущая птица"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +41,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,6 +53,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,47 +65,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-05T05:01:51+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "412daae3-01ac-480d-a2a3-380348d05d87",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sada",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "412daae3-01ac-480d-a2a3-380348d05d87",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sada",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "af5684c2-7f57-4174-82ae-3ab2f91004f6",
-   "type": "chapter"
-  },
-  {
-   "id": "41dfe06b-6a21-4919-a04f-b9076e9f407a",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "bdffad5d-add2-4fd8-9bae-77b7ff90c1be",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:38+00:00",
+    "description": "",
+    "fileName": "33f6a141-1b01-4b8e-86b7-fc04bfe46ece.jpg",
+    "updatedAt": "2021-05-24T18:17:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

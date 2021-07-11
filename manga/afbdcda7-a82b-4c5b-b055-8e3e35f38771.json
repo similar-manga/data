@@ -7,6 +7,14 @@
    "title": {
     "en": "Hinata and Mikasa"
    },
+   "altTitles": [
+    {
+     "en": "Hinata to Mikasa"
+    },
+    {
+     "en": "ひなたと三笠"
+    }
+   ],
    "description": {
     "en": "Mikasa Otsuka. Transfer student, only child, and something of a lone wolf.\r\nHinata Yakumo. The liveliest kid in class with a huge family, and a bit of a busybody.\r\nThis is the story of their excitedly troublesome coming-of-age friendship!"
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -38,71 +48,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-21T05:30:14+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "ce34d6b4-ae3b-4c80-8da4-0c0eefce015f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujita Nagisa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ce34d6b4-ae3b-4c80-8da4-0c0eefce015f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujita Nagisa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "22e298d7-7d68-4bef-8638-6ea62a9ce0d8",
-   "type": "chapter"
-  },
-  {
-   "id": "97be8f76-240a-47dc-b197-5b2da341ec98",
-   "type": "chapter"
-  },
-  {
-   "id": "40ab427b-5cca-42a1-9884-af2ce451307e",
-   "type": "chapter"
-  },
-  {
-   "id": "cfbcebbe-c6e1-456e-b709-44b1f19b2ae7",
-   "type": "chapter"
-  },
-  {
-   "id": "b91d9e10-d674-4b1e-9ed6-833f3cbf8d22",
-   "type": "chapter"
-  },
-  {
-   "id": "ed6d0776-c37c-464e-a213-9918e171d5ee",
-   "type": "chapter"
-  },
-  {
-   "id": "04b24c6d-43e6-4bb3-bb1c-8d96f5cd50a9",
-   "type": "chapter"
-  },
-  {
-   "id": "0b09d079-4022-4010-96c3-85855b16b10b",
-   "type": "chapter"
-  },
-  {
-   "id": "8dac2769-4675-4f8c-bda2-18abfea846fc",
-   "type": "chapter"
-  },
-  {
-   "id": "edede71e-e0e5-428d-8fce-de5a7da54070",
-   "type": "chapter"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "bfc1a35a-1dfa-4fe0-b0a8-5fd1e3d58b62",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:28:04+00:00",
+    "description": "",
+    "fileName": "e1301b7b-0244-4c0a-9854-ad7af100a7b7.jpg",
+    "updatedAt": "2021-05-24T18:28:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

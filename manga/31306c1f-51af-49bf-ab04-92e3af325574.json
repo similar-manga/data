@@ -7,11 +7,18 @@
    "title": {
     "en": "The Princess and the Ninja"
    },
+   "altTitles": [
+    {
+     "en": "Hime to Shinobi"
+    },
+    {
+     "en": "姫と忍"
+    }
+   ],
    "description": {
     "en": "Deep, deep in the mountains, there was a village that was skilled at craftsmanship; even the nobility partook in the business of creation. However, their princess is clumsy with her hands. Despite this, she wants to find a way to help the village she loves."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +42,8 @@
       "name": {
        "en": "Ninja"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,39 +54,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-10T13:36:37+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "b1a3fc35-f0a2-4ebc-99c6-888035c5ad4e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kihara Yuriko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b1a3fc35-f0a2-4ebc-99c6-888035c5ad4e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kihara Yuriko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ad6e9664-e3e4-485d-9e67-387f83293555",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "489dd859-9b61-4c37-af75-5b18e88daafc",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "b77b48d6-6cee-4fb7-a2e8-4cefdd7c44e7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:30:34+00:00",
+    "description": "",
+    "fileName": "7f60c0f3-be36-438a-acac-b64acab2bcc1.png",
+    "updatedAt": "2021-05-24T18:30:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

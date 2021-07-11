@@ -23,6 +23,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +35,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +47,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,47 +59,53 @@
       "name": {
        "en": "Aliens"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-07-13T22:08:07+00:00",
+   "updatedAt": "2020-07-13T22:08:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "c9a2ae78-6e94-4003-8531-dadee6bae387",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ashihara Daisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c9a2ae78-6e94-4003-8531-dadee6bae387",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ashihara Daisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "25323575-ec50-49eb-ad9b-43cef163b1ba",
-   "type": "chapter"
-  },
-  {
-   "id": "90fc7bec-1489-46b3-9ed2-fec60e4cc4d1",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "e64f6742-c834-471d-8d72-dd51fc02b835",
-   "type": "tag"
+   "id": "8d8c503c-3db9-4f90-9cdf-526b2faab00e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:02:54+00:00",
+    "description": "",
+    "fileName": "85c4988d-e64d-4183-89e2-141e7d23eaef.jpg",
+    "updatedAt": "2021-05-24T18:02:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,10 +5,18 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Boy \u0026amp; Cool"
+    "en": "Boy \u0026 Cool"
    },
+   "altTitles": [
+    {
+     "en": "Boy and Cool"
+    },
+    {
+     "en": "ボーイ\u0026クール"
+    }
+   ],
    "description": {
-    "en": "At age 17, Nana still doesn't have a boyfriend. One day, she went to the beach and met with a cool guy. They exchanged numbers and texted but the cool guy turns out to be her younger brother's friend who's 5 years younger?!\r\n\r\n[PL]   W wieku 17 lat Nana dalej nie ma chłopaka. Pewnego razu spotyka na swojej drodze chłopaka marzeń, ale\u0026hellip; Dlaczego jest kolegą jej brata, kt\u0026oacute;ry jest o 5 lat młodszy?!"
+    "en": "At age 17, Nana still doesn't have a boyfriend. One day, she went to the beach and met with a cool guy. They exchanged numbers and texted but the cool guy turns out to be her younger brother's friend who's 5 years younger?!\r\n\r\n[PL]   W wieku 17 lat Nana dalej nie ma chłopaka. Pewnego razu spotyka na swojej drodze chłopaka marzeń, ale… Dlaczego jest kolegą jej brata, który jest o 5 lat młodszy?!"
    },
    "links": {
     "al": "54620",
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,43 +50,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-13T01:30:33+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "48a9566e-5746-41a5-9e1c-6a0e3e9bb986",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HARUKI Saki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "48a9566e-5746-41a5-9e1c-6a0e3e9bb986",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HARUKI Saki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "45685410-554c-4e5c-b188-d99fcb427306",
-   "type": "chapter"
-  },
-  {
-   "id": "06906b31-df7a-4c38-8c49-bbba940f3f63",
-   "type": "chapter"
-  },
-  {
-   "id": "73b79cb8-3e91-4b4e-9b3d-7e4c860c7aab",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "8c7ded9c-c3b2-4f71-b889-6bb4c317243a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:47:57+00:00",
+    "description": "",
+    "fileName": "7dd64c33-0c6d-4b8c-aaf8-3af7a965e144.jpg",
+    "updatedAt": "2021-05-24T16:47:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

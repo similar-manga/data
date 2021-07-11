@@ -5,8 +5,31 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Lovely Colors ～Kiya Sii color comics \u0026amp; illust collection～"
+    "en": "Lovely Colors ～Kiya Sii color comics \u0026 illust collection～"
    },
+   "altTitles": [
+    {
+     "en": "Docchi ga Osuki? (Who Do You Love More)"
+    },
+    {
+     "en": "Docchimo Love!? (Both are Loved Which Do You Choose?)"
+    },
+    {
+     "en": "Kawaranai Mono (Unchanged Things)"
+    },
+    {
+     "en": "Manatsu no Koukishin (Midsummer's Curiosity)"
+    },
+    {
+     "en": "Mind of Sisters"
+    },
+    {
+     "en": "Mousou Shousetsu"
+    },
+    {
+     "en": "Splash Musume (Splash Girl)"
+    }
+   ],
    "description": {
     "en": "1. Splash Musume (Splash Girl)\r\n2. Docchi ga Osuki? (Who Do You Love More)\r\n3. Kawaranai Mono (Unchanged Things)\r\n4. Manatsu no Koukishin (Midsummer's Curiosity)\r\n5-7. Mind of Sisters #1,2,4\r\n8. Docchimo Love!? (Both are Loved Which Do You Choose?)\r\n9. Mousou Shousetsu"
    },
@@ -27,67 +50,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-10T08:02:37+00:00",
+   "updatedAt": "2021-05-25T15:49:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "be8afafc-64ff-4433-b7c8-265f902f9468",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kiya Shii",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "be8afafc-64ff-4433-b7c8-265f902f9468",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kiya Shii",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "db076287-f6e5-43a0-a741-a74b4c8cf38c",
-   "type": "chapter"
-  },
-  {
-   "id": "669462c6-09a1-4d7e-8a65-6222f1209ac7",
-   "type": "chapter"
-  },
-  {
-   "id": "504db03a-8fce-4488-b4d1-0a6f54a09917",
-   "type": "chapter"
-  },
-  {
-   "id": "1d73ea54-3def-4baf-af41-8caa42c57b62",
-   "type": "chapter"
-  },
-  {
-   "id": "5baadc50-f0c6-4190-880d-4de7f75954b0",
-   "type": "chapter"
-  },
-  {
-   "id": "123dec25-fed1-4300-afd4-77b5ee498656",
-   "type": "chapter"
-  },
-  {
-   "id": "daa28008-a7a1-446e-ace3-fa8621972376",
-   "type": "chapter"
-  },
-  {
-   "id": "284913eb-cd9d-4391-9bc5-19c1400904c5",
-   "type": "chapter"
-  },
-  {
-   "id": "41217618-a9d1-40f7-8496-7dc9c2aaaf65",
-   "type": "chapter"
-  },
-  {
-   "id": "6f6f4ba4-8ceb-41c0-93bb-ba8b87626312",
-   "type": "chapter"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "b0659554-0551-4f5d-bc54-d5bedc7bfffa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:51:52+00:00",
+    "description": "",
+    "fileName": "3be857de-949c-4eed-aaea-f1472564f5fd.jpg",
+    "updatedAt": "2021-05-24T17:51:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

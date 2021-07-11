@@ -7,6 +7,14 @@
    "title": {
     "en": "Ouji to Joujin"
    },
+   "altTitles": [
+    {
+     "en": "A Prince And A Lover"
+    },
+    {
+     "en": "王子と情人"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,8 +72,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,67 +86,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-06T19:36:52+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "1f63facf-1cf3-4f87-b250-1b067eda4574",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Yuu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1f63facf-1cf3-4f87-b250-1b067eda4574",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Yuu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5e2eced6-1ec5-4ce7-b462-6d1a72202771",
-   "type": "chapter"
-  },
-  {
-   "id": "fcb3776d-e107-4949-aa91-8a95cf8c8eff",
-   "type": "chapter"
-  },
-  {
-   "id": "56c542b8-9e89-42fc-92de-1318a89aa2f2",
-   "type": "chapter"
-  },
-  {
-   "id": "8ac2f81f-943d-414c-aaf4-533993da2c27",
-   "type": "chapter"
-  },
-  {
-   "id": "4cd533e2-3717-4209-b1f4-156d2b37372f",
-   "type": "chapter"
-  },
-  {
-   "id": "00f9256f-94ec-43b8-9472-109868dbb01a",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "f8c77916-d5c7-4fc9-9c7e-cc88056fcd29",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:51:26+00:00",
+    "description": "",
+    "fileName": "4f44e752-0230-48ff-a6a4-6c07176c88b3.jpg",
+    "updatedAt": "2021-05-24T17:51:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -25,6 +25,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,71 +37,53 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-07T14:48:09+00:00",
+   "updatedAt": "2021-05-25T15:39:21+00:00"
   }
  },
  "relationships": [
   {
    "id": "834f6f2e-303d-4fc1-ad34-5f4fe7cb0b66",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Papa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "834f6f2e-303d-4fc1-ad34-5f4fe7cb0b66",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Papa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9f262ab2-e84c-42bb-9a3f-64110ff8d36e",
-   "type": "chapter"
-  },
-  {
-   "id": "4c46a891-65ca-4e05-af02-d328b322a535",
-   "type": "chapter"
-  },
-  {
-   "id": "875b65e0-99e8-4240-9dc3-c267483cf06b",
-   "type": "chapter"
-  },
-  {
-   "id": "b8ae7c0b-0489-449f-9c4b-055de6028b02",
-   "type": "chapter"
-  },
-  {
-   "id": "cf28d667-7413-4bb6-80f8-0e5bebccbcc8",
-   "type": "chapter"
-  },
-  {
-   "id": "57dd27aa-2d07-4e2d-8738-148ac307d22f",
-   "type": "chapter"
-  },
-  {
-   "id": "32e37ec3-b3c4-48c1-8bae-98a78610c65a",
-   "type": "chapter"
-  },
-  {
-   "id": "49b39c82-ee59-4eb2-a6b1-9a48a315a266",
-   "type": "chapter"
-  },
-  {
-   "id": "d45f1cf9-efc7-4f02-bcff-a369f1056028",
-   "type": "chapter"
-  },
-  {
-   "id": "4cac8607-d84f-4bcf-8d5f-8b8a15f4e918",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
+   "id": "7f30978a-1eb2-4f3a-97f1-a267f91e9c78",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:07:13+00:00",
+    "description": "",
+    "fileName": "88ead3e1-9de8-419e-bd0f-5dfe593ea6c1.png",
+    "updatedAt": "2021-05-24T17:07:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

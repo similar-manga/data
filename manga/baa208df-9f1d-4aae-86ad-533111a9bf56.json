@@ -7,6 +7,14 @@
    "title": {
     "en": "Warera Kuromon Chousadan"
    },
+   "altTitles": [
+    {
+     "en": "We are the Kuromon Investigation Team"
+    },
+    {
+     "en": "我らクロモン調査団"
+    }
+   ],
    "description": {
     "en": "A rough introduction to the game Kirara Fantasia, as told from the perspective of the Kuromon Investigation Team"
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +46,8 @@
       "name": {
        "en": "Magic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -46,6 +58,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -56,6 +70,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,83 +82,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-02T19:02:55+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "ba593d58-acd6-4203-9880-c44f9800a0ec",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "kirisu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ba593d58-acd6-4203-9880-c44f9800a0ec",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "kirisu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "16cc4a9a-d509-48ce-9689-8ed004561155",
-   "type": "chapter"
-  },
-  {
-   "id": "b37b8f5d-6924-4d14-bebf-5fcc655cebc6",
-   "type": "chapter"
-  },
-  {
-   "id": "dac154e0-443b-4aa5-9d59-575492ce831b",
-   "type": "chapter"
-  },
-  {
-   "id": "8d165388-302d-4e51-8a44-1da7e53e737c",
-   "type": "chapter"
-  },
-  {
-   "id": "e26eb5ec-b97a-46a5-8256-f1d1508a223b",
-   "type": "chapter"
-  },
-  {
-   "id": "c3abaa9c-d892-473f-a747-bee18b4a8f66",
-   "type": "chapter"
-  },
-  {
-   "id": "540c7d13-d442-4527-b509-bbf521cbf332",
-   "type": "chapter"
-  },
-  {
-   "id": "4f463658-08d8-45ca-9fbb-fb48d6255be7",
-   "type": "chapter"
-  },
-  {
-   "id": "ea662710-36fe-4533-b75e-6c4d2c8c53fa",
-   "type": "chapter"
-  },
-  {
-   "id": "043ac02d-31d2-4ceb-91d1-ab3b2a53ac76",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "6909ead6-224f-4ff9-a1da-332a556142d5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:50:54+00:00",
+    "description": "",
+    "fileName": "8663c5a6-ac92-4e55-a75d-c54acf80bb5d.png",
+    "updatedAt": "2021-05-24T17:50:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

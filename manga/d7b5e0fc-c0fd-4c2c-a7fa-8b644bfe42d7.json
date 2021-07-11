@@ -7,6 +7,11 @@
    "title": {
     "en": "Tokyo Zombie"
    },
+   "altTitles": [
+    {
+     "en": "東京ゾンビ"
+    }
+   ],
    "description": {
     "en": "A horror-comedy manga about two blue-collar factory workers and jiu-jitsu experts who deal with a zombie uprising in Tokyo. When the story begins, Fujio and Mitsuo dream of training in martial arts overseas and becoming famous. When they accidentally kill their overbearing boss, they bury him at a man-made garbage mountain known as Dark Fuji, where tons of rotting garbage have been contaminated with industrial waste which, naturally, transforms the bodies of the dead into ravenous, flesh-eating zombies.\r\n\r\nFuji and Mitsuo try their best to survive in this horrific new landscape, but the hapless pair become separated after an idiotic mistake involving potato chips and a stray dog. A few years later, post-apocalyptic Tokyo has become a feudalistic society, in which the rich have enslaved the lower classes, and created gladiator death matches, pitting zombies against slaves, and Fuji and Misuo meet again."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,39 +59,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-05-16T01:39:25+00:00",
+   "updatedAt": "2018-05-16T01:39:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "335108c3-477c-4e2f-abdf-d3ffc92a4c78",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hanakuma Yusaku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "335108c3-477c-4e2f-abdf-d3ffc92a4c78",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hanakuma Yusaku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "140c74ac-4c90-44bc-8c8e-9acfaa761e8d",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "4157d33f-16b0-4f2b-a3a8-0d399a3df27f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:15:16+00:00",
+    "description": "",
+    "fileName": "ff900118-db21-4ab0-9448-a6e0d7e276ff.jpg",
+    "updatedAt": "2021-05-28T23:15:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

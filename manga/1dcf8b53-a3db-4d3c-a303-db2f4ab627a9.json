@@ -7,6 +7,11 @@
    "title": {
     "en": "Kiruto"
    },
+   "altTitles": [
+    {
+     "en": "Killt"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,35 +60,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-05-20T03:40:39+00:00",
+   "updatedAt": "2020-05-20T03:40:39+00:00"
   }
  },
  "relationships": [
   {
    "id": "1315af4f-c181-4a2f-8542-8bcb85a80062",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ikeda Akihisa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1315af4f-c181-4a2f-8542-8bcb85a80062",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ikeda Akihisa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "2d57448a-bf49-4fb1-b9e8-a9652494009b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:31+00:00",
+    "description": "",
+    "fileName": "ec752f1a-0206-4b67-912d-6c7576a419a0.jpg",
+    "updatedAt": "2021-05-24T17:56:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

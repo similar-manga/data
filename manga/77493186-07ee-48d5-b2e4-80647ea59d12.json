@@ -7,6 +7,20 @@
    "title": {
     "en": "Her Time"
    },
+   "altTitles": [
+    {
+     "en": "The Time We Have"
+    },
+    {
+     "en": "Время, которое у нас есть"
+    },
+    {
+     "en": "她的時間"
+    },
+    {
+     "en": "그녀의 시간"
+    }
+   ],
    "description": {
     "en": "My wife died in an accident. \r\nBut when I finally go back to teach...\r\nshe comes back to me as my student?!"
    },
@@ -26,6 +40,8 @@
       "name": {
        "en": "Time Travel"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -36,6 +52,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -46,6 +64,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +76,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -66,6 +88,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -76,87 +100,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-12T13:57:47+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "ca1a80ae-b65e-48b1-9f49-472074afc7e6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lee Jongkyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "60e2f03d-60df-4c1c-b031-e12e28cc30f9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Song Raehyun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d8491013-4943-4305-99c1-01fe26995df1",
-   "type": "chapter"
-  },
-  {
-   "id": "8bceb0c5-ea25-4efc-bbf0-061842eec709",
-   "type": "chapter"
-  },
-  {
-   "id": "63d2f34e-a20f-4b7c-bb4f-60b5738012f4",
-   "type": "chapter"
-  },
-  {
-   "id": "bdc95203-6680-4107-8cee-dad228189eac",
-   "type": "chapter"
-  },
-  {
-   "id": "0fbeee44-b837-4a44-9949-e688419088cf",
-   "type": "chapter"
-  },
-  {
-   "id": "b3abd3e7-d431-4530-a4c6-88c72bda4151",
-   "type": "chapter"
-  },
-  {
-   "id": "256649a9-50ab-4ed1-9cc7-e3a1751df7f0",
-   "type": "chapter"
-  },
-  {
-   "id": "77e6f58d-e5f7-4cda-8baa-96d49f128727",
-   "type": "chapter"
-  },
-  {
-   "id": "828861ec-bba5-489c-b6c3-0b4f8cdb6267",
-   "type": "chapter"
-  },
-  {
-   "id": "0f2db4d7-d518-43ed-85f0-79886ae4afda",
-   "type": "chapter"
-  },
-  {
-   "id": "292e862b-2d17-4062-90a2-0356caa4ae27",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "d48e74a3-299a-4f93-ad3c-908ef5adb1e8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:29:55+00:00",
+    "description": "",
+    "fileName": "1c58bad1-d8f7-415d-a060-3c5aceb68c00.jpg",
+    "updatedAt": "2021-05-24T17:29:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

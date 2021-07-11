@@ -7,6 +7,14 @@
    "title": {
     "en": "Lion Books"
    },
+   "altTitles": [
+    {
+     "en": "Raion Bukkusu"
+    },
+    {
+     "en": "ライオンブックス"
+    }
+   ],
    "description": {
     "en": "A collection of short stories."
    },
@@ -21,7 +29,6 @@
     "mu": "44801"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -33,35 +40,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-19T15:42:07+00:00",
+   "updatedAt": "2021-05-25T15:43:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "21575d70-b954-4e3a-80df-00192f413a83",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tezuka Osamu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "21575d70-b954-4e3a-80df-00192f413a83",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tezuka Osamu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "769bf363-340c-4aea-b6da-b1b4dad7ae23",
-   "type": "chapter"
-  },
-  {
-   "id": "85f1e448-4cdc-4156-8cd3-0359e148190b",
-   "type": "chapter"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "4d9629d0-6d64-4fbe-b4e1-622a668f95e7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:38:02+00:00",
+    "description": "",
+    "fileName": "d230c1ae-7867-496c-b5ca-e41913b71642.jpg",
+    "updatedAt": "2021-05-24T18:38:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

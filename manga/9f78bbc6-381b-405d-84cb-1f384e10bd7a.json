@@ -14,7 +14,6 @@
     "mu": "140414"
    },
    "originalLanguage": "id",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +36,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,47 +48,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-20T10:45:41+00:00",
+   "updatedAt": "2021-05-25T15:45:45+00:00"
   }
  },
  "relationships": [
   {
    "id": "d7120c84-6636-4adc-bdc9-6140b19c7daf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Gosencha",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d7120c84-6636-4adc-bdc9-6140b19c7daf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Gosencha",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "032f2105-07f9-494a-a168-4bbb506116be",
-   "type": "chapter"
-  },
-  {
-   "id": "f7f38223-dbe5-482c-add4-bde17650aeb3",
-   "type": "chapter"
-  },
-  {
-   "id": "88d79646-0a2a-4d4f-bdb0-53bde48948e1",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "715ff6a8-4f3e-4f06-b437-7d6c2116a9f2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:16:02+00:00",
+    "description": "",
+    "fileName": "e85136b6-f7d9-4d53-a97d-1c1432b9343c.jpg",
+    "updatedAt": "2021-05-24T17:16:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,17 @@
    "title": {
     "en": "Sono Yubi de Hagashite"
    },
+   "altTitles": [
+    {
+     "en": "Hanamaru Manga Sono Yubi de Hagashite"
+    },
+    {
+     "en": "そのゆびで剥がして"
+    },
+    {
+     "en": "花丸漫画 そのゆびで剥がして"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,8 +51,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +65,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -60,43 +77,53 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-02T16:17:53+00:00",
+   "updatedAt": "2021-05-25T15:38:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "c9c525ae-b917-48a7-9008-e3ab62c2d9b8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kusabi Keri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c9c525ae-b917-48a7-9008-e3ab62c2d9b8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kusabi Keri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6b175d8e-ac3e-42ee-aabd-3d038d803116",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
+   "id": "41b0aa48-b111-4fec-a413-e7a7590dfca9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:36:01+00:00",
+    "description": "",
+    "fileName": "08d6f553-a9c4-499e-919c-89174574acff.jpg",
+    "updatedAt": "2021-05-24T17:36:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

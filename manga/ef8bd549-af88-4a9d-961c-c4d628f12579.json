@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Spicy \u0026amp; Sugary"
+    "en": "Spicy \u0026 Sugary"
    },
+   "altTitles": [
+    {
+     "en": "Spicy And Sugary"
+    }
+   ],
    "description": {
     "en": "Nagai, a detective at the Metropolitan Police Department, is currently living with his high school classmate, Kitahara. The extremely stubborn Nagai and the fickle, elusive Kitahara weren't close friends back in the day, but when they met by chance, Kitahara shamelessly invited himself to go live with Nagai, saying that he got chased out by his roommate. Although he was messy, Kitahara was actually good at cooking and acting all spoiled, so he was kind of both like a bride and a pet. Nagai felt unexpectedly comfortable living with him, but Kitahara suddenly announced that he was getting back together with his ex and put an end to their cohabitation. \r\n\r\nHowever, it seems that Kitahara has many more secrets..."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,71 +59,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-12T22:54:13+00:00",
+   "updatedAt": "2021-05-25T15:49:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "1e81e9bf-9ba2-4c3f-88e5-debb3773e325",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Norikazu Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1e81e9bf-9ba2-4c3f-88e5-debb3773e325",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Norikazu Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8070cac7-aa23-4650-9069-1edf29393aa5",
-   "type": "chapter"
-  },
-  {
-   "id": "773021ee-4d8d-42a9-911a-06ec727a4c55",
-   "type": "chapter"
-  },
-  {
-   "id": "94bd21a8-ed1e-4bbf-9808-dcb0eee80b6d",
-   "type": "chapter"
-  },
-  {
-   "id": "34ee07da-2ef5-4fc2-880f-519e55c526ca",
-   "type": "chapter"
-  },
-  {
-   "id": "71a4bb52-3d99-4361-9fe0-54e3a1b77b18",
-   "type": "chapter"
-  },
-  {
-   "id": "50ebb2d4-a7af-4eba-9ec5-4e2ba92f5a80",
-   "type": "chapter"
-  },
-  {
-   "id": "5df9b236-31ee-4c89-a3a8-7f3018da8530",
-   "type": "chapter"
-  },
-  {
-   "id": "7135907c-1221-40a1-b0ae-417b47e34be5",
-   "type": "chapter"
-  },
-  {
-   "id": "44785f6c-0373-46b5-8cd7-a2438eaf05cb",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "eaf7257b-00eb-4f5c-9d46-b65c02056310",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:51:22+00:00",
+    "description": "",
+    "fileName": "950e8402-f402-4602-b5b0-76fb6af5e885.jpg",
+    "updatedAt": "2021-05-24T16:51:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

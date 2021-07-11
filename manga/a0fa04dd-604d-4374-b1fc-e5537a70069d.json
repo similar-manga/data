@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Saint Seiya \u0026Omega;"
+    "en": "Saint Seiya Ω"
    },
+   "altTitles": [
+    {
+     "en": "Saint Seiya Omega"
+    },
+    {
+     "en": "聖闘士星矢Ω"
+    },
+    {
+     "en": "聖闘士星矢Ω（セイントセイヤオメガ"
+    }
+   ],
    "description": {
     "en": "Saints are champions of hope who have always appeared since the Age of Myth whenever evil threatens the world. The god of war, Mars, was once sealed away them, but time has passed and his revival is at hand. Meanwhile, Saori Kido (Athena) is raising the boy Kouga and he's been training every day to become a Saint in order to prepare for the coming crisis. Unaware of his destiny, when Kouga awakens to the power of his Cosmo hidden inside him, the curtain will rise upon the legend of a new Saint."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,79 +65,65 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-12T23:34:25+00:00",
+   "updatedAt": "2021-05-25T15:45:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "75c02982-6af3-4d51-86eb-0cb5fc96e4b0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurumada Masami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "95769a3e-0ed7-4db4-9929-f4fe477549af",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Toei Animation",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "59eed20c-6a6c-4af2-806c-118781a1d292",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Bau",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "99eb2e0c-94a7-4d3e-9443-3be0f6f9301f",
-   "type": "chapter"
-  },
-  {
-   "id": "4b0d3fe4-7341-4ae9-a1d2-2dc16552609a",
-   "type": "chapter"
-  },
-  {
-   "id": "77782c1d-7536-4f42-882e-48004d974f4d",
-   "type": "chapter"
-  },
-  {
-   "id": "6fcbb2c4-6a77-447d-b05b-4bc49f591d79",
-   "type": "chapter"
-  },
-  {
-   "id": "83f0022a-54f9-4963-b273-58686d78e253",
-   "type": "chapter"
-  },
-  {
-   "id": "42954ef2-2ff4-4e05-a3fe-04dd061fa7f2",
-   "type": "chapter"
-  },
-  {
-   "id": "4c398937-04e0-4597-ad3c-a42ac5c42f34",
-   "type": "chapter"
-  },
-  {
-   "id": "7328c920-372c-4956-a81f-3c188ee90fb1",
-   "type": "chapter"
-  },
-  {
-   "id": "c17fe528-b51e-4629-b175-57bfb52b4a78",
-   "type": "chapter"
-  },
-  {
-   "id": "1b43a47a-ee87-4ab0-b864-69f94b43a19c",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "1c81520c-4e19-4ff9-a831-5549f65f7f61",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:40:47+00:00",
+    "description": "",
+    "fileName": "fdff538e-23cb-449f-a3ea-1c782c7c4ca3.jpg",
+    "updatedAt": "2021-05-24T18:40:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

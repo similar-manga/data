@@ -7,6 +7,14 @@
    "title": {
     "en": "Super Ninja Dan"
    },
+   "altTitles": [
+    {
+     "en": "Kaze no Senshi Dan"
+    },
+    {
+     "en": "風の戦士ダン"
+    }
+   ],
    "description": {
     "en": "The story of Dan, a super ninja."
    },
@@ -20,7 +28,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "9",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -32,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,51 +51,53 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-03T08:37:34+00:00",
+   "updatedAt": "2021-05-25T15:42:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "4279ea10-bc91-47f9-b7a7-aca12bc4430f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kariya Tetsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d2947a20-bedd-4cff-874f-ca2e68099eff",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimamoto Kazuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d64008fb-158e-4b58-ae1c-585dca3127cc",
-   "type": "chapter"
-  },
-  {
-   "id": "7a11d6d9-e9af-4483-aaf4-f35d49c2a9f6",
-   "type": "chapter"
-  },
-  {
-   "id": "47e8fb99-4c5d-4142-b632-93357e49d1f7",
-   "type": "chapter"
-  },
-  {
-   "id": "a4af2797-61bf-465e-9c68-6f38b06876ee",
-   "type": "chapter"
-  },
-  {
-   "id": "09e3b105-a44e-4aa7-9e97-e6934e002774",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
+   "id": "0bc89c37-4347-4fe4-a6fd-c6f24d0556c9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:39+00:00",
+    "description": "",
+    "fileName": "7c26d8af-3bb9-4a71-9837-f3ded88a585f.jpg",
+    "updatedAt": "2021-05-24T16:56:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

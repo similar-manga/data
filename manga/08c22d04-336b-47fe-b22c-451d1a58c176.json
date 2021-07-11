@@ -7,11 +7,18 @@
    "title": {
     "en": "Link no Bouken (Shigoto Daisuke)"
    },
+   "altTitles": [
+    {
+     "en": "Adventure of Link"
+    },
+    {
+     "en": "The Legend of Zelda: The Adventure of Link"
+    }
+   ],
    "description": {
     "en": "Adventure of Link (Zelda II) adaptation by Daisuke Shigoto."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +30,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,43 +42,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-27T08:08:02+00:00",
+   "updatedAt": "2021-05-25T15:39:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "4a573891-6d6d-4244-a4ee-f8d42132719c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shigoto Daisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4a573891-6d6d-4244-a4ee-f8d42132719c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shigoto Daisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2a0142bc-3eb2-471f-a1db-1bd63d369b56",
-   "type": "chapter"
-  },
-  {
-   "id": "01fd9fa8-7d21-4b8a-a8aa-ce5417fa6ab3",
-   "type": "chapter"
-  },
-  {
-   "id": "58d1cd74-adba-47a5-a330-ca4b49ad4b7f",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "c4c73c01-9f4e-4f57-bb17-95a990539ed4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:40+00:00",
+    "description": "",
+    "fileName": "cf0f0090-4ac7-43e1-b294-77b123c8b7fb.jpg",
+    "updatedAt": "2021-05-24T17:09:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

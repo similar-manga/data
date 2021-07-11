@@ -7,6 +7,14 @@
    "title": {
     "en": "Ramune no Shalala"
    },
+   "altTitles": [
+    {
+     "en": "Shalala Of Ramune"
+    },
+    {
+     "en": "ラムネのシャララ"
+    }
+   ],
    "description": {
     "en": "A story about summer, pool and Ramune."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,39 +62,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-22T19:05:52+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "60e5a51d-cb80-466f-8d68-79f49d7a0b92",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tagura Tohru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "60e5a51d-cb80-466f-8d68-79f49d7a0b92",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tagura Tohru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c1da4c99-d6f2-4177-8839-6e0011816ab2",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "583a5c02-059e-4f47-a24a-83abaecd0a82",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:44+00:00",
+    "description": "",
+    "fileName": "72d0bc03-dcd1-4483-b401-0d2f13717f5e.jpg",
+    "updatedAt": "2021-05-24T16:58:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

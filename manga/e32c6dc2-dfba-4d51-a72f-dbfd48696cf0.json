@@ -23,6 +23,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -33,6 +35,8 @@
       "name": {
        "en": "Military"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,43 +47,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-11T09:59:45+00:00",
+   "updatedAt": "2021-05-25T15:48:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "c4b523c3-9ed5-45a2-baa2-70e9a378f6e9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yukimi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c4b523c3-9ed5-45a2-baa2-70e9a378f6e9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yukimi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5088c268-1501-4164-9bcc-f1d532282719",
-   "type": "chapter"
-  },
-  {
-   "id": "289c450f-06b8-4e69-92eb-c97f1630694e",
-   "type": "chapter"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "1e6bba14-ab3b-4f05-bf16-4159574fc7fe",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:29:47+00:00",
+    "description": "",
+    "fileName": "81eb1ee2-a333-4075-af3e-dad53c38f6fa.jpg",
+    "updatedAt": "2021-05-24T17:29:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

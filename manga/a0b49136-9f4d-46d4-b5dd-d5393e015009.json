@@ -7,6 +7,11 @@
    "title": {
     "en": "One Piece Party"
    },
+   "altTitles": [
+    {
+     "en": "ワンピースパーティー"
+    }
+   ],
    "description": {
     "en": "Spin-off of One Piece, which takes place post-timeskip, showing the cast in SD/chibi form and features their hilarious antics around various islands while out in the sea."
    },
@@ -19,7 +24,6 @@
     "mu": "117135"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -31,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +47,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,47 +59,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-22T17:41:23+00:00",
+   "updatedAt": "2021-05-25T15:45:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "6d38ad79-4632-49ec-81c0-6ffc6778898e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Andou Ei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6d38ad79-4632-49ec-81c0-6ffc6778898e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Andou Ei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "09c5adcf-6763-46ad-bd6c-315c49b08b3b",
-   "type": "chapter"
-  },
-  {
-   "id": "27a084a6-8ea3-45e0-8891-95443cbc5512",
-   "type": "chapter"
-  },
-  {
-   "id": "2ac24099-22b9-4775-8af5-99ad1fc80b29",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "d3931a80-8794-4fe4-ac3f-c9fb2a99ad7b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:04+00:00",
+    "description": "",
+    "fileName": "cd133b2a-c268-44b5-a238-799645ddd51c.jpg",
+    "updatedAt": "2021-05-24T16:49:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

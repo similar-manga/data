@@ -7,6 +7,11 @@
    "title": {
     "en": "Backstage Lovers"
    },
+   "altTitles": [
+    {
+     "en": "バックステージ・ラヴァーズ"
+    }
+   ],
    "description": {
     "en": "Niwa Issei lives night to night in the homes of random girls while attending music college. Issei runs into a senior of the composition department, Yui Mahiro, as he makes a girl cry! Even though he is the son of a genius pianist, Yui is in the composition department. Issei, who fell in love with his music, involved Yui in his band for the cultural festival. The usually awkward and unfriendly Yui has a pure, stoic side which Issei finds absolutely endearing."
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,8 +43,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,55 +57,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-16T10:39:37+00:00",
+   "updatedAt": "2021-05-25T15:42:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "f6f33226-351e-43ae-976b-d15d13d76239",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ayahira Satoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f6f33226-351e-43ae-976b-d15d13d76239",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ayahira Satoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a60c6a81-9a36-440e-b109-4e4ba8ef2801",
-   "type": "chapter"
-  },
-  {
-   "id": "54d09a82-3259-4889-80dd-c6822b7b07f2",
-   "type": "chapter"
-  },
-  {
-   "id": "ea8b7df2-97e0-4629-ba59-dd6e296d38fa",
-   "type": "chapter"
-  },
-  {
-   "id": "5587f937-7aee-4186-b37f-64e1877fed00",
-   "type": "chapter"
-  },
-  {
-   "id": "7b807a6b-d543-4dc5-a1c2-90c64f4ad976",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "8d248d6d-82e9-4f7d-a33e-7de4c1576f17",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:25+00:00",
+    "description": "",
+    "fileName": "0a46cd87-649b-43b0-9e96-6158da7d72ec.jpg",
+    "updatedAt": "2021-05-24T17:41:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

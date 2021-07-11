@@ -7,6 +7,11 @@
    "title": {
     "en": "Furikaette Mite Mireba?"
    },
+   "altTitles": [
+    {
+     "en": "振り返ってみてみれば?"
+    }
+   ],
    "description": {
     "en": "Two university students are renting a friend's old dorm room to couples for making out. One is a notorious playboy that had never been in love. The other one tends to get attached to his girlfriends so much that he always gets dumped in the end."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,59 +59,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-23T10:40:16+00:00",
+   "updatedAt": "2021-05-25T15:42:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "4e4eeadc-96aa-42f1-b5d7-b8dcd286f640",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Abe Akane",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4e4eeadc-96aa-42f1-b5d7-b8dcd286f640",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Abe Akane",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "66e92ec7-7fbc-4b30-8b1c-0e07d0fb5a50",
-   "type": "chapter"
-  },
-  {
-   "id": "aff8495d-eaf9-4d32-8259-c93f9198bca3",
-   "type": "chapter"
-  },
-  {
-   "id": "d282cf52-d0ca-4382-918c-7b90f0cf779d",
-   "type": "chapter"
-  },
-  {
-   "id": "2abed96f-1a44-42d1-8674-455287b09e2a",
-   "type": "chapter"
-  },
-  {
-   "id": "567cc543-a744-4597-afc8-220a0095f904",
-   "type": "chapter"
-  },
-  {
-   "id": "bedd5cd4-c5cc-4a52-b1a6-459f62e46989",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "5edacc50-0c26-4f3b-b081-9f28633ce831",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:34:52+00:00",
+    "description": "",
+    "fileName": "29cdb3db-9b0b-4d5b-8508-2a462a3ea7c3.jpg",
+    "updatedAt": "2021-05-24T17:34:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

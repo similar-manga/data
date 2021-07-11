@@ -17,7 +17,6 @@
     "mu": "75328"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "suggestive",
@@ -29,6 +28,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +40,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -49,55 +52,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-05T14:45:02+00:00",
+   "updatedAt": "2021-05-25T15:44:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "48ab3ffc-1dd2-45f6-adb6-cf3b88e7b954",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hashimoto Yoshifumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "31f4a020-ddc6-47c3-aeac-16025113c7d7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kizuki Erika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fb340b93-2833-44a9-a3c0-26045f02a875",
-   "type": "chapter"
-  },
-  {
-   "id": "21d34fb8-288f-4ec2-a3f7-9cd25c8febf2",
-   "type": "chapter"
-  },
-  {
-   "id": "5600e09e-08be-49d3-970e-5dd4b4d55beb",
-   "type": "chapter"
-  },
-  {
-   "id": "9c514062-665d-4430-9486-ad4ed1822dfc",
-   "type": "chapter"
-  },
-  {
-   "id": "822bb21f-a722-4ffa-87de-bd58b32844c5",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "9c89d6c3-2d72-4fdc-bb63-e4f24e75a783",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:30+00:00",
+    "description": "",
+    "fileName": "68bdf580-25e2-471b-a7a0-b75aa9156f43.jpg",
+    "updatedAt": "2021-05-24T17:03:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,39 +21,53 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-22T23:12:16+00:00",
+   "updatedAt": "2021-05-25T15:45:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "a742a384-a5e5-4eba-bb39-34b4b62101e0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakayama Katsumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c5b0b66f-80cf-43d9-89f8-21db0dd5d5a5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ZECO",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ceeb1b63-a9ac-428f-ac82-d562a446163e",
-   "type": "chapter"
-  },
-  {
-   "id": "7c42a1c2-5154-43e6-9ded-4dbcdc6bbd92",
-   "type": "chapter"
-  },
-  {
-   "id": "775657b1-4a73-4666-a903-383104209a33",
-   "type": "chapter"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
+   "id": "e4fc344e-71f4-4f92-98ee-8bd5fbe6185f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:19:58+00:00",
+    "description": "",
+    "fileName": "701843d4-c6b9-4b32-a4c3-5f1bc6b505c2.jpg",
+    "updatedAt": "2021-05-24T17:19:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Girls und Panzer - Somewhat Like Darjeeling"
    },
+   "altTitles": [
+    {
+     "en": "Darjeeling for Black Tea"
+    },
+    {
+     "en": "紅茶でいえばダージリン"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -23,6 +31,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -31,8 +41,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +55,8 @@
       "name": {
        "en": "Military"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,6 +67,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -63,83 +79,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-14T15:36:52+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "e435590a-2573-403d-b7a1-3f9a5c2f3968",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asuka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e435590a-2573-403d-b7a1-3f9a5c2f3968",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asuka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bad029ee-4bec-4d11-8938-516dffb410d6",
-   "type": "chapter"
-  },
-  {
-   "id": "3c01218b-57d1-48ac-8c6c-f90be70a8ed7",
-   "type": "chapter"
-  },
-  {
-   "id": "a8a90b07-dcdd-465d-92e4-f052d27a7cd8",
-   "type": "chapter"
-  },
-  {
-   "id": "e8d0bf99-9ecf-4087-a055-66859609b5e6",
-   "type": "chapter"
-  },
-  {
-   "id": "68da9dbf-1bda-4cb3-a0b5-541ecc5a15a0",
-   "type": "chapter"
-  },
-  {
-   "id": "ae688c6c-1d04-4201-93ac-1287872c64de",
-   "type": "chapter"
-  },
-  {
-   "id": "e9f00502-6f2d-4cac-b7a8-a89f9c5c486c",
-   "type": "chapter"
-  },
-  {
-   "id": "f1dffdcd-8668-4f1d-9e70-9431a1a4b748",
-   "type": "chapter"
-  },
-  {
-   "id": "bad00329-f11d-47b8-8c4b-144935443f82",
-   "type": "chapter"
-  },
-  {
-   "id": "b324937d-243a-4197-8de8-9876dede4051",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "69380ad8-4880-4f89-b6dc-ab064cfe19ab",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:10:21+00:00",
+    "description": "",
+    "fileName": "29d6223c-7747-42d3-87b0-e0dd96076279.jpg",
+    "updatedAt": "2021-05-24T18:10:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

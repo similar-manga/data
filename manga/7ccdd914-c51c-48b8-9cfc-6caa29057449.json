@@ -7,6 +7,11 @@
    "title": {
     "en": "Wonder Border"
    },
+   "altTitles": [
+    {
+     "en": "ワンダー・ボーダー"
+    }
+   ],
    "description": {
     "en": "Hiroharu is living a pretty good life. He has a stable job, and he's happily in love with his boyfriend, Natsuro. To make things even better, now that it's the moving season, Natsuro proposes that he and Hiroharu move into a bigger place together. But everything comes to a heart-stopping halt when Hiroharu runs into his ex-boyfriend, Kazuaki. The two of them dated five years ago before Hiroharu broke them up, and after Kazuaki invites him out to eat, the memories come flooding back. Before he knows it, he's having sex with Kazuaki and craving him all over again. Hiroharu vows that it's only a one-night-stand, but then he finds out Kazuaki is his new neighbor...!"
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,45 +41,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-26T12:30:50+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "8704ae19-576d-4a27-ab75-d862163acd5a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ueda Aki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8704ae19-576d-4a27-ab75-d862163acd5a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ueda Aki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e0050c08-a3be-4f35-801a-416365a63e08",
-   "type": "chapter"
-  },
-  {
-   "id": "fefe1cf6-7a0b-4769-b229-c856cf281624",
-   "type": "chapter"
-  },
-  {
-   "id": "6a501d38-a623-4e1c-aa39-a47b5116cd31",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "c3498fbc-44bc-4f47-b910-c571ed20a8dc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:31:33+00:00",
+    "description": "",
+    "fileName": "2d26c941-a5cd-4c6b-8e39-7f0cb02431ee.jpg",
+    "updatedAt": "2021-05-24T17:31:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

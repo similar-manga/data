@@ -7,6 +7,14 @@
    "title": {
     "en": "The Regular Customer's Goal is...?"
    },
+   "altTitles": [
+    {
+     "en": "常客的目标是…？"
+    },
+    {
+     "en": "常連客の目標は…？"
+    }
+   ],
    "description": {
     "en": "The goal of the regular customer who come everyday is..."
    },
@@ -14,7 +22,6 @@
     "raw": "https://www.pixiv.net/en/artworks/87091107"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +32,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,8 +42,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,39 +56,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-27T04:00:39+00:00",
+   "updatedAt": "2021-05-25T15:40:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "3eccc30e-9152-4172-8092-bb77055905e6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mutou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3eccc30e-9152-4172-8092-bb77055905e6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mutou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e330d4d5-dbfa-413c-ba70-68bee634faca",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "2808e17b-acaa-4ff2-a41c-84b8d49381f8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:06+00:00",
+    "description": "",
+    "fileName": "5507496a-cc03-4b49-a67f-98654bf08f85.png",
+    "updatedAt": "2021-05-24T18:33:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

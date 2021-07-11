@@ -7,6 +7,20 @@
    "title": {
     "en": "Kanojo wa Kanno Shosetsuka"
    },
+   "altTitles": [
+    {
+     "en": "Kanojo wa Kannou Shousetsuka"
+    },
+    {
+     "en": "My Girlfriend is an Erotica Author"
+    },
+    {
+     "en": "Моя девушка - писатель эротических рассказов"
+    },
+    {
+     "en": "カノジョは官能小説家"
+    }
+   ],
    "description": {
     "en": "Yearning for the world of erotic novels, Shiina Keisuke triumphantly joins the business as an editor. The author he yearns to work with is Kuroki Chihiro, however everyone is afraid of her because she is a devil to work for."
    },
@@ -30,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +56,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +68,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +80,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-01-23T04:31:59+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "72ceec19-46a3-44cb-9ebc-aa8c10f726ed",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "GOTO Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "72ceec19-46a3-44cb-9ebc-aa8c10f726ed",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "GOTO Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c7874cab-63b5-495d-b742-223af0530a1e",
-   "type": "chapter"
-  },
-  {
-   "id": "087b5eb1-90f1-4b17-8e9e-a65bc77f6fd9",
-   "type": "chapter"
-  },
-  {
-   "id": "03591d35-7762-49d0-8459-23682ab2aa3c",
-   "type": "chapter"
-  },
-  {
-   "id": "a1f69a40-5004-47e3-b92b-a81b6ab9b5ed",
-   "type": "chapter"
-  },
-  {
-   "id": "c87674a5-2746-49fc-a8e8-21bf555fb75c",
-   "type": "chapter"
-  },
-  {
-   "id": "3c080498-10c4-457b-ae76-1f427b77a0f2",
-   "type": "chapter"
-  },
-  {
-   "id": "3fe0392d-e5da-4218-8b5c-a2b897ae9f34",
-   "type": "chapter"
-  },
-  {
-   "id": "e8d82d45-ef9a-48b0-9636-dc645463ab12",
-   "type": "chapter"
-  },
-  {
-   "id": "bf12a658-bf0e-4339-ac13-e99250fdd582",
-   "type": "chapter"
-  },
-  {
-   "id": "bc567a96-9e6d-47bd-9735-cbe25908b11b",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "dc3d896b-1823-4fef-b9c3-51c00bb9bf72",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:52+00:00",
+    "description": "",
+    "fileName": "ff816d18-a189-4448-a598-fd634feaf254.jpg",
+    "updatedAt": "2021-05-24T17:06:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

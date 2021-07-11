@@ -7,6 +7,14 @@
    "title": {
     "en": "A Story About a Yakuza Who Picked Up a ***"
    },
+   "altTitles": [
+    {
+     "en": "×××を拾ったヤクザの話"
+    },
+    {
+     "en": "A Story About a Yakuza Who Picked up a ×××"
+    }
+   ],
    "description": {
     "en": "What the title says."
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -57,51 +71,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-24T04:13:37+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "66ce5fea-6ea6-4884-899d-890e1ab890a2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ogawa Chise",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66ce5fea-6ea6-4884-899d-890e1ab890a2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ogawa Chise",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2738eb09-051d-4a17-8f52-d5b4face1ca4",
-   "type": "chapter"
-  },
-  {
-   "id": "c5a688aa-3d62-49b3-93af-d6cad7aaf60c",
-   "type": "chapter"
-  },
-  {
-   "id": "556622b7-6e76-4e6c-aa1c-1c720d61072a",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "948b8744-8244-4f28-86c0-9e8be53942ae",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:07+00:00",
+    "description": "",
+    "fileName": "7986a6c1-427d-4e00-8547-0cf3f1236090.jpg",
+    "updatedAt": "2021-05-24T17:20:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

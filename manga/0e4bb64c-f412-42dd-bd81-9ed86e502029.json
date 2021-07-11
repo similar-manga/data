@@ -7,6 +7,11 @@
    "title": {
     "en": "Venus Kiss!!"
    },
+   "altTitles": [
+    {
+     "en": "ビーナスKISS!!"
+    }
+   ],
    "description": {
     "en": "Ikumi has always admired his senpai but one day, his senpai rapes him..."
    },
@@ -28,8 +33,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -50,47 +59,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-14T15:58:51+00:00",
+   "updatedAt": "2021-05-25T15:39:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "faee3908-f431-40d4-85f4-8c6511ed339e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsuki Saari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1f7da4c2-a258-4eb4-98f3-7e1361c3ead4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Honami Yukine",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cf42fec1-2657-440d-bbc1-689d049df196",
-   "type": "chapter"
-  },
-  {
-   "id": "2d82a1c0-8158-43d4-8708-0acf1517a354",
-   "type": "chapter"
-  },
-  {
-   "id": "8d6e0546-e29d-4767-bc55-ed6d163a5736",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "e9a03d6a-81f5-4f37-b565-722f779be298",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:26+00:00",
+    "description": "",
+    "fileName": "df7f1462-b8af-4e09-a719-0b255567d3d0.jpg",
+    "updatedAt": "2021-05-24T17:15:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

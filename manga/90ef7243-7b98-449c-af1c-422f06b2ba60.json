@@ -7,6 +7,11 @@
    "title": {
     "en": "Cleopatra D.C."
    },
+   "altTitles": [
+    {
+     "en": "クレオパトラD.C."
+    }
+   ],
    "description": {
     "en": "The Cleopatra Corns Group, aka Cleopatra DC, is a powerful financial conglomerate controlling most of the United States economy, almost as powerful as the US government itself. At the top of the organization is the beautiful, smart and brave Ms. Cleo, the Group's young, talented Chairman, a blonde African-American who fought her way out of the slums. \r\nGood thing she manages her company so well--it means she can handle the repair bill from that airplane crashing into her bedroom. With stolen artifacts, corporate kidnappings, and top-secret cyborg projects gone awry, her luck only gets worse from there."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +60,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +72,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,51 +84,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-21T19:19:09+00:00",
+   "updatedAt": "2021-05-25T15:45:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "87db03ea-8f14-4404-8cfd-47fc91229f6f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHINTANI Kaoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "87db03ea-8f14-4404-8cfd-47fc91229f6f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHINTANI Kaoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4c7c52d5-e001-4b05-a1fd-02bd24de8e49",
-   "type": "chapter"
-  },
-  {
-   "id": "89eb3c7c-f9c8-49ca-90ca-c8c05feb057f",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "a43eed4c-0605-4f55-8ff9-413ccc9b856e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:16+00:00",
+    "description": "",
+    "fileName": "453e4a8e-b1ba-4f65-a24d-a3dd51bc7bbe.jpg",
+    "updatedAt": "2021-05-24T16:55:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

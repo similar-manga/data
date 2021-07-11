@@ -7,6 +7,14 @@
    "title": {
     "en": "En and Yukari"
    },
+   "altTitles": [
+    {
+     "en": "En to Yukari"
+    },
+    {
+     "en": "エンとゆかり"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -18,7 +26,6 @@
     "raw": "http://seiga.nicovideo.jp/comic/42546"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +36,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +48,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -49,47 +60,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-20T02:15:20+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "252f964b-f8fc-44a5-983a-63dd7033d5bd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Urayama Shirou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "252f964b-f8fc-44a5-983a-63dd7033d5bd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Urayama Shirou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "be1fad0d-7589-4a9d-8df3-a1eb8c0f65ff",
-   "type": "chapter"
-  },
-  {
-   "id": "3d11cb6e-aca6-4199-9206-5f33a46eb65f",
-   "type": "chapter"
-  },
-  {
-   "id": "f5ada7bd-4abf-4d10-ae16-db7b490d029d",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "00fa0e5f-39ef-4fad-b5e5-f335c28941bb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:52+00:00",
+    "description": "",
+    "fileName": "264ee33a-7247-4d64-906d-b8d833b43d64.jpg",
+    "updatedAt": "2021-05-24T17:41:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

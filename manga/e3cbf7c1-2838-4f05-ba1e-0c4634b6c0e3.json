@@ -7,6 +7,11 @@
    "title": {
     "en": "Fat You Want"
    },
+   "altTitles": [
+    {
+     "en": "ファット・ユー・ウォント"
+    }
+   ],
    "description": {
     "en": "A compilation of oneshots."
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,45 +53,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-20T04:03:46+00:00",
+   "updatedAt": "2021-05-25T15:48:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "89514068-cc86-44ea-b2cd-f0072e3a1db1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kyuushuu Danji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "89514068-cc86-44ea-b2cd-f0072e3a1db1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kyuushuu Danji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "457c487f-5b03-4de0-9ef0-782a81fca3dc",
-   "type": "chapter"
-  },
-  {
-   "id": "142c7cb8-a5c3-44ef-b818-94756f60df7f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "35f6ab97-f46c-4f7f-920c-24eb204d16e9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:11:25+00:00",
+    "description": "",
+    "fileName": "f923bec6-b9eb-4c71-863c-dcafcf88aea1.png",
+    "updatedAt": "2021-05-24T18:11:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Oz no Mahoutsukai"
    },
+   "altTitles": [
+    {
+     "en": "The Wonderful Wizard of Oz"
+    },
+    {
+     "en": "オズの魔法使い"
+    }
+   ],
    "description": {
     "en": "Igarashi sensei (Candy Candy, Lady Georgie, Akage no An) delights us now with this wonderful tale."
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,47 +47,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-11T00:52:49+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "9a3735b4-77e2-4b42-8600-984303349eea",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lyman Frank Baum",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "76a48501-2ffc-412f-aa29-f1ee7edbccdf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Igarashi Yumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "54f7f46e-0caa-417c-9905-4796b9c7a712",
-   "type": "chapter"
-  },
-  {
-   "id": "7be9c84f-f749-4f07-a32c-1e0285027b59",
-   "type": "chapter"
-  },
-  {
-   "id": "d35c6206-0431-406b-9ff9-d4f8f81b3d9f",
-   "type": "chapter"
-  },
-  {
-   "id": "0b7c2541-a839-4fab-9403-a3f19aa6b78d",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "53e0cc1b-8030-4fd6-9006-65a461529bf9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:25+00:00",
+    "description": "",
+    "fileName": "95b0fee0-e93f-483f-9c4b-b48ef6cf97f4.png",
+    "updatedAt": "2021-05-24T17:11:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

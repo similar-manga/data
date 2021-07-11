@@ -7,6 +7,11 @@
    "title": {
     "en": "Clip Your Face"
    },
+   "altTitles": [
+    {
+     "en": "クリップユアフェイス"
+    }
+   ],
    "description": {
     "en": "Momiji is an artist engrossed in her work -- until one day she meets the perfect model."
    },
@@ -14,7 +19,6 @@
     "mu": "166027"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,35 +42,53 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-24T11:39:49+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "e8988c28-1c0b-4894-b74d-ad742e1e4d31",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KITANO Tomo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e8988c28-1c0b-4894-b74d-ad742e1e4d31",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KITANO Tomo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b4155e52-bd07-4c5e-9bee-69dc5a14db1f",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
+   "id": "99cff7b4-1411-4fb1-a7c5-b665caf47086",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:00:32+00:00",
+    "description": "",
+    "fileName": "dcca9299-4328-4a2b-966e-a549f11ead63.jpg",
+    "updatedAt": "2021-05-24T18:00:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

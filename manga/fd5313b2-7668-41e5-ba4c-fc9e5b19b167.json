@@ -7,6 +7,11 @@
    "title": {
     "en": "My Way"
    },
+   "altTitles": [
+    {
+     "en": "마이 에이"
+    }
+   ],
    "description": {
     "en": "Living in a small town, C and J who had been separated one day by an unknown person. \r\n\r\nAfter 10 years, they finally met and faced each other..."
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -44,8 +53,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +67,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -66,63 +79,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-17T06:31:15+00:00",
+   "updatedAt": "2021-05-25T15:49:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "0c718b73-cc74-456f-bd8a-4e84a5967e9f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Boong Eo bbang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e8881033-c11f-487a-8257-0778d85b095a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Boong Eo Bbang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3a6978eb-0f85-4beb-9a8a-26e473b8e025",
-   "type": "chapter"
-  },
-  {
-   "id": "5d14e551-7cc2-484d-89e7-543caa08dac9",
-   "type": "chapter"
-  },
-  {
-   "id": "90c22441-777f-47c3-9459-1085b1f91fb4",
-   "type": "chapter"
-  },
-  {
-   "id": "c28f74fc-cf73-4c49-ba1e-35d99a96e9d1",
-   "type": "chapter"
-  },
-  {
-   "id": "07e21763-9e35-4f69-8f2b-4b8291533a75",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "30ddbc24-ed8e-4f7d-a596-e892fdf9b696",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:27:34+00:00",
+    "description": "",
+    "fileName": "e8a4ab1d-5376-4292-b0fb-bf9f2f33053a.jpg",
+    "updatedAt": "2021-05-24T18:27:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

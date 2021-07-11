@@ -5,10 +5,21 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Ch\u0026auml;oS;HEAd - Blue Complex"
+    "en": "ChäoS;HEAd - Blue Complex"
    },
+   "altTitles": [
+    {
+     "en": "ChaoS;HEAd - Blue Complex"
+    },
+    {
+     "en": "Chaos;HEAd (SAKAKI Nagako)"
+    },
+    {
+     "en": "カオスヘッド ブルーコンプレックス"
+    }
+   ],
    "description": {
-    "en": "Takumi is a high school student. He is withdrawn and is not interested in 3D things. In his town, a mysterious serial murder case happens and people get panicked. One day, when he chats on the internet, a man suddenly contacts him and gives him an URL. He goes to the website and finds a blog image that suggests a next murder case... On the next day, it really happens...\r\n\r\nTakumi Nishijo suffers from intense delusions as a result of his apparent schizophrenia and the extremely secluded lifestyle he lives as a hikkikomori. One day he accidentally stumbles upon a gruesome murder scene, a part of a chain of events called \u0026quot;New Generation.\u0026quot; After this, his life gets caught up in these events, and he meets a bunch of increasingly insane anime girls with swords."
+    "en": "Takumi is a high school student. He is withdrawn and is not interested in 3D things. In his town, a mysterious serial murder case happens and people get panicked. One day, when he chats on the internet, a man suddenly contacts him and gives him an URL. He goes to the website and finds a blog image that suggests a next murder case... On the next day, it really happens...\r\n\r\nTakumi Nishijo suffers from intense delusions as a result of his apparent schizophrenia and the extremely secluded lifestyle he lives as a hikkikomori. One day he accidentally stumbles upon a gruesome murder scene, a part of a chain of events called \"New Generation.\" After this, his life gets caught up in these events, and he meets a bunch of increasingly insane anime girls with swords."
    },
    "links": {
     "al": "51593",
@@ -32,6 +43,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +55,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +67,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +79,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -72,55 +91,65 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-15T12:42:19+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "1e77215f-d4c2-4c42-99dc-7a19ae4f988e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nitroplus",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "db7a92e1-614a-4db9-97f1-f692b7ecba8b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "5Pb.",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ea215036-7fb4-4e9a-91ca-1e81ee504834",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakaki Nagako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "021ffccb-f6a7-4309-a4f8-35553964cdce",
-   "type": "chapter"
-  },
-  {
-   "id": "9117bb67-1a8d-4e9d-bc7a-a5c2830b7a85",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "2d6b6c46-5176-4f94-bb5f-21e1fabd9fbb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:49:24+00:00",
+    "description": "",
+    "fileName": "5eb1c658-051c-4b27-b06f-03d30150ab7a.jpg",
+    "updatedAt": "2021-05-24T17:49:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Sunnydays Girl"
    },
+   "altTitles": [
+    {
+     "en": "Kaisei Shoujo"
+    },
+    {
+     "en": "カイセイ少女"
+    }
+   ],
    "description": {
     "en": "A doujinshi of Weathering With You from Comiket 97.\r\n\r\nMelonbooks: http://gunp.jp/archives/c97/\r\nGUNP's website: http://gunp.jp/archives/c97/\r\nTwitter announcement: https://twitter.com/gunp_m/status/1209027401398681600"
    },
@@ -22,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,47 +54,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-17T10:10:55+00:00",
+   "updatedAt": "2021-05-25T15:43:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "e02c7820-fa3d-4da2-b945-edb334d0dd89",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "GUNP (Circle)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e02c7820-fa3d-4da2-b945-edb334d0dd89",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "GUNP (Circle)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6434aab3-2bb0-44e1-9830-a92fac1699ad",
-   "type": "chapter"
-  },
-  {
-   "id": "388117b1-dd73-4c29-80fb-67a83c79caee",
-   "type": "chapter"
-  },
-  {
-   "id": "890fff29-37c1-4fff-9bd4-dde2d091dbb2",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "9a902e78-a8db-4fa4-bcbb-5200858f8a59",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:23:15+00:00",
+    "description": "",
+    "fileName": "2c1578a2-ed78-4813-a190-22c00cd5bdb7.jpg",
+    "updatedAt": "2021-05-24T18:23:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

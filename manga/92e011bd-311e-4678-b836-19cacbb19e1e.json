@@ -7,6 +7,11 @@
    "title": {
     "en": "Nishi no Yoki Majo Gaiden"
    },
+   "altTitles": [
+    {
+     "en": "西の善き魔女外伝"
+    }
+   ],
    "description": {
     "en": "Side story of Nishi no Yoki Majo, focusing on Adale."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +58,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +70,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,47 +82,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-05T12:59:33+00:00",
+   "updatedAt": "2021-05-25T15:45:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "c6e604c6-43c8-4058-be1b-bb5d6a6b8e89",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OGIWARA Noriko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3956bcf8-d0f8-4553-980d-f5a2019c9bfb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MOMOKAWA Haruhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4df96b10-410a-4c5e-b2f1-e0f3306c610a",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "4aeb0c20-bd35-4fa9-973d-a28203a6dcf1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:14:29+00:00",
+    "description": "",
+    "fileName": "a933bd5f-2a5d-45ca-9adc-f8eac5ad1abf.jpg",
+    "updatedAt": "2021-05-24T17:14:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

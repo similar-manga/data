@@ -7,6 +7,14 @@
    "title": {
     "en": "Shibuya de Aimashou"
    },
+   "altTitles": [
+    {
+     "en": "Let's Get Together In Shibuya"
+    },
+    {
+     "en": "渋谷で会いましょう"
+    }
+   ],
    "description": {
     "en": "University student Sekiguchi Toshihiko's life takes a turn for the worse when he begins working as an accounts clerk with Galaxy Planning, a small firm that serves as a front for organized crime. His boss is the ultra-cool Aguri, a devil-may-care yakuza with a passion for gratuitous violence and constantly harassing his favorite employee."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,8 +61,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,71 +75,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-24T22:39:57+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "c493a766-e38c-4b4c-9eb2-83ee889340c9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takaguchi Satosumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c493a766-e38c-4b4c-9eb2-83ee889340c9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takaguchi Satosumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6a86d703-98ff-4231-ac4b-b3cd57c2b418",
-   "type": "chapter"
-  },
-  {
-   "id": "1f544a2e-71e3-4329-9caa-0a8b44f840de",
-   "type": "chapter"
-  },
-  {
-   "id": "1a3b7e8c-ae61-427d-b767-2212954a9e69",
-   "type": "chapter"
-  },
-  {
-   "id": "cf2d9750-bd51-4e38-bad5-d1570a0a6dc3",
-   "type": "chapter"
-  },
-  {
-   "id": "95e06db5-912d-4527-a4df-7264b60f4a0f",
-   "type": "chapter"
-  },
-  {
-   "id": "4dba62be-5b65-4b31-a325-5a520e7b2764",
-   "type": "chapter"
-  },
-  {
-   "id": "76f8d553-20cc-49a0-a9ef-50d7f7631744",
-   "type": "chapter"
-  },
-  {
-   "id": "91b989de-e83d-42f1-9edb-66b552ccf2cd",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "2e43af57-d305-4f92-9c6f-ddccdc8d74a1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:42:55+00:00",
+    "description": "",
+    "fileName": "930d8be0-86c8-4efe-af07-d2db13d6bf85.jpg",
+    "updatedAt": "2021-05-24T16:42:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -8,10 +8,9 @@
     "en": "Moquette2's Bandori Single Image Compilation"
    },
    "description": {
-    "en": "A collection of stand alone single page comics/images by Moquette2\r\n\r\nNote: The genres will vary depending on the image.\r\n\r\n[url=https://www.pixiv.net/en/users/189358 ][img]https://i.imgur.com/oiVINmy.png[/img]Artist\u0026rsquo;s Pixiv[/url]\r\n[url=https://twitter.com/moquette2][img]https://i.imgur.com/dQCXZkU.png[/img]Artist\u0026rsquo;s Twitter[/url]"
+    "en": "A collection of stand alone single page comics/images by Moquette2\r\n\r\nNote: The genres will vary depending on the image.\r\n\r\n[url=https://www.pixiv.net/en/users/189358 ][img]https://i.imgur.com/oiVINmy.png[/img]Artist’s Pixiv[/url]\r\n[url=https://twitter.com/moquette2][img]https://i.imgur.com/dQCXZkU.png[/img]Artist’s Twitter[/url]"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -20,8 +19,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,6 +45,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +57,8 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -62,47 +69,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-19T17:58:17+00:00",
+   "updatedAt": "2021-05-25T15:49:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "840dec34-301d-4f46-840d-d54cfec099c2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "moquette2",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "840dec34-301d-4f46-840d-d54cfec099c2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "moquette2",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "93af8283-bac6-4a4f-b6b0-b7739f6d498a",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "7915a86c-2fb2-4f1f-bef5-c5f4af101728",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:03:33+00:00",
+    "description": "",
+    "fileName": "917907d0-1bea-4d24-8e1e-55f53bfe146f.png",
+    "updatedAt": "2021-05-24T18:03:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

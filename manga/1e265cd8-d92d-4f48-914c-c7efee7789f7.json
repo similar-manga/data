@@ -11,7 +11,6 @@
     "en": "Raw: \r\nhttps://restof14.postype.com/post/6087266"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,8 +31,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,39 +45,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-09T22:50:07+00:00",
+   "updatedAt": "2021-05-25T15:40:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "3d59fcf3-8508-4711-a99c-df1c3c7fd551",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "14__gom",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3d59fcf3-8508-4711-a99c-df1c3c7fd551",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "14__gom",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f4c74d0a-3ece-4cdd-acaf-9b6a5e5203ec",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "bbc9922a-a72c-4f42-b583-a7850fafd173",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:30:29+00:00",
+    "description": "",
+    "fileName": "229ee5e5-61e7-4c12-b274-2a3f7a3fca61.jpg",
+    "updatedAt": "2021-05-24T18:30:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Delicious Veranda"
    },
+   "altTitles": [
+    {
+     "en": "Oishii Veranda"
+    },
+    {
+     "en": "おいしいベランダ"
+    }
+   ],
    "description": {
     "en": "Mamori Kurisaka is a college student who has recently started living alone in Tokyo after entering university. She secretly admires the handsome designer, Yoji Asagata, who lives in the room next door. After Mamori finds some unsettling documents in her mailbox, the two became closer and she found herself seeking haven in his mini-vegetable garden on the veranda!"
    },
@@ -16,7 +24,6 @@
     "raw": "https://lbunko.kadokawa.co.jp/special/oishiiveranda/"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "ongoing",
    "contentRating": "safe",
@@ -28,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +47,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,39 +59,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-25T23:09:48+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "2f8b4cf3-8324-48b3-ab39-a3b0b0a7631b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKEOKA Hazuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8ba3b8e8-1799-49bb-b316-b2f516ce5877",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OKAZAKI Oka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "97b01445-1c48-49e4-b0b4-038846822561",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "b797a4b2-7d55-4fa7-909c-28074fe9f8ef",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:20:22+00:00",
+    "description": "",
+    "fileName": "15b2a6a4-8e6e-48c8-ab1e-685e78b3ec69.jpg",
+    "updatedAt": "2021-05-24T18:20:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

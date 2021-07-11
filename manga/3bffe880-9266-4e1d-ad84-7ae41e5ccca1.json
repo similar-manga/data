@@ -26,6 +26,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +62,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -66,6 +74,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -76,6 +86,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -86,91 +98,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-27T13:41:03+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "2fdc9221-33d0-49ff-b2c0-2ba259e65b07",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Budha",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2fdc9221-33d0-49ff-b2c0-2ba259e65b07",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Budha",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4439031f-b7be-41b8-9d30-54280b3ae703",
-   "type": "chapter"
-  },
-  {
-   "id": "37f0ffd1-6823-4f00-92ff-89c8b112a838",
-   "type": "chapter"
-  },
-  {
-   "id": "89eb8220-3e92-4c50-8275-c9e3d13f0833",
-   "type": "chapter"
-  },
-  {
-   "id": "2ca8c3f7-d6aa-431c-a433-e0b08b0a1eb5",
-   "type": "chapter"
-  },
-  {
-   "id": "251d0763-005a-4926-8671-7cd61a060059",
-   "type": "chapter"
-  },
-  {
-   "id": "2ed974f0-f6a3-48f5-9e29-caa9eb5c4f17",
-   "type": "chapter"
-  },
-  {
-   "id": "63aa9898-285a-4470-8fc3-86143a30c47a",
-   "type": "chapter"
-  },
-  {
-   "id": "c0ef2bba-90e1-46dc-ac64-6fd0a2a6d5a3",
-   "type": "chapter"
-  },
-  {
-   "id": "397745e5-048f-4c6c-b0d2-32441550a658",
-   "type": "chapter"
-  },
-  {
-   "id": "b968ee34-ef44-4063-974c-f92b53e5ac10",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "a8f7e5d2-a2df-4f85-b154-c83156dc2917",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:20:31+00:00",
+    "description": "",
+    "fileName": "ed79c443-a02f-4539-9958-f7442d5cece7.jpg",
+    "updatedAt": "2021-05-24T18:20:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

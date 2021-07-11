@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Miraculous Ladybug \u0026amp; Cat Noir"
+    "en": "Miraculous Ladybug \u0026 Cat Noir"
    },
+   "altTitles": [
+    {
+     "en": "ミラキュラス　レディバグ＆シャノワール"
+    }
+   ],
    "description": {
     "en": "Marinette and Adrien, two normal teens, transform into superheroes Ladybug and Cat Noir when an evil threatens their city."
    },
@@ -14,7 +19,6 @@
     "mal": "133173"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -26,6 +30,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +66,8 @@
       "name": {
        "en": "Superhero"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,6 +78,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -76,51 +90,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-20T03:56:53+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "7cb79ca9-4051-41cb-8750-b848ac229403",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Warita Koma",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c3baf452-ce86-45a6-b533-fdb74830c781",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsuchida Riku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "eb46ffb2-0608-47cf-b82a-1698954ecf4b",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "7064a261-a137-4d3a-8848-2d385de3a99c",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "4ec49e31-b9df-4f7d-ad4d-f0ac33bc0edc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:35:39+00:00",
+    "description": "",
+    "fileName": "f1e51fce-9aa4-4bed-9f92-504167ae3d0f.jpg",
+    "updatedAt": "2021-05-24T18:35:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

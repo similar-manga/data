@@ -30,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +54,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,53 +64,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-19T23:03:24+00:00",
+   "updatedAt": "2021-05-25T15:50:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "a15ce8e5-a3de-42c4-acdd-e1f71fe26f63",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamane Ayano",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a15ce8e5-a3de-42c4-acdd-e1f71fe26f63",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamane Ayano",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b024dbfa-55a2-49d8-9cff-d2b18343de3f",
-   "type": "chapter"
-  },
-  {
-   "id": "f62c166a-80f3-4d5d-a3bd-067664cd599d",
-   "type": "chapter"
-  },
-  {
-   "id": "b2bcf71a-1c32-4c8a-8dba-204382955160",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "82a7d734-2b52-4f8f-8a3a-fe178867d4c1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:06+00:00",
+    "description": "",
+    "fileName": "1b323f3c-8734-4e79-81ea-1ddb6e0432ce.jpg",
+    "updatedAt": "2021-05-24T17:38:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

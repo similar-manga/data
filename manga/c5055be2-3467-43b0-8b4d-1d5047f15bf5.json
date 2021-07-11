@@ -7,6 +7,11 @@
    "title": {
     "en": "One Night Lesson"
    },
+   "altTitles": [
+    {
+     "en": "ワンナイトレッスン"
+    }
+   ],
    "description": {
     "en": "Takayoshi, a model, is currently employed by Kairi the photographer. Kairi's intense gaze makes Takayoshi flustered... why is he constantly looking at him like that?"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,59 +71,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-06T10:23:13+00:00",
+   "updatedAt": "2021-05-25T15:47:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "0e464012-427b-406e-880a-e7880cffddf5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takagi Ryou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0e464012-427b-406e-880a-e7880cffddf5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takagi Ryou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8b325323-a733-498d-8e38-7ab44efb14cb",
-   "type": "chapter"
-  },
-  {
-   "id": "336227c9-a1e5-4f24-a260-2488d888938e",
-   "type": "chapter"
-  },
-  {
-   "id": "8fd38818-f89d-4b6b-83c4-bc7346b99295",
-   "type": "chapter"
-  },
-  {
-   "id": "8b6762cf-120d-4914-b6aa-652a84c5e82f",
-   "type": "chapter"
-  },
-  {
-   "id": "e951cb8e-df97-4096-a942-9d388eff618a",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "25a14acf-cc2e-4f11-8bef-9630b1a5b70f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:17:58+00:00",
+    "description": "",
+    "fileName": "ad7a3637-fd20-4583-9d30-5138bfc8b567.jpg",
+    "updatedAt": "2021-05-24T17:17:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

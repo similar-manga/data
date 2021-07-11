@@ -7,6 +7,14 @@
    "title": {
     "en": "Kaerimichi de Koi ni Madou"
    },
+   "altTitles": [
+    {
+     "en": "We Hesitate To The Love On Our Way Home"
+    },
+    {
+     "en": "帰り道で恋に惑う"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,43 +63,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-27T11:04:33+00:00",
+   "updatedAt": "2021-05-25T15:45:45+00:00"
   }
  },
  "relationships": [
   {
    "id": "7d36c876-5f0e-46d8-b050-06037c67d4ad",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mito Hitomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7d36c876-5f0e-46d8-b050-06037c67d4ad",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mito Hitomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "630397dc-f937-477b-bd73-c0110c5329e2",
-   "type": "chapter"
-  },
-  {
-   "id": "3281e99e-cc15-4f41-a978-501b739c87ae",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "3eb68ea9-c1fe-4f2c-9573-94a16475d00d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:50:12+00:00",
+    "description": "",
+    "fileName": "06bb614a-8680-4240-8bad-768b75cdd3d3.jpg",
+    "updatedAt": "2021-05-24T17:50:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

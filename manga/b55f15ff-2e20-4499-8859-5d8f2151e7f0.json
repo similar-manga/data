@@ -7,6 +7,20 @@
    "title": {
     "en": "WORLDS - Fujisaki Ryu Tanpenshuu"
    },
+   "altTitles": [
+    {
+     "en": "Worlds"
+    },
+    {
+     "en": "WORLDS ―藤崎竜短編集―"
+    },
+    {
+     "en": "Worlds ~Fujisaki Ryuu Short Stories~"
+    },
+    {
+     "en": "Worlds ~Fujisaki Ryuu Tanpenshuu~"
+    }
+   ],
    "description": {
     "en": "A compilation of five short stories by Ryu FUJISAKI written throughout his career.  Ranging from fantasy to gothic horror, they explore the fantastic worlds contained within the mind of the mangaka of such series as Houshin Engi and Waq Waq."
    },
@@ -29,6 +43,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +55,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,55 +67,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-29T21:02:30+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "2b43aac8-e8f0-49b0-aa3e-923c2a49affd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujisaki Ryu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2b43aac8-e8f0-49b0-aa3e-923c2a49affd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujisaki Ryu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "343b9e3e-876d-420b-9cce-8fc09e78dcd2",
-   "type": "chapter"
-  },
-  {
-   "id": "85c65fdf-cace-4e3c-8ee6-cfa9bb20d77b",
-   "type": "chapter"
-  },
-  {
-   "id": "479a1701-00dd-4905-9cd1-2a46c3bf7211",
-   "type": "chapter"
-  },
-  {
-   "id": "444d745f-380d-4641-835d-8e6d820823d6",
-   "type": "chapter"
-  },
-  {
-   "id": "457bff2c-1d16-4d67-bcf1-c1a064ab8d30",
-   "type": "chapter"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "09682cc7-6adc-4f3d-9008-ce797c4a903a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:35:54+00:00",
+    "description": "",
+    "fileName": "032a8571-9cfc-4fd0-a5a7-26064b007cf8.jpg",
+    "updatedAt": "2021-05-24T18:35:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

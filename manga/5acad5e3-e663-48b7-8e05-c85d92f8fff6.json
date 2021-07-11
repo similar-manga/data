@@ -7,6 +7,17 @@
    "title": {
     "en": "Chiisana Honyasan"
    },
+   "altTitles": [
+    {
+     "en": "Help Me Reach The Top Shelf"
+    },
+    {
+     "en": "The Little Book Shop"
+    },
+    {
+     "en": "ちいさな本屋さん"
+    }
+   ],
    "description": {
     "en": "On the first day of his new, part-time job at a bookstore, Shinobu encounters another staff member, Kobayashi. Kobayashi is cute, petite, loveable, and everything Shinobu finds himself wanting... even if they both are men."
    },
@@ -24,8 +35,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,39 +49,53 @@
       "name": {
        "en": "Shota"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-03T02:09:55+00:00",
+   "updatedAt": "2021-05-25T15:42:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "e33b4e80-5fba-4102-9609-63343f583443",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHINOHARA Nagisa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e33b4e80-5fba-4102-9609-63343f583443",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHINOHARA Nagisa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e7474f0f-5790-4be2-b5f7-cd476ea7d9b1",
-   "type": "chapter"
-  },
-  {
-   "id": "b36362a9-ed38-4576-b78a-f829ca7635ba",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "ddefd648-5140-4e5f-ba18-4eca4071d19b",
-   "type": "tag"
+   "id": "885ef040-b417-4f09-96f0-2a9952eccb4f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:15:40+00:00",
+    "description": "",
+    "fileName": "0ec9ce8c-4a7a-46c3-ab5c-bbd5f757fabd.jpg",
+    "updatedAt": "2021-05-28T23:15:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

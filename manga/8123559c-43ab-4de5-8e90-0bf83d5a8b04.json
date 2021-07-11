@@ -16,7 +16,6 @@
     "mu": "161577"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -27,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +38,8 @@
       "name": {
        "en": "Time Travel"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -47,6 +50,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +62,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,51 +74,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-01T23:17:01+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "ff1aa7ef-1f3e-4b20-9363-77bcca639cb3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akase Yuriko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ff1aa7ef-1f3e-4b20-9363-77bcca639cb3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akase Yuriko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "17fe1e16-b29e-4fd3-b131-94f0d9c0e2d6",
-   "type": "chapter"
-  },
-  {
-   "id": "4f7fd02d-ac3b-4ac1-a6c5-efd005a41439",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "292e862b-2d17-4062-90a2-0356caa4ae27",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "1bdb8b06-d4c0-4f23-9258-a16b22efa617",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:54:29+00:00",
+    "description": "",
+    "fileName": "685af187-269e-463b-a3bf-efa62d7ede5e.jpg",
+    "updatedAt": "2021-05-24T17:54:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

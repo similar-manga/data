@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Me \u0026amp; My Brothers"
+    "en": "Me \u0026 My Brothers"
    },
    "description": {
     "en": "Sakura had lived with her grandma ever since her parents died in a car accident when she was three. When she turned fourteen, her grandma also passed away, leaving her alone. Just when she was about to give up hope having a family, out of nowhere, four guys claim to be her older step-brothers."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,35 +45,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-05-20T05:47:17+00:00",
+   "updatedAt": "2020-05-20T05:47:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "d02e9b6b-e51c-4cd2-8257-4ebd83ce67e9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hari Tokeino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d02e9b6b-e51c-4cd2-8257-4ebd83ce67e9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hari Tokeino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "8a136cb1-de76-4fa3-a522-23447beb3bf7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:31+00:00",
+    "description": "",
+    "fileName": "6fea51f6-ddf6-4873-ac52-ba6cda9f71a3.jpg",
+    "updatedAt": "2021-05-24T17:56:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

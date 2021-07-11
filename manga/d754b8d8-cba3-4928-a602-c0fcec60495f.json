@@ -7,6 +7,14 @@
    "title": {
     "en": "Tokurei Compliance"
    },
+   "altTitles": [
+    {
+     "en": "Exceptional Compliance"
+    },
+    {
+     "en": "特例コンプライアンス"
+    }
+   ],
    "description": {
     "en": "Ikegami's [spoiler]ramen[/spoiler] oneshot from Big Comic Superior."
    },
@@ -16,7 +24,6 @@
     "mu": "162902"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -28,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +47,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +59,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,43 +71,53 @@
       "name": {
        "en": "Mafia"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-26T00:44:47+00:00",
+   "updatedAt": "2021-05-25T15:48:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "3cc20373-aad4-4e28-a509-e7a03bc6ca00",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ikegami Ryoichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3cc20373-aad4-4e28-a509-e7a03bc6ca00",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ikegami Ryoichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "31702249-e3d3-42d8-9a26-5da7257fb943",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
-   "type": "tag"
+   "id": "7fa5224a-7267-4fc5-b10b-6c1581b14d6a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:20:22+00:00",
+    "description": "",
+    "fileName": "e84786e6-c75a-4b58-9ba6-3d8b519e670c.jpg",
+    "updatedAt": "2021-05-24T18:20:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

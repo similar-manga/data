@@ -5,17 +5,21 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Heal \u0026amp; Squeeze"
+    "en": "Heal \u0026 Squeeze"
    },
+   "altTitles": [
+    {
+     "en": "Heal\u0026Squeeze ～癒して搾り取れ！～"
+    }
+   ],
    "description": {
-    "en": "After a complete and thorough \u0026quot;healing\u0026quot; experience, what the girls ask for as payment is..."
+    "en": "After a complete and thorough \"healing\" experience, what the girls ask for as payment is..."
    },
    "links": {
     "ap": "heal-squeeze",
     "mu": "172171"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "suggestive",
@@ -27,6 +31,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +43,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,43 +55,53 @@
       "name": {
        "en": "Vampires"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-27T17:52:22+00:00",
+   "updatedAt": "2021-05-25T15:45:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "71ee9e2d-d746-406b-a33d-24e53954d079",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Zyugoya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "71ee9e2d-d746-406b-a33d-24e53954d079",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Zyugoya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "df1fb1cc-0041-4db1-9cba-fb1d5c349dcc",
-   "type": "chapter"
-  },
-  {
-   "id": "0fd2b207-8cf2-428d-b065-34db7fc72968",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "d7d1730f-6eb0-4ba6-9437-602cac38664c",
-   "type": "tag"
+   "id": "f607dd16-d2c8-4fbd-bc49-227e5a10dc9e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:16:41+00:00",
+    "description": "",
+    "fileName": "de7b06e8-910f-4acd-908f-9e6ffda4aa2a.jpg",
+    "updatedAt": "2021-05-24T18:16:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

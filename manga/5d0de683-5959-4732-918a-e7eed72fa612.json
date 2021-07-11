@@ -15,7 +15,6 @@
     "mu": "147123"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +25,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,41 +47,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-16T07:43:55+00:00",
+   "updatedAt": "2021-05-25T15:42:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "893de1e1-67aa-41c8-89cd-82e9da4469f9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Numachi Doromaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "893de1e1-67aa-41c8-89cd-82e9da4469f9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Numachi Doromaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "af6e138c-35c2-41f6-afe4-bc57975933b3",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
+   "id": "c262e41d-0c29-4f55-b48d-c98e6b93a16a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:43+00:00",
+    "description": "",
+    "fileName": "db87a384-335e-4208-9fd6-67ead5e6b0f9.jpg",
+    "updatedAt": "2021-05-24T17:04:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

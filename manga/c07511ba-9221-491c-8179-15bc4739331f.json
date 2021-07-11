@@ -7,6 +7,17 @@
    "title": {
     "en": "Walking Stick"
    },
+   "altTitles": [
+    {
+     "en": "Nanafushi"
+    },
+    {
+     "en": "Палочник"
+    },
+    {
+     "en": "ななふし"
+    }
+   ],
    "description": {
     "en": "ENG: A new house proves to be not entirely unoccupied.\r\n\r\nRUS: Какие тайны хранит в себе тень этого дома, и так ли велики у страха глаза?"
    },
@@ -28,6 +39,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +51,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,43 +63,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-29T15:58:22+00:00",
+   "updatedAt": "2021-05-25T15:47:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "7ec2c675-8305-47e6-9add-7dfe2db26b62",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakano Shizuka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7ec2c675-8305-47e6-9add-7dfe2db26b62",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakano Shizuka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7cf12df1-b35d-430a-898d-a30a0f82b654",
-   "type": "chapter"
-  },
-  {
-   "id": "cdc623c3-e1d7-480e-bdf8-d57901ba1dca",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "cb128a86-e953-4f34-a13d-b9a39f15d0d6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:31:55+00:00",
+    "description": "",
+    "fileName": "ce659c71-9cf9-4468-96b5-a3decaea5ac4.jpg",
+    "updatedAt": "2021-05-24T17:31:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

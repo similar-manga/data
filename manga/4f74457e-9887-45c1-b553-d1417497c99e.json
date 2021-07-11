@@ -7,6 +7,14 @@
    "title": {
     "en": "Ouji to Ken"
    },
+   "altTitles": [
+    {
+     "en": "Prince and Sword"
+    },
+    {
+     "en": "皇子と剣"
+    }
+   ],
    "description": {
     "en": "The coldly gleaming crimson sword will protect the life of a prince on the run..."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,47 +75,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-20T20:53:58+00:00",
+   "updatedAt": "2021-05-25T15:42:16+00:00"
   }
  },
  "relationships": [
   {
    "id": "5bfc54e9-710b-4361-bf6a-884fb6a5cfc3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YOKOBABA Ryo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5bfc54e9-710b-4361-bf6a-884fb6a5cfc3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YOKOBABA Ryo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2de5ef73-9c96-493f-8e88-69b9513ec7d5",
-   "type": "chapter"
-  },
-  {
-   "id": "156b322f-2648-4e5f-9f3d-c9d02dd6e5df",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "3f9fad8a-4950-4f51-b9da-38051a5c1a6d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:53+00:00",
+    "description": "",
+    "fileName": "bef8b9e5-b65b-4568-8ce1-5733f2e4bd27.jpg",
+    "updatedAt": "2021-05-24T17:20:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

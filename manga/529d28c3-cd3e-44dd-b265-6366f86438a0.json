@@ -16,7 +16,6 @@
     "mu": "8025"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -27,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +38,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,43 +50,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-18T17:58:26+00:00",
+   "updatedAt": "2021-05-25T15:42:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "48c3c186-8ae4-4538-9124-f6efa29a2a8f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MIHARA Mitsukazu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "48c3c186-8ae4-4538-9124-f6efa29a2a8f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MIHARA Mitsukazu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ae1e9164-dafb-414d-8b8b-5b0fcfe4c00e",
-   "type": "chapter"
-  },
-  {
-   "id": "9b8ce6ef-a9e1-48e9-b0b5-1a7c4db63c6e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "2f58459f-f447-4faa-8956-cd908701663b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:09+00:00",
+    "description": "",
+    "fileName": "95a61e75-bfb6-4154-a647-3314ed187ca3.jpg",
+    "updatedAt": "2021-05-24T16:50:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

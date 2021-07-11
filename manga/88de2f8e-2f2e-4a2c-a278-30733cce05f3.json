@@ -24,8 +24,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +38,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -46,43 +50,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-02-16T13:47:47+00:00",
+   "updatedAt": "2019-02-16T13:47:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "3d10f451-f726-46a1-97d3-2d8798228c95",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Awauri (Aice)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3d10f451-f726-46a1-97d3-2d8798228c95",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Awauri (Aice)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "579f8c74-0e46-4938-a8a0-5125a790ce41",
-   "type": "chapter"
-  },
-  {
-   "id": "627c88a9-dbd4-42b4-ba9f-7f8e7d2f42ca",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "65fa5c52-447c-4f7b-9546-d15029dbd88b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:33+00:00",
+    "description": "",
+    "fileName": "8aa498af-1ec1-4777-b583-14ccde1a0bb3.jpg",
+    "updatedAt": "2021-05-24T17:01:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

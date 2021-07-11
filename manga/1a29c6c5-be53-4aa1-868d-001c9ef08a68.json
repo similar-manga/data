@@ -7,6 +7,14 @@
    "title": {
     "en": "The Snow Queen"
    },
+   "altTitles": [
+    {
+     "en": "Snow Queen"
+    },
+    {
+     "en": "눈의 여왕"
+    }
+   ],
    "description": {
     "en": "There once was a man called the most brilliant intellectual, and a woman with everything standing at death's door. Their hearts were so completely frozen solid that nothing could melt them. What kind of light is it that could melt their hearts? Love...? If the answer is love, wouldn't that be ridiculous?"
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,75 +63,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-20T00:59:33+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "42284ca8-0ae5-4909-89ea-6fd3b9e34e6d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Wann",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "42284ca8-0ae5-4909-89ea-6fd3b9e34e6d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Wann",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "afab130e-66bc-49ee-aae6-9066498c6ab3",
-   "type": "chapter"
-  },
-  {
-   "id": "934fe79e-7e44-491d-9f80-25f2dda2dcd2",
-   "type": "chapter"
-  },
-  {
-   "id": "bfd52766-802b-480b-8d97-c7c148e1dc98",
-   "type": "chapter"
-  },
-  {
-   "id": "6128e53d-d237-4503-b9ae-cc5164ed5ac8",
-   "type": "chapter"
-  },
-  {
-   "id": "c7e59f12-01f7-487a-be5d-515369c092a5",
-   "type": "chapter"
-  },
-  {
-   "id": "cab348d7-6496-4022-8f86-47fe920bc09b",
-   "type": "chapter"
-  },
-  {
-   "id": "e15197ef-e274-471c-9e6d-cacd00f6a5f4",
-   "type": "chapter"
-  },
-  {
-   "id": "7a265289-498f-4d3d-8d30-71b3e4a705a3",
-   "type": "chapter"
-  },
-  {
-   "id": "bcacf525-11ee-4278-aaa6-d7e9d0821980",
-   "type": "chapter"
-  },
-  {
-   "id": "3f687cd8-cd3e-4689-9b79-07a3e021071a",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "de59de92-e0c3-4fb0-a84d-6cfe33ed4d0b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:42:27+00:00",
+    "description": "",
+    "fileName": "fcb65e3a-e2ff-4011-9629-34956c64dbd0.jpg",
+    "updatedAt": "2021-05-24T16:42:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

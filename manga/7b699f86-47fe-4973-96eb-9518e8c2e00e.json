@@ -5,16 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Usui hon-shū no suru Pok\u0026eacute;mon"
+    "en": "Usui hon-shū no suru Pokémon"
    },
+   "altTitles": [
+    {
+     "en": "薄い本臭のするポケモン"
+    }
+   ],
    "description": {
-    "en": "This is Pok\u0026eacute;mon too right?"
+    "en": "This is Pokémon too right?"
    },
    "links": {
     "raw": "https://seiga.nicovideo.jp/comic/33050"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "suggestive",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,39 +53,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-22T09:53:12+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "bf4b0f56-b9e9-496f-a223-0b601836c4ec",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ウニドン￥１２０",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bf4b0f56-b9e9-496f-a223-0b601836c4ec",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ウニドン￥１２０",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d01e23b9-2e49-4ede-b329-06511d94108b",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "13306404-268b-4f86-aba6-087e6300def0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:14:22+00:00",
+    "description": "",
+    "fileName": "c5010822-320f-42ff-8537-3c98e77a8dcb.jpg",
+    "updatedAt": "2021-05-28T23:14:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,47 +33,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-07-29T15:37:12+00:00",
+   "updatedAt": "2019-07-29T15:37:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "463ddf74-5be0-4bb7-9e8e-4fc7339abff3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "RiosiZashiki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ffd33de5-ded8-4817-aae0-9e2719fcf940",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Auteur(s)RiosiZashiki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "27d11b7f-74ca-4685-a089-6b7e27d23de8",
-   "type": "chapter"
-  },
-  {
-   "id": "cb967258-c75a-4fe3-9e6d-d3ba9f1e4ce1",
-   "type": "chapter"
-  },
-  {
-   "id": "3efcb39e-3643-4970-8fa1-6b6930464aab",
-   "type": "chapter"
-  },
-  {
-   "id": "a2922227-cc11-49cb-94c7-f35a96e0d383",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "8d4df15b-7ca7-4f41-9df8-9fbfe6ac49f9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:49+00:00",
+    "description": "",
+    "fileName": "110ec0aa-72ed-4061-9d18-2cf329da6c03.jpg",
+    "updatedAt": "2021-05-24T17:20:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,11 +7,15 @@
    "title": {
     "en": "Zelda II: The Adventure of Link"
    },
+   "altTitles": [
+    {
+     "en": "ファミコンまんが リンクの冒険"
+    }
+   ],
    "description": {
-    "en": "This short manga comes from a Famicom Manga pack-in booklet included with the May 1987 Ninensei edition of Shogakukan\u0026rsquo;s Shogaku Gakushu Zasshi magazines.\r\nIt's sort of tutorial for the game, teaching you things about how to play it through a light choose-your-own-adventure/puzzle format. It\u0026rsquo;s pretty simple, as it\u0026rsquo;s aimed at 8-year-olds."
+    "en": "This short manga comes from a Famicom Manga pack-in booklet included with the May 1987 Ninensei edition of Shogakukan’s Shogaku Gakushu Zasshi magazines.\r\nIt's sort of tutorial for the game, teaching you things about how to play it through a light choose-your-own-adventure/puzzle format. It’s pretty simple, as it’s aimed at 8-year-olds."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +50,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -52,43 +62,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-11T06:51:45+00:00",
+   "updatedAt": "2021-05-25T15:45:45+00:00"
   }
  },
  "relationships": [
   {
    "id": "6b4b8184-174e-4328-a300-08255b8233f3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ikehara Shigeto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6b4b8184-174e-4328-a300-08255b8233f3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ikehara Shigeto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "41a6432b-1a3a-4042-a0ef-a8364ff7c0da",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "177bb4ca-8405-4fec-8da2-4b66094c1ec9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:26+00:00",
+    "description": "",
+    "fileName": "1a4a036a-3877-4c91-b670-81a68f273fd8.jpg",
+    "updatedAt": "2021-05-24T17:33:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

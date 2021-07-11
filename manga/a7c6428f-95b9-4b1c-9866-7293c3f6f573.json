@@ -7,6 +7,14 @@
    "title": {
     "en": "Ping Pong Boss"
    },
+   "altTitles": [
+    {
+     "en": "Takkyuu Shachou"
+    },
+    {
+     "en": "卓球社長"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,63 +62,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-22T09:35:58+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "d2947a20-bedd-4cff-874f-ca2e68099eff",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimamoto Kazuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d2947a20-bedd-4cff-874f-ca2e68099eff",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimamoto Kazuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "78d0b8bf-3ae9-447d-803d-084058ad23fd",
-   "type": "chapter"
-  },
-  {
-   "id": "4c941eb1-248f-4fac-bfdb-49ca00fd8f4b",
-   "type": "chapter"
-  },
-  {
-   "id": "e57674ef-69d6-4567-9dff-a7677dec8692",
-   "type": "chapter"
-  },
-  {
-   "id": "459546bb-4d85-412f-964f-a7e62a688975",
-   "type": "chapter"
-  },
-  {
-   "id": "f6756664-a59b-4ba0-8c7f-4423a8a4600a",
-   "type": "chapter"
-  },
-  {
-   "id": "eceb878b-5fd5-41d5-8462-03d72e2fa265",
-   "type": "chapter"
-  },
-  {
-   "id": "730a7045-23b5-4f8d-bcbf-a2b7a09ff3f4",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "9ceb63aa-d46b-4f03-9233-afd888fbc34a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:43+00:00",
+    "description": "",
+    "fileName": "8d6c43a2-57ca-4504-bcf9-f75ba1f5d237.png",
+    "updatedAt": "2021-05-24T16:58:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

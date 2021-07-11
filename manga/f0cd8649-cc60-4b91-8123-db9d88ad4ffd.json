@@ -7,6 +7,11 @@
    "title": {
     "en": "Change!"
    },
+   "altTitles": [
+    {
+     "en": "ちぇんじ!"
+    }
+   ],
    "description": {
     "en": "A collection of three love comedy stories. In each, a mischievous angel makes a change in response to a wish."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Genderswap"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,63 +71,53 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-01T21:49:45+00:00",
+   "updatedAt": "2021-05-25T15:49:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "e4571bcc-76d7-4b13-b6b9-41b87557ae9c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MIKOKUNO Homare",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e4571bcc-76d7-4b13-b6b9-41b87557ae9c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MIKOKUNO Homare",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cc9905ed-d0e2-4b0f-be1c-f33eb22bc5b7",
-   "type": "chapter"
-  },
-  {
-   "id": "69c78044-1acc-4646-ad22-36b4956bf78c",
-   "type": "chapter"
-  },
-  {
-   "id": "25e9ce14-8189-4414-bf95-9c1dde1c18eb",
-   "type": "chapter"
-  },
-  {
-   "id": "300dbd32-ada9-4299-90d5-865038248a6c",
-   "type": "chapter"
-  },
-  {
-   "id": "a3e63cd1-c6c3-448d-9495-d5e74714f1ec",
-   "type": "chapter"
-  },
-  {
-   "id": "38339edb-1efb-44be-a57b-764047ce0be4",
-   "type": "chapter"
-  },
-  {
-   "id": "2bd2e8d0-f146-434a-9b51-fc9ff2c5fe6a",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
+   "id": "640cd7ad-48d9-4fda-8843-beb50163d133",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:35:53+00:00",
+    "description": "",
+    "fileName": "aa0b81b1-b2f7-4b4b-93c3-99d6fb8c99cc.jpg",
+    "updatedAt": "2021-05-24T17:35:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

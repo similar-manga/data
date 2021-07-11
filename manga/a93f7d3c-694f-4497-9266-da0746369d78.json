@@ -7,6 +7,11 @@
    "title": {
     "en": "Koishichatta no Yo"
    },
+   "altTitles": [
+    {
+     "en": "I've Fallen In Love"
+    }
+   ],
    "description": {
     "en": "Ayumu is a guy who falls in love very easily, hence he is fondly dubbed as an erotomania by his older brother. Strangely, the next target of his affection isn't what his older brother expects."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,43 +71,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-17T22:45:02+00:00",
+   "updatedAt": "2021-05-25T15:46:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "c55cc508-3a85-40da-a8d6-4d5a2127cb26",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maruko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c55cc508-3a85-40da-a8d6-4d5a2127cb26",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maruko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "19e442a8-5965-4e85-ae1e-9b09593a0521",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "3f795517-a909-4fb8-8aa3-999557e87ecc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:52:09+00:00",
+    "description": "",
+    "fileName": "9610353f-eefa-4ef8-b119-b46ea367ce62.png",
+    "updatedAt": "2021-05-24T17:52:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

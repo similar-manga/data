@@ -5,10 +5,21 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "RPG W(・\u0026forall;・)RLD - Roleplay World"
+    "en": "RPG W(・∀・)RLD - Roleplay World"
    },
+   "altTitles": [
+    {
+     "en": "RPG W(・∀・)RLD ‐ろーぷれ・わーるど‐"
+    },
+    {
+     "en": "RPG WORLD - Roleplay World"
+    },
+    {
+     "en": "RPG实境世界"
+    }
+   ],
    "description": {
-    "en": "Yuugo went to the RPG world to play until he realized he was on the highest level. Thus, this attracted a lot of players especially cute girls there.\r\n\r\n\u0026quot;I felt like I don't want to return to reality!\u0026quot;\r\n\r\nWith his perverted mind, Yuugo took a dungeon quest and realized there's no reset button or even resurrection spells."
+    "en": "Yuugo went to the RPG world to play until he realized he was on the highest level. Thus, this attracted a lot of players especially cute girls there.\r\n\r\n\"I felt like I don't want to return to reality!\"\r\n\r\nWith his perverted mind, Yuugo took a dungeon quest and realized there's no reset button or even resurrection spells."
    },
    "links": {
     "al": "63929",
@@ -32,6 +43,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +55,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +67,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +79,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -72,6 +91,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -82,6 +103,8 @@
       "name": {
        "en": "Isekai"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -92,6 +115,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -102,59 +127,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-10T15:12:26+00:00",
+   "updatedAt": "2021-05-25T15:44:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "adad209b-3d38-4c75-b64b-5bc369bfffe1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshimura Yoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4db0c573-3a62-464a-a95d-07a72d90de06",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tono Note",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c9bbbca1-01f8-49d9-8eb4-b77c0a331cbb",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "ace04997-f6bd-436e-b261-779182193d3d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "7c00c2dc-1b89-4fff-a8ad-3fc717eaf128",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:19+00:00",
+    "description": "",
+    "fileName": "c42eca06-6474-41cb-b4f2-f60b743e7b42.png",
+    "updatedAt": "2021-05-24T17:22:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

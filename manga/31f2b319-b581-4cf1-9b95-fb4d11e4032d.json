@@ -22,6 +22,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +34,8 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,55 +46,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-19T22:03:02+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "3c8e2850-a4c7-42f1-8d1b-5ff0501eb597",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Homuku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3c8e2850-a4c7-42f1-8d1b-5ff0501eb597",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Homuku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "044c387b-0f7d-4bef-8aef-b42985df5b21",
-   "type": "chapter"
-  },
-  {
-   "id": "1e294b64-e8b5-4500-ac31-c8be8335817f",
-   "type": "chapter"
-  },
-  {
-   "id": "ae2b86de-17be-4737-9911-426813004729",
-   "type": "chapter"
-  },
-  {
-   "id": "df049004-e507-490d-aa81-8e562d6e6091",
-   "type": "chapter"
-  },
-  {
-   "id": "cea2fde7-de7e-4e05-8c45-49dbf316c9cb",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "17d68979-71bf-4fee-be62-b73367da4842",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:19:37+00:00",
+    "description": "",
+    "fileName": "65bb2b88-3855-44b8-a5bd-edd9695a3c25.png",
+    "updatedAt": "2021-05-24T18:19:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

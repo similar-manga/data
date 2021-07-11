@@ -7,6 +7,14 @@
    "title": {
     "en": "Kami Darake"
    },
+   "altTitles": [
+    {
+     "en": "Kamidarake"
+    },
+    {
+     "en": "かみだらけ"
+    }
+   ],
    "description": {
     "en": "This is a story about gods and goddesses, starring the ex-God of Grass (who, following a demotion, is now the God of Pickles)."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,39 +51,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-19T13:29:44+00:00",
+   "updatedAt": "2021-05-25T15:45:45+00:00"
   }
  },
  "relationships": [
   {
    "id": "99ebd436-571e-4201-a750-2fe0b1258cf4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tonogaya Miyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "99ebd436-571e-4201-a750-2fe0b1258cf4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tonogaya Miyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5cdafdba-323a-4365-9829-9b297ce7199e",
-   "type": "chapter"
-  },
-  {
-   "id": "657c73ca-cebe-464b-aced-4a9398a5e1d1",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "7293251d-e5d7-4fa2-89d1-3bd4f4a20006",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:02+00:00",
+    "description": "",
+    "fileName": "6a84860d-ff6b-40fb-80c9-a5ce6075e3e1.jpg",
+    "updatedAt": "2021-05-24T16:55:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

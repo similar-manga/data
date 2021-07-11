@@ -7,6 +7,17 @@
    "title": {
     "en": "Sakurai-san's Great Energy"
    },
+   "altTitles": [
+    {
+     "en": "SAKURAI Die Energy"
+    },
+    {
+     "en": "Sakurai-san Dai Energy"
+    },
+    {
+     "en": "櫻井大エネルギー"
+    }
+   ],
    "description": {
     "en": "A series of short, standalone one-shots serialized as intermissions in a certain magazine (usually one per issue)."
    },
@@ -27,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +62,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -57,6 +74,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,59 +86,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-20T22:56:51+00:00",
+   "updatedAt": "2021-05-25T15:41:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "b5b7d2ea-db83-46f7-b409-a73d9e26148a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakurai Energy",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b5b7d2ea-db83-46f7-b409-a73d9e26148a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakurai Energy",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e200cdb1-14a5-4573-b28d-2bce5c54f939",
-   "type": "chapter"
-  },
-  {
-   "id": "dbde0f1b-daa6-4df4-b8c0-77873d433cd0",
-   "type": "chapter"
-  },
-  {
-   "id": "d81491c2-a237-4feb-b2b7-3dc961af7796",
-   "type": "chapter"
-  },
-  {
-   "id": "1503778b-33ac-4312-b95c-a97d75dccb02",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "d4881cd1-c4c5-4f54-bb76-321886fa1a23",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:48:50+00:00",
+    "description": "",
+    "fileName": "64dbdbbb-b09c-434d-9941-728f6f4350af.jpg",
+    "updatedAt": "2021-05-24T16:48:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Whatever the Princess Desires!"
    },
+   "altTitles": [
+    {
+     "en": "공주님 마음대로!"
+    }
+   ],
    "description": {
     "en": "The prince saved the cursed princess! Will the prince and princess continue like this to the happy ending?! Searching for a calm love and fate, the prince-awaiting princess Lemon's story unfolds! At least it's supposed to..."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +58,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +70,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,6 +82,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -79,87 +94,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-19T14:29:07+00:00",
+   "updatedAt": "2021-05-25T15:49:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "ec6f14e4-771f-453d-aa05-37f50d463ca7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ryuho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ec6f14e4-771f-453d-aa05-37f50d463ca7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ryuho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "87a3e7b6-7794-414b-9152-bd9ade374fb3",
-   "type": "chapter"
-  },
-  {
-   "id": "dbcf924d-d0b1-4c86-8854-c93b3bc3f19a",
-   "type": "chapter"
-  },
-  {
-   "id": "894c5738-3eae-4049-a760-832a0e0664b4",
-   "type": "chapter"
-  },
-  {
-   "id": "248f768b-2a34-420b-854e-849e985a5a8f",
-   "type": "chapter"
-  },
-  {
-   "id": "a78685b5-1331-4fdc-9e3a-9a0ec651bda6",
-   "type": "chapter"
-  },
-  {
-   "id": "07b7a59a-ca7b-4d53-a215-978c63afcfbc",
-   "type": "chapter"
-  },
-  {
-   "id": "f890edfd-7160-410e-ad8d-045635d3d8d4",
-   "type": "chapter"
-  },
-  {
-   "id": "ed440cb1-e0b3-4b83-bed8-bd27a75ade42",
-   "type": "chapter"
-  },
-  {
-   "id": "5b150155-a11d-4376-a707-d80054999c60",
-   "type": "chapter"
-  },
-  {
-   "id": "08c25008-1461-4cfd-a847-acf02984e996",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "60fa3f73-d2ee-4f00-b387-efcb12a2ee1a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:28+00:00",
+    "description": "",
+    "fileName": "972941d0-72ca-4c6c-87f8-fde79a199ba1.jpg",
+    "updatedAt": "2021-05-24T17:56:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -8,7 +8,7 @@
     "en": "#DRCL midnight children"
    },
    "description": {
-    "en": "Based on Bram Stoker's \u0026quot;Dracula\u0026quot;, a gothic horror story at the end of the 19th century."
+    "en": "Based on Bram Stoker's \"Dracula\", a gothic horror story at the end of the 19th century."
    },
    "links": {
     "al": "126543",
@@ -18,7 +18,6 @@
     "mu": "174569"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -30,6 +29,8 @@
       "name": {
        "en": "Monsters"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -40,6 +41,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -50,6 +53,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +65,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,67 +77,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-26T08:56:55+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "c75f9295-4824-44e8-a35f-d43c3fd6a0d0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Bram Stoker",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b5404016-ed55-429d-ab61-1ebbccf53815",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakamoto Shinichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c8639121-3e2f-4f0e-9632-ea182fabeaf8",
-   "type": "chapter"
-  },
-  {
-   "id": "51db6450-ad4f-44d8-9452-c9621b068c86",
-   "type": "chapter"
-  },
-  {
-   "id": "8efc619a-970c-4fd8-9913-47b60befcdde",
-   "type": "chapter"
-  },
-  {
-   "id": "d5dfa4c7-3fd0-4516-98a7-ea12af783ded",
-   "type": "chapter"
-  },
-  {
-   "id": "a5b889ca-4daf-41ae-8707-aaf5c0709086",
-   "type": "chapter"
-  },
-  {
-   "id": "d355ebfe-edfc-46b2-aa94-8cdaa93389a0",
-   "type": "chapter"
-  },
-  {
-   "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "0029fb61-dee9-4f34-977d-f1adac6cdb8a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:24:18+00:00",
+    "description": "",
+    "fileName": "e47254b6-0d76-40ab-aee2-7a7a86273037.jpg",
+    "updatedAt": "2021-05-24T18:24:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

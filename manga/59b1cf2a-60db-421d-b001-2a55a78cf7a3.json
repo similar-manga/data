@@ -26,6 +26,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,43 +50,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-15T06:35:51+00:00",
+   "updatedAt": "2021-05-25T15:42:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "fd4e6f79-92a3-4e0f-9c1e-26a3526a886b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tgomes",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fd4e6f79-92a3-4e0f-9c1e-26a3526a886b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tgomes",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "56463469-2d5e-4107-abd4-e92a105733ed",
-   "type": "chapter"
-  },
-  {
-   "id": "ff12701a-4816-4831-8e6c-f3dbbdfa62dc",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "fff5a4f3-7285-4fb8-a12f-25f64874f798",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:54:36+00:00",
+    "description": "",
+    "fileName": "b952fa99-df9e-481f-a260-9ae0fc271fbb.jpg",
+    "updatedAt": "2021-05-24T16:54:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

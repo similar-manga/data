@@ -18,7 +18,6 @@
     "mu": "66621"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -30,6 +29,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +53,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,47 +65,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-29T05:55:00+00:00",
+   "updatedAt": "2021-05-25T15:42:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "7de09273-7fc3-4f42-90dd-acaf4b4f6256",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kageyama Riichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7de09273-7fc3-4f42-90dd-acaf4b4f6256",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kageyama Riichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7df14df0-f956-46a2-8272-e82394b3c306",
-   "type": "chapter"
-  },
-  {
-   "id": "21d99a38-9f40-4065-bae2-ad5b90203135",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "40072230-2f41-4f2a-af10-2116a552fe47",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:53:04+00:00",
+    "description": "",
+    "fileName": "b8233563-cdce-411b-b12f-dd8ba58c1911.jpg",
+    "updatedAt": "2021-05-24T16:53:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

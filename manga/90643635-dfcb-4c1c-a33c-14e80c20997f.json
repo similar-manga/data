@@ -26,6 +26,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +38,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -46,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +62,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -66,6 +74,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -76,87 +86,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-01T10:53:24+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "c2910864-8d38-435d-a1ba-92bac79fd485",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Egi Mugia",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c2910864-8d38-435d-a1ba-92bac79fd485",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Egi Mugia",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "af2ab81e-428b-4841-93af-f46b58bc2e97",
-   "type": "chapter"
-  },
-  {
-   "id": "b158fd10-f06f-4113-93fd-030c78351e06",
-   "type": "chapter"
-  },
-  {
-   "id": "2306cb2b-b43e-451a-86aa-c4241b19b75f",
-   "type": "chapter"
-  },
-  {
-   "id": "947d4e16-0648-4146-b8f8-47cfe118285d",
-   "type": "chapter"
-  },
-  {
-   "id": "416264b3-72b5-49c8-99c1-679455627b8c",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c09b0f-016c-4fe0-9b5d-52663c89ab71",
-   "type": "chapter"
-  },
-  {
-   "id": "048a7568-f171-4e5b-83c8-d3dbe66fad67",
-   "type": "chapter"
-  },
-  {
-   "id": "30d5d548-5e58-4c06-a939-89605e7c8e1a",
-   "type": "chapter"
-  },
-  {
-   "id": "1a26a025-bc3c-465a-a469-8bf75b445dd3",
-   "type": "chapter"
-  },
-  {
-   "id": "6dfb3136-29e9-40b6-b9d7-6d59cef7314f",
-   "type": "chapter"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "41199920-1ebf-4fae-a3a0-5e61cf29cb12",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:24+00:00",
+    "description": "",
+    "fileName": "b78ea333-c0ea-4f41-8b4e-61865cccfd24.png",
+    "updatedAt": "2021-05-24T18:33:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

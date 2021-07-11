@@ -7,6 +7,14 @@
    "title": {
     "en": "Hoshi Akari Graphics"
    },
+   "altTitles": [
+    {
+     "en": "Hoshiakari Gurafikusu"
+    },
+    {
+     "en": "星明かりグラフィクス"
+    }
+   ],
    "description": {
     "en": "Follow the lives of Hoshi Yoshimochi, a visual design major student who has problems interacting with people ie seeing people as 'mud masses' who's also not into touching, and her close friend Akari Sonobe, an oil painting major as they go through the ups and downs lives of being art students."
    },
@@ -33,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +53,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,67 +65,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-15T23:25:03+00:00",
+   "updatedAt": "2021-05-25T15:50:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "61e4a190-a6e1-4817-9201-14968a31187d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamamoto Kazune",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "61e4a190-a6e1-4817-9201-14968a31187d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamamoto Kazune",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6261aaa9-363a-40be-8100-2489c790e301",
-   "type": "chapter"
-  },
-  {
-   "id": "f0e5b0b9-0694-4366-a706-f0d343e49900",
-   "type": "chapter"
-  },
-  {
-   "id": "06075819-05cf-4d89-9ede-27884f96777c",
-   "type": "chapter"
-  },
-  {
-   "id": "d6e46445-c02e-48ed-a2f2-b963e094929e",
-   "type": "chapter"
-  },
-  {
-   "id": "6dfbcfda-9fe8-451f-b6c9-6ba17f3cf0ec",
-   "type": "chapter"
-  },
-  {
-   "id": "1f9f1454-8307-456e-8ddb-9f4a5a71f390",
-   "type": "chapter"
-  },
-  {
-   "id": "bd1bace0-8fcd-46a8-8684-922aff248e78",
-   "type": "chapter"
-  },
-  {
-   "id": "be1aa550-de79-46f0-84e8-c8f7755b4dc5",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "5db7759e-3ea2-4f50-962f-088b073a8963",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:04+00:00",
+    "description": "",
+    "fileName": "c7279ea3-4b07-4186-8d9e-5ed88bcb9e2d.jpg",
+    "updatedAt": "2021-05-24T17:56:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Black Angel"
    },
+   "altTitles": [
+    {
+     "en": "블랙엔젤"
+    }
+   ],
    "description": {
     "en": "A series of murders happen within the same neighbourhood - all with a common thread: a sweet corrupt whisper in the ear tempting the daily victims..."
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Thriller"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -46,6 +55,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +67,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -66,6 +79,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -76,87 +91,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-07T17:09:14+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "5479b76b-cbbb-458f-a843-62e8472c1068",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "meen",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f1b263b8-c917-4432-806f-ebbeee4e640f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lee Dong Hyun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "16f167b3-0ef5-4dd1-83a7-c83795baf0c7",
-   "type": "chapter"
-  },
-  {
-   "id": "2f435fb5-4635-42b2-b246-0d4b5373d524",
-   "type": "chapter"
-  },
-  {
-   "id": "d828357f-0cee-478e-ac76-6affe96ba806",
-   "type": "chapter"
-  },
-  {
-   "id": "9e0ab537-7716-4c9d-abbf-aa60f3d96473",
-   "type": "chapter"
-  },
-  {
-   "id": "f063f15f-ad2e-4eee-bff0-e9fe79b2f1f3",
-   "type": "chapter"
-  },
-  {
-   "id": "4c42b005-9795-42d7-93ca-5112b032b159",
-   "type": "chapter"
-  },
-  {
-   "id": "c12da71e-2437-4024-ba13-93d06061dd54",
-   "type": "chapter"
-  },
-  {
-   "id": "dba2b2a0-15c6-4642-9365-dccb35839bcb",
-   "type": "chapter"
-  },
-  {
-   "id": "8e0ae51e-5386-4e46-8a1a-c92ba9f9514a",
-   "type": "chapter"
-  },
-  {
-   "id": "5a60f10b-1ae8-4142-9c7e-db304994dcd3",
-   "type": "chapter"
-  },
-  {
-   "id": "07251805-a27e-4d59-b488-f0bfbec15168",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "f0a05428-9e3d-4f39-a69e-51bc47f65815",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:13:29+00:00",
+    "description": "",
+    "fileName": "7419761d-9dff-4886-8dd6-8719b17db947.png",
+    "updatedAt": "2021-05-24T18:13:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

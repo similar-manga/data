@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Aikatsu! - Manga \u0026amp; Mangaka Atsudou!"
+    "en": "Aikatsu! - Manga \u0026 Mangaka Atsudou!"
    },
+   "altTitles": [
+    {
+     "en": "Aikatsu! - Aikatsu! Manga \u0026 Manga Artist Activities!"
+    },
+    {
+     "en": "Aikatsu! - Manga \u0026 Manga Artist Activities!"
+    },
+    {
+     "en": "アイカツ!まんが\u0026まんが家カツドウ!"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +25,6 @@
     "mu": "24259"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +48,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -46,6 +60,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,59 +72,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-06T15:50:29+00:00",
+   "updatedAt": "2021-05-25T15:43:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "d93dc6c4-7b65-4a3f-85de-fb3398bcb43a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KANAKI Shiori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "63850701-c2f7-4afc-bf4d-50ce9a78459c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KODAKA Nao",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b4daa8a2-ef45-4a58-a853-89de4dfdcc2f",
-   "type": "chapter"
-  },
-  {
-   "id": "b8de3b56-a71f-472a-a7c5-e3aae7fa2925",
-   "type": "chapter"
-  },
-  {
-   "id": "6194aab7-9b3f-479f-a2b8-360e8d2f7899",
-   "type": "chapter"
-  },
-  {
-   "id": "03fa3162-9e31-4fd2-b43a-a1f56b06bc68",
-   "type": "chapter"
-  },
-  {
-   "id": "f7fe2afc-82e5-4e00-a9f8-e32753613bb0",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "5b0965a3-3506-4f59-a496-65887c51daaa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:40:16+00:00",
+    "description": "",
+    "fileName": "14def2ad-bdfc-4616-9446-e2cc879ade44.jpg",
+    "updatedAt": "2021-05-24T17:40:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

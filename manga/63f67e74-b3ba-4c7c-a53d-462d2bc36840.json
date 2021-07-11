@@ -7,6 +7,17 @@
    "title": {
     "en": "Hougen Danshi"
    },
+   "altTitles": [
+    {
+     "en": "『たわん』を標準語だと思っていた上司の「広島弁」"
+    },
+    {
+     "en": "\"Ta wan\" o hyojun-goda to omotte ita joshi no \"Hiroshima-ben\""
+    },
+    {
+     "en": "Şivesi Olan Adam"
+    }
+   ],
    "description": {
     "en": "A short story about a man and his new job."
    },
@@ -26,6 +37,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +49,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +61,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,47 +73,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-10T01:18:45+00:00",
+   "updatedAt": "2021-05-25T15:43:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "20164a4e-7f4a-4d97-91da-dff3c7f44fbd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Suzuyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "20164a4e-7f4a-4d97-91da-dff3c7f44fbd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Suzuyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ef037545-3e3c-42d2-a958-5abe9afa2dcc",
-   "type": "chapter"
-  },
-  {
-   "id": "28051891-3e85-4c5d-9b65-69aff0932036",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "6cd5cbec-2103-4f5d-b0bb-f9a21e2ace28",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:16+00:00",
+    "description": "",
+    "fileName": "2754767a-1785-47a0-9951-ab7d5e50bacb.jpg",
+    "updatedAt": "2021-05-24T17:33:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

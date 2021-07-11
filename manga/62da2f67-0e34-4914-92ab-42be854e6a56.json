@@ -26,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -34,8 +36,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,59 +50,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-24T01:35:19+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "391079e1-36cf-4a89-8cdf-261cd5451f9c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Homura Subaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "391079e1-36cf-4a89-8cdf-261cd5451f9c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Homura Subaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9f422520-09cc-46ba-93d7-c5f692af456a",
-   "type": "chapter"
-  },
-  {
-   "id": "4d005f24-bb0e-4c53-9586-307e3195bcf9",
-   "type": "chapter"
-  },
-  {
-   "id": "8eabdb47-2857-4ad9-8772-35fffd64949d",
-   "type": "chapter"
-  },
-  {
-   "id": "e718129f-2ed1-4fa2-a391-30f8c8c4f8bd",
-   "type": "chapter"
-  },
-  {
-   "id": "a1b58c08-1003-41ef-bc60-739564cef380",
-   "type": "chapter"
-  },
-  {
-   "id": "8292a144-4076-44f2-a789-a89bd6f9b126",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "a5c18ffe-f81f-4fd4-afa9-809fdad271f6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:08+00:00",
+    "description": "",
+    "fileName": "78f06a71-f08d-4d7a-ae23-e68eb9911214.jpg",
+    "updatedAt": "2021-05-24T17:20:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

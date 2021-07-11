@@ -7,6 +7,14 @@
    "title": {
     "en": "Kaikei Saketen"
    },
+   "altTitles": [
+    {
+     "en": "Hotel Harbour View"
+    },
+    {
+     "en": "海景酒店"
+    }
+   ],
    "description": {
     "en": "Two linked stories, both revolving around a deadly female assassin. In Hotel Harbour View, a Japanese expatriate in Hong Kong spends his time drinking whisky, photographing a high class prostitute and waiting for death at the hands of the assassin he knows is coming for him. In Brief Encounter, a notorious Parisian assassin is himself marked for assassination and his hunter is no stranger to him."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,51 +63,65 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-18T17:02:30+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "5cdc4a18-173c-47b1-abc4-210062893fc5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sekikawa Natsuo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "97effcde-ce83-4f26-b0a6-b9dfcb615173",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Taniguchi Jiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "97effcde-ce83-4f26-b0a6-b9dfcb615173",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Taniguchi Jiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e1da0fd3-1871-4aa8-97e0-58a930a59c70",
-   "type": "chapter"
-  },
-  {
-   "id": "1b3fd729-5ceb-4fe2-a979-a41f83034dda",
-   "type": "chapter"
-  },
-  {
-   "id": "2630dcf6-0193-4c62-aef0-83c8c9072319",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "730c3b01-fdbe-4f18-ab89-fbb5b0284ef3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:12:19+00:00",
+    "description": "",
+    "fileName": "d23e14e9-0aaf-474b-a1a1-55ec3437ad60.jpg",
+    "updatedAt": "2021-05-24T17:12:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

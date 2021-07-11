@@ -11,7 +11,6 @@
     "en": "Boku no Hero Academia 【doujinshi】\r\nKirishima Eijirou x Bakugou Katsuki"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -20,8 +19,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,43 +45,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-21T15:02:05+00:00",
+   "updatedAt": "2021-05-25T15:42:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "dc71a5b1-05c6-44c4-b9a9-bd89fe897436",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Masoe",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "dc71a5b1-05c6-44c4-b9a9-bd89fe897436",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Masoe",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "362d5494-f8f3-41fb-892a-1c946859941f",
-   "type": "chapter"
-  },
-  {
-   "id": "f334931a-445f-41ba-99d0-3658b4306c38",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "b0945c12-355e-4f36-9c88-fee96d65f311",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:32:26+00:00",
+    "description": "",
+    "fileName": "62eea03c-e56a-4ffb-969e-7f4775d3b71e.jpg",
+    "updatedAt": "2021-05-24T18:32:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

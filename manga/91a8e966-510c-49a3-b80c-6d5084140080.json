@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Snip, Snail \u0026amp; Dog Tail"
+    "en": "Snip, Snail \u0026 Dog Tail"
    },
+   "altTitles": [
+    {
+     "en": "Snips And Snails And Puppy Dog Tails"
+    },
+    {
+     "en": "スネイル\u0026ドッグテイル"
+    }
+   ],
    "description": {
     "en": "Mine the translator and Anjo the bus driver are friends. Mine is awkward and hard working, while Anjo is friendly and has a girlfriend. They're very different from each other, but they quickly become friends despite a strange sense of distance between them."
    },
@@ -30,8 +38,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +52,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,63 +64,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-29T02:11:24+00:00",
+   "updatedAt": "2021-05-25T15:45:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "5dc94796-799b-488f-9a0e-6a21d3df1049",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamashita Tomoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5dc94796-799b-488f-9a0e-6a21d3df1049",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamashita Tomoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a506fcfa-f015-4ce8-add6-04c42fd710aa",
-   "type": "chapter"
-  },
-  {
-   "id": "ffc96942-d0df-43a0-892f-03e594ec2e3d",
-   "type": "chapter"
-  },
-  {
-   "id": "e276e502-1353-4414-b1bc-80659dd12d6c",
-   "type": "chapter"
-  },
-  {
-   "id": "16cb9cc3-492f-472a-9d4f-34288e9d97ad",
-   "type": "chapter"
-  },
-  {
-   "id": "1a53b9f4-1720-450f-8a46-c00efbae14b5",
-   "type": "chapter"
-  },
-  {
-   "id": "62fc3d34-a29c-4ff9-a86a-6b621ee2957e",
-   "type": "chapter"
-  },
-  {
-   "id": "00835edc-d5f8-4b55-8c12-e578ca948e48",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "2f3b7804-01c1-4f2f-a175-5e5cfc33ed8b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:45+00:00",
+    "description": "",
+    "fileName": "42aa1a0d-a979-43a7-a3d8-fd612162a244.jpg",
+    "updatedAt": "2021-05-24T16:49:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

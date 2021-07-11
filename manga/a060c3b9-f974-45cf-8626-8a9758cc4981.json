@@ -7,6 +7,20 @@
    "title": {
     "en": "Mizuiro Cinema"
    },
+   "altTitles": [
+    {
+     "en": "Aqua Blue Cinema"
+    },
+    {
+     "en": "Light Blue Cinema"
+    },
+    {
+     "en": "Mizuiro Shinema"
+    },
+    {
+     "en": "水色シネマ"
+    }
+   ],
    "description": {
     "en": "Aqua Blue Cinema is about an actress and a girl she meets through unusual circumstances."
    },
@@ -27,8 +41,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +55,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,75 +67,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-18T00:05:35+00:00",
+   "updatedAt": "2021-05-25T15:45:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "a31d8190-4425-4114-a98d-9de6579cad44",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Otsu Hiyori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a31d8190-4425-4114-a98d-9de6579cad44",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Otsu Hiyori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b2807f0a-bd52-42d0-aaa5-58677118f2cc",
-   "type": "chapter"
-  },
-  {
-   "id": "87c0cb62-d1cd-4a6a-bd5b-27af3b4c6a2d",
-   "type": "chapter"
-  },
-  {
-   "id": "cf17026d-159d-444f-b981-2d15fda626a5",
-   "type": "chapter"
-  },
-  {
-   "id": "7cbaa7ff-bd36-4ba9-aba6-e0455a13719f",
-   "type": "chapter"
-  },
-  {
-   "id": "457d056f-649b-4ab5-8437-4c870b0571f7",
-   "type": "chapter"
-  },
-  {
-   "id": "ae159833-c363-48af-a3d8-9ae3f263be26",
-   "type": "chapter"
-  },
-  {
-   "id": "7bc95a9d-9480-4a8b-ba6c-59297b9857aa",
-   "type": "chapter"
-  },
-  {
-   "id": "19ef9b5f-e6be-4cab-bb7a-6175a0cd4a33",
-   "type": "chapter"
-  },
-  {
-   "id": "539d010b-2fd8-4dc7-a1db-79765e712d16",
-   "type": "chapter"
-  },
-  {
-   "id": "a9e3e684-13c2-4502-8023-1e45b52be813",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "58668ab7-6077-4f07-9ed0-b43440af32e6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:24:12+00:00",
+    "description": "",
+    "fileName": "e6ce7b8f-86e0-4c13-b6cc-b3e591d13a93.jpg",
+    "updatedAt": "2021-05-24T18:24:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Writer J"
    },
+   "altTitles": [
+    {
+     "en": "소설가J"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +19,6 @@
     "mu": "101268"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,43 +53,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-28T09:28:45+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "db5c6d72-cc49-4969-9d57-f380ecd869ea",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oh Sungdae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "db5c6d72-cc49-4969-9d57-f380ecd869ea",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oh Sungdae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8aff9dca-6e4a-4105-89ed-cf2fee72e3bc",
-   "type": "chapter"
-  },
-  {
-   "id": "b72cfb4e-cdcd-4e88-8299-1fb727a28f89",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "3296c7e3-9148-4f47-b4f6-e11a16e56932",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:42:24+00:00",
+    "description": "",
+    "fileName": "148e6998-c0ec-43f2-998a-7cb6e0fec29f.jpg",
+    "updatedAt": "2021-05-24T18:42:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

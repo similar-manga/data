@@ -7,6 +7,11 @@
    "title": {
     "en": "Hotel Traffic"
    },
+   "altTitles": [
+    {
+     "en": "ホテルトラフィック"
+    }
+   ],
    "description": {
     "en": "A one-shot side story of Tokumaru Madoka and Hasune Kazuma, the main couple of Koi Cha no Osahou.\r\n\r\nA comedy in a love hotel room."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,49 +69,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-19T22:18:17+00:00",
+   "updatedAt": "2021-05-25T15:43:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "3979f1bd-5a48-4d3e-b5b1-c7fcd4010567",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakuragi Yaya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3979f1bd-5a48-4d3e-b5b1-c7fcd4010567",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakuragi Yaya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1611391f-2278-415e-8054-a03fd801b538",
-   "type": "chapter"
-  },
-  {
-   "id": "3e8f6f68-f147-4795-a10e-70d8b8e1bd0f",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "f24a4dfb-58ab-4f8a-a560-3d917cd9fb75",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:44+00:00",
+    "description": "",
+    "fileName": "d67eeba8-9b9f-401f-8a5f-d123d02aa8e6.jpg",
+    "updatedAt": "2021-05-24T17:08:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

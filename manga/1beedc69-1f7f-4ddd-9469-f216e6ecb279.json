@@ -7,6 +7,14 @@
    "title": {
     "en": "Log Horizon - Honey Moon Logs"
    },
+   "altTitles": [
+    {
+     "en": "Log Horizon Gaiden: Honey Moon Logs"
+    },
+    {
+     "en": "ログ・ホライズン外伝 HoneyMoonLogs"
+    }
+   ],
    "description": {
     "en": "The events of Log Horizon narrated from the point of view of the Crescent Moon Alliance, especially Henrietta and Maryell."
    },
@@ -32,6 +40,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,55 +52,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-16T12:02:08+00:00",
+   "updatedAt": "2021-05-25T15:40:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "2f82a964-dfd4-4c25-83c5-c8af95dca667",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Touno Mamare",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fad49dd2-d9d8-4348-9bc7-4a90f5f95114",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsu Motoya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fe54047a-d5e5-4c01-9ed0-01312e86edb0",
-   "type": "chapter"
-  },
-  {
-   "id": "009f1c9a-f557-4c27-8c27-d41404b1034a",
-   "type": "chapter"
-  },
-  {
-   "id": "fa3a1e5c-5875-48d1-adbb-d1e3373831ec",
-   "type": "chapter"
-  },
-  {
-   "id": "b2324a1a-a616-47a6-b2b4-dba805f965d5",
-   "type": "chapter"
-  },
-  {
-   "id": "3bb7ed03-109c-4437-aa8d-0b70fcc4f6f4",
-   "type": "chapter"
-  },
-  {
-   "id": "c3c0e5c7-7ff7-4bd6-accf-068b9b9a36d2",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "22af3665-59e3-4f07-b290-9f8cf48c62a4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:42:08+00:00",
+    "description": "",
+    "fileName": "285d91bc-36a5-4c53-b0df-9fd165a1d0a6.jpg",
+    "updatedAt": "2021-05-24T16:42:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

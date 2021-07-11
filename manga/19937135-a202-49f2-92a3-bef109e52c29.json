@@ -7,6 +7,14 @@
    "title": {
     "en": "Oppabu... ttenandesuka!? ~Sutte Suwarete Hajimaru Koi no Hanashi~"
    },
+   "altTitles": [
+    {
+     "en": "Osuppabu…Tte Nanndesuka! ～Sutte Suwarete Hajimaru Koi no Hanashi～"
+    },
+    {
+     "en": "雄っぱぶ…って何ですか! ～吸って吸われて始まる恋の話～"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,47 +47,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-06T11:06:31+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "197cef21-0cef-414d-b4d7-c819ad4eff4a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Toyama Monaka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7b9f8497-6a36-4026-9c82-92cd09f1933c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yozakura Sakyou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c11aeec0-8d4e-4435-8464-6507ce8d2010",
-   "type": "chapter"
-  },
-  {
-   "id": "2f8995c3-595b-4885-a82f-8d0f83be69bc",
-   "type": "chapter"
-  },
-  {
-   "id": "6d375d97-1ca0-4274-ad63-92099f6f427f",
-   "type": "chapter"
-  },
-  {
-   "id": "783fa852-0233-4de9-81bf-9ddca000f12f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "b36ffe1b-1b1e-4f02-b713-8ac72ee5ac8f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:47+00:00",
+    "description": "",
+    "fileName": "9d3bf65e-b4e1-40c6-86fe-0cda231899c0.jpg",
+    "updatedAt": "2021-05-24T18:17:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

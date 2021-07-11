@@ -7,6 +7,14 @@
    "title": {
     "en": "Koiiro Rain"
    },
+   "altTitles": [
+    {
+     "en": "It Rains Softly and We Fall in Love"
+    },
+    {
+     "en": "恋色レイン"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,8 +61,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,67 +75,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-31T05:36:47+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "9d2c63ee-d25b-406f-a2bb-e599ad7ccb5c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Susuki Sonoichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9d2c63ee-d25b-406f-a2bb-e599ad7ccb5c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Susuki Sonoichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d7de2e29-cc61-4d98-8639-73d6a2deb059",
-   "type": "chapter"
-  },
-  {
-   "id": "4fd695d7-7ab2-4d8c-8304-98d4d010c452",
-   "type": "chapter"
-  },
-  {
-   "id": "040eb342-ca9b-43d8-8f85-f808659bbb3d",
-   "type": "chapter"
-  },
-  {
-   "id": "f2f01f7d-1e66-4da4-b071-e37f4210946f",
-   "type": "chapter"
-  },
-  {
-   "id": "4e05442a-92b4-4fea-9b3b-b383eb6678fa",
-   "type": "chapter"
-  },
-  {
-   "id": "aff67168-2979-41da-9763-f3aaabf10004",
-   "type": "chapter"
-  },
-  {
-   "id": "33d4bd11-d49e-410a-8dee-708c7598b253",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "de33b221-d4fd-4f70-8a4a-270cb3f84c17",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:59+00:00",
+    "description": "",
+    "fileName": "9dd46b6c-940d-468a-8841-3fa44235d2c7.jpg",
+    "updatedAt": "2021-05-24T17:20:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

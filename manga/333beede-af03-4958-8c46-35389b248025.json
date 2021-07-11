@@ -7,6 +7,17 @@
    "title": {
     "en": "Gyakuten Kenji"
    },
+   "altTitles": [
+    {
+     "en": "Ace Attorney - Investigations"
+    },
+    {
+     "en": "Miles Edgeworth: Ace Attorney Investigations"
+    },
+    {
+     "en": "逆轉檢事"
+    }
+   ],
    "description": {
     "en": "A series of extra cases based on the GBA and DS game series."
    },
@@ -32,6 +43,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +55,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,39 +67,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-06T03:06:51+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "e90222f9-a5b7-4ad4-9550-abd124e24c58",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kuroda Kenji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e6ca28f9-c16a-4b2c-94c7-b09efa6c81fd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maekawa Kazuo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "836c9de3-7b78-4360-9120-0012827ee077",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "a832f352-9657-4f00-8df3-ca0c55a1d8f0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:54+00:00",
+    "description": "",
+    "fileName": "273b51c4-e84c-427f-b8af-0991d908f824.jpg",
+    "updatedAt": "2021-05-24T16:56:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

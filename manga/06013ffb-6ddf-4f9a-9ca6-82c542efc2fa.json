@@ -7,6 +7,20 @@
    "title": {
     "en": "Ningyo no Hanakago"
    },
+   "altTitles": [
+    {
+     "en": "Mermaid's Flowerbasket"
+    },
+    {
+     "en": "Ningyotachi no Hanakago"
+    },
+    {
+     "en": "人魚の花籠"
+    },
+    {
+     "en": "人魚達の花籠"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -26,6 +40,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +52,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +64,8 @@
       "name": {
        "en": "Monster Girls"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -56,43 +76,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-03T04:29:02+00:00",
+   "updatedAt": "2021-05-25T15:39:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "4a80c217-4537-4aa2-b5a0-6b904ca0b692",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takabatake Enaga",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4a80c217-4537-4aa2-b5a0-6b904ca0b692",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takabatake Enaga",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "35d2dd0b-8794-4624-9a2b-9454cbbe1aa2",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "dd1f77c5-dea9-4e2b-97ae-224af09caf99",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "c2c67db0-258c-4fd0-8941-6258ca8fc772",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:24+00:00",
+    "description": "",
+    "fileName": "e4644125-4931-4b7d-b82b-2ffc6a336f0f.png",
+    "updatedAt": "2021-05-24T18:17:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

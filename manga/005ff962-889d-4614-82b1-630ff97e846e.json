@@ -7,6 +7,14 @@
    "title": {
     "en": "Ore no Shita de Agake"
    },
+   "altTitles": [
+    {
+     "en": "Ore no Shita de Agake Higuchi"
+    },
+    {
+     "en": "俺の下であがけ"
+    }
+   ],
    "description": {
     "en": "Manga based on the BL game developed by Alice Blue. Each storyline has a different author:\r\n\r\nPrologue: AKIRA Norikazu\r\nKurosaki x Higuchi: AMAGI Reno\r\nKurosaki x Shimizu: IKE Reibun\r\nKurosaki x Yamaguchi: SAKURA Ryou\r\nKurosaki x Yoshioka: TAMAQUIS Wren\r\nYoshioka-centric gag shorts: KYUUSHUU Danji"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +74,8 @@
       "name": {
        "en": "Mafia"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -70,79 +86,113 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-17T20:10:30+00:00",
+   "updatedAt": "2021-05-25T15:38:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "4773103e-227c-4120-b2af-316361bfea27",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Alice Blue",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0754219f-5883-42b6-bc3c-c432ea95a1eb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakura Ryou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1e81e9bf-9ba2-4c3f-88e5-debb3773e325",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Norikazu Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "377a837b-46c5-455b-b0d1-535430f01fa6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Amagi Reno",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3a023095-63bc-42fe-9684-bce2a7c49337",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tamaquis Wren",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5a4a22d0-88ac-4b64-bc80-777907f95038",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ike Reibun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "89514068-cc86-44ea-b2cd-f0072e3a1db1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kyuushuu Danji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cbe10609-ca9f-4d9f-9b8b-a010179d3247",
-   "type": "chapter"
-  },
-  {
-   "id": "1a6c9dcb-3969-4cdc-bd48-3b4e29f1cbe3",
-   "type": "chapter"
-  },
-  {
-   "id": "9c3436f3-67eb-4e33-94cd-7ece4cf50d57",
-   "type": "chapter"
-  },
-  {
-   "id": "ba88c42f-2c75-43f4-9812-ecaacf07f11f",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "89a835dd-7465-4f0f-9f2f-2b34c02f9998",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:25+00:00",
+    "description": "",
+    "fileName": "9c93461a-a250-40cb-87fa-6c051ce58eba.jpg",
+    "updatedAt": "2021-05-24T17:08:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

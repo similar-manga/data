@@ -7,11 +7,15 @@
    "title": {
     "en": "Independent Diary"
    },
+   "altTitles": [
+    {
+     "en": "독립일기"
+    }
+   ],
    "description": {
     "en": "The author's story of living alone"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,39 +50,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-11-06T00:33:18+00:00",
+   "updatedAt": "2020-11-06T00:33:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "f8120f35-ecfd-498c-aa9f-bbf9eab22075",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "자까",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f8120f35-ecfd-498c-aa9f-bbf9eab22075",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "자까",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9d3e01e7-e57d-4dcd-bffc-cd8b64493521",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "6eaf4635-617c-4f20-b544-307585d414d1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:43+00:00",
+    "description": "",
+    "fileName": "889dd50f-a72e-468a-bcfd-14fc04553704.jpg",
+    "updatedAt": "2021-05-24T18:17:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

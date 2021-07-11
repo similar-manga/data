@@ -5,10 +5,15 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Heavy \u0026times; Beauty: Pretty Babies"
+    "en": "Heavy × Beauty: Pretty Babies"
    },
+   "altTitles": [
+    {
+     "en": "ヘビー×ビューティ ～プリティ・ベイビィズ～"
+    }
+   ],
    "description": {
-    "en": "In the middle of the night, Ibuki suddenly calls on his superior Kiriya. Both work at the Metropolitan Police Department and have been dating each other for the last three years. One day, Kiriya's uncle proposes to headhunt Ibuki, and talks of Kiriya's own arranged marriage introduction.\r\n\r\n\u0026quot;Hmm, I guess it's high time.\u0026quot; Kiriya sighs upon receiving a phone call from former bad company..."
+    "en": "In the middle of the night, Ibuki suddenly calls on his superior Kiriya. Both work at the Metropolitan Police Department and have been dating each other for the last three years. One day, Kiriya's uncle proposes to headhunt Ibuki, and talks of Kiriya's own arranged marriage introduction.\r\n\r\n\"Hmm, I guess it's high time.\" Kiriya sighs upon receiving a phone call from former bad company..."
    },
    "links": {
     "al": "95035",
@@ -18,7 +23,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "4",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +33,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +45,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +57,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,8 +67,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,6 +81,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -79,71 +93,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-20T03:20:28+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "83adeafd-a16d-4d54-ac81-db38103ead5f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Iwamoto Kaoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8fc31515-f855-4b01-a5ad-c50556b42496",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mamahara Ellie",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a829b5b2-9604-40bc-9b6d-0136fefa95f9",
-   "type": "chapter"
-  },
-  {
-   "id": "91757734-caa6-4cca-9154-acf88744d486",
-   "type": "chapter"
-  },
-  {
-   "id": "8b713a60-df18-41d6-b5e4-291120cd3287",
-   "type": "chapter"
-  },
-  {
-   "id": "a1636aa9-de4a-4169-9f84-8a1d50131bb4",
-   "type": "chapter"
-  },
-  {
-   "id": "da24c12c-8f58-40bf-9e6d-ebfbb10ef938",
-   "type": "chapter"
-  },
-  {
-   "id": "eb6fa37e-d228-4f23-9dcc-293c4e39b263",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "e37a0218-43d1-4f52-a076-63f34c0b9d29",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:12:31+00:00",
+    "description": "",
+    "fileName": "73364135-c8f8-4063-9081-7c7a7aee6f5a.jpg",
+    "updatedAt": "2021-05-24T17:12:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

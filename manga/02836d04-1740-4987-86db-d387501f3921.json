@@ -7,6 +7,14 @@
    "title": {
     "en": "Asobiai"
    },
+   "altTitles": [
+    {
+     "en": "あそびあい"
+    },
+    {
+     "en": "玩伴"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,75 +62,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-15T06:14:41+00:00",
+   "updatedAt": "2021-05-25T15:38:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "563b9338-10d7-454a-b392-f08ad61337ab",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nitta Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "563b9338-10d7-454a-b392-f08ad61337ab",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nitta Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9cb6ffa6-d965-4c8e-a722-19eda6804070",
-   "type": "chapter"
-  },
-  {
-   "id": "554d2c9d-9231-4e92-aa51-8ddf13920ab9",
-   "type": "chapter"
-  },
-  {
-   "id": "99f60c93-8280-4a6f-9cf8-c7ed52975511",
-   "type": "chapter"
-  },
-  {
-   "id": "bc7e2ce8-ef85-43da-99c3-1e80ff0f63b0",
-   "type": "chapter"
-  },
-  {
-   "id": "d16f0047-2a80-4699-a4c2-f0a5b2f76534",
-   "type": "chapter"
-  },
-  {
-   "id": "3e8eaa73-b314-46a0-b957-c24ff857aeb0",
-   "type": "chapter"
-  },
-  {
-   "id": "35a1b590-6a09-4c8b-a26e-fdc2f71227a5",
-   "type": "chapter"
-  },
-  {
-   "id": "67b5e895-f705-418c-a2f5-135ce21038bf",
-   "type": "chapter"
-  },
-  {
-   "id": "1f75d2dd-0cb3-4062-873b-59d7dfa00b9d",
-   "type": "chapter"
-  },
-  {
-   "id": "c5931a56-0f83-488b-b50c-20e3030d2976",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "e0a3c717-3404-4fac-a260-3c7da7ea42fc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:52:27+00:00",
+    "description": "",
+    "fileName": "a26e437f-624a-451f-a38f-3eccae3eb6e5.jpg",
+    "updatedAt": "2021-05-24T17:52:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

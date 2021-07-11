@@ -7,6 +7,11 @@
    "title": {
     "en": "Lighter"
    },
+   "altTitles": [
+    {
+     "en": "ライター"
+    }
+   ],
    "description": {
     "en": "From Garo 1982-07.\r\nDuring the summer last year, before I started my current job, I worked a physical labor job along with some old people."
    },
@@ -18,7 +23,6 @@
     "mu": "123370"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +33,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,35 +45,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-05T18:52:44+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "20d43e49-1c6e-449e-9e8d-a1d9675aed47",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ozawa Toshiaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "20d43e49-1c6e-449e-9e8d-a1d9675aed47",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ozawa Toshiaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dc9a9ad5-444a-4891-aca5-2aa09f6b9281",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "ac9a946f-5c20-4fbb-b650-0cafeca3fb98",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:13:40+00:00",
+    "description": "",
+    "fileName": "ae3a5a37-bad0-4f15-93c0-b9b565e1d2fb.jpg",
+    "updatedAt": "2021-05-28T23:13:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

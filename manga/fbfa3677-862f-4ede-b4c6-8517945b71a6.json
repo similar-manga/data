@@ -5,10 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Cat \u0026amp; Dogs!"
+    "en": "Cat \u0026 Dogs!"
    },
+   "altTitles": [
+    {
+     "en": "Cats And Dogs"
+    },
+    {
+     "en": "キャット アンド ドッグス"
+    }
+   ],
    "description": {
-    "en": "Shiba is in love with his kendo senpai, but when he enters university he doesn't want to be in the kendo club anymore. How can Shiba convince him to join the club again? And why does the annoying Akito-senpai have to be in the club instead?\r\n\r\n[b][u]Polish / Polski:[/u][/b]\r\n[spoiler]Shiba zakochał się w jego kendo senpaiu, ale kiedy idą na uniwersytet, on nie chce już należeć do klubu. Chodzi do klubu sam, gdzie spotyka irytującego Akito. Jak potoczą się ich losy?"
+    "en": "Shiba is in love with his kendo senpai, but when he enters university he doesn't want to be in the kendo club anymore. How can Shiba convince him to join the club again? And why does the annoying Akito-senpai have to be in the club instead?",
+    "pl": "Shiba zakochał się w jego kendo senpaiu, ale kiedy idą na uniwersytet, on nie chce już należeć do klubu. Chodzi do klubu sam, gdzie spotyka irytującego Akito. Jak potoczą się ich losy?"
    },
    "links": {
     "al": "36256",
@@ -30,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +61,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +75,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,6 +87,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -80,87 +99,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-15T22:40:07+00:00",
+   "updatedAt": "2021-05-25T15:49:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "a8594e99-4aa3-408b-a9b9-76ee20ff2cf1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujii Mitori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a8594e99-4aa3-408b-a9b9-76ee20ff2cf1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujii Mitori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "15b2c045-f4d6-40bf-831b-828202d37714",
-   "type": "chapter"
-  },
-  {
-   "id": "39556cfd-dab2-4865-9cd9-d2103c748052",
-   "type": "chapter"
-  },
-  {
-   "id": "7df55dc7-dcc7-45d4-82cb-dc79c3ea3dd3",
-   "type": "chapter"
-  },
-  {
-   "id": "746dd452-6ef4-4164-ad59-c2c3956e661b",
-   "type": "chapter"
-  },
-  {
-   "id": "1b11724b-913c-4b0c-a3ff-92e5b6e5695f",
-   "type": "chapter"
-  },
-  {
-   "id": "2a774f79-aa5b-463c-9746-4e3ffbce40ef",
-   "type": "chapter"
-  },
-  {
-   "id": "92ee1ce0-66b3-484c-8388-726d98696df0",
-   "type": "chapter"
-  },
-  {
-   "id": "458f97b4-4dad-4bdf-a565-49049b1a1c75",
-   "type": "chapter"
-  },
-  {
-   "id": "8647e1cb-3449-4aa2-82b7-5809af7d68b9",
-   "type": "chapter"
-  },
-  {
-   "id": "bcdb7e24-3b83-46cc-b0a6-1325e5aa2319",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "c1c352c5-e860-4fa1-b1da-9f1280362b00",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:51:40+00:00",
+    "description": "",
+    "fileName": "c49ec60e-f606-48c3-8123-e72c5909f4cd.jpg",
+    "updatedAt": "2021-05-24T16:51:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

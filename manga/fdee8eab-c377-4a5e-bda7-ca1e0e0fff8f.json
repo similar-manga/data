@@ -5,14 +5,18 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Ki \u0026amp; Hi"
+    "en": "Ki \u0026 Hi"
    },
+   "altTitles": [
+    {
+     "en": "Ki \u0026 Hi : Une famille de fous !"
+    }
+   ],
    "description": {
     "en": "Ki and Hi are two brothers completely loony who love play tricks on anyone the encounter in the smallest village of a panda head-shaped kingdom. The first brother is tall, chubby and loves to torment his little brother, small and fragile , but who is ready to do everything it'll cost him to get his revenge on his brother."
    },
    "originalLanguage": "fr",
    "lastVolume": "6",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -24,6 +28,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,6 +40,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +52,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -54,6 +64,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -64,43 +76,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-02-20T07:22:26+00:00",
+   "updatedAt": "2021-02-20T07:22:26+00:00"
   }
  },
  "relationships": [
   {
    "id": "75f0c2c7-6317-4e0f-8504-a4930d358c2f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tran Kevin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b209e71d-db91-4be6-bd9b-d723e353778d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Antigny Fanny",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "24820dba-9a26-4fe6-b1c8-8bf5cc29ef08",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:32:17+00:00",
+    "description": "",
+    "fileName": "971e0f0a-a73f-4f8d-8da5-4d2dbd25c353.jpg",
+    "updatedAt": "2021-05-24T18:32:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

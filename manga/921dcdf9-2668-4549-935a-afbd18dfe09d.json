@@ -7,6 +7,11 @@
    "title": {
     "en": "Desert Coral"
    },
+   "altTitles": [
+    {
+     "en": "デザート・コーラル"
+    }
+   ],
    "description": {
     "en": "Naoto Saki is a typical young boy. He gets average grades in school, and nothing about him really stands out. His favorite thing to do is sleep - which doesn't exactly endear him to his teachers when he dozes off in class. Whenever he falls asleep, Naoto dreams of the same fantasy world. Then one day, Naoto gets magically summoned into the very world he had once only seen in dreams! All at once, he's caught up in a battle between the powerful beings called Elphis, and a group of human-like beings called the Sand Dusts. For Naoto, this desert world of Orgos is no longer a dream-he can feel pain here, and possibly even die. He decides he'd rather not risk his life, and would like nothing more than to return home. But the pretty sorceress who summoned him in the first place has other plans for him."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,75 +59,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-17T10:09:55+00:00",
+   "updatedAt": "2021-05-25T15:45:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "cdafcec6-4c03-4d79-8c26-2bebd65b4ee8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murayama Wataru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cdafcec6-4c03-4d79-8c26-2bebd65b4ee8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murayama Wataru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c409337f-d2c7-45da-9aab-a5d339a8c98b",
-   "type": "chapter"
-  },
-  {
-   "id": "52475518-64e6-409c-a53a-76c18c6ab256",
-   "type": "chapter"
-  },
-  {
-   "id": "7bfa6d32-1304-46a4-b8de-da39e632d94b",
-   "type": "chapter"
-  },
-  {
-   "id": "cb83e360-4b70-4372-89be-e33bcab3f4d9",
-   "type": "chapter"
-  },
-  {
-   "id": "d452465e-3598-4f2f-bb64-c37f035da27f",
-   "type": "chapter"
-  },
-  {
-   "id": "e7cb35d2-3be1-4c3b-9f20-f6befafb06f8",
-   "type": "chapter"
-  },
-  {
-   "id": "2f0b9f19-a430-41fd-b9b3-6346814928e1",
-   "type": "chapter"
-  },
-  {
-   "id": "10cdf359-86f4-4140-9eeb-de310bbcf2ed",
-   "type": "chapter"
-  },
-  {
-   "id": "1740cbda-8dd5-47e7-8003-681873406509",
-   "type": "chapter"
-  },
-  {
-   "id": "835a34a7-28ab-4185-a7c3-ab86a52955c4",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "79c99547-cfb2-4f45-804b-27a0839db262",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:41:15+00:00",
+    "description": "",
+    "fileName": "02f90423-c70e-4a03-9e54-5d24e2a2c513.jpg",
+    "updatedAt": "2021-05-24T18:41:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

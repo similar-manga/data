@@ -5,8 +5,31 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Caf\u0026eacute; Relish ni Oide"
+    "en": "Café Relish ni Oide"
    },
+   "altTitles": [
+    {
+     "en": "Café gourmand"
+    },
+    {
+     "en": "Cafe Relish ni Oide"
+    },
+    {
+     "en": "Chara Cafe Relish ni Oide"
+    },
+    {
+     "en": "Welcome To Café Relish"
+    },
+    {
+     "en": "Welcome to Cafe Relish"
+    },
+    {
+     "en": "Добро пожаловать в кафе «Relish»"
+    },
+    {
+     "en": "カフェRelishにおいで"
+    }
+   ],
    "description": {
     "en": "Inui Takeshi is the owner of a restaurant in trouble! He and his cute younger brother Yasutomo are trying to make a living, but business is just too slow. When regular customer and ex-host Ookami Kyousuke suggests an all-male version of a maid cafe, the brothers reluctantly agree to the idea. Ookami and fellow host Sannoumaru Miyabi move in with the Inuis and begin the new chapter of Cafe Relish!"
    },
@@ -30,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +63,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,75 +77,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-17T18:13:42+00:00",
+   "updatedAt": "2021-05-25T15:42:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "57d36e4f-3926-431a-9cb1-14110c3078d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takatsuki Noboru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "57d36e4f-3926-431a-9cb1-14110c3078d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takatsuki Noboru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d5cfa523-6fc3-433f-be65-1e263100767e",
-   "type": "chapter"
-  },
-  {
-   "id": "eafead9f-8aa3-4949-ae22-ab065b1c5797",
-   "type": "chapter"
-  },
-  {
-   "id": "d9d09152-a64b-46bf-b1fc-602a6e27653a",
-   "type": "chapter"
-  },
-  {
-   "id": "4a0b3d71-c387-4ad3-a5bd-e76aef5ff08c",
-   "type": "chapter"
-  },
-  {
-   "id": "6f282af9-a582-43ae-89da-ae889e15d818",
-   "type": "chapter"
-  },
-  {
-   "id": "af77ed2b-e068-4553-abc5-98580766b14c",
-   "type": "chapter"
-  },
-  {
-   "id": "2f2c932e-e1c9-4cdf-971e-63d76c30fa33",
-   "type": "chapter"
-  },
-  {
-   "id": "0b037692-4243-442b-931d-ac4337ec17ea",
-   "type": "chapter"
-  },
-  {
-   "id": "b7419a48-5a58-4421-8359-7ef13b6a1b6f",
-   "type": "chapter"
-  },
-  {
-   "id": "1c323d10-5a88-4a34-8e50-81a7a7775eff",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "4672397b-2776-4f17-84b7-cb8464e94004",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:23+00:00",
+    "description": "",
+    "fileName": "5bfa81a6-8552-40cf-a0c4-e86a37c75267.jpg",
+    "updatedAt": "2021-05-24T16:49:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

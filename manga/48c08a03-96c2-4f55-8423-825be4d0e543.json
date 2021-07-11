@@ -7,6 +7,20 @@
    "title": {
     "en": "Mimi wo Sumaseba"
    },
+   "altTitles": [
+    {
+     "en": "If You Listen Closely"
+    },
+    {
+     "en": "Whisper of the Heart"
+    },
+    {
+     "en": "Whispers of the Heart"
+    },
+    {
+     "en": "耳をすませば"
+    }
+   ],
    "description": {
     "en": "Shizuku Tsukishima loves books. One day, she notices that the name Seiji Amasawa appears on the checkout cards of nearly every book she's borrowed! Before she realizes it, her heart is pounding for a boy she's never met... and that's when a mysterious black cat and Shizuku's sense of wonder guide her to an unusual shop--and introduce her to someone she's been curious to meet! Amazing things can happen...when you listen to your heart."
    },
@@ -31,6 +45,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +57,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +69,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +81,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,83 +93,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-20T13:18:15+00:00",
+   "updatedAt": "2021-05-25T15:42:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "e6274414-d00d-4336-a126-0127656f1e32",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HIIRAGI Aoi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e6274414-d00d-4336-a126-0127656f1e32",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HIIRAGI Aoi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6d608c89-8f28-49ab-ab4f-98b4110089d1",
-   "type": "chapter"
-  },
-  {
-   "id": "9058fc25-ecbb-4d12-92de-2d3fe91513c6",
-   "type": "chapter"
-  },
-  {
-   "id": "3cdfb499-1d66-459a-8483-d6bd11fc24e7",
-   "type": "chapter"
-  },
-  {
-   "id": "6abd2ec9-ecfa-4794-91df-2d30077aa3d7",
-   "type": "chapter"
-  },
-  {
-   "id": "69e07c3d-41a9-4431-b498-24e1a0ee3a0b",
-   "type": "chapter"
-  },
-  {
-   "id": "debc6558-36f4-4427-ae2d-e42a0c4acad6",
-   "type": "chapter"
-  },
-  {
-   "id": "f2915031-9063-4368-bf4f-7b021945a3ab",
-   "type": "chapter"
-  },
-  {
-   "id": "560ab6d8-e7b6-41e0-b349-353ef040fef7",
-   "type": "chapter"
-  },
-  {
-   "id": "b2b41657-c095-4ffa-9c88-e08443bb50a0",
-   "type": "chapter"
-  },
-  {
-   "id": "c0b28b92-2739-46bf-83a1-3ae89326a5ed",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "8cfdbc11-2754-4fc2-9357-9a8bcf2124e3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:27:29+00:00",
+    "description": "",
+    "fileName": "5b02f1ee-b2e2-4db6-b1bc-2a103ed6e48b.jpg",
+    "updatedAt": "2021-05-24T18:27:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

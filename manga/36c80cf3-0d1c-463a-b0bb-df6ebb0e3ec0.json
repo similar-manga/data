@@ -7,6 +7,11 @@
    "title": {
     "en": "Dead Word Puzzle"
    },
+   "altTitles": [
+    {
+     "en": "デッドワードパズル"
+    }
+   ],
    "description": {
     "en": "A horrifying competition for survival between normal high-school students soon becomes filled for blood, guts, and death!"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,51 +59,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-25T16:11:29+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "0e280d4f-5bfd-48db-bf79-2dd86644a45f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tajika Kouhei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0e280d4f-5bfd-48db-bf79-2dd86644a45f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tajika Kouhei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "36774e45-cf18-475d-8c88-2b55a30425fb",
-   "type": "chapter"
-  },
-  {
-   "id": "d5e29151-41cd-4564-8769-4b2f28683f8f",
-   "type": "chapter"
-  },
-  {
-   "id": "bb935b81-bb92-479c-8cd5-054a1f67fd01",
-   "type": "chapter"
-  },
-  {
-   "id": "cf614068-bb90-4c32-b554-1987a3b0fb83",
-   "type": "chapter"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "e4f059bb-a6d4-4fc8-a1d1-c864d2b3a9be",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:41+00:00",
+    "description": "",
+    "fileName": "b059fac8-b94b-4b81-8f61-0c0f7db4d5af.jpg",
+    "updatedAt": "2021-05-24T16:55:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

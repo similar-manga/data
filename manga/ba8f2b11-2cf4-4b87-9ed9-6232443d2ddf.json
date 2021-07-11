@@ -7,6 +7,17 @@
    "title": {
     "en": "Killing Morph"
    },
+   "altTitles": [
+    {
+     "en": "Satsuriku Morph"
+    },
+    {
+     "en": "Убийственные метаморфозы"
+    },
+    {
+     "en": "殺戮モルフ"
+    }
+   ],
    "description": {
     "en": "Plagued by visions of a psychopath after a slaughter in a busy street in downtown Ikebukuro, Madoka must question her own sanity as to whether what she is seeing is actually happening."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Crime"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +78,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -71,6 +90,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -81,6 +102,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -91,6 +114,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -101,95 +126,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-27T09:24:59+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "c3f17d43-f1ed-4300-b52d-22cb5fd1de3c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hokazono Masaya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d521f9eb-b2b2-4672-bc95-a066309f939e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koike Nokuto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "adc689bc-408b-4fe8-8fe0-2bdda11be868",
-   "type": "chapter"
-  },
-  {
-   "id": "e4b59274-6305-4f13-92dc-9ea944e754f6",
-   "type": "chapter"
-  },
-  {
-   "id": "86087d78-f064-4b0d-afdd-66aba97f10d7",
-   "type": "chapter"
-  },
-  {
-   "id": "c2962842-aee3-4b72-bf22-63e22b37eb39",
-   "type": "chapter"
-  },
-  {
-   "id": "c7923b74-abed-4611-8315-1c160740bbf9",
-   "type": "chapter"
-  },
-  {
-   "id": "a80fa343-9be8-48b7-8b84-1aa8a1d75add",
-   "type": "chapter"
-  },
-  {
-   "id": "24a995da-6007-4637-b221-0fc70fe736bd",
-   "type": "chapter"
-  },
-  {
-   "id": "ff9f3d48-96a9-4949-8cb0-6e17135384d1",
-   "type": "chapter"
-  },
-  {
-   "id": "5efd67b4-ad84-44b0-9b66-d89dc3046ecf",
-   "type": "chapter"
-  },
-  {
-   "id": "611e32fa-b04a-43ed-9733-e893bdd67250",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "f0b1422c-2d38-4f3f-956a-ef934c689eb2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:49+00:00",
+    "description": "",
+    "fileName": "6e745441-0cad-4093-94f8-39b5a2404f20.jpg",
+    "updatedAt": "2021-05-24T17:02:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Flowers \u0026amp; Thorns"
+    "en": "Flowers \u0026 Thorns"
    },
+   "altTitles": [
+    {
+     "en": "花与荆棘的魔女"
+    }
+   ],
    "description": {
     "en": ""
    },
-   "originalLanguage": "zh-hk",
-   "lastChapter": "0",
+   "originalLanguage": "zh",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -20,8 +24,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,43 +38,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-06T04:58:04+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "ff906576-6679-40ad-b76f-ba5762eec609",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "马它合鸟",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ff906576-6679-40ad-b76f-ba5762eec609",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "马它合鸟",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9f6bbd83-3f4d-4aa3-9db4-54decb9d6a2f",
-   "type": "chapter"
-  },
-  {
-   "id": "997dedc6-867f-4014-836e-9cb78b4a57dd",
-   "type": "chapter"
-  },
-  {
-   "id": "25e5f1cb-81fc-4fd4-8a03-f820eb7b5080",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "4e83dc24-3ca1-4f1b-850c-fe52aeee014b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:47+00:00",
+    "description": "",
+    "fileName": "2b8240d7-182a-490e-9c41-8365db49be4f.png",
+    "updatedAt": "2021-05-24T17:32:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

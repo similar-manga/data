@@ -7,6 +7,14 @@
    "title": {
     "en": "Odoru Ecstasy"
    },
+   "altTitles": [
+    {
+     "en": "Ecstasy to Dance"
+    },
+    {
+     "en": "踊るエクスタシー"
+    }
+   ],
    "description": {
     "en": "Suzushiro strives to be accepted as a dancer to Exit. In the auditions he meets Nagaya, who doesn't even warm up before the qualifying exam! What will be the result?"
    },
@@ -29,8 +37,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,51 +51,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-24T06:15:30+00:00",
+   "updatedAt": "2021-05-25T15:47:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "ed84b671-4dee-410b-9162-8a8a52779806",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsushita Fuyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ed84b671-4dee-410b-9162-8a8a52779806",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsushita Fuyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4cac0d9b-6f24-4970-9003-c0353e6d502b",
-   "type": "chapter"
-  },
-  {
-   "id": "3a0ba48d-2c2f-4fc0-916e-57d855dbe9bb",
-   "type": "chapter"
-  },
-  {
-   "id": "9dc4d331-0469-47dc-a550-a27081acbff0",
-   "type": "chapter"
-  },
-  {
-   "id": "2cceea44-ac77-4626-a49a-b73b9621d932",
-   "type": "chapter"
-  },
-  {
-   "id": "9ea0d51d-5acc-43f4-8ea2-baef3dca63a9",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "a685fc28-249a-4f4b-8299-e1d33a16b2d4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:17+00:00",
+    "description": "",
+    "fileName": "863b957f-e103-4d74-ad7d-eef19b1de987.jpg",
+    "updatedAt": "2021-05-24T17:09:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

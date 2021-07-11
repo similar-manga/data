@@ -30,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +52,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +66,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,67 +78,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-20T12:50:32+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "2f9bfb1a-8b76-40a9-b92c-354e24f2cdbf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tenzen Momoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2f9bfb1a-8b76-40a9-b92c-354e24f2cdbf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tenzen Momoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b06d092e-69f0-416a-9624-388d9916850a",
-   "type": "chapter"
-  },
-  {
-   "id": "81092af1-7447-4181-b99b-5c35a14e027d",
-   "type": "chapter"
-  },
-  {
-   "id": "3dee6310-6155-4404-9ca7-5b61405750d1",
-   "type": "chapter"
-  },
-  {
-   "id": "407c32f8-f5e1-4283-92dd-b9fa79a89e0f",
-   "type": "chapter"
-  },
-  {
-   "id": "9f51fea6-894e-4af7-af70-211fad935da6",
-   "type": "chapter"
-  },
-  {
-   "id": "8edfbd50-e710-4eb1-86ca-db23c0613d15",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "a0b24cca-756b-4f40-9e2a-c078125cdb7e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:45:52+00:00",
+    "description": "",
+    "fileName": "b30c927e-a043-4276-b684-41aa80de2a08.jpg",
+    "updatedAt": "2021-05-24T17:45:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

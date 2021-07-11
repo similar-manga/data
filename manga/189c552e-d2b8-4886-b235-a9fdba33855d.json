@@ -7,6 +7,23 @@
    "title": {
     "en": "Eien no Aida ni Miru Yume"
    },
+   "altTitles": [
+    {
+     "en": "Giấc Mơ Dai Dẳng Mà Ta Vẫn Thấy"
+    },
+    {
+     "en": "The Eternal Dream I Have"
+    },
+    {
+     "en": "The Eternal Dream I See"
+    },
+    {
+     "en": "Одинокий демон, заложник вечности"
+    },
+    {
+     "en": "永遠の間に見る夢"
+    }
+   ],
    "description": {
     "en": "A fallen angel finds himself infatuated with a human, and despite knowing the consequences, he decides to indulge himself... if only for a little while."
    },
@@ -26,6 +43,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +55,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,8 +65,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +79,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,55 +91,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-19T14:05:10+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "2fd744eb-9819-4dc1-89fe-6932a10b3947",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murakami Yui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2fd744eb-9819-4dc1-89fe-6932a10b3947",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murakami Yui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "32b5cc46-4e25-4e7d-993d-c4fe0e6db374",
-   "type": "chapter"
-  },
-  {
-   "id": "d79a324f-4456-43b4-9ef9-edad03340ddc",
-   "type": "chapter"
-  },
-  {
-   "id": "62068964-3a8a-4bd9-84df-d1f52161fc3e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "6711b95d-4043-4f6d-930c-4188c526f2b9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:03+00:00",
+    "description": "",
+    "fileName": "1253863b-45bb-4143-84d0-0f7acdf9af04.png",
+    "updatedAt": "2021-05-24T17:38:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

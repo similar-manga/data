@@ -7,6 +7,14 @@
    "title": {
     "en": "Suki na Hito Hodo"
    },
+   "altTitles": [
+    {
+     "en": "Umaku Ikanaishi Tsuke no Houhou"
+    },
+    {
+     "en": "好きなひとほど"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,8 +61,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,75 +75,53 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-31T18:29:07+00:00",
+   "updatedAt": "2021-05-25T15:40:04+00:00"
   }
  },
  "relationships": [
   {
    "id": "9cda4c34-0065-482b-96d0-3bd688c196f3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Harada",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9cda4c34-0065-482b-96d0-3bd688c196f3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Harada",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "585105d9-7174-4f59-804d-353d5986fd54",
-   "type": "chapter"
-  },
-  {
-   "id": "afb2d355-8e41-4f7b-9c6b-1086bdfbef83",
-   "type": "chapter"
-  },
-  {
-   "id": "37f8a80a-481c-4828-a8af-f43fcc10d6e3",
-   "type": "chapter"
-  },
-  {
-   "id": "0f4f9a2a-b0e4-41e3-9063-70b6926c3d1c",
-   "type": "chapter"
-  },
-  {
-   "id": "bd67f0ba-ce7c-4e9e-a184-63cca05a0afd",
-   "type": "chapter"
-  },
-  {
-   "id": "5901fb04-f0d3-4937-b50a-25a9d16c46fd",
-   "type": "chapter"
-  },
-  {
-   "id": "023f7b5b-bdcd-4e90-b077-edfd5bf629e1",
-   "type": "chapter"
-  },
-  {
-   "id": "07f9806b-ec57-43ce-a891-11a892f1bb71",
-   "type": "chapter"
-  },
-  {
-   "id": "6384b985-09a8-430f-981e-380843f74a21",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
+   "id": "816c4d90-2d53-4fa0-be3a-4c12e0e95da3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:13:55+00:00",
+    "description": "",
+    "fileName": "35a4a59d-0120-4b44-9c73-95ee1a80bc5e.jpg",
+    "updatedAt": "2021-05-24T17:13:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

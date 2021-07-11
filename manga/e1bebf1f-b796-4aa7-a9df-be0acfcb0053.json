@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Fate/Grand Order - D'\u0026eacute;on \u0026amp; Astolfo (Doujinshi)"
+    "en": "Fate/Grand Order - D'éon \u0026 Astolfo (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "D'éon to Astolfo"
+    },
+    {
+     "en": "デオンとアストルフォ (Fate/Grand Order)"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -22,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +42,8 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,43 +54,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-21T04:52:40+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "566cec54-3282-4443-8562-7083b711d503",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kofunami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "566cec54-3282-4443-8562-7083b711d503",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kofunami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3d7b67d2-7c2a-419f-b3d1-f677d50f08e3",
-   "type": "chapter"
-  },
-  {
-   "id": "c2371b97-d958-4bc8-9a36-af5b07d989f9",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "a287ec08-05b3-4fb0-bd51-b444f8bbedf9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:05:16+00:00",
+    "description": "",
+    "fileName": "5cc289d2-3c0d-478b-8c6c-7c63581054cb.png",
+    "updatedAt": "2021-05-24T17:05:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

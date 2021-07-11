@@ -7,6 +7,11 @@
    "title": {
     "en": "Tomie: Takeover"
    },
+   "altTitles": [
+    {
+     "en": "伊藤潤二コレクション"
+    }
+   ],
    "description": {
     "en": "A new Tomie story, originally included with the Kanzenban release of the Junji Ito Collection."
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -46,47 +55,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-08-06T13:23:40+00:00",
+   "updatedAt": "2020-08-06T13:23:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "bf07c05f-a69f-4690-982f-406d369a2034",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itou Junji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bf07c05f-a69f-4690-982f-406d369a2034",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itou Junji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "638eb4b8-4078-4956-b7ee-521a76715d58",
-   "type": "chapter"
-  },
-  {
-   "id": "d69d6e88-388b-49af-afe3-c614806a8542",
-   "type": "chapter"
-  },
-  {
-   "id": "98e2f0be-29d0-4525-beff-94e141a6c368",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "fc54d5ef-9885-4fcc-8db5-c8967ae269a4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:05:42+00:00",
+    "description": "",
+    "fileName": "76f43c29-7793-425a-a2af-3475222902f7.jpg",
+    "updatedAt": "2021-05-24T18:05:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

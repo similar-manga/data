@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Gun Dragon \u0026Sigma;"
+    "en": "Gun Dragon Σ"
    },
+   "altTitles": [
+    {
+     "en": "Gun Dragon Sigma"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -28,39 +33,53 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-02-10T07:56:04+00:00",
+   "updatedAt": "2019-02-10T07:56:04+00:00"
   }
  },
  "relationships": [
   {
    "id": "4ca0e9e7-253e-447b-b96e-16bfa6164ece",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Terasawa Buichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4ca0e9e7-253e-447b-b96e-16bfa6164ece",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Terasawa Buichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "02107a0b-707a-459a-8599-107f03695f87",
-   "type": "chapter"
-  },
-  {
-   "id": "25e6fd7d-303a-44d5-a299-26d59f436e65",
-   "type": "chapter"
-  },
-  {
-   "id": "514f55ad-8b9c-4363-9917-4ee2ecde86e1",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
+   "id": "8231a0c7-26c2-4f4c-b056-864ff83ced9f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:50+00:00",
+    "description": "",
+    "fileName": "9cc07afa-1fce-42a3-b005-1b807d54448b.jpg",
+    "updatedAt": "2021-05-24T17:00:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

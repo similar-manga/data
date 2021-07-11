@@ -7,6 +7,11 @@
    "title": {
     "en": "Kimi no Yume o Mite Iru"
    },
+   "altTitles": [
+    {
+     "en": "君の夢を見ている"
+    }
+   ],
    "description": {
     "en": "Amemori claims that he has always been having premonitions of Yui falling in love with him. As it happens, Yui does kiss him on the exact day specified in his dream. Is their love some psychic fate?!"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Time Travel"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +71,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,6 +83,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -80,79 +95,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-12T06:53:53+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "23da44e6-af16-4a91-bec9-3ad1d9727bfd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aruku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c28ba154-6fd8-4079-8b20-4e1c0c36f348",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kouki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b76e9231-47db-4302-bf8b-e11b0ca30274",
-   "type": "chapter"
-  },
-  {
-   "id": "994dd84d-9240-4a74-98a6-9a4217a13165",
-   "type": "chapter"
-  },
-  {
-   "id": "a86a6724-e3b2-4e98-9c02-731be8833d80",
-   "type": "chapter"
-  },
-  {
-   "id": "1fb7a1de-41f0-44c7-aec4-43ab0251e4ed",
-   "type": "chapter"
-  },
-  {
-   "id": "646869de-e424-4c52-a092-7638c8a24322",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2ab230-6d29-4443-929e-62bb0b46323d",
-   "type": "chapter"
-  },
-  {
-   "id": "ab174c17-c772-453c-a1d2-e70e427bb823",
-   "type": "chapter"
-  },
-  {
-   "id": "30ae9641-a367-4c2f-a718-9d96678e6ac8",
-   "type": "chapter"
-  },
-  {
-   "id": "292e862b-2d17-4062-90a2-0356caa4ae27",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "a9256685-79b7-4fda-8caa-762dbb765d51",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:04+00:00",
+    "description": "",
+    "fileName": "9987d03a-53b6-4879-9e4f-47bc68e2be7c.jpg",
+    "updatedAt": "2021-05-24T17:01:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

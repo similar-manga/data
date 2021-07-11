@@ -7,6 +7,11 @@
    "title": {
     "en": "Kurayami no Shutter Speed"
    },
+   "altTitles": [
+    {
+     "en": "くらやみのシャッタースピード"
+    }
+   ],
    "description": {
     "en": "It's been a while since these two appeared, but from the next one they'll pass on the baton."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,39 +59,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-16T00:20:40+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "952463b7-c527-4037-97de-676372775d16",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hayakawa Nojiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "952463b7-c527-4037-97de-676372775d16",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hayakawa Nojiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "92e458fd-fdd8-47be-948f-15db1524b7c2",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "1999424f-8f6d-4fcf-ac84-a52264847e0d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:40+00:00",
+    "description": "",
+    "fileName": "0bfcff12-d68e-4c4a-9edb-aa6509bf3c13.jpg",
+    "updatedAt": "2021-05-24T17:04:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

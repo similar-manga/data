@@ -7,6 +7,11 @@
    "title": {
     "en": "Mother"
    },
+   "altTitles": [
+    {
+     "en": "マザー"
+    }
+   ],
    "description": {
     "en": "A collection of short stories.\r\n\r\nBitter nightmare: a one-shot about a demon girl, who has the power to devour nightmares, trying to make the guy who has them sleep better."
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,35 +44,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-24T21:26:57+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "07d18594-21c8-4b7b-89af-2700b6efd0ff",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Edogawa Osamu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "07d18594-21c8-4b7b-89af-2700b6efd0ff",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Edogawa Osamu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "21118683-293a-487f-8ccc-f1eb13380a49",
-   "type": "chapter"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "89dccd57-ae16-4f7b-b52e-5836fc44ef0f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:09+00:00",
+    "description": "",
+    "fileName": "3f314314-d463-44f6-9466-2fc928cb28bd.jpg",
+    "updatedAt": "2021-05-24T18:04:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

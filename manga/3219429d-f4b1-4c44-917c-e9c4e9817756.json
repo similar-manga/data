@@ -7,6 +7,11 @@
    "title": {
     "en": "I Am a Hero in Osaka"
    },
+   "altTitles": [
+    {
+     "en": "アイアムアヒーロー in OSAKA"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +71,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,83 +83,65 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-23T13:32:02+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "2f606eb6-9667-47db-800c-fdadfbb60d98",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hanazawa Kengo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7f26f861-75c3-4107-8e92-14f457624555",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Honda Yuuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7f26f861-75c3-4107-8e92-14f457624555",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Honda Yuuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9f589856-7a20-4510-a344-6a872a8d9999",
-   "type": "chapter"
-  },
-  {
-   "id": "aa5c7e8e-780e-45f2-b8fa-e92ef705d707",
-   "type": "chapter"
-  },
-  {
-   "id": "468a510d-8cf0-4f15-97ae-32ab8c9de730",
-   "type": "chapter"
-  },
-  {
-   "id": "4c7aee4a-17f4-4169-8ee9-ac6447d12940",
-   "type": "chapter"
-  },
-  {
-   "id": "0fe4adfd-e8cf-4d0f-af64-2e68b08a4a7d",
-   "type": "chapter"
-  },
-  {
-   "id": "fb0bc289-afd6-45ea-8b14-6d4713e91713",
-   "type": "chapter"
-  },
-  {
-   "id": "c998d54b-e22d-43fa-9fdb-d8e900f29262",
-   "type": "chapter"
-  },
-  {
-   "id": "7534c290-7c82-4dd5-a162-5c79b63cf535",
-   "type": "chapter"
-  },
-  {
-   "id": "8a8e5921-75e1-450b-ae55-d1a69f1bcbf6",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "e20b7601-2fc8-4fc3-a52b-ac24dc1f5e07",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:28+00:00",
+    "description": "",
+    "fileName": "e4d158bb-c56a-4f20-908f-09eecdbb6ddd.jpg",
+    "updatedAt": "2021-05-24T16:55:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

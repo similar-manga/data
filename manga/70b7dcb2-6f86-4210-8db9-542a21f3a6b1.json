@@ -5,17 +5,21 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Words \u0026amp; Kisses"
+    "en": "Words \u0026 Kisses"
    },
+   "altTitles": [
+    {
+     "en": "말과 키스"
+    }
+   ],
    "description": {
-    "en": "I wasn't interested in dating... until I met her.\r\nJust as I was about to get into another ambiguous, half-hearted relationship, I met her. Hyunjin Go, I couldn't take my eyes off her. I had been treading a dull path, and she knocked me right off. Then I felt it- a little piece of my heart, breaking off and slipping away. \u0026quot;She's so pretty...\u0026quot;"
+    "en": "I wasn't interested in dating... until I met her.\r\nJust as I was about to get into another ambiguous, half-hearted relationship, I met her. Hyunjin Go, I couldn't take my eyes off her. I had been treading a dull path, and she knocked me right off. Then I felt it- a little piece of my heart, breaking off and slipping away. \"She's so pretty...\""
    },
    "links": {
     "ap": "words-and-kisses",
     "raw": "https://ridibooks.com/books/4158000122"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +31,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +53,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,55 +67,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-12T04:07:52+00:00",
+   "updatedAt": "2021-05-25T15:43:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "790d01cb-3d61-4862-a7f7-61eadaaf2c73",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sehee Kim",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e5d6540f-d892-4b82-a736-e41ab041fdad",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mockma",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4ccc33d9-da1d-4ef9-afce-81a06bfad139",
-   "type": "chapter"
-  },
-  {
-   "id": "7d63f065-aafb-4b17-a679-6a1dfc325546",
-   "type": "chapter"
-  },
-  {
-   "id": "5af3e311-2e51-40dc-a728-461e914265e2",
-   "type": "chapter"
-  },
-  {
-   "id": "fbc212e3-6181-44b0-903c-d730ad2a874e",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "4d87fff1-d400-4fb5-bfff-c4ce60885d06",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:30:45+00:00",
+    "description": "",
+    "fileName": "8d8dd544-01ac-438c-a1fb-87ff1666a99a.jpg",
+    "updatedAt": "2021-05-24T18:30:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

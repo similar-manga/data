@@ -7,6 +7,11 @@
    "title": {
     "en": "Ouji ga Aishita Spy"
    },
+   "altTitles": [
+    {
+     "en": "王子が愛したスパイ"
+    }
+   ],
    "description": {
     "en": "Set a couple of years after the ending of Breakfast Club:\r\nHiroki and Miki have settled down in their respective career paths - now a successful programmer and a researcher - when Hiroki suddenly decides that he wants to open a detective agency with the help of Matsumoto and Iizuka. How will this self-proclaimed family business go?"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,51 +71,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-11T12:17:04+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "9fb88f52-8a65-446f-a0ad-96672b5fc915",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takaido Akemi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9fb88f52-8a65-446f-a0ad-96672b5fc915",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takaido Akemi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e7d1a32e-abef-4786-ad11-01b6b3c8fdf5",
-   "type": "chapter"
-  },
-  {
-   "id": "90f48872-50c3-4dbf-a0fe-dedd4ca8489a",
-   "type": "chapter"
-  },
-  {
-   "id": "002b16d8-219a-49a9-8670-0c308fd19286",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "d4b52fb9-a650-4fa7-855e-1b6e82dc0651",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:44:36+00:00",
+    "description": "",
+    "fileName": "d6d9724f-14bc-4244-906f-a21424a393fe.jpg",
+    "updatedAt": "2021-05-24T16:44:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,8 +7,15 @@
    "title": {
     "en": "My Home Hero"
    },
+   "altTitles": [
+    {
+     "en": "マイホームヒーロー"
+    }
+   ],
    "description": {
-    "en": "For the sake of his family, an average middle-aged man must go against a crime syndicate, by all means necessary. \r\n[hr][b][u]Portuguese / Portugu\u0026ecirc;s[/u][/b]:\r\n[spoiler]Pelo bem de sua filha, um homem de meia idade embarca na jornada de sua vida.[/spoiler]\r\n[hr][b][u]Turkish / T\u0026uuml;rk\u0026ccedil;e[/u][/b]:\r\n[spoiler]Orta yaşlarında bir baba kızı ve ailesi uğruna her şeyi yapmaya hazır; su\u0026ccedil; karteline karşı koymak da buna d\u0026acirc;hildir![/spoiler]"
+    "en": "For the sake of his family, an average middle-aged man must go against a crime syndicate, by all means necessary. \r\n[hr]",
+    "pt": ":\r\n[spoiler]Pelo bem de sua filha, um homem de meia idade embarca na jornada de sua vida.[/spoiler]\r\n[hr]",
+    "tr": ":\r\n[spoiler]Orta yaşlarında bir baba kızı ve ailesi uğruna her şeyi yapmaya hazır; suç karteline karşı koymak da buna dâhildir!"
    },
    "links": {
     "al": "108196",
@@ -33,6 +40,8 @@
       "name": {
        "en": "Thriller"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +52,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +64,8 @@
       "name": {
        "en": "Crime"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,6 +76,8 @@
       "name": {
        "en": "Mafia"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -73,6 +88,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -83,6 +100,8 @@
       "name": {
        "en": "Delinquents"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -93,91 +112,53 @@
       "name": {
        "en": "Police"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-29T23:55:15+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "2dd1aadb-08c9-49a4-80fc-80ef2db77831",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamakawa Naoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "140738e2-ae0c-4e62-a96a-f16103f61110",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asaki Masashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "51e84a19-0acd-49f0-b9e8-8e4a928634c8",
-   "type": "chapter"
-  },
-  {
-   "id": "cbc8ecb0-1ea8-482c-8222-f4ac751f9422",
-   "type": "chapter"
-  },
-  {
-   "id": "e634a33d-f789-4eef-83ef-52afb5ed36b2",
-   "type": "chapter"
-  },
-  {
-   "id": "f3fcac09-e738-4a7f-9941-9e73e55daec6",
-   "type": "chapter"
-  },
-  {
-   "id": "d05d1346-4a69-408d-be8d-58484eb954ae",
-   "type": "chapter"
-  },
-  {
-   "id": "5317f175-107e-41b3-bbfc-ab4d0d6dcb80",
-   "type": "chapter"
-  },
-  {
-   "id": "b42c1728-88f4-49c3-8dde-8dca44d98444",
-   "type": "chapter"
-  },
-  {
-   "id": "7b3081f2-a46c-417a-9c19-3fd833498f43",
-   "type": "chapter"
-  },
-  {
-   "id": "56e5f9b0-9f98-42b4-94a8-d109fafc7a4e",
-   "type": "chapter"
-  },
-  {
-   "id": "1f6a6733-fc30-445f-9d22-d8598492fc3c",
-   "type": "chapter"
-  },
-  {
-   "id": "07251805-a27e-4d59-b488-f0bfbec15168",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
-   "type": "tag"
-  },
-  {
-   "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "da2d50ca-3018-4cc0-ac7a-6b7d472a29ea",
-   "type": "tag"
-  },
-  {
-   "id": "df33b754-73a3-4c54-80e6-1a74a8058539",
-   "type": "tag"
+   "id": "f3a43733-0034-4f5b-aa69-19ada26b2f9a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:35:39+00:00",
+    "description": "",
+    "fileName": "50e8a0a8-a742-47da-a626-9ed0cb266d72.jpg",
+    "updatedAt": "2021-05-24T17:35:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

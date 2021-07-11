@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon Black and White - Fuuro Ningen Houdan (Doujinshi)"
+    "en": "Pokémon Black and White - Fuuro Ningen Houdan (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "フウロニンゲンホウダン"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +19,6 @@
     "mu": "63076"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,35 +41,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-13T05:38:55+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "29e85a60-7f33-421f-8407-f79def8ea981",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "R2",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1db6e6c9-637b-4fec-870e-824e673f0a60",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Rakko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "db8f9885-0cbd-477a-84e6-197a693e3f5e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "79a9a152-b713-4fd6-913f-9a9d6d8a31e1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:39+00:00",
+    "description": "",
+    "fileName": "f5873e04-803b-46d0-a132-13473f58586f.jpg",
+    "updatedAt": "2021-05-24T17:11:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -16,7 +16,6 @@
     "mu": "175131"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "ongoing",
    "contentRating": "safe",
@@ -28,6 +27,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +39,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,6 +51,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,8 +61,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,6 +75,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -78,6 +87,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -88,75 +99,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-19T06:34:22+00:00",
+   "updatedAt": "2021-05-25T15:44:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "69ad7719-09ab-4a2d-bb72-887d1f406987",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Manjogyeong",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4ad2132a-c773-4b97-bc6c-3aea1078e804",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "P.P",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "565846c0-b64a-4ed8-ad2d-dbab2d525fc1",
-   "type": "chapter"
-  },
-  {
-   "id": "9fd0cf4a-3d3d-407e-88dc-788c2d9cf390",
-   "type": "chapter"
-  },
-  {
-   "id": "d93a4f89-8de6-4d4a-af8c-677256226a27",
-   "type": "chapter"
-  },
-  {
-   "id": "bcadfa27-a8b0-45f2-8fa4-bd06dd9128e0",
-   "type": "chapter"
-  },
-  {
-   "id": "d90ccf7a-1126-451b-be5e-50b48ed75a4f",
-   "type": "chapter"
-  },
-  {
-   "id": "aadcb2ed-c321-4c4a-9f74-215fc91a8508",
-   "type": "chapter"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "29ab2e55-955c-4f62-bb9f-3882845b1033",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:32:09+00:00",
+    "description": "",
+    "fileName": "b2d39865-fb6a-4c46-b8ae-7e93f07308d5.jpg",
+    "updatedAt": "2021-05-24T18:32:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,11 +7,15 @@
    "title": {
     "en": "Night Diver"
    },
+   "altTitles": [
+    {
+     "en": "ナイトダイバー"
+    }
+   ],
    "description": {
     "en": "A night diver and her cameraman find a most curious octopus..."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Monsters"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,39 +50,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-15T16:03:46+00:00",
+   "updatedAt": "2021-05-25T15:44:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "f3638f2c-763d-4dde-8ecd-faf6a818e383",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mafuyu Mari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f3638f2c-763d-4dde-8ecd-faf6a818e383",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mafuyu Mari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "21f4b36e-464f-487c-b085-da4158d60cea",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "69225ea3-e56b-4f3d-90c1-806b978e93e1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:59:27+00:00",
+    "description": "",
+    "fileName": "0ea2f4b4-0ecc-4d5e-84d2-2bd019fa126e.png",
+    "updatedAt": "2021-05-24T17:59:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

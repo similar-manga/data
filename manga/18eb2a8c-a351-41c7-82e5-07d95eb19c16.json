@@ -7,6 +7,11 @@
    "title": {
     "en": "The Black Cat"
    },
+   "altTitles": [
+    {
+     "en": "Kuro Neko"
+    }
+   ],
    "description": {
     "en": "Kuro Neko. Oneshot.\r\n\r\nThe story is based on the classic work of the same name by Edgar Allen Poe. This is an original rendition of the traditional story. It is NOT for the faint of heart!"
    },
@@ -18,7 +23,6 @@
     "mu": "8020"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +34,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,39 +46,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-16T16:38:23+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "430af34d-fee2-4f35-8361-0feda21279d9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ito Yukari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "430af34d-fee2-4f35-8361-0feda21279d9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ito Yukari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "91e8f47c-4ee9-452f-aadf-3de629329931",
-   "type": "chapter"
-  },
-  {
-   "id": "3efd9625-37b7-4a41-af54-901a227e8b22",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "af6eac67-7a33-4fdc-b1e4-c54e283ed53e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:16:00+00:00",
+    "description": "",
+    "fileName": "aac2f96f-b4ac-453f-bf2b-63234b997042.jpg",
+    "updatedAt": "2021-05-24T17:16:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

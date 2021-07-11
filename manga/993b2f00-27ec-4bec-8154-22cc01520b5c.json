@@ -7,6 +7,14 @@
    "title": {
     "en": "Baby Cinnamon"
    },
+   "altTitles": [
+    {
+     "en": "Малыш-корица"
+    },
+    {
+     "en": "ベビーシナモン"
+    }
+   ],
    "description": {
     "en": "Hayasaka is a mangaka who just turned in his last manuscript to his editor, Sakurai. Somehow, she loses it before submitting it."
    },
@@ -18,7 +26,6 @@
     "mu": "52595"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +49,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +61,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,43 +73,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-02T13:27:07+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "9ea4efee-6fe4-45e2-80c2-f4a0ae8004fb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "INUGAMI Sukune",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9ea4efee-6fe4-45e2-80c2-f4a0ae8004fb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "INUGAMI Sukune",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "47cc8bb8-d4c9-47be-9060-5640227edb83",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "f68f0e96-0a87-4fb2-b1d3-b579473f8cf5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:39:37+00:00",
+    "description": "",
+    "fileName": "e2faa389-30d7-4fe3-9e51-6421eead2bb4.png",
+    "updatedAt": "2021-05-24T18:39:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

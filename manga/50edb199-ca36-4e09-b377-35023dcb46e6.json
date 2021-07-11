@@ -7,11 +7,15 @@
    "title": {
     "en": "Nika"
    },
+   "altTitles": [
+    {
+     "en": "Ника"
+    }
+   ],
    "description": {
     "en": "This is a Russian manga, published 1998-2002. It has a total of 5 chapters (~250 pages), plus a standalone, shorter, release."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +50,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +62,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,43 +74,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-01-06T01:31:52+00:00",
+   "updatedAt": "2019-01-06T01:31:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "d65f04da-aaf4-40e0-aa0b-ac62d68ab22d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Bogdan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d65f04da-aaf4-40e0-aa0b-ac62d68ab22d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Bogdan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "295dbe3a-c539-4f31-aee9-648a2a35835d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:53+00:00",
+    "description": "",
+    "fileName": "c3d848e3-1fd6-4f68-aa6f-064cb6c9305a.jpg",
+    "updatedAt": "2021-05-24T16:56:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

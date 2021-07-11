@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Yuzu Chu\u0026hearts;"
+    "en": "Yuzu Chu♥"
    },
+   "altTitles": [
+    {
+     "en": "Yuzu-chu"
+    },
+    {
+     "en": "Yuzuchu"
+    },
+    {
+     "en": "ゆずchu♥"
+    }
+   ],
    "description": {
     "en": "Kei has a secret crush on Yuzuyu, the most popular girl in the classroom. One day, he is attacked by unknown warriors and the one who rescues him is Yuzuyu herself, dressed in a weird costume, claiming that she is his property and that he can do with her as he pleases from now on."
    },
@@ -18,7 +29,6 @@
     "mu": "46094"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "suggestive",
@@ -30,6 +40,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +52,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,39 +64,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-24T17:48:16+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "5cc8ca22-1020-4b52-acad-1ff81164b292",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "AMATSU Sae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5cc8ca22-1020-4b52-acad-1ff81164b292",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "AMATSU Sae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dc74acbc-145c-4255-9ea6-7a0f561dcf2c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "60cc22ec-3f32-4f41-9488-a5c461fe9a4d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:59:07+00:00",
+    "description": "",
+    "fileName": "f93d33de-afa5-4f4e-94f9-8f895248a57a.jpg",
+    "updatedAt": "2021-05-24T17:59:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

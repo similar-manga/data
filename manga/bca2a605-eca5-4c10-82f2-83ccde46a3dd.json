@@ -7,6 +7,14 @@
    "title": {
     "en": "Gin no Kutsu"
    },
+   "altTitles": [
+    {
+     "en": "Silver Shoes"
+    },
+    {
+     "en": "銀のくつ"
+    }
+   ],
    "description": {
     "en": "This is the story of Jun, a (nearly) six-year-old boy. Life from the point of view of a little rascal with two loving dads and a pair of adorable friends."
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,8 +47,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,75 +61,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-03T14:59:28+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "21dda132-7b50-4787-b131-e83c92604aa5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shinomiya Shino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "21dda132-7b50-4787-b131-e83c92604aa5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shinomiya Shino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d55b73fb-c48f-4008-b1e9-f301490860d5",
-   "type": "chapter"
-  },
-  {
-   "id": "f29fdb37-1628-4782-a6c3-43bded8df747",
-   "type": "chapter"
-  },
-  {
-   "id": "cecd936c-a1c3-42ef-b3d7-cb404dc7cfcf",
-   "type": "chapter"
-  },
-  {
-   "id": "36b0a328-730e-475f-a09b-7fecf02d6aa4",
-   "type": "chapter"
-  },
-  {
-   "id": "a73c573e-a781-426f-b82e-ac80e7658ede",
-   "type": "chapter"
-  },
-  {
-   "id": "c2179f27-1547-48f9-9fc6-50416c69bdb8",
-   "type": "chapter"
-  },
-  {
-   "id": "49c9247a-4b69-4cee-a759-2f9f12bd6103",
-   "type": "chapter"
-  },
-  {
-   "id": "607ee41f-bd49-47ab-84ca-f73d10a6958a",
-   "type": "chapter"
-  },
-  {
-   "id": "625c7847-29ef-4363-8f33-3416f1f70b07",
-   "type": "chapter"
-  },
-  {
-   "id": "7a61b6d7-37b7-4848-9702-627a449c286c",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "892b9209-f88a-4f71-b54e-7b95a4678a38",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:07+00:00",
+    "description": "",
+    "fileName": "d45b5979-4903-47f3-889b-c226e53babc1.jpg",
+    "updatedAt": "2021-05-24T17:00:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

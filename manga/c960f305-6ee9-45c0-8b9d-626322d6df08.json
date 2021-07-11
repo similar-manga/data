@@ -14,7 +14,6 @@
     "mu": "145022"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,47 +49,53 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-28T20:46:16+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "e6223c6c-f50e-497f-80c9-29063132d575",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Iwai Aki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e6223c6c-f50e-497f-80c9-29063132d575",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Iwai Aki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b03f45be-cfa9-4d84-bdb4-16fcd3615baa",
-   "type": "chapter"
-  },
-  {
-   "id": "803cc0a3-910d-4f96-981d-4e0ccdf22e4b",
-   "type": "chapter"
-  },
-  {
-   "id": "b222b892-be57-4909-811f-e45a9f59204e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
+   "id": "427d08df-9812-4fe6-985d-8c8f84c6b9cc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:57+00:00",
+    "description": "",
+    "fileName": "b06d1af3-74de-475a-92d9-8654a18c6a9b.jpg",
+    "updatedAt": "2021-05-24T17:02:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

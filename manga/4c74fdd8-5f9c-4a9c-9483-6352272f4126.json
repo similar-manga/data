@@ -7,6 +7,11 @@
    "title": {
     "en": "Yoru no Tenohira"
    },
+   "altTitles": [
+    {
+     "en": "続・夜のてのひら"
+    }
+   ],
    "description": {
     "en": "Yamada is a cameraman who works at a local TV station. He is asked to film the rumored appearance of a monster at a secret hot spring by the mountain recesses. What will he find there?"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,47 +71,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-17T21:41:43+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "e5cf813a-716b-4a19-966d-b48472050f8d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kojima Lalako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e5cf813a-716b-4a19-966d-b48472050f8d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kojima Lalako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2174132d-af64-4ffc-8962-a3997bdd922f",
-   "type": "chapter"
-  },
-  {
-   "id": "2bd91a19-4243-4b52-b2d3-99ebbe118032",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "42166803-336b-4f4f-bd72-13440efb4f8c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:52:02+00:00",
+    "description": "",
+    "fileName": "a3f73a14-bbad-4786-98cc-650e2c4a54a4.png",
+    "updatedAt": "2021-05-24T17:52:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

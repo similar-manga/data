@@ -7,6 +7,20 @@
    "title": {
     "en": "Go Rin no Sho"
    },
+   "altTitles": [
+    {
+     "en": "O Livro dos Cinco Anéis"
+    },
+    {
+     "en": "The Book of Five Rings"
+    },
+    {
+     "en": "The book of the five rings"
+    },
+    {
+     "en": "五輪書"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -26,55 +40,65 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-09T15:39:10+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "7522b2ef-13a6-4659-ba0b-0cc9df9d9b04",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MUSASHI Miyamoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c0ac350d-d961-4825-8349-a54b524ebae1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Variety Art Works",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c0ac350d-d961-4825-8349-a54b524ebae1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Variety Art Works",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cc258e78-087a-4714-a905-822e029f4a24",
-   "type": "chapter"
-  },
-  {
-   "id": "f5c25ec3-b541-4d8e-9c3c-fbe6262bbdbe",
-   "type": "chapter"
-  },
-  {
-   "id": "06dd6659-4ca5-4f56-97f0-497ee03d71d6",
-   "type": "chapter"
-  },
-  {
-   "id": "9dbadfa6-7026-4d72-91ca-441c6d0566be",
-   "type": "chapter"
-  },
-  {
-   "id": "609ee65e-a2e2-415d-a5fd-f7b1afcf98f7",
-   "type": "chapter"
-  },
-  {
-   "id": "ac608700-fb0a-4b09-b74c-9c305858193d",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
+   "id": "3891b806-3938-4fc4-96bc-5c39461d45e4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:48:00+00:00",
+    "description": "",
+    "fileName": "89fc4cc2-032e-4ab1-a1c6-ba9368f3dd16.jpg",
+    "updatedAt": "2021-05-24T17:48:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

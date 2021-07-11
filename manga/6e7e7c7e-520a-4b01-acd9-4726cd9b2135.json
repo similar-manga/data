@@ -7,6 +7,20 @@
    "title": {
     "en": "The Boys of Summer"
    },
+   "altTitles": [
+    {
+     "en": "Los Chicos del Verano"
+    },
+    {
+     "en": "Summer boy"
+    },
+    {
+     "en": "Summer boys "
+    },
+    {
+     "en": "여름소년가"
+    }
+   ],
    "description": {
     "en": "33 years after a zombie outbreak, Lee Ji-seung, a boy born with blood that can cure zombies, is worshiped as a guardian deity in Korea. As Ji-seung gets closer to a boy named Jeon Ho-kyung, who recently awakes from his slumber, Ji-seung can't help but feel attracted to him..."
    },
@@ -27,6 +41,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +53,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,6 +65,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,8 +75,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +89,8 @@
       "name": {
        "en": "Zombies"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -77,6 +101,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -87,79 +113,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-04T21:38:36+00:00",
+   "updatedAt": "2021-05-25T15:43:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "bcd2964c-0c11-4e5a-96fa-e7636a105485",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "박하",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8e95b320-31c0-45c9-8d96-e9178199f879",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "정후",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "07aaeb74-4be6-462a-8407-b1c449549328",
-   "type": "chapter"
-  },
-  {
-   "id": "1f1d69c4-78c8-43e1-9a93-2356cbaf9db4",
-   "type": "chapter"
-  },
-  {
-   "id": "4aa6418a-8c10-4093-b9ef-0bbe38b9d254",
-   "type": "chapter"
-  },
-  {
-   "id": "2a209117-c1ae-424b-9742-1ffb65779808",
-   "type": "chapter"
-  },
-  {
-   "id": "7ce014d0-8346-465a-aaf7-79e6832248e2",
-   "type": "chapter"
-  },
-  {
-   "id": "7c605df3-071b-49f2-995e-3dd67891983e",
-   "type": "chapter"
-  },
-  {
-   "id": "05e83ed0-fb0d-460d-88c7-f428afe71b55",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "631ef465-9aba-4afb-b0fc-ea10efe274a8",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "ef469254-6e89-4fa5-afa7-89334f811893",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:36+00:00",
+    "description": "",
+    "fileName": "fe38aed2-c783-4e9e-b265-119911d659a4.png",
+    "updatedAt": "2021-05-24T18:17:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

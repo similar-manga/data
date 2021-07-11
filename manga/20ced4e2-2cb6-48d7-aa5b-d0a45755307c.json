@@ -7,6 +7,14 @@
    "title": {
     "en": "Koe Koi"
    },
+   "altTitles": [
+    {
+     "en": "Voice Love"
+    },
+    {
+     "en": "こえ恋"
+    }
+   ],
    "description": {
     "en": "The slightly unusual Matsubara-kun and Yuiko-chan's slightly unusual high school life.\r\n\r\nOfficial English translation on Comico's [url=https://www.comico.io/pocket-comics]Pocket Comics app[/url]"
    },
@@ -35,6 +43,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,6 +55,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +67,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,6 +79,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -75,6 +91,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -85,6 +103,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -95,6 +115,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -105,95 +127,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-01T07:33:06+00:00",
+   "updatedAt": "2021-05-25T15:40:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "d5095d7e-4e54-4e67-b3c5-e09dd781fc9f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Doruru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d5095d7e-4e54-4e67-b3c5-e09dd781fc9f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Doruru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e1d46683-a951-4bc6-b5f4-33f844119029",
-   "type": "chapter"
-  },
-  {
-   "id": "59564ed1-e025-48c6-bc90-12a6ac6920fb",
-   "type": "chapter"
-  },
-  {
-   "id": "608baafd-84dc-4a07-b95b-bde251dfa7b3",
-   "type": "chapter"
-  },
-  {
-   "id": "4a328934-05b7-4688-8b23-9720ff9ab266",
-   "type": "chapter"
-  },
-  {
-   "id": "6de3db8c-d1b4-400a-b782-92f16aca492c",
-   "type": "chapter"
-  },
-  {
-   "id": "00fb7d23-1767-4d3a-9305-6a65b2c40ece",
-   "type": "chapter"
-  },
-  {
-   "id": "1ffa5c82-0dbb-4d78-8159-2e955d87bf9e",
-   "type": "chapter"
-  },
-  {
-   "id": "4938d228-8f6b-43e8-8169-6d6d397ae4fd",
-   "type": "chapter"
-  },
-  {
-   "id": "39f6d812-a433-4f3c-b4b1-42f33ed2dd79",
-   "type": "chapter"
-  },
-  {
-   "id": "48f6ba73-89ea-4711-8175-ac3579bf4c57",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "2cb35d7d-571a-4f89-9750-9d4013066dfa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:26+00:00",
+    "description": "",
+    "fileName": "5feaca39-c4ff-409d-9b83-5e7b91011f3b.jpg",
+    "updatedAt": "2021-05-24T16:56:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

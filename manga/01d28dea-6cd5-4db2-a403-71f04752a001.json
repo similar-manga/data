@@ -7,6 +7,11 @@
    "title": {
     "en": "Endless Your World"
    },
+   "altTitles": [
+    {
+     "en": "엔드리스"
+    }
+   ],
    "description": {
     "en": "The not-so distant future between reality and virtual reality. The story of people fighting to protect the value of their essence in a world where fake and real exist"
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Thriller"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +55,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -56,6 +67,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,6 +79,8 @@
       "name": {
        "en": "Virtual Reality"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -76,6 +91,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -86,6 +103,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -96,71 +115,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-22T04:36:35+00:00",
+   "updatedAt": "2021-05-25T15:38:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "6b533c0f-d52b-43d1-b0ba-f1aa4456027f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "윤준식",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "29f993e5-ce61-4c4f-aa2d-2a9a81328dbb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "박하연",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "639a3bbc-e954-4b91-b9ba-cfbe95dcf6ef",
-   "type": "chapter"
-  },
-  {
-   "id": "bb9c5621-65ed-4ce0-87a7-45d2835bd137",
-   "type": "chapter"
-  },
-  {
-   "id": "aac43c74-5374-4f43-97be-0a23eed2e51f",
-   "type": "chapter"
-  },
-  {
-   "id": "983a8303-8d75-46c7-9313-fa5173f2a5fb",
-   "type": "chapter"
-  },
-  {
-   "id": "07251805-a27e-4d59-b488-f0bfbec15168",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "8c86611e-fab7-4986-9dec-d1a2f44acdd5",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "e5d5c259-f6e3-4f9b-aa45-dfddc822df53",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:11:38+00:00",
+    "description": "",
+    "fileName": "ea8045e9-66fb-4a7b-aad4-75b021c7bb51.jpg",
+    "updatedAt": "2021-05-24T18:11:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

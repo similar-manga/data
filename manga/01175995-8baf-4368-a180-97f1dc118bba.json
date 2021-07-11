@@ -31,6 +31,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,51 +43,53 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-23T13:58:56+00:00",
+   "updatedAt": "2021-05-25T15:38:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "52f04872-74ab-4fb8-9988-7592883e79d0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ibuki Misato",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "52f04872-74ab-4fb8-9988-7592883e79d0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ibuki Misato",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "11555033-7338-43f8-b0c6-9c4e4bd44546",
-   "type": "chapter"
-  },
-  {
-   "id": "49498689-533e-45b6-bbd4-45e345c9b425",
-   "type": "chapter"
-  },
-  {
-   "id": "a58c1cd5-0d74-4355-af82-4f3aca77f4c3",
-   "type": "chapter"
-  },
-  {
-   "id": "89cacfb6-ff51-4635-922e-9519d14611d2",
-   "type": "chapter"
-  },
-  {
-   "id": "13ab7687-85c1-443a-8ae6-fbb6fd6a6e5f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
+   "id": "827c3e92-535a-4f94-942f-7ce956404207",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:45:52+00:00",
+    "description": "",
+    "fileName": "f732d542-0d07-4a5a-b7d0-ca26799862f0.jpg",
+    "updatedAt": "2021-05-24T16:45:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

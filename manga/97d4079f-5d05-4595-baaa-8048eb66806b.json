@@ -7,6 +7,11 @@
    "title": {
     "en": "Vulgar Bingo"
    },
+   "altTitles": [
+    {
+     "en": "ヴァルガビンゴ"
+    }
+   ],
    "description": {
     "en": "Rengo Orii loves superheroes. Other people say that his favorite, Megalith, is an old man who should just retire already, but as far as he's concerned, anything Megalith does has to be true justice.\r\n\r\nOne day, a bizarre encounter leaves Rengo with the power to transform... not into an awe-inspiring superhero, but a horrifying insectoid monster! Rengo realizes that even though he might not look the part, he can still be the superhero he's always dreamed of being now, but it turns out copying Megalith's signature knee to the face isn't such a good idea when you're strong enough to kick someone's head off! Can a monster with a little kid's sense of justice really be a hero!?"
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +60,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,47 +72,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-07T16:34:47+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "cc0d17c8-78e1-47f7-936d-1c0464fbc1d9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Agagaya Peramo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cc0d17c8-78e1-47f7-936d-1c0464fbc1d9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Agagaya Peramo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ee435a84-951d-449f-8635-241db0bcf33e",
-   "type": "chapter"
-  },
-  {
-   "id": "454557e4-b4d8-4603-a6bf-218d88e81069",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "327021ce-2423-4fbc-af7d-0cfcf0dc3ddd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:04+00:00",
+    "description": "",
+    "fileName": "4df51a2e-2abc-47e6-aa3e-a6f6b488340c.jpg",
+    "updatedAt": "2021-05-24T16:57:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

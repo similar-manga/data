@@ -7,6 +7,11 @@
    "title": {
     "en": "Gilgamesh"
    },
+   "altTitles": [
+    {
+     "en": "ギルガメッシュ"
+    }
+   ],
    "description": {
     "en": "An epic sci-fi story heavily influenced by the Epic of Gilgamesh, as several groups fight for a mysterious power. While a close brother and sister get tied up into the battle unwillingly."
    },
@@ -33,6 +38,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,59 +50,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-19T22:08:47+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "28f0f46d-cb98-4f0c-9db4-e689def0f6ef",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ISHINOMORI Shotaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "28f0f46d-cb98-4f0c-9db4-e689def0f6ef",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ISHINOMORI Shotaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2b65e2d5-1e3b-4ba4-9225-cbb04ebbc965",
-   "type": "chapter"
-  },
-  {
-   "id": "7394648d-1f82-4c75-898b-ded9ce768499",
-   "type": "chapter"
-  },
-  {
-   "id": "0daee2e9-4f5f-47e7-9677-a4d5e59ae8ef",
-   "type": "chapter"
-  },
-  {
-   "id": "9fc8b188-2004-4a03-a155-49a9576a48cd",
-   "type": "chapter"
-  },
-  {
-   "id": "7e1b5134-79a0-4419-957c-1ea5c9e4a83f",
-   "type": "chapter"
-  },
-  {
-   "id": "2d0e3626-ce68-478b-a4d9-f195b99f25f7",
-   "type": "chapter"
-  },
-  {
-   "id": "d1e7cdfd-c696-41e8-ace7-2eb574684c62",
-   "type": "chapter"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "f2d2f7a0-1588-4f00-b7d7-819485d30815",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:48:43+00:00",
+    "description": "",
+    "fileName": "9a653997-90b8-448a-84b7-8bc13a47c469.jpg",
+    "updatedAt": "2021-05-24T16:48:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Hanaya no Nikai de"
    },
+   "altTitles": [
+    {
+     "en": "花屋の二階で"
+    }
+   ],
    "description": {
     "en": "Akinobu wakes up one morning in another's bed with someone most familiar and unexpected."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-08T19:22:36+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "f06b72af-226e-47de-a7af-62a536210d4f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sugano Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5972d23d-63c3-4269-8bb3-230c9b343b0f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ninomiya Etsumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f3e1294e-4bcb-49f3-8c2b-3f510261243a",
-   "type": "chapter"
-  },
-  {
-   "id": "baa49b05-ca66-492d-9e9b-abf33d331d06",
-   "type": "chapter"
-  },
-  {
-   "id": "2e5f9dea-ba85-4c08-896b-bfe9550c9f01",
-   "type": "chapter"
-  },
-  {
-   "id": "ab83f4b9-9d5a-4df7-8c64-315aab595b28",
-   "type": "chapter"
-  },
-  {
-   "id": "1777121f-bff1-42f7-b960-0c76cbfb0ca6",
-   "type": "chapter"
-  },
-  {
-   "id": "097a01a5-bbc0-4c37-b61d-32a33a7ccc43",
-   "type": "chapter"
-  },
-  {
-   "id": "4e513be9-a863-4815-9f1e-eac89b061711",
-   "type": "chapter"
-  },
-  {
-   "id": "a55ecca9-5d70-4d83-912b-542edc59432d",
-   "type": "chapter"
-  },
-  {
-   "id": "0a011c87-60c1-4635-8022-a0f6218ca9c8",
-   "type": "chapter"
-  },
-  {
-   "id": "e75728be-59df-4910-9400-ad0a2d1ef294",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "6628b5d1-8d39-4fe5-86ee-5c7cceed6644",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:17+00:00",
+    "description": "",
+    "fileName": "7d7471df-59be-494e-98f7-cdb685c4abbf.jpg",
+    "updatedAt": "2021-05-24T17:18:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

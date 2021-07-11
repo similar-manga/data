@@ -23,6 +23,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,47 +47,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-15T08:37:34+00:00",
+   "updatedAt": "2021-05-25T15:39:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "495bcda7-e2c7-4812-8a14-0f602cefad78",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Watari Wataru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7008ead9-a516-48dd-9545-acc4e3333c3a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ponkan 8",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "aafb2035-a28f-4295-be36-f1d46caeaae3",
-   "type": "chapter"
-  },
-  {
-   "id": "4397f693-8226-4779-bc16-000ab99c9afd",
-   "type": "chapter"
-  },
-  {
-   "id": "ccb7c460-9ae8-4689-bb4f-b8d1c883c023",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "e573af55-1463-4f10-b710-6501d7091f3a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:19:03+00:00",
+    "description": "",
+    "fileName": "bd2fae68-eb61-4e00-82c8-02892475e5e6.jpg",
+    "updatedAt": "2021-05-24T17:19:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

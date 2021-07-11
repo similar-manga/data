@@ -8,10 +8,9 @@
     "en": "Toaru Kagaku no Accelerator: After Record Report"
    },
    "description": {
-    "en": "This was an official anthology chapter released in the Toaru Kagaku no Accelerator \u0026times; Toaru Kagaku no Railgun Toaru Magazine."
+    "en": "This was an official anthology chapter released in the Toaru Kagaku no Accelerator × Toaru Kagaku no Railgun Toaru Magazine."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +46,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -53,43 +58,53 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-20T11:16:22+00:00",
+   "updatedAt": "2021-05-25T15:41:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "cf4d3cb4-221a-4dd9-9ca6-6285fce67b23",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kamachi Kazuma",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "00e25b94-a03b-4b24-bfa8-920eb3d00cb4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nanamomori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a82797b5-c4be-49d3-836b-6c028e3bebc4",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
+   "id": "b850b827-c3fb-4f78-8b4b-5efacbbc9199",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:49:16+00:00",
+    "description": "",
+    "fileName": "6d05a7a5-8f85-4254-b190-ecc84563a6d5.jpg",
+    "updatedAt": "2021-05-24T17:49:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

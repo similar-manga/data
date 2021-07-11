@@ -11,7 +11,6 @@
     "en": "This is the author's first ever manga (web)!\r\n\r\nSchool, \r\nhope and delusions, the future and the past, \r\nscars, chlorine and boredom. \r\nTaste of degraded caiten, roar of cicadas, cloud cover. \r\n\r\nThe encounter of boys. \r\nA summer jubilee begins. \r\n(Source: Matsumoto Ichitaro, google translate)"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,39 +46,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-17T00:45:46+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "fc92fa0e-46fd-4024-9702-19b8917f9056",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Ichitaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fc92fa0e-46fd-4024-9702-19b8917f9056",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Ichitaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c63dc0e7-8013-4cb3-af49-5f1b7d870425",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "729ee8c2-9c6a-4fb2-ac28-89a68427e485",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:23:05+00:00",
+    "description": "",
+    "fileName": "6db46e39-9c3c-4177-b88f-5688d6665601.jpg",
+    "updatedAt": "2021-05-24T17:23:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

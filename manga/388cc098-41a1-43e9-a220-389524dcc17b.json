@@ -7,6 +7,11 @@
    "title": {
     "en": "Survival 2000"
    },
+   "altTitles": [
+    {
+     "en": "サバイバル2000"
+    }
+   ],
    "description": {
     "en": "A one-shot based upon Takao Saito's classic [i]Survival[/i], published as part of a series by Shogakukan authors celebrating the turn of the century."
    },
@@ -18,7 +23,6 @@
     "mu": "152573"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +46,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,43 +58,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-14T09:45:39+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "bc302292-841c-42b1-962d-bcb41d427ae2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Saito Takao",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bc302292-841c-42b1-962d-bcb41d427ae2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Saito Takao",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fb3b38c9-1bd6-4f87-8c77-cd2adc244c8f",
-   "type": "chapter"
-  },
-  {
-   "id": "c9fbd991-a122-4337-bf7b-1e75238fc94a",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "a5698a21-2851-4f87-ac16-20fbdd234dcc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:30:11+00:00",
+    "description": "",
+    "fileName": "8bc3c3ba-3aed-4a15-8c71-2033ab74e702.png",
+    "updatedAt": "2021-05-24T17:30:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

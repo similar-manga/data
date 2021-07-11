@@ -7,6 +7,17 @@
    "title": {
     "en": "Gigi Goegoe"
    },
+   "altTitles": [
+    {
+     "en": "Tales of the Unusual"
+    },
+    {
+     "en": "奇奇怪怪"
+    },
+    {
+     "en": "기기괴괴"
+    }
+   ],
    "description": {
     "en": "Series of unusual, strange, and mysterious thriller."
    },
@@ -28,6 +39,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +51,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,6 +63,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -58,6 +75,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -68,6 +87,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -78,6 +99,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -88,91 +111,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-18T20:46:06+00:00",
+   "updatedAt": "2021-05-25T15:49:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "a2b758a5-660d-4d10-8a4e-038e4f9f5017",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oh Seongdae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a2b758a5-660d-4d10-8a4e-038e4f9f5017",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oh Seongdae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "635246f4-48b3-48a5-a6d3-9be0983ff76d",
-   "type": "chapter"
-  },
-  {
-   "id": "8d913b49-b641-493d-b095-5360b4f3216f",
-   "type": "chapter"
-  },
-  {
-   "id": "18172a8f-b087-47d8-a472-be6873b80cf0",
-   "type": "chapter"
-  },
-  {
-   "id": "9986bbad-d646-4d68-823b-2537cf7727a0",
-   "type": "chapter"
-  },
-  {
-   "id": "5fae072f-9e26-4bd2-af74-5ebd903e0ba7",
-   "type": "chapter"
-  },
-  {
-   "id": "cfcb7db2-c10c-44b9-8b2e-687e5e2dec5f",
-   "type": "chapter"
-  },
-  {
-   "id": "38d0c0a3-9386-4fbf-a524-81f6f78074f6",
-   "type": "chapter"
-  },
-  {
-   "id": "61cd124a-e7cc-466b-813f-c684c9b6e993",
-   "type": "chapter"
-  },
-  {
-   "id": "1a95baa8-1bc8-4706-aa22-e32a99aba6dc",
-   "type": "chapter"
-  },
-  {
-   "id": "e29e6f2a-429e-490a-b057-dbfa2d08fa24",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "d84acf48-4c46-4f44-a20c-811842ab578a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:52+00:00",
+    "description": "",
+    "fileName": "b9613bee-1ee9-4e3c-a77f-ed10bfdf9831.jpg",
+    "updatedAt": "2021-05-24T17:15:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

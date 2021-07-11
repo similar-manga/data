@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Hypnosis Mic -Division Rap Battle - side D.H \u0026amp; B.A.T"
+    "en": "Hypnosis Mic -Division Rap Battle - side D.H \u0026 B.A.T"
    },
+   "altTitles": [
+    {
+     "en": "ヒプノシスマイク -Division Rap Battle- side D.H \u0026 B.A.T"
+    }
+   ],
    "description": {
     "en": "Manga adaptation of the divisions from Hypnosis Microphone, Dotsuitare Hompo and Bad Ass Temple.\r\n\r\nEvil Line Records is responsible for the original work, while Yuichiro Momose is the franchise's scenario writer."
    },
@@ -18,7 +23,6 @@
     "raw": "https://pocket.shonenmagazine.com/episode/13933686331617760560"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -30,6 +34,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +46,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +58,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,39 +70,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-09-02T02:50:07+00:00",
+   "updatedAt": "2020-09-02T02:50:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "1820bd01-d43b-4f87-a121-1713516d74ac",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yuichiro Momose",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "86da7e92-c801-4dac-a7a2-8e1b3859766e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kikou Aiba",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "ec676b5c-1aeb-4fd2-946d-8c90dd091e52",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:08:42+00:00",
+    "description": "",
+    "fileName": "9b1ba691-427c-4df9-bd29-865bf2c79892.jpg",
+    "updatedAt": "2021-05-24T18:08:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

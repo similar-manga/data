@@ -31,6 +31,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +43,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,75 +55,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-10T20:16:34+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "30ce23e9-ab28-426e-a54e-0bf76b3190bf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Taiyou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "30ce23e9-ab28-426e-a54e-0bf76b3190bf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Taiyou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d110e1ae-455f-4eda-8349-3d83ad206054",
-   "type": "chapter"
-  },
-  {
-   "id": "f10f8bc2-b9d8-4202-a82b-949475ed1492",
-   "type": "chapter"
-  },
-  {
-   "id": "2b6b9195-6464-4d1d-b615-dba6b975845c",
-   "type": "chapter"
-  },
-  {
-   "id": "b9b0ee0a-ccb5-44c6-94ec-ec90567a4df6",
-   "type": "chapter"
-  },
-  {
-   "id": "6209d3be-640e-4f17-83da-ac40f9b3da8e",
-   "type": "chapter"
-  },
-  {
-   "id": "0b85782a-107a-4fd6-9a15-81b365f499f2",
-   "type": "chapter"
-  },
-  {
-   "id": "360fe4db-cd59-4c78-b3ab-d8e45a6be1f1",
-   "type": "chapter"
-  },
-  {
-   "id": "3ca1e053-ba95-47b9-8db8-926f551189fd",
-   "type": "chapter"
-  },
-  {
-   "id": "a72efa6a-3814-4766-a83a-33b9753fc078",
-   "type": "chapter"
-  },
-  {
-   "id": "ab1b81fd-ed17-40ce-973a-44f77139a7d9",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "72bbf139-366b-4f17-b735-b5bc35e1a10b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:18+00:00",
+    "description": "",
+    "fileName": "57bd4cbf-edaa-4e07-adb8-9a37f0929684.png",
+    "updatedAt": "2021-05-24T17:09:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

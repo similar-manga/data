@@ -7,6 +7,14 @@
    "title": {
     "en": "Watashi Baka"
    },
+   "altTitles": [
+    {
+     "en": "I’m A Fool"
+    },
+    {
+     "en": "私馬鹿"
+    }
+   ],
    "description": {
     "en": "Two women who went to the same high school meet by chance. One a former literature student from a plain group, who's a freelancer now, and the other, a former idolized prince in high school, who's a beautiful office lady now."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,39 +62,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-04T09:12:01+00:00",
+   "updatedAt": "2021-05-25T15:49:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "88cac4d0-8e24-4fc4-af98-fb66d5b94cd2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Amagakure Gido",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "88cac4d0-8e24-4fc4-af98-fb66d5b94cd2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Amagakure Gido",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "15d1cf3c-5aef-40ba-8730-36aea25c6d1b",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "93654922-030d-4fac-b6e4-da927300d5d1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:21+00:00",
+    "description": "",
+    "fileName": "f4d02e49-03b5-4bac-93b3-c89032c0cf68.jpg",
+    "updatedAt": "2021-05-24T17:03:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

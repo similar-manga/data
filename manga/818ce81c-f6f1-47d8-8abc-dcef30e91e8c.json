@@ -7,6 +7,14 @@
    "title": {
     "en": "Kai to AlternaRock"
    },
+   "altTitles": [
+    {
+     "en": "Shells and AlternaRock"
+    },
+    {
+     "en": "貝とオルタナロック"
+    }
+   ],
    "description": {
     "en": "AltRock is a story between two office ladies, a senpai and her kouhai, and consists of 5 volumes."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -36,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,59 +60,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-01T03:53:26+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "0e56a669-1d96-4be5-bea5-7aacb16a6eba",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0e56a669-1d96-4be5-bea5-7aacb16a6eba",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "263e3c14-2eec-480f-a75d-99d4c5bf854c",
-   "type": "chapter"
-  },
-  {
-   "id": "18d5fc74-9c2c-4b88-99b4-531ef5b6c8b3",
-   "type": "chapter"
-  },
-  {
-   "id": "3ac1b564-b55e-44f4-919b-4b25fa970342",
-   "type": "chapter"
-  },
-  {
-   "id": "04186978-3e9d-4089-b0f6-35eeac2aae7d",
-   "type": "chapter"
-  },
-  {
-   "id": "b828744e-ba71-475b-89ec-c1b0eb091bf7",
-   "type": "chapter"
-  },
-  {
-   "id": "a806cc89-8d0e-41a6-ab46-17ba6dd95a3e",
-   "type": "chapter"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "f19790be-18d3-4fe2-92b1-135b34f1bc3d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:51+00:00",
+    "description": "",
+    "fileName": "f444f8b5-3052-4cc9-ac50-e3cfb7880553.jpg",
+    "updatedAt": "2021-05-24T16:59:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

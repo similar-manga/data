@@ -7,6 +7,20 @@
    "title": {
     "en": "Gui Mo"
    },
+   "altTitles": [
+    {
+     "en": "Ghostly Grave"
+    },
+    {
+     "en": "Grave Digger"
+    },
+    {
+     "en": "Grave Robber"
+    },
+    {
+     "en": "鬼幕"
+    }
+   ],
    "description": {
     "en": "A group of grave robbers are on the hunt for valuables inside a cave-like crypt. Little do they know that they're soon to find something or lot more unusual and a lot less forgiving than mere treasure."
    },
@@ -17,8 +31,7 @@
     "mal": "8750",
     "mu": "8058"
    },
-   "originalLanguage": "zh",
-   "lastChapter": "0",
+   "originalLanguage": "zh-hk",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +42,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +54,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +66,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -59,6 +78,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,47 +90,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-04T02:54:03+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "4663f95a-72e6-47b4-9b4a-d401e5e767f1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ha Hoiyaie",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6b58e3a7-a707-43ae-b3cb-5c4e3758c2b5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ma Wing-Shing",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "56d2e1d5-19e4-491f-a1b3-58066da902e2",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "7f0a8a4a-abed-4f6a-8281-1d812d6511b2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:49+00:00",
+    "description": "",
+    "fileName": "4f49136f-d8e2-450e-aade-e79e37dbcaff.jpg",
+    "updatedAt": "2021-05-24T17:06:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

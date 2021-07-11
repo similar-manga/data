@@ -10,8 +10,7 @@
    "description": {
     "en": "A bunch of short comics focused around Remilia Scarlet of Touhou Project. Originally chinese, so read left-to-right.\r\nArtist's pixiv: https://www.pixiv.net/member.php?id=1197484"
    },
-   "originalLanguage": "zh",
-   "lastChapter": "0",
+   "originalLanguage": "zh-hk",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Loli"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,8 +44,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +58,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -63,6 +70,8 @@
       "name": {
        "en": "Vampires"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -73,6 +82,8 @@
       "name": {
        "en": "Monster Girls"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -83,6 +94,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -93,6 +106,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -103,63 +118,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-29T10:02:23+00:00",
+   "updatedAt": "2021-05-25T15:43:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "e6b9188a-4a24-4723-b80d-7111464929a5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "fkey",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e6b9188a-4a24-4723-b80d-7111464929a5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "fkey",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "21b84fc0-e912-45b0-8e33-70824566174d",
-   "type": "chapter"
-  },
-  {
-   "id": "2d1f5d56-a1e5-4d0d-a961-2193588b08ec",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "d7d1730f-6eb0-4ba6-9437-602cac38664c",
-   "type": "tag"
-  },
-  {
-   "id": "dd1f77c5-dea9-4e2b-97ae-224af09caf99",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "e0f74603-cf99-4f25-9948-350ba6472f6b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:50:23+00:00",
+    "description": "",
+    "fileName": "298b2be2-0b51-42b1-8dbb-9ceb28daa4a0.jpg",
+    "updatedAt": "2021-05-24T17:50:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

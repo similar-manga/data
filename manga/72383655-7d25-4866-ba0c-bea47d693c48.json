@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "No Game No Life - Lively Fl\u0026uuml;gel Jibril (Doujinshi)"
+    "en": "No Game No Life - Lively Flügel Jibril (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Kenzen Tenyoku Jibril"
+    },
+    {
+     "en": "健全天翼ジブリール"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,35 +41,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-11T08:05:35+00:00",
+   "updatedAt": "2021-05-25T15:43:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "286351bb-7e3e-448a-8a68-1c3ea4d21d40",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "286351bb-7e3e-448a-8a68-1c3ea4d21d40",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fe20398a-8cd0-45d8-8c34-cc8d3ce68698",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "bd44511d-b3b4-4f60-afd0-ed59a64a3481",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:25+00:00",
+    "description": "",
+    "fileName": "0716e557-e522-45b0-bb58-2c992f2f0ccc.jpg",
+    "updatedAt": "2021-05-24T17:22:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

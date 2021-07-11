@@ -7,6 +7,14 @@
    "title": {
     "en": "Witch and Cat-chan"
    },
+   "altTitles": [
+    {
+     "en": "Majo-sama to neko-chan"
+    },
+    {
+     "en": "魔女様と猫ちゃん"
+    }
+   ],
    "description": {
     "en": "A Nagori Yu Manga formed on Pixiv"
    },
@@ -15,7 +23,6 @@
     "raw": "https://www.pixiv.net/en/artworks/71548481"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +33,8 @@
       "name": {
        "en": "Magic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -34,8 +43,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,39 +57,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-02T04:33:48+00:00",
+   "updatedAt": "2021-05-25T15:44:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "39349eb9-3d95-4ca5-acb6-fd5c6468ba35",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nagori Yu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "39349eb9-3d95-4ca5-acb6-fd5c6468ba35",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nagori Yu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0d89faee-1059-40a6-ba0a-a5ca659ebae3",
-   "type": "chapter"
-  },
-  {
-   "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "22bb283c-aa1b-4ff8-91f4-9fab19e88a2b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:29:34+00:00",
+    "description": "",
+    "fileName": "70c7f920-bb8b-410a-aa53-8e4612359ca3.jpg",
+    "updatedAt": "2021-05-24T18:29:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

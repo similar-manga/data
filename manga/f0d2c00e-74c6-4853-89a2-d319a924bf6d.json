@@ -7,6 +7,14 @@
    "title": {
     "en": "The Classmate Who Never Smiles"
    },
+   "altTitles": [
+    {
+     "en": "Classmate wa Warawanai"
+    },
+    {
+     "en": "クラスメイトは笑わない"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -25,6 +33,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +45,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +57,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -55,43 +69,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-16T14:59:28+00:00",
+   "updatedAt": "2021-05-25T15:49:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "408e0410-0c93-45cc-ae91-acdea34573b9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aoba Haru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "408e0410-0c93-45cc-ae91-acdea34573b9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aoba Haru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "390aee79-f8e8-4924-83f1-6d34a3d98122",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "b73a811f-9313-4fa0-b0ff-49a780ecd82c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:35:14+00:00",
+    "description": "",
+    "fileName": "306c3006-5944-44d3-acd1-5d2d41a8f57b.jpg",
+    "updatedAt": "2021-05-24T18:35:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

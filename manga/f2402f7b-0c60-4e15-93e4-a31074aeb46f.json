@@ -7,6 +7,14 @@
    "title": {
     "en": "Make Me Bark"
    },
+   "altTitles": [
+    {
+     "en": "Vamos a Vivir Juntos"
+    },
+    {
+     "en": "개같이 살자"
+    }
+   ],
    "description": {
     "en": "Sungjoon's not doing great, but life is looking up. His job at the convenience store pays enough for him to afford his own place. A tiny, smelly, and laughably cheap place, but he loves it. He loves it right up until he walks home and finds it on fire. \r\n\r\nUnfortunately, things get worse as he realizes he doesn't know anyone in the city who can help. Wait, no... that's not right. Actually, he does know Lee Hyo-in. A rich kid from his university who is, coincidentally, looking for a roommate. Well, not a roommate. More of a... dog."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +72,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,8 +82,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -78,6 +96,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -88,91 +108,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-25T16:15:25+00:00",
+   "updatedAt": "2021-05-25T15:49:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "221ea4e1-b5f5-40df-abcd-3f6a241554c6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sagold",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "221ea4e1-b5f5-40df-abcd-3f6a241554c6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sagold",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "54a1467a-8ba8-4e4b-b7c8-52233808f2d3",
-   "type": "chapter"
-  },
-  {
-   "id": "ce257ba6-b1df-474c-b9d0-04b94b4e89b8",
-   "type": "chapter"
-  },
-  {
-   "id": "e7861e52-e768-407a-99fb-92fedc26550e",
-   "type": "chapter"
-  },
-  {
-   "id": "075ddfa2-7727-4b0c-8bff-e42662e6fedd",
-   "type": "chapter"
-  },
-  {
-   "id": "56fe7e38-e9ec-477c-83be-65f4e049e58e",
-   "type": "chapter"
-  },
-  {
-   "id": "992f1868-faf0-4f76-b19d-7d599b96a20c",
-   "type": "chapter"
-  },
-  {
-   "id": "df02dc01-561b-4eb7-b73c-fcc603e2c6eb",
-   "type": "chapter"
-  },
-  {
-   "id": "f0695a3c-6022-4399-bf27-bce06846b6f2",
-   "type": "chapter"
-  },
-  {
-   "id": "e6364736-bcb1-4f0d-9f2e-0a52aafeb78a",
-   "type": "chapter"
-  },
-  {
-   "id": "b1d50221-10c6-4848-a738-553df19ad815",
-   "type": "chapter"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "c4494239-8e5f-4f3a-a043-6efacb6ce502",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:35+00:00",
+    "description": "",
+    "fileName": "0ddd28f8-350f-4379-9d5e-d7e5634bc143.jpg",
+    "updatedAt": "2021-05-24T17:02:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

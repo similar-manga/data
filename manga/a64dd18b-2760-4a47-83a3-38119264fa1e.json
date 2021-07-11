@@ -7,6 +7,11 @@
    "title": {
     "en": "Nickelodeon"
    },
+   "altTitles": [
+    {
+     "en": "ニッケルオデオン"
+    }
+   ],
    "description": {
     "en": "This is a collection of one-shots from Dowman Sayman. It contains short stories about serial killers finding love, historical figures brought back from the dead, a clever take on the the September 11th attack, yaoi fan-girl ghosts making suggestions to the men she watches, and everything in between."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +60,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +72,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -71,6 +84,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -81,6 +96,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -91,91 +108,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-15T20:37:14+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "3619fb4c-2c89-46e7-a82c-cec18df43a20",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Dowman Sayman",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3619fb4c-2c89-46e7-a82c-cec18df43a20",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Dowman Sayman",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a45218ec-2480-459d-b216-69aac74f8f59",
-   "type": "chapter"
-  },
-  {
-   "id": "eff6db9e-902f-4486-82ee-5028be14f646",
-   "type": "chapter"
-  },
-  {
-   "id": "dc96a843-a732-4641-9dbc-5b81099ac67b",
-   "type": "chapter"
-  },
-  {
-   "id": "84dd50b8-aae4-4f4c-b72f-ddeefc2d90c6",
-   "type": "chapter"
-  },
-  {
-   "id": "dffa7259-9e47-41de-8f3a-5d22ea743147",
-   "type": "chapter"
-  },
-  {
-   "id": "6d1eb81a-7025-4e49-8da7-39bd24563eeb",
-   "type": "chapter"
-  },
-  {
-   "id": "4dedbae2-a732-477d-a652-58270d8cceae",
-   "type": "chapter"
-  },
-  {
-   "id": "ba2a603f-4bed-4973-9e55-a1d4dbbaab67",
-   "type": "chapter"
-  },
-  {
-   "id": "0fe313b6-e12a-4807-a744-c4f29c9e33cb",
-   "type": "chapter"
-  },
-  {
-   "id": "d29a1144-6bd3-4902-9bd2-ab67f55b2366",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "e3c0bd20-50f2-4f86-9a83-ebdc2acf3b55",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:49:52+00:00",
+    "description": "",
+    "fileName": "6f72a452-3f23-41a2-bd8b-a1329806260f.jpg",
+    "updatedAt": "2021-05-24T17:49:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Pet Diary"
    },
+   "altTitles": [
+    {
+     "en": "Pet Diary (Yohan/KIM Hye-jin)"
+    },
+    {
+     "en": "펫다이어리 (요한/김혜진)"
+    }
+   ],
    "description": {
     "en": "In a dormitory where you are allowed to board only if you adopt a companion animal, a sometimes fun, sometimes dramatic -- but always touching -- story of four teenagers, their pets and their adventures unfolds"
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,79 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-01T14:09:16+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "7bba21cc-e93a-4838-b0f4-5c04c04801ef",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yohan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fab00f40-3876-4cf1-ad6b-1896d2e8aafe",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Zhena",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0bde6c93-eab2-44b5-98d3-59f4767e9fcf",
-   "type": "chapter"
-  },
-  {
-   "id": "5b977a10-4c6d-481f-9cbe-5f832065c83b",
-   "type": "chapter"
-  },
-  {
-   "id": "603de09f-53da-4373-accc-a5c543588a62",
-   "type": "chapter"
-  },
-  {
-   "id": "f354f076-ed38-4b9b-9e02-04bb56721f1e",
-   "type": "chapter"
-  },
-  {
-   "id": "11a7e8f1-3a0b-48da-89c7-809e4a0c1f8c",
-   "type": "chapter"
-  },
-  {
-   "id": "0025092c-8248-4ec5-8893-214ab16e9eba",
-   "type": "chapter"
-  },
-  {
-   "id": "023b0874-1553-4c65-a935-e1e42910fbd0",
-   "type": "chapter"
-  },
-  {
-   "id": "08196c00-8198-460d-8dde-513a89afa7fd",
-   "type": "chapter"
-  },
-  {
-   "id": "ad40ec78-b98a-4ffd-a125-6b07d93cd4f2",
-   "type": "chapter"
-  },
-  {
-   "id": "f885b0ce-514d-4ed3-a21a-c258e8a81b0b",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "127d33db-ead3-4f45-942d-eee416377679",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:52+00:00",
+    "description": "",
+    "fileName": "9a7638ba-316f-4e19-a12c-ac7d82feec5d.jpg",
+    "updatedAt": "2021-05-24T17:33:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

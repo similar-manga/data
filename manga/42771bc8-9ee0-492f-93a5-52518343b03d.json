@@ -7,6 +7,14 @@
    "title": {
     "en": "Ero Ero SOS"
    },
+   "altTitles": [
+    {
+     "en": "Jonan! Eroro"
+    },
+    {
+     "en": "조난! 에로로"
+    }
+   ],
    "description": {
     "en": "A famous actor, a woman on the run and a handsome robot find themselves amongst a group of survivors after their plane crashes onto a deserted island. Romance, mayhem and hilarity ensue as they all try to survive their new surroundings and each other."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +72,8 @@
       "name": {
        "en": "Survival"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -68,6 +84,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -78,87 +96,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-22T05:27:26+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "be22dbc1-9716-4179-a245-e149890db532",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "라라시스터",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "be22dbc1-9716-4179-a245-e149890db532",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "라라시스터",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "05e80de5-9a5a-413c-abac-c809e38565c4",
-   "type": "chapter"
-  },
-  {
-   "id": "8b7c2ee9-a398-43be-adea-7c2438e9bae1",
-   "type": "chapter"
-  },
-  {
-   "id": "9108680a-570c-454b-b464-5f047d33121d",
-   "type": "chapter"
-  },
-  {
-   "id": "79e63371-3482-4319-a663-c16072c7d99c",
-   "type": "chapter"
-  },
-  {
-   "id": "17e3980b-2726-4fa5-bd2e-cb0e4645be4f",
-   "type": "chapter"
-  },
-  {
-   "id": "988a5ac4-15ad-4fa8-9ab1-f7ffb0cb9bf5",
-   "type": "chapter"
-  },
-  {
-   "id": "febdf396-1ed7-4316-aef7-48ff12fa4fb4",
-   "type": "chapter"
-  },
-  {
-   "id": "335fbb54-fde5-45f2-8869-e594f6f77191",
-   "type": "chapter"
-  },
-  {
-   "id": "8bcac8ab-d7e4-446e-bc87-f54928097009",
-   "type": "chapter"
-  },
-  {
-   "id": "6d4f0f1f-b2fe-4b07-b7aa-3a82903b29be",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "6bd00f27-bc00-4fe7-b45d-426852b18de1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:19:56+00:00",
+    "description": "",
+    "fileName": "ba8f8d03-b8ef-44a0-b789-c5790380d63e.jpg",
+    "updatedAt": "2021-05-24T18:19:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

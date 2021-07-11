@@ -7,6 +7,14 @@
    "title": {
     "en": "A Gyaru and Otaku who have entered a school where they will have to dropout if they cannot get a lover!"
    },
+   "altTitles": [
+    {
+     "en": "Koibito ga Dekinai to Taigaku ni naru Gakkou ni Nyuugaku shite Shimatta Gyaru to Otaku."
+    },
+    {
+     "en": "恋人ができないと退学になる学校に入学してしまったギャルとオタク。"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +58,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +70,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -66,47 +82,53 @@
       "name": {
        "en": "Gyaru"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-10T03:31:08+00:00",
+   "updatedAt": "2021-05-25T15:50:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "dc1f6e36-af15-494a-b7db-ac44a9a3dd8d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sawamura Ryo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "dc1f6e36-af15-494a-b7db-ac44a9a3dd8d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sawamura Ryo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9507e56d-4512-4a2b-a3fd-6230c5b7b85f",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "fad12b5e-68ba-460e-b933-9ae8318f5b65",
-   "type": "tag"
+   "id": "5d38363e-6458-4f0b-a71b-de6dc33de7f7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:22:06+00:00",
+    "description": "",
+    "fileName": "1cbd4a37-3b2b-4449-b2b0-b0dddd4dfcc3.png",
+    "updatedAt": "2021-05-24T18:22:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -17,7 +17,6 @@
     "mu": "70001"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -29,6 +28,8 @@
       "name": {
        "en": "Award Winning"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +40,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +52,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +64,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,6 +76,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -79,63 +88,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-15T21:55:59+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "c9d25993-e84a-4b77-b1e1-276e0257a0c5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ishida Sui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c9d25993-e84a-4b77-b1e1-276e0257a0c5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ishida Sui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3eefee07-a866-4487-8a73-076934e88baf",
-   "type": "chapter"
-  },
-  {
-   "id": "b3b84c5c-3ec0-4c88-927d-a2a41d7d5c0f",
-   "type": "chapter"
-  },
-  {
-   "id": "67d4d9d0-41f8-4c2e-9a55-a59d0d4bf3cc",
-   "type": "chapter"
-  },
-  {
-   "id": "eabc1d77-e3ba-45a4-8ff1-3b4721aee4dc",
-   "type": "chapter"
-  },
-  {
-   "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "6e6cf85a-fccc-4fe8-b4b3-6c4e7d1948de",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:00+00:00",
+    "description": "",
+    "fileName": "66a0f46b-56f8-4279-bdb9-032bfa2908cc.jpg",
+    "updatedAt": "2021-05-24T16:58:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

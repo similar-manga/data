@@ -7,8 +7,16 @@
    "title": {
     "en": "Kare wa Soko ni Ita"
    },
+   "altTitles": [
+    {
+     "en": "Él estaba allí"
+    },
+    {
+     "en": "He was there"
+    }
+   ],
    "description": {
-    "en": "Este es un mundo donde las m\u0026aacute;quinas hacen todo el trabajo duro, r\u0026aacute;pidas, eficientes, sin cometer errores y sin la necesidad de descansar.\r\n\r\n\u0026iquest;Hay alguna raz\u0026oacute;n para seguir trabajando en un mundo as\u0026iacute;? \u0026iexcl;Solo existe una manera de competir contra esas m\u0026aacute;quinas!\r\n\r\n\u0026iexcl;\u0026Eacute;l es Haru Shin y es el \u0026uacute;ltimo camionero del planeta!"
+    "en": "Este es un mundo donde las máquinas hacen todo el trabajo duro, rápidas, eficientes, sin cometer errores y sin la necesidad de descansar.\r\n\r\n¿Hay alguna razón para seguir trabajando en un mundo así? ¡Solo existe una manera de competir contra esas máquinas!\r\n\r\n¡Él es Haru Shin y es el último camionero del planeta!"
    },
    "links": {
     "kt": "58457"
@@ -25,6 +33,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +45,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +57,8 @@
       "name": {
        "en": "Survival"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -55,47 +69,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-05T08:29:02+00:00",
+   "updatedAt": "2021-05-25T15:41:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "e2363c83-22b9-45ba-af27-2c7bcbef7d63",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Boichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e2363c83-22b9-45ba-af27-2c7bcbef7d63",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Boichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5ffd56b6-8b45-423a-9907-a2f931da627d",
-   "type": "chapter"
-  },
-  {
-   "id": "cbe77c5d-1bf7-4f46-87f0-3ba16ef6f104",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "7f94e812-6c9e-4f9b-9910-7ff30cc2c114",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:15:15+00:00",
+    "description": "",
+    "fileName": "a988d5e7-08ef-49e2-86e2-f4544d9b1fd7.png",
+    "updatedAt": "2021-05-28T23:15:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

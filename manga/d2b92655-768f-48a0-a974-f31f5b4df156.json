@@ -5,7 +5,7 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Togainu no Chi \u0026ndash; Blip Noise"
+    "en": "Togainu no Chi – Blip Noise"
    },
    "description": {
     "en": "Pairing: Gunji x Akira"
@@ -20,8 +20,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,35 +34,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-02T18:07:18+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "3344950f-cc65-486f-ac77-390f4b60112a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mitsumura",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3344950f-cc65-486f-ac77-390f4b60112a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mitsumura",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f8fcbbf3-9542-4f45-87eb-9c50cff74fa4",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "4e40c1f4-340b-4f49-9c81-c1774a5c5345",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:24+00:00",
+    "description": "",
+    "fileName": "250ec3a3-b7d8-4518-a5fd-31e7ee3ba4f1.jpg",
+    "updatedAt": "2021-05-24T17:32:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

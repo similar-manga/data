@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Golden tips \u0026amp; Silver tips"
+    "en": "Golden tips \u0026 Silver tips"
    },
+   "altTitles": [
+    {
+     "en": "Chatting over tea in the Amber Teahouse - Golden tips \u0026 Silver tips"
+    },
+    {
+     "en": "Epi1: Hinoka and Miha"
+    }
+   ],
    "description": {
     "en": "The (seemingly) sole chapter of an abandoned Amber Teahouse spinoff series. This chapter presumably takes place around the time of the tanabata chapters in Amber Teahouse, and focuses on how Hinoka got her girlfriend."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "cancelled",
    "contentRating": "safe",
    "tags": [
@@ -20,33 +27,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-21T15:14:24+00:00",
+   "updatedAt": "2021-05-25T15:42:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "c9cbeb57-9699-4f78-b3ba-5e4e661e0b6d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujieda Miyabi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c9cbeb57-9699-4f78-b3ba-5e4e661e0b6d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujieda Miyabi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f9f2c707-6b66-4a40-8798-5234e28aa9e1",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
+   "id": "57317d32-d464-4f5f-b6ba-afa661d588e5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:49:25+00:00",
+    "description": "",
+    "fileName": "39bca052-daad-4bec-a980-3b6f2939a408.jpg",
+    "updatedAt": "2021-05-24T17:49:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

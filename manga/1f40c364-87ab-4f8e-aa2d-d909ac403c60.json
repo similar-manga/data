@@ -5,8 +5,31 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Hakoniwa no Fr\u0026auml;ulein"
+    "en": "Hakoniwa no Fräulein"
    },
+   "altTitles": [
+    {
+     "en": "Fräulein of the Little Garden"
+    },
+    {
+     "en": "Hakoniwa Detective Agency"
+    },
+    {
+     "en": "Hakoniwa no Fraulein"
+    },
+    {
+     "en": "Hakoniwa no Furoirain"
+    },
+    {
+     "en": "Hakoniwa no Reijou Tantei"
+    },
+    {
+     "en": "คุณหนูนักสืบในสวนฝัน"
+    },
+    {
+     "en": "箱庭の令嬢探偵"
+    }
+   ],
    "description": {
     "en": "While looking for a ghost that helped him as a child, Satou Akira has run into a fair amount of spirits that he doesn't even see. One day, he goes to a supernatural detective agency for help, and he meets the adorable Yui and her devoted butler Kujou. Using her power, Yui ends up helping him with a number of the dangerous supernatural troubles he gets himself into. Akira starts to feel attached to the detective agency, and wants to learn more about the supernatural!"
    },
@@ -34,6 +57,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -44,6 +69,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,75 +81,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-24T06:27:09+00:00",
+   "updatedAt": "2021-05-25T15:40:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "3ab63df0-f243-4c65-9cbe-4f75f196b721",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tachibana Shinnosuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8e382111-08c3-45ca-9057-d3f94c2db64e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okazaki Oka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9a05ea9e-10b2-47af-9a95-c6036957941a",
-   "type": "chapter"
-  },
-  {
-   "id": "0dfa8b6b-3bd9-484e-a8e6-32cd70c87cfc",
-   "type": "chapter"
-  },
-  {
-   "id": "7424a514-a0ea-4cd4-b07d-dd62c53da1bf",
-   "type": "chapter"
-  },
-  {
-   "id": "fbbbb9fc-5247-4fb9-b3e2-ca67ff6029d0",
-   "type": "chapter"
-  },
-  {
-   "id": "094dd8d3-e78d-4ada-828a-f5ee02c4811a",
-   "type": "chapter"
-  },
-  {
-   "id": "8ca2dabc-5331-4375-bb57-1fdb41ac4489",
-   "type": "chapter"
-  },
-  {
-   "id": "1b675c79-6476-415d-9927-8d0fb782b787",
-   "type": "chapter"
-  },
-  {
-   "id": "c49b0a34-0c0c-4d04-bfa1-f13f78cb5213",
-   "type": "chapter"
-  },
-  {
-   "id": "85cba242-0ef2-4afe-918e-23be9bdfa9c8",
-   "type": "chapter"
-  },
-  {
-   "id": "62c23769-a0f2-44bf-9a75-157f3749d9a2",
-   "type": "chapter"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "80912924-ec15-4feb-acad-7f2a66699a05",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:55+00:00",
+    "description": "",
+    "fileName": "4bddc42c-4f45-4e80-ad1e-2122fba894f9.jpg",
+    "updatedAt": "2021-05-24T16:58:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

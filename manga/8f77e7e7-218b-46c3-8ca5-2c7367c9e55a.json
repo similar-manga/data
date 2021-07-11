@@ -7,6 +7,14 @@
    "title": {
     "en": "Motto Shiritai Kimi No Koto"
    },
+   "altTitles": [
+    {
+     "en": "想要知道更多关于你的事"
+    },
+    {
+     "en": "想要知道更多關於你的事"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -23,6 +31,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,35 +43,53 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-18T15:47:52+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "7f6530f7-f522-4c11-8d97-0513a8f01ffc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nikawa Yuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7f6530f7-f522-4c11-8d97-0513a8f01ffc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nikawa Yuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d1157a36-b0ef-490c-8f6d-9b6a4dbd9c30",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
+   "id": "763de6ca-ef8d-4ff9-ab82-9f19f2d51b07",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:32:07+00:00",
+    "description": "",
+    "fileName": "25eb559e-0d55-4fbc-8db2-6588e6eacec5.jpg",
+    "updatedAt": "2021-05-24T18:32:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

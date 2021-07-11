@@ -7,6 +7,11 @@
    "title": {
     "en": "Medarot"
    },
+   "altTitles": [
+    {
+     "en": "Medabots"
+    }
+   ],
    "description": {
     "en": "A manga adaptation of the first Medarot game. Created by Horuma Rin, the artist for the game series. \r\n\r\nThe story follows Hikaru Agata and his medarot, Metabee's adventures."
    },
@@ -18,7 +23,6 @@
     "mu": "17603"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +33,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,75 +57,53 @@
       "name": {
        "en": "Mecha"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-26T04:32:09+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "1d415e42-872a-4e20-b356-2f9f93a149df",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Horuma Rin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1d415e42-872a-4e20-b356-2f9f93a149df",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Horuma Rin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4bd98381-8054-496b-a2d9-ef4f5d87ada6",
-   "type": "chapter"
-  },
-  {
-   "id": "a66f27cf-b996-4622-802b-be51be04bca2",
-   "type": "chapter"
-  },
-  {
-   "id": "0408d6ca-824a-4802-8caf-6bf4e5668a50",
-   "type": "chapter"
-  },
-  {
-   "id": "6be9b4af-f579-4e85-8d49-d4ee4a276534",
-   "type": "chapter"
-  },
-  {
-   "id": "c37c4ed1-21f4-4571-8816-ac6a9f932f27",
-   "type": "chapter"
-  },
-  {
-   "id": "cbb62db8-0449-47c5-9e21-ece28564b49a",
-   "type": "chapter"
-  },
-  {
-   "id": "61db9f24-6d0c-4a1a-86e9-d30266a31961",
-   "type": "chapter"
-  },
-  {
-   "id": "ab3d0601-08b7-4a99-9db8-f02faa8575e6",
-   "type": "chapter"
-  },
-  {
-   "id": "451d0012-4fd1-4c05-aece-c0d9614351b4",
-   "type": "chapter"
-  },
-  {
-   "id": "e2fe50e4-d83e-43ca-8f1f-da64c52e61d1",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "50880a9d-5440-4732-9afb-8f457127e836",
-   "type": "tag"
+   "id": "412d1324-ab23-4f7a-a0b1-12930e182adb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:24+00:00",
+    "description": "",
+    "fileName": "c0a30115-9d36-4fac-a310-0aa12f65edd7.jpg",
+    "updatedAt": "2021-05-24T16:49:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

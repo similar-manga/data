@@ -7,6 +7,20 @@
    "title": {
     "en": "Otonari Voice Chat"
    },
+   "altTitles": [
+    {
+     "en": "Neighboring Voice Chat"
+    },
+    {
+     "en": "Neighbour Voice Chat"
+    },
+    {
+     "en": "이웃집 보이스 채팅"
+    },
+    {
+     "en": "おとなりボイスチャット"
+    }
+   ],
    "description": {
     "en": "A young man who has just entered the university got an accident that causes him to be hospitalised for quite some time. That made him unable to find any friend, because those people have already created their own little groups! He was almost fated to be lonely, but luckily he met someone he really likes behind his apartment wall."
    },
@@ -34,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +60,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,6 +72,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -64,79 +84,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-01T22:01:14+00:00",
+   "updatedAt": "2021-05-25T15:44:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "f7c4ed29-ab3e-4747-afda-08450b464965",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kojima Naonari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f7c4ed29-ab3e-4747-afda-08450b464965",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kojima Naonari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f9f4190c-50f5-4699-97de-934aff597db2",
-   "type": "chapter"
-  },
-  {
-   "id": "bb040cf3-1cdd-486f-8c45-bbb518be537f",
-   "type": "chapter"
-  },
-  {
-   "id": "5ffe7acb-2b26-4467-8afd-1840b4b02f66",
-   "type": "chapter"
-  },
-  {
-   "id": "68547b1e-c217-4594-bea0-e6d0590136a6",
-   "type": "chapter"
-  },
-  {
-   "id": "fbdf1232-dd51-43e3-bd42-8abbfb97bcf4",
-   "type": "chapter"
-  },
-  {
-   "id": "dee1e679-9744-45e2-a87a-cf6d7c03913c",
-   "type": "chapter"
-  },
-  {
-   "id": "cad7ddbe-9b1e-4bea-b681-3bb0f0c703c6",
-   "type": "chapter"
-  },
-  {
-   "id": "f75753e4-d4a9-43fb-a66b-ba6106936c3d",
-   "type": "chapter"
-  },
-  {
-   "id": "50823bf0-0c02-4ab6-bb45-c6d5d628126e",
-   "type": "chapter"
-  },
-  {
-   "id": "43aa803d-75d0-4fa1-b054-61f754758abd",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "dad35357-a665-4f62-b6b2-25d5ae31f0e7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:01:26+00:00",
+    "description": "",
+    "fileName": "6285c7f9-6853-4a0b-bb80-196771645d04.jpg",
+    "updatedAt": "2021-05-24T18:01:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

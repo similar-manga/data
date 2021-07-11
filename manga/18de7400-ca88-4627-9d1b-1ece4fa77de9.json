@@ -26,6 +26,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +50,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +62,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,83 +74,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-26T20:36:15+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "2a04bd24-da9a-42b0-a927-817b1c3825ef",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Reon Merryweatherey",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "990c66d7-d3c5-4a51-831b-ca69887fdeaf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Porforever",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "47b44ce3-ea9a-4ed9-8f82-9061d6abd0bc",
-   "type": "chapter"
-  },
-  {
-   "id": "4438d993-b8e2-43a9-815b-e55c8bcf86ac",
-   "type": "chapter"
-  },
-  {
-   "id": "f0504256-c6b8-4493-8d2b-5740fca95e3b",
-   "type": "chapter"
-  },
-  {
-   "id": "2bb798ae-df4d-430f-989f-1e5cf11d22c0",
-   "type": "chapter"
-  },
-  {
-   "id": "b647bf0f-eeac-48e2-b7ae-1f91ebf80d58",
-   "type": "chapter"
-  },
-  {
-   "id": "19a0f2c1-a94f-4e01-9a24-d917043d638d",
-   "type": "chapter"
-  },
-  {
-   "id": "389d9477-51a8-492e-bd81-bf7e605cb334",
-   "type": "chapter"
-  },
-  {
-   "id": "2f5dd4e2-24c3-46fc-bc3e-330100d8d270",
-   "type": "chapter"
-  },
-  {
-   "id": "4c3d421d-fb02-467a-80c0-1b8eb033e733",
-   "type": "chapter"
-  },
-  {
-   "id": "43e0ffba-8de7-4602-a314-e2bfa53d9efc",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "0e41fc76-2342-4f55-bdbe-754a24c9ab71",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:27+00:00",
+    "description": "",
+    "fileName": "ee7d8f0a-976a-4ed4-bd3c-026190c9c735.jpg",
+    "updatedAt": "2021-05-24T17:20:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

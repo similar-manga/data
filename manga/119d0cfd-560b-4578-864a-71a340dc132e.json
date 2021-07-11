@@ -7,6 +7,14 @@
    "title": {
     "en": "Oujo Alexandra"
    },
+   "altTitles": [
+    {
+     "en": "Princess Alexandra"
+    },
+    {
+     "en": "王女アレキサンドラ"
+    }
+   ],
    "description": {
     "en": "What will happen to a lovely princess when she is blinded after an accident? \r\n\r\nThis story was first collected in 1978 in a manga volume with the same title. It contains Oujo Alexandra 1977, Fuyu no Himawari 1975, Manatsu no Yo no Yume 1972. It was afterwards reprinted for Suzue Miuchi's best works, volume 5 1996."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,51 +74,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-23T04:07:52+00:00",
+   "updatedAt": "2021-05-25T15:39:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "5fc3e57d-3ace-43f5-bab6-928bb3033f97",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miuchi Suzue",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5fc3e57d-3ace-43f5-bab6-928bb3033f97",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miuchi Suzue",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9bb247fd-5416-418c-bea9-f1b5e56492cd",
-   "type": "chapter"
-  },
-  {
-   "id": "87e79a9f-9fe9-4f22-a39b-d2089be0cd04",
-   "type": "chapter"
-  },
-  {
-   "id": "c533903f-6b8b-4ac5-bedc-b13d68b50ddf",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "cadbf83d-9af9-4fa0-addb-3241a6667b01",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:16:22+00:00",
+    "description": "",
+    "fileName": "989bc011-a58a-4cbe-8270-ec3ac60d102b.jpg",
+    "updatedAt": "2021-05-28T23:16:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

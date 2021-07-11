@@ -7,6 +7,14 @@
    "title": {
     "en": "Last Inning"
    },
+   "altTitles": [
+    {
+     "en": "ラストイニング"
+    },
+    {
+     "en": "最后一局"
+    }
+   ],
    "description": {
     "en": "Hatogaya, a man who loved baseball and yet left it, is set up to take the fall for his company and gets sent to prison. A high-school principal and his former coach--whose school is about to lose its baseball program--bails Hatogaya out. But, in exchange for getting him out of jail, he has to coach the schools not-so-great baseball team."
    },
@@ -32,6 +40,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,71 +52,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-01-25T15:38:01+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "8f8a6ce5-7ed4-44f7-a812-be334ab90b11",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KAMIO Ryuu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "da19968b-9068-4f62-b597-1892f63b6682",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NAKAHARA Yuu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "873e2fe8-2c4b-4ddf-9973-297ed32eecec",
-   "type": "chapter"
-  },
-  {
-   "id": "810075f7-426a-4c35-b760-ace68681ac7d",
-   "type": "chapter"
-  },
-  {
-   "id": "04151ea4-22bc-4a73-9531-26521dae93e5",
-   "type": "chapter"
-  },
-  {
-   "id": "75b34468-2066-47af-9b9a-671415de33a1",
-   "type": "chapter"
-  },
-  {
-   "id": "d1b124dc-8c6c-4a25-af3f-c48705092d81",
-   "type": "chapter"
-  },
-  {
-   "id": "4d6d5784-a8b7-4925-a565-b1e05d8f83c8",
-   "type": "chapter"
-  },
-  {
-   "id": "9a1b3d3c-8dd5-4cdb-b68e-36f87689ec76",
-   "type": "chapter"
-  },
-  {
-   "id": "8998e6a1-8d36-4ef6-a1ea-c14a891bd3b6",
-   "type": "chapter"
-  },
-  {
-   "id": "becb1304-947a-4a89-b73e-d373a5d883d5",
-   "type": "chapter"
-  },
-  {
-   "id": "24d102cc-c9df-427b-bd73-acfd23a8347c",
-   "type": "chapter"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "cb4f001e-aaae-4fa3-83bc-de9509372a6f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:35:00+00:00",
+    "description": "",
+    "fileName": "b6468fbc-2a29-4646-bfc6-f24b2ee14ab7.png",
+    "updatedAt": "2021-05-24T17:35:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

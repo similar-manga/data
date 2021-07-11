@@ -7,6 +7,11 @@
    "title": {
     "en": "Raiatea"
    },
+   "altTitles": [
+    {
+     "en": "ライアテア"
+    }
+   ],
    "description": {
     "en": "Suddenly stricken with lupus, a photographer loses sight in one eye. Faced with an uncertain prognosis, he feels an urgent need to revisit the South Pacific island that inspired his career. Can he convince the man he encountered there years ago, now a medical researcher in Southern California, to accompany him on his journey?"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +71,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,6 +83,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -80,67 +95,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-30T17:49:45+00:00",
+   "updatedAt": "2021-05-25T15:45:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "e7cbc783-bc3e-4f6d-8e2b-4e2c7df3c9ac",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okadaya Tetuzoh",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e7cbc783-bc3e-4f6d-8e2b-4e2c7df3c9ac",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okadaya Tetuzoh",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "649fe076-4ca6-40a7-91d1-ed2fd8245321",
-   "type": "chapter"
-  },
-  {
-   "id": "542e77df-5254-4c71-ace8-ac6948b86a0f",
-   "type": "chapter"
-  },
-  {
-   "id": "21d02bc1-89f6-42d5-92cf-1f0b0e705c68",
-   "type": "chapter"
-  },
-  {
-   "id": "894f6750-034f-4af3-a50d-abae9679bf2c",
-   "type": "chapter"
-  },
-  {
-   "id": "73bea76e-f2b9-4273-be34-5a49ab947457",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "26b6d28a-d7d6-4f5d-b102-08f2faf8c096",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:01+00:00",
+    "description": "",
+    "fileName": "0e00a2a7-e87c-40b3-b7c1-d3a660c7047c.png",
+    "updatedAt": "2021-05-24T17:32:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

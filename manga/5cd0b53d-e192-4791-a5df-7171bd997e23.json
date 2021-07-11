@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "S.E.X \u0026amp; Love"
+    "en": "S.E.X \u0026 Love"
    },
+   "altTitles": [
+    {
+     "en": "S.e.x and Love"
+    },
+    {
+     "en": "Sex \u0026 Love"
+    },
+    {
+     "en": "Sex and Love"
+    }
+   ],
    "description": {
     "en": "Attonery Tsukihara, is in a relationship with fireman Hino. However, their continually busy lives are making it difficult to spend time with each other. Will Tsukihara's bad habits show their face...? When a junior at the office, unexpectedly comes into the picture. Spells a recipe for disaster, and Hino's senpai is inadvertently attacked."
    },
@@ -18,7 +29,6 @@
     "mu": "61860"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "erotica",
    "tags": [
@@ -29,6 +39,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +51,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +63,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,8 +73,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,51 +87,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-07T12:16:34+00:00",
+   "updatedAt": "2021-05-25T15:42:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "a9c2c225-706a-4825-b915-121e8e4aea4f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Uda Maki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a9c2c225-706a-4825-b915-121e8e4aea4f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Uda Maki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "54b400f4-10c7-4fa4-8206-3e2ad3a169e7",
-   "type": "chapter"
-  },
-  {
-   "id": "2d048a73-d869-4843-ab9e-e01a891db0c9",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "f7462a49-d1c3-4f91-b5ad-deb15c90d4cb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:55+00:00",
+    "description": "",
+    "fileName": "a04150cd-8aa1-4743-8439-7e0c266b89bd.png",
+    "updatedAt": "2021-05-24T17:21:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

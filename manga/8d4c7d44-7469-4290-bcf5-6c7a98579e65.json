@@ -7,11 +7,15 @@
    "title": {
     "en": "Love Triangle Within Our House"
    },
+   "altTitles": [
+    {
+     "en": "한지붕 트라이앵글"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "suggestive",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,43 +50,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-12T05:18:54+00:00",
+   "updatedAt": "2021-05-25T15:44:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "9bf86c4e-e4c5-4ced-8f9f-a75a914bf93d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Arisang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8cc0ada3-0294-41dd-9996-e099fdd40d58",
-   "type": "chapter"
-  },
-  {
-   "id": "3f1a6800-c8e2-41ac-bc20-77a9cfc07ba6",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "77e07770-3813-4ff7-8ef7-f4d21305c849",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:02+00:00",
+    "description": "",
+    "fileName": "7ff06540-1cb2-499a-9e23-eb278dd870e4.jpg",
+    "updatedAt": "2021-05-24T17:01:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

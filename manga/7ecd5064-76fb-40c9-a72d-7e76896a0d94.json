@@ -7,6 +7,11 @@
    "title": {
     "en": "Slow Down"
    },
+   "altTitles": [
+    {
+     "en": "スロー・ダウン"
+    }
+   ],
    "description": {
     "en": "A young man volunteers to participate in a sensory deprivation experiment. Despite its apparent success, the experiment does leave him with some psychological aftereffects."
    },
@@ -18,7 +23,6 @@
     "mu": "33851"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +34,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +46,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,43 +58,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-12T12:26:35+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "76bc5e4b-1785-4ece-b3e8-2daa2ab82c9e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hagio Moto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "76bc5e4b-1785-4ece-b3e8-2daa2ab82c9e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hagio Moto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "40ea8c64-6925-45f2-b260-deffd620bef0",
-   "type": "chapter"
-  },
-  {
-   "id": "235fb7ca-5f08-412b-afaa-4a4225aaac39",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "15634e35-51c3-4fa4-a1f4-80819a2b94c3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:16+00:00",
+    "description": "",
+    "fileName": "b9d9fde2-8b23-4481-8384-6826ca04ef49.jpg",
+    "updatedAt": "2021-05-24T17:04:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

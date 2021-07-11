@@ -5,8 +5,25 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Peter Pan\u0026spades;Syndrome"
+    "en": "Peter Pan♠Syndrome"
    },
+   "altTitles": [
+    {
+     "en": "Peter Pan . Syndrome ปีเตอร์แพน ซินโดรม"
+    },
+    {
+     "en": "Peter Pan Shoukougun"
+    },
+    {
+     "en": "Peter Pan Syndrome"
+    },
+    {
+     "en": "ピーターパン・症候群"
+    },
+    {
+     "en": "彼得潘症候群"
+    }
+   ],
    "description": {
     "en": "Twelve-year-old junior high school girl Hasumi Kohaku moved into town in search of her mother. She is gifted with ESP and the ability to fly-- well, only when the sun is down. Otherwise the sun could make her power fade away. Kohaku soon uses her powers in front of her classmates, in order to save her friend Yuuro from falling out a window... but during the day!"
    },
@@ -32,6 +49,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +61,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -52,75 +73,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-28T22:17:28+00:00",
+   "updatedAt": "2021-05-25T15:42:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "4bcd876b-5694-4e33-84f6-9933f9d440b0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakai Mayu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4bcd876b-5694-4e33-84f6-9933f9d440b0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakai Mayu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a172be39-d507-4b1f-92ae-004059cb64ba",
-   "type": "chapter"
-  },
-  {
-   "id": "6bd384e6-028f-4412-9e9d-7e6591aac792",
-   "type": "chapter"
-  },
-  {
-   "id": "90aecdc1-7c4d-4f88-a9da-bed630afe051",
-   "type": "chapter"
-  },
-  {
-   "id": "8ae116e0-0697-420a-9cf5-b5cd86a648b6",
-   "type": "chapter"
-  },
-  {
-   "id": "20401189-e512-4f2a-a818-0482976f175b",
-   "type": "chapter"
-  },
-  {
-   "id": "1814bc92-a5d2-4115-aa5e-6a65cf6abdf2",
-   "type": "chapter"
-  },
-  {
-   "id": "d3449090-bd0b-42bf-afee-ebe8975f22ee",
-   "type": "chapter"
-  },
-  {
-   "id": "d7df3482-4ee2-4286-b410-6fcc2e8c8128",
-   "type": "chapter"
-  },
-  {
-   "id": "c3dc2c79-ec5b-48d4-a2e9-47224a28084f",
-   "type": "chapter"
-  },
-  {
-   "id": "0c6bd584-5ce8-48f7-b053-216391038dd5",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "2def5d37-d7f9-4f07-81ca-bbb409c133fc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:31+00:00",
+    "description": "",
+    "fileName": "d7341657-ec02-4541-a0a9-a373b7bfc9bd.jpg",
+    "updatedAt": "2021-05-24T16:59:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

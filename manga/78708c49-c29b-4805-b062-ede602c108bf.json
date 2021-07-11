@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Touhou - A starving wolf doesn\u0026rsquo;t fear the stick (Doujinshi)"
+    "en": "Touhou - A starving wolf doesn’t fear the stick (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Uetaru Ookami Bou o Osorezu"
+    },
+    {
+     "en": "飢えたる狼棒を畏れず"
+    }
+   ],
    "description": {
     "en": "Onee x futa-loli Touhou doujin by Yude Pea (Animal Passion)."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +41,8 @@
       "name": {
        "en": "Loli"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,39 +53,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-20T20:16:34+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "6353916f-e857-4c49-a616-68bab37db7a7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yude Pea",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6353916f-e857-4c49-a616-68bab37db7a7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yude Pea",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "20b48eac-5aee-4c1d-a8e5-46d99e905ed6",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "2d1f5d56-a1e5-4d0d-a961-2193588b08ec",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "2f4cab7d-5e25-4f91-8a49-a6b461e4fb46",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:53:09+00:00",
+    "description": "",
+    "fileName": "a2994156-b03e-45a6-b611-53d893359b78.jpg",
+    "updatedAt": "2021-05-24T17:53:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

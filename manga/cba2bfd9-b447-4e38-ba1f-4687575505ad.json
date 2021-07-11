@@ -7,6 +7,11 @@
    "title": {
     "en": "Immoral Sandwich"
    },
+   "altTitles": [
+    {
+     "en": "インモラルサンドイッチ"
+    }
+   ],
    "description": {
     "en": "Kazuomi is an Omega who loves baseball and all he wants is some peace. Sucks for him though because he's too busy being f***ed like a sandwich by two alphas."
    },
@@ -28,8 +33,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,43 +47,53 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-25T11:57:13+00:00",
+   "updatedAt": "2021-05-25T15:47:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "cd2422d2-375d-4a70-9d65-70c47d790ac9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakana Tomomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cd2422d2-375d-4a70-9d65-70c47d790ac9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakana Tomomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6cb6471c-5cf1-495d-8efa-dd00dd909d46",
-   "type": "chapter"
-  },
-  {
-   "id": "cb9595c6-cf19-4b02-ab3e-ff349218d804",
-   "type": "chapter"
-  },
-  {
-   "id": "a0506615-387b-4951-a21c-e3d5c090da15",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
+   "id": "9186804c-aae8-4f6a-b096-c5a336fcdc9d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:27:52+00:00",
+    "description": "",
+    "fileName": "474e8e9e-1f46-489a-b1c9-ca13fc3d89cd.jpg",
+    "updatedAt": "2021-05-24T17:27:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

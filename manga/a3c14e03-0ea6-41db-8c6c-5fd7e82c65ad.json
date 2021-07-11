@@ -7,6 +7,11 @@
    "title": {
     "en": "Marong's Macaron"
    },
+   "altTitles": [
+    {
+     "en": "마롱의 마카롱"
+    }
+   ],
    "description": {
     "en": "The story of patissier Marong and demon muffins opening a cafe"
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +55,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -56,6 +67,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,6 +79,8 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -76,87 +91,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-27T11:02:45+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "3d1efeb8-16fb-4f4b-b523-74a700e27302",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Haddon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3d1efeb8-16fb-4f4b-b523-74a700e27302",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Haddon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dd258c69-0aad-493b-ba2d-91acd08e8bc1",
-   "type": "chapter"
-  },
-  {
-   "id": "629636f0-3d7b-4a41-a56f-abb171a25baa",
-   "type": "chapter"
-  },
-  {
-   "id": "45448602-3940-4bba-8d4e-73c2f41b6997",
-   "type": "chapter"
-  },
-  {
-   "id": "a42217c8-5dc1-4ed1-96cd-e0c6bd5c67c0",
-   "type": "chapter"
-  },
-  {
-   "id": "b0315f9d-fd23-4ed9-b126-fe5da9c9fffb",
-   "type": "chapter"
-  },
-  {
-   "id": "9a25681b-17a5-4b5a-bcd4-8214a365155c",
-   "type": "chapter"
-  },
-  {
-   "id": "42060d44-0fbd-41a5-a05f-2487b02cf55f",
-   "type": "chapter"
-  },
-  {
-   "id": "42219a0e-805b-4a16-b436-e6fd49a0a793",
-   "type": "chapter"
-  },
-  {
-   "id": "22b3685a-4acb-422b-b7b7-0e2ef2a49103",
-   "type": "chapter"
-  },
-  {
-   "id": "d34fa8e8-4372-4d18-88fe-01ce6dd2854d",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "1a9fd1ef-4602-4f72-92c4-990b41941b32",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:20:32+00:00",
+    "description": "",
+    "fileName": "3c73a6e2-c13c-4e0a-931b-aa5e73ec045e.png",
+    "updatedAt": "2021-05-24T18:20:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

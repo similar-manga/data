@@ -7,6 +7,14 @@
    "title": {
     "en": "Hatsukoi Counter Attack"
    },
+   "altTitles": [
+    {
+     "en": "First Love Counter-attack"
+    },
+    {
+     "en": "初恋カウンターアタック"
+    }
+   ],
    "description": {
     "en": "The reunion between a once-cool guy who's now one of the shortest boys in his year, with average grades and so-so sports skills, and the feminine-looking crybaby who used to hide behind him all the time, who's now smart, handsome and popular."
    },
@@ -28,8 +36,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,55 +62,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-21T02:33:33+00:00",
+   "updatedAt": "2021-05-25T15:39:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "2f05c251-7ccf-492e-a4dd-ca48fffc61ad",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2f05c251-7ccf-492e-a4dd-ca48fffc61ad",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "804f7cca-0c61-48ab-b4c2-0a7e8322d596",
-   "type": "chapter"
-  },
-  {
-   "id": "07d81d80-e4fe-42a7-8e2f-6d5804573ded",
-   "type": "chapter"
-  },
-  {
-   "id": "f8f61f81-cad0-46e2-9d90-0c1e822c1eff",
-   "type": "chapter"
-  },
-  {
-   "id": "2c789bfa-e89b-47ae-8d9d-d55ff3d5f6c9",
-   "type": "chapter"
-  },
-  {
-   "id": "b87a1aaa-790a-4ea8-9026-ad0a776090c3",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "3c760997-6b20-4f1f-a6b8-fe42c662a37c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:12:38+00:00",
+    "description": "",
+    "fileName": "cb8bea6e-7167-4376-9a15-28b494d88076.jpg",
+    "updatedAt": "2021-05-24T17:12:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

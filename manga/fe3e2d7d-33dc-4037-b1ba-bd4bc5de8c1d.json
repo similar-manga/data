@@ -7,6 +7,11 @@
    "title": {
     "en": "Pippira Note"
    },
+   "altTitles": [
+    {
+     "en": "ぴっぴら帳〈ノート〉"
+    }
+   ],
    "description": {
     "en": "One day, a young woman named Kimiko meets a little lost bird named Pippira. Living with the little bird becomes a series of surprises and discoveries. Before long this little happiness becomes, to Kimiko, an irreplaceable treasure in her day to day life."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,75 +60,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-28T05:26:07+00:00",
+   "updatedAt": "2021-05-25T15:50:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "4bf88255-38e4-4a64-a20a-b1867e696ca3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kouno Fumiyo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4bf88255-38e4-4a64-a20a-b1867e696ca3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kouno Fumiyo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5ea34bd6-0edf-4602-8bdd-1f5d3e80f762",
-   "type": "chapter"
-  },
-  {
-   "id": "00bea451-17c6-44f7-ae41-e24dc4a41dde",
-   "type": "chapter"
-  },
-  {
-   "id": "fdc371c8-73b9-4ae6-b5ba-8154124ef0e0",
-   "type": "chapter"
-  },
-  {
-   "id": "52125292-96ac-4433-906e-7825f5778d49",
-   "type": "chapter"
-  },
-  {
-   "id": "4dd5ab7a-10f4-403e-b876-76be6d78263a",
-   "type": "chapter"
-  },
-  {
-   "id": "4f313f6c-6b85-44ed-a121-f86b7cf4c002",
-   "type": "chapter"
-  },
-  {
-   "id": "ad34ee0a-ec43-49e2-84a3-9b2adfbe639e",
-   "type": "chapter"
-  },
-  {
-   "id": "2dfcdcfa-fcbd-495b-bd1f-d33ed19136bd",
-   "type": "chapter"
-  },
-  {
-   "id": "f9c13eeb-ac35-40a5-a545-586c40dcd0bd",
-   "type": "chapter"
-  },
-  {
-   "id": "c7db46c7-f98e-459b-adcb-dddd5b8efd51",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "c8d1c9bf-6087-4f95-ac70-334cd177db67",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:22+00:00",
+    "description": "",
+    "fileName": "52c0fd4b-e9d0-4106-a336-e02a899a925f.jpg",
+    "updatedAt": "2021-05-24T16:59:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

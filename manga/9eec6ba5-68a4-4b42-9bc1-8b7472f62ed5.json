@@ -7,6 +7,11 @@
    "title": {
     "en": "Vinland Saga - Animalland Saga"
    },
+   "altTitles": [
+    {
+     "en": "あにまるらんど・さが"
+    }
+   ],
    "description": {
     "en": "Animal parody of the manga Vinland Saga"
    },
@@ -14,7 +19,6 @@
     "raw": "https://twitter.com/kumagaihaito"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,39 +41,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-26T13:57:18+00:00",
+   "updatedAt": "2021-05-25T15:45:45+00:00"
   }
  },
  "relationships": [
   {
    "id": "b726306e-b3e6-46b2-aff9-834d7431c65d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KumagaiHaito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5d82499f-e3d6-481e-b99e-d176e745a39b",
-   "type": "chapter"
-  },
-  {
-   "id": "09291cbf-0d78-4a6a-8b91-05e3f50dedde",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "4d716b2f-2496-4fbf-a97f-044a1df2e063",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:46:35+00:00",
+    "description": "",
+    "fileName": "bc67ce8d-b5c0-4dca-8ecd-b0ac2cefee4a.jpg",
+    "updatedAt": "2021-05-24T17:46:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

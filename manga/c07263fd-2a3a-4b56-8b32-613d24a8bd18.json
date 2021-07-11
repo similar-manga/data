@@ -11,7 +11,6 @@
     "en": "The story of a...square!?\r\n\r\nThis is an animated series that uses the gif format. To be able to read it, please disable both compressed images and data saver options."
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,6 +45,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,55 +57,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-26T23:55:54+00:00",
+   "updatedAt": "2021-05-25T15:47:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "e3e47331-366d-4826-b1fb-881178a0ce91",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Teletta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e3e47331-366d-4826-b1fb-881178a0ce91",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Teletta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9b85165e-167d-4915-8773-0c0fd5748d54",
-   "type": "chapter"
-  },
-  {
-   "id": "6cb740f6-7822-4fae-bf14-a98c9c5a520a",
-   "type": "chapter"
-  },
-  {
-   "id": "b14b194d-b9a1-4fdf-a176-76b0b41091ea",
-   "type": "chapter"
-  },
-  {
-   "id": "a07dc233-c8f5-497a-9099-1bd1bdde9b26",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "d6a1aaa0-fd3f-4fc0-9e20-74804014e7bd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:16:36+00:00",
+    "description": "",
+    "fileName": "a19c65f3-9360-455c-ab6f-d56369c404da.png",
+    "updatedAt": "2021-05-24T18:16:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

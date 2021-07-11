@@ -18,7 +18,6 @@
     "mu": "31137"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +28,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,39 +40,53 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-24T14:42:05+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "205ef267-4f1f-485b-a0fc-eca9a19ccf9c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Yoichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "205ef267-4f1f-485b-a0fc-eca9a19ccf9c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Yoichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3f40f975-aadc-4e8c-9f2b-bacaa348b9c5",
-   "type": "chapter"
-  },
-  {
-   "id": "66234aa9-39fb-4170-a2d2-9303c03f5f02",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
+   "id": "43e81bea-93c7-4f2d-9238-c6e85b25a07a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:19+00:00",
+    "description": "",
+    "fileName": "53f9bc2b-344a-4ca3-8373-674930fe20e7.jpg",
+    "updatedAt": "2021-05-24T17:09:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

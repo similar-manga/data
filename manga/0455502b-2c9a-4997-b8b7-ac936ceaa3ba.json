@@ -7,6 +7,11 @@
    "title": {
     "en": "Haikyuu!! - Clear Message (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Haikyuu!! dj - Clear Message"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -23,6 +28,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -31,8 +38,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +52,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -53,43 +64,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-23T23:44:05+00:00",
+   "updatedAt": "2021-05-25T15:38:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "03134d75-90ef-4cbd-88ae-d6dc74b97e4f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Endo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "03134d75-90ef-4cbd-88ae-d6dc74b97e4f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Endo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "82267218-e0ed-40ef-b37a-c75521229c4c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "0e9dc8d6-5a32-4f2b-9abf-736a7275af29",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:53:32+00:00",
+    "description": "",
+    "fileName": "c7590c5f-45d4-4486-acb5-24019c82c1b0.png",
+    "updatedAt": "2021-05-24T17:53:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

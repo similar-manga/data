@@ -7,6 +7,14 @@
    "title": {
     "en": "iShoujo+"
    },
+   "altTitles": [
+    {
+     "en": "i・ショウジョ+"
+    },
+    {
+     "en": "iShoujo Plus"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -32,6 +40,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +52,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +64,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -62,39 +76,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-07-25T10:49:57+00:00",
+   "updatedAt": "2019-07-25T10:49:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "f6cb7c86-1687-45b6-88d7-285000ce7ca2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takayama Toshinori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f6cb7c86-1687-45b6-88d7-285000ce7ca2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takayama Toshinori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "25d9566c-712f-4fc2-94fe-e0295df059c6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:17+00:00",
+    "description": "",
+    "fileName": "29036960-beb2-4c18-bb99-373e9c4fa77a.jpg",
+    "updatedAt": "2021-05-24T17:20:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

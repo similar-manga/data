@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Fate/Grand Order - I\u0026rsquo;m Master\u0026rsquo;s Lover Starting from Today (Doujinshi)"
+    "en": "Fate/Grand Order - I’m Master’s Lover Starting from Today (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "(C93) 今日からボクはマスターの恋人 (Fate/Grand Order)"
+    },
+    {
+     "en": "Kyou kara Boku wa Master no Koibito"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,8 +39,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,39 +53,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-31T16:41:40+00:00",
+   "updatedAt": "2021-05-25T15:44:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "9d5916f2-28b7-4c15-948e-e0129235bda5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kanyou Shounen",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "afdbe48f-9ec3-4f15-a282-0dd77bf709df",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "URA",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b5d9f870-5ab9-4174-88da-99020232098d",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "46e89d1e-e40f-4ffa-8994-e36c2bbed32a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:06+00:00",
+    "description": "",
+    "fileName": "4514a919-76dc-4773-bf0c-e31adac8bc75.jpg",
+    "updatedAt": "2021-05-24T17:21:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

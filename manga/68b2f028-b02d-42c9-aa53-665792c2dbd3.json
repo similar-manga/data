@@ -7,6 +7,11 @@
    "title": {
     "en": "Afternoon"
    },
+   "altTitles": [
+    {
+     "en": "После полудня"
+    }
+   ],
    "description": {
     "en": "An extremely short oneshot about a cello lesson."
    },
@@ -17,8 +22,7 @@
     "mal": "77265",
     "mu": "80355"
    },
-   "originalLanguage": "zh-hk",
-   "lastChapter": "0",
+   "originalLanguage": "zh",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,39 +58,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-02T16:49:33+00:00",
+   "updatedAt": "2021-05-25T15:43:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "a7c879ec-b762-4731-b4d5-d1e6c72169ac",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Xia Da",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a7c879ec-b762-4731-b4d5-d1e6c72169ac",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Xia Da",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1a34a531-6ae4-42f1-ae66-f52ae9c760dc",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "a851e0da-4e89-4fd6-b270-af49a71f93fa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:07:19+00:00",
+    "description": "",
+    "fileName": "9c2afe27-6ec3-4e88-afd1-b2d10bdf73d5.jpg",
+    "updatedAt": "2021-05-24T18:07:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Memai"
    },
+   "altTitles": [
+    {
+     "en": "Dizzy"
+    },
+    {
+     "en": "めまい"
+    }
+   ],
    "description": {
     "en": "Koutarou's childhood friend Te-chan invites him to his home. Koutarou thinks it's weird since they haven't hung out together in years, but the carnage at Te-chan's home sends the boys running away together. Is Te-chan really bad? If so, why doesn't Koutarou leave him?"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +74,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,6 +86,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -80,67 +98,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-18T09:12:31+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "97a8c763-8b55-4e57-9db2-d5765c14c0db",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tanaka Suzuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "97a8c763-8b55-4e57-9db2-d5765c14c0db",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tanaka Suzuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "18d439ea-2a82-4c70-b1cb-8dce6fb99089",
-   "type": "chapter"
-  },
-  {
-   "id": "26a8268f-d8fe-460b-a6bb-b0355c536527",
-   "type": "chapter"
-  },
-  {
-   "id": "7a469a58-2b96-4348-b05d-471741c1f685",
-   "type": "chapter"
-  },
-  {
-   "id": "68f9f836-a227-4402-a140-8fbe58000bca",
-   "type": "chapter"
-  },
-  {
-   "id": "a0575020-2d36-4e14-8a37-e6567d77ce23",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "4127088c-24ac-4f6c-9e89-65baba31a077",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:48:33+00:00",
+    "description": "",
+    "fileName": "e67a7d2b-f2da-4433-9119-0cefb4d11986.jpg",
+    "updatedAt": "2021-05-24T16:48:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

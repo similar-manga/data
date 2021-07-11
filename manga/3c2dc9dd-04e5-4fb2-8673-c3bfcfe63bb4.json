@@ -7,6 +7,14 @@
    "title": {
     "en": "Miku to Neo"
    },
+   "altTitles": [
+    {
+     "en": "Mic And Neo"
+    },
+    {
+     "en": "ミクとネオ"
+    }
+   ],
    "description": {
     "en": "Mic (pseudonym), a young man who had attempted suicide and lost all his memories, is found by the caretaker of the nearby Buddhist temple, Neo, who ends up taking him under his wing. At that moment, Neo discovers that Mic has a sling bag containing a huge sum of rolled-up bank notes... Until he regains his memory, Mic becomes a freeloader at the temple, living his days without worry. However, Neo comes to discover Mic's dark past..."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +72,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -68,83 +84,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-13T10:47:59+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "c35f986b-cda4-4496-9dba-bab958e20e30",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aniya Yuiji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c35f986b-cda4-4496-9dba-bab958e20e30",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aniya Yuiji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0ce75333-ea5d-42b9-99be-94dd29f9f87d",
-   "type": "chapter"
-  },
-  {
-   "id": "5b30d4d7-9033-4477-a9e6-398625f10394",
-   "type": "chapter"
-  },
-  {
-   "id": "a2db4a60-5fb5-4c70-9a27-87b67d1c3814",
-   "type": "chapter"
-  },
-  {
-   "id": "49e77bce-4129-416f-944e-0d2a3999e233",
-   "type": "chapter"
-  },
-  {
-   "id": "171ca36a-0891-4987-941c-4d3e5cb773b6",
-   "type": "chapter"
-  },
-  {
-   "id": "bab0480b-eb29-4190-8256-3a48587a0b05",
-   "type": "chapter"
-  },
-  {
-   "id": "0025b3bd-6b4f-4696-9c49-3c46c970d61d",
-   "type": "chapter"
-  },
-  {
-   "id": "a5737d3c-e213-4a0a-abf0-41d36dd3fbc4",
-   "type": "chapter"
-  },
-  {
-   "id": "af2214d4-879f-41c0-ad7b-d55b3291d55e",
-   "type": "chapter"
-  },
-  {
-   "id": "851704a4-1825-43aa-97c9-916bc80c435f",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "296ce301-b00d-4f6c-8dcb-dbe7b1b9567f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:54:27+00:00",
+    "description": "",
+    "fileName": "087ad8ed-2bc0-4fb2-a1e7-ee6e8a6cc785.jpg",
+    "updatedAt": "2021-05-24T16:54:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Kimetsu no Aima!"
    },
+   "altTitles": [
+    {
+     "en": "きめつのあいま！"
+    }
+   ],
    "description": {
     "en": "A four-panel gag manga spin-off of Kimetsu no Yaiba manga. The manga will feature SD versions of the characters from the main manga. And it'll release after each anime episode premiere, featuring stories covered by the anime."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,6 +71,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,6 +83,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -80,6 +95,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -90,91 +107,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-20T11:57:42+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "e7af5833-b40a-475d-9ac8-6cde2f383227",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hirano Ryouji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e7af5833-b40a-475d-9ac8-6cde2f383227",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hirano Ryouji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "791dd854-cc20-406d-bb3e-e2c2e8515958",
-   "type": "chapter"
-  },
-  {
-   "id": "09f4c243-0f5b-4fe1-a247-72ceb246bd2a",
-   "type": "chapter"
-  },
-  {
-   "id": "0463aa95-a552-4a82-9ac2-e51a10924f5f",
-   "type": "chapter"
-  },
-  {
-   "id": "5bfa992c-2400-44e2-a841-7cc272becf12",
-   "type": "chapter"
-  },
-  {
-   "id": "a44e044c-7bf2-4f30-b0a4-031c400b620e",
-   "type": "chapter"
-  },
-  {
-   "id": "6dd5f61d-d19b-4dec-b53e-da4e46fe7287",
-   "type": "chapter"
-  },
-  {
-   "id": "e38211c1-ff2c-474f-8804-635c14a0a81e",
-   "type": "chapter"
-  },
-  {
-   "id": "a22c4b28-dcff-4a30-9615-1aa824ea04ba",
-   "type": "chapter"
-  },
-  {
-   "id": "d7c6c562-8413-4a45-acd4-d8e25a9732b6",
-   "type": "chapter"
-  },
-  {
-   "id": "f649ad4f-d9ea-4d14-9af2-9d9e7ea4f8e1",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "9b72c810-76e6-4f7e-a2f8-f4d53784ce00",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:34:28+00:00",
+    "description": "",
+    "fileName": "bd6faf38-e11c-4f86-8aed-bc5933044dc6.jpg",
+    "updatedAt": "2021-05-24T17:34:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,20 @@
    "title": {
     "en": "Tomodachi no Uta"
    },
+   "altTitles": [
+    {
+     "en": "Friends' Song"
+    },
+    {
+     "en": "Song of Friends"
+    },
+    {
+     "en": "ともだちのうた"
+    },
+    {
+     "en": "朋友的歌"
+    }
+   ],
    "description": {
     "en": "Akane is a nice and cheerful girl whose dream has always been to become a singer and reach many people with her voice. To achieve it, she even gave up on having a normal and fun time with her high school friends... until one day she meets a girl, Fumi, and by befriending her undergoes major changes in her life. This is the story of their friendship and their shared love for music."
    },
@@ -33,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +59,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,47 +71,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-18T21:54:20+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "b5d641dc-5f62-4adf-b78e-dc2fe6c2439a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Iwashita Keiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b5d641dc-5f62-4adf-b78e-dc2fe6c2439a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Iwashita Keiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "29540e69-a20e-4433-bb13-c05dfebcb3c4",
-   "type": "chapter"
-  },
-  {
-   "id": "63c95fbd-37dd-4a0d-b05b-974a3afefe3d",
-   "type": "chapter"
-  },
-  {
-   "id": "07ae7b5e-650a-46b0-b5f1-3e303bde80f8",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "7ba4fd4a-5aeb-4fd2-8845-3d195232263e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:51:59+00:00",
+    "description": "",
+    "fileName": "310fe42d-6266-447c-a9e0-df7fc2c2c832.jpg",
+    "updatedAt": "2021-05-24T16:51:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

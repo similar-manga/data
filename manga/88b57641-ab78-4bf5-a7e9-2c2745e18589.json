@@ -14,7 +14,6 @@
     "mu": "62315"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,39 +37,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-27T20:47:54+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "28d22b34-ad65-40c9-9791-97e8a1232404",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HANASAKI Maiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "28d22b34-ad65-40c9-9791-97e8a1232404",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HANASAKI Maiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "23418bf4-6726-4418-bce7-bac0fb6a2691",
-   "type": "chapter"
-  },
-  {
-   "id": "1cd7b45f-3ffc-43c4-afd4-bfe909464413",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "c0cb66dd-7051-4f0a-ad43-26d688a875f2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:42+00:00",
+    "description": "",
+    "fileName": "70d2755a-1e4a-4047-8d0b-16897b781f13.jpg",
+    "updatedAt": "2021-05-24T17:09:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

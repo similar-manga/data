@@ -7,6 +7,17 @@
    "title": {
     "en": "Cat's Imagination"
    },
+   "altTitles": [
+    {
+     "en": "Imaginary Cat"
+    },
+    {
+     "en": "The House Cat"
+    },
+    {
+     "en": "상상고양이"
+    }
+   ],
    "description": {
     "en": "One cat, one human. The different perspectives of two different beings. Cat's Imagination."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,6 +65,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,59 +77,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-11T01:29:24+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "949e131a-8df4-4f3d-adf2-07bdb4f14cf2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Kyung",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "949e131a-8df4-4f3d-adf2-07bdb4f14cf2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Kyung",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6c630481-6152-4c98-83d0-ad1fa798d238",
-   "type": "chapter"
-  },
-  {
-   "id": "c96489fd-c8da-41d7-910c-d614bc61895a",
-   "type": "chapter"
-  },
-  {
-   "id": "0002d1f2-70d0-4dd8-8c43-70fd82dfd143",
-   "type": "chapter"
-  },
-  {
-   "id": "642d452f-b185-41da-919c-f036563a4ffe",
-   "type": "chapter"
-  },
-  {
-   "id": "05e4b847-8834-4e90-97be-68ce792a0388",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "43c7e3d3-e861-4f18-b16d-3f2c7858d559",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:47:43+00:00",
+    "description": "",
+    "fileName": "52f9cc55-dfe9-4539-a177-57ad78399d02.jpg",
+    "updatedAt": "2021-05-24T16:47:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

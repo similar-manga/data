@@ -7,6 +7,17 @@
    "title": {
     "en": "Red Snow"
    },
+   "altTitles": [
+    {
+     "en": "Akai Yuki"
+    },
+    {
+     "en": "Neige rouge"
+    },
+    {
+     "en": "赤い雪 勝又進作品集"
+    }
+   ],
    "description": {
     "en": "The setting is the pre-modern Japanese countryside of the author's youth, a slightly magical world where ancestral traditions hold sway over a people in the full vigor of life, struggling to survive the harsh seasons and the difficult life of manual laborers and farmers. While the world they inhabit has faded into memory and myth, the universal fundamental emotions of the human heart prevail at the center of these tender stories."
    },
@@ -29,6 +40,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +52,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +64,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,39 +76,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-01-19T00:44:08+00:00",
+   "updatedAt": "2021-01-19T00:44:08+00:00"
   }
  },
  "relationships": [
   {
    "id": "72498d46-ad63-4651-a1cf-3be9ecb75a4c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katsumata Susumu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "72498d46-ad63-4651-a1cf-3be9ecb75a4c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katsumata Susumu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "00e866f1-b60c-4f7d-b1ad-c1078b37439e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:27:48+00:00",
+    "description": "",
+    "fileName": "2b249ac2-f5d7-4324-9ce3-445d587ab4cf.jpg",
+    "updatedAt": "2021-05-24T18:27:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

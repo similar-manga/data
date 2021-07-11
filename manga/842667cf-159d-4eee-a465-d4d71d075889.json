@@ -5,8 +5,28 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "M\u0026eacute;moires du Masque"
+    "en": "Mémoires du Masque"
    },
+   "altTitles": [
+    {
+     "en": "Mémoire du Masque"
+    },
+    {
+     "en": "Memoire du Masque"
+    },
+    {
+     "en": "Memories of a Mask"
+    },
+    {
+     "en": "Memory of the mask"
+    },
+    {
+     "en": "Воспоминания маски"
+    },
+    {
+     "en": "가면의 기억"
+    }
+   ],
    "description": {
     "en": "After being in an accident, a high-school girl ends up with strange visions of horror, deaths, and murderers. She is not sure whether these are nightmares or premonitions, so she decide to find out the true meaning of the visions."
    },
@@ -18,7 +38,6 @@
     "mu": "6840"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +49,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,31 +61,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-06-16T17:03:19+00:00",
+   "updatedAt": "2019-06-16T17:03:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "45a3e379-d447-4eef-8dc4-bb8a5df62ce3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KIM Jung Han",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "45a3e379-d447-4eef-8dc4-bb8a5df62ce3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KIM Jung Han",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "72e7fe90-a557-4ffc-b394-7cd7ccbfc7db",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:39+00:00",
+    "description": "",
+    "fileName": "37a3a80c-51ea-4e74-89ec-3eabc6d5c23f.png",
+    "updatedAt": "2021-05-24T17:15:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

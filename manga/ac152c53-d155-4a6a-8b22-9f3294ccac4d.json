@@ -7,6 +7,14 @@
    "title": {
     "en": "Yoake no Blues"
    },
+   "altTitles": [
+    {
+     "en": "夜明けのブルース"
+    },
+    {
+     "en": "黎明时的蓝调"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -15,7 +23,6 @@
     "mu": "74585"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +33,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,41 +43,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-26T06:28:18+00:00",
+   "updatedAt": "2021-05-25T15:46:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "8308f368-4060-4461-928d-64d6c4f4acb2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Habuyama Hebiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8308f368-4060-4461-928d-64d6c4f4acb2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Habuyama Hebiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "059a920f-6108-4ab0-a01d-87930cf278f0",
-   "type": "chapter"
-  },
-  {
-   "id": "712cf42e-f176-49c7-804e-2c8709668ac9",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "92e1f5e7-b1cb-4f77-a166-49b3367c2b63",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:08+00:00",
+    "description": "",
+    "fileName": "cc91b7c9-b9ee-463c-bed4-a8c211f19f51.jpg",
+    "updatedAt": "2021-05-24T16:59:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

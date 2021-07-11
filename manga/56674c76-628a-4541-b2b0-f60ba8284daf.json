@@ -7,6 +7,17 @@
    "title": {
     "en": "Bespoke"
    },
+   "altTitles": [
+    {
+     "en": "ビスポーク"
+    },
+    {
+     "en": "男性保姆"
+    },
+    {
+     "en": "男性褓姆"
+    }
+   ],
    "description": {
     "en": "A seductive tailor, a tattoo artist, a good yakuza, a bad yakuza, and some very, very hunky men! Bespoke is a series of interlinked stories about well-built guys."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +52,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,51 +66,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-23T14:13:12+00:00",
+   "updatedAt": "2021-05-25T15:42:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "fceccf13-6cbb-4285-a2f5-6350ebad4f90",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsuzaki Tsukasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fceccf13-6cbb-4285-a2f5-6350ebad4f90",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsuzaki Tsukasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b185a231-6c02-4e9b-9b36-3d361a421184",
-   "type": "chapter"
-  },
-  {
-   "id": "3f3fa27d-3243-4a07-a91d-5f4c5bb8d07f",
-   "type": "chapter"
-  },
-  {
-   "id": "853dd573-0169-4a08-8f0e-bdcbdff4f43f",
-   "type": "chapter"
-  },
-  {
-   "id": "e3714353-5570-40a9-ad8d-b030566574d2",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "2aaf2ffd-f16f-4f64-be91-d20bad38d34c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:16:25+00:00",
+    "description": "",
+    "fileName": "61a45ed2-d9b1-4c13-b7e5-84105d1c5ae2.jpg",
+    "updatedAt": "2021-05-24T17:16:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon Card GB The Comix"
+    "en": "Pokémon Card GB The Comix"
    },
+   "altTitles": [
+    {
+     "en": "ポケモンカードGB THE COMIX"
+    }
+   ],
    "description": {
-    "en": "Published as part of the Pok\u0026eacute;mon Card GB Final Tactical Book strategy guide, a Japanese guidebook for the Pok\u0026eacute;mon TCG."
+    "en": "Published as part of the Pokémon Card GB Final Tactical Book strategy guide, a Japanese guidebook for the Pokémon TCG."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,35 +39,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-31T02:26:00+00:00",
+   "updatedAt": "2021-05-25T15:41:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "85f77dfb-821d-4623-ba64-339ea682ed44",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kagemaru Himeno",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "85f77dfb-821d-4623-ba64-339ea682ed44",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kagemaru Himeno",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "81c3faa2-7b13-4b9e-b1a1-9b7e208585c3",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "52b08a3d-72ff-4f2f-815a-49b6db8e63a2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:29:21+00:00",
+    "description": "",
+    "fileName": "856c607c-ab15-4aac-9484-0572d31fdffe.jpg",
+    "updatedAt": "2021-05-24T18:29:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

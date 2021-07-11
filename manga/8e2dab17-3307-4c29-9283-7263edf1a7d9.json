@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Kimi wa \u0026quot;Pochi\u0026quot; da! - Daigakuseihen"
+    "en": "Kimi wa \"Pochi\" da! - Daigakuseihen"
    },
+   "altTitles": [
+    {
+     "en": "Kimi wa Pochi da! ~Daigakuseihen~"
+    },
+    {
+     "en": "キミは「ポチ」だ！～大学生編～"
+    }
+   ],
    "description": {
     "en": "Soushi, the son of a respectable and very wealthy family, starts to have feelings for his bodyguard, Yamanami. they are both well aware of their class differences which places an obstacle in their quest to be together. however, how will the arrival of a new love interest, Aoyama, affect their relationship?? this funny manga will reveal a deeper angle on their feelings."
    },
@@ -19,7 +27,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "1",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -30,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,37 +47,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-06T15:39:49+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "0ef8dddc-edde-4d6b-ad40-2df12501d662",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kirishima Tamaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0ef8dddc-edde-4d6b-ad40-2df12501d662",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kirishima Tamaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b3b9a17c-1005-45a1-8ee6-16e70c6c5b65",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "6a930a68-d22c-4fd1-9ad5-f0646063f8e0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:00+00:00",
+    "description": "",
+    "fileName": "d54a12cf-122e-459f-aa2a-0ae3ad4b6f32.jpg",
+    "updatedAt": "2021-05-24T17:18:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Togainu no Chi ~ Zero"
    },
+   "altTitles": [
+    {
+     "en": "Togainu no Chi (Zero)"
+    },
+    {
+     "en": "咎狗の血"
+    }
+   ],
    "description": {
     "en": "Serial comic based on Nitro+CHiRAL's post-apocalyptic Japan BL game, 'Togainu no Chi'. This version follows the Keisuke storyline.\r\n\r\nNotes: Chapters 1-2 were published in Magazine ZERO by Biblos in 2005 under the name Tomoe Sato. Vol.1 was published by ASCII Media Works in July 2008 as Yamamoto Kana. Both are the same mangaka."
    },
@@ -18,7 +26,6 @@
     "mu": "34466"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +49,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +61,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,8 +71,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,51 +85,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-07T04:30:21+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "03b02681-7b4b-4b55-b36a-2215acb5b61d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nitro+CHiRAL",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "620927f4-e7c8-43ce-a35a-5aba9153b029",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamamoto Kana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9e9de454-ae5b-448a-86a2-ccecd5172d5b",
-   "type": "chapter"
-  },
-  {
-   "id": "07f83d8f-88be-407f-8167-44a67fa902b4",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "c6f88680-d0be-4fc2-a2a6-bfd1a1b52307",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:36:44+00:00",
+    "description": "",
+    "fileName": "4808fb13-167d-4bfb-b6f3-85d2ef120a5b.jpg",
+    "updatedAt": "2021-05-24T18:36:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

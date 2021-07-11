@@ -5,7 +5,7 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Psycho-Pass \u0026ndash; Platonic Garden"
+    "en": "Psycho-Pass – Platonic Garden"
    },
    "description": {
     "en": "Pairing: Kogami x Makishima"
@@ -20,8 +20,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,35 +34,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-02T16:00:39+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "36b6bd48-1d8b-4270-8cdb-9558cff9ed74",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TenshinAmaguri (Avocado)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "36b6bd48-1d8b-4270-8cdb-9558cff9ed74",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TenshinAmaguri (Avocado)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d07da6ab-ac83-451e-9e10-450215a14967",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "fb848ef5-c50d-4feb-b4a6-e38625f265bc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:24+00:00",
+    "description": "",
+    "fileName": "34f16328-00a4-4371-b8e0-54849b89c49e.jpg",
+    "updatedAt": "2021-05-24T17:32:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

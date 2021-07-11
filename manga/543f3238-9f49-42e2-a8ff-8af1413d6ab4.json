@@ -7,6 +7,20 @@
    "title": {
     "en": "Wild Rock"
    },
+   "altTitles": [
+    {
+     "en": "Innocent Lies"
+    },
+    {
+     "en": "Wairudo rokku"
+    },
+    {
+     "en": "ワイルド・ロック"
+    },
+    {
+     "en": "ワイルドロック"
+    }
+   ],
    "description": {
     "en": "Wild Rock takes place in a prehistoric setting.\r\nThe first story is about a boy, Yuuen, who is asked by his tribal chief father to seduce Emba (a great hunter and the next chief of the rival Lakeside clan) by pretending to be a female so that they can get more food. The other stories are in the same setting, but with different characters (including the fathers of both characters from the main story when they were young)."
    },
@@ -29,6 +43,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +55,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,8 +65,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,63 +79,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-22T21:14:19+00:00",
+   "updatedAt": "2021-05-25T15:42:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "a0dfd70e-b8c7-4c46-82e2-3cfc1b1c9012",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takashima Kazusa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a0dfd70e-b8c7-4c46-82e2-3cfc1b1c9012",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takashima Kazusa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d292a3b0-fec2-4431-824a-914d1989b2c6",
-   "type": "chapter"
-  },
-  {
-   "id": "27769a05-af59-4f85-93b1-6d72009da3e0",
-   "type": "chapter"
-  },
-  {
-   "id": "b1db9170-9407-4bee-86c4-dac81c16aab3",
-   "type": "chapter"
-  },
-  {
-   "id": "2c1d4503-386a-4508-a676-c5b7e4192f90",
-   "type": "chapter"
-  },
-  {
-   "id": "112eb2ee-920e-440d-b0e3-2078ebd74aa2",
-   "type": "chapter"
-  },
-  {
-   "id": "799cac8c-a391-40d4-adaf-9dc98c5afeba",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "9bc73165-e3ad-4fb9-b52d-453e326ac45a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:24+00:00",
+    "description": "",
+    "fileName": "baf76059-e271-48ac-b395-8caca0d23710.jpg",
+    "updatedAt": "2021-05-24T17:38:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

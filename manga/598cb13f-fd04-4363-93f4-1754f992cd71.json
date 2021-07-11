@@ -7,6 +7,11 @@
    "title": {
     "en": "Men Men Musubi"
    },
+   "altTitles": [
+    {
+     "en": "麺面むすび"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -15,7 +20,6 @@
     "mu": "145684"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,8 +52,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,47 +66,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-05T03:40:09+00:00",
+   "updatedAt": "2021-05-25T15:42:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "c3637e53-6e44-4af6-a4ae-1270d1a9f965",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yodokawa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c3637e53-6e44-4af6-a4ae-1270d1a9f965",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yodokawa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d5fef6da-c396-4682-af56-c94ec0794cf4",
-   "type": "chapter"
-  },
-  {
-   "id": "e1372602-caf3-49cb-86e6-4e4d67fead78",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "4dc9d238-e185-4f42-a455-24de6668ac0b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:28+00:00",
+    "description": "",
+    "fileName": "2367e25d-a2cf-4699-92dc-0c0d3f082a5f.jpg",
+    "updatedAt": "2021-05-24T17:03:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

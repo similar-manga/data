@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Tasogare Schr\u0026ouml;dinger"
+    "en": "Tasogare Schrödinger"
    },
+   "altTitles": [
+    {
+     "en": "Tasogare Schrodinger"
+    }
+   ],
    "description": {
     "en": "Two childhood friends Beckman Jouji and Kuranosuke reunite after not having seen each other for a while. Kuranosuke has the power to fly, but only when his best friend is by his side. Unfortunately, Miss Schrodinger has other plans for these two friends... A one-shot that shows the bond between two best friends!"
    },
@@ -14,7 +19,6 @@
     "mu": "86966"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +66,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,55 +78,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-13T23:33:35+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "bef8affb-3c54-43a1-a689-5c00a7828ae0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Azuma Jun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bef8affb-3c54-43a1-a689-5c00a7828ae0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Azuma Jun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8dd44f81-fe07-4839-bf6a-e544c21b7564",
-   "type": "chapter"
-  },
-  {
-   "id": "72fb3328-467d-4c00-bc9c-f0e0491db904",
-   "type": "chapter"
-  },
-  {
-   "id": "15310b29-935c-4dcc-aef3-aa5211e71779",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "2064aa35-12af-4fdc-9e3e-94da2ef0d3bb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:37:28+00:00",
+    "description": "",
+    "fileName": "7a8047a5-4971-4270-ae56-cb5e3e87f386.jpg",
+    "updatedAt": "2021-05-24T18:37:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

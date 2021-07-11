@@ -7,6 +7,23 @@
    "title": {
     "en": "Chiiko Basketball!"
    },
+   "altTitles": [
+    {
+     "en": "Chiiko Basket!"
+    },
+    {
+     "en": "Chiiko Basketball!"
+    },
+    {
+     "en": "Chiko Basket!"
+    },
+    {
+     "en": "Chiko Basketball!"
+    },
+    {
+     "en": "ちーこばすけっと!"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -30,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +59,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,39 +71,53 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-20T01:20:43+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "ede0345a-e57f-4661-a0b1-adc47c7af850",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Komeshiro Kasu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ede0345a-e57f-4661-a0b1-adc47c7af850",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Komeshiro Kasu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "03b24cc7-67c4-4e5a-8f1b-568ff3b54680",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
+   "id": "ec5f1d8e-0a10-4f6b-8a37-52d657432542",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:52:05+00:00",
+    "description": "",
+    "fileName": "d4db520b-4d65-449c-bce2-14f30a78f12a.jpg",
+    "updatedAt": "2021-05-24T16:52:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

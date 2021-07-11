@@ -5,10 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Gokuraku Caf\u0026eacute;"
+    "en": "Gokuraku Café"
    },
+   "altTitles": [
+    {
+     "en": "Gokuraku Cafe"
+    },
+    {
+     "en": "極楽カフェ"
+    }
+   ],
    "description": {
-    "en": "Yuto works as a waiter at the Rainbow Forest Cafe. One day, he sees a guy who looks like he wants to throw himself from a bridge. Yuto tries to save him, only to find out that he's none other than the famous former baseball player, Esaki.\r\n\r\n[b][u]Polish / Polski:[/u][/b]\r\n[spoiler]Glownym bohaterem mangi jest Yuuto pracujacy jako kelner w \u0026quot;Rainbow Forest Cafe\u0026quot; (kawiarni \u0026quot;Teczowy Las\u0026quot;). Chlopak ma dobre serducho i pomaga tym, ktorzy sa w potrzebie. Jednak dziwnym trafem wszyscy, ktorym pomoze, zakochuja sie w nim, co przysparza mu jedynie samych klopotow... (Yunnie)\r\nOpis ze strony Synthesiss"
+    "en": "Yuto works as a waiter at the Rainbow Forest Cafe. One day, he sees a guy who looks like he wants to throw himself from a bridge. Yuto tries to save him, only to find out that he's none other than the famous former baseball player, Esaki.",
+    "pl": "Glownym bohaterem mangi jest Yuuto pracujacy jako kelner w \"Rainbow Forest Cafe\" (kawiarni \"Teczowy Las\"). Chlopak ma dobre serducho i pomaga tym, ktorzy sa w potrzebie. Jednak dziwnym trafem wszyscy, ktorym pomoze, zakochuja sie w nim, co przysparza mu jedynie samych klopotow... (Yunnie)\r\nOpis ze strony Synthesiss"
    },
    "links": {
     "al": "32430",
@@ -30,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +63,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-11T00:45:26+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "8fc31515-f855-4b01-a5ad-c50556b42496",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mamahara Ellie",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8fc31515-f855-4b01-a5ad-c50556b42496",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mamahara Ellie",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4ab19a64-5b46-4cc6-bd21-646ae1ee3460",
-   "type": "chapter"
-  },
-  {
-   "id": "7ae01248-40d5-4487-b150-eda5e290079f",
-   "type": "chapter"
-  },
-  {
-   "id": "936bf0ab-7ce0-4a10-87ab-bd43b5cd293f",
-   "type": "chapter"
-  },
-  {
-   "id": "ed7c8b02-3400-43b3-a3d7-abcb054762d8",
-   "type": "chapter"
-  },
-  {
-   "id": "d4ac8374-2677-4be3-9b17-3aa1d6d560dd",
-   "type": "chapter"
-  },
-  {
-   "id": "5eb5963e-926a-4d92-b66f-5eed8af0d23f",
-   "type": "chapter"
-  },
-  {
-   "id": "aaf0706c-f805-4255-87a5-75f478a48b18",
-   "type": "chapter"
-  },
-  {
-   "id": "cf1f1d15-7ddc-4f81-942c-7cfbaac71765",
-   "type": "chapter"
-  },
-  {
-   "id": "5ee5687f-3289-4eca-b391-9e74f3588881",
-   "type": "chapter"
-  },
-  {
-   "id": "2cf54d45-4bc2-4a67-8c06-7a5d6ea4225c",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "986b081f-1243-4f34-a3ef-67f6bdb5a81f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:43:52+00:00",
+    "description": "",
+    "fileName": "e28eb209-1f7c-4db2-a45a-5e0f3cbaf2a6.jpg",
+    "updatedAt": "2021-05-24T16:43:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

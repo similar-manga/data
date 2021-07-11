@@ -7,6 +7,11 @@
    "title": {
     "en": "Unreal Sunshine"
    },
+   "altTitles": [
+    {
+     "en": "アンリアル・サンシャイン"
+    }
+   ],
    "description": {
     "en": "A gag oneshot about a guy working at a convenience store and his ne'er-do-well friend. Based on themes from the author's own life."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,35 +46,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-13T05:54:20+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "afc7b58a-9606-4e90-9e3e-2fb7a41025de",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Satou Shouji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "afc7b58a-9606-4e90-9e3e-2fb7a41025de",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Satou Shouji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1f86bda4-5e73-41c5-92eb-7e88df80883b",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "7a2f8cfc-fb98-4f9d-b6ef-bc974fb400cf",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:40:48+00:00",
+    "description": "",
+    "fileName": "10a5fd89-744b-4567-83a6-097f66ebd20f.jpg",
+    "updatedAt": "2021-05-24T18:40:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

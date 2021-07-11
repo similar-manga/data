@@ -7,6 +7,14 @@
    "title": {
     "en": "Roommates"
    },
+   "altTitles": [
+    {
+     "en": "Tokyonin"
+    },
+    {
+     "en": "どーきょにん"
+    }
+   ],
    "description": {
     "en": "Two roommates find attaction to each other. \r\naka Tokyonin."
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +71,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -67,59 +83,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-23T01:24:00+00:00",
+   "updatedAt": "2021-05-25T15:39:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "e0b202ec-e0f8-4ebc-856a-332fbd63b49d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oku Tamamushi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e0b202ec-e0f8-4ebc-856a-332fbd63b49d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oku Tamamushi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fdd42f9e-1980-488d-938b-21dfd14d8bb2",
-   "type": "chapter"
-  },
-  {
-   "id": "4b310fc4-0b8f-4fee-9e93-c6140f430d41",
-   "type": "chapter"
-  },
-  {
-   "id": "0dc69fe0-bab9-43c0-84a2-0cf85e3f6e3c",
-   "type": "chapter"
-  },
-  {
-   "id": "3ad17178-9f22-4648-ad51-24a59cc20037",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "d274d6ec-74eb-4f62-bd7d-687699b7a308",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:53:48+00:00",
+    "description": "",
+    "fileName": "9c1b0edc-e05e-4c6b-8c70-300aba4cf8ec.jpg",
+    "updatedAt": "2021-05-24T16:53:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

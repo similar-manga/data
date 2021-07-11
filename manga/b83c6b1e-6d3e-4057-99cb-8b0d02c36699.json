@@ -7,6 +7,17 @@
    "title": {
     "en": "Meitantei Marnie"
    },
+   "altTitles": [
+    {
+     "en": "Meitantei Marny"
+    },
+    {
+     "en": "นักล่าปริศนา มานี"
+    },
+    {
+     "en": "名探偵マーニー"
+    }
+   ],
    "description": {
     "en": "Where there are people, there is drama and troubles to be solved. Marnie's father works as a detective to solve problems created between people, whether they are marriage issues or murder cases. Just like her father, Marnie also solves cases as long as the price is right. She usually lives as a normal student, sleeping through her classes, but once a client asks for her help, she will stop at nothing to solve the mystery laid before her."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -51,47 +66,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-28T04:45:46+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "e47f3d10-109f-4d41-bfc6-d554328c4cf2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kigitsu Katsuhisa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e47f3d10-109f-4d41-bfc6-d554328c4cf2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kigitsu Katsuhisa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a941f927-4b9b-4557-81b4-3ec1e8ebd9fc",
-   "type": "chapter"
-  },
-  {
-   "id": "6d218923-c718-42e4-88ca-6a24272ab8c7",
-   "type": "chapter"
-  },
-  {
-   "id": "a4c4de65-685c-438d-a2da-4b1267959bc0",
-   "type": "chapter"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "6e598e82-c819-4f52-93a5-4d307150d61f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:43:12+00:00",
+    "description": "",
+    "fileName": "67c6dcbf-d978-4411-b8a1-f20c68a9c82e.jpg",
+    "updatedAt": "2021-05-24T16:43:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

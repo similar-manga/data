@@ -16,7 +16,6 @@
     "mu": "7823"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -28,6 +27,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,35 +39,53 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-06T22:04:41+00:00",
+   "updatedAt": "2021-05-25T15:47:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "10dd6d4b-79c0-413e-bc62-a1e7e5e2ba3f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Tomo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "10dd6d4b-79c0-413e-bc62-a1e7e5e2ba3f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Tomo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cbb24a7f-9c48-44ef-a77c-43c29e75ebcf",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
+   "id": "861f32af-21d8-4f4a-a48d-781dcb1e9d3d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:53:49+00:00",
+    "description": "",
+    "fileName": "414fd355-11ca-46d4-a298-e211250b9c5b.jpg",
+    "updatedAt": "2021-05-24T16:53:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

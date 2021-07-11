@@ -15,7 +15,7 @@
     "mu": "170780",
     "raw": "https://manmanapp.com/comic-463.html"
    },
-   "originalLanguage": "zh-hk",
+   "originalLanguage": "zh",
    "lastChapter": "40",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +27,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +51,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -57,6 +63,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -67,83 +75,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-15T07:26:42+00:00",
+   "updatedAt": "2021-05-25T15:49:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "9aed3214-f12b-4c98-9ce1-c6df795b4f3b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Doublezero",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9aed3214-f12b-4c98-9ce1-c6df795b4f3b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Doublezero",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bd498b5c-78d5-4712-9627-e68802146ab7",
-   "type": "chapter"
-  },
-  {
-   "id": "fcdbb4ea-631d-4e34-9308-dd3dd3580243",
-   "type": "chapter"
-  },
-  {
-   "id": "a7f1ad9a-133c-413c-9347-a504c936b59b",
-   "type": "chapter"
-  },
-  {
-   "id": "43065c78-695d-456c-9e54-e56deccba878",
-   "type": "chapter"
-  },
-  {
-   "id": "c3f28b1b-de55-425c-ac55-588c63b4fd56",
-   "type": "chapter"
-  },
-  {
-   "id": "ebf89ffd-b848-436a-a295-d86e2af33d26",
-   "type": "chapter"
-  },
-  {
-   "id": "37e2138d-9907-4e0e-a6c6-57670ed53999",
-   "type": "chapter"
-  },
-  {
-   "id": "d2a2ec21-684e-41f6-b9f6-5a1ff2f62069",
-   "type": "chapter"
-  },
-  {
-   "id": "39b0f32a-ea6d-4102-a7a5-a1741d7a0495",
-   "type": "chapter"
-  },
-  {
-   "id": "dfd9fa8b-af34-48c9-b929-c11c877b9672",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "bd98631b-68aa-4f10-b106-a78dc44f31c2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:14:07+00:00",
+    "description": "",
+    "fileName": "a520c644-3e72-42d4-aaf0-7709a94dc66d.jpg",
+    "updatedAt": "2021-05-28T23:14:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

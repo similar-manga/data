@@ -5,10 +5,24 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon Gold \u0026amp; Silver: The Golden Boys"
+    "en": "Pokémon Gold \u0026 Silver: The Golden Boys"
    },
+   "altTitles": [
+    {
+     "en": "Pocket Monsters Kin Gin: Golden Boys"
+    },
+    {
+     "en": "Pokémon Golden Boys"
+    },
+    {
+     "en": "Pokemon"
+    },
+    {
+     "en": "ポケットモンスター金・銀 ゴールデン・ボーイズ"
+    }
+   ],
    "description": {
-    "en": "When Professor Elm asked Gold to choose between three newly discovered Pok\u0026eacute;mon, never would he have expected to be chosen by a Pok\u0026eacute;mon instead! In order to become the Pok\u0026eacute;mon Champion, he has to challenge the Gym Leaders for the ownership of their badges. Meanwhile, Team Rocket emerges, returning to what they know best...plotting evil plans! To add to it all, a mysterious person in black thickens the plot...\r\n\r\nSource: Chuang Yi"
+    "en": "When Professor Elm asked Gold to choose between three newly discovered Pokémon, never would he have expected to be chosen by a Pokémon instead! In order to become the Pokémon Champion, he has to challenge the Gym Leaders for the ownership of their badges. Meanwhile, Team Rocket emerges, returning to what they know best...plotting evil plans! To add to it all, a mysterious person in black thickens the plot...\r\n\r\nSource: Chuang Yi"
    },
    "links": {
     "al": "47191",
@@ -30,6 +44,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +56,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,75 +68,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-04T18:43:53+00:00",
+   "updatedAt": "2021-05-25T15:49:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "e99e4771-a008-47dc-9623-7eacc45cdb6a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Muneo Saito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e99e4771-a008-47dc-9623-7eacc45cdb6a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Muneo Saito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "80d2bbf3-6137-4596-9cbd-c84dba9987a7",
-   "type": "chapter"
-  },
-  {
-   "id": "abdb70aa-2810-46ff-920f-35c06b3969d7",
-   "type": "chapter"
-  },
-  {
-   "id": "b53a33f2-181e-4cfe-aaeb-dae8606f7db2",
-   "type": "chapter"
-  },
-  {
-   "id": "2226d4bb-50a4-4cc5-a533-cc8860ec5fa9",
-   "type": "chapter"
-  },
-  {
-   "id": "6e2aa9b8-236a-4d4a-86bd-f1ead1c2d6a8",
-   "type": "chapter"
-  },
-  {
-   "id": "c7625ed1-81ad-4a77-b23b-f3a252469d8b",
-   "type": "chapter"
-  },
-  {
-   "id": "3d1ebaaf-96c0-4006-9dbb-565f68ca43b2",
-   "type": "chapter"
-  },
-  {
-   "id": "2272b1ba-878e-42f0-b056-644c29ffbc94",
-   "type": "chapter"
-  },
-  {
-   "id": "7918896c-2752-4d49-bec5-803b790ffbd5",
-   "type": "chapter"
-  },
-  {
-   "id": "db4f2890-bee0-418f-a05f-4021e54d5c51",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "68627440-a1b4-4fb2-9b65-ef13188650a4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:55+00:00",
+    "description": "",
+    "fileName": "4bf07127-355a-46c9-9208-7f15ad3236b5.jpg",
+    "updatedAt": "2021-05-24T17:06:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

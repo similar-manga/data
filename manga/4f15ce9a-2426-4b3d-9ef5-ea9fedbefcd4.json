@@ -7,6 +7,17 @@
    "title": {
     "en": "Itoshi Kingyo"
    },
+   "altTitles": [
+    {
+     "en": "Beloved Goldfish"
+    },
+    {
+     "en": "Любимая рыбка"
+    },
+    {
+     "en": "愛し金魚"
+    }
+   ],
    "description": {
     "en": "The volume consists of five separate storylines plus a sidestory."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +65,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +77,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -70,83 +89,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-23T17:36:37+00:00",
+   "updatedAt": "2021-05-25T15:42:16+00:00"
   }
  },
  "relationships": [
   {
    "id": "bc315925-2780-4ff4-ac82-32103d5adf01",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKANO Ichigo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bc315925-2780-4ff4-ac82-32103d5adf01",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKANO Ichigo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "48885178-8726-476b-aeea-3aa760bd1098",
-   "type": "chapter"
-  },
-  {
-   "id": "76e0b2c6-c5fa-4065-a717-d590fea1ea58",
-   "type": "chapter"
-  },
-  {
-   "id": "a114d5ab-2ccd-4027-bda8-a51255d549dd",
-   "type": "chapter"
-  },
-  {
-   "id": "ac0f8b8a-7ce4-4269-a29a-6440c6c562bf",
-   "type": "chapter"
-  },
-  {
-   "id": "6dc85add-6d5f-4a80-9fea-ed8ca75c17c0",
-   "type": "chapter"
-  },
-  {
-   "id": "dc1ae859-5ca7-4990-8a6f-391195ce48d9",
-   "type": "chapter"
-  },
-  {
-   "id": "a2a2d775-8839-44c8-b5c7-1c1559eefb32",
-   "type": "chapter"
-  },
-  {
-   "id": "e09cacc2-4ede-4c0c-b48a-4076c4fcd313",
-   "type": "chapter"
-  },
-  {
-   "id": "ccd34031-2afb-4408-9810-973f213f3909",
-   "type": "chapter"
-  },
-  {
-   "id": "14c235ad-3f64-4f84-a12c-149c79892203",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "03976f7d-2905-4f18-8bbb-a663bf59cf9a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:41:56+00:00",
+    "description": "",
+    "fileName": "6d962288-9b4e-4c87-9df1-76cce6483093.jpg",
+    "updatedAt": "2021-05-24T18:41:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

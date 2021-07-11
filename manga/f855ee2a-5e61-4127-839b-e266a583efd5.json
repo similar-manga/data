@@ -7,6 +7,23 @@
    "title": {
     "en": "Boku wa Subete o Shitte Iru"
    },
+   "altTitles": [
+    {
+     "en": "Boku wa Subete o Shitteiru"
+    },
+    {
+     "en": "Boku wa Subete wo Shitteiru"
+    },
+    {
+     "en": "I Know Everything"
+    },
+    {
+     "en": "I've Seen It All"
+    },
+    {
+     "en": "僕はすべてを知っている"
+    }
+   ],
    "description": {
     "en": "Saikawa is one of the top physicians in his clinic. His speciality? Penises. Everyday, he helps out males who suffer, and only sees ugly penises. Thinking there are no truly beautiful penises left in the world, he wanders around depressed until he crosses paths with Asano, the beautiful cell-phone store clerk...?!"
    },
@@ -29,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +58,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,8 +68,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +82,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,47 +94,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-05T01:06:46+00:00",
+   "updatedAt": "2021-05-25T15:49:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "95dea747-4ab3-4b47-8011-f11ba384ce50",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takaku Shouko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "95dea747-4ab3-4b47-8011-f11ba384ce50",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takaku Shouko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "12d1f512-d7a9-46dd-91a6-634ab2949d18",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "af35af97-6515-4fcc-bdfb-9f2622da2dfe",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:43:12+00:00",
+    "description": "",
+    "fileName": "f4e7ea20-5ec6-4206-9e06-31f0c36b85f7.jpg",
+    "updatedAt": "2021-05-24T18:43:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

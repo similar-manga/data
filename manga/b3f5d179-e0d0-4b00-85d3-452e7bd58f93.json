@@ -7,6 +7,14 @@
    "title": {
     "en": "Walking With You"
    },
+   "altTitles": [
+    {
+     "en": "Kimi to Aruku"
+    },
+    {
+     "en": "きみと歩く"
+    }
+   ],
    "description": {
     "en": "Ken and Yuu are childhood friends. They have always been together: they went to the same kindergarden, the same elementary school, the same middle school and now the same high school. Ken is really good at soccer, but he's hiding something from Yuu. What is it?"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,43 +62,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-24T19:29:59+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "6ab4799b-47d5-4ce8-ae85-262a18e8366d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Junko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6ab4799b-47d5-4ce8-ae85-262a18e8366d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Junko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bc4f4014-bf5d-4ad0-84c9-e42d89c1bb35",
-   "type": "chapter"
-  },
-  {
-   "id": "7226ab8e-7f71-4a09-b651-5f90c6857814",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "5bc4f18f-d738-4fa3-b39d-c4785ffbc61f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:42:55+00:00",
+    "description": "",
+    "fileName": "4f9e3ce8-d85b-44f8-9a71-37f8be294c00.jpg",
+    "updatedAt": "2021-05-24T16:42:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

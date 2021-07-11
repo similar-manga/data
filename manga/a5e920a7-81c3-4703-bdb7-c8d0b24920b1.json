@@ -7,6 +7,14 @@
    "title": {
     "en": "Rakuen no Chloris"
    },
+   "altTitles": [
+    {
+     "en": "Chloris of Paradise"
+    },
+    {
+     "en": "楽園の神娘"
+    }
+   ],
    "description": {
     "en": "The number of humans has plummeted in a world where a deadly poison was spread by the explosion of a research facility. One day, Professor Murase discovers a girl who was preserved by a capsule. In a world where there are no young women, her existence has become the saving grace of humanity."
    },
@@ -32,6 +40,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +52,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,47 +64,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-10T13:37:27+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "89abc15d-e193-42a6-92fb-9c795c4112f5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohkita Mahiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "89abc15d-e193-42a6-92fb-9c795c4112f5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohkita Mahiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c6c1ffa2-c4db-43d6-bc31-2847d2ec935b",
-   "type": "chapter"
-  },
-  {
-   "id": "6d5b1455-6ded-4aa7-aad6-0aea0f1f6b6f",
-   "type": "chapter"
-  },
-  {
-   "id": "39648634-a749-4b7f-8cad-f5e9a150016b",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "46c30374-3df1-4f8d-961b-230ba89bb3aa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:20+00:00",
+    "description": "",
+    "fileName": "c067a38b-146e-48b9-88e9-f4ee544d3221.jpg",
+    "updatedAt": "2021-05-24T17:22:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

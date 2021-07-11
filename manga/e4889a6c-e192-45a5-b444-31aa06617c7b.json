@@ -7,6 +7,11 @@
    "title": {
     "en": "Hebi no Seikatsu"
    },
+   "altTitles": [
+    {
+     "en": "蛇のセイカツ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -29,8 +34,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +60,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,6 +72,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,6 +84,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -81,79 +96,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-28T22:19:17+00:00",
+   "updatedAt": "2021-05-25T15:48:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "94234afd-47a0-40a1-9d5c-54e18af2039c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katashina",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "94234afd-47a0-40a1-9d5c-54e18af2039c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katashina",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "529c4d1e-4fb5-4b54-a00b-af0cc8659d47",
-   "type": "chapter"
-  },
-  {
-   "id": "57c1d21c-e95b-4cdf-8466-faf54920a24b",
-   "type": "chapter"
-  },
-  {
-   "id": "5662bda6-54fc-4e66-901e-b1e443201e7f",
-   "type": "chapter"
-  },
-  {
-   "id": "0d450893-abb8-404c-ab3a-d937ea9b259a",
-   "type": "chapter"
-  },
-  {
-   "id": "627cc79f-a77f-4709-a603-6850e9ddfe6f",
-   "type": "chapter"
-  },
-  {
-   "id": "c11d90af-033a-4f24-8dd7-c5ae4dfba067",
-   "type": "chapter"
-  },
-  {
-   "id": "3e4cb0df-46f2-498f-963b-507f1c7df93a",
-   "type": "chapter"
-  },
-  {
-   "id": "d896c4d0-2d31-45d5-9f79-d929385329be",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "45572d6b-d3ec-4fdd-959f-f9eb7206f6fe",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:27+00:00",
+    "description": "",
+    "fileName": "38f74eda-5bf0-4ada-9e01-d30c6a3604c9.jpg",
+    "updatedAt": "2021-05-24T16:59:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

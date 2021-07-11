@@ -8,10 +8,9 @@
     "en": "Diary"
    },
    "description": {
-    "en": "L\u0026rsquo;histoire bas\u0026eacute;e sur le journal de l\u0026rsquo;auteur."
+    "en": "L’histoire basée sur le journal de l’auteur."
    },
    "originalLanguage": "vi",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,53 +55,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-12-18T22:15:20+00:00",
+   "updatedAt": "2019-12-18T22:15:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "9ae6d602-7d6e-4973-a624-b05b3fdc7893",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Quỳnh-Thị-Chin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9ae6d602-7d6e-4973-a624-b05b3fdc7893",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Quỳnh-Thị-Chin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "499af07a-2be4-4587-a125-36ad3bbc05e5",
-   "type": "chapter"
-  },
-  {
-   "id": "5e9d14d9-3887-4321-8897-581b2eb878f5",
-   "type": "chapter"
-  },
-  {
-   "id": "f1e3a08a-799e-4c23-a5c9-0dc2dd600270",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
+   "id": "94489586-996f-4f25-b9d2-028cab6ace21",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:37:57+00:00",
+    "description": "",
+    "fileName": "26e1ea61-aa39-4ee5-8b20-d66d98701bcc.jpg",
+    "updatedAt": "2021-05-24T17:37:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

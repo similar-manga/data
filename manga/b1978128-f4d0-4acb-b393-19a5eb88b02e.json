@@ -7,6 +7,11 @@
    "title": {
     "en": "Hoikumen!"
    },
+   "altTitles": [
+    {
+     "en": "ホイクメン!"
+    }
+   ],
    "description": {
     "en": "Shirou, an elite office worker, becomes the acting principal of 'Kirakira Nursery' after his grandmother gets hospitalized. At first, he has a hard time dealing with the children since he's not used to it, but after being touched by the kids' innocence and cuteness, and sympathizing with the various situations the parents are in, he begins to remember his childhood dream..."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,51 +48,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-06T22:11:24+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "090805fd-7dc6-47be-b6ae-3f4d77dcf7d7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UEDA Rinko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "090805fd-7dc6-47be-b6ae-3f4d77dcf7d7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UEDA Rinko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f20a4ace-6411-4b16-9239-87f2496b32ba",
-   "type": "chapter"
-  },
-  {
-   "id": "bbfeea54-b7d2-4e24-9094-7eaa96f356bc",
-   "type": "chapter"
-  },
-  {
-   "id": "88726f87-ec9f-43c3-a89d-a18dd701998a",
-   "type": "chapter"
-  },
-  {
-   "id": "236d07ce-a9aa-4126-9962-66ab8c7ad080",
-   "type": "chapter"
-  },
-  {
-   "id": "5f4084e2-8578-44e1-9277-44918d3f07aa",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "7ac566d9-85e8-4f2b-8300-aeeab8d0132b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:50+00:00",
+    "description": "",
+    "fileName": "7a3f44b7-de39-4f24-b587-ab05c02e15e6.jpg",
+    "updatedAt": "2021-05-24T18:17:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

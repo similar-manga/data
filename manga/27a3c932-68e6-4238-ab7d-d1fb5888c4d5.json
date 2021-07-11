@@ -7,6 +7,11 @@
    "title": {
     "en": "Red Doll"
    },
+   "altTitles": [
+    {
+     "en": "레드돌"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -16,7 +21,6 @@
     "raw": "http://comic.naver.com/webtoon/list.nhn?titleId=669358"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -27,6 +31,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +43,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,39 +55,53 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-24T16:58:24+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "256c61fa-29f4-41aa-b1a3-20a73521cdff",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoon Yeol Choi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "256c61fa-29f4-41aa-b1a3-20a73521cdff",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoon Yeol Choi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4f870aa4-50b4-48ae-aa97-3ee3050ad4ce",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
+   "id": "aa4d9bde-cba5-4fbf-b5a8-84055556f971",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:34+00:00",
+    "description": "",
+    "fileName": "6916c79b-9b4d-4ef4-8e3a-0b008471d69d.jpg",
+    "updatedAt": "2021-05-24T16:55:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

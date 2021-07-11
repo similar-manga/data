@@ -5,8 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "My Sister Has Amnesia\u0026mdash; What's Sex?"
+    "en": "My Sister Has Amnesia— What's Sex?"
    },
+   "altTitles": [
+    {
+     "en": "My Sister Has Amnesia - What's Sex?"
+    },
+    {
+     "en": "Ore no Aneki Wa Kioku Soushitsu - Sex Tte Na Ni?"
+    },
+    {
+     "en": "俺の姉貴は記憶喪失－セックスってなぁに？"
+    },
+    {
+     "en": "나의 누님은 기억상실"
+    }
+   ],
    "description": {
     "en": "I want to continue to hold sister could not bear ... lost memories and H Love Love Life!"
    },
@@ -31,6 +45,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -41,6 +57,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +69,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,67 +81,53 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-24T14:20:06+00:00",
+   "updatedAt": "2021-05-25T15:42:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "35542843-1b9e-4d39-97a4-f8daaeb577f9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Satoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "35542843-1b9e-4d39-97a4-f8daaeb577f9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Satoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "25b027af-67ad-491e-ae1a-d22714511b56",
-   "type": "chapter"
-  },
-  {
-   "id": "f9860f68-cdf5-49ce-a0fb-990c0d2ec5cc",
-   "type": "chapter"
-  },
-  {
-   "id": "c59628dd-5cb3-4627-b3cc-e08f4f1abd77",
-   "type": "chapter"
-  },
-  {
-   "id": "f3e375b7-d768-411d-b7a0-c31c5eb1c192",
-   "type": "chapter"
-  },
-  {
-   "id": "ce3dd71b-fdcf-461c-bde6-f104761d3c12",
-   "type": "chapter"
-  },
-  {
-   "id": "58eb3f41-a56d-4226-a209-4d2252b535b9",
-   "type": "chapter"
-  },
-  {
-   "id": "c6aaf59b-716b-4d62-a042-9f60df1ac56e",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
+   "id": "b809e63e-0a9a-4f1e-ad85-b9b28e77f582",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:34+00:00",
+    "description": "",
+    "fileName": "9bf7c611-b9b4-444b-a16d-9149edd7f91f.jpg",
+    "updatedAt": "2021-05-24T16:55:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

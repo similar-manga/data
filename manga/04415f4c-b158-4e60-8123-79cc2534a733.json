@@ -7,6 +7,26 @@
    "title": {
     "en": "Fujiyuu Sekai"
    },
+   "altTitles": [
+    {
+     "en": "A troubling World"
+    },
+    {
+     "en": "A World Without Freedom "
+    },
+    {
+     "en": "No Freedom World"
+    },
+    {
+     "en": "Un mundo inquietante"
+    },
+    {
+     "en": "不自由セカイ"
+    },
+    {
+     "en": "不自由的世界"
+    }
+   ],
    "description": {
     "en": "Reo and Meiko were friends in high school. However, now Reo is serving as Meiko's slave, doing whatever Meiko requests. The story uncovers why their relationship turned out this way."
    },
@@ -31,6 +51,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +63,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -49,8 +73,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +87,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,6 +99,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -81,6 +111,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -91,91 +123,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-22T13:28:06+00:00",
+   "updatedAt": "2021-05-25T15:38:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "75ab77cb-744b-4a4b-b4e5-a90d3c88b475",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kodama Naoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "75ab77cb-744b-4a4b-b4e5-a90d3c88b475",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kodama Naoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9519008b-aab7-4e49-9b07-5d267686e66d",
-   "type": "chapter"
-  },
-  {
-   "id": "ff0cc6cb-1406-405b-b89c-a2f0fba30a9b",
-   "type": "chapter"
-  },
-  {
-   "id": "76b74233-dab2-4861-91b8-81d3eaf57316",
-   "type": "chapter"
-  },
-  {
-   "id": "638ee684-4b21-45b5-8458-8ec1088a6485",
-   "type": "chapter"
-  },
-  {
-   "id": "82670451-b7dd-4e34-88a6-03cc4b8a855e",
-   "type": "chapter"
-  },
-  {
-   "id": "11ef094e-8b42-4a3a-b15b-a626a6be19e0",
-   "type": "chapter"
-  },
-  {
-   "id": "4d617b73-1444-4369-a69e-ebaf6e2695a2",
-   "type": "chapter"
-  },
-  {
-   "id": "3e63f904-f674-40df-974d-7d3e4da794de",
-   "type": "chapter"
-  },
-  {
-   "id": "db77e887-536a-40f9-90e4-401723475445",
-   "type": "chapter"
-  },
-  {
-   "id": "df942e16-8485-46b4-a365-60fb6f24fdb2",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "9e824315-cd84-4f04-9ef8-d2fda5492e7b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:03+00:00",
+    "description": "",
+    "fileName": "cd98e7b4-6811-4ca0-a3c9-f96423f6fd8d.jpg",
+    "updatedAt": "2021-05-24T16:49:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

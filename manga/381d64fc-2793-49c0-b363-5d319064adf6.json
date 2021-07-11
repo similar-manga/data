@@ -7,6 +7,14 @@
    "title": {
     "en": "Fight Club Kindergarten"
    },
+   "altTitles": [
+    {
+     "en": "Action preschool"
+    },
+    {
+     "en": "찬란한 액션 유치원"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -49,6 +61,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +73,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -69,6 +85,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -79,87 +97,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-17T23:40:39+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "e6303bdf-c133-4828-b4bb-8f4ae7c98721",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "탐이부",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "89d95920-e905-48d7-8690-ba59e6a08ffb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "김동찬",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "88f7cd8a-5b73-4b5b-91b5-c049de477865",
-   "type": "chapter"
-  },
-  {
-   "id": "1963372d-caf3-4754-8056-09a89c2a7aa7",
-   "type": "chapter"
-  },
-  {
-   "id": "72692868-0ab4-4be4-987a-08e1e7539769",
-   "type": "chapter"
-  },
-  {
-   "id": "657c7234-61fb-4e44-8b7a-fceca1b2d6b6",
-   "type": "chapter"
-  },
-  {
-   "id": "47b693b6-fd9c-4173-84d9-12404a6f9d30",
-   "type": "chapter"
-  },
-  {
-   "id": "f966b3a1-ee5a-4087-b8c5-ef2246a610c3",
-   "type": "chapter"
-  },
-  {
-   "id": "c7c95b8b-5e7d-4ec0-ac69-bce5a77d6f43",
-   "type": "chapter"
-  },
-  {
-   "id": "c0f5d3d6-0808-4d69-a5d9-6c2f2fc2daa3",
-   "type": "chapter"
-  },
-  {
-   "id": "96eae025-e756-4eee-8cae-995f0360521f",
-   "type": "chapter"
-  },
-  {
-   "id": "0f1d9b0a-d65b-4322-9fe2-4d9bc01074e1",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "2e8881a7-5151-4fc6-8820-659d6d3762a2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:52:47+00:00",
+    "description": "",
+    "fileName": "dda7d361-2530-4795-b3ac-4e5dba767c46.jpg",
+    "updatedAt": "2021-05-24T17:52:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

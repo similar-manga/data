@@ -7,6 +7,17 @@
    "title": {
     "en": "Lord"
    },
+   "altTitles": [
+    {
+     "en": "Chō-Sangokushi -LORD"
+    },
+    {
+     "en": "覇-LORD-"
+    },
+    {
+     "en": "超三国志-覇"
+    }
+   ],
    "description": {
     "en": "The story is loosely based on the Three Kingdoms period, using both real and original characters and events from the historical period in Chinese history and folklore of the Romance of the Three Kingdoms."
    },
@@ -33,6 +44,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +56,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +68,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,51 +80,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-23T11:32:56+00:00",
+   "updatedAt": "2021-05-25T15:47:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "9be55a5a-2512-447b-9847-16169e44aeaf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Buronson",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3cc20373-aad4-4e28-a509-e7a03bc6ca00",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ikegami Ryoichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3a751851-cb3e-4ca1-8d9c-a13722a6d9b8",
-   "type": "chapter"
-  },
-  {
-   "id": "6c19aba2-cb76-4364-93ad-559938f31e7c",
-   "type": "chapter"
-  },
-  {
-   "id": "abf74ae6-376c-4a98-a66c-1e67f7ef4966",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "c8fb8868-078b-4f65-af31-18d584621d83",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:12:54+00:00",
+    "description": "",
+    "fileName": "8713f014-d738-4877-9b63-c28b90243105.jpg",
+    "updatedAt": "2021-05-24T17:12:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

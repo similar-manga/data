@@ -7,6 +7,11 @@
    "title": {
     "en": "Angels' Wings"
    },
+   "altTitles": [
+    {
+     "en": "Tenshi-tachi no Haoto"
+    }
+   ],
    "description": {
     "en": "A short, all-color manga of two friends playing make-believe."
    },
@@ -14,7 +19,6 @@
     "al": "38577"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,8 +51,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +65,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,55 +77,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-28T11:40:09+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "aa490df4-d255-4d53-b51e-632cf83a83f9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Morishima Akiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "aa490df4-d255-4d53-b51e-632cf83a83f9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Morishima Akiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "09b43b38-4906-415d-85e3-b5991c386183",
-   "type": "chapter"
-  },
-  {
-   "id": "14e3c53f-7523-4fa0-accd-443f1156539b",
-   "type": "chapter"
-  },
-  {
-   "id": "e799e2c1-1032-4939-ac21-46d0648b757f",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "cddefe25-8cad-4f87-83ad-d16f48f7f01c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:57:28+00:00",
+    "description": "",
+    "fileName": "71a02832-ef2a-423b-b0e8-db401f86e4ce.jpg",
+    "updatedAt": "2021-05-24T17:57:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

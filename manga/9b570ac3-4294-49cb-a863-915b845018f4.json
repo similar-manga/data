@@ -7,6 +7,20 @@
    "title": {
     "en": "Hakaijuu"
    },
+   "altTitles": [
+    {
+     "en": "Hakaijuu"
+    },
+    {
+     "en": "พันธุ์นรกแตก"
+    },
+    {
+     "en": "ハカイジュウ"
+    },
+    {
+     "en": "破坏兽"
+    }
+   ],
    "description": {
     "en": "Well... you lead quite a nice life... competing with friends... having your childhood friend - almost-girlfriend coming back to town... all your dreams are starting to come true... when suddenly the ground shakes and a shelf falls on your head...\r\n\r\nOK... you hit your head just now, right? So it should be quite reasonable that everything went nuts and people are being eaten right before your eyes...\r\n\r\nRight?"
    },
@@ -32,6 +46,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +58,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +70,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +82,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -72,6 +94,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -82,6 +106,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -92,6 +118,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -102,95 +130,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-14T19:17:31+00:00",
+   "updatedAt": "2021-05-25T15:45:37+00:00"
   }
  },
  "relationships": [
   {
    "id": "d5afa2af-ccda-4cb5-bd64-a1966e5b8a88",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Honda Shingo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d5afa2af-ccda-4cb5-bd64-a1966e5b8a88",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Honda Shingo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b7135307-690c-4e25-84d4-d5b20a56adf6",
-   "type": "chapter"
-  },
-  {
-   "id": "7e1bb8f9-8f2d-4abe-a3f6-0660eb3871e2",
-   "type": "chapter"
-  },
-  {
-   "id": "b4e60f4f-da2c-453c-9a16-dd0f718749cf",
-   "type": "chapter"
-  },
-  {
-   "id": "4d1c19ac-49e0-48e4-ac22-16b4ab6c673b",
-   "type": "chapter"
-  },
-  {
-   "id": "c45bfe2f-16c1-492f-aea4-9864c732d03d",
-   "type": "chapter"
-  },
-  {
-   "id": "cd759d17-b4b6-4c2a-aa29-167dd1b6199d",
-   "type": "chapter"
-  },
-  {
-   "id": "c922bdf5-7346-410d-b4e1-ec37b368625f",
-   "type": "chapter"
-  },
-  {
-   "id": "e26778b9-d6ba-4342-9dfc-ef4e16e61dbc",
-   "type": "chapter"
-  },
-  {
-   "id": "67ab78a8-fb09-4491-bf88-877861164c32",
-   "type": "chapter"
-  },
-  {
-   "id": "f72dc955-5902-4077-bf46-d8a7f95416d4",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "6847b5a6-2a7e-4f85-ba54-209463d96d15",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:48:35+00:00",
+    "description": "",
+    "fileName": "bddd0519-be7f-4090-b40d-1e8b62adaa16.jpg",
+    "updatedAt": "2021-05-24T17:48:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,8 +7,16 @@
    "title": {
     "en": "Bye Bye"
    },
+   "altTitles": [
+    {
+     "en": "bye-bye"
+    },
+    {
+     "en": "バイバイ"
+    }
+   ],
    "description": {
-    "en": "[url=https://www.pixiv.net/member.php?id=23713230][img]https://i.imgur.com/oiVINmy.png[/img] Artist\u0026rsquo;s Pixiv[/url]\r\n[url=https://twitter.com/kurita_aguri][img]https://i.imgur.com/dQCXZkU.png[/img] Artist\u0026rsquo;s Twitter[/url]"
+    "en": "[url=https://www.pixiv.net/member.php?id=23713230][img]https://i.imgur.com/oiVINmy.png[/img] Artist’s Pixiv[/url]\r\n[url=https://twitter.com/kurita_aguri][img]https://i.imgur.com/dQCXZkU.png[/img] Artist’s Twitter[/url]"
    },
    "links": {
     "mu": "163827"
@@ -25,6 +33,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,35 +45,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-24T23:14:24+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "631707bf-94f5-4c56-be0b-189aa40225fc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KURITA Aguri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "631707bf-94f5-4c56-be0b-189aa40225fc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KURITA Aguri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e7935ba9-e07d-430c-a8d9-f3b1d69a0f47",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "4a4bd973-cc12-4f34-8cee-64d67b8e356f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:57:04+00:00",
+    "description": "",
+    "fileName": "1a073d3d-57df-4be3-82c7-bc550a48af64.png",
+    "updatedAt": "2021-05-24T17:57:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

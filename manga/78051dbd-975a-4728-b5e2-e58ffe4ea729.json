@@ -7,6 +7,11 @@
    "title": {
     "en": "Portrait"
    },
+   "altTitles": [
+    {
+     "en": "ポートレイト"
+    }
+   ],
    "description": {
     "en": "Two friends being in denial about their mutual affection."
    },
@@ -17,7 +22,6 @@
     "mu": "141770"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -28,6 +32,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,8 +54,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,47 +68,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-20T01:01:21+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "43da1eaa-889a-4621-9e85-0d4ba5bf9941",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsume Kazuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "43da1eaa-889a-4621-9e85-0d4ba5bf9941",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsume Kazuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5fee1716-f0d0-492e-bbdb-c3d16879a55f",
-   "type": "chapter"
-  },
-  {
-   "id": "ec9b2203-9c31-4260-b8fe-2b78cc0c3594",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "18b55537-b7ac-4fdf-8194-0575329727fa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:19:38+00:00",
+    "description": "",
+    "fileName": "f37af1ec-f7b9-4ee9-a877-2dbb1579e100.jpg",
+    "updatedAt": "2021-05-24T17:19:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

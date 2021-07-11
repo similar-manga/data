@@ -7,6 +7,26 @@
    "title": {
     "en": "Delibird's Present"
    },
+   "altTitles": [
+    {
+     "en": "Delibird no Present"
+    },
+    {
+     "en": "Delibird no Purezento"
+    },
+    {
+     "en": "Delibird'ün Hediyesi"
+    },
+    {
+     "en": "Pokémon - Delibird's Present"
+    },
+    {
+     "en": "Pokémon - Le Cadeau de Cadoiseau"
+    },
+    {
+     "en": "デリバードのプレゼント"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -27,6 +47,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +59,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,47 +71,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-23T08:14:26+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "5e66fbf2-98f0-428b-a098-c58185ade4e1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YONEMURA Shoji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d5394b57-33b8-4664-a803-341e3a0209d9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YAMASHITA Takahiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fae97bfb-f89c-4148-b538-85d769a07842",
-   "type": "chapter"
-  },
-  {
-   "id": "cc82efe5-45cf-420d-afad-c9b823b96c40",
-   "type": "chapter"
-  },
-  {
-   "id": "a6c47e6a-7bf3-4a7c-8d4d-ab025e610cf1",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "2750d804-7346-4ff7-96c9-07ebefd54767",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:27:39+00:00",
+    "description": "",
+    "fileName": "12f4dd3b-9acb-4b43-a882-10c89c7f4656.jpg",
+    "updatedAt": "2021-05-24T17:27:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

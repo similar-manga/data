@@ -5,8 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Toshokan Sensou - Love \u0026amp; War Bessatsu Hen"
+    "en": "Toshokan Sensou - Love \u0026 War Bessatsu Hen"
    },
+   "altTitles": [
+    {
+     "en": "Library Wars: Love \u0026 War Extra"
+    },
+    {
+     "en": "Toshokan Sensou - Love \u0026 War Bessatsu-hen"
+    },
+    {
+     "en": "Toshokan Sensou - LOVE\u0026WAR Bessatsu Hen"
+    },
+    {
+     "en": "図書館戦争LOVE＆WAR 別冊編"
+    }
+   ],
    "description": {
     "en": "The new series will continue to follow the lives of Iku and Dōjō, as well as Tezuka, Shibasaki, Komaki, Marie, and others."
    },
@@ -20,7 +34,6 @@
     "mu": "119847"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "ongoing",
    "contentRating": "safe",
@@ -32,6 +45,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +57,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +69,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,39 +81,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-07-05T21:11:41+00:00",
+   "updatedAt": "2019-07-05T21:11:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "3dc43704-d3b0-490b-a4ba-9c4419c34410",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Arikawa Hiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b0337fe4-6653-44f6-8c91-c8f6f66f5103",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yumi Kiiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "5a7fa880-d8b8-4fc4-9047-fbdad57ed924",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:17:54+00:00",
+    "description": "",
+    "fileName": "9a14e75c-1025-4dde-9109-ec17597fb0f6.jpg",
+    "updatedAt": "2021-05-24T17:17:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Prince Game"
    },
+   "altTitles": [
+    {
+     "en": "Wajanori"
+    },
+    {
+     "en": "왕자놀이"
+    }
+   ],
    "description": {
     "en": "Shin Woo and Joon Hee are neighbours. Shin Woo is very handsome and popular and Joon Hee resigns herself to the fate of only being a friend to him..."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,47 +48,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-07T22:41:06+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "699f2d80-1cde-4ccf-bb10-4f9e45347752",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kyeong-Ok Kang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "699f2d80-1cde-4ccf-bb10-4f9e45347752",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kyeong-Ok Kang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d33e5730-c1c5-401e-9438-913eb8993284",
-   "type": "chapter"
-  },
-  {
-   "id": "56838804-5f58-45a1-826b-3ad5a5ef7951",
-   "type": "chapter"
-  },
-  {
-   "id": "5b1f6e0b-61ed-4ec6-855d-5aaf4fb5e3f2",
-   "type": "chapter"
-  },
-  {
-   "id": "17a19af8-9c34-4232-a265-e4d32bd342bc",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "07c6e155-c608-4f16-8b24-78930905f1ca",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:46+00:00",
+    "description": "",
+    "fileName": "4d04c1ca-16d7-4875-b5ae-592953a29bbc.jpg",
+    "updatedAt": "2021-05-24T17:03:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

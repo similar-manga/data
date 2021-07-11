@@ -7,6 +7,14 @@
    "title": {
     "en": "Possessed"
    },
+   "altTitles": [
+    {
+     "en": "Bingui"
+    },
+    {
+     "en": "빙의"
+    }
+   ],
    "description": {
     "en": "A psychic who doesn't believe in ghosts met a girl who can see ghosts, what will happen?"
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +71,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -67,6 +83,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -77,6 +95,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -87,87 +107,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-19T19:21:56+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "f9b17117-26c9-4c02-adbc-8c4fea0bfda7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hooressha (후렛샤)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d3cbb5c2-e4a0-4460-96a5-87b095244694",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "김홍태",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1294bce0-73f6-42b2-8d9a-1723d7df36b1",
-   "type": "chapter"
-  },
-  {
-   "id": "2dbd81cf-8d5c-4578-ab10-76a805fce8c1",
-   "type": "chapter"
-  },
-  {
-   "id": "00183629-3762-41c0-b167-e2faa7be5346",
-   "type": "chapter"
-  },
-  {
-   "id": "1ba58435-d51f-4426-bc42-5703d6b6500d",
-   "type": "chapter"
-  },
-  {
-   "id": "f05900e2-6f0d-475f-81d5-04161ca574a1",
-   "type": "chapter"
-  },
-  {
-   "id": "b0603d87-4118-4e29-9766-67e0249af717",
-   "type": "chapter"
-  },
-  {
-   "id": "1d6dcf85-6f1b-4359-acb5-58be270e018c",
-   "type": "chapter"
-  },
-  {
-   "id": "08d67cce-d01a-49ee-ace3-77784f1f3c2e",
-   "type": "chapter"
-  },
-  {
-   "id": "e703c3ae-dcf9-4235-ad13-cf57ef6a15f1",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "c648842f-0722-4fe0-9676-15826b68f976",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:54+00:00",
+    "description": "",
+    "fileName": "0a5a1470-e9f2-4887-b87b-518a5fedcb4e.jpg",
+    "updatedAt": "2021-05-24T17:01:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

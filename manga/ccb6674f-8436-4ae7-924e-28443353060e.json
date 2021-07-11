@@ -7,6 +7,14 @@
    "title": {
     "en": "At Home Darling"
    },
+   "altTitles": [
+    {
+     "en": "アットホームダーリン"
+    },
+    {
+     "en": "最舒适的恋人"
+    }
+   ],
    "description": {
     "en": "双向暗恋"
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,35 +46,53 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-03-16T21:19:24+00:00",
+   "updatedAt": "2021-03-16T21:19:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "22fae822-8aa0-4050-a52c-580b39386467",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shishamo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "22fae822-8aa0-4050-a52c-580b39386467",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shishamo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3955be3e-922a-420c-a6c0-d7f0bdae2020",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
+   "id": "0d54cc18-9ef4-4f28-a996-5c0dd56ab436",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:35:16+00:00",
+    "description": "",
+    "fileName": "f23c6dde-8933-4d2e-b681-8159da53e1ce.jpg",
+    "updatedAt": "2021-05-24T18:35:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

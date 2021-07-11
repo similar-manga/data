@@ -7,11 +7,15 @@
    "title": {
     "en": "Unromantic Quest"
    },
+   "altTitles": [
+    {
+     "en": "언로맨틱 퀘스트"
+    }
+   ],
    "description": {
     "en": "Hayoung, an angel who hates humans, has to work as a doctor on earth for 3 years. Waiting for the day to return to heaven as soon as possible, Hayoung smells a strong scent from a patient who was hospitalized after saving a child from a traffic accident.\r\n\r\n'The scent of a non-human came in.'"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,8 +36,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +50,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +62,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -62,47 +74,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-02T02:27:09+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "60c86b7d-ff72-4e99-9018-4e36cb56c51b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Toyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "60c86b7d-ff72-4e99-9018-4e36cb56c51b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Toyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "075e93ad-7e88-48d0-81fb-cf21c0cbdb44",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "2b4e5190-a0c7-4f7f-a9a4-7ff2a8d3c780",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:29:33+00:00",
+    "description": "",
+    "fileName": "f5347f2a-3d09-4bcc-9593-ba5d91ff6755.jpg",
+    "updatedAt": "2021-05-24T18:29:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

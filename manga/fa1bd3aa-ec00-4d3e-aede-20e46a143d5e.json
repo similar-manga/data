@@ -7,6 +7,11 @@
    "title": {
     "en": "Tokyo Densetsu"
    },
+   "altTitles": [
+    {
+     "en": "東京伝説"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -16,7 +21,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "3",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "suggestive",
@@ -28,6 +32,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -38,6 +44,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,35 +56,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-09-02T03:53:26+00:00",
+   "updatedAt": "2020-09-02T03:53:26+00:00"
   }
  },
  "relationships": [
   {
    "id": "a9aef9d8-cf77-4d60-9eab-dcad6299c07d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hirayama Yumeaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "77cf2c4e-72d5-488c-be57-bb05e724b0a6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Karasuyama Eiji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "86b0b2a7-6d1d-4ff8-a337-95790bf64e09",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:08:45+00:00",
+    "description": "",
+    "fileName": "f2a77de9-d334-460b-9554-b5415d3c9830.jpg",
+    "updatedAt": "2021-05-24T18:08:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

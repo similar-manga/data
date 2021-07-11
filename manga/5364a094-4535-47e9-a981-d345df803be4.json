@@ -26,6 +26,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,55 +50,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-22T15:12:35+00:00",
+   "updatedAt": "2021-05-25T15:42:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "ab61e894-a0cb-4bbe-b554-785fc75c5964",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kago Shintaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ab61e894-a0cb-4bbe-b554-785fc75c5964",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kago Shintaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "eb2585ea-303a-4e45-b9bc-7632f4aacca0",
-   "type": "chapter"
-  },
-  {
-   "id": "fb3dd8ba-2ece-4cfe-8689-a568700c948c",
-   "type": "chapter"
-  },
-  {
-   "id": "84167e5c-efcf-4f18-aaf9-291ca27393b9",
-   "type": "chapter"
-  },
-  {
-   "id": "01c01d96-316e-4a71-ae8d-ca47a5ed4d31",
-   "type": "chapter"
-  },
-  {
-   "id": "b8e92319-f556-420c-963d-bd06f03ad1c7",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "cfea59fe-fbe4-4f82-8945-25622d42d134",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:04+00:00",
+    "description": "",
+    "fileName": "fce13ca5-291f-4ffd-b32c-38f5cdd2d2b0.jpg",
+    "updatedAt": "2021-05-24T17:09:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

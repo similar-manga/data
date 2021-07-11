@@ -14,7 +14,6 @@
     "ap": "lost-in-translation"
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "ongoing",
    "contentRating": "safe",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +49,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -56,6 +61,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,83 +73,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-15T19:45:24+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "734440eb-d577-40c8-acf8-6aa08901c8c0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jjolee",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "734440eb-d577-40c8-acf8-6aa08901c8c0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jjolee",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1f97eb9a-00ec-4712-a641-6d42586612d8",
-   "type": "chapter"
-  },
-  {
-   "id": "edb402a6-2c47-41f4-a308-25addb415822",
-   "type": "chapter"
-  },
-  {
-   "id": "a7811518-3e55-4251-8665-57102207967d",
-   "type": "chapter"
-  },
-  {
-   "id": "f085b7e8-14a3-4e3e-9247-120a7647bcd0",
-   "type": "chapter"
-  },
-  {
-   "id": "52e2dc23-d843-46f9-b045-7f32ef0fd2ee",
-   "type": "chapter"
-  },
-  {
-   "id": "85e55c4a-e066-49d1-9d78-eba61ac633e0",
-   "type": "chapter"
-  },
-  {
-   "id": "7aa0019f-3214-47c3-985b-422ad2617e93",
-   "type": "chapter"
-  },
-  {
-   "id": "83681d1a-c4ca-4849-8523-3d3edf312ff4",
-   "type": "chapter"
-  },
-  {
-   "id": "583fa036-7537-4be2-b68c-89b7ceca3492",
-   "type": "chapter"
-  },
-  {
-   "id": "83d235cc-f4ee-4e03-9394-312563ed7069",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "434a6721-5b0e-4ff0-8ddd-5bc7a9092ee8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:59:28+00:00",
+    "description": "",
+    "fileName": "d31440ec-7499-495c-84b7-552edc269d1f.jpg",
+    "updatedAt": "2021-05-24T17:59:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Dragon Quest XI - Issho ni Tsukurou! (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Dragon Quest XI dj - Issho ni Tsukurou!"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -23,6 +28,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +40,8 @@
       "name": {
        "en": "Genderswap"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -41,8 +50,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +64,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -63,47 +76,53 @@
       "name": {
        "en": "Shota"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-27T16:18:22+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "e92b71db-1734-4081-a4cb-4ffcc0aee148",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kuzuya (Riko)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e92b71db-1734-4081-a4cb-4ffcc0aee148",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kuzuya (Riko)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9b202e7b-9409-4f0b-b32e-58415ef257ce",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "2bd2e8d0-f146-434a-9b51-fc9ff2c5fe6a",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "ddefd648-5140-4e5f-ba18-4eca4071d19b",
-   "type": "tag"
+   "id": "8554b58c-2fe7-4f6b-8f77-4934d7258d2d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:42:44+00:00",
+    "description": "",
+    "fileName": "6dd8e96a-b119-453e-b000-4a8968c17bf4.jpg",
+    "updatedAt": "2021-05-24T17:42:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

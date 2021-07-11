@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Bartender \u0026agrave; Paris"
+    "en": "Bartender à Paris"
    },
+   "altTitles": [
+    {
+     "en": "バーテンダー à Paris"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,31 +39,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-03-17T11:02:35+00:00",
+   "updatedAt": "2021-03-17T11:02:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "5c3994c6-7d5f-4b99-a807-7cbde5cfcfa4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Joh Araki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c4f06cc7-ece4-465f-a40c-3d8565050894",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kajisa Osamu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "bec9d528-8ace-4f00-9277-04c4547b12d3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:35:20+00:00",
+    "description": "",
+    "fileName": "6f4ed03b-de3a-44c4-a7f4-c8096fa8bcdd.jpg",
+    "updatedAt": "2021-05-24T18:35:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

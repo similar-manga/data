@@ -7,6 +7,11 @@
    "title": {
     "en": "STRAIGHT"
    },
+   "altTitles": [
+    {
+     "en": "ストレート"
+    }
+   ],
    "description": {
     "en": "A baseball manga about Araragi and Amakusa, two genius rookies on the Osaka Tigers who are exact opposites.\r\nMatsumoto Taiyou's first serialized work."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,63 +46,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-25T23:41:28+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "30ce23e9-ab28-426e-a54e-0bf76b3190bf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Taiyou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "30ce23e9-ab28-426e-a54e-0bf76b3190bf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Taiyou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cf6c735e-32f6-446c-8342-15b1f64972cc",
-   "type": "chapter"
-  },
-  {
-   "id": "910596b8-07c3-43ee-8824-5b9ef1c78f43",
-   "type": "chapter"
-  },
-  {
-   "id": "14a8da2c-dead-4702-9870-05676c4d46cd",
-   "type": "chapter"
-  },
-  {
-   "id": "8fce84a7-c980-4fdb-a3e3-4ce935e8449d",
-   "type": "chapter"
-  },
-  {
-   "id": "6e99a104-6922-435a-8d32-8286bdc247fb",
-   "type": "chapter"
-  },
-  {
-   "id": "62b6018a-54b4-40fb-b792-0591bf20aca4",
-   "type": "chapter"
-  },
-  {
-   "id": "51bc77e7-6a1e-4bad-806d-f52893901c37",
-   "type": "chapter"
-  },
-  {
-   "id": "61ec9bd1-329c-4766-a045-dec3a6636eea",
-   "type": "chapter"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "8e034e97-3969-4f63-be37-352e1dcba8b3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:20:21+00:00",
+    "description": "",
+    "fileName": "2f74c5c6-6840-4ca3-b1b0-95e4c800e1cb.jpg",
+    "updatedAt": "2021-05-24T18:20:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

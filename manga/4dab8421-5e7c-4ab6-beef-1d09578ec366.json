@@ -7,6 +7,20 @@
    "title": {
     "en": "Gokujou Beef Curry, Himitsu Iri"
    },
+   "altTitles": [
+    {
+     "en": "The Finest Beef Curry with 5 Secrets"
+    },
+    {
+     "en": "The Finest Beef Curry with a Secret"
+    },
+    {
+     "en": "The Finest Beef Curry with a SecretThe Finest Beef Curry with 5 Secrets"
+    },
+    {
+     "en": "極上ビーフカレー、秘密入り"
+    }
+   ],
    "description": {
     "en": "Collection of stories:\r\nStory 1 - Black Hole wa Totsuzen ni\r\nStory 2 - Mou Sukoshi de, Itsuka Eien\r\nStory 3 - Kimi no Mizuiro\r\nStory 4 - Gokujou Beef Curry, Himitsu Iri\r\nStory 5 - Eikyuu Red Carpet"
    },
@@ -28,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,43 +54,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-29T23:49:30+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "6ea86ea7-c022-4eaf-8a5e-c97ec72c44d3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujio Ai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6ea86ea7-c022-4eaf-8a5e-c97ec72c44d3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujio Ai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e22a519d-9a0b-45dc-8aea-c26ddd552688",
-   "type": "chapter"
-  },
-  {
-   "id": "1ea54a42-2ded-4526-8d13-59002ff951cb",
-   "type": "chapter"
-  },
-  {
-   "id": "eb633c3c-6b90-45f0-8636-319d855d057d",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "275cadce-9c97-4f1a-a537-80701f87951f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:50+00:00",
+    "description": "",
+    "fileName": "75ba787d-8181-4337-bb11-4ac688187826.jpg",
+    "updatedAt": "2021-05-24T16:49:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

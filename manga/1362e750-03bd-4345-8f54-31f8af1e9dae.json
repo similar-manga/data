@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Clover Tr\u0026egrave;fle"
+    "en": "Clover Trèfle"
    },
+   "altTitles": [
+    {
+     "en": "Clover Trefle"
+    },
+    {
+     "en": "クローバー trefle"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -18,7 +26,6 @@
     "mu": "79628"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "ongoing",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +61,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,39 +73,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-07-03T21:10:32+00:00",
+   "updatedAt": "2019-07-03T21:10:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "2765da79-cf32-41d0-9eaf-ed26f23cb101",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "CHIYA Toriko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2765da79-cf32-41d0-9eaf-ed26f23cb101",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "CHIYA Toriko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "4b488ba6-848c-4fd0-8e81-087d7c53fc3b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:17:40+00:00",
+    "description": "",
+    "fileName": "de34c4ee-208e-43a4-a2f3-dadc04aed6a6.jpg",
+    "updatedAt": "2021-05-24T17:17:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

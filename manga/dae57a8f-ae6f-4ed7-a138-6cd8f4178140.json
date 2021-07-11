@@ -5,16 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Eunsuk \u0026amp; Jung-gu"
+    "en": "Eunsuk \u0026 Jung-gu"
    },
+   "altTitles": [
+    {
+     "en": "은석이와 정구"
+    }
+   ],
    "description": {
-    "en": "Eunsuk and Jung-gu have a complicated relationship. The easiest way to describe it would be \u0026quot;roomates.\u0026quot; Of course, not all roommates have sex. And most of them don't visit bathhouses together. And only a small few of them have sex at bathhouses."
+    "en": "Eunsuk and Jung-gu have a complicated relationship. The easiest way to describe it would be \"roomates.\" Of course, not all roommates have sex. And most of them don't visit bathhouses together. And only a small few of them have sex at bathhouses."
    },
    "links": {
     "ap": "eunsuk-and-jung-gu"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -23,8 +27,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,43 +41,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-10T01:07:16+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "ee801f6c-2020-45ec-a445-5a72fbb40859",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "John",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ee801f6c-2020-45ec-a445-5a72fbb40859",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "John",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2f2ee2b8-4ceb-46eb-9fa4-483d03a24a95",
-   "type": "chapter"
-  },
-  {
-   "id": "55bb9d0e-50ba-4a11-b426-c55531848528",
-   "type": "chapter"
-  },
-  {
-   "id": "60f16885-f0e3-4c05-ad94-e75435ab2350",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "a6fbf792-fa49-4f4e-90b2-155261ded3ba",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:18:09+00:00",
+    "description": "",
+    "fileName": "9b145957-696a-448e-b502-650ff050c8d8.jpg",
+    "updatedAt": "2021-05-24T18:18:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

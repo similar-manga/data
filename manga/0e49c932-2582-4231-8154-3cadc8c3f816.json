@@ -7,6 +7,17 @@
    "title": {
     "en": "Hana Bolo"
    },
+   "altTitles": [
+    {
+     "en": "Flower Cookies"
+    },
+    {
+     "en": "Hana Boro"
+    },
+    {
+     "en": "花ボーロ"
+    }
+   ],
    "description": {
     "en": "Hisae Iwaoka's latest series features warm-hearted short stories about life and its little wonders. Sweet and delicate, they are like little cookies for a stressful mind."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -51,75 +66,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-12T13:43:31+00:00",
+   "updatedAt": "2021-05-25T15:39:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "b6c147eb-d086-4a25-a0e7-86ba670e021f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Iwaoka Hisae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b6c147eb-d086-4a25-a0e7-86ba670e021f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Iwaoka Hisae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "db0ec518-0a74-46aa-a1f8-1888ce4ce0db",
-   "type": "chapter"
-  },
-  {
-   "id": "ff872059-3eb8-4c85-96cc-1346db00aef0",
-   "type": "chapter"
-  },
-  {
-   "id": "dabb36b2-1c2b-4fab-972e-15cb73b6dacf",
-   "type": "chapter"
-  },
-  {
-   "id": "0d407020-6ad8-40cd-97a2-8462c487a084",
-   "type": "chapter"
-  },
-  {
-   "id": "7949e7dd-9604-41b7-b74f-0f9db8975490",
-   "type": "chapter"
-  },
-  {
-   "id": "41b3acef-f4c6-47c2-8118-d17fb8aa43a2",
-   "type": "chapter"
-  },
-  {
-   "id": "40777e6f-fd26-4644-aca6-439651dc1a9e",
-   "type": "chapter"
-  },
-  {
-   "id": "59506cd8-7a3d-4fb9-b1a0-84d7cdd20948",
-   "type": "chapter"
-  },
-  {
-   "id": "08bd0420-eb10-40eb-b78c-d6e597126e9b",
-   "type": "chapter"
-  },
-  {
-   "id": "4445b556-08c0-40ab-9f45-1644418cf62d",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "ad39bfd8-23dd-4fae-90e1-a5c884c62b2d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:35+00:00",
+    "description": "",
+    "fileName": "a4202d07-858c-4564-8dc5-d32862cde035.jpg",
+    "updatedAt": "2021-05-24T16:57:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

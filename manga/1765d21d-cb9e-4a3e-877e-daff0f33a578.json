@@ -14,7 +14,6 @@
     "mu": "134272"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,55 +36,53 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-15T07:43:06+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "de3db147-739b-471f-b1ae-23eb831eaa2b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kata",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "de3db147-739b-471f-b1ae-23eb831eaa2b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kata",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bd72c2f4-99ef-4b0c-ab2d-ece3dee56ad1",
-   "type": "chapter"
-  },
-  {
-   "id": "e0204953-7d89-47da-9dcd-39f1f579def0",
-   "type": "chapter"
-  },
-  {
-   "id": "0f74bfba-f6cd-4867-a325-ec9454496b6f",
-   "type": "chapter"
-  },
-  {
-   "id": "815fe83b-3c5d-47c5-89d8-53fec4cd8c95",
-   "type": "chapter"
-  },
-  {
-   "id": "1d5d5d64-1b97-4bdf-808c-15f68229cfa0",
-   "type": "chapter"
-  },
-  {
-   "id": "31990905-9ef4-4624-bf52-cc91b80c7c1b",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
+   "id": "56a86991-3882-4f26-9aff-5f2125b03975",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:22+00:00",
+    "description": "",
+    "fileName": "94ea7bdd-d59b-448a-887e-7c6a15a56dd0.jpg",
+    "updatedAt": "2021-05-24T17:01:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

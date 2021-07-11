@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Gar\u0026ccedil;on"
+    "en": "Garçon"
    },
+   "altTitles": [
+    {
+     "en": "Garcon"
+    },
+    {
+     "en": "ギャルソン"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -17,7 +25,6 @@
     "mu": "128460"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -29,27 +36,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-08-13T11:16:42+00:00",
+   "updatedAt": "2019-08-13T11:16:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "5c3994c6-7d5f-4b99-a807-7cbde5cfcfa4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Joh Araki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7aaa7c99-e64f-45fe-95f9-f6a25eca5ef2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Horie Ryuu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0c73b2c1-83cd-4f9a-82e2-b488c81b7fb4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:38+00:00",
+    "description": "",
+    "fileName": "7c7990c8-6640-44fd-8fb0-986d99504e7f.png",
+    "updatedAt": "2021-05-24T17:22:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

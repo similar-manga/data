@@ -7,6 +7,11 @@
    "title": {
     "en": "Shuuten Unknown Gaiden"
    },
+   "altTitles": [
+    {
+     "en": "終点unknown外伝"
+    }
+   ],
    "description": {
     "en": "Side stories featuring the two protagonists of Shuuten Unknown."
    },
@@ -26,8 +31,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,55 +57,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-01T18:26:20+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "7665d30e-b9a7-4d58-82bd-1457ef81fdf7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sugiura Shiho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7665d30e-b9a7-4d58-82bd-1457ef81fdf7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sugiura Shiho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "460d4eed-399f-4361-b349-42a8bde648bc",
-   "type": "chapter"
-  },
-  {
-   "id": "fdc78c54-fe0a-4931-84bb-0e5e0631ad63",
-   "type": "chapter"
-  },
-  {
-   "id": "b4f09e25-1dde-4b50-a75a-4b46cfe8481e",
-   "type": "chapter"
-  },
-  {
-   "id": "e4b4d784-b65f-48bd-afac-668f8214a56d",
-   "type": "chapter"
-  },
-  {
-   "id": "daabc505-771c-4560-9361-f2d1f6e8eef3",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "51ed85d8-c200-4f0e-b73d-c52f1112fe8b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:35+00:00",
+    "description": "",
+    "fileName": "4518d3d7-3b16-4073-abaf-560c81c8bbbf.jpg",
+    "updatedAt": "2021-05-24T17:06:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

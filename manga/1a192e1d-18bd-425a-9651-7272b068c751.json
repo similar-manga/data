@@ -7,6 +7,11 @@
    "title": {
     "en": "A manga where they can get closer with every reply"
    },
+   "altTitles": [
+    {
+     "en": "1リプライごとにお近づきになれる漫画"
+    }
+   ],
    "description": {
     "en": "An interactive twitter oneshot, with the author encouraging the readers (aka the twitter-sans) to draw out how it should progress next!"
    },
@@ -14,7 +19,6 @@
     "raw": "https://mobile.twitter.com/R_Kitada/status/1244916170852929537"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,39 +53,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-07T03:59:40+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "88e2674d-718f-42bd-b8c7-1be1c9098eda",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kitada Ryouma",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "88e2674d-718f-42bd-b8c7-1be1c9098eda",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kitada Ryouma",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3c164fbf-e2ff-4553-94c2-dff2495ebf29",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "88dceda5-cd2a-4ff6-854f-34bff88e7bca",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:52+00:00",
+    "description": "",
+    "fileName": "eb69e7e0-86ca-42fb-8487-015a05157a38.jpg",
+    "updatedAt": "2021-05-24T18:17:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

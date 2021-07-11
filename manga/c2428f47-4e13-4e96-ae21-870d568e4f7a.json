@@ -7,6 +7,14 @@
    "title": {
     "en": "Eien no Mae"
    },
+   "altTitles": [
+    {
+     "en": "Before Eternity"
+    },
+    {
+     "en": "永遠のまえ"
+    }
+   ],
    "description": {
     "en": "Arisa has had a crush on classmate Nageki since the school festival, but has never spoken to him. Will she be able to strike up a conversation before they part ways at graduation?"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,43 +74,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-15T13:50:24+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "b7d652e0-e848-4378-8d6b-421e2838ca4d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ANEMORI Kana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b7d652e0-e848-4378-8d6b-421e2838ca4d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ANEMORI Kana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2730303f-bd2f-4831-94a3-0ec1b2f55189",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "53ccdeb8-92eb-4f24-82c0-7da3f26ec9b1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:41:03+00:00",
+    "description": "",
+    "fileName": "6c3dd450-b307-43e8-8474-ca54ebef7d46.jpg",
+    "updatedAt": "2021-05-24T18:41:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,17 @@
    "title": {
     "en": "A Fish Came"
    },
+   "altTitles": [
+    {
+     "en": "Saenseon-i wass-eoyo"
+    },
+    {
+     "en": "Появление Рыбки"
+    },
+    {
+     "en": "생선이 왔어요"
+    }
+   ],
    "description": {
     "en": "You are already a fish in my fish bowl. I am originally a fish."
    },
@@ -28,6 +39,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +63,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,51 +75,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-24T10:08:47+00:00",
+   "updatedAt": "2021-05-25T15:43:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "cd647cc9-4b79-424b-8bb6-ebf68f3db653",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yang Baek",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "30d6b374-63f6-4494-a731-d65283524012",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lee Hyun Do",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c1413b2d-e74b-4ff0-bfb1-aca2a65cd26c",
-   "type": "chapter"
-  },
-  {
-   "id": "73e8f392-afc2-4a0d-a8be-8822df3b2f83",
-   "type": "chapter"
-  },
-  {
-   "id": "7a386c75-df93-4b7a-9082-421e9124675d",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "cd45b254-6217-4f51-bf22-44666c674038",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:54+00:00",
+    "description": "",
+    "fileName": "7537ae88-9b43-437a-a695-f5adf840bc6b.jpg",
+    "updatedAt": "2021-05-24T16:58:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

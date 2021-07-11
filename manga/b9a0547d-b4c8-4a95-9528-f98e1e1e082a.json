@@ -27,6 +27,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +39,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -47,71 +51,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-04T15:27:11+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "6fcfb8e5-fd6a-44ad-8ee4-aaec4436475a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "O.RI",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6fcfb8e5-fd6a-44ad-8ee4-aaec4436475a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "O.RI",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "da7ef6f6-ec28-41f9-b8c4-14f8b3c692fb",
-   "type": "chapter"
-  },
-  {
-   "id": "07d531fe-133c-4f4c-b346-dafbda975080",
-   "type": "chapter"
-  },
-  {
-   "id": "e06c6d2b-cbca-4d72-b4ec-880660028f05",
-   "type": "chapter"
-  },
-  {
-   "id": "fe4b76df-5618-4efb-9ed8-c441babf8804",
-   "type": "chapter"
-  },
-  {
-   "id": "45b2c518-97a4-41b2-8960-6232bb0db9f8",
-   "type": "chapter"
-  },
-  {
-   "id": "437a4bd2-7aca-43d6-867c-39ad16052882",
-   "type": "chapter"
-  },
-  {
-   "id": "4c366142-0d86-4ac8-9dd8-d54158f09da4",
-   "type": "chapter"
-  },
-  {
-   "id": "e34d95de-6917-4a7c-81c9-5df46878abd3",
-   "type": "chapter"
-  },
-  {
-   "id": "07ec17ba-a3b5-4e17-a7b5-37d4aa17571e",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "2e825fe2-43a9-4fb5-b544-31a3d2f75985",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:01:46+00:00",
+    "description": "",
+    "fileName": "fd752b8d-613b-4257-b7d1-d99037f67ebf.jpg",
+    "updatedAt": "2021-05-24T18:01:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

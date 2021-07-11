@@ -22,6 +22,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,39 +34,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-08T03:52:08+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "f84e13e9-25d5-4bd3-843e-b2ab2e47bfae",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHIINA Takashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f3efa648-7a36-40a4-bb59-9c9dfe10cc4e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OGAKI Rokurou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "646fa433-6c28-4035-91f9-c0263d15d11e",
-   "type": "chapter"
-  },
-  {
-   "id": "76c4ad02-f279-466e-8126-57f599a338d6",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "0791860a-a496-4f51-b98e-64fb0e55b430",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:48+00:00",
+    "description": "",
+    "fileName": "e3f295de-46de-474f-b1c9-336e807f609f.jpg",
+    "updatedAt": "2021-05-24T16:50:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

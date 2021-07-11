@@ -7,6 +7,17 @@
    "title": {
     "en": "Transparent Museum"
    },
+   "altTitles": [
+    {
+     "en": "Görünmez Müze"
+    },
+    {
+     "en": "Toumei Hakubutsukan"
+    },
+    {
+     "en": "透明博物館"
+    }
+   ],
    "description": {
     "en": "Asaki wanders into a mysterious museum. Much to her surprise, it's empty! Or is it?"
    },
@@ -16,7 +27,6 @@
     "mu": "115938"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -28,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +50,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +62,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -58,51 +74,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-15T19:17:41+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "64adb361-4c7a-4baa-b36b-705a84a69b26",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamazaki Kore",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "64adb361-4c7a-4baa-b36b-705a84a69b26",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamazaki Kore",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "624d5d10-8b56-4050-8feb-c527c825e73f",
-   "type": "chapter"
-  },
-  {
-   "id": "4363ecec-a227-45cd-acff-17aa6b239a8c",
-   "type": "chapter"
-  },
-  {
-   "id": "d9a69905-bae1-4f86-8361-8c23ca8f842d",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "3379d8f5-56d2-4f70-94d0-5962626c30b4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:58+00:00",
+    "description": "",
+    "fileName": "859b79b6-a551-4403-9cfa-731038c1c8c0.jpg",
+    "updatedAt": "2021-05-24T16:57:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

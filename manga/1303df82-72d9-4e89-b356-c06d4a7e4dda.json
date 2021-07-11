@@ -7,6 +7,14 @@
    "title": {
     "en": "The Sound of Shogi"
    },
+   "altTitles": [
+    {
+     "en": "Komaoto"
+    },
+    {
+     "en": "駒音"
+    }
+   ],
    "description": {
     "en": "A boy reflects on his grandfather's life and his love of shogi."
    },
@@ -16,7 +24,6 @@
     "mu": "152677"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -28,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +47,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,55 +59,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-22T08:15:15+00:00",
+   "updatedAt": "2021-05-25T15:39:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "f4a63b67-d376-4441-9484-6ee144635747",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "IKUTA Yoh",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f4a63b67-d376-4441-9484-6ee144635747",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "IKUTA Yoh",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "795a5fc0-06c9-460e-a2a8-4804aa4c246e",
-   "type": "chapter"
-  },
-  {
-   "id": "b9527555-0527-42f5-96ad-a04939c9257d",
-   "type": "chapter"
-  },
-  {
-   "id": "25023997-5203-4839-bfb7-f87d687038d0",
-   "type": "chapter"
-  },
-  {
-   "id": "63d38ada-d1d8-4e52-91dd-c84dd2269604",
-   "type": "chapter"
-  },
-  {
-   "id": "72668aec-3c54-4327-8592-167cec986008",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "7a9a5631-0d74-4f37-ab56-b7d2d87071d0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:31:02+00:00",
+    "description": "",
+    "fileName": "fdb38e10-cc60-485c-9e89-86c8545b572a.jpg",
+    "updatedAt": "2021-05-24T17:31:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

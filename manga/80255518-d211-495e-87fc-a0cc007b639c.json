@@ -7,6 +7,14 @@
    "title": {
     "en": "15 Minutes"
    },
+   "altTitles": [
+    {
+     "en": "15-bun"
+    },
+    {
+     "en": "15분"
+    }
+   ],
    "description": {
     "en": "You are now the protagonist!\r\nThe secret of the 15 minutes is revealed.\r\n\r\nAm I in a dream? Can I really do whatever I want\r\nWhen the time stops for 15 minutes?"
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -49,6 +61,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,39 +73,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-10-17T09:31:32+00:00",
+   "updatedAt": "2019-10-17T09:31:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "d9e888f8-206e-4bab-a378-68b1bfb27b1a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Swing",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d9e888f8-206e-4bab-a378-68b1bfb27b1a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Swing",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "06d01abd-15cb-4f8f-91a1-6f3cdd763b97",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:30:28+00:00",
+    "description": "",
+    "fileName": "e15261ed-1263-42e8-b52f-57ca6f5d826c.jpg",
+    "updatedAt": "2021-05-24T17:30:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

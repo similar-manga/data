@@ -7,8 +7,16 @@
    "title": {
     "en": "Hare no Hi"
    },
+   "altTitles": [
+    {
+     "en": "A Fine Day"
+    },
+    {
+     "en": "ハレの日"
+    }
+   ],
    "description": {
-    "en": "A story told in the form of a monologue by a father who discovers some aspects of his son\u0026rsquo;s life that are intricately linked to his own hidden past and the experiences he had when he was young."
+    "en": "A story told in the form of a monologue by a father who discovers some aspects of his son’s life that are intricately linked to his own hidden past and the experiences he had when he was young."
    },
    "links": {
     "al": "87393",
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,51 +74,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-25T07:46:53+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "c7f5993a-3c2e-4435-96d1-ae677d73ff53",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asada Nemui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c7f5993a-3c2e-4435-96d1-ae677d73ff53",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asada Nemui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ad09bedc-42de-49bf-b77a-bc8970c2bf47",
-   "type": "chapter"
-  },
-  {
-   "id": "01d38131-ab3d-456b-8e11-f0da6cbde54b",
-   "type": "chapter"
-  },
-  {
-   "id": "09c517d9-969f-45ee-899c-5d1f3eff64c0",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "e91b87b9-148d-4fa6-a77a-110477868fcf",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:02+00:00",
+    "description": "",
+    "fileName": "8bba40df-2f64-4d56-85cf-16c6321f6fb0.jpg",
+    "updatedAt": "2021-05-24T16:59:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

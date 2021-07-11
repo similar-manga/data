@@ -7,6 +7,17 @@
    "title": {
     "en": "Usa Nyan COMPLETE"
    },
+   "altTitles": [
+    {
+     "en": "Bunny Bunny Kitty Kitty"
+    },
+    {
+     "en": "Usa Usa Nyan Nyan"
+    },
+    {
+     "en": "うさうさにゃんにゃん"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -25,8 +36,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +50,8 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -47,55 +62,53 @@
       "name": {
        "en": "Shota"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-05T04:31:00+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "0fa610d2-427c-4773-8dbd-c6dd242fb8a5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ash Wing",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "02fcbd87-62c7-4da0-b9f3-0120fe73c30c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Makuro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1b4f9d45-5ca4-47a0-8047-4dcaff07980e",
-   "type": "chapter"
-  },
-  {
-   "id": "721da5b9-ee3b-4921-96d6-eae7c5f1cfa5",
-   "type": "chapter"
-  },
-  {
-   "id": "0c7b23ce-0baf-470c-88de-0fddfaf51c3c",
-   "type": "chapter"
-  },
-  {
-   "id": "24cd4eac-72f0-4fb8-93b7-7223977050a4",
-   "type": "chapter"
-  },
-  {
-   "id": "4ad144a7-7cda-49d3-9fcb-f8b0b1dc9010",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
-  },
-  {
-   "id": "ddefd648-5140-4e5f-ba18-4eca4071d19b",
-   "type": "tag"
+   "id": "23f624fc-9ca6-4fd0-b86d-7e74781b63c2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:10:45+00:00",
+    "description": "",
+    "fileName": "63526d4b-6b87-4ded-b9f6-f1777b304953.jpg",
+    "updatedAt": "2021-05-24T17:10:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

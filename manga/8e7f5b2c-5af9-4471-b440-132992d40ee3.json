@@ -7,6 +7,17 @@
    "title": {
     "en": "Red Garden"
    },
+   "altTitles": [
+    {
+     "en": "Kızıl Bahçe"
+    },
+    {
+     "en": "レッド ガーデン RED GARDEN"
+    },
+    {
+     "en": "레드 가든"
+    }
+   ],
    "description": {
     "en": "This is the story of four girls with nothing in common save for a single friend who has suddenly gone missing.\r\nWhat awaits them? A destiny far stranger than they could ever have imagined!"
    },
@@ -18,7 +29,6 @@
     "mu": "7080"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +40,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +52,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,55 +64,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-11T12:25:35+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "1836b27c-cde9-4076-a0d4-72ff212bb386",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "GONZO",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5c867da6-eeea-4dad-83c1-0f73250ec838",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "AYAMURA Kirihito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3a8d0692-a4e2-4804-83a8-f713de4fb0b6",
-   "type": "chapter"
-  },
-  {
-   "id": "3a02c983-e291-4c32-a20e-3ac268927b5e",
-   "type": "chapter"
-  },
-  {
-   "id": "2863508a-ba65-409a-bfbe-37ca1883b6a9",
-   "type": "chapter"
-  },
-  {
-   "id": "21f93ef7-ade0-4f4d-bd39-0d8485f43b35",
-   "type": "chapter"
-  },
-  {
-   "id": "b9d49c05-54cd-48f4-9ad7-443f50df6fa7",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "ce19166b-cbfe-4f6c-a38a-584e82005995",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:13+00:00",
+    "description": "",
+    "fileName": "be3c2a84-4b03-44ac-84c2-715b8df404c6.jpg",
+    "updatedAt": "2021-05-24T18:17:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

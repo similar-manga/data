@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon - Tomodachi? Maniac (Doujinshi)"
+    "en": "Pokémon - Tomodachi? Maniac (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "(C86) Friend? Maniac"
+    },
+    {
+     "en": "(C86) トモダチ?マニアック (ポケットモンスター)"
+    }
+   ],
    "description": {
     "en": "Hexmaniac have a new friend."
    },
@@ -22,47 +30,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-06T11:39:00+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "d9514b47-d68c-4eb0-bde3-910889538bce",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiatari Ryoukou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4305df9a-f053-4e28-b7d6-320ed32a3ba5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Toudori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1ef18d45-808b-44fb-bcf7-ef87cca9bbda",
-   "type": "chapter"
-  },
-  {
-   "id": "26726c27-0f78-462b-9d17-ddfd9ec1dd14",
-   "type": "chapter"
-  },
-  {
-   "id": "1c089398-40db-4f5d-8a12-479d8a08acc9",
-   "type": "chapter"
-  },
-  {
-   "id": "a7782f7c-0c64-46e5-8491-69c6eccc8fe8",
-   "type": "chapter"
-  },
-  {
-   "id": "bd56dfb9-1ee2-4958-96c6-a8c47d065a54",
-   "type": "chapter"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "cbaf6f90-3d51-4fa5-843e-c156bcd22e51",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:10:53+00:00",
+    "description": "",
+    "fileName": "e45f64eb-d254-4ec4-bbf0-4a862b3d824a.jpg",
+    "updatedAt": "2021-05-24T17:10:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

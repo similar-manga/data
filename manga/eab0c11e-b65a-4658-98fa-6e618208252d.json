@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon Diamond and Pearl"
+    "en": "Pokémon Diamond and Pearl"
    },
+   "altTitles": [
+    {
+     "en": "Pokemon DP Manga"
+    },
+    {
+     "en": "ポケットモンスターダイヤモンド ポケットモンスターパール"
+    }
+   ],
    "description": {
     "en": "A special oneshot commemorating the release of the Diamond and Pearl games, published in the Comic Land magazine."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +42,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,39 +54,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-06T00:38:53+00:00",
+   "updatedAt": "2021-05-25T15:49:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "4951b113-356e-4ff0-ac73-b6413ee39be6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshikazu Himeno",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3a7a17ea-1498-4693-add3-2594297160db",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "864cdd19-04ed-4faf-a56a-b372139ec1ef",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:57+00:00",
+    "description": "",
+    "fileName": "fadd3904-1289-4f3d-8653-fba818b255b4.png",
+    "updatedAt": "2021-05-24T18:33:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

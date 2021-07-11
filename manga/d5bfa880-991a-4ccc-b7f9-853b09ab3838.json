@@ -23,6 +23,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +35,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +59,8 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -63,6 +71,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -73,6 +83,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -83,91 +95,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-16T10:27:09+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "2a04bd24-da9a-42b0-a927-817b1c3825ef",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Reon Merryweatherey",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7898b264-aa61-451c-8516-d6f9f3d3bef9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Eudetenis",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0fc7491a-b336-47a3-87b8-40f5d22087ac",
-   "type": "chapter"
-  },
-  {
-   "id": "a50287de-1d1b-40ef-bd67-7dcce530e80b",
-   "type": "chapter"
-  },
-  {
-   "id": "41e2ab69-dbe4-4439-aa79-9a1408a2941c",
-   "type": "chapter"
-  },
-  {
-   "id": "c17df3a6-c52f-4cc8-8d5c-dbc4f18412b6",
-   "type": "chapter"
-  },
-  {
-   "id": "f6a2516b-ba5d-4150-9355-8f183004bf64",
-   "type": "chapter"
-  },
-  {
-   "id": "7e1e3da7-9052-4eed-9e8e-1573b847b26f",
-   "type": "chapter"
-  },
-  {
-   "id": "5f7e60ae-d000-414f-b16b-e5a77b175b61",
-   "type": "chapter"
-  },
-  {
-   "id": "fcfc54e8-0ca4-4363-b72a-5b271ffa4749",
-   "type": "chapter"
-  },
-  {
-   "id": "94c9b9b3-e9fd-48f8-bd59-135d370e2361",
-   "type": "chapter"
-  },
-  {
-   "id": "85780f0d-498c-4667-8b4e-b074fd6d423e",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "2306587d-7c9f-4ff4-bd54-24effeb8c17e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:42:06+00:00",
+    "description": "",
+    "fileName": "cd484405-159b-416b-96b0-21f2a625cec7.jpg",
+    "updatedAt": "2021-05-24T16:42:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

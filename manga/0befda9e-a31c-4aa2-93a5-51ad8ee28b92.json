@@ -7,6 +7,11 @@
    "title": {
     "en": "Mukougawa no Masaka"
    },
+   "altTitles": [
+    {
+     "en": "むこうがわのまさか"
+    }
+   ],
    "description": {
     "en": "Masaka's just a kid working at a recycle shop... But is he really just a kid and is his job really at a  recycle shop? Why, he's a demon and a sword."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,47 +59,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-31T22:06:58+00:00",
+   "updatedAt": "2021-05-25T15:39:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "b052148a-1878-4bc5-846e-dd1c562c371c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Amadori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b052148a-1878-4bc5-846e-dd1c562c371c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Amadori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1b8d20da-473b-423e-9634-21af1905645f",
-   "type": "chapter"
-  },
-  {
-   "id": "53f65898-33c3-4e8b-abf0-0ce96dd14465",
-   "type": "chapter"
-  },
-  {
-   "id": "99d11caf-4e0e-4405-b7c8-3022e49a0a1c",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "876f4d52-fce3-4f38-b8b7-d2adacd29a4f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:36:05+00:00",
+    "description": "",
+    "fileName": "d351fc4a-e72e-4891-b9c4-5a3b112f9ecf.jpg",
+    "updatedAt": "2021-05-24T18:36:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

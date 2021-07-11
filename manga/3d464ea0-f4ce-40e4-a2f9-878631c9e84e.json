@@ -11,7 +11,6 @@
     "en": "Encyclopedia with files and information about the characters of the series Saint Seiya - Episode G."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,47 +34,53 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-19T16:06:04+00:00",
+   "updatedAt": "2021-05-25T15:41:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "75c02982-6af3-4d51-86eb-0cb5fc96e4b0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurumada Masami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e5d560ae-50b4-4b7f-8de9-0a9268e929b8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okada Megumu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "be3db4ac-6f5a-48e7-8584-396a1206ebb6",
-   "type": "chapter"
-  },
-  {
-   "id": "6dc8e635-c3ae-42df-84a6-26bbbc8d6bd9",
-   "type": "chapter"
-  },
-  {
-   "id": "4cd300f0-2155-48f1-8f14-c42bdc2c1fdf",
-   "type": "chapter"
-  },
-  {
-   "id": "c5f596e8-5fd3-4b20-bdef-e80fee2ca522",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
+   "id": "21211374-acb9-4f2f-9459-de070e9828ac",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:59:57+00:00",
+    "description": "",
+    "fileName": "ba7c127a-e1b3-4061-9d45-2a1e760987b3.jpg",
+    "updatedAt": "2021-05-24T17:59:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

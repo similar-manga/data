@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Ballet M\u0026eacute;canique"
+    "en": "Ballet Mécanique"
    },
    "description": {
     "en": "A maid discovers a dark secret in the mansion she is employed.\r\n\r\n(As of now, there is not much information on this release, but it is being researched so that accurate information can be given. The main photo is of the cover of the actual manga, while the other is of the Tokyo CYBERPUNK '07 magazine which has the same cover)"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "suggestive",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -42,6 +45,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,39 +57,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-02-26T14:49:08+00:00",
+   "updatedAt": "2021-02-26T14:49:08+00:00"
   }
  },
  "relationships": [
   {
    "id": "30a695f1-c6f5-47b9-8fb0-d90e08f6a5c0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Unknown; most likely Senno Knife",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "30a695f1-c6f5-47b9-8fb0-d90e08f6a5c0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Unknown; most likely Senno Knife",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "d744de2c-9bfb-4fc5-a242-fcdcc9831267",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:03+00:00",
+    "description": "",
+    "fileName": "c2c22882-80d2-49fa-8a5d-4da33d856796.png",
+    "updatedAt": "2021-05-24T18:33:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

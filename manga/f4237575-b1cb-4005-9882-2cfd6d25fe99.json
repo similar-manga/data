@@ -7,6 +7,11 @@
    "title": {
     "en": "Shikkoku Shoujo to Shiro no Doukei"
    },
+   "altTitles": [
+    {
+     "en": "漆黒少女と白の憧憬"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,39 +56,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-03T21:12:31+00:00",
+   "updatedAt": "2021-05-25T15:49:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "fe75fa6a-0fcc-4422-9d56-9fd76e42021a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hazuki Megumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fe75fa6a-0fcc-4422-9d56-9fd76e42021a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hazuki Megumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "06c5899b-048d-406b-a7d0-dafa2b30664c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "7bbb158d-b9aa-4fee-a6c3-3a3a3f7e11e9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:29+00:00",
+    "description": "",
+    "fileName": "8309aae0-3003-48bb-b833-ac22c7be358b.jpg",
+    "updatedAt": "2021-05-24T17:21:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

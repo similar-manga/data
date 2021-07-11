@@ -7,6 +7,11 @@
    "title": {
     "en": "Karen"
    },
+   "altTitles": [
+    {
+     "en": "華恋"
+    }
+   ],
    "description": {
     "en": "Brothers Masaki and Kai are reunited after 7 years apart when their father passes away. With their reunion brings the question: who will be the one to succeed the family?"
    },
@@ -28,8 +33,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,51 +47,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-10T16:13:57+00:00",
+   "updatedAt": "2021-05-25T15:43:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "83adeafd-a16d-4d54-ac81-db38103ead5f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Iwamoto Kaoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "eceb62c2-0370-4e79-aa8d-ae46cd22ee11",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamada Shiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "def666aa-6a3d-4baf-a7c7-358c93e8755b",
-   "type": "chapter"
-  },
-  {
-   "id": "958896c0-1d2d-456d-a9a5-e2e6559b8df4",
-   "type": "chapter"
-  },
-  {
-   "id": "213ed3a4-9368-4525-87d6-8f0fc65bca60",
-   "type": "chapter"
-  },
-  {
-   "id": "6df4057c-a3e1-4afc-8632-eae705a22c63",
-   "type": "chapter"
-  },
-  {
-   "id": "d198e8b7-39f1-4ad3-a349-4252cfd33dc5",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "dbcc7bf0-21cb-4fcf-bbbc-b65d1980c16c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:44:34+00:00",
+    "description": "",
+    "fileName": "7d4e31ae-ea76-4688-adcb-5f75e5dc5b0a.jpg",
+    "updatedAt": "2021-05-24T16:44:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

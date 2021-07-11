@@ -7,6 +7,14 @@
    "title": {
     "en": "Shiro no Koro"
    },
+   "altTitles": [
+    {
+     "en": "Ao no Koro"
+    },
+    {
+     "en": "白のころ"
+    }
+   ],
    "description": {
     "en": "Fuji moved to the countryside from the city. There he met Daichi. It was their youth, the time when both were still white. One with innocent love and kisses, another not aware of what first love feels like. The distance between city and countryside seems to be the same as the distance between the two of them. Will they be able to overcome the hardship?"
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,47 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-01T16:29:22+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "209dac45-47d5-47c7-91f7-63a8b93ddc89",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mita Ori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "209dac45-47d5-47c7-91f7-63a8b93ddc89",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mita Ori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3f63cc8c-724a-472b-afb4-6a0e58fc8eec",
-   "type": "chapter"
-  },
-  {
-   "id": "b84d96de-668f-4e8a-be9e-26c75d1e32db",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "e43ca37a-94c0-4feb-ab12-d7b4bb44c6dc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:53:19+00:00",
+    "description": "",
+    "fileName": "9e67a306-6dfe-4dca-b1fa-98bce2183578.jpg",
+    "updatedAt": "2021-05-24T16:53:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

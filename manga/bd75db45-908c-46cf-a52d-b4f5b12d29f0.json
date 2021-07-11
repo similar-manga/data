@@ -7,6 +7,20 @@
    "title": {
     "en": "My Hero!"
    },
+   "altTitles": [
+    {
+     "en": "Kahramanım!"
+    },
+    {
+     "en": "My Clumsy Boy!"
+    },
+    {
+     "en": "My Hero"
+    },
+    {
+     "en": "マイヒーロー!"
+    }
+   ],
    "description": {
     "en": "It's been a month since she entered high school, and Jun has started noticing a particular guy hanging around her classroom. When he suddenly confesses, she's not sure where she even knows him from, or how she feels about him. But come what may, he seems pretty intent on sticking around..."
    },
@@ -32,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +58,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +70,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -62,79 +82,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-06T19:42:37+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "434bcd4b-75f9-49cb-a866-616210d8a7b8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KUMAOKA Fuyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "434bcd4b-75f9-49cb-a866-616210d8a7b8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KUMAOKA Fuyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "caa5b632-e756-4fa5-b9f9-7f4c2c16c036",
-   "type": "chapter"
-  },
-  {
-   "id": "200d72f3-c90c-487a-a38f-8a51127f90d3",
-   "type": "chapter"
-  },
-  {
-   "id": "c965c92c-0317-4560-9cd0-20371e7f830a",
-   "type": "chapter"
-  },
-  {
-   "id": "068bd289-9655-4bd9-9785-568995d58c18",
-   "type": "chapter"
-  },
-  {
-   "id": "db24673b-650b-4842-9e26-e44d9bcfe926",
-   "type": "chapter"
-  },
-  {
-   "id": "546c97e6-1081-4b11-83ec-76dfb041383d",
-   "type": "chapter"
-  },
-  {
-   "id": "5c4645d4-1b41-429f-b8d2-f13c2d68e7eb",
-   "type": "chapter"
-  },
-  {
-   "id": "1977f8f9-840b-40a7-8abf-9d430260aab3",
-   "type": "chapter"
-  },
-  {
-   "id": "88f03cac-8a3b-452f-a9ba-e8e5d3352f89",
-   "type": "chapter"
-  },
-  {
-   "id": "3e17bd85-1175-4dab-a03c-559b47e403c4",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "76ae9a46-8be5-4fcf-b5ba-08c363c3df0f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:43+00:00",
+    "description": "",
+    "fileName": "fa6d2dde-53c1-4a15-90d7-a7006d0ae7b8.jpg",
+    "updatedAt": "2021-05-24T17:04:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

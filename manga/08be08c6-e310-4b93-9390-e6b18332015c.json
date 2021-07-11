@@ -7,6 +7,11 @@
    "title": {
     "en": "Everyone's Older Sister"
    },
+   "altTitles": [
+    {
+     "en": "Minna no Onee-san"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +56,8 @@
       "name": {
        "en": "Reverse Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -55,8 +66,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,75 +80,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-26T11:40:58+00:00",
+   "updatedAt": "2021-05-25T15:39:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "6fcfb8e5-fd6a-44ad-8ee4-aaec4436475a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "O.RI",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6fcfb8e5-fd6a-44ad-8ee4-aaec4436475a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "O.RI",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8deaf675-276e-4424-ab55-c5bc2a517773",
-   "type": "chapter"
-  },
-  {
-   "id": "d7912a82-a9f9-40e0-a492-347fab4f5703",
-   "type": "chapter"
-  },
-  {
-   "id": "2d619c52-8970-4de3-8692-4c8a451f0bb5",
-   "type": "chapter"
-  },
-  {
-   "id": "58f8ebe7-12d5-456e-823b-6005ac28be15",
-   "type": "chapter"
-  },
-  {
-   "id": "b1cf22ac-997f-42d2-95bb-de4238f812ae",
-   "type": "chapter"
-  },
-  {
-   "id": "39ebbc2d-23d6-449f-8c47-67d849a314f8",
-   "type": "chapter"
-  },
-  {
-   "id": "e7e22de0-dd5c-434a-abed-20ff3652bd9d",
-   "type": "chapter"
-  },
-  {
-   "id": "aa673639-10ca-4bec-87cc-bb4a2d3889c1",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "65761a2a-415e-47f3-bef2-a9dababba7a6",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "b2804879-30bd-4fa5-b8e9-b7ca608c04c2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:00:46+00:00",
+    "description": "",
+    "fileName": "4be31347-ddab-4d68-8506-19a9e978dc79.jpg",
+    "updatedAt": "2021-05-24T18:00:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

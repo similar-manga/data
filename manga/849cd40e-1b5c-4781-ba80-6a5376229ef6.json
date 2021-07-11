@@ -7,6 +7,17 @@
    "title": {
     "en": "Shojo Kairo"
    },
+   "altTitles": [
+    {
+     "en": "Girl Circuit"
+    },
+    {
+     "en": "Shoujo Kairo"
+    },
+    {
+     "en": "少女回路"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -17,7 +28,6 @@
     "mu": "125474"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -29,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +51,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -49,51 +63,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-19T06:20:55+00:00",
+   "updatedAt": "2021-05-25T15:44:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "52bc13ae-5176-48f7-bf6c-dc5560f9fcae",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kimuchi Yokoyama",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "52bc13ae-5176-48f7-bf6c-dc5560f9fcae",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kimuchi Yokoyama",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1274e08e-16b8-4dad-8b6b-e1aecb17cdcf",
-   "type": "chapter"
-  },
-  {
-   "id": "aadd3278-3153-4dea-b3b0-4c8d541143ac",
-   "type": "chapter"
-  },
-  {
-   "id": "3f6112ec-a31f-4e0b-97fd-0ae481fd33c2",
-   "type": "chapter"
-  },
-  {
-   "id": "0719a09d-8bc0-4c68-8ab7-4b6fa514f324",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "e88c3a18-8421-4fe4-a694-ec1a34ae4240",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:52:02+00:00",
+    "description": "",
+    "fileName": "f80c4553-fde7-443c-a287-55352c364f20.jpg",
+    "updatedAt": "2021-05-24T16:52:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

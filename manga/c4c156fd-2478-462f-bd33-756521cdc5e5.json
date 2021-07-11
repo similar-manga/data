@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Flat \u0026amp; Flow"
+    "en": "Flat \u0026 Flow"
    },
+   "altTitles": [
+    {
+     "en": "Fura Furo"
+    },
+    {
+     "en": "ふら・ふろ"
+    }
+   ],
    "description": {
     "en": "Meet Natsu and Hana, the two young women who are the managers of a beat-up apartment building, as they try to find tenants, upkeep the place, and generally have a good time."
    },
@@ -18,7 +26,6 @@
     "mu": "31245"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,55 +49,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-01-26T01:07:55+00:00",
+   "updatedAt": "2021-05-25T15:47:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "930c279a-63bc-42b3-a1df-e4f8700fc73c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KANEKO Masaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "930c279a-63bc-42b3-a1df-e4f8700fc73c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KANEKO Masaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1dd1f673-76b7-41f4-9db5-73315bcf3b78",
-   "type": "chapter"
-  },
-  {
-   "id": "5945f2a3-46f6-483b-83bc-e70ba0d2e070",
-   "type": "chapter"
-  },
-  {
-   "id": "e1e7f0c9-849e-4f8a-bef2-b76575c1be5b",
-   "type": "chapter"
-  },
-  {
-   "id": "3afac648-2c43-451b-98e0-200ad5772772",
-   "type": "chapter"
-  },
-  {
-   "id": "3b804181-44ff-4d67-94ed-0a168f2eb643",
-   "type": "chapter"
-  },
-  {
-   "id": "9036224c-062f-4bf8-ba6f-be1fcf82bec6",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "b18f0b17-2ea9-4f23-8c65-093a0a72a351",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:39:52+00:00",
+    "description": "",
+    "fileName": "fceb05a5-ba53-4ba1-a8b9-b5146e2e0440.jpg",
+    "updatedAt": "2021-05-24T17:39:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

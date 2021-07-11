@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Toji no Miko - \u0026quot;Haiboku no Katanashi\u0026quot; Itomi Sayaka (Doujinshi)"
+    "en": "Toji no Miko - \"Haiboku no Katanashi\" Itomi Sayaka (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "『敗北の刀使』糸見 沙耶香"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,35 +38,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-11T17:05:47+00:00",
+   "updatedAt": "2021-05-25T15:43:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "9e6a3839-de09-4967-b50f-7a516c179485",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tyagama",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9e6a3839-de09-4967-b50f-7a516c179485",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tyagama",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b7493e3e-983a-4ee7-8ecf-3e7c75a68309",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "589d513c-1d6f-4fa6-9b4b-672ce3e5d6ed",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:26:12+00:00",
+    "description": "",
+    "fileName": "604337c1-ab19-461b-93d0-53be06a05fec.jpg",
+    "updatedAt": "2021-05-24T17:26:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

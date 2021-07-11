@@ -30,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +52,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +66,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-29T13:53:41+00:00",
+   "updatedAt": "2021-05-25T15:42:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "ad106d7a-4c85-479d-b429-6ed12ddfc05f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Higashiyama Shou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ad106d7a-4c85-479d-b429-6ed12ddfc05f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Higashiyama Shou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ec01b31e-607d-435e-a7ac-25386c96a129",
-   "type": "chapter"
-  },
-  {
-   "id": "08bf387f-a056-49ad-b87c-165e6c03ae3c",
-   "type": "chapter"
-  },
-  {
-   "id": "bc3baf32-26a5-4336-bc0d-f5046f03be77",
-   "type": "chapter"
-  },
-  {
-   "id": "f5472f9a-377a-42d7-928f-dc037029029a",
-   "type": "chapter"
-  },
-  {
-   "id": "3162c8e5-5b13-4eb1-ba66-528fdbc831e6",
-   "type": "chapter"
-  },
-  {
-   "id": "65b72eab-688b-463c-87b2-d6befa5536e7",
-   "type": "chapter"
-  },
-  {
-   "id": "ad0f38b3-4613-4e24-92a4-857e95f85723",
-   "type": "chapter"
-  },
-  {
-   "id": "7efefa67-bf2e-4d60-8665-500c9ab1f1c9",
-   "type": "chapter"
-  },
-  {
-   "id": "cc6cdef8-a010-42a9-9b23-9522714762c6",
-   "type": "chapter"
-  },
-  {
-   "id": "f6cfb165-f0dd-4bb3-8293-17347eada07f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "8040890c-97ac-4f9d-a73a-70175073a5fc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:02+00:00",
+    "description": "",
+    "fileName": "9789f2da-09ed-4c95-b506-6c4612f09fc8.jpg",
+    "updatedAt": "2021-05-24T18:04:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

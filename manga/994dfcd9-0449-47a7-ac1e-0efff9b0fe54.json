@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Tyra \u0026amp; Cera"
+    "en": "Tyra \u0026 Cera"
    },
+   "altTitles": [
+    {
+     "en": "Tiira to Kera"
+    },
+    {
+     "en": "Tyrannosaurus \u0026 Triceratops"
+    },
+    {
+     "en": "ティラとケラ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +51,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,75 +65,53 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-01T09:13:49+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "b6eb50d0-3462-4761-b7a2-a9b3ba44f8c1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ichikawa Hiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b6eb50d0-3462-4761-b7a2-a9b3ba44f8c1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ichikawa Hiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2f2aee8e-0ddb-4f53-a530-62abe38bef27",
-   "type": "chapter"
-  },
-  {
-   "id": "f3e99aaf-a8ac-4675-9a27-5ba604185c14",
-   "type": "chapter"
-  },
-  {
-   "id": "d3f282dc-09af-46bb-9d08-868f7175b565",
-   "type": "chapter"
-  },
-  {
-   "id": "86d72752-9629-4b0a-9ae1-066a120f8bc9",
-   "type": "chapter"
-  },
-  {
-   "id": "326e18e2-9e7d-4f90-a103-16edba586644",
-   "type": "chapter"
-  },
-  {
-   "id": "701f4f8c-1bcc-4784-b8d2-d02726b4956e",
-   "type": "chapter"
-  },
-  {
-   "id": "d380f677-be36-47f8-9d42-e1580f20d07c",
-   "type": "chapter"
-  },
-  {
-   "id": "634f4f93-a703-4e55-b27a-b32c7ebc6fc9",
-   "type": "chapter"
-  },
-  {
-   "id": "0496bcbf-cdad-4015-8956-b08afd6a608a",
-   "type": "chapter"
-  },
-  {
-   "id": "8983914f-5b19-4672-bf3d-ae6752760941",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
+   "id": "2ad0f592-49ce-4fda-88d1-df4b53129bb4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:43:16+00:00",
+    "description": "",
+    "fileName": "7b496b62-d160-4979-a1c6-2c71f95a20f4.jpg",
+    "updatedAt": "2021-05-24T17:43:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

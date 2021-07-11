@@ -7,8 +7,16 @@
    "title": {
     "en": "Exile Monogatari"
    },
+   "altTitles": [
+    {
+     "en": "EXILE Story"
+    },
+    {
+     "en": "EXILE 物語"
+    }
+   ],
    "description": {
-    "en": "Story from HIRO\u0026acute;s view about start of group EXILE."
+    "en": "Story from HIRO´s view about start of group EXILE."
    },
    "links": {
     "mu": "93313"
@@ -26,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +46,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,43 +58,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-10T10:29:27+00:00",
+   "updatedAt": "2021-05-25T15:49:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "7a1f68a6-34dc-47cb-b9d8-3cf95fa70044",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ueno Haruki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7a1f68a6-34dc-47cb-b9d8-3cf95fa70044",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ueno Haruki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fbb45f78-f23b-48f3-b0ca-a6c5f966a209",
-   "type": "chapter"
-  },
-  {
-   "id": "46dcb67d-f938-4063-a78b-17d3263c9825",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "520ed023-5901-4f01-a402-64d3bf187321",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:26:03+00:00",
+    "description": "",
+    "fileName": "25921b99-5a88-44ad-b1b7-298dc522b28f.png",
+    "updatedAt": "2021-05-24T17:26:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

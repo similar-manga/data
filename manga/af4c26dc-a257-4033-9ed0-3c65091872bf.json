@@ -7,6 +7,11 @@
    "title": {
     "en": "Pretty Scoop!"
    },
+   "altTitles": [
+    {
+     "en": "プリティ・スクープ！"
+    }
+   ],
    "description": {
     "en": "Eiichi Sada joins the newspaper club as soon as he enters high school. His partner, Akira, looks terrifying but he is actually very kind. One day, Eiichi witnesses the love affair of two homosexual students and takes a picture of it. In retaliation, Akira takes a shot of Eiichi's nude form to make him learn the significance of reporting."
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,8 +41,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +55,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,71 +67,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-28T02:14:11+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "cf57cb6c-16a5-4a3c-9b54-857028a71132",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamato Nase",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cf57cb6c-16a5-4a3c-9b54-857028a71132",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamato Nase",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "48ddfd2d-d1d2-4802-aae6-f33966340c7e",
-   "type": "chapter"
-  },
-  {
-   "id": "a1a90218-fdd4-4159-9cf1-c464aeb859d8",
-   "type": "chapter"
-  },
-  {
-   "id": "ef4589e7-730b-41c3-b2b2-50b482c4e657",
-   "type": "chapter"
-  },
-  {
-   "id": "b9b6b388-54df-443c-a1ef-1f55783429b7",
-   "type": "chapter"
-  },
-  {
-   "id": "2c0ea17d-60c9-47a8-b390-1fccf057047c",
-   "type": "chapter"
-  },
-  {
-   "id": "03d0828e-949c-469e-8449-2e056986ae79",
-   "type": "chapter"
-  },
-  {
-   "id": "84791016-cd9e-48a5-b886-38f5bbec59d7",
-   "type": "chapter"
-  },
-  {
-   "id": "a2474ba2-1072-4073-9626-ee58cca5e963",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "1730e5d7-be81-4f29-bd41-54f03136948b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:58+00:00",
+    "description": "",
+    "fileName": "8e15eba9-217c-4eba-b066-cc7103e9dd92.jpg",
+    "updatedAt": "2021-05-24T16:55:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

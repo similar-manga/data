@@ -7,6 +7,11 @@
    "title": {
     "en": "Yuuto"
    },
+   "altTitles": [
+    {
+     "en": "ユート"
+    }
+   ],
    "description": {
     "en": "A boy named Yuuto Seo moves from Hokkaido, where he's lived all his life, to Tokyo. He first fears he must give up speed skating, his hobby, but he soon finds places to skate and people to skate with. The second series written by Hotta Yumi (creator of Hikaru no Go)."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,59 +48,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-20T23:19:49+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "e1c60947-5ffa-45a5-82b6-906252c62798",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HOTTA Yumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "03312f2a-be68-4e87-b50c-c22ffd325f1d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KAWANO Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6fe33037-1438-454c-8f6d-590c9ff31c3b",
-   "type": "chapter"
-  },
-  {
-   "id": "33730d2c-938a-4ce6-98ee-c551af3cb1d9",
-   "type": "chapter"
-  },
-  {
-   "id": "5ae2378c-44a1-418b-bb8a-05a8d8550004",
-   "type": "chapter"
-  },
-  {
-   "id": "0708b5ef-67d0-4267-b478-fd6c2fe6a7c4",
-   "type": "chapter"
-  },
-  {
-   "id": "0eba68fd-607d-4cb8-8894-cb8fe3d134c7",
-   "type": "chapter"
-  },
-  {
-   "id": "632c4512-5484-41b3-ab9b-52fda657ceea",
-   "type": "chapter"
-  },
-  {
-   "id": "ab2c4352-1449-4447-ac30-1078eb5d16f8",
-   "type": "chapter"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "dcb8cba2-6b79-4f3f-b453-29f0b7f818b8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:27:54+00:00",
+    "description": "",
+    "fileName": "c5b76e73-cba9-4b0a-ab45-f11e184fc82b.jpg",
+    "updatedAt": "2021-05-24T18:27:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

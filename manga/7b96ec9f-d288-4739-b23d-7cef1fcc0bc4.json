@@ -7,6 +7,11 @@
    "title": {
     "en": "The Harem of Gal's Friend"
    },
+   "altTitles": [
+    {
+     "en": "Gal Tomo Harem"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -23,6 +28,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -33,47 +40,53 @@
       "name": {
        "en": "Gyaru"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-30T07:06:02+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "2d7dfcce-ba45-432b-82c1-7670e6d99e22",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shiki Takuto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3fe5e70e-617f-4472-aea8-e3552158a170",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shiki takuto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b4b3dacd-b0ba-479c-aa69-c4436c1177c5",
-   "type": "chapter"
-  },
-  {
-   "id": "c3bb9ad9-4847-4ba5-8c81-0f8a29ec7d13",
-   "type": "chapter"
-  },
-  {
-   "id": "be0cda09-0cd7-405c-ac0f-31b83774914c",
-   "type": "chapter"
-  },
-  {
-   "id": "944f4f92-2456-4111-997e-264860cdcee8",
-   "type": "chapter"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "fad12b5e-68ba-460e-b933-9ae8318f5b65",
-   "type": "tag"
+   "id": "b86bb156-8e78-4f27-bcc2-03b5fe973801",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:43:02+00:00",
+    "description": "",
+    "fileName": "fc3727d6-d1f0-49d6-a3c8-fd2c8348aaff.jpg",
+    "updatedAt": "2021-05-24T17:43:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

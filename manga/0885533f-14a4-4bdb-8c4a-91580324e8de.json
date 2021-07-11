@@ -7,6 +7,14 @@
    "title": {
     "en": "Kibun wa Joujou!"
    },
+   "altTitles": [
+    {
+     "en": "Feel So Nice!"
+    },
+    {
+     "en": "その後の気分は上々！"
+    }
+   ],
    "description": {
     "en": "When Tsukamura Masaki's company shuts down, he's worried he may have to leave the city and go back to Hokkaido. Thus, when the charming Nagasaka offers him a job as janitor of an apartment building, he jumps at the chance. However, the job is more than just cleaning up: he's expected to take personal care of the weird assortment of tenants."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +74,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,83 +86,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-09T11:12:26+00:00",
+   "updatedAt": "2021-05-25T15:39:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "7e59eda2-4f4c-4305-a1ac-b68c5773e943",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tennouji Mio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7e59eda2-4f4c-4305-a1ac-b68c5773e943",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tennouji Mio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "93d0503e-d53f-437d-8e56-ca0dbed7d8a9",
-   "type": "chapter"
-  },
-  {
-   "id": "5320d558-c95b-4bee-94f3-634647eb54f2",
-   "type": "chapter"
-  },
-  {
-   "id": "48224ae6-427b-4012-9809-6d7e6bd969ed",
-   "type": "chapter"
-  },
-  {
-   "id": "2f7f15d6-5625-4b24-80ea-423e9c072f3e",
-   "type": "chapter"
-  },
-  {
-   "id": "f484c14d-b716-4b92-8b60-65b212a33042",
-   "type": "chapter"
-  },
-  {
-   "id": "8a2f4a30-2aa6-41f1-bf28-5ef30600a1a0",
-   "type": "chapter"
-  },
-  {
-   "id": "a04f8111-062b-4eba-b2d4-79262c9342a8",
-   "type": "chapter"
-  },
-  {
-   "id": "401a3d6b-f9e2-4d80-92f2-41975809683a",
-   "type": "chapter"
-  },
-  {
-   "id": "be1a070e-09ba-4bc8-a711-45140b3cd137",
-   "type": "chapter"
-  },
-  {
-   "id": "94268b73-8c7c-4dba-9db0-e563b2dc2df0",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "cb87f5c3-5410-4fcb-bebb-bbd34f236ba9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:21+00:00",
+    "description": "",
+    "fileName": "532e9e77-ea6a-4f8c-a2d4-85f3a5b6ce50.jpg",
+    "updatedAt": "2021-05-24T17:18:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

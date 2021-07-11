@@ -7,6 +7,11 @@
    "title": {
     "en": "Kusa no Kanmuri Hoshi no Kanmuri"
    },
+   "altTitles": [
+    {
+     "en": "草の冠星の冠"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -29,8 +34,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,39 +60,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-29T21:57:18+00:00",
+   "updatedAt": "2021-05-25T15:41:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "56186435-1e04-409e-be6c-6c06ac2f7724",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Techno Samata",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "56186435-1e04-409e-be6c-6c06ac2f7724",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Techno Samata",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7966841e-df80-4504-a566-4f829a03d79e",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "60a0450a-f969-4fb9-bdc3-d7f44da76f29",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:46:29+00:00",
+    "description": "",
+    "fileName": "44d1a2ee-32d1-47f1-91c8-d22f4371e239.jpg",
+    "updatedAt": "2021-05-24T16:46:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

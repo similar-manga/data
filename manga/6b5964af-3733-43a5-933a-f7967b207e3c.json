@@ -7,6 +7,11 @@
    "title": {
     "en": "Cathexis"
    },
+   "altTitles": [
+    {
+     "en": "カセクシス"
+    }
+   ],
    "description": {
     "en": "A brief story about finding a purpose in life, and working singlemindedly to achieve it..."
    },
@@ -14,7 +19,6 @@
     "mu": "112996"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,43 +53,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-19T22:23:13+00:00",
+   "updatedAt": "2021-05-25T15:43:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "a189e668-1602-4021-b90f-c9ceba4256f7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sanada Shuuhei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "214ae782-5eef-497a-ab0f-3ca125d75db2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7364a858-b46b-4768-98d8-c4eb2e4e22d1",
-   "type": "chapter"
-  },
-  {
-   "id": "3a6a575d-3900-4e33-896b-fa9e4f2b00aa",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "eea04710-2c75-4fbd-8dd6-4bcea879e29a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:45:28+00:00",
+    "description": "",
+    "fileName": "f0babc63-5674-4663-8f9c-3eb6b0168fec.png",
+    "updatedAt": "2021-05-24T16:45:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

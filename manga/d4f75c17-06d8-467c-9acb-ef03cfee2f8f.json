@@ -7,6 +7,17 @@
    "title": {
     "en": "Mimoza de Sarada"
    },
+   "altTitles": [
+    {
+     "en": "Mimosa de Salah"
+    },
+    {
+     "en": "Mimosa Salad"
+    },
+    {
+     "en": "ミモザでサラダ"
+    }
+   ],
    "description": {
     "en": "Mimoza's grandfather was worried about her until the time of his death. Before he dies he tells her that since she was too vulnerable and easily lied to by everyone to never trust people. He also leaves behind Kyle, a robot, to protect her from others. Thanks to Kyle, Mimoza no longer feels alone. But will she ever discover the secret this robot hides?"
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,39 +66,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-02T23:51:48+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "e6139a4f-6f68-4467-a3b1-bdba5fd80d64",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Morio Masami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e6139a4f-6f68-4467-a3b1-bdba5fd80d64",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Morio Masami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5756ae85-f3d7-4000-aacc-2ef1ab1b7cc0",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "004e025e-683e-4f0c-b232-312b580e9fdb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:15+00:00",
+    "description": "",
+    "fileName": "b7095efe-cd43-4bb1-8b52-4fa5250cd658.jpg",
+    "updatedAt": "2021-05-24T16:50:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

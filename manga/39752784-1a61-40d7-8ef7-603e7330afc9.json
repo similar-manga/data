@@ -7,6 +7,11 @@
    "title": {
     "en": "Puzzle"
    },
+   "altTitles": [
+    {
+     "en": "パズル"
+    }
+   ],
    "description": {
     "en": "A group of masked  terrorists take over a middle school and hold special class 3-A's teacher hostage. The students are given 48 hours to find all 2,014 puzzle pieces hidden throughout the school if they don't want their teacher to hang."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +60,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,6 +72,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,55 +84,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-07T13:51:33+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "e1399369-1048-4c96-91d2-30ba5d5ca681",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamada Yuusuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "72926a29-f690-4d3e-9d83-df9906b2ea7c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sanbe Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "879dc9e4-049a-463f-9845-fc904e56aa3d",
-   "type": "chapter"
-  },
-  {
-   "id": "ce64fe93-2451-4b63-9ef6-3c8b371a3a2f",
-   "type": "chapter"
-  },
-  {
-   "id": "43e0a77b-548a-4875-9426-56adf5ad6f32",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "b0491d38-7e47-4f8d-902a-1989e40edd12",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:57+00:00",
+    "description": "",
+    "fileName": "0790a2d5-01b7-457c-9750-3922d68e725c.jpg",
+    "updatedAt": "2021-05-24T17:21:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

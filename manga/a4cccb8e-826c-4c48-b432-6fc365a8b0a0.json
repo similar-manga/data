@@ -7,6 +7,11 @@
    "title": {
     "en": "Escape Journey"
    },
+   "altTitles": [
+    {
+     "en": "エスケープジャーニー"
+    }
+   ],
    "description": {
     "en": "It's Naoto's first day of college, and the last person he expected to see was his high school ex Taichi, whom he'd dumped after a huge argument. Even though years have passed, Naoto finds he's still steamed over some of the harsh words that were exchanged, but he also recognizes how much Taichi has matured since then and can't help getting pulled back in. Will the discovery of his friend's crush on Taichi fray the fragile threads of this mending relationship?"
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,8 +47,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +61,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -62,79 +73,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-14T10:32:44+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "f553da83-fff0-4263-a709-ff14191eb43b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ogeretsu Tanaka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f553da83-fff0-4263-a709-ff14191eb43b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ogeretsu Tanaka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "daa73ee9-2841-4835-a73c-35195809cda6",
-   "type": "chapter"
-  },
-  {
-   "id": "01ac1e2f-ffb0-45ee-b0af-7bc8ddb46adc",
-   "type": "chapter"
-  },
-  {
-   "id": "82bdf256-0970-4d67-a43d-771a0ecee8b5",
-   "type": "chapter"
-  },
-  {
-   "id": "bee1e9be-6ed5-4b66-8b39-653563e1c835",
-   "type": "chapter"
-  },
-  {
-   "id": "ed7036ee-67d3-4d21-9089-a3d1e10b47cf",
-   "type": "chapter"
-  },
-  {
-   "id": "748ece78-a97a-4c46-8391-c05beb190e5a",
-   "type": "chapter"
-  },
-  {
-   "id": "002b5678-111e-478e-8af7-bf4f39c9c28e",
-   "type": "chapter"
-  },
-  {
-   "id": "dab433ec-4bb6-4704-ac4c-3eef47588397",
-   "type": "chapter"
-  },
-  {
-   "id": "bc9010ff-e18f-4c46-9840-8a3963f777c3",
-   "type": "chapter"
-  },
-  {
-   "id": "b50a3a3f-3cf8-49be-bd56-4081391fcea7",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "cfe11d6b-5fbc-4f45-951f-64fe3425f6ab",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:54:33+00:00",
+    "description": "",
+    "fileName": "70004c62-fd0b-45cb-bd6c-06c19247adf6.jpg",
+    "updatedAt": "2021-05-24T16:54:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

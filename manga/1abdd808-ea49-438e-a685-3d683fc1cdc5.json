@@ -7,6 +7,14 @@
    "title": {
     "en": "Moon Land"
    },
+   "altTitles": [
+    {
+     "en": "Moonland"
+    },
+    {
+     "en": "ムーンランド"
+    }
+   ],
    "description": {
     "en": "Mitsuki Amahara is an avid gymnast in his third year of middle school, but it's not until the final middle school competition that he competes for the first time. There, he is taken aback by the stunning performance of Sakura Dogase, a member of a renowned club. What will Mitsuki do in order to get closer to his goal...?!"
    },
@@ -35,6 +43,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,71 +55,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-27T02:35:11+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "f3e9af90-dc48-44b3-b9c8-9b6a20ae8f78",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sai Yamagishi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f3e9af90-dc48-44b3-b9c8-9b6a20ae8f78",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sai Yamagishi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4b3d3227-a5e6-46b2-b5bb-bd636f76806f",
-   "type": "chapter"
-  },
-  {
-   "id": "46b08875-cca4-40b9-aaa5-854f6e4e52cd",
-   "type": "chapter"
-  },
-  {
-   "id": "70f482a7-723e-42fc-8484-8698041b6aca",
-   "type": "chapter"
-  },
-  {
-   "id": "7adf38dd-c8e7-4c00-b47a-2d8025dc400a",
-   "type": "chapter"
-  },
-  {
-   "id": "cb09383e-1c95-4af6-8ce9-c386fde6f9bf",
-   "type": "chapter"
-  },
-  {
-   "id": "ae2d7f9d-aee1-42e9-b978-4a3a8e160673",
-   "type": "chapter"
-  },
-  {
-   "id": "947b3480-6806-4f64-8708-fdafe8229dc6",
-   "type": "chapter"
-  },
-  {
-   "id": "d6375c9e-d196-453d-acee-3c31cd66b33f",
-   "type": "chapter"
-  },
-  {
-   "id": "d9353c05-4be7-4284-9e65-6e05abfa1e3f",
-   "type": "chapter"
-  },
-  {
-   "id": "9c998def-b24c-4bcb-a84f-e7f7232082ad",
-   "type": "chapter"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "d63c8350-b0ad-4f1f-af89-d5e51ff6f587",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:42:38+00:00",
+    "description": "",
+    "fileName": "920b49a2-5b42-4cc6-8fd7-4248775cebe9.jpg",
+    "updatedAt": "2021-05-24T17:42:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,17 @@
    "title": {
     "en": "Apron de Choushoku wo"
    },
+   "altTitles": [
+    {
+     "en": "The Apron Worn for Breakfast"
+    },
+    {
+     "en": "Соблазненный фартуком"
+    },
+    {
+     "en": "エプロンで朝食を"
+    }
+   ],
    "description": {
     "en": "When Shirakawa gets fired from his job, his future is looking bleak. Yamato, his junior from college, suggests that he take a turn at being his housewife. Can Shirakawa make a succesful move from boardroom to the kitchen?"
    },
@@ -29,6 +40,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,8 +50,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,59 +64,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-01T07:53:07+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "ae1b285c-814a-4a7f-9d2d-e6bb482a2bcf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiiro Reiichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ae1b285c-814a-4a7f-9d2d-e6bb482a2bcf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiiro Reiichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "635f490b-1906-4ba4-9b24-82b5b4af600f",
-   "type": "chapter"
-  },
-  {
-   "id": "0b29eef1-0c82-43be-9bb6-6590c54cd15a",
-   "type": "chapter"
-  },
-  {
-   "id": "0a758464-201d-419b-95ec-8690b9710bad",
-   "type": "chapter"
-  },
-  {
-   "id": "9a5fec27-d422-4c8f-9682-655c3074ee1c",
-   "type": "chapter"
-  },
-  {
-   "id": "1ab8b32c-3804-4974-9893-45d05bb96994",
-   "type": "chapter"
-  },
-  {
-   "id": "ebd82929-5d40-465f-a24c-d1d07cf0a5ea",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "d5aa366c-138e-4fee-a60e-3e0cb8b539fe",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:33+00:00",
+    "description": "",
+    "fileName": "1b9c9bea-bc97-45d4-9b56-e7b0717dee1b.jpg",
+    "updatedAt": "2021-05-24T17:06:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

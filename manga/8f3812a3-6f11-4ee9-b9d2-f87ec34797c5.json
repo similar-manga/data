@@ -7,8 +7,16 @@
    "title": {
     "en": "Ao no Rettou"
    },
+   "altTitles": [
+    {
+     "en": "Blue Archipelago"
+    },
+    {
+     "en": "青の列島"
+    }
+   ],
    "description": {
-    "en": "A light-hearted story about a boy who encounters a girl who is surprisingly a genius at ski jumping. A mini-series by the author of Shokugeki no Soma and artist of Tis Time for \u0026quot;Torture,\u0026quot; Princess."
+    "en": "A light-hearted story about a boy who encounters a girl who is surprisingly a genius at ski jumping. A mini-series by the author of Shokugeki no Soma and artist of Tis Time for \"Torture,\" Princess."
    },
    "links": {
     "ap": "ao-no-rettou",
@@ -28,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,51 +72,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-17T09:39:15+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "1b0f3e1c-6e9d-446a-9f02-3a0aa188c0db",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsukuda Yuuto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2352eb7e-0e87-4727-a438-f487379ff641",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hirakei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c1ae16b2-5547-4552-ac24-ad022780fc20",
-   "type": "chapter"
-  },
-  {
-   "id": "72bbb5fc-f7e1-4ded-8436-ddff5975cbd9",
-   "type": "chapter"
-  },
-  {
-   "id": "36665966-9230-4f0d-83ba-68566cbf86da",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "d2d414e3-7106-4ff8-a4aa-b024300cdeb7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:23:14+00:00",
+    "description": "",
+    "fileName": "5dc6e7db-609e-4faf-94bd-75e142545be3.jpg",
+    "updatedAt": "2021-05-24T18:23:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

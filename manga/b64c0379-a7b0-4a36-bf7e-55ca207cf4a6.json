@@ -7,6 +7,17 @@
    "title": {
     "en": "Hyoui Don!"
    },
+   "altTitles": [
+    {
+     "en": "ひょうい☆ドン!"
+    },
+    {
+     "en": "凭依!"
+    },
+    {
+     "en": "妖怪☆退散"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -51,39 +66,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-25T03:26:52+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "de437bb9-e5cf-4820-acb9-dc9faadbd19b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takayaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "de437bb9-e5cf-4820-acb9-dc9faadbd19b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takayaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "098f4023-4fcd-47b3-93bb-3e4f2e28fd88",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "2c9875eb-9842-4f07-91ec-f0ba09bb95a6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:46:01+00:00",
+    "description": "",
+    "fileName": "4ea60795-19af-4886-8c28-80b8ff9643c1.png",
+    "updatedAt": "2021-05-24T16:46:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

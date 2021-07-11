@@ -5,8 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Country Girl - \u0026quot;TRianThology - Sanmenkyou no Kuni no Alice\u0026quot; Yori"
+    "en": "Country Girl - \"TRianThology - Sanmenkyou no Kuni no Alice\" Yori"
    },
+   "altTitles": [
+    {
+     "en": "Country Girl - \"TRianThology - Sanmenkyou no Kuni no Alice\" Yori"
+    },
+    {
+     "en": "Country Girl - From \"TRianThology - Alice in the Land of the Three-Sided Mirror\""
+    },
+    {
+     "en": "Country Girl - Tri Anthology - Sanmenkyou no Kuni no Alice Yori "
+    },
+    {
+     "en": "カントリーガアル「トライアンソロジー～三面鏡の国のアリス～」より"
+    }
+   ],
    "description": {
     "en": "Mikihiko is leading a radiant middle school life with his three best friends, but fails his high school entry exams and stops coming to class altogether. And when his emotionally attached friend Keiko finds out, she tries everything to restore their past lives. How will the transition from middle to high school affect their personalities? What kind of fate awaits them?"
    },
@@ -33,6 +47,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +59,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +71,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,6 +83,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -73,6 +95,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -83,71 +107,65 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-25T15:39:49+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "252dfbf7-00e9-4f1e-9d07-d80d98363ba0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tanaka Romeo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e44be2ab-b34b-4431-9855-96daf63e215e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ryukishi07",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ac9fa9f5-a52c-496d-b3da-c6bf9f6bd4ab",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tatsuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6531c4c6-7de6-42e6-bd16-0e96d134a549",
-   "type": "chapter"
-  },
-  {
-   "id": "3224c46f-0f7e-4ea0-b972-5071eb3fe92f",
-   "type": "chapter"
-  },
-  {
-   "id": "a69a22e1-3788-4495-bb5f-796ddf8efd27",
-   "type": "chapter"
-  },
-  {
-   "id": "274069ba-1e85-49ad-bfd1-c9515ba8e336",
-   "type": "chapter"
-  },
-  {
-   "id": "e2c95d3c-e20a-4624-be59-3d9485ba3b63",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "328e9829-6e24-4f3b-b988-04fc114f65d9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:41+00:00",
+    "description": "",
+    "fileName": "d209d13c-1e40-4f4f-ba64-5145bc489259.jpg",
+    "updatedAt": "2021-05-24T16:55:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

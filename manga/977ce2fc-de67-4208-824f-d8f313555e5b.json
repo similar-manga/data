@@ -7,6 +7,14 @@
    "title": {
     "en": "Cursor"
    },
+   "altTitles": [
+    {
+     "en": "カーソル"
+    },
+    {
+     "en": "커서"
+    }
+   ],
    "description": {
     "en": "One day, your average run-of-the-mill loser begins to see a 'cursor' that's pointing at certain things. He devotes himself to following the instructions he gets from this cursor, progressively becoming stronger - and more reprehensible - as he goes along. But where will it lead him in the end?"
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -57,6 +71,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -67,6 +83,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -77,87 +95,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-20T01:37:56+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "f7639b28-e465-40b6-824e-a3ca67ff6a13",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Jak Ka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "134606ec-38bc-43e0-9d22-17550bf334d6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Byung Jan (Sgt.)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "634ebf68-57f0-4370-aa7b-c46fc35354b1",
-   "type": "chapter"
-  },
-  {
-   "id": "5daf17d9-08c9-4a6b-808f-21a6e6799ab9",
-   "type": "chapter"
-  },
-  {
-   "id": "eb5b9e6e-35cd-4c93-97a7-bb5c8be0e321",
-   "type": "chapter"
-  },
-  {
-   "id": "07257c78-93eb-4119-8db5-3bebff6c66a7",
-   "type": "chapter"
-  },
-  {
-   "id": "8a6b4195-77cc-4bcd-8597-97f77e187640",
-   "type": "chapter"
-  },
-  {
-   "id": "1045f6f1-8672-4d65-ad4e-11734a73b590",
-   "type": "chapter"
-  },
-  {
-   "id": "94fd6870-ad5f-4b82-ba27-be3516abb886",
-   "type": "chapter"
-  },
-  {
-   "id": "2383c659-8ca5-4bdd-9500-d46f65c3c2d5",
-   "type": "chapter"
-  },
-  {
-   "id": "97dbc0a1-3a56-433e-bbd9-67ca907f2b9e",
-   "type": "chapter"
-  },
-  {
-   "id": "93b9e486-1d2c-47fa-b3e9-f186d8bd7985",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "b9e2177b-b164-4f3d-9ef4-fce19523d83e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:04+00:00",
+    "description": "",
+    "fileName": "c24c231b-27b2-4b27-9f67-4d254c17d24d.jpg",
+    "updatedAt": "2021-05-24T16:55:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

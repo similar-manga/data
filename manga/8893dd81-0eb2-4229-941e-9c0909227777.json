@@ -7,11 +7,15 @@
    "title": {
     "en": "Sidus"
    },
+   "altTitles": [
+    {
+     "en": "시두스"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,39 +50,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-03-23T07:00:27+00:00",
+   "updatedAt": "2019-03-23T07:00:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "426f9ebd-c25f-49f8-9b44-9bfe86519fa7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "라온",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "426f9ebd-c25f-49f8-9b44-9bfe86519fa7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "라온",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9cb793ec-34ce-40b3-8c7a-096e74dd1839",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "9bf7d14d-b88b-4f37-bc1c-ee4e623385ff",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:05:32+00:00",
+    "description": "",
+    "fileName": "0e52b6f1-1d0a-46c8-b001-d4f12414a1f1.jpg",
+    "updatedAt": "2021-05-24T17:05:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

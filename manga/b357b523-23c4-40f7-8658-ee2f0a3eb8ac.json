@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Corpse Party - Sachiko no Renai Yuugi \u0026hearts; Hysteric Birthday 2U"
+    "en": "Corpse Party - Sachiko no Renai Yuugi ♥ Hysteric Birthday 2U"
    },
+   "altTitles": [
+    {
+     "en": "Corpse Party: Sachiko no Renai Yuugi Hysteric Birthday 2U"
+    },
+    {
+     "en": "コープスパーティー サチコの恋愛遊戯❤Hysteric Birthday 2U"
+    }
+   ],
    "description": {
     "en": "The master of the school has an overwhelming power over the events that happen around the trapped. And that power is even greater on a certain day: her birthday."
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +61,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -59,6 +73,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,83 +85,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-24T05:13:10+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "89de47df-41c8-44ef-97f7-70e28167a5e3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kedouin Makoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "37005ad1-ea41-4487-9a5a-c59039092913",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shibata Tsubakurou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4af5397e-f3c6-4fe9-91d2-f6d9701c84fe",
-   "type": "chapter"
-  },
-  {
-   "id": "5ede0225-9760-4bdf-b725-465b5786e27a",
-   "type": "chapter"
-  },
-  {
-   "id": "2e2b6cb6-7311-459e-a934-89400cc34cb6",
-   "type": "chapter"
-  },
-  {
-   "id": "84a98ab0-4bcd-4c51-84f6-adc775a6d532",
-   "type": "chapter"
-  },
-  {
-   "id": "52e19cbf-51c2-4c5d-9698-cb17621a3771",
-   "type": "chapter"
-  },
-  {
-   "id": "0d535c44-9d5d-4da4-b39e-6ac88b1bfe9a",
-   "type": "chapter"
-  },
-  {
-   "id": "ad3fd322-b1b6-4182-98ad-b66ee5f1709d",
-   "type": "chapter"
-  },
-  {
-   "id": "4317bd11-8fff-4458-9145-40abfc5a489c",
-   "type": "chapter"
-  },
-  {
-   "id": "e9e30fa8-25b9-48e3-9eb3-c2db35d5cfab",
-   "type": "chapter"
-  },
-  {
-   "id": "99a24c67-fc6a-43d0-878c-e0c2a2de31b4",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "bde8544f-b443-4f5c-a384-20f69ae64e11",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:41:59+00:00",
+    "description": "",
+    "fileName": "dec4c511-3344-45b3-8fa5-81d36ffe17e7.jpg",
+    "updatedAt": "2021-05-24T18:41:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

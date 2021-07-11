@@ -7,6 +7,14 @@
    "title": {
     "en": "Dystopia"
    },
+   "altTitles": [
+    {
+     "en": "ディストピア"
+    },
+    {
+     "en": "悪魔のいる天国"
+    }
+   ],
    "description": {
     "en": "Welcome to this mad world."
    },
@@ -22,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +42,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +54,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +66,8 @@
       "name": {
        "en": "Crime"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +78,8 @@
       "name": {
        "en": "Virtual Reality"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -72,51 +90,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-17T09:41:13+00:00",
+   "updatedAt": "2021-05-25T15:38:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "85e5cdb7-1f1f-4c01-bfce-5562431b4f16",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Megasawara",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "85e5cdb7-1f1f-4c01-bfce-5562431b4f16",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Megasawara",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a670b6ca-86c6-459d-bb3f-f3aba0ae9e6b",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
-   "type": "tag"
-  },
-  {
-   "id": "8c86611e-fab7-4986-9dec-d1a2f44acdd5",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "fce4186d-4cd9-4f0c-bd15-9260f82d404f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:27:36+00:00",
+    "description": "",
+    "fileName": "979991dd-66bf-49d3-be13-ced313bc50af.png",
+    "updatedAt": "2021-05-24T18:27:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

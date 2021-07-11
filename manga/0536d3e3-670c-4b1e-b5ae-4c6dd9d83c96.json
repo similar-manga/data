@@ -7,6 +7,17 @@
    "title": {
     "en": "Like a Dad!"
    },
+   "altTitles": [
+    {
+     "en": "Dad no Gotoku!"
+    },
+    {
+     "en": "Daddo no Gotoku!"
+    },
+    {
+     "en": "ダッドのごとく！"
+    }
+   ],
    "description": {
     "en": "Uzaki Tatsuhiko, 46 year old, is a rather stern dad that wants no pets in his house. In order to reconcile with his daughter Honoka, he buys her a lop-eared bunny.\r\nLittle did he know, he would turn into that rabbit himself..."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,43 +78,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-20T21:37:07+00:00",
+   "updatedAt": "2021-05-25T15:38:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "7370eee9-fbd5-4d38-8a04-2d5b5f5bb303",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OOTANI Noriko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7370eee9-fbd5-4d38-8a04-2d5b5f5bb303",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OOTANI Noriko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6c04dc8b-d5a9-4dbf-a6da-869a25083b39",
-   "type": "chapter"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "de6a5d74-079e-4f2e-acaa-d8fb89ca2a8c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:36+00:00",
+    "description": "",
+    "fileName": "cd7159b9-04ec-4db9-a2e2-d0143b4c5136.jpg",
+    "updatedAt": "2021-05-24T17:56:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

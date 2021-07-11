@@ -7,6 +7,14 @@
    "title": {
     "en": "Omakase! Peace Denkiten"
    },
+   "altTitles": [
+    {
+     "en": "Omakase! Peace Electronics"
+    },
+    {
+     "en": "おまかせ!ピース電器店"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Mecha"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,47 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-07T09:48:46+00:00",
+   "updatedAt": "2021-05-25T15:49:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "50c95336-ea0a-4b17-bfa4-5409ccdd9ce2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nouda Tatsuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "50c95336-ea0a-4b17-bfa4-5409ccdd9ce2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nouda Tatsuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "27605edc-a570-4cbc-b714-c07f55881404",
-   "type": "chapter"
-  },
-  {
-   "id": "ccc0e2be-40d8-41bc-9f07-7fb930b8f1b9",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "50880a9d-5440-4732-9afb-8f457127e836",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "dee5a074-a8a7-4f61-a921-02fe3d16ad37",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:10:58+00:00",
+    "description": "",
+    "fileName": "4507e931-065e-49b9-9895-2ce062e06a97.jpg",
+    "updatedAt": "2021-05-24T17:10:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

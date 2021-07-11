@@ -7,6 +7,20 @@
    "title": {
     "en": "Tok, Tok"
    },
+   "altTitles": [
+    {
+     "en": "Drip, Drip"
+    },
+    {
+     "en": "Knock"
+    },
+    {
+     "en": "톡"
+    },
+    {
+     "en": "톡,톡"
+    }
+   ],
    "description": {
     "en": "Jae Hyeok, who lost hope in dreams due to a certain event, finds his life sparkling with light again as he spends time with one of the seniors at his school club."
    },
@@ -27,6 +41,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +53,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +63,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +77,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +89,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -77,6 +101,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -87,6 +113,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -97,95 +125,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-07T21:21:42+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "8c0089c6-2894-4fe0-9b58-162a51608aed",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ryu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8c0089c6-2894-4fe0-9b58-162a51608aed",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ryu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ff999342-fef4-4646-b9d7-6912bd3e95e9",
-   "type": "chapter"
-  },
-  {
-   "id": "731df0dc-4e49-4bc0-859b-d9c75f137f79",
-   "type": "chapter"
-  },
-  {
-   "id": "24d443e0-4dd8-4bfb-b863-af5bd16e5d59",
-   "type": "chapter"
-  },
-  {
-   "id": "dfc35d8f-94bb-47ef-86b6-902ac7dccdfe",
-   "type": "chapter"
-  },
-  {
-   "id": "97029770-c7e8-4175-bff0-18f224561ec7",
-   "type": "chapter"
-  },
-  {
-   "id": "c9f8d049-ad81-4927-886d-1e8c1e8221c0",
-   "type": "chapter"
-  },
-  {
-   "id": "e27468f1-38dc-4123-89e8-5fabda6a12e3",
-   "type": "chapter"
-  },
-  {
-   "id": "cf53262b-644e-4674-984f-84599afbfe58",
-   "type": "chapter"
-  },
-  {
-   "id": "e2b43626-7344-4b55-bf39-1f278f4c72b5",
-   "type": "chapter"
-  },
-  {
-   "id": "f115d318-c768-4e65-aa92-a36500e7317b",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "7174efff-062a-4fae-9b21-56c1a6d2a50c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:33+00:00",
+    "description": "",
+    "fileName": "e7bb4ea6-70d4-4ef3-b1d2-dc1f47d7b92f.jpg",
+    "updatedAt": "2021-05-24T17:00:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

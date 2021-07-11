@@ -8,7 +8,7 @@
     "en": "Kisaragi Hirotaka's Portfolio (Artbook)"
    },
    "description": {
-    "en": "Part of the original artbook \u0026quot;Portfolio\u0026quot; by BL mangaka Kisaragi Hirotaka."
+    "en": "Part of the original artbook \"Portfolio\" by BL mangaka Kisaragi Hirotaka."
    },
    "originalLanguage": "ja",
    "status": "completed",
@@ -21,6 +21,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -29,8 +31,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,39 +45,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-21T08:46:06+00:00",
+   "updatedAt": "2021-05-25T15:47:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "fa572794-f0eb-473c-8ab3-9b3e958c07b8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kisaragi Hirotaka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fa572794-f0eb-473c-8ab3-9b3e958c07b8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kisaragi Hirotaka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "54aea15d-1080-4557-82a6-6934130da3db",
-   "type": "chapter"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "de708c53-3a95-4fcd-ac4e-a689476b0393",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:52:23+00:00",
+    "description": "",
+    "fileName": "4646682a-c8d7-4c89-9754-601457c06ffb.jpg",
+    "updatedAt": "2021-05-24T16:52:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

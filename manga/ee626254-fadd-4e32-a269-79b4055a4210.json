@@ -7,6 +7,14 @@
    "title": {
     "en": "Vampire Kachou"
    },
+   "altTitles": [
+    {
+     "en": "Vampire Manager"
+    },
+    {
+     "en": "ヴァンパイア課長"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +46,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,8 +56,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +70,8 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -66,6 +82,8 @@
       "name": {
        "en": "Vampires"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -76,6 +94,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -86,83 +106,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-07T08:13:47+00:00",
+   "updatedAt": "2021-05-25T15:49:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "14b49416-4c6f-47a0-b972-25d3666487d0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsumizu Ritsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "14b49416-4c6f-47a0-b972-25d3666487d0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsumizu Ritsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "47b4808c-0514-4713-becc-55f761cd1ea7",
-   "type": "chapter"
-  },
-  {
-   "id": "478cb501-d430-4a78-be08-1333bd40f386",
-   "type": "chapter"
-  },
-  {
-   "id": "310ddc43-fe95-487e-bd0f-17ec1bb3d0a5",
-   "type": "chapter"
-  },
-  {
-   "id": "bb5c0e23-4f13-4360-9348-ef9b8dd81b7a",
-   "type": "chapter"
-  },
-  {
-   "id": "d7da657a-51c1-4777-a817-b529b9bee05b",
-   "type": "chapter"
-  },
-  {
-   "id": "0f62d78b-f7a5-4b4e-927c-eda053741a3e",
-   "type": "chapter"
-  },
-  {
-   "id": "2b53ff7a-5676-471e-8d5b-2636ad1c2c42",
-   "type": "chapter"
-  },
-  {
-   "id": "37166f76-b38c-40fa-b231-c2066715ac46",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
-  },
-  {
-   "id": "d7d1730f-6eb0-4ba6-9437-602cac38664c",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "f483fce7-572b-4ff3-8dce-3b0b4124a53a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:10:59+00:00",
+    "description": "",
+    "fileName": "e8ab1c6d-c2d1-4419-92b8-51258cb76301.jpg",
+    "updatedAt": "2021-05-24T17:10:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

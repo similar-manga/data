@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "The Migratory Forest \u0026ndash; A Collection of Walks"
+    "en": "The Migratory Forest – A Collection of Walks"
    },
+   "altTitles": [
+    {
+     "en": "Kaiyuu no Mori"
+    },
+    {
+     "en": "回游の森"
+    }
+   ],
    "description": {
     "en": "Low instincts, guilt, sin and fascination for the forbidden meet inside this forest full of harsh and fascinating tales. Because, after all, all human beings have secrets. Some hide feelings condemned by society and other hide the darkest and most shocking secrets...\r\n"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,67 +74,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-23T10:26:00+00:00",
+   "updatedAt": "2021-05-25T15:49:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "9aca2036-26f3-4123-8197-3dfb72fbbd54",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Haibara Yaku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9aca2036-26f3-4123-8197-3dfb72fbbd54",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Haibara Yaku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1e6d6b3e-58ea-4b32-8779-5ae29ee4231f",
-   "type": "chapter"
-  },
-  {
-   "id": "00ff9b1e-1148-4fc8-af4a-3fa75662dc39",
-   "type": "chapter"
-  },
-  {
-   "id": "248911af-4793-438a-9440-c3bc6a81df4a",
-   "type": "chapter"
-  },
-  {
-   "id": "52ac070e-cb1c-49f4-bd09-96877dcd4181",
-   "type": "chapter"
-  },
-  {
-   "id": "e593b405-2983-44ad-b473-439e0431f764",
-   "type": "chapter"
-  },
-  {
-   "id": "2afabf38-e38c-40d7-a6b8-5f9a62fd6f6b",
-   "type": "chapter"
-  },
-  {
-   "id": "a63bdfb6-5f64-4bc4-80fb-2af1740c0e23",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "7d06b29b-b43d-4f3d-a1ea-83d76206a7a0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:19+00:00",
+    "description": "",
+    "fileName": "e71110cb-5495-4706-9f65-85edf6a59a2c.jpg",
+    "updatedAt": "2021-05-24T17:02:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Umi de Hirotta Kimi ni Sasagu"
    },
+   "altTitles": [
+    {
+     "en": "For You, Whom I Picked Up On the Beach"
+    },
+    {
+     "en": "海で拾ったきみに捧ぐ"
+    }
+   ],
    "description": {
     "en": "The popular novelist in a bad mood because of his slump finds a young man naked at the beach. Furthermore, that man seems to have lost his memory?!"
    },
@@ -26,8 +34,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,47 +48,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-06T16:53:48+00:00",
+   "updatedAt": "2021-05-25T15:49:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "a392917a-9dd3-489b-a745-161192f2e817",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sagami Waka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a392917a-9dd3-489b-a745-161192f2e817",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sagami Waka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "04f5613c-eaf5-4387-8a60-13158b29c523",
-   "type": "chapter"
-  },
-  {
-   "id": "7a4f3ca9-9c90-4128-8a58-0d86d32818e8",
-   "type": "chapter"
-  },
-  {
-   "id": "5a5a5fd4-dbf3-4149-bca7-fe5085a8e15a",
-   "type": "chapter"
-  },
-  {
-   "id": "eade0f52-e991-4516-b169-357aaaede3e7",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "cf863149-1e1e-4f1f-9096-879635d2d518",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:40:15+00:00",
+    "description": "",
+    "fileName": "7b9434f3-81a6-426b-bd08-370e493357c0.jpg",
+    "updatedAt": "2021-05-24T17:40:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

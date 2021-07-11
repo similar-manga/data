@@ -7,6 +7,14 @@
    "title": {
     "en": "Crescent Moon"
    },
+   "altTitles": [
+    {
+     "en": "Shingetsu"
+    },
+    {
+     "en": "新月"
+    }
+   ],
    "description": {
     "en": "A oneshot from Garo magazine dated back in 1993."
    },
@@ -17,7 +25,6 @@
     "mal": "270"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -29,6 +36,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,35 +48,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-23T13:04:18+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "179a80b1-2a12-4e05-88e8-82675305cdd8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Izawa Akio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "179a80b1-2a12-4e05-88e8-82675305cdd8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Izawa Akio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "899b8697-f0bc-4c1e-8850-9dbd185e0839",
-   "type": "chapter"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "c562d419-fa88-4f07-9b1f-1edf680e3457",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:20+00:00",
+    "description": "",
+    "fileName": "0b1f68ee-2306-4fcb-b62b-9e67f432201a.jpg",
+    "updatedAt": "2021-05-24T17:02:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

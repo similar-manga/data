@@ -23,6 +23,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +35,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -43,6 +47,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,59 +59,53 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-26T09:51:33+00:00",
+   "updatedAt": "2021-05-25T15:45:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "6b3e25cf-8d0d-4abb-b75e-7960fcad2ff6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Anthology",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6b3e25cf-8d0d-4abb-b75e-7960fcad2ff6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Anthology",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "178cc5e2-4a7f-435b-861e-dc75ab09109d",
-   "type": "chapter"
-  },
-  {
-   "id": "90eb311c-6e6b-4002-807d-9bc4fc086069",
-   "type": "chapter"
-  },
-  {
-   "id": "b1100c09-7331-4293-9b04-c3723d44d312",
-   "type": "chapter"
-  },
-  {
-   "id": "22ab75f9-9fbb-4dec-9071-f491b198538a",
-   "type": "chapter"
-  },
-  {
-   "id": "393f35a1-af22-475a-9d4e-8f6c5dc4e1fb",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
+   "id": "050ee824-53e5-4f65-822d-ea67df16ac44",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:20+00:00",
+    "description": "",
+    "fileName": "fe7ae750-4993-4219-87da-6250f480aac4.jpg",
+    "updatedAt": "2021-05-24T18:04:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

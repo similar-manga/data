@@ -7,6 +7,14 @@
    "title": {
     "en": "Accord"
    },
+   "altTitles": [
+    {
+     "en": "اتفاق"
+    },
+    {
+     "en": "아코르"
+    }
+   ],
    "description": {
     "en": "A music practitioner with a dark past.\r\n\r\nA young girl with the power to create illusions.\r\n\r\nA meeting of fate."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,75 +60,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-04T17:22:21+00:00",
+   "updatedAt": "2021-05-25T15:47:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "7d490c37-b398-4c1a-9dca-3aee3ca871cb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maharo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "54075409-6dd5-4c52-943d-26d2f63b3b26",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jiyoung Lee",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6c79eb26-5daa-4c84-990e-9dc5462030b8",
-   "type": "chapter"
-  },
-  {
-   "id": "33d48e9a-9965-491f-a53b-24acbd4db526",
-   "type": "chapter"
-  },
-  {
-   "id": "6192c508-08dc-4da5-be11-70445abc9e88",
-   "type": "chapter"
-  },
-  {
-   "id": "ecfefbe0-3377-462d-b1e3-6c17bfda15b0",
-   "type": "chapter"
-  },
-  {
-   "id": "9cfa4787-c1d8-4b66-84f1-d93db49e5141",
-   "type": "chapter"
-  },
-  {
-   "id": "f4e05b52-6d75-4b8c-9194-fe1974437094",
-   "type": "chapter"
-  },
-  {
-   "id": "87de8517-6f35-4300-bf13-7d0d96bc0403",
-   "type": "chapter"
-  },
-  {
-   "id": "f3515a2c-3bc4-40bc-be31-e6982c8c1446",
-   "type": "chapter"
-  },
-  {
-   "id": "dacea336-0735-4d4f-8542-15f7964d986c",
-   "type": "chapter"
-  },
-  {
-   "id": "f13379bd-380b-41e5-a5fb-837e047f6db4",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "0c2aad51-e8f0-4f1c-90f8-4a3540c71db4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:09:23+00:00",
+    "description": "",
+    "fileName": "7a2b8783-3fb0-46eb-a090-84530d3542d5.jpg",
+    "updatedAt": "2021-05-24T18:09:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

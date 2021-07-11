@@ -7,6 +7,17 @@
    "title": {
     "en": "Gohan no Otomo"
    },
+   "altTitles": [
+    {
+     "en": "Rice and Friends"
+    },
+    {
+     "en": "Side Dish Which Matches Rice Well"
+    },
+    {
+     "en": "ごはんのおとも"
+    }
+   ],
    "description": {
     "en": "Recipes to warm your heart, all in full colour. Goes well with rice."
    },
@@ -35,6 +46,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +58,8 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -55,75 +70,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-12T23:10:27+00:00",
+   "updatedAt": "2021-05-25T15:50:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "98ea796d-f652-4ec4-9a77-6ff4844ae0ee",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "98ea796d-f652-4ec4-9a77-6ff4844ae0ee",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9fd0bbbe-0852-44e2-9c1d-771a4678f93f",
-   "type": "chapter"
-  },
-  {
-   "id": "6dd63df5-95a4-436a-bebd-07d4311aba65",
-   "type": "chapter"
-  },
-  {
-   "id": "a92f9c4f-bc99-46e9-a7e2-994b8d969e5e",
-   "type": "chapter"
-  },
-  {
-   "id": "da3481f8-5e20-4015-8ded-00ae37fc87a3",
-   "type": "chapter"
-  },
-  {
-   "id": "ef2be8e6-782c-4f0b-9c7a-295dc4ccdc04",
-   "type": "chapter"
-  },
-  {
-   "id": "27b18956-a211-420a-9ae8-f68287a55f34",
-   "type": "chapter"
-  },
-  {
-   "id": "f039aa5a-c304-4276-bcb0-713636b88875",
-   "type": "chapter"
-  },
-  {
-   "id": "245a0388-39f1-4de7-80fd-64dee49f4ff9",
-   "type": "chapter"
-  },
-  {
-   "id": "d88cc3e3-c5cc-47b8-baff-abcd3a2eaa73",
-   "type": "chapter"
-  },
-  {
-   "id": "bf10eb88-a1ca-4a75-a36d-f3451cea30b5",
-   "type": "chapter"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "be5705e9-c9f9-4fb4-b7bb-a41583425abb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:26:21+00:00",
+    "description": "",
+    "fileName": "f16d9c96-587d-43fb-8b3e-7144b7809b8d.jpg",
+    "updatedAt": "2021-05-24T17:26:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

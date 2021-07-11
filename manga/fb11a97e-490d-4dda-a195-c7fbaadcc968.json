@@ -7,6 +7,11 @@
    "title": {
     "en": "Slime Life"
    },
+   "altTitles": [
+    {
+     "en": "スライムライフ"
+    }
+   ],
    "description": {
     "en": "The stories of the everyday life of a black mage and a slime that run a magic store together as master and servant."
    },
@@ -36,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +53,8 @@
       "name": {
        "en": "Magic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -56,6 +65,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,79 +77,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-19T04:26:35+00:00",
+   "updatedAt": "2021-05-25T15:49:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "85e5cdb7-1f1f-4c01-bfce-5562431b4f16",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Megasawara",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "85e5cdb7-1f1f-4c01-bfce-5562431b4f16",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Megasawara",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1ba83853-fcfc-47e6-a4fb-a19efa2e73ce",
-   "type": "chapter"
-  },
-  {
-   "id": "3e182733-559c-4286-860e-c9f86a8f680f",
-   "type": "chapter"
-  },
-  {
-   "id": "f00fac25-7264-4bde-b829-60ff0945e80f",
-   "type": "chapter"
-  },
-  {
-   "id": "a5874fd1-0843-4e21-a912-33cb4e6c5c53",
-   "type": "chapter"
-  },
-  {
-   "id": "4505ca4a-cf42-45b4-90ba-b02a5bcdbcb1",
-   "type": "chapter"
-  },
-  {
-   "id": "dba37701-3d06-4446-afd1-db0d991471fc",
-   "type": "chapter"
-  },
-  {
-   "id": "35135787-0a40-4bfc-9de4-dc541eb9b50d",
-   "type": "chapter"
-  },
-  {
-   "id": "64acf130-b214-4145-a9d0-61d5d148468f",
-   "type": "chapter"
-  },
-  {
-   "id": "5305f2f3-e71c-44d5-8e0a-35143fd0c070",
-   "type": "chapter"
-  },
-  {
-   "id": "6b35a105-d588-4ab2-93e2-6f7fc6601843",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "4b8b14d4-dc74-4f9c-a8f7-d13a37f92196",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:19:33+00:00",
+    "description": "",
+    "fileName": "e009afba-440e-4ddd-bba2-5a272c69e1c4.png",
+    "updatedAt": "2021-05-24T17:19:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

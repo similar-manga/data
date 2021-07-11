@@ -7,6 +7,11 @@
    "title": {
     "en": "Hello Morning Star"
    },
+   "altTitles": [
+    {
+     "en": "ハローモーニングスター"
+    }
+   ],
    "description": {
     "en": "On the special stage where only the chosen one can stand.\r\n\r\nAt that time, we were both there.\r\n\r\nAnd there, we fell in love."
    },
@@ -18,7 +23,6 @@
     "mu": "144680"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +33,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,8 +43,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,43 +57,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-26T00:42:00+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "f8352398-b8d7-4f0d-b47e-fc48df57771d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurahashi Tomo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f8352398-b8d7-4f0d-b47e-fc48df57771d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurahashi Tomo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e5dacd5f-b54e-4166-9054-a58bcf951662",
-   "type": "chapter"
-  },
-  {
-   "id": "87f6d899-147b-4005-af09-c292db1808a3",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "2e6e6547-6419-4f95-aed0-fd01d895086e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:39+00:00",
+    "description": "",
+    "fileName": "a2550164-1ec6-4bdf-b4ff-6b39d02d2c18.jpg",
+    "updatedAt": "2021-05-24T17:02:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

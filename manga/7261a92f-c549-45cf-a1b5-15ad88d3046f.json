@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "A Married Couple's Brutal Valentine\u0026rsquo;s"
+    "en": "A Married Couple's Brutal Valentine’s"
    },
+   "altTitles": [
+    {
+     "en": "Satsubotsu Fuufu no Valentine"
+    },
+    {
+     "en": "殺伐夫婦のバレンタイン。"
+    }
+   ],
    "description": {
     "en": "Valentine's Day post from Kudo Makoto\r\n\r\nFollow [url=https://twitter.com/m0721804]Author's Twitter[/url]"
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +58,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,51 +70,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-05-15T07:03:34+00:00",
+   "updatedAt": "2020-05-15T07:03:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "d69be8cf-0148-4b28-9cb3-9e7e9c221311",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kudo Makoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d69be8cf-0148-4b28-9cb3-9e7e9c221311",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kudo Makoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "28138e99-0360-4a64-8f47-df211582636b",
-   "type": "chapter"
-  },
-  {
-   "id": "ab0e1761-0c49-483e-90cf-10eae6938eba",
-   "type": "chapter"
-  },
-  {
-   "id": "59a7583e-75fc-43f4-be36-b699d6ef0b5d",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "33215e13-d06c-4fcf-9d8b-ae964d6abbaf",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:01+00:00",
+    "description": "",
+    "fileName": "1c5cc033-a99a-40b1-aed1-6e3e24816b69.png",
+    "updatedAt": "2021-05-24T17:56:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

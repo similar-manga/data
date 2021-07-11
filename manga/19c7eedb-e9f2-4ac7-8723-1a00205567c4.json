@@ -7,6 +7,11 @@
    "title": {
     "en": "The Quiz"
    },
+   "altTitles": [
+    {
+     "en": "ザ・クイズ"
+    }
+   ],
    "description": {
     "en": "Viewers participate in a heavily advertised new quiz show where the winner earns one hundred million yen. But waiting there is a cruel game of death and competition. What will be the fate of the ten finalists?  And just what is the true purpose of the quiz?"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,71 +47,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-23T06:03:51+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "c42fdf7f-c324-4087-a9ba-0e0fb4948d5a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sugimoto Takashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "268ee64f-a983-483d-9db0-bde383b58522",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Rika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2f59ff3f-cd4e-4bae-b3d4-80e47447c4d7",
-   "type": "chapter"
-  },
-  {
-   "id": "1a93a3f7-ad8c-4686-92eb-215dcd5decd3",
-   "type": "chapter"
-  },
-  {
-   "id": "e32ce7ae-ead5-4e77-9d25-13c9a8cbb204",
-   "type": "chapter"
-  },
-  {
-   "id": "719be137-57f7-4270-8c6e-e907059110c5",
-   "type": "chapter"
-  },
-  {
-   "id": "b8a395b4-03af-4685-b294-7aa4b92eeebf",
-   "type": "chapter"
-  },
-  {
-   "id": "d2dff409-988f-4ebe-b6e2-d417bc10ebc4",
-   "type": "chapter"
-  },
-  {
-   "id": "30c7ca3d-6d89-478a-9ddc-baccec36f629",
-   "type": "chapter"
-  },
-  {
-   "id": "ea7923d1-7b9a-49f3-afe5-ea0c5b0f2cd1",
-   "type": "chapter"
-  },
-  {
-   "id": "5da874c2-f4cd-44f9-9b9e-e8523b89c9f5",
-   "type": "chapter"
-  },
-  {
-   "id": "71b605c3-1c3b-4d0c-aa41-b44a7659b61f",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "43e837b4-aa36-4f21-8222-55e09ee5bed6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:00+00:00",
+    "description": "",
+    "fileName": "5815bd77-3ddc-47bf-933e-774745c66672.png",
+    "updatedAt": "2021-05-24T17:20:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

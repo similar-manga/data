@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Marshmallow\u0026hearts;Ecchi"
+    "en": "Marshmallow♥Ecchi"
    },
+   "altTitles": [
+    {
+     "en": "Marshmallow Ecchi"
+    },
+    {
+     "en": "Mashumaro Ecchi"
+    }
+   ],
    "description": {
     "en": "An adult body, but childhish heart. Heartrending, but sweet. A somewhat bitter high school love story."
    },
@@ -31,67 +39,53 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-18T23:50:19+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "0f42846d-75db-4a44-bdc4-e75da4c53769",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YUUKI Ryoh",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0f42846d-75db-4a44-bdc4-e75da4c53769",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YUUKI Ryoh",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ddbb1077-5825-4ef4-bea3-bd78ac9e02c1",
-   "type": "chapter"
-  },
-  {
-   "id": "aefbf0f7-9362-4f5d-9784-fcec83cf6f42",
-   "type": "chapter"
-  },
-  {
-   "id": "fe8a1ba2-f959-461d-9db6-cc7f91d4e98d",
-   "type": "chapter"
-  },
-  {
-   "id": "7db0309f-0742-4a91-87e3-5a5e28b1faaf",
-   "type": "chapter"
-  },
-  {
-   "id": "28c35738-71ac-4bf3-ad72-e746d954f0c1",
-   "type": "chapter"
-  },
-  {
-   "id": "c771cd84-332f-433b-9297-74baf9b81e17",
-   "type": "chapter"
-  },
-  {
-   "id": "1d66e977-0652-499e-8d88-cd4d089f58e5",
-   "type": "chapter"
-  },
-  {
-   "id": "6a5cf5dc-b8b5-4f1f-a64a-857b289fa66f",
-   "type": "chapter"
-  },
-  {
-   "id": "238a6499-f13f-4ecf-837a-25f1a2e92de4",
-   "type": "chapter"
-  },
-  {
-   "id": "662b39b0-fcd4-4594-bb83-a6c4b502e8c8",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
+   "id": "9ca08c16-ced0-4f2c-a282-d31792f59c2b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:25:55+00:00",
+    "description": "",
+    "fileName": "204cdd52-d968-47ce-8024-4349fea4a819.jpg",
+    "updatedAt": "2021-05-24T18:25:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

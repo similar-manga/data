@@ -7,6 +7,14 @@
    "title": {
     "en": "Sumo-Oh"
    },
+   "altTitles": [
+    {
+     "en": "Sumo Ou"
+    },
+    {
+     "en": "スモ王"
+    }
+   ],
    "description": {
     "en": "A short manga about Sumo wrestling."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,47 +50,53 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-11T15:22:06+00:00",
+   "updatedAt": "2021-05-25T15:45:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "957e9b0e-22d9-4d85-a55b-d56933d1f598",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koge Donbo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "957e9b0e-22d9-4d85-a55b-d56933d1f598",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koge Donbo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "76102323-0038-4c30-976d-a7eb4412c2bd",
-   "type": "chapter"
-  },
-  {
-   "id": "f6c92935-7eba-4bbb-8a85-a4fe6ed7881b",
-   "type": "chapter"
-  },
-  {
-   "id": "2727a545-e57f-478c-8c85-a856b30f97ce",
-   "type": "chapter"
-  },
-  {
-   "id": "ab055496-96ec-42f4-9e03-402d414fb35a",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
+   "id": "427c081a-203e-4f59-a349-ef9f8a5f5606",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:07:39+00:00",
+    "description": "",
+    "fileName": "a7896a7f-bee7-41a7-b7aa-38ffdc2ea4ec.gif",
+    "updatedAt": "2021-05-24T17:07:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,26 @@
    "title": {
     "en": "Wangan JUNGLE"
    },
+   "altTitles": [
+    {
+     "en": "Gulf Jungle"
+    },
+    {
+     "en": "Pineapple 3"
+    },
+    {
+     "en": "Wangan Janguru"
+    },
+    {
+     "en": "湾岸 JUNGLE"
+    },
+    {
+     "en": "湾岸JUNGLE"
+    },
+    {
+     "en": "湾岸ジャングル"
+    }
+   ],
    "description": {
     "en": "Compilation of 3 short stories:\r\n\r\n1) Wangan Jungle\r\n\r\n2) Pineapple 3\r\n\r\n3) Jungle Box"
    },
@@ -32,6 +52,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +64,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +76,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -62,6 +88,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -72,6 +100,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -82,59 +112,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-10T17:57:27+00:00",
+   "updatedAt": "2021-05-25T15:38:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "90d5e225-6351-4e24-aba2-d27ec5ff0cae",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tamura Yumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "90d5e225-6351-4e24-aba2-d27ec5ff0cae",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tamura Yumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "03bb2fb4-f4a8-4acd-b3b7-90749346cc37",
-   "type": "chapter"
-  },
-  {
-   "id": "a983a594-7a27-40b5-b426-b9522a957b5d",
-   "type": "chapter"
-  },
-  {
-   "id": "66b3ee3f-1555-4fa2-91b9-7014cc0241e7",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "0c98f600-62a6-4f4c-9d4b-07363560ba55",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:16:30+00:00",
+    "description": "",
+    "fileName": "dd42f1d7-ee2a-44ff-874f-6722ddda20da.jpg",
+    "updatedAt": "2021-05-24T18:16:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

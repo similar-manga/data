@@ -11,7 +11,6 @@
     "en": "A short comic on the daily lives and some funs....currently on Corona-chan"
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,51 +33,53 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-03T13:06:07+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "637e12c5-eb9f-4d29-9231-337dbecd40ad",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "1st Manga KING",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "637e12c5-eb9f-4d29-9231-337dbecd40ad",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "1st Manga KING",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c0d9c62f-961c-4fcb-90ec-4080474c3ad7",
-   "type": "chapter"
-  },
-  {
-   "id": "a6ad6931-101a-4955-b910-fb147f1ca47e",
-   "type": "chapter"
-  },
-  {
-   "id": "79b9fc52-1b33-4500-9d18-54e4bcc23bb2",
-   "type": "chapter"
-  },
-  {
-   "id": "4293204c-1205-424c-8e81-3451e03d723e",
-   "type": "chapter"
-  },
-  {
-   "id": "6dcc4413-9187-4abb-acf4-4036d9bcc709",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
+   "id": "12711c75-9243-4f0a-9e4b-4221b54eb55a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:05:19+00:00",
+    "description": "",
+    "fileName": "8572f83e-4902-4cf2-9be8-8fa680ca4823.png",
+    "updatedAt": "2021-05-24T18:05:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

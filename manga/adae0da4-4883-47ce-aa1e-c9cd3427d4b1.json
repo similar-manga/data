@@ -7,11 +7,18 @@
    "title": {
     "en": "Synecdoche no Moto"
    },
+   "altTitles": [
+    {
+     "en": "The Origin of Synecdoche"
+    },
+    {
+     "en": "シネクドキの素"
+    }
+   ],
    "description": {
-    "en": "A bunch of mini-stories made by Synecdoche, the author of \u0026quot;Elf-san wa Yaserarenai\u0026quot;"
+    "en": "A bunch of mini-stories made by Synecdoche, the author of \"Elf-san wa Yaserarenai\""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "suggestive",
@@ -23,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,35 +42,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-30T17:20:03+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "cfc8ba8d-67e1-4206-9d33-ffc0af2fea8b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Synecdoche",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cfc8ba8d-67e1-4206-9d33-ffc0af2fea8b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Synecdoche",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d188b42e-cf04-437a-b701-24f384510f2e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "813f3e15-a312-4f12-bcb3-17fd55eb20ec",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:35:47+00:00",
+    "description": "",
+    "fileName": "139fa69a-193b-4e2a-9439-affdfe3e8a4d.png",
+    "updatedAt": "2021-05-24T17:35:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

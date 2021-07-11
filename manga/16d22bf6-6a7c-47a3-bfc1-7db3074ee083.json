@@ -7,6 +7,26 @@
    "title": {
     "en": "Yume yori Suteki na"
    },
+   "altTitles": [
+    {
+     "en": "Anata no Tame no"
+    },
+    {
+     "en": "Darling * Darling"
+    },
+    {
+     "en": "More Beautiful than a Dream"
+    },
+    {
+     "en": "With Love from Different Cultures"
+    },
+    {
+     "en": "Yume yori Sutekina"
+    },
+    {
+     "en": "ゆめよりすてきな"
+    }
+   ],
    "description": {
     "en": "A collection of short stories by SHIMANO Yae: \r\n\r\n1. Darling Darling\r\n2. Yume yori Suteki na (Beatiful More than a Dream)\r\n3. Anata no Mono\r\n4. Ibunka yori Ai wo Komete (With Love from Different Cultures)\r\n5. Monologue Love\r\n6. Romance Cord\r\n7. Girls' Talk"
    },
@@ -31,6 +51,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,8 +61,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,51 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-04T02:20:25+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "d73831c6-5cc0-4802-a362-08682bd7da87",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimano Yae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d73831c6-5cc0-4802-a362-08682bd7da87",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimano Yae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bca567c0-109e-4d5b-bdc5-c0c252cb8150",
-   "type": "chapter"
-  },
-  {
-   "id": "33a81724-0946-4d15-bff0-b506a8826e8d",
-   "type": "chapter"
-  },
-  {
-   "id": "ab94edf2-ed98-460d-ad21-c4b1bbdc607a",
-   "type": "chapter"
-  },
-  {
-   "id": "bbbb40e0-cc8f-4808-bb0c-4c599325e82c",
-   "type": "chapter"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "5baf0521-9477-4f6d-bc9a-14d23256cd3e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:19+00:00",
+    "description": "",
+    "fileName": "5293f980-e97e-4055-9b1a-b9a3d2b0153b.jpg",
+    "updatedAt": "2021-05-24T17:03:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -30,6 +30,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,47 +54,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-08T23:04:23+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "519cb43f-12fc-42e4-a7c1-1e09bacb3e40",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "FUJIWARA Kamui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "519cb43f-12fc-42e4-a7c1-1e09bacb3e40",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "FUJIWARA Kamui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "06f1a083-b3a9-436c-9c4a-5e85c61f58d8",
-   "type": "chapter"
-  },
-  {
-   "id": "5c700ef2-4af1-4823-93f2-b6eb995a8020",
-   "type": "chapter"
-  },
-  {
-   "id": "ed0fdc7f-db25-4534-8bb7-ec5fac4c4e95",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "931b421c-d7d2-4f27-bc81-af544330e356",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:44:21+00:00",
+    "description": "",
+    "fileName": "795561a2-3113-4f65-8d6a-3b0e07e5caa4.jpg",
+    "updatedAt": "2021-05-24T16:44:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

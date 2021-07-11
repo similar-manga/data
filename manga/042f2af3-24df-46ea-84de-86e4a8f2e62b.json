@@ -7,6 +7,14 @@
    "title": {
     "en": "Sentiments"
    },
+   "altTitles": [
+    {
+     "en": "Sanyansuiyu"
+    },
+    {
+     "en": "三言碎语"
+    }
+   ],
    "description": {
     "en": "A collection of unrelated short stories by [url=https://weibo.com/klarogiraffe]Klaro[/url]\r\n\r\n[url=https://twitter.com/klarogiraffe]Author's Twitter[/url]"
    },
@@ -14,7 +22,7 @@
     "ap": "sentiments",
     "mu": "174061"
    },
-   "originalLanguage": "zh-hk",
+   "originalLanguage": "zh",
    "lastVolume": "1",
    "lastChapter": "8",
    "status": "completed",
@@ -27,6 +35,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -57,6 +71,8 @@
       "name": {
        "en": "Philosophical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +83,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -77,6 +95,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -87,63 +107,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-15T20:42:59+00:00",
+   "updatedAt": "2021-05-25T15:38:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "ae00ca9e-4e27-497a-b7df-5ffc023e020b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Klaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ae00ca9e-4e27-497a-b7df-5ffc023e020b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Klaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c8f77ff8-9347-4150-873a-9d40f0fef85e",
-   "type": "chapter"
-  },
-  {
-   "id": "e44670f8-e7df-439c-b18c-8a32f3188689",
-   "type": "chapter"
-  },
-  {
-   "id": "89eedd2f-ec28-4f46-bdd7-7770cdae54c5",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "77a4e423-d1c4-4fee-b133-4b3149c3c36c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:23:03+00:00",
+    "description": "",
+    "fileName": "7d4ea35a-88f4-4cb7-b2b0-1fafabb1006d.jpg",
+    "updatedAt": "2021-05-24T18:23:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

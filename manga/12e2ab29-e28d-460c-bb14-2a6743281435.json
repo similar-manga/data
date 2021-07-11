@@ -5,8 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Devil Survivor 2 \u0026mdash;Show Your Free Will\u0026mdash;"
+    "en": "Devil Survivor 2 —Show Your Free Will—"
    },
+   "altTitles": [
+    {
+     "en": "Devil Survivor 2 - Show Your Free Will"
+    },
+    {
+     "en": "Devil Survivor 2: Show Your Free Will"
+    },
+    {
+     "en": "Shin Megami Tensei: Devil Survivor 2 - Show Your Free Will"
+    },
+    {
+     "en": "デビルサバイバー2-Show Your Free Will"
+    }
+   ],
    "description": {
     "en": "The setting of Devil Survivor 2 spans the whole country of Japan. It tells the story of Japanese high-school students who receive emails from a website foretelling their friend's deaths. Mysterious creatures invade the country, and the students enter a pact, enabling them to summon demons from their cell phones with a special Devil Summoning App."
    },
@@ -18,7 +32,6 @@
     "mu": "69667"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +43,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +55,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,51 +67,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-15T14:53:44+00:00",
+   "updatedAt": "2021-05-25T15:39:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "86a9d8ff-be74-45f4-a2c0-acf80c2c5d89",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Atlus",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5fdb544e-6e01-4d67-877d-6e2f83ccde2c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SAKAKI Nagako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0ecdfcba-a828-40f0-a2fb-dd5c0f82bcff",
-   "type": "chapter"
-  },
-  {
-   "id": "6a50c987-0014-4aeb-9a13-16ba08eccd54",
-   "type": "chapter"
-  },
-  {
-   "id": "7e0663cf-e00e-4060-9ae5-ee1c1adf8309",
-   "type": "chapter"
-  },
-  {
-   "id": "1ac6de59-b3ef-40a1-a257-3e852d686b7d",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "7aa6da6d-898f-4f7a-81ba-e8f77147e296",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:41:04+00:00",
+    "description": "",
+    "fileName": "1b07effd-8e31-435d-9d7f-9e12711cfa8d.jpg",
+    "updatedAt": "2021-05-24T18:41:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

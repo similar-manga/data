@@ -7,6 +7,11 @@
    "title": {
     "en": "Himitsu ga Hanazono"
    },
+   "altTitles": [
+    {
+     "en": "秘密が花園"
+    }
+   ],
    "description": {
     "en": "Seven men have entered a school exclusively for girls. Irie, a man who fantasizes about his own harem, harbors a great dislike towards Koga, the number one popular ikemen at their school, so he always tries to avoid him... But a rumor starts to spread that Kouga likes Irie...!?"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,43 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-04T10:22:14+00:00",
+   "updatedAt": "2021-05-25T15:44:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "ee4d0efe-5ec8-4bb7-805c-a67b41d490b7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akiba Touko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ee4d0efe-5ec8-4bb7-805c-a67b41d490b7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akiba Touko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "44415797-39c1-4e7b-93aa-93f72080eca4",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "61e9c91a-f75c-4f91-943a-85b1a69d18d1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:43:55+00:00",
+    "description": "",
+    "fileName": "bfd4190c-489b-4b19-a23e-b31a94674ee5.jpg",
+    "updatedAt": "2021-05-24T16:43:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

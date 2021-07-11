@@ -7,6 +7,14 @@
    "title": {
     "en": "Happy Life!"
    },
+   "altTitles": [
+    {
+     "en": "Patchwork"
+    },
+    {
+     "en": "ハッピーライフ!"
+    }
+   ],
    "description": {
     "en": "Thirty-year-old Touya has a peaceful life sharing an apartment with his friend Michio. What will become of them when he decides to adopt his four-year-old niece?"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,47 +74,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-01T04:20:11+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "7216df01-d340-4268-9de8-4e0eebab9a85",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujitani Youko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7216df01-d340-4268-9de8-4e0eebab9a85",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujitani Youko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b4e64a57-8e8d-43c4-b17d-ea46a16bc675",
-   "type": "chapter"
-  },
-  {
-   "id": "a4f24e29-c65b-49a2-9997-80491af159a0",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "9e53b175-54ed-4f3a-894e-8ebd1858105f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:24:55+00:00",
+    "description": "",
+    "fileName": "96c72a4f-3b05-4263-b939-b746a1959ac1.png",
+    "updatedAt": "2021-05-24T17:24:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

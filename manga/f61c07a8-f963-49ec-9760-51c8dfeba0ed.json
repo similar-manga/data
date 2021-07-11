@@ -7,6 +7,14 @@
    "title": {
     "en": "Dark Forest, White Road"
    },
+   "altTitles": [
+    {
+     "en": "Kurai Mori, Shiroi Michi"
+    },
+    {
+     "en": "くらいもり、しろいみち"
+    }
+   ],
    "description": {
     "en": "In a small, lonely country town, a depressed young woman has a bittersweet encounter with a blind girl."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,75 +63,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-26T03:48:01+00:00",
+   "updatedAt": "2021-05-25T15:49:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "4b78d1a0-0b4d-4bab-a8d3-8c6e30ae0cf9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshida Chiyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4b78d1a0-0b4d-4bab-a8d3-8c6e30ae0cf9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshida Chiyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e9db5828-c92f-4e3d-8347-83f70f031661",
-   "type": "chapter"
-  },
-  {
-   "id": "872f1f03-386d-4b95-93e0-327ba0bb138e",
-   "type": "chapter"
-  },
-  {
-   "id": "35862d9c-a28a-4da3-b8c2-950a352555b0",
-   "type": "chapter"
-  },
-  {
-   "id": "9213ce5c-135c-4867-b054-1c6443c801c1",
-   "type": "chapter"
-  },
-  {
-   "id": "658adbe5-1c8e-4b33-bdec-434a2434dc51",
-   "type": "chapter"
-  },
-  {
-   "id": "7a217c2d-96d3-4d68-9ef7-394b06c61803",
-   "type": "chapter"
-  },
-  {
-   "id": "0db46d28-a23b-4c09-b484-5db10e6ebcb3",
-   "type": "chapter"
-  },
-  {
-   "id": "4ed440f1-5ebe-4c1e-b4d7-2913578fb20b",
-   "type": "chapter"
-  },
-  {
-   "id": "86cb58f1-1300-49ad-9f7f-73ff9b91b2b3",
-   "type": "chapter"
-  },
-  {
-   "id": "cb7a2fe3-5439-4959-8aec-07093d320649",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "f3ecd82d-3c27-4f37-83fa-e14033e2a70f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:45+00:00",
+    "description": "",
+    "fileName": "0027aae9-0937-4f55-8b64-9c5490c0d5ee.jpg",
+    "updatedAt": "2021-05-24T16:55:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

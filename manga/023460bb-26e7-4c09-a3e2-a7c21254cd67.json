@@ -7,6 +7,17 @@
    "title": {
     "en": "Kuromachi"
    },
+   "altTitles": [
+    {
+     "en": "Black Street"
+    },
+    {
+     "en": "Black Town"
+    },
+    {
+     "en": "黒街 —クロマチ—"
+    }
+   ],
    "description": {
     "en": "A black comedy about a father and son who move into a new town where everything is just plain weird as they struggle to find work and get about their daily lives"
    },
@@ -32,6 +43,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +55,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +67,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,71 +79,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-23T07:32:07+00:00",
+   "updatedAt": "2021-05-25T15:38:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "59337ed1-7d4a-4e72-8e4d-87730cdbec75",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koike  Nokuto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d521f9eb-b2b2-4672-bc95-a066309f939e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koike Nokuto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "221314d2-f0ab-4cc3-ac84-b5b35f00be50",
-   "type": "chapter"
-  },
-  {
-   "id": "ecc11a7c-8957-4ac8-b8f6-1c03af467c2c",
-   "type": "chapter"
-  },
-  {
-   "id": "9a09b61d-6d52-49a2-b280-394114413c7c",
-   "type": "chapter"
-  },
-  {
-   "id": "2ade005b-6855-4812-8d43-2eaf83c63826",
-   "type": "chapter"
-  },
-  {
-   "id": "2e54588c-e9fc-40af-bfff-c0c7697a3509",
-   "type": "chapter"
-  },
-  {
-   "id": "7d1b51f2-6b05-4f41-be9f-03c51603291e",
-   "type": "chapter"
-  },
-  {
-   "id": "5094926d-a0a2-47be-820f-1bb9772273ff",
-   "type": "chapter"
-  },
-  {
-   "id": "0a916942-327e-4b7b-a062-220296031344",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "f643d26e-0609-4fc7-9fee-6ecae9efaf2d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:05:32+00:00",
+    "description": "",
+    "fileName": "0d109b47-8767-452a-9b5b-df85aa4c1eec.jpg",
+    "updatedAt": "2021-05-24T17:05:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

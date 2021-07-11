@@ -7,6 +7,14 @@
    "title": {
     "en": "Spiritualism"
    },
+   "altTitles": [
+    {
+     "en": "Espiritualismo"
+    },
+    {
+     "en": "Shinreijutsu"
+    }
+   ],
    "description": {
     "en": "A One-Shot by Yamada Akihiro the illustrator behind Twelve Kingdoms and Record of Lodoss War."
    },
@@ -14,7 +22,6 @@
     "mu": "136129"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +33,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +45,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,43 +57,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-17T19:18:49+00:00",
+   "updatedAt": "2021-05-25T15:43:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "c326b9a7-30fe-4360-8e0f-d25250c6098c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamada Akihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c326b9a7-30fe-4360-8e0f-d25250c6098c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamada Akihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9fc86b0e-c3cf-47fc-b250-f8cb18edacbc",
-   "type": "chapter"
-  },
-  {
-   "id": "ac63219a-39e8-43f5-a6e2-6fcbc081184c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "4b42ab8f-25bf-4f27-b2a8-c28ba0bcde5e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:11+00:00",
+    "description": "",
+    "fileName": "044dc520-e86d-4f16-8aa2-e68703ed7655.jpg",
+    "updatedAt": "2021-05-24T16:58:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

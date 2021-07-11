@@ -7,6 +7,11 @@
    "title": {
     "en": "Summer Switch"
    },
+   "altTitles": [
+    {
+     "en": "サマースイッチ"
+    }
+   ],
    "description": {
     "en": "Jiro and Ma-kun have been friends since they were little. When they were in Junior High, Jiro kissed Ma-kun, but Ma-kun just ignored it and treated it like a joke. They have never spoken since then. They grew up seperately, and Jiro is now a grown up 21-year-old coming back home. Ma-kun is acting as if he's been wanting to see Jiro back again and even invited him to go see the fireworks. Sparks flew the second time around!"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +71,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,51 +83,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-03T11:33:55+00:00",
+   "updatedAt": "2021-05-25T15:49:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "f4269227-161b-407d-9d29-9b67e06db230",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Suzuki Tsuta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f4269227-161b-407d-9d29-9b67e06db230",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Suzuki Tsuta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "15b47899-fa40-4847-be0b-d86c2d2a34c3",
-   "type": "chapter"
-  },
-  {
-   "id": "c43d3931-b753-4b8e-98ac-2ff3c6d79f22",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "73b374c5-ef61-4f5d-be9c-01edf1eeb8ce",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:17+00:00",
+    "description": "",
+    "fileName": "309f560a-b0a1-483a-b44f-3b47dd21287e.jpg",
+    "updatedAt": "2021-05-24T17:03:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,20 @@
    "title": {
     "en": "Sensei wa Dummy"
    },
+   "altTitles": [
+    {
+     "en": "Stupid Teacher"
+    },
+    {
+     "en": "The Teacher Is A Dummy"
+    },
+    {
+     "en": "先生はダミー"
+    },
+    {
+     "en": "老师是替身"
+    }
+   ],
    "description": {
     "en": "Yunogi has no working experience, but after being tricked into thinking he got a normal job out of luck, it turns out it's not so normal after all. Yunogi has to act as horror writer Kirino Shuusuke's stand-in."
    },
@@ -30,6 +44,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +54,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,47 +68,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-05T03:11:27+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "1696b018-ca96-45cc-8c17-b30cc1432170",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nekota Yonezou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1696b018-ca96-45cc-8c17-b30cc1432170",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nekota Yonezou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e8427ae1-5acc-49fd-95e6-bb78af265f7e",
-   "type": "chapter"
-  },
-  {
-   "id": "8b97c746-d5d7-454f-a471-d7b08f4a5ee6",
-   "type": "chapter"
-  },
-  {
-   "id": "be4befae-8721-4ee5-b6b3-9429e57daa9f",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "5fc4cd7d-ac70-4f80-842a-688265f0acee",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:39:55+00:00",
+    "description": "",
+    "fileName": "99099102-9484-46b9-8d3f-928c6757fe05.jpg",
+    "updatedAt": "2021-05-24T18:39:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

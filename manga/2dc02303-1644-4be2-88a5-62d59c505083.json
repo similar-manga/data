@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Succuba \u0026amp; Siren"
+    "en": "Succuba \u0026 Siren"
    },
+   "altTitles": [
+    {
+     "en": "Succube \u0026 Siren"
+    },
+    {
+     "en": "魔女与海妖"
+    }
+   ],
    "description": {
-    "en": "An entry for \u0026quot;Let's Meet at the Witches' Gathering.\u0026quot;\r\n\r\n\r\n\r\n\r\n[url=https://www.weibo.com/u/5372531272]Weibo[/url]"
+    "en": "An entry for \"Let's Meet at the Witches' Gathering.\"\r\n\r\n\r\n\r\n\r\n[url=https://www.weibo.com/u/5372531272]Weibo[/url]"
    },
-   "originalLanguage": "zh-hk",
-   "lastChapter": "0",
+   "originalLanguage": "zh",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,8 +39,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +53,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +65,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -62,59 +77,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-06T05:29:44+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "48644ee3-e08f-496d-b1fb-ea69789a3ddf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "600",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "48644ee3-e08f-496d-b1fb-ea69789a3ddf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "600",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "032adf92-83c4-4e76-a2cc-aac54da15d26",
-   "type": "chapter"
-  },
-  {
-   "id": "2719ba0f-0482-41f8-99ff-6a051ef8c666",
-   "type": "chapter"
-  },
-  {
-   "id": "4611ad78-ca1f-4142-a36f-b049751c9aa8",
-   "type": "chapter"
-  },
-  {
-   "id": "b9792bb4-326d-4cf3-aa3f-1b1f25dfeff0",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "7f1088a1-fa4d-4f3e-ba92-aab8bd111b5c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:47+00:00",
+    "description": "",
+    "fileName": "0c8a16d1-9fc4-47ba-9dfa-e215a1123fe0.jpg",
+    "updatedAt": "2021-05-24T17:32:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

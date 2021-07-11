@@ -14,7 +14,6 @@
     "ap": "small-world"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,79 +60,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-13T07:56:14+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "2b5a096b-f957-4a30-82d4-23e6317435fc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Wonsun Jin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a176849b-878d-4994-b862-f493126aebee",
-   "type": "chapter"
-  },
-  {
-   "id": "1851208c-627a-4394-bd22-e55f051fe642",
-   "type": "chapter"
-  },
-  {
-   "id": "bda14db2-321c-4be0-bbae-f5bc64c70979",
-   "type": "chapter"
-  },
-  {
-   "id": "1557a48b-7c00-4d68-ba2f-9715e4e8adb8",
-   "type": "chapter"
-  },
-  {
-   "id": "b34b103f-964d-44dc-b6e4-edc6ba71eea1",
-   "type": "chapter"
-  },
-  {
-   "id": "604fbd78-aae9-4a3f-a277-aea9d1e98b0f",
-   "type": "chapter"
-  },
-  {
-   "id": "5fe1ffcc-11c9-4e1a-afb1-a1d710e3e835",
-   "type": "chapter"
-  },
-  {
-   "id": "0224330d-442f-4d28-9876-41a6384d37c8",
-   "type": "chapter"
-  },
-  {
-   "id": "1298624a-4fd8-46b3-bcd8-2d255ba59914",
-   "type": "chapter"
-  },
-  {
-   "id": "938b9df6-e5e5-4b7d-83f5-03d55acb9ce4",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "4f7c5167-652c-4fab-b625-0d873e9e89e5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:37+00:00",
+    "description": "",
+    "fileName": "9e8223bb-220d-4a01-9d33-23dbf12a3ae8.jpg",
+    "updatedAt": "2021-05-24T17:33:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

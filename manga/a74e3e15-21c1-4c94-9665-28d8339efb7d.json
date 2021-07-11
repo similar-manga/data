@@ -7,6 +7,14 @@
    "title": {
     "en": "Neraiuchi!"
    },
+   "altTitles": [
+    {
+     "en": "ねらいうち!"
+    },
+    {
+     "en": "被瞄准的恋爱"
+    }
+   ],
    "description": {
     "en": "New high school student Kunimura Kaoru joins the Archery Club in hopes of meeting an old acquaintance, but this Archery Club is a bit odd, and the girl he came looking for may be slightly different than he remembers."
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +61,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +73,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -69,51 +85,53 @@
       "name": {
        "en": "Gyaru"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-28T09:02:01+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "7f8aafef-6680-4cc4-b3c5-7252f7656bbf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHINOHARA Tomohiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7f8aafef-6680-4cc4-b3c5-7252f7656bbf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHINOHARA Tomohiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "378e099d-d869-421a-87d8-35a763a8f89d",
-   "type": "chapter"
-  },
-  {
-   "id": "90ceb5f2-5018-4504-80b3-4f538b0dfffc",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "fad12b5e-68ba-460e-b933-9ae8318f5b65",
-   "type": "tag"
+   "id": "41f1ec88-2076-4fd6-9b44-d96a77db8415",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:15+00:00",
+    "description": "",
+    "fileName": "cd850673-3e76-40fd-bca5-ab6d571eb84b.jpg",
+    "updatedAt": "2021-05-24T18:33:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

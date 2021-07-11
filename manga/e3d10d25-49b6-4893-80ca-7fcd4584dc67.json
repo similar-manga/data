@@ -7,6 +7,17 @@
    "title": {
     "en": "Tachiagare! Orc-san"
    },
+   "altTitles": [
+    {
+     "en": "Kalk Ayağa! Ork-san"
+    },
+    {
+     "en": "Rise up! Orc-san"
+    },
+    {
+     "en": "たちあがれ！ オークさん"
+    }
+   ],
    "description": {
     "en": "Ines, a girl from an orphanage, lands a job at a place that exploits orcs!!  What's more, the company's business is adult-oriented entertainment!? A unique fantasy about a business crossing orcs and the adult world!\r\n\r\n[Translation from the back cover]"
    },
@@ -33,6 +44,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +56,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,43 +68,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-04T12:05:54+00:00",
+   "updatedAt": "2021-05-25T15:48:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "3df9e5c7-cf6b-4446-94ba-43db635843e0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aramoto Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c9ccd6d6-fd1b-4c31-bb0a-45893f13db34",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kagesaki Yuna",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6d286f8c-f642-478b-955e-1f168604aee7",
-   "type": "chapter"
-  },
-  {
-   "id": "c7dde3b6-a820-4f16-8dbf-cf85ece784ad",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "d5855be0-cc73-4f07-90af-c2b51efdad40",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:12+00:00",
+    "description": "",
+    "fileName": "44bcfdd0-9381-4b13-8dea-a784d68cfc87.jpg",
+    "updatedAt": "2021-05-24T17:00:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

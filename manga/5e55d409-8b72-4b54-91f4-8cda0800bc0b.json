@@ -15,7 +15,6 @@
     "mal": "91065"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +25,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,35 +37,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-22T15:26:12+00:00",
+   "updatedAt": "2021-05-25T15:42:54+00:00"
   }
  },
  "relationships": [
   {
    "id": "8e7664f8-c1e6-42ed-9b62-724b8880d177",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hinachi Nao",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8e7664f8-c1e6-42ed-9b62-724b8880d177",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hinachi Nao",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "df7652e9-8c7a-4312-86c5-0c79cc05c545",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "002c0b0f-e9e9-4f93-88f8-19229b6a3939",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:14+00:00",
+    "description": "",
+    "fileName": "aed3c03c-5ec8-47cb-ad3f-df0a30664bce.jpg",
+    "updatedAt": "2021-05-24T17:02:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

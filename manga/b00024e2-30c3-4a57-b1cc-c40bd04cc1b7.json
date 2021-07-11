@@ -7,6 +7,14 @@
    "title": {
     "en": "Ookami no Dou"
    },
+   "altTitles": [
+    {
+     "en": "The Wolf Eyes"
+    },
+    {
+     "en": "狼の瞳"
+    }
+   ],
    "description": {
     "en": "A collection of 3 short stories:\r\n\r\n[*] Steel World\r\n[*] Snake\r\n[*] The Wolf Eyes"
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -51,43 +63,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-13T02:37:39+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "84d6bd36-d5bb-4563-8ea9-337c32c3e02f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Iwahara Yuji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "84d6bd36-d5bb-4563-8ea9-337c32c3e02f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Iwahara Yuji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4f6e911f-a7f6-4998-8461-22292bf852f8",
-   "type": "chapter"
-  },
-  {
-   "id": "5af09bbb-6b6f-4a07-ab6c-6b8b120235a4",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "4a2eabc5-b80c-4f44-9b7e-ba656360f551",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:12:02+00:00",
+    "description": "",
+    "fileName": "cdd708b7-8964-48de-b91d-025f9ad37afc.jpg",
+    "updatedAt": "2021-05-24T17:12:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,23 @@
    "title": {
     "en": "Gakkou Kaidan"
    },
+   "altTitles": [
+    {
+     "en": "Academy of Ghost Stories"
+    },
+    {
+     "en": "Ghost Story School"
+    },
+    {
+     "en": "Học Hiệu Quái Đàm"
+    },
+    {
+     "en": "School tales of horror (Official English title)"
+    },
+    {
+     "en": "学校怪談"
+    }
+   ],
    "description": {
     "en": "Collection of strange horror stories (in the vein of juvenile horror authors, such as R.L. Stine), from the master, Takahashi Yousuke."
    },
@@ -32,6 +49,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,6 +61,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +73,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -62,6 +85,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -72,83 +97,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-16T14:33:43+00:00",
+   "updatedAt": "2021-05-25T15:43:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "53abbe4b-2856-4c14-950b-f6d5a85f9e89",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Yousuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "53abbe4b-2856-4c14-950b-f6d5a85f9e89",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Yousuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2b713dd1-a88d-474c-a6b1-e34553987e2f",
-   "type": "chapter"
-  },
-  {
-   "id": "d393ec47-a3ec-4cea-8f25-f2b3fcd29bb8",
-   "type": "chapter"
-  },
-  {
-   "id": "4b841067-7576-4b47-b47c-e7143d6a464e",
-   "type": "chapter"
-  },
-  {
-   "id": "1eaaf96b-8c3d-4978-867a-3143635172d1",
-   "type": "chapter"
-  },
-  {
-   "id": "1153886a-f754-4712-bb05-a7efd753f500",
-   "type": "chapter"
-  },
-  {
-   "id": "82326bfb-3df1-45b2-a107-2df029cfab15",
-   "type": "chapter"
-  },
-  {
-   "id": "2a1021c4-97f5-4663-84ce-a0eff73d8487",
-   "type": "chapter"
-  },
-  {
-   "id": "edb396ae-395f-4244-ac12-b5073ce7dd0d",
-   "type": "chapter"
-  },
-  {
-   "id": "bb56c1f1-cfd8-49aa-aee1-36ca64c14316",
-   "type": "chapter"
-  },
-  {
-   "id": "1842930b-fd7f-4679-b415-585056754e75",
-   "type": "chapter"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "2d5aa2c3-c8a8-4f7c-9d69-a6ec25eb7f77",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:50:42+00:00",
+    "description": "",
+    "fileName": "c13fc230-0336-4ca2-abac-910704924440.jpg",
+    "updatedAt": "2021-05-24T17:50:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

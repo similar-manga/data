@@ -16,7 +16,6 @@
     "raw": "https://m.comic.naver.com/webtoon/list.nhn?titleId=675830"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -28,6 +27,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +39,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +51,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,79 +63,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-21T00:25:06+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "ff36d51b-7f8b-401f-9fae-3660200fb4ba",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sang-jun PARK",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ab83c75b-2eb2-4993-b5e2-26c242ff8a2a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hun CHOE",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "24ec1f0a-51a8-41f0-9a10-570ed206237f",
-   "type": "chapter"
-  },
-  {
-   "id": "6e9ae326-98fa-46f1-9b48-d7ce16e8efba",
-   "type": "chapter"
-  },
-  {
-   "id": "10339c89-0c3f-46ba-afb0-5648c20b08ec",
-   "type": "chapter"
-  },
-  {
-   "id": "b48b4bf9-c120-4d63-99d7-09b3838902ca",
-   "type": "chapter"
-  },
-  {
-   "id": "dcfc05b4-4062-4c20-b3e6-722ee40f18b8",
-   "type": "chapter"
-  },
-  {
-   "id": "2bf52225-582f-40fe-b889-1f6e317351ae",
-   "type": "chapter"
-  },
-  {
-   "id": "42e0136f-99b1-43ce-81c0-f106402355c7",
-   "type": "chapter"
-  },
-  {
-   "id": "a6fc837a-efe2-4413-a119-78cec3b4fd20",
-   "type": "chapter"
-  },
-  {
-   "id": "dadbb33b-2303-4577-baf9-9e5dd2292466",
-   "type": "chapter"
-  },
-  {
-   "id": "fe775ae4-97a6-448e-933a-6ad8a82ee4da",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "836ab4b6-aefd-4fde-bcce-a7e472860905",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:57+00:00",
+    "description": "",
+    "fileName": "defa1e8b-0c9f-4d5f-8f19-3d0043a16b0c.png",
+    "updatedAt": "2021-05-24T17:41:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

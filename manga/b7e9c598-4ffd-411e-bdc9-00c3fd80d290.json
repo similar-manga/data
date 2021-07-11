@@ -7,6 +7,11 @@
    "title": {
     "en": "Stand By Me"
    },
+   "altTitles": [
+    {
+     "en": "スタンド・バイ・ミー"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -28,8 +33,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,43 +47,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-17T19:12:06+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "86895672-61bf-43d6-a853-995684abacb9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohya Kazumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "86895672-61bf-43d6-a853-995684abacb9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohya Kazumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ba2f900b-3a2f-4362-ac77-6befa66e5729",
-   "type": "chapter"
-  },
-  {
-   "id": "2cc28e86-a3ba-4471-af0c-b0686e68980c",
-   "type": "chapter"
-  },
-  {
-   "id": "7f2c2edf-4d4a-422a-ab3d-3c6f83afeb5c",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "27233129-2612-4f6c-97d8-5d695f46595c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:45:15+00:00",
+    "description": "",
+    "fileName": "47f748f0-8a73-4c53-906c-95c9589e2735.jpg",
+    "updatedAt": "2021-05-24T16:45:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

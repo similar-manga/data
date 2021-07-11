@@ -7,6 +7,14 @@
    "title": {
     "en": "Alice"
    },
+   "altTitles": [
+    {
+     "en": "أليس"
+    },
+    {
+     "en": "앨리스"
+    }
+   ],
    "description": {
     "en": "There is a disease of the mind that eventually shuts down all bodily functions. One woman effected with this disease has been ordered to be euthanized. Dr. Arlem fights for what he believes to be a way to cure her."
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,39 +59,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-26T18:19:07+00:00",
+   "updatedAt": "2021-05-25T15:47:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "2a78743b-3ff7-4ac3-ab0c-f7030ebc1eb9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jae-A",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1a1ee39e-28cc-44e7-9b5c-75b8b6d710bb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "김동훈",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6ceb8446-f381-4938-a5d9-733adcec35bf",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "9075fc54-d876-4f99-80be-6657c801f698",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:31:34+00:00",
+    "description": "",
+    "fileName": "8e43d7a3-d000-490f-ba39-3e0fddc63473.png",
+    "updatedAt": "2021-05-24T17:31:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

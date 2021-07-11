@@ -5,7 +5,7 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Togainu no Chi \u0026ndash; Acid Color"
+    "en": "Togainu no Chi – Acid Color"
    },
    "description": {
     "en": "Pairing: Yukihito x Akira + Touya"
@@ -20,8 +20,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,35 +34,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-02T17:03:59+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "6c5d0996-f18f-4e8d-8cd9-7adb1ce21005",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kousaka Akiho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6c5d0996-f18f-4e8d-8cd9-7adb1ce21005",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kousaka Akiho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3ef18335-1196-405f-bc74-1b77ec754126",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "fe1c4ef1-56fa-4f1b-b5fe-ee4af662acc7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:25+00:00",
+    "description": "",
+    "fileName": "3f878da1-5df0-4f20-9b23-23ddda108e92.jpg",
+    "updatedAt": "2021-05-24T17:32:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

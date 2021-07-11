@@ -7,6 +7,14 @@
    "title": {
     "en": "CYBER Blue"
    },
+   "altTitles": [
+    {
+     "en": "CYBERブルー"
+    },
+    {
+     "en": "サイバーブルー"
+    }
+   ],
    "description": {
     "en": "Tinos is the farthest colony planet from Earth. There lives a generation of people who have corrupted the dreams of the founders from 300 years ago. However, a new man will change it all..."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,75 +50,65 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-19T13:33:30+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "13f3e039-9dd4-4e03-a583-bb05adc0ec13",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Bob",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1ad58b6f-cdc2-45ed-82e1-0b9b6ae6dc01",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mitsui Ryuichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "65649cd5-6c44-418d-b23e-20365a582339",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hara Tetsuo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ef190b50-42ac-4930-a821-cc232c22dc84",
-   "type": "chapter"
-  },
-  {
-   "id": "f3a01c22-a480-4f57-92b9-edb81c62c3a9",
-   "type": "chapter"
-  },
-  {
-   "id": "aabdde49-7a9b-46b0-9bcb-d8c520260973",
-   "type": "chapter"
-  },
-  {
-   "id": "3b951bde-8374-4898-9b21-d086482876a9",
-   "type": "chapter"
-  },
-  {
-   "id": "6e160188-dd4e-475f-a7bd-6f6677e759d7",
-   "type": "chapter"
-  },
-  {
-   "id": "8b6677ad-c4d0-4882-aa04-b0483a0c83c5",
-   "type": "chapter"
-  },
-  {
-   "id": "6229d965-4611-4c96-8222-9bcbfee5bff0",
-   "type": "chapter"
-  },
-  {
-   "id": "e8a89033-69fb-42d1-bb9b-df952095cf65",
-   "type": "chapter"
-  },
-  {
-   "id": "8adc3b4c-0072-4b58-8034-3b1ebab8cbd9",
-   "type": "chapter"
-  },
-  {
-   "id": "790cf454-ea20-40cf-86b4-1febacdd9170",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "e438b4ce-0685-4f92-9bf4-e10d42f2fe87",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:26:35+00:00",
+    "description": "",
+    "fileName": "25bfb6b5-84fa-4258-a37e-8ee3abdb54f8.jpg",
+    "updatedAt": "2021-05-24T18:26:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

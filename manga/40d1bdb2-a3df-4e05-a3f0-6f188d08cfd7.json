@@ -7,6 +7,23 @@
    "title": {
     "en": "Hashire! Ouji-sama"
    },
+   "altTitles": [
+    {
+     "en": "Hashire! Oujisama"
+    },
+    {
+     "en": "Run, Run, Prince!"
+    },
+    {
+     "en": "加油! 王子"
+    },
+    {
+     "en": "走れ!王子様"
+    },
+    {
+     "en": "跑吧！王子殿下"
+    }
+   ],
    "description": {
     "en": "A kingdom's ruling faction sends out a secret agent to find the kingdom's missing prince. Love begins to grow between the missing prince and the agent sent to find him but political intrigue intervenes upon their arrival in the kingdom."
    },
@@ -26,6 +43,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +55,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +67,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,8 +77,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,6 +91,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -76,6 +103,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -86,75 +115,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-09T07:10:47+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "1999c4c0-02ec-4db1-9bb4-2ba49b058c5a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamakami Riyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1999c4c0-02ec-4db1-9bb4-2ba49b058c5a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamakami Riyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1d29283f-6a88-4e8e-b93c-0814e8cb0f2e",
-   "type": "chapter"
-  },
-  {
-   "id": "a285ea8f-c3d6-4f27-ba1c-3bd677c31931",
-   "type": "chapter"
-  },
-  {
-   "id": "8297ebee-7a59-4a5a-85da-06d1b28473c9",
-   "type": "chapter"
-  },
-  {
-   "id": "2925b45b-6837-4cf3-982d-efcb35d59313",
-   "type": "chapter"
-  },
-  {
-   "id": "12fcd009-5e46-48cd-ab48-215bbc3136e7",
-   "type": "chapter"
-  },
-  {
-   "id": "8e04216a-4db5-4ff1-8633-d56c6a48944f",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "daef2771-89cc-4f1d-ac41-e2823b469934",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:18:05+00:00",
+    "description": "",
+    "fileName": "99f74c7f-3f3b-43c2-a774-dd2318bb8ac1.jpg",
+    "updatedAt": "2021-05-24T18:18:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,11 +7,15 @@
    "title": {
     "en": "Lore-Factor's High School"
    },
+   "altTitles": [
+    {
+     "en": "ชมรมวารสารตำนานสถาบัน"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "th",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,39 +50,53 @@
       "name": {
        "en": "Delinquents"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-14T01:44:59+00:00",
+   "updatedAt": "2021-05-25T15:48:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "40c040a4-b7d4-42d9-abf0-a116fb22df15",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kasem Apichontrakul",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "40c040a4-b7d4-42d9-abf0-a116fb22df15",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kasem Apichontrakul",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "db721388-55b6-4068-ae38-35bf9ee1b4ae",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "da2d50ca-3018-4cc0-ac7a-6b7d472a29ea",
-   "type": "tag"
+   "id": "99dbf84b-caf4-4f01-82a4-91750d5e2963",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:52:20+00:00",
+    "description": "",
+    "fileName": "de479976-0efb-4347-ba9c-5c1c85115d89.jpg",
+    "updatedAt": "2021-05-24T17:52:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

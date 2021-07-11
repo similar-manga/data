@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Minori \u0026amp; 100 Ladies"
+    "en": "Minori \u0026 100 Ladies"
    },
+   "altTitles": [
+    {
+     "en": "Minori to 100-nin no Ojou-sama"
+    },
+    {
+     "en": "Minori to Hyakunin no Ojousama"
+    },
+    {
+     "en": "みのりと100人のお嬢様"
+    }
+   ],
    "description": {
     "en": "Sakura Minori is just a very average girl.\r\nYet despite being the only commoner in her school, could it be that she's actually become popular among the young ladies she so admired...!?\r\nA girls-only lovey-dovey comedy♪"
    },
@@ -20,7 +31,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "3",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -31,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +51,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +65,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,6 +77,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -71,83 +89,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-06T18:51:45+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "1ee4a096-296b-4a5e-9910-3af2dbfc6345",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujisawa Kamiya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1ee4a096-296b-4a5e-9910-3af2dbfc6345",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujisawa Kamiya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ab77738c-00d4-4d13-ae3b-4917af0d8d32",
-   "type": "chapter"
-  },
-  {
-   "id": "08eadc5b-4ac9-4866-876e-aff1b74cdf27",
-   "type": "chapter"
-  },
-  {
-   "id": "fc40d457-c4af-4b90-b1f9-a3de1582a41d",
-   "type": "chapter"
-  },
-  {
-   "id": "3b41a442-83e4-49f5-aa08-11f26f13ba20",
-   "type": "chapter"
-  },
-  {
-   "id": "8c9df1dd-7fd6-4cf2-90e0-b71524fd84be",
-   "type": "chapter"
-  },
-  {
-   "id": "13b4c30f-6046-4cd0-b553-aefb02b82579",
-   "type": "chapter"
-  },
-  {
-   "id": "e7fbb417-fbd2-473e-8b46-559c8bb5cc48",
-   "type": "chapter"
-  },
-  {
-   "id": "5bf868b0-db24-4e6e-9937-b406e2e82586",
-   "type": "chapter"
-  },
-  {
-   "id": "03c6c01f-341d-4af4-b718-7afae8ba0089",
-   "type": "chapter"
-  },
-  {
-   "id": "cba58d1c-5987-4f93-9e7e-62a0e3313e49",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "fe4dea8e-a6c1-4f1c-9430-c78915cc07ed",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:52+00:00",
+    "description": "",
+    "fileName": "72c60e90-07ef-465b-99d2-b776ca6d2188.jpg",
+    "updatedAt": "2021-05-24T17:21:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,17 @@
    "title": {
     "en": "Chijou wa Pocket no Naka no Niwa"
    },
+   "altTitles": [
+    {
+     "en": "Dünya Dediğin Cebinde Bir Bahçe"
+    },
+    {
+     "en": "The Land Is a Garden in Your Pocket"
+    },
+    {
+     "en": "地上はポケットの中の庭"
+    }
+   ],
    "description": {
     "en": "A garden with thistles in full bloom scented like black tea, a garden visited by a beetle who speaks the human tongue, a garden filled with laughter and a freshly baked Mirabelle tart, a garden where walking 47 steps will show you a sea lion's broken pool..."
    },
@@ -33,6 +44,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,51 +56,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-05T15:53:16+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "d3d6c6f3-f4a1-49f5-bf8b-2289532f5f59",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tanaka Ai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d3d6c6f3-f4a1-49f5-bf8b-2289532f5f59",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tanaka Ai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a1c6f499-defa-4f8a-9fb1-7d56d105343a",
-   "type": "chapter"
-  },
-  {
-   "id": "031cf96a-690e-4bd2-a8ad-ec1462984fe9",
-   "type": "chapter"
-  },
-  {
-   "id": "d5c3bea8-7b8b-4f69-a7b9-45f59d37483b",
-   "type": "chapter"
-  },
-  {
-   "id": "8d82f8f1-575f-4ee7-9016-46bcea2f8b44",
-   "type": "chapter"
-  },
-  {
-   "id": "f72f6425-5b14-41c0-accb-d3d2fdb66138",
-   "type": "chapter"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "80fe6db7-5a61-4f40-8bb9-ffd91d332594",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:43:15+00:00",
+    "description": "",
+    "fileName": "1c1bfd71-3d48-4a0b-b8b5-a540a6ffe55c.jpg",
+    "updatedAt": "2021-05-24T18:43:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

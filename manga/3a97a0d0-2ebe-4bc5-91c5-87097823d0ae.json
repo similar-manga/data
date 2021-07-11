@@ -27,6 +27,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +63,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -67,83 +75,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-10T07:07:01+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "68a95a51-e521-4ded-aa52-852a5854a267",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "walkingnorth",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "68a95a51-e521-4ded-aa52-852a5854a267",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "walkingnorth",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6d6e30b6-ea71-44a6-9222-651c6e4216a6",
-   "type": "chapter"
-  },
-  {
-   "id": "6f9b5d11-4a5b-476f-9194-00d50e393224",
-   "type": "chapter"
-  },
-  {
-   "id": "07c9092b-d598-48a5-aacf-ea4a67a72001",
-   "type": "chapter"
-  },
-  {
-   "id": "12f32d37-d808-49ff-8c42-a07457330aed",
-   "type": "chapter"
-  },
-  {
-   "id": "02574998-d85a-48b1-8d67-21bf1518f57d",
-   "type": "chapter"
-  },
-  {
-   "id": "5120dc46-d253-4aa6-95b6-2632476a84f9",
-   "type": "chapter"
-  },
-  {
-   "id": "33ab27bd-0222-4b8f-b0b7-74f42860afc8",
-   "type": "chapter"
-  },
-  {
-   "id": "737160c5-10e4-4bbd-8679-2f51ac6a5107",
-   "type": "chapter"
-  },
-  {
-   "id": "fdc3f2df-c7f2-4922-888d-ab60322e66a9",
-   "type": "chapter"
-  },
-  {
-   "id": "4d3e4b35-a905-4f6d-a2b1-df69be4f9d6c",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "c4d8b31c-5046-4f86-aca5-09abfbf3cc52",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:17+00:00",
+    "description": "",
+    "fileName": "71d0c681-ec9a-4e23-afdd-b86c8ad84ac4.jpg",
+    "updatedAt": "2021-05-24T17:33:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

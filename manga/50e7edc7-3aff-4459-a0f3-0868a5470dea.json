@@ -7,6 +7,17 @@
    "title": {
     "en": "Shinigami Doll"
    },
+   "altTitles": [
+    {
+     "en": "The Friend Doll"
+    },
+    {
+     "en": "ตุ๊กตายมทูต (Thai)"
+    },
+    {
+     "en": "死神ドール"
+    }
+   ],
    "description": {
     "en": "Stories about dolls where you wish you never had"
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,51 +65,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-15T15:43:36+00:00",
+   "updatedAt": "2021-05-25T15:42:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "ac21ef51-0b79-4ff8-9a42-6ab85cc8fc9c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tachibana Azusa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ac21ef51-0b79-4ff8-9a42-6ab85cc8fc9c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tachibana Azusa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5d8856aa-0e01-4e46-a1cb-37b730cf23af",
-   "type": "chapter"
-  },
-  {
-   "id": "6af1f7a5-fe00-451e-82b1-90f216802769",
-   "type": "chapter"
-  },
-  {
-   "id": "235386ce-1b2d-4cb7-97f6-862bb5a2c2d9",
-   "type": "chapter"
-  },
-  {
-   "id": "03cf111f-9209-4d98-8e14-c80b3ac08f9f",
-   "type": "chapter"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "da7388bd-df55-4f86-907c-cb28090a774c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:31+00:00",
+    "description": "",
+    "fileName": "01feb8cf-a0fb-4ba0-815b-a428d44ce1ec.jpg",
+    "updatedAt": "2021-05-24T17:15:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

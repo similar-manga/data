@@ -11,7 +11,6 @@
     "en": "Wasabi is a manga created by Keith. The most famous manga author/artist in Malaysia. Wasabi is starred by Wasabi and Chiro. Chiro has been forcefully getting into the Wasabi's school after accidentally sign a contract that says he must stay at that school for five whole years."
    },
    "originalLanguage": "ms",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,75 +45,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-02T13:55:49+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "ea93a0e2-f0d5-4a30-b548-4bcf1c3517cb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Keith",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ea93a0e2-f0d5-4a30-b548-4bcf1c3517cb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Keith",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "695e7689-b2ca-4c99-8ad4-274ce3a2715d",
-   "type": "chapter"
-  },
-  {
-   "id": "9cf9e268-9ef4-49c3-9f5d-50392fedcf88",
-   "type": "chapter"
-  },
-  {
-   "id": "f5e6962a-1194-4006-943d-27457a8cf48a",
-   "type": "chapter"
-  },
-  {
-   "id": "95942bcf-b3c8-4367-86c8-17b5d57e7762",
-   "type": "chapter"
-  },
-  {
-   "id": "2042ef1c-5416-4e74-b36a-d9b3f0662ee4",
-   "type": "chapter"
-  },
-  {
-   "id": "67ff2898-2676-4fc1-a60f-5511fe6da5e2",
-   "type": "chapter"
-  },
-  {
-   "id": "15e032ad-5441-4e8d-b0ba-b7adbbe2ca82",
-   "type": "chapter"
-  },
-  {
-   "id": "64f0f2ed-a148-4034-a71b-4a7a9c5dc17d",
-   "type": "chapter"
-  },
-  {
-   "id": "d4b17bd9-4625-4c65-abe7-0edab5819e1e",
-   "type": "chapter"
-  },
-  {
-   "id": "64025d5c-64cd-4634-8397-8d5ad78ddfb0",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "809a43ba-0932-4f2f-9194-b88f46d49d0d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:09+00:00",
+    "description": "",
+    "fileName": "2ede999a-9730-445e-9e1a-ca286af10687.jpg",
+    "updatedAt": "2021-05-24T17:03:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

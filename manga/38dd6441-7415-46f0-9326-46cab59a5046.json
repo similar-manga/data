@@ -7,6 +7,11 @@
    "title": {
     "en": "Oath of a Knight"
    },
+   "altTitles": [
+    {
+     "en": "騎士の宣誓"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +19,6 @@
     "raw": "https://twitter.com/pulumelo/status/1353015155777363968"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,47 +53,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-02T12:28:42+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "76e9cd38-e05b-4747-87cf-de0debf7a33e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "pulumelo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "76e9cd38-e05b-4747-87cf-de0debf7a33e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "pulumelo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dc551ce9-08da-41b7-bb1d-683b8bc188ab",
-   "type": "chapter"
-  },
-  {
-   "id": "5c4d6ae9-0a53-4de2-a7d7-25eef048c41d",
-   "type": "chapter"
-  },
-  {
-   "id": "fccb88bc-cbc1-4258-ba2e-97d8c6ffc46d",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "7dacc3bc-ae22-4f90-a3ca-ed5433a381f4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:29:37+00:00",
+    "description": "",
+    "fileName": "023bf8f1-c281-404c-8aed-633be972fddf.jpg",
+    "updatedAt": "2021-05-24T18:29:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

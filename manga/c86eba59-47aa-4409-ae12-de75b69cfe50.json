@@ -17,7 +17,6 @@
     "raw": "https://yanmaga.jp/comics/%E3%82%B2%E3%82%B7%E3%83%A5%E3%82%BF%E3%83%AB%E3%83%88"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -29,6 +28,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +40,8 @@
       "name": {
        "en": "Survival"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -49,6 +52,8 @@
       "name": {
        "en": "Post-Apocalyptic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -59,6 +64,8 @@
       "name": {
        "en": "Philosophical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,59 +76,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-02T07:59:50+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "8e995989-0ad6-434f-871e-939d327bbacc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ringo Youtou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8e995989-0ad6-434f-871e-939d327bbacc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ringo Youtou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fdc81b0c-441e-4238-b8bb-4342716e7abc",
-   "type": "chapter"
-  },
-  {
-   "id": "404fa65d-95c2-492d-8801-683def11a95a",
-   "type": "chapter"
-  },
-  {
-   "id": "0b733fb6-4d71-41c2-934a-81b94e66b6cc",
-   "type": "chapter"
-  },
-  {
-   "id": "96062bee-a9c1-47fa-94ad-90f93a4c249a",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
-   "type": "tag"
-  },
-  {
-   "id": "9467335a-1b83-4497-9231-765337a00b96",
-   "type": "tag"
-  },
-  {
-   "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "874fb5d3-3087-4f01-9ea1-d83ea229e977",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:30+00:00",
+    "description": "",
+    "fileName": "3d30e23f-4172-44b4-8a89-cd6f1e90e81d.png",
+    "updatedAt": "2021-05-24T18:33:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

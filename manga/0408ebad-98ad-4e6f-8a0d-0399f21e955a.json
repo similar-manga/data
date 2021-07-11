@@ -7,6 +7,11 @@
    "title": {
     "en": "Secretary"
    },
+   "altTitles": [
+    {
+     "en": "秘書"
+    }
+   ],
    "description": {
     "en": "A very short story about a secretary in love with his married boss."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,45 +57,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-06T20:35:26+00:00",
+   "updatedAt": "2021-05-25T15:38:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "535fe9a1-d28a-410c-b85d-79b89f679dc5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minase Masara",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "535fe9a1-d28a-410c-b85d-79b89f679dc5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minase Masara",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "704f5d60-a64a-49c7-ac2c-5ca763661f7c",
-   "type": "chapter"
-  },
-  {
-   "id": "00c59f32-03f0-434d-a4b8-815e51a03681",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "bbd6f540-9d36-4fff-a35f-7a0bb9a1d3c5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:40:16+00:00",
+    "description": "",
+    "fileName": "25cf89ff-3d61-4c99-996d-4fa60f7e026c.jpg",
+    "updatedAt": "2021-05-24T17:40:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

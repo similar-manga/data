@@ -7,6 +7,11 @@
    "title": {
     "en": "Namameku Yami to Oboreru Hikari"
    },
+   "altTitles": [
+    {
+     "en": "艶めく闇と溺れる光"
+    }
+   ],
    "description": {
     "en": "The story of a detective attempting to solve a mystery and a man who doesn't know himself."
    },
@@ -28,8 +33,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,51 +47,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-12T13:45:19+00:00",
+   "updatedAt": "2021-05-25T15:40:28+00:00"
   }
  },
  "relationships": [
   {
    "id": "aa177d0f-4213-45ff-bec0-f19aeaebd834",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Satsuki (沙槻)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "aa177d0f-4213-45ff-bec0-f19aeaebd834",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Satsuki (沙槻)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8b50c0dd-6dd2-4a29-bb2f-acc6f29e74e5",
-   "type": "chapter"
-  },
-  {
-   "id": "00a0c2d6-eb56-4b53-ba98-ec7040fe4412",
-   "type": "chapter"
-  },
-  {
-   "id": "fcd29df1-5a6d-4303-8732-95bbce61f2b1",
-   "type": "chapter"
-  },
-  {
-   "id": "6c119b05-5e8c-4221-a47d-cd324a98a9ad",
-   "type": "chapter"
-  },
-  {
-   "id": "0e011182-623e-4b79-aeb2-471982bb69b8",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "07c2a2fa-9262-4fe6-95ea-fe5d7db14ed6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:37:12+00:00",
+    "description": "",
+    "fileName": "894c5f88-94d1-4c86-82e7-5c4a697d0c10.jpg",
+    "updatedAt": "2021-05-24T17:37:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

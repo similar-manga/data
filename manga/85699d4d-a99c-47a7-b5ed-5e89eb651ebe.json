@@ -7,6 +7,14 @@
    "title": {
     "en": "Hontou wa Suki na no ni"
    },
+   "altTitles": [
+    {
+     "en": "I Really Love You, But..."
+    },
+    {
+     "en": "本当は好きなのに"
+    }
+   ],
    "description": {
     "en": "The two, Natsuki and Naoto, have grown together since kindergarten. As they grew older things changed a lot. Naoto now instead of being a crybaby and shy child has become a formidable man, which makes Natsuki feel attracted without knowing why. What will happen to the attraction that is starting to feel Natsuki? If Naoto realize ... what would you do ...?"
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,8 +44,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +58,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -56,71 +70,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-24T23:50:00+00:00",
+   "updatedAt": "2021-05-25T15:44:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "8ee49f6f-2a30-4383-ac16-b3831f457581",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsukimura Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cd860238-9ce5-485c-8eff-064ad72ed79d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itsuki Kaname",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "430ead5c-161b-4105-b233-9c55dabb4946",
-   "type": "chapter"
-  },
-  {
-   "id": "5e493e1a-f267-4908-88d6-91fdc52c34cb",
-   "type": "chapter"
-  },
-  {
-   "id": "d076681c-1ce9-4dea-b4c4-cd1022f62731",
-   "type": "chapter"
-  },
-  {
-   "id": "e61ef35e-b124-421d-8f02-e6ea6f46e06d",
-   "type": "chapter"
-  },
-  {
-   "id": "bb37b996-184a-45ef-ab46-baf9038e11c7",
-   "type": "chapter"
-  },
-  {
-   "id": "6e9adf6c-0e5e-4db3-a037-aa78e75dc014",
-   "type": "chapter"
-  },
-  {
-   "id": "fb372764-3ed5-4745-b02d-09ead8bb6856",
-   "type": "chapter"
-  },
-  {
-   "id": "c3de6084-f2da-4363-82b2-1ec28841ab3e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "535ca99d-4fe8-4f69-bb8f-02bbdd473ee4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:37+00:00",
+    "description": "",
+    "fileName": "d5038d42-e357-4bb5-9489-edecb21ac3e3.jpg",
+    "updatedAt": "2021-05-24T16:55:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

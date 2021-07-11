@@ -14,7 +14,6 @@
     "mu": "173391"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +36,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,6 +48,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -55,6 +60,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,6 +72,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -75,87 +84,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-11T14:35:11+00:00",
+   "updatedAt": "2021-05-25T15:40:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "f6e61bff-aa73-400d-91ab-dcd522518b0a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Cho Don Hyeong",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9c26c782-48db-46fe-aead-3fc9d47def9b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hwang Sung",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b8aed8ad-57d4-475c-88aa-7b2e97981410",
-   "type": "chapter"
-  },
-  {
-   "id": "69df7ac9-0965-46a5-a61a-9e92967f06ca",
-   "type": "chapter"
-  },
-  {
-   "id": "638c3f2e-a120-4cd5-ab4b-29691af6ed1a",
-   "type": "chapter"
-  },
-  {
-   "id": "babcba13-b6ed-40b1-80e6-5ffc1a516560",
-   "type": "chapter"
-  },
-  {
-   "id": "746db01c-097b-4167-902e-e96241ca4091",
-   "type": "chapter"
-  },
-  {
-   "id": "49807a9d-4be5-480e-baf2-2d2e20ab8359",
-   "type": "chapter"
-  },
-  {
-   "id": "6c4be872-99a7-4641-b57f-5a667a676193",
-   "type": "chapter"
-  },
-  {
-   "id": "14708531-60b1-477e-a2bc-feeb029c100e",
-   "type": "chapter"
-  },
-  {
-   "id": "0469c5f5-af84-4619-ae77-53d333eb3260",
-   "type": "chapter"
-  },
-  {
-   "id": "5156917d-1de1-4bed-9487-f509965adc9b",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "46c5c045-85ec-4f44-a2ed-d38d38abebf7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:18:19+00:00",
+    "description": "",
+    "fileName": "7f74b84c-cb94-48d1-9563-5956574d32c7.jpg",
+    "updatedAt": "2021-05-24T18:18:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

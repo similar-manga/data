@@ -7,6 +7,20 @@
    "title": {
     "en": "Kishidou Kurabu"
    },
+   "altTitles": [
+    {
+     "en": "Kishidou Club"
+    },
+    {
+     "en": "Secret Club \"Kishidou\""
+    },
+    {
+     "en": "騎士堂俱樂部"
+    },
+    {
+     "en": "騎士堂倶楽部"
+    }
+   ],
    "description": {
     "en": "A night club where many come to compete. However, the loser will suffer the ultimate humiliation by becoming a show for the spectators. And that ultimate humiliation is..."
    },
@@ -30,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +54,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +68,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,79 +80,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-20T03:48:21+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "d25dffb1-d2ea-4a8e-a8f2-3fbb16c2c80b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nishimura Shuuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d25dffb1-d2ea-4a8e-a8f2-3fbb16c2c80b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nishimura Shuuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b3b7147c-24b9-4f66-8274-f16404d268f2",
-   "type": "chapter"
-  },
-  {
-   "id": "6019928c-bd8e-4f3a-9899-a1617991bc45",
-   "type": "chapter"
-  },
-  {
-   "id": "60094c37-31ac-4a58-95c4-c4a19646e8f0",
-   "type": "chapter"
-  },
-  {
-   "id": "e413863a-47b2-4774-acae-59590ce8435e",
-   "type": "chapter"
-  },
-  {
-   "id": "c38ff048-16e4-4f52-989d-8ff6aded990b",
-   "type": "chapter"
-  },
-  {
-   "id": "9cdd4eb7-5081-46bc-8629-95567f70e22b",
-   "type": "chapter"
-  },
-  {
-   "id": "d417ce1a-381c-4b92-ba55-50200505ec02",
-   "type": "chapter"
-  },
-  {
-   "id": "c9927275-2296-426d-9a1f-f974ddf7f0b6",
-   "type": "chapter"
-  },
-  {
-   "id": "332c72a9-e27e-460e-9467-904e6888433b",
-   "type": "chapter"
-  },
-  {
-   "id": "41e556b4-2352-45bd-8c4e-8b268dc24602",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "a39cada5-aebc-4f2f-9228-6fe9e96d5cd8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:07+00:00",
+    "description": "",
+    "fileName": "d7d87011-5454-4c96-a6d6-bf243fb4393f.jpg",
+    "updatedAt": "2021-05-24T17:38:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

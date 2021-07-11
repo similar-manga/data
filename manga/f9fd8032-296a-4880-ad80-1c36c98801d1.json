@@ -25,6 +25,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +37,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +49,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -55,79 +61,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-03-01T18:56:01+00:00",
+   "updatedAt": "2019-03-01T18:56:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "a5407a2b-accb-45dc-88c9-f8732df6051e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Michelle Phan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4e9b8e05-f751-4c3b-91e1-26a8ab8aa335",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "e-h",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "de87e526-72dd-4682-9e16-33b31c65894b",
-   "type": "chapter"
-  },
-  {
-   "id": "6e4bf84a-6ded-420d-82dc-e47cdfa8e8fa",
-   "type": "chapter"
-  },
-  {
-   "id": "25674d70-1568-4216-b2ed-ee4a5bd5ccc3",
-   "type": "chapter"
-  },
-  {
-   "id": "a6956096-2934-49ff-bef7-f1c8e5e5c8de",
-   "type": "chapter"
-  },
-  {
-   "id": "813ded51-8d62-4314-9bda-8f527f249c7e",
-   "type": "chapter"
-  },
-  {
-   "id": "7a3cd3b0-0e7f-4405-939a-89be28d35e1c",
-   "type": "chapter"
-  },
-  {
-   "id": "00d8cddd-0329-4b63-84f5-45206d182b5e",
-   "type": "chapter"
-  },
-  {
-   "id": "9c87d2be-6088-4427-8f13-e75ffadd4359",
-   "type": "chapter"
-  },
-  {
-   "id": "f998a292-8237-4074-aacb-7a9e4c473c74",
-   "type": "chapter"
-  },
-  {
-   "id": "321ed039-0a68-4876-a621-5e394438be0c",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "b18c9bea-4aba-4f0d-9339-69766648be53",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:06+00:00",
+    "description": "",
+    "fileName": "8e9e4331-5d65-46da-9915-902d01dc1656.jpg",
+    "updatedAt": "2021-05-24T17:03:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

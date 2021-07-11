@@ -15,7 +15,6 @@
     "mal": "106156"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -27,6 +26,8 @@
       "name": {
        "en": "Ninja"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -37,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,75 +50,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-13T02:59:48+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "77fec942-1b1c-438f-969c-75a931b40b2c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kenji Taira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "77fec942-1b1c-438f-969c-75a931b40b2c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kenji Taira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c013dbb1-842a-41eb-bc31-e8745a66b9ac",
-   "type": "chapter"
-  },
-  {
-   "id": "086a4d51-1a97-4a96-9834-1e598793cb3b",
-   "type": "chapter"
-  },
-  {
-   "id": "9ccad368-4260-42c9-b8a5-86f78391cbc6",
-   "type": "chapter"
-  },
-  {
-   "id": "29258820-fda4-4b84-9516-d9aedc1b0ab3",
-   "type": "chapter"
-  },
-  {
-   "id": "332a0ddf-bfcf-487d-8527-6b7d828c9d3e",
-   "type": "chapter"
-  },
-  {
-   "id": "69cc593b-a824-40c1-a8ee-7f3e8605f64a",
-   "type": "chapter"
-  },
-  {
-   "id": "ca360b75-cf3e-448b-8ee6-181eaa788033",
-   "type": "chapter"
-  },
-  {
-   "id": "fac2274f-f20c-4398-ae81-8e5ccaff7a73",
-   "type": "chapter"
-  },
-  {
-   "id": "5b79a4a6-c811-492d-a96c-2c2b6939de90",
-   "type": "chapter"
-  },
-  {
-   "id": "2158b507-3f24-4d4a-bc5f-80c64566a7de",
-   "type": "chapter"
-  },
-  {
-   "id": "489dd859-9b61-4c37-af75-5b18e88daafc",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "c7b2799c-8dcd-4fe7-bbad-3a594b7ef83b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:18:31+00:00",
+    "description": "",
+    "fileName": "152206a9-f143-4184-b0ef-1d784b250983.jpg",
+    "updatedAt": "2021-05-24T18:18:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

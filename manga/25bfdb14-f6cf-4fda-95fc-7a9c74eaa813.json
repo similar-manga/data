@@ -7,6 +7,17 @@
    "title": {
     "en": "The Edge"
    },
+   "altTitles": [
+    {
+     "en": "A man called The Edge"
+    },
+    {
+     "en": "Ji Ejji"
+    },
+    {
+     "en": "ジ・エッジ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -15,7 +26,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "2",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +48,8 @@
       "name": {
        "en": "Mafia"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -46,6 +60,8 @@
       "name": {
        "en": "Military"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -56,43 +72,53 @@
       "name": {
        "en": "Police"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-27T18:34:32+00:00",
+   "updatedAt": "2021-05-25T15:40:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "2ce47789-6333-4ec5-89b8-8a8527348c55",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NAGASAWA Katsuhiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2ce47789-6333-4ec5-89b8-8a8527348c55",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NAGASAWA Katsuhiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "24298ccc-8fed-440a-ad2e-2b3305e8263b",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
-   "type": "tag"
-  },
-  {
-   "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
-   "type": "tag"
-  },
-  {
-   "id": "df33b754-73a3-4c54-80e6-1a74a8058539",
-   "type": "tag"
+   "id": "61f17b2c-11d8-4ff7-9a56-37e34e9df594",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:31+00:00",
+    "description": "",
+    "fileName": "dcd84733-9d6e-454a-9dc2-438203787c0a.jpg",
+    "updatedAt": "2021-05-24T18:04:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

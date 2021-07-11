@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Fate/Grand Order: Ord\u0026uacute; Beag"
+    "en": "Fate/Grand Order: Ordú Beag"
    },
+   "altTitles": [
+    {
+     "en": "Судьба/Великий приказ: Маленькая команда"
+    }
+   ],
    "description": {
     "en": "One-shot featuring Scathach."
    },
@@ -15,7 +20,6 @@
     "raw": "https://pocket.shonenmagazine.com/episode/13933686331682489469"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +30,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,43 +42,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-02T12:20:01+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "688d1e95-0dcf-4df3-aa7b-c84981fa3309",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nagi Akisato",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "688d1e95-0dcf-4df3-aa7b-c84981fa3309",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nagi Akisato",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2a823335-1bb9-4c0d-aa05-e03143752840",
-   "type": "chapter"
-  },
-  {
-   "id": "27e358c7-2f7d-462f-a479-7df3f30a8aed",
-   "type": "chapter"
-  },
-  {
-   "id": "49f80944-576a-49a9-88aa-7031617ccb44",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "ea03e637-6c97-4fa9-9261-1553846a5799",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:08:46+00:00",
+    "description": "",
+    "fileName": "878b3308-dc26-4ed7-a079-6b3fc93ffc0c.jpg",
+    "updatedAt": "2021-05-24T18:08:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

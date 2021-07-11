@@ -5,10 +5,15 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "A\u0026amp;B"
+    "en": "A\u0026B"
    },
+   "altTitles": [
+    {
+     "en": "A군과 B군"
+    }
+   ],
    "description": {
-    "en": "A sweet fluffy story between the calm, quiet A and wild, social B. With not a single thing in common, will the two be able to nurture a safe romantic relationship? Let\u0026rsquo;s find out!"
+    "en": "A sweet fluffy story between the calm, quiet A and wild, social B. With not a single thing in common, will the two be able to nurture a safe romantic relationship? Let’s find out!"
    },
    "links": {
     "ap": "mr-a-and-mr-b",
@@ -28,6 +33,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +57,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,8 +67,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,6 +81,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -78,6 +93,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -88,75 +105,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-19T20:52:00+00:00",
+   "updatedAt": "2021-05-25T15:44:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "21914dac-473a-4d6d-a3ed-ccc022d22d9a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Migab",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "21914dac-473a-4d6d-a3ed-ccc022d22d9a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Migab",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a6fa5de8-5d28-4c1c-bae9-4417952fcdb6",
-   "type": "chapter"
-  },
-  {
-   "id": "983c8071-6713-47ff-9ab6-67c13dfe36e8",
-   "type": "chapter"
-  },
-  {
-   "id": "a8a6ee07-910f-4240-a1a1-74ec07e1de06",
-   "type": "chapter"
-  },
-  {
-   "id": "fbbf3e87-3ead-414b-acb5-009506468d69",
-   "type": "chapter"
-  },
-  {
-   "id": "97d15fb0-d1d8-43b9-b815-df9f85fdd104",
-   "type": "chapter"
-  },
-  {
-   "id": "654be9bf-9fbb-4a43-aad6-cb8038ac7373",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "4c35bc64-755b-4f8a-9c7d-95656602ee3c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:27:13+00:00",
+    "description": "",
+    "fileName": "a29791ea-be21-4833-bf8c-23a138caaed2.jpg",
+    "updatedAt": "2021-05-24T17:27:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

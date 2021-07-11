@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Steins;Gate - Daga, \u0026quot;Daga Otoko da\u0026quot; to Iu Jijitsu ga Doushita to Iu no da? (Doujinshi)"
+    "en": "Steins;Gate - Daga, \"Daga Otoko da\" to Iu Jijitsu ga Doushita to Iu no da? (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "(Nyosoket!) But Does The Fact That He's A Guy Even Matter? "
+    },
+    {
+     "en": "(にょそけっと!) だが、『だが男だ』という事実がどうしたというのだ? (シュタインズ・ゲート)"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,8 +39,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,39 +53,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-04T23:14:24+00:00",
+   "updatedAt": "2021-05-25T15:38:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "6ed7823b-d2f1-4a87-b224-c8bb3a17f2e6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kabuttari Kaburanakattari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a8ec4178-608d-41c8-b78f-c21161008f14",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Seihoukei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "486f3577-f9bf-4859-af97-cf52e482e94a",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "36d3135f-47a9-4f63-bdb7-7d554c98759e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:10:45+00:00",
+    "description": "",
+    "fileName": "3dd8f2b2-9937-4949-a36d-7579f831fe65.jpg",
+    "updatedAt": "2021-05-24T17:10:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

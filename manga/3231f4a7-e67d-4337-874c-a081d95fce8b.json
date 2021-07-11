@@ -7,8 +7,19 @@
    "title": {
     "en": "Ugetsu Monogatari"
    },
+   "altTitles": [
+    {
+     "en": "Tales of Moonlight and Rain"
+    },
+    {
+     "en": "Tales of the Pale and Silvery Moon After the Rain"
+    },
+    {
+     "en": "雨月物語"
+    }
+   ],
    "description": {
-    "en": "\u0026ldquo;Tales of Moonlight and Rain\u0026rdquo; is a collection of classical Japanese horror/suspense stories. The stories are simple, but abundant with traditional fictional Japanese characters, such as the half-man half-bird Tengu, white serpents, fantastic carps, goblins and restless ghosts, driven by love or hatred."
+    "en": "“Tales of Moonlight and Rain” is a collection of classical Japanese horror/suspense stories. The stories are simple, but abundant with traditional fictional Japanese characters, such as the half-man half-bird Tengu, white serpents, fantastic carps, goblins and restless ghosts, driven by love or hatred."
    },
    "links": {
     "al": "75827",
@@ -30,6 +41,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +65,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,51 +77,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-20T07:31:57+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "5cac9b2c-882d-411c-aafe-a57a90f1c8e0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UEDA Akinari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ff14eaa7-5014-458d-b814-f2a657ba63e3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HIWA Tokiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3699cf55-c48f-4a85-b2d3-acad04e64194",
-   "type": "chapter"
-  },
-  {
-   "id": "29f0919a-5c48-46f0-b138-ec53a8e115f1",
-   "type": "chapter"
-  },
-  {
-   "id": "6f4aaaef-8f0d-4dc3-8d4e-5fca68bd9b1d",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "cbcc15c2-a784-4f1c-812d-c4896fa573da",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:38:05+00:00",
+    "description": "",
+    "fileName": "674f225f-d938-4880-8986-45e8feb81f58.jpg",
+    "updatedAt": "2021-05-24T18:38:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

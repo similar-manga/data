@@ -11,7 +11,6 @@
     "en": "This manga follows the Musou Koei Team, led by Koinuma Hisashi, as they seek to turn a classic manga into a satisfying video game."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,39 +34,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-13T07:01:26+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "f62a95f9-0bbd-4ffa-9d4b-6ceeaa20c80d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hirosue Ariyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f62a95f9-0bbd-4ffa-9d4b-6ceeaa20c80d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hirosue Ariyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7ee7babb-53e4-4dad-8a29-fd67309e2397",
-   "type": "chapter"
-  },
-  {
-   "id": "d6c39db6-e68d-4fae-bdf8-e58e97a9631e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "0aa1a072-f048-4f88-8578-e160f5e059df",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:46+00:00",
+    "description": "",
+    "fileName": "20187730-a984-4daa-be52-6b3392cc4d94.png",
+    "updatedAt": "2021-05-24T17:18:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

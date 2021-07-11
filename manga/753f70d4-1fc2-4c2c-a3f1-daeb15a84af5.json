@@ -7,6 +7,11 @@
    "title": {
     "en": "The Killer"
    },
+   "altTitles": [
+    {
+     "en": "キラー"
+    }
+   ],
    "description": {
     "en": "When Yuuya receives unwanted attention from a customer at the bar where he works, one of the bar's regulars, Haibara comes to his rescue. Yuuya falls in love with Haibara, but how will he be able to confess his feelings when Haibara sees Yuuya's attitude towards him as nothing more than an act?"
    },
@@ -29,8 +34,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,67 +60,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-19T04:56:26+00:00",
+   "updatedAt": "2021-05-25T15:43:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "fc77a27c-d8b9-4322-a289-7357a52a7147",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kanai Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fc77a27c-d8b9-4322-a289-7357a52a7147",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kanai Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "54e06928-2ec7-4573-8b44-6753ee54adf5",
-   "type": "chapter"
-  },
-  {
-   "id": "55d82ad7-ca32-4673-aafb-06faeeacaa4d",
-   "type": "chapter"
-  },
-  {
-   "id": "ba8df974-24d1-4b19-9ef9-c885751e72a4",
-   "type": "chapter"
-  },
-  {
-   "id": "131efc41-016f-4955-8596-05c3a1b13313",
-   "type": "chapter"
-  },
-  {
-   "id": "7ea8f17c-65ed-46d9-bcee-a057ae94c5ba",
-   "type": "chapter"
-  },
-  {
-   "id": "374e5668-c3cd-408b-958e-6096d0b83210",
-   "type": "chapter"
-  },
-  {
-   "id": "ba839c63-770c-4cce-81ef-46e645502f27",
-   "type": "chapter"
-  },
-  {
-   "id": "cac341e5-a929-4f0b-8e1a-767dbf4f2e9e",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "27401ce9-3004-4f6b-b9bc-14e0c31a11b6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:42:23+00:00",
+    "description": "",
+    "fileName": "9cc3cee2-aa07-43b8-9d54-232a205740f4.jpg",
+    "updatedAt": "2021-05-24T16:42:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

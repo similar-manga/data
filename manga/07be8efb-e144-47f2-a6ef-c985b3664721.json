@@ -7,6 +7,17 @@
    "title": {
     "en": "Mizuiro"
    },
+   "altTitles": [
+    {
+     "en": "Watercolor"
+    },
+    {
+     "en": "みずいろ"
+    },
+    {
+     "en": "물빛러브"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,39 +65,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-07T15:01:36+00:00",
+   "updatedAt": "2021-05-25T15:39:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "44eb1caf-7c7a-4976-81e0-9a1043d694ab",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OOISHI Masaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "44eb1caf-7c7a-4976-81e0-9a1043d694ab",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OOISHI Masaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1df9e2c9-3456-4a24-a357-851ca911c86f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "1f476b24-dad6-4f99-85d4-9aefc8d79088",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:36:38+00:00",
+    "description": "",
+    "fileName": "f033c2a8-7b74-4767-96f8-b7ecc96d401a.jpg",
+    "updatedAt": "2021-05-24T17:36:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

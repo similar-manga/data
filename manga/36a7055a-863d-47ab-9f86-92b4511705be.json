@@ -7,6 +7,17 @@
    "title": {
     "en": "Grand Guignol"
    },
+   "altTitles": [
+    {
+     "en": "Big Puppet Show"
+    },
+    {
+     "en": "Театр кукол Гран-Гиньоль"
+    },
+    {
+     "en": "グラン・ギニョール"
+    }
+   ],
    "description": {
     "en": "After meeting and falling for him, Viscount Suga returns to Japan with Konrad. There Konrad is made Viscount Suga's butler and the indecent bond they share as master and servant cannot be severed. However, with the arrival of an old acquaintance, Viscount Shirakawa, the bond between master and servant is bound to be tested.\r\n\r\nPrequel to Romantic from Tanbishugi"
    },
@@ -29,8 +40,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,39 +66,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-27T11:18:00+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "12fed732-5a0e-4898-908b-0c10800c5553",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Motoni Modoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "12fed732-5a0e-4898-908b-0c10800c5553",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Motoni Modoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "907abecf-2ce4-4d76-b5bb-b7495fddb36b",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "1db5acf9-cff0-4f3f-b985-8e36cff8bdf2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:41+00:00",
+    "description": "",
+    "fileName": "1a9226eb-b81d-42c3-b624-1f56035203f0.jpg",
+    "updatedAt": "2021-05-24T17:09:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

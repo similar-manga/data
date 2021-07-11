@@ -7,6 +7,14 @@
    "title": {
     "en": "Backstage de Aimashou"
    },
+   "altTitles": [
+    {
+     "en": "See you at the Backstage"
+    },
+    {
+     "en": "バックステージであいましょう"
+    }
+   ],
    "description": {
     "en": "Shuma Takatsu is a young rookie actor quickly rising in popularity. After a night of drinking, he wakes up one morning to a naked man next to him with no memory of what had happened?! That naked man turned out to be the talented actor, Shiozawa Motoi! To make things worse, now he's going to be Shuma's new co-star!"
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +46,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,57 +56,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-29T00:30:41+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "afa4331d-bfda-4fc7-98ef-2066b07de9c7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakumoto Ayu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "afa4331d-bfda-4fc7-98ef-2066b07de9c7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakumoto Ayu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "649e56e8-634d-4d55-b4d8-7490ec1814dc",
-   "type": "chapter"
-  },
-  {
-   "id": "dfd8494e-4d14-4f00-a519-c92545d83053",
-   "type": "chapter"
-  },
-  {
-   "id": "48b1a6da-c13f-4bbe-9a91-9e15582fa2b3",
-   "type": "chapter"
-  },
-  {
-   "id": "9c471f0f-2ad5-4ccf-b1c2-62e8a302ad0a",
-   "type": "chapter"
-  },
-  {
-   "id": "8447ff77-d0c4-4a22-9fac-af4de793f2c8",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "f07f16e1-dabf-4f3e-9ce6-49a8456c2928",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:20:42+00:00",
+    "description": "",
+    "fileName": "847652c2-37e6-45e6-acf8-db7aaaa15a03.png",
+    "updatedAt": "2021-05-24T18:20:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

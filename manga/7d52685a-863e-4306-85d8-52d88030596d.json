@@ -7,6 +7,17 @@
    "title": {
     "en": "Ookami-san to Eroi koto"
    },
+   "altTitles": [
+    {
+     "en": " There's a Wolf in my Bed"
+    },
+    {
+     "en": "Ookamisan to Eroikoto"
+    },
+    {
+     "en": "オオカミさんとえろいこと"
+    }
+   ],
    "description": {
     "en": "1. Oogami's Beast is in Heat\r\n2-3. Nii-san is All Mine\r\n4. Repayment of Wolf-Child in Love\r\n5. My Wolf's First Love\r\n5.5 Ookami-san's Transformation"
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -49,8 +64,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +78,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,47 +90,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-29T19:54:25+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "bbb4df49-43ca-4612-bd98-d9c256412afd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshidaya Roku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bbb4df49-43ca-4612-bd98-d9c256412afd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshidaya Roku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b61fd8b9-c212-4735-ad0c-d3cf0f0a90d7",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "7e95004c-78a4-4f5a-907c-482e85e4e810",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:28:25+00:00",
+    "description": "",
+    "fileName": "f739b8e6-849e-4831-8e1b-ff3eae65acaf.jpg",
+    "updatedAt": "2021-05-24T17:28:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

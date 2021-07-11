@@ -7,6 +7,14 @@
    "title": {
     "en": "Bom, Gaeul"
    },
+   "altTitles": [
+    {
+     "en": "Spring, Fall"
+    },
+    {
+     "en": "봄, 가을"
+    }
+   ],
    "description": {
     "en": "Boring days, boring life. She wants her life to spice up with a mystery or two.\r\nShe gets her wish."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +72,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,83 +84,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-16T22:00:44+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "707684e4-8aef-4d98-ae87-165ec000f60f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "E-lim",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "707684e4-8aef-4d98-ae87-165ec000f60f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "E-lim",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6acf9c83-dd9f-4a16-a4d0-e4364b247b73",
-   "type": "chapter"
-  },
-  {
-   "id": "55bce90b-37ec-4e76-8a5d-24c598626112",
-   "type": "chapter"
-  },
-  {
-   "id": "57f059ab-ba14-4f00-93c7-1bed97d092c0",
-   "type": "chapter"
-  },
-  {
-   "id": "c9f75b32-2744-4e16-9ae2-27ddbaddb3ed",
-   "type": "chapter"
-  },
-  {
-   "id": "b4c60262-31df-4fd4-9b2a-c0535c2dd0ad",
-   "type": "chapter"
-  },
-  {
-   "id": "032c1b3c-a105-48c3-97eb-256646772a3f",
-   "type": "chapter"
-  },
-  {
-   "id": "15638ead-90b3-43f8-a1a5-383cbec08fe3",
-   "type": "chapter"
-  },
-  {
-   "id": "95837a50-2e6e-4891-911b-34cec7633bd6",
-   "type": "chapter"
-  },
-  {
-   "id": "ffc0a2ed-5eff-4f39-a99e-75e019d9989d",
-   "type": "chapter"
-  },
-  {
-   "id": "97d7a13b-4f6f-4e7c-9d84-f066ef755b20",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "b8b4a9ca-f8a2-4f3b-8fc5-c818ef01d241",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:18+00:00",
+    "description": "",
+    "fileName": "e29f91ed-2c83-4023-aa82-c83edfe5b43a.png",
+    "updatedAt": "2021-05-24T17:08:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

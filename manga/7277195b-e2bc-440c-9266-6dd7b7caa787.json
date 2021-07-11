@@ -7,6 +7,11 @@
    "title": {
     "en": "Curry Utopia"
    },
+   "altTitles": [
+    {
+     "en": "カレーユートピア"
+    }
+   ],
    "description": {
     "en": "For the summer heat, some chilling horror (jk).\r\n\r\nAuthor's Twitter: [url=https://twitter.com/kidomitsuru]@kidomitsuru[/url]"
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +57,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +69,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,6 +81,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -78,59 +93,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-14T17:32:51+00:00",
+   "updatedAt": "2021-05-25T15:43:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "4c1b9161-1cc0-4ff9-9cb5-ec1405c136f9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kido Mitsuru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4c1b9161-1cc0-4ff9-9cb5-ec1405c136f9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kido Mitsuru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d6dcfdd6-7da5-4065-ae31-bfa78f6e0ef2",
-   "type": "chapter"
-  },
-  {
-   "id": "dacacc0d-7867-4dc1-8790-494fa34dd7e3",
-   "type": "chapter"
-  },
-  {
-   "id": "03e7366f-37b1-459f-a835-b0f0f9ca1a60",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "61b0e986-8ae5-4fde-8cda-ed507955ea30",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:48:34+00:00",
+    "description": "",
+    "fileName": "1e8a043a-3f37-4251-9e29-a80663139e66.jpg",
+    "updatedAt": "2021-05-24T17:48:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

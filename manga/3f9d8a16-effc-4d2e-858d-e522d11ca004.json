@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "erito \u0026omega; wa yoru ni oborete"
+    "en": "erito ω wa yoru ni oborete"
    },
+   "altTitles": [
+    {
+     "en": "Elite omega se esta ahogando en la noche"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "erotica",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -30,8 +36,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,35 +50,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-01-24T17:55:59+00:00",
+   "updatedAt": "2021-01-24T17:55:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "d650dfad-d7dd-4a66-a97b-cc76c216619b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takamura Anna",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d650dfad-d7dd-4a66-a97b-cc76c216619b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takamura Anna",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "3cefebb3-87e4-4f31-83cc-145c924e41b9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:28:30+00:00",
+    "description": "",
+    "fileName": "c98c880a-e678-4f2b-932b-1cca182e8261.jpg",
+    "updatedAt": "2021-05-24T18:28:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

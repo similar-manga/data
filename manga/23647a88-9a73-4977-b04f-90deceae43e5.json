@@ -11,7 +11,6 @@
     "en": "Mio x Ritsu"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -20,8 +19,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,39 +33,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-15T18:48:48+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "e878caa1-b648-49fd-983c-e9d7f7231258",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kumichou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e878caa1-b648-49fd-983c-e9d7f7231258",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kumichou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e41dc5c0-53f0-4d25-bfcb-9a9af43462d4",
-   "type": "chapter"
-  },
-  {
-   "id": "db04ca9a-cacf-4eac-aa4c-1b5c2da066cb",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "a1a92ebd-11bb-4ff3-a23a-30ffbd70a04e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:14:28+00:00",
+    "description": "",
+    "fileName": "f915776f-17c2-432d-a132-baa632e7aa3f.jpg",
+    "updatedAt": "2021-05-28T23:14:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

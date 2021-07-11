@@ -7,8 +7,13 @@
    "title": {
     "en": "House of Stars"
    },
+   "altTitles": [
+    {
+     "en": "Dom Gwiazd"
+    }
+   ],
    "description": {
-    "en": "Lily jest przygodową dziewczyną, kt\u0026oacute;ra mieszka w nudnym mieście, w kt\u0026oacute;rym nic się nigdy nie dzieje, ale kiedy młode dziewczyny, kt\u0026oacute;re błąkają się w lesie w pobliżu jej wioski, zaczynają ginąć, Lily zostaje wciągnięta w niebezpieczne zadanie - takie, kt\u0026oacute;re przenosi ją do dziwnego świata, w kt\u0026oacute;rym istnieje tuż pod jej stopami."
+    "en": "Lily jest przygodową dziewczyną, która mieszka w nudnym mieście, w którym nic się nigdy nie dzieje, ale kiedy młode dziewczyny, które błąkają się w lesie w pobliżu jej wioski, zaczynają ginąć, Lily zostaje wciągnięta w niebezpieczne zadanie - takie, które przenosi ją do dziwnego świata, w którym istnieje tuż pod jej stopami."
    },
    "originalLanguage": "es-la",
    "lastChapter": "26",
@@ -22,6 +27,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +39,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +51,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -52,39 +63,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-08-29T14:56:01+00:00",
+   "updatedAt": "2020-08-29T14:56:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "d73fd8cf-b603-47b0-b697-1039dc7cc6b3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "saltacuentos",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2d3fc637-7da0-496d-a08e-2aec128305eb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lion",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "9e00b788-18f9-4fff-a6f9-71e820e9c18b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:08:19+00:00",
+    "description": "",
+    "fileName": "b5368eaf-1455-477b-9fda-7d3d2dcffeb8.jpg",
+    "updatedAt": "2021-05-24T18:08:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

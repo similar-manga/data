@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Mon ann\u0026eacute;e"
+    "en": "Mon année"
    },
+   "altTitles": [
+    {
+     "en": "Mój rok"
+    },
+    {
+     "en": "Mi año"
+    },
+    {
+     "en": "My year"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +25,6 @@
     "mu": "113544"
    },
    "originalLanguage": "fr",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +36,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,31 +48,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-02-17T19:13:05+00:00",
+   "updatedAt": "2021-02-17T19:13:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "e076034c-cde7-451a-9bcb-9df8182b2751",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jean-David Morvan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "97effcde-ce83-4f26-b0a6-b9dfcb615173",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Taniguchi Jiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "30363a18-6f5e-4f8c-8cda-3c077211b594",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:32:01+00:00",
+    "description": "",
+    "fileName": "3648ff22-fe69-4497-957f-dd6b63a676ba.jpg",
+    "updatedAt": "2021-05-24T18:32:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

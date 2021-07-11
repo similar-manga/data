@@ -15,7 +15,6 @@
     "raw": "https://www.ookbeecomics.com/comics/1732"
    },
    "originalLanguage": "th",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +25,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -34,8 +35,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,47 +49,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-18T08:28:23+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "13abac3d-9624-4e26-9abf-34e263b51750",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Meterodox",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "13abac3d-9624-4e26-9abf-34e263b51750",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Meterodox",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "62e18238-3c72-4f38-81ee-dee8e59c6b3f",
-   "type": "chapter"
-  },
-  {
-   "id": "2626668a-23c3-4553-bdb5-887e9bb04ec3",
-   "type": "chapter"
-  },
-  {
-   "id": "8520d7f3-9c8a-49a0-a235-e359c13e1d3e",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "e94858ef-9633-4f42-aea1-3199f1b996b7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:54:55+00:00",
+    "description": "",
+    "fileName": "137b423c-2f5c-4c62-8896-a4cc52176056.jpg",
+    "updatedAt": "2021-05-24T16:54:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

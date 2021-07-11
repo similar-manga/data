@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Chiisai Hito \u0026ndash; Aoba Jidou Soudanjo Monogatari"
+    "en": "Chiisai Hito – Aoba Jidou Soudanjo Monogatari"
    },
+   "altTitles": [
+    {
+     "en": "ちいさいひと 青葉児童相談所物語"
+    }
+   ],
    "description": {
     "en": "Deals with the thorny problem of child abuse."
    },
@@ -15,7 +20,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "6",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -27,6 +31,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +43,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +55,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,43 +67,65 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-11-27T03:15:33+00:00",
+   "updatedAt": "2018-11-27T03:15:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "630aa798-7af6-478b-9787-9f3cdb7272e0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mizuno Mitsuhiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6b3568ac-1cb0-4e2c-ac60-0d37c475e4fd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Komiya Junichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c538abee-8967-4918-b3d1-116c0900d6fb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kyouchikutou Jin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "65685f2e-9afe-4fce-9433-3fdf2a53b864",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:52:50+00:00",
+    "description": "",
+    "fileName": "e283e8a6-d3c7-47a1-9715-61c19b3216f2.jpg",
+    "updatedAt": "2021-05-24T16:52:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

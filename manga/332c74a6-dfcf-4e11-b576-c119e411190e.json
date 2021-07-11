@@ -7,6 +7,11 @@
    "title": {
     "en": "Gagoze"
    },
+   "altTitles": [
+    {
+     "en": "ガゴゼ"
+    }
+   ],
    "description": {
     "en": "The Muromachi Period was a time when nightfall brought true darkness. Set in this era of gloom, the tale of GAGOZE, a violent demon feared even by the monsters, is about to begin!"
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,43 +49,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-04T17:55:59+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "77f0488a-5012-42b3-b5de-87934e55e917",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ahndongshik",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "77f0488a-5012-42b3-b5de-87934e55e917",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ahndongshik",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f1956dc0-0f0d-4662-aefc-3a403909be61",
-   "type": "chapter"
-  },
-  {
-   "id": "5d66c4eb-90e4-4285-90c5-fe7e67e15076",
-   "type": "chapter"
-  },
-  {
-   "id": "7468c8c6-d332-4a07-8b3f-250296a8b8c8",
-   "type": "chapter"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "ed315aba-c5b7-4f98-b354-117d93d98a8b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:36:31+00:00",
+    "description": "",
+    "fileName": "b16d1706-4ff1-4d2b-923f-bf5f779dfbea.jpg",
+    "updatedAt": "2021-05-24T18:36:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

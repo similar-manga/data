@@ -7,6 +7,14 @@
    "title": {
     "en": "Gemini"
    },
+   "altTitles": [
+    {
+     "en": "GEMINI-ジェミニ-"
+    },
+    {
+     "en": "ジェミニ"
+    }
+   ],
    "description": {
     "en": "A girl with a gas mask attempting to fight back against the strange world"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Monsters"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Post-Apocalyptic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,47 +74,53 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-19T12:22:28+00:00",
+   "updatedAt": "2021-05-25T15:47:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "8e3594bb-820e-4e72-a478-79c509889c7b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Izumi Tomoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8e3594bb-820e-4e72-a478-79c509889c7b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Izumi Tomoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e7cea964-d614-49e4-89f1-fb2c2211708b",
-   "type": "chapter"
-  },
-  {
-   "id": "c3044a14-b700-4c51-adb7-eb56e66371f9",
-   "type": "chapter"
-  },
-  {
-   "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "9467335a-1b83-4497-9231-765337a00b96",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
+   "id": "4c372d38-6a42-4fc3-85d6-068289a9747e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:28+00:00",
+    "description": "",
+    "fileName": "3d0243b2-6d02-46f5-b951-8106bbe495db.jpg",
+    "updatedAt": "2021-05-24T17:56:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

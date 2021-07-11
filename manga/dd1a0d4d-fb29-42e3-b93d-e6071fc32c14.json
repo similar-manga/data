@@ -7,6 +7,14 @@
    "title": {
     "en": "Maki no Gakkyuu Nisshi"
    },
+   "altTitles": [
+    {
+     "en": "Buku Harian Maki"
+    },
+    {
+     "en": "魔奇の学級日誌"
+    }
+   ],
    "description": {
     "en": "There's mystery in every corner of your school! And Maki will tell you all the story behind it..."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -40,55 +50,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-11T02:13:32+00:00",
+   "updatedAt": "2021-05-25T15:48:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "e869ff52-0be4-4819-ad3c-76cb27cd8859",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Subaru Ueno",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e869ff52-0be4-4819-ad3c-76cb27cd8859",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Subaru Ueno",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "df455f84-c32c-4605-89cc-2375513edbef",
-   "type": "chapter"
-  },
-  {
-   "id": "7759cca7-e7fb-40a0-ae99-a713787b00cb",
-   "type": "chapter"
-  },
-  {
-   "id": "eca966cb-2fb7-4a8f-9d66-e8c1f9298bc2",
-   "type": "chapter"
-  },
-  {
-   "id": "ec6b7b6b-fbf9-4500-924e-e796d5496783",
-   "type": "chapter"
-  },
-  {
-   "id": "8f721924-ab27-45d1-b50a-76f7040fae3b",
-   "type": "chapter"
-  },
-  {
-   "id": "3e31f512-05c9-4b0f-afb8-2ca327beac1e",
-   "type": "chapter"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "9bcc37f5-8dbd-4fe8-9999-c88b181a7d98",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:41:34+00:00",
+    "description": "",
+    "fileName": "c2b3d7ac-4116-4997-8ada-4a1de3449c72.jpg",
+    "updatedAt": "2021-05-24T16:41:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

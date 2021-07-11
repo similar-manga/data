@@ -7,6 +7,14 @@
    "title": {
     "en": "My Love is a Gangster?!"
    },
+   "altTitles": [
+    {
+     "en": "Nae Aeineun Jopog?!"
+    },
+    {
+     "en": "내 애인은 조폭?!"
+    }
+   ],
    "description": {
     "en": "Ever optimistic genki girl Chun-Ah-Young just started working as a florist... but the manager of her shop is one seriously suspicious looking guy. What's worse, his friend that actually owns the place and occasionally comes to visit, appears to be even scarier than he is!\r\n\r\nJust who are these people and what do they really do for a living?"
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +61,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,8 +71,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,6 +85,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -79,87 +97,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-07T07:31:37+00:00",
+   "updatedAt": "2021-05-25T15:39:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "d59cf8f1-c230-4844-b2e9-46ae3d7364a9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jang Jo Rim",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ec170dfe-4212-4aad-b04a-2f9a021f6c86",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mo Tyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f0677960-d0f5-4a87-a229-f2f689ce4e3a",
-   "type": "chapter"
-  },
-  {
-   "id": "5308f414-b877-4e28-845b-f2542c5eb6d4",
-   "type": "chapter"
-  },
-  {
-   "id": "4084454f-190e-46e4-b41c-f5448ef5447b",
-   "type": "chapter"
-  },
-  {
-   "id": "89a78e1a-2bf2-43a4-a333-92238a27202a",
-   "type": "chapter"
-  },
-  {
-   "id": "b6b4ec3e-d0be-4d35-913a-a9abb440b654",
-   "type": "chapter"
-  },
-  {
-   "id": "e7397efe-2e75-4695-856b-2f0428da8282",
-   "type": "chapter"
-  },
-  {
-   "id": "7d37a6e3-24bf-418a-a3e3-0a34785d2d8b",
-   "type": "chapter"
-  },
-  {
-   "id": "3366970d-48b5-4671-ad5d-9d67dd0ff4f6",
-   "type": "chapter"
-  },
-  {
-   "id": "ad4a5f1b-a1dc-4872-8411-cf7a79351870",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c1ee2f-6604-4175-9128-2eceb3247222",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "eaad360d-a2a9-4f57-961c-28b1b76aa0b3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:55+00:00",
+    "description": "",
+    "fileName": "afc0ea09-daa9-4d87-b055-3d13fe41b6ac.png",
+    "updatedAt": "2021-05-24T17:21:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Rashanu!"
    },
+   "altTitles": [
+    {
+     "en": "Rashaanu!"
+    },
+    {
+     "en": "ラシャーヌ!"
+    }
+   ],
    "description": {
     "en": "A parody of 19th-century romance, starring an eccentric Indian prince Rashanu (who also appears as a supporting character in Patalliro! by the same mangaka)."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,51 +75,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-18T13:50:44+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "ba63f128-0bf0-496a-b769-4f50eaa58234",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maya Mineo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ba63f128-0bf0-496a-b769-4f50eaa58234",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maya Mineo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8bd7432a-7bed-4d0c-9b48-0ec8f6456129",
-   "type": "chapter"
-  },
-  {
-   "id": "785cfe85-251b-4590-a822-418c4bc12cb9",
-   "type": "chapter"
-  },
-  {
-   "id": "28970bfd-8248-4017-8013-0345413a36f1",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "c1f2736a-ff18-4f40-8047-9da8f89417b3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:37:55+00:00",
+    "description": "",
+    "fileName": "2d7328a9-29dc-4ab0-a32d-7bd3092f13e6.jpg",
+    "updatedAt": "2021-05-24T18:37:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

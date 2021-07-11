@@ -7,6 +7,14 @@
    "title": {
     "en": "Koisuru Edison"
    },
+   "altTitles": [
+    {
+     "en": "Koi Suru Edison"
+    },
+    {
+     "en": "恋するエジソン"
+    }
+   ],
    "description": {
     "en": "It's said that Thomas Edison stuffed all of his knowledge into his final invention, a screw. Presently, said screw, is buried inside the head of Matsunaka Spica, a high school girl!!! When Matsunaka Spica's thoughs rise to a high enough level, she can create amazing inventions that would normally be impossible to construct!!"
    },
@@ -32,6 +40,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,39 +52,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-08T19:50:29+00:00",
+   "updatedAt": "2021-05-25T15:40:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "b905e6cf-9046-4917-8b29-89eba5f594f8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Watanabe Kizuku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b905e6cf-9046-4917-8b29-89eba5f594f8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Watanabe Kizuku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "92c4ad06-e6db-4e3d-9b1c-6ca4c0e0fd56",
-   "type": "chapter"
-  },
-  {
-   "id": "657d5ba5-55d6-4541-9759-6f78ec70cddc",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "6298244a-f029-4fde-ae2f-44a8641f5dfc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:40:23+00:00",
+    "description": "",
+    "fileName": "ff6cb880-94c2-433b-af22-675afee22b02.png",
+    "updatedAt": "2021-05-24T18:40:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

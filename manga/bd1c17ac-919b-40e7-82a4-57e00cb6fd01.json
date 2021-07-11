@@ -7,6 +7,14 @@
    "title": {
     "en": "Hungry Joker"
    },
+   "altTitles": [
+    {
+     "en": "HUNGRY JOKER"
+    },
+    {
+     "en": "ハングリージョーカー"
+    }
+   ],
    "description": {
     "en": "Follows the adventures of a scientist Haiji and his assistant Chitose. One day the doctor is called to resolve a mystery about a glowing corpse. From the will of an unknown power the corpse then transforms into a monster and Haiji has to defeat it, to learn all about a mysterious black apple which can regenerate itself and which when eaten will enable someone to control gravity..."
    },
@@ -34,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,6 +66,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -64,79 +78,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-21T01:07:16+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "7cc06a48-bd29-42cd-b837-f2881ee7931f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tabata Yuuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7cc06a48-bd29-42cd-b837-f2881ee7931f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tabata Yuuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3c27775f-5e79-4e1c-9cc0-7ddd356b258f",
-   "type": "chapter"
-  },
-  {
-   "id": "cc2913ad-6fd2-4e65-add9-1792442c49ca",
-   "type": "chapter"
-  },
-  {
-   "id": "607082ff-15fa-4745-8a3b-b6cc9c229eca",
-   "type": "chapter"
-  },
-  {
-   "id": "da4ac3b7-03a4-4459-9400-914aa6427531",
-   "type": "chapter"
-  },
-  {
-   "id": "8dbec96e-9d75-4490-a95b-ba95a0001273",
-   "type": "chapter"
-  },
-  {
-   "id": "aa3db95e-7bc8-4687-8540-5198f42ace68",
-   "type": "chapter"
-  },
-  {
-   "id": "cb6df7f9-8b6f-4222-a7b4-0059e03061a9",
-   "type": "chapter"
-  },
-  {
-   "id": "89d96bf0-01f4-4e6b-92c3-79d19e22d6d1",
-   "type": "chapter"
-  },
-  {
-   "id": "2df362f9-47a8-4869-b334-22efaff40cc0",
-   "type": "chapter"
-  },
-  {
-   "id": "cc6d44f1-0479-49e2-802b-25e24bee8443",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "08d12dbc-ddf0-4fb0-b9c5-40dbb73c941b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:06+00:00",
+    "description": "",
+    "fileName": "b1e6341c-6c12-4e34-9a05-eb7bca2af915.jpg",
+    "updatedAt": "2021-05-24T17:21:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

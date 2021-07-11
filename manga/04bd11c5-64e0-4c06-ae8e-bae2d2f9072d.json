@@ -5,8 +5,31 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "\u0026Agrave; la Carte"
+    "en": "À la Carte"
    },
+   "altTitles": [
+    {
+     "en": "A la Carte"
+    },
+    {
+     "en": "dZi:s"
+    },
+    {
+     "en": "Kohrogi"
+    },
+    {
+     "en": "NOIZ"
+    },
+    {
+     "en": "X-connection2001"
+    },
+    {
+     "en": "ア・ラ・カルト"
+    },
+    {
+     "en": "ア・ラ・カルト―樋口大輔短編集2"
+    }
+   ],
    "description": {
     "en": "1. Kohrogi\r\nMitsurugi Kai is a wizard that must pass a test of character. He doubts himself due to his past. His test is to retrieve paper charms by himself. On his way, he meets Kohrogi Orine who is a fledgling singer who also doubts herself.\r\n\r\n2. NOIZ\r\nHayami Shrou can see into the future of people by touching them. Two years ago he lost his parents in an accident, while his sister barely survived, but remains unconscious. He blames himself, thinking that if he had touched them and saw into their future back then, he could have saved them.\r\n\r\n3. dZi:s\r\n\r\n4. X-connection 2001\r\n\r\nThis is volume 2 of [i]Higuchi Daisuke Short Collection[/i].  Volume 1 is [i]Break Free[/i] (published 1999)."
    },
@@ -31,6 +54,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +66,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +78,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -61,6 +90,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,6 +102,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -81,63 +114,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-02T21:17:16+00:00",
+   "updatedAt": "2021-05-25T15:38:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "9489e0cf-cb0b-49d8-9af1-c952aaaa96bd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Higuchi Daisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9489e0cf-cb0b-49d8-9af1-c952aaaa96bd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Higuchi Daisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "68ae33c6-981b-4fe9-8096-06b4b48b50b2",
-   "type": "chapter"
-  },
-  {
-   "id": "d11132c9-ba95-4b27-ac0e-b0dca6ff6228",
-   "type": "chapter"
-  },
-  {
-   "id": "375b327a-be2e-4906-85e3-ed9f0f83e4be",
-   "type": "chapter"
-  },
-  {
-   "id": "8fb7ce6a-7d7a-411c-8a11-1661a10c0cde",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "1eb410cb-3445-4f51-b9b9-17ed77f5ad35",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:35:16+00:00",
+    "description": "",
+    "fileName": "40144551-6152-4667-9040-545b9c388e14.jpg",
+    "updatedAt": "2021-05-24T17:35:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

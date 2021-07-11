@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "My Older Sister\u0026rsquo;s Friends are Nothing but Lewd Girls"
+    "en": "My Older Sister’s Friends are Nothing but Lewd Girls"
    },
+   "altTitles": [
+    {
+     "en": "Onee-chan no Tomodachi ga Ecchi na Hito Bakari datta kara"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,39 +38,53 @@
       "name": {
        "en": "Shota"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-06T12:50:02+00:00",
+   "updatedAt": "2021-05-25T15:43:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "ad63493b-4ef3-492a-a9c1-9a9952a7754b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nora Higuma",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ad63493b-4ef3-492a-a9c1-9a9952a7754b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nora Higuma",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5eb2adac-19ed-4c21-9579-42adac075619",
-   "type": "chapter"
-  },
-  {
-   "id": "92f939fa-4346-421e-9359-e3910f202ae0",
-   "type": "chapter"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "ddefd648-5140-4e5f-ba18-4eca4071d19b",
-   "type": "tag"
+   "id": "0460661e-8adb-4f29-9d6f-36d35e197b45",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:01:58+00:00",
+    "description": "",
+    "fileName": "c522b5e0-3507-4c94-aef9-aa625a8869a5.jpg",
+    "updatedAt": "2021-05-24T18:01:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,17 @@
    "title": {
     "en": "Boku no Tsar"
    },
+   "altTitles": [
+    {
+     "en": "Boku no Tsuari"
+    },
+    {
+     "en": "Мой царь"
+    },
+    {
+     "en": "ぼくのツアーリ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -32,6 +43,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +55,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -52,35 +67,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-03-31T02:40:16+00:00",
+   "updatedAt": "2020-03-31T02:40:16+00:00"
   }
  },
  "relationships": [
   {
    "id": "60c41bb9-c616-44b7-b9b3-508eac51281d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kusaka Shinya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e04fbf54-bb55-4dd3-b638-0b3b53df3fd1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Himeno Yuuma",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "211cc1e6-c8a6-4fe7-acf5-51ad888cdf5a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:50:36+00:00",
+    "description": "",
+    "fileName": "a7c1ee0c-471d-41c7-bc6f-a2e0096c16e7.jpg",
+    "updatedAt": "2021-05-24T17:50:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

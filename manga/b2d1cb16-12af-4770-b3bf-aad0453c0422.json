@@ -7,6 +7,17 @@
    "title": {
     "en": "Chokotto Hime"
    },
+   "altTitles": [
+    {
+     "en": "Little Princess"
+    },
+    {
+     "en": "ฮิเมะ แมวเหมียว เดี๋ยวคน เดี๋ยวแมว"
+    },
+    {
+     "en": "ちょこっとヒメ"
+    }
+   ],
    "description": {
     "en": "Kitten Hime is accidentally adopted by first-time pet owner Nabe. Follow them as the inexperienced boy and the shy kitten grow into owner and pet and as they make many friends along their way."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -51,75 +66,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-01T08:08:32+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "9506fe82-8de7-44f1-82e2-17ab4f49f427",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kazama Ayami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9506fe82-8de7-44f1-82e2-17ab4f49f427",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kazama Ayami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1bc8cf92-4851-4f98-89bf-c18540fd2334",
-   "type": "chapter"
-  },
-  {
-   "id": "c604f733-cf11-4de1-b944-ad7222e90894",
-   "type": "chapter"
-  },
-  {
-   "id": "f5f4a952-f117-42ff-99ed-f02ee2447f4a",
-   "type": "chapter"
-  },
-  {
-   "id": "b5eb7e5d-2860-4944-9823-1cb29cfb1179",
-   "type": "chapter"
-  },
-  {
-   "id": "7ef6ef09-eec5-4016-b140-48cfb2ac3078",
-   "type": "chapter"
-  },
-  {
-   "id": "ecd85fa5-b77a-4c1b-8205-46ece876a24d",
-   "type": "chapter"
-  },
-  {
-   "id": "6f8194f9-050d-4850-a47f-620d801eda6c",
-   "type": "chapter"
-  },
-  {
-   "id": "96ff0b5f-e514-448b-b966-2a803eb0f961",
-   "type": "chapter"
-  },
-  {
-   "id": "d714ffac-d754-4a4b-9af8-49607d9bfddc",
-   "type": "chapter"
-  },
-  {
-   "id": "1d37899a-b31a-49be-b813-d3ff80576e7f",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "7d31f4d0-c731-4f46-a8f8-c9c5a2eb0e0d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:36:09+00:00",
+    "description": "",
+    "fileName": "7c203a83-a5d8-44fe-baa6-3ccba5ded18e.png",
+    "updatedAt": "2021-05-24T18:36:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

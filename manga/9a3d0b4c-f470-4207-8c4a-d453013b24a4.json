@@ -7,6 +7,14 @@
    "title": {
     "en": "Marionette"
    },
+   "altTitles": [
+    {
+     "en": "마리오네트"
+    },
+    {
+     "en": "마리오네트 (시리얼)"
+    }
+   ],
    "description": {
     "en": "The story of Ilya, who lives purely for his lover Henrik, a genius in a steampunk world. Despite horrible nightmares, life goes on as usual until a stranger visits. As Henrik grows jealous and possessive, Ilya begins to grow a spine want to live for himself. Will he be able to follow his own heart?"
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -55,8 +69,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +83,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -77,6 +95,8 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -87,67 +107,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-26T22:56:21+00:00",
+   "updatedAt": "2021-05-25T15:45:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "1c838885-b55d-48f5-9080-ebb966c0d21b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "시리얼",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1c838885-b55d-48f5-9080-ebb966c0d21b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "시리얼",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a00d7524-99e8-4a91-b259-07d319cb6246",
-   "type": "chapter"
-  },
-  {
-   "id": "6ea69d11-85b1-4383-9739-db6d84478ad7",
-   "type": "chapter"
-  },
-  {
-   "id": "f1f22a75-41f5-48b6-a6f1-a73696373a29",
-   "type": "chapter"
-  },
-  {
-   "id": "eacb9364-eeec-4ee7-a93c-3a8117e6fa23",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "4ba09c27-c1e5-4fec-9efb-f710a9774bef",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:50:06+00:00",
+    "description": "",
+    "fileName": "9e017e26-33c2-4cdf-a003-7fd57f94e202.jpg",
+    "updatedAt": "2021-05-24T17:50:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

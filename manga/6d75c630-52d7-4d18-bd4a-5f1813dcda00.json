@@ -12,7 +12,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "4",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -24,6 +23,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,35 +47,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-09-22T21:29:44+00:00",
+   "updatedAt": "2020-09-22T21:29:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "4e62170a-0726-431d-aa35-3310cb081c25",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yudetamago",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4e62170a-0726-431d-aa35-3310cb081c25",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yudetamago",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "d688a15c-1a80-4fd8-9012-a333f7d2dad7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:11:43+00:00",
+    "description": "",
+    "fileName": "196ea58d-dbd9-40fb-92d1-5779ae892581.jpg",
+    "updatedAt": "2021-05-24T18:11:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

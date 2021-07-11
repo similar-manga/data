@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon - Hikari's book plus 1"
+    "en": "Pokémon - Hikari's book plus 1"
    },
+   "altTitles": [
+    {
+     "en": "Hikaribon Plus Ichi"
+    },
+    {
+     "en": "Pokemon"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,35 +41,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-05T07:19:58+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "938e35dd-2875-4152-b0a5-cbd41de46cd4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Haguruman",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5788424b-cdd3-40fc-9204-9a9d5272f933",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koutarosu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3bb36105-8418-4679-b52d-debd47076aff",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "1deb5ce5-4069-4f3b-9e4c-101ae5f6f638",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:41+00:00",
+    "description": "",
+    "fileName": "d5c2cf5b-2484-499b-96f2-a5150dfbd632.jpg",
+    "updatedAt": "2021-05-24T17:32:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

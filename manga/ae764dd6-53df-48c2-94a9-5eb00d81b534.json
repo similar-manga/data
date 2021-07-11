@@ -7,6 +7,11 @@
    "title": {
     "en": "Offered"
    },
+   "altTitles": [
+    {
+     "en": "オファード"
+    }
+   ],
    "description": {
     "en": "Olympic track star. MIT whiz-kid. Adored by the beautiful co-ed's. Revered by classmates and teammates alike. Yu was sitting on top of the world.\r\n\r\nThat is, until the evil seductress Payetta, leader of an outlaw gang of boozers and brawlers, kidnaps Yu at knifepoint and steals him away to her hideout. He learns he's actually the son of Gilgamesh, the legendary founder and ruler of the ancient yet highly advanced civilization of Agartha. The history lesson doesn't stop there, though. Payetta claims to be the granddaughter of Adolf Hitler and wants to share her maniacal dreams with Yu and the new dystopia she plans to create."
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +49,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,75 +61,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-10T13:18:15+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "785c1506-618e-4829-9533-86995c04c0a4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KOIKE Kazuo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e9621c03-f8df-42b8-adb3-bc339179e2fe",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "IKEGAMI Ryoichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0a2aeb55-5a3f-4d08-b9aa-3915d8af78b1",
-   "type": "chapter"
-  },
-  {
-   "id": "d9471a7a-ac6b-465c-b0a3-2ad9b40f9f6d",
-   "type": "chapter"
-  },
-  {
-   "id": "5569ae67-44a0-4d41-b071-49b5a6c8cd0c",
-   "type": "chapter"
-  },
-  {
-   "id": "66e45bb5-205b-4d2c-ada9-b4b0bbb941c4",
-   "type": "chapter"
-  },
-  {
-   "id": "a347b97f-3f23-437d-8f73-62110d5014cf",
-   "type": "chapter"
-  },
-  {
-   "id": "9e4176d5-b798-49e7-98eb-5f9fd0419afa",
-   "type": "chapter"
-  },
-  {
-   "id": "2e70eca6-0b3c-410b-a54e-c91cc93d54dc",
-   "type": "chapter"
-  },
-  {
-   "id": "6514534c-bda8-4d6a-a1ec-9cf583d07c7b",
-   "type": "chapter"
-  },
-  {
-   "id": "c2ae934e-1570-4b06-a312-b5e866c97e11",
-   "type": "chapter"
-  },
-  {
-   "id": "593cfb5e-ba79-4318-9624-fff0e1cab03b",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "07982114-1232-4f20-b11b-5e85e932fae0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:00+00:00",
+    "description": "",
+    "fileName": "f1f72d93-f22b-4bca-981c-65edf548bf3a.jpg",
+    "updatedAt": "2021-05-24T17:15:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -25,6 +25,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +37,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,8 +47,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,63 +61,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-26T20:49:42+00:00",
+   "updatedAt": "2021-05-25T15:47:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "ed49660a-c66a-4ec1-abaa-9186b56facaa",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OFFCAR",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ed49660a-c66a-4ec1-abaa-9186b56facaa",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OFFCAR",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8c323e89-1761-4147-a73d-95f4cfd6ab98",
-   "type": "chapter"
-  },
-  {
-   "id": "7d058056-d75e-46ef-9aba-7105ef1505ee",
-   "type": "chapter"
-  },
-  {
-   "id": "0c890911-b636-4836-9dcb-a29c3192e1f2",
-   "type": "chapter"
-  },
-  {
-   "id": "1513e8f3-7164-4cf5-b759-7a6c4573a57a",
-   "type": "chapter"
-  },
-  {
-   "id": "2708e1e7-d275-429f-89bc-e673efccc22e",
-   "type": "chapter"
-  },
-  {
-   "id": "8a2a89c3-0308-4c06-ac31-b425da6aec9c",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "3c710002-0d34-4fd6-85d7-5818ae0b24ad",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:50:05+00:00",
+    "description": "",
+    "fileName": "e37f8c22-73b1-4c7e-b1d0-1889e73dfb67.jpg",
+    "updatedAt": "2021-05-24T17:50:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

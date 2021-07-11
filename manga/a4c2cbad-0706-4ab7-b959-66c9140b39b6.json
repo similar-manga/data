@@ -5,8 +5,25 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Shoujo\u0026sup2;"
+    "en": "Shoujo²"
    },
+   "altTitles": [
+    {
+     "en": "Even"
+    },
+    {
+     "en": "Ipheion"
+    },
+    {
+     "en": "Shoujo Squared"
+    },
+    {
+     "en": "Step In"
+    },
+    {
+     "en": "少女²"
+    }
+   ],
    "description": {
     "en": "A collection of Miman's stories published in Yuri Hime, which originally appeared in Yuri Shoujo, Hirari, or as doujinshi:\r\n\r\n1. The Flower Basket\r\n2. The Berry Garden\r\n3. Ipheion\r\n4. Even\r\n5. Step In\r\n6. Shabon"
    },
@@ -31,6 +48,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,8 +58,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +72,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,63 +84,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-23T01:01:41+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "27187350-9416-473c-9866-a468d504788b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miman",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "27187350-9416-473c-9866-a468d504788b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miman",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d7782583-57b0-492d-815a-4d943802515f",
-   "type": "chapter"
-  },
-  {
-   "id": "a6b29e52-878b-4240-b530-4e2927ee58c3",
-   "type": "chapter"
-  },
-  {
-   "id": "53f45c11-8cdb-4759-9c1a-c1d19a690af8",
-   "type": "chapter"
-  },
-  {
-   "id": "2efc1941-0dda-48e4-9f13-060920f43016",
-   "type": "chapter"
-  },
-  {
-   "id": "5dc4b357-f7b2-44e8-b193-f988eb52eaf5",
-   "type": "chapter"
-  },
-  {
-   "id": "869ed913-d275-4a64-bd77-110494d7b2dc",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "949ab866-562d-4fd7-be99-8eb53cff57f1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:16:22+00:00",
+    "description": "",
+    "fileName": "0300cdc7-d420-4ad4-945a-94a5a3bb20eb.jpg",
+    "updatedAt": "2021-05-24T17:16:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

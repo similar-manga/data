@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Tiger \u0026amp; Bunny - Banken Hiroimashita (Doujinshi)"
+    "en": "Tiger \u0026 Bunny - Banken Hiroimashita (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "番犬拾いました"
+    }
+   ],
    "description": {
     "en": "Pairing: Barnaby x Kotetsu, Ebi x Kotetsu, Barnaby x Ebi x Kotetsu"
    },
@@ -14,7 +19,6 @@
     "mu": "111174"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -23,8 +27,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,35 +41,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-05T12:40:21+00:00",
+   "updatedAt": "2021-05-25T15:42:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "316ba6f6-89ce-4adb-bfb0-4f74a1c415ec",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Owaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "316ba6f6-89ce-4adb-bfb0-4f74a1c415ec",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Owaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5ac1aca1-f884-48d4-8609-014bc8b5414b",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "77e43124-b9d2-4f14-94c1-8e4f70a2ec07",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:59+00:00",
+    "description": "",
+    "fileName": "d9fe4389-968d-4d7f-9bfb-571987fb94b9.png",
+    "updatedAt": "2021-05-24T17:06:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

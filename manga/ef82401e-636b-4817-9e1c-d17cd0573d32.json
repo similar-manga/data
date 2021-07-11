@@ -7,6 +7,20 @@
    "title": {
     "en": "Tom Sawyer"
    },
+   "altTitles": [
+    {
+     "en": "Le Dernier Été de mon enfance"
+    },
+    {
+     "en": "Том Сойер"
+    },
+    {
+     "en": "トムソーヤ"
+    },
+    {
+     "en": "夏天的冒險"
+    }
+   ],
    "description": {
     "en": "Haru, a young art student at Tokyo returns home to assist in her mom's funeral. There, she meets Taro, a kid of 14 years of age. With him, she's gonna see some things that will change her vacation completely."
    },
@@ -31,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +57,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +69,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,63 +81,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-11T04:04:45+00:00",
+   "updatedAt": "2021-05-25T15:49:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "ec528afb-c5d6-475b-ae6f-38e2f17964c7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Shin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ec528afb-c5d6-475b-ae6f-38e2f17964c7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Shin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cfa81ab0-5215-4b84-b512-2a895cb41a84",
-   "type": "chapter"
-  },
-  {
-   "id": "b463c081-d2b5-426f-9278-c5bd20c54ffd",
-   "type": "chapter"
-  },
-  {
-   "id": "1dbf9824-150c-49f1-8234-d72a016c51a1",
-   "type": "chapter"
-  },
-  {
-   "id": "bf60f87c-a4c5-4b40-950f-aca34a1c9fb4",
-   "type": "chapter"
-  },
-  {
-   "id": "05826cff-b798-421c-8205-2c2744a5fab7",
-   "type": "chapter"
-  },
-  {
-   "id": "4076928c-d010-4e1e-8bae-3a13a81103fc",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "bd7586c6-00f5-4f96-bbe6-1785827c8b83",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:03+00:00",
+    "description": "",
+    "fileName": "4c68a05e-4c5a-4c97-a633-ced3c2abe6d9.jpg",
+    "updatedAt": "2021-05-24T17:15:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

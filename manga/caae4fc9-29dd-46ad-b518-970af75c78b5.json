@@ -7,6 +7,14 @@
    "title": {
     "en": "Miniature Garden Cosmos"
    },
+   "altTitles": [
+    {
+     "en": "Hakoniwa Cosmos"
+    },
+    {
+     "en": "箱庭コスモス"
+    }
+   ],
    "description": {
     "en": "A transfer student does her best to form a mystery study club at her new school."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,79 +75,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-30T00:58:34+00:00",
+   "updatedAt": "2021-05-25T15:47:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "e12dedd9-ffd5-4b7f-817b-67d47aefeef8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kuwata Noriko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e12dedd9-ffd5-4b7f-817b-67d47aefeef8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kuwata Noriko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ae23184d-9d44-4c5e-be9c-1cc213e294e5",
-   "type": "chapter"
-  },
-  {
-   "id": "cea3650b-24c4-4126-9040-1ac6ca4a6f05",
-   "type": "chapter"
-  },
-  {
-   "id": "501c6e18-04c8-4029-907e-859a9dfe7491",
-   "type": "chapter"
-  },
-  {
-   "id": "5f82eeab-2c79-41a3-b356-79a214efbe96",
-   "type": "chapter"
-  },
-  {
-   "id": "9ebf7341-89d2-4553-af83-95e224fc9fab",
-   "type": "chapter"
-  },
-  {
-   "id": "1e6cfa63-e11e-423c-a541-9b379a208054",
-   "type": "chapter"
-  },
-  {
-   "id": "31a52be0-fc18-4dde-87ec-ede7e9d5f8c3",
-   "type": "chapter"
-  },
-  {
-   "id": "cd676567-7e1b-474b-9b5e-c6ebc025ff3e",
-   "type": "chapter"
-  },
-  {
-   "id": "43282275-dd88-4d4b-a06c-5356e7055c97",
-   "type": "chapter"
-  },
-  {
-   "id": "16785f9c-517c-448a-b791-2fc19dcaee49",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "009a185c-4382-4f73-b174-b167cbc00f67",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:36+00:00",
+    "description": "",
+    "fileName": "1383e89a-40c0-4f22-acff-15a9f9c67335.jpg",
+    "updatedAt": "2021-05-24T18:04:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

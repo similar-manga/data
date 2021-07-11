@@ -5,10 +5,18 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Yoru Caf\u0026eacute;"
+    "en": "Yoru Café"
    },
+   "altTitles": [
+    {
+     "en": "Night Cafe"
+    },
+    {
+     "en": "ヨルカフェ。"
+    }
+   ],
    "description": {
-    "en": "At twenty-three years old, Hina Takato inherited a caf\u0026eacute; and its employees from her deceased husband. Although he was much older than her, she loved him a great deal and has vowed to never fall in love again, only...?!\r\n\r\n[PL]   Hina Takato (lat 23) odziedziczyła kawiarnię i pracownik\u0026oacute;w po zmarłym mężu. Chociaż był od niej starszy, bardzo go kochała i obiecała sobie, że już nigdy się nie zakocha. Tak właśnie myślała\u0026hellip;"
+    "en": "At twenty-three years old, Hina Takato inherited a café and its employees from her deceased husband. Although he was much older than her, she loved him a great deal and has vowed to never fall in love again, only...?!\r\n\r\n[PL]   Hina Takato (lat 23) odziedziczyła kawiarnię i pracowników po zmarłym mężu. Chociaż był od niej starszy, bardzo go kochała i obiecała sobie, że już nigdy się nie zakocha. Tak właśnie myślała…"
    },
    "links": {
     "al": "38161",
@@ -33,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,75 +65,53 @@
       "name": {
        "en": "Reverse Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-01T16:15:55+00:00",
+   "updatedAt": "2021-05-25T15:48:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "e9a979d2-05bc-4aff-85f2-c412beee19c4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Enjouji Maki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e9a979d2-05bc-4aff-85f2-c412beee19c4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Enjouji Maki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "faef8d71-5e30-4ed1-b807-2844bf33b9e5",
-   "type": "chapter"
-  },
-  {
-   "id": "7b08980a-f35d-4c8b-906c-4c8967a3cb38",
-   "type": "chapter"
-  },
-  {
-   "id": "e6967cbf-e6b3-4b06-afa3-2c5aa56be4da",
-   "type": "chapter"
-  },
-  {
-   "id": "028a4d9d-11e9-4796-894f-dd25e64ee677",
-   "type": "chapter"
-  },
-  {
-   "id": "b11c3f70-816b-41cd-8767-d0a4a94d3d2c",
-   "type": "chapter"
-  },
-  {
-   "id": "48246570-9fbd-4550-aba1-d2f91a45f149",
-   "type": "chapter"
-  },
-  {
-   "id": "52568baf-1428-43af-8b01-496fc2735742",
-   "type": "chapter"
-  },
-  {
-   "id": "0a11298c-e1a9-48ed-a408-5fd1d14959f3",
-   "type": "chapter"
-  },
-  {
-   "id": "0f9ef9f7-b627-4c49-93f3-0a04a9365bb1",
-   "type": "chapter"
-  },
-  {
-   "id": "862feb9a-8a81-4e36-8287-141a84e1ac70",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "65761a2a-415e-47f3-bef2-a9dababba7a6",
-   "type": "tag"
+   "id": "a59f23a2-d6bd-4f8a-801e-e9e10d816ab6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:59+00:00",
+    "description": "",
+    "fileName": "f2f6d60d-b6a4-43d9-b661-ca1a3188357a.png",
+    "updatedAt": "2021-05-24T17:33:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

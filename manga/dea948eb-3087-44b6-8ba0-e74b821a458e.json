@@ -7,11 +7,21 @@
    "title": {
     "en": "Lemon Yellow"
    },
+   "altTitles": [
+    {
+     "en": "レモンエロウ"
+    },
+    {
+     "en": "柠檬黄"
+    },
+    {
+     "en": "檸檬黃"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +33,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,43 +45,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-15T16:54:38+00:00",
+   "updatedAt": "2021-05-25T15:48:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "c7c3dc01-340a-474f-8dd5-3c34e456b99a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Furumachi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c7c3dc01-340a-474f-8dd5-3c34e456b99a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Furumachi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0d37d124-42b4-4d45-bfa1-36537bdf4e7a",
-   "type": "chapter"
-  },
-  {
-   "id": "ccfe7e62-30c5-4ef5-8969-a015f3392ad2",
-   "type": "chapter"
-  },
-  {
-   "id": "cfa9d9cb-94bb-409b-859f-18fb7212ed28",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "ad030de3-8420-4f85-9824-91ba7c19075a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:06:43+00:00",
+    "description": "",
+    "fileName": "956b0146-049f-482a-ad01-4b9ef1a893e3.jpg",
+    "updatedAt": "2021-05-24T18:06:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

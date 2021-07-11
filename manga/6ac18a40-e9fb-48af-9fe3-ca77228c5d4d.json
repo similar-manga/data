@@ -7,6 +7,11 @@
    "title": {
     "en": "Rifle Shoujo"
    },
+   "altTitles": [
+    {
+     "en": "Rifle Girl"
+    }
+   ],
    "description": {
     "en": "A collection of short stories including:\r\n- Rifle Shoujo\r\n- Rifle Shounen\r\n- Obakemura e Youkoso"
    },
@@ -24,6 +29,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,39 +53,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-10T09:42:22+00:00",
+   "updatedAt": "2021-05-25T15:43:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "d9143afc-0072-4f37-9a57-bfd66e53c781",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAAMO",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d9143afc-0072-4f37-9a57-bfd66e53c781",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAAMO",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ca757538-9562-4ec8-bf41-702d8c61a70c",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "bad6a6e2-03c9-4f58-ba93-19038d715b24",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:02:28+00:00",
+    "description": "",
+    "fileName": "48365c2d-0c2a-4dde-87a7-d6175b53fef8.jpg",
+    "updatedAt": "2021-05-24T18:02:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

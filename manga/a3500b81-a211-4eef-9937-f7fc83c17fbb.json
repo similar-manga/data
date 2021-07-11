@@ -7,11 +7,21 @@
    "title": {
     "en": "Hinemosu no Tari Nikki"
    },
+   "altTitles": [
+    {
+     "en": "Hinemosu Notari Nikki"
+    },
+    {
+     "en": "Journal d´une vie tranquile"
+    },
+    {
+     "en": "ひねもすのたり日記"
+    }
+   ],
    "description": {
     "en": "A manga diary by the legendary Tetsuya Chiba about his current life and how his family escaped from China back to Japan post-World War II."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +33,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +45,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,47 +57,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-19T07:16:32+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "bb386677-86cf-43ee-bc3d-28f3bb4bdf4e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chiba Tetsuya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bb386677-86cf-43ee-bc3d-28f3bb4bdf4e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chiba Tetsuya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3854bb35-b976-4284-99b2-a8b793fa65a1",
-   "type": "chapter"
-  },
-  {
-   "id": "8963b002-2c53-4df0-9e49-5e8c38a7f900",
-   "type": "chapter"
-  },
-  {
-   "id": "e7226698-981f-41d5-bce2-b6dad34640b0",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "3cbb3eb0-e708-4f87-9d91-2c754d5291fe",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:19:28+00:00",
+    "description": "",
+    "fileName": "db3d9cb2-08f7-49fb-a725-45b7c47bb8b4.jpg",
+    "updatedAt": "2021-05-24T18:19:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

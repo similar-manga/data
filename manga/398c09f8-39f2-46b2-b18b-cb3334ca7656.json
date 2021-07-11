@@ -14,7 +14,6 @@
     "ap": "master-baeks-case-notes"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "erotica",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +60,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -65,59 +72,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-25T09:25:38+00:00",
+   "updatedAt": "2021-05-25T15:41:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "c0ecdb29-74c1-4ef9-82d6-5be16e654a0f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jowoo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "25104595-62fe-4241-b074-0353bf27fd2e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Angy",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e19fdb13-fab5-4c06-a653-ccf4fe3043fa",
-   "type": "chapter"
-  },
-  {
-   "id": "ecfc576b-c9f8-4833-9aec-c2357d13160b",
-   "type": "chapter"
-  },
-  {
-   "id": "639b0718-77a1-4de2-9444-1ab987d71b8f",
-   "type": "chapter"
-  },
-  {
-   "id": "233fea44-aeb7-4855-8194-28fd91850a82",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "1b4e85e2-939c-4f8e-a5ad-bb0b1b0f51ee",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:42:26+00:00",
+    "description": "",
+    "fileName": "2355fe4c-9301-419c-a0b7-dfeebb30b1ba.png",
+    "updatedAt": "2021-05-24T17:42:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

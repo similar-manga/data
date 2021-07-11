@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Tenman \u0026agrave; la carte"
+    "en": "Tenman à la carte"
    },
+   "altTitles": [
+    {
+     "en": "Chef à la Carte"
+    },
+    {
+     "en": "Tenman a la carte"
+    },
+    {
+     "en": "てんまんアラカルト"
+    }
+   ],
    "description": {
     "en": "Nanase Aoshi is a troublemaker at school, but who would have thought that he has a great talent in cooking? His goal is only one: to follow the footsteps of Chef Shibuya, a genius chef who trained him when he was a kid."
    },
@@ -16,7 +27,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "4",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -28,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +50,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -48,35 +62,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-12-10T13:12:31+00:00",
+   "updatedAt": "2019-12-10T13:12:31+00:00"
   }
  },
  "relationships": [
   {
    "id": "c60b8feb-97fd-4340-866c-58e825d9b3d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kobayashi Yuugo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c60b8feb-97fd-4340-866c-58e825d9b3d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kobayashi Yuugo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "7329c703-e63b-4fce-b4e7-0276c4d41c78",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:36:59+00:00",
+    "description": "",
+    "fileName": "738519ad-f86f-43e7-904a-40fb7f836360.jpg",
+    "updatedAt": "2021-05-24T17:36:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,10 +5,24 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Mitsuzuki - \u0026quot;Kashou no Tsuki\u0026quot; Gaiden"
+    "en": "Mitsuzuki - \"Kashou no Tsuki\" Gaiden"
    },
+   "altTitles": [
+    {
+     "en": "Kashou no Tsuki Gaiden: Mitsuzuki"
+    },
+    {
+     "en": "Mitsuzuki Kashou no Tsuki Gaiden"
+    },
+    {
+     "en": "蜜月 「火宵の月」外伝"
+    },
+    {
+     "en": "蜜月～「火宵の月」外伝"
+    }
+   ],
    "description": {
-    "en": "Story 01 - There\u0026rsquo;s a tribe of hermaphroditic wildcat people, who, after their sixtieth birthday, can become male or female based on their partner. The main characters in this story are: a wildcat Kada about to enter its transformation period and its philanderer fiance Koryuu.\r\n\r\nStory 02 - Lady Shaman returns, carrying a child. When Monkan learns she is pregnant, he has to decide whether to claim the child as his own or protect his position and honor by casting her aside.\r\n\r\nStory 03 - Kagetsu and Arimasa have finally settled down, and are now raising one-year-old twins. However, Arimasa worries whether they will be able to live as humans with their demon blood. When the twins' powers begin to manifest, the new danger occurs."
+    "en": "Story 01 - There’s a tribe of hermaphroditic wildcat people, who, after their sixtieth birthday, can become male or female based on their partner. The main characters in this story are: a wildcat Kada about to enter its transformation period and its philanderer fiance Koryuu.\r\n\r\nStory 02 - Lady Shaman returns, carrying a child. When Monkan learns she is pregnant, he has to decide whether to claim the child as his own or protect his position and honor by casting her aside.\r\n\r\nStory 03 - Kagetsu and Arimasa have finally settled down, and are now raising one-year-old twins. However, Arimasa worries whether they will be able to live as humans with their demon blood. When the twins' powers begin to manifest, the new danger occurs."
    },
    "links": {
     "al": "41418",
@@ -30,6 +44,8 @@
       "name": {
        "en": "Genderswap"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -40,6 +56,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +68,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,51 +80,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-08T17:54:30+00:00",
+   "updatedAt": "2021-05-25T15:43:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "a7935c56-15c5-49ef-a559-1a27d623ae09",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hirai Mari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a7935c56-15c5-49ef-a559-1a27d623ae09",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hirai Mari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1c93d372-3d6a-432f-86f9-e95f7a00d228",
-   "type": "chapter"
-  },
-  {
-   "id": "1136b772-621a-4830-bcde-7d65e9261451",
-   "type": "chapter"
-  },
-  {
-   "id": "cc946ed7-bab8-4193-9a86-3ce313433c6c",
-   "type": "chapter"
-  },
-  {
-   "id": "2bd2e8d0-f146-434a-9b51-fc9ff2c5fe6a",
-   "type": "tag"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "fce9c805-b5f8-4f89-9992-9226de2278a6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:11+00:00",
+    "description": "",
+    "fileName": "ac7ce126-033e-4cb5-baaf-637bcd7517e2.jpg",
+    "updatedAt": "2021-05-24T16:57:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

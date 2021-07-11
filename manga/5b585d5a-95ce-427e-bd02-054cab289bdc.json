@@ -7,8 +7,19 @@
    "title": {
     "en": "Sabaku no Tami"
    },
+   "altTitles": [
+    {
+     "en": "Desert Tribe"
+    },
+    {
+     "en": "People of the Desert"
+    },
+    {
+     "en": "砂漠の民"
+    }
+   ],
    "description": {
-    "en": "Written by Hayao Miyazaki in 1969 under the pen-name \u0026quot;Akisu Saburo.\u0026quot;\r\n\r\nIt is a tragic tale of Tem, a boy who lost his family to a Kittarl raid.  \r\nIt tells the sad story of how he makes and subsequently loses his friends and companions \r\nwhile rebelling against the authoritarian Kittarls."
+    "en": "Written by Hayao Miyazaki in 1969 under the pen-name \"Akisu Saburo.\"\r\n\r\nIt is a tragic tale of Tem, a boy who lost his family to a Kittarl raid.  \r\nIt tells the sad story of how he makes and subsequently loses his friends and companions \r\nwhile rebelling against the authoritarian Kittarls."
    },
    "links": {
     "al": "48293",
@@ -18,7 +29,6 @@
     "mu": "41320"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +40,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +52,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +64,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,43 +76,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-06T23:55:54+00:00",
+   "updatedAt": "2021-05-25T15:42:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "6cdfb695-afc4-43af-bf76-20b2a4b37a7f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyazaki Hayao",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6cdfb695-afc4-43af-bf76-20b2a4b37a7f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyazaki Hayao",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2cc4b8cd-8543-48dd-b107-d105d688fc79",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "15a2d690-3e15-4fa1-866f-2a073f175e99",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:53+00:00",
+    "description": "",
+    "fileName": "a365e91c-d0dd-463d-b167-9f55953c340b.jpg",
+    "updatedAt": "2021-05-24T17:04:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

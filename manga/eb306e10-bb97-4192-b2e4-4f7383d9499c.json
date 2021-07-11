@@ -7,6 +7,11 @@
    "title": {
     "en": "Walk With Me"
    },
+   "altTitles": [
+    {
+     "en": "Walk With Me (UGAWA Hiroki)"
+    }
+   ],
    "description": {
     "en": "The relationship of two girls in a closed off coal mining town."
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,8 +41,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +55,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,55 +67,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-09T00:16:24+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "9bdd6041-b490-47c4-a902-82e66be077ff",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UGAWA Hiroki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9bdd6041-b490-47c4-a902-82e66be077ff",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UGAWA Hiroki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a4fc9a0c-8287-4e4f-8aed-2b0797326fed",
-   "type": "chapter"
-  },
-  {
-   "id": "924fc5c0-fb6c-4c97-9631-1e65a94fbaa4",
-   "type": "chapter"
-  },
-  {
-   "id": "bf41a9ce-524e-4402-a9d2-503848755d58",
-   "type": "chapter"
-  },
-  {
-   "id": "08e877f7-870f-4f37-b9f4-30e624fa4b8d",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "c141e2d4-4102-4fb0-86cc-8560aebd9828",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:41+00:00",
+    "description": "",
+    "fileName": "77700438-22e0-4926-82d0-c9da9c9fa401.jpg",
+    "updatedAt": "2021-05-24T17:00:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

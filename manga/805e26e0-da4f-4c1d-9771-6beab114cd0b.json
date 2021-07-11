@@ -7,6 +7,20 @@
    "title": {
     "en": "Ningen Shikkaku (Variety Art Works)"
    },
+   "altTitles": [
+    {
+     "en": "Ningen Shikkaku (Manga de Dokuha)"
+    },
+    {
+     "en": "No Longer Human"
+    },
+    {
+     "en": "人間失格 (まんがで読破)"
+    },
+    {
+     "en": "人間失格 (太宰治)"
+    }
+   ],
    "description": {
     "en": "Yozo Oba is a troubled soul incapable of revealing his true self to others. A weak constitution and the lingering trauma from some abuse administered by a relative forces him to uphold a facade of hollow jocularity since high school."
    },
@@ -32,6 +46,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +58,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +70,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,67 +82,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-06T23:59:40+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "3f0690c8-7d52-414e-ae6f-790808e40b39",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Dazai Osamu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c0ac350d-d961-4825-8349-a54b524ebae1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Variety Art Works",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0c4b4302-da9b-4999-a81a-a241dc51100c",
-   "type": "chapter"
-  },
-  {
-   "id": "0fd678e1-2c36-4548-8f25-b7d4e030ef76",
-   "type": "chapter"
-  },
-  {
-   "id": "78037053-da79-4ae9-9e5c-7cdf8da25b98",
-   "type": "chapter"
-  },
-  {
-   "id": "e215b280-7823-4337-aded-4786cd20364c",
-   "type": "chapter"
-  },
-  {
-   "id": "6a2a1ac0-d38b-46a6-a648-e18609745c5b",
-   "type": "chapter"
-  },
-  {
-   "id": "f533b9a5-2909-43c1-8f77-5b509a605e55",
-   "type": "chapter"
-  },
-  {
-   "id": "44a7c345-a1dc-4ccb-a544-3334b78793e4",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "13f3762b-a3fb-4fbc-853f-92bdc96d298e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:40+00:00",
+    "description": "",
+    "fileName": "76ac3d15-9c53-4281-9b54-7fc103d43e9c.jpg",
+    "updatedAt": "2021-05-24T17:03:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

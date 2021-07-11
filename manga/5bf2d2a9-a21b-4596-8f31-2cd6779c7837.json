@@ -28,6 +28,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +40,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +52,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +64,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -68,6 +76,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -78,91 +88,65 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-15T13:29:24+00:00",
+   "updatedAt": "2021-05-25T15:42:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "1a76535a-b389-4e42-9130-a71d0ec94611",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nagai Go",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "63a117ca-a40b-4107-b93a-a69e3e8b4ef2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mitsuru Hiruta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "63a117ca-a40b-4107-b93a-a69e3e8b4ef2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mitsuru Hiruta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3583ea2d-d410-4a7b-89f5-3006e7eb743e",
-   "type": "chapter"
-  },
-  {
-   "id": "7fe6ed40-86bf-43ed-8e25-0202836804e9",
-   "type": "chapter"
-  },
-  {
-   "id": "3969849d-7890-4a86-8b8f-57b2bebc9c29",
-   "type": "chapter"
-  },
-  {
-   "id": "3bebdf38-76ec-4d47-94e6-1dee82ba137d",
-   "type": "chapter"
-  },
-  {
-   "id": "99f8735a-581e-496d-94b9-6a18334bc81e",
-   "type": "chapter"
-  },
-  {
-   "id": "6467de0c-fe79-46c8-a3d2-31e3d5d4423f",
-   "type": "chapter"
-  },
-  {
-   "id": "b7021597-f024-43ab-9841-130d24ae80a8",
-   "type": "chapter"
-  },
-  {
-   "id": "26b31330-ba98-459e-9b62-26b82e23e5d0",
-   "type": "chapter"
-  },
-  {
-   "id": "a5c5f298-b1e6-41f7-aaaa-e5952c05fd4a",
-   "type": "chapter"
-  },
-  {
-   "id": "39f5c798-6caa-4c42-9b4d-1e8a1a1740df",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "5f2b685e-d428-4f73-96cf-0a3105313749",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:57+00:00",
+    "description": "",
+    "fileName": "ea6f6835-1a22-4c71-bc2b-4732b862acc8.jpg",
+    "updatedAt": "2021-05-24T16:57:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

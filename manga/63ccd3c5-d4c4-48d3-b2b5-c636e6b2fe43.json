@@ -17,7 +17,7 @@
     "mal": "43737",
     "mu": "82888"
    },
-   "originalLanguage": "zh-hk",
+   "originalLanguage": "zh",
    "lastChapter": "3",
    "publicationDemographic": "shoujo",
    "status": "completed",
@@ -30,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,47 +54,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-27T08:21:29+00:00",
+   "updatedAt": "2021-05-25T15:43:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "40eeb913-4c5f-4b36-b5e2-81ed7be55e05",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Luo Luo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7295f5cc-888d-455c-a370-84b9a62c1ac4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Xu Lu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4f869e43-d2d6-4343-b3e8-ccc457627dea",
-   "type": "chapter"
-  },
-  {
-   "id": "d46ab399-b9f0-455a-9d48-d57e5d027369",
-   "type": "chapter"
-  },
-  {
-   "id": "209ff56b-1dd0-41aa-994e-b29e99cc9453",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "3bcf32bc-eeea-4f43-9d9c-3a4d3829e698",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:34:49+00:00",
+    "description": "",
+    "fileName": "0f55d7f8-5814-4199-91c4-23fda07da02e.jpg",
+    "updatedAt": "2021-05-24T18:34:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

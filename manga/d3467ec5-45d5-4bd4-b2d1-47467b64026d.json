@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Woman\u0026rsquo;s Hundred Faces"
+    "en": "Woman’s Hundred Faces"
    },
+   "altTitles": [
+    {
+     "en": "Woman’s Hundred Faces"
+    },
+    {
+     "en": "映画小説：女百面相"
+    }
+   ],
    "description": {
     "en": "Historic pre-war manga. Read the following links for a lengthy breakdown of it:\r\n\r\nhttps://whatismanga.wordpress.com/2013/08/31/21-okamoto-ippei-or-another-new-manga/\r\n\r\nhttps://whatismanga.wordpress.com/2016/05/29/okamoto-ippei-womans-hundred-faces-1-kindai-manga-translation/\r\n\r\nhttps://whatismanga.wordpress.com/2016/06/05/okamoto-ippei-womans-hundred-faces-2-kindai-manga-translation/\r\n\r\nhttps://whatismanga.wordpress.com/2016/06/14/okamoto-ippei-womans-hundred-faces-3-kindai-manga-translation/"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,31 +29,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-25T08:18:32+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "5e57fc95-4c50-4737-aa72-2bee43ddf3bb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okamoto Ippei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5e57fc95-4c50-4737-aa72-2bee43ddf3bb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okamoto Ippei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "efa1ee8d-1bed-4a85-9eeb-d6a3ab44a49c",
-   "type": "chapter"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "5a0ef66a-ae5a-4fb3-bdc7-570a9d9f0387",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:01+00:00",
+    "description": "",
+    "fileName": "33036228-6b30-4e3f-83b9-47e8ddee990d.jpg",
+    "updatedAt": "2021-05-24T16:59:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

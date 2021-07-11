@@ -5,10 +5,36 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon + Nobunaga's Ambition ~ Ransei's Color Picture Scroll ~"
+    "en": "Pokémon + Nobunaga's Ambition ~ Ransei's Color Picture Scroll ~"
    },
+   "altTitles": [
+    {
+     "en": "Pocket Monsters"
+    },
+    {
+     "en": "Pokémon"
+    },
+    {
+     "en": "Pokémon + Nobunaga no Yabou ~Ranse Iroemaki~"
+    },
+    {
+     "en": "Pokemon"
+    },
+    {
+     "en": "Pokemon + Nobunaga's Ambition ~Ransei Colour Picture Scroll~"
+    },
+    {
+     "en": "Pokemon Conquest"
+    },
+    {
+     "en": "Pokemon Conquest ~Ransei's Colour Picture Scroll~"
+    },
+    {
+     "en": "ポケモン＋ノブナガの野望 ～ランセ彩絵巻～"
+    }
+   ],
    "description": {
-    "en": "Manga adaptation of the Pok\u0026eacute;mon Conquest (Pok\u0026eacute;mon + Nobunaga's Ambition) game for Nintendo DS."
+    "en": "Manga adaptation of the Pokémon Conquest (Pokémon + Nobunaga's Ambition) game for Nintendo DS."
    },
    "links": {
     "mu": "112907"
@@ -26,6 +52,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +64,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +76,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -56,6 +88,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,67 +100,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-20T22:39:37+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "e0ba8aac-8386-44dc-8e21-84a6a08f7746",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nanatsumu Launch",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e0ba8aac-8386-44dc-8e21-84a6a08f7746",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nanatsumu Launch",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "86126185-6936-4411-93c5-5afbce5f9b51",
-   "type": "chapter"
-  },
-  {
-   "id": "85460b4b-fbc8-4499-a414-648d589fd61e",
-   "type": "chapter"
-  },
-  {
-   "id": "ab14f0b5-622d-48f2-9056-3ed54043f510",
-   "type": "chapter"
-  },
-  {
-   "id": "2639011e-6cfe-42fe-9f46-9ae6b653914b",
-   "type": "chapter"
-  },
-  {
-   "id": "b52ddb48-9e05-4bd5-8a19-0ae1ae6a4d64",
-   "type": "chapter"
-  },
-  {
-   "id": "0fe6a6a2-7faf-4036-bcea-1ad71c11fdc5",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "dc424456-328a-4f6c-8736-20b059dd3904",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:45:34+00:00",
+    "description": "",
+    "fileName": "c8aa1094-0992-40a5-9623-271952705023.jpg",
+    "updatedAt": "2021-05-24T16:45:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

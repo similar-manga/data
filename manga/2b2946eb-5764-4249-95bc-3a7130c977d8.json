@@ -5,8 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Love \u0026amp; Devil"
+    "en": "Love \u0026 Devil"
    },
+   "altTitles": [
+    {
+     "en": "Love and Devil"
+    },
+    {
+     "en": "Love Devil"
+    },
+    {
+     "en": "Renai Akuma"
+    },
+    {
+     "en": "恋愛悪魔"
+    }
+   ],
    "description": {
     "en": "Masato is an idiot that only want to have sex with his girlfriend, Megumi. Enter devil girl Maria who gives him three wishes. The first is to have sex with him, the second is to become his girlfriend, and as for the third...?"
    },
@@ -30,6 +44,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +56,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,75 +68,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-15T07:06:31+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "43841f32-76ce-45cb-be24-2039e61f5363",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yanagi Masashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "43841f32-76ce-45cb-be24-2039e61f5363",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yanagi Masashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3d714f6d-3e32-45ed-bad4-69e34977222f",
-   "type": "chapter"
-  },
-  {
-   "id": "cc3f6840-6c39-4569-a7c7-4c91e97cb4be",
-   "type": "chapter"
-  },
-  {
-   "id": "5954f8eb-45b6-47db-a85e-6c3e8651658f",
-   "type": "chapter"
-  },
-  {
-   "id": "e078d215-b44a-4ecd-8df7-4ef5eb6fa0f7",
-   "type": "chapter"
-  },
-  {
-   "id": "6ef48c13-3c8f-4968-857d-8f9ff35d5405",
-   "type": "chapter"
-  },
-  {
-   "id": "e99a3bab-2c8d-4425-b73d-d800c8ee5089",
-   "type": "chapter"
-  },
-  {
-   "id": "fb399327-22e0-4387-a3b1-1d659957b8da",
-   "type": "chapter"
-  },
-  {
-   "id": "1b3943c6-167a-40ff-ba51-3bd1331cb0d3",
-   "type": "chapter"
-  },
-  {
-   "id": "370c649d-a5e7-448e-8a1d-a66cf3e1820f",
-   "type": "chapter"
-  },
-  {
-   "id": "d3366b34-7580-4b6e-8533-20138da07bf0",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "64883230-c9f7-4f12-ac34-77e8f88836f0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:26:41+00:00",
+    "description": "",
+    "fileName": "6d38d13d-d36d-4efb-898d-454f164fc7be.jpg",
+    "updatedAt": "2021-05-24T17:26:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

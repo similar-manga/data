@@ -7,6 +7,11 @@
    "title": {
     "en": "The Visitor"
    },
+   "altTitles": [
+    {
+     "en": "Houmonsha"
+    }
+   ],
    "description": {
     "en": "The stories of various shinigami and the young men they are in charge of escorting to the afterlife. Each chapter deals with a different human - shinigami pair."
    },
@@ -27,8 +32,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +58,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -59,71 +70,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-03T01:44:10+00:00",
+   "updatedAt": "2021-05-25T15:40:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "bed686a9-f1c8-475d-9ad0-57b6245a851f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyamoto Kano",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bed686a9-f1c8-475d-9ad0-57b6245a851f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyamoto Kano",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2f09a112-7eaa-43c6-82b5-2e814dcc7ea1",
-   "type": "chapter"
-  },
-  {
-   "id": "be9387ff-1ab1-40b5-9769-b2f7b95a41f1",
-   "type": "chapter"
-  },
-  {
-   "id": "39918995-bb09-48e8-aa4c-aca4dfd7e243",
-   "type": "chapter"
-  },
-  {
-   "id": "a5430af7-223e-41ca-8bb1-d6a09a4abaa3",
-   "type": "chapter"
-  },
-  {
-   "id": "02c55400-691b-4439-934d-ea238535e6e2",
-   "type": "chapter"
-  },
-  {
-   "id": "d7b84427-248d-45bc-8cd0-d38a7d773ec2",
-   "type": "chapter"
-  },
-  {
-   "id": "586cfd1a-33d4-4119-b3fe-f3dafe686247",
-   "type": "chapter"
-  },
-  {
-   "id": "58cf5661-482e-4cb6-9f1c-1dbb09028d7d",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "bc7d08e5-e934-4f01-b562-a218d0c24224",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:38:48+00:00",
+    "description": "",
+    "fileName": "800d723d-2964-4a3b-8091-1675b9e35d70.png",
+    "updatedAt": "2021-05-24T18:38:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

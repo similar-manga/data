@@ -14,7 +14,6 @@
     "mu": "116230"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,39 +37,53 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-12T08:37:24+00:00",
+   "updatedAt": "2021-05-25T15:44:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "fac4b10a-b24b-4094-b99d-d459de21b82c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UMEZAWA Marina",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fac4b10a-b24b-4094-b99d-d459de21b82c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UMEZAWA Marina",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d7728ebf-382d-4690-a8c3-67e21d2e0c69",
-   "type": "chapter"
-  },
-  {
-   "id": "68701ecd-9f3f-4e7f-b8bb-b71c0b516032",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
+   "id": "aa7b17e7-d180-4f0c-9608-cdf3a8d4a001",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:47:53+00:00",
+    "description": "",
+    "fileName": "ca221cde-e1f9-4ba3-a133-fdbd738a809f.jpg",
+    "updatedAt": "2021-05-24T16:47:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

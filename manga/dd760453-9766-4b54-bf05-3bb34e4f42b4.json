@@ -7,6 +7,14 @@
    "title": {
     "en": "Love x Rob x Stockholm"
    },
+   "altTitles": [
+    {
+     "en": "Love Rob Stockholm"
+    },
+    {
+     "en": "ラブ×ロブ×ストックホルム"
+    }
+   ],
    "description": {
     "en": "Sayama Junichirou is an ordinary student who wishes for some action in his life. When he comes home one day, he is held hostage by the famous bank robber, Kazuha."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,55 +63,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-05T22:25:40+00:00",
+   "updatedAt": "2021-05-25T15:48:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "6ac2b5db-7f7b-4d6b-934c-6dcd69cb20dd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Haruse Hiroki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6ac2b5db-7f7b-4d6b-934c-6dcd69cb20dd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Haruse Hiroki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1cfa2bb9-9074-4fbd-a854-3e3c373fe996",
-   "type": "chapter"
-  },
-  {
-   "id": "c9d610bd-1a71-44b0-bcae-a9828eda4651",
-   "type": "chapter"
-  },
-  {
-   "id": "e10acfa7-b713-46cb-8824-2cb42fad2365",
-   "type": "chapter"
-  },
-  {
-   "id": "9ccf45ae-0b44-430b-a06f-8a26abb8b7db",
-   "type": "chapter"
-  },
-  {
-   "id": "daebfba3-a618-4329-844d-22b28d845371",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "6b54218c-1e2a-4fa6-9322-2f466ed7efbe",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:36:38+00:00",
+    "description": "",
+    "fileName": "90bf69d3-49f1-4fc8-a29b-a676e4ca3970.jpg",
+    "updatedAt": "2021-05-24T18:36:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

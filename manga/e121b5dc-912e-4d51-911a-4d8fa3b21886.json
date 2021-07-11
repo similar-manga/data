@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "id",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "erotica",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,35 +33,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-19T07:29:00+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "c4d23979-0b7a-4c5c-a6c6-23d18c7f6c29",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "titik2x",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c4d23979-0b7a-4c5c-a6c6-23d18c7f6c29",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "titik2x",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b94c2708-8c13-4e07-bf0c-0e03df236dca",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "8eb2bb42-eddb-4f93-8aa6-d0a93ba9a419",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:11:19+00:00",
+    "description": "",
+    "fileName": "a6d2b4ac-f101-4daf-8a68-ce4fa2272087.jpg",
+    "updatedAt": "2021-05-24T18:11:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

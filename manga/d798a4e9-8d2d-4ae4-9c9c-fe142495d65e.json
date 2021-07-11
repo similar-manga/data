@@ -7,6 +7,17 @@
    "title": {
     "en": "Magic Bloomers"
    },
+   "altTitles": [
+    {
+     "en": "Mahou Bloomer"
+    },
+    {
+     "en": "Mahou Buruma"
+    },
+    {
+     "en": "魔法ブルマ"
+    }
+   ],
    "description": {
     "en": "An uplifting tale of spirit and guts as embodied by a young man's will to win an upcoming marathon who will stop at nothing, not even the odd suggestions of his older sister."
    },
@@ -18,7 +29,6 @@
     "mu": "62067"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -30,6 +40,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +52,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +64,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,43 +76,53 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-10T03:12:55+00:00",
+   "updatedAt": "2021-05-25T15:48:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "a8ec4178-608d-41c8-b78f-c21161008f14",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Seihoukei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a8ec4178-608d-41c8-b78f-c21161008f14",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Seihoukei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "19054cd7-d15b-4eb8-9618-c395b524b667",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
+   "id": "eaac7f34-1dd4-4f22-aa8f-dfbb3feb5a1d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:37:03+00:00",
+    "description": "",
+    "fileName": "86b0d37c-8dd5-4f16-9c4e-356eff0e1d19.png",
+    "updatedAt": "2021-05-24T18:37:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

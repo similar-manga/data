@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,35 +46,53 @@
       "name": {
        "en": "Delinquents"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-02-18T07:52:57+00:00",
+   "updatedAt": "2021-02-18T07:52:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "a9add51d-eaaf-4ce0-8e41-e9d47fd171f0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshiki Fuji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "69f0fbfb-5c33-4740-a985-12abb4556062",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shuuichiro Satou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "da2d50ca-3018-4cc0-ac7a-6b7d472a29ea",
-   "type": "tag"
+   "id": "7c2add2a-a489-4f30-921e-fed751150abf",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:32:04+00:00",
+    "description": "",
+    "fileName": "56a4c276-dbfe-4e81-8f62-941705142b2e.jpg",
+    "updatedAt": "2021-05-24T18:32:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

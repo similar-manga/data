@@ -7,6 +7,14 @@
    "title": {
     "en": "Euterpe"
    },
+   "altTitles": [
+    {
+     "en": "エウテルペ"
+    },
+    {
+     "en": "エウテルペー"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,51 +71,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-10T20:07:52+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "10adfd9a-6b65-402a-bd95-de28f9e8c220",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shishunnki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "10adfd9a-6b65-402a-bd95-de28f9e8c220",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shishunnki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c0394cb3-b215-4d9b-b828-95d3adcd3bae",
-   "type": "chapter"
-  },
-  {
-   "id": "e05b2cee-edb4-4b42-a6dd-3b929cbbba43",
-   "type": "chapter"
-  },
-  {
-   "id": "4f5bdcf2-890a-4af4-a3d2-d11323bfde76",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "53eb9ff1-25e1-4fe7-9f99-5de5f973678a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:23+00:00",
+    "description": "",
+    "fileName": "92524acb-3cc7-4375-9fe1-d203de4bed2c.jpg",
+    "updatedAt": "2021-05-24T17:11:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

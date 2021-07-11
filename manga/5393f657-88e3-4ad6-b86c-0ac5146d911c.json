@@ -20,8 +20,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +34,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -42,6 +46,8 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -52,79 +58,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-01T06:35:31+00:00",
+   "updatedAt": "2021-05-25T15:42:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "71f3c3b0-1ea2-49ee-9718-497c11ecd911",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kanbayashi Takaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "71f3c3b0-1ea2-49ee-9718-497c11ecd911",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kanbayashi Takaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6b12b6b1-1aea-40b4-87f2-27bcb9a0ed74",
-   "type": "chapter"
-  },
-  {
-   "id": "a30afcd4-615a-488e-a081-f10058e2fb30",
-   "type": "chapter"
-  },
-  {
-   "id": "1bc41abf-13e2-4fe7-b2ff-7595253c4d1c",
-   "type": "chapter"
-  },
-  {
-   "id": "a458e57e-9bfd-47bd-97bc-cd717e6a59d8",
-   "type": "chapter"
-  },
-  {
-   "id": "3e1c6006-f07b-46c0-a7e3-78ed6575a9b8",
-   "type": "chapter"
-  },
-  {
-   "id": "ccce0212-6fdb-4926-a855-bd78df01eb9d",
-   "type": "chapter"
-  },
-  {
-   "id": "1182aa31-4c98-41bb-abb9-1385b83edc11",
-   "type": "chapter"
-  },
-  {
-   "id": "ba834b76-e0b9-469c-b55c-b6a15b772698",
-   "type": "chapter"
-  },
-  {
-   "id": "dfa43029-6fad-40ed-9296-3b5587a655e7",
-   "type": "chapter"
-  },
-  {
-   "id": "7a94364f-db30-4119-82df-436fe71da9f4",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "ee28f934-9d73-4fe2-a0c3-042b1e6670fa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:43:17+00:00",
+    "description": "",
+    "fileName": "260c2fa5-d4f4-47f2-a51b-8dcf11b3efbb.jpg",
+    "updatedAt": "2021-05-24T17:43:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

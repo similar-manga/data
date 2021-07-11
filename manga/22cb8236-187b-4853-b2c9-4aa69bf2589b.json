@@ -7,6 +7,17 @@
    "title": {
     "en": "La Mosca"
    },
+   "altTitles": [
+    {
+     "en": "Муха"
+    },
+    {
+     "en": "魔豆神秘島"
+    },
+    {
+     "en": "라모스카"
+    }
+   ],
    "description": {
     "en": "Kashoo, the incredibly popular confectionery and coffee company, produces the most addictive products. However, there is a mystery behind how the company obtains its raw materials. What lurks on the island from which they obtain their caffeine-laden goods? Just what type of contract are people hired to work on this island signing to?"
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,79 +78,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-04T06:29:56+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "18a5b26a-b611-4c61-adb4-7fde6364327f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kang Hyung Kyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "18a5b26a-b611-4c61-adb4-7fde6364327f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kang Hyung Kyu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9d12ea6b-d234-4634-aa51-b18d4ceabd36",
-   "type": "chapter"
-  },
-  {
-   "id": "4e69fa31-87fd-4ef7-a776-e64fffa415b4",
-   "type": "chapter"
-  },
-  {
-   "id": "d981f86d-3518-4949-8c2c-3bbc02036068",
-   "type": "chapter"
-  },
-  {
-   "id": "8715d880-1dca-4c19-8c49-88e91a7270e6",
-   "type": "chapter"
-  },
-  {
-   "id": "7d08a2cf-b6e5-4261-9ac5-499ef8c2a5b2",
-   "type": "chapter"
-  },
-  {
-   "id": "0c68f205-d9fe-4ba6-9db3-c99363af421f",
-   "type": "chapter"
-  },
-  {
-   "id": "07283f68-c176-4cf5-b9f5-b73fc162902c",
-   "type": "chapter"
-  },
-  {
-   "id": "9fad48e9-9a87-46f1-9030-fd6fb481c59a",
-   "type": "chapter"
-  },
-  {
-   "id": "b976fa1c-83bf-4195-8b8b-057420e24521",
-   "type": "chapter"
-  },
-  {
-   "id": "7fa0e02d-a316-4990-998d-ee386784837b",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "3d7d8061-b855-4f7b-9236-680b7ad6f2f0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:32+00:00",
+    "description": "",
+    "fileName": "fed2dc13-20f5-404e-9b99-036322835af2.jpg",
+    "updatedAt": "2021-05-24T17:02:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

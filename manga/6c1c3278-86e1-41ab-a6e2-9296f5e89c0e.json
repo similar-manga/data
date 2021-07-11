@@ -5,10 +5,18 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Liquor \u0026amp; Cigarette"
+    "en": "Liquor \u0026 Cigarette"
    },
+   "altTitles": [
+    {
+     "en": "Liquor And Cigarette"
+    },
+    {
+     "en": "リカー\u0026シガレット"
+    }
+   ],
    "description": {
-    "en": "[i]Liquor, cigarettes, and grapefruit-scented shampoo...[/i]\r\n\r\nIn a sleepy Southern town, two men have always lived in each other\u0026rsquo;s company: Camilo, the cigarette store owner and Teo, the liquor store owner. While Camilo smokes like a chimney, light-weight Teo struggles to uphold his reputation in a town full of liquor enthusiasts.\r\n\r\nWhen the annual grape harvest festival draws near Teo dreads the obligatory wine-tasting contest. His only hope is to train with Camilo, who holds his liquor well. But what will happen to them when, one evening, Camilo confesses his love to his childhood friend?"
+    "en": "[i]Liquor, cigarettes, and grapefruit-scented shampoo...[/i]\r\n\r\nIn a sleepy Southern town, two men have always lived in each other’s company: Camilo, the cigarette store owner and Teo, the liquor store owner. While Camilo smokes like a chimney, light-weight Teo struggles to uphold his reputation in a town full of liquor enthusiasts.\r\n\r\nWhen the annual grape harvest festival draws near Teo dreads the obligatory wine-tasting contest. His only hope is to train with Camilo, who holds his liquor well. But what will happen to them when, one evening, Camilo confesses his love to his childhood friend?"
    },
    "links": {
     "al": "99395",
@@ -32,6 +40,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +52,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,8 +62,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +76,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -72,83 +88,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-02T11:33:06+00:00",
+   "updatedAt": "2021-05-25T15:43:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "c55a3565-9042-483f-bf83-f20624b33e3f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Zariya Ranmaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c55a3565-9042-483f-bf83-f20624b33e3f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Zariya Ranmaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2fa40480-5dd0-45ef-8dbb-eb0846dea3c3",
-   "type": "chapter"
-  },
-  {
-   "id": "8f6e14f7-70c2-4925-83c9-2ba397acbbdc",
-   "type": "chapter"
-  },
-  {
-   "id": "8e622d41-f1b2-413f-9a60-da6d97e823a9",
-   "type": "chapter"
-  },
-  {
-   "id": "1c835dd6-f479-428b-929a-067da2a93aa7",
-   "type": "chapter"
-  },
-  {
-   "id": "54a9a040-44e7-4ae6-8944-b228460614c3",
-   "type": "chapter"
-  },
-  {
-   "id": "fa5f28ce-97d7-4d8f-9c48-9d65bc033666",
-   "type": "chapter"
-  },
-  {
-   "id": "8489fb9f-09c0-4f9c-aa00-9e6f37442030",
-   "type": "chapter"
-  },
-  {
-   "id": "c2797424-34f9-4cc3-a709-02912b97d7c4",
-   "type": "chapter"
-  },
-  {
-   "id": "ed8e9461-4e5f-41a7-b3d5-b46af24df7b4",
-   "type": "chapter"
-  },
-  {
-   "id": "26020962-c8f1-44e4-95f1-b5302b3a525e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "23919275-b5d2-4f8c-adbb-d027835576a0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:00+00:00",
+    "description": "",
+    "fileName": "f7564c2b-5428-418e-bf9c-4917d0dae865.jpg",
+    "updatedAt": "2021-05-24T17:00:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

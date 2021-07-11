@@ -7,6 +7,11 @@
    "title": {
     "en": "The Godzilla Comic Anthology"
    },
+   "altTitles": [
+    {
+     "en": "Theゴジラcomic"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +19,6 @@
     "mu": "144971"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -26,6 +30,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,43 +42,53 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-27T21:01:31+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "50669f04-07df-41ba-ba83-caedeb28c9c2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kaze Shinobu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "50669f04-07df-41ba-ba83-caedeb28c9c2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kaze Shinobu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8a9d84c7-7e66-41a7-b9be-b335d7134540",
-   "type": "chapter"
-  },
-  {
-   "id": "045d0714-5c7d-49f7-8634-1fa4e8c91657",
-   "type": "chapter"
-  },
-  {
-   "id": "5986549a-b756-4f78-bfbd-aa07a081e81d",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
+   "id": "27a35a09-d82a-4f8a-82b9-f98cdcada30c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:51+00:00",
+    "description": "",
+    "fileName": "e84eae9e-4607-437b-b559-3c545dde402f.jpg",
+    "updatedAt": "2021-05-24T17:02:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

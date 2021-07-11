@@ -7,6 +7,11 @@
    "title": {
     "en": "Rakugaki Manga"
    },
+   "altTitles": [
+    {
+     "en": "らくがき漫画"
+    }
+   ],
    "description": {
     "en": "A short twitter series by @udon0531."
    },
@@ -23,6 +28,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +40,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +52,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,8 +62,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,6 +76,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -73,75 +88,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-03-13T16:44:47+00:00",
+   "updatedAt": "2020-03-13T16:44:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "0b42f3e4-625a-4010-b601-2f1025214887",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamamoto Souichirou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0b42f3e4-625a-4010-b601-2f1025214887",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamamoto Souichirou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a2766690-0400-4426-9344-62298bf3f2dd",
-   "type": "chapter"
-  },
-  {
-   "id": "5e24f9f1-c9d9-48fc-9719-a3360c5c06c4",
-   "type": "chapter"
-  },
-  {
-   "id": "8cebc73d-3e6c-4e14-9152-9523a8037702",
-   "type": "chapter"
-  },
-  {
-   "id": "421ddd14-0305-4ebb-9438-74d84b6b9527",
-   "type": "chapter"
-  },
-  {
-   "id": "7dee3b47-efa8-492a-b276-4e5a2365787c",
-   "type": "chapter"
-  },
-  {
-   "id": "67bdeed8-fbfe-4981-b9aa-72146631c9ab",
-   "type": "chapter"
-  },
-  {
-   "id": "5777743f-a396-45d9-bde4-5dfb10d8eff5",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "c0fb24fe-3781-4fe0-b51f-e12e0ddcd82b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:48:27+00:00",
+    "description": "",
+    "fileName": "674d9c5a-35fa-43f6-b4aa-2c06a84bafad.png",
+    "updatedAt": "2021-05-24T17:48:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

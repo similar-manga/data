@@ -7,6 +7,14 @@
    "title": {
     "en": "The Closer"
    },
+   "altTitles": [
+    {
+     "en": "Pyeswaeja"
+    },
+    {
+     "en": "폐쇄자"
+    }
+   ],
    "description": {
     "en": "Yi Myung is a boy who is living with his father. One day, he meets a stranger who tells him that he is not from this world."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +72,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,71 +84,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-21T04:04:55+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "1a7a571f-fa12-4572-bf90-49dc4f1026b6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shi-Jin Yoo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1a7a571f-fa12-4572-bf90-49dc4f1026b6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shi-Jin Yoo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6ff9fb0b-0812-43dd-945a-9c2aaf251245",
-   "type": "chapter"
-  },
-  {
-   "id": "576a5207-e517-49ce-be8e-01bd65792775",
-   "type": "chapter"
-  },
-  {
-   "id": "5b5abcee-e63d-4990-b570-177271583114",
-   "type": "chapter"
-  },
-  {
-   "id": "8a4d41a7-171b-429f-9a5f-7b4bbb427119",
-   "type": "chapter"
-  },
-  {
-   "id": "710ed307-4490-4725-9074-07d144e5b85f",
-   "type": "chapter"
-  },
-  {
-   "id": "e75c5902-4f49-4114-ac13-4028e3c90b45",
-   "type": "chapter"
-  },
-  {
-   "id": "5d667872-9efa-42a2-bd71-0019aebf5766",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "3aefa859-c639-4f80-b5cd-7b429f8371ea",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:04+00:00",
+    "description": "",
+    "fileName": "b1f496ec-d65c-4472-98f4-bd415e0d0ac2.jpg",
+    "updatedAt": "2021-05-24T17:02:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

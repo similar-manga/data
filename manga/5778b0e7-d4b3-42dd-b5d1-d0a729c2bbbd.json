@@ -7,6 +7,14 @@
    "title": {
     "en": "Cactus and Radio"
    },
+   "altTitles": [
+    {
+     "en": "Кактус и Радио"
+    },
+    {
+     "en": "선인장과 라디오"
+    }
+   ],
    "description": {
     "en": "Listen to the world's various stories on Yoo Si Ae's radio show, Cactus and Radio."
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -57,79 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-10T09:43:21+00:00",
+   "updatedAt": "2021-05-25T15:42:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "eaf9c0eb-f4e2-458b-b2e3-abf4fc67814e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Runeis",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "eaf9c0eb-f4e2-458b-b2e3-abf4fc67814e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Runeis",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "74ebbdcd-8c50-4661-9764-2984570b75d9",
-   "type": "chapter"
-  },
-  {
-   "id": "d02e1842-c8b1-4327-bcba-4c4d4a4ff077",
-   "type": "chapter"
-  },
-  {
-   "id": "f06bb2b3-bb9a-4ce6-a5bd-e884a6c6dfc5",
-   "type": "chapter"
-  },
-  {
-   "id": "22aa3700-5f8e-4f4e-84f5-6db0ec997b1d",
-   "type": "chapter"
-  },
-  {
-   "id": "53ee93c7-10d0-4344-b13d-05d1129085a6",
-   "type": "chapter"
-  },
-  {
-   "id": "2b46e71a-8f31-46c4-879b-f954de7b3e9c",
-   "type": "chapter"
-  },
-  {
-   "id": "34e5841e-a878-4f7d-a70d-d3ec4901db01",
-   "type": "chapter"
-  },
-  {
-   "id": "4c02d03f-c337-48d1-b041-dee83b66f9bb",
-   "type": "chapter"
-  },
-  {
-   "id": "65c6fc2b-75e3-4e34-9220-9a070a8a8859",
-   "type": "chapter"
-  },
-  {
-   "id": "9855d353-f41a-4fb7-892a-cec307564653",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "950a6759-d882-4f17-ae7b-8347348ed500",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:39+00:00",
+    "description": "",
+    "fileName": "7a39930b-4877-4caa-8b01-3ec07e1b2a5c.png",
+    "updatedAt": "2021-05-24T17:08:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

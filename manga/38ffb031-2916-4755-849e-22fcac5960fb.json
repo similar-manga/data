@@ -7,6 +7,11 @@
    "title": {
     "en": "Happy Talk"
    },
+   "altTitles": [
+    {
+     "en": "ハッピー・トーク"
+    }
+   ],
    "description": {
     "en": "With her talkative crow Jacky in tow, Daisy Louise goes to London in search of Marie, who has been sold. With the help of Glen, a journalist, will Daisy be able to learn of Marie's whereabouts?"
    },
@@ -19,7 +24,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "3",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -31,6 +35,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,47 +59,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-20T04:32:29+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "83b0c7aa-05b8-4163-8166-40e7eae9faeb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okano Fumika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "83b0c7aa-05b8-4163-8166-40e7eae9faeb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okano Fumika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6f4a2df6-e297-432b-bd3b-f6baab48726f",
-   "type": "chapter"
-  },
-  {
-   "id": "e4aa0ad8-798c-42a8-9025-aebcea2c7310",
-   "type": "chapter"
-  },
-  {
-   "id": "b9596bb6-0602-456d-b3f0-c6a9c5fa2220",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "7fd5c65c-adaa-4f9a-a152-f2f1616890a2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:03+00:00",
+    "description": "",
+    "fileName": "82354b18-d495-44fd-a2be-0b523b839432.jpg",
+    "updatedAt": "2021-05-24T17:20:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

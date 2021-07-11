@@ -7,6 +7,14 @@
    "title": {
     "en": "Yuri Yuri"
    },
+   "altTitles": [
+    {
+     "en": "Yuriyuri"
+    },
+    {
+     "en": "ゆり ゆり"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,8 +59,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +73,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,71 +85,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-30T17:30:33+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "f049cee3-3b14-4101-8e5d-813526abb1f6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Namori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f049cee3-3b14-4101-8e5d-813526abb1f6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Namori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "631e79ae-5b57-4ae9-b4a7-d2e618933c1d",
-   "type": "chapter"
-  },
-  {
-   "id": "d10c5c3f-f3c1-4f73-914d-09f6cb5db70e",
-   "type": "chapter"
-  },
-  {
-   "id": "a7946f6d-dd6b-4059-8c3b-56a791ce5aec",
-   "type": "chapter"
-  },
-  {
-   "id": "f9161780-0197-4e8a-a055-d69eff9eb3f3",
-   "type": "chapter"
-  },
-  {
-   "id": "a58b081b-a8b2-484c-90c4-6735d314143f",
-   "type": "chapter"
-  },
-  {
-   "id": "0cf6fc95-ee9f-4242-b8a7-e13fbd141fb4",
-   "type": "chapter"
-  },
-  {
-   "id": "763f977f-a9fb-4ad9-aa43-54d3b82f3a03",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "43ee3a77-90a1-4f36-9ab6-fb5c2ab619a1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:24:43+00:00",
+    "description": "",
+    "fileName": "b1419cd3-e67b-433c-a910-5c92be32bb7a.jpg",
+    "updatedAt": "2021-05-24T17:24:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

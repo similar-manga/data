@@ -27,6 +27,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,47 +39,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-19T23:49:30+00:00",
+   "updatedAt": "2021-05-25T15:49:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "75c02982-6af3-4d51-86eb-0cb5fc96e4b0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurumada Masami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "75c02982-6af3-4d51-86eb-0cb5fc96e4b0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurumada Masami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a5554aa1-3b97-412e-a538-cf1b191420a6",
-   "type": "chapter"
-  },
-  {
-   "id": "0e843640-76a4-4e12-bd49-666657ee49dc",
-   "type": "chapter"
-  },
-  {
-   "id": "bb20c6f0-35ab-44c3-a7b7-e6476c90062b",
-   "type": "chapter"
-  },
-  {
-   "id": "e18cd2a9-7985-49e4-9537-10a2801d0ec2",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "1c317d26-963e-4f2e-89b1-eae9dc6d841e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:34:26+00:00",
+    "description": "",
+    "fileName": "a7510a3f-d283-4080-9059-f4ac782a6a67.jpg",
+    "updatedAt": "2021-05-24T17:34:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

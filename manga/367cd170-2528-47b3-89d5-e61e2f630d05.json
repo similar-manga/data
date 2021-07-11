@@ -7,6 +7,20 @@
    "title": {
     "en": "A Certain Marriage"
    },
+   "altTitles": [
+    {
+     "en": "To Aru Kekkon"
+    },
+    {
+     "en": "Toaru Kekkon"
+    },
+    {
+     "en": "Что такое брак?"
+    },
+    {
+     "en": "とある結婚"
+    }
+   ],
    "description": {
     "en": "The story of German-American Anna and Japanese Saki, who live together as a couple in Los Angeles."
    },
@@ -18,7 +32,6 @@
     "mu": "123281"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -28,8 +41,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +55,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,51 +67,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-23T04:35:46+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "18f7582c-a924-458c-8011-5240be6687f8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kumashika Ruri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "18f7582c-a924-458c-8011-5240be6687f8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kumashika Ruri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "750b871f-44c3-4071-b440-9024218b604f",
-   "type": "chapter"
-  },
-  {
-   "id": "5c8ae3c8-f72f-4132-98ff-5dfed41a93a4",
-   "type": "chapter"
-  },
-  {
-   "id": "e7761c79-84bb-44d4-ba19-0dbd7dd39b7c",
-   "type": "chapter"
-  },
-  {
-   "id": "c4d99523-fa2b-49c6-8b77-07c3519cae99",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "5712d3e6-31fc-4fcb-86d5-9b710ed99497",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:45+00:00",
+    "description": "",
+    "fileName": "36a9cbe1-90f1-4171-94a7-b66409d92bfa.jpg",
+    "updatedAt": "2021-05-24T16:58:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

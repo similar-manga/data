@@ -7,11 +7,15 @@
    "title": {
     "en": "DEEP"
    },
+   "altTitles": [
+    {
+     "en": "Глубина"
+    }
+   ],
    "description": {
     "en": "The story tells about recovery of а treasure from German submarine which sunk at great depths in the end of the Second World War."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +51,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,47 +63,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-30T01:29:14+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "f1f5339e-b608-42f1-b536-bc42273e739e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OHTAGAKI Yasuo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f1f5339e-b608-42f1-b536-bc42273e739e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OHTAGAKI Yasuo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ff872f0d-fc2c-4864-bff1-b151e5f32540",
-   "type": "chapter"
-  },
-  {
-   "id": "78a4ef03-b5ba-4ab5-82b7-f2a77d81cb70",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "7ede7f1b-a20a-4fc3-8913-ffec8f5c8fc4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:08:22+00:00",
+    "description": "",
+    "fileName": "4e1a279d-8f4a-4a0b-95fd-64c005e6d9ec.jpg",
+    "updatedAt": "2021-05-24T18:08:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

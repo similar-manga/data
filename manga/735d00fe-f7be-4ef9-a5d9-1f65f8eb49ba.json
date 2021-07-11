@@ -7,6 +7,20 @@
    "title": {
     "en": "SStudy"
    },
+   "altTitles": [
+    {
+     "en": "Sex Study"
+    },
+    {
+     "en": "Sunggi's Study Group"
+    },
+    {
+     "en": "Секс-обучение"
+    },
+    {
+     "en": "나성기의 스터디"
+    }
+   ],
    "description": {
     "en": "A study group is where students gather together with the same goal in mind and help each other succeed. But not every study group is the same. And nooobody said there had to be a single goal in mind. Sunggi enters a study group that is supposedly focused on studying for the government service exam. But that doesn't mean that's all they have to do, right?"
    },
@@ -30,6 +44,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +56,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +68,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,79 +80,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-16T18:43:14+00:00",
+   "updatedAt": "2021-05-25T15:43:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "658c7fb8-a837-41e7-94b4-3077336b62e3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Husky Guy",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "54faab86-3885-4d7f-adfb-6f184b0a6f8d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Edge Edge",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "751e67e2-c933-44cb-8ccd-dcf3ca86be35",
-   "type": "chapter"
-  },
-  {
-   "id": "04ff8da3-3b2a-4333-a337-249ecb7dca88",
-   "type": "chapter"
-  },
-  {
-   "id": "48ecfe27-490e-4279-aa28-81c4598b5195",
-   "type": "chapter"
-  },
-  {
-   "id": "c3299732-705e-41c0-8d1a-5961109ba429",
-   "type": "chapter"
-  },
-  {
-   "id": "2f96bb7c-2ad5-427b-b0ad-107238c9cbb0",
-   "type": "chapter"
-  },
-  {
-   "id": "c4bc893f-9cf1-45ff-a38f-5eefb3a4d7ce",
-   "type": "chapter"
-  },
-  {
-   "id": "a4d35811-7ae8-43b4-8511-79a7f987959b",
-   "type": "chapter"
-  },
-  {
-   "id": "731968ea-ecd4-4b62-9212-53b925cf8927",
-   "type": "chapter"
-  },
-  {
-   "id": "6b429f12-62c1-485f-be18-b2485bccfd2d",
-   "type": "chapter"
-  },
-  {
-   "id": "daf8f272-6e1c-4f2f-8871-d45f91b73678",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "225219ed-3190-4ff8-8b34-f3d9f9d0ba00",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:51:45+00:00",
+    "description": "",
+    "fileName": "5409b688-8efe-4dcf-9bf4-025ee73e70df.jpg",
+    "updatedAt": "2021-05-24T16:51:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

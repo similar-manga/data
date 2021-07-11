@@ -7,6 +7,11 @@
    "title": {
     "en": "Haburi"
    },
+   "altTitles": [
+    {
+     "en": "葬-はぶり-"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -33,6 +38,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +50,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +62,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,39 +74,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-11-19T11:41:18+00:00",
+   "updatedAt": "2019-11-19T11:41:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "94c791eb-9196-4119-9419-eba5f1aa338d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Watanabe Chihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "94c791eb-9196-4119-9419-eba5f1aa338d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Watanabe Chihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "81a48e8b-7a11-4f3b-9213-b99b0afd9015",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:34:23+00:00",
+    "description": "",
+    "fileName": "e5d54789-2206-4aa7-8c87-a3efb04799ab.jpg",
+    "updatedAt": "2021-05-24T17:34:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

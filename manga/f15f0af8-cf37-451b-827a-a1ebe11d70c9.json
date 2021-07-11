@@ -7,6 +7,14 @@
    "title": {
     "en": "Baki Domoe"
    },
+   "altTitles": [
+    {
+     "en": "Baki's struggle"
+    },
+    {
+     "en": "バキどもえ"
+    }
+   ],
    "description": {
     "en": "Japanese parody gag manga series by manga artist Norio Sakurai about the adventures of the characters in the Baki series and life in their over-the-silly-top world they live in."
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +61,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -59,59 +73,53 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-10T00:57:35+00:00",
+   "updatedAt": "2021-05-25T15:49:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "ff766907-c268-404d-ab08-56cb9242aa44",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Norio Sakurai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ff766907-c268-404d-ab08-56cb9242aa44",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Norio Sakurai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8080416a-55c2-49e3-9ec8-8117cd895ed3",
-   "type": "chapter"
-  },
-  {
-   "id": "32e16856-97ca-45ee-9991-89489f32fb83",
-   "type": "chapter"
-  },
-  {
-   "id": "4870fc0c-20c0-4a44-800b-7100a056e7d1",
-   "type": "chapter"
-  },
-  {
-   "id": "ac0724ba-b1ca-40d3-b3e6-45a4582629e2",
-   "type": "chapter"
-  },
-  {
-   "id": "1244ad8b-50b1-45c5-8f4c-50a9e6d7149c",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
+   "id": "9208490f-2496-4f40-8bd0-9a4e94182cce",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:14+00:00",
+    "description": "",
+    "fileName": "e02e35a1-8bac-44e7-8a29-697ac83f2bdf.jpg",
+    "updatedAt": "2021-05-24T17:22:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Hanpamono"
    },
+   "altTitles": [
+    {
+     "en": "はんぱもの"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,8 +42,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,39 +56,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-19T14:42:34+00:00",
+   "updatedAt": "2021-05-25T15:47:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "88cac4d0-8e24-4fc4-af98-fb66d5b94cd2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Amagakure Gido",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "88cac4d0-8e24-4fc4-af98-fb66d5b94cd2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Amagakure Gido",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8162e3f5-2926-4d90-b366-ecd0da1a0c0b",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "f7d7a3f0-dc0f-4fea-946e-b2a90322b2b5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:59+00:00",
+    "description": "",
+    "fileName": "4008eb39-ec0d-4b27-9e70-bb4253b41a09.jpg",
+    "updatedAt": "2021-05-24T17:15:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

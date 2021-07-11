@@ -7,6 +7,14 @@
    "title": {
     "en": "Sanzensekai no Karasu wo Koroshi"
    },
+   "altTitles": [
+    {
+     "en": "Killing the Crow of 3000 Worlds"
+    },
+    {
+     "en": "三千世界の烏を殺し"
+    }
+   ],
    "description": {
     "en": "A Collection of short stories:\r\n\r\n1. Sanzensekai no Karasu wo Koroshi (To Kill the Crows of 3000 Worlds)\r\nKarasuma gets an odd job request from his boss. What'll happen when the boss buys him expensive suit and jewelery?\r\n\r\n2 Haru no Uguisu Nani Kite Neyaru (What Puts Spring Nightingales to Sleep)\r\nKarasuma and his boss take care of a baby.\r\n\r\n3. Dokuyaku to Roukan (Poison and Old Age)\r\n\r\n4. Hoshi wo Tsugumono (That Which Succeeds the Stars)\r\n\r\n5. Grand' Uomo\r\n\r\n6-8. Ninen Me no Uwaki (Unfaithfulness from Two Years)\r\n\r\n9. Sankai Yuiitsu Kokoro (Multiple Existences But One Sou"
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +46,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,8 +56,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,43 +70,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-10T02:39:17+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "fceccf13-6cbb-4285-a2f5-6350ebad4f90",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsuzaki Tsukasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fceccf13-6cbb-4285-a2f5-6350ebad4f90",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsuzaki Tsukasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "90620949-9f2e-4bb4-8072-c6c3f85d7943",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "2ae68053-a1c2-4ff2-b7aa-1100ce9cc235",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:36:55+00:00",
+    "description": "",
+    "fileName": "5279426b-1703-4ba2-b96a-3ece53bd1c14.jpg",
+    "updatedAt": "2021-05-24T17:36:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

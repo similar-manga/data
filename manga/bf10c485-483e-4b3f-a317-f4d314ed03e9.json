@@ -7,6 +7,11 @@
    "title": {
     "en": "Our Alliance - A Lasting Partnership"
    },
+   "altTitles": [
+    {
+     "en": "わたしたちの同盟 — 永続的パートナーシップ"
+    }
+   ],
    "description": {
     "en": "A collaboration between the United States armed forces in Japan and the creators of Maritan with artist Yukio Hirai, it commemorates the fiftieth anniversary of the Treaty of Mutual Cooperation and Security between the United States and Japan."
    },
@@ -14,7 +19,6 @@
     "raw": "https://web.archive.org/web/20101223031031/http://www.usfj.mil/Manga/"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "cancelled",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +53,8 @@
       "name": {
        "en": "Military"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -55,6 +65,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,51 +77,65 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-15T13:06:16+00:00",
+   "updatedAt": "2021-05-25T15:47:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "05f433dd-0bfa-40cc-b390-3da878a7efee",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HIRAI Yukio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2bfab503-b393-48f2-9943-de1a7a728360",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chouniku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "87169fa7-9a2b-4460-93d4-1475223fa818",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Misa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f15769e4-fe3a-4546-ad2a-2ebe86c181ab",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "ffd092f7-498e-4f91-907a-c9839fb49769",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:52:28+00:00",
+    "description": "",
+    "fileName": "d55412bf-a525-4569-bf79-5251ebe81f7a.jpg",
+    "updatedAt": "2021-05-24T17:52:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

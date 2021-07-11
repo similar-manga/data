@@ -7,6 +7,11 @@
    "title": {
     "en": "Uesugi Kenshin"
    },
+   "altTitles": [
+    {
+     "en": "上杉謙信"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +60,8 @@
       "name": {
        "en": "Samurai"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,51 +72,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-17T07:32:36+00:00",
+   "updatedAt": "2021-05-25T15:42:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "ba68723d-aa2f-4ed3-af2d-be694a680a42",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okamura Kenji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ba68723d-aa2f-4ed3-af2d-be694a680a42",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okamura Kenji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cba9bf98-6411-4716-b5bf-49f592158707",
-   "type": "chapter"
-  },
-  {
-   "id": "1df702c6-3241-4a4b-87eb-bbce9c306c7a",
-   "type": "chapter"
-  },
-  {
-   "id": "c4df7c02-9cae-429c-aa0d-58e73dac7d34",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "81183756-1453-4c81-aa9e-f6e1b63be016",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "2b57bdd2-2fa0-4f9b-8289-5b97c05c6888",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:23:14+00:00",
+    "description": "",
+    "fileName": "9cb3a930-9a22-45b7-b987-4e32d0485e75.jpg",
+    "updatedAt": "2021-05-24T18:23:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

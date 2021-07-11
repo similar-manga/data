@@ -23,6 +23,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -31,8 +33,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,39 +47,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-09-28T23:39:49+00:00",
+   "updatedAt": "2020-09-28T23:39:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "39ab6717-a909-4a66-ad3c-8d6384ab0692",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Niigata Kaizou Keikaku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "39ab6717-a909-4a66-ad3c-8d6384ab0692",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Niigata Kaizou Keikaku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "47aabbe6-1d35-43f8-86e2-48eb6156160e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "130a8ddd-a868-4f1d-92aa-4850af7d647b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:12:30+00:00",
+    "description": "",
+    "fileName": "88fe3133-71ad-4650-845e-f72685e6c723.jpg",
+    "updatedAt": "2021-05-24T18:12:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

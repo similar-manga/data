@@ -7,6 +7,20 @@
    "title": {
     "en": "Tetsuwan Atom"
    },
+   "altTitles": [
+    {
+     "en": "Astro Boy"
+    },
+    {
+     "en": "Astroboy"
+    },
+    {
+     "en": "Mighty Atom"
+    },
+    {
+     "en": "鉄腕アトム"
+    }
+   ],
    "description": {
     "en": "Astro Boy! Created by the late Osamu Tezuka, a revered animator and cartoonist--who created over 150,000 pages of comics in his career!--and considered the Walt Disney of Japan, his Astro Boy was the first manga series to be adapted to animation and became a worldwide phenomenon, making Astro Boy the Mickey Mouse of anime--a jet-powered, super-strong, evil-robot-bashing, alien-invasion-smashing Mickey Mouse, that is! Exciting, whimsical, and touching, Astro Boy hearkens back to the classic era of comics and animation, featuring stories that readers young and old will enjoy."
    },
@@ -33,6 +47,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +59,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +71,8 @@
       "name": {
        "en": "Mecha"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,55 +83,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-19T10:23:32+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "21575d70-b954-4e3a-80df-00192f413a83",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tezuka Osamu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "21575d70-b954-4e3a-80df-00192f413a83",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tezuka Osamu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d438efed-8a09-40cb-9b9d-668c6f57e2ea",
-   "type": "chapter"
-  },
-  {
-   "id": "ff3f6cba-17a4-4e47-ac92-5539926c9673",
-   "type": "chapter"
-  },
-  {
-   "id": "89a47b18-038c-4e56-9a3a-50f53bc8b352",
-   "type": "chapter"
-  },
-  {
-   "id": "6f6dfbe3-d8c3-4ed6-9476-2a09dfdadbd4",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "50880a9d-5440-4732-9afb-8f457127e836",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "fbc59e20-d4b5-4fb7-8439-377baf8e0cd4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:26:28+00:00",
+    "description": "",
+    "fileName": "7a2537f5-365f-4406-842e-c7ef2c106e37.jpg",
+    "updatedAt": "2021-05-24T18:26:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

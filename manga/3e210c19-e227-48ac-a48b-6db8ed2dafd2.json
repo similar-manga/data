@@ -7,6 +7,11 @@
    "title": {
     "en": "House Backer"
    },
+   "altTitles": [
+    {
+     "en": "ハウスバッカー"
+    }
+   ],
    "description": {
     "en": "Azumi meets his new arrogant housekeeper, Wakui, who is tougher than any maid he has ever had before!"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,71 +59,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-26T17:31:13+00:00",
+   "updatedAt": "2021-05-25T15:41:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "4e8b18e5-b77f-43dd-95e0-286330a8af13",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsume Isaku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4e8b18e5-b77f-43dd-95e0-286330a8af13",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsume Isaku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "85c024cd-4d6f-4432-9e81-87608d03968a",
-   "type": "chapter"
-  },
-  {
-   "id": "6faa50f8-fa46-4fa9-a570-8fb1f0efd076",
-   "type": "chapter"
-  },
-  {
-   "id": "46c05ea8-a76c-4e18-a8cf-6cbfddee1d1d",
-   "type": "chapter"
-  },
-  {
-   "id": "afc39007-8322-49c6-a8bd-195cce72dea5",
-   "type": "chapter"
-  },
-  {
-   "id": "c6b59396-45fa-4fac-bc9a-0e73ac68d703",
-   "type": "chapter"
-  },
-  {
-   "id": "405d3a23-3312-4a2b-a149-8171c4c0e3c0",
-   "type": "chapter"
-  },
-  {
-   "id": "a88dde6a-5d2f-4e18-80af-1a232fc9c315",
-   "type": "chapter"
-  },
-  {
-   "id": "e03be0bc-7fa7-4cdf-a18f-c5c24b445fd3",
-   "type": "chapter"
-  },
-  {
-   "id": "428eee24-efce-4857-82ca-5479f447a07e",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "948753bd-7c0b-4f5c-9e5e-2707b5b0bcab",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:49+00:00",
+    "description": "",
+    "fileName": "b1075c1f-b5d5-43ea-8911-042bbe810626.png",
+    "updatedAt": "2021-05-24T16:55:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

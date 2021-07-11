@@ -7,6 +7,14 @@
    "title": {
     "en": "Jiken Jaken!"
    },
+   "altTitles": [
+    {
+     "en": "Jiken-Jaken!"
+    },
+    {
+     "en": "じけんじゃけん!"
+    }
+   ],
    "description": {
     "en": "A beautiful, talented and mystery-loving high school girl and a younger school boy solve mysteries in their day-to-day lives at school."
    },
@@ -33,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +65,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -63,79 +77,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-13T23:56:33+00:00",
+   "updatedAt": "2021-05-25T15:39:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "57f9f9a2-59b5-4f48-9440-ca03bc619ced",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yasuda Kousuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "57f9f9a2-59b5-4f48-9440-ca03bc619ced",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yasuda Kousuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "151571be-8cbc-4ff6-8ce4-bbac013c0368",
-   "type": "chapter"
-  },
-  {
-   "id": "98cf42a1-154d-4efd-8b8e-7ac1979a16ba",
-   "type": "chapter"
-  },
-  {
-   "id": "8e1388cd-2bbc-42ea-b694-f0ccd637658a",
-   "type": "chapter"
-  },
-  {
-   "id": "c450676f-160a-47b4-bd91-69fcefebec32",
-   "type": "chapter"
-  },
-  {
-   "id": "0b5c91ab-d580-4672-aede-590535236564",
-   "type": "chapter"
-  },
-  {
-   "id": "f0202b0f-210a-479e-a589-8bfe7a3c48ab",
-   "type": "chapter"
-  },
-  {
-   "id": "d39beeaf-5181-4d60-8f46-5cddd876f5d4",
-   "type": "chapter"
-  },
-  {
-   "id": "d942379c-433f-42ee-adcb-9583c570f194",
-   "type": "chapter"
-  },
-  {
-   "id": "f7aa5844-ac15-4b5c-8111-1c0efb9ee289",
-   "type": "chapter"
-  },
-  {
-   "id": "d814e70c-64c1-46cb-8638-1e5158750f5c",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "ddb0b873-6425-4f71-b61b-5169d44f31aa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:41+00:00",
+    "description": "",
+    "fileName": "f4f64093-9cee-4938-87e2-89c88baa6a3f.jpg",
+    "updatedAt": "2021-05-24T17:22:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

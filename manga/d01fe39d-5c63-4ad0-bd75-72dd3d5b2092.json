@@ -7,6 +7,17 @@
    "title": {
     "en": "Hakata Tonkotsu Ramens"
    },
+   "altTitles": [
+    {
+     "en": "Hakata Pig Bone Ramen"
+    },
+    {
+     "en": "博多豚骨ラーメンズ"
+    },
+    {
+     "en": "博多豚骨拉麵團"
+    }
+   ],
    "description": {
     "en": "Hakata: a town rumored to count 3% of the population as killers.\r\nFukuoka: a tourist city that, at first glance, looks peaceful. But underneath this facade, the streets are rampant with crime and it has become a battleground for professional killers. \r\n\r\nA first-year member of society on an edge, a hitman employed by the mayor, a private detective that loves Hakata, a genius hacker's information business, a too-beautiful avenger, and a hitman taken in by a sinister organization. Those who are good at being evil will force Hakata out onto the stage!\r\nThe manga adaption of Media Works' popular suspense novel's first volume has arrived!"
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Thriller"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +78,8 @@
       "name": {
        "en": "Crime"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,6 +90,8 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -81,6 +102,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -91,59 +114,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-11T06:39:17+00:00",
+   "updatedAt": "2021-05-25T15:47:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "8edb2903-2b2e-4a0b-a34b-a992e6f2f8d2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kisaki Chiaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6e330822-380b-4eaf-b460-1da092410d95",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akino Kisara",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c93100a5-ab6b-4653-ad07-e26327cffdbd",
-   "type": "chapter"
-  },
-  {
-   "id": "6320dcd7-70cf-41f0-8a68-751b42e99d2f",
-   "type": "chapter"
-  },
-  {
-   "id": "07251805-a27e-4d59-b488-f0bfbec15168",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "8e6e7c36-6029-4f58-8c73-934878db8d5d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:40:48+00:00",
+    "description": "",
+    "fileName": "003d8435-0166-483b-bfaa-32faa763a16a.jpg",
+    "updatedAt": "2021-05-24T17:40:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Seijo no Yurikago, Dokujo no Hitsugi"
    },
+   "altTitles": [
+    {
+     "en": "聖女の揺籃、毒女の柩"
+    }
+   ],
    "description": {
     "en": "Two brothers who lost their parents are brought to an orphanage on an isolated island. They are welcomed by a beautiful nun and promised to spend the rest of their days in paradise with the other orphans, but are soon thrust into a twisted hell of love and madness."
    },
@@ -33,6 +38,8 @@
       "name": {
        "en": "Thriller"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +50,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -53,51 +62,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-26T13:04:28+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "0011efb1-1376-4c05-9e31-51705a862905",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsumi Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0011efb1-1376-4c05-9e31-51705a862905",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsumi Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "633a3d0a-6f32-4c76-9d8c-f1aa7c0a70bf",
-   "type": "chapter"
-  },
-  {
-   "id": "40576b0e-329e-4a35-a964-a62aaca5face",
-   "type": "chapter"
-  },
-  {
-   "id": "5b7d1390-9c48-4805-86d0-49160e38f89c",
-   "type": "chapter"
-  },
-  {
-   "id": "d8b9e3cc-3c69-47b3-ab4d-a336957b8bbd",
-   "type": "chapter"
-  },
-  {
-   "id": "07251805-a27e-4d59-b488-f0bfbec15168",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "9a046ecc-9053-4f90-829b-ccb49661cf4e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:35:13+00:00",
+    "description": "",
+    "fileName": "578c165a-3a50-41b3-8838-bdbc8a5f74bb.jpg",
+    "updatedAt": "2021-05-24T17:35:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

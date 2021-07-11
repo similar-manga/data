@@ -22,6 +22,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +46,8 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -52,6 +58,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -62,83 +70,53 @@
       "name": {
        "en": "Medical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-31T11:42:27+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "2a04bd24-da9a-42b0-a927-817b1c3825ef",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Reon Merryweatherey",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c8b3c6a9-42fa-42e0-9a97-2e4e8786700c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Himitaka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b93cb0e1-986e-4df5-a8c6-1ece2cef532c",
-   "type": "chapter"
-  },
-  {
-   "id": "a634fd81-1d00-4e37-966e-8141b994bf2b",
-   "type": "chapter"
-  },
-  {
-   "id": "f2975b6f-daa6-4558-a78f-a957919948c9",
-   "type": "chapter"
-  },
-  {
-   "id": "dab8826a-f6ca-40d6-8f24-20017ef2740c",
-   "type": "chapter"
-  },
-  {
-   "id": "4d6d87ea-37d6-482b-be2f-c19760b978f3",
-   "type": "chapter"
-  },
-  {
-   "id": "cfbdcbb5-3707-4ea7-8aae-a7513fc648b1",
-   "type": "chapter"
-  },
-  {
-   "id": "462ddf5e-a59d-4e4f-bb15-d3a53600d7a0",
-   "type": "chapter"
-  },
-  {
-   "id": "87c2daa6-2647-4688-b55b-f20f2758818b",
-   "type": "chapter"
-  },
-  {
-   "id": "8e03cb8a-3297-49f8-bd99-04faa5041c71",
-   "type": "chapter"
-  },
-  {
-   "id": "b1eddeea-8376-4708-ab81-b6ac264de5eb",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "c8cbe35b-1b2b-4a3f-9c37-db84c4514856",
-   "type": "tag"
+   "id": "d3e3fce9-9023-4f52-a300-ebd8f719cc06",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:00+00:00",
+    "description": "",
+    "fileName": "856d0427-b932-4b2d-92ab-a794215afc3e.jpg",
+    "updatedAt": "2021-05-24T16:50:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Level E"
    },
+   "altTitles": [
+    {
+     "en": "レベルE"
+    }
+   ],
    "description": {
     "en": "Tsutsui Yukitaka was a freshman who had just entered a high school, and he was hoping to be a good baseball player. When he moved to a new apartment, there was a man in the room. He said he was an alien and lost his memory.\r\nActually, he was the first prince of Planet Dogra, and he was the man who had the best brain and the worst nature."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +60,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +72,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,83 +84,53 @@
       "name": {
        "en": "Aliens"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-29T16:31:59+00:00",
+   "updatedAt": "2021-05-25T15:45:37+00:00"
   }
  },
  "relationships": [
   {
    "id": "00345ac8-e515-458d-a11d-56cfd1cb253b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Togashi Yoshihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "00345ac8-e515-458d-a11d-56cfd1cb253b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Togashi Yoshihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "824b04bf-f749-44db-85f5-b9dca07c221b",
-   "type": "chapter"
-  },
-  {
-   "id": "a56ae54a-b307-4ecf-81eb-6a642e2a2aff",
-   "type": "chapter"
-  },
-  {
-   "id": "eb330709-9bd6-4810-aac3-b85d7ffd02ea",
-   "type": "chapter"
-  },
-  {
-   "id": "8cbb1fff-1885-4bdb-9d73-5f40b85be0f9",
-   "type": "chapter"
-  },
-  {
-   "id": "fdf9faf9-5754-4371-9f8a-3a019d900d79",
-   "type": "chapter"
-  },
-  {
-   "id": "d00421ca-ebb3-4cae-8510-923cce4522b1",
-   "type": "chapter"
-  },
-  {
-   "id": "fe6d701c-a635-4de3-bf65-bddc6dd2e769",
-   "type": "chapter"
-  },
-  {
-   "id": "d42e0ad5-3dae-47e6-af86-296264ad90ba",
-   "type": "chapter"
-  },
-  {
-   "id": "d567ac19-9b45-4577-81d1-96366736b9db",
-   "type": "chapter"
-  },
-  {
-   "id": "42ed48f6-9515-4e9d-876a-c2f96a0f0d18",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "e64f6742-c834-471d-8d72-dd51fc02b835",
-   "type": "tag"
+   "id": "399a9859-ce49-4f55-9dc7-589f0327085a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:09+00:00",
+    "description": "",
+    "fileName": "3cbfc1da-bddb-4777-8d3c-d5412158735c.jpg",
+    "updatedAt": "2021-05-24T18:04:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

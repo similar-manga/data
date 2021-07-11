@@ -7,6 +7,11 @@
    "title": {
     "en": "Sensei no Oshigoto"
    },
+   "altTitles": [
+    {
+     "en": "Teacher's Job"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -23,6 +28,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -31,8 +38,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,39 +52,53 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-24T19:13:34+00:00",
+   "updatedAt": "2021-05-25T15:42:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "707e1b1d-52a7-46bd-ba61-b9ac333163fe",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kirimoto Yuuji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "707e1b1d-52a7-46bd-ba61-b9ac333163fe",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kirimoto Yuuji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7b6168a1-5497-46d4-b41a-7204d57f40f7",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
+   "id": "f0e8ad9b-5b10-4f50-8b09-f6b09477e3f0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:49:52+00:00",
+    "description": "",
+    "fileName": "2cf015fb-6e49-499c-83a9-511c4c453250.png",
+    "updatedAt": "2021-05-24T17:49:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

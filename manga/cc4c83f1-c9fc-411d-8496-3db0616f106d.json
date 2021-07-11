@@ -7,6 +7,20 @@
    "title": {
     "en": "Shiawase no Kanzume"
    },
+   "altTitles": [
+    {
+     "en": "A Can of Happiness"
+    },
+    {
+     "en": "Shiawase no Kandume"
+    },
+    {
+     "en": "Shiawase no Kandzume"
+    },
+    {
+     "en": "幸せのかんづめ"
+    }
+   ],
    "description": {
     "en": "Five short stories:\r\n- A Can of Happiness\r\n- Boys Just Don't Understand\r\n- A Million Words\r\n- The Opposite of Love is Hate\r\n- I'll Always Be Here"
    },
@@ -31,6 +45,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,51 +57,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-11T08:24:46+00:00",
+   "updatedAt": "2021-05-25T15:47:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "6e167cd5-34b9-4d98-85dc-44b7031ea7ed",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KAWAHARA Kazune",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6e167cd5-34b9-4d98-85dc-44b7031ea7ed",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KAWAHARA Kazune",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ad38774e-595f-48cb-bfdb-e1b6383db895",
-   "type": "chapter"
-  },
-  {
-   "id": "cd8e77bc-7cd0-48e6-b47c-f28f4530b653",
-   "type": "chapter"
-  },
-  {
-   "id": "3126cc19-852f-4f4a-ab47-3fa911f78b3d",
-   "type": "chapter"
-  },
-  {
-   "id": "3e4756cf-c87a-4c7c-b26f-43a42b212e0e",
-   "type": "chapter"
-  },
-  {
-   "id": "3135a13c-f448-4b88-a7d7-af47fd51cecf",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "a389d0e0-6ed5-4f10-9774-03bfbb2e21ff",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:54+00:00",
+    "description": "",
+    "fileName": "c57f696d-6d39-46c1-ac10-6e6ad89ddfdc.jpg",
+    "updatedAt": "2021-05-24T17:09:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Maid Graffiti"
    },
+   "altTitles": [
+    {
+     "en": "メイドグラフティ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,71 +46,53 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-26T13:06:16+00:00",
+   "updatedAt": "2021-05-25T15:40:04+00:00"
   }
  },
  "relationships": [
   {
    "id": "6ca721c3-6e62-4714-a314-9d7aa5ab595a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nendo.",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6ca721c3-6e62-4714-a314-9d7aa5ab595a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nendo.",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3e8c5575-53e6-451f-a7ec-888d1c6f2465",
-   "type": "chapter"
-  },
-  {
-   "id": "b5f40a7f-1c61-440f-8acc-6f0bf9ace382",
-   "type": "chapter"
-  },
-  {
-   "id": "208ce966-d1c4-4898-82db-b171617bc188",
-   "type": "chapter"
-  },
-  {
-   "id": "1a7e0e30-cf77-42b7-a36a-2f8f4054f4d5",
-   "type": "chapter"
-  },
-  {
-   "id": "7eae65f4-be99-4601-98a5-54b748669894",
-   "type": "chapter"
-  },
-  {
-   "id": "45a0614c-9f4b-41b6-ae79-7c14af3031f1",
-   "type": "chapter"
-  },
-  {
-   "id": "9344b86c-3746-4f47-9567-5196fd348c1e",
-   "type": "chapter"
-  },
-  {
-   "id": "f30b6d73-f2a7-4700-9e2b-523c9aa06648",
-   "type": "chapter"
-  },
-  {
-   "id": "f496c4d1-fe4a-4dd9-9e31-4943c64eefd1",
-   "type": "chapter"
-  },
-  {
-   "id": "cb7a443c-2f2c-4a72-bb41-a87be2afc1c7",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
+   "id": "5377f7fe-086d-4f72-a98c-49986b492d71",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:05:56+00:00",
+    "description": "",
+    "fileName": "dd4e4075-e147-471b-a43b-5e41874913cc.jpg",
+    "updatedAt": "2021-05-24T17:05:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

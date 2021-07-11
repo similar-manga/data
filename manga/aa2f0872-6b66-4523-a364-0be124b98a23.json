@@ -7,6 +7,11 @@
    "title": {
     "en": "Seoha"
    },
+   "altTitles": [
+    {
+     "en": "서하"
+    }
+   ],
    "description": {
     "en": "Seoha, an abandoned child, whose relatives gave up on him after he lost his family. \r\n\r\nAn uncle who is unable to forget his wife and their unborn child. \r\n\r\nTheir growth as the two of them wander through the snowy winter."
    },
@@ -14,7 +19,6 @@
     "ap": "seoha"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -43,8 +51,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +65,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,55 +77,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-13T10:12:33+00:00",
+   "updatedAt": "2021-05-25T15:46:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "909726b0-e7de-44e7-baf8-e1e2a9cd0be3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yaggug",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "909726b0-e7de-44e7-baf8-e1e2a9cd0be3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yaggug",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b98e6d44-bb95-4e5c-ba61-7ff28242ea92",
-   "type": "chapter"
-  },
-  {
-   "id": "3629a992-5ea4-4399-bdcd-ad4a1a0ea2ca",
-   "type": "chapter"
-  },
-  {
-   "id": "1ef77410-c0e3-4ac2-9d84-2e23031b0ed8",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "a8e2b7dd-ad12-4fea-b3ac-9cacabbc1f61",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:30:59+00:00",
+    "description": "",
+    "fileName": "1f457e9d-0719-41ca-9aac-967863ebf08d.png",
+    "updatedAt": "2021-05-24T18:30:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

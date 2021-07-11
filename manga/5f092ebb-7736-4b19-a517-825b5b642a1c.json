@@ -7,6 +7,14 @@
    "title": {
     "en": "Persona 2 - Innocent Sin Comic Anthology"
    },
+   "altTitles": [
+    {
+     "en": "Persona 2: Tsumi Comic Anthology"
+    },
+    {
+     "en": "ペルソナ2罪, コミックアンソロジー"
+    }
+   ],
    "description": {
     "en": "Based on the game of the same name, a variety of authors and artists write a large offering of short stories starring the various characters featured in the game."
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +71,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +83,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -77,6 +95,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -87,6 +107,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -97,95 +119,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-14T17:14:38+00:00",
+   "updatedAt": "2021-05-25T15:42:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8cb963d8-6ec3-452e-ba0d-72c377e8ded4",
-   "type": "chapter"
-  },
-  {
-   "id": "a8e57388-00ab-417e-bb7e-bc595be29cc5",
-   "type": "chapter"
-  },
-  {
-   "id": "65479b55-9810-4948-87ce-7bc58c9de3d5",
-   "type": "chapter"
-  },
-  {
-   "id": "cc744aca-1d4e-4875-b121-b4870489f32e",
-   "type": "chapter"
-  },
-  {
-   "id": "4c580561-4d28-4e18-91e2-3e523ff36d1d",
-   "type": "chapter"
-  },
-  {
-   "id": "f9ff4280-c010-4abc-8862-8e7c72d2bd79",
-   "type": "chapter"
-  },
-  {
-   "id": "85ce7f3e-7070-4219-b744-6cbe8eb0bf26",
-   "type": "chapter"
-  },
-  {
-   "id": "4fb28039-a5c8-4966-864d-5f6b311e63f9",
-   "type": "chapter"
-  },
-  {
-   "id": "f6c4e6dd-bf73-452f-9c8e-8e119bccaecd",
-   "type": "chapter"
-  },
-  {
-   "id": "9bf47d07-7699-4ce4-a1d8-f9dd8b488d8f",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "fcf21419-e816-4f29-b13f-fe0a4cd77cb4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:03+00:00",
+    "description": "",
+    "fileName": "55c6b165-d91a-41aa-88c4-571e63b3d487.jpg",
+    "updatedAt": "2021-05-24T17:08:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

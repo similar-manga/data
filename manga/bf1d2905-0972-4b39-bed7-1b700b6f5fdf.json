@@ -7,6 +7,14 @@
    "title": {
     "en": "Patch Quest"
    },
+   "altTitles": [
+    {
+     "en": "Tsugihagi Quest"
+    },
+    {
+     "en": "ツギハギクエスト"
+    }
+   ],
    "description": {
     "en": "A few years ago, while on a journey to defeat The Demon King, the hero disappeared, leaving only his holy sword behind. And so, a new hero arises..."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,39 +63,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-20T12:18:42+00:00",
+   "updatedAt": "2021-05-25T15:47:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "03725218-796b-4514-b7f6-caad06847d56",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kasama Sanshirou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d42e4a94-31ef-4566-8b71-e8b68af45f2c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Uesugi Hikaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "beb6d55a-c7f1-4e45-a5f6-16edd911fa91",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "64a52760-8f64-4f2d-9fbd-fdf81cfe52d9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:12:32+00:00",
+    "description": "",
+    "fileName": "8880b32e-7e96-45b6-8959-a4e42233b972.jpg",
+    "updatedAt": "2021-05-24T17:12:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

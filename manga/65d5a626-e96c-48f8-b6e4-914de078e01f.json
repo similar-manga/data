@@ -7,6 +7,20 @@
    "title": {
     "en": "Daten no Tsuki"
    },
+   "altTitles": [
+    {
+     "en": "Bukottak Holdja"
+    },
+    {
+     "en": "Fallen Moon"
+    },
+    {
+     "en": "Padlý měsíc"
+    },
+    {
+     "en": "堕天の月"
+    }
+   ],
    "description": {
     "en": "An unearthly collection of stories illuminating the complex lives of immortal beings. An angel, who loses his place in Eden, finds a mysterious and dangerous new patron. A poor painter finishes a woman's portrait without a subject and reveals his forgotten past. These stories and more will delight fans of beautiful angels and demon boys!"
    },
@@ -26,6 +40,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,8 +50,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +64,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,55 +76,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-28T08:37:54+00:00",
+   "updatedAt": "2021-05-25T15:43:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "48e59f7e-d831-4157-b4b9-617f7f9f7ab3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hasumi Toui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "48e59f7e-d831-4157-b4b9-617f7f9f7ab3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hasumi Toui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3c86cff4-a835-4ac5-be5b-bc7c08c3cb78",
-   "type": "chapter"
-  },
-  {
-   "id": "cf57bd95-b289-4e8b-b57e-b8829336ca1e",
-   "type": "chapter"
-  },
-  {
-   "id": "68e3b55f-650d-410a-88ac-18f9c27bbe3c",
-   "type": "chapter"
-  },
-  {
-   "id": "639c43d4-d3e3-4db8-ab6a-31f3d84846cd",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "d53d03eb-ad51-4f62-bb54-d728db0205ad",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:35:47+00:00",
+    "description": "",
+    "fileName": "01c8a464-a84d-48c4-983e-01d4a5510257.jpg",
+    "updatedAt": "2021-05-24T18:35:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

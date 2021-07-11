@@ -7,6 +7,11 @@
    "title": {
     "en": "Dekoboko Animation"
    },
+   "altTitles": [
+    {
+     "en": "凸凹アニメーション"
+    }
+   ],
    "description": {
     "en": "Okiguchi Hiroyuki is an animator who is doing something he truly enjoys - drawing key animation frames for animes. Then right before the deadline for another set of key frames, a new blonde-bomb-shell production assistant comes to pick up his work. But is that all she intends to take from our protagonist?"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,35 +47,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-18T04:29:32+00:00",
+   "updatedAt": "2021-05-25T15:43:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "8b0e7831-a108-4d96-b968-dbb589e27411",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyajima Masanori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "aeb51702-9f41-4697-99ec-b76caaa0756a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Igarashi Masakuni",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "268d08ed-96f2-4f30-a1d8-6ebb4c86da97",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "f3fe82de-2400-4f48-9634-6b138dbfe19c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:51:54+00:00",
+    "description": "",
+    "fileName": "19b1bf2d-feef-4b17-a973-211381cc9fbe.jpg",
+    "updatedAt": "2021-05-24T16:51:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

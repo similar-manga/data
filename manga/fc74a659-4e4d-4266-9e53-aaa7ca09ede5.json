@@ -7,6 +7,11 @@
    "title": {
     "en": "Short Peace"
    },
+   "altTitles": [
+    {
+     "en": "ショート・ピース"
+    }
+   ],
    "description": {
     "en": "Short stories collection from 1976-1979:\r\n- Uchuu Patrol Sigma (Space Patrolman Shigema)\r\n- Round about midnight\r\n- School-boy on good\r\n- Cinema club\r\n- Tai....kyoo\r\n- Wisky go go\r\n- Nothing will be as it was\r\n- Yume no...\r\n- Okasu"
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,43 +60,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-15T16:07:43+00:00",
+   "updatedAt": "2021-05-25T15:49:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "e9bed64d-c055-456a-80a7-afceb0896531",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Otomo Katsuhiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e9bed64d-c055-456a-80a7-afceb0896531",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Otomo Katsuhiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "eac3bd8b-cbbf-4070-b0e2-d4eb6c0ee660",
-   "type": "chapter"
-  },
-  {
-   "id": "22c299f6-fd18-4b60-86d4-94102480a104",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "2c4290a7-73c6-4f0e-ba41-3ee74490efe1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:00+00:00",
+    "description": "",
+    "fileName": "52f4aeff-b52d-40ef-acdc-5c17a6907492.jpg",
+    "updatedAt": "2021-05-24T16:58:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,11 +7,18 @@
    "title": {
     "en": "Bokutachi Yokai"
    },
+   "altTitles": [
+    {
+     "en": "Us Yokai"
+    },
+    {
+     "en": "We Are Yokai"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +41,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,6 +53,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +65,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,83 +77,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-03T09:25:28+00:00",
+   "updatedAt": "2021-05-25T15:39:21+00:00"
   }
  },
  "relationships": [
   {
    "id": "c2236998-06b1-4682-adab-51cf1cbde6d0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Serizawa Goukin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c2236998-06b1-4682-adab-51cf1cbde6d0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Serizawa Goukin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "15ce3267-5f4d-4db1-8aa5-d3fd08c8c72c",
-   "type": "chapter"
-  },
-  {
-   "id": "278c4e37-9368-4f53-abe8-c14bb694af15",
-   "type": "chapter"
-  },
-  {
-   "id": "87fea591-1be7-486a-b1c1-48964525fe85",
-   "type": "chapter"
-  },
-  {
-   "id": "76743deb-7122-4f83-839c-142b6a9c9116",
-   "type": "chapter"
-  },
-  {
-   "id": "2ff0bc88-7750-4ca5-ae02-49122159d7ab",
-   "type": "chapter"
-  },
-  {
-   "id": "78605c37-8179-4a07-a462-db971067e779",
-   "type": "chapter"
-  },
-  {
-   "id": "8aa519e6-a091-4006-b434-1d6ce07ce2db",
-   "type": "chapter"
-  },
-  {
-   "id": "32379d02-32c1-46ec-a8d8-4f1bab910b07",
-   "type": "chapter"
-  },
-  {
-   "id": "feb3ea39-112f-42b1-92fc-c06b7ce7f838",
-   "type": "chapter"
-  },
-  {
-   "id": "9b91f9eb-447e-4d01-849b-92e17bc9209f",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "91cfb603-49ef-4f0a-9346-aa4606d3a5f5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:27+00:00",
+    "description": "",
+    "fileName": "e83aead9-51ce-456a-a951-3b456a2b92e1.jpg",
+    "updatedAt": "2021-05-24T17:32:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

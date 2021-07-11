@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -43,51 +46,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-09T23:21:37+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "43ef0cb6-c717-4c08-9079-06b59a00870b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Niichi (user)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "43ef0cb6-c717-4c08-9079-06b59a00870b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Niichi (user)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ae8ffb02-8a06-4362-99d2-e1174ffc4727",
-   "type": "chapter"
-  },
-  {
-   "id": "b4d276e3-3bfb-4f87-bc86-d06871d3707e",
-   "type": "chapter"
-  },
-  {
-   "id": "e5cfc7af-e50f-4b25-b44f-356297291541",
-   "type": "chapter"
-  },
-  {
-   "id": "63561f64-02b3-46cf-bb57-949ff276f1a2",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "b299e5cc-54d6-4fe0-8b85-03f67aaea369",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:55:24+00:00",
+    "description": "",
+    "fileName": "cc78d1a7-98ad-4906-8cf8-26e1da3488b5.png",
+    "updatedAt": "2021-05-24T17:55:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

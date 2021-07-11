@@ -5,8 +5,25 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "37\u0026deg;C Spirits"
+    "en": "37°C Spirits"
    },
+   "altTitles": [
+    {
+     "en": "37 Degrees C Spirits"
+    },
+    {
+     "en": "37゜Cスピリッツ"
+    },
+    {
+     "en": "37°C烈酒"
+    },
+    {
+     "en": "37℃ Spirits"
+    },
+    {
+     "en": "37℃スピリッツ"
+    }
+   ],
    "description": {
     "en": "The owner of a flower shop and the owner of a liquor store get married. This results in Chiaki and Mine becoming stepbrothers. Despite being in the liquor business, Mine can't handle alcohol and gets drunk quite easily.\r\n\r\nHow will Chiaki take advantage of Mine's drunken adventures? Read and see."
    },
@@ -30,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,57 +57,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-20T05:39:35+00:00",
+   "updatedAt": "2021-05-25T15:48:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "30d6d26e-5b2b-4621-9c27-f24f26b940e6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murakami Sachi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "30d6d26e-5b2b-4621-9c27-f24f26b940e6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murakami Sachi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fa798e3c-0627-48e1-865d-9d0cb94feb93",
-   "type": "chapter"
-  },
-  {
-   "id": "668a5278-ea5e-4a51-a3b1-039b16da6592",
-   "type": "chapter"
-  },
-  {
-   "id": "8a6ee224-230d-4b0f-93df-84026469309c",
-   "type": "chapter"
-  },
-  {
-   "id": "56f57231-c36a-4e20-820e-dbf87f5e46e8",
-   "type": "chapter"
-  },
-  {
-   "id": "69e46cb9-ce41-4270-a52a-6c1cf295aac4",
-   "type": "chapter"
-  },
-  {
-   "id": "6085e3f4-891e-42aa-9333-c62f845955fc",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "29e52792-d023-4f8a-b427-497ab367aa8e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:05:10+00:00",
+    "description": "",
+    "fileName": "c4e48601-e510-4b60-9824-66d4a2c2ba09.png",
+    "updatedAt": "2021-05-24T17:05:10+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

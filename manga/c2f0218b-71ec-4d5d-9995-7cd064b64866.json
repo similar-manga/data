@@ -7,6 +7,23 @@
    "title": {
     "en": "Seton"
    },
+   "altTitles": [
+    {
+     "en": "Seaton"
+    },
+    {
+     "en": "Seton - Um Naturalista Viajante"
+    },
+    {
+     "en": "Seton Le Naturaliste Qui Voyage"
+    },
+    {
+     "en": "Seton...El Naturalista Viajero..."
+    },
+    {
+     "en": "シートン"
+    }
+   ],
    "description": {
     "en": "Seton is the story of Ernest Thompson Seton (1860-1946), a famous American writer and naturalist."
    },
@@ -27,6 +44,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +56,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -47,59 +68,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-28T18:23:13+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "97effcde-ce83-4f26-b0a6-b9dfcb615173",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Taniguchi Jiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "97effcde-ce83-4f26-b0a6-b9dfcb615173",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Taniguchi Jiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "258c9064-ab11-4321-ab05-bbdef1028c0b",
-   "type": "chapter"
-  },
-  {
-   "id": "7be9b0db-5c2a-49fd-82d5-c72860e61bd9",
-   "type": "chapter"
-  },
-  {
-   "id": "f96153de-6efb-45e1-8850-aca62cd800f2",
-   "type": "chapter"
-  },
-  {
-   "id": "936b0a41-d6c7-416e-b2e5-fd18010ea9d5",
-   "type": "chapter"
-  },
-  {
-   "id": "4e7da1e1-74b5-4da0-8c2e-8dcaf5719e15",
-   "type": "chapter"
-  },
-  {
-   "id": "38948b05-2830-4a96-9b08-18f78a2ca83f",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "fc1eda9a-b67f-4fd3-b7f2-02ceb5913df6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:12:29+00:00",
+    "description": "",
+    "fileName": "cf877317-a8db-4b78-bd27-c1d829820b22.jpg",
+    "updatedAt": "2021-05-24T18:12:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

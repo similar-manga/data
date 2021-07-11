@@ -7,6 +7,20 @@
    "title": {
     "en": "Bota Bota"
    },
+   "altTitles": [
+    {
+     "en": "Botabota"
+    },
+    {
+     "en": "drip drip"
+    },
+    {
+     "en": "Кап кап"
+    },
+    {
+     "en": "ボタボタ"
+    }
+   ],
    "description": {
     "en": "A new miniseries by the author of Beastars.\r\n\r\nMako Higari is an ordinary woman who works in a food container factory. She has a reputation for sleeping with every man she works with. However, she harbors a dirty little secret..."
    },
@@ -31,6 +45,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +57,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +69,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -61,6 +81,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,83 +93,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-09T16:59:53+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "de3c8aa9-7cd4-4e4c-92ae-bb435e4f6ef3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itagaki Paru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "de3c8aa9-7cd4-4e4c-92ae-bb435e4f6ef3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itagaki Paru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2b35f752-37c3-4450-8987-c4419ce6ff7b",
-   "type": "chapter"
-  },
-  {
-   "id": "2e2b26b1-56ab-410f-8585-939f8c0d0cf9",
-   "type": "chapter"
-  },
-  {
-   "id": "9b744352-f5ae-42af-82c5-5f64f4827e31",
-   "type": "chapter"
-  },
-  {
-   "id": "da1443a5-be87-45e0-8988-0b47fa2f836f",
-   "type": "chapter"
-  },
-  {
-   "id": "b40c1722-c666-423e-8d87-be5cebc05830",
-   "type": "chapter"
-  },
-  {
-   "id": "f9771952-5bac-484c-abdd-a231de1c9868",
-   "type": "chapter"
-  },
-  {
-   "id": "76413532-df10-4b68-943c-f904ecfb1781",
-   "type": "chapter"
-  },
-  {
-   "id": "edc6e0a5-9697-47f2-8dbd-34739dc27716",
-   "type": "chapter"
-  },
-  {
-   "id": "1987b6e9-d125-4b5f-8fa4-36d42b680d08",
-   "type": "chapter"
-  },
-  {
-   "id": "ccfd838b-ef80-4443-adc0-0d66a0a674a2",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "713c8247-fa3b-4f9a-a56b-4170656569f1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:26:36+00:00",
+    "description": "",
+    "fileName": "4e5ed95f-03ca-4c7d-a77d-4d5e8a0fc7ba.jpg",
+    "updatedAt": "2021-05-24T18:26:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

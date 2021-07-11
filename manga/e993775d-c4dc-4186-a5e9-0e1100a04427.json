@@ -7,6 +7,14 @@
    "title": {
     "en": "Ghost Heights Management Association"
    },
+   "altTitles": [
+    {
+     "en": "Ghost Heights Kanri Kumiai"
+    },
+    {
+     "en": "ゴーストハイツ管理組合"
+    }
+   ],
    "description": {
     "en": "A oneshot that appeared in Comic Flapper 2015-02."
    },
@@ -18,7 +26,6 @@
     "mu": "123368"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +61,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,43 +73,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-26T10:20:25+00:00",
+   "updatedAt": "2021-05-25T15:49:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "bf07c05f-a69f-4690-982f-406d369a2034",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itou Junji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bf07c05f-a69f-4690-982f-406d369a2034",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itou Junji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b16158bc-e9c7-4680-a2d6-6710e6ecf212",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "2dd89186-65f2-4fd3-92e8-3a052c85c723",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:49:28+00:00",
+    "description": "",
+    "fileName": "ec4e19ec-8a7a-4f63-aacc-3755257719a9.jpg",
+    "updatedAt": "2021-05-24T16:49:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

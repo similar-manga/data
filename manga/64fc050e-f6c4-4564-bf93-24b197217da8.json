@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "M\u0026auml;rchen ☆ Box"
+    "en": "Märchen ☆ Box"
    },
+   "altTitles": [
+    {
+     "en": "Gekkan Web Otoko no Ko-llection! S Vol. 29"
+    },
+    {
+     "en": "メルヘン☆ぼっくす (月刊Web男の娘・れくしょんッ！S Vol.29)"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,37 +39,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-04T11:27:21+00:00",
+   "updatedAt": "2021-05-25T15:43:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "b37776f8-e462-49ef-8641-520803fa74d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Binto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b37776f8-e462-49ef-8641-520803fa74d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Binto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bfd2d884-6cac-4940-962a-53aad13f52b8",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "4b2c4d41-77ef-4f7b-99e5-6d3a1785164d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:34+00:00",
+    "description": "",
+    "fileName": "90e443a6-5a54-47fe-bebb-7bfe9f6175e0.png",
+    "updatedAt": "2021-05-24T17:21:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

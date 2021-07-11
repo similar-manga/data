@@ -7,6 +7,17 @@
    "title": {
     "en": "Sengoku Tenshouki"
    },
+   "altTitles": [
+    {
+     "en": "Sengoku Tenshō-ki"
+    },
+    {
+     "en": "センゴク天正記"
+    },
+    {
+     "en": "戰國天正記"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -33,6 +44,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +56,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +68,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -63,6 +80,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -73,43 +92,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-05-01T01:50:24+00:00",
+   "updatedAt": "2019-05-01T01:50:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "e9123fd4-f1fd-491a-94f5-f00d6f032f00",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyashita Hideki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e9123fd4-f1fd-491a-94f5-f00d6f032f00",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyashita Hideki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "f3454955-0f6a-4f87-99b6-47e60d35cdd9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:10:13+00:00",
+    "description": "",
+    "fileName": "a86edf8b-4537-4c41-afc4-8b81418aa500.png",
+    "updatedAt": "2021-05-24T17:10:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

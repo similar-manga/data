@@ -7,6 +7,11 @@
    "title": {
     "en": "Message"
    },
+   "altTitles": [
+    {
+     "en": "メッセージ"
+    }
+   ],
    "description": {
     "en": "Collection of short stories.\r\n\r\n1) Chihiro lost her fiance in a mountaineering accident, but still refuses to lose hope."
    },
@@ -15,7 +20,6 @@
     "mu": "64524"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +31,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +43,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,39 +55,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-02T01:00:42+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "9cb3c708-2ad1-4fdf-949a-d5409efbb3e2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ichijou Hikari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3c0c5d7f-4608-4bb7-ba56-59368a4e86eb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Monden Akiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "133d34ad-4dcf-4da0-affa-51e5f2774774",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "be7d896c-288f-4f27-a7e1-d73537d94225",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:12:51+00:00",
+    "description": "",
+    "fileName": "b4c26db2-9c25-42bc-bcf7-513366eed1c5.jpg",
+    "updatedAt": "2021-05-24T18:12:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

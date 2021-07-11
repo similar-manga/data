@@ -11,7 +11,6 @@
     "en": "Shoujo Kageki Revue Starlight Doujin featuring the Seiran girls. \r\nAuthor's pixiv: https://www.pixiv.net/en/users/1349262\r\nAuthor's twitter: https://twitter.com/tareko_ill"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -21,8 +20,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -43,39 +46,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-10T08:49:42+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "e451a56d-3a31-4923-b903-b9eb264aaf7e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "たれこ",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e451a56d-3a31-4923-b903-b9eb264aaf7e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "たれこ",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4cd21eb0-a026-4ac4-82a7-4a23cab3b82b",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "e92f414c-7cb9-4f75-ac4f-5982901474ee",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:15:51+00:00",
+    "description": "",
+    "fileName": "e7f074b1-cb54-48fe-b643-a72f31699df3.png",
+    "updatedAt": "2021-05-28T23:15:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

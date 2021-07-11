@@ -7,6 +7,17 @@
    "title": {
     "en": "Sousei no Taiga"
    },
+   "altTitles": [
+    {
+     "en": "Taiga of Genesis"
+    },
+    {
+     "en": "Бытиё Тайги"
+    },
+    {
+     "en": "創世のタイガ"
+    }
+   ],
    "description": {
     "en": "A story of a young man who lacks a sense of reality after being dumped by his lover. He was visiting a seminar on cultural anthropology with his fellow classmates when he discoveres an ancient wall painting, which transports him to the past where mammoths dominated the world."
    },
@@ -33,6 +44,8 @@
       "name": {
        "en": "Time Travel"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,6 +56,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +68,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,6 +80,8 @@
       "name": {
        "en": "Survival"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -73,6 +92,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -83,6 +104,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -93,6 +116,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -103,6 +128,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -113,6 +140,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -123,103 +152,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-14T14:36:20+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "e4dc18d8-1b8d-48e6-9b70-0f93a5af35ca",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mori Kouji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e4dc18d8-1b8d-48e6-9b70-0f93a5af35ca",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mori Kouji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d33c542c-4b86-417b-875e-06a9821fd9f7",
-   "type": "chapter"
-  },
-  {
-   "id": "e703f025-01c5-4d1c-83e4-63b3ef644f61",
-   "type": "chapter"
-  },
-  {
-   "id": "bec6c966-3a96-403b-97b3-111a8a37a515",
-   "type": "chapter"
-  },
-  {
-   "id": "90aefd65-2a76-4713-9f8f-34997ffcae9e",
-   "type": "chapter"
-  },
-  {
-   "id": "c2424b1b-f089-45b6-99f9-6feeced62ffd",
-   "type": "chapter"
-  },
-  {
-   "id": "a2e372ce-a4fe-4500-8b28-3ffeab18e422",
-   "type": "chapter"
-  },
-  {
-   "id": "98d2f97b-84bb-4ce4-8890-18a2abb6e99c",
-   "type": "chapter"
-  },
-  {
-   "id": "8ef2863e-6237-4597-b68f-21857f64eb04",
-   "type": "chapter"
-  },
-  {
-   "id": "f9a26b83-8c43-41b5-b540-fd711806795b",
-   "type": "chapter"
-  },
-  {
-   "id": "7aa1ef70-5d49-4d0c-bd77-eb4844700f9e",
-   "type": "chapter"
-  },
-  {
-   "id": "292e862b-2d17-4062-90a2-0356caa4ae27",
-   "type": "tag"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "a7224d57-ecf0-4f4c-81d1-93914442e870",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:04+00:00",
+    "description": "",
+    "fileName": "00e78c08-111a-4f7c-ae04-ad80c855df48.jpg",
+    "updatedAt": "2021-05-24T17:08:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

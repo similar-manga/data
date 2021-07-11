@@ -7,6 +7,11 @@
    "title": {
     "en": "Doraemon (Matsumoto Taiyou)"
    },
+   "altTitles": [
+    {
+     "en": "ドラえもん (松本大洋)"
+    }
+   ],
    "description": {
     "en": "A short oneshot about the effects of time travel on Nobita from Doraemon."
    },
@@ -17,7 +22,6 @@
     "mu": "62765"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -28,6 +32,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +44,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +56,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +68,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,55 +80,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-16T11:53:26+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "30ce23e9-ab28-426e-a54e-0bf76b3190bf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Taiyou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "30ce23e9-ab28-426e-a54e-0bf76b3190bf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Taiyou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0a10b025-2a03-4591-8726-f56f91968afa",
-   "type": "chapter"
-  },
-  {
-   "id": "bfc9afe0-6d3e-46bd-bfbb-38beb3d0a10f",
-   "type": "chapter"
-  },
-  {
-   "id": "9e7f49e2-41fd-4ad8-a680-9bf4a46fd4d7",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "e1efc650-1a25-4f94-9e51-0d9184d778b1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:47+00:00",
+    "description": "",
+    "fileName": "866d7753-2e76-415e-a1f6-032887f2f9f9.jpg",
+    "updatedAt": "2021-05-24T17:15:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

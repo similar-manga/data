@@ -7,6 +7,23 @@
    "title": {
     "en": "Benkyou no Jikan"
    },
+   "altTitles": [
+    {
+     "en": "K书时间"
+    },
+    {
+     "en": "K書時間"
+    },
+    {
+     "en": "Study Time"
+    },
+    {
+     "en": "Время учиться"
+    },
+    {
+     "en": "勉強の時間↑"
+    }
+   ],
    "description": {
     "en": "When Nao recieves a terrible grade on the latest test, there's only one person to turn to: Andou-kun, the silent boy with his long hair covering his eyes. He gets great grades, and is semi-willing to help Nao out. Turns out that under all that hair, there's a cute boy...!\r\n\r\nIncludes 3 short stories:\r\n- Benkyou no Jikan\r\n- So, Stand by Me\r\n- Green Days"
    },
@@ -31,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +60,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -51,6 +72,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,51 +84,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-14T21:28:55+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "47fab430-5b66-4503-9d13-2d800715df0c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minami Touko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "47fab430-5b66-4503-9d13-2d800715df0c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minami Touko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4c8abea6-9769-4c7d-b83f-61c5541c4740",
-   "type": "chapter"
-  },
-  {
-   "id": "0e3c0984-db3b-4741-90ef-ec403bf44fd8",
-   "type": "chapter"
-  },
-  {
-   "id": "42a10dbb-21fb-473f-9b4f-91dde3756e35",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "4035c40f-af2e-4ff2-96e2-632c202ea240",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:41:01+00:00",
+    "description": "",
+    "fileName": "111d569e-5ea5-4603-a39b-575c8396ea6b.jpg",
+    "updatedAt": "2021-05-24T18:41:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

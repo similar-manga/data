@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Uchuu Senkan Tiramis\u0026ugrave;"
+    "en": "Uchuu Senkan Tiramisù"
    },
+   "altTitles": [
+    {
+     "en": "Space Battleship Tiramisù"
+    },
+    {
+     "en": "宇宙戦艦ティラミス"
+    }
+   ],
    "description": {
     "en": "The human race has spread its roots into the far reaches of the Universe. In Space Era 0156, war breaks out between the different colonies that inhabit Space. The Earth colony begins to construct a new space battleship, Tiramisu, in secret... And it falls to a certain ace pilot to commandeer it as a beacon of hope for humanity.\r\n\r\nDespite this serious-sounding premise, Uchuu Senkan Tiramisu is a science fiction gag comedy that follows the everyday life of Ichinose Subaru, ace pilot of the Tiramisu. Since he can't get used to being surrounded by older pilots, Subaru regularly shuts himself up in the cockpit of his personal ship, Durandal."
    },
@@ -34,6 +42,8 @@
       "name": {
        "en": "Award Winning"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -44,6 +54,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,6 +66,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -64,6 +78,8 @@
       "name": {
        "en": "Mecha"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -74,6 +90,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -84,51 +102,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-11T05:18:35+00:00",
+   "updatedAt": "2021-05-25T15:42:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "1bb717a0-2eab-4565-9cd0-0fd08aa996af",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyagawa Satoshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "887fd5bc-13fa-4b6d-9c1d-88925da92224",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itou Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2db99909-bff9-4a25-94b5-3c590640d212",
-   "type": "chapter"
-  },
-  {
-   "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
-   "type": "tag"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "50880a9d-5440-4732-9afb-8f457127e836",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "6b2ca555-61c4-4fe2-a11d-6ffe99cf8fe9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:09+00:00",
+    "description": "",
+    "fileName": "73f85ea2-8d43-48de-b325-156f56b5dc9a.jpg",
+    "updatedAt": "2021-05-24T17:04:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

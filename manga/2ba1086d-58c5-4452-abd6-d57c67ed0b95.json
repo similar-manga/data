@@ -7,6 +7,11 @@
    "title": {
     "en": "One Missed Call"
    },
+   "altTitles": [
+    {
+     "en": "Chakushin Ari"
+    }
+   ],
    "description": {
     "en": "It's an epidemic of accidental death! Multiple college students receive odd voicemails from themselves, messages from the future, and all they contain are the screams of their own deaths. A few days later, at the date and time of the message's posting, they die in mysterious accidents, and oddly enough, each have a candy in their mouths."
    },
@@ -19,7 +24,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "2",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -30,6 +34,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +46,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +58,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,47 +70,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-01T12:07:23+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "d8953b4c-a71b-4b22-aec8-012416d7ee89",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akimoto Yasushi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4b739bb8-8b79-4fcc-aaee-129b96f2d840",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shihou Mayumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5b5c68e0-ecff-475b-991c-cf9c4bfe12a3",
-   "type": "chapter"
-  },
-  {
-   "id": "d35515e5-adf5-4f95-8414-5f4a0e86423f",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "74e7e2f7-a526-4ff2-aefe-f938398d2c1b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:39:30+00:00",
+    "description": "",
+    "fileName": "360d4a19-e7ea-4182-b3bc-c731d07251ea.jpg",
+    "updatedAt": "2021-05-24T18:39:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

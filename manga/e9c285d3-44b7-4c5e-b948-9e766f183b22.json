@@ -7,6 +7,20 @@
    "title": {
     "en": "R.O.D - Read or Die"
    },
+   "altTitles": [
+    {
+     "en": "R.O.D."
+    },
+    {
+     "en": "Read or Die"
+    },
+    {
+     "en": "RoD"
+    },
+    {
+     "en": "リード・オア・ダイ"
+    }
+   ],
    "description": {
     "en": "Yomiko Readman's love for literature goes far beyond any run-of-the-mill bookworm's! In fact, she has a supernatural ability to manipulate paper in the most amazing ways. From turning a tiny scrap into a lethal throwing dagger to making a single sheet hard enough to block bullets, she's only limited by her imagination. She uses her phenomenal power to seek out legendary books containing secret information that, in the wrong hands, could be dangerous. Backed by a Special Operations Division in England, Yomiko has her hands full battling evildoers, saving the world, and trying to find time to curl up with a good book."
    },
@@ -31,6 +45,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,71 +57,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-14T23:16:22+00:00",
+   "updatedAt": "2021-05-25T15:49:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "1c7095d4-60a3-415a-9063-e825f7b80622",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KURATA Hideyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f7530b11-9e3f-4c2f-b799-15bcce88a96e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YAMADA Shutaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5edd4f06-cd3d-44cb-a208-17065c7f3202",
-   "type": "chapter"
-  },
-  {
-   "id": "553cd9b4-fdff-4234-bf31-7288d2e34e0f",
-   "type": "chapter"
-  },
-  {
-   "id": "fd01c15f-e5a7-446b-b02b-749bce242999",
-   "type": "chapter"
-  },
-  {
-   "id": "af2bea3f-15ea-419a-94d1-827abbc8940e",
-   "type": "chapter"
-  },
-  {
-   "id": "a223176f-7413-4e7e-b8d7-3140291c3035",
-   "type": "chapter"
-  },
-  {
-   "id": "e40a2088-25a7-4097-93c6-ef108419a5e5",
-   "type": "chapter"
-  },
-  {
-   "id": "7d96fb66-8ae7-4d45-8251-559d08a72ed6",
-   "type": "chapter"
-  },
-  {
-   "id": "3ac06127-6f11-4cb9-94a4-9004d21776d6",
-   "type": "chapter"
-  },
-  {
-   "id": "2455df23-cd10-4fe9-9717-50215310f4b4",
-   "type": "chapter"
-  },
-  {
-   "id": "4ae08097-ae81-4e4f-9cb8-fa066d1311b6",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "0880b9cd-e7c0-4fc4-be44-ae8af494f568",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:21:01+00:00",
+    "description": "",
+    "fileName": "6badcf9a-b3f3-4f27-9e39-5439f5adfdee.jpg",
+    "updatedAt": "2021-05-24T18:21:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

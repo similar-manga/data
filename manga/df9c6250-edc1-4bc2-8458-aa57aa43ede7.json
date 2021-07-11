@@ -7,6 +7,11 @@
    "title": {
     "en": "Paradise Lost"
    },
+   "altTitles": [
+    {
+     "en": "パラダイス・ロスト"
+    }
+   ],
    "description": {
     "en": "A few years ago, when walking home from his usual late-night hang-out in Shibuya, Kouta stumbled on a street-fight. A ragged-looking ice-cream vendor, with the company of a foreign young man, when cornered by thugs, managed to knock them out as easily as swatting flies. As time flew by, Kouta made friends with these peculiar men. But even so until now, he remains clueless of who they really are, where they came from and what lies behind their relationship and their hidden pasts...."
    },
@@ -17,7 +22,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "1",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,8 +30,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +44,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -48,6 +56,8 @@
       "name": {
        "en": "Military"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -58,59 +68,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-20T08:57:15+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "ee130323-9147-4ccd-b3e8-57cd0be04d7d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takakura Row",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ee130323-9147-4ccd-b3e8-57cd0be04d7d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takakura Row",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a294764d-860c-40dd-b7c3-69cdadcdbcb2",
-   "type": "chapter"
-  },
-  {
-   "id": "dd7a7b60-3bff-4cbd-93e0-b6c44f2811a2",
-   "type": "chapter"
-  },
-  {
-   "id": "0cde8cc8-8413-4515-ac36-c1e0175226b5",
-   "type": "chapter"
-  },
-  {
-   "id": "798526f2-b1ef-4729-8d20-f1c27cf4fcf7",
-   "type": "chapter"
-  },
-  {
-   "id": "855a3f76-156b-4f92-a37c-f165fab48319",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "9b6a4b76-029b-4f53-8e60-af2228e9b050",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:33+00:00",
+    "description": "",
+    "fileName": "ecfb03d8-a7e4-4944-b2b3-859f2e653237.jpg",
+    "updatedAt": "2021-05-24T17:56:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

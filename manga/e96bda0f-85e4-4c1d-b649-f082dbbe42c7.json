@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Tama\u0026sup2; Fortune"
+    "en": "Tama² Fortune"
    },
+   "altTitles": [
+    {
+     "en": "Tama 2 Fortune"
+    },
+    {
+     "en": "Tama2 Fortune"
+    },
+    {
+     "en": "玉2ふぉーちゅーん"
+    }
+   ],
    "description": {
     "en": "Story about a woman who loses her job and falls back on the family fortunetelling abilities, however its not what it seems, and the otaku shop owner who lets her use a part of his shop for fortunetelling."
    },
@@ -29,6 +40,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +52,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +64,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -59,79 +76,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-12T13:14:38+00:00",
+   "updatedAt": "2021-05-25T15:49:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "f1ce8b18-69bd-4c36-9a5b-55a2811d00c1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UMETANI Kenji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f1ce8b18-69bd-4c36-9a5b-55a2811d00c1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UMETANI Kenji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3fba6f5e-6cb9-4863-b253-03ecbf53dceb",
-   "type": "chapter"
-  },
-  {
-   "id": "a28f7710-9b39-4d82-9fb7-624d7ac208e5",
-   "type": "chapter"
-  },
-  {
-   "id": "b5eeb455-fbe5-4584-8e6a-a926d4ce58a8",
-   "type": "chapter"
-  },
-  {
-   "id": "f07cb4aa-1bad-4f51-8ae4-f4bcd8e88c9b",
-   "type": "chapter"
-  },
-  {
-   "id": "b608a12f-9f02-4b54-889d-12179a610960",
-   "type": "chapter"
-  },
-  {
-   "id": "d6d14aa1-4054-4a00-90df-568e41dec069",
-   "type": "chapter"
-  },
-  {
-   "id": "22e06ac7-ebcb-46ea-93b4-055f211fe196",
-   "type": "chapter"
-  },
-  {
-   "id": "c09bc3d2-7160-4b50-ae54-db1d62c178af",
-   "type": "chapter"
-  },
-  {
-   "id": "802629bc-3edc-482a-b482-ec5eaabadd54",
-   "type": "chapter"
-  },
-  {
-   "id": "aed9f113-df5c-446f-8741-5d341e3e57c1",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "eed9c693-374a-4f61-9603-0cc6aaac01a2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:14:02+00:00",
+    "description": "",
+    "fileName": "8df03ae8-3ac6-46e8-a8ef-e8244ad35f80.jpg",
+    "updatedAt": "2021-05-24T18:14:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

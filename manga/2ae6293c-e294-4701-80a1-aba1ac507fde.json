@@ -7,6 +7,11 @@
    "title": {
     "en": "Kareshi to Ore to Ore no Kouhai"
    },
+   "altTitles": [
+    {
+     "en": "彼氏と俺と俺の後輩"
+    }
+   ],
    "description": {
     "en": "A short story about three guys and their complicated relationship."
    },
@@ -28,8 +33,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,43 +47,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-22T17:28:55+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "9a80a5db-2b24-47cc-9af2-cc4f4bccf4b4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Psyche Delico",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9a80a5db-2b24-47cc-9af2-cc4f4bccf4b4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Psyche Delico",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "95b5e355-0990-43e0-8428-fc141bc19f68",
-   "type": "chapter"
-  },
-  {
-   "id": "aa5add50-7a69-4d9e-ab14-acc7b85e7f82",
-   "type": "chapter"
-  },
-  {
-   "id": "eda0c64b-f215-40b4-9b05-59d6a4786a25",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0ff4dfc3-c3a4-4ff0-ae1b-1118e20ce187",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:23+00:00",
+    "description": "",
+    "fileName": "0f9239c3-9963-4f85-a583-cfb6b376e358.jpg",
+    "updatedAt": "2021-05-24T16:55:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

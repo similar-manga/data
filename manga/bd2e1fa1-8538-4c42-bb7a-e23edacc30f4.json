@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Peach \u0026amp; Musk"
+    "en": "Peach \u0026 Musk"
    },
+   "altTitles": [
+    {
+     "en": "Doo Narae's erotic box"
+    },
+    {
+     "en": "두나래의 에로틱 박스"
+    }
+   ],
    "description": {
-    "en": "Doonarae's series first work, the adaption of the webnovel \u0026lt;Peach and Musk\u0026gt;!\r\nYoonjoon and Kihyun becomes reunited again as new roommates.\r\nThe alpha, Kihyun, makes sure that Yoojoon is a beta before living together with him.\r\nBut one day, a peach fragrance starts to come from Yoojoon?!\r\nYoojoon, who became an 'acquired' Omega, suffers from a heat cycle, and Kihyun promises to help him out..."
+    "en": "Doonarae's series first work, the adaption of the webnovel \u003cPeach and Musk\u003e!\r\nYoonjoon and Kihyun becomes reunited again as new roommates.\r\nThe alpha, Kihyun, makes sure that Yoojoon is a beta before living together with him.\r\nBut one day, a peach fragrance starts to come from Yoojoon?!\r\nYoojoon, who became an 'acquired' Omega, suffers from a heat cycle, and Kihyun promises to help him out..."
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,8 +51,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,47 +65,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-10T18:05:59+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "4f5f1690-44c7-4bb9-bf48-5c784faf1cd3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "두나래",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "399cbbb8-f432-47b1-8ffe-0a7e8bd505db",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "누네",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "10127af6-8bfb-4e24-bced-1b50138003ea",
-   "type": "chapter"
-  },
-  {
-   "id": "5e0e7068-2920-419e-b226-45fed44da26a",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "7465b598-7627-4f8b-972c-9dbefaedff12",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:34:29+00:00",
+    "description": "",
+    "fileName": "40627748-3e32-48b5-a8a5-f708e4b6c2bb.png",
+    "updatedAt": "2021-05-24T18:34:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

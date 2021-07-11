@@ -7,6 +7,17 @@
    "title": {
     "en": "Kotonoha"
    },
+   "altTitles": [
+    {
+     "en": "Koto no wa"
+    },
+    {
+     "en": "ことのは"
+    },
+    {
+     "en": "话语寄情"
+    }
+   ],
    "description": {
     "en": "Konoha falls in love with the captain of calligraphy club. Can her romance with him come true?"
    },
@@ -33,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +56,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +68,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -63,55 +80,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-22T12:28:33+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "4901eb40-c46d-42db-85c9-716a716f8ee5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asou Mikoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4901eb40-c46d-42db-85c9-716a716f8ee5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asou Mikoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4a55f596-f123-48bd-8d41-4de42e8ca69a",
-   "type": "chapter"
-  },
-  {
-   "id": "71b95c31-ef69-4b9d-96b0-151797557480",
-   "type": "chapter"
-  },
-  {
-   "id": "5142e89f-36a3-4da8-9be1-1664ced73ead",
-   "type": "chapter"
-  },
-  {
-   "id": "f7516594-84d3-4dab-a058-1a5e138b0741",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "dfebc8a5-4fdb-4f1b-99ea-b8baee55b723",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:31:03+00:00",
+    "description": "",
+    "fileName": "2ababda0-d63f-4475-ad9e-c84d4095592b.jpg",
+    "updatedAt": "2021-05-24T17:31:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

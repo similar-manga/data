@@ -7,8 +7,16 @@
    "title": {
     "en": "Tokyo Kigo Tanpou"
    },
+   "altTitles": [
+    {
+     "en": "Tokyo Kigotanpou"
+    },
+    {
+     "en": "東京季語譚訪"
+    }
+   ],
    "description": {
-    "en": "A story about beings called \u0026quot;Kigo\u0026quot; and a boy who can see them."
+    "en": "A story about beings called \"Kigo\" and a boy who can see them."
    },
    "links": {
     "al": "120716",
@@ -19,7 +27,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "1",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "cancelled",
    "contentRating": "safe",
@@ -31,6 +38,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +50,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -51,39 +62,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-10T05:47:27+00:00",
+   "updatedAt": "2021-05-25T15:42:54+00:00"
   }
  },
  "relationships": [
   {
    "id": "f8e3af46-902d-4fcf-8164-22a11de4625b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shiibashi Hiroshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f8e3af46-902d-4fcf-8164-22a11de4625b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shiibashi Hiroshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7172be97-43d4-40c3-9aed-d7f2963e7bcd",
-   "type": "chapter"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "67d82e86-7330-4f14-950c-4e1e3a3ed711",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:19+00:00",
+    "description": "",
+    "fileName": "f858e339-5487-4087-a067-23321f74b6bc.jpg",
+    "updatedAt": "2021-05-24T16:57:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

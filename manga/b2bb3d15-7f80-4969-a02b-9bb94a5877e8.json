@@ -7,6 +7,14 @@
    "title": {
     "en": "A Bud in Secret"
    },
+   "altTitles": [
+    {
+     "en": "Himitsu no Tsubomi"
+    },
+    {
+     "en": "ひみつの蕾"
+    }
+   ],
    "description": {
     "en": "A young woman meets an old friend she once kept a secret for."
    },
@@ -15,7 +23,6 @@
     "mu": "169643"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,8 +44,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,39 +58,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-23T20:40:51+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "f3089b33-7113-4798-b014-8703f9058a0f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shirakabe Takumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f3089b33-7113-4798-b014-8703f9058a0f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shirakabe Takumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e0124352-a3e6-4143-b43e-acfc9e9c8812",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "fd5a7bec-0576-4f3b-ae1a-fd76789e3801",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:07:40+00:00",
+    "description": "",
+    "fileName": "959d6351-93f4-47df-a43d-95832a067c57.jpg",
+    "updatedAt": "2021-05-24T18:07:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

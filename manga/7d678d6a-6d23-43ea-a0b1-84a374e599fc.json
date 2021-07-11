@@ -27,6 +27,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +39,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,75 +51,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-10T13:35:38+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "265743c1-576b-411a-a134-78809f3cd99a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "AGI",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "265743c1-576b-411a-a134-78809f3cd99a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "AGI",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7863345d-ad7b-4c09-8d84-b5b731f16ff3",
-   "type": "chapter"
-  },
-  {
-   "id": "db2c612a-6980-4a56-9061-c6c09e3904fa",
-   "type": "chapter"
-  },
-  {
-   "id": "81ef6934-306b-43df-931c-f7e39371ded0",
-   "type": "chapter"
-  },
-  {
-   "id": "922795ab-1cd9-407f-9dbe-a140e32b6537",
-   "type": "chapter"
-  },
-  {
-   "id": "b4abf6ed-030b-4d09-a498-dbb092a10628",
-   "type": "chapter"
-  },
-  {
-   "id": "9813b15f-1014-4888-a714-51a0267fd0ac",
-   "type": "chapter"
-  },
-  {
-   "id": "69b2f1ab-0922-4361-a265-baaf8e15df22",
-   "type": "chapter"
-  },
-  {
-   "id": "0dbabd44-12ad-4612-8123-5c8db2d47fb1",
-   "type": "chapter"
-  },
-  {
-   "id": "0fdefe5f-9404-49ba-b143-3b6737eee61b",
-   "type": "chapter"
-  },
-  {
-   "id": "834d8b74-6f7a-4ab6-aade-f43709a9675d",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "4893648f-9f34-4f2a-9a6a-b22afa2dc4b8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:44:31+00:00",
+    "description": "",
+    "fileName": "aff7670e-9e2e-491f-af1b-916bd53c20c4.jpg",
+    "updatedAt": "2021-05-24T16:44:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

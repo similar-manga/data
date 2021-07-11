@@ -5,10 +5,21 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Ch\u0026auml;oS;Child"
+    "en": "ChäoS;Child"
    },
+   "altTitles": [
+    {
+     "en": "ChäoS；Child"
+    },
+    {
+     "en": "Chaos Child"
+    },
+    {
+     "en": "Chaos;Child"
+    }
+   ],
    "description": {
-    "en": "Ch\u0026auml;oS;Child takes place in October 2015, six years after the events of Ch\u0026auml;oS;HEAd. Abnormal events begin to occur in Shibuya district, including mysterious deaths."
+    "en": "ChäoS;Child takes place in October 2015, six years after the events of ChäoS;HEAd. Abnormal events begin to occur in Shibuya district, including mysterious deaths."
    },
    "links": {
     "al": "86189",
@@ -31,6 +42,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,6 +78,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -71,43 +90,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-05-12T05:54:11+00:00",
+   "updatedAt": "2019-05-12T05:54:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "baffded2-8ac3-418a-8a29-3e89636a433f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Relucy",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "baffded2-8ac3-418a-8a29-3e89636a433f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Relucy",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "65194926-ddf0-4f59-8402-9695ca77ca47",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:33+00:00",
+    "description": "",
+    "fileName": "89b164f6-bdbb-4964-bff5-063fa7091153.jpg",
+    "updatedAt": "2021-05-24T17:11:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

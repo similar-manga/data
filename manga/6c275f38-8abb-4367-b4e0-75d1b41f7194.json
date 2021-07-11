@@ -5,7 +5,7 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Mahou Shoujo Madoka★Magica - Rena\u0026rsquo;s Shenanigans! (Doujinshi)"
+    "en": "Mahou Shoujo Madoka★Magica - Rena’s Shenanigans! (Doujinshi)"
    },
    "description": {
     "en": ""
@@ -14,7 +14,6 @@
     "raw": "https://twitter.com/huyuukaede/status/1044968439419293696"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,35 +36,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-10T14:40:46+00:00",
+   "updatedAt": "2021-05-25T15:43:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "04cb0ca9-9847-4a79-beb0-3b54618e54f3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "huyuukaede",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "04cb0ca9-9847-4a79-beb0-3b54618e54f3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "huyuukaede",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b023d6d9-9eaf-41de-a0e3-23f301d9ae23",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "38e47700-d111-4ff8-a279-4d7e7258f726",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:18+00:00",
+    "description": "",
+    "fileName": "4a1bd55b-f4a2-412e-8d59-67530987b589.jpg",
+    "updatedAt": "2021-05-24T17:22:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

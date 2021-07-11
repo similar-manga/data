@@ -7,11 +7,18 @@
    "title": {
     "en": "I Am A Wolf After All"
    },
+   "altTitles": [
+    {
+     "en": "Yappari Ookami"
+    },
+    {
+     "en": "やっぱりおおかみ"
+    }
+   ],
    "description": {
     "en": "A wolf cub goes on a journey to find companions."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +41,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,39 +53,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-24T08:33:48+00:00",
+   "updatedAt": "2021-05-25T15:45:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "ac3522d1-b4b0-4e1c-b301-3e07a1a903cc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sasaki Maki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ac3522d1-b4b0-4e1c-b301-3e07a1a903cc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sasaki Maki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "52a0b3be-1060-4d65-b7b5-35c371cafae5",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "692003bc-5683-4fe6-b526-6fa12fc0686a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:13:50+00:00",
+    "description": "",
+    "fileName": "d20297d5-2a24-4b24-8c7d-367ae331c547.jpg",
+    "updatedAt": "2021-05-28T23:13:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

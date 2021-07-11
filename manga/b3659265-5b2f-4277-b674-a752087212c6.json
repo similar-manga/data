@@ -7,6 +7,11 @@
    "title": {
     "en": "Tomoi"
    },
+   "altTitles": [
+    {
+     "en": "有情世界"
+    }
+   ],
    "description": {
     "en": "Tomoi is a youthful doctor who dislikes women. He has a twisted personality replete with arrogance, egotism and a venomous tongue. After his fateful encounter in NYC, Tomoi returns home to Japan."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +71,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,59 +83,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-04T05:09:23+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "a64d14fd-15f4-4b58-b0d9-cc040b5ba36f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akisato Wakuni",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a64d14fd-15f4-4b58-b0d9-cc040b5ba36f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akisato Wakuni",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8cea89e7-dcb8-42e6-94cb-9dda0933aa09",
-   "type": "chapter"
-  },
-  {
-   "id": "5fbe47a1-3ebe-4375-b641-dc3f62c55731",
-   "type": "chapter"
-  },
-  {
-   "id": "40222842-2538-4f43-9538-b0090edc9216",
-   "type": "chapter"
-  },
-  {
-   "id": "4535765b-5cd1-4672-a2b8-22cb6ecbe7c9",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "8800491e-fd69-4f5e-98af-46f814fad126",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:25:16+00:00",
+    "description": "",
+    "fileName": "0f29b69a-a88f-46f3-8e01-0aec8a19efce.jpg",
+    "updatedAt": "2021-05-24T17:25:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

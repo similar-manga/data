@@ -7,6 +7,17 @@
    "title": {
     "en": "A, Yoru ga Akeru yo."
    },
+   "altTitles": [
+    {
+     "en": "Oh, it's night."
+    },
+    {
+     "en": "あ、夜が明けるよ。"
+    },
+    {
+     "en": "啊，天亮了。"
+    }
+   ],
    "description": {
     "en": "Author's Twitter: https://twitter.com/urabehaimu"
    },
@@ -26,6 +37,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +49,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,75 +61,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-15T22:01:43+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "f1544686-a22a-436d-b9c4-9b7d0e8e2d33",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Urabe Haimu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f1544686-a22a-436d-b9c4-9b7d0e8e2d33",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Urabe Haimu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4e35db54-edf0-4e71-8d1a-337fa074bc3a",
-   "type": "chapter"
-  },
-  {
-   "id": "c31d6ac1-b3d4-4a7e-8e53-91aeee1ed14f",
-   "type": "chapter"
-  },
-  {
-   "id": "7c57b7d1-52b2-4997-b2a7-bb10ea9f908c",
-   "type": "chapter"
-  },
-  {
-   "id": "100a351b-d404-4d26-9c01-4a389d08dd36",
-   "type": "chapter"
-  },
-  {
-   "id": "7ea659ef-d0a0-4d82-a678-fe43e405911a",
-   "type": "chapter"
-  },
-  {
-   "id": "a3e28290-1ede-4530-a969-3cb905209784",
-   "type": "chapter"
-  },
-  {
-   "id": "2655f330-585e-4a89-a0df-bd3f75a966d4",
-   "type": "chapter"
-  },
-  {
-   "id": "73299a11-b773-413a-ac41-bc8ce0389fe0",
-   "type": "chapter"
-  },
-  {
-   "id": "96a91cdf-2473-48b7-a341-34dbf7dd30d9",
-   "type": "chapter"
-  },
-  {
-   "id": "4ffa8a3e-1c09-4274-9142-8907bea5f697",
-   "type": "chapter"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "e69218d3-f039-4f25-9c69-0f5cc409cae3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:45:14+00:00",
+    "description": "",
+    "fileName": "44e5f19a-e7ed-4cb6-8329-6d905e4ffe0c.jpg",
+    "updatedAt": "2021-05-24T17:45:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

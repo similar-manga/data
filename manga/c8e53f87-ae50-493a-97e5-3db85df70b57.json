@@ -7,6 +7,11 @@
    "title": {
     "en": "December 01"
    },
+   "altTitles": [
+    {
+     "en": "12월 1일"
+    }
+   ],
    "description": {
     "en": "I feel your eyes on me during the train ride. By any chance, do you like me too?"
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,8 +53,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +67,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -66,59 +79,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-10-07T04:40:51+00:00",
+   "updatedAt": "2019-10-07T04:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "60892fd8-dc39-4661-8e79-551738479315",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kossi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "60892fd8-dc39-4661-8e79-551738479315",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kossi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4cd0bc10-bc8f-4d18-8850-bcdab2efd74f",
-   "type": "chapter"
-  },
-  {
-   "id": "76fac0d2-bfeb-4051-b505-23f8b5382119",
-   "type": "chapter"
-  },
-  {
-   "id": "a5f81655-b0d1-46d1-a106-72be24c8fb2b",
-   "type": "chapter"
-  },
-  {
-   "id": "da5c6634-7a1b-4b45-850c-baf35ae01cb5",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "4392f020-8939-4f69-a09b-1af6ce07364a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:29:16+00:00",
+    "description": "",
+    "fileName": "559dc3e7-5aaf-4633-9902-38e66e1fa53b.jpg",
+    "updatedAt": "2021-05-24T17:29:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Yotsuya Scramble"
    },
+   "altTitles": [
+    {
+     "en": "四ツ谷scramble"
+    }
+   ],
    "description": {
     "en": "Yotsuya is transferred to an all boys school. Koizumi, his friend, is always saving him... but the truth is that everything happened because of Koizumi. How will Yotsuya react?!"
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +54,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,47 +68,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-17T07:17:11+00:00",
+   "updatedAt": "2021-05-25T15:42:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "cc75a089-02ef-4585-90e1-22fed616d78f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mishima Kazuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cc75a089-02ef-4585-90e1-22fed616d78f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mishima Kazuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a54ad476-ddec-4baf-8381-2a15c8a0c8dc",
-   "type": "chapter"
-  },
-  {
-   "id": "5b4510aa-9161-4218-90fe-d86936f73f56",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "7f95b8ed-c93a-4f47-85e5-5fefd291a326",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:48:53+00:00",
+    "description": "",
+    "fileName": "e9e5c47f-87e0-4645-9fac-cda3b38d8675.jpg",
+    "updatedAt": "2021-05-24T17:48:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

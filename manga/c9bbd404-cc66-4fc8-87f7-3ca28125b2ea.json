@@ -7,6 +7,11 @@
    "title": {
     "en": "Canaan"
    },
+   "altTitles": [
+    {
+     "en": "カナーン"
+    }
+   ],
    "description": {
     "en": "Two years ago, Shibuya was ravaged by a biological terrorist attack using the deadly Ua virus. Maria Osawa was saved when her father inoculated her against the virus, but is left with partial amnesia from the shock. She works as a cameraman when she reunites with a girl named Canaan in Shanghai, China. A gifted assassin with synesthesia, she is under orders for a yet unspecified mission."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +60,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,59 +72,65 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-25T04:51:11+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "7b9374fb-9332-43d9-9371-ed5383ff95c6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TYPE-MOON",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c83cb4c3-51e8-45eb-8b72-4a0227faf66f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Spike Chunsoft",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "73913714-c7ab-494f-9213-fb99feb142d3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ishida Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "36372021-4ff9-477c-8298-c0821e13f028",
-   "type": "chapter"
-  },
-  {
-   "id": "8a989815-2496-47ff-85da-72bf59592d85",
-   "type": "chapter"
-  },
-  {
-   "id": "7d2bba69-263c-4ad9-957b-20cdab9873ed",
-   "type": "chapter"
-  },
-  {
-   "id": "60780e6e-7d5e-4f5d-8219-2b2c6cd61302",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "ced98d27-96f9-4f90-8f8d-487e8ee593a7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:25:54+00:00",
+    "description": "",
+    "fileName": "433b154f-b15c-4f30-8ae7-228b3a2dfdc5.jpg",
+    "updatedAt": "2021-05-24T17:25:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

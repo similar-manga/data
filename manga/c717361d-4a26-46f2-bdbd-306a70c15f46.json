@@ -5,8 +5,37 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "I \u0026hearts; HS"
+    "en": "I ♥ HS"
    },
+   "altTitles": [
+    {
+     "en": "I ♥ High School"
+    },
+    {
+     "en": "I Love High School"
+    },
+    {
+     "en": "I Love HS"
+    },
+    {
+     "en": "I-HS"
+    },
+    {
+     "en": "Ｉ・ＨＳ"
+    },
+    {
+     "en": "I♥HS"
+    },
+    {
+     "en": "IloveHS我爱高中生活"
+    },
+    {
+     "en": "Iラブ HS"
+    },
+    {
+     "en": "アイラブハイスクール"
+    }
+   ],
    "description": {
     "en": "Yamato Onidzuka. Childhood bully, punk, and sports prodigy. His old childhood friends are terrified of him, as he used to bully and harass them on a daily basis. When he transferred to a special sport's school, it seemed like his friends' worst nightmare had finally come to an end. But now that he's back, it seems like the nightmare has returned."
    },
@@ -31,6 +60,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +72,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +84,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,79 +96,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-13T11:10:57+00:00",
+   "updatedAt": "2021-05-25T15:47:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "f5a18b95-f64c-4431-abd0-5a2421c38921",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yokoyama Mayumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f5a18b95-f64c-4431-abd0-5a2421c38921",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yokoyama Mayumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ab90165c-d170-4b30-967f-0cec5ea18a06",
-   "type": "chapter"
-  },
-  {
-   "id": "0626df5b-5359-43eb-a4dc-6e8dd6fe6cb3",
-   "type": "chapter"
-  },
-  {
-   "id": "4b41e196-5018-4801-8687-b2a1ab9881f4",
-   "type": "chapter"
-  },
-  {
-   "id": "3aeae131-8f87-4611-8df6-4e4d52e5d365",
-   "type": "chapter"
-  },
-  {
-   "id": "6d3d65d8-7bcb-46f7-9426-6e2298d8f629",
-   "type": "chapter"
-  },
-  {
-   "id": "8d40d11b-9811-4c6f-b5ce-915949b19a35",
-   "type": "chapter"
-  },
-  {
-   "id": "ed3ed303-e6db-458f-8c75-212e2910967c",
-   "type": "chapter"
-  },
-  {
-   "id": "ea1f7af2-7d54-4620-a40f-9e4d89b525e2",
-   "type": "chapter"
-  },
-  {
-   "id": "b3351932-4565-47f1-b038-63d576df45b9",
-   "type": "chapter"
-  },
-  {
-   "id": "a6afe7b5-611b-403c-89e8-5456c86e2639",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "3315d7cd-5cfd-4fbc-b69a-38b1b550d940",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:40:49+00:00",
+    "description": "",
+    "fileName": "9951f7c4-fb78-4e70-ad75-b9872c6acc67.jpg",
+    "updatedAt": "2021-05-24T18:40:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

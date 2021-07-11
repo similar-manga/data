@@ -7,6 +7,14 @@
    "title": {
     "en": "Hikari no Machi"
    },
+   "altTitles": [
+    {
+     "en": "Anytown with the Light"
+    },
+    {
+     "en": "光の街"
+    }
+   ],
    "description": {
     "en": "Koudaka Atsurou was just standing on the bridge looking at the lights, he didn't expect to be tackled by a construction worker who thinks he's suicidal. Trying to come to terms with his estranged father's death, Koudaka contemplates the roads in life people choose."
    },
@@ -24,8 +32,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +46,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,51 +58,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-30T23:49:30+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "a990211e-a6a3-4997-9c38-504a4119a106",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Machiko Madoka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a990211e-a6a3-4997-9c38-504a4119a106",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Machiko Madoka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "551ed6f5-0894-48fc-a3a6-1f5317351dd5",
-   "type": "chapter"
-  },
-  {
-   "id": "d5279c0f-7b02-4cf6-9360-57b1d7178ce2",
-   "type": "chapter"
-  },
-  {
-   "id": "c884c77e-6c76-4b26-b4d9-e8f1093e5c1b",
-   "type": "chapter"
-  },
-  {
-   "id": "f2e0e814-34b2-4799-8a50-7b1b740c451d",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "ba696281-fb76-4fc6-ad31-55da461a4a85",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:57:44+00:00",
+    "description": "",
+    "fileName": "78c7a0e3-c43f-4c12-af82-6aa50a8476fa.jpg",
+    "updatedAt": "2021-05-24T17:57:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

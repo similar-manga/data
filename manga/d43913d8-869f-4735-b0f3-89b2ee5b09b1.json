@@ -7,6 +7,14 @@
    "title": {
     "en": "Super-Class! Mobile Fighter G Gundam"
    },
+   "altTitles": [
+    {
+     "en": "Choukyuu! Kidou Butouden G Gundam"
+    },
+    {
+     "en": "超級! 機動武闘伝Gガンダム"
+    }
+   ],
    "description": {
     "en": "In F.C. 60, the 13th Gundam Fight begins. Domon Kasshu pilots the Shining Gundam as the representative of Neo Japan, the Japanese space colony. Along with his crew member Rain Mikamura, he battles the other countries' representatives in order to earn the right to rule Earth and the colonies for four years for Neo Japan. However, Domon seems to be more concerned with finding his brother and the stolen Devil Gundam."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Mecha"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +72,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -68,6 +84,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -78,6 +96,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -88,55 +108,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-21T08:31:30+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "df9175f8-d6a0-4b8a-ae5d-e90f6e7ade50",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Imagawa Yasuhiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d2947a20-bedd-4cff-874f-ca2e68099eff",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimamoto Kazuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b51505d1-ab57-4b80-950e-ca308f8d12d1",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "50880a9d-5440-4732-9afb-8f457127e836",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "5e3209d3-ffb3-4fdf-9d50-c03edfb920b9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:07:23+00:00",
+    "description": "",
+    "fileName": "20ee46a8-692d-415d-9472-8868a283583c.jpg",
+    "updatedAt": "2021-05-24T18:07:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

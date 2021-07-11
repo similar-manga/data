@@ -7,6 +7,11 @@
    "title": {
     "en": "Non Tea Room"
    },
+   "altTitles": [
+    {
+     "en": "ノンチィールム"
+    }
+   ],
    "description": {
     "en": "Renji and Kenta are musicians. They meet each other thanks to the friendship between their bands. Each musician has different reasons to play, be it love for the music, a strong desire to surpass their fears on stage or even just for someone's approbation. While these bands are struggling to be known in such a competitive world, Kenta is struggling with a different problem in his love life: can he be a replacement for someone else?"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-24T08:23:08+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "a84e4191-0fc6-43dd-b6a4-1590f7b555f9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shoowa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a84e4191-0fc6-43dd-b6a4-1590f7b555f9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shoowa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6bf960c4-07e6-4593-96bd-ab9a29a794ef",
-   "type": "chapter"
-  },
-  {
-   "id": "84f0c07d-c13c-472f-ae67-2cde5b102c50",
-   "type": "chapter"
-  },
-  {
-   "id": "b49a93ae-0acb-4d94-ba61-c46caa35addc",
-   "type": "chapter"
-  },
-  {
-   "id": "550a4add-7d55-440b-80c1-817181115273",
-   "type": "chapter"
-  },
-  {
-   "id": "4f5661e2-e619-48fa-a05f-06ffd8b2bb34",
-   "type": "chapter"
-  },
-  {
-   "id": "f744688f-a086-4ef2-a727-9c8b8bb5a8ff",
-   "type": "chapter"
-  },
-  {
-   "id": "d7c635be-5234-4d28-8576-22341ded6473",
-   "type": "chapter"
-  },
-  {
-   "id": "5fd704ca-4abe-43ce-8e9b-5b23bd12c7ad",
-   "type": "chapter"
-  },
-  {
-   "id": "90fd2383-3c71-4f36-9249-db4499e75c0d",
-   "type": "chapter"
-  },
-  {
-   "id": "d5b77ab5-6b46-45d8-bb16-72395271bcca",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "af82901b-91e3-4f3e-9193-6ac8d46bac32",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:42:02+00:00",
+    "description": "",
+    "fileName": "f9dfde59-c4d8-4961-b113-691faaea5040.jpg",
+    "updatedAt": "2021-05-24T18:42:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

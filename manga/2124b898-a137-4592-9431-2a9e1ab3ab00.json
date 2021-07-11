@@ -7,6 +7,11 @@
    "title": {
     "en": "Jane and Harlequin"
    },
+   "altTitles": [
+    {
+     "en": "제인과 할리퀸"
+    }
+   ],
    "description": {
     "en": "The story is about two girls who have been friends for many years. The two girls are very different and eventually work on very different paths, but they still share something common."
    },
@@ -18,7 +23,6 @@
     "mu": "103945"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +34,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +46,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,39 +58,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-05T11:48:41+00:00",
+   "updatedAt": "2021-05-25T15:40:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "8e2fb431-1f4d-4c39-b617-c90b700370be",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ka Yu-Jin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8e2fb431-1f4d-4c39-b617-c90b700370be",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ka Yu-Jin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a6fdce09-fecd-4877-9665-d41fdd4bc217",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "9b54a9e0-d830-4f76-84a4-d2a39f5891e8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:50+00:00",
+    "description": "",
+    "fileName": "1a98c91f-7c0c-4f45-86ef-a6d14dfe8ff1.jpg",
+    "updatedAt": "2021-05-24T16:56:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

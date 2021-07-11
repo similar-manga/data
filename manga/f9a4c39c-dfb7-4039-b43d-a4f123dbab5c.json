@@ -7,6 +7,11 @@
    "title": {
     "en": "Yaochi no Ran"
    },
+   "altTitles": [
+    {
+     "en": "ヤオチノ乱"
+    }
+   ],
    "description": {
     "en": "A story about modern day ninjas.\r\n\r\nNote: the cover is from the ongoing serialization."
    },
@@ -17,7 +22,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "3",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -29,6 +33,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +45,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +57,8 @@
       "name": {
        "en": "Ninja"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -59,43 +69,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-01T03:47:32+00:00",
+   "updatedAt": "2021-05-25T15:49:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "fd49cc84-bad8-4568-bb4a-b2b9df81f1de",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MOTOJIN Yuuichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fd49cc84-bad8-4568-bb4a-b2b9df81f1de",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MOTOJIN Yuuichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "73f7190c-7faa-4797-93f7-a3fd939fc06c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "489dd859-9b61-4c37-af75-5b18e88daafc",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "25123a74-bfb6-4fc3-a3bf-58da778a861f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:57:49+00:00",
+    "description": "",
+    "fileName": "730c6a19-fd22-4e69-afdf-f69a643c8473.jpg",
+    "updatedAt": "2021-05-24T17:57:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

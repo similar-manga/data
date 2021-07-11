@@ -7,6 +7,14 @@
    "title": {
     "en": "D'arc: The Legend of Jeanne D'arc"
    },
+   "altTitles": [
+    {
+     "en": "D'arc - Jeanne D'arc Den"
+    },
+    {
+     "en": "ダーク　ジャンヌ・ダルク伝"
+    }
+   ],
    "description": {
     "en": "A depiction of the Joan of Arc story."
    },
@@ -19,7 +27,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "2",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -30,6 +37,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +49,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +61,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,51 +73,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-13T10:23:52+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "f94b611e-59b2-4934-afdd-b6c846160395",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakemi Kenichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c765fc6b-d469-4bc5-83fd-3b2cf281939b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katsuya Kondo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "88b3bd96-226d-4246-b2a3-20b67e1f82cd",
-   "type": "chapter"
-  },
-  {
-   "id": "8c8682ab-6527-40a2-aaa5-3573896adfb0",
-   "type": "chapter"
-  },
-  {
-   "id": "af1fab31-21d7-4a0b-ad1c-98e9f4be102a",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "cb854ebd-c5a8-4f16-9165-0dd4340f917e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:39+00:00",
+    "description": "",
+    "fileName": "fff73a3c-bc58-4eb7-874a-c3c61c85618f.jpg",
+    "updatedAt": "2021-05-24T17:11:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

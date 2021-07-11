@@ -7,6 +7,11 @@
    "title": {
     "en": "Dragon's Crown"
    },
+   "altTitles": [
+    {
+     "en": "ドラゴンズクラウン"
+    }
+   ],
    "description": {
     "en": "The manga is set primarily in the Kingdom of Hydeland in a fantasy world that possesses vast labyrinths and catacombs beneath the civilization and fantastical monsters in the darkest and most desolate forests. The plot revolves around a legendary relic, known as the Dragon's Crown and the quest to retrieve it. A mysterious coven of magic-users with influence in even the highest levels of government seek the treasure and have used their sorcery to link together long forgotten ruins, dangerous labyrinths and many other areas together in order to search for it. But there's one group that wants to retrieve it before those who would use it for their own sinister purpose do.\r\n\r\nAdapted from the game."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +60,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +72,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,55 +84,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-25T15:03:24+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "a64706d0-f679-442e-80c6-ffa713e0807f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "yuztan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a64706d0-f679-442e-80c6-ffa713e0807f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "yuztan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5e35f518-aa8d-472f-ac17-6726fbb35004",
-   "type": "chapter"
-  },
-  {
-   "id": "95dd2f53-3f2d-42cf-9d2e-85a30c61b5b6",
-   "type": "chapter"
-  },
-  {
-   "id": "26794db4-11b3-45a3-afa1-0091e5a81eda",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "d62bde1c-362d-4f4a-8f04-e6b54c357c51",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:46:03+00:00",
+    "description": "",
+    "fileName": "c85abfcc-3a6a-4155-996e-14e475cd4200.jpg",
+    "updatedAt": "2021-05-24T16:46:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

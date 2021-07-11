@@ -7,6 +7,14 @@
    "title": {
     "en": "Anastasia Club Continued"
    },
+   "altTitles": [
+    {
+     "en": "Zoku Anastasia Club"
+    },
+    {
+     "en": "続・アナスタシア倶楽部"
+    }
+   ],
    "description": {
     "en": "The long-awaited finale to Anastasia Club."
    },
@@ -24,6 +32,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,47 +44,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-20T15:28:40+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "cf20d5c1-1dfa-4e38-830e-953a31156cf8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SAITOU Chiho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cf20d5c1-1dfa-4e38-830e-953a31156cf8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SAITOU Chiho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a36e500e-7d62-4cbf-8379-c797b3199c85",
-   "type": "chapter"
-  },
-  {
-   "id": "3ed71f1f-7058-43c5-994c-2ea667eafa86",
-   "type": "chapter"
-  },
-  {
-   "id": "f578764d-3333-4017-87ef-2bba76741be3",
-   "type": "chapter"
-  },
-  {
-   "id": "5749f7cc-cc5e-4d14-9f39-9ec608613a9c",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "8be9be3e-8f11-4f7b-bd0c-eeecf0199a5a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:12:34+00:00",
+    "description": "",
+    "fileName": "d715730c-ea0a-4628-a0ee-3fab2eb8dc47.jpg",
+    "updatedAt": "2021-05-24T17:12:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

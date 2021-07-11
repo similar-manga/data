@@ -11,7 +11,6 @@
     "en": "In the year 2417, an asteroid the size of the moon is on a collision course with Earth.  We don't have the ability to stop it, but we are able to evacuate a large amount of the population.  A few planets had been discovered that were believed to be habitable for our race...Arcadia is one of them."
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +45,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +57,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,43 +69,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-02-24T20:12:18+00:00",
+   "updatedAt": "2019-02-24T20:12:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "608a24e5-ce2f-4fe4-92cd-efc46062ecb3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nick Reid",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ba2fe078-6736-40c5-be1f-98bb2e47d564",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ivan Earl Aguilar",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "1493a80c-ce79-4f06-b525-e04b18a0fd25",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:29+00:00",
+    "description": "",
+    "fileName": "5b2e7ea8-5237-486f-8bb4-1e18ce2901cd.jpg",
+    "updatedAt": "2021-05-24T17:02:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

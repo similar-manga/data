@@ -23,8 +23,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +37,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,6 +49,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,63 +61,77 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-12T14:01:34+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "05fcaaa1-dfe7-4445-b551-24a9c080ddee",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tougall Kai (Circle)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8d19380c-0d1f-4b5f-9e75-503b22ad7b03",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kairakuen Umeka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "05fcaaa1-dfe7-4445-b551-24a9c080ddee",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tougall Kai (Circle)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8d19380c-0d1f-4b5f-9e75-503b22ad7b03",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kairakuen Umeka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c8e3f2c7-5819-4694-a6ee-4e7ddb786f71",
-   "type": "chapter"
-  },
-  {
-   "id": "b63262fa-d9f4-44b0-b989-e4cf99c8ca71",
-   "type": "chapter"
-  },
-  {
-   "id": "c2961a3b-a1e7-442f-ad3b-e6d32ae6c0e1",
-   "type": "chapter"
-  },
-  {
-   "id": "47d03d60-88a2-4dd7-bf09-e835345f9e5f",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "dc30a816-63f3-4f59-aecb-68672c6fa0c2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:18+00:00",
+    "description": "",
+    "fileName": "1e355f02-f867-4e95-a245-b51091dedcee.jpg",
+    "updatedAt": "2021-05-24T17:04:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

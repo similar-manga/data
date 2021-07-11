@@ -7,6 +7,14 @@
    "title": {
     "en": "Sorani of the Land of Yorumori"
    },
+   "altTitles": [
+    {
+     "en": "Yorumori no Kuni no Sorani"
+    },
+    {
+     "en": "夜森の国のソラニ"
+    }
+   ],
    "description": {
     "en": "The land of Yorumori, the night forest, is a place where those who do not want to wake up are gathered. After losing her memories and meeting Yorumori, the black-haired girl who manages the forest, the newly-named Sorani begins to search for the memories she has lost."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,43 +75,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-26T01:04:58+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "c80ee98e-120e-48ae-afeb-a9e19dfec05b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HARIKAMO",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c80ee98e-120e-48ae-afeb-a9e19dfec05b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HARIKAMO",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fa3d4497-229a-47da-a5e9-738c9396f400",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "49a0352b-3bd8-4fc9-8710-2d2d89a28b5e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:46:07+00:00",
+    "description": "",
+    "fileName": "d8fabbd6-0087-49ad-a545-b8a1d3287e8d.jpg",
+    "updatedAt": "2021-05-24T16:46:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

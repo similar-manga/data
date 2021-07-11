@@ -7,6 +7,14 @@
    "title": {
     "en": "Chrome Shelled Regios Felli's Poem: a four frame comic strip"
    },
+   "altTitles": [
+    {
+     "en": "Chrome Shelled Regios a four frame comic strip Felli's Poem"
+    },
+    {
+     "en": "鋼殻のレギオス フェリの詩"
+    }
+   ],
    "description": {
     "en": "Felli's Poem: a four frame comic strip: comedy 4-coma accompaniment to the Chrome Shelled Regios universe from Kadokawa Comics. Written and drawn by Futaba Masumi, based on the universe created by Amagi Shusuke."
    },
@@ -15,7 +23,6 @@
     "mal": "20686"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,43 +46,53 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-24T01:55:29+00:00",
+   "updatedAt": "2021-05-25T15:39:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "fae89b5c-0ae1-4092-90ce-e81b8e7608da",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Futaba Masumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "966f6233-71e5-4424-ba10-63048fdfce2c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "双葉ますみ",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "11c25948-fc9a-4706-953f-b42ebc2be4d3",
-   "type": "chapter"
-  },
-  {
-   "id": "9e393b3b-a2f1-47c0-970a-08dddc35f888",
-   "type": "chapter"
-  },
-  {
-   "id": "fe9dab60-7108-4f6d-9d4a-a54a82f67752",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
+   "id": "5eb84ae8-49c3-4f6a-b53d-70542760c6c2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:04+00:00",
+    "description": "",
+    "fileName": "c846d51e-7feb-4511-8c7d-c4a656443658.jpg",
+    "updatedAt": "2021-05-24T18:04:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

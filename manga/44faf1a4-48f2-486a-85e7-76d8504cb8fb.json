@@ -7,6 +7,11 @@
    "title": {
     "en": "Roll"
    },
+   "altTitles": [
+    {
+     "en": "ロール"
+    }
+   ],
    "description": {
     "en": "An evil organization seeks the scroll of immortality. Standing in their way is a swordsman with a red sword. A story spanning hundreds of years will come to a conclusion in this action-packed one-shot."
    },
@@ -18,7 +23,6 @@
     "mu": "13793"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +46,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,43 +58,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-18T17:17:55+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "d11cd32a-adb2-45d2-8a12-b37739b29efc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Saizaki Ren",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d11cd32a-adb2-45d2-8a12-b37739b29efc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Saizaki Ren",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5aac0b85-1a2d-449c-aed7-a9cac9cf4fb7",
-   "type": "chapter"
-  },
-  {
-   "id": "90b317e3-de60-4cbb-9dfd-e56d7e7528db",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "88d08c3a-663f-4f23-b558-6af144924c4d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:41:22+00:00",
+    "description": "",
+    "fileName": "38d9264c-a9ef-4651-b0ca-5fbe593e4aab.jpg",
+    "updatedAt": "2021-05-24T18:41:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,11 +7,15 @@
    "title": {
     "en": "hello my android"
    },
+   "altTitles": [
+    {
+     "en": "헬로 마이 안드로이드"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +50,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,39 +62,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-08-24T11:59:01+00:00",
+   "updatedAt": "2020-08-24T11:59:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "95c65409-0b69-45c5-9151-e85637af2149",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Go Sunyoung",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "95c65409-0b69-45c5-9151-e85637af2149",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Go Sunyoung",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "4d455cc5-e541-4f57-8d85-66614b4dbd36",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:07:43+00:00",
+    "description": "",
+    "fileName": "77fec55c-43df-4ac1-8a53-bffbf6ccca01.png",
+    "updatedAt": "2021-05-24T18:07:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -13,8 +13,7 @@
    "links": {
     "raw": "https://twitter.com/pingke_box/status/1123007558724096000"
    },
-   "originalLanguage": "zh",
-   "lastChapter": "0",
+   "originalLanguage": "zh-hk",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +60,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -65,6 +72,8 @@
       "name": {
        "en": "Medical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -75,51 +84,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-14T00:04:16+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "5210b28a-c9b3-4c5c-85e9-f3db2c4367df",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "pingke_box",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5210b28a-c9b3-4c5c-85e9-f3db2c4367df",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "pingke_box",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8f1fcc65-d715-4ecf-ab7c-c4ccb7dc4428",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "c8cbe35b-1b2b-4a3f-9c37-db84c4514856",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "516ca551-2a50-4f14-8121-066fe2fc08b7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:14:15+00:00",
+    "description": "",
+    "fileName": "b9c113a2-d5d4-46f0-926e-4628948a15dc.png",
+    "updatedAt": "2021-05-24T18:14:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Imocon"
    },
+   "altTitles": [
+    {
+     "en": "イモコン"
+    }
+   ],
    "description": {
     "en": "A battle tournament to decide who is the little sister number 1 of Japan begins!"
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +56,8 @@
       "name": {
        "en": "Incest"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -57,6 +68,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,51 +80,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-25T20:55:27+00:00",
+   "updatedAt": "2021-05-25T15:43:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "d0f25f91-1e56-4427-9b6b-c490451756f0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakurai Naoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d0f25f91-1e56-4427-9b6b-c490451756f0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakurai Naoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "755dd357-e63a-4a68-a50b-8416f9ae8513",
-   "type": "chapter"
-  },
-  {
-   "id": "810baad1-4414-4d2c-8578-ed3b4b555b79",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5bd0e105-4481-44ca-b6e7-7544da56b1a3",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "7ae14c9d-335d-4f4f-8a66-a8a9d8e47369",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:27:53+00:00",
+    "description": "",
+    "fileName": "013442b0-3cf6-49bd-83b0-f4bc3d7b2836.jpg",
+    "updatedAt": "2021-05-24T17:27:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

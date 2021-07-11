@@ -14,7 +14,6 @@
     "mu": "150928"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,47 +37,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-15T01:47:57+00:00",
+   "updatedAt": "2021-05-25T15:45:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "508631f5-09de-4ae1-87ed-4b6179254ca1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Urasawa Naoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "508631f5-09de-4ae1-87ed-4b6179254ca1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Urasawa Naoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5f643d1a-ac61-4027-97ed-0f429f70642e",
-   "type": "chapter"
-  },
-  {
-   "id": "3f70b58f-03e6-4c91-ba80-a8bd8875f376",
-   "type": "chapter"
-  },
-  {
-   "id": "3f07b335-28c1-4939-8130-3195eaa870ca",
-   "type": "chapter"
-  },
-  {
-   "id": "6a3bd9dc-4b9e-4002-a2a9-1d626a4341a4",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "ace80cc1-aba0-4fb3-8044-b3421091370e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:51+00:00",
+    "description": "",
+    "fileName": "5e7a9fef-6cc4-4767-9fe8-a89e17d639d2.jpg",
+    "updatedAt": "2021-05-24T17:22:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

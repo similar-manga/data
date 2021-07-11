@@ -22,6 +22,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -30,41 +32,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-03-07T02:30:16+00:00",
+   "updatedAt": "2021-03-07T02:30:16+00:00"
   }
  },
  "relationships": [
   {
    "id": "0cd7a7df-dea1-4850-a984-2b4e3d8371df",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nogeum",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0cd7a7df-dea1-4850-a984-2b4e3d8371df",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nogeum",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2c69c0f8-859a-408b-834a-49a3fc45aaef",
-   "type": "chapter"
-  },
-  {
-   "id": "52c3e6fa-947b-4a3e-9ad5-367e5fc4a159",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "06b8e993-8d8b-4f7e-86e5-136810933501",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:34:02+00:00",
+    "description": "",
+    "fileName": "fcb6c80f-95b8-4b28-a9f6-bab3d4a67121.jpg",
+    "updatedAt": "2021-05-24T18:34:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

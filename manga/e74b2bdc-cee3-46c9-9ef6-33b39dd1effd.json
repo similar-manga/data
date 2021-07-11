@@ -7,6 +7,14 @@
    "title": {
     "en": "Jaria"
    },
+   "altTitles": [
+    {
+     "en": "Adepts"
+    },
+    {
+     "en": "ジャリア"
+    }
+   ],
    "description": {
     "en": "A 1-volume series by the author of Atagoul. Masumura weaves a fantasy series about a boy named Shouta, who meets a strange cat with an even stranger ability to control minerals. Shortly after, he comes across a legendary crystal city that his brought forth by the thoughts and wishes of those who create it."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,43 +60,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-13T21:54:50+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "1f433da4-bbf2-4126-96d8-a085c80fbeaa",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Masumura Hiroshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1f433da4-bbf2-4126-96d8-a085c80fbeaa",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Masumura Hiroshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b0a3e051-4598-40c8-8b0c-4c25c7b65b30",
-   "type": "chapter"
-  },
-  {
-   "id": "163f8952-7cbd-4f16-bdb1-b03614e717e7",
-   "type": "chapter"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "d4e90eea-e514-4fc4-96e1-7d17bcfb8e95",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:46+00:00",
+    "description": "",
+    "fileName": "37180005-8f49-4943-b6b1-1a278c06b1d1.jpg",
+    "updatedAt": "2021-05-24T16:57:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

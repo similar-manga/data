@@ -7,6 +7,11 @@
    "title": {
     "en": "Two People"
    },
+   "altTitles": [
+    {
+     "en": "2인용 인간"
+    }
+   ],
    "description": {
     "en": "My life has been sold to two different people. Now I have to live as a different person in the day and night."
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +57,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +69,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -68,83 +81,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-27T14:23:13+00:00",
+   "updatedAt": "2021-05-25T15:49:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "cdbddac7-2769-439e-a71e-34e147460b66",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "WONDER",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cdbddac7-2769-439e-a71e-34e147460b66",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "WONDER",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7d9e1e44-9497-4a71-bbc5-69d340ccd32e",
-   "type": "chapter"
-  },
-  {
-   "id": "e161e1cc-e964-4c91-8c86-cc5d1eea2d53",
-   "type": "chapter"
-  },
-  {
-   "id": "e4532f89-4992-4156-9515-773102dace99",
-   "type": "chapter"
-  },
-  {
-   "id": "ef46788a-11be-4f97-887c-b5cd0b64e3bc",
-   "type": "chapter"
-  },
-  {
-   "id": "24d36d33-93f1-4ddf-b6c6-fc6b309c7e46",
-   "type": "chapter"
-  },
-  {
-   "id": "5f0f6480-aa88-4520-8223-55b31c50c816",
-   "type": "chapter"
-  },
-  {
-   "id": "dd21e582-e790-4e72-9417-29f2e69d6f7c",
-   "type": "chapter"
-  },
-  {
-   "id": "ec41159b-6779-499a-b42d-9ee313307c08",
-   "type": "chapter"
-  },
-  {
-   "id": "304e9467-35fe-4bde-8da8-73d7746153c8",
-   "type": "chapter"
-  },
-  {
-   "id": "7ac33092-bba1-49eb-9c63-cc01556942bf",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "d3985e08-5478-4f0c-9f07-2866e7696187",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:08:05+00:00",
+    "description": "",
+    "fileName": "a4da91b4-cbcf-4207-8d55-7a58ce124339.jpg",
+    "updatedAt": "2021-05-24T18:08:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

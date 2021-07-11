@@ -5,8 +5,31 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "EArTh \u0026infin;"
+    "en": "EArTh ∞"
    },
+   "altTitles": [
+    {
+     "en": "E.A.r.T.h ∞"
+    },
+    {
+     "en": "Earise ∞"
+    },
+    {
+     "en": "Earth"
+    },
+    {
+     "en": "EArTh infinto"
+    },
+    {
+     "en": "EArTh the Endness"
+    },
+    {
+     "en": "エアリセ∞"
+    },
+    {
+     "en": "莉莎的天空∞"
+    }
+   ],
    "description": {
     "en": "The sequel of EArTh. This follows the story of Izayoi before the events of the original series."
    },
@@ -18,7 +41,6 @@
     "mu": "55056"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "suggestive",
@@ -30,6 +52,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,43 +64,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-31T06:04:41+00:00",
+   "updatedAt": "2021-05-25T15:48:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "dd08001a-51e2-4070-a277-b1f690e95352",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kamiya Yuu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "dd08001a-51e2-4070-a277-b1f690e95352",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kamiya Yuu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6d937fd2-93b5-4ac7-aba7-ff47a2eafc58",
-   "type": "chapter"
-  },
-  {
-   "id": "9cc1cc12-0dd9-43af-a9c7-2ffcfcc481ad",
-   "type": "chapter"
-  },
-  {
-   "id": "3d156fb2-b711-4d67-8330-22c5190aa369",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "e78a3476-03bc-4f21-b027-d322c72206ae",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:42:44+00:00",
+    "description": "",
+    "fileName": "9672b384-a5e5-448f-8d86-8d3467ede6d6.jpg",
+    "updatedAt": "2021-05-24T18:42:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

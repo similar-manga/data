@@ -7,6 +7,14 @@
    "title": {
     "en": "Love You Only"
    },
+   "altTitles": [
+    {
+     "en": "ラブユーオンリー"
+    },
+    {
+     "en": "我深爱的依然是你"
+    }
+   ],
    "description": {
     "en": "Morishita is in love with his sempai Yushioka. But Yushioka just wants to be left alone. Or does he?"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,63 +74,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-30T13:59:26+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "7ff683a9-f047-4add-9efe-b7b377d0de92",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Agawa Kouko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7ff683a9-f047-4add-9efe-b7b377d0de92",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Agawa Kouko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "aea152bc-303e-46d5-b6ea-5f6636d729db",
-   "type": "chapter"
-  },
-  {
-   "id": "bb4448b7-443d-4e54-82af-86f74ad4f588",
-   "type": "chapter"
-  },
-  {
-   "id": "5bdf5b7a-16c8-4621-b17d-807206bb6691",
-   "type": "chapter"
-  },
-  {
-   "id": "88d195d7-ed18-4bc6-9f06-9ec37b09d9fa",
-   "type": "chapter"
-  },
-  {
-   "id": "b095df78-7c47-4350-a0e3-6fed26e40fe0",
-   "type": "chapter"
-  },
-  {
-   "id": "06a47e0b-0ab5-4a8e-92ba-9467888a44fd",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "d3f7b69c-06b0-4fbc-aaab-89b55d50a240",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:13:48+00:00",
+    "description": "",
+    "fileName": "b591267c-0ebc-4f7f-ba7e-faeb364f8759.png",
+    "updatedAt": "2021-05-24T17:13:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Link no Bouken (Ran Maru)"
    },
+   "altTitles": [
+    {
+     "en": "The Legend of Zelda: The Adventure of Link"
+    }
+   ],
    "description": {
     "en": "Adventure of Link (Zelda II) adaptation by Ranmaru."
    },
@@ -14,7 +19,6 @@
     "mal": "120988"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -26,6 +30,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,35 +42,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-27T07:04:43+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "c6a5ba4f-10cd-45d7-a5d5-6c5f06971ada",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ran Maru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c6a5ba4f-10cd-45d7-a5d5-6c5f06971ada",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ran Maru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c27cce82-18c5-4acd-b6b8-60b845a2f64e",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "c86d47b9-f172-4f73-ba3e-30b529fa9424",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:39+00:00",
+    "description": "",
+    "fileName": "242f69d8-dbe7-46d4-ab9b-6c7dda995923.jpg",
+    "updatedAt": "2021-05-24T17:09:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

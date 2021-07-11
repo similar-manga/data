@@ -7,6 +7,14 @@
    "title": {
     "en": "Kurenai no Senkan"
    },
+   "altTitles": [
+    {
+     "en": "The Crimson Warship"
+    },
+    {
+     "en": "紅の戦艦"
+    }
+   ],
    "description": {
     "en": "A long-since sunken Battleship Yamato returns from its watery grave, wreaking havoc across Japan."
    },
@@ -17,7 +25,6 @@
     "mu": "101072"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -29,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +48,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,47 +60,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-24T14:55:42+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "745b3179-9a20-45eb-9550-02a91fa66a7e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Seki Tatsuya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "745b3179-9a20-45eb-9550-02a91fa66a7e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Seki Tatsuya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e6d0ee60-4dd8-4417-9aee-36bf323ca8bc",
-   "type": "chapter"
-  },
-  {
-   "id": "cd060270-6f4e-4dbd-a874-c4f9dd93cef2",
-   "type": "chapter"
-  },
-  {
-   "id": "51e11fd1-b42c-487f-9bf2-7e3b8f80e7b0",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "62557c21-dd51-4fae-b743-5077444b6cb4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:30+00:00",
+    "description": "",
+    "fileName": "aa4dce1a-8c15-495b-8273-6c84dbe87879.jpg",
+    "updatedAt": "2021-05-24T17:02:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

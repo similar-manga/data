@@ -7,6 +7,26 @@
    "title": {
     "en": "Welcome to the Convenience Store"
    },
+   "altTitles": [
+    {
+     "en": "Come On! Convenience Store"
+    },
+    {
+     "en": "Wara! Pyunuijum"
+    },
+    {
+     "en": "Wara! Store"
+    },
+    {
+     "en": "Welcome to Convenience Store!"
+    },
+    {
+     "en": "Welcome! Convenience Store"
+    },
+    {
+     "en": "와라! 편의점"
+    }
+   ],
    "description": {
     "en": "Regular happenings in a convenience store."
    },
@@ -30,6 +50,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +62,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,75 +74,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-12T17:39:25+00:00",
+   "updatedAt": "2021-05-25T15:42:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "a4debaf1-2094-43c8-947e-ab7bea4a41fa",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ji Gang-Min",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a4debaf1-2094-43c8-947e-ab7bea4a41fa",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ji Gang-Min",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ea0e8ffe-653c-4c47-9121-f942ebed4483",
-   "type": "chapter"
-  },
-  {
-   "id": "b53aa5a3-38c1-47ce-a656-e8798f8e62e0",
-   "type": "chapter"
-  },
-  {
-   "id": "4f4dd430-0f58-4608-aaee-690caa50bed3",
-   "type": "chapter"
-  },
-  {
-   "id": "456dcd7c-78b2-4d17-8628-2c42a608ef61",
-   "type": "chapter"
-  },
-  {
-   "id": "b3ae0f4d-79b5-49bc-9fa3-d33585453206",
-   "type": "chapter"
-  },
-  {
-   "id": "49bc3836-a41d-48cc-8f79-ba5dd7009ddc",
-   "type": "chapter"
-  },
-  {
-   "id": "045b36b4-af97-4035-b7d6-d83f49cba7aa",
-   "type": "chapter"
-  },
-  {
-   "id": "5acf0f9f-5279-4fc7-b29f-38cf9455024e",
-   "type": "chapter"
-  },
-  {
-   "id": "bb7b12b7-5d43-40ea-9c97-c634d77cedc4",
-   "type": "chapter"
-  },
-  {
-   "id": "b1a1fea3-d6ee-4832-a7aa-b01663aeb3f1",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "214ebb18-9eb8-4fe9-8db3-5e73bfd19ceb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:34+00:00",
+    "description": "",
+    "fileName": "047df762-ed8c-4022-b74a-cb9c40af30a8.jpg",
+    "updatedAt": "2021-05-24T17:11:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

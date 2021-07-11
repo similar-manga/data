@@ -7,6 +7,11 @@
    "title": {
     "en": "Musashi"
    },
+   "altTitles": [
+    {
+     "en": "武蔵"
+    }
+   ],
    "description": {
     "en": "Based on the life story of the swordsman Miyamoto Musashi."
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,71 +45,53 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-09T14:15:40+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "b19a0d82-afab-4697-bc4c-95f87f6b7461",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Motomiya Hiroshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b19a0d82-afab-4697-bc4c-95f87f6b7461",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Motomiya Hiroshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "efcda64c-0a12-487e-ba52-7b0b76204f85",
-   "type": "chapter"
-  },
-  {
-   "id": "7215abcb-f2bc-4df0-901e-a18357d428f8",
-   "type": "chapter"
-  },
-  {
-   "id": "3a187e51-f765-4495-99af-38d1553048e5",
-   "type": "chapter"
-  },
-  {
-   "id": "11d7fc6c-ed31-4a6e-8ac8-95e700f7bc9d",
-   "type": "chapter"
-  },
-  {
-   "id": "4a962dd6-f65f-4590-ad6d-deef180cbf21",
-   "type": "chapter"
-  },
-  {
-   "id": "06de888d-df5e-4b0f-9a76-9ae7381c0e27",
-   "type": "chapter"
-  },
-  {
-   "id": "4a0b8ea8-651e-4ab7-8e86-5f757c0236b2",
-   "type": "chapter"
-  },
-  {
-   "id": "fdba9c89-f170-4b7b-b1c2-be355baa290c",
-   "type": "chapter"
-  },
-  {
-   "id": "2c5a415a-44c7-453a-ae69-12f3d6ac1e5f",
-   "type": "chapter"
-  },
-  {
-   "id": "0bd34c21-692b-419b-bf88-29a35a05b14d",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
+   "id": "c9108398-1375-4f27-99d4-f62f1ce4fea8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:57+00:00",
+    "description": "",
+    "fileName": "7458010d-21b4-44e2-8f8f-89bc83fcb1d8.jpg",
+    "updatedAt": "2021-05-24T17:03:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

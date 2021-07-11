@@ -7,6 +7,14 @@
    "title": {
     "en": "Entryway"
    },
+   "altTitles": [
+    {
+     "en": "Genkan"
+    },
+    {
+     "en": "玄関"
+    }
+   ],
    "description": {
     "en": "Even after near-tragedy, summer keeps rolling on."
    },
@@ -15,7 +23,6 @@
     "mu": "49881"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,35 +46,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-05T18:04:41+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "d4f9d41e-b945-4c7e-b3f2-bd2ec2c1b8f7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takano Fumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d4f9d41e-b945-4c7e-b3f2-bd2ec2c1b8f7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takano Fumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4457488e-3f24-40f7-92d1-3b67424d6db2",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "784a70f2-7004-4f6a-8b41-33887a7190f7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:58:21+00:00",
+    "description": "",
+    "fileName": "05b68e19-f083-47af-bd2b-709950e2dd6d.jpg",
+    "updatedAt": "2021-05-24T17:58:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Reizouko no Naka wa Karappo"
    },
+   "altTitles": [
+    {
+     "en": "The Fridge Is Empty"
+    },
+    {
+     "en": "冷蔵庫の中はからっぽ"
+    }
+   ],
    "description": {
     "en": "Shimizu, a spoilt rich high school boy, leaves his home to become a comic artist and ends up rooming with his friend, Umeya. Umeya is so poor that he's got nothing in his fridge except mayonnaise to eat with the rice!"
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +71,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +83,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -77,87 +95,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-18T01:44:30+00:00",
+   "updatedAt": "2021-05-25T15:40:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "f914b87e-9536-4573-8e93-273bd95aec1a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamada Yugi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f914b87e-9536-4573-8e93-273bd95aec1a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamada Yugi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7d396182-53af-474c-a04a-b3a1e02c0dd2",
-   "type": "chapter"
-  },
-  {
-   "id": "160ea0f5-1709-49d2-aaa2-74389669a430",
-   "type": "chapter"
-  },
-  {
-   "id": "014cb601-fa6b-47ba-9562-eea5ce2252d4",
-   "type": "chapter"
-  },
-  {
-   "id": "fa97cb89-0205-4cd0-a464-816450e58ef0",
-   "type": "chapter"
-  },
-  {
-   "id": "08e8c28d-64de-49f1-92f8-85b3fca06033",
-   "type": "chapter"
-  },
-  {
-   "id": "08f76516-758a-4673-85ae-27c194b54795",
-   "type": "chapter"
-  },
-  {
-   "id": "3a4ca61f-fe52-4b24-8bdb-a0ad2b48696e",
-   "type": "chapter"
-  },
-  {
-   "id": "9bd91349-de2f-4a1b-8c73-024190accf37",
-   "type": "chapter"
-  },
-  {
-   "id": "f6eab9ec-ada8-4c4b-bee5-cb9950000c99",
-   "type": "chapter"
-  },
-  {
-   "id": "70825ec7-3940-44fa-8eac-0d72d141c69c",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "d0b2ccc0-b670-4fe9-aa50-cb8df9ac9afb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:45:32+00:00",
+    "description": "",
+    "fileName": "797d6476-3498-44d3-8b92-0e65a71fd14c.jpg",
+    "updatedAt": "2021-05-24T17:45:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

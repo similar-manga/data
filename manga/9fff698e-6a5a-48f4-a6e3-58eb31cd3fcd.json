@@ -7,6 +7,14 @@
    "title": {
     "en": "Midori no Hoshi"
    },
+   "altTitles": [
+    {
+     "en": "Green Star"
+    },
+    {
+     "en": "みどりの星"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -35,6 +43,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +55,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +67,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,39 +79,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-05-22T05:28:15+00:00",
+   "updatedAt": "2019-05-22T05:28:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "c9e02b01-1fd3-47bc-bfc2-aa07cd7c2be9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shinzou Keigo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c9e02b01-1fd3-47bc-bfc2-aa07cd7c2be9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shinzou Keigo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "6d2aa064-e0a0-4f0e-bf61-1c143b312b3e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:12:46+00:00",
+    "description": "",
+    "fileName": "6d3ad626-b0bf-4c0b-b4d6-aae95c8c9d3a.jpg",
+    "updatedAt": "2021-05-24T17:12:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

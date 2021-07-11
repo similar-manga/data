@@ -7,6 +7,14 @@
    "title": {
     "en": "Full Moon"
    },
+   "altTitles": [
+    {
+     "en": "Furu Muun"
+    },
+    {
+     "en": "フルムーン"
+    }
+   ],
    "description": {
     "en": "Ever since ancient times, there have existed people who prevent the darkness of the night from swelling... They are the sorcerers, the only ones who have the power to oppose the darkness!"
    },
@@ -33,6 +41,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +53,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,59 +65,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-21T01:38:55+00:00",
+   "updatedAt": "2021-05-25T15:49:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "2e228b16-ff98-4c2a-a017-27fc2b25e194",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHIOZAWA Takatoshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2e228b16-ff98-4c2a-a017-27fc2b25e194",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHIOZAWA Takatoshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "518bbb4a-f557-446c-9a5c-e53af10c30ae",
-   "type": "chapter"
-  },
-  {
-   "id": "0f2621b4-57eb-46e5-8c01-4942233b2cef",
-   "type": "chapter"
-  },
-  {
-   "id": "6aacd5e2-1619-4ce2-8171-b1b65e57c494",
-   "type": "chapter"
-  },
-  {
-   "id": "12fe172f-2dc8-42b9-82d4-7d30e497cd39",
-   "type": "chapter"
-  },
-  {
-   "id": "888bad37-906a-4e8f-9809-b392645fcfee",
-   "type": "chapter"
-  },
-  {
-   "id": "2c6c51d2-9e76-4c4c-b34c-bfdbaae28b43",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "47fdf722-1fd2-4fc9-a070-23bab5a7cad4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:12+00:00",
+    "description": "",
+    "fileName": "8e3e2f94-8300-4a18-b1de-a7e476e341af.jpg",
+    "updatedAt": "2021-05-24T17:21:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

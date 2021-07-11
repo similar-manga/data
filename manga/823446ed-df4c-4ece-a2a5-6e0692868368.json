@@ -7,6 +7,11 @@
    "title": {
     "en": "100 Days in Europe"
    },
+   "altTitles": [
+    {
+     "en": "유럽에서 100일"
+    }
+   ],
    "description": {
     "en": "Gia meets Hayden on a train to Prague, the fateful stop that marks the start of their 100 days journey of a fairytale romance in Europe."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-28T15:56:23+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "987540e6-a624-404f-a304-840c02c0a8e0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jihyo Kim",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "987540e6-a624-404f-a304-840c02c0a8e0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jihyo Kim",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "26a7b45a-d9f9-4f0d-9914-ced2f1416fe7",
-   "type": "chapter"
-  },
-  {
-   "id": "0291e167-b7ff-4935-a9cc-f23192cda82a",
-   "type": "chapter"
-  },
-  {
-   "id": "6fae66b1-fba8-4fd1-bdcb-63ccbc8cbffe",
-   "type": "chapter"
-  },
-  {
-   "id": "c04cae14-b58d-465e-9dd0-025d2ca89576",
-   "type": "chapter"
-  },
-  {
-   "id": "709e0081-31f5-4af5-9782-46c302f5ac8c",
-   "type": "chapter"
-  },
-  {
-   "id": "1703378c-ffd7-4773-b4f1-6c160456cbb9",
-   "type": "chapter"
-  },
-  {
-   "id": "3713e4bd-a655-4150-9315-22fec8b22fd9",
-   "type": "chapter"
-  },
-  {
-   "id": "13c242cb-3a66-4c63-81c6-2a04e7fd32c3",
-   "type": "chapter"
-  },
-  {
-   "id": "ab97808b-816a-490a-819b-2e565cc3d9ff",
-   "type": "chapter"
-  },
-  {
-   "id": "031b0590-b967-4e35-bae1-abf4ca5d21c4",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "27a61e70-65d1-4f46-b424-949705dd5ce4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:28:17+00:00",
+    "description": "",
+    "fileName": "6ff2c759-233a-4fc1-8053-2a65646db71e.jpg",
+    "updatedAt": "2021-05-24T17:28:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

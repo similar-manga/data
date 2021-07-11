@@ -7,6 +7,11 @@
    "title": {
     "en": "Cotton Candy"
    },
+   "altTitles": [
+    {
+     "en": "CottonCandy"
+    }
+   ],
    "description": {
     "en": "1-3. Cotton Candy\r\n4. Bitter or Sweet?\r\n5. Haru to Miniskirt\r\n6. 37℃\r\n7. Aki Iro Irozuku\r\n8. Tori no Yukue\r\n9. Countdown\r\n10. Cotton Candy 1.2.3"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,71 +71,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-04T20:48:33+00:00",
+   "updatedAt": "2021-05-25T15:47:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "8c0a716d-9923-4ac8-a962-9fd8df03aca3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hamano Ringo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8c0a716d-9923-4ac8-a962-9fd8df03aca3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hamano Ringo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "02d1a17e-bbe1-4112-b309-833f5aea21ff",
-   "type": "chapter"
-  },
-  {
-   "id": "15259ff1-eecb-486f-9a36-b0b9a74b1c06",
-   "type": "chapter"
-  },
-  {
-   "id": "4f2388b5-31e0-4f7f-9d09-f3131d8c7183",
-   "type": "chapter"
-  },
-  {
-   "id": "9aaab046-4ca7-4d1d-9ac2-687708e9f32c",
-   "type": "chapter"
-  },
-  {
-   "id": "6f7cbf81-9348-42b4-a624-d9f002ff8806",
-   "type": "chapter"
-  },
-  {
-   "id": "3817c0cb-77f2-4dc5-ae7f-d95aa745f5ef",
-   "type": "chapter"
-  },
-  {
-   "id": "6c142b59-6589-4419-b857-3f21bf6f310b",
-   "type": "chapter"
-  },
-  {
-   "id": "3a2fb244-0499-4cd8-a1a3-c6dc1bd96b8d",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "3734f671-49d0-4f46-bc18-07b7c8a2b590",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:25+00:00",
+    "description": "",
+    "fileName": "529b56e3-52e9-43eb-949b-9aa281d73ee3.jpg",
+    "updatedAt": "2021-05-24T17:03:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

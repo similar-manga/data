@@ -10,8 +10,7 @@
    "description": {
     "en": "Random manga, used Xian Dan and Bai Hua to draw out some comedy scene."
    },
-   "originalLanguage": "zh-hk",
-   "lastChapter": "0",
+   "originalLanguage": "zh",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,51 +33,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-10T16:44:37+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "7171016a-437f-43c5-91d1-10d1761a951b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "介邦人",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "30b55b97-53fc-42cf-afac-7042e9183c6b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "٩◔̯◔۶ Lazy (●• ̀ω•́ )✧",
+    "updatedAt": "2021-05-15T21:06:43+00:00",
+    "version": 2
+   }
   },
   {
-   "id": "3ed67666-c4bd-446a-a7c5-2fc757fbdf09",
-   "type": "chapter"
-  },
-  {
-   "id": "c1efbe10-6460-45da-8b44-4cca47ffd324",
-   "type": "chapter"
-  },
-  {
-   "id": "cf2dc8df-3e7f-4b82-b84c-cdf5ab354b4e",
-   "type": "chapter"
-  },
-  {
-   "id": "53bdfec0-4eec-49cf-8461-338335aebd5f",
-   "type": "chapter"
-  },
-  {
-   "id": "fe391391-26e4-413a-aa1c-f049fcc17a7f",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "fab5761d-64dd-4f91-a97d-1f2597e55366",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:26:44+00:00",
+    "description": "",
+    "fileName": "c1e538a5-5762-4b87-9fc2-6e3e6012e00f.jpg",
+    "updatedAt": "2021-05-24T18:26:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -27,6 +27,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +39,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,47 +51,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-18T23:10:57+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "706826f2-20a1-413f-a874-706f1b1f64f0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hoshino Yukinobu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "706826f2-20a1-413f-a874-706f1b1f64f0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hoshino Yukinobu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e755d46d-bb65-41c3-9c5a-d348b738feec",
-   "type": "chapter"
-  },
-  {
-   "id": "a54277b3-8adb-4623-bb22-b4de386d328d",
-   "type": "chapter"
-  },
-  {
-   "id": "d3629449-e9bb-4330-bc94-3342b975b38a",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "f4906c9f-3234-4f97-8d66-695f924520ba",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:24+00:00",
+    "description": "",
+    "fileName": "0e767297-62f8-4e14-8556-56782b0317f5.jpg",
+    "updatedAt": "2021-05-24T17:56:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

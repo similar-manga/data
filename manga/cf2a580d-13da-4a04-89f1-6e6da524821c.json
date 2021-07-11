@@ -7,6 +7,11 @@
    "title": {
     "en": "Gallery L"
    },
+   "altTitles": [
+    {
+     "en": "갤러리 L"
+    }
+   ],
    "description": {
     "en": "Soon-jin's life is a complete mess and her future looks bleak. But hope, magic and romance enters her life when she meets a mysterious and handsome man who offers her a job at his cafe, Gallery L."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +58,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +70,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -69,83 +82,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-11T13:22:11+00:00",
+   "updatedAt": "2021-05-25T15:47:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "1c5cfc4e-0348-4df7-950e-a9acf719f3d0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jo-Hong",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e5d0661a-8634-4ab8-a45c-1c01ac29ac0c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lamia",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d52e00d4-1bc9-433b-bc42-8a3234b0ca9d",
-   "type": "chapter"
-  },
-  {
-   "id": "bc256e8d-df72-4008-8aa7-b8e0d6624d2c",
-   "type": "chapter"
-  },
-  {
-   "id": "efa8fe06-0a2a-4f5b-a62d-f349832a1fe5",
-   "type": "chapter"
-  },
-  {
-   "id": "212bda69-58f8-4ba6-951c-6f29a468982d",
-   "type": "chapter"
-  },
-  {
-   "id": "d1cf66bd-4ab5-4367-8db2-ef1d579c0662",
-   "type": "chapter"
-  },
-  {
-   "id": "fd369880-cc57-4dca-9b66-63da08aa1a9a",
-   "type": "chapter"
-  },
-  {
-   "id": "ded67961-692e-4b5c-a63c-2639e5a16cec",
-   "type": "chapter"
-  },
-  {
-   "id": "56b1bd34-639c-4571-953d-52f3aa4f608d",
-   "type": "chapter"
-  },
-  {
-   "id": "5d4e8aba-29d9-4dbd-a51e-05fb58699a9d",
-   "type": "chapter"
-  },
-  {
-   "id": "dba82175-dc8b-4199-b09b-b5bc4897172c",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "2ca0fa66-c340-4fa1-acf4-9a79fcc432bb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:26+00:00",
+    "description": "",
+    "fileName": "991ca53a-3737-460d-8334-31ac59588851.jpg",
+    "updatedAt": "2021-05-24T17:22:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

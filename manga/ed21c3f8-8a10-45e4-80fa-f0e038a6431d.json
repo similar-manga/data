@@ -7,6 +7,11 @@
    "title": {
     "en": "Saburina"
    },
+   "altTitles": [
+    {
+     "en": "サブリナ"
+    }
+   ],
    "description": {
     "en": "These two childhood friends might be completely different in looks and personality but they're close and they understand each other better than anyone. That's what they thought, but is there a storm on the horizon?"
    },
@@ -28,8 +33,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,39 +47,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-25T16:43:18+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "f0ede9bf-665b-4326-bf73-a658461c7202",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ougi Yuzuha",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f0ede9bf-665b-4326-bf73-a658461c7202",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ougi Yuzuha",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "12f7120e-0d33-4cbc-a231-c50f0aa2fccc",
-   "type": "chapter"
-  },
-  {
-   "id": "06db1bda-0eaa-4211-b295-22851f56da78",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "3a13d44f-029d-4fc1-96b0-d25fe3c93ea7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:29+00:00",
+    "description": "",
+    "fileName": "37545316-a3a1-4398-91f8-6fafd531274b.jpg",
+    "updatedAt": "2021-05-24T16:56:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -20,8 +20,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +34,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -42,6 +46,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -52,47 +58,53 @@
       "name": {
        "en": "Shota"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-11-21T05:11:02+00:00",
+   "updatedAt": "2020-11-21T05:11:02+00:00"
   }
  },
  "relationships": [
   {
    "id": "a062904c-b780-4ed7-8dac-606c8565ac74",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Seki Sabato",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "889d1008-8418-4d49-b1c2-94e6a7caf600",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsukuru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "eca752aa-d3df-4d7e-8fe8-7f9e145134e9",
-   "type": "chapter"
-  },
-  {
-   "id": "6a0c4255-8f6c-4a75-b5cf-fa73c5a5bbf6",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "ddefd648-5140-4e5f-ba18-4eca4071d19b",
-   "type": "tag"
+   "id": "106d1932-18f5-4f7c-87ad-95911407d598",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:19:50+00:00",
+    "description": "",
+    "fileName": "da48482a-9f24-4c2d-a891-16a6cac2094c.jpg",
+    "updatedAt": "2021-05-24T18:19:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

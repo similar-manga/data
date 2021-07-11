@@ -7,6 +7,11 @@
    "title": {
     "en": "Giant Robo"
    },
+   "altTitles": [
+    {
+     "en": "ジャイアントロボ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,71 +48,53 @@
       "name": {
        "en": "Mecha"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-05T12:41:20+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "810e1937-e8b9-4114-b7d6-754e32dd7a2c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yokoyama Mitsuteru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "810e1937-e8b9-4114-b7d6-754e32dd7a2c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yokoyama Mitsuteru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "40e616f1-c9a5-4245-9776-ac926a7b1289",
-   "type": "chapter"
-  },
-  {
-   "id": "66e87aaf-0a4a-4f5a-896d-b7ca81c3a538",
-   "type": "chapter"
-  },
-  {
-   "id": "b1fb6def-4309-426b-98b7-5afaaad04bdd",
-   "type": "chapter"
-  },
-  {
-   "id": "aada7df3-80fb-42e1-835f-b413210ba400",
-   "type": "chapter"
-  },
-  {
-   "id": "9e366e37-b7b4-4642-bf09-51b0cb653933",
-   "type": "chapter"
-  },
-  {
-   "id": "aaa2e548-e8b3-450d-ac8c-85308bf38488",
-   "type": "chapter"
-  },
-  {
-   "id": "073f660f-b84f-40ad-9ab4-e9d10afe5186",
-   "type": "chapter"
-  },
-  {
-   "id": "8f46171e-5aad-48a5-af18-19a3666d8454",
-   "type": "chapter"
-  },
-  {
-   "id": "8865b930-076e-4219-a21e-72a16a0f629f",
-   "type": "chapter"
-  },
-  {
-   "id": "a983751f-dbef-4e59-915f-e707c5245665",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "50880a9d-5440-4732-9afb-8f457127e836",
-   "type": "tag"
+   "id": "fb9de6c1-c56b-4f62-94b0-92810ea3626a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:39:56+00:00",
+    "description": "",
+    "fileName": "ba6ea3aa-5a3f-4d5e-a4c8-e19e9937f3d2.jpg",
+    "updatedAt": "2021-05-24T18:39:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

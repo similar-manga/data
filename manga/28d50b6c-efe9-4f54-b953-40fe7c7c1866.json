@@ -7,6 +7,14 @@
    "title": {
     "en": "Hoshikuzu Drop"
    },
+   "altTitles": [
+    {
+     "en": "Stardust Drop"
+    },
+    {
+     "en": "星くずドロップ"
+    }
+   ],
    "description": {
     "en": "Shino is a high school student transferring schools from Tokyo to Ibaraki. When he's late for his first day at school, he meets a beautiful girl, Sera Ichigo, standing in the shade. As the day goes on, he gets carried away and accidentally wounds up in the Astronomy Club. There, he discovers that Ichigo is actually a member! Let Shino's sparkling youth days begin!"
    },
@@ -33,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +53,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,59 +65,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-05T15:11:07+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "e5cf813a-716b-4a19-966d-b48472050f8d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kojima Lalako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e5cf813a-716b-4a19-966d-b48472050f8d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kojima Lalako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3004fb90-5c96-4017-8ec8-f9b3f55f81b4",
-   "type": "chapter"
-  },
-  {
-   "id": "daa376b2-7553-443d-a289-01ec76c42456",
-   "type": "chapter"
-  },
-  {
-   "id": "feaf4f5a-9908-4f80-b915-e7277d7ab456",
-   "type": "chapter"
-  },
-  {
-   "id": "811db0b0-aa37-4ac3-ac99-5ea6584d2484",
-   "type": "chapter"
-  },
-  {
-   "id": "40049576-fa2d-4e2a-82e7-e17178c1e265",
-   "type": "chapter"
-  },
-  {
-   "id": "3d982249-3c92-42fb-a39f-6ecc8599c2da",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "6d06e920-f3db-4ff4-b475-fb55b179dc4d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:34+00:00",
+    "description": "",
+    "fileName": "90c49120-444d-4863-8175-c13071cbe347.jpg",
+    "updatedAt": "2021-05-24T16:50:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

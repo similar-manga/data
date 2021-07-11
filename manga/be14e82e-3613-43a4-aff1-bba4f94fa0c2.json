@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pearl \u0026amp; Weiss"
+    "en": "Pearl \u0026 Weiss"
    },
+   "altTitles": [
+    {
+     "en": "パール＆ヴァイス"
+    }
+   ],
    "description": {
     "en": "The annoyed father, Weiss, watches over the innocent daughter Pearl; his identity is a strange person who was worshiped as a god in ancient times. What is the reason why he, who is supposed to be unrivaled, is swayed by a little girl? It's a little strange everyday manga of parents and children."
    },
@@ -14,7 +19,6 @@
     "mu": "158974"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "ongoing",
    "contentRating": "safe",
@@ -26,6 +30,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,39 +42,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-12T23:26:42+00:00",
+   "updatedAt": "2021-05-25T15:47:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "1a3b5d89-4a2c-4173-ad31-a922729d9cb1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HIRA Ichika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1a3b5d89-4a2c-4173-ad31-a922729d9cb1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HIRA Ichika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e7121572-3161-4b63-89b3-52bf0698cdb1",
-   "type": "chapter"
-  },
-  {
-   "id": "ea4b210a-b7ea-46a7-bf20-3e7f1c10973b",
-   "type": "chapter"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0a318509-ac54-4f2e-9a07-9d1a3e17afa4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:02:46+00:00",
+    "description": "",
+    "fileName": "60ba0e9b-4eb2-46c5-ae93-9c453348c4a7.jpg",
+    "updatedAt": "2021-05-24T18:02:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

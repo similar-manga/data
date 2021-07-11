@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,51 +46,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-17T18:19:17+00:00",
+   "updatedAt": "2021-05-25T15:39:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "1d7aeaf8-430e-4669-9031-f1f6df8d1a94",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UmaYorokobi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1d7aeaf8-430e-4669-9031-f1f6df8d1a94",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UmaYorokobi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "33a968e3-c604-4d5c-a8ba-2cf323f4d4a6",
-   "type": "chapter"
-  },
-  {
-   "id": "5cccb931-98a5-42a0-ab98-7a0fdf8c2894",
-   "type": "chapter"
-  },
-  {
-   "id": "a9f9351e-b81c-46d2-9b61-1c76b5681106",
-   "type": "chapter"
-  },
-  {
-   "id": "4ccd4dbf-8196-4724-8497-f9f0a65ac244",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "86a228aa-f2c1-4fa6-bbbc-1287f8897910",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:35+00:00",
+    "description": "",
+    "fileName": "a409e1a6-6787-4cbf-9d73-e71a21fe0dbd.png",
+    "updatedAt": "2021-05-24T17:41:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

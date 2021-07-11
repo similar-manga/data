@@ -30,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,45 +40,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-01T19:48:51+00:00",
+   "updatedAt": "2021-05-25T15:49:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "dc5c64ac-abc2-45e6-8d1a-83347fa2a7bc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakamura Asumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "dc5c64ac-abc2-45e6-8d1a-83347fa2a7bc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakamura Asumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3346f359-cdef-48bd-a670-55527c214d0f",
-   "type": "chapter"
-  },
-  {
-   "id": "b20c9a5a-7d1b-4292-889d-4053242d9797",
-   "type": "chapter"
-  },
-  {
-   "id": "0647c26e-95d8-4d4b-aa26-7e59b33dbeaa",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "9e4ab882-db59-4f58-a865-e1a6ca52ebb1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:14:03+00:00",
+    "description": "",
+    "fileName": "b5979e58-bda3-4ea5-8f22-98926857d758.png",
+    "updatedAt": "2021-05-24T17:14:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

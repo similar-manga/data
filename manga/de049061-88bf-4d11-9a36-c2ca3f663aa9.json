@@ -29,6 +29,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,8 +39,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,55 +53,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-13T10:04:41+00:00",
+   "updatedAt": "2021-05-25T15:48:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "5459a816-0ac9-42c4-ae7c-7a6cd1b14230",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Umetarou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5459a816-0ac9-42c4-ae7c-7a6cd1b14230",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Umetarou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0a685a71-a8d5-456d-b11b-22cf4c76552e",
-   "type": "chapter"
-  },
-  {
-   "id": "5854ce63-d568-4372-87c0-84adf58569b9",
-   "type": "chapter"
-  },
-  {
-   "id": "ea1d7de4-6a29-43ab-8abc-a0647ddb0663",
-   "type": "chapter"
-  },
-  {
-   "id": "7dbc97b9-cece-4fcb-b069-95a409089f3e",
-   "type": "chapter"
-  },
-  {
-   "id": "b5445720-98b0-41d8-9869-6c0c44f6419c",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "91a76d20-ce59-4fb5-a4f8-2448d92f882a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:22+00:00",
+    "description": "",
+    "fileName": "88ad11a0-6547-47b6-a07e-79f2a43c92af.jpg",
+    "updatedAt": "2021-05-24T17:04:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

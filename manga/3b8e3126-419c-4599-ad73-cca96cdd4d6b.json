@@ -7,6 +7,14 @@
    "title": {
     "en": "Cafe of Dreams"
    },
+   "altTitles": [
+    {
+     "en": "Cafe of Dreams, Young Teahouse"
+    },
+    {
+     "en": "꿈의카페 영다방"
+    }
+   ],
    "description": {
     "en": "Soo Ah discovers the cafe of dreams, young teahouse while floundering about trying to find a job.... Drinks sweet coffee while listening to baristas tell her of future dreams and hope."
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,71 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-10T09:11:41+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "d735ddd6-44cb-4820-a607-705d7675455c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Seok-Woo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d735ddd6-44cb-4820-a607-705d7675455c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Seok-Woo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bc9f3661-c964-4a1d-bd0d-5bae0f37f4b2",
-   "type": "chapter"
-  },
-  {
-   "id": "c78966aa-7280-4250-ba5f-95c8bb1b4f07",
-   "type": "chapter"
-  },
-  {
-   "id": "78161fe2-e679-490b-aef2-94086317396b",
-   "type": "chapter"
-  },
-  {
-   "id": "b17fe4ef-eb08-4e6d-bfef-dfa636099010",
-   "type": "chapter"
-  },
-  {
-   "id": "cf78f1f5-d429-4d53-9725-be696647140c",
-   "type": "chapter"
-  },
-  {
-   "id": "64354397-2a2b-4cce-a76d-06693d66f34b",
-   "type": "chapter"
-  },
-  {
-   "id": "0456ec3d-91a8-4ac4-991e-6fb152ef10ee",
-   "type": "chapter"
-  },
-  {
-   "id": "3b908f5f-6865-41df-91a4-7732cf19306d",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "588117df-6504-4f00-af39-0206595881f1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:38+00:00",
+    "description": "",
+    "fileName": "fe5773ab-1284-49f0-acb5-8577784d6629.png",
+    "updatedAt": "2021-05-24T17:08:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

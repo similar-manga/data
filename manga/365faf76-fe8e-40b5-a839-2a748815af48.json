@@ -7,6 +7,14 @@
    "title": {
     "en": "Nee Senpai, Oshiete yo"
    },
+   "altTitles": [
+    {
+     "en": "Hey Senpai, Tell Me"
+    },
+    {
+     "en": "ねえ先輩、教えてよ"
+    }
+   ],
    "description": {
     "en": "High school freshman Hirano Haruto moved into the dormitory of the school he wanted to attend. Morioka Touji, Haruto's guidance manager, who is surrounded by dark rumors, didn't fulfil his job to guide Haruto. However, Haruto finds that Morioka actually isn't as bad as everyone thinks he is...?"
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,67 +75,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-23T03:32:26+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "203777e2-164d-42b7-89ba-7e5a69335456",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Watarumi Naho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e5cf813a-716b-4a19-966d-b48472050f8d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kojima Lalako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "44f1a074-eb5c-4b9c-9c94-3ebccc8fed14",
-   "type": "chapter"
-  },
-  {
-   "id": "3ef5c48e-0a9b-4277-bb8e-1bbb4d0b3f24",
-   "type": "chapter"
-  },
-  {
-   "id": "e08e5b38-aaba-4449-bd18-c033259efa6f",
-   "type": "chapter"
-  },
-  {
-   "id": "0ab2f495-c1bb-4cf1-9b9a-75a45d67104e",
-   "type": "chapter"
-  },
-  {
-   "id": "28abddb8-42f0-4b72-905b-e9f194662ce9",
-   "type": "chapter"
-  },
-  {
-   "id": "a8617296-238c-4a5d-8f60-be85cbc0905f",
-   "type": "chapter"
-  },
-  {
-   "id": "8241bd2c-21d1-4a14-b848-4bc09ccffd3c",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "fcdb3075-798f-4f7e-baa2-58002bf056ee",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:46+00:00",
+    "description": "",
+    "fileName": "884cbb32-8871-47c5-affd-85b0979c0d47.jpg",
+    "updatedAt": "2021-05-24T16:58:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

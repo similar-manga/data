@@ -7,6 +7,17 @@
    "title": {
     "en": "Dive"
    },
+   "altTitles": [
+    {
+     "en": "Dive (NAKAI Mena) "
+    },
+    {
+     "en": "Tremolo"
+    },
+    {
+     "en": "ダイヴ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +25,6 @@
     "mu": "15821"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +36,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,35 +48,53 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-17T20:29:42+00:00",
+   "updatedAt": "2021-05-25T15:42:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "3f81cd95-ab87-401f-bef5-7e48a9523e2c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NAKAI Mena",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3f81cd95-ab87-401f-bef5-7e48a9523e2c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NAKAI Mena",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "62242f56-1946-4b85-97c6-65fad069e4a5",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
+   "id": "2cb441da-b45d-4f1c-950c-8e0c898a3fbb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:48+00:00",
+    "description": "",
+    "fileName": "92a9908d-c236-412c-83d8-032053844217.jpg",
+    "updatedAt": "2021-05-24T17:15:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

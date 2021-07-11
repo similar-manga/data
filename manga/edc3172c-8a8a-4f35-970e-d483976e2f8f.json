@@ -27,6 +27,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +39,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +51,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,79 +63,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-23T06:12:43+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "699f2d80-1cde-4ccf-bb10-4f9e45347752",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kyeong-Ok Kang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "699f2d80-1cde-4ccf-bb10-4f9e45347752",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kyeong-Ok Kang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d2924fa9-6e4f-4d95-b70d-1a158c5fcf7b",
-   "type": "chapter"
-  },
-  {
-   "id": "f5027b61-1a7b-4818-812e-2db353d09ce4",
-   "type": "chapter"
-  },
-  {
-   "id": "70326354-b240-4f8c-a95e-5d69660da289",
-   "type": "chapter"
-  },
-  {
-   "id": "d6b4b956-ecea-4493-a694-6007c7b73178",
-   "type": "chapter"
-  },
-  {
-   "id": "252f06bb-9f4c-47b6-af34-b13fe7fb5313",
-   "type": "chapter"
-  },
-  {
-   "id": "ee820543-700a-4d1d-a2e3-76b0523ed624",
-   "type": "chapter"
-  },
-  {
-   "id": "17ae5cc2-4ca5-43f9-b742-ced4c2701782",
-   "type": "chapter"
-  },
-  {
-   "id": "c3b3849d-037d-43bf-bc17-f4af2a4d0f51",
-   "type": "chapter"
-  },
-  {
-   "id": "a1dac6d1-ce28-48a3-862b-413a429d5c54",
-   "type": "chapter"
-  },
-  {
-   "id": "8e89cef0-64d1-4d74-a577-578fbc7b2385",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "240557af-cee0-4f1c-8d0a-3fa07d2d3460",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:18+00:00",
+    "description": "",
+    "fileName": "4fc82df4-b52f-4162-9c30-5309d26a78c7.png",
+    "updatedAt": "2021-05-24T17:02:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

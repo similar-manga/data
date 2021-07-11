@@ -7,6 +7,14 @@
    "title": {
     "en": "Valkyria Revolution 4-Koma"
    },
+   "altTitles": [
+    {
+     "en": "Valkyria: Azure Revolution"
+    },
+    {
+     "en": "蒼き革命のヴァルキーリア"
+    }
+   ],
    "description": {
     "en": "A 4-koma drawn up for the game Valkyria Revolution by SEGA.\r\nSadly the artist and author were not posted on the website."
    },
@@ -14,7 +22,6 @@
     "raw": "http://portal.valkyria.jp/azure/comic/"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +32,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +44,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,55 +56,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-27T07:48:01+00:00",
+   "updatedAt": "2021-05-25T15:42:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "dbac72c2-5454-4a67-a36b-12f9ab2a81c6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sega",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "dbac72c2-5454-4a67-a36b-12f9ab2a81c6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sega",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c74deea8-2bf1-4733-a878-b26272a38925",
-   "type": "chapter"
-  },
-  {
-   "id": "d1b225cc-e5f4-4f92-940f-c8650e8b625a",
-   "type": "chapter"
-  },
-  {
-   "id": "422a53dd-1664-4850-83c8-ec3d3de3b00c",
-   "type": "chapter"
-  },
-  {
-   "id": "106953aa-bee6-4108-ad47-95e0d21b74b2",
-   "type": "chapter"
-  },
-  {
-   "id": "6ba056aa-a744-4573-8e31-acc0cca96cb7",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "38c0525d-ab4b-4fee-a795-b4269564f40b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:16+00:00",
+    "description": "",
+    "fileName": "e0132875-e122-429b-b81c-d28dc9ccc0c2.jpg",
+    "updatedAt": "2021-05-24T16:59:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

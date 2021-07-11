@@ -7,6 +7,11 @@
    "title": {
     "en": "Ai ni Chimayoe!"
    },
+   "altTitles": [
+    {
+     "en": "愛に血迷え!"
+    }
+   ],
    "description": {
     "en": "Sennosuke, an average high-schooler, takes care of his father's childhood friend, Momosuke. Childish and hapless, Momosuke is a gay man who used to have a crush on Sennosuke's father, and now, Sennosuke suspects that Momosuke has fallen for him. But Momo, who's almost a family member, won't make a move on him, right...?"
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,8 +59,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,51 +73,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-24T09:05:27+00:00",
+   "updatedAt": "2021-05-25T15:46:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "216d28cc-ddd3-4ad8-ae2c-0f6e97ec9118",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hidou Tei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "216d28cc-ddd3-4ad8-ae2c-0f6e97ec9118",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hidou Tei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d410d0a3-2046-4c6d-9380-feb0c73f2672",
-   "type": "chapter"
-  },
-  {
-   "id": "c2ea5b77-2f17-42b8-88c5-4bc0cdbc41f8",
-   "type": "chapter"
-  },
-  {
-   "id": "22ec74a9-0f8f-4e67-946b-4d59f759ca46",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "5abcfe6e-05f1-4fcb-ab99-a0606c0ef4ff",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:56+00:00",
+    "description": "",
+    "fileName": "712888af-3224-4237-92ed-a90cd1abbffd.jpg",
+    "updatedAt": "2021-05-24T16:58:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Cherry Blossom-Colored You"
    },
+   "altTitles": [
+    {
+     "en": "Sakura-iro no Kimi"
+    },
+    {
+     "en": "桜色の君"
+    }
+   ],
    "description": {
     "en": "I'll keep on living together with you."
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -57,47 +71,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-03T05:45:39+00:00",
+   "updatedAt": "2021-05-25T15:44:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "14e5e0d1-73ea-4c33-920f-a6e2b898b78b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kouya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "14e5e0d1-73ea-4c33-920f-a6e2b898b78b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kouya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b445f344-7432-4549-9b88-c4d86220cfd7",
-   "type": "chapter"
-  },
-  {
-   "id": "01138cb9-5acf-410d-b8bd-7a2a2b6a54e6",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "592927ee-0fe2-4f9f-b7de-1450d3494658",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:13+00:00",
+    "description": "",
+    "fileName": "93db4186-73ee-45d1-9eaa-5c3879831a00.jpg",
+    "updatedAt": "2021-05-24T17:03:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

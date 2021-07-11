@@ -7,6 +7,20 @@
    "title": {
     "en": "Katajikenai"
    },
+   "altTitles": [
+    {
+     "en": "Borçlu"
+    },
+    {
+     "en": "Indebted"
+    },
+    {
+     "en": "Kurofune 1853"
+    },
+    {
+     "en": "かたじけない"
+    }
+   ],
    "description": {
     "en": "A metaphorical depiction of Japan's apprehension concerning the advance of western culture in the country during the period preceding the Meiji Era. \r\nHistorical figures and psychedelic experiences are on the menu."
    },
@@ -30,6 +44,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +56,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,43 +68,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-02T21:45:09+00:00",
+   "updatedAt": "2021-05-25T15:49:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "9e423464-eb12-438b-8d7e-a120af872478",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koike Keiichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9e423464-eb12-438b-8d7e-a120af872478",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koike Keiichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7ea72628-0189-4acd-9c1c-801caaa143bb",
-   "type": "chapter"
-  },
-  {
-   "id": "87431230-0a1e-482d-a6de-ec234cc701e5",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "7e9d8a06-b24b-4f85-b959-48d1bd488be4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:15+00:00",
+    "description": "",
+    "fileName": "ac043fd6-bccc-4ffd-9115-0ef948f1239c.jpg",
+    "updatedAt": "2021-05-24T16:50:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

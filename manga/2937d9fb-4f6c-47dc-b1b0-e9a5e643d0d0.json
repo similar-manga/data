@@ -7,6 +7,14 @@
    "title": {
     "en": "Naked Star"
    },
+   "altTitles": [
+    {
+     "en": "NAKED STAR"
+    },
+    {
+     "en": "ネキッド　スター"
+    }
+   ],
    "description": {
     "en": "A collection of illustrations and short stories set in various dystopian futures. They are fairly disjointed and difficult to follow.\r\n\r\n1-2. BEAUTIFUL WORLD\r\n3. one self\r\n4. Hane\r\n5. Shabon\r\n6-7. Necroman\r\n8. Toshima-ku Seibu Sensen -West Side Street-\r\n9. S -song of sapphire star-"
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +61,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -59,6 +73,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,55 +85,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-02T02:43:23+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "36680e30-27cb-482e-a617-db1be2cb1530",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oh Great",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "36680e30-27cb-482e-a617-db1be2cb1530",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oh Great",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3ca8f62f-78b4-4cc3-b35f-6217dc7277a1",
-   "type": "chapter"
-  },
-  {
-   "id": "404f8499-2d83-40e7-a858-619eccc03210",
-   "type": "chapter"
-  },
-  {
-   "id": "37ebd444-24b0-4028-a098-62e4ba402757",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "4157c0dc-425e-4ff2-a3d2-5a5fea0dbc46",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:46:42+00:00",
+    "description": "",
+    "fileName": "af99b133-88b6-4c8c-96f9-468d4ecdd438.jpg",
+    "updatedAt": "2021-05-24T16:46:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

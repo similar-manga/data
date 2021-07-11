@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Haikyuu!! - The King\u0026rsquo;s Melancholy (Doujinshi)"
+    "en": "Haikyuu!! - The King’s Melancholy (Doujinshi)"
    },
    "description": {
     "en": "Kageyama Tobio x Hinata Shouyou"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "suggestive",
    "tags": [
@@ -20,8 +19,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,35 +33,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-30T06:12:13+00:00",
+   "updatedAt": "2021-05-25T15:38:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "18e8f47d-6a9a-498a-aa50-181cdbe49a30",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Rakugaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "18e8f47d-6a9a-498a-aa50-181cdbe49a30",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Rakugaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e2414746-3f23-45c9-aa35-501fd4b7dd40",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "1d171ad4-216d-4fe4-a1b7-51d589c3e027",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:49+00:00",
+    "description": "",
+    "fileName": "1ee0f7ce-fcb5-4fda-ad99-9c98cc242b4a.png",
+    "updatedAt": "2021-05-24T18:04:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

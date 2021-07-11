@@ -5,8 +5,28 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "\u0026forall; Gundam - Tsuki no Kaze"
+    "en": "∀ Gundam - Tsuki no Kaze"
    },
+   "altTitles": [
+    {
+     "en": "∀ Gundam - Tsuki no Kaze"
+    },
+    {
+     "en": "∀ Gundam - Wind of the Moon"
+    },
+    {
+     "en": "Turn A Gundam - Tsuki no Kaze  "
+    },
+    {
+     "en": "Turn A Gundam - Vent de la Lune"
+    },
+    {
+     "en": "Turn A Gundam - Wind of the Moon"
+    },
+    {
+     "en": "ターンエーガンダム 月の風"
+    }
+   ],
    "description": {
     "en": "The story takes place in the year Correct Century 2341, showing the life of Loran Cehack in training for Dianna Soreil's counter landing operation."
    },
@@ -30,6 +50,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +62,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +74,8 @@
       "name": {
        "en": "Mecha"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,71 +86,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-25T16:45:07+00:00",
+   "updatedAt": "2021-05-25T15:47:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "088b9eae-7374-4d5d-a797-7610153539c3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yasuda Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "088b9eae-7374-4d5d-a797-7610153539c3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yasuda Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "45f4d0d5-1644-432b-a294-1dcad7b7b14f",
-   "type": "chapter"
-  },
-  {
-   "id": "817e023b-5248-4d08-b0cd-095db9a0c4ad",
-   "type": "chapter"
-  },
-  {
-   "id": "46d69265-c791-4db8-b820-c4f0fb96a4ec",
-   "type": "chapter"
-  },
-  {
-   "id": "b8acf537-7896-4f6e-8640-6333bda13052",
-   "type": "chapter"
-  },
-  {
-   "id": "fb8c3887-f067-4637-8be6-db0a7df0c24d",
-   "type": "chapter"
-  },
-  {
-   "id": "e7a4cf68-ab6d-48e0-91e4-b93532868780",
-   "type": "chapter"
-  },
-  {
-   "id": "4ac34d28-55c3-49d0-8175-d68b44c22145",
-   "type": "chapter"
-  },
-  {
-   "id": "b3f4fbd1-8653-4f25-99f6-c3cccbd70454",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "50880a9d-5440-4732-9afb-8f457127e836",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "13caa1a3-bd68-4f5f-992c-b074223a177b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:05+00:00",
+    "description": "",
+    "fileName": "40d2bba7-21ca-4fc6-9c97-dcf9c4b1cb47.jpg",
+    "updatedAt": "2021-05-24T16:59:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

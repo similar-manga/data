@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Gochuumon wa Usagi desu ka? \u0026amp; Kin-iro Mosaic - Pyonpyon Parade (Doujinshi)"
+    "en": "Gochuumon wa Usagi desu ka? \u0026 Kin-iro Mosaic - Pyonpyon Parade (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "(COMIC1☆9) [Onsoku (Yuuki Sonisuke)]Pyonpyon Parade (Kin-iro Mosaic、Gochuumon wa Usagi desu ka?)"
+    },
+    {
+     "en": "(COMIC1☆9) [おんそく (ゆうきそにすけ)] ぴょんぴょんぱれーど (きんいろモザイク、ご注文はうさぎですか？)"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,39 +54,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-24T11:15:52+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "e3409b4b-b509-4c57-aa57-9e2bdae72a15",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Onsoku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "daf9e0b9-9bee-480d-9f8d-eed5e16b9a07",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yuuki Sonisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1550ca27-dee4-4c59-abce-bd34ea97794e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "326cd1ea-bd02-4f99-ad6b-37e0e8b47a3f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:42:20+00:00",
+    "description": "",
+    "fileName": "f6cf7421-1e1d-4331-9440-ac1ab554de1e.jpg",
+    "updatedAt": "2021-05-24T17:42:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

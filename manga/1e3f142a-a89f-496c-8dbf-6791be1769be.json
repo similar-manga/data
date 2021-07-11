@@ -7,6 +7,17 @@
    "title": {
     "en": "Yoru to Umi"
    },
+   "altTitles": [
+    {
+     "en": "Night and Sea"
+    },
+    {
+     "en": "Plongée dans la nuit"
+    },
+    {
+     "en": "夜と海"
+    }
+   ],
    "description": {
     "en": "Tsukiko Yano is a transfer student at a highschool where she doesn't find anyone or anything interesting. That is, until one evening when she sees her classmate Aya Utsumi swimming in the school swimming pool. After that, she can't help but see fish swimming all around her."
    },
@@ -32,6 +43,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,8 +53,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +67,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -62,79 +79,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-24T07:34:15+00:00",
+   "updatedAt": "2021-05-25T15:40:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "65585907-c044-4abc-87d7-b09d38a7a139",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Goumoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "65585907-c044-4abc-87d7-b09d38a7a139",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Goumoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e473bc37-2b66-4c52-b878-e1cd564dd3cd",
-   "type": "chapter"
-  },
-  {
-   "id": "dce02310-d005-495e-882b-672cc9947739",
-   "type": "chapter"
-  },
-  {
-   "id": "6f19da92-b218-46df-9ae3-649477a8c48a",
-   "type": "chapter"
-  },
-  {
-   "id": "b43071bc-7fca-4c86-a556-23f531109344",
-   "type": "chapter"
-  },
-  {
-   "id": "2565fd48-3e18-4637-a6db-92cbdf7d485c",
-   "type": "chapter"
-  },
-  {
-   "id": "6edd6675-b47d-4873-b68e-ba951624f500",
-   "type": "chapter"
-  },
-  {
-   "id": "31661bc6-4d60-49ce-832e-5b9f70dd4ecb",
-   "type": "chapter"
-  },
-  {
-   "id": "7a11cd80-bf87-42ae-bdef-f896d25e8e03",
-   "type": "chapter"
-  },
-  {
-   "id": "1b1eda7b-0456-4c8f-9af3-cb35e5d26fd2",
-   "type": "chapter"
-  },
-  {
-   "id": "2066e770-87ee-49cc-9993-277cf74c0d4a",
-   "type": "chapter"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "e68ae696-74b5-4f23-a5e0-6823ecd625b0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:42:18+00:00",
+    "description": "",
+    "fileName": "f73f38d4-ce0b-42d0-b9cf-ca86e120eba5.jpg",
+    "updatedAt": "2021-05-24T17:42:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

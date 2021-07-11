@@ -7,6 +7,17 @@
    "title": {
     "en": "Kateikyoshi no Kishi Knight desu."
    },
+   "altTitles": [
+    {
+     "en": "家庭教師の岸騎士です。"
+    },
+    {
+     "en": "我是家教岸騎士。"
+    },
+    {
+     "en": "我是家教岸骑士。"
+    }
+   ],
    "description": {
     "en": "It's an emergency! Takasugi Tooru, 17 years old and an active yankee, is about to fail out of school! At the end of her tether, his mother enlists the help of charming tutor Kishi Kishi. Can this knight in carefully pressed clothes save Tooru from failing? And why does Tooru get butterflies in his stomach every time he's near Kishi?"
    },
@@ -27,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,47 +50,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-07T23:18:40+00:00",
+   "updatedAt": "2021-05-25T15:48:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "88eaae80-05fe-4e42-90f4-f6540a11781b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OKUJIMA Hiromasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "88eaae80-05fe-4e42-90f4-f6540a11781b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OKUJIMA Hiromasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9af87739-fbec-40f5-9ea1-6b07237384b2",
-   "type": "chapter"
-  },
-  {
-   "id": "1f5c718b-ba5f-4e4f-88e8-0ffc19682fe8",
-   "type": "chapter"
-  },
-  {
-   "id": "42127b44-495f-4934-b71e-b1f9f0cc6941",
-   "type": "chapter"
-  },
-  {
-   "id": "65fc464d-ecb9-4c13-bdae-7a237fca1fab",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "a53ce986-6748-4fd9-8cb7-6fec2e3f4362",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:26:27+00:00",
+    "description": "",
+    "fileName": "46ede945-c85a-434a-a012-f8d7c035905d.jpg",
+    "updatedAt": "2021-05-24T18:26:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

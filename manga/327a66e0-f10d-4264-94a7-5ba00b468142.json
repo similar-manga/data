@@ -14,7 +14,6 @@
     "mu": "136007"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +25,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,39 +37,53 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-17T01:54:01+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "65a041b0-c22d-491e-bc57-d57b82c92f1a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yasuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "65a041b0-c22d-491e-bc57-d57b82c92f1a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yasuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9c5e23eb-2e9e-4c26-9271-b01fe25296eb",
-   "type": "chapter"
-  },
-  {
-   "id": "9528d8c3-e6c1-4552-a6cb-8d02549b6f8f",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
+   "id": "5f7fc2ef-9b12-4f44-a817-a1936ee1b9bb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:07+00:00",
+    "description": "",
+    "fileName": "dbe06692-f912-4a13-83d7-e546eba538ca.jpg",
+    "updatedAt": "2021-05-24T16:58:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

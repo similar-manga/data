@@ -5,14 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Sirius \u0026amp; Mayu"
+    "en": "Sirius \u0026 Mayu"
    },
+   "altTitles": [
+    {
+     "en": "Sirius to Mayu"
+    },
+    {
+     "en": "シリウスと繭"
+    }
+   ],
    "description": {
     "en": "As the end of high school looms near, Mayuko is unhappy with her performance in the last mock exams. Nudged by her friend Megu, she seeks help from Haru, another classmate. They become friends, and maybe, just maybe, something more."
    },
    "links": {
     "al": "102874",
-    "amz": "https://www.amazon.co.jp/gp/aw/d/B074CGY5XN?ref_=dbs_w_series\u0026amp;amp;storeType=ebooks",
+    "amz": "https://www.amazon.co.jp/gp/aw/d/B074CGY5XN?ref_=dbs_w_series\u0026storeType=ebooks",
     "mal": "121869",
     "mu": "71018"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,71 +50,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-20T09:38:36+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "ef283eef-8e6a-4d15-b62e-3f30fcc71721",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Komori Youko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ef283eef-8e6a-4d15-b62e-3f30fcc71721",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Komori Youko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6a245024-393e-45c3-bdff-643a0ece2370",
-   "type": "chapter"
-  },
-  {
-   "id": "50be33f8-964f-4d85-a90b-06580c531608",
-   "type": "chapter"
-  },
-  {
-   "id": "d91a9536-bb2b-48ae-aa21-356fc5d14f13",
-   "type": "chapter"
-  },
-  {
-   "id": "19020b94-7819-47f0-a521-81122708c7fb",
-   "type": "chapter"
-  },
-  {
-   "id": "525aa789-02d4-4ba3-8e2d-9f3b737cf57e",
-   "type": "chapter"
-  },
-  {
-   "id": "ae63ba61-4a64-4562-bc33-65d65f583ce5",
-   "type": "chapter"
-  },
-  {
-   "id": "8b8b2a70-f32b-4bd0-be2d-51ce06e3890b",
-   "type": "chapter"
-  },
-  {
-   "id": "eecd34ed-f805-46e1-87dd-c953ba726293",
-   "type": "chapter"
-  },
-  {
-   "id": "57bedb51-6600-4241-80f1-437794637f15",
-   "type": "chapter"
-  },
-  {
-   "id": "0a44c85d-63e6-4064-a597-9dae4cc1f2a3",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "c465b93d-1851-4f58-9439-4012129347e3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:52+00:00",
+    "description": "",
+    "fileName": "816b49cd-a813-4454-a54f-44c6be8596b2.jpg",
+    "updatedAt": "2021-05-24T17:41:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

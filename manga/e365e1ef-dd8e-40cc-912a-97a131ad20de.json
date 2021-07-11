@@ -7,6 +7,23 @@
    "title": {
     "en": "Tomorrows"
    },
+   "altTitles": [
+    {
+     "en": "Tomorrows - Anantachi no Kakumei"
+    },
+    {
+     "en": "Tomorrows アンアンたちの革命"
+    },
+    {
+     "en": "トゥモロウズ"
+    },
+    {
+     "en": "为明日而战"
+    },
+    {
+     "en": "투모로우즈"
+    }
+   ],
    "description": {
     "en": "Anan and Minmi lived in a laboratory as small children, where scientists experimented on them and gave them special powers.\r\nOne day, the professor helped them escape, out of guilt from what he had done to them. The two of them continue to hide ten years later, certain that if their powers are exposed they will be captured and returned to that hell."
    },
@@ -32,6 +49,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +61,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,43 +73,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-30T07:18:30+00:00",
+   "updatedAt": "2021-05-25T15:48:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "6c7479fd-5375-4614-9703-d83eee07bd9b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Deguchi Masato",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6c7479fd-5375-4614-9703-d83eee07bd9b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Deguchi Masato",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b7dcf072-5e0a-4545-b42f-0fe07b8951a7",
-   "type": "chapter"
-  },
-  {
-   "id": "48681a55-79dd-4013-b91f-38aa9aba1f9e",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "a6407921-b832-4f93-b472-575690027d86",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:52+00:00",
+    "description": "",
+    "fileName": "819c9a79-9420-4515-8d25-14c8c99f4b91.jpg",
+    "updatedAt": "2021-05-24T18:04:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Hashiba is 152 Centimeters Tall"
    },
+   "altTitles": [
+    {
+     "en": "Hashiba is 152 Centimeters"
+    },
+    {
+     "en": "羽柴くんは１５２センチ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,39 +49,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-20T06:15:10+00:00",
+   "updatedAt": "2021-05-25T15:49:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "f58230d6-b611-4a8f-a9ab-bf9765796c21",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kyo Hinata",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7edcde36-d103-459d-9d48-ff38f8ae5ce4",
-   "type": "chapter"
-  },
-  {
-   "id": "bb53ea2c-5d36-42ae-affa-e5bcacd055a1",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "f7e02df3-fc44-4f54-8e2a-2a8b93ef76b7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:23:35+00:00",
+    "description": "",
+    "fileName": "ae4f69e4-b770-4c37-be2c-cb9599739933.jpg",
+    "updatedAt": "2021-05-24T18:23:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

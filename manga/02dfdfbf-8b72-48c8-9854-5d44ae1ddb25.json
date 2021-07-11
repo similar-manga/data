@@ -7,6 +7,20 @@
    "title": {
     "en": "Rainy Song"
    },
+   "altTitles": [
+    {
+     "en": "A Girl in Ultramarine"
+    },
+    {
+     "en": "Dark Asterisk"
+    },
+    {
+     "en": "Snowflakes"
+    },
+    {
+     "en": "レイニーソング"
+    }
+   ],
    "description": {
     "en": "1. A Girl in Ultramarine\r\n2-3. Dark Asterisk\r\nContinues the story of Yagami Hiroko from Kimi Koi Limit.\r\n4. Snowflakes\r\n5. Rainy Song"
    },
@@ -29,6 +43,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,8 +53,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +67,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,71 +79,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-17T10:45:31+00:00",
+   "updatedAt": "2021-05-25T15:38:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "4570ae30-25e6-4179-b08d-72e4349ade28",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Momono Moto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4570ae30-25e6-4179-b08d-72e4349ade28",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Momono Moto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "82764ae0-11e1-4b77-8dcd-86f0b080080e",
-   "type": "chapter"
-  },
-  {
-   "id": "a20d7a26-0fd3-4942-a602-47f5ac63f7c1",
-   "type": "chapter"
-  },
-  {
-   "id": "1bf326aa-191c-4790-a77e-f39264d88916",
-   "type": "chapter"
-  },
-  {
-   "id": "37cb5b28-b29f-4e73-8c8f-01eec863b9ce",
-   "type": "chapter"
-  },
-  {
-   "id": "872d6440-3aa2-4ffd-a275-f52d5b897e7a",
-   "type": "chapter"
-  },
-  {
-   "id": "49c600b5-9d99-4bec-9fb7-dda90e30d879",
-   "type": "chapter"
-  },
-  {
-   "id": "e8389105-4b98-4212-86b7-9a5d1f1935dd",
-   "type": "chapter"
-  },
-  {
-   "id": "27d75ccc-c82f-435d-9059-8dc164d61146",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "bd7d4e98-0192-4f3e-909e-1bf271022363",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:45:14+00:00",
+    "description": "",
+    "fileName": "2c9e4d3a-9607-4b63-b46e-490cd0e11fca.png",
+    "updatedAt": "2021-05-24T16:45:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

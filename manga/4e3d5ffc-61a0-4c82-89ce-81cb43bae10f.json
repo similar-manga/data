@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "\u0026quot;Watashi ga Inakute mo Shiawase ni natte Kudasai\u0026quot; Nante, Fuzaken na"
+    "en": "\"Watashi ga Inakute mo Shiawase ni natte Kudasai\" Nante, Fuzaken na"
    },
+   "altTitles": [
+    {
+     "en": "「私がいなくても幸せになってください」なんて、ふざけんな。"
+    },
+    {
+     "en": "\"Please Be Happy Even If I'm Not Here,\" Don't Screw With Me."
+    },
+    {
+     "en": "\"Por Favor Sé Feliz Sin Mí\""
+    }
+   ],
    "description": {
     "en": "As I was spending my student days alongside my beloved girlfriend, one day, she suddenly said goodbye to me. After becoming a shadow of my former self, I learned that she died after struggling with an illness.\r\n\r\nThe diary I received from her family was filled with her happy memories with me."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,75 +66,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-08T03:54:55+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "3c0cb813-a137-45d6-a264-916c8144d50f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kogetsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3c0cb813-a137-45d6-a264-916c8144d50f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kogetsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3ebd67eb-2034-4b9c-846e-bc1a6a25466a",
-   "type": "chapter"
-  },
-  {
-   "id": "f31704f3-7513-4e6c-ac33-aed0dd660a78",
-   "type": "chapter"
-  },
-  {
-   "id": "d14bcf1f-7297-46b8-abb7-29f682415c6c",
-   "type": "chapter"
-  },
-  {
-   "id": "1a17bc16-8784-4c4d-bb96-5b40b04283d2",
-   "type": "chapter"
-  },
-  {
-   "id": "de362ee2-783f-42b0-b14c-1099bdb240ee",
-   "type": "chapter"
-  },
-  {
-   "id": "330eed63-cc70-49b4-97fc-17a73d66f5b3",
-   "type": "chapter"
-  },
-  {
-   "id": "8012dc9f-5260-4a66-88c6-680e695d5d24",
-   "type": "chapter"
-  },
-  {
-   "id": "95347a7f-7ceb-4a1e-b071-c6abe28ef74e",
-   "type": "chapter"
-  },
-  {
-   "id": "bfe06ca8-51c1-4502-850e-5020b7d6a395",
-   "type": "chapter"
-  },
-  {
-   "id": "d1ad1f26-0724-44e8-a649-ff446bee1f3e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "2ddfd3c2-e0a5-4f29-9b78-dc7a26385f5a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:05:53+00:00",
+    "description": "",
+    "fileName": "bf00907a-1d15-4104-b41f-8a4437c8d8c9.jpg",
+    "updatedAt": "2021-05-24T18:05:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

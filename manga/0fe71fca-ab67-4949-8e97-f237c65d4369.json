@@ -7,8 +7,13 @@
    "title": {
     "en": "Bamboo Grove Notification"
    },
+   "altTitles": [
+    {
+     "en": "대나무숲에서 알립니다"
+    }
+   ],
    "description": {
-    "en": "Instead of a tip-off from an anonymous account, someone behind the \u0026lsquo;Bamboo Grove\u0026rsquo; community page exposed my secret."
+    "en": "Instead of a tip-off from an anonymous account, someone behind the ‘Bamboo Grove’ community page exposed my secret."
    },
    "links": {
     "ap": "bamboo-grove-notification",
@@ -28,6 +33,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,6 +57,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -58,6 +69,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -68,83 +81,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-21T18:52:15+00:00",
+   "updatedAt": "2021-05-25T15:39:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "df715b5e-89b7-4a59-bc0d-bf2be43b12db",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "이백",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8ad6c807-9a48-4bb3-aa3d-db9506ec44f1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "황짠느",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0fb901b3-53d9-4e72-9271-6f96adc45157",
-   "type": "chapter"
-  },
-  {
-   "id": "d213290a-acec-4c11-8e75-4f25b8966730",
-   "type": "chapter"
-  },
-  {
-   "id": "d0d84c63-3a40-44c6-b07b-7dd12d14f803",
-   "type": "chapter"
-  },
-  {
-   "id": "6193ff74-3a7a-44df-865b-d9b617b0d771",
-   "type": "chapter"
-  },
-  {
-   "id": "562798b4-1af9-458e-a963-bbd8c6c7fed7",
-   "type": "chapter"
-  },
-  {
-   "id": "7c26f5f5-8c6c-4465-99e1-318cc5d5ec29",
-   "type": "chapter"
-  },
-  {
-   "id": "34a9e50c-e65d-4a0c-816c-5757179c4c11",
-   "type": "chapter"
-  },
-  {
-   "id": "7b89a8a6-ca84-46b2-8068-310505be0b09",
-   "type": "chapter"
-  },
-  {
-   "id": "287bf5a3-1f80-42b4-893f-65dde46a2374",
-   "type": "chapter"
-  },
-  {
-   "id": "c1b47b66-5821-49bc-bca6-29fa7ab02fd5",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "512910bc-ef16-4fc8-813e-3bcb4772d82a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:15:35+00:00",
+    "description": "",
+    "fileName": "71caf2b7-944d-4036-84b2-513faef40fdf.jpg",
+    "updatedAt": "2021-05-24T18:15:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

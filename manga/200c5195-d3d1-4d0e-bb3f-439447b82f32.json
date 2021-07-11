@@ -14,8 +14,7 @@
     "ap": "secret-xiao-ke",
     "mu": "146885"
    },
-   "originalLanguage": "zh-hk",
-   "lastChapter": "0",
+   "originalLanguage": "zh",
    "publicationDemographic": "josei",
    "status": "ongoing",
    "contentRating": "suggestive",
@@ -27,6 +26,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +38,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,63 +74,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-14T21:57:37+00:00",
+   "updatedAt": "2021-05-25T15:40:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "3c53133a-27bb-4ed4-849a-053560e571f5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ke Xiao",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3c53133a-27bb-4ed4-849a-053560e571f5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ke Xiao",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "210876fd-8c1b-44b3-a3fe-d469de7029ad",
-   "type": "chapter"
-  },
-  {
-   "id": "272394f0-3571-4e49-bed8-928126828677",
-   "type": "chapter"
-  },
-  {
-   "id": "1119eac5-59e7-495b-89fa-67503f36b0bf",
-   "type": "chapter"
-  },
-  {
-   "id": "97077011-e7fa-4110-9175-a171be94f828",
-   "type": "chapter"
-  },
-  {
-   "id": "c2a596ac-1b21-4c0d-ba97-9a3905d00235",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "1111d442-2ee8-4f39-9d95-f7eb3fc08e53",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:31+00:00",
+    "description": "",
+    "fileName": "8d3cd887-55ce-4db8-96fd-b7b3f0b01e73.jpg",
+    "updatedAt": "2021-05-24T17:04:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

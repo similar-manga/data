@@ -29,6 +29,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +41,8 @@
       "name": {
        "en": "Incest"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -49,6 +53,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,47 +65,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-08-05T08:33:48+00:00",
+   "updatedAt": "2019-08-05T08:33:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "84acd1d6-9e42-4e55-b034-bc93c929ed57",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Saiki Keita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "84acd1d6-9e42-4e55-b034-bc93c929ed57",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Saiki Keita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3657e300-7047-46de-9a32-b1fb94d34308",
-   "type": "chapter"
-  },
-  {
-   "id": "5e160bd8-1875-4000-a1f8-2e6ee8ce63b9",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "5bd0e105-4481-44ca-b6e7-7544da56b1a3",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "29662e41-8de6-4fc6-9090-bdf8dd6a93c6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:39+00:00",
+    "description": "",
+    "fileName": "86a288ee-e51b-407d-a047-3cb720a2d121.jpg",
+    "updatedAt": "2021-05-24T17:21:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

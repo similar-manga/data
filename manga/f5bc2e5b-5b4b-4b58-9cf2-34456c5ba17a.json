@@ -7,6 +7,14 @@
    "title": {
     "en": "Tsutaete Ii no"
    },
+   "altTitles": [
+    {
+     "en": "May My Love Reach You?"
+    },
+    {
+     "en": "伝えていいの"
+    }
+   ],
    "description": {
     "en": "Friendly weekend movies...or is there more?"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,63 +74,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-18T17:00:42+00:00",
+   "updatedAt": "2021-05-25T15:49:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "adf83034-5078-4a46-b508-2858e8ded19d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujiyama Hyouta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "adf83034-5078-4a46-b508-2858e8ded19d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujiyama Hyouta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3faa1ff6-9054-4b67-9663-ffc88962cadf",
-   "type": "chapter"
-  },
-  {
-   "id": "216cb966-7f39-49ec-bb61-f8344b917d7a",
-   "type": "chapter"
-  },
-  {
-   "id": "5968f659-80b6-4c69-9af9-f0b91523812a",
-   "type": "chapter"
-  },
-  {
-   "id": "a0b7b624-b39c-4263-beaf-562066a34f18",
-   "type": "chapter"
-  },
-  {
-   "id": "4565d41b-1312-4838-92d5-c9b38823574e",
-   "type": "chapter"
-  },
-  {
-   "id": "6e37e497-7579-45f2-82db-3db8f6befddf",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "2535a877-88ec-4f0b-9388-1590c84c9186",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:41+00:00",
+    "description": "",
+    "fileName": "ac8a0460-52c9-47a3-ab15-7392080b9e0a.jpg",
+    "updatedAt": "2021-05-24T17:41:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

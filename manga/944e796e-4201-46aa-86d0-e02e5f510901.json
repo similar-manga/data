@@ -7,6 +7,14 @@
    "title": {
     "en": "Jaguar"
    },
+   "altTitles": [
+    {
+     "en": "Jagua"
+    },
+    {
+     "en": "Ягуар"
+    }
+   ],
    "description": {
     "en": "As the protagonist is returning home one night, she runs into a man who had just been in a car crash. As he is dying, he asks her to throw a certain package into the sea."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,59 +72,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-10T06:19:07+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "14fe0767-7864-4e04-b2d4-f5cbbf236268",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kiba Kouichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "14fe0767-7864-4e04-b2d4-f5cbbf236268",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kiba Kouichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6663917b-0bc1-446b-adc8-6df6a6da36eb",
-   "type": "chapter"
-  },
-  {
-   "id": "4686d952-43e5-42ea-a6d6-f2e4a21661e1",
-   "type": "chapter"
-  },
-  {
-   "id": "c8ea205f-8ba0-44fd-a3fc-d8fa0f97f477",
-   "type": "chapter"
-  },
-  {
-   "id": "044e4675-7e8e-4f7a-a287-25e447302db5",
-   "type": "chapter"
-  },
-  {
-   "id": "49667e2f-2a22-4632-8cb7-3b1058543356",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "1e7cda37-8b55-4fd7-a894-3e32223a8a2f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:19+00:00",
+    "description": "",
+    "fileName": "b5231790-7f64-4caa-80b2-2ac8a34f7199.jpg",
+    "updatedAt": "2021-05-24T16:57:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

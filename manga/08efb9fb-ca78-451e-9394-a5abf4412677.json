@@ -7,6 +7,14 @@
    "title": {
     "en": "Kabe no Naka no Tenshi"
    },
+   "altTitles": [
+    {
+     "en": "The Angel in the Wall"
+    },
+    {
+     "en": "壁の中の天使"
+    }
+   ],
    "description": {
     "en": "Lorentz Dinkel, a local artist, was commissioned to paint on a store's wall. Little did he know the angels, Julius and Marion, come alive at night. Julius and Marion have fun traveling about until then Julius meets the artist and...\r\n\r\nBeautifully told, a dazzling love story!"
    },
@@ -29,8 +37,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,47 +51,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-29T08:41:50+00:00",
+   "updatedAt": "2021-05-25T15:39:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "a5c5bd9f-3804-4772-9469-8aba2477a2f9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Bikke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a5c5bd9f-3804-4772-9469-8aba2477a2f9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Bikke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9b6fc6df-3c7b-46b2-9a5f-d01a485d4fb7",
-   "type": "chapter"
-  },
-  {
-   "id": "6777583f-e370-460a-8a9a-c3517309f042",
-   "type": "chapter"
-  },
-  {
-   "id": "aefdd1d3-d2e9-43c1-b09f-f536747a80ea",
-   "type": "chapter"
-  },
-  {
-   "id": "815d0244-8681-4dd3-8102-01843a320e86",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "d15ef965-0baf-4f82-967f-baa618202aa0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:42:30+00:00",
+    "description": "",
+    "fileName": "5f46b2d1-5265-4476-bd72-d8be3ffc9aa8.jpg",
+    "updatedAt": "2021-05-24T18:42:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

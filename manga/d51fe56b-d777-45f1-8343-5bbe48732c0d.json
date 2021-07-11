@@ -7,6 +7,14 @@
    "title": {
     "en": "Us Right Now"
    },
+   "altTitles": [
+    {
+     "en": "Now We Are "
+    },
+    {
+     "en": "지금의 우리는"
+    }
+   ],
    "description": {
     "en": "Nara has lived with her friend for a long time, they have a strange relationship that others do not understand, and maybe not even them. Together they try to figure out what kind of relationship they want to have."
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,8 +59,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,63 +73,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-05T01:12:31+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "50066791-1ecf-41b6-a996-dc546d5bde76",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "뿡",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "50066791-1ecf-41b6-a996-dc546d5bde76",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "뿡",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9e2721e4-6f12-4a23-a834-888a43c68445",
-   "type": "chapter"
-  },
-  {
-   "id": "ad57889a-77ad-4068-b118-e1fb7af14235",
-   "type": "chapter"
-  },
-  {
-   "id": "66e33522-963c-4df5-a6e6-f4f38485a91b",
-   "type": "chapter"
-  },
-  {
-   "id": "0e5d91b2-8d0b-465f-b1a0-970af3571781",
-   "type": "chapter"
-  },
-  {
-   "id": "1371ca4c-0850-483c-9243-8a66a31d1b82",
-   "type": "chapter"
-  },
-  {
-   "id": "1347c887-693c-4075-9c03-ed7750ebb02d",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "70eeba0f-4774-4f2d-88b7-9cd47cf14992",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:25:21+00:00",
+    "description": "",
+    "fileName": "63849c37-1b13-4988-855f-a3966c6e3594.jpg",
+    "updatedAt": "2021-05-24T17:25:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

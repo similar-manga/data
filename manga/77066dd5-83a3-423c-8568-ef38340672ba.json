@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Punch \u0026uarr; + Jinan Joutou"
+    "en": "Punch ↑ + Jinan Joutou"
    },
+   "altTitles": [
+    {
+     "en": "Punch Up + Yaizu Brothers"
+    },
+    {
+     "en": "Punch↑＋次男上等"
+    }
+   ],
    "description": {
     "en": "Kouta gets sick and Motoharu nurses him with loving care. Can it go well?"
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,8 +70,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,55 +84,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-30T07:51:58+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "f01401d0-33c6-4a3b-ac93-7914786aca92",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kano Shiuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f01401d0-33c6-4a3b-ac93-7914786aca92",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kano Shiuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f550f747-4d1a-459d-9a2b-e133f17e6f36",
-   "type": "chapter"
-  },
-  {
-   "id": "7f70d8ba-82d5-43c0-8b64-4c9ed8d677da",
-   "type": "chapter"
-  },
-  {
-   "id": "127d23c6-7826-47a3-9088-dd9d07498f57",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "eae40409-4113-4f92-8df9-2816e815aba0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:20+00:00",
+    "description": "",
+    "fileName": "064608d9-2926-4683-949c-b7569ef08007.jpg",
+    "updatedAt": "2021-05-24T17:06:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

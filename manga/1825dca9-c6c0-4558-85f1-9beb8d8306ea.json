@@ -7,6 +7,14 @@
    "title": {
     "en": "Ohayou Kara Oyasumi Made"
    },
+   "altTitles": [
+    {
+     "en": "Good Morning→Good Night"
+    },
+    {
+     "en": "おはようから　おやすみまで"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,39 +72,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-02-06T14:45:22+00:00",
+   "updatedAt": "2019-02-06T14:45:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "1599a7fd-8b82-4c65-a8db-8283e3852814",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Karasawa Chiaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1599a7fd-8b82-4c65-a8db-8283e3852814",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Karasawa Chiaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "5fdf8f15-fb19-4f93-a046-e85c6cce9b73",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:25+00:00",
+    "description": "",
+    "fileName": "f422e64d-316f-408d-8b65-3d44fbce6b01.jpg",
+    "updatedAt": "2021-05-24T17:00:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

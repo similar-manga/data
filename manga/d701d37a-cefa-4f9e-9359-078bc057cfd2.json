@@ -5,8 +5,34 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Zero no Chukaima - Yo\u0026ndash;chien Nano!"
+    "en": "Zero no Chukaima - Yo–chien Nano!"
    },
+   "altTitles": [
+    {
+     "en": "Zero no Chukaima"
+    },
+    {
+     "en": "Zero no Chukaima - Yochien Nano!"
+    },
+    {
+     "en": "Zero no Chukaima - Yoochien Nano!"
+    },
+    {
+     "en": "Zero no Chukaima Yochien"
+    },
+    {
+     "en": "Zero no Chukaima Yoochien"
+    },
+    {
+     "en": "ゼロのちゅかいま"
+    },
+    {
+     "en": "ゼロのちゅかいま　-よーちえんnano!-"
+    },
+    {
+     "en": "ゼロのちゅかいまよーちえんｎａｎｏ！"
+    }
+   ],
    "description": {
     "en": "A 4-koma featuring super-deformed versions of the cast of Zero no Tsukaima."
    },
@@ -19,7 +45,6 @@
     "mu": "48259"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -30,6 +55,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +67,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -50,43 +79,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-28T09:39:25+00:00",
+   "updatedAt": "2021-05-25T15:48:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "b8f3cd20-4a92-4511-b8eb-f65784df609b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKAMURA Masaya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b8f3cd20-4a92-4511-b8eb-f65784df609b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKAMURA Masaya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8b20bf0d-45cd-4228-aa4e-d35afd6f6e5e",
-   "type": "chapter"
-  },
-  {
-   "id": "523a831e-e094-4a41-8c8b-123fa65f80ca",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "549a398c-cc8b-4f9d-a0f4-981249fc5203",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:23+00:00",
+    "description": "",
+    "fileName": "370cb185-19bd-45f4-ae46-da385a4d43bf.jpg",
+    "updatedAt": "2021-05-24T16:59:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

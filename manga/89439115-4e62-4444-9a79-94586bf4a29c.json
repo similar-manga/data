@@ -7,6 +7,11 @@
    "title": {
     "en": "Dorobou Neko ni wa Nusumenai"
    },
+   "altTitles": [
+    {
+     "en": "泥棒猫には盗めない"
+    }
+   ],
    "description": {
     "en": "A heartwarming short story about an unemployed guy and his encounter with a lonely young man."
    },
@@ -25,8 +30,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,43 +44,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-23T06:07:48+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "fa8bbf7e-5998-4a29-9b93-bcc9796233fd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Michinoku Atami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fa8bbf7e-5998-4a29-9b93-bcc9796233fd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Michinoku Atami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5370b784-09ec-4a53-a00c-8ba4cdd31d29",
-   "type": "chapter"
-  },
-  {
-   "id": "62993079-2ca9-4ecd-a7b7-38740d3e3bf9",
-   "type": "chapter"
-  },
-  {
-   "id": "3d2b48ae-f552-48dc-8e2d-779038bb06f3",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "50bcd35b-4312-4fd1-9d95-508a72d1cb85",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:27:37+00:00",
+    "description": "",
+    "fileName": "d27cd380-05d6-49da-8079-c1b65563a82d.jpg",
+    "updatedAt": "2021-05-24T17:27:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -23,6 +23,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,51 +35,53 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-05T23:40:29+00:00",
+   "updatedAt": "2021-05-25T15:49:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "6b3e25cf-8d0d-4abb-b75e-7960fcad2ff6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Anthology",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6b3e25cf-8d0d-4abb-b75e-7960fcad2ff6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Anthology",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6396cb9d-480d-4efd-8562-a9063bfe3f5b",
-   "type": "chapter"
-  },
-  {
-   "id": "f39253c3-a85b-49ac-a631-6ae83b4ee121",
-   "type": "chapter"
-  },
-  {
-   "id": "13296fdc-a302-4e25-9567-54683f6b15d9",
-   "type": "chapter"
-  },
-  {
-   "id": "b76117c7-69b7-4ec2-8368-5116b549d599",
-   "type": "chapter"
-  },
-  {
-   "id": "6f755b2a-be66-4531-a649-d938c4d64b98",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
+   "id": "0893c1d5-39f4-4fd4-a1d7-11557e6a14fe",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:05:38+00:00",
+    "description": "",
+    "fileName": "57d8cdc9-6c92-4b2d-a3a1-88e8b846f2dd.jpg",
+    "updatedAt": "2021-05-24T18:05:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

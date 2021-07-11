@@ -30,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -50,55 +54,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-01T06:40:16+00:00",
+   "updatedAt": "2021-05-25T15:41:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "b993dec9-f9e8-4f31-95e0-451e1302df4e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kanou Noriko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b993dec9-f9e8-4f31-95e0-451e1302df4e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kanou Noriko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "50612b24-57df-4619-9f3f-29f7a29c6985",
-   "type": "chapter"
-  },
-  {
-   "id": "36fd565c-6de2-4d25-acc3-c42779595dc2",
-   "type": "chapter"
-  },
-  {
-   "id": "e816b407-18db-4b41-8d07-b09cbad630d0",
-   "type": "chapter"
-  },
-  {
-   "id": "787fa2a7-99a5-4325-89f1-580e3a02ac6b",
-   "type": "chapter"
-  },
-  {
-   "id": "4ff804b7-7cc0-42e3-890c-18d3ed939f15",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "f6d3bffe-face-4f9f-aa49-2a959cd85981",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:46:38+00:00",
+    "description": "",
+    "fileName": "e6aed2e6-c649-41f5-91a1-b02014ba74bc.png",
+    "updatedAt": "2021-05-24T16:46:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

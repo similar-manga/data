@@ -7,6 +7,11 @@
    "title": {
     "en": "Nonscale"
    },
+   "altTitles": [
+    {
+     "en": "ノンスケール"
+    }
+   ],
    "description": {
     "en": "A collection of original short stories by the artist Mebae."
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +61,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -62,6 +73,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -72,6 +85,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -82,87 +97,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-14T21:32:51+00:00",
+   "updatedAt": "2021-05-25T15:49:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "4a41ace8-21a3-4ace-bc47-08755774a46e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mebae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4a41ace8-21a3-4ace-bc47-08755774a46e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mebae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f68e323d-7ec3-462a-9d73-a4e63268d20f",
-   "type": "chapter"
-  },
-  {
-   "id": "0e2113da-9aef-4b97-bfdd-8c4458465673",
-   "type": "chapter"
-  },
-  {
-   "id": "c17d64a1-8941-4445-a06d-2033d3cdbc6b",
-   "type": "chapter"
-  },
-  {
-   "id": "5c857cf8-e84d-4676-9477-a33df853836b",
-   "type": "chapter"
-  },
-  {
-   "id": "f4bf7c2f-128e-40ca-abbe-2e7996342804",
-   "type": "chapter"
-  },
-  {
-   "id": "2b12a9c6-ab07-4cbf-88ca-f882d7a7b306",
-   "type": "chapter"
-  },
-  {
-   "id": "dbde3bcd-7f72-4f08-b29b-63f44fd8b5aa",
-   "type": "chapter"
-  },
-  {
-   "id": "45f00d81-597c-4cb0-915e-3c6791ff8e53",
-   "type": "chapter"
-  },
-  {
-   "id": "ef26c21b-9e90-4808-88c1-25b242680b47",
-   "type": "chapter"
-  },
-  {
-   "id": "15f8b1d8-e877-4c4a-9c15-ad62dc85b977",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "a9bd3b58-f0f7-4f34-b684-7537ee8ee5e0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:44:57+00:00",
+    "description": "",
+    "fileName": "64505ca3-b247-4e04-bb53-14b06b622eab.jpg",
+    "updatedAt": "2021-05-24T16:44:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

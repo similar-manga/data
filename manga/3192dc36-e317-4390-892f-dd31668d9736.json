@@ -7,6 +7,20 @@
    "title": {
     "en": "Junji Ito's Dog Diary"
    },
+   "altTitles": [
+    {
+     "en": "Nonnon Oyabun "
+    },
+    {
+     "en": "Nonnon Oyabun no Kakurenbo"
+    },
+    {
+     "en": "ノンノン親分"
+    },
+    {
+     "en": "ノンノン親分のかくれんぼ"
+    }
+   ],
    "description": {
     "en": "Chronicling the adventures of the mangaka and his dog."
    },
@@ -29,6 +43,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,39 +55,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-03T05:06:26+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "bf07c05f-a69f-4690-982f-406d369a2034",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itou Junji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bf07c05f-a69f-4690-982f-406d369a2034",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itou Junji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e2838ee0-0ea3-4a87-b00e-d4d08e9d8969",
-   "type": "chapter"
-  },
-  {
-   "id": "1e615165-4b26-4e05-a22f-62a86db8e159",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "b9e48087-00aa-4f33-a749-42f44e10de39",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:46:49+00:00",
+    "description": "",
+    "fileName": "9a555c10-4d88-44a7-b4e1-091f01c1c2b4.jpg",
+    "updatedAt": "2021-05-24T16:46:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,8 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Minecraft: Journey to the World\u0026rsquo;s End"
+    "en": "Minecraft: Journey to the World’s End"
    },
+   "altTitles": [
+    {
+     "en": "Minecraft: Sekai no Hate no Tabi  "
+    },
+    {
+     "en": "マインクラフト 世界の旗の旅"
+    },
+    {
+     "en": "マインクラフト〜世界の果てへの旅〜"
+    },
+    {
+     "en": "マインクラフト～世界の果てへの旅～"
+    }
+   ],
    "description": {
     "en": "Nico specializes in digging, and he used to bother his parents every day by destroying the walls and floors to run outdoors. Nico lives in Teo Village, and one day while hanging with friends, Nico ends up getting into a bit of trouble. This tricky spot is what sets Nico off on his grand adventure."
    },
@@ -16,7 +30,6 @@
     "mu": "164078"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -28,6 +41,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +65,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +77,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -68,51 +89,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-21T13:28:55+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "015bd00a-fc20-4119-9005-720feda38273",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kazuyoshi Seto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "015bd00a-fc20-4119-9005-720feda38273",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kazuyoshi Seto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0ba2dc60-dff5-4362-9538-fe8763b42ce1",
-   "type": "chapter"
-  },
-  {
-   "id": "cb8861ed-e664-4693-b984-54bedf9dedbe",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "59cb215d-048d-4fcc-bc81-47989f01a3a6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:00:09+00:00",
+    "description": "",
+    "fileName": "1a484892-d56c-4496-9c9a-82d7e8afcfef.jpg",
+    "updatedAt": "2021-05-24T18:00:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

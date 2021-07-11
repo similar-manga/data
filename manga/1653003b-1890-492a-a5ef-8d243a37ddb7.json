@@ -7,6 +7,11 @@
    "title": {
     "en": "Futouhen Sankakkei no Teiri"
    },
+   "altTitles": [
+    {
+     "en": "不等辺三角形の定理"
+    }
+   ],
    "description": {
     "en": "A rental store employee has a surprise waiting for him upon taking an customer home."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,37 +44,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-24T15:30:58+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "cdb71ca6-ce32-4b11-922b-8d7942e29f16",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Agata Ito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cdb71ca6-ce32-4b11-922b-8d7942e29f16",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Agata Ito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ca2b42e1-3061-4790-83ef-1bbf633b9edb",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "5821242d-a3e7-4fac-9637-afd55adb7347",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:13:04+00:00",
+    "description": "",
+    "fileName": "18e07f15-d1c1-4158-819f-c2f009b19d39.jpg",
+    "updatedAt": "2021-05-24T17:13:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

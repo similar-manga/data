@@ -7,6 +7,17 @@
    "title": {
     "en": "Antique Bakery"
    },
+   "altTitles": [
+    {
+     "en": "Seiyou Kotto Yougashiten"
+    },
+    {
+     "en": "Seiyou Kottou Yougashiten"
+    },
+    {
+     "en": "西洋骨董洋菓子店"
+    }
+   ],
    "description": {
     "en": "Tachibana has recently quit his job at a high-class firm, and for unknown reasons, decides to open a bakery. His first employee is Ono, an extremely talented patissier who is also known as the 'Gay of demonic charm' - something that has caused him to lose his job countless times. Joining the crew also is Eiji - a retired champion boxer - who is hired on the spot as only a trainee purely because he is not Ono's 'type.' However, Chikage, the bumbling childhood friend and shadow of Tachibana, is exactly his type! Now, with the shop finally open, everyone seems to be filling their positions well; but one question remains: what were Tachibana's motives for opening the bakery, and does it have a link to his troubled and forgotten past?"
    },
@@ -32,6 +43,8 @@
       "name": {
        "en": "Award Winning"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,6 +55,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,8 +65,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +79,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -72,6 +91,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -82,87 +103,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-07T01:36:37+00:00",
+   "updatedAt": "2021-05-25T15:44:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "b2f4735d-bdb5-448b-bd43-0ca875b14f86",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshinaga Fumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b2f4735d-bdb5-448b-bd43-0ca875b14f86",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshinaga Fumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "79185711-5592-46c0-96d4-08faa9300d10",
-   "type": "chapter"
-  },
-  {
-   "id": "3606e760-e77d-4ac7-8ad6-a1bda7226655",
-   "type": "chapter"
-  },
-  {
-   "id": "f40a1457-ccc2-40ef-b1d8-8c9a5b1bd3a5",
-   "type": "chapter"
-  },
-  {
-   "id": "87cdc70f-aa98-457a-9472-024cca27e560",
-   "type": "chapter"
-  },
-  {
-   "id": "70f99742-7f6c-4edb-b70f-f3a895fb724e",
-   "type": "chapter"
-  },
-  {
-   "id": "2a1ea429-08e3-4dbb-b2da-60722f4691c3",
-   "type": "chapter"
-  },
-  {
-   "id": "1c85fb2d-30d9-46d9-8969-6f227bc729c3",
-   "type": "chapter"
-  },
-  {
-   "id": "e70d68b9-1a53-473c-88e3-92858d80b2d2",
-   "type": "chapter"
-  },
-  {
-   "id": "e80c665a-961a-45f0-be76-33ece824500f",
-   "type": "chapter"
-  },
-  {
-   "id": "e3447a5a-6950-4919-819e-8f5623401892",
-   "type": "chapter"
-  },
-  {
-   "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "ce3c3e87-2fec-4f2f-a986-db510c12a60e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:07:10+00:00",
+    "description": "",
+    "fileName": "fa0ec6e2-7ac0-4b42-965a-06da9c93b4c1.jpg",
+    "updatedAt": "2021-05-24T17:07:10+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

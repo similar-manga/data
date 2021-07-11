@@ -7,6 +7,11 @@
    "title": {
     "en": "Brother"
    },
+   "altTitles": [
+    {
+     "en": "ブラザー"
+    }
+   ],
    "description": {
     "en": "Momoki Asuka and Momoki Yui are two step-brothers who were the best of friends until an unfortunate incident one summer day. Ever since then, Yui has avoided Asuka at all costs, even going so far as moving to America to study abroad. \r\n\r\nA super tennis star, Yui no longer needs a big brother, so where does that leave poor Asuka? What happens when brotherly love transforms into something more?"
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,8 +53,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,79 +67,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-15T12:46:06+00:00",
+   "updatedAt": "2021-05-25T15:40:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "f0ede9bf-665b-4326-bf73-a658461c7202",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ougi Yuzuha",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f0ede9bf-665b-4326-bf73-a658461c7202",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ougi Yuzuha",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e8ee1e2b-1f50-4edf-9c80-b4e4be8a8b93",
-   "type": "chapter"
-  },
-  {
-   "id": "381a6de1-58fa-414f-9d4a-512d67f5e99c",
-   "type": "chapter"
-  },
-  {
-   "id": "9bff550a-2f1e-4b00-ba89-b40669a77822",
-   "type": "chapter"
-  },
-  {
-   "id": "8a082a22-55c0-4779-82f7-869fc7312a57",
-   "type": "chapter"
-  },
-  {
-   "id": "4b90ac7c-4c6b-43b4-896a-0efdd988e9ac",
-   "type": "chapter"
-  },
-  {
-   "id": "508108bb-3f04-4fff-afc8-cefa7d930f99",
-   "type": "chapter"
-  },
-  {
-   "id": "98f722e1-b40e-4445-9e82-a4586f064c2e",
-   "type": "chapter"
-  },
-  {
-   "id": "984c4eb9-b13a-4110-9a3e-8c554323689c",
-   "type": "chapter"
-  },
-  {
-   "id": "433887e1-1f97-4d8f-86f0-665a3ac297f1",
-   "type": "chapter"
-  },
-  {
-   "id": "d3dc868d-4d47-49a1-bff4-a523a05b5c59",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "9939bceb-25de-4f88-97dc-ac2c5a6d0d31",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:10+00:00",
+    "description": "",
+    "fileName": "fe59b538-b876-4ccd-b19e-770991338f84.jpg",
+    "updatedAt": "2021-05-24T17:08:10+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

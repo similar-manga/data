@@ -29,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,39 +41,53 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-31T02:31:45+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "9e423464-eb12-438b-8d7e-a120af872478",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koike Keiichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9e423464-eb12-438b-8d7e-a120af872478",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koike Keiichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ec6f28a9-2121-4b0a-9745-43a9b6a7915d",
-   "type": "chapter"
-  },
-  {
-   "id": "67c90e18-e2e7-43a6-bcaf-3df8e3141ae6",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
+   "id": "7a93b924-1511-4f95-8fce-e21d846116fb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:18+00:00",
+    "description": "",
+    "fileName": "d99cd293-4164-4cd6-a5ec-fa94461aef6b.png",
+    "updatedAt": "2021-05-24T16:56:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,17 @@
    "title": {
     "en": "Futari"
    },
+   "altTitles": [
+    {
+     "en": "Sakurairo Complex"
+    },
+    {
+     "en": "The Two of Us"
+    },
+    {
+     "en": "ふたり"
+    }
+   ],
    "description": {
     "en": "A set of loosely connected stories centered on three lesbian couples in an all girls' high school."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +52,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,67 +66,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-04T00:52:20+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "0b1c8749-7b58-4bed-86db-e9a9b47cc1c5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ootomo Megane",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0b1c8749-7b58-4bed-86db-e9a9b47cc1c5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ootomo Megane",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "66b913f5-9d3c-4f00-b5cf-ce9b9ee68d36",
-   "type": "chapter"
-  },
-  {
-   "id": "e3907e92-eceb-4127-ba75-02db8245cdd1",
-   "type": "chapter"
-  },
-  {
-   "id": "0442fc5a-5eca-403e-a7ed-524489b7ba0f",
-   "type": "chapter"
-  },
-  {
-   "id": "aa6aab64-47dc-4187-9b2d-d5238853c88c",
-   "type": "chapter"
-  },
-  {
-   "id": "f43e6875-2763-4f71-a2fe-d3fa78ad29bf",
-   "type": "chapter"
-  },
-  {
-   "id": "00ed9337-6877-4cd6-bcd6-770ae45422f6",
-   "type": "chapter"
-  },
-  {
-   "id": "fe2be930-19a9-4ee2-bea7-d5feec14360b",
-   "type": "chapter"
-  },
-  {
-   "id": "394b45bc-13e2-4f50-9a3c-7dd1a8d868ae",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "b16f0783-dfa8-4ffa-9e2f-e8cac17b73cf",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:43:52+00:00",
+    "description": "",
+    "fileName": "85c2d768-a51b-4800-83e2-b46a0fe9e8a5.jpg",
+    "updatedAt": "2021-05-24T16:43:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

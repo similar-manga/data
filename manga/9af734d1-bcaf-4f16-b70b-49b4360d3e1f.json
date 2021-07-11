@@ -29,6 +29,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,8 +39,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,75 +53,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-17T06:58:58+00:00",
+   "updatedAt": "2021-05-25T15:45:37+00:00"
   }
  },
  "relationships": [
   {
    "id": "9a80a5db-2b24-47cc-9af2-cc4f4bccf4b4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Psyche Delico",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9a80a5db-2b24-47cc-9af2-cc4f4bccf4b4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Psyche Delico",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "96c27ce0-7161-4f5e-85bd-638417871d4b",
-   "type": "chapter"
-  },
-  {
-   "id": "49d210c0-bcac-44fb-9e45-fa94277cb250",
-   "type": "chapter"
-  },
-  {
-   "id": "cef2d7be-5b6b-46c0-893d-84aa707b3a66",
-   "type": "chapter"
-  },
-  {
-   "id": "c8a5acb6-c6e2-4890-95b9-0be616134af9",
-   "type": "chapter"
-  },
-  {
-   "id": "89908c55-c9bc-432b-b246-6e0bf78b21a6",
-   "type": "chapter"
-  },
-  {
-   "id": "b791949b-f26d-4269-a78c-b6b7fc6bd649",
-   "type": "chapter"
-  },
-  {
-   "id": "ff77407d-4362-44ee-aa06-aa579d46b82c",
-   "type": "chapter"
-  },
-  {
-   "id": "bee867cc-2667-459c-898b-492673158313",
-   "type": "chapter"
-  },
-  {
-   "id": "fa0d84d6-1d4d-4a92-a1b4-fe44ae9c1dbb",
-   "type": "chapter"
-  },
-  {
-   "id": "ee288d41-7221-4c52-ab82-a2f07325da90",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "4320ae8a-867a-4f7b-b099-61372706fa99",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:23+00:00",
+    "description": "",
+    "fileName": "d4302355-053a-46de-b9c1-6350ac30a031.jpg",
+    "updatedAt": "2021-05-24T17:08:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

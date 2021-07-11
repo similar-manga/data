@@ -7,6 +7,14 @@
    "title": {
     "en": "Haikyuu!! - Aiiro Stardust (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "「ハイキュー!! 」藍色スターダスト"
+    },
+    {
+     "en": "Haikyuu!! dj - Indigo-Colored Stardust"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -23,6 +31,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -31,8 +41,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +55,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -53,47 +67,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-26T11:21:47+00:00",
+   "updatedAt": "2021-05-25T15:45:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "69378ee2-648a-4a64-89f2-d9fdf680594e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Norio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "69378ee2-648a-4a64-89f2-d9fdf680594e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Norio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c3c642ac-313a-4a7e-942e-c63b6dd8a6b6",
-   "type": "chapter"
-  },
-  {
-   "id": "598b1639-98cf-402f-9b2a-777a0c84a940",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "d663a82e-1581-4ff8-987a-4555fc7ce1a2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:53:50+00:00",
+    "description": "",
+    "fileName": "ed4996a6-a0b5-4c7e-97d0-06bf4912d02c.jpg",
+    "updatedAt": "2021-05-24T17:53:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

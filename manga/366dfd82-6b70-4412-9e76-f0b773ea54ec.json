@@ -7,6 +7,14 @@
    "title": {
     "en": "The Cute Reason You Look at Me"
    },
+   "altTitles": [
+    {
+     "en": "Kimi ga Mitsumeru Kawaii Riyuu"
+    },
+    {
+     "en": "君が見つめるカワイイ理由"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +46,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -46,43 +58,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-06T22:13:12+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "2ecc3038-c2e5-4cb0-9b6e-935722702a46",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Haruto Aya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2ecc3038-c2e5-4cb0-9b6e-935722702a46",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Haruto Aya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ada6781a-3a3f-445a-9605-231249984bdf",
-   "type": "chapter"
-  },
-  {
-   "id": "014ab304-e713-4272-82b9-41fa00162217",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "803e4381-d4d1-4f68-9519-41aa260ea2c1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:47:40+00:00",
+    "description": "",
+    "fileName": "17148bca-6554-4b79-92a7-d6cc8320d5c6.jpg",
+    "updatedAt": "2021-05-24T17:47:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

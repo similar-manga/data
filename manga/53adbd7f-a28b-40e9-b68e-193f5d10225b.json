@@ -5,7 +5,7 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Touken Ranbu \u0026ndash; Koi te Kurushii"
+    "en": "Touken Ranbu – Koi te Kurushii"
    },
    "description": {
     "en": "Pairing: Yasusada x Kiyomitsu"
@@ -20,8 +20,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,35 +34,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-02T21:48:56+00:00",
+   "updatedAt": "2021-05-25T15:42:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "1710ace9-7dc3-45d6-8286-2eb1b1992f0c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Quartier Latin (Washi)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1710ace9-7dc3-45d6-8286-2eb1b1992f0c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Quartier Latin (Washi)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8e89e2bd-f016-44c3-acee-190c7d69952b",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "c1beedaa-f9c0-4f46-a614-00f5376a009e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:24+00:00",
+    "description": "",
+    "fileName": "5f25e8c6-8ade-4a3e-a497-cef64fa302db.png",
+    "updatedAt": "2021-05-24T17:32:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

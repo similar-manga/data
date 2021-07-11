@@ -7,6 +7,17 @@
    "title": {
     "en": "Kengan Omega"
    },
+   "altTitles": [
+    {
+     "en": "Kengan Asura 2"
+    },
+    {
+     "en": "Кэнган Омега"
+    },
+    {
+     "en": "ケンガンオメガ"
+    }
+   ],
    "description": {
     "en": "Sequel to Kengan Asura. Takes place 2 years after the tournament.\r\n[hr][b]Links:[/b]\r\n[*][url=https://twitter.com/yabakostardust]Sandrovich's Twitter[/url]\r\n[*][url=https://twitter.com/daromeon]Daromeon's Twitter[/url]"
    },
@@ -34,6 +45,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +57,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -54,75 +69,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-04T21:16:27+00:00",
+   "updatedAt": "2021-05-25T15:40:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "8ea90421-0c39-4bcc-b09f-4a0f927f61df",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sandrovich Yabako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d89705b5-0a16-4ef6-b02f-fff75b88e55c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Daromeon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5305f073-781e-4ca0-a44a-ebaeb5400e31",
-   "type": "chapter"
-  },
-  {
-   "id": "2b167b7c-03bb-4c29-8399-2489038a7659",
-   "type": "chapter"
-  },
-  {
-   "id": "81be98dd-8e16-42e3-a4f7-9e470632b56d",
-   "type": "chapter"
-  },
-  {
-   "id": "a644837b-9cdf-4c89-84f5-ddb4a6dc70ef",
-   "type": "chapter"
-  },
-  {
-   "id": "32444d1c-2eac-4d48-aaf2-70fb69b51607",
-   "type": "chapter"
-  },
-  {
-   "id": "ceaff334-2a2a-4926-a9ff-7151607f865e",
-   "type": "chapter"
-  },
-  {
-   "id": "d633d4ac-2c9b-40f6-a4f2-5969af2c86aa",
-   "type": "chapter"
-  },
-  {
-   "id": "163bf9ea-4ae9-4686-bfed-9a0f5a4c46cc",
-   "type": "chapter"
-  },
-  {
-   "id": "dd3f902c-c6ce-42d6-9788-982bed6439bd",
-   "type": "chapter"
-  },
-  {
-   "id": "077b0b6a-0430-4ad7-979b-7411f9c5de75",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "43b6ef47-fd86-4f58-8f79-a400cf465e90",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:29:01+00:00",
+    "description": "",
+    "fileName": "75ce76d0-ee64-49e6-94de-f5036c52eb9e.jpg",
+    "updatedAt": "2021-05-24T17:29:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

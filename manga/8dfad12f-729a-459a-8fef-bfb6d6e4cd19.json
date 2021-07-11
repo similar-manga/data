@@ -7,6 +7,20 @@
    "title": {
     "en": "Season of Innocence"
    },
+   "altTitles": [
+    {
+     "en": "Season of Purity"
+    },
+    {
+     "en": "Time of Innocence"
+    },
+    {
+     "en": "Time of Purity"
+    },
+    {
+     "en": "순수의 계절"
+    }
+   ],
    "description": {
     "en": "Eighteen years old, at the peak of innocence in a person's life. That is the season in which we met each other."
    },
@@ -26,6 +40,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +52,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +64,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -56,6 +76,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,43 +88,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-05-21T05:32:02+00:00",
+   "updatedAt": "2020-05-21T05:32:02+00:00"
   }
  },
  "relationships": [
   {
    "id": "d4f54ee7-61a4-4581-8ced-fc2cf8cc5226",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shin Hae-Young",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9ea72227-0399-4b81-b2f5-8e54d6c077be",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kang Soo-In",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "68f11d75-1945-4f8e-b589-bd5ca6a782af",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:39+00:00",
+    "description": "",
+    "fileName": "71ea661a-1472-4b3c-b8ee-7d3b3d7c9a82.png",
+    "updatedAt": "2021-05-24T17:56:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

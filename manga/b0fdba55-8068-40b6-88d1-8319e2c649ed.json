@@ -7,6 +7,20 @@
    "title": {
     "en": "Because you are..."
    },
+   "altTitles": [
+    {
+     "en": "Çünkü sen..."
+    },
+    {
+     "en": "Bởi vì em..."
+    },
+    {
+     "en": "Parce que tu es..."
+    },
+    {
+     "en": "Потому что ты..."
+    }
+   ],
    "description": {
     "en": "A....love story? just kidding"
    },
@@ -14,7 +28,6 @@
     "mu": "108664"
    },
    "originalLanguage": "vi",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,47 +62,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-26T04:12:58+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "958ab904-0dc0-4108-8f38-3f4efed29a35",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Monizilla",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "958ab904-0dc0-4108-8f38-3f4efed29a35",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Monizilla",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d388cb78-2d32-4eff-9f96-77ed3a43392b",
-   "type": "chapter"
-  },
-  {
-   "id": "c56b5923-4295-44f3-8a3f-7f9f9884f0b4",
-   "type": "chapter"
-  },
-  {
-   "id": "cf197c95-5b94-4ee9-94fc-8a17d128c1dc",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "38fb90d2-6cac-4f76-bb9a-05bf73a58a01",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:43:01+00:00",
+    "description": "",
+    "fileName": "3e46a306-f607-4a4d-879e-34c7c911f626.jpg",
+    "updatedAt": "2021-05-24T16:43:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

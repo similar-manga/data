@@ -7,6 +7,17 @@
    "title": {
     "en": "Slow Starter"
    },
+   "altTitles": [
+    {
+     "en": "Slow Days"
+    },
+    {
+     "en": "スロースターター"
+    },
+    {
+     "en": "スロウデイズ"
+    }
+   ],
    "description": {
     "en": "Two boys from different schools, Kiyo and Ino, take the same train every morning. As time passes, they become aware of each other but never engage in conversation until one day when Kiyo oversleeps in the train and is awoken by Ino. From that point on, they begin talking to each other and eventually become good friends..."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +63,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +77,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,6 +89,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -80,87 +101,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-04T06:17:28+00:00",
+   "updatedAt": "2021-05-25T15:42:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "bb57b982-be41-49e4-995b-1c0d76e3be4f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ichikawa Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bb57b982-be41-49e4-995b-1c0d76e3be4f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ichikawa Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1f9b6369-e93f-40c7-8342-1a8a1c9ec0bf",
-   "type": "chapter"
-  },
-  {
-   "id": "b30effa3-c4d7-4090-ba59-fbc5b2fcbf0d",
-   "type": "chapter"
-  },
-  {
-   "id": "cb2c4f25-9eeb-407e-8005-8a6cd1e7b2c7",
-   "type": "chapter"
-  },
-  {
-   "id": "7fb92528-ab76-4b58-9631-1e8c38e26e01",
-   "type": "chapter"
-  },
-  {
-   "id": "d5516ea2-1229-462d-95ce-c5ea3eb6b535",
-   "type": "chapter"
-  },
-  {
-   "id": "fc209ebf-01e2-4736-9a72-4273b7375c33",
-   "type": "chapter"
-  },
-  {
-   "id": "d5adf64d-7fce-41c0-ab36-8a8539656d65",
-   "type": "chapter"
-  },
-  {
-   "id": "8de7d5af-e06c-4bdc-9fc1-cd7d7e8ff86e",
-   "type": "chapter"
-  },
-  {
-   "id": "137a6df8-065b-4153-b68e-41573911c30f",
-   "type": "chapter"
-  },
-  {
-   "id": "8663e5f3-32b6-4364-beeb-3dee06cb6d93",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "15795990-fd67-4f94-b69d-2ca487bceecd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:08:53+00:00",
+    "description": "",
+    "fileName": "535c9aed-66fd-473f-8b33-d25ab117f360.jpg",
+    "updatedAt": "2021-05-24T18:08:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

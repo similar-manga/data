@@ -7,6 +7,11 @@
    "title": {
     "en": "Gyeongseong Nocturne"
    },
+   "altTitles": [
+    {
+     "en": "경성야상곡"
+    }
+   ],
    "description": {
     "en": "Gyeongseong during the Japanese colonial rule in 1928, the reversed fate of the two girls."
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,6 +57,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +69,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -68,51 +81,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-02T15:17:31+00:00",
+   "updatedAt": "2021-05-25T15:39:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "770f5ea2-b0e5-4495-99d1-c97757372d88",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Ramoo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "770f5ea2-b0e5-4495-99d1-c97757372d88",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Ramoo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c98b496c-265e-4107-98e8-ce18a009d0b8",
-   "type": "chapter"
-  },
-  {
-   "id": "0ef21d96-3ef5-42cd-be6f-ed8426b811f0",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "340480e3-70a2-4fab-896b-923a1f621869",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:20+00:00",
+    "description": "",
+    "fileName": "1c97a26e-3bd7-4d02-8004-e873e30d5569.png",
+    "updatedAt": "2021-05-24T18:17:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

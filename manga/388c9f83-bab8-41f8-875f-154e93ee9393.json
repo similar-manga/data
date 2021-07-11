@@ -7,6 +7,14 @@
    "title": {
     "en": "Hakoniwa"
    },
+   "altTitles": [
+    {
+     "en": "The Miniature Garden"
+    },
+    {
+     "en": "箱庭"
+    }
+   ],
    "description": {
     "en": "3: Gogatsu no Kiseki (May Miracle)\r\nCollege freshman Seiji Murayama is living on his own for the first time, until an enormous cyborg from his past appears in his closet.\r\n\r\n4: Himerareta Hana (Hidden Flowers)\r\nDeep in the mountains, a man wakes up to discover he is trapped on a ledge with little water and no memory of who he is. His only companion is a mysterious boy who may not be entirely human...\r\n\r\n5: Kimi yo Shiru ya Minami no Kuni (I Know You're In South Country)\r\nA beautiful traveler comes to a South Country and meets the grotesque natives. There he finds love, friendship, and ugly unicorns."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,8 +70,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,6 +84,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -78,59 +96,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-17T13:50:34+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "c5889e41-d0c9-40db-9da4-de60c2afb147",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kunieda Saika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c5889e41-d0c9-40db-9da4-de60c2afb147",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kunieda Saika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b5e6c3cf-9f4b-406a-8960-88d90b80177f",
-   "type": "chapter"
-  },
-  {
-   "id": "6ba5aa9b-505a-4801-9e22-756089e18fae",
-   "type": "chapter"
-  },
-  {
-   "id": "ab139881-c0c8-4f93-88e7-c03a9444f95f",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "d7a59f81-c128-4f8c-8634-d207b7fc8263",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:25+00:00",
+    "description": "",
+    "fileName": "6ed72a65-cbe2-4e61-b5c5-53b9eedbe7ee.jpg",
+    "updatedAt": "2021-05-24T17:08:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

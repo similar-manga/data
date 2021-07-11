@@ -17,7 +17,6 @@
     "mal": "7308"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -28,6 +27,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,49 +49,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-07T00:52:30+00:00",
+   "updatedAt": "2021-05-25T15:43:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "92984140-264e-48df-84dc-bc6e46ebd3bd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inoue Shinkai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "92984140-264e-48df-84dc-bc6e46ebd3bd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inoue Shinkai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f961d27d-41b9-423f-ad07-b1abdb3a46b9",
-   "type": "chapter"
-  },
-  {
-   "id": "80a3de98-f381-460d-a0ae-49ea75b8d8ee",
-   "type": "chapter"
-  },
-  {
-   "id": "9b8c7fd6-c51a-4b47-ab5c-2f64fc2e95aa",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
+   "id": "c3732d88-78c0-4f4b-86c2-eb79d267ad1e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:14:38+00:00",
+    "description": "",
+    "fileName": "a21be6b1-8410-4e73-bd05-92a0991ac625.jpg",
+    "updatedAt": "2021-05-24T17:14:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -8,7 +8,7 @@
     "en": "Melty Night"
    },
    "description": {
-    "en": "Amano Yuusuke meets a strange man named Gill, on the night he felt like he\u0026rsquo;d been abandoned."
+    "en": "Amano Yuusuke meets a strange man named Gill, on the night he felt like he’d been abandoned."
    },
    "links": {
     "al": "95348",
@@ -28,8 +28,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Vampires"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,55 +54,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-06T15:27:31+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "af6eed75-8e18-4824-885c-a1cac465ec40",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oyamada Ami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "af6eed75-8e18-4824-885c-a1cac465ec40",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oyamada Ami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "808ff940-c9ac-4d69-b83d-04c683438efe",
-   "type": "chapter"
-  },
-  {
-   "id": "c94308a4-b03e-47e5-a779-900818d37312",
-   "type": "chapter"
-  },
-  {
-   "id": "6613030a-c434-4e72-8a47-4a644b813e63",
-   "type": "chapter"
-  },
-  {
-   "id": "7f100582-d7e3-41a0-97c2-f72c11bb1b37",
-   "type": "chapter"
-  },
-  {
-   "id": "78b57919-2a37-4b5d-97b7-17ef0d142edf",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "d7d1730f-6eb0-4ba6-9437-602cac38664c",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "ca1363e0-7a0b-4fd9-b56b-c34d9ab3a7f9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:41+00:00",
+    "description": "",
+    "fileName": "824f1bc7-d844-4a37-abc6-f0dd19cfaa61.jpg",
+    "updatedAt": "2021-05-24T16:50:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

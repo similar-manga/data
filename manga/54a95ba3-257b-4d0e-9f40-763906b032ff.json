@@ -7,6 +7,11 @@
    "title": {
     "en": "Love Live! Sunshine!! Comic Anthology - The School Idol Movie Over the Rainbow"
    },
+   "altTitles": [
+    {
+     "en": "ラブライブ!サンシャイン!! The School Idol Movie Over the Rainbow Comic Anthology"
+    }
+   ],
    "description": {
     "en": "The official movie comic anthology for Love Live! Sunshine! School Idol Project Over the Rainbow.\r\n3books with ~3chapters each\r\nEach chapter is done by a different artist.\r\n\r\nFirst Book: \r\n\r\nCh1: Necessary Items for Departure by Fujiwara Yuka\r\nCh2: Search for a Stage by Miyabi Akino\r\nCh3: The 3 1st Year Besties by Nakane Nata"
    },
@@ -22,6 +27,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +39,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +63,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -62,6 +75,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -72,51 +87,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-05T09:26:37+00:00",
+   "updatedAt": "2021-05-25T15:42:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7160b150-ab5e-4d58-bdf3-0bee1d486045",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "2d760cda-c16a-4fba-84c6-8e739491b4ee",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:43+00:00",
+    "description": "",
+    "fileName": "98be292b-518c-43ba-9530-382ab4f3c578.jpg",
+    "updatedAt": "2021-05-24T17:32:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

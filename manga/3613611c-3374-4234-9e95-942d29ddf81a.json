@@ -23,6 +23,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -31,8 +33,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,39 +47,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-04-27T13:13:10+00:00",
+   "updatedAt": "2020-04-27T13:13:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "16e0cbea-f5d4-4e3a-8549-3d4c258aa8f6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "World Box",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "16e0cbea-f5d4-4e3a-8549-3d4c258aa8f6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "World Box",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f4b13ee7-c50a-40a7-9d6e-1399bbee429e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "d2c217d8-b979-4fd7-839d-5a7a7f144edd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:53:57+00:00",
+    "description": "",
+    "fileName": "8bfa91b6-1fe0-4964-ba58-88894ffc2f4a.jpg",
+    "updatedAt": "2021-05-24T17:53:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Are You A Cat?"
    },
+   "altTitles": [
+    {
+     "en": "Anata wa Neko Desu ga?"
+    },
+    {
+     "en": "あなたは猫ですか"
+    }
+   ],
    "description": {
     "en": "While studying in the park one day, a boy comes across an anthropomorphic cat girl."
    },
@@ -15,7 +23,6 @@
     "mu": "128704"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +33,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,39 +57,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-04T23:38:31+00:00",
+   "updatedAt": "2021-05-25T15:49:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "d4c7b348-a780-4980-8fd6-f04ebffc23b0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mokuzai Sekizai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d4c7b348-a780-4980-8fd6-f04ebffc23b0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mokuzai Sekizai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f334dd80-af2e-4b73-9577-961254a14680",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "40d3ec2b-421a-4f4a-bf46-0bbd4edcbceb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:53:39+00:00",
+    "description": "",
+    "fileName": "fdea263a-88d5-405d-ac85-9f8ff8d06e0c.jpg",
+    "updatedAt": "2021-05-24T16:53:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

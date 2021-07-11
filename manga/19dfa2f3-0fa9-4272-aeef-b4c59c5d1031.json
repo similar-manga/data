@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "I went from the strongest job, \u0026lt;Dragon Knight\u0026gt;, to a beginner level job, \u0026lt;Carrier\u0026gt;, yet for some reason the Heroes rely on me"
+    "en": "I went from the strongest job, \u003cDragon Knight\u003e, to a beginner level job, \u003cCarrier\u003e, yet for some reason the Heroes rely on me"
    },
+   "altTitles": [
+    {
+     "en": "Saikyou Shoku \u003cRyukishi\u003e Kara Shokyu Shoku \u003cHakobiya\u003e Ni Nattano Ni, Naze Ka Yushatachi Kara Tayoraretemasu"
+    },
+    {
+     "en": "最強職《竜騎士》から初級職《運び屋》になったのに、なぜか勇者達から頼られてます"
+    },
+    {
+     "en": "최강직업\u003c용기사\u003e에서 초보직\u003c운반꾼\u003e이 되었는데, 어째서인지 용사들이 의지한다"
+    }
+   ],
    "description": {
     "en": "*The title explains everything*"
    },
@@ -22,7 +33,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "6",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "suggestive",
    "tags": [
@@ -33,6 +43,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +55,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +67,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,63 +79,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-25T10:20:16+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "59d91b2b-a2f5-400d-b6bd-17b772f5cf1e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Amaui Shiroichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1ec8e165-dc49-40ad-8e50-bf823d548dbd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yukiji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "781aff1a-3dda-403c-804c-e391448a79e5",
-   "type": "chapter"
-  },
-  {
-   "id": "1ea2f23d-7c6f-41aa-a254-4ef8551d87d8",
-   "type": "chapter"
-  },
-  {
-   "id": "1b8ba3c6-bbc2-4877-8e4e-9a0b0c3bf836",
-   "type": "chapter"
-  },
-  {
-   "id": "d1829b1e-dc19-4365-9c9f-cd0443da2b67",
-   "type": "chapter"
-  },
-  {
-   "id": "e35e288d-8fe4-4716-a0f4-6c7e1d9aa61c",
-   "type": "chapter"
-  },
-  {
-   "id": "80488216-e4df-48d7-ad75-7cd148bdf1a7",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "6a391acd-4890-4f04-8964-b67281063b63",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:24:04+00:00",
+    "description": "",
+    "fileName": "52a09fd4-f5cb-4d83-bb9f-8ad716d7d3e2.jpg",
+    "updatedAt": "2021-05-24T17:24:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

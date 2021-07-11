@@ -7,6 +7,23 @@
    "title": {
     "en": "Tameiki no Ondo"
    },
+   "altTitles": [
+    {
+     "en": "Bokutachi no Sotsugyou (KUNIEDA Saika)"
+    },
+    {
+     "en": "Our Graduation"
+    },
+    {
+     "en": "Temperature of a Sigh"
+    },
+    {
+     "en": "ため息の温度"
+    },
+    {
+     "en": "叹息的温度"
+    }
+   ],
    "description": {
     "en": "Collection of short stories:\r\n\r\n[*] Tameiki no Ondo\r\nJun is always being compared to his older brother Ryou, and falling short. But when his brother's friend Yuuya starts to tutor him, his patient nature begins to get through to Jun. When Jun realizes Yuuya's feelings for Ryou, he must confront his own feelings for Yuuya.\r\n\r\n[*] Blind\r\n\r\n[*] Distance\r\n\r\n[*] Border\r\n\r\n[*] Bokutachi no Sotsugyou (Our Graduation)\r\nUmebayashi has been in love with Matsubara from the day they first met, but cramped by his rival, Takeshiba, he never got around to express his feelings. Now that graduation is nearing, the boys feel the need to confess to the ones they like."
    },
@@ -23,6 +40,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +52,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,8 +62,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +76,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,6 +88,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -73,51 +100,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-29T20:54:47+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "c5889e41-d0c9-40db-9da4-de60c2afb147",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kunieda Saika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c5889e41-d0c9-40db-9da4-de60c2afb147",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kunieda Saika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "849d0317-5759-4f21-854c-7a54ff013f5d",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "e4b6dbcc-e0ff-4f62-baf4-3bdbcbd866bf",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:57:37+00:00",
+    "description": "",
+    "fileName": "44405a8a-2324-4d23-84d4-f63d93b3eb96.jpg",
+    "updatedAt": "2021-05-24T17:57:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

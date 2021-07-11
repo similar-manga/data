@@ -7,6 +7,17 @@
    "title": {
     "en": "Love is Sky Blue"
    },
+   "altTitles": [
+    {
+     "en": "Koi wa Mizuiro"
+    },
+    {
+     "en": "Love is the Color of Water"
+    },
+    {
+     "en": "恋は水色"
+    }
+   ],
    "description": {
     "en": "A sweet, sentimental tale of young love told in a charming visual style.\r\n\r\nThis story originally appeared in volume 53 of the Japanese alternative comics anthology AX."
    },
@@ -16,7 +27,6 @@
     "mu": "128253"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -28,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,35 +50,53 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-02T02:30:55+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "ea5583f4-0580-45f8-b8e8-fa75452cedbb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Serata Minami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ea5583f4-0580-45f8-b8e8-fa75452cedbb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Serata Minami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c5f9749d-315a-488c-a30f-3ce7426bf31c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
+   "id": "31577e9f-6d64-4fa7-ae3b-6d90ef29a7e3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:53:23+00:00",
+    "description": "",
+    "fileName": "4ec28f0e-88ad-4fb8-b5d3-6aaf1f054595.jpg",
+    "updatedAt": "2021-05-24T16:53:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

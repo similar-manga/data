@@ -7,6 +7,14 @@
    "title": {
     "en": "T.V. Eye"
    },
+   "altTitles": [
+    {
+     "en": "TV Eye"
+    },
+    {
+     "en": "ワイド版"
+    }
+   ],
    "description": {
     "en": "By mimi:\r\nThree short stories. A refrigerator, a camera, and a pair of twins... What do they all have in common? A little darkness and obscurity never hurt anyone..."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,43 +51,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-19T01:53:21+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "5d112574-e8cd-4f5a-813e-19b045ab8e07",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KUSUMOTO Maki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5d112574-e8cd-4f5a-813e-19b045ab8e07",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KUSUMOTO Maki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e2c2e785-7030-4210-b241-8a72464d01e1",
-   "type": "chapter"
-  },
-  {
-   "id": "c7608619-04f4-43f0-b013-80bcccdf95a3",
-   "type": "chapter"
-  },
-  {
-   "id": "2a60addf-b9e7-412a-8dc9-1432add2c6bd",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "6b4f2e72-385f-4f8b-810d-c7b961c01b37",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:22+00:00",
+    "description": "",
+    "fileName": "1f4135b1-319a-4bdc-9b00-c44735a2bc34.jpg",
+    "updatedAt": "2021-05-24T16:50:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

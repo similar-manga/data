@@ -7,6 +7,11 @@
    "title": {
     "en": "Hello, Goodbye"
    },
+   "altTitles": [
+    {
+     "en": "ハロー、グッドバイ"
+    }
+   ],
    "description": {
     "en": "Back in town for a funeral, Don finds he must confront his own past before it's too late."
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,35 +43,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-22T14:55:22+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "e0e4dbcd-191f-4fc6-ad94-2aa4b1346f4f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kabata Matsumoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e0e4dbcd-191f-4fc6-ad94-2aa4b1346f4f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kabata Matsumoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2ec473f1-e21e-40e0-b572-34b275309450",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "f020316c-2e5b-4f5b-b250-4b63db1ec035",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:14:45+00:00",
+    "description": "",
+    "fileName": "696e50a5-5b41-4af6-8998-e17abd15eba9.jpg",
+    "updatedAt": "2021-05-28T23:14:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

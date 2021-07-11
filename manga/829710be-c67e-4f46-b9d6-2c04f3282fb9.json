@@ -20,8 +20,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,43 +34,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-19T10:51:36+00:00",
+   "updatedAt": "2021-05-25T15:44:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "7706d61e-d2e0-4934-904b-9d7c8e403f23",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kouga Yun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7706d61e-d2e0-4934-904b-9d7c8e403f23",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kouga Yun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "06a2bc45-f015-491a-9781-1f484d8184b2",
-   "type": "chapter"
-  },
-  {
-   "id": "cc22bfa7-3be9-45a4-a1e7-7e82062a5503",
-   "type": "chapter"
-  },
-  {
-   "id": "b3e815fb-9585-4b3a-b435-6b8ce5ab6b02",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "0422c8c2-4fb6-4f89-b48a-8a1ab935880a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:38+00:00",
+    "description": "",
+    "fileName": "56f30a3a-144f-40f8-a754-f84a3c18779c.jpg",
+    "updatedAt": "2021-05-24T16:50:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

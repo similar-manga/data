@@ -7,6 +7,14 @@
    "title": {
     "en": "Eat-Man"
    },
+   "altTitles": [
+    {
+     "en": "イートマン"
+    },
+    {
+     "en": "螺丝侠"
+    }
+   ],
    "description": {
     "en": "Bolt Crank is a wandering explorer who eats everything, from radios to swords to a chaser of gasoline. In particular, he eats things that may come in handy later, when he can transform the flesh of his arm into the mechanism he's consumed!"
    },
@@ -32,6 +40,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +52,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,75 +64,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-03T08:53:48+00:00",
+   "updatedAt": "2021-05-25T15:46:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "2db302cf-f769-40fd-a361-c79095137aa8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshitomi Akihito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2db302cf-f769-40fd-a361-c79095137aa8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshitomi Akihito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "df80783e-63a7-43db-9d4a-1f92d4589eef",
-   "type": "chapter"
-  },
-  {
-   "id": "0106f69e-8c1c-4c6f-84a2-599a082bcb80",
-   "type": "chapter"
-  },
-  {
-   "id": "73d0c2fd-c5d7-4985-97db-c692e62f41df",
-   "type": "chapter"
-  },
-  {
-   "id": "4c23647f-ea47-40f3-9927-06d248f3e0c6",
-   "type": "chapter"
-  },
-  {
-   "id": "b1a2dfc7-bb1c-429d-8fe4-1f6944c8c2cd",
-   "type": "chapter"
-  },
-  {
-   "id": "22d5c5f8-6d63-4d1d-a743-a1215139bcde",
-   "type": "chapter"
-  },
-  {
-   "id": "f64b34ea-438b-44db-b7ce-6cd80c8e6f4f",
-   "type": "chapter"
-  },
-  {
-   "id": "3880465e-a40d-424c-9b82-4ad9e92b154e",
-   "type": "chapter"
-  },
-  {
-   "id": "b9c0cb02-441b-494d-9bde-a74c5f9336fa",
-   "type": "chapter"
-  },
-  {
-   "id": "3ad35a0c-7a10-4fb3-96fe-17f56c01330a",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "bda888f4-4642-4f8d-b86e-b145c6361bb6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:35:49+00:00",
+    "description": "",
+    "fileName": "11b38fc3-b459-4af5-a885-9d5f7501ce3f.jpg",
+    "updatedAt": "2021-05-24T17:35:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

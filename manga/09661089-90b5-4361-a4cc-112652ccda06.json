@@ -7,6 +7,17 @@
    "title": {
     "en": "Micrina of Border"
    },
+   "altTitles": [
+    {
+     "en": "Kyoukai no Micrina"
+    },
+    {
+     "en": "Kyoukai no Mikurina"
+    },
+    {
+     "en": "境界のミクリナ"
+    }
+   ],
    "description": {
     "en": "Follow Micrina, the young witch plotting to conquer the human world, as she ends up living with Enomoto, a normal high school girl who just wants to live an easy life. It's a hilarious comedy born from two unlikely roommates!"
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Demons"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +65,8 @@
       "name": {
        "en": "Magic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,43 +77,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-07T02:26:30+00:00",
+   "updatedAt": "2021-05-25T15:39:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "be2a5dcb-5cea-41f8-9350-dd258aa11dbf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Hidekichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "be2a5dcb-5cea-41f8-9350-dd258aa11dbf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Hidekichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "338b2591-4081-4572-96c6-1031d079c185",
-   "type": "chapter"
-  },
-  {
-   "id": "39730448-9a5f-48a2-85b0-a70db87b1233",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "84d66033-b294-4f42-8566-8c4247005a99",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:47:42+00:00",
+    "description": "",
+    "fileName": "4093438e-9819-4c7b-9f88-d677144d1352.png",
+    "updatedAt": "2021-05-24T17:47:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

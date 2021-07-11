@@ -21,6 +21,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -29,8 +31,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,39 +45,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-19T02:40:07+00:00",
+   "updatedAt": "2021-05-25T15:39:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "84fdfe2b-a727-4570-ae0b-743da172e179",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Go-Mayu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "84fdfe2b-a727-4570-ae0b-743da172e179",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Go-Mayu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b621b70b-c252-4848-9450-05c9bba50dc6",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "34419f4d-0ba7-4fc0-acd1-4fe987735b69",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:03:31+00:00",
+    "description": "",
+    "fileName": "12483dbc-017a-435a-8056-5a8c13abd7ce.jpg",
+    "updatedAt": "2021-05-24T18:03:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

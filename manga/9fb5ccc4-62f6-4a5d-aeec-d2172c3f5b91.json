@@ -7,6 +7,17 @@
    "title": {
     "en": "Halcyon Lunch"
    },
+   "altTitles": [
+    {
+     "en": "ハルシオン・ランチ"
+    },
+    {
+     "en": "无限食女"
+    },
+    {
+     "en": "할시 온 런치"
+    }
+   ],
    "description": {
     "en": "Gen, a recently bankrupted and now homeless guy, meets an unusually hungry girl named Hyos who can eat anything with her chopsticks."
    },
@@ -32,6 +43,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +55,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +67,8 @@
       "name": {
        "en": "Mafia"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -62,6 +79,8 @@
       "name": {
        "en": "Philosophical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -72,6 +91,8 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -82,87 +103,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-16T21:25:18+00:00",
+   "updatedAt": "2021-05-25T15:45:45+00:00"
   }
  },
  "relationships": [
   {
    "id": "b4f52b2e-e491-4cf8-8998-4a63a85f48e7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Samura Hiroaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b4f52b2e-e491-4cf8-8998-4a63a85f48e7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Samura Hiroaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cd83ff3d-168e-46a7-a28c-8c2974935955",
-   "type": "chapter"
-  },
-  {
-   "id": "0fe37e1d-f89f-46ce-93f9-fbf0485a7fc5",
-   "type": "chapter"
-  },
-  {
-   "id": "cdf3b3c2-cb0e-4087-9d11-4678d1dede77",
-   "type": "chapter"
-  },
-  {
-   "id": "67f29206-ab8e-434e-bbf3-d53d23104c25",
-   "type": "chapter"
-  },
-  {
-   "id": "ac44e95d-9d3b-48f5-91d6-8230f8a27f1a",
-   "type": "chapter"
-  },
-  {
-   "id": "ff02154d-a154-475b-8bd5-c3da5db485a8",
-   "type": "chapter"
-  },
-  {
-   "id": "55af720d-5c77-42b4-8de1-5fbece691d0a",
-   "type": "chapter"
-  },
-  {
-   "id": "68835479-b9b6-4e9b-b474-681b1d1e2814",
-   "type": "chapter"
-  },
-  {
-   "id": "108c3f8c-c238-4bbc-ba55-398aaba66a5c",
-   "type": "chapter"
-  },
-  {
-   "id": "2deb9616-b4dd-42f8-8e07-43c1bf69c317",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
-   "type": "tag"
-  },
-  {
-   "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "e05a2a21-7d8f-4fb8-aa79-dc5d634b92c9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:50:57+00:00",
+    "description": "",
+    "fileName": "790d3af1-a111-4058-85fa-c95f3206c564.jpg",
+    "updatedAt": "2021-05-24T17:50:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

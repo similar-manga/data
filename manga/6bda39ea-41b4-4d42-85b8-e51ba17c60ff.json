@@ -7,6 +7,17 @@
    "title": {
     "en": "Sakuhin Number 20"
    },
+   "altTitles": [
+    {
+     "en": "Painting n°20"
+    },
+    {
+     "en": "Tableau Numéro 20"
+    },
+    {
+     "en": "作品ナンバー20"
+    }
+   ],
    "description": {
     "en": "Ever since he discovered the rough sketch for a lost painting by the 19th century French artist Maurice Olivier in a library book, a modern-day art expert, also named Maurice, has yearned to see the actual painting. Is it the work of art he's in love with or its mysterious subject?"
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,8 +63,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +77,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,6 +89,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -80,87 +101,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-22T06:27:58+00:00",
+   "updatedAt": "2021-05-25T15:43:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "d2df4b59-1965-484f-b9fa-cd9db59a293b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Est Em",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d2df4b59-1965-484f-b9fa-cd9db59a293b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Est Em",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "06a5f45f-3dd6-4858-b135-88dd13a5e856",
-   "type": "chapter"
-  },
-  {
-   "id": "3b72e7d2-98eb-425d-ba68-042980509313",
-   "type": "chapter"
-  },
-  {
-   "id": "d358216e-591b-4781-b547-0b4e4344e36f",
-   "type": "chapter"
-  },
-  {
-   "id": "c8c4d802-a4d1-4d5d-85c9-527e25060103",
-   "type": "chapter"
-  },
-  {
-   "id": "710dc14c-03ae-428c-9189-9f34032b401c",
-   "type": "chapter"
-  },
-  {
-   "id": "7b366992-2161-4549-be06-b811b4fb1e0c",
-   "type": "chapter"
-  },
-  {
-   "id": "1e14b95c-76d6-417e-97e8-5855a0238521",
-   "type": "chapter"
-  },
-  {
-   "id": "7922b408-d0da-41de-9c08-f8d4b5946819",
-   "type": "chapter"
-  },
-  {
-   "id": "25a45985-1c69-4d58-9038-e50b27292c59",
-   "type": "chapter"
-  },
-  {
-   "id": "d2bcfc88-552e-42de-ba2d-a1b92b8b8bae",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "8676e1b4-9e18-4f70-b0f6-d472893a7fa9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:12+00:00",
+    "description": "",
+    "fileName": "e26557b2-3940-47ec-afd0-47bac4daa53b.jpg",
+    "updatedAt": "2021-05-24T17:02:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

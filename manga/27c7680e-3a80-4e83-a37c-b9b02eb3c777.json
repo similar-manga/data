@@ -5,8 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Magical P\u0026acirc;tissi\u0026egrave;re Kosaki-chan!!"
+    "en": "Magical Pâtissière Kosaki-chan!!"
    },
+   "altTitles": [
+    {
+     "en": "Magical Patissier Kosaki-chan!!"
+    },
+    {
+     "en": "Magical Patissiere Kosaki-chan!!"
+    },
+    {
+     "en": "Sihirli Pastacı Kosaki-chan!!"
+    },
+    {
+     "en": "マジカルパティシエ小咲ちゃん!!"
+    }
+   ],
    "description": {
     "en": "Kosaki, Chitoge and Marika were bestowed upon powers of a magical girl who shall preserve peace in the world with Kosaki serving as their leader. Defeating a giant evil minion, the group then faces against the perverted mastermind behind the minion's creation, Doctor Maiko. Short in staff, Raku is called to help in the Onodera family sweets shop, much to Haru's protest."
    },
@@ -32,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +58,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +70,8 @@
       "name": {
        "en": "Magical Girls"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +82,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -72,87 +94,65 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-18T19:14:04+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "6540caa4-ba77-4fa8-acdc-c8e5ec54deaf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Komi Naoshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "eb4b17d3-3196-421f-8c30-6ba290bde387",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsutsui Taishi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "eb4b17d3-3196-421f-8c30-6ba290bde387",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsutsui Taishi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ae875f7f-88e3-43cf-b896-b6f3315cf26f",
-   "type": "chapter"
-  },
-  {
-   "id": "82354536-176b-4cdc-a564-407070d850d5",
-   "type": "chapter"
-  },
-  {
-   "id": "93843b47-1a95-4e23-981f-85c11df5c5d0",
-   "type": "chapter"
-  },
-  {
-   "id": "a30d397c-bc4f-42ba-bfe4-974b570d48c9",
-   "type": "chapter"
-  },
-  {
-   "id": "ba2bfe6d-be1b-4eef-92c4-bb7a7fa7ddd7",
-   "type": "chapter"
-  },
-  {
-   "id": "8db68416-2118-43cc-9821-d78a4d32c658",
-   "type": "chapter"
-  },
-  {
-   "id": "650241b0-60c7-4c74-b9fc-fd41499d90f9",
-   "type": "chapter"
-  },
-  {
-   "id": "bfac9732-d0e7-4cbb-a953-a45cd8a67498",
-   "type": "chapter"
-  },
-  {
-   "id": "1ad342bb-3d82-4e82-a5c6-53fcc89f8e46",
-   "type": "chapter"
-  },
-  {
-   "id": "5a99ea3e-8ff7-4236-83c1-b411a84e7f19",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "81c836c9-914a-4eca-981a-560dad663e73",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "64460078-fbca-4f6b-aae1-b5f30e35914f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:48:37+00:00",
+    "description": "",
+    "fileName": "accc1162-7891-419c-a778-faaf770e8603.jpg",
+    "updatedAt": "2021-05-24T16:48:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

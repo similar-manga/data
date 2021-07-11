@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Jojo\u0026rsquo;s Bizarre Adventure: Battle Tendency - Mayflower (Doujinshi)"
+    "en": "Jojo’s Bizarre Adventure: Battle Tendency - Mayflower (Doujinshi)"
    },
    "description": {
     "en": "Joseph and Caesar must babysit a mysterious baby for the day. Hijinks ensue."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -20,8 +19,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,39 +45,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-12T21:34:29+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "643eb78f-33c2-44fa-8b00-72996bb99b4d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yeow!!",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "998d6d8f-24a3-46e9-a26d-ff4ea2c31e74",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Rome",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f486d113-06d6-42cb-b091-f452e62aaca5",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "7b554871-3ff6-4f4a-a9e7-1af1610462fe",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:59:08+00:00",
+    "description": "",
+    "fileName": "d8198d6f-2808-4bac-8ca8-2d0b0a48ef4e.png",
+    "updatedAt": "2021-05-24T17:59:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

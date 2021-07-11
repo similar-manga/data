@@ -7,6 +7,17 @@
    "title": {
     "en": "Isekai Harem Monogatari"
    },
+   "altTitles": [
+    {
+     "en": "C93"
+    },
+    {
+     "en": "Tale of a Harem from Another World"
+    },
+    {
+     "en": "Tales of a Harem in Another World"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -26,6 +37,8 @@
       "name": {
        "en": "Isekai"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +49,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -46,51 +61,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-25T05:45:49+00:00",
+   "updatedAt": "2021-05-25T15:40:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "567a119d-58d2-4e17-8983-f21aa457cc7b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tachibana Omina",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "567a119d-58d2-4e17-8983-f21aa457cc7b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tachibana Omina",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "595c911d-8fa9-4c20-91c1-89153c6d4b10",
-   "type": "chapter"
-  },
-  {
-   "id": "cc323988-1e1e-4adb-9a14-05df097f8ec8",
-   "type": "chapter"
-  },
-  {
-   "id": "4a1217d0-62d2-44d6-a1e5-0eccb34d5768",
-   "type": "chapter"
-  },
-  {
-   "id": "65e7460a-88ee-491e-a5d6-ad92d487ea26",
-   "type": "chapter"
-  },
-  {
-   "id": "ace04997-f6bd-436e-b261-779182193d3d",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "ca27482e-52ea-4f26-b277-6c62e4ea4cfe",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:13:08+00:00",
+    "description": "",
+    "fileName": "4eb2e3c5-81af-44f1-8878-0f5200078524.jpg",
+    "updatedAt": "2021-05-24T17:13:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

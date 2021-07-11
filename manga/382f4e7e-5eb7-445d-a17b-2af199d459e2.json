@@ -7,6 +7,11 @@
    "title": {
     "en": "Chu Chu Macaron, Lonely Pie"
    },
+   "altTitles": [
+    {
+     "en": "ちゅーちゅーまかろん、ろんりーぱい"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,41 +53,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-21T06:45:02+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "e34e9b72-805e-47c0-9df6-8136327be404",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kijima Hyougo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e34e9b72-805e-47c0-9df6-8136327be404",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kijima Hyougo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "700be297-362c-4b1b-948c-9948cb4b2319",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "187bfcb4-7d5c-4f5a-8aa6-75eb49df8bc7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:59+00:00",
+    "description": "",
+    "fileName": "89bff3ae-4bb1-4b3f-b476-09200fac44e1.jpg",
+    "updatedAt": "2021-05-24T17:41:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

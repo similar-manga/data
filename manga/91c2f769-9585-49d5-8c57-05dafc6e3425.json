@@ -7,6 +7,14 @@
    "title": {
     "en": "Senpai wa Kigae ga Dekinai"
    },
+   "altTitles": [
+    {
+     "en": "Senpai can't change her clothes"
+    },
+    {
+     "en": "先輩は着替えができない"
+    }
+   ],
    "description": {
     "en": "A graphic designer, Kaneko Ayaki, helps the programmer senpai, Kurihara Fumi, changes her clothes."
    },
@@ -19,7 +27,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "2",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "suggestive",
@@ -31,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +50,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -51,39 +62,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-17T20:04:45+00:00",
+   "updatedAt": "2021-05-25T15:45:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "59af0a81-1d04-4a20-94f2-47963664ba80",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "End",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "59af0a81-1d04-4a20-94f2-47963664ba80",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "End",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4e2dcda3-fa45-4ae8-b1ca-5a0dda76179c",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "c17f613e-4a19-4f2f-a585-d14edcd932de",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:30:34+00:00",
+    "description": "",
+    "fileName": "fd7561fa-1aae-403a-926f-a8b794c35164.jpg",
+    "updatedAt": "2021-05-24T17:30:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

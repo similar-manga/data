@@ -5,10 +5,24 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "The Saintess of Another World Is a P\u0026acirc;tissi\u0026egrave;re"
+    "en": "The Saintess of Another World Is a Pâtissière"
    },
+   "altTitles": [
+    {
+     "en": "Ikai no Hime Miko wa Patishieru"
+    },
+    {
+     "en": "Ikai no Himemiko wa Pâtissière"
+    },
+    {
+     "en": "The Princess Priestess from the Other World Is a Patissier"
+    },
+    {
+     "en": "異界の姫巫女はパティシエー"
+    }
+   ],
    "description": {
-    "en": "One day, Emi, an apprentice p\u0026acirc;tissi\u0026egrave;re, suddenly found herself in another world where evil spirits were abound. As she was about to be attacked by a beast, she was saved by a handsome knight. She makes some pudding to thank him, and by chance it was discovered that the sweets made by Emi were able to purify evil spirits! Dumbfounded by this, a shrine was set up in her name and she became known as the legendary purification princess?!"
+    "en": "One day, Emi, an apprentice pâtissière, suddenly found herself in another world where evil spirits were abound. As she was about to be attacked by a beast, she was saved by a handsome knight. She makes some pudding to thank him, and by chance it was discovered that the sweets made by Emi were able to purify evil spirits! Dumbfounded by this, a shrine was set up in her name and she became known as the legendary purification princess?!"
    },
    "links": {
     "mal": "130786",
@@ -29,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +55,8 @@
       "name": {
        "en": "Magic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -49,6 +67,8 @@
       "name": {
        "en": "Isekai"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +79,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,6 +91,8 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -79,59 +103,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-30T04:39:12+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "e02fe324-bbcc-484e-a4d3-c6f637a86402",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Marino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6b54fe05-4372-467e-ad63-f6ab46e7d23a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Azuya Chitose",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4389958e-d5ec-437a-85cb-7eccde7aea40",
-   "type": "chapter"
-  },
-  {
-   "id": "df10f459-398c-40b9-9096-8c928a48155b",
-   "type": "chapter"
-  },
-  {
-   "id": "f86a9e9e-a87d-4294-9fa0-cedcdfe88f51",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-   "type": "tag"
-  },
-  {
-   "id": "ace04997-f6bd-436e-b261-779182193d3d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "4a3d70bc-e587-4fdc-b976-17d35117098c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:08:25+00:00",
+    "description": "",
+    "fileName": "7c247501-7a6f-400c-a434-2dcf1daaa30e.jpg",
+    "updatedAt": "2021-05-24T18:08:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

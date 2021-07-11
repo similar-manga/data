@@ -27,6 +27,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,71 +39,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-19T11:54:45+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "81f71704-b033-4512-b4d9-f5169ea15811",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ko Dong Kyun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "81f71704-b033-4512-b4d9-f5169ea15811",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ko Dong Kyun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5d9a45e2-25fc-4d8f-b023-33ded3915764",
-   "type": "chapter"
-  },
-  {
-   "id": "aec81dbe-4e07-4680-b5f8-e1bf764104d9",
-   "type": "chapter"
-  },
-  {
-   "id": "e4a09382-3c58-40cf-a338-5c79a0ebff32",
-   "type": "chapter"
-  },
-  {
-   "id": "aa1aec61-6373-4254-a753-6e621b2872f1",
-   "type": "chapter"
-  },
-  {
-   "id": "8ead0d3a-bf51-4d57-8230-2bb0a29ef3d5",
-   "type": "chapter"
-  },
-  {
-   "id": "c7e4fe06-1898-4982-ae5e-92f48df1e102",
-   "type": "chapter"
-  },
-  {
-   "id": "7f6ab0e9-1fab-4448-8757-231d71a22a46",
-   "type": "chapter"
-  },
-  {
-   "id": "69ba99fb-0403-4630-bd47-f5ebcd8259d8",
-   "type": "chapter"
-  },
-  {
-   "id": "fe2e2376-2892-4bfd-9a88-cd82a5a80759",
-   "type": "chapter"
-  },
-  {
-   "id": "540ca66e-c28b-42a1-ac82-e73d83762104",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "5e15ecc7-cad7-4f70-bf18-c4260e28c9e4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:01+00:00",
+    "description": "",
+    "fileName": "da9f9cd3-86ad-4683-8503-9ca7391bc18a.jpg",
+    "updatedAt": "2021-05-24T16:55:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

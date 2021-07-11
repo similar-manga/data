@@ -7,6 +7,11 @@
    "title": {
     "en": "Sensei no Iinari"
    },
+   "altTitles": [
+    {
+     "en": "先生のいいなり。"
+    }
+   ],
    "description": {
     "en": "c.1-4) Sensei no Iinari.\r\n\r\nc.5) Zenbu Omae no Sei da\r\n\r\nc.6) Ono-sensei no Iinari."
    },
@@ -18,7 +23,6 @@
     "mu": "141626"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +33,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,8 +55,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,43 +69,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-05T16:28:42+00:00",
+   "updatedAt": "2021-05-25T15:43:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "86b791dd-a532-491a-8f0c-62f4e9717458",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hisao",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "86b791dd-a532-491a-8f0c-62f4e9717458",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hisao",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1d4708ce-5cc1-406f-b839-e9eaa96feb6f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "1d7f3227-ec6b-4fe9-a1b8-629f2f1c7bb9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:21:43+00:00",
+    "description": "",
+    "fileName": "96347234-fd01-4c9e-b1f9-3e45c2dd0e33.png",
+    "updatedAt": "2021-05-24T17:21:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

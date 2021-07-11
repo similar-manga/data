@@ -14,7 +14,6 @@
     "ap": "korean-cooking"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +36,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,35 +48,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-08-15T06:53:04+00:00",
+   "updatedAt": "2020-08-15T06:53:04+00:00"
   }
  },
  "relationships": [
   {
    "id": "ca6a1605-2156-4082-a11e-470e70993db6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jee-ook Choi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ca6a1605-2156-4082-a11e-470e70993db6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jee-ook Choi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "a8de22de-cd0a-4f81-aba1-58b4a44bf14d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:06:39+00:00",
+    "description": "",
+    "fileName": "390597f1-6d97-47c3-8945-271357b70c42.jpg",
+    "updatedAt": "2021-05-24T18:06:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,8 +7,16 @@
    "title": {
     "en": "Benriya-san"
    },
+   "altTitles": [
+    {
+     "en": "Mr. Convenience"
+    },
+    {
+     "en": "便利屋さん"
+    }
+   ],
    "description": {
-    "en": "Chiba is a \u0026quot;convenience man\u0026quot; who meets Aki Kirigaya while on a job. Chiba's job is to become Kirigaya's friend. After becoming friends, Kirigaya refuses to see him. What is Chiba to do?"
+    "en": "Chiba is a \"convenience man\" who meets Aki Kirigaya while on a job. Chiba's job is to become Kirigaya's friend. After becoming friends, Kirigaya refuses to see him. What is Chiba to do?"
    },
    "links": {
     "al": "32243",
@@ -30,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,51 +62,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-27T23:04:13+00:00",
+   "updatedAt": "2021-05-25T15:48:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "cf57cb6c-16a5-4a3c-9b54-857028a71132",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamato Nase",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cf57cb6c-16a5-4a3c-9b54-857028a71132",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamato Nase",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c8fb73eb-ed0b-4c1f-bc8a-ae91ead3b340",
-   "type": "chapter"
-  },
-  {
-   "id": "5b159191-4941-49b7-88bd-3ccf3216b94e",
-   "type": "chapter"
-  },
-  {
-   "id": "3766fcb4-282e-43e0-956b-8a72b2be4df4",
-   "type": "chapter"
-  },
-  {
-   "id": "83ccfd97-e61a-490e-896b-d8f780fa03ae",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "f866d509-211c-4f49-9ac6-dcdaacc6bb94",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:58+00:00",
+    "description": "",
+    "fileName": "23f9b25f-4b41-4247-afec-bd3635ca12d7.jpg",
+    "updatedAt": "2021-05-24T16:55:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

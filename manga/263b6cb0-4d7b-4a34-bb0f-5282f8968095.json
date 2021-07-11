@@ -7,8 +7,13 @@
    "title": {
     "en": "Hello World"
    },
+   "altTitles": [
+    {
+     "en": "ハロー・ワールド"
+    }
+   ],
    "description": {
-    "en": "The \u0026quot;sci-fi love story\u0026quot; film is set in Kyoto in the year 2027, and will feature famous landmarks such as Fushimi Inari Taisha and Kamo Shrine. The film centers on Naomi Katagaki, a male high school student. One day, a person who calls himself Naomi 10 years from now appears in front of the young Naomi. Together, they must change the future and save a classmate, Ruri, whom the younger Naomi starts to date in three months."
+    "en": "The \"sci-fi love story\" film is set in Kyoto in the year 2027, and will feature famous landmarks such as Fushimi Inari Taisha and Kamo Shrine. The film centers on Naomi Katagaki, a male high school student. One day, a person who calls himself Naomi 10 years from now appears in front of the young Naomi. Together, they must change the future and save a classmate, Ruri, whom the younger Naomi starts to date in three months."
    },
    "links": {
     "al": "110599",
@@ -33,6 +38,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +50,8 @@
       "name": {
        "en": "Time Travel"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,6 +62,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,6 +74,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -73,6 +86,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -83,83 +98,65 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-18T12:17:43+00:00",
+   "updatedAt": "2021-05-25T15:40:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "7ed3f4ef-d05b-48ec-866d-38e1f3c014f8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mado Nozaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4795a720-e247-4a4e-a33b-20bb30b0b0f4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sono Yoshihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ec5e6ef2-ba31-4959-86ea-54e1ea24c86d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Suzuki Manatsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "068443ab-27fe-49b9-812d-1c5d050c571c",
-   "type": "chapter"
-  },
-  {
-   "id": "bd0ff5f8-d882-4e80-9cba-5756b90e9094",
-   "type": "chapter"
-  },
-  {
-   "id": "97032346-29e4-4b8f-8a0c-fdca31219d26",
-   "type": "chapter"
-  },
-  {
-   "id": "674b628d-0e91-4be9-aee1-f7042825a7f4",
-   "type": "chapter"
-  },
-  {
-   "id": "eb6a511b-8c6b-4767-a7cd-fea43dd4c773",
-   "type": "chapter"
-  },
-  {
-   "id": "df96babe-ea18-40ab-9eb0-66f251199e04",
-   "type": "chapter"
-  },
-  {
-   "id": "14749ecf-e12a-431a-b600-eb594f7e6089",
-   "type": "chapter"
-  },
-  {
-   "id": "0edbd8c9-819d-45de-8d23-1a603fd78995",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "292e862b-2d17-4062-90a2-0356caa4ae27",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "5106e921-8a61-4f82-9764-a52e04566e1c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:45:35+00:00",
+    "description": "",
+    "fileName": "afc04ac4-eaab-4eb0-a6a4-6dc470e1913b.jpg",
+    "updatedAt": "2021-05-24T17:45:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Hana to Kurogane"
    },
+   "altTitles": [
+    {
+     "en": "Flowers and Iron"
+    },
+    {
+     "en": "花と黒鋼"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -32,6 +40,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +52,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +64,8 @@
       "name": {
        "en": "Post-Apocalyptic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -62,43 +76,53 @@
       "name": {
        "en": "Military"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-21T14:20:45+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "3516cae4-f52f-44e8-989a-46cd700d3c31",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shinomaru Nodoka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3516cae4-f52f-44e8-989a-46cd700d3c31",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shinomaru Nodoka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "40d75287-daed-4578-b506-ce8aaa8ae2cf",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "9467335a-1b83-4497-9231-765337a00b96",
-   "type": "tag"
-  },
-  {
-   "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
-   "type": "tag"
+   "id": "a1bb4186-e7d1-4f42-9f5e-0dc713b9b38b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:34:38+00:00",
+    "description": "",
+    "fileName": "a553247a-cd29-4cc7-b512-78b065628d19.jpg",
+    "updatedAt": "2021-05-24T17:34:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

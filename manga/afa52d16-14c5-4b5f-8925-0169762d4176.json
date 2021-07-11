@@ -26,6 +26,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,47 +50,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-20T15:37:22+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "e5f794cf-f915-417d-a9bd-2f176d005d22",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takatsu Karino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e5f794cf-f915-417d-a9bd-2f176d005d22",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takatsu Karino",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "320dc41e-6edc-4146-ae9a-3f87d36ff151",
-   "type": "chapter"
-  },
-  {
-   "id": "20b6d7d5-7994-4ada-aa23-0191681366c2",
-   "type": "chapter"
-  },
-  {
-   "id": "4a0fe15c-f173-4643-bac6-f43688e1b444",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "a59a6151-9909-4f38-8a19-35aa08a1d07e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:40+00:00",
+    "description": "",
+    "fileName": "d33776ae-24e7-4088-91cd-e8108dca5cf7.jpg",
+    "updatedAt": "2021-05-24T17:20:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

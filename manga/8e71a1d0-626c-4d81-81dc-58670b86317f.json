@@ -7,6 +7,14 @@
    "title": {
     "en": "Westwood Vibrato"
    },
+   "altTitles": [
+    {
+     "en": "West Wood Vibrato"
+    },
+    {
+     "en": "ウエストウッド・ビブラート"
+    }
+   ],
    "description": {
     "en": "Whatever instrument, the genius instrument repairman Cornelia Bobo Warshaw will tune it to your desire. From Yoon In Wan, the author of 'Island', 'New Amhanguhsah' and Kim Sun Hee, the author of 'Three Kingdoms of Go' comes a new creation about music and drama."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +75,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,6 +87,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -81,6 +99,8 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -91,91 +111,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-03T02:33:53+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "32c91e7a-883b-46cd-9625-eb140cbd17e3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Youn In-Wan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a9cae015-8a19-4418-b8b5-2e0b8c5b241b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Sun-hee",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bac3e0d2-5bd0-4dfb-9e61-6f683453ab7a",
-   "type": "chapter"
-  },
-  {
-   "id": "854dffc0-c296-4914-ac48-56484acd96de",
-   "type": "chapter"
-  },
-  {
-   "id": "d3e57c83-6470-447c-8c71-dc9730f72c6e",
-   "type": "chapter"
-  },
-  {
-   "id": "2cd80a9f-9279-43dd-a4cd-1fe1b840a2aa",
-   "type": "chapter"
-  },
-  {
-   "id": "4cb1e094-b27f-42ef-a677-40579f63a92e",
-   "type": "chapter"
-  },
-  {
-   "id": "c4d06a3d-44ec-483f-bd53-95a0dcbea3bd",
-   "type": "chapter"
-  },
-  {
-   "id": "34cfdd2b-2575-414d-a4a0-d87101dc9971",
-   "type": "chapter"
-  },
-  {
-   "id": "40ae34ca-748e-42bb-8b19-963efcfa94d0",
-   "type": "chapter"
-  },
-  {
-   "id": "bfd14d71-e344-4b1c-b761-7d99fb5c1cbe",
-   "type": "chapter"
-  },
-  {
-   "id": "ef15555d-f56e-41a6-a37e-cf5af8dd84f3",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "3e021bb4-6b03-4f57-9b1c-b792a29a4589",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:35:31+00:00",
+    "description": "",
+    "fileName": "2395dffc-7ffd-4392-b12e-56610d4a5bbb.jpg",
+    "updatedAt": "2021-05-24T17:35:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

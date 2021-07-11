@@ -7,6 +7,17 @@
    "title": {
     "en": "Sweet vs. Home"
    },
+   "altTitles": [
+    {
+     "en": "Sweet vs. Home - First Love"
+    },
+    {
+     "en": "Sweet vs. Home - Hatsukoi"
+    },
+    {
+     "en": "スウィート・バーサス・ホーム"
+    }
+   ],
    "description": {
     "en": "Living with a whimsical mother is hard enough for Tatsuya, but he is soon faced with an even bigger challenge: he finds out that his mother has married his teacher, and that right after marriage she suddenly disappeared. The kind hearted Takaoka, her husband, now has the burden of taking care of Tatsuya. They live together and get along fine, but as their bond tightens Tatsuya soon starts having ulterior motives..."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +51,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +65,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,55 +77,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-03T16:38:04+00:00",
+   "updatedAt": "2021-05-25T15:44:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "4b678f43-d8ac-4fc3-99b3-30c9deab6046",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Abe Miyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4b678f43-d8ac-4fc3-99b3-30c9deab6046",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Abe Miyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "30404c9f-6cdb-4748-8c09-8d99e6335076",
-   "type": "chapter"
-  },
-  {
-   "id": "2d9583c2-94fa-4fcb-9f72-9431c0ef7469",
-   "type": "chapter"
-  },
-  {
-   "id": "5776f327-4de8-4826-a305-dd2dabd6cb79",
-   "type": "chapter"
-  },
-  {
-   "id": "40213a91-e9ff-41ab-9728-6551b8f9c5fa",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "61fbb2c1-ce3a-4f5b-9df7-aebb4dc2fdcd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:10:33+00:00",
+    "description": "",
+    "fileName": "98ab1f26-cb1d-49d0-8555-061586685512.jpg",
+    "updatedAt": "2021-05-24T17:10:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

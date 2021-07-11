@@ -7,6 +7,11 @@
    "title": {
     "en": "Snow Line"
    },
+   "altTitles": [
+    {
+     "en": "スノーライン"
+    }
+   ],
    "description": {
     "en": "Last year, Taichi nearly died on a snowy mountain, but was saved by his best friend, Shinobu. The only problem is that Taichi doesn't remember a thing about this so-called childhood friend of his! Assuming his memories will return, Taichi keeps this little secret to himself until, a year later, he suddenly finds himself with a much bigger secret. You see, Shinobu is more than he seems, and Taichi might not have actually survived that night on the snowy mountain!"
    },
@@ -28,8 +33,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,51 +59,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-15T21:59:45+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "486601cb-11df-46d5-be7f-a203903bd949",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kada Michiru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "486601cb-11df-46d5-be7f-a203903bd949",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kada Michiru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7058f4c5-ba07-4efb-8567-3a7c888a5716",
-   "type": "chapter"
-  },
-  {
-   "id": "64822722-aaaf-4c5f-a537-cc468fe5953c",
-   "type": "chapter"
-  },
-  {
-   "id": "4dff0426-6d33-4449-9f16-b0284db25243",
-   "type": "chapter"
-  },
-  {
-   "id": "cc0b3736-4e6e-4fa6-b07a-9c9d30685bd4",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "ade3f178-4ea6-4f2b-914c-8ec563bbe5cd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:37:39+00:00",
+    "description": "",
+    "fileName": "c0345ffd-caa6-47f3-9ddc-b9c09c57c5e9.jpg",
+    "updatedAt": "2021-05-24T18:37:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

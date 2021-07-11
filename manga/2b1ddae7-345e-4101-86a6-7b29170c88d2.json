@@ -7,6 +7,14 @@
    "title": {
     "en": "Concierge no Koibito"
    },
+   "altTitles": [
+    {
+     "en": "My Sweetheart Is A Concierge"
+    },
+    {
+     "en": "コンシェルジュの恋人"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,37 +48,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-26T06:02:13+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "0e464012-427b-406e-880a-e7880cffddf5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takagi Ryou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0e464012-427b-406e-880a-e7880cffddf5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takagi Ryou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "da5ab441-0ec7-467f-8ac4-452efa94841f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "a966309e-fef6-4ff7-8b54-e9d2000d8bc1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:13:18+00:00",
+    "description": "",
+    "fileName": "81aabc0b-d942-4b73-8e00-e86b4fe4eeca.jpg",
+    "updatedAt": "2021-05-24T17:13:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

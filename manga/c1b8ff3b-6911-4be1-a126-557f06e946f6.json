@@ -7,6 +7,17 @@
    "title": {
     "en": "Shinobi Gataki"
    },
+   "altTitles": [
+    {
+     "en": "Shinobigataki"
+    },
+    {
+     "en": "しのびがたき (飛田ニキイチ)"
+    },
+    {
+     "en": "忍者敌"
+    }
+   ],
    "description": {
     "en": "The story of a ninja-slaying samurai who won't rest until he kills every last shinobi for the sake of his revenge."
    },
@@ -34,6 +45,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +57,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,51 +69,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-15T02:42:34+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "cd0fc309-5f3c-4f27-9153-c55a046a3092",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tobita Nikiichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cd0fc309-5f3c-4f27-9153-c55a046a3092",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tobita Nikiichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "51cef5e7-f4bb-4086-a251-3f7e68c5005f",
-   "type": "chapter"
-  },
-  {
-   "id": "b8b44a46-bc9a-4797-877a-6333bb6a2e92",
-   "type": "chapter"
-  },
-  {
-   "id": "41dbfd25-63de-42eb-b36f-bfca0aefaf05",
-   "type": "chapter"
-  },
-  {
-   "id": "92ba9632-e068-40cf-b52c-73f3ea0d1d16",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "ec003918-a8a7-4f74-ba5d-9900dd575f4b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:33+00:00",
+    "description": "",
+    "fileName": "cafa0641-0466-4781-905a-642c7d0d28e6.jpg",
+    "updatedAt": "2021-05-24T17:04:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -14,7 +14,6 @@
     "raw": "https://mintmanga.live/vzroslaia_jizn"
    },
    "originalLanguage": "ru",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,8 +58,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,6 +72,8 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -75,6 +84,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -85,6 +96,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -95,95 +108,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-20T12:09:11+00:00",
+   "updatedAt": "2021-05-25T15:48:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "88280b21-9eb9-436a-bb59-a66c4a34b827",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TH",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "94d17a66-0335-4b89-abf3-61302834218e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Blakravell",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "19a8fae4-7b35-40cc-9b6d-6ac1e7947ae0",
-   "type": "chapter"
-  },
-  {
-   "id": "4082be28-3a83-4f0b-bbce-d92f95434776",
-   "type": "chapter"
-  },
-  {
-   "id": "0b0aefca-2e60-4e81-aa5e-4809d2f35dfa",
-   "type": "chapter"
-  },
-  {
-   "id": "76d5446c-e9eb-44f7-99cf-9827bc417f5d",
-   "type": "chapter"
-  },
-  {
-   "id": "c6dd8f77-4662-462c-83eb-5652a58a3d2e",
-   "type": "chapter"
-  },
-  {
-   "id": "0fde1e15-2735-4472-9e6a-90263544883d",
-   "type": "chapter"
-  },
-  {
-   "id": "a591d1f9-3866-4480-a337-dfe8017b7f76",
-   "type": "chapter"
-  },
-  {
-   "id": "ad4caba2-37ef-4dc9-9ccf-d848a2a35090",
-   "type": "chapter"
-  },
-  {
-   "id": "6f397a35-b530-4c79-a9f1-0cd89736c8b5",
-   "type": "chapter"
-  },
-  {
-   "id": "511cb743-c8c6-418d-8b15-85144cf6cc52",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "a4dea977-f2f5-4f20-8997-799851c53f00",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:00:02+00:00",
+    "description": "",
+    "fileName": "49069a61-b3c0-4535-983f-5f6a638d1877.png",
+    "updatedAt": "2021-05-24T18:00:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

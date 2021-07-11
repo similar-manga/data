@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "ABNORMAL\u0026middot;SEX"
+    "en": "ABNORMAL·SEX"
    },
+   "altTitles": [
+    {
+     "en": "ABNORMAL·SEX~被支配的锁孔"
+    },
+    {
+     "en": "アブノーマル・セックス～支配される鍵穴～"
+    }
+   ],
    "description": {
     "en": "抖M属性的OL与她的同僚"
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -36,47 +46,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-26T07:23:55+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "c0918cd4-252b-49fb-8b97-c72ebf70460a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murakami Michiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c0918cd4-252b-49fb-8b97-c72ebf70460a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murakami Michiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "14919c06-aa78-41bb-bd55-730749918ffd",
-   "type": "chapter"
-  },
-  {
-   "id": "9415e759-fc34-4a81-8191-00341f6d717d",
-   "type": "chapter"
-  },
-  {
-   "id": "90ff8cf4-f31a-4ca2-a75b-facf5bf9a3a6",
-   "type": "chapter"
-  },
-  {
-   "id": "05299eb6-94a8-43d0-9e4d-c2ed47053c28",
-   "type": "chapter"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "0553746a-6573-4f8c-9f49-c9861031cf49",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:28:41+00:00",
+    "description": "",
+    "fileName": "a4350b84-6fd6-4a92-985c-c80c0f4bea19.jpg",
+    "updatedAt": "2021-05-24T18:28:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

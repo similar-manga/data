@@ -11,7 +11,6 @@
     "en": "A fantasy story where the Readers have full control over the Hero's actions."
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,6 +45,8 @@
       "name": {
        "en": "Magic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -52,71 +57,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-01T07:15:42+00:00",
+   "updatedAt": "2021-05-25T15:42:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "2a04bd24-da9a-42b0-a927-817b1c3825ef",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Reon Merryweatherey",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0276a129-fee8-47a2-ac45-e8a871ffe443",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minster",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3dddce2e-5398-4565-aea2-3f919e2297b7",
-   "type": "chapter"
-  },
-  {
-   "id": "a8f203ed-7ccc-4089-8547-0ed2a10241f6",
-   "type": "chapter"
-  },
-  {
-   "id": "babb5374-dbff-483c-9067-cfa95209bd73",
-   "type": "chapter"
-  },
-  {
-   "id": "c3d9c507-4089-4198-9dd5-604c7cb46146",
-   "type": "chapter"
-  },
-  {
-   "id": "08eb56e1-34a7-4668-b0ec-7f45c32166d6",
-   "type": "chapter"
-  },
-  {
-   "id": "27419e68-528d-4585-b2d7-236474ebb824",
-   "type": "chapter"
-  },
-  {
-   "id": "521cadfe-79e5-494d-b677-19943cf81a72",
-   "type": "chapter"
-  },
-  {
-   "id": "e1170d73-0b5e-4267-b910-44d38226d2c2",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
-  },
-  {
-   "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "31a9e634-1852-4f45-ac21-9353e70975ae",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:28:34+00:00",
+    "description": "",
+    "fileName": "f3379d86-8977-4df2-b98f-4e91567463b2.jpg",
+    "updatedAt": "2021-05-24T17:28:34+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Shoku King"
    },
+   "altTitles": [
+    {
+     "en": "Shoku-King"
+    },
+    {
+     "en": "食キング"
+    }
+   ],
    "description": {
     "en": "An amazing chef who is now working as a contractor to revive bad restaurants."
    },
@@ -21,7 +29,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "27",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -33,6 +40,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +52,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +64,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,6 +76,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -73,55 +88,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-14T12:57:35+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "50ce035c-8700-47c2-a1e7-c64d531b69cd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsuchiyama Shigeru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "50ce035c-8700-47c2-a1e7-c64d531b69cd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsuchiyama Shigeru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "02b756ad-738b-42d0-b7fd-bf852be84bbd",
-   "type": "chapter"
-  },
-  {
-   "id": "32b156fe-a8da-4a5f-b2b1-6b14f97c7125",
-   "type": "chapter"
-  },
-  {
-   "id": "fc0a5885-e450-438f-ab07-a32a1f4116b3",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "7ea57c1c-92b4-4fd3-8f91-ede85f0c5370",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:48:19+00:00",
+    "description": "",
+    "fileName": "0965db72-714c-480a-80d8-08d19d1173a0.jpg",
+    "updatedAt": "2021-05-24T17:48:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

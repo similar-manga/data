@@ -7,6 +7,14 @@
    "title": {
     "en": "Karate Apocalypse"
    },
+   "altTitles": [
+    {
+     "en": "Karate Mokushiroku"
+    },
+    {
+     "en": "カラテ黙示録"
+    }
+   ],
    "description": {
     "en": "The story of a young karate practitioner."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,55 +51,53 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-31T13:38:36+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "70dd9d3e-4f73-4874-bb7c-11e5a92e9625",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Masahiko Takajo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b01f3fe1-5abf-45b5-b355-67d4888751d3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ochiai Ataru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9c304479-52f3-4d45-aca4-0dcfdcc95b64",
-   "type": "chapter"
-  },
-  {
-   "id": "19cf095b-233e-4b36-ab85-db23170e46c1",
-   "type": "chapter"
-  },
-  {
-   "id": "976cd1f7-cb78-4ac4-a230-61ac7de5d80a",
-   "type": "chapter"
-  },
-  {
-   "id": "f6ed68ff-eb1d-47e0-a3f4-58b67d494909",
-   "type": "chapter"
-  },
-  {
-   "id": "7604212b-1e37-4393-a7f0-0297245ac739",
-   "type": "chapter"
-  },
-  {
-   "id": "f31a232a-b773-4061-8b35-a9d0ae4a8d74",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
+   "id": "a2d8bd92-aed3-4f0b-b82f-35e3397d5209",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:45+00:00",
+    "description": "",
+    "fileName": "3f606bfc-c0a5-44f1-af27-087558caea91.jpg",
+    "updatedAt": "2021-05-24T16:59:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

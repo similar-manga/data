@@ -25,6 +25,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +37,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +49,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,55 +61,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-08T00:36:15+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "a9d8cbcd-898b-47ac-8964-247f92d11619",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kenji Yaiba",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a9d8cbcd-898b-47ac-8964-247f92d11619",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kenji Yaiba",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b30cb131-90eb-4ca6-8017-b4dfb8a65e1b",
-   "type": "chapter"
-  },
-  {
-   "id": "4adcc0ef-fe56-4ce2-a732-298664287d29",
-   "type": "chapter"
-  },
-  {
-   "id": "3373bb73-6ff9-4909-bd5d-04ce2ac5fe80",
-   "type": "chapter"
-  },
-  {
-   "id": "20b0b5ec-4d22-4765-888e-3f3f9fc4208c",
-   "type": "chapter"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "59914ebf-5be0-4f73-a4a7-f36db4e47155",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:47:50+00:00",
+    "description": "",
+    "fileName": "088f049e-65e9-404d-b05a-d107ceb7592c.jpg",
+    "updatedAt": "2021-05-24T17:47:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

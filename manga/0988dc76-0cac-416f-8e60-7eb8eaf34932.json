@@ -7,6 +7,14 @@
    "title": {
     "en": "Fuyu Hanabi"
    },
+   "altTitles": [
+    {
+     "en": "Winter Fireworks"
+    },
+    {
+     "en": "冬はなび"
+    }
+   ],
    "description": {
     "en": "Dragon Gon... A 36 year old bachelor and lusterless boxer who is on the verge of retirement. By all expectations, he would quietly and uneventfully retire. Until he happened to meet a vivacious actress... Love, laughter, and boxing; a drama about the prime of life now unfolds!"
    },
@@ -32,6 +40,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +52,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +64,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,75 +76,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-15T13:45:39+00:00",
+   "updatedAt": "2021-05-25T15:39:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "da34064c-ce3e-4652-a676-c7506ecbb72c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hara Hidenori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "da34064c-ce3e-4652-a676-c7506ecbb72c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hara Hidenori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3bb28a7e-c006-47d8-956c-214f2d4c7038",
-   "type": "chapter"
-  },
-  {
-   "id": "72111c79-bead-49b1-ad71-2df8bd97dba3",
-   "type": "chapter"
-  },
-  {
-   "id": "bd5bf57b-087c-46e4-9f2c-715d02cb975e",
-   "type": "chapter"
-  },
-  {
-   "id": "0579d22f-b641-4c77-b2bb-d15b7a4fdfe6",
-   "type": "chapter"
-  },
-  {
-   "id": "fa645414-f2ea-4c2b-9757-3e9b4fa29c63",
-   "type": "chapter"
-  },
-  {
-   "id": "59422204-551f-4bd0-97d4-feb4cd4d194f",
-   "type": "chapter"
-  },
-  {
-   "id": "5ff4fb55-8772-4a8e-8e46-9a16de030264",
-   "type": "chapter"
-  },
-  {
-   "id": "135cfb25-5823-4205-8aa0-76de33816a8f",
-   "type": "chapter"
-  },
-  {
-   "id": "e007c6fb-daaf-427a-95af-c58c78ddb930",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "8ce74e29-32d9-4f0a-8fe2-6aa9ae07c651",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:49:28+00:00",
+    "description": "",
+    "fileName": "4c507bfe-1b8f-4989-ba9d-9abb43435abe.jpg",
+    "updatedAt": "2021-05-24T17:49:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

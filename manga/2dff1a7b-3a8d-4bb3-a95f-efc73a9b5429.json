@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Yu Yu Hakusho -\u0026nbsp;Yuhaku + Kareshi"
+    "en": "Yu Yu Hakusho - Yuhaku + Kareshi"
    },
    "description": {
     "en": "Yuhaku + Kareshi is a multi-author dating sim, in which you take Yu Yu Hakusho characters on a date.\r\n\r\nDoujinshi for the animanga Yu Yu Hakusho.\r\nRating: G"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -43,43 +46,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-30T14:08:07+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "6b3e25cf-8d0d-4abb-b75e-7960fcad2ff6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Anthology",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6b3e25cf-8d0d-4abb-b75e-7960fcad2ff6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Anthology",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6ef9f473-c5ee-49cb-b6da-594fd16be53f",
-   "type": "chapter"
-  },
-  {
-   "id": "c753a6d7-84fc-43db-ba64-76b9377b9436",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "0ed3b598-517a-4ff3-bd11-c7d906c4a53b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:01+00:00",
+    "description": "",
+    "fileName": "7a84451e-9a61-47d4-9d09-1799ab1e6f70.jpg",
+    "updatedAt": "2021-05-24T17:32:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

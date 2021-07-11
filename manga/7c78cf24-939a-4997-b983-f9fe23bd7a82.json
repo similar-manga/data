@@ -7,6 +7,17 @@
    "title": {
     "en": "The Cliff"
    },
+   "altTitles": [
+    {
+     "en": "La Falaise"
+    },
+    {
+     "en": "ผาหลอน ซ่อนปม"
+    },
+    {
+     "en": "절벽귀"
+    }
+   ],
    "description": {
     "en": "While hiking a mountain with his friend, Dong-uk stops to take a picture with him on a steep ledge which collapses and leaves them stranded on an isolated cliff."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -50,6 +65,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +77,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -70,83 +89,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-10T22:40:36+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "a2b758a5-660d-4d10-8a4e-038e4f9f5017",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oh Seongdae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a2b758a5-660d-4d10-8a4e-038e4f9f5017",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oh Seongdae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dfef1eaa-e510-485a-9fbd-e4add2361112",
-   "type": "chapter"
-  },
-  {
-   "id": "4dbb7d37-617d-45ab-93a4-016c5fa894f8",
-   "type": "chapter"
-  },
-  {
-   "id": "37e7ab29-6ac8-4973-b0d8-324d235c9600",
-   "type": "chapter"
-  },
-  {
-   "id": "ea4f56e7-61e7-4c23-ad2e-b1cc6080ab24",
-   "type": "chapter"
-  },
-  {
-   "id": "f71ce40b-6578-4128-9398-acaa2cd39a51",
-   "type": "chapter"
-  },
-  {
-   "id": "3745d243-88f0-4a71-a2ae-e42bd33e985a",
-   "type": "chapter"
-  },
-  {
-   "id": "ce1fdf6f-d6ae-4507-a82f-570085b2106e",
-   "type": "chapter"
-  },
-  {
-   "id": "96700ab7-32cd-49a6-b5d6-222fd63d21e7",
-   "type": "chapter"
-  },
-  {
-   "id": "15f6e89c-639e-46e9-9a39-2f63a2f8ff5c",
-   "type": "chapter"
-  },
-  {
-   "id": "02353d41-5dfa-4bfb-b60b-a2ae18368572",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "2f710c44-e375-4ff2-a86e-7d70ff895da8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:24+00:00",
+    "description": "",
+    "fileName": "3b115a06-b694-4ef4-8e0f-ec4f1409006f.jpg",
+    "updatedAt": "2021-05-24T16:57:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

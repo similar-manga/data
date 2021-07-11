@@ -26,6 +26,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,57 +48,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-25T19:25:13+00:00",
+   "updatedAt": "2021-05-25T15:47:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "52ea8b14-e03c-49b8-b0dc-3456fdc28154",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Upi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "52ea8b14-e03c-49b8-b0dc-3456fdc28154",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Upi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "45e6257d-2883-43f2-9588-2f40d44271eb",
-   "type": "chapter"
-  },
-  {
-   "id": "32ac634f-960c-410b-a163-261ac92f490e",
-   "type": "chapter"
-  },
-  {
-   "id": "f7b98fe2-6a5f-43ab-8ca7-3106a8ca6e11",
-   "type": "chapter"
-  },
-  {
-   "id": "efc95ff0-c51b-4c0c-a5a2-a9763e01e730",
-   "type": "chapter"
-  },
-  {
-   "id": "f4e8de33-ec83-4d8d-a86f-4f8d0a627c78",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "28722c83-1ee1-4f3a-85be-24f94fcbaddd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:46+00:00",
+    "description": "",
+    "fileName": "a7ab92c5-5ce1-4e6e-ae15-b02749e9010a.jpg",
+    "updatedAt": "2021-05-24T17:38:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

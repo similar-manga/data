@@ -7,6 +7,11 @@
    "title": {
     "en": "Wild Wild Workers"
    },
+   "altTitles": [
+    {
+     "en": "와일드 와일드 워커스"
+    }
+   ],
    "description": {
     "en": "A group of crude and vicious criminals get released from prison and get hired at a company through a special reformation initiative. They must adjust to the horrors of office life because if any of them get fired, they'll all be executed."
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -47,6 +56,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -57,6 +68,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,83 +80,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-23T07:18:49+00:00",
+   "updatedAt": "2021-05-25T15:43:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "fe9c5459-870b-47c4-8f6a-07d5dbc47f61",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "JTK",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fe9c5459-870b-47c4-8f6a-07d5dbc47f61",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "JTK",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a8635810-94cd-418a-a4ba-340b1b2075a2",
-   "type": "chapter"
-  },
-  {
-   "id": "ad00aa50-92c1-4935-be51-fc9abef51c43",
-   "type": "chapter"
-  },
-  {
-   "id": "24dba1cb-86d6-4285-bcd6-c392100355f1",
-   "type": "chapter"
-  },
-  {
-   "id": "dbd698c4-ef12-4f05-a948-dae2de5483f1",
-   "type": "chapter"
-  },
-  {
-   "id": "007bb826-b54b-4fa0-bcd6-53d64fdcd118",
-   "type": "chapter"
-  },
-  {
-   "id": "1c432b68-40ee-40fc-bc70-2e7473603cbd",
-   "type": "chapter"
-  },
-  {
-   "id": "75d13cd8-6af4-4ef3-b6ec-562740bbd924",
-   "type": "chapter"
-  },
-  {
-   "id": "3c758e4a-6fbf-442a-88ed-f0d9d9210007",
-   "type": "chapter"
-  },
-  {
-   "id": "595f808e-121d-4987-8d5a-f4bc8ed4fcab",
-   "type": "chapter"
-  },
-  {
-   "id": "29e7408d-b7a6-4fcb-800c-5d26aa4373d2",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "c82e7603-8ff5-4f9f-b5ef-cf9a7a4ec88c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:20:02+00:00",
+    "description": "",
+    "fileName": "b7102fea-394a-4db4-8a46-fd29ffc8658f.jpg",
+    "updatedAt": "2021-05-24T18:20:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

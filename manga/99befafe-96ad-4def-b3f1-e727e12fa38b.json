@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Icha ama na osananajimi \u0026radic; ga sukinahon"
+    "en": "Icha ama na osananajimi √ ga sukinahon"
    },
+   "altTitles": [
+    {
+     "en": "イチャ甘な幼なじみ√が好きな本"
+    }
+   ],
    "description": {
     "en": "A cute fluffy childhood friend romance manga\r\n\r\nIncludes: Hand holding, headpats,  kissing\r\n\r\nLinks:\r\nPurchase on [url=https://www.melonbooks.co.jp/detail/detail.php?product_id=658715]Melonbooks [/url]\r\n[url=https://www.pixiv.net/en/users/5866666]Author's Pixiv[/url]"
    },
@@ -14,7 +19,6 @@
     "raw": "https://www.pixiv.net/user/5866666/series/72419"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,39 +53,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-20T17:40:04+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "0e44d057-5763-47df-aa4f-1a409fe5cc6c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Apollo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0e44d057-5763-47df-aa4f-1a409fe5cc6c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Apollo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "847947e9-6126-49c2-9e3c-7a7572b5b18d",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "75a4e96a-19a3-4f39-a33c-0beceef98340",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:35:45+00:00",
+    "description": "",
+    "fileName": "0e56bdf9-2511-4b27-80c4-0368e0d7e767.jpg",
+    "updatedAt": "2021-05-24T18:35:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

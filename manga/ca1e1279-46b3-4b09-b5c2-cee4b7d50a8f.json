@@ -7,6 +7,11 @@
    "title": {
     "en": "Hello Again"
    },
+   "altTitles": [
+    {
+     "en": "(헬로 어게인!)"
+    }
+   ],
    "description": {
     "en": "Ever since he was young, HeeMin has always liked his neighbour, SeonWoo hyung. HeeMin had given up on SeonWoo after he had moved away. However, coincidentally, SeonWoo is searching for a roommate and HeeMin is able to meet him once again. But, the love rival that has appeared in front of HeeMin now is none other than his older brother, YooMin!"
    },
@@ -25,6 +30,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,8 +52,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +66,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,6 +78,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -75,75 +90,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-10T20:38:43+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "d1c2d236-a6ac-46d9-8f78-3ec5514ce74f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chobom",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d1c2d236-a6ac-46d9-8f78-3ec5514ce74f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chobom",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b981ac21-30a2-4915-9210-da67a5f21c97",
-   "type": "chapter"
-  },
-  {
-   "id": "98a9f144-9ac6-4ae2-8eb7-889308e762f7",
-   "type": "chapter"
-  },
-  {
-   "id": "60373ee7-6af0-4db6-829c-4b72d30b5245",
-   "type": "chapter"
-  },
-  {
-   "id": "5892b965-a0a1-42bd-9738-6f4af2c85d53",
-   "type": "chapter"
-  },
-  {
-   "id": "bf9e0945-ee7b-4bff-a247-4ff6afb4ff87",
-   "type": "chapter"
-  },
-  {
-   "id": "59561233-854d-45fa-b773-91a1a68dd925",
-   "type": "chapter"
-  },
-  {
-   "id": "7b2bfb9c-5359-4cfd-b98f-d6146bfa0800",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "bad6edea-ec76-4f26-b4ba-e67906343f40",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:18:15+00:00",
+    "description": "",
+    "fileName": "7dfaf7d3-86c3-4ece-b769-e85ceeed57e4.png",
+    "updatedAt": "2021-05-24T18:18:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

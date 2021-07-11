@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Front Mission - Dog Life \u0026amp; Dog Style"
+    "en": "Front Mission - Dog Life \u0026 Dog Style"
    },
+   "altTitles": [
+    {
+     "en": "Front Mission"
+    },
+    {
+     "en": "前线任务 Dog Life And Dog Style"
+    }
+   ],
    "description": {
     "en": "Huffman Island is a land that emerged from the deep due to volcanic eruptions over three decades ago, now, it is split by an uneasy cease-fire between two major world powers, the United States of the New Continent (USN) and the Oceania Cooperative Union (OCU).\r\nThe cease-fire has held for 20 years, but now tensions are mounting, and it looks like open war will break out again soon. Matsuda Akira has gone to join the on-site reporting team for NNTV.\r\nAre he and his colleagues really ready for the horrors they may face if they're caught in the middle of a war?\r\nAdapted from the Front Mission games."
    },
@@ -32,6 +40,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +52,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +64,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +76,8 @@
       "name": {
        "en": "Mecha"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -72,6 +88,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -82,6 +100,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -92,6 +112,8 @@
       "name": {
        "en": "Military"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -102,6 +124,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -112,99 +136,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-29T03:50:09+00:00",
+   "updatedAt": "2021-05-25T15:48:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "9af7a41f-9372-4e78-9d44-ceaed5a47be6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohtagaki Yasuo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ff501f3e-2175-440b-8b3f-bd5f1161bdf7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "C.H.LINE",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b2a0fb7b-d7ef-49d8-9045-e970907a89d7",
-   "type": "chapter"
-  },
-  {
-   "id": "5ba15a47-f317-44af-a771-2d2148dc7cf8",
-   "type": "chapter"
-  },
-  {
-   "id": "210cca84-9f17-4172-aec6-7bf2b1166fbe",
-   "type": "chapter"
-  },
-  {
-   "id": "8327be14-cb14-4f46-9e48-72e6c4ee1216",
-   "type": "chapter"
-  },
-  {
-   "id": "a577c8aa-f442-4f4c-b641-6930204f07c4",
-   "type": "chapter"
-  },
-  {
-   "id": "9516b544-5e3e-4fa8-b31c-5cbae3b2ea50",
-   "type": "chapter"
-  },
-  {
-   "id": "b1612530-08de-4566-8ad5-7520e92b61ed",
-   "type": "chapter"
-  },
-  {
-   "id": "d6cb7819-4b3e-441d-a8e7-14f603f89770",
-   "type": "chapter"
-  },
-  {
-   "id": "07ae06ef-020e-4519-858c-13a57279d4f3",
-   "type": "chapter"
-  },
-  {
-   "id": "01789218-193b-4ec5-b026-eb55d097eaf2",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "50880a9d-5440-4732-9afb-8f457127e836",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "77cf5675-5e0a-4fa3-bb21-53b5090bbc9f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:30:17+00:00",
+    "description": "",
+    "fileName": "e6791353-eb9d-45b8-ad1f-899ecae79d3c.png",
+    "updatedAt": "2021-05-24T17:30:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Mermaid Lovers"
    },
+   "altTitles": [
+    {
+     "en": "マーメイド・ラヴァーズ"
+    },
+    {
+     "en": "人鱼恋人"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,59 +75,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-19T03:00:27+00:00",
+   "updatedAt": "2021-05-25T15:48:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "61a9a8ef-d5bc-40d5-84cb-38668f5de7cc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fukami Makoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "27ec2a0a-82bb-4948-91c2-298a99168603",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshioka Sakaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b388ca2f-b7d7-4281-89f9-e7d6eb3a2e84",
-   "type": "chapter"
-  },
-  {
-   "id": "fbbacc22-5553-4c73-8b79-4eb2b1b900d6",
-   "type": "chapter"
-  },
-  {
-   "id": "6e70b910-623d-4b2f-a797-d16f0c25b181",
-   "type": "chapter"
-  },
-  {
-   "id": "efab1799-3128-4a1c-82c4-526966c767a5",
-   "type": "chapter"
-  },
-  {
-   "id": "fa396d8c-4fa7-4693-a3dc-c1a886a878f3",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "86d55b30-461c-4fef-b599-5168705bdd2e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:49+00:00",
+    "description": "",
+    "fileName": "ef793dad-ac16-4537-8092-12cd588a3d43.jpg",
+    "updatedAt": "2021-05-24T17:01:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

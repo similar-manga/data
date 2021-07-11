@@ -7,6 +7,17 @@
    "title": {
     "en": "Tokyo Toy Box"
    },
+   "altTitles": [
+    {
+     "en": "Tokyo Toybox"
+    },
+    {
+     "en": "ไอ้หนุ่มพันธุ์เกม"
+    },
+    {
+     "en": "東京トイボックス"
+    }
+   ],
    "description": {
     "en": "Tengawa Taiyou is a great (but unrecognized) game creator and the boss of his own development studio. He then meets a nice young woman, but she comes to turn his loser company."
    },
@@ -33,6 +44,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,43 +56,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-29T17:42:02+00:00",
+   "updatedAt": "2021-05-25T15:47:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "21bf8798-504c-4406-bb54-a37ba5686e18",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UME",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "21bf8798-504c-4406-bb54-a37ba5686e18",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UME",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "af4347f1-6fad-4de5-8c7e-73af85b11ef4",
-   "type": "chapter"
-  },
-  {
-   "id": "634614f0-db0e-47b2-8207-a2cbdcd684ec",
-   "type": "chapter"
-  },
-  {
-   "id": "51bd0dac-e9ac-41f4-8272-99169902888e",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "e5207e9c-ad5b-4ff6-b742-03388a8b120b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:43:23+00:00",
+    "description": "",
+    "fileName": "a1486232-072c-4cc8-88ad-b9ddfc54b7ea.jpg",
+    "updatedAt": "2021-05-24T16:43:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

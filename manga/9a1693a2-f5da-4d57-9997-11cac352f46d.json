@@ -7,6 +7,17 @@
    "title": {
     "en": "Koetama"
    },
+   "altTitles": [
+    {
+     "en": "こえたま"
+    },
+    {
+     "en": "語聲下的靈魂"
+    },
+    {
+     "en": "语音下的灵魂"
+    }
+   ],
    "description": {
     "en": "High school junior Wakaba Sakimoto is a normal girl, no matter how you look at her. Everyone around her is thinking about the future, but Wakaba still doesn't know what she wants to do. Then one day, she meets voice actress Touko Hosaka by accident, and Wakaba's future changes in a big way..."
    },
@@ -32,6 +43,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +55,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,75 +67,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-11T22:48:19+00:00",
+   "updatedAt": "2021-05-25T15:45:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "0c36b36a-1a2c-4845-bcd0-058b97284060",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakuraba Tatsunari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0c36b36a-1a2c-4845-bcd0-058b97284060",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakuraba Tatsunari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ab88d6a6-7358-4ef7-a6e6-d5653d26d952",
-   "type": "chapter"
-  },
-  {
-   "id": "d97fc988-81f2-4770-86c3-db881b6f875f",
-   "type": "chapter"
-  },
-  {
-   "id": "a9cc996b-1758-4273-a65c-519fecd98d2a",
-   "type": "chapter"
-  },
-  {
-   "id": "5c0208eb-4a54-4033-91eb-1317cde1f57f",
-   "type": "chapter"
-  },
-  {
-   "id": "f0c50295-4666-4b24-9ed5-ca81b05b9f91",
-   "type": "chapter"
-  },
-  {
-   "id": "e6079364-e971-4d77-8eee-c169fefa0ebc",
-   "type": "chapter"
-  },
-  {
-   "id": "2c535430-c30a-486f-8284-4913440580f4",
-   "type": "chapter"
-  },
-  {
-   "id": "30abce43-854a-4f6e-896a-669d4d6a7cb7",
-   "type": "chapter"
-  },
-  {
-   "id": "5f6eab44-3665-4050-bbe1-fa386f38cc32",
-   "type": "chapter"
-  },
-  {
-   "id": "6599d0cb-fa73-4186-9db0-5a6560d58780",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "c59af715-7db2-4f65-82c8-659073a95f15",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:41:40+00:00",
+    "description": "",
+    "fileName": "bc5b7b6c-6b05-4d54-8006-45b0a42db2a4.jpg",
+    "updatedAt": "2021-05-24T16:41:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

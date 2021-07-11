@@ -26,6 +26,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +38,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -46,47 +50,53 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-07-26T07:44:54+00:00",
+   "updatedAt": "2020-07-26T07:44:54+00:00"
   }
  },
  "relationships": [
   {
    "id": "6b3e25cf-8d0d-4abb-b75e-7960fcad2ff6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Anthology",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6b3e25cf-8d0d-4abb-b75e-7960fcad2ff6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Anthology",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "31c87d87-999f-4ad3-a5f0-8fbd2914530e",
-   "type": "chapter"
-  },
-  {
-   "id": "62c1b87e-fb48-4ea8-9e19-14909ba8cf4d",
-   "type": "chapter"
-  },
-  {
-   "id": "9764a9a7-25f8-4802-ab63-89c3ecb8dc88",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
+   "id": "9657d116-8f2c-4ff3-8158-87cedf82a4cd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:20+00:00",
+    "description": "",
+    "fileName": "5a35c00b-7399-4d25-8ec5-5e730ce5d2c5.jpg",
+    "updatedAt": "2021-05-24T18:04:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

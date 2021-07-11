@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "One Shot Men\u0026rsquo;s Clinic"
+    "en": "One Shot Men’s Clinic"
    },
+   "altTitles": [
+    {
+     "en": "우리동네 비뇨기과"
+    }
+   ],
    "description": {
-    "en": "A one hundred percent treatment rate! Welcome to One Shot Men\u0026rsquo;s Clinic!"
+    "en": "A one hundred percent treatment rate! Welcome to One Shot Men’s Clinic!"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +50,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,51 +62,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-26T07:57:32+00:00",
+   "updatedAt": "2021-05-25T15:41:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "e891dffe-de51-4aec-9ae3-651463b35398",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Studio moon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e891dffe-de51-4aec-9ae3-651463b35398",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Studio moon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ba5957db-d1d5-4a01-8374-1c99ef5b97c0",
-   "type": "chapter"
-  },
-  {
-   "id": "9321e656-ba04-4cfd-9017-cde9acc7080f",
-   "type": "chapter"
-  },
-  {
-   "id": "e1ba1a58-c3d7-4fc9-8e06-e1e48833b225",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "de93b58f-9d65-4f2f-88f2-82bf069acba1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:00+00:00",
+    "description": "",
+    "fileName": "0f78c9d3-5e75-4e89-8037-6e498335957f.jpg",
+    "updatedAt": "2021-05-24T18:33:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Alto"
    },
+   "altTitles": [
+    {
+     "en": "Альто"
+    },
+    {
+     "en": "アルト"
+    }
+   ],
    "description": {
     "en": "Alto, a 12-year-old kid, has arrived to Porto Grande, the largest city in the country. His dream is to fly an airplane which only women can pilot. In order to fly, he disguises his gender and age and enrolls himself in an all girls school. What kind of a school life awaits him behind those closed doors?"
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,6 +75,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,6 +87,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -81,87 +99,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-08T04:57:15+00:00",
+   "updatedAt": "2021-05-25T15:42:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "caa8baea-acb4-48a5-bcf0-7f18cefd5ba0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koio Minato",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "caa8baea-acb4-48a5-bcf0-7f18cefd5ba0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koio Minato",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c51f6b2a-4e05-4990-a12a-6bee042e634d",
-   "type": "chapter"
-  },
-  {
-   "id": "d34a3f8b-738b-4f5c-a21f-782dd1567426",
-   "type": "chapter"
-  },
-  {
-   "id": "aad701ef-1468-4cdc-8280-e7a14f6df382",
-   "type": "chapter"
-  },
-  {
-   "id": "55567488-aa8d-4d70-a90c-09af6bd0e359",
-   "type": "chapter"
-  },
-  {
-   "id": "cb4d2a06-c026-4aab-8f26-87fbf16ee3f2",
-   "type": "chapter"
-  },
-  {
-   "id": "e9d346dc-b979-4bb2-a72a-3724757c6967",
-   "type": "chapter"
-  },
-  {
-   "id": "c1dae368-04dd-4298-b770-ba20fe2c1204",
-   "type": "chapter"
-  },
-  {
-   "id": "f58aa629-8b4b-4107-bad1-bf330e7c112f",
-   "type": "chapter"
-  },
-  {
-   "id": "6313e8b6-1ef1-4a5c-809d-da6ceeabb496",
-   "type": "chapter"
-  },
-  {
-   "id": "2d0974aa-8d2e-45e8-84de-4ca7579bd4f0",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "9722ec54-c05e-4f5d-83da-e2dab74e7df1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:11+00:00",
+    "description": "",
+    "fileName": "cdf31f84-998f-4b7e-b4ff-8c754d3012a3.jpg",
+    "updatedAt": "2021-05-24T17:06:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

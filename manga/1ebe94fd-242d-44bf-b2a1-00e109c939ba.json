@@ -7,6 +7,17 @@
    "title": {
     "en": "Sekai de Ichiban Utsukushii Namae"
    },
+   "altTitles": [
+    {
+     "en": "The Most Beautiful Name in the World"
+    },
+    {
+     "en": "世界で一番美しい名前"
+    },
+    {
+     "en": "世界最美丽的名字"
+    }
+   ],
    "description": {
     "en": "Hibari secludes herself in a warehouse because she is a disgrace to her family. In that warehouse, Hibari finds a precious library that changes her life forever."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +65,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +77,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -70,47 +89,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-08T05:46:18+00:00",
+   "updatedAt": "2021-05-25T15:40:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "67182570-5321-4ee6-88ce-87ff7c59c7cb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TOYOTA Yuu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "67182570-5321-4ee6-88ce-87ff7c59c7cb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TOYOTA Yuu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c896dfb3-ffff-4acc-9e4f-197db8c2bb10",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "2f9104dc-a5f5-4f2f-88e8-46a740a76286",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:08+00:00",
+    "description": "",
+    "fileName": "421141c8-0702-44ff-b13f-7a8e7a936dff.jpg",
+    "updatedAt": "2021-05-24T16:57:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

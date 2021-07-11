@@ -7,6 +7,20 @@
    "title": {
     "en": "Shuukyoku Engage"
    },
+   "altTitles": [
+    {
+     "en": "Final Engage"
+    },
+    {
+     "en": "The Ultimate Engage"
+    },
+    {
+     "en": "終極エンゲージ"
+    },
+    {
+     "en": "终极婚约"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -35,6 +49,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +61,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,35 +73,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-03-09T06:20:45+00:00",
+   "updatedAt": "2019-03-09T06:20:45+00:00"
   }
  },
  "relationships": [
   {
    "id": "1ebcef17-2c40-4248-bf12-200247362908",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Etou Shunji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "daa2ec6a-1919-4e52-b929-1fde6b805fd0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miwa Yoshiyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "2e4bc53a-30a3-4fc9-8a1e-3ec625f81902",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:56+00:00",
+    "description": "",
+    "fileName": "349ddd84-5749-4198-87ce-2e27d53a6ae4.jpg",
+    "updatedAt": "2021-05-24T17:03:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

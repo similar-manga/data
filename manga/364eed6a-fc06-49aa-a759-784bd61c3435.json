@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Carole \u0026amp; Tuesday"
+    "en": "Carole \u0026 Tuesday"
    },
+   "altTitles": [
+    {
+     "en": "Carole and Tuesday"
+    },
+    {
+     "en": "キャロル\u0026チューズデイ"
+    }
+   ],
    "description": {
     "en": "Fifty years have passed since mankind began migrating to the new frontier: Mars.\r\nIt's an age where most culture is produced by AI, and people are content to be passive consumers. There's a girl. Scrapping a living in the metropolis of Alba City, she's working part-time while trying to become a musician. She's always felt like something is missing. Her name is Carole. There's a girl. Born to a wealthy family in the provincial town of Herschel City, she dreams of becoming a musician, but nobody around her understands. She feels like the loneliest person in the world. Her name is Tuesday.\r\nA chance meeting brings them together. They want to sing. They want to make music. Together, they feel like they just might have a chance. The two of them may only create a tiny wave. But that wave will eventually grow into something larger."
    },
@@ -19,7 +27,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "3",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -31,6 +38,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +74,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,55 +86,65 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-14T11:43:46+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "aa9d8afa-2b6b-46ab-ad4f-fa0766f39fbb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "BONES",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b0928def-627d-42fc-b226-a6257ebc2c46",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamataka Morito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b0928def-627d-42fc-b226-a6257ebc2c46",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamataka Morito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a6654b46-bb48-4571-a864-d4b2f74b0b8b",
-   "type": "chapter"
-  },
-  {
-   "id": "a2e41297-cc4d-41db-b046-8dc7c92e3950",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "9666512a-9166-4f5a-bf71-7991608a7b4c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:45:04+00:00",
+    "description": "",
+    "fileName": "37f3d7fd-ee4f-47e9-95e1-77416f98df5c.jpg",
+    "updatedAt": "2021-05-24T17:45:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

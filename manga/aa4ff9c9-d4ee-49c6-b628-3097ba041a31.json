@@ -7,6 +7,14 @@
    "title": {
     "en": "Game Club"
    },
+   "altTitles": [
+    {
+     "en": "Game-Bu"
+    },
+    {
+     "en": "ゲーム部"
+    }
+   ],
    "description": {
     "en": "Follow the daily activities of the members of the Game Club.\r\n\r\nWas released in doujinshi format by Imitation Crystal, consisting of short volumes split into several parts."
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +61,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -59,6 +73,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -69,6 +85,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -79,6 +97,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -89,91 +109,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-05T09:50:34+00:00",
+   "updatedAt": "2021-05-25T15:46:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "747fcae3-ad82-46a9-816d-46f119cb5699",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Imitation Crystal",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "747fcae3-ad82-46a9-816d-46f119cb5699",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Imitation Crystal",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ff545ab1-9e76-48c1-895d-a3f1b0b34ba2",
-   "type": "chapter"
-  },
-  {
-   "id": "06645fb9-6fc3-40dd-9443-013141e30e17",
-   "type": "chapter"
-  },
-  {
-   "id": "9d82d700-2dd6-4503-b8ca-04b1413a146a",
-   "type": "chapter"
-  },
-  {
-   "id": "4341f354-a70b-4057-a977-2d650e017706",
-   "type": "chapter"
-  },
-  {
-   "id": "9b8aeb71-47f9-4141-b96a-e467f46060b0",
-   "type": "chapter"
-  },
-  {
-   "id": "e1bb72eb-4e85-4702-b21b-3281511f99fc",
-   "type": "chapter"
-  },
-  {
-   "id": "cee71819-443d-4056-8d7c-8cacf1da4070",
-   "type": "chapter"
-  },
-  {
-   "id": "b26bf4da-8307-4437-94b4-27d68b921118",
-   "type": "chapter"
-  },
-  {
-   "id": "b68b9d3e-799b-4665-aa42-0e0c9bef9b67",
-   "type": "chapter"
-  },
-  {
-   "id": "342a218c-b7f7-4433-880a-5cac3ef84350",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "2e8e92c5-5068-4f07-988b-cead3eb77ec4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:51:12+00:00",
+    "description": "",
+    "fileName": "4a785d0c-c771-42ca-b6b3-dc550bd8e883.jpg",
+    "updatedAt": "2021-05-24T17:51:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Mona Lisa Mania"
    },
+   "altTitles": [
+    {
+     "en": "モナリザマニア"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,31 +48,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-02-24T09:11:12+00:00",
+   "updatedAt": "2020-02-24T09:11:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "7d46d5d9-0087-4e89-ad13-a98121161560",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshikage",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7d46d5d9-0087-4e89-ad13-a98121161560",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshikage",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "b950c454-12a0-4fd0-9194-07e43c289558",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:46:18+00:00",
+    "description": "",
+    "fileName": "276539e3-1db9-43e3-b4f1-373d24d5d0e6.jpg",
+    "updatedAt": "2021-05-24T17:46:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Partition"
    },
+   "altTitles": [
+    {
+     "en": "파티션"
+    }
+   ],
    "description": {
     "en": "Han Yu-na gave up being a girl.. but secretly loves girly  things. She encounters Lee Yu-na with one big misunderstanding which creates something brand new...."
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +56,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +68,8 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -65,8 +78,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -77,87 +92,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-07T12:23:28+00:00",
+   "updatedAt": "2021-05-25T15:41:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "1f4222a7-1bd7-4856-ae4b-63317f804ca0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ha-In",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8628e8ca-fc3b-4224-bb2d-72b4fdd708dd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoo-Sa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fd574998-75b4-4f83-a1e1-eaeb821bc7bf",
-   "type": "chapter"
-  },
-  {
-   "id": "8a6b6aa1-b90c-4e2c-b649-7d40c2f18464",
-   "type": "chapter"
-  },
-  {
-   "id": "e22c9dcc-0da5-4139-a418-ebd41b838e61",
-   "type": "chapter"
-  },
-  {
-   "id": "3629bde2-65c6-47dc-96ac-74facb832cf5",
-   "type": "chapter"
-  },
-  {
-   "id": "0df33e88-eca9-4ca8-9ecd-41d8f2726d8e",
-   "type": "chapter"
-  },
-  {
-   "id": "ed3ab70a-f5f4-4153-a945-22fdfb41ca9c",
-   "type": "chapter"
-  },
-  {
-   "id": "97d17507-878c-46c4-8fb3-88b208a8520c",
-   "type": "chapter"
-  },
-  {
-   "id": "4884e5ea-6ba3-4234-b677-6c5b75b251bb",
-   "type": "chapter"
-  },
-  {
-   "id": "b234da43-4556-47d5-aa6e-056b6ffe2080",
-   "type": "chapter"
-  },
-  {
-   "id": "e10b8734-75cd-4389-87ec-4a5490a9d2f5",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "36ce9dfc-b9c2-4f92-bfee-8a72b23b6725",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:31+00:00",
+    "description": "",
+    "fileName": "58eac208-274e-4a3f-b393-a1b6d5fa7fcd.png",
+    "updatedAt": "2021-05-24T17:00:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

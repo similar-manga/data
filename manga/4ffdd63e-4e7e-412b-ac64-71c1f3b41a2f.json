@@ -7,6 +7,14 @@
    "title": {
     "en": "Shoujo Manga"
    },
+   "altTitles": [
+    {
+     "en": "Shoujo Manga"
+    },
+    {
+     "en": "少女マンガ"
+    }
+   ],
    "description": {
     "en": "Set in the dystopic future:\r\n\r\nA girl steals a bag from an old woman, a fellow member of a homeless colony. All the bag contains are volume after volume of shoujo manga. But even after the girl has finished reading all the volumes, our story is still not complete..."
    },
@@ -18,7 +26,6 @@
     "mu": "70290"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,51 +49,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-18T07:09:38+00:00",
+   "updatedAt": "2021-05-25T15:42:16+00:00"
   }
  },
  "relationships": [
   {
    "id": "00b183d0-651d-4f37-a8e1-32efbbe14669",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katou Shinkichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "00b183d0-651d-4f37-a8e1-32efbbe14669",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katou Shinkichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "870d1a99-0936-4a64-864d-93b8d9704a67",
-   "type": "chapter"
-  },
-  {
-   "id": "251a75b1-c370-4209-9e98-a731fbfd27c3",
-   "type": "chapter"
-  },
-  {
-   "id": "e7317852-8b61-48e5-a9da-ebb65d613504",
-   "type": "chapter"
-  },
-  {
-   "id": "97d38373-49ce-4d71-b0db-cf4ba66659cc",
-   "type": "chapter"
-  },
-  {
-   "id": "60046bdf-ad5a-4d54-a6c9-d4508561c8b8",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "6fde89fd-5113-4fa9-b6c6-c378cd7baefd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:17:53+00:00",
+    "description": "",
+    "fileName": "dba5b95e-627b-45fa-bbb2-df4a273ceef9.jpg",
+    "updatedAt": "2021-05-24T17:17:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

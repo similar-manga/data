@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Yo-kai Watch the Movie: The Great Adventure of the Flying Whale \u0026amp; the Double World, Nyan!"
+    "en": "Yo-kai Watch the Movie: The Great Adventure of the Flying Whale \u0026 the Double World, Nyan!"
    },
+   "altTitles": [
+    {
+     "en": "Eiga Yōkai Wotchi: Soratobu Kujira to Daburu Sekai no Dai-bōken da-nyan"
+    },
+    {
+     "en": "映画 妖怪ウォッチ　空飛ぶクジラとダブル世界の大冒険だニャン！"
+    }
+   ],
    "description": {
     "en": "A giant whale looms over Springdale, causing the entire world to become a real version of itself. Nate, Whisper and Jibanyan try to find out about the mystery behind the world-switching incident."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +30,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +54,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,39 +66,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-01-24T09:29:24+00:00",
+   "updatedAt": "2021-01-24T09:29:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "c26435d2-31f2-485e-bbf2-201c497ce4c9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Konishi Noriyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c26435d2-31f2-485e-bbf2-201c497ce4c9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Konishi Noriyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "3e8a1746-ba4d-4f7f-90d0-33e1e64add30",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:28:27+00:00",
+    "description": "",
+    "fileName": "521a0268-579f-48eb-9848-61bcadf938e6.jpg",
+    "updatedAt": "2021-05-24T18:28:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

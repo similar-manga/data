@@ -5,10 +5,24 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Caf\u0026eacute;★Grief Seed e Youkoso!"
+    "en": "Café★Grief Seed e Youkoso!"
    },
+   "altTitles": [
+    {
+     "en": "Cafe Grief Seed e Youkoso!"
+    },
+    {
+     "en": "Welcome to Café Grief Seed!"
+    },
+    {
+     "en": "Welcome to Cafe Grief Seed!"
+    },
+    {
+     "en": "カフェ☆グリーフシードへようこそ!"
+    }
+   ],
    "description": {
-    "en": "The magical girls run a caf\u0026eacute;.\r\n\r\nAdapted from Mahou Shoujo Madoka Magica."
+    "en": "The magical girls run a café.\r\n\r\nAdapted from Mahou Shoujo Madoka Magica."
    },
    "links": {
     "al": "94975",
@@ -17,7 +31,6 @@
     "mu": "84982"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -29,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +54,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -49,6 +66,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +78,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,43 +90,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-03-01T00:27:53+00:00",
+   "updatedAt": "2019-03-01T00:27:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "f85485bd-8848-464b-8e2e-393b9a7886b2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Magica Quartet",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "864654cd-a972-4a72-bfec-a49573bef8d6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hina Kotori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "172e8bf7-e249-4f3b-ab26-a3982238020b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:01+00:00",
+    "description": "",
+    "fileName": "b01a7bb8-792e-48b1-9c82-45c211c6b1f8.jpg",
+    "updatedAt": "2021-05-24T17:03:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Inran Shounen \u0026quot;Nazo no Bitch Shota to Ossan no Monogatari\u0026quot;"
+    "en": "Inran Shounen \"Nazo no Bitch Shota to Ossan no Monogatari\""
    },
+   "altTitles": [
+    {
+     "en": "Slut Boy in the Tale of a Man and a Mysterious Sissy Boy"
+    },
+    {
+     "en": "淫乱少年 「謎のビッチショタとおっさんの物語」"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -21,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -29,49 +39,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-28T08:29:12+00:00",
+   "updatedAt": "2021-05-25T15:42:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "c9bcc251-bcf4-4328-9564-65c169e772cc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inran Shounen",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f3f0edd3-dcbc-405b-aec1-e5693861b227",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jairou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7ff5c590-6e30-4eb7-beef-1ffdf32efe41",
-   "type": "chapter"
-  },
-  {
-   "id": "f204d7b9-fee1-4b58-a049-9241a99529c6",
-   "type": "chapter"
-  },
-  {
-   "id": "1594407d-b20f-430a-b8c4-25f892ae7de8",
-   "type": "chapter"
-  },
-  {
-   "id": "6fcc17db-a36f-4e9e-98d3-cd0a261d7d2a",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "16816f2d-fb04-4f1e-a877-217cac51b750",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:41+00:00",
+    "description": "",
+    "fileName": "af9766c6-7193-4368-ac09-f204d60afceb.png",
+    "updatedAt": "2021-05-24T17:20:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

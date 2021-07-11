@@ -7,6 +7,11 @@
    "title": {
     "en": "Lily Marble"
    },
+   "altTitles": [
+    {
+     "en": "リリィ･マーブル"
+    }
+   ],
    "description": {
     "en": "Meet several women who work at Fitness Club Lily, a members-only gym with a wide range of facilities and classes taught by talented instructors. But although everything may seem peaceful on the surface, feelings between several women are beginning to stir."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-26T08:59:43+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "b51b6a23-5137-4122-b9cd-5ab50137bad0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kisugae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b51b6a23-5137-4122-b9cd-5ab50137bad0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kisugae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "845c0518-783a-47fa-a048-03efa105b64f",
-   "type": "chapter"
-  },
-  {
-   "id": "50abc603-0bbb-4afb-a676-de93af1224c5",
-   "type": "chapter"
-  },
-  {
-   "id": "3b010d95-c44c-48b2-8590-caf2031b8fde",
-   "type": "chapter"
-  },
-  {
-   "id": "65dce27b-f751-44a7-87f9-6beb9d5caaae",
-   "type": "chapter"
-  },
-  {
-   "id": "301a7596-56d8-42ef-be7f-40e7832f3e68",
-   "type": "chapter"
-  },
-  {
-   "id": "2bfe3e10-345a-4c1c-ae71-341251ba13bd",
-   "type": "chapter"
-  },
-  {
-   "id": "f52f86c7-c527-4a3a-bf9f-a13e53ea8dec",
-   "type": "chapter"
-  },
-  {
-   "id": "0bce00c1-4b8f-48cc-9b6a-d94e65a1d4dc",
-   "type": "chapter"
-  },
-  {
-   "id": "8e9d405a-7385-4f86-9548-351f2d5dbdbc",
-   "type": "chapter"
-  },
-  {
-   "id": "9ec4f193-8430-408a-ac02-2baf8100c37a",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "b487f6f1-2836-4f05-8e43-217283d8cd13",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:25+00:00",
+    "description": "",
+    "fileName": "ea08cdcb-ab4b-40a4-a236-11375c267772.png",
+    "updatedAt": "2021-05-24T17:20:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

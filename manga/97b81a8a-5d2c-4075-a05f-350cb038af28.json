@@ -7,6 +7,11 @@
    "title": {
     "en": "Shiranui Kitanroku"
    },
+   "altTitles": [
+    {
+     "en": "しらぬい奇譚録"
+    }
+   ],
    "description": {
     "en": "A man travels, collecting and sharing creepy and weird tales of the supernatural."
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +49,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -52,6 +61,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,71 +73,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-14T03:15:13+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "9c5ad762-132f-41c5-ab77-34589f0df1ea",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inai Kaoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9c5ad762-132f-41c5-ab77-34589f0df1ea",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inai Kaoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cbbb907c-0a0b-45e5-87c9-5723bcb52899",
-   "type": "chapter"
-  },
-  {
-   "id": "41cdde7e-b4e9-4724-b54a-f060b5faefa1",
-   "type": "chapter"
-  },
-  {
-   "id": "864f3b7b-a05b-431e-b6ec-02fb0263c067",
-   "type": "chapter"
-  },
-  {
-   "id": "84840e0d-684a-4bfd-9e5e-8af18a30dade",
-   "type": "chapter"
-  },
-  {
-   "id": "2c2517e4-d9ca-4ebf-b866-ef5dbe6da98a",
-   "type": "chapter"
-  },
-  {
-   "id": "01e493ed-fe08-42a0-88ec-5874c2249750",
-   "type": "chapter"
-  },
-  {
-   "id": "dc1e1a0e-6f74-4d3c-9230-cbc067b2efb2",
-   "type": "chapter"
-  },
-  {
-   "id": "db333a9e-bb5b-4eea-93be-d15e561f2d14",
-   "type": "chapter"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "feef7052-0380-4f74-a01c-fd28834786dc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:37:31+00:00",
+    "description": "",
+    "fileName": "f442af4e-5cb1-44c0-b3f2-70b67a953fc0.jpg",
+    "updatedAt": "2021-05-24T18:37:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

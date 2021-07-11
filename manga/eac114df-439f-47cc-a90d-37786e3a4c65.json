@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Gate of Amitilicia Online - Burari Isekai Kui \u0026quot;Taoshi\u0026quot; Tabi"
+    "en": "Gate of Amitilicia Online - Burari Isekai Kui \"Taoshi\" Tabi"
    },
+   "altTitles": [
+    {
+     "en": "Gate of Amity Risia Online – Rate"
+    },
+    {
+     "en": "ゲート・オブ・アミティリシア・オンライン"
+    },
+    {
+     "en": "ゲート・オブ・アミティリシア・オンライン　ぶらり異世界 食い“倒し”旅"
+    }
+   ],
    "description": {
     "en": "Updating"
    },
@@ -17,7 +28,6 @@
     "raw": "http://seiga.nicovideo.jp/comic/34743"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -28,6 +38,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +50,8 @@
       "name": {
        "en": "Virtual Reality"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -48,6 +62,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +74,8 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -68,59 +86,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-05T01:00:02+00:00",
+   "updatedAt": "2021-05-25T15:49:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "dc2109f7-0f83-4ce7-aeb9-48a9a7ad3d7f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Suigyoku Itachi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5e686207-0553-45b7-93ec-d78af254e4df",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kichijou Terae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f84cd32f-e723-4e98-9152-ad027012471a",
-   "type": "chapter"
-  },
-  {
-   "id": "9763baf7-260c-4025-8cc1-6659f91cca7d",
-   "type": "chapter"
-  },
-  {
-   "id": "d58fc6f5-5ca3-44f6-8df1-e013fbf9f0ea",
-   "type": "chapter"
-  },
-  {
-   "id": "98ed12cf-4e50-4c54-bfce-ee720876cb72",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "8c86611e-fab7-4986-9dec-d1a2f44acdd5",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "a2eb30dc-e9f6-4fd4-87ef-1fe0ee90b7a5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:41+00:00",
+    "description": "",
+    "fileName": "00be9115-84aa-4ffd-9bf1-48362a5f941e.jpg",
+    "updatedAt": "2021-05-24T17:32:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

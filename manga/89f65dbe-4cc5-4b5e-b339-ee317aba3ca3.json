@@ -7,6 +7,26 @@
    "title": {
     "en": "Anata no Jinsei Hikiukemasu!"
    },
+   "altTitles": [
+    {
+     "en": "Anata no Jinsei Hiki Ukemasu!"
+    },
+    {
+     "en": "I'll Take Over Your Life!"
+    },
+    {
+     "en": "Я возьму на себя ответственность за твою жизнь"
+    },
+    {
+     "en": "あなたの人生引き受けます!"
+    },
+    {
+     "en": "我想接受你的人生"
+    },
+    {
+     "en": "接收你的人生!"
+    }
+   ],
    "description": {
     "en": "An elite businessman exerting himself at a publishing company is demoted to the manga editorial department, which is out of his field of experience. Moreover, his first charge is a comic artist that no one can handle..."
    },
@@ -30,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +62,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +72,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,59 +86,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-23T07:17:50+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "e8658a84-17e2-4502-b691-fe07d04dd20d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kamo Nabako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e8658a84-17e2-4502-b691-fe07d04dd20d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kamo Nabako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9beb070a-33ac-40d2-9f0c-a0805c12ffe6",
-   "type": "chapter"
-  },
-  {
-   "id": "18152bdb-a3a5-4353-a7c0-80fd2e2a4907",
-   "type": "chapter"
-  },
-  {
-   "id": "6babf9d0-1ec8-4399-b25d-40a029cf614f",
-   "type": "chapter"
-  },
-  {
-   "id": "cf31fe8c-e3cd-4ddb-8213-dd570bb9b2be",
-   "type": "chapter"
-  },
-  {
-   "id": "1390d925-32f6-4855-bdd6-bbc83b7159dd",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "91b9cffb-430d-4f3b-937c-0e5ab209e228",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:16:25+00:00",
+    "description": "",
+    "fileName": "90f21824-2e67-4900-a0a9-07b2bc96aee0.jpg",
+    "updatedAt": "2021-05-28T23:16:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

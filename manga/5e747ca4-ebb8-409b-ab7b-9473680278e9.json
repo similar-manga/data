@@ -11,7 +11,6 @@
     "en": "Comedy FF7 doujinshi from 1997. Lots of 4koma and low-brow laughs!"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,35 +33,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-06T04:37:54+00:00",
+   "updatedAt": "2021-05-25T15:42:54+00:00"
   }
  },
  "relationships": [
   {
    "id": "5f5393ad-a7db-4093-b094-a7e27194b3b8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Bunko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ab325d6e-cd26-4df8-9e1b-d156b4f2f552",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "a6e9dd6f-7f06-4f8e-82f0-f7a1845c6710",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:58:26+00:00",
+    "description": "",
+    "fileName": "131811e8-d717-4db2-bc1f-23afea62e53e.jpg",
+    "updatedAt": "2021-05-24T17:58:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

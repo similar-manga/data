@@ -7,6 +7,11 @@
    "title": {
     "en": "Haga-kun wa Kamaretai"
    },
+   "altTitles": [
+    {
+     "en": "羽賀くんは噛まれたい"
+    }
+   ],
    "description": {
     "en": "Prisoner Haga was tired of his boring life in jail and thought of staging a jailbreak! Just at that moment, an alpha prison officer was assigned to him...?"
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,8 +41,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +55,8 @@
       "name": {
        "en": "Crime"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,43 +67,53 @@
       "name": {
        "en": "Police"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-15T10:01:04+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "88b2a834-d5b3-41cf-a786-3b88a8861c2c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakishita Senmu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "88b2a834-d5b3-41cf-a786-3b88a8861c2c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakishita Senmu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a071ebe3-62a4-4d3a-a456-5f3ecb976e53",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
-   "type": "tag"
-  },
-  {
-   "id": "df33b754-73a3-4c54-80e6-1a74a8058539",
-   "type": "tag"
+   "id": "5d814649-6ff0-4f6c-a394-ef7267276400",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:03:06+00:00",
+    "description": "",
+    "fileName": "484633f1-631b-4432-89d1-eb773ee9251b.jpg",
+    "updatedAt": "2021-05-24T18:03:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

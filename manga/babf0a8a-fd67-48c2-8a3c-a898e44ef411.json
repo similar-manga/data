@@ -7,6 +7,17 @@
    "title": {
     "en": "Toumei na Usui Mizuiro ni"
    },
+   "altTitles": [
+    {
+     "en": "By the Transparent Azure"
+    },
+    {
+     "en": "Transparent Light Blue"
+    },
+    {
+     "en": "透明な薄い水色に"
+    }
+   ],
    "description": {
     "en": "The manga follows a love triangle between Ichika and her two childhood friends Ritsu and Shun."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +51,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,47 +65,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-16T14:03:51+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "ba51f62b-9ec1-4d50-96b6-9d26f4a12eea",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Iwami Kiyoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ba51f62b-9ec1-4d50-96b6-9d26f4a12eea",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Iwami Kiyoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dd72a090-a82a-494a-bad6-665a640d4873",
-   "type": "chapter"
-  },
-  {
-   "id": "165d8d5e-78ab-4282-8298-4d8d4fec3dba",
-   "type": "chapter"
-  },
-  {
-   "id": "5de19e6a-79d3-4a42-ae58-59a953484f35",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "7aba278e-c893-4f8f-839b-2d460f91fa7f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:46+00:00",
+    "description": "",
+    "fileName": "baf58fec-7a48-424b-a6e1-c6be66f35891.png",
+    "updatedAt": "2021-05-24T17:04:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

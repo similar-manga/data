@@ -7,6 +7,11 @@
    "title": {
     "en": "Nez"
    },
+   "altTitles": [
+    {
+     "en": "ネ"
+    }
+   ],
    "description": {
     "en": "When two completely opposites team up...?!"
    },
@@ -25,8 +30,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,35 +44,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-22T08:32:39+00:00",
+   "updatedAt": "2021-05-25T15:48:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "96df5b63-3904-4436-afc2-80fd127c1f81",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Eda Yuuri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9bbfae38-1cb0-4730-a10a-44b387b0c2bd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Komizu Kiyo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "aee04b60-68a2-41bb-9dd8-deed67456ed5",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "33c4178b-19a7-4f9e-be66-5939dd86ab37",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:41+00:00",
+    "description": "",
+    "fileName": "469dd625-f467-43cf-9590-6846d6f7c262.jpg",
+    "updatedAt": "2021-05-24T16:58:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

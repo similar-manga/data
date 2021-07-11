@@ -7,6 +7,14 @@
    "title": {
     "en": "Maison De Beauties"
    },
+   "altTitles": [
+    {
+     "en": "House Of Beauties"
+    },
+    {
+     "en": "メゾン・ド・ビューティーズ"
+    }
+   ],
    "description": {
     "en": "A low-price, high-quality apartment in the metropolitan area of Tokyo is nothing short of a miracle! It exists, but there's a catch -- tenants must be good-looking and pass an interview by the landlord!? This is a love comedy about what happens when the beautiful people are all gathered under one roof!"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +74,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-21T13:03:00+00:00",
+   "updatedAt": "2021-05-25T15:39:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "32a75503-a054-4c57-a7e0-e90aa00f5f63",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mizushiro Setona",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "32a75503-a054-4c57-a7e0-e90aa00f5f63",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mizushiro Setona",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "09d6c7fd-d966-4089-be63-4b699b7523eb",
-   "type": "chapter"
-  },
-  {
-   "id": "e1353c54-6d39-4937-9c8a-6a37168ace78",
-   "type": "chapter"
-  },
-  {
-   "id": "dcc1d1cc-b094-4668-b61b-755b1a52b9ac",
-   "type": "chapter"
-  },
-  {
-   "id": "30fe1d85-1c55-4b5a-bfbe-40ccff06d8b7",
-   "type": "chapter"
-  },
-  {
-   "id": "baee1ff5-fb3c-44d1-adbd-696fcd5cf799",
-   "type": "chapter"
-  },
-  {
-   "id": "cc2f738e-42a9-4b43-941c-4923e44bb7a0",
-   "type": "chapter"
-  },
-  {
-   "id": "1b742c6e-4d58-46b3-81c2-7d92ff4ddf25",
-   "type": "chapter"
-  },
-  {
-   "id": "ce34e49a-aaff-4464-93a4-07d638093ac0",
-   "type": "chapter"
-  },
-  {
-   "id": "92c2e1ae-4b41-41cb-afea-e1933f9a45af",
-   "type": "chapter"
-  },
-  {
-   "id": "0b231217-d03e-4b02-b126-d96345a50f98",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "7beb3446-fee2-4fe4-b4d1-694f24831408",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:28:26+00:00",
+    "description": "",
+    "fileName": "26276182-ef03-4b75-905a-c373541bd832.jpg",
+    "updatedAt": "2021-05-24T18:28:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

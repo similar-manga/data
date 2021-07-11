@@ -7,6 +7,11 @@
    "title": {
     "en": "Fantasies"
    },
+   "altTitles": [
+    {
+     "en": "ファンタジーズ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +19,6 @@
     "mu": "153037"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,43 +54,53 @@
       "name": {
        "en": "Crime"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-29T18:05:00+00:00",
+   "updatedAt": "2021-05-25T15:48:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "e73f5743-dd29-47f1-b228-e62578da1e7f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oosuga Gen",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e73f5743-dd29-47f1-b228-e62578da1e7f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oosuga Gen",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a177274f-4002-4e9d-8f67-36bedb7c4fa1",
-   "type": "chapter"
-  },
-  {
-   "id": "f6e4319b-e89b-4abe-9311-3e002ad516b2",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
-   "type": "tag"
+   "id": "f909cb9d-f693-4f3f-ab71-a22d2e0c77c9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:31:57+00:00",
+    "description": "",
+    "fileName": "97aab55b-d0ee-4844-a382-db57c4fb50d9.png",
+    "updatedAt": "2021-05-24T17:31:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

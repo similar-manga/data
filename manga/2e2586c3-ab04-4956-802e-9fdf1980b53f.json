@@ -7,11 +7,15 @@
    "title": {
     "en": "Sakura Illustrated"
    },
+   "altTitles": [
+    {
+     "en": "Sakura Gaho"
+    }
+   ],
    "description": {
     "en": "From Concerned Theatre Japan Vol. 2 #1"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Military"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,39 +51,53 @@
       "name": {
        "en": "Philosophical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-15T02:01:24+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "02ee8d46-ee7d-4a2b-8e95-7d6c5031c88a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akasegawa Genpei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "02ee8d46-ee7d-4a2b-8e95-7d6c5031c88a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akasegawa Genpei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d0c6b651-344b-43f6-8a28-5c14f285e054",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
-   "type": "tag"
-  },
-  {
-   "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
-   "type": "tag"
+   "id": "bd86820e-0198-4fbc-90e8-cd007bb4ff13",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:52:26+00:00",
+    "description": "",
+    "fileName": "efa873b6-61fc-4a35-9a61-4f651a815c7b.jpg",
+    "updatedAt": "2021-05-24T17:52:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

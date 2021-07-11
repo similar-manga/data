@@ -7,6 +7,14 @@
    "title": {
     "en": "Mune no Kodou"
    },
+   "altTitles": [
+    {
+     "en": "Please Feel My Pulse"
+    },
+    {
+     "en": "胸の鼓動"
+    }
+   ],
    "description": {
     "en": "Ishikawa feels that his relationship with Yamaguchi has entered a stale period. Why is Yamaguchi ignoring him, and how can he reignite the spark between them?"
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,8 +58,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,43 +72,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-19T16:11:49+00:00",
+   "updatedAt": "2021-05-25T15:49:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "c5889e41-d0c9-40db-9da4-de60c2afb147",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kunieda Saika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c5889e41-d0c9-40db-9da4-de60c2afb147",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kunieda Saika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "abeb8de6-51d8-4303-a30b-f19b88e3e06c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "e2bb89aa-6057-4f0c-980a-029e3c740bff",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:05+00:00",
+    "description": "",
+    "fileName": "f4e709f0-60e4-4cb4-85c2-60da73fe16ae.jpg",
+    "updatedAt": "2021-05-24T17:38:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

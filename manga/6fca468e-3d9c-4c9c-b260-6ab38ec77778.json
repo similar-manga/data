@@ -7,6 +7,17 @@
    "title": {
     "en": "Earth Recording 0001"
    },
+   "altTitles": [
+    {
+     "en": "Chikyū kiroku 0001"
+    },
+    {
+     "en": "地球記録0001"
+    },
+    {
+     "en": "地球记录0001"
+    }
+   ],
    "description": {
     "en": "Astronaut Mawatari encounters a humanoid creature during a moon surface investigation. Because they are both lonely, they promise to teach each other about the universe and the earth...!?"
    },
@@ -15,7 +26,6 @@
     "mal": "131180"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +36,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +48,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +60,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +72,8 @@
       "name": {
        "en": "Aliens"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -66,51 +84,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-30T02:39:17+00:00",
+   "updatedAt": "2021-05-25T15:43:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "b26a0279-fa4c-4f09-838b-5825db88d5d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Toru Kuramori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b26a0279-fa4c-4f09-838b-5825db88d5d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Toru Kuramori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b17b5ae0-1f8c-4490-b3a3-7bd274220559",
-   "type": "chapter"
-  },
-  {
-   "id": "199ad21e-a575-412b-8940-5316465e3950",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e64f6742-c834-471d-8d72-dd51fc02b835",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "351bd606-2aa5-4f16-8eb3-8c0e32227329",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:24:51+00:00",
+    "description": "",
+    "fileName": "42327367-ce57-4835-b1b4-288cf6265a60.jpg",
+    "updatedAt": "2021-05-24T18:24:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

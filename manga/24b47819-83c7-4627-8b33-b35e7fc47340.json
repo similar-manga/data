@@ -15,7 +15,6 @@
     "mu": "131041"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +25,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,8 +35,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,75 +49,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-29T19:57:23+00:00",
+   "updatedAt": "2021-05-25T15:40:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "25fb0e6a-3db1-4dd8-a737-1ec118520bd8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tonari No Kobeya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "25fb0e6a-3db1-4dd8-a737-1ec118520bd8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tonari No Kobeya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ebacc7e2-6191-4130-aa09-eab19b4086f8",
-   "type": "chapter"
-  },
-  {
-   "id": "bb853b4f-c346-48bc-b8fe-2e288605ca73",
-   "type": "chapter"
-  },
-  {
-   "id": "1578476b-e6da-448a-8067-a58888053de5",
-   "type": "chapter"
-  },
-  {
-   "id": "b948dfba-ad11-415a-bd38-f424ab79fefe",
-   "type": "chapter"
-  },
-  {
-   "id": "5ce08def-56b7-4c11-8940-6e92b6b82e4f",
-   "type": "chapter"
-  },
-  {
-   "id": "c67976f1-6729-438a-aaf6-859a9265caff",
-   "type": "chapter"
-  },
-  {
-   "id": "72128260-ad0a-4325-894e-c1567a24c995",
-   "type": "chapter"
-  },
-  {
-   "id": "4c2ed78c-03aa-46b4-b867-1b0435cf555f",
-   "type": "chapter"
-  },
-  {
-   "id": "7902c25d-7cad-42c6-8a3c-a50bf550350e",
-   "type": "chapter"
-  },
-  {
-   "id": "388e1313-a414-41c8-9a4a-6314a8a9c998",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "abc695e7-31f1-4fe1-9d56-21d59d44f279",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:32+00:00",
+    "description": "",
+    "fileName": "85e2e0b3-732c-40a3-8eb5-434ae951762a.jpg",
+    "updatedAt": "2021-05-24T16:59:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

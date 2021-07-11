@@ -7,6 +7,20 @@
    "title": {
     "en": "Howling Pen"
    },
+   "altTitles": [
+    {
+     "en": "Comic Bomber"
+    },
+    {
+     "en": "Hoero Pen"
+    },
+    {
+     "en": "Manga  Bomber"
+    },
+    {
+     "en": "吼えろペン"
+    }
+   ],
    "description": {
     "en": "Hot blooded manga sequel about... writing manga."
    },
@@ -33,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +59,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +71,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,79 +83,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-05T15:00:37+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "d2947a20-bedd-4cff-874f-ca2e68099eff",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimamoto Kazuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d2947a20-bedd-4cff-874f-ca2e68099eff",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimamoto Kazuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a5acd192-d06d-49e1-8589-327984b60be1",
-   "type": "chapter"
-  },
-  {
-   "id": "b7843a48-5332-4724-ab5b-a30eeb3113da",
-   "type": "chapter"
-  },
-  {
-   "id": "e5d2a5de-d206-4430-b5d7-5a9da7a54ead",
-   "type": "chapter"
-  },
-  {
-   "id": "121ca0ba-2d2d-4787-9fcd-febe2699bf2f",
-   "type": "chapter"
-  },
-  {
-   "id": "d1715911-f677-475d-8361-49853aba0c8b",
-   "type": "chapter"
-  },
-  {
-   "id": "7a7845aa-f506-4686-8f07-39d03c8dab67",
-   "type": "chapter"
-  },
-  {
-   "id": "09fe7b58-4104-4131-a098-86f1441994c4",
-   "type": "chapter"
-  },
-  {
-   "id": "64ef527a-08c2-4f41-a71d-cfdad2e04469",
-   "type": "chapter"
-  },
-  {
-   "id": "55c8fb48-7e34-4b26-b10a-d6e80c704467",
-   "type": "chapter"
-  },
-  {
-   "id": "43d1f546-0849-4543-94a5-bf0980913a93",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "a1aa61f0-39ec-4fb5-898d-409e507d5663",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:19+00:00",
+    "description": "",
+    "fileName": "65cce702-d753-47a3-9950-e281c105fac6.jpg",
+    "updatedAt": "2021-05-24T17:00:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

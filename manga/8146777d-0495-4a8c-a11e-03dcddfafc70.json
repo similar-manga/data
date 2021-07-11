@@ -30,6 +30,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,71 +54,53 @@
       "name": {
        "en": "Delinquents"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-15T16:57:25+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "6d6b9ffd-a4d2-40ca-987e-bb51e0a424f6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Hiroshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6d6b9ffd-a4d2-40ca-987e-bb51e0a424f6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Hiroshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "60668d11-1a30-4cce-8d4f-23d6dc39b015",
-   "type": "chapter"
-  },
-  {
-   "id": "330bbd91-b8c3-4e04-a8db-4d23a1941dc8",
-   "type": "chapter"
-  },
-  {
-   "id": "df722106-6c9b-4461-a97f-e396cab627ea",
-   "type": "chapter"
-  },
-  {
-   "id": "0cb29dd4-3eea-446d-bede-a3c20845477a",
-   "type": "chapter"
-  },
-  {
-   "id": "0a41f024-a498-4f5f-bd8a-2c8c0d59dd13",
-   "type": "chapter"
-  },
-  {
-   "id": "e664a4d9-8053-475b-96c0-3029e57d690d",
-   "type": "chapter"
-  },
-  {
-   "id": "51600098-d877-4ac5-9375-e2791c642034",
-   "type": "chapter"
-  },
-  {
-   "id": "611439f0-39b4-4cdd-a09a-501cfcd82f26",
-   "type": "chapter"
-  },
-  {
-   "id": "904ddb74-f940-4dd5-a001-4e1c07df12d8",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "da2d50ca-3018-4cc0-ac7a-6b7d472a29ea",
-   "type": "tag"
+   "id": "d79125ab-11d7-4fc3-83b3-f9f566acd566",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:39+00:00",
+    "description": "",
+    "fileName": "785a81f3-209b-4566-905a-232c1c8478fd.jpg",
+    "updatedAt": "2021-05-24T17:04:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Sengoku Paradise"
    },
+   "altTitles": [
+    {
+     "en": "Warring State Period Paradise"
+    },
+    {
+     "en": "戦国パラダイス"
+    }
+   ],
    "description": {
     "en": "One night, after being accosted by a fortune-teller who's adamant that Tanaka will meet with great misfortune, he is shockingly confessed to by a work colleague. The two men struggle and following an abrupt fall, Tanaka mysteriously finds himself tossed back in time to the year 1581. Suddenly thrust into the violent world of the Warring States Era, our reluctant time-traveler is in for the adventure of a lifetime."
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,8 +59,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,47 +73,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-24T23:36:32+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "45775317-9fb9-4551-ac38-7cdc25368323",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakurai Shushushu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "45775317-9fb9-4551-ac38-7cdc25368323",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakurai Shushushu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8d26e58e-81fd-4846-8dc9-1b95c25798cf",
-   "type": "chapter"
-  },
-  {
-   "id": "6ddc9437-ac96-4ad4-a4f1-242ccea2d091",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "e3fb0392-1301-4f66-b396-30dbc318962a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:59:24+00:00",
+    "description": "",
+    "fileName": "eec9ae57-85f2-483c-810a-b6c13271b848.png",
+    "updatedAt": "2021-05-24T17:59:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

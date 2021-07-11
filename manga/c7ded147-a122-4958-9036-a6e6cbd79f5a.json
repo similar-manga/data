@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Aikatsu Stars! Manga \u0026amp; Idol Mini Meikan"
+    "en": "Aikatsu Stars! Manga \u0026 Idol Mini Meikan"
    },
+   "altTitles": [
+    {
+     "en": "アイカツスターズ! まんが\u0026アイドルミニ名かん"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +51,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,39 +63,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-04-22T19:46:03+00:00",
+   "updatedAt": "2020-04-22T19:46:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "812110ba-a81f-45a0-bc6c-f73cf9e77454",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kanaki Shiori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "63850701-c2f7-4afc-bf4d-50ce9a78459c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KODAKA Nao",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "8ec060dd-a34d-4f64-ba15-b68d212033b5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:53:22+00:00",
+    "description": "",
+    "fileName": "a8e3ca0c-d2db-4ee7-bce0-3512e9b5c3f6.jpg",
+    "updatedAt": "2021-05-24T17:53:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

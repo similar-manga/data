@@ -7,8 +7,19 @@
    "title": {
     "en": "Sakura no Ki no Shita ni wa"
    },
+   "altTitles": [
+    {
+     "en": "Under the Cherry Trees"
+    },
+    {
+     "en": "Under the Sakura Trees"
+    },
+    {
+     "en": "桜の木の下には"
+    }
+   ],
    "description": {
-    "en": "2 color page side story for the famous poetic short story \u0026quot;Under the Cherry Trees\u0026quot; written by Motojirou Kajii in the early 1900s."
+    "en": "2 color page side story for the famous poetic short story \"Under the Cherry Trees\" written by Motojirou Kajii in the early 1900s."
    },
    "links": {
     "mu": "45185"
@@ -25,6 +36,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +48,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,39 +60,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-15T11:25:33+00:00",
+   "updatedAt": "2021-05-25T15:49:24+00:00"
   }
  },
  "relationships": [
   {
    "id": "e06b9369-9a23-41f9-8d8a-ad84c9d372bf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kajii Motojirou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bed686a9-f1c8-475d-9ad0-57b6245a851f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyamoto Kano",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1a990a41-9d47-4272-9ac6-b1a26540c120",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "1c4e47fa-280c-4ffe-9330-88b3cc62c36e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:14:28+00:00",
+    "description": "",
+    "fileName": "de601ce5-4c67-4fef-bd99-3562fbb31cdd.jpg",
+    "updatedAt": "2021-05-24T18:14:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -24,8 +24,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +38,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,47 +50,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-31T01:55:10+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "034986f5-6706-4fb5-9e9b-889d4f0e7d53",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kayako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "034986f5-6706-4fb5-9e9b-889d4f0e7d53",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kayako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e366dbaf-e655-4928-84f6-1ae5d582ead6",
-   "type": "chapter"
-  },
-  {
-   "id": "c80c6a70-ce38-4dc2-a3d6-549b01103718",
-   "type": "chapter"
-  },
-  {
-   "id": "a2e05320-8aab-4518-8de7-4bb3e532e70b",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "6de805f6-1ccf-4f17-9cd9-bdbde94b4e7d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:58+00:00",
+    "description": "",
+    "fileName": "8888efe9-caaf-4fb6-8532-ee0240f28981.jpg",
+    "updatedAt": "2021-05-24T17:20:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

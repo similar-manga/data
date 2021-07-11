@@ -7,6 +7,14 @@
    "title": {
     "en": "Rumspringa no Joukei"
    },
+   "altTitles": [
+    {
+     "en": "The Scene Of My Rumspringa"
+    },
+    {
+     "en": "ラムスプリンガの情景"
+    }
+   ],
    "description": {
     "en": "The story of an Amish boy named Theo living in America in the 1980s. Theo has travelled to a bar for Rumspringa, a traditional coming-of-age period for members of the Amish community where the adolescent leaves the enclosed religious community to take part in the outside world. There, Theo meets Oz, a man working as a waiter after abandoning his dream to be a Broadway performer."
    },
@@ -32,6 +40,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +52,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,8 +62,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +76,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -72,75 +88,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-11T17:24:59+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "f88a7bcd-8fea-48e8-a4a7-179598067249",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Azuma Kaya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f88a7bcd-8fea-48e8-a4a7-179598067249",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Azuma Kaya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "faed921d-b692-48a4-8e8e-ef77152f15b3",
-   "type": "chapter"
-  },
-  {
-   "id": "92b0cd8b-10d4-4955-aede-d336db0e4c5d",
-   "type": "chapter"
-  },
-  {
-   "id": "b9d5bc57-4d59-49bf-bd6e-6b1197616dd5",
-   "type": "chapter"
-  },
-  {
-   "id": "add5e06f-1f73-41f9-8157-8072c6c1fe3c",
-   "type": "chapter"
-  },
-  {
-   "id": "13de1dc6-31f5-4acb-a313-28387d546f77",
-   "type": "chapter"
-  },
-  {
-   "id": "a4480432-5e28-4b01-b25c-17606cea54c5",
-   "type": "chapter"
-  },
-  {
-   "id": "6974cd31-86af-4c7e-8206-2d026184d1b0",
-   "type": "chapter"
-  },
-  {
-   "id": "948e1da5-d6a5-4c24-9e60-3be15d2b682c",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "2bc29e6b-0816-4fd2-a8aa-b47af6a5d1ce",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:29+00:00",
+    "description": "",
+    "fileName": "8118da03-9742-48f3-b844-d7cdb4a18dcc.jpg",
+    "updatedAt": "2021-05-24T17:33:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

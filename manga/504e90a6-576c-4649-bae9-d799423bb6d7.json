@@ -7,6 +7,11 @@
    "title": {
     "en": "Pure Blood"
    },
+   "altTitles": [
+    {
+     "en": "ピュア ブラッド"
+    }
+   ],
    "description": {
     "en": "Leon is a pure blood vampire, able to suppress his instinctual desire for blood and live amongst humans due to his deterrent, Noah. Bearing a seal that complements Leon's, Noah holds Leon's power in check. However, Noah's own powers are oddly unstable. This is their story."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Vampires"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,51 +71,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-11T23:32:26+00:00",
+   "updatedAt": "2021-05-25T15:42:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "c20c8b2d-618a-460c-a13f-eee3788f8273",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aoki Akane",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c20c8b2d-618a-460c-a13f-eee3788f8273",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aoki Akane",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ab0d6da5-dfca-43c4-8e8d-ed04e655bb84",
-   "type": "chapter"
-  },
-  {
-   "id": "8cf7ecb8-ad5a-43c8-91b7-4c266ebe142a",
-   "type": "chapter"
-  },
-  {
-   "id": "3ef24ba1-2aa4-4e37-9bbe-ed8c61db27bd",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "d7d1730f-6eb0-4ba6-9437-602cac38664c",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "c303dcb0-e169-4f9c-80cb-ba4d26b4acda",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:37:15+00:00",
+    "description": "",
+    "fileName": "13a5b988-13cd-4084-8362-3fce72872ea8.jpg",
+    "updatedAt": "2021-05-24T18:37:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

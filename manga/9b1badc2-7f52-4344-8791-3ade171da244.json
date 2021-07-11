@@ -7,6 +7,11 @@
    "title": {
     "en": "LOW LIFE"
    },
+   "altTitles": [
+    {
+     "en": "ローライフ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +57,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +69,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -68,6 +81,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -78,6 +93,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -88,6 +105,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -98,6 +117,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -108,6 +129,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -118,95 +141,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-01T11:59:40+00:00",
+   "updatedAt": "2021-05-25T15:45:37+00:00"
   }
  },
  "relationships": [
   {
    "id": "30c739e6-446d-45ee-8a97-0b7000b74486",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OOSHIMA Hirokazu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "30c739e6-446d-45ee-8a97-0b7000b74486",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OOSHIMA Hirokazu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a492b29d-71bc-484f-b44d-a9e87be9052b",
-   "type": "chapter"
-  },
-  {
-   "id": "235b896f-7452-4da3-a767-ecee9e377795",
-   "type": "chapter"
-  },
-  {
-   "id": "6517097c-9157-47b0-904a-0160693c8949",
-   "type": "chapter"
-  },
-  {
-   "id": "eb6cfb6c-82f5-4409-a94a-cf21256e70e8",
-   "type": "chapter"
-  },
-  {
-   "id": "d45d4309-46d1-4d62-a420-99960f7aaa48",
-   "type": "chapter"
-  },
-  {
-   "id": "f530cce7-7158-4332-aa76-15f32b8e3e5b",
-   "type": "chapter"
-  },
-  {
-   "id": "fdb8d213-4972-4faf-8e2b-7edcb8dccdc9",
-   "type": "chapter"
-  },
-  {
-   "id": "c84afeed-d167-4052-b805-0a94c73376fe",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "7450e452-15ed-4f20-a14f-c4b4408e0b9c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:01:23+00:00",
+    "description": "",
+    "fileName": "dd4eaf86-0611-41bd-b719-5d8af1da992c.jpg",
+    "updatedAt": "2021-05-24T18:01:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

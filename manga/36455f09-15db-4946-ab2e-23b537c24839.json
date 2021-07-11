@@ -7,6 +7,17 @@
    "title": {
     "en": "Granulated Sugar"
    },
+   "altTitles": [
+    {
+     "en": "Emery Sugar"
+    },
+    {
+     "en": "Сахарный песок"
+    },
+    {
+     "en": "砂糖;"
+    }
+   ],
    "description": {
     "en": "Gosutorai has very shoujo-like dreams, even though he's a boy. He decides that he wants to have his first kiss only at his wedding, and his girlfriend, Kogure Nao, thought that was cute. But dreams are still just dreams, aren't they?"
    },
@@ -28,6 +39,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +51,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,43 +63,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-02T08:24:56+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "ff41818b-6a33-459f-8c9e-6079e6d3074c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Meguro Amu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ff41818b-6a33-459f-8c9e-6079e6d3074c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Meguro Amu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b8c023a0-e0eb-430c-bb19-9214fdc67195",
-   "type": "chapter"
-  },
-  {
-   "id": "14e81bd9-2870-45e1-8110-b0a9f90e50a5",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "40179700-3893-4f91-9325-a15558f2b8c3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:36:14+00:00",
+    "description": "",
+    "fileName": "63731ae0-2a9b-46d7-919f-6df574f5131f.jpg",
+    "updatedAt": "2021-05-24T18:36:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

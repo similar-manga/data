@@ -7,6 +7,14 @@
    "title": {
     "en": "Mono"
    },
+   "altTitles": [
+    {
+     "en": "mono"
+    },
+    {
+     "en": "Mono (AFRO)"
+    }
+   ],
    "description": {
     "en": "A story about three high school girls in the Cinephoto Club (Photograph + Cinema)."
    },
@@ -19,7 +27,6 @@
     "mu": "151103"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -31,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +50,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +62,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -61,79 +74,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-10T00:25:55+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "ccff50e0-042c-4838-b3f3-c93c61484185",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Afro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ccff50e0-042c-4838-b3f3-c93c61484185",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Afro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "af7597cc-e279-40a3-9f8a-2f42ec77689b",
-   "type": "chapter"
-  },
-  {
-   "id": "5d7199e5-10cd-4cbe-83c6-1920400139ef",
-   "type": "chapter"
-  },
-  {
-   "id": "53161826-16e6-462f-b4ce-31877d807312",
-   "type": "chapter"
-  },
-  {
-   "id": "3ed9b135-7ae6-4854-883b-3759e31808d1",
-   "type": "chapter"
-  },
-  {
-   "id": "95ceaf1e-00f2-4069-9fa1-ffbe929ec710",
-   "type": "chapter"
-  },
-  {
-   "id": "e827e93c-a393-474f-8c5a-f7454a864208",
-   "type": "chapter"
-  },
-  {
-   "id": "def06e33-96de-4239-a40c-28bb763297ab",
-   "type": "chapter"
-  },
-  {
-   "id": "abc7b471-903e-495b-9e86-99c46adc33cf",
-   "type": "chapter"
-  },
-  {
-   "id": "134d128c-cfe4-4aae-ab8e-1188e717099f",
-   "type": "chapter"
-  },
-  {
-   "id": "0d88e15b-28aa-4c6b-9d1b-f59743914bb6",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "c45cf1b1-eb74-4f0c-9a27-404c864b4bce",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:14+00:00",
+    "description": "",
+    "fileName": "7586d824-2f4b-44fa-bf0e-0eadccc6ca8a.jpg",
+    "updatedAt": "2021-05-24T17:22:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

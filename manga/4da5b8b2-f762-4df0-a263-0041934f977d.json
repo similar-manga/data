@@ -7,6 +7,17 @@
    "title": {
     "en": "Crack Star"
    },
+   "altTitles": [
+    {
+     "en": "Crackster"
+    },
+    {
+     "en": "クラックスター"
+    },
+    {
+     "en": "크랙 스타"
+    }
+   ],
    "description": {
     "en": "Shino and Mio were close friends in high school, but life happened and they went their separate ways. Years later, Shino, who's now living in Tokyo, gets a surprise when Mio arrives at his house in the middle of the night. Agreeing to let the broke Mio stay, their days of fun begin as they slowly revive their friendship. But is their relationship all it seems, and what secret is Mio hiding underneath that happy-go-lucky, idiotic facade...?"
    },
@@ -32,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,8 +53,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +67,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,79 +79,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-20T10:38:08+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "f8352398-b8d7-4f0d-b47e-fc48df57771d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurahashi Tomo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f8352398-b8d7-4f0d-b47e-fc48df57771d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kurahashi Tomo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fba8df98-c1ef-41ea-a0bf-dde6d835bcc1",
-   "type": "chapter"
-  },
-  {
-   "id": "51519346-7345-4739-82dd-212ad9ae768c",
-   "type": "chapter"
-  },
-  {
-   "id": "1edf2e9c-3793-492d-9171-0be63178cbff",
-   "type": "chapter"
-  },
-  {
-   "id": "9ca9db4c-fca8-4fb9-9373-60d05f4d50ee",
-   "type": "chapter"
-  },
-  {
-   "id": "0230ecb9-b4e2-4e9e-926f-ee32adab190b",
-   "type": "chapter"
-  },
-  {
-   "id": "e329023b-e3eb-4c92-a654-572b6c5079c0",
-   "type": "chapter"
-  },
-  {
-   "id": "afdde8da-58ff-4e32-9298-d94361adfe39",
-   "type": "chapter"
-  },
-  {
-   "id": "e60fb060-6653-4a20-82e4-b631a6c5fb88",
-   "type": "chapter"
-  },
-  {
-   "id": "a1332db0-9fb1-4162-b433-49a2c6c7ffcb",
-   "type": "chapter"
-  },
-  {
-   "id": "0041925a-9665-4359-aed9-7ef852c41c2c",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "81bd1584-87e5-4f6d-a7a1-1622d69b87d1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:28+00:00",
+    "description": "",
+    "fileName": "04d256b8-d998-4ccf-955e-d06a2e6b5b2d.jpg",
+    "updatedAt": "2021-05-24T16:58:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

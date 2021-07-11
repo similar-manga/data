@@ -7,6 +7,11 @@
    "title": {
     "en": "Hunky Dory"
    },
+   "altTitles": [
+    {
+     "en": "ハンキー・ドリー"
+    }
+   ],
    "description": {
     "en": "The protagonist Yukari and the twin brothers Shun and Ou have grown up like a family ever since they were children. However, their relationship begins changing on the first day of high school...?"
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,75 +60,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-19T22:27:58+00:00",
+   "updatedAt": "2021-05-25T15:40:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "a798b182-bddd-4153-a313-c5b543e85c66",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Watanabe Kana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a798b182-bddd-4153-a313-c5b543e85c66",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Watanabe Kana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2efa1567-bc1d-470a-8b58-1e34c5bcb3db",
-   "type": "chapter"
-  },
-  {
-   "id": "f013e131-4ccc-4c0a-8298-fd79a605f350",
-   "type": "chapter"
-  },
-  {
-   "id": "2097d70b-3d5e-4b04-91a9-06636b846dce",
-   "type": "chapter"
-  },
-  {
-   "id": "09994076-11ab-49cc-8a1e-b034b0b8501a",
-   "type": "chapter"
-  },
-  {
-   "id": "3a64f19a-400f-45a0-a92f-091fb148dfe8",
-   "type": "chapter"
-  },
-  {
-   "id": "e40c3a58-2466-4d72-baeb-37d524cba0e0",
-   "type": "chapter"
-  },
-  {
-   "id": "c1af6492-2779-4cc0-a14a-c49f9b51559b",
-   "type": "chapter"
-  },
-  {
-   "id": "bb2f6eea-2f8f-4c7f-b24c-e2e3c436e1c7",
-   "type": "chapter"
-  },
-  {
-   "id": "a3fbfb37-9449-4b8b-816c-4ad13634827d",
-   "type": "chapter"
-  },
-  {
-   "id": "8992f5a1-f44c-4eb1-835c-a834cbbb5829",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "4d8fe286-493e-4fe2-aea6-5db2df3709c1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:04+00:00",
+    "description": "",
+    "fileName": "cba56948-3fec-4d2c-87ad-055611d21d7a.jpg",
+    "updatedAt": "2021-05-24T16:55:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

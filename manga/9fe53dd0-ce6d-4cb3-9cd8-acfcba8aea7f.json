@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Cafe d\u0026eacute; Hanadan"
+    "en": "Cafe dé Hanadan"
    },
+   "altTitles": [
+    {
+     "en": "カフェ ド ハナダン"
+    }
+   ],
    "description": {
-    "en": "CAFE d\u0026eacute; HANADAN is a spin-off and sequel of Boys Over Flowers. The series follows Tsukushi Makino and her interactions with the F4, including her boyfriend Tsukasa Domyoji."
+    "en": "CAFE dé HANADAN is a spin-off and sequel of Boys Over Flowers. The series follows Tsukushi Makino and her interactions with the F4, including her boyfriend Tsukasa Domyoji."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,51 +39,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-18T09:07:35+00:00",
+   "updatedAt": "2021-05-25T15:45:45+00:00"
   }
  },
  "relationships": [
   {
    "id": "79f441ff-8bf7-4378-b5f3-c6b6cc173d3b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kamio Youko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "79f441ff-8bf7-4378-b5f3-c6b6cc173d3b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kamio Youko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4e042935-daa9-472f-b261-cf474f886788",
-   "type": "chapter"
-  },
-  {
-   "id": "7584ddde-3cba-4051-83d8-6c3531ceb79a",
-   "type": "chapter"
-  },
-  {
-   "id": "fa2b8d51-ae48-432e-b448-e7db0a17d648",
-   "type": "chapter"
-  },
-  {
-   "id": "7962bc63-71c5-49ae-a9a9-a702c60c1694",
-   "type": "chapter"
-  },
-  {
-   "id": "c6c1db0d-746e-40c4-983a-09f18638f948",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "294e6b66-3f04-4fda-8403-004f23dc4ff3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:12:16+00:00",
+    "description": "",
+    "fileName": "48ac3f29-46af-4a69-a182-58e32a6b611c.jpg",
+    "updatedAt": "2021-05-24T17:12:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

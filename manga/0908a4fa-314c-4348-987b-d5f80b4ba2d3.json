@@ -7,6 +7,14 @@
    "title": {
     "en": "Ghost Teller"
    },
+   "altTitles": [
+    {
+     "en": "Gwijeongudam"
+    },
+    {
+     "en": "귀전구담"
+    }
+   ],
    "description": {
     "en": "When people tell scary stories, they always tell ghost stories. \r\nBut when ghosts tell stories, they tell ones far scarier and terrifying: human stories."
    },
@@ -29,6 +37,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -49,6 +61,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +73,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -69,6 +85,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -79,6 +97,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -89,91 +109,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-08T05:48:16+00:00",
+   "updatedAt": "2021-05-25T15:39:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "b2b61359-ab61-41f0-9e8e-dcaf3f564448",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "QTT",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b2b61359-ab61-41f0-9e8e-dcaf3f564448",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "QTT",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "720bed60-b601-41dd-9e7c-40607c5f281c",
-   "type": "chapter"
-  },
-  {
-   "id": "0e9f854a-207d-4588-aec6-89d085aae488",
-   "type": "chapter"
-  },
-  {
-   "id": "44567c2c-01e0-4a47-a0c8-b5a32babed2a",
-   "type": "chapter"
-  },
-  {
-   "id": "f5e6d74c-7779-4e55-854b-4b918260cc3b",
-   "type": "chapter"
-  },
-  {
-   "id": "d69de072-e2c0-4ffd-92fd-e10c52fbbe00",
-   "type": "chapter"
-  },
-  {
-   "id": "e15d69c4-3b2f-4397-baa7-b7e3079817e4",
-   "type": "chapter"
-  },
-  {
-   "id": "a3f34115-41c0-424c-a656-60f4f729500c",
-   "type": "chapter"
-  },
-  {
-   "id": "289180d7-2d18-4e21-81e5-fb234ce032a0",
-   "type": "chapter"
-  },
-  {
-   "id": "2bfcdc6f-0594-4d21-a273-72eb81b45648",
-   "type": "chapter"
-  },
-  {
-   "id": "34bf0c48-7e0c-4f14-ae27-455d89e3d28e",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "b4415f7a-e4f4-4f3a-9fbc-606b1ae831e8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:36+00:00",
+    "description": "",
+    "fileName": "878943ab-0728-4dac-be8d-a1c5bb05d403.jpg",
+    "updatedAt": "2021-05-24T17:00:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

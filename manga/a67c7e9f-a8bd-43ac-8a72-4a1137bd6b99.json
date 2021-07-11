@@ -7,6 +7,20 @@
    "title": {
     "en": "Bushin Gikyoku"
    },
+   "altTitles": [
+    {
+     "en": "Beijing Opera"
+    },
+    {
+     "en": "Story of Beijing Opera"
+    },
+    {
+     "en": "The Story of Beijing Opera"
+    },
+    {
+     "en": "武神戯曲"
+    }
+   ],
    "description": {
     "en": "Tokyo, 2002. Tatsuaki dares to learn something novel to the most of Japanese: Beijing Opera. One day, he receives a Kouu mask from his master. Just for fun he put it on and is instantly transported back to Beijing, circa 1924! So begins Tatsuaki's adventures in the Beijing Opera House."
    },
@@ -30,6 +44,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +56,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,75 +68,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-03T14:59:18+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "b01c1c01-bb54-41e8-8585-2276285e187b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UEDA Hiroshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b01c1c01-bb54-41e8-8585-2276285e187b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UEDA Hiroshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4bd2fc31-5237-4b81-a22b-edaea1816490",
-   "type": "chapter"
-  },
-  {
-   "id": "6074a45a-2fbc-49fe-b73f-acc32bf9b62a",
-   "type": "chapter"
-  },
-  {
-   "id": "55d34a6e-ab6d-4496-904d-50426a3a922a",
-   "type": "chapter"
-  },
-  {
-   "id": "39de6dab-8142-486f-a2d8-690f5de07490",
-   "type": "chapter"
-  },
-  {
-   "id": "66a28c99-cdb2-4d25-851e-7da9dea038c0",
-   "type": "chapter"
-  },
-  {
-   "id": "d45a8f4c-859e-49ff-9f90-3d36b12585b0",
-   "type": "chapter"
-  },
-  {
-   "id": "b1e7a6c8-5bfe-420c-a521-200446d0e7c3",
-   "type": "chapter"
-  },
-  {
-   "id": "4afdc62a-b4c5-4eb7-8729-7b5831f3f5af",
-   "type": "chapter"
-  },
-  {
-   "id": "609307eb-e75e-4fd6-9c48-4e3cea5c345b",
-   "type": "chapter"
-  },
-  {
-   "id": "cec3f79f-8ff6-45a0-a8bd-8efbf395153c",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "bc477fcd-061f-4f1e-8bb6-10aeb1333be1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:08:15+00:00",
+    "description": "",
+    "fileName": "f481ca15-095f-4f92-9e2f-a6ec8dffe006.jpg",
+    "updatedAt": "2021-05-24T18:08:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

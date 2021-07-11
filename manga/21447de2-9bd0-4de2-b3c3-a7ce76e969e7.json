@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "GraBuro! \u0026ndash; Let\u0026rsquo;s play granblue- fantasy! (Anthology)"
+    "en": "GraBuro! – Let’s play granblue- fantasy! (Anthology)"
    },
+   "altTitles": [
+    {
+     "en": "グラブろ!"
+    }
+   ],
    "description": {
     "en": "Granblue Fantasy doujin anthology by Fujieda Miyabi, Minamoto Hisanari and others."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,57 +48,103 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-27T15:17:01+00:00",
+   "updatedAt": "2021-05-25T15:40:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "32328913-b529-4d3f-b43a-853ed9dbfdde",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minamoto Hisanari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5c3321a3-50cd-413f-9815-6e5a98cb4795",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nogi Hikaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c9cbeb57-9699-4f78-b3ba-5e4e661e0b6d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujieda Miyabi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "32328913-b529-4d3f-b43a-853ed9dbfdde",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minamoto Hisanari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5c3321a3-50cd-413f-9815-6e5a98cb4795",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nogi Hikaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c9cbeb57-9699-4f78-b3ba-5e4e661e0b6d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujieda Miyabi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b352fee1-0019-405d-b98d-f4913708695e",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
+   "id": "fe542c85-4c08-4fd8-a919-bc8dd7abf2b7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:46:42+00:00",
+    "description": "",
+    "fileName": "775b2d33-2f42-4bfc-9e6c-1c84bcaf27f9.jpg",
+    "updatedAt": "2021-05-24T17:46:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

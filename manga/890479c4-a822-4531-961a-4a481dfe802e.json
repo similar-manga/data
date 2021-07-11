@@ -18,7 +18,6 @@
     "mu": "92018"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +41,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,47 +53,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-02T03:25:33+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "290e5d1f-ecea-4e09-900a-d5470feb1cb2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Showhei Halumoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "290e5d1f-ecea-4e09-900a-d5470feb1cb2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Showhei Halumoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f2657e73-21e2-47ac-8578-7daadaaabab3",
-   "type": "chapter"
-  },
-  {
-   "id": "d4becc1e-947a-478b-9b1f-2e8d08306429",
-   "type": "chapter"
-  },
-  {
-   "id": "6fab691c-2c62-4674-9ca2-224a7fc0c8ff",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "ff6095ee-35e6-4fcf-a2c8-f379da0f23ce",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:39:35+00:00",
+    "description": "",
+    "fileName": "636ff33e-0de7-4256-bac7-6526ee7835eb.jpg",
+    "updatedAt": "2021-05-24T18:39:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

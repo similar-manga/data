@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Sex=Love\u0026sup2;"
+    "en": "Sex=Love²"
    },
+   "altTitles": [
+    {
+     "en": "Dangerous Equation"
+    },
+    {
+     "en": "Sex=Love^2"
+    },
+    {
+     "en": "Sex=Love2"
+    }
+   ],
    "description": {
     "en": "All Kumiko wants is to become a teacher; however her father is dead set against it. He is giving her one chance to prove herself as a teacher before forbidding her from pursuing this career forever. Meet her newest student, Ryu-kun. He has NO desire to LEARN anything from his tutors, rather he is an expert at teaching THEM about...SEX?!"
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,67 +66,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-13T05:09:14+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "e72e2c4d-9ce0-4d94-9b82-78579fbd4143",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHINJO Mayu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e72e2c4d-9ce0-4d94-9b82-78579fbd4143",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHINJO Mayu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7dc1d92a-c52a-4db0-8517-659b53228a6e",
-   "type": "chapter"
-  },
-  {
-   "id": "e7a7c4fd-a02a-441b-8c05-727f0f8b2e4b",
-   "type": "chapter"
-  },
-  {
-   "id": "4ea271fb-cc60-43bd-a598-204e98857252",
-   "type": "chapter"
-  },
-  {
-   "id": "e441db4c-b803-4d7d-8913-1b32a39152cc",
-   "type": "chapter"
-  },
-  {
-   "id": "34953514-ed69-4d5b-b67c-5a6d22956e3e",
-   "type": "chapter"
-  },
-  {
-   "id": "56ecf687-ba98-4a41-9dc2-89dd557217ab",
-   "type": "chapter"
-  },
-  {
-   "id": "a182b0cc-b596-4627-b142-308d1a2835af",
-   "type": "chapter"
-  },
-  {
-   "id": "3b4c6cf1-5948-479f-8ac9-962ae11cfc2e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "659609cf-342d-4fba-98dd-5f4cdd5060b8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:15:18+00:00",
+    "description": "",
+    "fileName": "443cb98a-3e24-4ae5-8274-1bb45732ea1b.png",
+    "updatedAt": "2021-05-24T17:15:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -33,6 +33,8 @@
       "name": {
        "en": "Award Winning"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -43,6 +45,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +57,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,79 +69,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-20T07:26:22+00:00",
+   "updatedAt": "2021-05-25T15:40:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "30ce23e9-ab28-426e-a54e-0bf76b3190bf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Taiyou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "30ce23e9-ab28-426e-a54e-0bf76b3190bf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Taiyou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "03e2aaa5-894b-4725-812c-ef4be48a044a",
-   "type": "chapter"
-  },
-  {
-   "id": "8bb6dc65-5689-4730-8f2f-323f90a1a6f3",
-   "type": "chapter"
-  },
-  {
-   "id": "33ed0880-8abb-4f71-8176-dadb8d006f51",
-   "type": "chapter"
-  },
-  {
-   "id": "4b637a7a-ff55-4605-bf78-010ec9724979",
-   "type": "chapter"
-  },
-  {
-   "id": "2ec5d401-b712-4835-9d06-dc830825f5bc",
-   "type": "chapter"
-  },
-  {
-   "id": "f52e1134-6405-46de-8048-816122bf5d68",
-   "type": "chapter"
-  },
-  {
-   "id": "36796df4-6df3-45b4-b5cb-ac3c54f485ba",
-   "type": "chapter"
-  },
-  {
-   "id": "0021eb4a-6f77-4719-82b5-8cdd80ba1d96",
-   "type": "chapter"
-  },
-  {
-   "id": "dca255e8-e37a-48c4-ba4f-d08caca41f36",
-   "type": "chapter"
-  },
-  {
-   "id": "361ec3b0-0a12-42b8-9e12-8d07764425f3",
-   "type": "chapter"
-  },
-  {
-   "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "b9824bd2-5aa4-4f9a-816f-2d0841c7eafa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:51:27+00:00",
+    "description": "",
+    "fileName": "6774751b-878a-4584-b1e2-02ba41441ad2.jpg",
+    "updatedAt": "2021-05-24T16:51:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

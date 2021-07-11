@@ -7,6 +7,14 @@
    "title": {
     "en": "Monster and Parent"
    },
+   "altTitles": [
+    {
+     "en": "Monster to Parent  "
+    },
+    {
+     "en": "モンスターとペアレント"
+    }
+   ],
    "description": {
     "en": "After losing her mother, Saika is taken in by her foster father and three brothers. She ends up having to raise a god until it reaches adulthood."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Monsters"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,63 +60,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-10T14:29:17+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "17891ac4-d032-4cad-9fe5-0a5c9aa572d2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sayo Ichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "17891ac4-d032-4cad-9fe5-0a5c9aa572d2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sayo Ichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b55a6d51-f5a7-42f1-8820-3dc4156a2123",
-   "type": "chapter"
-  },
-  {
-   "id": "6ab8762a-50e8-460d-9af6-b8b08f504a79",
-   "type": "chapter"
-  },
-  {
-   "id": "bd5ce2ef-f394-4935-9cde-2ec3a07e2a6d",
-   "type": "chapter"
-  },
-  {
-   "id": "b8e407c1-e4ac-4827-85ac-8303f1e7f1f8",
-   "type": "chapter"
-  },
-  {
-   "id": "b039c7c9-50a3-4424-b1b9-4e92bfd07f42",
-   "type": "chapter"
-  },
-  {
-   "id": "d66c7a66-2c95-4a03-87db-e2cfff0c795d",
-   "type": "chapter"
-  },
-  {
-   "id": "f11daffd-b770-49ba-abda-be45c8807458",
-   "type": "chapter"
-  },
-  {
-   "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "72c8287e-31a2-4f52-9ecb-5091e782e9f6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:06:09+00:00",
+    "description": "",
+    "fileName": "437c4f92-0efd-40f0-93ec-4f5321eace8d.jpg",
+    "updatedAt": "2021-05-24T18:06:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

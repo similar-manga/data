@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Ochikobore \u0026ldquo;1\u0026rdquo; Mahou Tsukai wa, Kyou mo Muishiki ni Cheat wo Tsukau"
+    "en": "Ochikobore “1” Mahou Tsukai wa, Kyou mo Muishiki ni Cheat wo Tsukau"
    },
+   "altTitles": [
+    {
+     "en": "落ちこぼれ〔☆1〕魔法使いは、今日も無意識にチートを使う"
+    }
+   ],
    "description": {
-    "en": "The world of Lemshiria guarded by twenty-two Gods, a world where one receives a special blessing called an \u0026quot;arcana\u0026quot; during their rite of adulthood which determines their worth with \u0026quot;stars\u0026quot;.\r\n\r\nWe follow the story of Aster, a one-star \u0026quot;cheat\u0026quot; Magician."
+    "en": "The world of Lemshiria guarded by twenty-two Gods, a world where one receives a special blessing called an \"arcana\" during their rite of adulthood which determines their worth with \"stars\".\r\n\r\nWe follow the story of Aster, a one-star \"cheat\" Magician."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +50,8 @@
       "name": {
        "en": "Magic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -52,6 +62,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,47 +74,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-05T00:06:24+00:00",
+   "updatedAt": "2021-05-25T15:45:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "9800a413-baaf-4e21-a434-ef980c99e291",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Unagi Kousuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fa8b8ddd-8677-42bb-8956-500efb117bf5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Momoshika Fujiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "705f936a-fb0d-43b2-8bde-1ff6f447eecc",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "318772c3-2d6a-4f86-b842-d417d3494e73",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:29:52+00:00",
+    "description": "",
+    "fileName": "0d08d95b-1fad-4c95-9ba0-dad53869e969.jpg",
+    "updatedAt": "2021-05-24T18:29:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "April Fool"
    },
+   "altTitles": [
+    {
+     "en": "Первое апреля"
+    },
+    {
+     "en": "エイプリル・フール"
+    }
+   ],
    "description": {
     "en": "5 years ago, Haruki's brother Hiroki was swept away by the raging river when the bridge Haruki had built broke, and Haruki believes he is responsible for his death."
    },
@@ -18,7 +26,6 @@
     "mu": "3711"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +49,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,39 +61,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-01T08:24:46+00:00",
+   "updatedAt": "2021-05-25T15:43:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "da66640c-53a9-43cf-9db0-ae5a2eb4f656",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ASATO Eiri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "da66640c-53a9-43cf-9db0-ae5a2eb4f656",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ASATO Eiri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bec2d775-50c2-4181-bd6a-ae7e99c55de7",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "8e4310ee-fb51-4fba-a0b9-10bf5b545691",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:32+00:00",
+    "description": "",
+    "fileName": "d1d0553b-ae2b-4710-9d01-b570ee6d7e39.png",
+    "updatedAt": "2021-05-24T17:06:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Prism Heart"
    },
+   "altTitles": [
+    {
+     "en": "プリズム・ハート"
+    }
+   ],
    "description": {
     "en": "1. Prism Heart\r\n2. Teen's Road\r\n3. Hot White Kiss\r\n4. 17 Year Old"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,55 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-14T06:58:39+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "839aed02-db6b-411c-8e51-a266b4bee9d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asatsuki Mai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "839aed02-db6b-411c-8e51-a266b4bee9d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asatsuki Mai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0490cf6d-ffbf-42cf-89f5-27b02bd18b45",
-   "type": "chapter"
-  },
-  {
-   "id": "4e9e9035-46be-4680-aa32-b8cae5c2f671",
-   "type": "chapter"
-  },
-  {
-   "id": "f9651d92-3de5-49ed-93da-2392cdee038f",
-   "type": "chapter"
-  },
-  {
-   "id": "635c32af-26f4-4405-b1a7-69884bb2bae1",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "e902791e-b056-4f46-8a2a-02f849640cc4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:45+00:00",
+    "description": "",
+    "fileName": "e12f28fe-3744-4adc-8b79-900150e3c2f2.jpg",
+    "updatedAt": "2021-05-24T17:11:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

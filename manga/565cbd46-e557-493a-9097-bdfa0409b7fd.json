@@ -7,6 +7,11 @@
    "title": {
     "en": "Akechi Keibu no Jikenbo"
    },
+   "altTitles": [
+    {
+     "en": "The Akechi Files"
+    }
+   ],
    "description": {
     "en": "Follows the Kindaichi Shounen no Jikenbo franchise character Akechi Kengo and his partner, rookie detective Kobayashi Ryuutarou, as they solve various baffling murder mysteries."
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Police"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -48,39 +57,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-02T21:54:40+00:00",
+   "updatedAt": "2021-05-25T15:42:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "a01bbf8e-9275-4dcb-84d5-5c9795c3d486",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kibayashi Shin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4e44cb99-09e1-4684-a718-c5099f580334",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Satou Yuuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d12dbb9d-3178-4f64-8998-b74a6ac10628",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "df33b754-73a3-4c54-80e6-1a74a8058539",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "564ae6e3-6cfe-4f41-84ba-59cb51844cb1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:21:10+00:00",
+    "description": "",
+    "fileName": "a135d88e-c5eb-4a3e-8381-03bcb3dd4359.jpg",
+    "updatedAt": "2021-05-24T18:21:10+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

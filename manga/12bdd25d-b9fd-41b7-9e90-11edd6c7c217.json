@@ -7,11 +7,15 @@
    "title": {
     "en": "She's an Android"
    },
+   "altTitles": [
+    {
+     "en": "あの子はアンドロイド"
+    }
+   ],
    "description": {
     "en": "Other Links:\r\n[url=https://twitter.com/nikaidooooooooo]Twitter[/url]"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,47 +50,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-20T16:40:41+00:00",
+   "updatedAt": "2021-05-25T15:39:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "35b883d6-d18f-4fa5-8953-621e8b10090d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nikaidou Ko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "35b883d6-d18f-4fa5-8953-621e8b10090d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nikaidou Ko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e7ebaf89-9125-4e20-9866-e97d4eb6e4f8",
-   "type": "chapter"
-  },
-  {
-   "id": "db09c54e-d002-470d-b3be-bc0ae1cad598",
-   "type": "chapter"
-  },
-  {
-   "id": "866e77bc-70b0-42ac-8e39-c9b629834d10",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "fc368259-0e13-4fc4-a06a-8e3f0be81c93",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:30:49+00:00",
+    "description": "",
+    "fileName": "5909599a-b98b-4f46-be91-d8e19f7ddb8a.png",
+    "updatedAt": "2021-05-24T17:30:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

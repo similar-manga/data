@@ -7,6 +7,11 @@
    "title": {
     "en": "Bakumatsu Ignition"
    },
+   "altTitles": [
+    {
+     "en": "幕末イグニッション"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,31 +48,53 @@
       "name": {
        "en": "Samurai"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-01-31T17:24:00+00:00",
+   "updatedAt": "2020-01-31T17:24:00+00:00"
   }
  },
  "relationships": [
   {
    "id": "17bfec83-ba53-443d-8ec5-37cc8313fbb0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ooma Kurou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f987fd8c-f18c-438f-8006-20c5aedc5f40",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tadami Shuu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "81183756-1453-4c81-aa9e-f6e1b63be016",
-   "type": "tag"
+   "id": "d2a88244-fe06-4f56-a9ef-de9cc2e14b86",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:43:14+00:00",
+    "description": "",
+    "fileName": "ef86d051-8c8f-4609-88f2-e4652b12cb17.jpg",
+    "updatedAt": "2021-05-24T17:43:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

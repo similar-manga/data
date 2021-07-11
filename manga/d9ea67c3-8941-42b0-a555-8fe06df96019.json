@@ -24,6 +24,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,6 +36,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +48,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -54,6 +60,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -64,83 +72,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-08T04:51:31+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "3f8032ba-c473-482f-b6e4-eda0a1dc16be",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "IRO Sakamihara",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3f8032ba-c473-482f-b6e4-eda0a1dc16be",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "IRO Sakamihara",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d593377b-a502-4119-a684-c9bf95ea490b",
-   "type": "chapter"
-  },
-  {
-   "id": "4ac6d443-3aa3-4ac9-9577-fd38ae181eb2",
-   "type": "chapter"
-  },
-  {
-   "id": "a8bbc7a9-67fe-47f1-b232-b2a9db33ee42",
-   "type": "chapter"
-  },
-  {
-   "id": "b781d337-1d44-4ecd-8182-bc19d8b843ce",
-   "type": "chapter"
-  },
-  {
-   "id": "1bf836e7-a318-4eb0-88da-cc48a4f8e181",
-   "type": "chapter"
-  },
-  {
-   "id": "ceedae5d-1cbc-4d06-b6bc-22e74c2c7dbb",
-   "type": "chapter"
-  },
-  {
-   "id": "d1e4546a-6cc7-4a9a-bee8-d426fe2e3774",
-   "type": "chapter"
-  },
-  {
-   "id": "4b0da65f-7b34-49e7-a771-3e89445b92aa",
-   "type": "chapter"
-  },
-  {
-   "id": "5acf55e9-9428-4330-a971-bc0a087f649c",
-   "type": "chapter"
-  },
-  {
-   "id": "5f45d91e-ef91-4f94-97d6-0c86a87a885f",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "4129830d-ccc9-4fcc-957e-fa9558e0e52d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:51:35+00:00",
+    "description": "",
+    "fileName": "fe6724f4-efc9-44a6-acbe-0abbd9588aaa.jpg",
+    "updatedAt": "2021-05-24T17:51:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

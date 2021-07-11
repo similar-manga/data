@@ -7,6 +7,11 @@
    "title": {
     "en": "Obake Monogatari"
    },
+   "altTitles": [
+    {
+     "en": "Ghost Story"
+    }
+   ],
    "description": {
     "en": "Mikoto is usual schoolgirl who wants to confess her love. The problem is that she is a ghost...\r\n\r\nContained as bonus in Jigoku Koi Sutefu Volume 1"
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Ghosts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,47 +56,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-30T21:54:20+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "ad317798-1bdd-45b2-920b-83fbbfab15cf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oomiya Miyami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ad317798-1bdd-45b2-920b-83fbbfab15cf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oomiya Miyami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "485a04cf-e1c6-4c32-9226-b711ce4ef182",
-   "type": "chapter"
-  },
-  {
-   "id": "0e32029b-ac1f-4f2e-9021-3b26e38cf97d",
-   "type": "chapter"
-  },
-  {
-   "id": "036f647f-d51a-47eb-b472-3f742c83395a",
-   "type": "chapter"
-  },
-  {
-   "id": "3bb26d85-09d5-4d2e-880c-c34b974339e9",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "caa4d3ac-741a-4fbf-891f-0948f3fe371c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:13:48+00:00",
+    "description": "",
+    "fileName": "d7b8f35b-058a-47bc-ae8b-eefc228aac11.png",
+    "updatedAt": "2021-05-24T17:13:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

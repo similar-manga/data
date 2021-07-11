@@ -30,6 +30,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,75 +54,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-02T05:27:26+00:00",
+   "updatedAt": "2021-05-25T15:40:28+00:00"
   }
  },
  "relationships": [
   {
    "id": "3dbd825a-14c5-43f4-a9a2-e927ef98984b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tsuzuki Maki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "20bd6f18-37cd-40e6-bcf7-135cff2e66fe",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hasegawa Kouji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bc89b30f-0a98-4c07-ad9c-09a83ccca691",
-   "type": "chapter"
-  },
-  {
-   "id": "301af652-02ee-49e8-8031-c296f63a225b",
-   "type": "chapter"
-  },
-  {
-   "id": "7cd77cb7-5979-4b90-b63f-abf5ee9978e5",
-   "type": "chapter"
-  },
-  {
-   "id": "c5560918-5910-4c82-9325-4326334c4ca6",
-   "type": "chapter"
-  },
-  {
-   "id": "99140d87-8fa9-46ce-9fd3-4f1c674810d0",
-   "type": "chapter"
-  },
-  {
-   "id": "23e876fe-8d71-48ca-8b95-e8cd87d5e95e",
-   "type": "chapter"
-  },
-  {
-   "id": "ac951eb4-3d8a-468e-bf98-2c81adae8d43",
-   "type": "chapter"
-  },
-  {
-   "id": "b1f2cefd-64f8-4b43-b2b5-23163ca985ad",
-   "type": "chapter"
-  },
-  {
-   "id": "f11f83cb-ddf1-4224-8e62-de9ce45f0227",
-   "type": "chapter"
-  },
-  {
-   "id": "2b6b826f-e29c-4987-90c8-a72622f5d539",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "1a36df9b-049a-4f7d-95a5-04e9378113f9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:34:35+00:00",
+    "description": "",
+    "fileName": "cae710d5-23d6-4c09-8cba-8ca72517e93d.jpg",
+    "updatedAt": "2021-05-24T17:34:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

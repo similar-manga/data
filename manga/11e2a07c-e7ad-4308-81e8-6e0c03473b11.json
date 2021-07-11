@@ -7,6 +7,17 @@
    "title": {
     "en": "Miss Tatae Will Not Praise!"
    },
+   "altTitles": [
+    {
+     "en": "Tatae-san wa Homerarenai!"
+    },
+    {
+     "en": "多田依さんはホメられない！"
+    },
+    {
+     "en": "多田依小姐不会夸奖！"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -27,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +50,8 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -47,39 +62,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-08T16:22:19+00:00",
+   "updatedAt": "2021-05-25T15:39:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "aef63c64-65c5-42b5-8378-6a0ea912274b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NONAKA Tama",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "aef63c64-65c5-42b5-8378-6a0ea912274b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NONAKA Tama",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2fb85172-2f89-4646-9e03-2c29c2734764",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "bf3afdc3-baf6-4fcd-8dfd-05a6ec7572a6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:13:33+00:00",
+    "description": "",
+    "fileName": "bc23a243-2d03-4fd6-8632-b904ccbd7163.jpg",
+    "updatedAt": "2021-05-24T18:13:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

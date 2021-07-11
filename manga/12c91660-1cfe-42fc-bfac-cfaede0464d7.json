@@ -7,6 +7,11 @@
    "title": {
     "en": "CHANGE-R"
    },
+   "altTitles": [
+    {
+     "en": "チェンジ アール"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Genderswap"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +60,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,55 +72,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-06T16:30:50+00:00",
+   "updatedAt": "2021-05-25T15:39:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "196dd1af-1b75-490a-a8eb-01d9e51da77e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UENO Nito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "196dd1af-1b75-490a-a8eb-01d9e51da77e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "UENO Nito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "89e3fb15-64ec-4766-9863-934d86039556",
-   "type": "chapter"
-  },
-  {
-   "id": "07d4f0be-e387-4b8d-a42a-fdd2f1cb52c7",
-   "type": "chapter"
-  },
-  {
-   "id": "85ca1ec7-4545-4ab3-ad9b-f38cfb98af1c",
-   "type": "chapter"
-  },
-  {
-   "id": "e61af42a-a7d7-46f4-94c0-57ca9eeab0df",
-   "type": "chapter"
-  },
-  {
-   "id": "2bd2e8d0-f146-434a-9b51-fc9ff2c5fe6a",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "063094b7-5860-4fdf-9722-dc067afd8828",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:39+00:00",
+    "description": "",
+    "fileName": "51dcdaea-d1d5-4516-bef0-14bbf17d47d5.jpg",
+    "updatedAt": "2021-05-24T16:50:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

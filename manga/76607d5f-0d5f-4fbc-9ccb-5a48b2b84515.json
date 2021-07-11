@@ -7,6 +7,17 @@
    "title": {
     "en": "Renkin Buraikan"
    },
+   "altTitles": [
+    {
+     "en": "Outlaw Alchemist"
+    },
+    {
+     "en": "Yakuza Alchemist"
+    },
+    {
+     "en": "錬金ブライカン"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -18,7 +29,6 @@
     "mu": "167949"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "suggestive",
@@ -30,6 +40,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +52,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -50,6 +64,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +76,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -70,83 +88,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-25T03:15:13+00:00",
+   "updatedAt": "2021-05-25T15:43:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "fac5b999-4c62-49ed-a35d-e162fbfef5a9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takarai Hakaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fac5b999-4c62-49ed-a35d-e162fbfef5a9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takarai Hakaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bcdb53aa-5908-4189-a0e1-c9358c924b60",
-   "type": "chapter"
-  },
-  {
-   "id": "8bc4bcbd-5339-44f4-93cb-53d2cfbe3114",
-   "type": "chapter"
-  },
-  {
-   "id": "031a18c4-bed9-4cb7-893f-849d982e0ba1",
-   "type": "chapter"
-  },
-  {
-   "id": "d37bebae-2ca6-4490-a6eb-3da9722d5d54",
-   "type": "chapter"
-  },
-  {
-   "id": "796e3abc-9704-4222-b77b-891a4a1564c9",
-   "type": "chapter"
-  },
-  {
-   "id": "4649a2c7-871c-4375-a4a7-91645a8e132a",
-   "type": "chapter"
-  },
-  {
-   "id": "adf6ee4e-6098-4eb8-873a-9b144aec9e78",
-   "type": "chapter"
-  },
-  {
-   "id": "a33043c4-ca10-4da9-b726-4ac2d4bbb433",
-   "type": "chapter"
-  },
-  {
-   "id": "12c1707d-0e9f-41d4-beff-0582b8852ac0",
-   "type": "chapter"
-  },
-  {
-   "id": "3c9c96be-f8eb-4de4-b99e-0586fc8fb84a",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "25b0a3fe-7e3f-4f0e-ad39-34fba37d6728",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:10+00:00",
+    "description": "",
+    "fileName": "8d7753e2-f7cd-42b9-88d7-847afce97853.jpg",
+    "updatedAt": "2021-05-24T18:04:10+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

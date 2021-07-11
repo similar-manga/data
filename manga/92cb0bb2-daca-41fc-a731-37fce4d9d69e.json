@@ -7,14 +7,24 @@
    "title": {
     "en": "12 o'clock Elevator"
    },
+   "altTitles": [
+    {
+     "en": "Midnight's Elevator"
+    },
+    {
+     "en": "短篇恐怖漫画《12点的电梯》我的邻居是个精神病患者"
+    },
+    {
+     "en": "短篇恐怖漫畫《12點的電梯》我的鄰居是個精神病患者"
+    }
+   ],
    "description": {
     "en": "Is it safe to ride the elevator at midnight?"
    },
    "links": {
     "mu": "143079"
    },
-   "originalLanguage": "zh-hk",
-   "lastChapter": "0",
+   "originalLanguage": "zh",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +47,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,6 +59,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,47 +71,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-14T06:55:02+00:00",
+   "updatedAt": "2021-05-25T15:45:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "df336a75-c926-4f86-9190-109062d65010",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ho Lang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "df336a75-c926-4f86-9190-109062d65010",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ho Lang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a953245d-052b-41bd-97df-fd02be82ecac",
-   "type": "chapter"
-  },
-  {
-   "id": "53091771-7c54-4c6d-959d-d685965eb2ff",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "94d3127d-cc1f-4f29-be5d-861268cd7837",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:15+00:00",
+    "description": "",
+    "fileName": "53e23e93-84f8-4e76-ae20-b360ac283e82.jpg",
+    "updatedAt": "2021-05-24T17:01:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

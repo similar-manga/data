@@ -5,8 +5,25 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "\u0026quot;Haikai Roujin\u0026quot; Don Quixote"
+    "en": "\"Haikai Roujin\" Don Quixote"
    },
+   "altTitles": [
+    {
+     "en": "\"The Wandering Senior\" Don Quixote"
+    },
+    {
+     "en": "\"徘徊老人\"ドン・キホーテ"
+    },
+    {
+     "en": "The Wandering Senior, Don Quixote"
+    },
+    {
+     "en": "Un Viejo Errante Don Quixote de la Mancha"
+    },
+    {
+     "en": "Wandering Senior Don Quixote"
+    }
+   ],
    "description": {
     "en": "Inspired by Cervantes' Don Quixote, the author criticizes heartless individualism and indifference in modern Japan, as seen through the eyes of an old man, who, although childish with age, sees the truth of things."
    },
@@ -30,6 +47,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +71,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +83,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-07T01:16:37+00:00",
+   "updatedAt": "2021-05-25T15:42:54+00:00"
   }
  },
  "relationships": [
   {
    "id": "896a910d-ca28-4464-a3f4-d22e84aac9d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shiriagari Kotobuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "896a910d-ca28-4464-a3f4-d22e84aac9d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shiriagari Kotobuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9c4b35a0-5209-4679-9c53-826b22ca1aa4",
-   "type": "chapter"
-  },
-  {
-   "id": "22eaaadc-f99e-47db-a4d5-8d4d9e5298fc",
-   "type": "chapter"
-  },
-  {
-   "id": "5b0bf981-f8e2-4f0c-9c40-50d8caee8a65",
-   "type": "chapter"
-  },
-  {
-   "id": "0fb81772-eaee-49dd-981b-4058f8735ce4",
-   "type": "chapter"
-  },
-  {
-   "id": "85e7ac3d-de2a-499a-b23e-061db4c5a9f8",
-   "type": "chapter"
-  },
-  {
-   "id": "91766864-5e16-4503-952d-972c725246aa",
-   "type": "chapter"
-  },
-  {
-   "id": "d290a791-93e4-4514-9bce-8450b6e0ca3a",
-   "type": "chapter"
-  },
-  {
-   "id": "6c8edff5-8e6d-461a-bf91-ceb443fa0799",
-   "type": "chapter"
-  },
-  {
-   "id": "6e47a698-9b6c-4f3f-b084-0f3c3638dff7",
-   "type": "chapter"
-  },
-  {
-   "id": "cfc1b6ef-6016-4167-ab89-96fed9eada30",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "2b42be0a-8d9e-4fd8-bb9f-8044ceaa9a29",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:00+00:00",
+    "description": "",
+    "fileName": "a701c02d-21ce-4dfd-b131-0d5a91488155.jpg",
+    "updatedAt": "2021-05-24T16:57:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

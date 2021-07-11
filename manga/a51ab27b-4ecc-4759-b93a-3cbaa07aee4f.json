@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Tiger \u0026amp; Bunny - Fifty x Fifty (Doujinshi)"
+    "en": "Tiger \u0026 Bunny - Fifty x Fifty (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Tiger \u0026 Bunny dj - Fifty x Fifty"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -20,8 +24,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,31 +38,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-01-26T05:24:59+00:00",
+   "updatedAt": "2019-01-26T05:24:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "ffa6b8fc-8671-41f1-b314-c0413ba6d015",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sachiyo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ffa6b8fc-8671-41f1-b314-c0413ba6d015",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sachiyo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "11ad73c2-dc63-4f94-9e73-93cd5b8bc1cc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:09+00:00",
+    "description": "",
+    "fileName": "3fd081cc-3d1d-41df-b55d-863bc18af913.jpg",
+    "updatedAt": "2021-05-24T16:59:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

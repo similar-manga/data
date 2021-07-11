@@ -7,6 +7,11 @@
    "title": {
     "en": "Dasadanan"
    },
+   "altTitles": [
+    {
+     "en": "Eventful"
+    }
+   ],
    "description": {
     "en": "Kang Chan and Seyeon have been close friends since they were young after being introduced by their parents. After entering high school, Seyeon suddenly received a confession from Kang Chan and became aware of Kang Chan since then. Meanwhile, Naeun is displeased with their relationship. The trivial and noisy story of their love triangle and those around them..."
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +54,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,8 +66,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +80,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -77,87 +92,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-22T05:56:19+00:00",
+   "updatedAt": "2021-05-25T15:47:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "5d6f0feb-516a-4244-bd1b-c1293a493eeb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Herb Mandu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5d6f0feb-516a-4244-bd1b-c1293a493eeb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Herb Mandu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c296b7cf-b320-4708-a817-ad59fdbdef0b",
-   "type": "chapter"
-  },
-  {
-   "id": "f7132a35-810c-4afd-b1ec-59f08a045c66",
-   "type": "chapter"
-  },
-  {
-   "id": "9172fc36-8dca-45ad-90fd-0964a904245b",
-   "type": "chapter"
-  },
-  {
-   "id": "84b03877-bbf6-437a-9300-e327c84d9ddf",
-   "type": "chapter"
-  },
-  {
-   "id": "de9a2394-b793-4d75-a899-723558d98f49",
-   "type": "chapter"
-  },
-  {
-   "id": "677d036c-fae9-44b4-80ec-b0ae2463754c",
-   "type": "chapter"
-  },
-  {
-   "id": "1b0219cb-6cf2-4ef4-a557-2aa9874f95a1",
-   "type": "chapter"
-  },
-  {
-   "id": "eb8b5740-c46e-423a-ab39-6165bd127740",
-   "type": "chapter"
-  },
-  {
-   "id": "9c99d97e-1644-4317-b1b5-29d0455f566c",
-   "type": "chapter"
-  },
-  {
-   "id": "e4e53879-ddb8-4596-a49e-9d9460df21a9",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "24966224-5281-4f4b-b207-659fa623272f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:11+00:00",
+    "description": "",
+    "fileName": "e60d870a-5d17-4008-abd2-059c261d07f7.jpg",
+    "updatedAt": "2021-05-24T17:02:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

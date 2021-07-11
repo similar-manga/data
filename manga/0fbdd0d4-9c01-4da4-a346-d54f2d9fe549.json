@@ -7,6 +7,14 @@
    "title": {
     "en": "Sugar Pain"
    },
+   "altTitles": [
+    {
+     "en": "Bitter Pain"
+    },
+    {
+     "en": "シュガーペイン"
+    }
+   ],
    "description": {
     "en": "Riku, who looks forward to a sugar-sweet romance, actually hides an unspeakable trauma!?"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,75 +74,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-24T22:46:40+00:00",
+   "updatedAt": "2021-05-25T15:39:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "80df040f-5788-409e-9b1a-e9307c8882da",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mio Junta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "80df040f-5788-409e-9b1a-e9307c8882da",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mio Junta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "555f3115-0fb3-4bb1-b10f-d65db344b778",
-   "type": "chapter"
-  },
-  {
-   "id": "4157c324-b5c2-40ad-9829-f17537c23843",
-   "type": "chapter"
-  },
-  {
-   "id": "21c05c05-eddf-42ea-896d-1cb2e638dc08",
-   "type": "chapter"
-  },
-  {
-   "id": "1951816d-a7ac-443e-8d06-b29abbeae162",
-   "type": "chapter"
-  },
-  {
-   "id": "106af6c6-5567-4d1c-be68-af4e25bc2f86",
-   "type": "chapter"
-  },
-  {
-   "id": "3fc1cefa-5879-4e78-b29a-1fcbed716457",
-   "type": "chapter"
-  },
-  {
-   "id": "72dbd68b-0a1e-487e-88b6-0be9878b8bb4",
-   "type": "chapter"
-  },
-  {
-   "id": "2bede15b-9986-4971-b7c0-5f6d103dc54b",
-   "type": "chapter"
-  },
-  {
-   "id": "dea969a5-3bff-447f-b533-7137b46e3d96",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "9c8b9cf7-1c64-4fad-be69-2894cd36dc64",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:38+00:00",
+    "description": "",
+    "fileName": "385912d6-c6b6-4cf2-b3d4-b0495f0f8224.jpg",
+    "updatedAt": "2021-05-24T16:55:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

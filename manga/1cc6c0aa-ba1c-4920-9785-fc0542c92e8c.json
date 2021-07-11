@@ -7,6 +7,14 @@
    "title": {
     "en": "I.M."
    },
+   "altTitles": [
+    {
+     "en": "Aiem"
+    },
+    {
+     "en": "아이엠"
+    }
+   ],
    "description": {
     "en": "The strange cohabitation between Ai, an android, and Siyoon, a normal NEET, begins. Although Ai is always going around causing a commotion, Siyoon slowly starts to warm up to him as Ai starts to become more and more human-like."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,8 +58,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +72,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -68,83 +84,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-29T13:11:31+00:00",
+   "updatedAt": "2021-05-25T15:40:04+00:00"
   }
  },
  "relationships": [
   {
    "id": "76182eb6-45cd-4f04-acc9-f482db813eff",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Team Hagiming",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "76182eb6-45cd-4f04-acc9-f482db813eff",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Team Hagiming",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5b795310-5829-4ef2-9a81-94b6a79a131c",
-   "type": "chapter"
-  },
-  {
-   "id": "a5306afe-8622-47de-b3e8-c9aed5cb6db6",
-   "type": "chapter"
-  },
-  {
-   "id": "a0be279d-fb95-4df2-adac-96a7fc9aa8a6",
-   "type": "chapter"
-  },
-  {
-   "id": "29c6903d-5255-4afc-b9d8-cf5669ce5faa",
-   "type": "chapter"
-  },
-  {
-   "id": "bf63f12a-2e47-45a9-9b7b-15cfe3bcec31",
-   "type": "chapter"
-  },
-  {
-   "id": "29a2f4d4-7172-4836-9f53-b88eec55ef11",
-   "type": "chapter"
-  },
-  {
-   "id": "83787fa3-d52e-4b43-af01-778e8ef28443",
-   "type": "chapter"
-  },
-  {
-   "id": "b8baa12d-546f-4668-b584-2887533b3d05",
-   "type": "chapter"
-  },
-  {
-   "id": "da3a8b5d-f443-4081-8644-d6f8c61578f1",
-   "type": "chapter"
-  },
-  {
-   "id": "247aaf0c-5d67-4364-9a3a-6e8506150244",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "be869100-0790-4f1d-a259-0821bee33243",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:46:53+00:00",
+    "description": "",
+    "fileName": "bb5b22de-61d7-42cc-8d6d-b34b2ddaaea1.png",
+    "updatedAt": "2021-05-24T17:46:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

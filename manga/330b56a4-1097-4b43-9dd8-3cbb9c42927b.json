@@ -7,6 +7,20 @@
    "title": {
     "en": "Smile Precure!"
    },
+   "altTitles": [
+    {
+     "en": "Glitter Force"
+    },
+    {
+     "en": "Glittergjengen"
+    },
+    {
+     "en": "Smile Pretty Cure!"
+    },
+    {
+     "en": "スマイルプリキュア"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -24,6 +38,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +62,8 @@
       "name": {
        "en": "Magical Girls"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,6 +74,8 @@
       "name": {
        "en": "Magic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -64,43 +86,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-11-20T07:01:16+00:00",
+   "updatedAt": "2020-11-20T07:01:16+00:00"
   }
  },
  "relationships": [
   {
    "id": "5f4183bd-ebe8-45f3-ba6a-29ac00596b8b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Izumi Toudou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8883f23c-daf0-4812-91c8-4a45f7625b5a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Futago Kamikita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "81c836c9-914a-4eca-981a-560dad663e73",
-   "type": "tag"
-  },
-  {
-   "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "91e45deb-6623-4f9e-8362-734c1f184176",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:19:42+00:00",
+    "description": "",
+    "fileName": "0ef8a606-642c-4d00-a709-bef2437a75db.jpg",
+    "updatedAt": "2021-05-24T18:19:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

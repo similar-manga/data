@@ -7,6 +7,23 @@
    "title": {
     "en": "Memoir of a Dancer"
    },
+   "altTitles": [
+    {
+     "en": "Dancer no Kiroku"
+    },
+    {
+     "en": "Dansā no Kiroku"
+    },
+    {
+     "en": "Memoirs of a Dancer"
+    },
+    {
+     "en": "Record of a Dancer"
+    },
+    {
+     "en": "ダンサーの記録"
+    }
+   ],
    "description": {
     "en": "A man is on a research expedition in an underwater city, when he suddenly discovers a holographic recording of a ballerina."
    },
@@ -18,7 +35,6 @@
     "mu": "124177"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +46,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +58,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,43 +70,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-09T06:46:50+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "850979ad-f889-43d2-a6b8-1161e3382f6b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Wada Takashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "850979ad-f889-43d2-a6b8-1161e3382f6b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Wada Takashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a9f08a1b-e564-4878-b417-3a109b414133",
-   "type": "chapter"
-  },
-  {
-   "id": "94af401e-ce59-4d4f-8f93-7b76729f90b1",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "bd177d26-ccf0-4f8f-a170-5e04cc165b30",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:13:42+00:00",
+    "description": "",
+    "fileName": "38e30f35-441c-4eb8-80d4-1c33fa859c5d.jpg",
+    "updatedAt": "2021-05-28T23:13:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

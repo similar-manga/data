@@ -7,6 +7,11 @@
    "title": {
     "en": "Butterfly Baby"
    },
+   "altTitles": [
+    {
+     "en": "バタフライベイビー"
+    }
+   ],
    "description": {
     "en": "Isayama Natsu is a free spirit: he doesn't wear socks, he sets butterflies free from rooftops, and he gives blowjobs to other boys in the school's tool shed. Taneda Kouki, who believes himself normal in every possible way, accidentally sees the latter while taking a shortcut. Isayama bewilders and fascinates Taneda, who also begins questioning his own normality..."
    },
@@ -28,8 +33,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,43 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-15T22:47:39+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "7449d192-91cc-40c3-8e05-beb1d0792eb8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jaryuu Dokuro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7449d192-91cc-40c3-8e05-beb1d0792eb8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jaryuu Dokuro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4c7cd575-aaa9-4024-a8ca-af8543583131",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "2422c2b5-e74f-4f91-9109-26a2eabe5e3f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:11+00:00",
+    "description": "",
+    "fileName": "cdc8f827-4e6c-42bd-82af-ca12a359441e.jpg",
+    "updatedAt": "2021-05-24T17:08:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

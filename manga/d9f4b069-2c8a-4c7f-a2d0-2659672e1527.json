@@ -7,6 +7,14 @@
    "title": {
     "en": "Ammo"
    },
+   "altTitles": [
+    {
+     "en": "弾 AMMO アモウ"
+    },
+    {
+     "en": "弾 アモウ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,63 +72,53 @@
       "name": {
        "en": "Police"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-13T14:06:29+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "5a89eaa3-fddb-45dc-a30b-9aae0ae3e501",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YAMAMOTO Atsuji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5a89eaa3-fddb-45dc-a30b-9aae0ae3e501",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YAMAMOTO Atsuji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3ccc9c29-be16-4490-b82a-af23b6290e7c",
-   "type": "chapter"
-  },
-  {
-   "id": "a0686ce1-4ca3-44dc-bbfe-efffd56893d7",
-   "type": "chapter"
-  },
-  {
-   "id": "16cb9ac8-1328-48ca-b073-90bf500a3a3b",
-   "type": "chapter"
-  },
-  {
-   "id": "71bc3f63-401a-4aa0-b42a-5d91c1258cae",
-   "type": "chapter"
-  },
-  {
-   "id": "c565b1aa-fbc0-4eb4-893d-6b6df36f4835",
-   "type": "chapter"
-  },
-  {
-   "id": "d82c0b96-b411-432e-a8fa-a66d707ce602",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "df33b754-73a3-4c54-80e6-1a74a8058539",
-   "type": "tag"
+   "id": "5324ffee-2066-4f49-b3aa-09fedf1e2d7c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:48:27+00:00",
+    "description": "",
+    "fileName": "9b399b01-fa90-48a5-bc91-868be2f590b3.jpg",
+    "updatedAt": "2021-05-24T17:48:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

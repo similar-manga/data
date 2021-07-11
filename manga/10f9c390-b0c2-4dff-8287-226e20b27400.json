@@ -5,15 +5,23 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Childhood Friend \u0026amp; Me"
+    "en": "Childhood Friend \u0026 Me"
    },
+   "altTitles": [
+    {
+     "en": "My Childhood Sweetheart \u0026 I"
+    },
+    {
+     "en": "青梅竹马\u0026我"
+    }
+   ],
    "description": {
     "en": ""
    },
    "links": {
     "raw": "http://www.buka.cn/detail/220703"
    },
-   "originalLanguage": "zh-hk",
+   "originalLanguage": "zh",
    "lastVolume": "1",
    "lastChapter": "3",
    "publicationDemographic": "shoujo",
@@ -27,6 +35,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,8 +69,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,79 +83,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-06T09:33:21+00:00",
+   "updatedAt": "2021-05-25T15:39:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "9f97823d-b648-4358-9909-2b2c57f84dc9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Muhan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9f97823d-b648-4358-9909-2b2c57f84dc9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Muhan",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8529e2f3-ecf9-4e5f-836f-792692f30b97",
-   "type": "chapter"
-  },
-  {
-   "id": "485a2c33-9991-4920-a2cb-31d08f021ea9",
-   "type": "chapter"
-  },
-  {
-   "id": "e1b243ed-b46b-4514-9f9b-1c786455849f",
-   "type": "chapter"
-  },
-  {
-   "id": "604761b7-48a2-44c0-8f08-9242a9f1201b",
-   "type": "chapter"
-  },
-  {
-   "id": "59c009c5-82a0-4ead-9f5f-7cecadfe41fc",
-   "type": "chapter"
-  },
-  {
-   "id": "2caeda72-2667-45fb-8c14-6fd219f1ce6f",
-   "type": "chapter"
-  },
-  {
-   "id": "4e2c24ef-9def-4939-a3a4-3daf7b93aaf2",
-   "type": "chapter"
-  },
-  {
-   "id": "831d5fe0-605b-49c9-ba8a-10d729b6d258",
-   "type": "chapter"
-  },
-  {
-   "id": "f1d16120-77cb-4e24-839b-22f23862deef",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "97fda0ac-de0c-4fee-8c1d-d3065e096a76",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:47:36+00:00",
+    "description": "",
+    "fileName": "b553ab87-dd69-42cb-9c3b-78f78207500b.jpg",
+    "updatedAt": "2021-05-24T17:47:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,8 +7,13 @@
    "title": {
     "en": "Paraiso"
    },
+   "altTitles": [
+    {
+     "en": "ぱらいそ"
+    }
+   ],
    "description": {
-    "en": "From pastel rhapsody:\r\n\r\nAtelier \u0026quot;Paraiso.\u0026quot;\r\n\r\nA place which is protected by God and where people study painting.\r\n\r\nAs the war worsens, they seek their own heaven, not to be entangled in the harsh reality."
+    "en": "From pastel rhapsody:\r\n\r\nAtelier \"Paraiso.\"\r\n\r\nA place which is protected by God and where people study painting.\r\n\r\nAs the war worsens, they seek their own heaven, not to be entangled in the harsh reality."
    },
    "links": {
     "mu": "118420"
@@ -27,6 +32,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +56,8 @@
       "name": {
        "en": "Post-Apocalyptic"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -57,6 +68,8 @@
       "name": {
        "en": "Philosophical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,47 +80,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-18T20:41:20+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "af7bd9cc-069e-4c09-b8b3-254699090efb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KYOU Machiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "af7bd9cc-069e-4c09-b8b3-254699090efb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KYOU Machiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7565fc13-012c-4711-84dd-6168d4be4377",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "9467335a-1b83-4497-9231-765337a00b96",
-   "type": "tag"
-  },
-  {
-   "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "00800b8e-3f51-4f6e-bb13-82a9a140bc49",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:15:08+00:00",
+    "description": "",
+    "fileName": "a374cce9-5a3a-46dd-8c33-8334458b8b8e.jpg",
+    "updatedAt": "2021-05-24T18:15:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

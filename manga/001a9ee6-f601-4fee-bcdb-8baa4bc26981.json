@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Bokutachi wa Benkyou ga Dekinai - G\u0026amp;D (Doujinshi)"
+    "en": "Bokutachi wa Benkyou ga Dekinai - G\u0026D (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "ぼくたちは勉強ができない dj - G\u0026D"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "pornographic",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +51,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,43 +63,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-29T08:26:35+00:00",
+   "updatedAt": "2021-05-25T15:38:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "49d02ead-cbf0-4859-9f66-c9b6fdc41ea6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Arai kazuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "49d02ead-cbf0-4859-9f66-c9b6fdc41ea6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Arai kazuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b7702780-5c3f-4827-92b3-55dc22293c52",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "86db3176-d1b1-4f24-86e4-3e32eae28246",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:46:53+00:00",
+    "description": "",
+    "fileName": "b8425a39-ddc1-4d8b-8138-bce11ea75397.png",
+    "updatedAt": "2021-05-24T17:46:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

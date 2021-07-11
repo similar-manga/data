@@ -7,6 +7,29 @@
    "title": {
     "en": "Hoshi wa Utau"
    },
+   "altTitles": [
+    {
+     "en": "The Stars Sing"
+    },
+    {
+     "en": "Twinkle Stars"
+    },
+    {
+     "en": "Twinkle Stars Like Singing a Song"
+    },
+    {
+     "en": "星は歌う"
+    },
+    {
+     "en": "星之歌"
+    },
+    {
+     "en": "星歌恋曲"
+    },
+    {
+     "en": "별은 노래한다"
+    }
+   ],
    "description": {
     "en": "In a small town in the countryside, close to the sea, a young high-school girl lived alone with her cousin. When life seemed to her too painful and too sad, she contemplated the sky and refreshed herself by looking at the stars. But one spring night, she met a boy who sealed her destiny..."
    },
@@ -31,6 +54,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +66,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +78,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,79 +90,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-26T03:16:32+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "dc95301d-dcb8-4874-a2c0-195cc2e23f3f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takaya Natsuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "dc95301d-dcb8-4874-a2c0-195cc2e23f3f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takaya Natsuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0e812181-0c75-4314-8f3b-fa939096f342",
-   "type": "chapter"
-  },
-  {
-   "id": "1be67c85-ac43-4a1f-b246-fbe80d0e412b",
-   "type": "chapter"
-  },
-  {
-   "id": "22355c47-5060-424a-be09-7249167c93a6",
-   "type": "chapter"
-  },
-  {
-   "id": "2508cdb0-6628-428f-99a0-358d17c709d4",
-   "type": "chapter"
-  },
-  {
-   "id": "1ffdc0cd-07c9-4f80-ba12-0328ba34db2e",
-   "type": "chapter"
-  },
-  {
-   "id": "88f5f3ed-c7ea-4a42-a618-0e0307faa3a2",
-   "type": "chapter"
-  },
-  {
-   "id": "8eb34a69-3211-45dc-97eb-ec9ff085a39c",
-   "type": "chapter"
-  },
-  {
-   "id": "34d9d9ef-dcf4-47e5-a035-69bd65155dd8",
-   "type": "chapter"
-  },
-  {
-   "id": "31b35bcd-2302-411e-bed5-cc4552c0bb3c",
-   "type": "chapter"
-  },
-  {
-   "id": "e211d8fd-4547-47af-a76d-37687f035087",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "a23d0806-c270-4fd6-a00a-e634120b9bf8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:52+00:00",
+    "description": "",
+    "fileName": "6fea33ac-6d86-4abb-8606-f1b2c26b674d.jpg",
+    "updatedAt": "2021-05-24T16:56:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

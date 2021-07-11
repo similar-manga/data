@@ -7,6 +7,26 @@
    "title": {
     "en": "Makai Ishi Mephisto"
    },
+   "altTitles": [
+    {
+     "en": "Doctor Mephistopheles"
+    },
+    {
+     "en": "Доктор Мефисто"
+    },
+    {
+     "en": "ดอกเตอร์เมฟิสต์ คุณหมอโลกปีศาจ"
+    },
+    {
+     "en": "魔界医师梅菲斯特"
+    },
+    {
+     "en": "魔界医師メフィスト"
+    },
+    {
+     "en": "마계의사 메피스토"
+    }
+   ],
    "description": {
     "en": "Doctor Mephisto is a man who is as skillful and handsome as he is mysterious and terrifying. He can cure any illness, heal fatal injuries, transform lead to gold, summon vicious monsters to do his bidding and perhaps even...revive the dead!?"
    },
@@ -31,6 +51,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +63,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +75,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,51 +87,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-23T13:32:12+00:00",
+   "updatedAt": "2021-05-25T15:48:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "bce780d1-b67c-4230-9262-da6fbe19561b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KIKUCHI Hideyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "855a75b8-70b0-48a2-bb27-c2c14fe5f9a3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHIMOTSUKI Kairi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ea43b94e-174f-4b69-af54-b551e99e0313",
-   "type": "chapter"
-  },
-  {
-   "id": "5061eabf-0db4-4b48-b2c0-5ac4ee086df1",
-   "type": "chapter"
-  },
-  {
-   "id": "4e19ebba-b92d-4bb1-a55a-913afacc55ba",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "cb974434-5277-4f0e-adc5-517e7e94019f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:54:15+00:00",
+    "description": "",
+    "fileName": "c58cb28b-8c03-4325-8266-8950a1f67092.jpg",
+    "updatedAt": "2021-05-24T16:54:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

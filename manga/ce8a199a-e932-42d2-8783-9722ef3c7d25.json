@@ -7,6 +7,11 @@
    "title": {
     "en": "Master Keaton Remaster"
    },
+   "altTitles": [
+    {
+     "en": "MASTERキートン Reマスター"
+    }
+   ],
    "description": {
     "en": "Master Keaton Remaster is set twenty years after the original with all new stories in the life of Master Keaton."
    },
@@ -18,7 +23,6 @@
     "mu": "75481"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +34,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,47 +46,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-22T05:07:16+00:00",
+   "updatedAt": "2021-05-25T15:47:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "8b58d78f-b4fe-4d9c-b37c-49ce21979c35",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nagasaki Takashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "508631f5-09de-4ae1-87ed-4b6179254ca1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Urasawa Naoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ab546e09-ebe7-4193-b5d1-f0c3955c36c2",
-   "type": "chapter"
-  },
-  {
-   "id": "4e72082f-587b-469c-8e08-abf352ca6618",
-   "type": "chapter"
-  },
-  {
-   "id": "041c92bd-68f0-4b73-ba4e-3344369172cc",
-   "type": "chapter"
-  },
-  {
-   "id": "df5d6441-3ca4-4533-a753-f650c1e77602",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "b2af6fa5-c470-4f07-863f-3fcd5e950fd8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:47+00:00",
+    "description": "",
+    "fileName": "74743ce6-4379-4096-bd90-603cd50da97a.jpg",
+    "updatedAt": "2021-05-24T17:56:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

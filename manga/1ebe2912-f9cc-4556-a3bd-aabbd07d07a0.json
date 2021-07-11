@@ -7,6 +7,14 @@
    "title": {
     "en": "Sora no Deau Basho de"
    },
+   "altTitles": [
+    {
+     "en": "Empty meeting place"
+    },
+    {
+     "en": "空の出会う場所で"
+    }
+   ],
    "description": {
     "en": "Story of a man whose job description includes disposing of dead bodies, and the stray who blackmails him into sheltering him.\r\n\r\n(Source: acme)"
    },
@@ -27,8 +35,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +49,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,67 +61,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-18T14:03:12+00:00",
+   "updatedAt": "2021-05-25T15:40:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "4f8db44c-f548-46fc-8733-bc99bd46d08f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inoue Nawo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4f8db44c-f548-46fc-8733-bc99bd46d08f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inoue Nawo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c0ed84ea-32ec-43e8-b1fb-c59e30f3e37f",
-   "type": "chapter"
-  },
-  {
-   "id": "bebb4b53-b4fa-4036-bb91-62baf4ff903a",
-   "type": "chapter"
-  },
-  {
-   "id": "5ea08018-7e17-4d77-8aef-283318bd2cd5",
-   "type": "chapter"
-  },
-  {
-   "id": "448eff63-4fbd-48a5-8f21-bf16764e305e",
-   "type": "chapter"
-  },
-  {
-   "id": "6637eb95-3741-4b5e-8bb4-ad8f69396bee",
-   "type": "chapter"
-  },
-  {
-   "id": "5d8a4c44-4cb9-408f-a85f-c190a283f8d9",
-   "type": "chapter"
-  },
-  {
-   "id": "09acb631-92e3-4503-bc91-8becaa7ba316",
-   "type": "chapter"
-  },
-  {
-   "id": "b0f52ea9-1588-49a6-9515-cb400044cb70",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "b28f884e-f4a5-4f0b-a027-de9aa120f2fe",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:53:00+00:00",
+    "description": "",
+    "fileName": "db21ed59-9f00-4bd7-a761-f458bb844557.png",
+    "updatedAt": "2021-05-24T17:53:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

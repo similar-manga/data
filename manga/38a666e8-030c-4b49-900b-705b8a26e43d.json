@@ -7,6 +7,11 @@
    "title": {
     "en": "Libido"
    },
+   "altTitles": [
+    {
+     "en": "リビドー"
+    }
+   ],
    "description": {
     "en": "20 page story about two very different step brothers."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,51 +59,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-10T04:45:56+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "535fe9a1-d28a-410c-b85d-79b89f679dc5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minase Masara",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "535fe9a1-d28a-410c-b85d-79b89f679dc5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minase Masara",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "152582e5-8111-4d97-9134-d51e736d1ae9",
-   "type": "chapter"
-  },
-  {
-   "id": "51d713db-485e-42a6-b7a2-d4194207fe6b",
-   "type": "chapter"
-  },
-  {
-   "id": "3ec3a5f7-64e4-4bfb-a049-0cb77d5ddabc",
-   "type": "chapter"
-  },
-  {
-   "id": "175b4881-e85a-4c01-9cc5-d73cb5b925f1",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "2f7ccb0d-5573-4fcc-a7ae-e0d88098a151",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:36:57+00:00",
+    "description": "",
+    "fileName": "3f91f0bb-0ec9-4fd3-9acb-716934139b9f.jpg",
+    "updatedAt": "2021-05-24T17:36:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Second"
    },
+   "altTitles": [
+    {
+     "en": "Second (Annarae)"
+    },
+    {
+     "en": "세컨드"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,75 +72,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-11T00:13:37+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "a03c0205-9c8f-4794-9af8-e1de68448c2f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Annarae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a03c0205-9c8f-4794-9af8-e1de68448c2f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Annarae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "356f111c-1029-4a43-bb09-982d9d51b33d",
-   "type": "chapter"
-  },
-  {
-   "id": "15a390d1-371d-42c2-bbed-48a6780ca549",
-   "type": "chapter"
-  },
-  {
-   "id": "d733359d-f212-4cd8-901f-02dfd1c2eeff",
-   "type": "chapter"
-  },
-  {
-   "id": "c2c07f2b-64b4-487e-89de-f508bae5e824",
-   "type": "chapter"
-  },
-  {
-   "id": "b3a31b96-73ab-4246-a6eb-1f65e9f37728",
-   "type": "chapter"
-  },
-  {
-   "id": "22dad565-dab0-44b8-b3e3-d8b96552bc8d",
-   "type": "chapter"
-  },
-  {
-   "id": "08255dff-7117-4f6d-8009-93acb328a239",
-   "type": "chapter"
-  },
-  {
-   "id": "e0a0d3a5-f75b-40d1-9b19-64c063e4ec27",
-   "type": "chapter"
-  },
-  {
-   "id": "8ee1d683-0b7c-42ad-998b-80e680236f78",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "743ee360-aa55-4f55-a4ca-bf1a8c80d91a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:54:11+00:00",
+    "description": "",
+    "fileName": "8f5f17f3-0813-4b05-ba81-d042c63ba6c6.jpg",
+    "updatedAt": "2021-05-24T16:54:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

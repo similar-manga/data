@@ -7,6 +7,14 @@
    "title": {
     "en": "Space Convenience Store"
    },
+   "altTitles": [
+    {
+     "en": "Uchuu Daizakka"
+    },
+    {
+     "en": "宇宙大雑貨"
+    }
+   ],
    "description": {
     "en": "An anthology of space-themed one-shots. Winner of the 1991 Seiun Award for Best Comic.\r\n\r\nTable of Contents:\r\n[spoiler]\r\n1. Prologue: Convenience na Yoru\r\n2. Splatter Recycling\r\n3. Y-shi no Nichijou\r\n4. Supeope Eigasha: Gyoushou-hen\r\n5. Uchuu Shougun Manyuuki\r\n6. Nonfiction Hour\r\n7. Zombie Tanteichou\r\n8. Toaru Gyoukai Monogatari\r\n9. Choujin Project\r\n10. Sponsor kara no Oshirase\r\n11. Kokusai Kyuujo Kazoku\r\n12. Jikan Fukei Patrol Nisshi\r\n13. Dennou na Machikado\r\n14. Uchuu Daizakka\r\n15. SFX Shouhou: Houmon-hen\r\n16. SFX Shouhou: Shuumatsu-hen\r\n17. Time-bashigo Goshiyou no Chuui\r\n18. Epilogue: Zakkaten Futatabi[/spoiler]"
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Ninja"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +72,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -68,47 +84,53 @@
       "name": {
        "en": "Aliens"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-20T21:14:09+00:00",
+   "updatedAt": "2021-05-25T15:44:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "63a6c4e6-2582-4f71-a7c1-cd6f80bb0d60",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yokoyama Eiji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "63a6c4e6-2582-4f71-a7c1-cd6f80bb0d60",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yokoyama Eiji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b7719715-ae7b-417f-8bfe-c24a6d7f2da4",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "489dd859-9b61-4c37-af75-5b18e88daafc",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "e64f6742-c834-471d-8d72-dd51fc02b835",
-   "type": "tag"
+   "id": "9095a715-8598-4f48-b2a0-878c26327d53",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:15:27+00:00",
+    "description": "",
+    "fileName": "a66e998a-fa11-4797-af57-0f41e2dfdedc.jpg",
+    "updatedAt": "2021-05-24T18:15:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

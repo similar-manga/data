@@ -7,6 +7,11 @@
    "title": {
     "en": "Lesson A"
    },
+   "altTitles": [
+    {
+     "en": "レッスンA"
+    }
+   ],
    "description": {
     "en": "Two new lovers ask some older, more experienced lovers for help in the bedroom!"
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,45 +53,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-02T08:05:44+00:00",
+   "updatedAt": "2021-05-25T15:39:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "95825e36-68a1-4300-8852-c8f264aecfd1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Machiya Hatoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "95825e36-68a1-4300-8852-c8f264aecfd1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Machiya Hatoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "78d182f6-f558-4475-9efc-625f842db32a",
-   "type": "chapter"
-  },
-  {
-   "id": "2cd39604-55cc-4d2b-b409-27adb88f2930",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "7a8d4d15-9fa1-4f02-82dd-ca35a5024b4d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:22+00:00",
+    "description": "",
+    "fileName": "0435e813-4542-460e-bcbe-a59a886d17ba.jpg",
+    "updatedAt": "2021-05-24T17:32:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Nakittsura ni Hug"
    },
+   "altTitles": [
+    {
+     "en": "Hug to the crying face"
+    },
+    {
+     "en": "泣きっ面にハグ"
+    }
+   ],
    "description": {
     "en": "Fuwa Masaki suffers from an extreme shyness that forces him to keep an unnecessary distance away from people. He has always wanted to change himself, but never knew what to do. One day, Masaki bumps into Miyatsuka Takeru, a medical student who picks up his cell phone. For some reason, he decides to train Masaki to overcome his illness!"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,51 +62,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-12T13:33:50+00:00",
+   "updatedAt": "2021-05-25T15:46:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "1a88ccca-5e67-4c36-b177-9263ea033aa2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kuroda Kurota",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1a88ccca-5e67-4c36-b177-9263ea033aa2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kuroda Kurota",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8b69589c-6671-4b4d-b9bd-03a09157cc9e",
-   "type": "chapter"
-  },
-  {
-   "id": "3ceb0f0a-565c-44df-94e1-b3f3f975fab1",
-   "type": "chapter"
-  },
-  {
-   "id": "f783c3ce-4e08-4b37-a9fb-b7bd9bf44624",
-   "type": "chapter"
-  },
-  {
-   "id": "7d7b1b89-7d33-45ab-9e49-0792710cdeee",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "89e6e24c-b790-4fc3-9d55-59369b3efbda",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:15:23+00:00",
+    "description": "",
+    "fileName": "7ddbf77e-d109-4c86-a001-31a6d8b4818f.png",
+    "updatedAt": "2021-05-28T23:15:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

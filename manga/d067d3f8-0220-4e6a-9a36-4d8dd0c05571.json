@@ -7,6 +7,11 @@
    "title": {
     "en": "Serenade"
    },
+   "altTitles": [
+    {
+     "en": "세레나데"
+    }
+   ],
    "description": {
     "en": "A professor living a successful life with a secret. Two students who each have a hold on their mentor: one who knows her secret and another who reminds her of her first love..."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -49,6 +58,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,8 +68,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,6 +82,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -79,87 +94,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-04T05:14:19+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "0e38511d-c59b-4527-8481-203e9aac5927",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Keum Kyesoo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0e38511d-c59b-4527-8481-203e9aac5927",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Keum Kyesoo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "636deaae-8b6a-47e5-a0ad-b580fe784f05",
-   "type": "chapter"
-  },
-  {
-   "id": "42a2fd0d-8ed4-42f0-8de8-c2a53625ae48",
-   "type": "chapter"
-  },
-  {
-   "id": "e610b277-55ba-49a7-9612-cd9cc80d87e0",
-   "type": "chapter"
-  },
-  {
-   "id": "dc1ef913-29ae-472e-a911-7c05cddd7bf5",
-   "type": "chapter"
-  },
-  {
-   "id": "8fe850f8-3bdc-4060-9404-4dbb81b2e17f",
-   "type": "chapter"
-  },
-  {
-   "id": "568fab9a-d51b-4a85-ab2d-7a8c96b28e54",
-   "type": "chapter"
-  },
-  {
-   "id": "71ea9073-dc51-4278-bb7b-5a004e94d6cf",
-   "type": "chapter"
-  },
-  {
-   "id": "1bb1ba44-5360-4bc1-84f2-a1960cc046df",
-   "type": "chapter"
-  },
-  {
-   "id": "f339ee2b-462a-4a4a-8430-867ce9e8b029",
-   "type": "chapter"
-  },
-  {
-   "id": "d391da6f-785b-4fa0-be3c-7d9f2860dc0c",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "6025a6bc-8cc2-4f96-b1df-d3ccc11c0b71",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:09+00:00",
+    "description": "",
+    "fileName": "f1b55ce5-6ddf-45d3-bb90-f493cd03f3bb.jpg",
+    "updatedAt": "2021-05-24T17:00:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

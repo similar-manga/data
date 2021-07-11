@@ -5,10 +5,18 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Robot \u0026times; Laserbeam"
+    "en": "Robot × Laserbeam"
    },
+   "altTitles": [
+    {
+     "en": "Robot x Laserbeam"
+    },
+    {
+     "en": "ロボレーザービーム"
+    }
+   ],
    "description": {
-    "en": "Protagonist, Robato, is a super serious, dead-pan, neat freak who is also the least flexible and can never read a situation right. His unfeeling and expressionless face gave him the nickname \u0026mdash; Robo. One day this Robo meets golf and...!?"
+    "en": "Protagonist, Robato, is a super serious, dead-pan, neat freak who is also the least flexible and can never read a situation right. His unfeeling and expressionless face gave him the nickname — Robo. One day this Robo meets golf and...!?"
    },
    "links": {
     "al": "98187",
@@ -33,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +53,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +65,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,6 +77,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -73,83 +89,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-07T02:21:54+00:00",
+   "updatedAt": "2021-05-25T15:44:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "c6fe1194-b7ba-4d98-9bdc-a83609c92d0d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujimaki Tadatoshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c6fe1194-b7ba-4d98-9bdc-a83609c92d0d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujimaki Tadatoshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ca223cbc-89a6-4554-b46b-7af29cb85341",
-   "type": "chapter"
-  },
-  {
-   "id": "bb6725f6-d08d-4f78-a0e4-3bae83d841b3",
-   "type": "chapter"
-  },
-  {
-   "id": "9143ad96-7622-49dd-aa20-03bcfd53fbb5",
-   "type": "chapter"
-  },
-  {
-   "id": "fff52d50-187b-4377-9338-425886e18c8f",
-   "type": "chapter"
-  },
-  {
-   "id": "43b687b7-efd5-455f-80ae-add4ed056dad",
-   "type": "chapter"
-  },
-  {
-   "id": "aa2d832c-740a-45d0-b4b7-3d615ed1610c",
-   "type": "chapter"
-  },
-  {
-   "id": "6afe8633-c917-4d55-be5f-e66e0b13aabb",
-   "type": "chapter"
-  },
-  {
-   "id": "7550410e-09bd-4432-98b9-5fd00d9d99a9",
-   "type": "chapter"
-  },
-  {
-   "id": "7d722d9b-1edd-4a59-a068-a165c8785b5e",
-   "type": "chapter"
-  },
-  {
-   "id": "a02ce7df-7ab9-4cf5-9616-00c2b7efe990",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "edf949d6-0628-4f0a-809c-9a4f4b6830b9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:29+00:00",
+    "description": "",
+    "fileName": "9b7a254c-fec3-4544-8f2c-beaf2f3571ab.jpg",
+    "updatedAt": "2021-05-24T17:00:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

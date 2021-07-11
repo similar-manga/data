@@ -18,7 +18,6 @@
     "mu": "13967"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +29,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +53,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +65,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -70,75 +77,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-28T18:09:46+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "d4d9efba-87cd-43d6-a52c-73988c6e2601",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Park Jae-Sung",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2bd32979-ccb5-4f64-aed0-2f03a8f33470",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Moon Seok-Bae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ea6a8844-bf25-4b24-bd0f-b2102ec83c94",
-   "type": "chapter"
-  },
-  {
-   "id": "28730b15-aab2-4ced-bef9-f2ba8a4ceb3b",
-   "type": "chapter"
-  },
-  {
-   "id": "75677feb-da9e-422f-8c55-41e61cc3970d",
-   "type": "chapter"
-  },
-  {
-   "id": "bcdd7b4a-3d0a-410a-9e37-f412e6abada1",
-   "type": "chapter"
-  },
-  {
-   "id": "53eb413d-d455-4fe8-beca-60ce28ef3ee4",
-   "type": "chapter"
-  },
-  {
-   "id": "41c50e26-ad43-4d7e-905e-15fe1a3f931f",
-   "type": "chapter"
-  },
-  {
-   "id": "721f20ea-afc4-491e-b5e3-f0f6012e6d72",
-   "type": "chapter"
-  },
-  {
-   "id": "f30d8209-cdc9-4338-b563-922eca5bb379",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "d2b6431c-d5be-4f7b-a494-5cfa155e40dc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:39:02+00:00",
+    "description": "",
+    "fileName": "54d2f2ea-feb7-4f87-807c-b5f1ef166a42.jpg",
+    "updatedAt": "2021-05-24T18:39:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

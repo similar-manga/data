@@ -5,16 +5,15 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "VA-11 HALL-A - Dana \u0026amp; Jill (Doujinshi)"
+    "en": "VA-11 HALL-A - Dana \u0026 Jill (Doujinshi)"
    },
    "description": {
     "en": "A VA-11 HALL-A doujin where during a night of drinking, Jill Stingray confesses her feelings to her boss, Dana Zane."
    },
-   "originalLanguage": "zh",
-   "lastChapter": "0",
+   "originalLanguage": "zh-hk",
    "publicationDemographic": "seinen",
    "status": "completed",
-   "contentRating": "suggestive",
+   "contentRating": "erotica",
    "tags": [
     {
      "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,8 +44,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,43 +58,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-27T05:47:07+00:00",
+   "updatedAt": "2021-05-25T15:44:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "8fa43086-fcff-4cc5-86c5-755ce70ff56c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "沒故事",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8fa43086-fcff-4cc5-86c5-755ce70ff56c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "沒故事",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "66728d5e-e73a-436c-9900-0a4f1bee1e9c",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "048d55df-b486-4f6b-b758-2b6b46f9db01",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:46:39+00:00",
+    "description": "",
+    "fileName": "8b8b331a-72e8-4949-b632-e69f34d5b88b.jpg",
+    "updatedAt": "2021-05-24T17:46:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

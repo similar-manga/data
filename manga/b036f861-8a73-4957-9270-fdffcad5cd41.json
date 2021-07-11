@@ -7,6 +7,17 @@
    "title": {
     "en": "Kimi wa Boku no Uso"
    },
+   "altTitles": [
+    {
+     "en": "ลวงใจใต้เงารัก (Thai)"
+    },
+    {
+     "en": "きみは僕の嘘"
+    },
+    {
+     "en": "너는 나의 거짓말"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -27,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,55 +62,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-18T17:43:50+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "9e75e296-e3fa-4d75-8f2f-fa7e90b727b8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shinomiya Suzu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9e75e296-e3fa-4d75-8f2f-fa7e90b727b8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shinomiya Suzu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e181bb21-8141-44aa-8cc4-7819b85bcff8",
-   "type": "chapter"
-  },
-  {
-   "id": "b6a60174-3914-4b60-b426-4b98d29c20d1",
-   "type": "chapter"
-  },
-  {
-   "id": "0800a763-8214-46ad-80e4-176aa6a4231e",
-   "type": "chapter"
-  },
-  {
-   "id": "8a386d46-b184-4c4b-86c9-b22d09461db2",
-   "type": "chapter"
-  },
-  {
-   "id": "6358d5a5-f370-4503-96a5-f36bfb922171",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "9992a36c-20dd-4fa9-845d-e0dec4632f87",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:07:04+00:00",
+    "description": "",
+    "fileName": "f77e2e57-701e-4282-b38d-f7da518c44fb.jpg",
+    "updatedAt": "2021-05-24T18:07:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

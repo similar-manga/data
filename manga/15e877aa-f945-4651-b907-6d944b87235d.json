@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "5toubun no Hanayome - Choo-Choo Feelings / \u0026quot;Pu pu che\u0026quot; (Doujinshi)"
+    "en": "5toubun no Hanayome - Choo-Choo Feelings / \"Pu pu che\" (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "噗噗車"
+    }
+   ],
    "description": {
     "en": "Short Nino doujin work by Chicke III, published on Pixiv."
    },
@@ -14,7 +19,6 @@
     "raw": "https://www.pixiv.net/en/artworks/79488838"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,43 +53,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-26T21:40:34+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "a3c008d3-aee1-462c-9ec6-94a0ce5398ab",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chicke III",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a3c008d3-aee1-462c-9ec6-94a0ce5398ab",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chicke III",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4e66c5e0-0cc9-42ff-b4bc-ff90f9991be2",
-   "type": "chapter"
-  },
-  {
-   "id": "2e017f6c-8945-4f91-b203-9aa58f9c1480",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "4104ed5f-0834-4faf-9817-213a6dd852f9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:57:18+00:00",
+    "description": "",
+    "fileName": "9b03a981-7fa5-4edc-99e9-c310647f6cc9.jpg",
+    "updatedAt": "2021-05-24T17:57:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

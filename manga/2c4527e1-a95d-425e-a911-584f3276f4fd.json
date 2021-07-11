@@ -7,6 +7,29 @@
    "title": {
     "en": "Alien Street"
    },
+   "altTitles": [
+    {
+     "en": "Alien Toori"
+    },
+    {
+     "en": "Alien Toori (Street)"
+    },
+    {
+     "en": "Eirian Toori"
+    },
+    {
+     "en": "Felicia"
+    },
+    {
+     "en": "エイリアン通り"
+    },
+    {
+     "en": "エイリアン通り(ストリート)"
+    },
+    {
+     "en": "神秘王子"
+    }
+   ],
    "description": {
     "en": "Gerard, a college student in the US, was helped by Sharl when he was being bullied. Unbeknownst to him though, Sharl is the son of middle eastern oil tycoon. The story revolves around their friendship as it develops, and the path to understanding their true selves."
    },
@@ -31,6 +54,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +66,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +78,8 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,47 +90,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-10-04T03:16:12+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "f8987ba1-bcf0-494f-b5af-47fb80c53b3d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NARITA Minako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f8987ba1-bcf0-494f-b5af-47fb80c53b3d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NARITA Minako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "46e4e587-1e53-45e8-8866-f11cdb71bdc7",
-   "type": "chapter"
-  },
-  {
-   "id": "6cbb13da-8404-43b2-9ddc-f9bb6da7af49",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "16a7dfb9-54f9-4f4c-824e-b768570e6d48",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:46:55+00:00",
+    "description": "",
+    "fileName": "8d7c5482-e026-4679-8d5c-5fe2c97e8cf8.jpg",
+    "updatedAt": "2021-05-24T16:46:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

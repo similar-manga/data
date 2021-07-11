@@ -7,8 +7,16 @@
    "title": {
     "en": "Mister Gossip"
    },
+   "altTitles": [
+    {
+     "en": "Mr. Gossip"
+    },
+    {
+     "en": "ミスターゴシップ"
+    }
+   ],
    "description": {
-    "en": "This beautiful \u0026quot;lady\u0026quot; holds a secret..."
+    "en": "This beautiful \"lady\" holds a secret..."
    },
    "links": {
     "al": "99239",
@@ -19,7 +27,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "1",
-   "lastChapter": "0",
    "status": "hiatus",
    "contentRating": "safe",
    "tags": [
@@ -30,6 +37,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +47,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +61,8 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,43 +73,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-21T06:41:15+00:00",
+   "updatedAt": "2021-05-25T15:40:04+00:00"
   }
  },
  "relationships": [
   {
    "id": "4e3121bd-adba-4891-80bc-192ccddb47cd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katsura Komachi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4e3121bd-adba-4891-80bc-192ccddb47cd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katsura Komachi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cb080467-0d7b-43ed-8ead-1c188925f7ff",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "b05de9b3-3711-4f84-a65b-6be4fcf2f210",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:35+00:00",
+    "description": "",
+    "fileName": "1c157481-f4dc-497c-a601-7b29065883d9.jpg",
+    "updatedAt": "2021-05-24T16:58:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

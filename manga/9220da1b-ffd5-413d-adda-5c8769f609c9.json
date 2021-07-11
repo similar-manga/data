@@ -7,6 +7,20 @@
    "title": {
     "en": "Icare"
    },
+   "altTitles": [
+    {
+     "en": "Icaro"
+    },
+    {
+     "en": "Ikar"
+    },
+    {
+     "en": "イカル"
+    },
+    {
+     "en": "異卡力"
+    }
+   ],
    "description": {
     "en": "Icaro is the adventure of a young man, Icaro, with the ability to fly and a young woman, Yukiko, who risks her life -- and more -- to help Icaro achieve his dream. It capitalizes on Taniguchi's ability to depict a vast and oppressive advanced science laboratory that has made Icaro its guinea pig and will use all its resources to keep him imprisoned for study."
    },
@@ -31,6 +45,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +57,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,75 +69,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-09T04:01:38+00:00",
+   "updatedAt": "2021-05-25T15:45:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "b0805ab3-6baf-48c8-bed3-b27f79019770",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Moebius",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "97effcde-ce83-4f26-b0a6-b9dfcb615173",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Taniguchi Jiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "242bb1ac-eac2-454b-aaba-4d30db8e6f50",
-   "type": "chapter"
-  },
-  {
-   "id": "fa2264ef-3ab4-493b-8782-7a58c522302e",
-   "type": "chapter"
-  },
-  {
-   "id": "7fceeb2b-5bfb-4a66-a47a-97b7923cfa5f",
-   "type": "chapter"
-  },
-  {
-   "id": "500e0a2f-4758-4657-bc6a-ab9d0f0f5f50",
-   "type": "chapter"
-  },
-  {
-   "id": "7f365cfe-f40e-4d63-bd99-8075dbad4009",
-   "type": "chapter"
-  },
-  {
-   "id": "745c7816-9ee3-4be1-8e25-c1047de09a18",
-   "type": "chapter"
-  },
-  {
-   "id": "58ec3e3e-83f4-4d95-99c4-25dfa8ab85b4",
-   "type": "chapter"
-  },
-  {
-   "id": "73dd7d1d-4f02-45c1-8bde-8da2d9c12291",
-   "type": "chapter"
-  },
-  {
-   "id": "21a20088-27cf-4c16-8758-4f6c8674f036",
-   "type": "chapter"
-  },
-  {
-   "id": "d747835d-8457-465b-bc55-a596d8cbf130",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "a4f85e79-3267-4f22-90d9-ad3d55c60e48",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:10+00:00",
+    "description": "",
+    "fileName": "f0efe90a-7347-4e48-8bff-56a433a824ac.jpg",
+    "updatedAt": "2021-05-24T17:11:10+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Double Call"
    },
+   "altTitles": [
+    {
+     "en": "ダブル コール"
+    }
+   ],
    "description": {
     "en": "Welcome to the world of baseball, where there's an abundance of attractive athletic young men.\r\n\r\nThe story is about a professional baseball team and the interaction of the members. Drama and comedy abound the different couples."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +71,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,6 +83,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -80,87 +95,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-23T16:37:04+00:00",
+   "updatedAt": "2021-05-25T15:43:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "ae1b285c-814a-4a7f-9d2d-e6bb482a2bcf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiiro Reiichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ae1b285c-814a-4a7f-9d2d-e6bb482a2bcf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiiro Reiichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9fe78e95-9754-402e-9d71-a776b2e7e95d",
-   "type": "chapter"
-  },
-  {
-   "id": "bd8a38b2-a238-4f32-bcf2-2cf5ef7f2c0c",
-   "type": "chapter"
-  },
-  {
-   "id": "b80fd476-7b4a-4288-8aa9-aa8067fabfc1",
-   "type": "chapter"
-  },
-  {
-   "id": "ec1012d2-91c2-42f1-86e6-e0285a332904",
-   "type": "chapter"
-  },
-  {
-   "id": "884c6c3b-18e7-4dc0-a87a-ecb283b775d6",
-   "type": "chapter"
-  },
-  {
-   "id": "d8dedfa9-afe6-4f11-b0cd-ba396a3375be",
-   "type": "chapter"
-  },
-  {
-   "id": "7c24d361-a2a0-4e52-a481-c8377d7893ae",
-   "type": "chapter"
-  },
-  {
-   "id": "dabdee09-663e-45ba-8587-656c1eb18636",
-   "type": "chapter"
-  },
-  {
-   "id": "5366ae7a-4a26-44be-82ee-03fed5c5b62f",
-   "type": "chapter"
-  },
-  {
-   "id": "44941e7f-f71a-47ba-bede-c0f7493f1cae",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "191b1a26-581b-4f42-9097-0747c476294d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:06+00:00",
+    "description": "",
+    "fileName": "4819daee-3ba6-472d-ae4e-bc730ef4d954.jpg",
+    "updatedAt": "2021-05-24T17:20:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -27,6 +27,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +51,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -57,6 +63,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -67,6 +75,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -77,6 +87,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -87,91 +99,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-23T17:32:51+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e98af8ae-b6cb-4e4d-86bb-cc4469d47318",
-   "type": "chapter"
-  },
-  {
-   "id": "f29cfb1b-8c19-421c-9427-e7ab4c1aa003",
-   "type": "chapter"
-  },
-  {
-   "id": "49be27f8-c396-43f2-9782-cf04e975e8b5",
-   "type": "chapter"
-  },
-  {
-   "id": "08b2a4b0-fbff-4826-afb5-ded227defd83",
-   "type": "chapter"
-  },
-  {
-   "id": "479bedc5-e382-475f-924b-991501d8bb60",
-   "type": "chapter"
-  },
-  {
-   "id": "679f7acb-3092-4e47-acc0-f94ce5bfd6b7",
-   "type": "chapter"
-  },
-  {
-   "id": "cec3d4fd-bcd8-4d4c-a002-bb5b4868e3f8",
-   "type": "chapter"
-  },
-  {
-   "id": "1d8173a6-16c1-46dc-af81-03667402f6b3",
-   "type": "chapter"
-  },
-  {
-   "id": "f4d0b52d-2d52-49fe-b4e8-3854a5e2e659",
-   "type": "chapter"
-  },
-  {
-   "id": "7e43014a-e996-4b3d-9d35-2c0432817dde",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "5dda7abb-85bc-4f3d-94dc-0185fcb29f08",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:11:51+00:00",
+    "description": "",
+    "fileName": "1f5e9ce1-b930-474d-9eb0-8c179568fb6d.jpg",
+    "updatedAt": "2021-05-24T18:11:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

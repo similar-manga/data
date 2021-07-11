@@ -7,6 +7,14 @@
    "title": {
     "en": "My Little World"
    },
+   "altTitles": [
+    {
+     "en": "マイリトルワールド"
+    },
+    {
+     "en": "我的小小世界"
+    }
+   ],
    "description": {
     "en": "Towards the boys who do not understand her inner self and only say they like her for her appearance, she absolutely hates them. Especially her homeroom teacher, who ticks her off even more. But how come...?\r\n\r\nIn addition, there are four more love stories in this debut collection!"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,43 +50,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-01T12:53:29+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "b3b10d8a-8f0a-45c2-a6a3-91ead3f19f2a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SATO Kaede",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b3b10d8a-8f0a-45c2-a6a3-91ead3f19f2a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SATO Kaede",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e44f221a-7b9a-43ed-b066-032998a7dff9",
-   "type": "chapter"
-  },
-  {
-   "id": "9b6ed9fe-62ae-49ad-9ba6-b7b43d876565",
-   "type": "chapter"
-  },
-  {
-   "id": "dc71c43a-8f42-4828-aec4-a919c1e085ba",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "a7ab5bcb-8abf-4faf-b026-a1ab129665fc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:36:08+00:00",
+    "description": "",
+    "fileName": "3f752a0f-8fbc-4f74-8984-5247b806990d.jpg",
+    "updatedAt": "2021-05-24T18:36:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

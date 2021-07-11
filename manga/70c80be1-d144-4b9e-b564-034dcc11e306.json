@@ -7,6 +7,23 @@
    "title": {
     "en": "Fly, Daddy, Fly"
    },
+   "altTitles": [
+    {
+     "en": "Лети, папочка, лети"
+    },
+    {
+     "en": "ダディ"
+    },
+    {
+     "en": "フライ"
+    },
+    {
+     "en": "フライ、ダディ、フライ"
+    },
+    {
+     "en": "老爹向前衝"
+    }
+   ],
    "description": {
     "en": "A salaryman's life gets turned upside down due to a dramatic tragedy, and now he is going to have a summer adventure the entire city will never forget."
    },
@@ -30,6 +47,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +59,8 @@
       "name": {
        "en": "Delinquents"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,75 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-06T07:36:23+00:00",
+   "updatedAt": "2021-05-25T15:43:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "a3f5d547-a577-4cf8-a6d7-fd6494142296",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KANESHIRO Kazuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "25fae022-2478-4c14-a429-8202147490dd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "AKISHIGE Manabu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6161a91e-d0d8-4efe-85f9-024b667e0352",
-   "type": "chapter"
-  },
-  {
-   "id": "571a3ebb-df13-44cf-b7ba-5605ab17b3c2",
-   "type": "chapter"
-  },
-  {
-   "id": "69e3689e-4b6e-4bbf-8ab1-3fcda3982568",
-   "type": "chapter"
-  },
-  {
-   "id": "c00da840-9abc-43bc-b375-32b97d097a56",
-   "type": "chapter"
-  },
-  {
-   "id": "8828322a-68df-4bf5-be6c-8539642d3272",
-   "type": "chapter"
-  },
-  {
-   "id": "268dbdaf-e178-4367-8378-714844eacd14",
-   "type": "chapter"
-  },
-  {
-   "id": "f8919d62-929d-49e1-9deb-8b6d4a682b7b",
-   "type": "chapter"
-  },
-  {
-   "id": "47159be6-e117-4ad4-b339-390914ef6946",
-   "type": "chapter"
-  },
-  {
-   "id": "beec298d-004a-43b6-b653-1a07b0bd1f64",
-   "type": "chapter"
-  },
-  {
-   "id": "06e534af-5545-48e1-b763-1b9137b4133e",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "da2d50ca-3018-4cc0-ac7a-6b7d472a29ea",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "ce793375-cba6-4f80-bf16-c35bacfdd73c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:39:11+00:00",
+    "description": "",
+    "fileName": "57a36fea-94b9-4279-95e7-dfbd9bb3e153.jpg",
+    "updatedAt": "2021-05-24T17:39:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

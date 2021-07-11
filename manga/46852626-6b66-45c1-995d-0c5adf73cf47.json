@@ -5,10 +5,21 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Deku \u0026amp; Bakugo: Rising"
+    "en": "Deku \u0026 Bakugo: Rising"
    },
+   "altTitles": [
+    {
+     "en": "Izuku \u0026 Bakugo: Rising"
+    },
+    {
+     "en": "My Hero Academia: Special Spin-Off - Deku \u0026 Bakugo: Rising"
+    },
+    {
+     "en": "出久＆爆豪：ライジング"
+    }
+   ],
    "description": {
-    "en": "A special 2-parter spin-off of My Hero Academia focusing on Deku and Bakugo during their second year in middle school that will act as tie-in to Heroes: Rising. Written and illustrated by Yoco Akiyama, author of the Melissa Shield one-shot titled \u0026quot;Kitto Daremo ga Dareka no Hero\u0026quot; (Everyone is Surely Someone's Hero) and the Watashi no Hero Academia 4-koma spin-off and fully supervised by Kohei Horikoshi, author of the original series."
+    "en": "A special 2-parter spin-off of My Hero Academia focusing on Deku and Bakugo during their second year in middle school that will act as tie-in to Heroes: Rising. Written and illustrated by Yoco Akiyama, author of the Melissa Shield one-shot titled \"Kitto Daremo ga Dareka no Hero\" (Everyone is Surely Someone's Hero) and the Watashi no Hero Academia 4-koma spin-off and fully supervised by Kohei Horikoshi, author of the original series."
    },
    "links": {
     "mal": "123359",
@@ -26,6 +37,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +49,8 @@
       "name": {
        "en": "Superhero"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,51 +61,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-17T06:47:29+00:00",
+   "updatedAt": "2021-05-25T15:41:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "74828944-5432-46fd-8859-cab89be785d6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akiyama Yoco",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "74828944-5432-46fd-8859-cab89be785d6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akiyama Yoco",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4679cafd-2720-4c00-b734-c51d95e21321",
-   "type": "chapter"
-  },
-  {
-   "id": "3a06d748-5894-4132-b5c9-6c14689114ae",
-   "type": "chapter"
-  },
-  {
-   "id": "fd7964eb-1ddd-4322-ab1f-91f9b3f95632",
-   "type": "chapter"
-  },
-  {
-   "id": "ad2d0020-ec8e-4ab1-a9f0-ea8c2ef7a005",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "7064a261-a137-4d3a-8848-2d385de3a99c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "891a566f-bd60-4f06-b493-9219088512d4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:52:43+00:00",
+    "description": "",
+    "fileName": "caf04bfe-c251-42e4-b25c-ecee48e6cc5e.jpg",
+    "updatedAt": "2021-05-24T17:52:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

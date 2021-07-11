@@ -7,6 +7,20 @@
    "title": {
     "en": "Sanctuary"
    },
+   "altTitles": [
+    {
+     "en": "Sığınak"
+    },
+    {
+     "en": "Убежище"
+    },
+    {
+     "en": "サンクチュアリ"
+    },
+    {
+     "en": "圣堂教父"
+    }
+   ],
    "description": {
     "en": "Sanctuary is a political thriller and crime story that featured two childhood friends, Akira Hojo and Chiaki Asami, who are ruthlessly struggling to set a new paradigm of living in Japan. However, the two friends took radically different paths (playing Rock Paper Scissors to decide who does what): Akira chose the dark path and joined a Yakuza gang, while Chiaki strived to become the youngest member of the Japanese Diet. Being survivors of the Cambodian killing fields, the two characters developed an unmatched aggression and survival instincts, helping them to achieve their common ultimate goal: making Japan their own sanctuary."
    },
@@ -32,6 +46,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +58,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -52,6 +70,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,79 +82,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-01T00:45:17+00:00",
+   "updatedAt": "2021-05-25T15:47:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "c5226a56-ae7a-4060-a020-1b0a3098a8fe",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fumimura Sho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3cc20373-aad4-4e28-a509-e7a03bc6ca00",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ikegami Ryoichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "90ad0cc0-7567-478c-aa4d-285b79cb0ff6",
-   "type": "chapter"
-  },
-  {
-   "id": "c7dfebbf-5b63-4b93-bdb4-6f4fda920126",
-   "type": "chapter"
-  },
-  {
-   "id": "af417d85-81b3-4c9e-bfcf-86e30ad9cd0e",
-   "type": "chapter"
-  },
-  {
-   "id": "09640e0c-891a-4dd5-9529-3861d70a557d",
-   "type": "chapter"
-  },
-  {
-   "id": "abdcdf45-52cf-45c4-ad11-2e9025b38d72",
-   "type": "chapter"
-  },
-  {
-   "id": "5644e89f-4441-4821-9250-c62ccb64752a",
-   "type": "chapter"
-  },
-  {
-   "id": "01265266-d487-47dc-8796-640664ce5889",
-   "type": "chapter"
-  },
-  {
-   "id": "f9dfb8d5-1e43-46c0-bb23-16469c753a71",
-   "type": "chapter"
-  },
-  {
-   "id": "bb68fd86-4aa8-4473-9a78-80fea929adc9",
-   "type": "chapter"
-  },
-  {
-   "id": "62f16dd5-6667-4bee-8684-e96bf9df825b",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "b565d2b8-3897-4f90-98a5-019dd48c04f3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:36:06+00:00",
+    "description": "",
+    "fileName": "d8e73586-cfd4-40f0-87b0-8b2c51ed047d.jpg",
+    "updatedAt": "2021-05-24T18:36:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

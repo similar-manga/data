@@ -7,6 +7,20 @@
    "title": {
     "en": "Black Robinia"
    },
+   "altTitles": [
+    {
+     "en": "Чёрная Робиния"
+    },
+    {
+     "en": "ブラックロビニア"
+    },
+    {
+     "en": "黑刺槐"
+    },
+    {
+     "en": "블랙 로비니아"
+    }
+   ],
    "description": {
     "en": "Kisaragi Akira: a police officer investigating a murder case which reminds him of his past. \r\nThe memory that he forced himself to conceal.\r\nAnd the past that has been buried in the deepest part of his heart.\r\n\r\nThe clock that was once stopped has started ticking again."
    },
@@ -18,7 +32,6 @@
     "mu": "63660"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +43,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +55,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,47 +67,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-12T22:26:20+00:00",
+   "updatedAt": "2021-05-25T15:47:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "6c03fadb-2c3a-4fe4-9869-a0c69cf26927",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Broccoli",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "47ba8097-f14e-4b47-8b47-c016da9ba80a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kochimo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "44bf46d5-738a-4dc9-8339-24ac018dffca",
-   "type": "chapter"
-  },
-  {
-   "id": "3e3e17e6-1883-45c7-b744-fbe0a1cb7357",
-   "type": "chapter"
-  },
-  {
-   "id": "c224d894-9404-432e-a61b-73c1b321ed9b",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "700bf453-63be-4f6c-acea-1b14a0a90853",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:46:35+00:00",
+    "description": "",
+    "fileName": "95f075fb-a58c-4033-907c-9cb4c97e0757.jpg",
+    "updatedAt": "2021-05-24T17:46:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

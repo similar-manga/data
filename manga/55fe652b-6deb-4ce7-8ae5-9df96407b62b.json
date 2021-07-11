@@ -7,6 +7,14 @@
    "title": {
     "en": "My Precious"
    },
+   "altTitles": [
+    {
+     "en": "マイ　プレシヤス"
+    },
+    {
+     "en": "你是我一生的珍爱"
+    }
+   ],
    "description": {
     "en": "One day Minoto was passing by Mayue's place and heard the piano tune through the windows. Fascinated by the beautiful music, Minato approaches to the house and Mayue invites him into the house. Together, they become friends and depend on one another... however, Mayue later gets a proposition for studying aboard to Vienna...."
    },
@@ -29,8 +37,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,59 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-14T03:31:27+00:00",
+   "updatedAt": "2021-05-25T15:42:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "5bcb9016-9c06-4e4a-bf74-2602e34a1a0b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Odagiri Hotaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5bcb9016-9c06-4e4a-bf74-2602e34a1a0b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Odagiri Hotaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cfbe325c-0459-46e5-97d1-632e80d8df71",
-   "type": "chapter"
-  },
-  {
-   "id": "4bf6594c-675b-4f83-ae2e-69e124776566",
-   "type": "chapter"
-  },
-  {
-   "id": "12af6566-ce65-4595-bbbc-e7b5adb3a5d3",
-   "type": "chapter"
-  },
-  {
-   "id": "70f24fa6-e5bc-4a23-8b2f-8bb282102bef",
-   "type": "chapter"
-  },
-  {
-   "id": "2440491e-f313-44d8-bad3-f5baf934b317",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "f77553a8-9be9-4f08-869b-97b1b895a31e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:07:59+00:00",
+    "description": "",
+    "fileName": "024374ab-c806-4ef4-96aa-55d4a859000a.jpg",
+    "updatedAt": "2021-05-24T17:07:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

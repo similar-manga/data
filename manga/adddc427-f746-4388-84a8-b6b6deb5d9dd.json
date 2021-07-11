@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "The Daily Life of Angel \u0026amp; K9999"
+    "en": "The Daily Life of Angel \u0026 K9999"
    },
    "description": {
     "en": "A short collection of comics starring two characters from the King of Fighters series."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,35 +21,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-26T12:40:31+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "4c804f8d-68fc-4d7c-9032-760a62392567",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "chimaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4c804f8d-68fc-4d7c-9032-760a62392567",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "chimaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "37cb8b22-6ba8-4bb6-94ac-945571311f3e",
-   "type": "chapter"
-  },
-  {
-   "id": "6abeb51a-2452-43e7-a75a-3b1fd24e329a",
-   "type": "chapter"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "f7a47102-ff85-4f48-a588-8ab58963cf45",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:28:40+00:00",
+    "description": "",
+    "fileName": "1eb4b2ff-4094-41ca-89c4-8c88bcc0b1cf.jpg",
+    "updatedAt": "2021-05-24T18:28:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

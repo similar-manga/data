@@ -7,6 +7,20 @@
    "title": {
     "en": "Dragon Quest e no Michi"
    },
+   "altTitles": [
+    {
+     "en": "Making of Dragon Quest"
+    },
+    {
+     "en": "Road to Dragon Quest"
+    },
+    {
+     "en": "The Road to Dragon Quest"
+    },
+    {
+     "en": "ドラゴンクエストへの道"
+    }
+   ],
    "description": {
     "en": "A manga that is essentially the story of Enix from the time it starts working with games, until its release of the series it became known for, Dragon Quest. All the characters are real Enix employees at the time. You get to see the developers as real people, who agonize over everything, like how big to make the text boxes, what should NPCs say, etc, as well as how they get along with each other."
    },
@@ -27,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +53,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -47,51 +65,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-15T07:35:14+00:00",
+   "updatedAt": "2021-05-25T15:45:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "e9f3c5c5-ae52-45ea-a9f7-ec81e02783b3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takizawa Hiroyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e9f3c5c5-ae52-45ea-a9f7-ec81e02783b3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takizawa Hiroyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d34ed902-8bca-44ea-86c8-12548443bb57",
-   "type": "chapter"
-  },
-  {
-   "id": "bb0da018-02dc-435a-b1c3-f5431d668ff0",
-   "type": "chapter"
-  },
-  {
-   "id": "7328ee3a-79f3-42a1-80e1-c88d187c9556",
-   "type": "chapter"
-  },
-  {
-   "id": "e7af7e6b-6020-43ae-8191-994ade8e3f8a",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "a539dc2e-9abe-4f29-9262-fed16613f51c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:00+00:00",
+    "description": "",
+    "fileName": "154b5878-02c2-44b2-8d02-3fb4eb7cb860.jpg",
+    "updatedAt": "2021-05-24T17:56:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

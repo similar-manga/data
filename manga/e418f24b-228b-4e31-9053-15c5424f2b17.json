@@ -7,6 +7,14 @@
    "title": {
     "en": "Monokuro Limit"
    },
+   "altTitles": [
+    {
+     "en": "Monochrome Limit"
+    },
+    {
+     "en": "モノクロリミット"
+    }
+   ],
    "description": {
     "en": "Rui, the handsome lead of the popular band Joker Trick, feels a surpassing passion for music that only matched by the lack of love that he feels for any woman he is involved with. Much to the exasperated concern of his band mates, he seems unable to know romantic love at all. When one of them hands him an illicit piece of technology that promises to learn to be the perfect lover, he is reluctantly intrigued. Will this android lover show Rui what it is to love?"
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,8 +56,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +70,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,63 +82,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-25T15:34:54+00:00",
+   "updatedAt": "2021-05-25T15:48:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "4082ec68-42e6-4921-97a0-e9c97b70d3ee",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maine",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4082ec68-42e6-4921-97a0-e9c97b70d3ee",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maine",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9ade8958-e24b-4d0b-81a0-33a7fedcedca",
-   "type": "chapter"
-  },
-  {
-   "id": "e240f8e3-73c5-4684-8f1d-350498561a39",
-   "type": "chapter"
-  },
-  {
-   "id": "7ab9adda-6d4a-44a6-b7ea-aa32c5d9de50",
-   "type": "chapter"
-  },
-  {
-   "id": "173bd931-00bb-4fe0-8fc3-56bebe89127b",
-   "type": "chapter"
-  },
-  {
-   "id": "03d75d11-b7fe-4390-9d0f-a9f4ac730e76",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "6dccad66-c965-4fa8-a845-00e7edd9ea22",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:19+00:00",
+    "description": "",
+    "fileName": "5ade13d4-9905-4ace-b118-4279e88ed840.png",
+    "updatedAt": "2021-05-24T17:20:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

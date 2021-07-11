@@ -11,7 +11,6 @@
     "en": "Published in Imagine #6, July 1979"
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,35 +34,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-09T04:09:21+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "05576740-a4f8-4c6a-9a79-bd0ee2e28c1a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mukaide Masaichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "05576740-a4f8-4c6a-9a79-bd0ee2e28c1a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mukaide Masaichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "af8b945d-ff86-4233-ba30-1670e9d07e30",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "de6a0e9d-2de9-4f37-8e8d-80a8c923c0e0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:02:19+00:00",
+    "description": "",
+    "fileName": "60417e7b-1cf2-4907-8999-f846db5add11.jpg",
+    "updatedAt": "2021-05-24T18:02:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

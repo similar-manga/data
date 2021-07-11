@@ -7,8 +7,19 @@
    "title": {
     "en": "Sold Out!"
    },
+   "altTitles": [
+    {
+     "en": "Sold Out"
+    },
+    {
+     "en": "تم بيعه"
+    },
+    {
+     "en": "ソールドアウト！"
+    }
+   ],
    "description": {
-    "en": "Ina wants to meet a normal boy so she asks her best friend, Mako, for help. They go shopping in the new \u0026quot;Se Rejouir\u0026quot; and Ina suddenly confesses her love to the Manager..."
+    "en": "Ina wants to meet a normal boy so she asks her best friend, Mako, for help. They go shopping in the new \"Se Rejouir\" and Ina suddenly confesses her love to the Manager..."
    },
    "links": {
     "al": "34134",
@@ -30,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,55 +53,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-14T07:16:02+00:00",
+   "updatedAt": "2021-05-25T15:49:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "8c3e69d7-ed4c-4fbc-b80b-e48781ce6b1c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KENJO Sakura",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8c3e69d7-ed4c-4fbc-b80b-e48781ce6b1c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KENJO Sakura",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8e431ae1-3774-4406-b367-2f220b75fa9d",
-   "type": "chapter"
-  },
-  {
-   "id": "6b084962-70f3-42cf-9e48-f35c95788055",
-   "type": "chapter"
-  },
-  {
-   "id": "f5286f0a-4e10-4c52-8db6-3cbc201f0323",
-   "type": "chapter"
-  },
-  {
-   "id": "2c71c7e1-1b88-4573-9865-dd6815cf9b3e",
-   "type": "chapter"
-  },
-  {
-   "id": "3dc976de-3bc6-4bdc-bc08-1c9d37fc79ce",
-   "type": "chapter"
-  },
-  {
-   "id": "d44ecabd-1280-4253-9813-4951f4c23043",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "0695a388-a654-4f11-a7e5-1f030806c950",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:41:52+00:00",
+    "description": "",
+    "fileName": "b789441e-c1d2-4cc6-a23e-3acc25ece2bd.jpg",
+    "updatedAt": "2021-05-24T16:41:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

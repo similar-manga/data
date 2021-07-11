@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "O Mil\u0026eacute;simo Sol"
+    "en": "O Milésimo Sol"
    },
+   "altTitles": [
+    {
+     "en": "The Thousand Sun"
+    }
+   ],
    "description": {
-    "en": "Um jovem fraco e pregui\u0026ccedil;oso segue seu caminho nas artes marciais, passando por in\u0026uacute;meras dificuldades enquanto redescobre antigas lendas sobre t\u0026eacute;cnica milenares e descobre novos poderes, num mundo cercado por uma misteriosa pandemia que causa enormes manchas negras e degenera os esp\u0026iacute;ritos humanos."
+    "en": "Um jovem fraco e preguiçoso segue seu caminho nas artes marciais, passando por inúmeras dificuldades enquanto redescobre antigas lendas sobre técnica milenares e descobre novos poderes, num mundo cercado por uma misteriosa pandemia que causa enormes manchas negras e degenera os espíritos humanos."
    },
    "originalLanguage": "es-la",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,6 +51,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,55 +63,65 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-24T11:57:03+00:00",
+   "updatedAt": "2021-05-25T15:46:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "fd424a19-ba87-4d5f-a25b-159365711492",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Austrália Estúdios",
+    "updatedAt": "2021-05-15T21:06:43+00:00",
+    "version": 2
+   }
   },
   {
    "id": "879f4f9b-88c8-4936-b319-635262d16e48",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Werwolf Studio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fd424a19-ba87-4d5f-a25b-159365711492",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Austrália Estúdios",
+    "updatedAt": "2021-05-15T21:06:43+00:00",
+    "version": 2
+   }
   },
   {
-   "id": "17dab4ac-ed96-4c34-8250-ee48df045f79",
-   "type": "chapter"
-  },
-  {
-   "id": "d72a51dd-da35-435f-b6f1-7bdff20250b7",
-   "type": "chapter"
-  },
-  {
-   "id": "c8e1a215-628e-4d99-a2d7-3802a8b58bf3",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
+   "id": "fd017980-e7c8-4fdb-aba3-b794bdcbeb72",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:06+00:00",
+    "description": "",
+    "fileName": "9ec80ff6-0387-4c63-94ad-d020d986e21e.png",
+    "updatedAt": "2021-05-24T18:04:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

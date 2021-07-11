@@ -31,6 +31,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,47 +43,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-04-29T07:02:05+00:00",
+   "updatedAt": "2018-04-29T07:02:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "7a066e20-b9bc-4c63-aafb-94c4537ef30b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mori Motoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7a066e20-b9bc-4c63-aafb-94c4537ef30b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mori Motoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "02601f28-514a-4dc6-b541-65ea99b3ba5b",
-   "type": "chapter"
-  },
-  {
-   "id": "5ad76ce2-8529-4efc-8982-32f102485cf1",
-   "type": "chapter"
-  },
-  {
-   "id": "a998c4b0-b2f8-452f-b074-05666475a929",
-   "type": "chapter"
-  },
-  {
-   "id": "cf1242d2-ff34-44ee-a953-2fa82246d12f",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "9d55efef-a4a0-4fe9-9026-32abda4d6b77",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:03:47+00:00",
+    "description": "",
+    "fileName": "2879af59-5860-45b6-893b-cec1e45e432f.jpg",
+    "updatedAt": "2021-05-24T18:03:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

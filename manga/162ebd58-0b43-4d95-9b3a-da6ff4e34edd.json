@@ -7,6 +7,14 @@
    "title": {
     "en": "After Hours"
    },
+   "altTitles": [
+    {
+     "en": "アフターアワーズ"
+    },
+    {
+     "en": "애프터 어워즈"
+    }
+   ],
    "description": {
     "en": "Asahina Emi, an ordinary girl dragged along to a club by a friend, has a chance encounter with Kei, a savvy, fashionable, vinyl-collecting lesbian - and what unfolds a heart-throbbing, shimmering tale of girl meets girl against the backdrop of Tokyo's vibrant nightlife scene."
    },
@@ -34,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,8 +52,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,6 +66,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -64,79 +78,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-06T21:15:47+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "1d82c578-e1a6-4e3b-befd-aaefb9071071",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nishio Yuhta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1d82c578-e1a6-4e3b-befd-aaefb9071071",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nishio Yuhta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "62a95aa5-104f-46f6-8046-2d3938db3173",
-   "type": "chapter"
-  },
-  {
-   "id": "29d8691b-4f8c-404b-bb6e-6419542772cc",
-   "type": "chapter"
-  },
-  {
-   "id": "a0e7ad89-0bf5-422d-b695-ce930c6ca066",
-   "type": "chapter"
-  },
-  {
-   "id": "2661c938-ffb5-404f-8950-9c7d0a98e98a",
-   "type": "chapter"
-  },
-  {
-   "id": "a365c8bc-4668-49c3-b471-d42a5a1e33d6",
-   "type": "chapter"
-  },
-  {
-   "id": "93d65103-5575-4b97-8cbf-9b02c27e2f75",
-   "type": "chapter"
-  },
-  {
-   "id": "0a3f5326-f735-43ac-a17f-c3ccd66ba55f",
-   "type": "chapter"
-  },
-  {
-   "id": "5812ece1-9756-4657-ae79-9b8b2cbd910e",
-   "type": "chapter"
-  },
-  {
-   "id": "1b345c8b-6d89-4e38-92d2-cd9566a36441",
-   "type": "chapter"
-  },
-  {
-   "id": "ab02ae44-e501-483d-96ac-ec73286038de",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "c1683865-06ec-4fd5-a081-16587b995e71",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:41+00:00",
+    "description": "",
+    "fileName": "8eb92b68-bf87-4262-af77-56b574092ab3.png",
+    "updatedAt": "2021-05-24T16:50:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

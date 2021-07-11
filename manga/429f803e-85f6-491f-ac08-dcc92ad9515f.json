@@ -7,6 +7,14 @@
    "title": {
     "en": "Bobobo-bo Bo-bobo? - Sawai Yoshio Short Story Anthology"
    },
+   "altTitles": [
+    {
+     "en": "Bobobo-bo Bo-bobo? - Sawai Yoshio Tanpenshuu"
+    },
+    {
+     "en": "ボボボーボ・ボーボボ?―澤井啓夫短編集"
+    }
+   ],
    "description": {
     "en": "An anthology of Bobobo-related tales.\r\n\r\nContents:\r\n- Stinky Mountain Action Story\r\n- Bobobo-bo Bo-bobo: Akamaru Version\r\n- Bobobo-bo Bo-bobo: Chapter One - Bo-bobo and Beauty\r\n- Bobobo-bo Bo-bobo: Chapter Two - Bo-bobo and Captain Battleship\r\n- Bobobo-bo Bo-bobo: Chapter Three - Bo-bobo and Don Patch\r\n- Bobobo-bo Bo-bobo: Chapter Four - Bo-bobo and Gasser\r\n- Invincibleman\r\n- Fierce Battle!! Rock-Paper-Scissors Island"
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -61,71 +75,53 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-15T23:15:33+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "fc131490-03da-4e81-a4a9-49bb274603cc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sawai Yoshio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "fc131490-03da-4e81-a4a9-49bb274603cc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sawai Yoshio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "64804054-d228-46fb-b8a6-edddfda241cc",
-   "type": "chapter"
-  },
-  {
-   "id": "7d734bf0-80e3-4879-b0ff-d51060d43cf4",
-   "type": "chapter"
-  },
-  {
-   "id": "b92558aa-1fb1-41fc-853f-e3c204e58541",
-   "type": "chapter"
-  },
-  {
-   "id": "645fffd5-c788-4446-bad8-4fe026393a8d",
-   "type": "chapter"
-  },
-  {
-   "id": "5811b6b1-021f-4106-9462-8d1e500bbd3c",
-   "type": "chapter"
-  },
-  {
-   "id": "13c573ff-0a8c-4551-a22a-b85b2c50b377",
-   "type": "chapter"
-  },
-  {
-   "id": "204a3d4f-b7a1-4e8e-9a7c-367757f00018",
-   "type": "chapter"
-  },
-  {
-   "id": "ca13ad87-fc3a-4249-b375-97bc1e65544c",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
+   "id": "cca4cdb8-21e3-4f88-8cfa-55012fabeb2e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:56+00:00",
+    "description": "",
+    "fileName": "539d816b-8734-4d02-8e85-0579f64d3084.png",
+    "updatedAt": "2021-05-24T17:33:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

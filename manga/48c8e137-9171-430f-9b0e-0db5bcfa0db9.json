@@ -15,7 +15,6 @@
     "raw": "http://ryusukeworks.com/KL/index.html"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +25,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +37,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -46,6 +49,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -56,79 +61,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-27T14:32:53+00:00",
+   "updatedAt": "2021-05-25T15:42:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "1b788d1d-6bed-4bc0-be85-52fa854f4ad5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hamamoto Ryusuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1b788d1d-6bed-4bc0-be85-52fa854f4ad5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hamamoto Ryusuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "43aeb181-e96e-4f92-8178-314c8f975792",
-   "type": "chapter"
-  },
-  {
-   "id": "8ad0dd43-312a-4bcc-8f12-46fc00ecb346",
-   "type": "chapter"
-  },
-  {
-   "id": "754b6de2-f135-427a-a914-9e62c62a9b3b",
-   "type": "chapter"
-  },
-  {
-   "id": "42d85874-48f6-4d40-aa6a-2bb16f843c14",
-   "type": "chapter"
-  },
-  {
-   "id": "aad92c31-630d-40b7-9f36-128e57f0182f",
-   "type": "chapter"
-  },
-  {
-   "id": "38624943-3b07-4d14-9754-c9e24bc0f5da",
-   "type": "chapter"
-  },
-  {
-   "id": "6c37f452-bfee-4a72-a7ed-3ae18d260761",
-   "type": "chapter"
-  },
-  {
-   "id": "01ea7fae-8065-4004-9cda-a10e13aced4e",
-   "type": "chapter"
-  },
-  {
-   "id": "874b8b93-91bf-4b88-bf2c-3c691b2492a9",
-   "type": "chapter"
-  },
-  {
-   "id": "28c2ab68-4f8d-4c47-b998-b0e8f435265f",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "8b6ce0a8-438f-4ff4-9f83-f4d8290d350d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:46:15+00:00",
+    "description": "",
+    "fileName": "71cb1a17-644b-4060-863e-28ba374762c0.jpg",
+    "updatedAt": "2021-05-24T16:46:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

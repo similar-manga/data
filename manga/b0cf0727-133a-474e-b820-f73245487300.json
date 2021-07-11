@@ -7,6 +7,14 @@
    "title": {
     "en": "Yuujin ga Yuusha"
    },
+   "altTitles": [
+    {
+     "en": "My Friend Is A Hero"
+    },
+    {
+     "en": "友人が勇者"
+    }
+   ],
    "description": {
     "en": "The hero is in love with Shepherd A in heaven. In order to save the world, when his HP reaches zero, the hero can meet his friend who lives in heaven. Though he was happy just smiling by his side, friendship turned into love. Is the time until the resurrection spell is cast enough for this one man in love?"
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,8 +73,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,6 +87,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -81,6 +99,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -91,87 +111,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-18T03:40:29+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "b7946b69-ed89-44bb-8c46-e41dd39b9e30",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chocodoughnuts",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b7946b69-ed89-44bb-8c46-e41dd39b9e30",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chocodoughnuts",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "34e8b7e3-60ae-45ac-9fa7-be24517342d7",
-   "type": "chapter"
-  },
-  {
-   "id": "228e8187-3233-4aa9-afb2-5ad21e598189",
-   "type": "chapter"
-  },
-  {
-   "id": "f2909d9b-e1a9-468a-b431-8fa4243a7eaa",
-   "type": "chapter"
-  },
-  {
-   "id": "8be94f1e-dc98-4bbe-8e2a-be6bbeb5eb9c",
-   "type": "chapter"
-  },
-  {
-   "id": "4fcb8d33-6f56-459f-8396-f5645f9d3f05",
-   "type": "chapter"
-  },
-  {
-   "id": "93959cf7-b95f-4258-bde1-9a053987b9b4",
-   "type": "chapter"
-  },
-  {
-   "id": "9c83491f-f922-4aa7-a5f7-bb5275b28eca",
-   "type": "chapter"
-  },
-  {
-   "id": "0357417e-dcf1-4132-acac-802866e14529",
-   "type": "chapter"
-  },
-  {
-   "id": "aa27697d-7420-4afe-adc3-c4348736ca51",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "b5296335-fa8a-4f67-bfea-829b18593489",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:23:14+00:00",
+    "description": "",
+    "fileName": "fff80ce5-58fe-419f-8bef-9158733b1456.jpg",
+    "updatedAt": "2021-05-24T17:23:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

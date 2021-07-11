@@ -5,8 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Chikin - \u0026quot;Drop\u0026quot; Zenya no Monogatari"
+    "en": "Chikin - \"Drop\" Zenya no Monogatari"
    },
+   "altTitles": [
+    {
+     "en": "Chicken (SAIWAKI Masayuki)"
+    },
+    {
+     "en": "Chiken - \"Drop\" Zenya no Monogatari"
+    },
+    {
+     "en": "Chikin"
+    },
+    {
+     "en": "チキン 「ドロップ」前夜の物語"
+    }
+   ],
    "description": {
     "en": "Spin-off from Drop. Follows the daily life of legendary thug, Tatsuya Iguchi who is not afraid of anything or anyone."
    },
@@ -18,7 +32,6 @@
     "mu": "55914"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -30,6 +43,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,31 +55,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-08-20T02:06:39+00:00",
+   "updatedAt": "2019-08-20T02:06:39+00:00"
   }
  },
  "relationships": [
   {
    "id": "2a04fff6-66ef-4619-ab75-616a2dd6d7a0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Iguchi Tatsuya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d0f95978-f5b3-4445-930f-d89dbabd2b56",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Saiwaki Masayuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "37d8fb38-4d20-4fb6-91c5-d56617912a6b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:23:27+00:00",
+    "description": "",
+    "fileName": "1047f621-e450-4c20-a91c-eb5ea58e028a.jpg",
+    "updatedAt": "2021-05-24T17:23:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,10 +5,27 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "How I Became a Pok\u0026eacute;mon Card"
+    "en": "How I Became a Pokémon Card"
    },
+   "altTitles": [
+    {
+     "en": "Pocket Monsters"
+    },
+    {
+     "en": "Pokémon"
+    },
+    {
+     "en": "Pokémon Card Ni Natta Wake"
+    },
+    {
+     "en": "Pokemon"
+    },
+    {
+     "en": "Pokemon Kaado ni Natta Wake"
+    }
+   ],
    "description": {
-    "en": "How I Became a Pok\u0026eacute;mon Card is a manga created by Kagemaru Himeno, who is also an artist for the TCG. While the manga includes some reoccurring characters, each chapter is mainly a standalone story featuring one Pok\u0026eacute;mon, such as Dratini or Jolteon. At some point within each story an image of an actual Pok\u0026eacute;mon card is shown, the stories expand on the image that appears on the card and tells about what the Pok\u0026eacute;mon is doing in the picture or how it got there.\r\n-Bulbapedia"
+    "en": "How I Became a Pokémon Card is a manga created by Kagemaru Himeno, who is also an artist for the TCG. While the manga includes some reoccurring characters, each chapter is mainly a standalone story featuring one Pokémon, such as Dratini or Jolteon. At some point within each story an image of an actual Pokémon card is shown, the stories expand on the image that appears on the card and tells about what the Pokémon is doing in the picture or how it got there.\r\n-Bulbapedia"
    },
    "links": {
     "al": "48306",
@@ -27,6 +44,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +56,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,51 +68,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-22T08:57:35+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "344dbb1e-785d-4894-a471-2abdd2d56aa5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HIMENO Kagemaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "344dbb1e-785d-4894-a471-2abdd2d56aa5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HIMENO Kagemaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "18a5e0cd-b32a-4711-8159-54008d7025b8",
-   "type": "chapter"
-  },
-  {
-   "id": "8cf71eb3-8e80-47ae-9343-60c282ae4665",
-   "type": "chapter"
-  },
-  {
-   "id": "2fd1c678-4756-4842-921e-c9c16fc3894b",
-   "type": "chapter"
-  },
-  {
-   "id": "4f12bbdf-b0a9-4120-8b4a-7a9a6a07217e",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "1a8cd3b0-4bec-4fb4-a5d7-e3ddeb3686cb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:45:44+00:00",
+    "description": "",
+    "fileName": "a01372fa-2f79-4745-8ab8-f7fbf4337537.png",
+    "updatedAt": "2021-05-24T16:45:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

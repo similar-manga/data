@@ -7,6 +7,11 @@
    "title": {
     "en": "Hikari to Mado"
    },
+   "altTitles": [
+    {
+     "en": "光と窓, Light and Windows"
+    }
+   ],
    "description": {
     "en": "Artist and illustrator Kashiwai adapts classics from japanese children's literature in this anthology.\r\n\r\nStories:\r\nYuuhi no Kuni (Naoko Awa)\r\nChiisai Yasashii Migite (Naoko Awa)\r\nKin no Wa (Mimei Ogawa)\r\nKou-chan (Atsuko Suga)\r\nHitotsu no Hi (Nankichi Niimi)\r\nChuumon no Ooi Ryouriten (Kenji Miyazawa)"
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +57,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -58,6 +69,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,43 +81,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-12-30T19:32:26+00:00",
+   "updatedAt": "2020-12-30T19:32:26+00:00"
   }
  },
  "relationships": [
   {
    "id": "474137e9-be60-4c3b-90ac-25a6c1bb739f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kashiwai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "474137e9-be60-4c3b-90ac-25a6c1bb739f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kashiwai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "f161ff51-9e2a-4f51-a29d-1aba41265804",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:24:55+00:00",
+    "description": "",
+    "fileName": "57572e2a-2642-4b95-8925-ebf0eecf293e.jpg",
+    "updatedAt": "2021-05-24T18:24:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

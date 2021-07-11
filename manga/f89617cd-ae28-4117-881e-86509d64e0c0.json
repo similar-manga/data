@@ -5,8 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Kelaly \u0026amp; Gogo"
+    "en": "Kelaly \u0026 Gogo"
    },
+   "altTitles": [
+    {
+     "en": "Kelaly \u0026 Gogo"
+    },
+    {
+     "en": "Kelaly and Gogo"
+    },
+    {
+     "en": "Kelaly to Gogo"
+    },
+    {
+     "en": "ケラリとゴゴ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +28,6 @@
     "mu": "138293"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,31 +50,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-01-27T07:16:22+00:00",
+   "updatedAt": "2019-01-27T07:16:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "725182f9-509a-40e9-a128-b46bc24a0b87",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyauchi Yusuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "725182f9-509a-40e9-a128-b46bc24a0b87",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Miyauchi Yusuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "c9435331-e990-4f82-9631-e6c0ace13582",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:17+00:00",
+    "description": "",
+    "fileName": "6dd8df0c-f2f7-461d-a24a-7be080e6174a.jpg",
+    "updatedAt": "2021-05-24T16:59:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

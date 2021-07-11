@@ -7,6 +7,11 @@
    "title": {
     "en": "Kimi wa Kawaii Hito"
    },
+   "altTitles": [
+    {
+     "en": "You Are a Cute Person"
+    }
+   ],
    "description": {
     "en": "Migita, a handsome and popular student always uses the word 'cute' to describe everything. He thinks that the word 'cute' is simply that - a word. Sanai confronts him about this and their journey starts from there."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,39 +59,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-07-08T23:00:27+00:00",
+   "updatedAt": "2018-07-08T23:00:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "6c384623-fb28-4958-995e-fd7d3f4f390b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshikawa Yumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6c384623-fb28-4958-995e-fd7d3f4f390b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshikawa Yumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "98b69c3d-fd06-4fed-ab80-9e29f2deac89",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "3d85260d-1780-4f1c-839e-3023c88fce56",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:40:20+00:00",
+    "description": "",
+    "fileName": "32accecd-3857-49f2-88c0-022d98857e43.jpg",
+    "updatedAt": "2021-05-24T18:40:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

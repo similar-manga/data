@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "\u0026quot;Tissues.\u0026quot;"
+    "en": "\"Tissues.\""
    },
+   "altTitles": [
+    {
+     "en": "「ティッシュ。」"
+    },
+    {
+     "en": "Tissues"
+    },
+    {
+     "en": "ティッシュ"
+    }
+   ],
    "description": {
     "en": "Chiasa, a high school girl, begins living with her mother at her new husband's house. The husband brings to marriage Naoki, a young college student with psychopathic tendencies who becomes obsessed with Chiasa. Can Chiasa continue to live under the same roof as Naoki?"
    },
@@ -19,7 +30,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "2",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -31,6 +41,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,31 +53,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-03-02T16:02:28+00:00",
+   "updatedAt": "2019-03-02T16:02:28+00:00"
   }
  },
  "relationships": [
   {
    "id": "79b3113b-39d6-479a-92e4-a93e2e67e79f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakabe Shuuichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "79b3113b-39d6-479a-92e4-a93e2e67e79f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakabe Shuuichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "d89c485b-7785-4f7c-b914-cdb40b837ed6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:09+00:00",
+    "description": "",
+    "fileName": "607532ab-1a9b-4754-a639-388f2b84cf39.jpg",
+    "updatedAt": "2021-05-24T17:03:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Valkyrie Drive Siren -Break Out-"
    },
+   "altTitles": [
+    {
+     "en": "ヴァルキリードライヴ セイレーン -ブレイクアウト-"
+    }
+   ],
    "description": {
     "en": "Based on Valkyrie Drive: Siren mobile game."
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,8 +47,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +61,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -62,79 +73,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-12T03:47:32+00:00",
+   "updatedAt": "2021-05-25T15:43:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "7f653e9b-8228-4d1f-bc87-03c012f354d0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Valkyrie Drive Project",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d830553e-4729-4f29-b79f-2058c7456550",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Azuse",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "250c8973-9124-49e9-90bf-9f2f4a250979",
-   "type": "chapter"
-  },
-  {
-   "id": "4f21fd39-4734-4902-af7e-c59d09fb05d2",
-   "type": "chapter"
-  },
-  {
-   "id": "6663b255-e318-430c-a955-391458e9b124",
-   "type": "chapter"
-  },
-  {
-   "id": "88537da8-7287-40d9-a40c-27649c927a99",
-   "type": "chapter"
-  },
-  {
-   "id": "42d16807-e615-40be-a735-bb0cf53122af",
-   "type": "chapter"
-  },
-  {
-   "id": "a60bc0a1-2f4a-4e2e-b4e6-41252feb9393",
-   "type": "chapter"
-  },
-  {
-   "id": "5ab882fb-3b5c-4119-9376-8f3aa51dbdf8",
-   "type": "chapter"
-  },
-  {
-   "id": "90b9bf29-cdfa-4009-968c-8596a646c0a7",
-   "type": "chapter"
-  },
-  {
-   "id": "a44ecce6-5beb-43a8-9122-9f0756150065",
-   "type": "chapter"
-  },
-  {
-   "id": "6241a998-35fb-4bb2-a3a2-84f40a07f350",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "7c6a34c5-5b3a-4fa2-a609-67fa0b95d224",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:33+00:00",
+    "description": "",
+    "fileName": "3577eb89-e15b-46e2-900a-e4f01a874dd9.jpg",
+    "updatedAt": "2021-05-24T17:11:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Comic Party"
    },
+   "altTitles": [
+    {
+     "en": "こみっくパーティー"
+    },
+    {
+     "en": "코믹파티"
+    }
+   ],
    "description": {
     "en": "The plot centers on Kazuki Sendo, whose passion and talent for painting and drawing propels him into the world of doujinshi (underground comics). Soon, Kazuki's everyday life is consumed by the fanboy life and his girlfriend is beginning to have some serious doubts about him...\r\nSure, his new career as a struggling artist has begun, but at what cost to his friends and family?"
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,75 +63,53 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-06T23:26:12+00:00",
+   "updatedAt": "2021-05-25T15:49:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "073477be-da4b-400d-9115-030771036222",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "AQUAPLUS",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5e625443-f7c4-4d66-8c83-92da3ca730a0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Inui Sekihiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e7bdd850-3737-4b49-9cfa-3e963360a5b7",
-   "type": "chapter"
-  },
-  {
-   "id": "dfe45e31-7ef1-4db0-bd31-fe1b6c643327",
-   "type": "chapter"
-  },
-  {
-   "id": "15f141c4-882d-4f0f-8001-66b188ba4193",
-   "type": "chapter"
-  },
-  {
-   "id": "d1168823-a708-4a88-abfe-3f0df7c212e1",
-   "type": "chapter"
-  },
-  {
-   "id": "b8627338-ce53-4dd6-bb90-e62e33622535",
-   "type": "chapter"
-  },
-  {
-   "id": "0fd888f1-962f-43b8-9901-c8c070261a8e",
-   "type": "chapter"
-  },
-  {
-   "id": "0002a776-b699-4802-8ac8-ad64fb0d81a3",
-   "type": "chapter"
-  },
-  {
-   "id": "3c5e1190-f812-449c-bb33-4f2db69fe50d",
-   "type": "chapter"
-  },
-  {
-   "id": "c57a18b8-ef5e-4753-b515-d7e36fbc497b",
-   "type": "chapter"
-  },
-  {
-   "id": "cb669426-65b9-4dde-a1b2-0567c2e3d8ab",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
+   "id": "e98933f2-0c07-4fbd-b3f2-6ab5f97f2c29",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:39:55+00:00",
+    "description": "",
+    "fileName": "2913ebfa-8ac9-4d32-9f8d-f30e8c2e9f80.jpg",
+    "updatedAt": "2021-05-24T17:39:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

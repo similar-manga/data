@@ -7,8 +7,16 @@
    "title": {
     "en": "Ys"
    },
+   "altTitles": [
+    {
+     "en": "Ancient Books of Ys"
+    },
+    {
+     "en": "イース"
+    }
+   ],
    "description": {
-    "en": "Adol Christen, a young man from the mainland, sails to the besieged land of Esteria in search of adventure. Esteria is being overrun by beasts under the control of the evil priest Dark Fact, and the people of the land are running out of time. However, there is a prophecy that tells of a hero from another land who will come to save Esteria\u0026mdash;and his name would be Adol Christen."
+    "en": "Adol Christen, a young man from the mainland, sails to the besieged land of Esteria in search of adventure. Esteria is being overrun by beasts under the control of the evil priest Dark Fact, and the people of the land are running out of time. However, there is a prophecy that tells of a hero from another land who will come to save Esteria—and his name would be Adol Christen."
    },
    "links": {
     "al": "96697",
@@ -30,6 +38,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,35 +62,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-04-05T03:42:07+00:00",
+   "updatedAt": "2019-04-05T03:42:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "199ea6ae-0036-475f-9190-5feb702baa6d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maeda Hideki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "199ea6ae-0036-475f-9190-5feb702baa6d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maeda Hideki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "1d73c2f5-0ab9-4fa1-9b00-9dc6c58bb1c2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:54+00:00",
+    "description": "",
+    "fileName": "102ac53f-e3ea-4dd0-a05f-1ed1fdc17f8b.jpg",
+    "updatedAt": "2021-05-24T17:06:54+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon - Bakkon Cafe (Doujinshi)"
+    "en": "Pokémon - Bakkon Cafe (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "(サンクリ45) バッ婚カフェ (ポケットモンスター)"
+    },
+    {
+     "en": "SC45"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,35 +41,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-06T11:07:20+00:00",
+   "updatedAt": "2021-05-25T15:42:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "efa06f9e-3bef-44a2-8a5d-cb0eb66b5351",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Draw Go",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c4570c88-1efc-4257-89c9-0f757d7c3496",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Watanabe Souichi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cf6eb624-7b04-478b-a7b0-bcba87fb7131",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "c0b89ba8-6d34-4fe0-95d5-d236eddf7896",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:10:55+00:00",
+    "description": "",
+    "fileName": "ef36e0eb-68c8-4111-a938-475393e66a75.jpg",
+    "updatedAt": "2021-05-24T17:10:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

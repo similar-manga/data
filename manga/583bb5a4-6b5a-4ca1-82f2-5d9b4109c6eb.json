@@ -7,6 +7,17 @@
    "title": {
     "en": "Shiroi Hon"
    },
+   "altTitles": [
+    {
+     "en": "Shiro Ihon"
+    },
+    {
+     "en": "White Book"
+    },
+    {
+     "en": "白異本"
+    }
+   ],
    "description": {
     "en": "Another Seven stories adapted from the horror of Hokazono Masaya.\r\n\r\nThis is a continuation of it's prequel, Akai Hon"
    },
@@ -29,59 +40,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-23T10:17:09+00:00",
+   "updatedAt": "2021-05-25T15:42:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "c3f17d43-f1ed-4300-b52d-22cb5fd1de3c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hokazono Masaya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f8109563-b8f8-4643-8247-f3ebadc97454",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takaminato Motosuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5509289c-d6af-479b-8e22-1013a32a3399",
-   "type": "chapter"
-  },
-  {
-   "id": "38058ae4-29f2-44f8-999b-7d531776a844",
-   "type": "chapter"
-  },
-  {
-   "id": "0589dee8-0e60-4769-b042-91bb0b37641e",
-   "type": "chapter"
-  },
-  {
-   "id": "d052a608-6437-4b2b-aba8-b08b150a51a7",
-   "type": "chapter"
-  },
-  {
-   "id": "8b2c9cc5-f258-4dbd-926c-610fa0a42d0f",
-   "type": "chapter"
-  },
-  {
-   "id": "3c67f2f4-d021-4f96-8064-289ae7e98664",
-   "type": "chapter"
-  },
-  {
-   "id": "a5e4d8f6-bcee-44db-b18f-d59fb756b40f",
-   "type": "chapter"
-  },
-  {
-   "id": "38af270d-8674-4dd7-914a-88de3061abe4",
-   "type": "chapter"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "644744b1-86c6-4fcc-9c11-e419e6c8a926",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:02+00:00",
+    "description": "",
+    "fileName": "822d94b8-a743-47f3-88e1-15537c487882.jpg",
+    "updatedAt": "2021-05-24T17:20:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

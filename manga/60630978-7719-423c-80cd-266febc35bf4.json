@@ -7,6 +7,14 @@
    "title": {
     "en": "Junjou Escape"
    },
+   "altTitles": [
+    {
+     "en": "Pure Heart Escape"
+    },
+    {
+     "en": "純情エスケイプ"
+    }
+   ],
    "description": {
     "en": "Aki Kitagawa was outed as being gay by his best friend in middle school, after which he moved away to get a fresh start. Since Aki began attending high school, he desperately tried to hide this secret from everyone. However, one of the students at his school, Yoshida Koutarou, discovered his past and forced him to become friends with benefits."
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +71,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -67,47 +83,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-30T12:11:59+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "530efdf3-21c3-4343-a071-cdf6fad652dc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sawamoto Soji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "530efdf3-21c3-4343-a071-cdf6fad652dc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sawamoto Soji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b428b6b3-3544-403f-9841-ed3f886c1880",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "c53ab392-49e5-4f7d-876d-0d48d2d04ef1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:20:55+00:00",
+    "description": "",
+    "fileName": "fa4e5333-5088-4ad6-9269-fe41875c1833.jpg",
+    "updatedAt": "2021-05-24T17:20:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

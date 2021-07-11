@@ -7,6 +7,11 @@
    "title": {
     "en": "Fleet Manga"
    },
+   "altTitles": [
+    {
+     "en": "フリートまんが"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +19,6 @@
     "raw": "https://twitter.com/pageratta/status/1327083766842421250?s=19"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,6 +53,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,51 +65,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-11T06:25:50+00:00",
+   "updatedAt": "2021-05-25T15:38:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "584ad1eb-c8a8-439f-bd1c-74513fdd8a29",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Pageratta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "584ad1eb-c8a8-439f-bd1c-74513fdd8a29",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Pageratta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e20a2e01-1f8a-41ac-9da7-6956a137bde5",
-   "type": "chapter"
-  },
-  {
-   "id": "089e6eb4-bf2b-472d-8479-85c1846cc982",
-   "type": "chapter"
-  },
-  {
-   "id": "03692eef-65a0-42b9-ba51-d575d03ee439",
-   "type": "chapter"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "2e919bff-523d-4ff4-9825-568f8fbc9630",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:22:19+00:00",
+    "description": "",
+    "fileName": "34ffaad4-7f60-4bfb-9be8-aad4e259085a.jpg",
+    "updatedAt": "2021-05-24T18:22:19+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

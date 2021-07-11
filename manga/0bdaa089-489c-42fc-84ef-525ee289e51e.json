@@ -7,6 +7,17 @@
    "title": {
     "en": "Detarame Mousouryoku Opera"
    },
+   "altTitles": [
+    {
+     "en": "Absurd and Fantastical Opera"
+    },
+    {
+     "en": "でたらめ妄想力オペラ"
+    },
+    {
+     "en": "荒诞幻想力剧场"
+    }
+   ],
    "description": {
     "en": "A former prince and his retinue take Hifumi to a world powered by imagination."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,59 +65,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-08T12:58:54+00:00",
+   "updatedAt": "2021-05-25T15:39:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "36252380-ad96-4528-bcb4-a31083fd2a8c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hatori Bisco",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "36252380-ad96-4528-bcb4-a31083fd2a8c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hatori Bisco",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "27393493-89b4-4ad5-b421-21c7ef2911f3",
-   "type": "chapter"
-  },
-  {
-   "id": "1718bc7f-1831-4ae4-985a-7998b27381c0",
-   "type": "chapter"
-  },
-  {
-   "id": "f3f9c849-a548-44ea-b238-049194329592",
-   "type": "chapter"
-  },
-  {
-   "id": "6987ac22-0662-48e2-bd4e-dd41fa7d94fd",
-   "type": "chapter"
-  },
-  {
-   "id": "f841e76d-924d-4b56-a0ea-bcf430c143fa",
-   "type": "chapter"
-  },
-  {
-   "id": "bb9b225c-9cf9-4665-9baa-ed4788743303",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "19a945e4-5840-4f81-9050-a4fc9bc1f966",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:40:18+00:00",
+    "description": "",
+    "fileName": "aa79a8c0-a9f9-4b28-8133-8d44d4e61238.jpg",
+    "updatedAt": "2021-05-24T18:40:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

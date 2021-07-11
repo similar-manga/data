@@ -7,6 +7,14 @@
    "title": {
     "en": "Majutsushi Sylvan no Mise"
    },
+   "altTitles": [
+    {
+     "en": "The Shop Of Magician Sylvan"
+    },
+    {
+     "en": "魔術師シルヴァンの店"
+    }
+   ],
    "description": {
     "en": "Tim, a slave, is saved by a mysterious magician. Before long, he begins to fall for his saviour, but..."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,43 +60,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-26T12:14:36+00:00",
+   "updatedAt": "2021-05-25T15:50:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "5a4a22d0-88ac-4b64-bc80-777907f95038",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ike Reibun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5a4a22d0-88ac-4b64-bc80-777907f95038",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ike Reibun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c74b9790-6538-43c4-8f2f-4a7b3c6e419f",
-   "type": "chapter"
-  },
-  {
-   "id": "8606d2bb-9ad1-4f77-a4f0-f9ff125924ed",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "1edcca68-b5c7-4f15-8cca-048225e6e119",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:55:49+00:00",
+    "description": "",
+    "fileName": "a2a0f66f-c59c-4b94-a428-273bd65ce290.jpg",
+    "updatedAt": "2021-05-24T16:55:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

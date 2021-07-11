@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Taking a Bath With a Sexy Onee-san and Then, \u0026hearts;\u0026hearts;\u0026hearts;"
+    "en": "Taking a Bath With a Sexy Onee-san and Then, ♥♥♥"
    },
+   "altTitles": [
+    {
+     "en": "Banho com a Onee-san ♥♥♥"
+    },
+    {
+     "en": "Sexy na Onesan to Ofuro ni Haitte Sono Ato ♥♥♥"
+    },
+    {
+     "en": "セクシーなお姉さんとお風呂に入ってその後、♥♥♥"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -27,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +50,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -47,51 +62,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-09T00:22:58+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "584ad1eb-c8a8-439f-bd1c-74513fdd8a29",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Pageratta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "584ad1eb-c8a8-439f-bd1c-74513fdd8a29",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Pageratta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "49c54b26-c2a9-4143-871e-640b73a2c363",
-   "type": "chapter"
-  },
-  {
-   "id": "0ba3cbf2-7d8e-4e57-93ab-2de84e10694b",
-   "type": "chapter"
-  },
-  {
-   "id": "518763e3-0bbf-4cad-9d75-4ed3cbb42175",
-   "type": "chapter"
-  },
-  {
-   "id": "98dd4ae5-2fdb-4cb4-b0d5-e3e0aa0407a5",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "1b99cc04-9d97-4ff5-aa53-42a1d64a4f71",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:51:41+00:00",
+    "description": "",
+    "fileName": "0f89be9c-b131-476a-b687-0f8b9b732bf1.png",
+    "updatedAt": "2021-05-24T17:51:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

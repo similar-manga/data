@@ -5,17 +5,21 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Endeavor\u0026rsquo;s Cross"
+    "en": "Endeavor’s Cross"
    },
+   "altTitles": [
+    {
+     "en": "노력의 卍(만)"
+    }
+   ],
    "description": {
-    "en": "Climbing to the top of Heaven\u0026rsquo;s castle will prove a herculean task, for the one who can reach the summit shall be granted control of the world."
+    "en": "Climbing to the top of Heaven’s castle will prove a herculean task, for the one who can reach the summit shall be granted control of the world."
    },
    "links": {
     "ap": "endeavors-cross",
     "mu": "167498"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -27,6 +31,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +43,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +55,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -57,6 +67,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +79,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -77,87 +91,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-20T12:58:04+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "0ca626fc-40f8-4722-9d64-5ecedf5cf09a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "행자",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1c61e776-557d-4205-904a-ad9eb4699494",
-   "type": "chapter"
-  },
-  {
-   "id": "e7a82a96-d84f-4cb6-b239-bf6fb3649146",
-   "type": "chapter"
-  },
-  {
-   "id": "66017df3-b2ec-4674-b71a-25678b4294e8",
-   "type": "chapter"
-  },
-  {
-   "id": "2f47fc5b-874a-43de-a4c3-e963b4738dbf",
-   "type": "chapter"
-  },
-  {
-   "id": "c60486da-d195-418a-be20-3b297d26e8f8",
-   "type": "chapter"
-  },
-  {
-   "id": "1d75398d-13d0-4bc2-a0b1-f734c6e94f36",
-   "type": "chapter"
-  },
-  {
-   "id": "ee0fbc51-952c-4f1d-aa75-57936d445e84",
-   "type": "chapter"
-  },
-  {
-   "id": "1f5f41b9-3a93-4d78-90b6-e1ab8851320a",
-   "type": "chapter"
-  },
-  {
-   "id": "3aab51e1-bd12-4d48-a1cd-1ecd1e04753b",
-   "type": "chapter"
-  },
-  {
-   "id": "4e1255e7-8e1b-4563-84b3-6ff009b7ca38",
-   "type": "chapter"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "7e684e52-7269-4f2b-a7c6-590c9ed45700",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:03:40+00:00",
+    "description": "",
+    "fileName": "a5dc4504-3776-40fc-a071-33229ada7232.jpg",
+    "updatedAt": "2021-05-24T18:03:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

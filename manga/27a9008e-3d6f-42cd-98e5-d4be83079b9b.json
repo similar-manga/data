@@ -7,6 +7,11 @@
    "title": {
     "en": "Love Me Baby"
    },
+   "altTitles": [
+    {
+     "en": "ラブ・ミー・ベイベー"
+    }
+   ],
    "description": {
     "en": "Despite his endless enthusiasm and flashy style, Koshiro just can't seem to get a girlfriend or even a date. To make things worse, the cute girls that ignore him all go flocking to aloof Kirihara who glides through life effortlessly and unaffected. In fact, the only thing that Kirihara seems to take enjoyment in is watching Koshiro's failures. Why do these opposites keep getting thrown together or is it more than just coincidence..."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,59 +71,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-29T01:01:21+00:00",
+   "updatedAt": "2021-05-25T15:40:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "23259cf2-4a99-4c02-985d-2d0045546560",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sasamura Gou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "23259cf2-4a99-4c02-985d-2d0045546560",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sasamura Gou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d9761172-7ecf-4e6a-8231-d7fca1cb57ff",
-   "type": "chapter"
-  },
-  {
-   "id": "fa86b4ff-c48f-4162-aa98-4994f280f06c",
-   "type": "chapter"
-  },
-  {
-   "id": "fefd4cf3-25a6-4e22-ac5a-f8e57d93dd11",
-   "type": "chapter"
-  },
-  {
-   "id": "119a53c6-934e-4105-9d29-9b7696a2157e",
-   "type": "chapter"
-  },
-  {
-   "id": "e730edf8-5aac-48bd-b2eb-c8dcf3dd747a",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "b12776a0-efb8-4f26-a923-527ad72e1d76",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:39:04+00:00",
+    "description": "",
+    "fileName": "fd299ab2-9806-451e-b506-3b4aafeb4e6e.jpg",
+    "updatedAt": "2021-05-24T18:39:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

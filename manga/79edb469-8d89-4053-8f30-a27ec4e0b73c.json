@@ -16,7 +16,6 @@
     "mu": "147482"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -27,6 +26,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +62,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,75 +74,53 @@
       "name": {
        "en": "Police"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-27T05:15:18+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "bbcba008-3f32-4abe-ae91-1c4e040e46a2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Haji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bbcba008-3f32-4abe-ae91-1c4e040e46a2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Haji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c2beb668-ab5a-4a5e-a67a-3ea001fe34d0",
-   "type": "chapter"
-  },
-  {
-   "id": "732107a7-999b-4373-89cd-be8b5d7fa735",
-   "type": "chapter"
-  },
-  {
-   "id": "921b2731-8a67-4c75-8c75-f5c280d956b0",
-   "type": "chapter"
-  },
-  {
-   "id": "b661a878-8566-4c0b-865f-206703893642",
-   "type": "chapter"
-  },
-  {
-   "id": "a77f7b27-8a42-4904-ba2b-dec3e131f5c0",
-   "type": "chapter"
-  },
-  {
-   "id": "b22cef56-1a7d-4376-83ed-e4d736e917ff",
-   "type": "chapter"
-  },
-  {
-   "id": "d1629502-d302-4ed6-8ab2-1a3c5f0678ba",
-   "type": "chapter"
-  },
-  {
-   "id": "4b5c58b1-73f5-4678-b14a-73a24e4275e8",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "df33b754-73a3-4c54-80e6-1a74a8058539",
-   "type": "tag"
+   "id": "9b80a784-2089-4fa0-a6c6-651d6b9912cc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:13:26+00:00",
+    "description": "",
+    "fileName": "741b9b35-e39b-4b30-b25c-870b5217247d.jpg",
+    "updatedAt": "2021-05-24T17:13:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

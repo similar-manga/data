@@ -7,6 +7,11 @@
    "title": {
     "en": "Detective Conan - Naka Dake ja Muridesu (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Detective Conan dj - Naka Dake ja Muridesu"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -23,6 +28,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -31,8 +38,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,39 +52,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-10T04:19:02+00:00",
+   "updatedAt": "2021-05-25T15:43:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "b85735c4-273d-4f53-a61a-2ff2995a5698",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sanchiku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b85735c4-273d-4f53-a61a-2ff2995a5698",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sanchiku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c7aa5907-ec23-4ca9-bcfa-7b5fcc12492c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "be29103b-eb8e-4f2a-965a-e86a33d7feaa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:48:04+00:00",
+    "description": "",
+    "fileName": "6de51bdf-d495-4932-a39e-d8c522ce41ed.jpg",
+    "updatedAt": "2021-05-24T17:48:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

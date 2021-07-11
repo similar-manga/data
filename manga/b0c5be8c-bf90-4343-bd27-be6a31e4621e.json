@@ -7,8 +7,19 @@
    "title": {
     "en": "Moritat"
    },
+   "altTitles": [
+    {
+     "en": "Molitateu"
+    },
+    {
+     "en": "Моритат"
+    },
+    {
+     "en": "모리타트"
+    }
+   ],
    "description": {
-    "en": "\u0026quot;I woke up with nothing but fragments of memories from my life up to now. There was a man standing by my bed, who introduced himself as my lover. But one of my few recollections is of being left for dead in a snowy field by this very same man...\r\n\r\nStill, he looks like the only one who can provide me with the answers I need. Who the hell is he? What was the real relationship between the two of us?\u0026quot;"
+    "en": "\"I woke up with nothing but fragments of memories from my life up to now. There was a man standing by my bed, who introduced himself as my lover. But one of my few recollections is of being left for dead in a snowy field by this very same man...\r\n\r\nStill, he looks like the only one who can provide me with the answers I need. Who the hell is he? What was the real relationship between the two of us?\""
    },
    "links": {
     "ap": "moritat ",
@@ -28,6 +39,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +51,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,8 +61,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +75,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,83 +87,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-14T14:11:24+00:00",
+   "updatedAt": "2021-05-25T15:46:34+00:00"
   }
  },
  "relationships": [
   {
    "id": "07f166b1-ae79-4003-a1f6-1baa5da461d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Li Seon Ui",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "004b9701-4c14-4ca3-a808-7b55baad289f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Seo Gyeong",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8fc1b28d-db86-4fea-91ed-9f49538c7509",
-   "type": "chapter"
-  },
-  {
-   "id": "b7b3f090-4178-4c2a-9587-888f36618b97",
-   "type": "chapter"
-  },
-  {
-   "id": "a6b2459b-ff2c-4019-b49c-70a1e67a8b17",
-   "type": "chapter"
-  },
-  {
-   "id": "a48bad0e-56b5-4261-814d-a356c0dfb9d2",
-   "type": "chapter"
-  },
-  {
-   "id": "235a7e96-1587-412d-823d-3e41e0286227",
-   "type": "chapter"
-  },
-  {
-   "id": "26e548ba-547b-4114-8e60-2930e2f39a06",
-   "type": "chapter"
-  },
-  {
-   "id": "ae15aeb0-1460-4d3c-a31f-dd812e4ae9b8",
-   "type": "chapter"
-  },
-  {
-   "id": "f7f45dd8-f97f-4c60-be89-29967b581b16",
-   "type": "chapter"
-  },
-  {
-   "id": "67cfc3ef-bd38-42e8-a610-0cba885313f2",
-   "type": "chapter"
-  },
-  {
-   "id": "b03c6c6b-9209-418e-9594-c4170b8a5231",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "87adb4af-e7d9-4f90-ae71-94f58cece643",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:45+00:00",
+    "description": "",
+    "fileName": "e6091141-46f0-4db7-a8b7-8633d1d1380a.jpg",
+    "updatedAt": "2021-05-24T17:22:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

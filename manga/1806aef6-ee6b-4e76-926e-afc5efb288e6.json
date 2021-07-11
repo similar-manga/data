@@ -7,6 +7,14 @@
    "title": {
     "en": "Tobaku no Kyojin"
    },
+   "altTitles": [
+    {
+     "en": "Gamble Giant"
+    },
+    {
+     "en": "賭博の巨人"
+    }
+   ],
    "description": {
     "en": "In the year 2200, a meteorite collided with earth, wiping most of the human civilization. In a world where nations, laws, and morals had been lost, the only thing left for humanity was gambling. In a world where the only thing that matters is the strength of gambling, the legend of a huge man traveling with a young girl begins."
    },
@@ -33,6 +41,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +53,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,47 +65,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-19T07:28:01+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "0fca7e3b-063c-40c5-b100-6334279cf3bb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Meeb",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "76b76f5e-a152-47de-8a1f-fa9565e08dee",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OGINO Yuuhei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "41ae6208-ea96-4855-8f00-589c8be688f7",
-   "type": "chapter"
-  },
-  {
-   "id": "63c617bc-49f2-488a-a87a-74b9e0e1f01b",
-   "type": "chapter"
-  },
-  {
-   "id": "cd16dad2-e914-4100-99fe-0436f05693a8",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "8a59b1af-c268-4f18-adf3-93c4221cab34",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:34:21+00:00",
+    "description": "",
+    "fileName": "9c6e3c60-bbc8-429e-bbe8-a3f57f9da2cf.jpg",
+    "updatedAt": "2021-05-24T17:34:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

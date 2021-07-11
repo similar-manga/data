@@ -15,7 +15,6 @@
     "raw": "http://cuttinglasses.smackjeeves.com/"
    },
    "originalLanguage": "tl",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +25,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -36,35 +37,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-05T07:37:22+00:00",
+   "updatedAt": "2021-05-25T15:46:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "7115330d-64f1-4720-bc2c-13798b86cf8a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nathan Tobi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7115330d-64f1-4720-bc2c-13798b86cf8a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nathan Tobi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cddb4e7e-4211-4f55-b86a-5a4d1723c8dd",
-   "type": "chapter"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "6a6da3d5-b6f7-4f13-a0a5-7a8ee5c1cfca",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:17+00:00",
+    "description": "",
+    "fileName": "2a449be1-c3db-4360-804b-b58da8570629.jpg",
+    "updatedAt": "2021-05-24T17:00:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

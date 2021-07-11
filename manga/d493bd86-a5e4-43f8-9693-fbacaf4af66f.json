@@ -7,6 +7,20 @@
    "title": {
     "en": "Shadow Lady"
    },
+   "altTitles": [
+    {
+     "en": "Cô gái ánh trăng"
+    },
+    {
+     "en": "SHADOW LADY"
+    },
+    {
+     "en": "Shadow Lady 1995"
+    },
+    {
+     "en": "シャドウレディ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -35,6 +49,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +61,8 @@
       "name": {
        "en": "Demons"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -55,6 +73,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,6 +85,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -75,51 +97,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-15T02:59:58+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "9f280ea7-3a0b-4332-beeb-0c86d129858f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KATSURA Masakazu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9f280ea7-3a0b-4332-beeb-0c86d129858f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KATSURA Masakazu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0b62b078-71a0-4385-b904-589fc8ee064b",
-   "type": "chapter"
-  },
-  {
-   "id": "2e610d0e-6c16-4319-a9ef-18769b3548a1",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "39730448-9a5f-48a2-85b0-a70db87b1233",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "d391ee82-5e3c-4ff7-8cb7-0e7123e96caa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:15+00:00",
+    "description": "",
+    "fileName": "5797c805-7fc6-44f8-8e9d-d45a1a1ca75f.jpg",
+    "updatedAt": "2021-05-24T17:41:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

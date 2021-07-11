@@ -7,6 +7,17 @@
    "title": {
     "en": "Akiba Zaijuu"
    },
+   "altTitles": [
+    {
+     "en": "Akiba Zaijū"
+    },
+    {
+     "en": "Living in Akiba"
+    },
+    {
+     "en": "アキバザイジュウ"
+    }
+   ],
    "description": {
     "en": "An informational manga that involves living in Akihabara and reporting on all its interesting spots from personal experience."
    },
@@ -23,6 +34,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +46,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,6 +58,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,47 +70,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-02T01:19:53+00:00",
+   "updatedAt": "2021-05-25T15:38:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "bc3a7d2b-71bc-44c2-b911-f02ac6ffb2cb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Daisuki Kadokuni",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bc3a7d2b-71bc-44c2-b911-f02ac6ffb2cb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Daisuki Kadokuni",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4ba15f93-69d5-4341-beb1-d615d28a639f",
-   "type": "chapter"
-  },
-  {
-   "id": "77c77269-e807-485e-b660-c5aac665cecb",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "1b51b311-d271-4f5e-ab30-2605ab0ea657",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:21:02+00:00",
+    "description": "",
+    "fileName": "11d4009d-1efe-41f9-b335-ab23e717f10f.jpg",
+    "updatedAt": "2021-05-24T18:21:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,17 @@
    "title": {
     "en": "Tokyo Rock Shounen"
    },
+   "altTitles": [
+    {
+     "en": "Tokyo Rock Boy"
+    },
+    {
+     "en": "Toukyou Rock Shounen"
+    },
+    {
+     "en": "東京ロック少年"
+    }
+   ],
    "description": {
     "en": "Mai dreams of being a rock star, but her band suddenly breaks up. Then, in front of Mai who's on the brink of losing hope, appears an unfashionable guy who says he likes her voice. With the help of this dull-looking guy, Mai gains some popularity, but wait, that guy is actually...!?"
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,67 +66,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-22T23:01:46+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "786cfa2d-7993-4644-9b73-3a79400aaead",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kikuchi Kamaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "786cfa2d-7993-4644-9b73-3a79400aaead",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kikuchi Kamaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c1270f04-d289-4e7f-8a90-30c5850655c5",
-   "type": "chapter"
-  },
-  {
-   "id": "70e65464-fd50-407f-9892-b5f9466f1db2",
-   "type": "chapter"
-  },
-  {
-   "id": "883dae04-4d1a-4f08-883c-ff8862492e36",
-   "type": "chapter"
-  },
-  {
-   "id": "c3f1f483-2290-418b-bb5d-36ed114364d1",
-   "type": "chapter"
-  },
-  {
-   "id": "1785b37a-b5bc-4829-9715-54160f138f34",
-   "type": "chapter"
-  },
-  {
-   "id": "c3fb32e2-8c22-4aee-9543-9a6e2a67dbe8",
-   "type": "chapter"
-  },
-  {
-   "id": "c24f0722-8b40-4257-8839-c0352c473dad",
-   "type": "chapter"
-  },
-  {
-   "id": "78550fc5-6279-44c8-a062-1e2f25447dcb",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "a65ebaac-235c-4f58-8ea0-035513794e83",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:23:20+00:00",
+    "description": "",
+    "fileName": "840e6ab4-8ba9-4706-afd8-ac39fb828daf.jpg",
+    "updatedAt": "2021-05-24T17:23:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

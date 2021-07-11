@@ -7,11 +7,15 @@
    "title": {
     "en": "Tame"
    },
+   "altTitles": [
+    {
+     "en": "Domado"
+    }
+   ],
    "description": {
-    "en": "Historia paralela de((Ring)) la historia de dos \u0026aacute;ngeles"
+    "en": "Historia paralela de((Ring)) la historia de dos ángeles"
    },
-   "originalLanguage": "zh-hk",
-   "lastChapter": "0",
+   "originalLanguage": "zh",
    "publicationDemographic": "josei",
    "status": "ongoing",
    "contentRating": "safe",
@@ -21,8 +25,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -43,47 +51,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-05T21:28:55+00:00",
+   "updatedAt": "2021-05-25T15:43:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "9efb91ad-dc31-45c4-a388-0950fea15101",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Dongye",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "99430199-b06e-4607-9e5e-aa376a12f146",
-   "type": "chapter"
-  },
-  {
-   "id": "335db73a-cbbd-4102-ab88-1d4e19fb4242",
-   "type": "chapter"
-  },
-  {
-   "id": "677dc21d-c7f4-4617-8e04-0683e6d3143f",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "f07b6fe2-441e-4fdc-afd5-dc9722693722",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:55+00:00",
+    "description": "",
+    "fileName": "d89068f1-cb19-4e07-848f-6326a125ef00.jpg",
+    "updatedAt": "2021-05-24T18:33:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

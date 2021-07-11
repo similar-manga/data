@@ -7,6 +7,11 @@
    "title": {
     "en": "Shikabana -Hana, Shitai, Koto-"
    },
+   "altTitles": [
+    {
+     "en": "シカバナ―はな、したい、こと―"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +60,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,39 +72,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-03-07T09:49:45+00:00",
+   "updatedAt": "2020-03-07T09:49:45+00:00"
   }
  },
  "relationships": [
   {
    "id": "992918d2-afda-42a3-ad60-7022d5660185",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "nojo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "50550c2b-a204-41e0-b63f-55996758ba81",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Monri Kei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "2c0a03de-d8e6-4f5f-ae9c-1ca1cd8b5ee7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:47:44+00:00",
+    "description": "",
+    "fileName": "ba0b3f34-6e78-4147-9ea3-50b0d3f6890d.jpg",
+    "updatedAt": "2021-05-24T17:47:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

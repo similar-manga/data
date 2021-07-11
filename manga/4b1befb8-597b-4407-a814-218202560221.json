@@ -7,6 +7,14 @@
    "title": {
     "en": "Mozaik Role"
    },
+   "altTitles": [
+    {
+     "en": "Mosaic Roll"
+    },
+    {
+     "en": "モザイクロール"
+    }
+   ],
    "description": {
     "en": "Based on the [url=http://www.nicovideo.jp/watch/sm11398357]Vocaloid song[/url] of the same name."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +75,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -71,59 +87,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-21T13:55:49+00:00",
+   "updatedAt": "2021-05-25T15:42:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "9c09fc94-ba96-4998-aeb2-11a120ac29af",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Deco*27",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "81cdb53d-617b-4e10-8672-fde40bfca902",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e52ee82a-9619-4d25-8e8e-f33841533733",
-   "type": "chapter"
-  },
-  {
-   "id": "91e21b0d-46c1-4141-8fa3-ef906f31133d",
-   "type": "chapter"
-  },
-  {
-   "id": "31d4262a-4b4b-4256-bb5b-98cb69297c6d",
-   "type": "chapter"
-  },
-  {
-   "id": "1e1136bc-9d8a-439e-9fb0-b203ebf8f967",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "c422f48c-e845-4f2a-8543-8514fad904f6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:42:35+00:00",
+    "description": "",
+    "fileName": "ad9f03c7-9021-41ef-8575-c738115beddc.jpg",
+    "updatedAt": "2021-05-24T16:42:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,13 +5,12 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Danke\u0026hearts;Dankei♂Revolution (Kantai Collection -KanColle-)"
+    "en": "Danke♥Dankei♂Revolution (Kantai Collection -KanColle-)"
    },
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,35 +33,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-20T22:19:26+00:00",
+   "updatedAt": "2021-05-25T15:39:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "f8961fba-b097-49e5-8103-b2b079eb5641",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "fatalpulse",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ede1fdec-c265-4076-b60a-d2cfe5aaf694",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "asanagi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1e739791-fa93-4f97-821d-489f43882c2b",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "ad2996e3-6fa0-4ff1-8c1a-2c4db05b0e5f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:19:48+00:00",
+    "description": "",
+    "fileName": "b08ee0ce-7a18-46f5-a24b-cd3f838abf7e.jpg",
+    "updatedAt": "2021-05-24T18:19:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

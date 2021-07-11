@@ -7,6 +7,14 @@
    "title": {
     "en": "Homeroom"
    },
+   "altTitles": [
+    {
+     "en": "ホームルーム"
+    },
+    {
+     "en": "班会"
+    }
+   ],
    "description": {
     "en": "High school student Sachiko is bullied daily and is the recipient of constant unpleasant pranks in class. The culprit is unknown, however, in truth, to Sachiko those days were not particularly painful. That is because her beloved Aida-sensei is there to save her. Bright, handsome, and with a strong sense of justice, he is popular with everyone. Of course to Sachiko he is her special hero. However, Aida-sensei has a secret..."
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +47,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +59,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -57,6 +71,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,43 +83,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-05-17T04:26:25+00:00",
+   "updatedAt": "2020-05-17T04:26:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "8bbda3f6-a7c5-4d53-9557-3fcb229b91eb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chiyo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8bbda3f6-a7c5-4d53-9557-3fcb229b91eb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chiyo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "9a695e5d-0438-4fe3-957f-201dd909441a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:12+00:00",
+    "description": "",
+    "fileName": "23defa46-2c5a-4711-958f-a06973dd98c4.jpg",
+    "updatedAt": "2021-05-24T17:56:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

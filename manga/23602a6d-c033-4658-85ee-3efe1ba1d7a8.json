@@ -7,6 +7,17 @@
    "title": {
     "en": "Eden de Aou"
    },
+   "altTitles": [
+    {
+     "en": "Meet a Eden"
+    },
+    {
+     "en": "See You in Eden"
+    },
+    {
+     "en": "エデンで会おう"
+    }
+   ],
    "description": {
     "en": "Oba Tamako tells of her time being at art high school."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -51,51 +66,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-25T18:04:41+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "742bed0c-c41a-410a-95d4-e30153cbfcd1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Souryo Fuyumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "742bed0c-c41a-410a-95d4-e30153cbfcd1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Souryo Fuyumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3e42dd79-de9d-4a72-a642-0cc6fd6b68d8",
-   "type": "chapter"
-  },
-  {
-   "id": "e2325a77-5c34-4ad2-8d78-215fdff07f3f",
-   "type": "chapter"
-  },
-  {
-   "id": "677585cd-ae0a-4c02-bfcb-7d81fecc875c",
-   "type": "chapter"
-  },
-  {
-   "id": "cacf31e9-3ffe-4786-bc71-fb8983e5ef3a",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "9217cfd4-4747-4fee-961f-9c06f2bb7cef",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:00:15+00:00",
+    "description": "",
+    "fileName": "ad3d7776-4e34-4435-925a-01c6a6f06ed7.jpg",
+    "updatedAt": "2021-05-24T18:00:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

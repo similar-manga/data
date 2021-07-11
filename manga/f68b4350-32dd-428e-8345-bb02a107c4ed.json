@@ -7,6 +7,11 @@
    "title": {
     "en": "Yokohama Kinema Scenery"
    },
+   "altTitles": [
+    {
+     "en": "横濱キネマ・シーナリー"
+    }
+   ],
    "description": {
     "en": "Contains 2 stories:\r\n- Yokohama Cinema Scenery\r\n- 24-coloured Message"
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +55,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,55 +67,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-12T02:40:36+00:00",
+   "updatedAt": "2021-05-25T15:49:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "e4a1dd10-3715-4f1c-b7cc-952ba7d7dbd9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "WADA Naoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e4a1dd10-3715-4f1c-b7cc-952ba7d7dbd9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "WADA Naoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "154da814-a535-4a9b-b4dd-44f1f2e23176",
-   "type": "chapter"
-  },
-  {
-   "id": "fda2c30c-3109-4ce8-a982-a4c557d9b880",
-   "type": "chapter"
-  },
-  {
-   "id": "fe4f1bca-e91d-4b88-83ed-d8bb600aa80e",
-   "type": "chapter"
-  },
-  {
-   "id": "fe7bdab9-c6e8-4479-b3a2-3b9d2075f833",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "730388f1-61f3-4f41-bfe7-b6053c57646e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:01+00:00",
+    "description": "",
+    "fileName": "10a8f8cc-d459-4e84-ace9-79d27b95cf10.jpg",
+    "updatedAt": "2021-05-24T17:01:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

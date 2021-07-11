@@ -7,6 +7,11 @@
    "title": {
     "en": "A Strange Saturday Afternoon"
    },
+   "altTitles": [
+    {
+     "en": "A Strange Saturday Evening"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +19,6 @@
     "mu": "102965"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -23,8 +27,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,35 +41,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-30T18:53:04+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "cda62d50-1dc6-4869-b6a7-fcd3de1f5071",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Na Yeri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cda62d50-1dc6-4869-b6a7-fcd3de1f5071",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Na Yeri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5e1de647-7dc5-47b0-b405-ad8e37d4f0ff",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "5ae6436f-ae1b-4f02-80cb-8067575c750f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:00+00:00",
+    "description": "",
+    "fileName": "a1d9e27b-88f8-432d-a4fb-a71f06671063.jpg",
+    "updatedAt": "2021-05-24T17:32:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

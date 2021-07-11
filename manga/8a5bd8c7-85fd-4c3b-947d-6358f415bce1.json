@@ -7,6 +7,11 @@
    "title": {
     "en": "Itoshi no Mitsuyoku Circus"
    },
+   "altTitles": [
+    {
+     "en": "愛しの蜜欲サーカス"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,57 +42,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-31T11:38:31+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "5aeac1cf-a79e-4bb9-a579-7f1985c3e0d3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Haizaki Mejiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5aeac1cf-a79e-4bb9-a579-7f1985c3e0d3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Haizaki Mejiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d8326b1b-9041-4da7-8d0f-d3e099fd5aa6",
-   "type": "chapter"
-  },
-  {
-   "id": "f4cac2b9-e340-417d-8911-a95504c6b86e",
-   "type": "chapter"
-  },
-  {
-   "id": "e57ca1ac-c6f6-4889-bd1d-14a17baee0ef",
-   "type": "chapter"
-  },
-  {
-   "id": "f8e220a7-8cc2-4375-9521-fba3c9f04c4a",
-   "type": "chapter"
-  },
-  {
-   "id": "a47cf4d2-4ab9-4831-a04b-3d8e1b60cdfd",
-   "type": "chapter"
-  },
-  {
-   "id": "a02c8ed1-4310-45b3-a5b2-657cf2e8a9a0",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "ac3799e3-1462-4f1b-b85d-2bf5d6bfa9a2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:50:40+00:00",
+    "description": "",
+    "fileName": "1b55ef49-7fa6-4db6-b51d-55b8502dec00.jpg",
+    "updatedAt": "2021-05-24T17:50:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

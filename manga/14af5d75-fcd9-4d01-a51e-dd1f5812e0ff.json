@@ -7,6 +7,14 @@
    "title": {
     "en": "Kamen Boxer"
    },
+   "altTitles": [
+    {
+     "en": "Masked Boxer"
+    },
+    {
+     "en": "仮面ボクサー"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,59 +74,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-28T06:50:27+00:00",
+   "updatedAt": "2021-05-25T15:39:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "d2947a20-bedd-4cff-874f-ca2e68099eff",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimamoto Kazuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d2947a20-bedd-4cff-874f-ca2e68099eff",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimamoto Kazuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "94f76be0-8476-4df3-810b-a869b58f8cd2",
-   "type": "chapter"
-  },
-  {
-   "id": "49be0521-2c01-4ce6-8bd7-d8569e2563ce",
-   "type": "chapter"
-  },
-  {
-   "id": "83585ecf-142d-4e88-8c96-ad6aecd51bd2",
-   "type": "chapter"
-  },
-  {
-   "id": "36e938df-984c-4dad-ac17-1f8aa0506de7",
-   "type": "chapter"
-  },
-  {
-   "id": "eb8658b7-d20a-4184-9718-384d15047b8e",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "7e13f4f6-7011-4f47-84a8-1d38c52f20dc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:42:23+00:00",
+    "description": "",
+    "fileName": "0376a4ca-fd46-40a1-9978-6b4f5642f8f9.jpg",
+    "updatedAt": "2021-05-24T18:42:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

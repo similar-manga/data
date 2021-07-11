@@ -7,6 +7,20 @@
    "title": {
     "en": "Gyakuten Saiban"
    },
+   "altTitles": [
+    {
+     "en": "Ace Attorney - Phoenix Wright"
+    },
+    {
+     "en": "Phoenix Wright: Ace Attorney"
+    },
+    {
+     "en": "Turnabout Courtroom"
+    },
+    {
+     "en": "逆転裁判"
+    }
+   ],
    "description": {
     "en": "Manga based on the hit videogame series by Capcom."
    },
@@ -32,6 +46,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +58,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +70,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,51 +82,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-24T06:39:37+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "e90222f9-a5b7-4ad4-9550-abd124e24c58",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kuroda Kenji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e6ca28f9-c16a-4b2c-94c7-b09efa6c81fd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Maekawa Kazuo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4447c95d-c6a5-45ab-87f6-04355da63352",
-   "type": "chapter"
-  },
-  {
-   "id": "22948680-90bf-40af-a078-ee92fd67582f",
-   "type": "chapter"
-  },
-  {
-   "id": "ad5280cc-859d-4145-821f-6e67e7b73c7f",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "d9b41f7a-976e-4f30-a15f-bf88f5f1252c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:52:31+00:00",
+    "description": "",
+    "fileName": "c1ee3125-e52b-45ee-9363-151430a5a3db.jpg",
+    "updatedAt": "2021-05-24T16:52:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

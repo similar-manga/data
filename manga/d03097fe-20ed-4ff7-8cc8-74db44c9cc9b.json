@@ -21,6 +21,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -31,43 +33,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-19T15:24:44+00:00",
+   "updatedAt": "2021-05-25T15:47:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "c8254d24-5f54-4322-9735-348128c0660c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "kjin-kwon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c8254d24-5f54-4322-9735-348128c0660c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "kjin-kwon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bb8df55a-effb-44a4-b9c5-1add32894bb5",
-   "type": "chapter"
-  },
-  {
-   "id": "c696cda6-485d-439d-ae0d-2b53298b5a8c",
-   "type": "chapter"
-  },
-  {
-   "id": "23448471-3b12-47c2-8c30-5c4b76194f5e",
-   "type": "chapter"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "38a0039d-20f1-4f76-ad8c-7a7069a941e6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:05:05+00:00",
+    "description": "",
+    "fileName": "4fd6adaf-8410-443d-88e0-f5b45c3403f8.png",
+    "updatedAt": "2021-05-24T17:05:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

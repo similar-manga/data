@@ -7,6 +7,17 @@
    "title": {
     "en": "Kagerou Nikki"
    },
+   "altTitles": [
+    {
+     "en": "Diario dei miraggi"
+    },
+    {
+     "en": "Kagerowic Diary"
+    },
+    {
+     "en": "陽炎日記"
+    }
+   ],
    "description": {
     "en": "Collection of Kio Shimoku's early works, three stories about love, sex and life."
    },
@@ -18,7 +29,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "1",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +40,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,35 +52,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-04T09:59:16+00:00",
+   "updatedAt": "2021-05-25T15:43:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "a8d96663-5207-4ad1-bb90-6960f12392ce",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KIO Shimoku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a8d96663-5207-4ad1-bb90-6960f12392ce",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KIO Shimoku",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9c296ef2-2eb4-40a7-b5b9-6f218e2abaa2",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "91fbf68d-bbe1-4fc8-94be-1424d901c6a4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:12+00:00",
+    "description": "",
+    "fileName": "0af90765-b96d-418b-9eab-d6883abf37f8.jpg",
+    "updatedAt": "2021-05-24T17:00:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

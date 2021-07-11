@@ -5,16 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "It\u0026rsquo;s Not Magic, It\u0026rsquo;s A Ghost!"
+    "en": "It’s Not Magic, It’s A Ghost!"
    },
+   "altTitles": [
+    {
+     "en": "是魔术，不是幽灵！"
+    }
+   ],
    "description": {
     "en": "My name is Bai Geng. I am a genius magician. Because of a failed performance, I fell into the bottom of my career. I was planning to start all over again, but suddenly I ran into one in a dilapidated temple. . . ghost? ! Or my master? !"
    },
    "links": {
     "raw": "https://m.ac.qq.com/comic/index/id/633281"
    },
-   "originalLanguage": "zh-hk",
-   "lastChapter": "0",
+   "originalLanguage": "zh",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -45,35 +53,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-09-05T14:12:33+00:00",
+   "updatedAt": "2020-09-05T14:12:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "d8b60ee5-81f1-4ad0-8dc9-8dfd89501d61",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "He Bo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "f37d311e-037e-4f3f-baa1-92056354fd01",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:14:00+00:00",
+    "description": "",
+    "fileName": "7f243147-87d4-4d96-8a44-affa97d3e153.png",
+    "updatedAt": "2021-05-28T23:14:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

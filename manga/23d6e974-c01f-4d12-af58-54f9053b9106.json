@@ -11,7 +11,6 @@
     "en": "A story about a big brother who loves his family and does anything for his family"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,51 +45,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-01T03:37:02+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "b1ac20ba-570c-4e9d-859b-885c506cafbb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Saneyaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b1ac20ba-570c-4e9d-859b-885c506cafbb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Saneyaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "da41927b-7dea-4064-a864-94611ace6b90",
-   "type": "chapter"
-  },
-  {
-   "id": "c36e6962-5eef-4471-8cd3-15e7bec4e950",
-   "type": "chapter"
-  },
-  {
-   "id": "aa74a63d-9f8d-4896-afd3-039858c2db40",
-   "type": "chapter"
-  },
-  {
-   "id": "0642084d-e08f-48b4-9812-6baba9468ea7",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "11d589cb-008e-4f20-a8f9-bae0effacec1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:08:36+00:00",
+    "description": "",
+    "fileName": "66725115-1cb9-4891-be95-44ac93f4c82a.png",
+    "updatedAt": "2021-05-24T18:08:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

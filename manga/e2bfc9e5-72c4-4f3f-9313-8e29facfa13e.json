@@ -7,6 +7,11 @@
    "title": {
     "en": "Eden's End"
    },
+   "altTitles": [
+    {
+     "en": "エデンズエンド"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +49,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,35 +61,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-05-05T08:32:49+00:00",
+   "updatedAt": "2020-05-05T08:32:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "bfea8389-538b-46d1-9ea1-844af97c3ff5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yashiro Chiyo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bfea8389-538b-46d1-9ea1-844af97c3ff5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yashiro Chiyo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "a8b4f94b-ac74-4f2e-bf64-54ea35a3be31",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:54:53+00:00",
+    "description": "",
+    "fileName": "92c39e0a-66a8-4bc5-a6bf-f8ce02efe570.jpg",
+    "updatedAt": "2021-05-24T17:54:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

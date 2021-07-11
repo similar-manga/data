@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Ui \u0026amp; Yaaya"
+    "en": "Ui \u0026 Yaaya"
    },
+   "altTitles": [
+    {
+     "en": "ういとやーや"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -30,8 +36,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,51 +50,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-18T17:14:09+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "64582d63-b127-4aba-9053-53d50d91192b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kishi Torajirou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "64582d63-b127-4aba-9053-53d50d91192b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kishi Torajirou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "baed4136-35da-471b-af7c-4fd67adf6e61",
-   "type": "chapter"
-  },
-  {
-   "id": "ceac383e-85dc-4b7a-a527-8dd9623cebeb",
-   "type": "chapter"
-  },
-  {
-   "id": "69328ec2-fc12-4470-ad4e-06b630b956c4",
-   "type": "chapter"
-  },
-  {
-   "id": "e6769b90-b3b0-4508-bf6f-2a1e2c2f895e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "1b937788-3dc6-4f7a-8cf3-52ab383ab32e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:11:16+00:00",
+    "description": "",
+    "fileName": "522544e6-8404-4004-8b0a-9198f8352bf0.jpg",
+    "updatedAt": "2021-05-24T18:11:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

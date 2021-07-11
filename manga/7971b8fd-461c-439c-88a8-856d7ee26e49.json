@@ -11,7 +11,6 @@
     "en": "The Adventures of Sly Cooper was a series of two promotional comics created by Sucker Punch Productions and published by GamePro Magazine and DC Comics. Issue 1, released in 2004, takes place between the end of Sly Cooper and the Thievius Raccoonus and the beginning of Sly 2: Band of Thieves. Issue 2, released in 2005, takes place between the end of Sly 2: Band of Thieves and the beginning Sly 3: Honor Among Thieves."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,39 +57,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-07-30T12:08:12+00:00",
+   "updatedAt": "2018-07-30T12:08:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "58d6ec42-7c42-46fe-9bf8-1c2ed6af814e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sucker Punch Productions",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "58d6ec42-7c42-46fe-9bf8-1c2ed6af814e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sucker Punch Productions",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "8f018d59-b599-4fcc-b0c5-09c0a0d11439",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:42:36+00:00",
+    "description": "",
+    "fileName": "243a67f4-0c0e-482d-a628-200a0d45629e.jpg",
+    "updatedAt": "2021-05-24T18:42:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -14,7 +14,6 @@
     "ap": "dead"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +24,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,31 +36,53 @@
       "name": {
        "en": "Zombies"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-06-14T21:03:59+00:00",
+   "updatedAt": "2020-06-14T21:03:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "b787fae5-94ea-4257-bcce-0d18ff2dca69",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Woo-Jun Kim",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b787fae5-94ea-4257-bcce-0d18ff2dca69",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Woo-Jun Kim",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "631ef465-9aba-4afb-b0fc-ea10efe274a8",
-   "type": "tag"
+   "id": "3e600707-9012-4fe4-aeae-0c446246db6f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:59:21+00:00",
+    "description": "",
+    "fileName": "5263c88a-bad1-4f37-9a77-60d950f2c066.png",
+    "updatedAt": "2021-05-24T17:59:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

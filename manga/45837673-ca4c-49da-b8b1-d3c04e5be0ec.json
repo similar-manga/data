@@ -5,8 +5,31 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "\u0026quot;Boku wa Senpai ni Josou o Shiirareteimasu.\u0026quot;"
+    "en": "\"Boku wa Senpai ni Josou o Shiirareteimasu.\""
    },
+   "altTitles": [
+    {
+     "en": "「僕は先輩に女装を強いられています。」"
+    },
+    {
+     "en": "「나는 선배에게 여장을 강요당하고 있습니다.」"
+    },
+    {
+     "en": "\"Boku wa Senpai ni Josou o Shiirarete Imasu.\""
+    },
+    {
+     "en": "\"Boku wa Senpai ni Josou o Shiirareteimasu\""
+    },
+    {
+     "en": "\"Boku wa Senpai ni Josou wo Shiirareteimasu\""
+    },
+    {
+     "en": "I am being forced into female clothing by my senpai!"
+    },
+    {
+     "en": "Я переодеваюсь в девчонку из-за семпая"
+    }
+   ],
    "description": {
     "en": "Wataru starts his high-school life by getting forced to cross-dress by his senpai Ayane Takamura."
    },
@@ -29,6 +52,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +64,8 @@
       "name": {
        "en": "Crossdressing"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -49,75 +76,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-18T04:20:50+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "4cb185ef-1c6e-47c2-82ad-b69373551f7a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHOUNO Kotaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4cb185ef-1c6e-47c2-82ad-b69373551f7a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SHOUNO Kotaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0d4ce6db-1e63-42de-b98e-5bb1fac0af6c",
-   "type": "chapter"
-  },
-  {
-   "id": "3bb651e8-6740-4a26-84c9-2afb4fa5480c",
-   "type": "chapter"
-  },
-  {
-   "id": "96f369f1-b76a-407e-a3ac-8f62ca4f8a12",
-   "type": "chapter"
-  },
-  {
-   "id": "7c67f250-7be2-4473-ab14-a979a5cc4c51",
-   "type": "chapter"
-  },
-  {
-   "id": "c0b632d2-2d1c-4b95-8952-80e980b6c0b0",
-   "type": "chapter"
-  },
-  {
-   "id": "5c2262a4-5f02-4ffb-9e95-5066c7e673f3",
-   "type": "chapter"
-  },
-  {
-   "id": "a88658ef-2532-475a-a156-8ef5546e2aae",
-   "type": "chapter"
-  },
-  {
-   "id": "2125dff6-3e16-4169-beea-5656d6345ca6",
-   "type": "chapter"
-  },
-  {
-   "id": "6e084fb0-0642-4e5f-88fb-fe4f7022d22d",
-   "type": "chapter"
-  },
-  {
-   "id": "513d9487-14a2-46a1-b1f0-3cd4b51681b6",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "9ab53f92-3eed-4e9b-903a-917c86035ee3",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "c0e88b66-14dd-4fda-b76e-065194b6472d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:37:52+00:00",
+    "description": "",
+    "fileName": "3c9b9fdb-4cbc-4acc-b27b-7a9bc2df3baf.jpg",
+    "updatedAt": "2021-05-24T18:37:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

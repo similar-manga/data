@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "The Story of the Daughter-in-Law Who Was in My Son\u0026rsquo;s Relics"
+    "en": "The Story of the Daughter-in-Law Who Was in My Son’s Relics"
    },
+   "altTitles": [
+    {
+     "en": "Shinda Musuko no Ihin ni Musuko no Yome ga Haitte ita Hanashi"
+    },
+    {
+     "en": "死んだ息子の遺品に息子の嫁が入っていた話"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +22,6 @@
     "mu": "169269"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -26,6 +33,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +45,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,35 +57,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-12-26T18:58:29+00:00",
+   "updatedAt": "2020-12-26T18:58:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "3f8c34ae-e4ca-47b3-b6fe-5d6ead4819fd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hide",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3f8c34ae-e4ca-47b3-b6fe-5d6ead4819fd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hide",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "7ccb6c49-8842-4f1e-abe6-83e089d79907",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:24:20+00:00",
+    "description": "",
+    "fileName": "ce28b196-4ff0-49df-9a0e-69d73376b044.jpg",
+    "updatedAt": "2021-05-24T18:24:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

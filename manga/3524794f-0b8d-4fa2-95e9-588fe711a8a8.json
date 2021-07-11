@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Hello, \u0026quot;Chef\u0026quot; Downstairs"
+    "en": "Hello, \"Chef\" Downstairs"
    },
+   "altTitles": [
+    {
+     "en": "Louxia Da Chu Nihao A"
+    },
+    {
+     "en": "楼下大厨你好啊"
+    }
+   ],
    "description": {
     "en": "This is a story about food. A girl living downstairs is good at cooking. A boy living upstairs who orders meals everyday notice the delicious smell one day. That's the beginning their story."
    },
@@ -15,7 +23,7 @@
     "mu": "159418",
     "raw": "http://www.manga.hk/site/detail/17206"
    },
-   "originalLanguage": "zh-hk",
+   "originalLanguage": "zh",
    "lastChapter": "13",
    "publicationDemographic": "shoujo",
    "status": "completed",
@@ -28,6 +36,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +72,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -68,6 +84,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -78,6 +96,8 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -88,91 +108,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-20T06:09:26+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "ffae2f96-b220-437f-b8ae-ed637adfcbb5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Qingdian Jiang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ffae2f96-b220-437f-b8ae-ed637adfcbb5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Qingdian Jiang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2199370d-0cde-45af-9bbc-228d53d58090",
-   "type": "chapter"
-  },
-  {
-   "id": "9fb09237-2872-41b1-a3c4-fc17f7882be0",
-   "type": "chapter"
-  },
-  {
-   "id": "3babb6dd-ae16-4786-8b31-1e0b52be371c",
-   "type": "chapter"
-  },
-  {
-   "id": "c3854f16-9b8f-4527-a35b-ba23cbd82f41",
-   "type": "chapter"
-  },
-  {
-   "id": "d98d8085-e899-4e25-8238-af35f04e5cda",
-   "type": "chapter"
-  },
-  {
-   "id": "6a648f3c-b3dd-48a5-8eb1-8072b27dc0ed",
-   "type": "chapter"
-  },
-  {
-   "id": "1ec41568-d2ff-4940-9e32-efca06ea04ce",
-   "type": "chapter"
-  },
-  {
-   "id": "86ca1c14-1b31-412a-bd75-3bb5a15c92ff",
-   "type": "chapter"
-  },
-  {
-   "id": "3b947add-da2e-4731-8a87-51a467573bb6",
-   "type": "chapter"
-  },
-  {
-   "id": "eae36471-31e1-4bb7-8c2a-f2f5289723d2",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "baa33ee5-4352-4f9b-986f-acee3a57544a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:34:27+00:00",
+    "description": "",
+    "fileName": "8512c346-546f-47a9-9df2-18a1bb43ef74.png",
+    "updatedAt": "2021-05-24T17:34:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

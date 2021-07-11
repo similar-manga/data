@@ -7,6 +7,14 @@
    "title": {
     "en": "Logick"
    },
+   "altTitles": [
+    {
+     "en": "ロジック"
+    },
+    {
+     "en": "逻辑"
+    }
+   ],
    "description": {
     "en": "Every day is boring, too boring...\r\nUntil a witch casts her spell on it?\r\nMasa, a second-year student at a third-rate art school, draws because he doesn't know what else to do with his life.\r\nThen he meets Aoi, an attractive first-year girl, who seems, somehow, like she might be a witch.\r\nWill Aoi and her secrets light the fire in the gloomy Masa's heart?\r\nThough it doesn't seem much like living, life goes on, as young men yearn only for yearning.\r\nThough every day seems so inconsequential, the special spark of that time of life defines what it means to be young."
    },
@@ -34,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,6 +66,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -64,6 +78,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -74,83 +90,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-28T04:09:11+00:00",
+   "updatedAt": "2021-05-25T15:42:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "54b79c4e-04a6-4634-ae48-e2abc4b0b425",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nishimaki Takuma",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "54b79c4e-04a6-4634-ae48-e2abc4b0b425",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nishimaki Takuma",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bb94a8d6-65aa-425d-9375-f9fc0b611ae8",
-   "type": "chapter"
-  },
-  {
-   "id": "c17f96f1-5ee6-4a86-9c25-3caeb1572fb9",
-   "type": "chapter"
-  },
-  {
-   "id": "774c183c-2f08-4b60-9aaa-ffdde24aaf45",
-   "type": "chapter"
-  },
-  {
-   "id": "f331d38b-d0e9-493b-93bc-ef59ee3a536f",
-   "type": "chapter"
-  },
-  {
-   "id": "6d646721-987a-48f9-b1b9-7f6613725b2a",
-   "type": "chapter"
-  },
-  {
-   "id": "7e323bd3-ffcd-4d5a-89b9-ba55c6ca47d9",
-   "type": "chapter"
-  },
-  {
-   "id": "675716c8-e910-4260-bb94-72aec4d74cc4",
-   "type": "chapter"
-  },
-  {
-   "id": "1d447ea4-a534-496e-8ae9-b1fe4cae21a4",
-   "type": "chapter"
-  },
-  {
-   "id": "b553211f-4a9e-44ca-a6f8-c324a0645106",
-   "type": "chapter"
-  },
-  {
-   "id": "4b42ba91-bc0e-404f-a1cc-8a32ff6cd606",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "fb691b5e-e9ee-4f11-867f-a73cb2d8380b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:07+00:00",
+    "description": "",
+    "fileName": "3786b3a7-8846-48e6-9251-7d7d551fc666.jpg",
+    "updatedAt": "2021-05-24T17:06:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

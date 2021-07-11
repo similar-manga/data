@@ -7,6 +7,11 @@
    "title": {
     "en": "Beloved Paintings"
    },
+   "altTitles": [
+    {
+     "en": "恋する名画"
+    }
+   ],
    "description": {
     "en": "The mangakas' imaginary take on the yuri stories behind famous paintings."
    },
@@ -17,7 +22,6 @@
     "raw": "https://comic-walker.com/contents/detail/KDCW_MF01200818010000_68/"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -26,8 +30,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,47 +44,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-29T09:08:44+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "c23ab36e-5492-417a-9dbe-598cade415bd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mimoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c23ab36e-5492-417a-9dbe-598cade415bd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mimoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6cdf355c-55aa-4378-a097-b8538bbab0ef",
-   "type": "chapter"
-  },
-  {
-   "id": "3638db06-6766-455b-b6d1-6c00bc1b8b31",
-   "type": "chapter"
-  },
-  {
-   "id": "bb97b0a5-fe67-4147-9d6a-9469c0edefd0",
-   "type": "chapter"
-  },
-  {
-   "id": "eff24438-73f8-4976-bb5c-5ae7c115faca",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "57a1fc7a-4261-4fd2-af9f-6c164dc3b040",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:35:35+00:00",
+    "description": "",
+    "fileName": "7d453750-e2cb-40b4-8cd9-02fd8dae7331.png",
+    "updatedAt": "2021-05-24T17:35:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

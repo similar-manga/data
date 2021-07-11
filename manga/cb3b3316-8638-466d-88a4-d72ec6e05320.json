@@ -17,7 +17,6 @@
     "mu": "55448"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -28,6 +27,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,8 +37,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +51,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -58,55 +63,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-06-13T01:23:50+00:00",
+   "updatedAt": "2018-06-13T01:23:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "291d90c2-eea4-4d5c-a598-2e92532b32df",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Horii Kisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "291d90c2-eea4-4d5c-a598-2e92532b32df",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Horii Kisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "934ca037-992a-4def-8d89-fbc42cff717a",
-   "type": "chapter"
-  },
-  {
-   "id": "9cd750ee-2eca-48fa-abf2-061942059f7d",
-   "type": "chapter"
-  },
-  {
-   "id": "e4cbd621-e335-4c0a-9f15-a53240fdeb4d",
-   "type": "chapter"
-  },
-  {
-   "id": "678f00cd-bd54-44ca-901b-1de2f4f3baa0",
-   "type": "chapter"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "c9d8160e-5612-4f84-b60e-4d48e48d8022",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:37:25+00:00",
+    "description": "",
+    "fileName": "81349e43-5e70-46c5-a0e0-e3a44cf59b64.png",
+    "updatedAt": "2021-05-24T18:37:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

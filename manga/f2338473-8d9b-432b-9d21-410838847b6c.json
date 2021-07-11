@@ -7,6 +7,14 @@
    "title": {
     "en": "Hamster no Kenkyuu Report"
    },
+   "altTitles": [
+    {
+     "en": "Hamster Research Report"
+    },
+    {
+     "en": "ハムスターの研究レポート"
+    }
+   ],
    "description": {
     "en": "Humorous observations and stories about the author and her hamsters."
    },
@@ -18,7 +26,6 @@
     "mu": "540"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -40,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +61,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -60,79 +73,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-29T02:34:22+00:00",
+   "updatedAt": "2021-05-25T15:49:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "83ddab2a-6239-410d-92ca-a35a23585555",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "OHYUKI Shiwasu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "961c45b9-cd94-4957-9923-c1f760248aa2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MASUMURA Hiroshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "eb3b11a0-0015-4f9e-a67b-f395fa619dab",
-   "type": "chapter"
-  },
-  {
-   "id": "c091b38b-d354-45d6-9af9-beb1e41d300d",
-   "type": "chapter"
-  },
-  {
-   "id": "4faa0c3e-8945-4c2d-a391-bf4f9dde3bef",
-   "type": "chapter"
-  },
-  {
-   "id": "d08e4368-a2d9-4e2a-afda-244ad10f7657",
-   "type": "chapter"
-  },
-  {
-   "id": "96718a4f-5bdc-4e6a-b620-46d7e1924e0e",
-   "type": "chapter"
-  },
-  {
-   "id": "d6459709-cde2-4e5e-be50-4a2f76d8800f",
-   "type": "chapter"
-  },
-  {
-   "id": "949b9da6-84b0-4859-8f3c-4938b10e5e3b",
-   "type": "chapter"
-  },
-  {
-   "id": "9ff1415f-3f60-43bb-854f-9fb72a1d62a4",
-   "type": "chapter"
-  },
-  {
-   "id": "f0331712-a064-4fcc-a0f0-f371bd3845c4",
-   "type": "chapter"
-  },
-  {
-   "id": "9efeaf3f-fcb6-4b21-b46b-1176520c8d89",
-   "type": "chapter"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0c21ca62-ae9e-4fb3-b7f3-d715a39d2ec6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:35:49+00:00",
+    "description": "",
+    "fileName": "1da27231-eb97-4523-9f9d-f0e84f73a9be.jpg",
+    "updatedAt": "2021-05-24T18:35:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

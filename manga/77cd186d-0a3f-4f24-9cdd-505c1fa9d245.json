@@ -7,6 +7,11 @@
    "title": {
     "en": "Your Girlfriend is About to Do Something Super Amazing"
    },
+   "altTitles": [
+    {
+     "en": "最近流行りのチャラ男くんからオタクくんへのビデオレター"
+    }
+   ],
    "description": {
     "en": "When he's out of town on a business trip, a man receives a video featuring his girlfriend."
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +55,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +67,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,55 +79,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-11T01:44:40+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "a9de11dd-1fbf-4f29-86c7-d6ba88603a87",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "bido",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a9de11dd-1fbf-4f29-86c7-d6ba88603a87",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "bido",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c7de50ba-4d81-46c8-96af-e96c83d079f4",
-   "type": "chapter"
-  },
-  {
-   "id": "54495f93-a59b-46da-94e2-8b62a840c422",
-   "type": "chapter"
-  },
-  {
-   "id": "106f1217-2efa-46c3-9035-9b8b67860ab0",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "81a2c318-2536-4fa8-88ee-1076ef2da3ec",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:55:32+00:00",
+    "description": "",
+    "fileName": "49207163-6b95-4bb1-a2b0-beb67bcd24ca.jpg",
+    "updatedAt": "2021-05-24T17:55:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

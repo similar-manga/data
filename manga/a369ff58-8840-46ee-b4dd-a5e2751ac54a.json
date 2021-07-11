@@ -7,6 +7,14 @@
    "title": {
     "en": "Shinigami Saikoro Game"
    },
+   "altTitles": [
+    {
+     "en": "Reapers Dice Game"
+    },
+    {
+     "en": "死神サイ殺ゲーム"
+    }
+   ],
    "description": {
     "en": "Gamble is life. The dice of destiny will change the world!"
    },
@@ -32,6 +40,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,55 +52,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-29T22:29:46+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "b8bd1845-f533-4a90-b9f8-cce442ce847a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Monma Tsukasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9320aee5-2f12-460f-b41e-77c335c66b31",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oomae Takafumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "faf14736-0fc3-4963-9009-a46f7a36d342",
-   "type": "chapter"
-  },
-  {
-   "id": "b13bb5e0-40ee-44f3-a401-0726c960d3a0",
-   "type": "chapter"
-  },
-  {
-   "id": "74e7967a-4135-4945-ba9d-277234fac9e6",
-   "type": "chapter"
-  },
-  {
-   "id": "0cc0c1fa-2877-49b7-b591-f974458f6a61",
-   "type": "chapter"
-  },
-  {
-   "id": "1c2b83d0-98ee-41f2-aa06-b10a6c1bccf2",
-   "type": "chapter"
-  },
-  {
-   "id": "3cc54624-9f9d-4144-9136-966fb63a7396",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "4179a8c6-0605-4f70-be33-a7285d852051",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:57:39+00:00",
+    "description": "",
+    "fileName": "1efc58fc-f73c-4920-bf58-7b36a81adb1e.jpg",
+    "updatedAt": "2021-05-24T17:57:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

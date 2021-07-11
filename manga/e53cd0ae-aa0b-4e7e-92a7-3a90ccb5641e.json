@@ -7,6 +7,14 @@
    "title": {
     "en": "Mai, The Psychic Girl"
    },
+   "altTitles": [
+    {
+     "en": "Mai"
+    },
+    {
+     "en": "舞"
+    }
+   ],
    "description": {
     "en": "Mai is silly, giggly, and flirtatious - just like any other cute fourteen-year-old girl. As far as Mai is concerned, her telekinetic abilities are just good for practical jokes. But when the secret organization known as the Wisdom Alliance tries to exploit her as a weapon to enslave the world, her father puts his life on the line to protect her. And Mai soon learns the hard way that her powers are no joke, but capable of unbelievable, deadly force!"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +74,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-28T17:52:22+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "fda99750-2b75-4953-8221-de3787715692",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kazuya Kudo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "63859210-b040-4ab5-af02-7c638eff80e8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ryoichi Ikegami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3673e572-a40c-46f9-8e29-859139d91cbe",
-   "type": "chapter"
-  },
-  {
-   "id": "b869c4f5-6534-471c-849d-c0c72ee204ae",
-   "type": "chapter"
-  },
-  {
-   "id": "ac3ed6cb-fc78-47d3-adab-4f36cb72c5af",
-   "type": "chapter"
-  },
-  {
-   "id": "cf430cf4-2ea1-496a-af14-b608ab6821d4",
-   "type": "chapter"
-  },
-  {
-   "id": "32051bde-3fd5-4a16-b6cb-27e115d2849b",
-   "type": "chapter"
-  },
-  {
-   "id": "5f8d1457-ec5c-407e-a51d-cf84ea6f6a22",
-   "type": "chapter"
-  },
-  {
-   "id": "e7ac2780-0c65-470d-b58c-3814df44a79c",
-   "type": "chapter"
-  },
-  {
-   "id": "63b1e6bc-c974-4beb-b988-1a75947f9a7a",
-   "type": "chapter"
-  },
-  {
-   "id": "08a296f5-4209-44a8-ae38-319cffe5985a",
-   "type": "chapter"
-  },
-  {
-   "id": "d81834b0-b3d6-4d05-a9b0-6aabd1978931",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "40474582-73eb-4f1f-9793-a475d067f7c8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:10+00:00",
+    "description": "",
+    "fileName": "79965080-e40f-495f-aaef-6b95fc7d9c66.jpg",
+    "updatedAt": "2021-05-24T17:06:10+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

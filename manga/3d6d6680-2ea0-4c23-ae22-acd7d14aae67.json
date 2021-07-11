@@ -7,6 +7,11 @@
    "title": {
     "en": "Koi no Tsuzuki ni Hitsuyou Nano wa"
    },
+   "altTitles": [
+    {
+     "en": "恋のつづきに必要なのは"
+    }
+   ],
    "description": {
     "en": "Aki tries to find the guy who helped him at the station three days ago. The only clues he has are the showy blond hair, the school uniform, and the weird stuffed toy."
    },
@@ -17,7 +22,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "1",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -28,6 +32,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,8 +42,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +56,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -58,6 +68,8 @@
       "name": {
        "en": "Delinquents"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -68,51 +80,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-12T10:37:19+00:00",
+   "updatedAt": "2021-05-25T15:41:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "384f39d8-080e-4d64-b2f4-48d7254e0660",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Azusa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "384f39d8-080e-4d64-b2f4-48d7254e0660",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matsumoto Azusa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1062cdbf-18e2-49c5-99f5-c319f5c49baa",
-   "type": "chapter"
-  },
-  {
-   "id": "27231cf9-de45-4e24-a367-404529a7cdc3",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "da2d50ca-3018-4cc0-ac7a-6b7d472a29ea",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "e1503502-a815-4f84-8f9b-81587adf454a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:40:55+00:00",
+    "description": "",
+    "fileName": "63799fb3-a21a-470a-891a-40f3fb91b9e3.jpg",
+    "updatedAt": "2021-05-24T17:40:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

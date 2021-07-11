@@ -7,6 +7,17 @@
    "title": {
     "en": "Black Terror"
    },
+   "altTitles": [
+    {
+     "en": "ブラック・テラー"
+    },
+    {
+     "en": "ブラックテラー"
+    },
+    {
+     "en": "黑色恐怖"
+    }
+   ],
    "description": {
     "en": "'Creepy Side', is a creepy and eerie neighborhood. A series of tragedies mixed with black comedy in this town begins!"
    },
@@ -28,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +51,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +63,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +75,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -68,71 +87,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-18T04:43:48+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "328f0bb0-94fe-4df7-8113-f7e1ab7afb4a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Midou Matsuri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "328f0bb0-94fe-4df7-8113-f7e1ab7afb4a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Midou Matsuri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4f447df3-653d-49e9-81a9-9adbb4d7fc86",
-   "type": "chapter"
-  },
-  {
-   "id": "a11bf4ad-1a8e-4bcf-880b-839109e9f87e",
-   "type": "chapter"
-  },
-  {
-   "id": "29d544b8-2b7c-48f9-ae5e-bccf601f03ae",
-   "type": "chapter"
-  },
-  {
-   "id": "4956b177-cfc6-4e48-b9db-753f80affad0",
-   "type": "chapter"
-  },
-  {
-   "id": "d49e9af3-3bb1-4425-8bed-11abf2026d5a",
-   "type": "chapter"
-  },
-  {
-   "id": "e8a94801-0b51-4501-afca-34c5ff9caea1",
-   "type": "chapter"
-  },
-  {
-   "id": "f1ae8de5-9a99-491b-8ddb-8d999c0072ee",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "eee47819-5d1b-4ffe-a008-e58b64e74045",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:23:15+00:00",
+    "description": "",
+    "fileName": "ac247870-eba9-4be7-b19a-d61feb65e70b.jpg",
+    "updatedAt": "2021-05-24T17:23:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

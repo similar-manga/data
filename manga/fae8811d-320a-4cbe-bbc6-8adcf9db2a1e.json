@@ -28,6 +28,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,43 +40,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-21T20:49:23+00:00",
+   "updatedAt": "2021-05-25T15:49:56+00:00"
   }
  },
  "relationships": [
   {
    "id": "18c0d18a-0cb3-492c-a67c-d37c8b7193e4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shibano Yuka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "18c0d18a-0cb3-492c-a67c-d37c8b7193e4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shibano Yuka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5cf415a1-c0b8-4878-afa7-eda1d0eec4ea",
-   "type": "chapter"
-  },
-  {
-   "id": "5a505a19-caf3-48d5-a55c-ed8b22d991fe",
-   "type": "chapter"
-  },
-  {
-   "id": "c6235a0f-a798-44f3-a1eb-f3f4491e70cf",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "9cbd0f1c-91a6-4f71-a45e-0a2dbcb09616",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:45:40+00:00",
+    "description": "",
+    "fileName": "42e076da-44d6-46ae-9112-cb2232fde939.jpg",
+    "updatedAt": "2021-05-24T16:45:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

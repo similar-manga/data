@@ -7,6 +7,17 @@
    "title": {
     "en": "Sensei! Koi no Shitsumon Desu!"
    },
+   "altTitles": [
+    {
+     "en": "Sensei! Teach Me About Love!"
+    },
+    {
+     "en": "Teacher! Love Is The Question!"
+    },
+    {
+     "en": "先生！ 恋の質問です！"
+    }
+   ],
    "description": {
     "en": "Sensei steals glances at me. I think it's cute because I want to make him mine.\r\nA sweet high school love story."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +63,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +77,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,51 +89,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-23T00:22:28+00:00",
+   "updatedAt": "2021-05-25T15:39:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "704b74a4-ed2b-483a-9f7f-80c42df90edf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tomoe Fumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "704b74a4-ed2b-483a-9f7f-80c42df90edf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tomoe Fumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a865e54c-5483-4f97-8fa6-32de72b57c1c",
-   "type": "chapter"
-  },
-  {
-   "id": "3a2390cd-690e-459b-9eeb-cd4bae1885b6",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "0c3574fe-c7ed-4fe1-8929-e4fa4f1d91c3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:45+00:00",
+    "description": "",
+    "fileName": "be87fc92-f0f6-4fa6-851a-90b83a65b1b9.jpg",
+    "updatedAt": "2021-05-24T16:58:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

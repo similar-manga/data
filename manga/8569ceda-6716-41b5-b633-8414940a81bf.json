@@ -7,6 +7,11 @@
    "title": {
     "en": "Help Me, Teacher"
    },
+   "altTitles": [
+    {
+     "en": "도와주세요 선생님"
+    }
+   ],
    "description": {
     "en": "I was suddenly diagnosed as an Omega. I didn't think it was serious, probably because I was ready to die.\r\n\r\nBut, what is this;;; Why did my 'thing' suddenly got smaller?!?!\r\nIs it a side effect of the temporary prescription meds? Will it get better if I don't take the medicine?\r\n\r\nThe hospital is already closed at this time, and the only person I can trust is the School Nurse that I'm close to...\r\n\r\n[Served while it's still hot by BL Bakery]"
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +54,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +68,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -67,6 +80,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -77,63 +92,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-28T18:59:38+00:00",
+   "updatedAt": "2021-05-25T15:44:41+00:00"
   }
  },
  "relationships": [
   {
    "id": "b3065a60-6e91-4c45-b9e0-e8752924403d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Soorak",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b3065a60-6e91-4c45-b9e0-e8752924403d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Soorak",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "aaa19917-1e58-47e2-8cf9-c15c562f66d4",
-   "type": "chapter"
-  },
-  {
-   "id": "7679e06b-1194-479a-b696-ffa0a061e8f8",
-   "type": "chapter"
-  },
-  {
-   "id": "6d606eec-ec4c-4636-b802-8a54c250542d",
-   "type": "chapter"
-  },
-  {
-   "id": "ee76240e-68b1-4ce7-a86f-18c2dfca2d6d",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "883067a0-db06-4f84-a2a3-29a8210cea7d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:24:35+00:00",
+    "description": "",
+    "fileName": "bc728363-2619-4a0a-99d3-be9a7eb6d23f.jpg",
+    "updatedAt": "2021-05-24T18:24:35+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

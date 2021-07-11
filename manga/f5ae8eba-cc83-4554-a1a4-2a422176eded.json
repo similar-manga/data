@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon - Chorimokki Yuumary (Doujinshi)"
+    "en": "Pokémon - Chorimokki Yuumary (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Chorimokki Yuumary (Pocket Monsters)"
+    }
+   ],
    "description": {
     "en": "A Gloria x Marnie doujin."
    },
@@ -14,7 +19,6 @@
     "raw": "https://twitter.com/chorimokki/status/1201097410065207296"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,8 +39,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,39 +53,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-30T05:35:48+00:00",
+   "updatedAt": "2021-05-25T15:49:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "971427c2-1413-4836-bb69-be63b435b4b0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chorimokki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "971427c2-1413-4836-bb69-be63b435b4b0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Chorimokki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5378b60e-303f-4d49-b0fe-d62d89271e65",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "7a7bac9b-e97b-4fa4-9c56-6d906be79ea8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:54:17+00:00",
+    "description": "",
+    "fileName": "76e23e82-bd7b-4b80-85a7-888b2b32167b.jpg",
+    "updatedAt": "2021-05-24T17:54:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

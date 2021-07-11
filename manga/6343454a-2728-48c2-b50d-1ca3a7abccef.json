@@ -7,6 +7,17 @@
    "title": {
     "en": "Persona 5 Dengeki Comic Anthology"
    },
+   "altTitles": [
+    {
+     "en": "Persona 5 Dengeki Comic Anthology"
+    },
+    {
+     "en": "Персона 5: Антология мини-историй"
+    },
+    {
+     "en": "ペルソナ5電撃コミックアンソロジー"
+    }
+   ],
    "description": {
     "en": "Collection of Short stories."
    },
@@ -28,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,75 +63,53 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-02T14:11:24+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "8625b221-14c8-4a86-af04-90d102f35f92",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Rokuro Saito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8625b221-14c8-4a86-af04-90d102f35f92",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Rokuro Saito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "01ae1e0a-9119-45cb-9183-9ce1fc37c185",
-   "type": "chapter"
-  },
-  {
-   "id": "6e41fda9-51a4-4304-99b0-56c8c9889f2e",
-   "type": "chapter"
-  },
-  {
-   "id": "686d369f-b808-499f-9f59-8c525f8a4b39",
-   "type": "chapter"
-  },
-  {
-   "id": "4878ac03-c433-4d7e-ba0c-9ac2b063e922",
-   "type": "chapter"
-  },
-  {
-   "id": "53ecf182-ca31-4619-b158-f69776cc6331",
-   "type": "chapter"
-  },
-  {
-   "id": "fe14aa5e-4c00-4f89-9b54-61605c39aa08",
-   "type": "chapter"
-  },
-  {
-   "id": "a07a4a0c-3e1d-445a-9477-db7a9cf3a232",
-   "type": "chapter"
-  },
-  {
-   "id": "9172f83f-0cf2-4a3f-98c9-f32d133838b9",
-   "type": "chapter"
-  },
-  {
-   "id": "80a872c3-9542-4eeb-99ec-8654687cf26e",
-   "type": "chapter"
-  },
-  {
-   "id": "47f70c95-880b-438a-928d-9cee92976ad3",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
+   "id": "97981f91-6f58-4f17-b86e-e43d93825d11",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:58+00:00",
+    "description": "",
+    "fileName": "783e6781-75c5-4691-acdc-ee486af8d269.jpg",
+    "updatedAt": "2021-05-24T16:59:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

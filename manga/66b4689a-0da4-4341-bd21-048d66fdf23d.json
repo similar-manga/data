@@ -7,6 +7,14 @@
    "title": {
     "en": "Heroes of Fury"
    },
+   "altTitles": [
+    {
+     "en": "Dotou no Yuushatachi"
+    },
+    {
+     "en": "怒涛の勇者達"
+    }
+   ],
    "description": {
     "en": "The princess has been captured by the evil demon king and the king offers her hand in marriage in return for her rescue! But things aren't all what they seem...?"
    },
@@ -18,7 +26,6 @@
     "mu": "77908"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,43 +61,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-31T04:10:30+00:00",
+   "updatedAt": "2021-05-25T15:43:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "16b98239-6452-4859-b6df-fdb1c7f12b52",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ONE",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "47cd4e57-3fc4-4d76-97e4-b3933a5b05ef",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murata Yuusuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "01c6e7ff-0ce2-417a-8a18-dc2d316dddd1",
-   "type": "chapter"
-  },
-  {
-   "id": "9dc381ce-9e49-466c-8ec3-7ae46a4609e0",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "ee89401b-a44d-4f4a-9c7d-86e181592448",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:36:01+00:00",
+    "description": "",
+    "fileName": "e2fc5944-f0b5-4588-b472-c1242e342fcd.jpg",
+    "updatedAt": "2021-05-24T18:36:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

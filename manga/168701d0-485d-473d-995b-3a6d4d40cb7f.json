@@ -7,6 +7,14 @@
    "title": {
     "en": "Welcome to Ghost City"
    },
+   "altTitles": [
+    {
+     "en": "Добро пожаловать в город призраков"
+    },
+    {
+     "en": "웰컴 투 고스트시티"
+    }
+   ],
    "description": {
     "en": "With an increasing population of ghosts in the city of Seoul, escalating posthumous territoriality begins to become dangerous for living residents. The solution: vacant buildings just for ghosts."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,79 +72,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-01T10:55:32+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "f280587a-dfdb-49b4-9db9-06ba5cf6a1c0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yooduel",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "09b6ba5a-bf2f-489b-a2ef-f533ce115aaf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Latte",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cf150a4d-2d5a-4a9f-be61-1206f7f8958c",
-   "type": "chapter"
-  },
-  {
-   "id": "76373d91-ad0c-463f-ba81-5a9873c6414f",
-   "type": "chapter"
-  },
-  {
-   "id": "8c9645d7-9440-4c02-887c-c1079b79ff4b",
-   "type": "chapter"
-  },
-  {
-   "id": "388fa563-883c-4433-a7e5-83210cee1914",
-   "type": "chapter"
-  },
-  {
-   "id": "4184bce4-ab1a-4887-beee-9d841236f943",
-   "type": "chapter"
-  },
-  {
-   "id": "a9371a12-8f36-4699-8794-639a1ddf49a0",
-   "type": "chapter"
-  },
-  {
-   "id": "0f07c4d1-6d4d-4fbb-a91a-c16d1f498719",
-   "type": "chapter"
-  },
-  {
-   "id": "67901136-1651-49a8-a383-232c314b2b52",
-   "type": "chapter"
-  },
-  {
-   "id": "a6ad6693-8a57-45e9-83ac-f17db83c4b15",
-   "type": "chapter"
-  },
-  {
-   "id": "cda2a9ea-a151-4faf-a754-cd92af4f0cb7",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "6101afc1-7ed4-4f41-9d32-e503a6bd2c49",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:06+00:00",
+    "description": "",
+    "fileName": "0ffbefed-abe7-4366-8cea-fa434ae2823f.jpg",
+    "updatedAt": "2021-05-24T16:50:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

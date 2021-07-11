@@ -7,6 +7,17 @@
    "title": {
     "en": "Cinema Next Door"
    },
+   "altTitles": [
+    {
+     "en": "Cinema Next Door"
+    },
+    {
+     "en": "Кино по соседству"
+    },
+    {
+     "en": "벽 너머 영화관"
+    }
+   ],
    "description": {
     "en": "The walls are thin, and it's hard not to know what your neighbor is up to, especially when they cry loudly every time they watch a movie."
    },
@@ -28,6 +39,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +51,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +63,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,8 +73,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,6 +87,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -78,6 +99,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -88,6 +111,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -98,95 +123,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-03T04:40:31+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "858a63cd-a85f-4b1d-a3d8-b2e2f66b9139",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Gwak Jongpil",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "858a63cd-a85f-4b1d-a3d8-b2e2f66b9139",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Gwak Jongpil",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3d827deb-8a0f-4d73-bc78-7ea95946a9fd",
-   "type": "chapter"
-  },
-  {
-   "id": "97583738-85c6-48a1-90fb-c89bc507a3a2",
-   "type": "chapter"
-  },
-  {
-   "id": "a5ae584d-f963-4108-a3e9-32e4eebf1f09",
-   "type": "chapter"
-  },
-  {
-   "id": "ace4ce13-6185-4d95-b68e-9af07870ea4e",
-   "type": "chapter"
-  },
-  {
-   "id": "4dbb2086-95b3-48b1-98ca-b171d0b49728",
-   "type": "chapter"
-  },
-  {
-   "id": "eaa96bf6-80e5-4dac-a527-c031b2e425ca",
-   "type": "chapter"
-  },
-  {
-   "id": "46b11c7c-e738-4f9f-9ad6-195bbb3a434f",
-   "type": "chapter"
-  },
-  {
-   "id": "838f335f-06c9-4882-a09b-ab62734dd801",
-   "type": "chapter"
-  },
-  {
-   "id": "394ae578-3cc7-4f79-8478-d8f53ac94b59",
-   "type": "chapter"
-  },
-  {
-   "id": "1a9261f8-bc2f-40c9-92da-5837d46425c4",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "31b6d909-29f5-4f19-99e8-5b04a1470df8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:26+00:00",
+    "description": "",
+    "fileName": "b72a8ab3-9ba0-4dbe-bc00-9572d1957b28.png",
+    "updatedAt": "2021-05-24T17:32:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

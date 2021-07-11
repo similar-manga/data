@@ -7,6 +7,14 @@
    "title": {
     "en": "Usotsuki Engage"
    },
+   "altTitles": [
+    {
+     "en": "Liars Engage"
+    },
+    {
+     "en": "うそつきエンゲージ"
+    }
+   ],
    "description": {
     "en": "The unstoppable force meets the immovable object! The world's brattiest princess is engaged to a prince just as childish. Will they figure out who's the worse brat before one or both are assassinated by political rivals? Read on!"
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,59 +75,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-19T16:31:00+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "eceb62c2-0370-4e79-aa8d-ae46cd22ee11",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamada Shiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "eceb62c2-0370-4e79-aa8d-ae46cd22ee11",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamada Shiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "39bf029e-ea13-4b15-97ab-bc36fba4ea34",
-   "type": "chapter"
-  },
-  {
-   "id": "a22a9de4-3a29-4e52-9fc0-6c4ccfebaec0",
-   "type": "chapter"
-  },
-  {
-   "id": "0b07cde2-ea86-4ae8-96db-449c97ca8ca8",
-   "type": "chapter"
-  },
-  {
-   "id": "4c9759c6-ad5b-4031-afd3-1c536834d1ae",
-   "type": "chapter"
-  },
-  {
-   "id": "1fe99e02-c887-4a66-8750-b7eda6b5c44c",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "eb398fc1-ea2d-4f96-abc2-f77456b6e991",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:41:29+00:00",
+    "description": "",
+    "fileName": "eb0923d4-c09f-4159-a703-4bc2ae20de5d.jpg",
+    "updatedAt": "2021-05-24T18:41:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

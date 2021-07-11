@@ -29,6 +29,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +41,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +53,8 @@
       "name": {
        "en": "Mecha"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +65,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -69,83 +77,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-25T22:47:39+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bd49ebd0-bbf7-4ddc-a69e-b7127db5b12b",
-   "type": "chapter"
-  },
-  {
-   "id": "26136262-9c91-47f0-afa4-457a8c0967c2",
-   "type": "chapter"
-  },
-  {
-   "id": "69e7c184-0241-4615-9b27-f1c03b423ee3",
-   "type": "chapter"
-  },
-  {
-   "id": "7fe1cf31-a99c-4f46-9f47-e65c4b27824f",
-   "type": "chapter"
-  },
-  {
-   "id": "edecb9a2-3c27-4b11-8d76-88c2e7781d1f",
-   "type": "chapter"
-  },
-  {
-   "id": "945c1a87-2627-404b-b75f-bb2aeb847a44",
-   "type": "chapter"
-  },
-  {
-   "id": "d4926b10-601d-48b1-b0d3-def231fa12c2",
-   "type": "chapter"
-  },
-  {
-   "id": "2da34383-2871-4a38-8c57-7b2d5dbabe22",
-   "type": "chapter"
-  },
-  {
-   "id": "61b66067-861b-4ccd-b29d-614bdbe50222",
-   "type": "chapter"
-  },
-  {
-   "id": "ddbe9b4b-c473-4d16-86c1-6c7887a7feba",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "50880a9d-5440-4732-9afb-8f457127e836",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0cb7eae1-9d73-4f5b-9444-c04296fcc94b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:31:29+00:00",
+    "description": "",
+    "fileName": "71994f68-c1cd-46b6-9a44-06e2eb369dac.jpg",
+    "updatedAt": "2021-05-24T17:31:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

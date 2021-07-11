@@ -7,6 +7,14 @@
    "title": {
     "en": "Birthday"
    },
+   "altTitles": [
+    {
+     "en": "Birthday"
+    },
+    {
+     "en": "Doğum Günü"
+    }
+   ],
    "description": {
     "en": "When a Tokyo teenager botches a suicide attempt, he finds himself recovering in a hospital where most of the patients are more than twice his age. Rejecting his mother's visits, he spends his time counting the hours between meals and blood-tests until a run-in with another teenage patient leaves him with an unlikely new friend."
    },
@@ -23,8 +31,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +45,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,51 +57,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-04-29T21:20:43+00:00",
+   "updatedAt": "2019-04-29T21:20:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "78d09cbc-b2f5-4225-bed0-f6470373cd18",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sugimoto Ami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "78d09cbc-b2f5-4225-bed0-f6470373cd18",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sugimoto Ami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7f5669d6-bafe-4b71-bd8a-f140e39f0725",
-   "type": "chapter"
-  },
-  {
-   "id": "66543588-191a-49ae-9d56-9106a986f822",
-   "type": "chapter"
-  },
-  {
-   "id": "91297230-4fe1-473f-9b9f-b650188faabc",
-   "type": "chapter"
-  },
-  {
-   "id": "cc5a9107-28c0-4d22-a890-ecd277708a27",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "03011b45-32e2-4fab-b7e9-a53e40bef7d7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:10:00+00:00",
+    "description": "",
+    "fileName": "ade1b646-e087-4821-9d31-da2b7d353c81.jpg",
+    "updatedAt": "2021-05-24T17:10:00+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

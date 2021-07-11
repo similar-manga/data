@@ -11,7 +11,6 @@
     "en": "Series is posted with the [url=https://twitter.com/ramenwarwok/status/1080989494105391105?s=21]Author's Consent [/url]\r\n\r\nA set of small comics featuring monster girls.\r\n\r\n[url=http://ramenwarwok.tumblr.com/]Artist's Blog.[/url]"
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Monster Girls"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -32,6 +33,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,43 +45,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-01T00:24:07+00:00",
+   "updatedAt": "2021-05-25T15:42:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "290e3820-317e-4dc5-941d-b722faeb2caf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ramenwarwok",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "290e3820-317e-4dc5-941d-b722faeb2caf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ramenwarwok",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e9302431-026f-403c-b461-580729002174",
-   "type": "chapter"
-  },
-  {
-   "id": "63a20465-2517-4fad-8d6e-94dbad5e53b0",
-   "type": "chapter"
-  },
-  {
-   "id": "dd1f77c5-dea9-4e2b-97ae-224af09caf99",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "b1d46cc2-b907-4ffb-80d3-e4be9b413e6e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:28:33+00:00",
+    "description": "",
+    "fileName": "f5428e06-98cf-4f8f-a2e5-04e6b737cafb.jpg",
+    "updatedAt": "2021-05-24T17:28:33+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

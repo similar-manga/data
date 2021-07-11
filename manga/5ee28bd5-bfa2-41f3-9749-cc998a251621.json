@@ -7,8 +7,22 @@
    "title": {
     "en": "Zelda Encyclopedia"
    },
+   "altTitles": [
+    {
+     "en": "All Legend of Zelda Encyclopedia"
+    },
+    {
+     "en": "The Legend of Zelda Encyclopedia"
+    },
+    {
+     "en": "全ゼルダの伝説大百科"
+    },
+    {
+     "en": "全薩爾達傳說 大百科"
+    }
+   ],
    "description": {
-    "en": "A game guide that covers the first 3 Zelda games. The Legend of Zelda, The Adventure of Link, and A Link to the Past. There's a small manga introduction for each. Only the \u0026quot;manga\u0026quot; is posted here, not the whole guide."
+    "en": "A game guide that covers the first 3 Zelda games. The Legend of Zelda, The Adventure of Link, and A Link to the Past. There's a small manga introduction for each. Only the \"manga\" is posted here, not the whole guide."
    },
    "originalLanguage": "ja",
    "lastChapter": "3",
@@ -22,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +60,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +72,8 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -62,55 +84,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-12T12:12:18+00:00",
+   "updatedAt": "2021-05-25T15:42:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "6634649d-76ca-4635-b4f0-ee483d00af15",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Keibunsha",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "77b06900-cb24-47df-9dea-0cccc3a28422",
-   "type": "chapter"
-  },
-  {
-   "id": "9fe7b7cc-bfe3-43e8-8361-e9fb6b285b07",
-   "type": "chapter"
-  },
-  {
-   "id": "21a2a589-4e8c-40a8-bcb8-19f57002f69c",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "f7e84070-42e9-4f50-9243-503b216eeb4a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:40:55+00:00",
+    "description": "",
+    "fileName": "569e8df9-e36a-441c-afd1-1620b253e959.jpg",
+    "updatedAt": "2021-05-24T17:40:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

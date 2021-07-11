@@ -7,6 +7,14 @@
    "title": {
     "en": "Ikujinashi no Kimi ni Sasageru"
    },
+   "altTitles": [
+    {
+     "en": "Devoted To A Coward Like You"
+    },
+    {
+     "en": "いくじなしの君に捧げる"
+    }
+   ],
    "description": {
     "en": "Hinata Karui and Seiji Matsuyama have been friends since childhood. When they were kids, Hinata loved Seiji innocently and affectionately, but one day he is attacked in a park by an unknown pervert. From then on, the relationship between the two changes drastically."
    },
@@ -28,8 +36,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,55 +62,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-24T11:12:06+00:00",
+   "updatedAt": "2021-05-25T15:43:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "cc75a089-02ef-4585-90e1-22fed616d78f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mishima Kazuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cc75a089-02ef-4585-90e1-22fed616d78f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mishima Kazuhiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6232344e-aadc-41b9-aa51-5e6c2084a199",
-   "type": "chapter"
-  },
-  {
-   "id": "1901373d-b0e4-4bde-a203-af9b9a3cb780",
-   "type": "chapter"
-  },
-  {
-   "id": "4da033f1-7565-4620-9322-f7a1b9c75a37",
-   "type": "chapter"
-  },
-  {
-   "id": "fa7cad38-e639-48f6-a90e-9ce24b405a7c",
-   "type": "chapter"
-  },
-  {
-   "id": "432cb0c1-bb37-4db6-8d03-f122f746a661",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "c1d5a9d3-254d-4fe2-94b4-abd1f594c0c3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:58:56+00:00",
+    "description": "",
+    "fileName": "4d24940b-6f99-4054-a301-33ef34f56298.jpg",
+    "updatedAt": "2021-05-24T16:58:56+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

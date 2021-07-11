@@ -7,6 +7,11 @@
    "title": {
     "en": "Inio-chan's Cool Japan"
    },
+   "altTitles": [
+    {
+     "en": "いにおちゃんのクールジャパン！"
+    }
+   ],
    "description": {
     "en": "A webcomic written by Asano Inio and put up on Big Comic Spirit's online reader."
    },
@@ -27,6 +32,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +44,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,6 +56,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,43 +68,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-17T01:15:38+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "a5b9c82d-9cd3-41b8-ac46-6cb860d4e254",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asano Inio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a5b9c82d-9cd3-41b8-ac46-6cb860d4e254",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asano Inio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "37562e9e-2075-4037-852e-cb9d059498a2",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "9f93b177-458f-4f43-9d9e-5c7771e38c42",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:45:09+00:00",
+    "description": "",
+    "fileName": "e3cbc8ec-314d-4d92-8dd9-9e49597fd995.jpg",
+    "updatedAt": "2021-05-24T16:45:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

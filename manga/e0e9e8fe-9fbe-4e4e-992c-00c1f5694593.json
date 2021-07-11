@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Rockman \u0026amp; Forte"
+    "en": "Rockman \u0026 Forte"
    },
+   "altTitles": [
+    {
+     "en": "Megaman \u0026 Bass"
+    },
+    {
+     "en": "ロックマン\u0026フォルテ"
+    }
+   ],
    "description": {
     "en": "Like the game, the story has rivals Mega Man (Rockman) and Bass (Forte) joining forces to fight against King, a mysterious robot that wants to create a human-free, robots-only nation."
    },
@@ -24,6 +32,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,6 +44,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +56,8 @@
       "name": {
        "en": "Mecha"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,6 +68,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -64,83 +80,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-01T23:42:56+00:00",
+   "updatedAt": "2021-05-25T15:48:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "53639f15-eda6-4cd4-8c39-90a6d45c0265",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Izuki Kooji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "53639f15-eda6-4cd4-8c39-90a6d45c0265",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Izuki Kooji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9e2b997f-ff80-4636-8b82-5051070a8f2e",
-   "type": "chapter"
-  },
-  {
-   "id": "7d194bd2-0613-477a-a5db-e04e1537314e",
-   "type": "chapter"
-  },
-  {
-   "id": "4c627490-971b-4252-a26d-d655ccd3d80f",
-   "type": "chapter"
-  },
-  {
-   "id": "37e30b2b-9c6f-4999-bdc1-3772013b45b5",
-   "type": "chapter"
-  },
-  {
-   "id": "63ad8c61-7687-4576-b9d5-f42f9e73de1a",
-   "type": "chapter"
-  },
-  {
-   "id": "1fb2d800-abdc-44cf-a574-b05792ddb917",
-   "type": "chapter"
-  },
-  {
-   "id": "d9ef6d71-9e6d-48d9-8ce9-8aea224e5065",
-   "type": "chapter"
-  },
-  {
-   "id": "cda3e230-a7f5-418a-873c-230862661a1a",
-   "type": "chapter"
-  },
-  {
-   "id": "958c575f-63ec-4853-bc28-9e661ded76ec",
-   "type": "chapter"
-  },
-  {
-   "id": "28fd958d-e2fd-44a9-be65-47b29bc3b578",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "50880a9d-5440-4732-9afb-8f457127e836",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "a0396b9d-2462-4f9e-9d93-5c30f36b2b84",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:37+00:00",
+    "description": "",
+    "fileName": "3c6d1528-d914-42f0-bd97-eda7e3abc9ad.jpg",
+    "updatedAt": "2021-05-24T17:06:37+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

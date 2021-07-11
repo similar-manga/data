@@ -7,6 +7,14 @@
    "title": {
     "en": "Dr. Rabbit"
    },
+   "altTitles": [
+    {
+     "en": "Doctor Rabbit"
+    },
+    {
+     "en": "Ｄｒ．ラビット"
+    }
+   ],
    "description": {
     "en": "Saeki Fumio is a genius who earned a PhD at the age of fourteen. When she goes back to Japan to announce her invention, a bunny robot endowed with artificial intelligence called Alice, it turns out that someone is trying to steal Alice. With the help of Hikaru, a personal bodyguard that she hired, will Fumio be able to keep Alice safe and sound?"
    },
@@ -18,7 +26,6 @@
     "mu": "28839"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +49,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +61,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,43 +73,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-24T02:59:48+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "b24f68e7-b078-4c40-a565-7ba98b6edcdb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ogura Akane",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b24f68e7-b078-4c40-a565-7ba98b6edcdb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ogura Akane",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9847e431-981c-4422-9d79-3f2b402b2c32",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "e3eb82cd-74ee-4f18-8cce-e1f86730a0f1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:24:38+00:00",
+    "description": "",
+    "fileName": "bee7c37c-b1af-47d6-b660-0e04ef71bc67.png",
+    "updatedAt": "2021-05-24T17:24:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

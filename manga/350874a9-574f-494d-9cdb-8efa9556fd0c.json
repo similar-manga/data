@@ -25,6 +25,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +37,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +49,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -55,59 +61,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-15T11:49:30+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "14ba0288-f306-4e33-9af7-4eb4510094b6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shouma Keito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "14ba0288-f306-4e33-9af7-4eb4510094b6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shouma Keito",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ed49d952-f57c-4645-b39b-adcac38a25c5",
-   "type": "chapter"
-  },
-  {
-   "id": "39c0f025-30a4-4a96-b91c-b56adb84d38d",
-   "type": "chapter"
-  },
-  {
-   "id": "09558c5f-0dc2-4765-8a2f-ab71c12ebcd0",
-   "type": "chapter"
-  },
-  {
-   "id": "4cbf982f-4bd2-4cfd-8dc0-d537e9c5ec69",
-   "type": "chapter"
-  },
-  {
-   "id": "f0410fa2-fbec-4c60-a53f-a15861a26e7b",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "70ab786f-8d03-4f12-b7dc-5c87c941d879",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:51+00:00",
+    "description": "",
+    "fileName": "9e768ce1-2e84-46df-af06-18e80bf6fdb8.png",
+    "updatedAt": "2021-05-24T17:22:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

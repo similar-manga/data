@@ -7,8 +7,16 @@
    "title": {
     "en": "Ana no Ie"
    },
+   "altTitles": [
+    {
+     "en": "孔之家"
+    },
+    {
+     "en": "穴の家"
+    }
+   ],
    "description": {
-    "en": "A young man who's enjoying the beginning of his adult life, living alone for the first time\u0026hellip; finds out that there's more to his flat than was in the rental contract."
+    "en": "A young man who's enjoying the beginning of his adult life, living alone for the first time… finds out that there's more to his flat than was in the rental contract."
    },
    "links": {
     "mu": "160101"
@@ -26,6 +34,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +46,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,51 +58,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-08T17:48:36+00:00",
+   "updatedAt": "2021-05-25T15:39:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "acd42ea6-cfaf-4277-8bca-de4ad306c436",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matono Anji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "acd42ea6-cfaf-4277-8bca-de4ad306c436",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matono Anji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3ddfe2f2-7786-4875-ba4c-26a32811ddbb",
-   "type": "chapter"
-  },
-  {
-   "id": "51e75153-e20b-437d-85da-daac46157ec9",
-   "type": "chapter"
-  },
-  {
-   "id": "71c85ec9-0898-4657-a6e3-b76d3e8712c4",
-   "type": "chapter"
-  },
-  {
-   "id": "f38f80e8-fae0-45ea-b8fe-525908871e22",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "3599f384-9951-4f61-a9c8-ca429a5934fd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:55:15+00:00",
+    "description": "",
+    "fileName": "d143ef7d-d3fb-4b5a-968d-4d4098de76d1.jpg",
+    "updatedAt": "2021-05-24T17:55:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

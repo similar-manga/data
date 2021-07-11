@@ -7,6 +7,20 @@
    "title": {
     "en": "Tonari no Onigo"
    },
+   "altTitles": [
+    {
+     "en": "Ogre Girl Next Door"
+    },
+    {
+     "en": "The Demon Girl Next Door"
+    },
+    {
+     "en": "となりの鬼子"
+    },
+    {
+     "en": "身旁的鬼子"
+    }
+   ],
    "description": {
     "en": "Oniko, as she is called, is a demon who has a severe interest in humans and one day decides she wants to become a human herself!"
    },
@@ -29,6 +43,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +55,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,39 +67,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-28T17:38:06+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "f06fb6a0-8359-4511-888d-af30d26734d7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Horiyayu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c0fa2603-defc-4cd8-bd20-0e3d190cadf6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Musha Sabu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "30cc8e3f-7870-48b1-9170-778c70b6212f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "b6475f2e-6bbe-4f4b-a8d4-fa44a14906db",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:39:02+00:00",
+    "description": "",
+    "fileName": "f11fce1d-f2b6-48fe-8df5-cc371f2d8e8b.jpg",
+    "updatedAt": "2021-05-24T18:39:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

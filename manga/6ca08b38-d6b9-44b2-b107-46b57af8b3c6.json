@@ -7,6 +7,14 @@
    "title": {
     "en": "Fruit, Gateau au Chocolat"
    },
+   "altTitles": [
+    {
+     "en": "Fruit, Gâteau au Chocolat"
+    },
+    {
+     "en": "フルーツ、ガトーショコラ"
+    }
+   ],
    "description": {
     "en": "Shiina Kouki and Yonekura Hayato have a very special relationship - they meet up every Friday night to eat. Although the two of them are as different as two people could be, there is no denying that they share the same taste for food."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,61 +46,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-14T18:45:51+00:00",
+   "updatedAt": "2021-05-25T15:43:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "645f62f8-e6da-4ed7-8ba2-8b0cad2e33f3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kitahala Lyee",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "645f62f8-e6da-4ed7-8ba2-8b0cad2e33f3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kitahala Lyee",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e7a548f0-fae9-4317-ac67-8087a604afe5",
-   "type": "chapter"
-  },
-  {
-   "id": "36ca32fd-8060-4308-a2ba-8bd4be9dce22",
-   "type": "chapter"
-  },
-  {
-   "id": "de53f35d-1741-4601-9393-a816edc50e36",
-   "type": "chapter"
-  },
-  {
-   "id": "201f6efc-15ce-445d-8dd1-d5ed983f0f83",
-   "type": "chapter"
-  },
-  {
-   "id": "f28b999e-bc9d-4b2b-afae-6a0a3c1c4dda",
-   "type": "chapter"
-  },
-  {
-   "id": "c176856d-f2e2-4129-8dc1-bca5332d4e52",
-   "type": "chapter"
-  },
-  {
-   "id": "817b0c73-ce69-4f90-bc91-d2e937a00aef",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "d24a8f40-13be-4fd8-96f1-670f568b7fd4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:49+00:00",
+    "description": "",
+    "fileName": "d0946ed5-8a40-4bac-ab5d-18aa2e1cbf6f.png",
+    "updatedAt": "2021-05-24T17:33:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

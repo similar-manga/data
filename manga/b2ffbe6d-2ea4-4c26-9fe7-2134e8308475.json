@@ -17,7 +17,6 @@
     "mu": "82250"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -28,6 +27,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +51,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -58,79 +63,53 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-12T05:03:19+00:00",
+   "updatedAt": "2021-05-25T15:46:42+00:00"
   }
  },
  "relationships": [
   {
    "id": "36b575c1-7207-42df-b1f0-efba6c754716",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Park In Seo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5ada4b4d-e4b9-4c62-8f81-2b82233de0a4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Choi Sang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5a2e44c5-5579-4dda-af87-b89c43210138",
-   "type": "chapter"
-  },
-  {
-   "id": "d3acda60-0b99-4575-b3eb-9d68c53d471a",
-   "type": "chapter"
-  },
-  {
-   "id": "d4447f01-0c61-493a-9693-2df687b674f2",
-   "type": "chapter"
-  },
-  {
-   "id": "1bffd8bf-00b6-40b3-9b4c-03a4c918c01e",
-   "type": "chapter"
-  },
-  {
-   "id": "fa779987-7295-4660-abee-737c2f26be13",
-   "type": "chapter"
-  },
-  {
-   "id": "143f4374-5068-4498-9a8b-747f82bce1f4",
-   "type": "chapter"
-  },
-  {
-   "id": "a8766664-0f1d-4e1f-8f20-c4529001c976",
-   "type": "chapter"
-  },
-  {
-   "id": "fa70ee3b-11d7-4839-b9ac-6e3aa507871e",
-   "type": "chapter"
-  },
-  {
-   "id": "44d51734-5716-48c2-a290-517e89d6b48d",
-   "type": "chapter"
-  },
-  {
-   "id": "b9e373c3-c627-4036-9078-95778575502b",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
+   "id": "a74692b5-1ebf-4f9f-87f1-1f959b44a38d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:13+00:00",
+    "description": "",
+    "fileName": "63c3c5bd-a55b-4afd-89c4-9d03830690f7.jpg",
+    "updatedAt": "2021-05-24T17:04:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

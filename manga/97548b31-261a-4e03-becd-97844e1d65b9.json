@@ -7,8 +7,13 @@
    "title": {
     "en": "Secret Island"
    },
+   "altTitles": [
+    {
+     "en": "조개섬의 비밀"
+    }
+   ],
    "description": {
-    "en": "A shipwreck, a mysterious island discovered by accident... It\u0026rsquo;s a fairyland with only women, and all beautiful women!!"
+    "en": "A shipwreck, a mysterious island discovered by accident... It’s a fairyland with only women, and all beautiful women!!"
    },
    "links": {
     "mu": "149999",
@@ -28,6 +33,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +57,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -58,79 +69,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-11T02:47:00+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "e1dcc36f-9a5d-41f4-bff1-4e7f35ae3046",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sin Sang",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "7c3a64b8-a3ad-4490-9386-8319b2377029",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Madstart",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "12b1b971-b082-480a-86ba-4d1eb2563949",
-   "type": "chapter"
-  },
-  {
-   "id": "fbd9d622-ae5c-46fe-99cb-c632c71d152f",
-   "type": "chapter"
-  },
-  {
-   "id": "1d6d8073-ac5d-4b69-be56-224e1b874f2a",
-   "type": "chapter"
-  },
-  {
-   "id": "9f001695-5bf5-454e-b3aa-3472ce637c1e",
-   "type": "chapter"
-  },
-  {
-   "id": "afd114ca-c1a8-4530-acaa-82062257f389",
-   "type": "chapter"
-  },
-  {
-   "id": "a6b8e90f-c3dc-41e8-8b9b-0a00ebe2867e",
-   "type": "chapter"
-  },
-  {
-   "id": "14bcdf40-7947-4984-bb26-a1dd43ae406f",
-   "type": "chapter"
-  },
-  {
-   "id": "0818af05-cc68-4ed5-916a-432170e4e046",
-   "type": "chapter"
-  },
-  {
-   "id": "959c5fee-5604-4c50-b3cb-f93a1f753d90",
-   "type": "chapter"
-  },
-  {
-   "id": "f2c3ff88-3dca-4df8-870b-9f4eecfa4b4d",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "080fbbad-c22c-4f85-93bf-59515e59ed6e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:31+00:00",
+    "description": "",
+    "fileName": "6b7b5f5a-e269-46f0-b9b7-8170e33a5946.jpg",
+    "updatedAt": "2021-05-24T17:18:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

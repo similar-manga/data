@@ -7,6 +7,17 @@
    "title": {
     "en": "Otter No.11"
    },
+   "altTitles": [
+    {
+     "en": "Otter 11"
+    },
+    {
+     "en": "Otters 11"
+    },
+    {
+     "en": "Rakko 11-gou"
+    }
+   ],
    "description": {
     "en": "Based on the fake manga in Bakuman it is a one shot of Otter no.11."
    },
@@ -18,7 +29,6 @@
     "mu": "93826"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +39,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +51,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,43 +63,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-05T14:43:14+00:00",
+   "updatedAt": "2021-05-25T15:45:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "0669bf79-ca27-4f50-9b48-741fb235137f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohba Tsugumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "428cec94-ea5c-40dc-9da3-7d0361cb0f41",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Obata Takeshi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "324bedc3-94df-4b9b-900b-aa371e29d753",
-   "type": "chapter"
-  },
-  {
-   "id": "5f38c723-cf6c-4fbd-a344-1e87cd0dfe43",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "c79b894c-a884-4ff6-bae8-89cc0a7e3b72",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:24+00:00",
+    "description": "",
+    "fileName": "791c0be6-e7eb-4343-9399-30a0285ae0cc.jpg",
+    "updatedAt": "2021-05-24T17:38:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

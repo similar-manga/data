@@ -7,6 +7,17 @@
    "title": {
     "en": "Sensei wa Mada Yume no Tochuu"
    },
+   "altTitles": [
+    {
+     "en": "Sensei ha Mada Yume no Tochuu"
+    },
+    {
+     "en": "Sensei wa, mada Yume no Tochuu"
+    },
+    {
+     "en": "先生は、まだ夢の途中"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -26,6 +37,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,35 +49,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-22T19:53:46+00:00",
+   "updatedAt": "2021-05-25T15:45:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "209dac45-47d5-47c7-91f7-63a8b93ddc89",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mita Ori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "209dac45-47d5-47c7-91f7-63a8b93ddc89",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mita Ori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a92082e4-0b29-4e48-b816-5c7aeafe04a8",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "0e4037a9-2f11-4f6c-ae7a-0fb57fc484fc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:34:46+00:00",
+    "description": "",
+    "fileName": "3dbac8d3-b03e-44fc-a209-92ddc3dc2e71.png",
+    "updatedAt": "2021-05-24T17:34:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

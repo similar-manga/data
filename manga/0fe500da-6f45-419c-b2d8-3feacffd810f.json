@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "False Reality, Boy \u0026amp; Girl"
+    "en": "False Reality, Boy \u0026 Girl"
    },
+   "altTitles": [
+    {
+     "en": "Hijitsuzai Shounen Shoujo"
+    },
+    {
+     "en": "非実在少年少女"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,39 +41,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-15T15:24:24+00:00",
+   "updatedAt": "2021-05-25T15:39:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "a76bff35-1ed7-4e5c-945d-57f6dd90c519",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsume Tsuna",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a76bff35-1ed7-4e5c-945d-57f6dd90c519",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Natsume Tsuna",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "10bce926-a377-451a-bece-bebb8bb9d39d",
-   "type": "chapter"
-  },
-  {
-   "id": "993f063c-439f-4c43-9397-d8a5184bfedf",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "fe9846fd-953d-4f43-83c0-56716fa8e3b2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:11+00:00",
+    "description": "",
+    "fileName": "ec121060-0561-4343-9d66-953f231034fc.png",
+    "updatedAt": "2021-05-24T17:08:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Romeo ga Rival"
    },
+   "altTitles": [
+    {
+     "en": "Romeo Is Rival"
+    },
+    {
+     "en": "ロメオがライバル"
+    }
+   ],
    "description": {
     "en": "We follow a loser NEET guy who is thrown into a bewildering new life out in the boonies, where he falls in love with a beautiful horse (or something like that)."
    },
@@ -32,6 +40,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,51 +52,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-10T20:14:46+00:00",
+   "updatedAt": "2021-05-25T15:46:17+00:00"
   }
  },
  "relationships": [
   {
    "id": "75bc82dc-24c4-4a46-95ab-57354fdab52d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hideyoshico",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "75bc82dc-24c4-4a46-95ab-57354fdab52d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hideyoshico",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2a05d16e-9a47-4d74-bf0e-5a9b57d9c2a4",
-   "type": "chapter"
-  },
-  {
-   "id": "7405f2cd-ee74-4429-9511-741100097b13",
-   "type": "chapter"
-  },
-  {
-   "id": "50ff72ec-56a1-463b-8135-2a0a18a477d2",
-   "type": "chapter"
-  },
-  {
-   "id": "ec9484d4-11f9-4c7e-83d1-b7cf170969c3",
-   "type": "chapter"
-  },
-  {
-   "id": "5aee7026-da5d-48b1-b7ca-2fdc456e9151",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "f9a04a88-aca1-4fce-9bc3-97d6eb5e74c3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:51:07+00:00",
+    "description": "",
+    "fileName": "6b5246e2-39c5-4fad-90d6-011674febd29.jpg",
+    "updatedAt": "2021-05-24T16:51:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

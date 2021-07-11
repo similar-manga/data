@@ -7,6 +7,14 @@
    "title": {
     "en": "Hajimari no Ryuu to Owari no Ryuu"
    },
+   "altTitles": [
+    {
+     "en": "Dragon of the Beginning and Dragon of the Last"
+    },
+    {
+     "en": "はじまりの竜とおわりの龍"
+    }
+   ],
    "description": {
     "en": "A 1-volume collection of short stories set in the same world, spanning centuries.\r\n\r\nStory 1: Three people cross paths, united by a flood and a dragon. A man who lost his village. An old man who lost his child. A young woman who lost her people. \r\n\r\nStory 2: The king is ill. In their quest to find a cure, a priest and his band of soldiers enter barbarian territory. But the herb they need belongs to the dragons. \r\n\r\nStory 3: Dragonswood is home to dragons and the people who care for them. When a mage and his dragon are captured, however, war looms ever closer. \r\n\r\nStory 4: After a ritual gone wrong, a dry spell hits a village once abundant in rain. The arrival of a rainmaker promises salvation, but first he must get to the bottom of a well-kept secret."
    },
@@ -34,6 +42,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +54,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -54,51 +66,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-27T14:36:40+00:00",
+   "updatedAt": "2021-05-25T15:43:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "e6d5d7b2-3a13-4950-82ef-a3c26b16c99f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Amai Maki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e6d5d7b2-3a13-4950-82ef-a3c26b16c99f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Amai Maki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "98b3ba37-e784-405a-9cb1-589b7eb67d55",
-   "type": "chapter"
-  },
-  {
-   "id": "77b985fc-126a-4648-9b86-c6459e56338c",
-   "type": "chapter"
-  },
-  {
-   "id": "5953d4e6-af5f-45f6-b296-68129b425c7e",
-   "type": "chapter"
-  },
-  {
-   "id": "dc28b0b7-f492-4349-9e5d-5297f545a505",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "a35bbf88-da08-4f68-a642-d503b65f1eb6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:28:09+00:00",
+    "description": "",
+    "fileName": "ef86e707-1a39-4c71-954a-f4f851d34a8e.jpg",
+    "updatedAt": "2021-05-24T17:28:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

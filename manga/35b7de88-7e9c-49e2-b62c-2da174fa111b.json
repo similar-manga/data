@@ -7,6 +7,14 @@
    "title": {
     "en": "Jimoto ga Japan"
    },
+   "altTitles": [
+    {
+     "en": "I'm From Japan"
+    },
+    {
+     "en": "ジモトがジャパン"
+    }
+   ],
    "description": {
     "en": "There's a new tough guy transfer student in Tokyo. His name is Tokio and he's raring to see how scrappy the locals are. But when he comes face-to-face with a Japan-obsessed red-haired kid that won't leave him alone until he tells him exactly what prefecture he's from, his life takes a turn for the crazy! This kid isn't just Japan obsessed, he's developed a martial art based on all the different prefectures in the country!"
    },
@@ -33,6 +41,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +65,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -63,6 +77,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -73,83 +89,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-12T02:23:13+00:00",
+   "updatedAt": "2021-05-25T15:41:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "5c4eade6-90d7-43b4-8fae-eed45d98f59b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hayashi Seiji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5c4eade6-90d7-43b4-8fae-eed45d98f59b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hayashi Seiji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f6525f7d-89b9-4a81-9075-bdba3d9572bf",
-   "type": "chapter"
-  },
-  {
-   "id": "11aaf5b3-8fc8-4c9e-a394-1ff2ae358b30",
-   "type": "chapter"
-  },
-  {
-   "id": "fa5154d2-e11f-4b4a-b3bc-197c5da0fed2",
-   "type": "chapter"
-  },
-  {
-   "id": "70a8c05d-db7a-48e7-9514-2b59e61686c4",
-   "type": "chapter"
-  },
-  {
-   "id": "4cba3669-50e3-48dc-b9db-eeea9d64cb50",
-   "type": "chapter"
-  },
-  {
-   "id": "c1118a14-206a-4eab-be1b-15e33c3c5f5b",
-   "type": "chapter"
-  },
-  {
-   "id": "d8b3fbea-92fa-4d64-b2b8-2de2e31634cd",
-   "type": "chapter"
-  },
-  {
-   "id": "fe62416a-644d-48db-b744-1195bb5754bd",
-   "type": "chapter"
-  },
-  {
-   "id": "9133d8ba-b34b-42a8-ac85-762eb8181dc7",
-   "type": "chapter"
-  },
-  {
-   "id": "1bede3e6-4b29-456b-882e-911bc665c7aa",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "f814e19b-fe04-4fb4-9f91-3774acbc329b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:31+00:00",
+    "description": "",
+    "fileName": "aeb1cba9-49b8-42a5-b4e8-2a3c986bbbcb.jpg",
+    "updatedAt": "2021-05-24T17:33:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

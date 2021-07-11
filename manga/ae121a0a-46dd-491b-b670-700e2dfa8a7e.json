@@ -7,6 +7,20 @@
    "title": {
     "en": "My Young Cat and My Old Dog"
    },
+   "altTitles": [
+    {
+     "en": "My Kitty and old Dog"
+    },
+    {
+     "en": "My Old Dog"
+    },
+    {
+     "en": "My Young Cat"
+    },
+    {
+     "en": "내 어린고양이와 늙은개"
+    }
+   ],
    "description": {
     "en": "Nang-Nak, an old poodle with blurred eyesight, and an adorable kitten, Soondae, love their owners whom they are loyal to. Here are the episodes of the mature dog and the energetic young kitten that always wait for their owners to give them love and affection."
    },
@@ -32,6 +46,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,6 +58,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,75 +70,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-15T05:17:06+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "91fd7f0c-b3e0-42d1-8d6f-d3a731ce09b3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Cho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "91fd7f0c-b3e0-42d1-8d6f-d3a731ce09b3",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Cho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "eb7bbef1-0375-4331-a91d-1a759d44afd1",
-   "type": "chapter"
-  },
-  {
-   "id": "875b8a15-c176-430a-b653-d7edcf0c376a",
-   "type": "chapter"
-  },
-  {
-   "id": "fff63499-f06b-4cb0-8c99-cba7f0bdf722",
-   "type": "chapter"
-  },
-  {
-   "id": "5c5bb710-9eab-427f-b650-6ea4f31d7c6f",
-   "type": "chapter"
-  },
-  {
-   "id": "748d4fcb-d58f-48db-83e2-9afb4080aa3e",
-   "type": "chapter"
-  },
-  {
-   "id": "2ebb8553-adde-443c-b5ab-661d1be4d674",
-   "type": "chapter"
-  },
-  {
-   "id": "80f7d78d-338b-4f2d-9666-0c125c0ac9c2",
-   "type": "chapter"
-  },
-  {
-   "id": "1fd23cd9-6b05-47fe-8be6-093eacc69036",
-   "type": "chapter"
-  },
-  {
-   "id": "fe324219-c819-476d-af93-2b3854fe9508",
-   "type": "chapter"
-  },
-  {
-   "id": "43825227-ee5d-425d-ac20-5ab8844582be",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "8f8a8ba1-3bb7-4f8c-be68-edbe87aba1ca",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:14:31+00:00",
+    "description": "",
+    "fileName": "9bd014f5-55fb-4d49-a7a8-0062c0da176c.jpg",
+    "updatedAt": "2021-05-24T17:14:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

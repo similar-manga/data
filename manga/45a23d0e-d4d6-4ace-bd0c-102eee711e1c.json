@@ -7,6 +7,14 @@
    "title": {
     "en": "Senran Kagura - Spark!"
    },
+   "altTitles": [
+    {
+     "en": "Senran Kagura Spark!"
+    },
+    {
+     "en": "閃乱カグラ Spark!"
+    }
+   ],
    "description": {
     "en": "The Hanzo Academy is not just a regular school. It holds a top secret class for ninja training reserved just for the elite. Only two girls made the cut this year, Ikaruga, a quiet but gifted brunette, and Katsuragi, a passionate and skilled blonde. Their personalities could not be more polar opposite and sparks fly even on the first day of class. Ikaruga, being a little bit ahead of the curve, outscores Katsuragi on every assignment. With tensions running high, how will these two ninja students work together when the time comes?"
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,67 +74,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-04T13:09:04+00:00",
+   "updatedAt": "2021-05-25T15:41:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "f41f5098-69dd-4bc3-9f10-aaad52bbd887",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKAKI Kenichiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "163ec3ea-7504-47a3-88c6-2956b5026709",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TANABE Kyou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7ac51db4-bdec-42b4-9d3b-4700bbd33706",
-   "type": "chapter"
-  },
-  {
-   "id": "41479cf0-1f60-4bf7-b3f7-676dfbc01b16",
-   "type": "chapter"
-  },
-  {
-   "id": "49bb928e-90d3-42a1-bb86-2af7ef3255f8",
-   "type": "chapter"
-  },
-  {
-   "id": "6187496c-dee9-430f-9336-24e83285e0b8",
-   "type": "chapter"
-  },
-  {
-   "id": "02f96a19-5054-4cef-b609-e83c8af8e86b",
-   "type": "chapter"
-  },
-  {
-   "id": "9df92621-f0fc-443f-9467-b942e6e2ee48",
-   "type": "chapter"
-  },
-  {
-   "id": "f76e090d-c95f-4666-9251-1bc7d6b49fc3",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "0f9ef7b1-b975-4f64-a5c9-8388886a603c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:14:02+00:00",
+    "description": "",
+    "fileName": "c0d2d682-a523-4daf-850d-b3c06e051075.jpg",
+    "updatedAt": "2021-05-28T23:14:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

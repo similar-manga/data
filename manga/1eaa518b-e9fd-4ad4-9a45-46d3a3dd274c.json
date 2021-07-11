@@ -7,6 +7,20 @@
    "title": {
     "en": "1|2|3"
    },
+   "altTitles": [
+    {
+     "en": "1 2 3"
+    },
+    {
+     "en": "1one 2two 3three"
+    },
+    {
+     "en": "One Two Three"
+    },
+    {
+     "en": "ONE-TWO-THREE"
+    }
+   ],
    "description": {
     "en": "Ever since he was thirteen, Mitsuru Takabayashi has been having indifferent sex with random people as a form of escape. This changes with his meeting of Seita Oogami, who fell in love with Mitsuru at first sight. It's not so easy for Mitsuru, however, because for him everything has to have an order."
    },
@@ -26,6 +40,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,8 +50,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +64,8 @@
       "name": {
        "en": "Incest"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -56,6 +76,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -66,67 +88,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-03T15:19:29+00:00",
+   "updatedAt": "2021-05-25T15:40:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "588036a4-3a2d-48ce-a8c5-0b9a25bce733",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakuta Hiromi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "588036a4-3a2d-48ce-a8c5-0b9a25bce733",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakuta Hiromi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cf78c143-2713-4c3c-a946-86e54477d729",
-   "type": "chapter"
-  },
-  {
-   "id": "c82e87e0-bfbd-49bf-b594-0090f3db0190",
-   "type": "chapter"
-  },
-  {
-   "id": "68f280ab-02e0-4073-885e-31a7910e2047",
-   "type": "chapter"
-  },
-  {
-   "id": "0217030b-9814-4852-b66c-1563bf9c6257",
-   "type": "chapter"
-  },
-  {
-   "id": "9859f212-fe8a-48a0-83bd-fffc15557a26",
-   "type": "chapter"
-  },
-  {
-   "id": "6a12d268-b8a5-4f2e-992c-cc7fb07ea8a2",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "5bd0e105-4481-44ca-b6e7-7544da56b1a3",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "d16782f9-8536-4fe8-986a-83885aa3e5fb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:21:14+00:00",
+    "description": "",
+    "fileName": "8279f197-0c45-4a8f-a9a7-167dc296d453.jpg",
+    "updatedAt": "2021-05-24T18:21:14+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

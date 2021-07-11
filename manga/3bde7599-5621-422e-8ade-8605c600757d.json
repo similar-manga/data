@@ -7,6 +7,11 @@
    "title": {
     "en": "Room Share"
    },
+   "altTitles": [
+    {
+     "en": "ルームシェア"
+    }
+   ],
    "description": {
     "en": "Two guys living in one apartment. Which kind of things would they share with each other, which ones would they keep to themselves? Would they laze around together, eat together, maybe cook together or even sleep together..? Find out for yourself with this heart-pounding room share."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,75 +59,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-28T07:55:44+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "ca11fa96-8733-434c-a09e-a95fa32f0490",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Isino Aya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ca11fa96-8733-434c-a09e-a95fa32f0490",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Isino Aya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a32efbdb-3182-40df-91ae-1baba37cdc59",
-   "type": "chapter"
-  },
-  {
-   "id": "65045c74-eed2-4bda-b683-42aa91f8dbc3",
-   "type": "chapter"
-  },
-  {
-   "id": "cc9dfc75-c518-4ca6-9a62-e3976d676245",
-   "type": "chapter"
-  },
-  {
-   "id": "aeeb58a6-0296-4d62-b6fc-47f26054deac",
-   "type": "chapter"
-  },
-  {
-   "id": "52298fc6-e4bc-4ec1-8ff6-0c6f45faafd6",
-   "type": "chapter"
-  },
-  {
-   "id": "64568f92-a079-4c73-a48b-ac175d0a2234",
-   "type": "chapter"
-  },
-  {
-   "id": "9b141dc7-44d0-436f-afae-aac7b2a9174a",
-   "type": "chapter"
-  },
-  {
-   "id": "69cb0442-d348-456f-afa2-4cd9b914332f",
-   "type": "chapter"
-  },
-  {
-   "id": "fac424c8-9d39-4e4b-b179-3f3be202e89f",
-   "type": "chapter"
-  },
-  {
-   "id": "7a822994-85c1-47d4-8623-34a5908c69fd",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "22d81aeb-ba9e-4fa4-9900-c3cbb77ecbd0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:43:15+00:00",
+    "description": "",
+    "fileName": "3a021359-a02a-46be-8054-9a7cc7fd7259.jpg",
+    "updatedAt": "2021-05-24T16:43:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

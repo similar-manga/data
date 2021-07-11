@@ -30,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +52,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +66,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -70,71 +78,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-15T22:33:13+00:00",
+   "updatedAt": "2021-05-25T15:42:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "200cd4bd-5668-43b0-a7db-3f03a4bd68a1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minekura Kazuya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "200cd4bd-5668-43b0-a7db-3f03a4bd68a1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Minekura Kazuya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6bc0075d-b254-42af-9b0c-5e8c1f456aa8",
-   "type": "chapter"
-  },
-  {
-   "id": "c796aa37-924b-4bf5-8708-2b7610bd9408",
-   "type": "chapter"
-  },
-  {
-   "id": "bead8948-73bf-45d5-b91f-eea39ff8d231",
-   "type": "chapter"
-  },
-  {
-   "id": "b2d64c45-9916-4ff8-a375-6ab60279eac5",
-   "type": "chapter"
-  },
-  {
-   "id": "d318f05d-22e7-4adc-bc1b-b88dbe84f2a3",
-   "type": "chapter"
-  },
-  {
-   "id": "2ec46970-39ca-4b50-a4bc-b08f957ce261",
-   "type": "chapter"
-  },
-  {
-   "id": "77ee2506-ff1a-4359-bd9f-c2cbca196db3",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "353100ac-866f-4f9e-80c2-0bacf5cb5b1c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:11:59+00:00",
+    "description": "",
+    "fileName": "e50be7fb-ca6a-461d-8612-651670dacc94.jpg",
+    "updatedAt": "2021-05-24T17:11:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

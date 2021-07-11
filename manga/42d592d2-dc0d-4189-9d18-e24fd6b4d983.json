@@ -5,13 +5,23 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Aru Mazoku to \u0026quot;Boku\u0026quot; no Monogatari"
+    "en": "Aru Mazoku to \"Boku\" no Monogatari"
    },
+   "altTitles": [
+    {
+     "en": "The Story of a Certain Demon and \"I\""
+    },
+    {
+     "en": "ある魔族と「僕」の物語"
+    },
+    {
+     "en": "魔族のおじさんと僕の物語"
+    }
+   ],
    "description": {
     "en": "A hungry demon finds a young boy collapsed alone in the forest. He quickly carries him home in order to eat him, but it doesn't take long for things to go horribly wrong. Will our poor demon ever eat the tasty human?\r\n\r\n[*][url=https://twitter.com/SHURITHE12TH]Author's Twitter[/url]\r\n[*][url=https://www.pixiv.net/users/3076781] Author's Pixiv[/url]"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +33,8 @@
       "name": {
        "en": "Demons"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -33,6 +45,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +57,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +69,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,6 +81,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -73,75 +93,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-10T06:34:22+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "5303af03-5dc0-4724-b21f-15d3e4ff6683",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Niname Shuri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5303af03-5dc0-4724-b21f-15d3e4ff6683",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Niname Shuri",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "76c75dff-6aef-4e2e-8d70-658d323a6b9e",
-   "type": "chapter"
-  },
-  {
-   "id": "666e027f-8391-4b2d-ba97-7fb11afbf3bd",
-   "type": "chapter"
-  },
-  {
-   "id": "4a86c427-c273-4d53-afe2-ab656de7fc26",
-   "type": "chapter"
-  },
-  {
-   "id": "8761868d-d984-4d1f-b86f-6c3219667ee4",
-   "type": "chapter"
-  },
-  {
-   "id": "70dadaaf-3d11-4f1d-8be2-2ab40dc82ba9",
-   "type": "chapter"
-  },
-  {
-   "id": "fdc06cf5-aca6-44b1-a981-00d71001d60a",
-   "type": "chapter"
-  },
-  {
-   "id": "c0d34dd0-90a7-4a47-8c10-ef02f8c1a768",
-   "type": "chapter"
-  },
-  {
-   "id": "39730448-9a5f-48a2-85b0-a70db87b1233",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "3762721a-eacc-4ffa-b4f8-88d61fd24107",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:06:08+00:00",
+    "description": "",
+    "fileName": "44de418d-613c-4234-ac25-3e15544a4e79.jpg",
+    "updatedAt": "2021-05-24T18:06:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

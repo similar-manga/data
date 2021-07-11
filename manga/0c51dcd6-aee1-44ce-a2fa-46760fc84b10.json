@@ -7,6 +7,17 @@
    "title": {
     "en": "Thoroughbred wa Yuruganai"
    },
+   "altTitles": [
+    {
+     "en": "Thoroughbred Doesn't Shake"
+    },
+    {
+     "en": "Thoroughbred Doesn't Waver"
+    },
+    {
+     "en": "サラブレッドはなゆるがない"
+    }
+   ],
    "description": {
     "en": "The thoroughbred, Shiba Toshimasa, and the lion, Shishidou Ouga, are childhood friends and now lovers. But, as the son of a good family, Shiba faces the talk about an engagement to his thoroughbred friend, Touma Rei. Although he asked Touma to reject the engagement, Shishidou finds out about it...?!"
    },
@@ -29,6 +40,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -39,6 +52,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,53 +62,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-05T21:55:00+00:00",
+   "updatedAt": "2021-05-25T15:39:21+00:00"
   }
  },
  "relationships": [
   {
    "id": "da93a056-73d6-4967-995c-a2a0abac2305",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakura Rico",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "da93a056-73d6-4967-995c-a2a0abac2305",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sakura Rico",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c286bc33-4795-4292-9b55-7b6b6f410808",
-   "type": "chapter"
-  },
-  {
-   "id": "f09e91cb-30e9-4922-9b8d-d95ed11690f6",
-   "type": "chapter"
-  },
-  {
-   "id": "6e3fe3bb-4fad-4e84-9115-3fac45021ff8",
-   "type": "chapter"
-  },
-  {
-   "id": "d1621446-da29-4564-8618-e72ea781b48d",
-   "type": "chapter"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "833df604-e951-4f7b-8d4a-6490bb699e85",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:17:43+00:00",
+    "description": "",
+    "fileName": "0bc9a46a-4992-4e90-8329-3e0e996e20f6.jpg",
+    "updatedAt": "2021-05-24T18:17:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

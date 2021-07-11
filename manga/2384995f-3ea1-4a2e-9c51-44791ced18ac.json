@@ -7,6 +7,11 @@
    "title": {
     "en": "Seishun Catharsis"
    },
+   "altTitles": [
+    {
+     "en": "青春カタルシス"
+    }
+   ],
    "description": {
     "en": "After graduating from high school, Masami, an office clerk at a law office, ended up raising his niece Akira due to his sister suddenly running away from home. When taking Akira to kindergarten one day, Masami discovers that his high school ex, Kei, is working there. It was their first time seeing each other in five years..."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,43 +60,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-09T03:28:10+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "76d31418-638b-42a7-80cc-8b509cbda48a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katsuragi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "76d31418-638b-42a7-80cc-8b509cbda48a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katsuragi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cad8a29e-873f-4d96-8c08-b5da92a65561",
-   "type": "chapter"
-  },
-  {
-   "id": "00429c46-f043-40ba-b2ed-7405d2f9c4cf",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "6c8e2b72-2380-4feb-bfff-50c7ac276896",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:36:58+00:00",
+    "description": "",
+    "fileName": "7832abe1-e386-4617-a182-8888b0a5015a.jpg",
+    "updatedAt": "2021-05-24T18:36:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

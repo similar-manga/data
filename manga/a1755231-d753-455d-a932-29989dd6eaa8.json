@@ -22,6 +22,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,39 +34,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-10-01T01:47:37+00:00",
+   "updatedAt": "2021-05-25T15:45:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "3f0bdbfb-b14d-42c4-8a11-c37cf85d1043",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kawahagitei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3f0bdbfb-b14d-42c4-8a11-c37cf85d1043",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kawahagitei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "aa04401b-3cfa-4bca-8fdf-04d39eb1d615",
-   "type": "chapter"
-  },
-  {
-   "id": "5c31a185-5423-424e-94cd-e3e74cd87208",
-   "type": "chapter"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "e8c2d942-c99c-4f88-b87f-4f178888dfff",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:12:44+00:00",
+    "description": "",
+    "fileName": "3e9a2497-b99f-4984-b884-4b028a5e4e6e.jpg",
+    "updatedAt": "2021-05-24T18:12:44+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

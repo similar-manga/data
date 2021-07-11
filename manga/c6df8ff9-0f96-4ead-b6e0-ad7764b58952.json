@@ -7,6 +7,14 @@
    "title": {
     "en": "Me o Tojite 3-Byou"
    },
+   "altTitles": [
+    {
+     "en": "Close Your Eyes For 3 Seconds"
+    },
+    {
+     "en": "目をとじて3秒"
+    }
+   ],
    "description": {
     "en": "Chibana Manabu has a habit of closing his eyes and counting to three whenever he finds himself stressed out, whether it's about his drag-queen father or the feelings he's harboring for his childhood friend. Kaji Hiroto is carefree and enjoying his days with Chibana, hoping they'll last forever and maybe even turn into something even more eternal. But lack of communication and a fear of rejection can only lead downhill."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,59 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-19T09:22:11+00:00",
+   "updatedAt": "2021-05-25T15:47:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "c35f986b-cda4-4496-9dba-bab958e20e30",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aniya Yuiji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c35f986b-cda4-4496-9dba-bab958e20e30",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aniya Yuiji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e731eafe-7f79-44e9-88aa-5f01f97c1442",
-   "type": "chapter"
-  },
-  {
-   "id": "9829459b-d1ec-4a23-ba7c-23a4f4329b8d",
-   "type": "chapter"
-  },
-  {
-   "id": "3fc51810-8de3-4b23-b2c8-2c4669bcce8f",
-   "type": "chapter"
-  },
-  {
-   "id": "16ca5132-cc14-4c35-9b0e-8f2211e95746",
-   "type": "chapter"
-  },
-  {
-   "id": "d6159fe5-bf1d-47f0-83d4-be9345ecdf4c",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "c545a417-e69d-4f91-9a90-1072231805bd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:38:01+00:00",
+    "description": "",
+    "fileName": "e21ec4bb-06db-4502-9c31-58ceff906513.jpg",
+    "updatedAt": "2021-05-24T18:38:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

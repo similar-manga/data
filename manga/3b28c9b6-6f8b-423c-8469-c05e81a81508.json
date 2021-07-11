@@ -7,6 +7,17 @@
    "title": {
     "en": "MuvLuv"
    },
+   "altTitles": [
+    {
+     "en": "Muv Luv"
+    },
+    {
+     "en": "Muv-Luv"
+    },
+    {
+     "en": "マブラヴ"
+    }
+   ],
    "description": {
     "en": "Takeru and Sumika have been neighbors and friends since they were little, but when a mysterious girl arrives, and is found in bed with Takeru, their daily lives will be thrown into chaos."
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,55 +78,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-28T21:00:32+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "5ca8c434-3384-4205-8e48-674b99068404",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Age",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f406dd5b-cf49-4869-b30c-7fb21f416baf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takao Ukyou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ae0c9583-fc9a-4b35-a187-f6b43282b5d0",
-   "type": "chapter"
-  },
-  {
-   "id": "238a55ec-558b-4c45-ae4f-a11316e5123a",
-   "type": "chapter"
-  },
-  {
-   "id": "449e21e1-fa30-407f-bf25-ebf14708458b",
-   "type": "chapter"
-  },
-  {
-   "id": "175c6c57-149f-4758-974a-5ed153db0706",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "2fd230eb-53aa-4ff7-a05c-0e97147d450e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:03:23+00:00",
+    "description": "",
+    "fileName": "e5ee3d50-b420-4eb5-9f31-9117b11c43ee.jpg",
+    "updatedAt": "2021-05-24T18:03:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Triangle"
    },
+   "altTitles": [
+    {
+     "en": "トライアングル"
+    }
+   ],
    "description": {
     "en": "After a childhood friend passes away, the two who were left behind reminisce the love from the past and the present."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,47 +71,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-15T02:28:18+00:00",
+   "updatedAt": "2021-05-25T15:48:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "9b29abeb-e1d6-4702-886b-b803579bc71f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fuuki Mame",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9b29abeb-e1d6-4702-886b-b803579bc71f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fuuki Mame",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4621abf8-643d-4ba4-9d4d-2588de7b71e1",
-   "type": "chapter"
-  },
-  {
-   "id": "13dd96ab-936b-4268-bfe6-bb9bf79cbd9e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "3de87e2f-7305-4ffc-98d4-d6aced10310c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:17+00:00",
+    "description": "",
+    "fileName": "4b7aa9f0-a5c8-4fbc-8a06-a99b0f6c9104.png",
+    "updatedAt": "2021-05-24T17:41:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

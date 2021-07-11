@@ -7,6 +7,11 @@
    "title": {
     "en": "Samurai Ice Cream"
    },
+   "altTitles": [
+    {
+     "en": "サムライアイスクリーム"
+    }
+   ],
    "description": {
     "en": "Ichinose Kei has learned kendo from the time he was a child for one reason: to be Mita Hikaru's hero. The two were always together when they were children, until Hikaru had to move. Now in high school, the two meet once again, but Hikaru is now trying to be Kei's hero?!"
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,8 +44,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,59 +58,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-07T18:02:52+00:00",
+   "updatedAt": "2021-05-25T15:41:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "acd783cf-0678-443f-b3bf-7e5e8754b8a7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Umiyuki Lily",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "acd783cf-0678-443f-b3bf-7e5e8754b8a7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Umiyuki Lily",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cb733702-98a1-4d8d-8a45-471c4344fbf1",
-   "type": "chapter"
-  },
-  {
-   "id": "d024b0e8-a580-432c-89f0-a9e3026093f9",
-   "type": "chapter"
-  },
-  {
-   "id": "70f43022-0615-43c8-afc4-1aa8b67fc9cd",
-   "type": "chapter"
-  },
-  {
-   "id": "ae20b936-7f61-4909-bc59-bd19dd930d96",
-   "type": "chapter"
-  },
-  {
-   "id": "0d85c725-da13-47a8-a68e-1a255123ac2b",
-   "type": "chapter"
-  },
-  {
-   "id": "213df31e-7bd9-4d87-9a53-6eecdae27f0e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "3d05f89e-ad29-4f7c-8ebc-36ddb3c38293",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:09+00:00",
+    "description": "",
+    "fileName": "47af6737-1521-4324-94f6-0849a1a95387.jpg",
+    "updatedAt": "2021-05-24T17:18:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

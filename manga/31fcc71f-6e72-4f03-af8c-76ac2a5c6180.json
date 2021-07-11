@@ -7,6 +7,11 @@
    "title": {
     "en": "Children's Time"
    },
+   "altTitles": [
+    {
+     "en": "チルドレンズ・タイム"
+    }
+   ],
    "description": {
     "en": "A continuation of Yuuta and Mayumi's story."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +59,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,55 +71,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-08T17:47:37+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "f06b72af-226e-47de-a7af-62a536210d4f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sugano Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5972d23d-63c3-4269-8bb3-230c9b343b0f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ninomiya Etsumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "64f094b8-691e-4644-b303-e4533f167479",
-   "type": "chapter"
-  },
-  {
-   "id": "48cd357b-5e18-4522-9091-85002d35090b",
-   "type": "chapter"
-  },
-  {
-   "id": "dfc2b88a-2175-4085-bba0-316ba09a8a9e",
-   "type": "chapter"
-  },
-  {
-   "id": "6325eebf-0135-4fd2-a1cf-e0e26f9c7de0",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "2621976f-0436-4fc9-8485-aa8a290b6a9a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:16+00:00",
+    "description": "",
+    "fileName": "c198315b-50b6-4423-b291-5dbda0ea69f5.jpg",
+    "updatedAt": "2021-05-24T17:18:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

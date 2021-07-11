@@ -21,8 +21,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,47 +35,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-10T17:18:05+00:00",
+   "updatedAt": "2021-05-25T15:41:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "3ac883b5-67e1-48a9-a280-6993a19180c6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Naono Bohra",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3ac883b5-67e1-48a9-a280-6993a19180c6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Naono Bohra",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9b0c209a-ead1-4b0e-a671-78ff051990b1",
-   "type": "chapter"
-  },
-  {
-   "id": "deafb96a-c540-40ff-9398-011180029b2a",
-   "type": "chapter"
-  },
-  {
-   "id": "35a776a8-3980-4c01-97f0-d8e7afac9dab",
-   "type": "chapter"
-  },
-  {
-   "id": "639d2346-6a9a-4c75-bbfe-748971aad787",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "9e56537a-4633-4f0a-8ecc-d7a7bc45262b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:55:29+00:00",
+    "description": "",
+    "fileName": "1e83807e-8a43-48b4-a779-05f0141c663e.jpg",
+    "updatedAt": "2021-05-24T17:55:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

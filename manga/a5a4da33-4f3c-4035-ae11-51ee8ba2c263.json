@@ -7,6 +7,14 @@
    "title": {
     "en": "Right Beside You"
    },
+   "altTitles": [
+    {
+     "en": "Kimi no Tonari"
+    },
+    {
+     "en": "きみのとなり"
+    }
+   ],
    "description": {
     "en": "Yotsuya Atsushi, a high school boy with a serious problem: he sees ghosts. This particular curse of his has kept him isolated and alone, stuck in his own tiny world. After transferring to a new school, Yotsuya meets someone nearly as strange as he is, and his world starts to open.\r\n\r\nNote: Cherry is a penname for MIZUKI Hakase."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Ghosts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,47 +72,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-01T04:13:27+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "ea24fe65-9739-404b-9dc4-a76d86258629",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MIZUKI Hakase",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ea24fe65-9739-404b-9dc4-a76d86258629",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MIZUKI Hakase",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d7bcca5a-88d2-40bb-bbac-da9f10aff475",
-   "type": "chapter"
-  },
-  {
-   "id": "c4aa72d7-86ae-4a14-898f-3375321eed89",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3bb26d85-09d5-4d2e-880c-c34b974339e9",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "daf679c2-8c92-4ff1-aae2-0a37a207712b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:20:58+00:00",
+    "description": "",
+    "fileName": "6abc9131-84ec-45f6-b255-6fc7cc7ca388.jpg",
+    "updatedAt": "2021-05-24T18:20:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

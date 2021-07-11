@@ -5,8 +5,19 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Rokka Melt: Fianc\u0026eacute; wa Yukiotoko"
+    "en": "Rokka Melt: Fiancé wa Yukiotoko"
    },
+   "altTitles": [
+    {
+     "en": "Rock Melt: Fiance wa Yukiotoko"
+    },
+    {
+     "en": "Rokka Melt - Fiance wa Yukiotoko"
+    },
+    {
+     "en": "ロッカメルト～フィアンセは雪男～"
+    }
+   ],
    "description": {
     "en": "Huh!!! wait!!! this is downtown Tokyo!! Don't just decide on your own to start a blizzard!! The one who stopped the raging snow is a snow-spirit, and he k-kissed me! What does that mean!?"
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,79 +78,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-09T01:40:43+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "183e3714-b222-470c-90d3-3e3475701e91",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Toma Rei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "183e3714-b222-470c-90d3-3e3475701e91",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Toma Rei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dc926155-925e-47d9-b6a4-afc66c324d5e",
-   "type": "chapter"
-  },
-  {
-   "id": "ae4624b8-d964-4ceb-9118-6b063a2f8bab",
-   "type": "chapter"
-  },
-  {
-   "id": "3afc2746-95cf-4613-a6a8-e55959f32da3",
-   "type": "chapter"
-  },
-  {
-   "id": "76ed18c4-7cf7-4f8b-b515-a4fd448c0e53",
-   "type": "chapter"
-  },
-  {
-   "id": "9f97bd89-559c-4fba-8c39-dda450b4cb96",
-   "type": "chapter"
-  },
-  {
-   "id": "55cec459-55a1-4f08-b71f-52e122998491",
-   "type": "chapter"
-  },
-  {
-   "id": "f5c0cfe5-d52e-4954-873b-e3309e9c96d2",
-   "type": "chapter"
-  },
-  {
-   "id": "326c4149-c3c7-4b29-9cae-9a77856a2ecb",
-   "type": "chapter"
-  },
-  {
-   "id": "1043d1c4-91d7-4a12-bc44-fa9c9f9bbd6f",
-   "type": "chapter"
-  },
-  {
-   "id": "60164b73-4f2d-4e6e-b25c-a079eea1c141",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "5326804b-76f1-4fe8-82e5-b15a727e4203",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:39:36+00:00",
+    "description": "",
+    "fileName": "b990cc30-c05a-4720-8ca2-6b014c8415b2.jpg",
+    "updatedAt": "2021-05-24T16:39:36+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

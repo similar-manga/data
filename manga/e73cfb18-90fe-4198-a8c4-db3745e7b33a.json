@@ -7,6 +7,11 @@
    "title": {
     "en": "Shishunki na Omaera no Muda na Doryoku"
    },
+   "altTitles": [
+    {
+     "en": "思春期なお前らの無駄な努力"
+    }
+   ],
    "description": {
     "en": "There's a new game in Bossa's class. The only objective is to make your opponent hard. Will Bossa be able to escape the game?"
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,8 +53,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,47 +67,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-12T14:10:15+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "3570bd56-1784-44b9-8765-3c70589acc1c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Syundei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3570bd56-1784-44b9-8765-3c70589acc1c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Syundei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1dea552e-dbc7-4bec-a600-abff03cdb464",
-   "type": "chapter"
-  },
-  {
-   "id": "545bbce3-8330-4296-9f21-e04771447907",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "6b694b12-a597-4f55-98c8-a2e422731271",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:32+00:00",
+    "description": "",
+    "fileName": "f008ca16-0f98-4773-99d7-2023ea19a4f7.png",
+    "updatedAt": "2021-05-24T17:22:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

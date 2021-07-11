@@ -7,6 +7,17 @@
    "title": {
     "en": "Pas Seul on Clavier"
    },
+   "altTitles": [
+    {
+     "en": "Geonban Wiui Pasoel"
+    },
+    {
+     "en": "Сольный танец на клавишах"
+    },
+    {
+     "en": "건반 위의 파쇨"
+    }
+   ],
    "description": {
     "en": "The composer, who lost his hand, decided to write the music for the young dancer of genius. A blossoming flower and an already faded flower. Music, which that was created in dreams, that was saturated with passion and poisoned by jealousy. Can she connect their hearts?"
    },
@@ -27,6 +38,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +50,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +74,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,43 +86,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-08-27T12:59:43+00:00",
+   "updatedAt": "2019-08-27T12:59:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "42d4dc17-3b7c-486b-adc2-3cb918b81d7c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jin Mi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "42d4dc17-3b7c-486b-adc2-3cb918b81d7c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jin Mi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "42140fbe-6e8d-4f72-b55a-43be8e12a23d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:24:18+00:00",
+    "description": "",
+    "fileName": "d675798a-af97-4291-b4ad-02aabdd075b3.jpg",
+    "updatedAt": "2021-05-24T17:24:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

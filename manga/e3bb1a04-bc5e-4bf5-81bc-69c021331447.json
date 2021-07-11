@@ -7,11 +7,15 @@
    "title": {
     "en": "Hominids"
    },
+   "altTitles": [
+    {
+     "en": "Гоминиды"
+    }
+   ],
    "description": {
     "en": "RUS: Гоминиды - история мирного племени неандертальцев, состоящее из охотников и собирателей. Они столкнулись с воинственным человеком, стремящимся найти существо, которое, по его мнению, является богом!"
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +50,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -52,47 +62,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-28T00:13:17+00:00",
+   "updatedAt": "2021-05-25T15:48:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "27df03fc-67d9-44bf-bef7-2b31bcdddd55",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jordan Kotzebue",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "909b2b7b-378e-49ca-af35-5a87a795ecf8",
-   "type": "chapter"
-  },
-  {
-   "id": "c20a350f-4335-4d61-901c-dc30e9965456",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "0a4dff14-ffd2-4f5f-a4df-2585692dac5f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:42:46+00:00",
+    "description": "",
+    "fileName": "7678457c-e9da-4d70-ad7b-9e212ffd0f83.jpg",
+    "updatedAt": "2021-05-24T17:42:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

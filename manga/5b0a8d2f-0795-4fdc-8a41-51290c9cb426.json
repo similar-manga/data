@@ -28,6 +28,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +40,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,6 +52,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -58,6 +64,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -68,75 +76,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-25T05:55:29+00:00",
+   "updatedAt": "2021-05-25T15:42:47+00:00"
   }
  },
  "relationships": [
   {
    "id": "682d7e34-db50-40f8-a088-4bb250858ac7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lee Eun-Jae(이은재)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "682d7e34-db50-40f8-a088-4bb250858ac7",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Lee Eun-Jae(이은재)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "97b15f61-0f1a-462f-bd7a-f572186f7774",
-   "type": "chapter"
-  },
-  {
-   "id": "a1d52a01-a680-4397-9eb5-b73ca7694cab",
-   "type": "chapter"
-  },
-  {
-   "id": "78615fc9-b037-47fe-9122-334a2540ad1b",
-   "type": "chapter"
-  },
-  {
-   "id": "ed214ba8-59cf-48bb-a5eb-d373ac75da7e",
-   "type": "chapter"
-  },
-  {
-   "id": "e1cafed5-8f47-4f1e-a08d-d42b514c21b8",
-   "type": "chapter"
-  },
-  {
-   "id": "017cf8c6-8a2e-4464-a33d-eef3658aa68f",
-   "type": "chapter"
-  },
-  {
-   "id": "65e95bd9-3a4b-41a3-afd4-28de50d0dba5",
-   "type": "chapter"
-  },
-  {
-   "id": "ad762a0b-ca53-4fdf-97d7-04251031b71a",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "49c44961-27a1-4f9a-b69e-075ac7a31637",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:07:49+00:00",
+    "description": "",
+    "fileName": "b416dc6b-a0c0-45da-97ce-3454abf25428.png",
+    "updatedAt": "2021-05-24T18:07:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

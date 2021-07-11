@@ -29,6 +29,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,45 +39,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-12-15T05:04:38+00:00",
+   "updatedAt": "2019-12-15T05:04:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "d7a3ca2c-98be-4a8c-a718-2619b4842942",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aiba Kyoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d7a3ca2c-98be-4a8c-a718-2619b4842942",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aiba Kyoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4a995cc2-9efe-4524-8934-b13b82f258df",
-   "type": "chapter"
-  },
-  {
-   "id": "71e24d38-adb1-4eb6-bb14-8a82bb4426ee",
-   "type": "chapter"
-  },
-  {
-   "id": "ac8d493a-18c2-492b-bd8f-8e211755c058",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
+   "id": "866671c5-cf13-4f9f-a688-3f472e08ed0a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:37:32+00:00",
+    "description": "",
+    "fileName": "9e288096-a4f6-462d-a216-0b105a3f97d6.jpg",
+    "updatedAt": "2021-05-24T17:37:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

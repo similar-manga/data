@@ -11,7 +11,6 @@
     "en": "SK8 is a story about 8 skaters who enter competitions to determine who is the best skater in Florida."
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +34,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +46,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -53,47 +58,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-22T00:12:38+00:00",
+   "updatedAt": "2021-05-25T15:42:39+00:00"
   }
  },
  "relationships": [
   {
    "id": "d9c72ad5-b6fa-4084-8faa-4dd6f0f7581c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Emerald",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d9c72ad5-b6fa-4084-8faa-4dd6f0f7581c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Emerald",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "060e5737-43e7-438e-b194-c74207b48c47",
-   "type": "chapter"
-  },
-  {
-   "id": "3ea8175c-f30e-4ed9-aa3a-091b9bc79b87",
-   "type": "chapter"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "2f7a2db8-f8c5-4f36-90cb-fce733e56caa",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:49:26+00:00",
+    "description": "",
+    "fileName": "7df9e54a-8565-4a7e-91b4-b95be42e7094.png",
+    "updatedAt": "2021-05-24T17:49:26+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

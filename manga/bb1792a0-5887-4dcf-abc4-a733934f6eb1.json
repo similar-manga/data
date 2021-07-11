@@ -7,6 +7,11 @@
    "title": {
     "en": "Fire Emblem - Thracia 776"
    },
+   "altTitles": [
+    {
+     "en": "ファイアーエムブレムトラキア776"
+    }
+   ],
    "description": {
     "en": "Based on the Super Famicom game, Fire Emblem 5 features the son of Prince Quan (from FE4), Leif, fighting to regain the land of Leonster from the forces of Grannvale. At his side are the Fiana Militia lead by Evyel and his knight and father figure, Finn. A twist of events at the finally start the steps in which Leif will finally begin his journey to regain Leonster..."
    },
@@ -17,7 +22,6 @@
     "mu": "11313"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -29,6 +33,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +45,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,39 +57,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-02T22:41:35+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "4691fb63-5782-458d-bc72-52d8cedc7ad8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKANAGI Yuuna",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4691fb63-5782-458d-bc72-52d8cedc7ad8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKANAGI Yuuna",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "877d19c4-ba42-45ec-b310-20f2f46e1c33",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "8c4d0ac2-3b84-4f5c-af5e-ffa171a6c6cd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:10:27+00:00",
+    "description": "",
+    "fileName": "da8f50f0-ab56-4147-9cd3-79943ac89f81.jpg",
+    "updatedAt": "2021-05-24T17:10:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

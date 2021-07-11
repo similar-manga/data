@@ -7,6 +7,11 @@
    "title": {
     "en": "Age Called Blue"
    },
+   "altTitles": [
+    {
+     "en": "エイジ・コールド・ブルー"
+    }
+   ],
    "description": {
     "en": "Billy is the guitarist for a relatively unknown band called The Idiots. On a fateful Wednesday, two perceived unrelated events occurred: (1) his idol passed away, and (2) his roommate stole both his money and guitar. Surrounding these two events is a series of chance meetings, painful realizations, excessive alcoholism, listlessness, flashbacks, and love. This is a terribly poignant story defining the unyielding love found between a vocalist and his guitarist."
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +47,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,8 +57,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,79 +71,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-09T08:39:03+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "d2df4b59-1965-484f-b9fa-cd9db59a293b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Est Em",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d2df4b59-1965-484f-b9fa-cd9db59a293b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Est Em",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a1dd27d4-d924-4bcf-8b87-14711bb14665",
-   "type": "chapter"
-  },
-  {
-   "id": "4dd24b65-bc77-40cb-9f40-0e25c6b04528",
-   "type": "chapter"
-  },
-  {
-   "id": "fcf04d93-4eab-4301-8be8-63c49744a18c",
-   "type": "chapter"
-  },
-  {
-   "id": "f603195d-4f3a-483d-beb0-e78da0e59982",
-   "type": "chapter"
-  },
-  {
-   "id": "4836c390-ea13-40ec-98fb-43ade14db753",
-   "type": "chapter"
-  },
-  {
-   "id": "976c6a0d-1937-4c00-8748-228035a3b91d",
-   "type": "chapter"
-  },
-  {
-   "id": "71dc4d10-09b4-4b80-b343-c7e0d03330ff",
-   "type": "chapter"
-  },
-  {
-   "id": "3b4d2fe3-54fb-4acd-a212-923509367395",
-   "type": "chapter"
-  },
-  {
-   "id": "30f7c1e5-c0bd-43b3-a292-c69498fe2917",
-   "type": "chapter"
-  },
-  {
-   "id": "f9f3599f-2ffb-4eff-bedf-774e6e4dc77c",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "a9a88ace-8059-4fa5-8514-8b2bec4015f7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:54:03+00:00",
+    "description": "",
+    "fileName": "17f82111-b371-4c78-98f3-e7755fd2bb86.jpg",
+    "updatedAt": "2021-05-24T16:54:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

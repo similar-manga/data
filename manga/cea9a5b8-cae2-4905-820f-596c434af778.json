@@ -29,8 +29,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,43 +43,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-09-22T13:42:32+00:00",
+   "updatedAt": "2018-09-22T13:42:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "89abc15d-e193-42a6-92fb-9c795c4112f5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohkita Mahiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "89abc15d-e193-42a6-92fb-9c795c4112f5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ohkita Mahiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "010011bc-f222-4a5b-8c67-dd97c226e472",
-   "type": "chapter"
-  },
-  {
-   "id": "a7a97f86-7a96-4743-a288-0bdb130292f1",
-   "type": "chapter"
-  },
-  {
-   "id": "3ba4e2d9-2862-4c74-ab5d-1f8822555855",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "5772d059-4fd7-4f8d-ac3d-91fa5e1573cf",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:45:45+00:00",
+    "description": "",
+    "fileName": "c0755968-2c77-46c1-abd5-82f777da5854.jpg",
+    "updatedAt": "2021-05-24T16:45:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

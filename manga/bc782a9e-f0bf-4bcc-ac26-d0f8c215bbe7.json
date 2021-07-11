@@ -7,6 +7,11 @@
    "title": {
     "en": "Tetteleposan"
    },
+   "altTitles": [
+    {
+     "en": "Tettereposannu"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +57,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +69,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,83 +81,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-07-15T04:44:27+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "f85a5b93-3c87-4c61-9032-07ceacbb9e64",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujimoto Tatsuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f85a5b93-3c87-4c61-9032-07ceacbb9e64",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fujimoto Tatsuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d563c221-5b10-4f62-8bb6-937b48ceef2c",
-   "type": "chapter"
-  },
-  {
-   "id": "0a55b7c5-929e-49d2-ada2-0ae1806c0ca4",
-   "type": "chapter"
-  },
-  {
-   "id": "7aedd07f-fb9f-4c36-9b88-cd5708de6b97",
-   "type": "chapter"
-  },
-  {
-   "id": "731d247e-99fc-447b-8690-092c11a2bc54",
-   "type": "chapter"
-  },
-  {
-   "id": "ecd68953-bbae-4bc1-ba33-c2a9fb5cd7c1",
-   "type": "chapter"
-  },
-  {
-   "id": "a9faf6fc-c369-47e8-a416-c647836766c7",
-   "type": "chapter"
-  },
-  {
-   "id": "8d1084f0-948c-4ea8-b39b-163ef6953b8a",
-   "type": "chapter"
-  },
-  {
-   "id": "14ae86f9-ab4f-47c0-a35e-93e676f9452a",
-   "type": "chapter"
-  },
-  {
-   "id": "0d3960d1-5391-496d-8037-0e0cf0e205db",
-   "type": "chapter"
-  },
-  {
-   "id": "7a19fc2e-ed50-43f9-a0a6-890815f328bf",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "e2053b5c-a44c-4faa-a7a0-b9ec42e2aea1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:03:04+00:00",
+    "description": "",
+    "fileName": "4a13aefe-3cac-44fd-8edd-4e4291445e64.jpg",
+    "updatedAt": "2021-05-24T18:03:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

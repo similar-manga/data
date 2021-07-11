@@ -7,6 +7,11 @@
    "title": {
     "en": "Arknights Comic Anthology"
    },
+   "altTitles": [
+    {
+     "en": "アークナイツ コミックアンソロジー"
+    }
+   ],
    "description": {
     "en": "Short comics from the official Arknights manga anthologies, based off the game of the same name."
    },
@@ -16,7 +21,6 @@
     "mu": "169310"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -27,6 +31,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +43,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +55,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -57,79 +67,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-15T05:18:05+00:00",
+   "updatedAt": "2021-05-25T15:44:10+00:00"
   }
  },
  "relationships": [
   {
    "id": "6b3e25cf-8d0d-4abb-b75e-7960fcad2ff6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Anthology",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6b3e25cf-8d0d-4abb-b75e-7960fcad2ff6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Anthology",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "48b41c3a-9ad2-4e98-8a0c-a8c2b5937ddb",
-   "type": "chapter"
-  },
-  {
-   "id": "6d985414-f0d2-41c2-b259-18f5a43a3fb5",
-   "type": "chapter"
-  },
-  {
-   "id": "b6654e50-144f-4a82-bf22-d9095079949b",
-   "type": "chapter"
-  },
-  {
-   "id": "8e930ea5-ec6d-443b-8279-f0056ef9f16b",
-   "type": "chapter"
-  },
-  {
-   "id": "d7bea996-0b9f-49be-9140-55e32a32faf2",
-   "type": "chapter"
-  },
-  {
-   "id": "422e87f4-83d4-4e86-a203-14fe78dca9e9",
-   "type": "chapter"
-  },
-  {
-   "id": "41e4e0d4-df6f-4a07-9ded-fee0480050d7",
-   "type": "chapter"
-  },
-  {
-   "id": "c3d12237-b270-48a7-b1d7-806f3b65a211",
-   "type": "chapter"
-  },
-  {
-   "id": "d822f65e-8cf6-403d-abef-261df37b53fe",
-   "type": "chapter"
-  },
-  {
-   "id": "a7710105-7b01-45c9-b000-37a1c4392789",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "7988fb92-b7ed-4f9f-8923-73bbbb335883",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:06:41+00:00",
+    "description": "",
+    "fileName": "194cea3d-2414-4daa-ab0f-1f45d6b237ff.jpg",
+    "updatedAt": "2021-05-24T18:06:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

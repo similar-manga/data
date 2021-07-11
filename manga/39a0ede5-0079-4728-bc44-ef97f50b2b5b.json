@@ -7,6 +7,14 @@
    "title": {
     "en": "Genshitan Janome"
    },
+   "altTitles": [
+    {
+     "en": "Fantastical Tales of the Snake Eye Child"
+    },
+    {
+     "en": "幻仔譚じゃのめ"
+    }
+   ],
    "description": {
     "en": "Due to the remarriage of her father, Asahi moves to an old and historical town Kamio. With a new family, her new life begins. However not all is what it seems and grotesque creatures and ghosts soon emerge."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Monsters"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Demons"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +74,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,6 +86,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -80,6 +98,8 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -90,91 +110,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-03T23:14:24+00:00",
+   "updatedAt": "2021-05-25T15:41:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "8b59cc48-47d5-430f-98e2-1fa0499dab4b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Umeda Abi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8b59cc48-47d5-430f-98e2-1fa0499dab4b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Umeda Abi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3f7ab007-5cbc-4a41-ab74-8155504b4ac9",
-   "type": "chapter"
-  },
-  {
-   "id": "2f66ae57-6d63-4953-b7c5-f0544b31a9f5",
-   "type": "chapter"
-  },
-  {
-   "id": "29c712f2-5e5e-49de-a2ac-899fc57020fe",
-   "type": "chapter"
-  },
-  {
-   "id": "fb2214d2-e531-4b36-9c83-0b874197d4a3",
-   "type": "chapter"
-  },
-  {
-   "id": "eb3fc9e0-d354-40d5-a196-3e22f910e690",
-   "type": "chapter"
-  },
-  {
-   "id": "0b14e09a-466b-4b4f-85c6-c81db3bf0cde",
-   "type": "chapter"
-  },
-  {
-   "id": "9ce38af9-eb4a-49b9-9a07-6ca1af509538",
-   "type": "chapter"
-  },
-  {
-   "id": "873eeb02-308e-4bce-bd41-dd477d4bb4ba",
-   "type": "chapter"
-  },
-  {
-   "id": "5da1ba72-8107-490c-a432-fa1b9ee02341",
-   "type": "chapter"
-  },
-  {
-   "id": "cbed1f1e-d01f-488a-87e5-f092fc1f9091",
-   "type": "chapter"
-  },
-  {
-   "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
-   "type": "tag"
-  },
-  {
-   "id": "39730448-9a5f-48a2-85b0-a70db87b1233",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "7e598431-8578-4fcc-a4c5-bc191faf46ad",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:21:18+00:00",
+    "description": "",
+    "fileName": "cb4c660c-1066-458c-be60-54fe18125c8e.jpg",
+    "updatedAt": "2021-05-24T18:21:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

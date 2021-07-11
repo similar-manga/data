@@ -7,6 +7,14 @@
    "title": {
     "en": "A-chan no Pudding"
    },
+   "altTitles": [
+    {
+     "en": "A-chan's Pudding"
+    },
+    {
+     "en": "あーちゃんのプリン"
+    }
+   ],
    "description": {
     "en": "A-chan, the patissier, makes sweets on his days off and gets his lover to taste them. But there's one dessert he only makes on occasion. What's the meaning behind that special sweet that always comes in a dozen?"
    },
@@ -18,7 +26,6 @@
     "mu": "118454"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,8 +46,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,39 +60,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-05T11:33:16+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "429098c4-fa3b-4d8e-824d-8f1633d0d0ad",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takao Hiroi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "429098c4-fa3b-4d8e-824d-8f1633d0d0ad",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takao Hiroi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ee2f9c33-6dc5-49f5-bd49-889c87e375b7",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "12858f5f-2c03-4f41-bf28-36ae11c718af",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:41+00:00",
+    "description": "",
+    "fileName": "924e53a5-5e10-44a5-b1a0-540611f7778e.jpg",
+    "updatedAt": "2021-05-24T17:32:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

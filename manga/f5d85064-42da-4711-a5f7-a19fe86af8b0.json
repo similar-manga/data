@@ -7,6 +7,14 @@
    "title": {
     "en": "Manabiya"
    },
+   "altTitles": [
+    {
+     "en": "まなびや"
+    },
+    {
+     "en": "我们的学园"
+    }
+   ],
    "description": {
     "en": "Takeru, who just graduated from middle school, learns that his father has suddenly remarried. While being happy for him, Takeru leads, what he believes to be a boring life. His only hobby is taking pictures of things he finds 'nice' with his cell phone. Upon entering high school, he is taking pictures of some cherry blossoms, when he sees a strange foreign girl and accidentally snaps a picture of her. And thus begins Takeru's interesting new high-school life."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,55 +62,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-02T22:08:07+00:00",
+   "updatedAt": "2021-05-25T15:49:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "2222250d-a498-4753-b996-24d77a465d76",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kojima Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2222250d-a498-4753-b996-24d77a465d76",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kojima Akira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0745d97b-907b-4694-aae2-6306dd3d89ce",
-   "type": "chapter"
-  },
-  {
-   "id": "9ecd8b8f-3ed2-4bcf-8011-c80d5b2a858e",
-   "type": "chapter"
-  },
-  {
-   "id": "e92ea49a-d093-401f-89cc-2b21c1f32b60",
-   "type": "chapter"
-  },
-  {
-   "id": "25c3d2dd-31b8-43d9-be88-6bd0e56ee1d0",
-   "type": "chapter"
-  },
-  {
-   "id": "89b8c197-6fc3-47f0-ad09-84d9a48aea1f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "a1e4f318-def6-4faa-9e91-f816f203d6f0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:36:20+00:00",
+    "description": "",
+    "fileName": "36c41143-2c1f-4ae1-afa3-15f98d8dd8f0.jpg",
+    "updatedAt": "2021-05-24T18:36:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

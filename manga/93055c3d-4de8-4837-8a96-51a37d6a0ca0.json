@@ -7,6 +7,17 @@
    "title": {
     "en": "Densetsu no Buki wa Omokute Motenai."
    },
+   "altTitles": [
+    {
+     "en": "L'arme légendaire est trop lourde pour être utilisée"
+    },
+    {
+     "en": "The Legendary Weapon Is Too Heavy To Equip"
+    },
+    {
+     "en": "伝説の武器は重くて持てない"
+    }
+   ],
    "description": {
     "en": "Manga about a mage apprentice who must learn to be a hero."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +65,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,51 +77,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-22T22:17:48+00:00",
+   "updatedAt": "2021-05-25T15:45:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "5dc71214-34bc-4037-9df1-4a8656974170",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akahori Satoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c52dc8cf-eae7-49a1-b658-6d4b8d5ab4c5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shizuki Hitomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "74a18e0c-0e75-4ab0-bd6f-410afcdec213",
-   "type": "chapter"
-  },
-  {
-   "id": "0bb06192-bd6a-4884-8b06-e5ba587894f3",
-   "type": "chapter"
-  },
-  {
-   "id": "cfd9326d-c51f-4719-bdc6-041c6b90001b",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "5de48783-6b8e-4fc2-bfed-7bde717c68d0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:02:17+00:00",
+    "description": "",
+    "fileName": "f6b56daf-4edc-4112-8168-deaf3a20a791.jpg",
+    "updatedAt": "2021-05-24T17:02:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

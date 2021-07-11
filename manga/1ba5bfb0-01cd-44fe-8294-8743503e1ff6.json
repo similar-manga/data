@@ -7,6 +7,14 @@
    "title": {
     "en": "Boku no Suki na Nii-chan"
    },
+   "altTitles": [
+    {
+     "en": "The Big Brother That I Like The Most"
+    },
+    {
+     "en": "僕の好きな兄ちゃん"
+    }
+   ],
    "description": {
     "en": "The big brother that I like the most."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,43 +62,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-14T11:38:01+00:00",
+   "updatedAt": "2021-05-25T15:40:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "dc5c64ac-abc2-45e6-8d1a-83347fa2a7bc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakamura Asumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "dc5c64ac-abc2-45e6-8d1a-83347fa2a7bc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nakamura Asumiko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7b552120-6d71-4a50-a901-10f86afb0324",
-   "type": "chapter"
-  },
-  {
-   "id": "7e15d8a5-7265-4a9f-8248-a3677b08e363",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "cb7dc7cf-f6f8-4fd8-b8e3-df49307acb25",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:49+00:00",
+    "description": "",
+    "fileName": "05e63406-f127-4bf6-91ca-67b7b6a1afdb.png",
+    "updatedAt": "2021-05-24T16:57:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

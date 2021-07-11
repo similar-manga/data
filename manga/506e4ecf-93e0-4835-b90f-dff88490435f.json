@@ -7,6 +7,20 @@
    "title": {
     "en": "Diet"
    },
+   "altTitles": [
+    {
+     "en": "Dieter"
+    },
+    {
+     "en": "Диета"
+    },
+    {
+     "en": "ダイエッター"
+    },
+    {
+     "en": "다이어터"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +28,6 @@
     "ap": "dieter"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -26,6 +39,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +51,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -46,6 +63,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,6 +75,8 @@
       "name": {
        "en": "Office Workers"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -66,6 +87,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -76,47 +99,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-11-09T09:17:26+00:00",
+   "updatedAt": "2020-11-09T09:17:26+00:00"
   }
  },
  "relationships": [
   {
    "id": "ad5cc849-5132-4f43-b440-cfe689910e00",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NeonB",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f5066c5c-b988-463c-9feb-3d3b4b826269",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Caramel",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "4fcfea24-8d2f-4f52-9d68-ddf63eedd4d5",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:18:06+00:00",
+    "description": "",
+    "fileName": "3a8b23c4-6ce6-4bb3-88d3-cc53f045ed19.jpg",
+    "updatedAt": "2021-05-24T18:18:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

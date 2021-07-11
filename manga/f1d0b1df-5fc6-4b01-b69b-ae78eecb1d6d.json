@@ -5,8 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Jukusei Ikariishi-kun\u0026nbsp;\u0026nbsp;"
+    "en": "Jukusei Ikariishi-kun  "
    },
+   "altTitles": [
+    {
+     "en": "Jukusei Is Ikariishi kun"
+    },
+    {
+     "en": "Jukusei Is Ikariishi-kun"
+    },
+    {
+     "en": "Private School Student Ikariishi"
+    },
+    {
+     "en": "塾生☆碇石くん"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -28,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,35 +66,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-04-29T18:30:55+00:00",
+   "updatedAt": "2020-04-29T18:30:55+00:00"
   }
  },
  "relationships": [
   {
    "id": "64b8c7f6-16fc-4cc1-a5f6-5d95dbc1316c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Araki Hikaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "64b8c7f6-16fc-4cc1-a5f6-5d95dbc1316c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Araki Hikaru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "a2cdd1aa-9381-4fd6-ad2b-7109092fa781",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:54:12+00:00",
+    "description": "",
+    "fileName": "9285bd56-8214-4372-898f-a05474b0f0b3.jpg",
+    "updatedAt": "2021-05-24T17:54:12+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

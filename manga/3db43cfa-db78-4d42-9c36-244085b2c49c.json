@@ -7,11 +7,15 @@
    "title": {
     "en": "Turning Point!"
    },
+   "altTitles": [
+    {
+     "en": "ターニングポイント！"
+    }
+   ],
    "description": {
     "en": "Featured in COMIC Masyo 2019-07."
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,39 +50,53 @@
       "name": {
        "en": "Gyaru"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-03-05T00:54:08+00:00",
+   "updatedAt": "2021-05-25T15:41:30+00:00"
   }
  },
  "relationships": [
   {
    "id": "db4ed32a-924d-44e7-8c35-aa4606e0cd64",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tamabi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "db4ed32a-924d-44e7-8c35-aa4606e0cd64",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tamabi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7196a3bc-8b4b-469c-a14a-63d24ffd633e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "fad12b5e-68ba-460e-b933-9ae8318f5b65",
-   "type": "tag"
+   "id": "7909fb54-936f-4ff3-a3e5-22ba6d8b0848",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:50+00:00",
+    "description": "",
+    "fileName": "af1d01fd-f69c-4011-91f0-d46d8faaeb24.png",
+    "updatedAt": "2021-05-24T18:33:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

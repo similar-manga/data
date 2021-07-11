@@ -7,6 +7,23 @@
    "title": {
     "en": "Creepy Cat"
    },
+   "altTitles": [
+    {
+     "en": "Creepy Cat ~ My Strange Daily Life with a Cat ~"
+    },
+    {
+     "en": "Creepy Cat ~Neko to Watashi no Kimyou na Seikatsu~"
+    },
+    {
+     "en": "CreepyCat 猫と私の奇妙な生活"
+    },
+    {
+     "en": "Kucing Seram - Kehidupan seharian yang pelik bersama kucing."
+    },
+    {
+     "en": "Жуткий кот - Кот и моя странная жизнь"
+    }
+   ],
    "description": {
     "en": "Flora just moved to an old house, but there's already a creepy cat living there. That's when their mysterious cohabitation began."
    },
@@ -31,6 +48,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +60,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -51,6 +72,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +84,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,6 +96,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -81,87 +108,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-20T08:03:37+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "593600c4-df83-49e8-a618-8f412b3e9a2e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Cotton Valent",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "593600c4-df83-49e8-a618-8f412b3e9a2e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Cotton Valent",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0e2e6384-2726-4c96-81c7-93f4a267eba1",
-   "type": "chapter"
-  },
-  {
-   "id": "b107056e-1019-464d-9ec0-5edbabd247d0",
-   "type": "chapter"
-  },
-  {
-   "id": "8b6ca99e-cd65-4202-be9f-0cbd810dd7cb",
-   "type": "chapter"
-  },
-  {
-   "id": "42997601-a748-4167-b21d-1aa134e31cea",
-   "type": "chapter"
-  },
-  {
-   "id": "d687194c-98e3-4329-936a-f3a94ed951be",
-   "type": "chapter"
-  },
-  {
-   "id": "b23d50bc-3ccb-4617-beec-89d42aea87fb",
-   "type": "chapter"
-  },
-  {
-   "id": "94edc8fa-1741-456d-b34d-8f618ff1c3b6",
-   "type": "chapter"
-  },
-  {
-   "id": "c0c1fdb1-1f3c-4fbc-a353-06f798c5b04c",
-   "type": "chapter"
-  },
-  {
-   "id": "77fecfe2-a726-4a91-bdcb-59be74b9d7e6",
-   "type": "chapter"
-  },
-  {
-   "id": "55fa32c8-c58c-473c-8ab9-eef8a85ca0db",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "5a174e9c-553d-4fb8-93a2-4a56dbad4a1f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:51+00:00",
+    "description": "",
+    "fileName": "03987fda-7394-4239-bc8d-189266e4b513.jpg",
+    "updatedAt": "2021-05-24T17:41:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

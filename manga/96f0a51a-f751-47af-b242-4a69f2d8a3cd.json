@@ -7,6 +7,14 @@
    "title": {
     "en": "Ookami Nante Kowakunai!!"
    },
+   "altTitles": [
+    {
+     "en": "I’m Not Afraid of the Wolf!!"
+    },
+    {
+     "en": "狼なんて怖くない！！"
+    }
+   ],
    "description": {
     "en": "A collection of six stories.\r\n\r\nI. I'm Not Afraid of the Wolf!.\r\nII. Occult Detective Group - Part 1.\r\nIII. Occult Detective Group - Part 2.\r\nIV. Horror Angel.\r\nV. Tonda Birthday Present.\r\nVI. Buttobi Straight."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -61,6 +75,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -71,67 +87,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-30T17:39:15+00:00",
+   "updatedAt": "2021-05-25T15:45:29+00:00"
   }
  },
  "relationships": [
   {
    "id": "00345ac8-e515-458d-a11d-56cfd1cb253b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Togashi Yoshihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "00345ac8-e515-458d-a11d-56cfd1cb253b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Togashi Yoshihiro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "42891128-4156-4955-8055-9a1bd6a19768",
-   "type": "chapter"
-  },
-  {
-   "id": "6ce86bee-7383-407d-9dbf-175f0a98565a",
-   "type": "chapter"
-  },
-  {
-   "id": "06516902-88b4-49f4-833d-477353d5ccfc",
-   "type": "chapter"
-  },
-  {
-   "id": "3e7bc3a7-4b61-4a5e-a813-a30f607b27dd",
-   "type": "chapter"
-  },
-  {
-   "id": "b4771cdc-475b-4691-8dbd-c35f5399c591",
-   "type": "chapter"
-  },
-  {
-   "id": "0c7ebf33-080e-48d3-ba42-21335d06985e",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "cd6fba68-8fcc-4fd4-b9f6-47952982becb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:39:24+00:00",
+    "description": "",
+    "fileName": "fb97a7d4-2e62-4975-a973-1a3da3c2e7bf.jpg",
+    "updatedAt": "2021-05-24T18:39:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

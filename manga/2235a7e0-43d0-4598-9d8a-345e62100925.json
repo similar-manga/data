@@ -7,6 +7,11 @@
    "title": {
     "en": "Red Chrysanthamum"
    },
+   "altTitles": [
+    {
+     "en": "La Chrysanthème Rouge"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -15,7 +20,6 @@
     "mu": "139526"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +30,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +42,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,43 +54,53 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-02T15:14:43+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "1edfa139-0c09-4347-8df6-21b99572d89b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jun Hyun Um",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1edfa139-0c09-4347-8df6-21b99572d89b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jun Hyun Um",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "42709273-b0b9-4df2-9b8f-e49e6ffe2938",
-   "type": "chapter"
-  },
-  {
-   "id": "f9ba97de-cf25-48ac-879a-4c651cb3e32e",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
+   "id": "1115a2b7-fec0-4fda-8a27-07a464ddb470",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:59:59+00:00",
+    "description": "",
+    "fileName": "301b193e-93d2-422b-adbd-880b58efbf9e.jpg",
+    "updatedAt": "2021-05-24T16:59:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

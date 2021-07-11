@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Ebisu Yoshikazu Collection SF \u0026amp; Mystery Hen - Utsukushiki Shitai"
+    "en": "Ebisu Yoshikazu Collection SF \u0026 Mystery Hen - Utsukushiki Shitai"
    },
+   "altTitles": [
+    {
+     "en": "蛭子能収コレクション SF＆ミステリー編 美しき死体"
+    }
+   ],
    "description": {
     "en": "Collection of stories, full of absurd scenarios and dry humor."
    },
@@ -14,7 +19,6 @@
     "mu": "123983"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -26,6 +30,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +54,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,47 +66,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-29T14:21:34+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "f4f43629-b6f5-4fcb-9535-95230fd55434",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ebisu Yoshikazu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f4f43629-b6f5-4fcb-9535-95230fd55434",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ebisu Yoshikazu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bad06f18-1343-4346-ba33-9b3332021163",
-   "type": "chapter"
-  },
-  {
-   "id": "50e7f858-6c88-430d-90ae-c6f86a4a3d19",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "f9d96f0c-b0df-4f04-a465-3087476c0dbd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:53:07+00:00",
+    "description": "",
+    "fileName": "f4e8b6c2-d539-4b7a-bc6b-dd0fae6f1113.jpg",
+    "updatedAt": "2021-05-24T16:53:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

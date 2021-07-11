@@ -7,6 +7,14 @@
    "title": {
     "en": "Hapi Nabi!"
    },
+   "altTitles": [
+    {
+     "en": "Happy Navigation!"
+    },
+    {
+     "en": "はぴナビ!"
+    }
+   ],
    "description": {
     "en": "Chiharu is a young woman just starting her job-search lifestyle, in the field of mass communications. Things are starting off well, and she gets an internship with a TV station to gain some job experience. Some of her friends from the university choir club are also following the same path, and she is also meeting new friends, such as a young man named Taiga. This stage of her life is going to be challenging, but hopefully Chiharu will make it through!"
    },
@@ -19,7 +27,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "2",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -31,6 +38,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,35 +50,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-06T05:06:46+00:00",
+   "updatedAt": "2021-05-25T15:46:50+00:00"
   }
  },
  "relationships": [
   {
    "id": "42b82a96-c534-4efa-bfc1-d70339737e1e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ishida Ira",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c048e248-f220-49be-b6a6-98a95873862c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mizuki Mio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7afe5b69-78f2-4321-a139-4ad2ab365f15",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "b1ea986d-e77d-4f34-b347-618add71b7df",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:44:04+00:00",
+    "description": "",
+    "fileName": "a6d66023-648e-453e-8fa5-e7ed1b8de292.jpg",
+    "updatedAt": "2021-05-24T16:44:04+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

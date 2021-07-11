@@ -7,6 +7,23 @@
    "title": {
     "en": "Madame Petit"
    },
+   "altTitles": [
+    {
+     "en": "Madam Petit"
+    },
+    {
+     "en": "Madame petite"
+    },
+    {
+     "en": "マダム・プティ"
+    },
+    {
+     "en": "青春小妇人"
+    },
+    {
+     "en": "마담 프티"
+    }
+   ],
    "description": {
     "en": "It's the 1920s and Mariko, age 16, is married to a man 30 years her senior. She is honestly happy to be his wife and really excited to board the Orient express in Turkey on their honeymoon trip. But her life takes a rapid turn when her husband is discovered dead after the first night on board... And that's only the start of Mariko's great adventure."
    },
@@ -33,6 +50,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +62,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +74,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,6 +86,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -73,83 +98,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-25T03:54:35+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "0b0395c2-8ba4-4428-acec-0f7b90ba8681",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKAO Shigeru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0b0395c2-8ba4-4428-acec-0f7b90ba8681",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAKAO Shigeru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4c93e2fd-0651-47a2-b050-c6007f646585",
-   "type": "chapter"
-  },
-  {
-   "id": "90b03664-b584-42fc-93d6-66cd8bd138bb",
-   "type": "chapter"
-  },
-  {
-   "id": "c14cde99-7787-49d3-b95c-1d243c9b4788",
-   "type": "chapter"
-  },
-  {
-   "id": "f5607eff-92e2-465d-be03-05de138dc92b",
-   "type": "chapter"
-  },
-  {
-   "id": "09491709-c1a7-43f2-9ada-b03c5f1ee5e5",
-   "type": "chapter"
-  },
-  {
-   "id": "ebcf77b4-df17-43c9-922b-f747330ec952",
-   "type": "chapter"
-  },
-  {
-   "id": "3eb7730f-37bd-46f2-89ab-009cd66c07c3",
-   "type": "chapter"
-  },
-  {
-   "id": "1a4b698d-a770-4dfe-9e83-710f75b57f62",
-   "type": "chapter"
-  },
-  {
-   "id": "747dd80a-e753-4c57-bf71-8733be8b7946",
-   "type": "chapter"
-  },
-  {
-   "id": "a0db8bb3-a721-422b-85cd-3fe4b0cdca57",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "8f952ff7-be27-4ff1-84ca-08c174c0b083",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:42:06+00:00",
+    "description": "",
+    "fileName": "074a6db9-bf60-48f2-a11e-e7978f3a3342.jpg",
+    "updatedAt": "2021-05-24T18:42:06+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

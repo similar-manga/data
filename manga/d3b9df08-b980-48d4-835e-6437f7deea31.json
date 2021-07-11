@@ -7,6 +7,11 @@
    "title": {
     "en": "Dead Flag"
    },
+   "altTitles": [
+    {
+     "en": "デッド・フラッグ"
+    }
+   ],
    "description": {
     "en": "What happens when you combine pirates with some sort of Battle Royale? You get Dead Flag. An entire class has been selected to participate in it. They have ten days to rack up the most points by plundering, looting, and murdering. The top thirteen individuals win Dead Flag."
    },
@@ -14,7 +19,6 @@
     "mu": "165866"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -26,6 +30,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +42,8 @@
       "name": {
        "en": "Survival"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -46,6 +54,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -56,43 +66,53 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-06-26T04:17:43+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "cf1dd178-f858-4f11-81db-1cf8e0f38af4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "holico",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1758010d-f174-4f61-9da4-27306a0f0bf0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NISHIKAWA Jun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4446a70e-02b9-4046-862f-dd427725f2e1",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
+   "id": "c26f3acc-bbcd-4fc7-9957-6a00138bc118",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:00:43+00:00",
+    "description": "",
+    "fileName": "eb098467-8717-4b04-a5ed-419ab0f7334b.jpg",
+    "updatedAt": "2021-05-24T18:00:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "Oni"
    },
+   "altTitles": [
+    {
+     "en": "鬼"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -22,6 +27,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,6 +39,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -42,39 +51,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-03-21T06:47:49+00:00",
+   "updatedAt": "2020-03-21T06:47:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "43096ff2-16fe-4b13-abc1-f8ce3be0656b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jyoudo Ruru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "43096ff2-16fe-4b13-abc1-f8ce3be0656b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Jyoudo Ruru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dbe1a4a9-1bec-4528-8ba6-e235b9f1c871",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0dcbc7aa-9fc1-4f4d-a8f0-a62178493178",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:49:21+00:00",
+    "description": "",
+    "fileName": "bb1bbe11-4bcf-49e0-afdb-e6dd012f6156.jpg",
+    "updatedAt": "2021-05-24T17:49:21+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

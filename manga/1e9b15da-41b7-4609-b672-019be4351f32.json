@@ -7,6 +7,17 @@
    "title": {
     "en": "Hana Monogatari"
    },
+   "altTitles": [
+    {
+     "en": "Flower Tales"
+    },
+    {
+     "en": "Hanamonogatari"
+    },
+    {
+     "en": "花物語"
+    }
+   ],
    "description": {
     "en": "A manga adaptation of a selection of Nobuko Yoshiya's classic short stories about relationships between high school girls."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +51,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,35 +65,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2021-03-05T13:34:00+00:00",
+   "updatedAt": "2021-03-05T13:34:00+00:00"
   }
  },
  "relationships": [
   {
    "id": "dd3c485f-c693-49da-8626-f4ec064cdd62",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshiya Nobuko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "70af5d06-1360-4aaa-8db3-025c89a8054f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ozawa Mari",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "13394f52-4cca-4ff5-ad0e-4d821ebb7006",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:33:51+00:00",
+    "description": "",
+    "fileName": "0fb540c3-0bc0-4a75-83c2-208392283ed7.jpg",
+    "updatedAt": "2021-05-24T18:33:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

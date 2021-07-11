@@ -7,6 +7,14 @@
    "title": {
     "en": "Hi-Fi Rendezvous"
    },
+   "altTitles": [
+    {
+     "en": "High Fidelity Rendezvous"
+    },
+    {
+     "en": "ハイ・ファイ・ランデブー"
+    }
+   ],
    "description": {
     "en": "Childhood friends Tsutsuji and Kouji live in a tiny village. Due to the lack of students, their school is scheduled to be closed at the end of the year; they'll be its final batch. The two of them have always been together, but at this rate they may be separated after graduation..."
    },
@@ -18,7 +26,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "1",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -27,8 +34,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +48,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -49,39 +60,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-01T18:45:31+00:00",
+   "updatedAt": "2021-05-25T15:38:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "2ea36133-ffde-4502-89f9-b25c4a5d3d54",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ymz",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2ea36133-ffde-4502-89f9-b25c4a5d3d54",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ymz",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e3f28a3e-34c7-464d-b298-125e22af39c2",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "266aaf4e-98fc-4fc6-9a8d-0b70b0e0a881",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:14:03+00:00",
+    "description": "",
+    "fileName": "d451e5e1-3eeb-4d16-9b7f-9640f7d2c11b.jpg",
+    "updatedAt": "2021-05-24T17:14:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

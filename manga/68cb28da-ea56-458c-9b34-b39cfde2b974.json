@@ -5,7 +5,7 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Lamento \u0026ndash; Magnolia"
+    "en": "Lamento – Magnolia"
    },
    "description": {
     "en": "Pairing: Rai x Konoe"
@@ -20,8 +20,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,35 +34,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-02T13:22:21+00:00",
+   "updatedAt": "2021-05-25T15:43:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "6c5d0996-f18f-4e8d-8cd9-7adb1ce21005",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kousaka Akiho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6c5d0996-f18f-4e8d-8cd9-7adb1ce21005",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kousaka Akiho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bb9c784d-d2f0-485c-80f3-2b118a1abac4",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "05f62f3f-d592-4fb9-8908-3715285166a7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:32:22+00:00",
+    "description": "",
+    "fileName": "97a6c9cc-e3fd-4d1f-86ff-9bb1657c9b2d.png",
+    "updatedAt": "2021-05-24T17:32:22+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

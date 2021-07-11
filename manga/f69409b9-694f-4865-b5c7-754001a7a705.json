@@ -7,6 +7,11 @@
    "title": {
     "en": "Brave Citizen"
    },
+   "altTitles": [
+    {
+     "en": "勇敢な市民"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +19,6 @@
     "mu": "135266"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,6 +53,8 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -55,55 +65,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-14T04:14:46+00:00",
+   "updatedAt": "2021-05-25T15:49:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "3818d133-14ae-44f5-b7e0-2b20141e5de5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Junghyun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d041676e-08bf-4923-846e-8293f52fcb75",
-   "type": "chapter"
-  },
-  {
-   "id": "6d38a1a4-f203-45a6-beae-049b8ab9735b",
-   "type": "chapter"
-  },
-  {
-   "id": "888cee60-0fb4-4d0d-8571-800c22dc24c5",
-   "type": "chapter"
-  },
-  {
-   "id": "98659512-cf22-4dea-a216-920a89633fe9",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "440dc3c6-afd8-4fa0-9a58-dd017c8f3ab9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:47+00:00",
+    "description": "",
+    "fileName": "a5833704-e88c-4c6f-aaf6-4f5564a20635.jpg",
+    "updatedAt": "2021-05-24T16:57:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Fuu \u0026amp; Mei's Birthday Day"
+    "en": "Fuu \u0026 Mei's Birthday Day"
    },
+   "altTitles": [
+    {
+     "en": "Fuu \u0026 Mei no Tanjoubi Toujitsu"
+    },
+    {
+     "en": "楓\u0026命の誕生日当日"
+    }
+   ],
    "description": {
     "en": "Release the Spyce comic special for Fuu and Mei's birthday."
    },
@@ -14,7 +22,6 @@
     "raw": "https://twitter.com/releasethespyce/status/1065542933787496448"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -23,8 +30,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,35 +44,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-09-04T07:47:42+00:00",
+   "updatedAt": "2021-05-25T15:47:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "f049cee3-3b14-4101-8e5d-813526abb1f6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Namori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f049cee3-3b14-4101-8e5d-813526abb1f6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Namori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "dc99da71-9349-4576-bbe1-263d6ff9b6f6",
-   "type": "chapter"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "68580467-2664-4fa8-9514-fed169c2d4a2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:25:16+00:00",
+    "description": "",
+    "fileName": "6f44c8ca-42e0-4d24-9963-7fc5d484bd4a.jpg",
+    "updatedAt": "2021-05-24T17:25:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

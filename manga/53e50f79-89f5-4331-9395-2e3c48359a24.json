@@ -18,7 +18,6 @@
     "mu": "5475"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +28,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,47 +40,65 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-07-15T03:48:51+00:00",
+   "updatedAt": "2021-05-25T15:42:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "17fb34dc-220f-4ea2-89ff-9fb9a2c452ba",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takaha Mako",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ee84cbdc-02ac-483d-8b03-308a36601c03",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sadamoto Yoshiyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ee84cbdc-02ac-483d-8b03-308a36601c03",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sadamoto Yoshiyuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f4cf5a5a-0ec8-40b8-ace1-c46d35cd28e8",
-   "type": "chapter"
-  },
-  {
-   "id": "26a57fa4-ff13-4754-a61d-eb8a71473d42",
-   "type": "chapter"
-  },
-  {
-   "id": "4605f764-cc2f-479e-9648-8bc370d6d082",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "386644dc-c9dc-4f7f-b9f9-73259c7d0f0a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:41:02+00:00",
+    "description": "",
+    "fileName": "8eafa243-93f5-4b33-b981-9e77b7ec133d.png",
+    "updatedAt": "2021-05-24T18:41:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

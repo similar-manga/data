@@ -26,6 +26,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,51 +38,53 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-08-14T08:23:08+00:00",
+   "updatedAt": "2021-05-25T15:42:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "468b01ea-ef18-44a9-bda9-ce27d5c9ce31",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yanagida Fumita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "468b01ea-ef18-44a9-bda9-ce27d5c9ce31",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yanagida Fumita",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2a4f9326-d8d2-4c7c-b32a-169407184080",
-   "type": "chapter"
-  },
-  {
-   "id": "15fb62ff-8b1a-4b61-af59-3b8102e884ba",
-   "type": "chapter"
-  },
-  {
-   "id": "988f78fa-7ab5-40b7-aae2-7914aed0c9d3",
-   "type": "chapter"
-  },
-  {
-   "id": "45e08160-005c-41c3-bf1c-bf178850fb63",
-   "type": "chapter"
-  },
-  {
-   "id": "4f5847c9-a78b-4c07-8470-506d274313aa",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
+   "id": "407fc464-98c6-4f9c-a7fe-77eb96d695f2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:22:47+00:00",
+    "description": "",
+    "fileName": "17333b63-1554-41e5-9058-5a3a40a23508.jpg",
+    "updatedAt": "2021-05-24T17:22:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

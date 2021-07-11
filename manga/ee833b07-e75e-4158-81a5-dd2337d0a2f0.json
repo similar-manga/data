@@ -7,6 +7,11 @@
    "title": {
     "en": "Trash"
    },
+   "altTitles": [
+    {
+     "en": "トラッシュ"
+    }
+   ],
    "description": {
     "en": "Will Anderson is the nephew of the modern-day Al Capone. He lives in New York, goes to a ritzy private school, and dotes on his charming little cousin Kate. Until one day, when he runs into a man and his pet penguin in Central Park (or rather, the man steals his hot dog), and then everything starts to get a little complicated. Suddenly Will is swept up into the buisness of the Trash Company, an odd-jobs outfit whose main work tends to involve stolen jewels and a whole lot of trouble!"
    },
@@ -28,6 +33,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +45,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,8 +55,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,75 +69,53 @@
       "name": {
        "en": "Mafia"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-01-15T19:53:07+00:00",
+   "updatedAt": "2020-01-15T19:53:07+00:00"
   }
  },
  "relationships": [
   {
    "id": "d63c4ab6-749b-40fd-9859-5326e4ee457d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matoh Sanami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d63c4ab6-749b-40fd-9859-5326e4ee457d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Matoh Sanami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0427e27a-a575-4dc2-a9df-6aea300bd5f7",
-   "type": "chapter"
-  },
-  {
-   "id": "f045d035-1f36-4f0e-b05c-7ce6142a539b",
-   "type": "chapter"
-  },
-  {
-   "id": "ff6703f6-10c8-4c29-8c79-1eb73b3e1363",
-   "type": "chapter"
-  },
-  {
-   "id": "4499a568-da5d-4cc8-ae52-e738ba24edd2",
-   "type": "chapter"
-  },
-  {
-   "id": "1bfd3cbc-5402-4a4b-b733-b97a805f97b2",
-   "type": "chapter"
-  },
-  {
-   "id": "2909dfb9-d069-4e40-a1cc-33ebda070260",
-   "type": "chapter"
-  },
-  {
-   "id": "6e7b9f0f-150c-41a2-96f4-03ee6b66f3fc",
-   "type": "chapter"
-  },
-  {
-   "id": "0f3352ec-b1e9-4c5f-85f9-1e030efb86d0",
-   "type": "chapter"
-  },
-  {
-   "id": "cb3432d2-b513-4dcd-b192-69526ee81d4a",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
-   "type": "tag"
+   "id": "47c63be8-04d7-4fe1-b083-0901ab8a9945",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:41:20+00:00",
+    "description": "",
+    "fileName": "3c275e66-becd-47f4-99bb-1e448a648b0c.jpg",
+    "updatedAt": "2021-05-24T17:41:20+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

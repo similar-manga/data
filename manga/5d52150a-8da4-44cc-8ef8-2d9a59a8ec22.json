@@ -7,6 +7,11 @@
    "title": {
     "en": "Nanairo Collaborate"
    },
+   "altTitles": [
+    {
+     "en": "なないろコラボレイト"
+    }
+   ],
    "description": {
     "en": "Guest chapter in Manga Time Kirara."
    },
@@ -14,7 +19,6 @@
     "ap": "nanairo-collaborate "
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,39 +53,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-13T22:16:49+00:00",
+   "updatedAt": "2021-05-25T15:42:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "daf9e0b9-9bee-480d-9f8d-eed5e16b9a07",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yuuki Sonisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "daf9e0b9-9bee-480d-9f8d-eed5e16b9a07",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yuuki Sonisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5a089427-81cf-4e6c-8722-9861358c92ff",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0cac904d-f300-4f6f-b26d-276e02922d28",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:15:24+00:00",
+    "description": "",
+    "fileName": "fd4663a5-1b97-4c74-8797-3129283024ac.jpg",
+    "updatedAt": "2021-05-28T23:15:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

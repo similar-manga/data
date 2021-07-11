@@ -7,6 +7,11 @@
    "title": {
     "en": "Hanekoi Lion"
    },
+   "altTitles": [
+    {
+     "en": "羽恋らいおん"
+    }
+   ],
    "description": {
     "en": "Why so hidoi?"
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,43 +60,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-12T02:51:06+00:00",
+   "updatedAt": "2021-05-25T15:46:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "9f5d1a87-2e1f-4751-ab30-1930b0a644ac",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ishizaka Ryudai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9f5d1a87-2e1f-4751-ab30-1930b0a644ac",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ishizaka Ryudai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "deccb025-db26-42a0-9f47-731f3363d236",
-   "type": "chapter"
-  },
-  {
-   "id": "759e95b2-93cb-4b64-a8cf-2bb2319a6c2c",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "1d4a3413-0d7b-4f5b-a8c3-337540481a0c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:51:16+00:00",
+    "description": "",
+    "fileName": "a8b3cf1f-d982-4a9b-ba77-a079bea98ac8.jpg",
+    "updatedAt": "2021-05-24T16:51:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

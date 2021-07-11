@@ -7,6 +7,11 @@
    "title": {
     "en": "Atarashii Ashi de Kakenukero."
    },
+   "altTitles": [
+    {
+     "en": "新しい足で駆け抜けろ。"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -32,6 +37,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +49,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,6 +61,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -62,6 +73,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -72,43 +85,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-05-22T04:13:27+00:00",
+   "updatedAt": "2020-05-22T04:13:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "f052facd-29cf-46c5-ab56-e2ae8856c2fd",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Midori Wataru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f052facd-29cf-46c5-ab56-e2ae8856c2fd",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Midori Wataru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "3fa10cb6-6512-4f42-9eb5-e531b8de3ccc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:56:43+00:00",
+    "description": "",
+    "fileName": "c1c6f3d0-d8d9-4ec1-b8da-4a351e3dd64a.jpg",
+    "updatedAt": "2021-05-24T17:56:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

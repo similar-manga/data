@@ -7,6 +7,11 @@
    "title": {
     "en": "HYPERSONIC music club"
    },
+   "altTitles": [
+    {
+     "en": "Hypersonic Music Club"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -26,35 +31,53 @@
       "name": {
        "en": "Music"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-02T12:27:34+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "18b3676a-9933-44a8-a940-ef88bc3262b6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Patrick Macias",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "707a4120-76f5-4234-bc10-8ca514d1acf1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hiroyushi Takahashi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "acca2263-4f5b-4956-ae1a-fef4a301178d",
-   "type": "chapter"
-  },
-  {
-   "id": "aa9f8129-6b14-4320-a44f-b8fefa5e0b6d",
-   "type": "chapter"
-  },
-  {
-   "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
-   "type": "tag"
+   "id": "c8569821-b30a-4f01-8acf-57e2abcea273",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:17:30+00:00",
+    "description": "",
+    "fileName": "461ed893-7795-421b-8e2d-08d469931693.jpg",
+    "updatedAt": "2021-05-24T17:17:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

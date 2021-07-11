@@ -7,6 +7,14 @@
    "title": {
     "en": "Jinrou Game: Crazy Fox"
    },
+   "altTitles": [
+    {
+     "en": "Werewolf Game: Crazy Fox"
+    },
+    {
+     "en": "人狼ゲーム クレイジーフォックス"
+    }
+   ],
    "description": {
     "en": "New game, new players, same rule, and an additional mysterious role, The Crazy Fox."
    },
@@ -34,6 +42,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +54,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -54,6 +66,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -64,6 +78,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -74,6 +90,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -84,6 +102,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -94,91 +114,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-28T19:55:15+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "732b20fb-4b7c-434d-b1cb-e3f584035708",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kawakami Ryou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d6d20ed9-f064-49ad-8111-6b4ef6135d02",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Koudon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4e70146b-bb1e-481e-b4d4-6a78fa6043d4",
-   "type": "chapter"
-  },
-  {
-   "id": "87a4e154-423e-45f0-92c1-cc1a7f5589fc",
-   "type": "chapter"
-  },
-  {
-   "id": "ba2a47a2-78e4-463c-9c85-1bc0ccb16cb7",
-   "type": "chapter"
-  },
-  {
-   "id": "a7c0e3a3-8d8c-4c4f-9169-93bc6f5473a4",
-   "type": "chapter"
-  },
-  {
-   "id": "593b0c9a-6561-4c21-817f-e5c999c1d5bd",
-   "type": "chapter"
-  },
-  {
-   "id": "a5e158c4-db08-4c7e-9763-2605ce653051",
-   "type": "chapter"
-  },
-  {
-   "id": "cb61187c-02d5-4e6a-81c2-5a35b91d3317",
-   "type": "chapter"
-  },
-  {
-   "id": "01a7e499-e551-4062-aa11-a9cc6ff7f548",
-   "type": "chapter"
-  },
-  {
-   "id": "64effc25-cdf6-4514-a76b-4707869a3ad6",
-   "type": "chapter"
-  },
-  {
-   "id": "daf886d9-8465-47b7-85ad-6e06524a7a0f",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "08b1d4a4-d544-4f59-9236-84439eb5fb80",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:31:49+00:00",
+    "description": "",
+    "fileName": "e2e410ec-f430-431b-bc36-6a9eebb4819f.jpg",
+    "updatedAt": "2021-05-24T17:31:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

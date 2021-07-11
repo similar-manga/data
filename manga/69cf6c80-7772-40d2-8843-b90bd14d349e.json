@@ -7,6 +7,14 @@
    "title": {
     "en": "Mikagura Gakuen Kumikyoku"
    },
+   "altTitles": [
+    {
+     "en": "Mikagura School Suite"
+    },
+    {
+     "en": "ミカグラ学園組曲"
+    }
+   ],
    "description": {
     "en": "Eruna Ichinomiya is a third-year junior high school student who has not decided on which high school to attend, and spends her days skipping school and playing games at home. One day, Eruna's eyes are captivated by a photo of Seisa Mikagura in a pamphlet for Mikagura Private Academy, given to her by her cousin, Shigure Ninomiya. Feeling that it is fate, Eruna decides to attend Mikagura Academy. However, Eruna discovers that Mikagura Academy is a school where only cultural clubs exist, and that it has an intense battle system where students with special powers must fight each other as representatives of their own clubs."
    },
@@ -19,7 +27,6 @@
     "mu": "99091"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -31,6 +38,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +50,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,47 +74,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-18T15:44:54+00:00",
+   "updatedAt": "2021-05-25T15:43:19+00:00"
   }
  },
  "relationships": [
   {
    "id": "dd3f3a08-e18c-4d39-8672-34f89d02ae71",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Last Note.",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0258ee9c-9c69-4c15-80c2-72506bfa32ac",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sayuki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "89f76278-1f03-4a6c-aec7-ebd032dc0333",
-   "type": "chapter"
-  },
-  {
-   "id": "21d5327d-c261-4df7-b81c-476bae1ff1a2",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "6c41b713-96e9-4f96-8955-d307cce85e4e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:42:18+00:00",
+    "description": "",
+    "fileName": "1f1c41e4-2689-4122-b60d-3d145b496888.jpg",
+    "updatedAt": "2021-05-24T16:42:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

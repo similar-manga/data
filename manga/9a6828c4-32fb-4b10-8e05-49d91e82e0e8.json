@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Sweet \u0026amp; Sour"
+    "en": "Sweet \u0026 Sour"
    },
+   "altTitles": [
+    {
+     "en": "Sweet and Sour"
+    },
+    {
+     "en": "スイート＆サワー"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +60,8 @@
       "name": {
        "en": "Incest"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -56,8 +70,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,59 +84,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-26T18:24:51+00:00",
+   "updatedAt": "2021-05-25T15:45:36+00:00"
   }
  },
  "relationships": [
   {
    "id": "6ad6f2de-3e54-44c0-9af4-980fbf7e4fde",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yakiniku King",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6ad6f2de-3e54-44c0-9af4-980fbf7e4fde",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yakiniku King",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fc6be716-ff76-4101-b9db-6e8b870102d1",
-   "type": "chapter"
-  },
-  {
-   "id": "6940c1d5-f3d4-4c4c-96fa-11b1f011470b",
-   "type": "chapter"
-  },
-  {
-   "id": "de2cbecc-0860-4b11-8c78-f43a9659b0dd",
-   "type": "chapter"
-  },
-  {
-   "id": "e889bcb8-9dd7-4873-807a-1b40f3f318c9",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5bd0e105-4481-44ca-b6e7-7544da56b1a3",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "3510414f-61f3-4f2e-9788-94d97f8386cc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:09:38+00:00",
+    "description": "",
+    "fileName": "0b2da871-28f7-4d67-b5ad-31e314bd9691.png",
+    "updatedAt": "2021-05-24T17:09:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

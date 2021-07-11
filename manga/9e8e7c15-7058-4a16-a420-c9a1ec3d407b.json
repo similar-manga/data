@@ -7,6 +7,11 @@
    "title": {
     "en": "Junkie Fiction"
    },
+   "altTitles": [
+    {
+     "en": "ジャンキー・フィクション"
+    }
+   ],
    "description": {
     "en": "Taku, the boy with a black cat. He uses medicine that cannot be obtained through ordinary means.\r\n\r\nHe is a self-proclaimed Kusuri-ya (one who makes medicine)."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +48,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,75 +60,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-03-27T17:00:32+00:00",
+   "updatedAt": "2021-05-25T15:45:45+00:00"
   }
  },
  "relationships": [
   {
    "id": "43c9f3c0-dde0-48ce-b8f8-3ef546553597",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "TAMEGAI Toru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b5004ef3-4015-4f5b-b2a5-4d396f2a603b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "MEIJI Teika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9f6720f7-99ff-4203-8a6a-c03e352506bf",
-   "type": "chapter"
-  },
-  {
-   "id": "ce11ff6b-805e-414d-8013-eac05145c616",
-   "type": "chapter"
-  },
-  {
-   "id": "e3b76a48-f1f5-4ed8-88f2-1f85bea36960",
-   "type": "chapter"
-  },
-  {
-   "id": "db7f57ea-a9bd-4b3d-89ae-628ba83b5748",
-   "type": "chapter"
-  },
-  {
-   "id": "d531e430-67b0-4db8-8334-2ee2fe57bb1d",
-   "type": "chapter"
-  },
-  {
-   "id": "2662870d-c049-4dfb-87da-66c1ef14ee3a",
-   "type": "chapter"
-  },
-  {
-   "id": "b6535212-2633-410b-94ee-7c637116c035",
-   "type": "chapter"
-  },
-  {
-   "id": "07fa4926-127a-4782-9048-c6d3c958cbe3",
-   "type": "chapter"
-  },
-  {
-   "id": "a3965d21-e296-4e24-b6af-2e80573c6fb3",
-   "type": "chapter"
-  },
-  {
-   "id": "ae9f1a64-32e1-4fea-a6ae-90e356359006",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "fed30796-cc71-4f24-9a13-c6b05beb7d7a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:28:42+00:00",
+    "description": "",
+    "fileName": "fc44d920-85db-4acf-82c1-8e008ad27449.jpg",
+    "updatedAt": "2021-05-24T17:28:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

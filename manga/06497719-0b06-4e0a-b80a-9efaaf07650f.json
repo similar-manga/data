@@ -7,14 +7,18 @@
    "title": {
     "en": "Rainbow"
    },
+   "altTitles": [
+    {
+     "en": "虹"
+    }
+   ],
    "description": {
     "en": "Author's Twitter: [url=https://twitter.com/rentarashiya]@rentarashiya[/url]"
    },
    "links": {
-    "raw": "https://www.pixiv.net/member_illust.php?mode=medium\u0026amp;illust_id=56906825"
+    "raw": "https://www.pixiv.net/member_illust.php?mode=medium\u0026illust_id=56906825"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,8 +51,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +65,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -65,51 +77,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-25T23:06:51+00:00",
+   "updatedAt": "2021-05-25T15:39:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "090bbd54-ad65-42a9-aed2-36e4aba686cc",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Arashiya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "090bbd54-ad65-42a9-aed2-36e4aba686cc",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Arashiya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bd2d1d87-4990-4eb5-a760-439bcabb9fdb",
-   "type": "chapter"
-  },
-  {
-   "id": "3f829efb-38ae-42af-b602-2a574dc02606",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "78da6395-a555-4f68-8837-5a27bd2e1469",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:49+00:00",
+    "description": "",
+    "fileName": "1760d665-58b8-41f3-9ed6-e142baa21b17.jpg",
+    "updatedAt": "2021-05-24T17:38:49+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

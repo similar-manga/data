@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Sunny \u0026amp; Rainy"
+    "en": "Sunny \u0026 Rainy"
    },
+   "altTitles": [
+    {
+     "en": "Sunny and Rainy"
+    }
+   ],
    "description": {
     "en": "One-shot from Feel Young Magazine.\r\nA short story about a girl and her strange relationship with the rain.\r\n\r\n[b]Links:[/b]\r\nAuthor's Twitter: [url=https://twitter.com/icori_a]@icori_a[/url]"
    },
@@ -18,7 +23,6 @@
     "mu": "85957"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,39 +46,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-10T20:06:04+00:00",
+   "updatedAt": "2021-05-25T15:45:05+00:00"
   }
  },
  "relationships": [
   {
    "id": "5432f23c-6ee7-4e9e-bf17-bd569f6ebb8d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ando Icori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5432f23c-6ee7-4e9e-bf17-bd569f6ebb8d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ando Icori",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a0506d51-a59b-45fa-acd3-24f929d7f6d3",
-   "type": "chapter"
-  },
-  {
-   "id": "2d1e463e-b3ad-4c2d-af79-bf9502bd9664",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "0c0b0281-c876-4f51-a975-032787ea6231",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:37:05+00:00",
+    "description": "",
+    "fileName": "4576d98d-dd73-45b5-846b-3a12d8296942.jpg",
+    "updatedAt": "2021-05-24T18:37:05+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

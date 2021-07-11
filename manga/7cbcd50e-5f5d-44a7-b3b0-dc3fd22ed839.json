@@ -7,6 +7,14 @@
    "title": {
     "en": "Houkago Re-Trip"
    },
+   "altTitles": [
+    {
+     "en": "Afterschool Little-Re-Trip"
+    },
+    {
+     "en": "放課後リトリップ"
+    }
+   ],
    "description": {
     "en": "A 26 years old girl lives an high school life limited to afterschool"
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +48,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,59 +60,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-08-04T11:47:32+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "53bd0b7e-2a81-428a-858a-bddff04cac7e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ms",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "53bd0b7e-2a81-428a-858a-bddff04cac7e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ms",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fb5a1ba9-d25b-4ba7-824d-fa6acdb45d2a",
-   "type": "chapter"
-  },
-  {
-   "id": "895696f6-3423-4fb7-b23e-ecee8b4a677e",
-   "type": "chapter"
-  },
-  {
-   "id": "d099eb2c-e116-4b70-b75d-d5142ee9d7b2",
-   "type": "chapter"
-  },
-  {
-   "id": "7d538d04-40e9-4d5e-bc96-38d2dd1be994",
-   "type": "chapter"
-  },
-  {
-   "id": "a52e9859-fe0b-4758-bbe0-07506229daf1",
-   "type": "chapter"
-  },
-  {
-   "id": "f6eb5c18-6481-40a6-a16d-538f5179dbe3",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "32d49e30-738c-4f32-976d-6dedce14d6cb",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:05:29+00:00",
+    "description": "",
+    "fileName": "de503747-6a24-4fd2-b821-94ae56fd1b2f.jpg",
+    "updatedAt": "2021-05-24T18:05:29+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

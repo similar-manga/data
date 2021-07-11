@@ -7,6 +7,11 @@
    "title": {
     "en": "Unreal Sundown"
    },
+   "altTitles": [
+    {
+     "en": "アンリアル・サンダウン"
+    }
+   ],
    "description": {
     "en": "A bounty hunter wanders into a town taken over by outlaws, but his gunslinging skills seem unreal...\r\n\r\nThe author considers this to be a prototype to his later series, Fire Fire Fire."
    },
@@ -18,7 +23,6 @@
     "mu": "67338"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "suggestive",
@@ -30,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +46,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,39 +58,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-05-09T14:31:05+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "f5d19e43-299a-46af-9878-758732ed50b0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SATOU Shouji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f5d19e43-299a-46af-9878-758732ed50b0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SATOU Shouji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fa5a86c2-bb58-4aa1-8bc1-faa733b08f9c",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "12eeec4c-538f-4f87-83db-d0452635363c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:14:31+00:00",
+    "description": "",
+    "fileName": "aed81ee6-500e-4aec-8422-eaca4889ce95.jpg",
+    "updatedAt": "2021-05-28T23:14:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

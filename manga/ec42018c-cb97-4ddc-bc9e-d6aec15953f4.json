@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +21,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -32,31 +33,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-11-16T22:24:51+00:00",
+   "updatedAt": "2018-11-16T22:24:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "a07d262f-17f5-4389-9547-cf1527378ea6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ricardo Mango",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a07d262f-17f5-4389-9547-cf1527378ea6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ricardo Mango",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "c960f957-47d9-4fd6-bad0-0a7a6ff683a1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:13:43+00:00",
+    "description": "",
+    "fileName": "977aec61-cbe2-4292-9b50-0340a3925626.jpg",
+    "updatedAt": "2021-05-28T23:13:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

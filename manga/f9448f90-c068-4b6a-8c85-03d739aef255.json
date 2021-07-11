@@ -7,6 +7,20 @@
    "title": {
     "en": "Cheerful Amnesia"
    },
+   "altTitles": [
+    {
+     "en": "Akarui Kioku Soushitsu"
+    },
+    {
+     "en": "Bright and Cheery Amnesia"
+    },
+    {
+     "en": "Si Amnesia yang Ceria"
+    },
+    {
+     "en": "明るい記憶喪失"
+    }
+   ],
    "description": {
     "en": "Mari's girlfriend, Arisa, loses her memories of the past three years, including all memory of their life together.\r\nHowever, it turns out that being crazy in love with someone transcends all realms of possibility."
    },
@@ -34,6 +48,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -44,6 +60,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,8 +70,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -64,6 +84,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -74,83 +96,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-14T17:57:57+00:00",
+   "updatedAt": "2021-05-25T15:49:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "e0b202ec-e0f8-4ebc-856a-332fbd63b49d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oku Tamamushi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e0b202ec-e0f8-4ebc-856a-332fbd63b49d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Oku Tamamushi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "46e241c5-ddf4-4708-b649-12534d76cd51",
-   "type": "chapter"
-  },
-  {
-   "id": "2019f87a-2bbb-47b0-93bf-a251dfc24f48",
-   "type": "chapter"
-  },
-  {
-   "id": "77526f39-811e-4bbe-b9e9-ad8215afb418",
-   "type": "chapter"
-  },
-  {
-   "id": "bd130ee5-9f57-4e27-9153-bc3839a4e237",
-   "type": "chapter"
-  },
-  {
-   "id": "3543d106-757f-49be-9138-81b44432619b",
-   "type": "chapter"
-  },
-  {
-   "id": "343f8fb8-1fe6-45ee-a01e-e8edc24b62b5",
-   "type": "chapter"
-  },
-  {
-   "id": "e413ba07-32b9-465f-a1f8-5327d246aab4",
-   "type": "chapter"
-  },
-  {
-   "id": "21b086c2-54e6-428d-8e97-b624ababd35a",
-   "type": "chapter"
-  },
-  {
-   "id": "3d288417-a770-4bdf-863a-504bd8ba760e",
-   "type": "chapter"
-  },
-  {
-   "id": "b5d2a926-6ed4-4749-a946-2cd0ad7dd8c8",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "c158c2da-5fbf-4f6d-9d35-dab35be6ebe4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:57:52+00:00",
+    "description": "",
+    "fileName": "d8450229-cd40-45c8-81fc-896d67299a4f.jpg",
+    "updatedAt": "2021-05-24T16:57:52+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

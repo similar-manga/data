@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Killer \u0026sup2; + 1"
+    "en": "Killer ² + 1"
    },
+   "altTitles": [
+    {
+     "en": "Koroshiya² +1"
+    },
+    {
+     "en": "殺し屋² +1"
+    }
+   ],
    "description": {
     "en": "Two members of an American crime family live with a Japanese college student. They attempt to keep him out of it, but when they are unexpectedly betrayed by former friends, things start to spiral out of control."
    },
@@ -15,7 +23,6 @@
     "raw": "807120"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "ongoing",
    "contentRating": "safe",
@@ -27,6 +34,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,6 +46,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +58,8 @@
       "name": {
        "en": "Mafia"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -57,6 +70,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,43 +82,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-08-01T18:53:14+00:00",
+   "updatedAt": "2020-08-01T18:53:14+00:00"
   }
  },
  "relationships": [
   {
    "id": "e13a4d69-88e2-4623-81e7-d9eccf4407cb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ZIRMELI",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e13a4d69-88e2-4623-81e7-d9eccf4407cb",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ZIRMELI",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "c94be949-e935-4f40-ad7c-aea0bf376754",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:05:07+00:00",
+    "description": "",
+    "fileName": "a93f85af-686e-413a-9172-45d521928293.jpg",
+    "updatedAt": "2021-05-24T18:05:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

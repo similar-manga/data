@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "safe",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,43 +34,53 @@
       "name": {
        "en": "User Created"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-02-07T02:14:11+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "88951fd2-2c7a-48ac-bd89-6970db8f002e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "LunarianSky",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "88951fd2-2c7a-48ac-bd89-6970db8f002e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "LunarianSky",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ebfaa29d-4522-47fc-8743-98cb613663b8",
-   "type": "chapter"
-  },
-  {
-   "id": "a6048c49-e797-429f-b732-7ae443fd496d",
-   "type": "chapter"
-  },
-  {
-   "id": "10a89406-3769-43ff-b56b-f59e69883425",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "891cf039-b895-47f0-9229-bef4c96eccd4",
-   "type": "tag"
+   "id": "a865dbc1-16c6-4f52-b3e2-77b37091aae2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:30:11+00:00",
+    "description": "",
+    "fileName": "eaa85fa1-c897-42a0-a871-12d1c6a37f00.jpg",
+    "updatedAt": "2021-05-24T18:30:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

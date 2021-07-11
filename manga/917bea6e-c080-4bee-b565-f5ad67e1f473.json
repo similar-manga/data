@@ -7,6 +7,20 @@
    "title": {
     "en": "Haiiro no Umi"
    },
+   "altTitles": [
+    {
+     "en": "The Grey Sea"
+    },
+    {
+     "en": "Un Mar Gris"
+    },
+    {
+     "en": "灰色の海"
+    },
+    {
+     "en": "灰色的海"
+    }
+   ],
    "description": {
     "en": "A samurai keeps watching a craftsman making ink stones, day after day, for 3 years. What could his intention be?\r\n\r\nThe forbidden love between a samurai and a craftsman."
    },
@@ -30,6 +44,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +56,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +68,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,8 +78,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,6 +92,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -80,55 +104,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-30T20:31:50+00:00",
+   "updatedAt": "2021-05-25T15:45:12+00:00"
   }
  },
  "relationships": [
   {
    "id": "d56819e1-ffd3-4a56-ba08-0cf2c7064c3d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hidaka Shoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d56819e1-ffd3-4a56-ba08-0cf2c7064c3d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hidaka Shoko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ff8b3173-7cb2-44d6-ae38-92733e9abd7a",
-   "type": "chapter"
-  },
-  {
-   "id": "c4e0f8d7-157b-4b2b-9ce2-93b8faaed94b",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "89c4b2e9-d47b-4fc6-b099-22c632a6d6c8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:06:24+00:00",
+    "description": "",
+    "fileName": "53f1e541-60ab-4778-9637-f9d3b384d6f9.jpg",
+    "updatedAt": "2021-05-24T17:06:24+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

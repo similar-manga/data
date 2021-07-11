@@ -5,8 +5,13 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Tiger \u0026amp; Bunny - Kimi to Iru to Naseka Shiawase (Doujinshi)"
+    "en": "Tiger \u0026 Bunny - Kimi to Iru to Naseka Shiawase (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "Tiger \u0026 Bunny dj - Somehow, I'm Happy When I'm with You"
+    }
+   ],
    "description": {
     "en": "Pairing: Barnaby x Kotetsu"
    },
@@ -14,7 +19,6 @@
     "mu": "82100"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -23,8 +27,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,35 +41,53 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-09T05:24:09+00:00",
+   "updatedAt": "2021-05-25T15:46:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "5d0f307c-ef7b-4899-bc08-91edb089f14e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asou Kai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "5d0f307c-ef7b-4899-bc08-91edb089f14e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Asou Kai",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e8034447-b992-457e-b125-03d039d86db8",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
+   "id": "b21eccc4-8fd5-4f64-bd4d-f79ef0fab74b",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:18:18+00:00",
+    "description": "",
+    "fileName": "1d19cc92-3a7e-4b44-8ef6-ea12cb0c84d6.png",
+    "updatedAt": "2021-05-24T17:18:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

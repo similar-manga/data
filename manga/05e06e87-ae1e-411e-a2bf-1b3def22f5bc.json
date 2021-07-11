@@ -5,10 +5,18 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Murci\u0026eacute;lago Ara\u0026ntilde;a"
+    "en": "Murciélago Araña"
    },
+   "altTitles": [
+    {
+     "en": "MURCIÉLAGO -ムルシエラゴ- BYPRODUCT -アラーニァ-"
+    },
+    {
+     "en": "Murcielago Arana"
+    }
+   ],
    "description": {
-    "en": "A spinoff of the series Murci\u0026eacute;lago featuring the character Reiko Kuchiba."
+    "en": "A spinoff of the series Murciélago featuring the character Reiko Kuchiba."
    },
    "links": {
     "al": "111541",
@@ -22,7 +30,7 @@
    "lastVolume": "5",
    "lastChapter": "29",
    "status": "completed",
-   "contentRating": "suggestive",
+   "contentRating": "erotica",
    "tags": [
     {
      "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -31,6 +39,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,8 +61,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +75,8 @@
       "name": {
        "en": "Gore"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -71,6 +87,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -81,71 +99,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-06-24T05:31:22+00:00",
+   "updatedAt": "2021-05-25T15:38:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "01d2403d-4862-4cd3-9091-4d174f9d7a70",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshimura Kana",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "361a2039-7077-4e12-b3b9-39ec194e25df",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Arakawa Shin",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6b2c73fd-63b8-4b48-8348-9a69da7bcae8",
-   "type": "chapter"
-  },
-  {
-   "id": "f129a773-11cb-4e39-a92b-3f1aefeb8064",
-   "type": "chapter"
-  },
-  {
-   "id": "579287b4-fe66-4c2b-812e-e61fbf7ff1f0",
-   "type": "chapter"
-  },
-  {
-   "id": "fcd4b681-fc6f-40c6-a539-ac6e17aa3b37",
-   "type": "chapter"
-  },
-  {
-   "id": "b8ba0d21-770e-4764-9f59-31cf4e8cdf89",
-   "type": "chapter"
-  },
-  {
-   "id": "bceeea0b-9436-4908-b617-c560dcee5e78",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "2219e147-8d48-4f58-bc4b-1d89f4a434c8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:16:32+00:00",
+    "description": "",
+    "fileName": "6c6a0f91-57b2-4744-a675-9317afe5101c.jpg",
+    "updatedAt": "2021-05-24T17:16:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

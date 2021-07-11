@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Caf\u0026eacute; Velomano"
+    "en": "Café Velomano"
    },
+   "altTitles": [
+    {
+     "en": "Cafe Velomano"
+    },
+    {
+     "en": "카페 벨로마노"
+    }
+   ],
    "description": {
     "en": "Taemuk han is a 39-year-old Barista who opens his own coffee shop. He likes being free and finds it hard to get the right woman. Yeoun Sun is a 28-year-old woman who wants to be a Designer and wants to be a cool career woman who spends her life alone. However, she can't get her career started and somehow ends up working at Cafe Velomano."
    },
@@ -18,7 +26,6 @@
     "mu": "95494"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "ongoing",
    "contentRating": "safe",
@@ -30,6 +37,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +49,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +61,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,55 +73,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-07T15:22:46+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "0219a3c7-f1ff-49e4-85ea-f7cf16a6ecf5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Gali",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "0a80eecf-4633-48b6-b535-f689f69d3cf9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "I-Hye Lyeong",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f5417974-ca1e-4539-936c-7726ff412995",
-   "type": "chapter"
-  },
-  {
-   "id": "5219f647-bf38-4ced-aaa0-7ea9a3fcc010",
-   "type": "chapter"
-  },
-  {
-   "id": "aec01d16-f4fa-45d6-8214-8a75b66d28c1",
-   "type": "chapter"
-  },
-  {
-   "id": "981bd083-5fc1-4ebf-aee0-13119f240881",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "6cff38bb-7ee9-4f18-bfe8-a8eff0228213",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:41:11+00:00",
+    "description": "",
+    "fileName": "994afbcc-3661-496c-b1a6-52fac61ae643.jpg",
+    "updatedAt": "2021-05-24T16:41:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

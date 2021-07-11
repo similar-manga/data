@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "La cl\u0026eacute; de la cage"
+    "en": "La clé de la cage"
    },
+   "altTitles": [
+    {
+     "en": "The Key In The Cage"
+    }
+   ],
    "description": {
-    "en": "Le p\u0026egrave;re d\u0026rsquo;Akira est un \u0026laquo;cr\u0026eacute;ateur\u0026raquo; de g\u0026eacute;nie.\r\nUn cr\u0026eacute;ateur c'est une personne qui re\u0026ccedil;oit des ordres afin \u0026laquo;d\u0026rsquo;am\u0026eacute;liorer\u0026raquo; ls \u0026ecirc;res vivants. Cependant, Akira n'est pas comme son p\u0026egrave;re, il d\u0026eacute;teste son travail, un travail qui fait souffrir les \u0026ecirc;tres vivants. La bonne conscience d\u0026rsquo;Akira aura-t-elle enfin raison de lui ?"
+    "en": "Le père d’Akira est un «créateur» de génie.\r\nUn créateur c'est une personne qui reçoit des ordres afin «d’améliorer» ls êres vivants. Cependant, Akira n'est pas comme son père, il déteste son travail, un travail qui fait souffrir les êtres vivants. La bonne conscience d’Akira aura-t-elle enfin raison de lui ?"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,39 +51,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-07T18:26:59+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "635e99cc-443c-4147-a1a3-90eaad4a3754",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shino Matsuda",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "635e99cc-443c-4147-a1a3-90eaad4a3754",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shino Matsuda",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "66b68595-4005-495d-8c25-1d502f33f678",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "91259ea6-6cd5-4fde-850d-a2ac33c2f14e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:09:27+00:00",
+    "description": "",
+    "fileName": "0d5f5821-17ad-4351-ac5c-4a7913921677.jpg",
+    "updatedAt": "2021-05-24T18:09:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

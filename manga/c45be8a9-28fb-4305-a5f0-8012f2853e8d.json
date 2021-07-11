@@ -7,6 +7,11 @@
    "title": {
     "en": "Lone Wolf"
    },
+   "altTitles": [
+    {
+     "en": "ローンウルフ"
+    }
+   ],
    "description": {
     "en": "An old man and his caregiver get harassed by local yakuza, but not all is as it seems."
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +55,8 @@
       "name": {
        "en": "Crime"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,47 +67,53 @@
       "name": {
        "en": "Mafia"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-03-15T17:17:36+00:00",
+   "updatedAt": "2021-05-25T15:47:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "129528e9-4dfa-4eb6-b8d4-6033cae366e2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okujima Hiromasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "129528e9-4dfa-4eb6-b8d4-6033cae366e2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Okujima Hiromasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cb83339d-e7ce-4e62-b67f-9a96e460e2e8",
-   "type": "chapter"
-  },
-  {
-   "id": "3aa5c854-f919-41e6-8bc2-a1d96c99a985",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
-   "type": "tag"
-  },
-  {
-   "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
-   "type": "tag"
+   "id": "adcae0d2-71e6-4f16-9be9-265bb89f9047",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:48:41+00:00",
+    "description": "",
+    "fileName": "32428cc4-135b-4741-a850-48fa9c1d25ab.jpg",
+    "updatedAt": "2021-05-24T17:48:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

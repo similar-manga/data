@@ -7,6 +7,11 @@
    "title": {
     "en": "Ano Koi no Tsuzuki"
    },
+   "altTitles": [
+    {
+     "en": "あの恋のつづき"
+    }
+   ],
    "description": {
     "en": "A friendly meeting at the hospital results in a surprising sum of inheritance. How will Sei accept this generous offer?"
    },
@@ -30,6 +35,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +45,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,51 +59,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-04-06T03:26:52+00:00",
+   "updatedAt": "2021-05-25T15:41:22+00:00"
   }
  },
  "relationships": [
   {
    "id": "6af96f31-0879-4948-b977-d3b4323e08ff",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kitazawa Jinko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8559e359-7971-4be6-a5e9-0670f001febe",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamada Fumika",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "d65ad800-89f9-448c-b394-5de321e52a28",
-   "type": "chapter"
-  },
-  {
-   "id": "8cb157bf-8026-4545-94a0-885dfc4c76ca",
-   "type": "chapter"
-  },
-  {
-   "id": "f8398ae6-2c1a-43c3-aee4-cc0bb5f943f1",
-   "type": "chapter"
-  },
-  {
-   "id": "b666e865-7a68-4cc9-9c71-c82407d86b23",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "516ae8c7-c03a-4fb7-96a2-4c67f132f2bc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:07:03+00:00",
+    "description": "",
+    "fileName": "85fa866a-5f6f-4c27-a8cf-27d8bd565af9.jpg",
+    "updatedAt": "2021-05-24T17:07:03+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

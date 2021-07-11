@@ -7,6 +7,17 @@
    "title": {
     "en": "Emblem Take 2"
    },
+   "altTitles": [
+    {
+     "en": "エンブレムTAKE2"
+    },
+    {
+     "en": "代紋＜エンブレム＞ＴＡＫＥ２"
+    },
+    {
+     "en": "代紋TAKE2"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +66,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,39 +78,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-08-14T04:06:04+00:00",
+   "updatedAt": "2018-08-14T04:06:04+00:00"
   }
  },
  "relationships": [
   {
    "id": "0c8b1888-0006-4263-b0fe-1231097fd505",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "KIUCHI Kazumasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8506110c-94e5-49f1-aa28-b0cb2f7a52e9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "WATANABE Jun",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "2a5b6907-c58e-4f90-8cae-82f0c6bbf5f6",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:41:51+00:00",
+    "description": "",
+    "fileName": "946a7b6b-caad-45b6-8d0d-a108c63c9e6d.jpg",
+    "updatedAt": "2021-05-24T16:41:51+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

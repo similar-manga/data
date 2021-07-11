@@ -7,6 +7,11 @@
    "title": {
     "en": "Virgin Mama"
    },
+   "altTitles": [
+    {
+     "en": "バージン・ママ"
+    }
+   ],
    "description": {
     "en": "Kazuya is a 28 year-old divorced salaryman, who is convinced by his boss one night to go with him to a massage parlor. He does and meets a pretty young woman named Nagisa. He takes her card, but loses it when his aunt makes him help clean up the house in the front of the complex they live in (she's the landlord) so that a new boarder can come live with them.\r\nOf course, it's Nagisa, and her 4 children, from toddler to teenager. Their father has died and she's doing everything she can to support these kids. Oh, and one more thing. She's only 21 years old, and may have never even consummated her marriage!"
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,51 +58,53 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-07T09:45:09+00:00",
+   "updatedAt": "2021-05-25T15:49:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "489120be-810e-4e3f-a37b-3b2af1f32ec4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murao Mio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "489120be-810e-4e3f-a37b-3b2af1f32ec4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Murao Mio",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "15e0cdce-3612-4ebb-a2c3-8de494e3bcd9",
-   "type": "chapter"
-  },
-  {
-   "id": "9382784b-9317-463e-8837-c5bc49815438",
-   "type": "chapter"
-  },
-  {
-   "id": "6f5eb608-c3e8-4ba6-bbb5-530388ceb36f",
-   "type": "chapter"
-  },
-  {
-   "id": "56c7de3a-dcd3-4111-87e4-ee7aa7cfc423",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
+   "id": "822ea950-cdad-4f56-b681-9057be701a8e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:30+00:00",
+    "description": "",
+    "fileName": "a1e50d4b-53c0-4a72-8752-acf6f63e961a.jpg",
+    "updatedAt": "2021-05-24T17:00:30+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

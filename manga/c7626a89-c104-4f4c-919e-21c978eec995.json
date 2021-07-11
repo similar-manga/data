@@ -18,7 +18,6 @@
     "mu": "63695"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "ongoing",
    "contentRating": "suggestive",
@@ -30,6 +29,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +41,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -50,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,59 +65,53 @@
       "name": {
        "en": "Martial Arts"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-01-28T16:27:14+00:00",
+   "updatedAt": "2021-05-25T15:47:38+00:00"
   }
  },
  "relationships": [
   {
    "id": "aa71c9dc-1661-47cf-94b4-1dfdabeab1c2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Choi Bong-su",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ed7bd574-c274-45aa-a7ce-0ae646f380c1",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Won Hyun-jae",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c561bf25-00a6-4bb7-ac81-faa7d195c621",
-   "type": "chapter"
-  },
-  {
-   "id": "5e0131b7-7dfc-4265-ad54-70fc8fbd9093",
-   "type": "chapter"
-  },
-  {
-   "id": "bf1f743e-0687-4bdb-be34-cf8dee1b9e82",
-   "type": "chapter"
-  },
-  {
-   "id": "5e6e6094-86ba-4b37-9a03-2c9f14236bc3",
-   "type": "chapter"
-  },
-  {
-   "id": "d2cf16f8-a7c6-45bb-a02b-2f4b83989be9",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
-   "type": "tag"
+   "id": "badf3864-f12e-4fae-b5b8-12ff6e33a103",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:08:23+00:00",
+    "description": "",
+    "fileName": "becbde2d-9f0c-44e2-93d3-8e587f57a0c4.jpg",
+    "updatedAt": "2021-05-24T18:08:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

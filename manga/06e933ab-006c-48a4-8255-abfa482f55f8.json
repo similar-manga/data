@@ -7,6 +7,11 @@
    "title": {
     "en": "DAVID"
    },
+   "altTitles": [
+    {
+     "en": "데이빗"
+    }
+   ],
    "description": {
     "en": "David is from a small farm. He goes on a journey to find himself who he really is, and what defines you to be a human."
    },
@@ -25,6 +30,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +42,8 @@
       "name": {
        "en": "Philosophical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +54,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,39 +66,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-07-24T18:16:59+00:00",
+   "updatedAt": "2020-07-24T18:16:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "52d90ee9-ce66-4e4a-89d8-d82907eb2d5e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "dMON (d몬)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "52d90ee9-ce66-4e4a-89d8-d82907eb2d5e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "dMON (d몬)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "b90aa096-fc23-4f95-9479-abaac0b18e53",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:07+00:00",
+    "description": "",
+    "fileName": "3e46a5fb-4f1e-43cf-8734-3606473b0266.jpg",
+    "updatedAt": "2021-05-24T18:04:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

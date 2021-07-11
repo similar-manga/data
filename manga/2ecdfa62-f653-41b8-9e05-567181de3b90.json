@@ -7,6 +7,11 @@
    "title": {
     "en": "Child Hazard"
    },
+   "altTitles": [
+    {
+     "en": "チャイルド・ハザード"
+    }
+   ],
    "description": {
     "en": "It's the story of a young student named Sahra who comes from a broken home. He has a difficult time getting along with his classmates (or, more precisely, he doesn't *want* to get along with his classmates), until a girl named Mai Omi decides to make her mission to help him feel accepted."
    },
@@ -18,7 +23,6 @@
     "mu": "4096"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +46,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,39 +58,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-27T16:28:52+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "a37a8e8c-0893-4f5f-ade4-618f2065f8e0",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nishidata Naoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a37a8e8c-0893-4f5f-ade4-618f2065f8e0",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nishidata Naoki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "32bb5b43-5027-45b7-bcca-c12fe02ffd81",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "f8ae7bcc-5edf-4f17-8fe9-4fb25422570c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:31:40+00:00",
+    "description": "",
+    "fileName": "5b0138f7-6d06-4cba-b114-6e15fe577595.jpg",
+    "updatedAt": "2021-05-24T17:31:40+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

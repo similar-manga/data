@@ -7,6 +7,11 @@
    "title": {
     "en": "Hyakka Souen"
    },
+   "altTitles": [
+    {
+     "en": "百花争艶 樹要イラスト集"
+    }
+   ],
    "description": {
     "en": "Color BL pictures."
    },
@@ -26,6 +31,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -34,8 +41,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,47 +55,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-19T18:46:30+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "cd860238-9ce5-485c-8eff-064ad72ed79d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itsuki Kaname",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "cd860238-9ce5-485c-8eff-064ad72ed79d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Itsuki Kaname",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2d118aec-10d2-4bfb-8bb3-885d914a1f1a",
-   "type": "chapter"
-  },
-  {
-   "id": "07d12906-f1e9-4650-a987-0b824a4ecf3c",
-   "type": "chapter"
-  },
-  {
-   "id": "fb246a00-04d5-4267-9c02-2e4d696be5dc",
-   "type": "chapter"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "a247e728-1d16-4f9e-abeb-7adbd92133b7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:58+00:00",
+    "description": "",
+    "fileName": "735cc93f-b8c0-4824-9587-61ae1eafc856.jpg",
+    "updatedAt": "2021-05-24T16:50:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

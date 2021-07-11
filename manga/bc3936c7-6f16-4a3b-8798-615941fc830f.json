@@ -7,6 +7,11 @@
    "title": {
     "en": "Ginga wa Kanojo Hodo ni"
    },
+   "altTitles": [
+    {
+     "en": "銀河は彼女ほどに"
+    }
+   ],
    "description": {
     "en": "The girl who I love is pretty and good at everything as if she isn't real, but her identity is an extraterrestrial biological entity which comes to destroy the Earth!?"
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,6 +46,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +58,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,6 +70,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -69,51 +82,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-16T12:47:15+00:00",
+   "updatedAt": "2021-05-25T15:47:06+00:00"
   }
  },
  "relationships": [
   {
    "id": "4e842512-71c1-4246-b276-00ab99a1c5df",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takagi Yuuna",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4e842512-71c1-4246-b276-00ab99a1c5df",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takagi Yuuna",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "1431688d-c536-4ad4-a93e-36b0b178f07a",
-   "type": "chapter"
-  },
-  {
-   "id": "28346977-5659-49ad-bb99-014a1d70359d",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "940a8236-f7c3-4f0b-a6c1-3d5e0a2a7fbd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:18:57+00:00",
+    "description": "",
+    "fileName": "3e8b9d06-8d08-4c8c-a08c-9b3ba3802ad3.png",
+    "updatedAt": "2021-05-24T18:18:57+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

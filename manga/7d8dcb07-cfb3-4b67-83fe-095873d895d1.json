@@ -7,6 +7,23 @@
    "title": {
     "en": "Hello, I'm Your Stalker"
    },
+   "altTitles": [
+    {
+     "en": "Annyeonghaseyo, Dangsin-ui Seutokeo Ibnida"
+    },
+    {
+     "en": "Dangsin-ui Stalker Ibnida"
+    },
+    {
+     "en": "Merhaba, Ben Senin Sapığınım"
+    },
+    {
+     "en": "Привет, я твой сталкер"
+    },
+    {
+     "en": "안녕하세요, 당신의 스토커입니다"
+    }
+   ],
    "description": {
     "en": "A scary stalker is after me!!!! What could be his ulterior motive?"
    },
@@ -27,6 +44,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +56,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -47,6 +68,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,8 +78,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,6 +92,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -77,6 +104,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -87,6 +116,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -97,95 +128,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-30T13:20:13+00:00",
+   "updatedAt": "2021-05-25T15:44:18+00:00"
   }
  },
  "relationships": [
   {
    "id": "ec746c9b-ae20-4659-9d56-088171b38c86",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Tac",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ec746c9b-ae20-4659-9d56-088171b38c86",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kim Tac",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c3426668-f2de-46aa-a695-582e8e3661da",
-   "type": "chapter"
-  },
-  {
-   "id": "455c50ba-d6ec-41a1-a77d-45c5dd7b98f7",
-   "type": "chapter"
-  },
-  {
-   "id": "6d5a8562-bf9c-4865-96b3-e1623eb9e24b",
-   "type": "chapter"
-  },
-  {
-   "id": "801d7ec3-081d-4144-bc48-b32f27cf9525",
-   "type": "chapter"
-  },
-  {
-   "id": "079c1038-4dbf-4cbe-9516-d8aaf6a3feed",
-   "type": "chapter"
-  },
-  {
-   "id": "0d5b588a-bf00-4a4e-a5d8-a4cde1121478",
-   "type": "chapter"
-  },
-  {
-   "id": "57216c5a-3882-4ffb-916c-13056d853d87",
-   "type": "chapter"
-  },
-  {
-   "id": "03ec3a32-892e-4729-8505-44f5c929eba0",
-   "type": "chapter"
-  },
-  {
-   "id": "8c710389-244f-49a9-b158-b8022c22f29a",
-   "type": "chapter"
-  },
-  {
-   "id": "f1feaf51-cbf6-4885-afd6-7369ab185fd1",
-   "type": "chapter"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "2cc75f30-b79b-4f2c-acb5-0d9b70489fe1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:15+00:00",
+    "description": "",
+    "fileName": "359b9cd1-0008-4445-b3af-e2c316454333.jpg",
+    "updatedAt": "2021-05-24T16:56:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Fair Bianca"
    },
+   "altTitles": [
+    {
+     "en": "フェアビアンカ"
+    },
+    {
+     "en": "你的纯情会传染"
+    }
+   ],
    "description": {
     "en": "Photography club member Yano received an unexpected confession from upperclassman Akutsu, the handsome but often oblivious school charmer. But Akutsu, having confessed, continues to treat Yano just as he did before. Akutsu's easy acceptance of all confessions towards him, coupled with him treating his own confession of love to Yano as a thing of the past, confuses Yano. Yano becomes more and more aware of Akutsu and also increasingly anxious..."
    },
@@ -30,6 +38,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +62,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -60,55 +74,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-02T09:28:15+00:00",
+   "updatedAt": "2021-05-25T15:47:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "04415d72-72c4-4981-a83a-4cdb57f8d682",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimaji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "04415d72-72c4-4981-a83a-4cdb57f8d682",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shimaji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "3e5538f4-d654-4e93-a31d-d1ec9dc41aa8",
-   "type": "chapter"
-  },
-  {
-   "id": "084c9b20-0ada-4cec-a4c0-475e8437e35c",
-   "type": "chapter"
-  },
-  {
-   "id": "fe7b9269-0365-48c1-b8b6-689daa6de2d1",
-   "type": "chapter"
-  },
-  {
-   "id": "f6778b7b-b7b3-4a51-8c2d-ea8559abaf2b",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "df1e675e-7b42-4f49-91d5-a3c9470ab0db",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:39:45+00:00",
+    "description": "",
+    "fileName": "824a3702-dd9a-4ecc-8df3-45094a9ed711.jpg",
+    "updatedAt": "2021-05-24T17:39:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

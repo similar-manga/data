@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "\u0026iexcl;Wataru Chinjufu Yuri Bakari!"
+    "en": "¡Wataru Chinjufu Yuri Bakari!"
    },
+   "altTitles": [
+    {
+     "en": "航る鎮守府百合ばかり!"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "pornographic",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Sexual Violence"
       },
+      "description": null,
+      "group": "content",
       "version": 1
      }
     },
@@ -30,41 +36,55 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-21T22:21:24+00:00",
+   "updatedAt": "2021-05-25T15:40:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "f0efb163-2154-437e-8d25-75ca63ad001b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kleitos",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "f0efb163-2154-437e-8d25-75ca63ad001b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kleitos",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fab1ac0d-6678-439a-8717-b6ff7bb5483e",
-   "type": "chapter"
-  },
-  {
-   "id": "894e9c5e-662a-40d6-8408-289d5528d359",
-   "type": "chapter"
-  },
-  {
-   "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
+   "id": "1846fe38-a9e7-4fe3-a98a-7dea43caf521",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:23:46+00:00",
+    "description": "",
+    "fileName": "343b1c50-f9fa-4430-bd1b-72565bea375f.jpg",
+    "updatedAt": "2021-05-24T18:23:46+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

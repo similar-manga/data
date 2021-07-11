@@ -7,6 +7,20 @@
    "title": {
     "en": "Are You Going to Eat?"
    },
+   "altTitles": [
+    {
+     "en": "Bab Meoggo Gallaeyo?"
+    },
+    {
+     "en": "Let's Go Eat?"
+    },
+    {
+     "en": "Want To Eat At My Place?"
+    },
+    {
+     "en": "밥 먹고 갈래요?"
+    }
+   ],
    "description": {
     "en": "Daily life of Baek Mi with her interest in food and cooking."
    },
@@ -28,6 +42,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -38,6 +54,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,6 +66,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +78,8 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -68,83 +90,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-02T13:24:09+00:00",
+   "updatedAt": "2021-05-25T15:42:32+00:00"
   }
  },
  "relationships": [
   {
    "id": "c4391a39-380d-4dbd-b826-c365b06bdd79",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Omyo (오묘)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c4391a39-380d-4dbd-b826-c365b06bdd79",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Omyo (오묘)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "140fb569-755b-4af7-a62f-20f841784794",
-   "type": "chapter"
-  },
-  {
-   "id": "7147d712-6a45-4c43-aa83-7af4a5fea846",
-   "type": "chapter"
-  },
-  {
-   "id": "8d6e409c-a73d-4078-9002-73122fd98100",
-   "type": "chapter"
-  },
-  {
-   "id": "588d1ff3-d6c4-4f4c-8126-0fa2b740896b",
-   "type": "chapter"
-  },
-  {
-   "id": "63fd9a48-ff34-4f6f-9b6b-d18a46508427",
-   "type": "chapter"
-  },
-  {
-   "id": "4e416387-28f2-4b53-9ca6-9b5517a60a43",
-   "type": "chapter"
-  },
-  {
-   "id": "e355228f-6752-451c-a830-f4a96164c57e",
-   "type": "chapter"
-  },
-  {
-   "id": "fb6f38df-0c88-48ce-ac0d-ce80357fb7ed",
-   "type": "chapter"
-  },
-  {
-   "id": "0e122010-cd99-4ee9-ad5e-45cd0cd560b3",
-   "type": "chapter"
-  },
-  {
-   "id": "eeabd8b3-aed8-41c0-89c3-c368bbb6fcd5",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "c75cd87c-adec-4fab-a1ba-53d8151d95d8",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:03:09+00:00",
+    "description": "",
+    "fileName": "3951b8f9-8c1e-4557-941b-0f1490f1560b.jpg",
+    "updatedAt": "2021-05-24T17:03:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

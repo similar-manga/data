@@ -7,6 +7,11 @@
    "title": {
     "en": "Boys Love"
    },
+   "altTitles": [
+    {
+     "en": "ボーイズラブ"
+    }
+   ],
    "description": {
     "en": "A poignant manga, portraying the story of the movie with the same title. The movie tells the story of Taishin Mamiya, a magazine editor who meets and interviews a young model, Noeru Kisaragi, and becomes sinfully attracted to him. Their love, however, is forbidden."
    },
@@ -29,6 +34,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,8 +44,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,6 +58,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -59,63 +70,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-04-05T19:59:50+00:00",
+   "updatedAt": "2021-05-25T15:40:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "bf727851-681e-4354-bab3-cb4124589df5",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tachibana Kaimu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bf727851-681e-4354-bab3-cb4124589df5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tachibana Kaimu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "00d88704-0802-436b-8448-4665b506c569",
-   "type": "chapter"
-  },
-  {
-   "id": "c661e984-f9ba-41f9-904b-dd6d8a3a5ead",
-   "type": "chapter"
-  },
-  {
-   "id": "861604c8-46d1-4cec-8df1-a2392a2d590a",
-   "type": "chapter"
-  },
-  {
-   "id": "8704907a-f894-4a5a-a87c-764044cc28ac",
-   "type": "chapter"
-  },
-  {
-   "id": "3a061031-22e6-41fa-996b-e585169229f7",
-   "type": "chapter"
-  },
-  {
-   "id": "8686d852-73b0-48fa-b79a-965744bab891",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "5ffbf627-916a-4f6e-abfd-388e7c7f6ed0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:38:38+00:00",
+    "description": "",
+    "fileName": "0f3960c7-b7a8-447b-93f9-5bbeb25490e2.jpg",
+    "updatedAt": "2021-05-24T17:38:38+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,11 +7,15 @@
    "title": {
     "en": "The End"
    },
+   "altTitles": [
+    {
+     "en": "Конец"
+    }
+   ],
    "description": {
     "en": "RUS: Конец - это долгоиграющий веб-комикс в жанре научно-фантастического приключения. В нём есть интересные и многообразные персонажи, глубоко прописанный мир, богатый сюжет и немало завораживающих загадок."
    },
    "originalLanguage": "en",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +26,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +38,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -42,6 +50,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -52,55 +62,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-28T00:44:57+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "201609ce-e0e0-4b08-93d4-cca3c7454fe1",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "August Brown",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e0e2e12f-d2db-47eb-b03b-eb05793466b6",
-   "type": "chapter"
-  },
-  {
-   "id": "b42384cb-646d-4f73-9ec1-70ca205cee50",
-   "type": "chapter"
-  },
-  {
-   "id": "83a5e631-fb15-4acb-a3c5-66c6101bab4c",
-   "type": "chapter"
-  },
-  {
-   "id": "13f19704-fb4f-4862-a903-5a2fabe6f3f1",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "f5171b31-ca5c-4ff8-ad5f-c7f6f3d9e1ed",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:42:43+00:00",
+    "description": "",
+    "fileName": "e4c7afa5-6662-44ff-8c52-20ccf96565e4.jpg",
+    "updatedAt": "2021-05-24T17:42:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

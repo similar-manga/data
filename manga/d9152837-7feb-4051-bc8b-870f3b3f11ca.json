@@ -7,6 +7,11 @@
    "title": {
     "en": "Natsu no Koshien"
    },
+   "altTitles": [
+    {
+     "en": "ナツの甲子園"
+    }
+   ],
    "description": {
     "en": "Natsuko is a very athletic girl that quit being on the baseball team after junior high, after being rejected by her crush Daichi. After some time, Daichi and the baseball team need one more person to play against another team or they will have to forfeit, so Natsuko is begged to stand-in. However, she stays on the team longer than expected."
    },
@@ -31,6 +36,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,47 +48,53 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-08T23:40:48+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "ea1e9bc4-19b9-4154-87fb-80c4a212cd79",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Enomoto Chizuru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ea1e9bc4-19b9-4154-87fb-80c4a212cd79",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Enomoto Chizuru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bfcaa01f-38de-44b4-aa15-ec6d77442a73",
-   "type": "chapter"
-  },
-  {
-   "id": "f92a3765-0c3b-415b-a591-d28c2b41fbe1",
-   "type": "chapter"
-  },
-  {
-   "id": "24accc9a-5843-45bd-bc0d-47053b265d28",
-   "type": "chapter"
-  },
-  {
-   "id": "87635794-675c-4372-816a-75934fffba93",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
+   "id": "c0f1a2b1-3e5d-4fb0-9ac1-8a6b9dd8967e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:53:59+00:00",
+    "description": "",
+    "fileName": "4d0b82be-a30b-4251-9483-be608e008e6c.jpg",
+    "updatedAt": "2021-05-24T16:53:59+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

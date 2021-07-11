@@ -7,6 +7,17 @@
    "title": {
     "en": "An Ideal Relationship"
    },
+   "altTitles": [
+    {
+     "en": "Isang-ui Gwangye"
+    },
+    {
+     "en": "Идеальные отношения"
+    },
+    {
+     "en": "이상의 관계"
+    }
+   ],
    "description": {
     "en": "Han Hojun decided to take a modelling career because he admired Lee Taein. Lee Taein... a skilled top model, and an unparalleled beauty, but was rumored to have a nasty personality. But then, Hojun accidentally met Taein's eyes during a rehearsal and they kept running into each other after that. Were those meetings just some coincidences?"
    },
@@ -27,6 +38,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,8 +60,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -57,6 +74,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -67,75 +86,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-21T07:50:09+00:00",
+   "updatedAt": "2021-05-25T15:43:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "6d718cd1-8944-4b1d-8365-45df3051b54e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "옹갱",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6d718cd1-8944-4b1d-8365-45df3051b54e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "옹갱",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "85211030-e819-425a-9b38-7f25abc2096d",
-   "type": "chapter"
-  },
-  {
-   "id": "42dfebf5-e5fc-4bbb-b286-2ca6b302525e",
-   "type": "chapter"
-  },
-  {
-   "id": "faef3f3e-b20b-46d9-892c-fd033a652527",
-   "type": "chapter"
-  },
-  {
-   "id": "3cb80759-46f9-43c9-ad25-fd56a72e8ced",
-   "type": "chapter"
-  },
-  {
-   "id": "ad765163-9b3f-421a-83d2-3cb1172990cc",
-   "type": "chapter"
-  },
-  {
-   "id": "8a407392-ba3f-4226-877d-6b2d2f7ab8c3",
-   "type": "chapter"
-  },
-  {
-   "id": "001df21b-6efe-49d0-b988-73314d66cb5f",
-   "type": "chapter"
-  },
-  {
-   "id": "e352fd11-cb35-406e-b460-6e26ec856702",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "7281bb81-d953-4f35-af9b-53c50ddbc38c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:12:39+00:00",
+    "description": "",
+    "fileName": "32f52339-0b13-43dd-96ac-e8bf080d1d6c.png",
+    "updatedAt": "2021-05-24T17:12:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

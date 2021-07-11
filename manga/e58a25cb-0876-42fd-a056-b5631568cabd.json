@@ -30,6 +30,8 @@
       "name": {
        "en": "Sci-Fi"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +42,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +54,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,6 +66,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -70,6 +78,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -80,79 +90,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-05T17:03:29+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "3e009c29-a2b1-41f7-b3b3-0132f20e321a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akiyama Tamayo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "3e009c29-a2b1-41f7-b3b3-0132f20e321a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akiyama Tamayo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "a2938fa0-d398-4076-8a1c-02dd0f7c9adb",
-   "type": "chapter"
-  },
-  {
-   "id": "ddbfcdbe-806e-4119-a8ce-76075e7b01cc",
-   "type": "chapter"
-  },
-  {
-   "id": "53c9c8a1-e053-414a-a2ad-43234f004753",
-   "type": "chapter"
-  },
-  {
-   "id": "a29e3128-d733-4650-8ea7-3caa8a4dafac",
-   "type": "chapter"
-  },
-  {
-   "id": "36c6ba82-3802-4502-8b38-50f099fe7cb6",
-   "type": "chapter"
-  },
-  {
-   "id": "0546094f-4d0e-4f6b-8dc2-d27e27de5b50",
-   "type": "chapter"
-  },
-  {
-   "id": "77ca6f30-3bd7-4c1f-83c8-c49aa313f832",
-   "type": "chapter"
-  },
-  {
-   "id": "c9e46301-a057-4606-a3fd-30782cf0463b",
-   "type": "chapter"
-  },
-  {
-   "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
-   "type": "tag"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "9cff264b-ad88-4f5f-941e-a290f3924182",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:41:28+00:00",
+    "description": "",
+    "fileName": "d8f06f85-4cff-4e8f-828d-d7ec3b587152.png",
+    "updatedAt": "2021-05-24T18:41:28+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

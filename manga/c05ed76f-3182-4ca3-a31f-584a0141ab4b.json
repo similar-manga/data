@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "M\u0026auml;rchen Ōji Grimm"
+    "en": "Märchen Ōji Grimm"
    },
+   "altTitles": [
+    {
+     "en": "Prince of Fairy Tale Grimu"
+    },
+    {
+     "en": "メルヘン王子グリム"
+    }
+   ],
    "description": {
     "en": "Elementary school student Isobe Tatsuhiko has a crush on his classmate Shirayuki Yui. She seems out of his reach, however, since she's a gravure idol with the curves of a grown woman. One day, Prince Grim from the fairy-tale world shows up, trying to get Isobe to take his place and free him from the responsibilities of being a prince. To this end, Isobe's transformation into a fairy-tale person has begun! The only thing that will stop the transformation is to get a kiss of love from Shirayuki. But will Isobe be able to accomplish this with the meddling Grim still hanging around?"
    },
@@ -27,6 +35,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -37,31 +47,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-02-13T09:20:43+00:00",
+   "updatedAt": "2020-02-13T09:20:43+00:00"
   }
  },
  "relationships": [
   {
    "id": "de48fe4a-b20a-4dfb-b8c5-b4d215c375bf",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kizuku Watanabe",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "de48fe4a-b20a-4dfb-b8c5-b4d215c375bf",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kizuku Watanabe",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "1e575a47-2829-4f64-bc4b-f28d7cb3cf75",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:44:55+00:00",
+    "description": "",
+    "fileName": "f8ed2f56-68fc-422f-ae2c-7512b7351df2.jpg",
+    "updatedAt": "2021-05-24T17:44:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

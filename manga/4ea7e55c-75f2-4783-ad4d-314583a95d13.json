@@ -7,6 +7,11 @@
    "title": {
     "en": "School Trip"
    },
+   "altTitles": [
+    {
+     "en": "Iskul Trip"
+    }
+   ],
    "description": {
     "en": "A short comic series featuring 7 high school guys and their crazy antics."
    },
@@ -15,7 +20,6 @@
     "raw": " http://silentsable.deviantart.com/gallery/49811592/Iskul-Trip"
    },
    "originalLanguage": "tl",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +30,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +42,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -46,47 +54,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-05T07:05:42+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "e53bb3a5-2852-41cc-a96f-c7433e00047a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mucho Minion",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "60a3111b-2461-48af-9a15-6ccb305ad1ff",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Navarruto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8e4a2d5d-c699-4a3b-8ed6-50e004c17af5",
-   "type": "chapter"
-  },
-  {
-   "id": "f741a846-893f-4b32-9c1b-6c5e1b75d89c",
-   "type": "chapter"
-  },
-  {
-   "id": "e35710bd-b3f7-4f71-a93d-5cd4bfad493c",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0635fb4b-8a14-4f57-942b-7e2fbfac922f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:00:17+00:00",
+    "description": "",
+    "fileName": "9ee5a732-9a1d-42d6-bce6-f0c177e2a998.jpg",
+    "updatedAt": "2021-05-24T17:00:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

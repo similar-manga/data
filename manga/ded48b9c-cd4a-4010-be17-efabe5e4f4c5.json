@@ -7,6 +7,17 @@
    "title": {
     "en": "Shiori wo Sagasu Page-tachi"
    },
+   "altTitles": [
+    {
+     "en": "Pages in Search of a Bookmark"
+    },
+    {
+     "en": "Страница в поисках закладки"
+    },
+    {
+     "en": "しおりを探すページたち"
+    }
+   ],
    "description": {
     "en": "The story of two girls with a shared love of books falling in love at the library."
    },
@@ -33,6 +44,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,8 +54,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Girl's Love"
+       "en": "Girls' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +68,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,79 +80,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-21T21:52:32+00:00",
+   "updatedAt": "2021-05-25T15:48:35+00:00"
   }
  },
  "relationships": [
   {
    "id": "e4e3c92f-b6eb-4179-a7fc-69d0af2bf38e",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kumo Suzume",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e4e3c92f-b6eb-4179-a7fc-69d0af2bf38e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kumo Suzume",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bc9308d8-ec31-46e4-850f-a28330552a9b",
-   "type": "chapter"
-  },
-  {
-   "id": "a2675ea9-c91f-4edc-b17d-f4576a2dd422",
-   "type": "chapter"
-  },
-  {
-   "id": "9591516c-3043-49ff-afd9-922b9e44ec91",
-   "type": "chapter"
-  },
-  {
-   "id": "90ec6894-1104-4de6-a572-c3cff9fc7ed1",
-   "type": "chapter"
-  },
-  {
-   "id": "0c51acbb-1c29-4ee0-85b4-e1a1293ce4da",
-   "type": "chapter"
-  },
-  {
-   "id": "0dc59388-fae9-47ec-9b68-3491fd506c96",
-   "type": "chapter"
-  },
-  {
-   "id": "67a852fe-c338-436b-a600-628cff04160c",
-   "type": "chapter"
-  },
-  {
-   "id": "79ed12e0-1a48-46ea-87f4-4d5de6a10d35",
-   "type": "chapter"
-  },
-  {
-   "id": "fb5967a9-85cc-4afa-a13e-fbec4da2d502",
-   "type": "chapter"
-  },
-  {
-   "id": "75dd917b-0061-4a23-be6d-3688d4caae31",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "58e3e44d-cfe8-4fde-970d-5853f0cc8aa0",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:19:53+00:00",
+    "description": "",
+    "fileName": "f751d8f3-28eb-48b1-97ea-85e0b3316fdc.jpg",
+    "updatedAt": "2021-05-24T17:19:53+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

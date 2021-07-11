@@ -7,6 +7,14 @@
    "title": {
     "en": "Itoshi no Nekokke: Otaru-hen"
    },
+   "altTitles": [
+    {
+     "en": "The Long Way Home"
+    },
+    {
+     "en": "いとしの猫っ毛 小樽篇"
+    }
+   ],
    "description": {
     "en": "The shy Mii-kun and the lively Kei-chan have been friends since their first meeting in a snowy landscape. The two are inseparable, until Kei-chan gets a girlfriend. Mii-kun, who has secretly long been in love with his best friend, is devastated by the news. How will their relationship advance?"
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -39,8 +49,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,6 +75,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -71,63 +87,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-02T12:15:15+00:00",
+   "updatedAt": "2021-05-25T15:45:53+00:00"
   }
  },
  "relationships": [
   {
    "id": "dcc3e5cb-ec98-423c-a90b-67877b1b078f",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kumota Haruko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "dcc3e5cb-ec98-423c-a90b-67877b1b078f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kumota Haruko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c07e12c0-cb2d-4254-a113-892d41aad607",
-   "type": "chapter"
-  },
-  {
-   "id": "7d2a30bb-0eb4-4d34-8605-e5300c4c5cc3",
-   "type": "chapter"
-  },
-  {
-   "id": "0ef15da2-8fef-463f-a3a8-4b919c0c4bf1",
-   "type": "chapter"
-  },
-  {
-   "id": "514d9fe7-a446-46bd-81db-941eb98608ce",
-   "type": "chapter"
-  },
-  {
-   "id": "3b2ff628-76db-44e6-b5c4-ecc670c70d99",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "b7f455e9-5dc8-4fc0-b127-cfeb56fbf8f4",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:13+00:00",
+    "description": "",
+    "fileName": "c1122dec-31aa-4c79-ae86-0d3bfc991e8e.jpg",
+    "updatedAt": "2021-05-24T16:50:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

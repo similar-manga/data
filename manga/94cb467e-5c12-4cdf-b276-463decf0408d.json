@@ -7,6 +7,14 @@
    "title": {
     "en": "Growlanser VI ~Precarious World~ Comic Anthology"
    },
+   "altTitles": [
+    {
+     "en": "Growlanser: Precarious World Comic Anthology"
+    },
+    {
+     "en": "グローランサーVI プレキャリウス ワールドComic Anthology"
+    }
+   ],
    "description": {
     "en": "A comic anthology with stories and comic strips drawn by various Japanese artists."
    },
@@ -28,6 +36,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,47 +48,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-11-12T09:14:48+00:00",
+   "updatedAt": "2021-05-25T15:45:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "1e5d97ee-3fea-4d2e-b0ea-587260f479d4",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Various",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "95c443e2-0598-4d2e-b86e-a63e3c43ccf2",
-   "type": "chapter"
-  },
-  {
-   "id": "888f7827-6282-4541-b822-814c6d3a7f1b",
-   "type": "chapter"
-  },
-  {
-   "id": "cfbb7223-f23c-4a8c-9977-6c91008c211b",
-   "type": "chapter"
-  },
-  {
-   "id": "2cd16632-62a5-4d4c-9eb0-365334f5480c",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "00f5b03f-b02b-4f2f-997c-5de20941bc48",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:33:32+00:00",
+    "description": "",
+    "fileName": "a16fcf70-6476-4ac8-b8bc-3e10d5973393.jpg",
+    "updatedAt": "2021-05-24T17:33:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

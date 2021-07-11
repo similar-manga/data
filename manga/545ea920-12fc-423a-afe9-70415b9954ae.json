@@ -7,6 +7,17 @@
    "title": {
     "en": "Tokyo Hell Heavens"
    },
+   "altTitles": [
+    {
+     "en": "El paraíso del infierno de Tokio"
+    },
+    {
+     "en": "Токио: Ад и Рай"
+    },
+    {
+     "en": "東京ヘルヘブンズ"
+    }
+   ],
    "description": {
     "en": "Oneshot following the exploits of the mythological pair formed between the demon Loki and the angel Lucifer, whose fundamental and complex task is to decide the unearthly fate of every dead person, decreeing accordingly if their future destiny will be in the fiery lands of hell or in the sweet lands of paradise."
    },
@@ -30,6 +41,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -40,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -50,6 +65,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -60,43 +77,53 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-02-19T09:24:09+00:00",
+   "updatedAt": "2021-05-25T15:42:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "42358b87-f3c5-4c49-99d9-b352c4e03944",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshikawa Miki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "42358b87-f3c5-4c49-99d9-b352c4e03944",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yoshikawa Miki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9f155b2d-3252-43c0-9cde-be127d7313a5",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
+   "id": "5e1990f6-6d7f-4f80-b99a-fed0c13fafac",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:45:42+00:00",
+    "description": "",
+    "fileName": "3fcc2811-df63-4432-ae1c-a5c487c08289.jpg",
+    "updatedAt": "2021-05-24T17:45:42+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

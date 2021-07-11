@@ -5,7 +5,7 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Fire Emblem Fates Comic Anthology Side: Party Gathered \u0026amp; Offspring Generation"
+    "en": "Fire Emblem Fates Comic Anthology Side: Party Gathered \u0026 Offspring Generation"
    },
    "description": {
     "en": "Collection of one-shot comics based on the Fire Emblem Fates game, made by various artists."
@@ -22,6 +22,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +34,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,39 +46,53 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-07-30T00:55:37+00:00",
+   "updatedAt": "2020-07-30T00:55:37+00:00"
   }
  },
  "relationships": [
   {
    "id": "6b3e25cf-8d0d-4abb-b75e-7960fcad2ff6",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Anthology",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6b3e25cf-8d0d-4abb-b75e-7960fcad2ff6",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Anthology",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "60cbd1d5-1277-476b-9916-a8ce82b76cf4",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
+   "id": "02af70a6-fd71-4fc9-b709-27e327db2e2e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:04:48+00:00",
+    "description": "",
+    "fileName": "1650a77a-b545-48ff-9407-130a9d5ca9ea.jpg",
+    "updatedAt": "2021-05-24T18:04:48+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

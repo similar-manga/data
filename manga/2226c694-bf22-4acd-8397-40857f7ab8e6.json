@@ -7,11 +7,15 @@
    "title": {
     "en": "Jibun no Yakuwari"
    },
+   "altTitles": [
+    {
+     "en": "My Role"
+    }
+   ],
    "description": {
     "en": "いつものゆる虫魔女漫画です\r\n激しいカプ描写なしですが注意までに"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -23,6 +27,8 @@
       "name": {
        "en": "Monsters"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -43,6 +51,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -53,43 +63,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2020-10-16T03:15:23+00:00",
+   "updatedAt": "2020-10-16T03:15:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "ddb55469-5d4e-4ee2-b386-cf285e3ea312",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "R@miru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ddb55469-5d4e-4ee2-b386-cf285e3ea312",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "R@miru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "e96ded95-4e59-44e9-815b-c5d9da796dcb",
-   "type": "chapter"
-  },
-  {
-   "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "4678fc66-88ef-4ffb-8a04-bce969718696",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:14:32+00:00",
+    "description": "",
+    "fileName": "9d7e3f79-e84f-406f-a018-813fd0cc4e2e.png",
+    "updatedAt": "2021-05-28T23:14:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

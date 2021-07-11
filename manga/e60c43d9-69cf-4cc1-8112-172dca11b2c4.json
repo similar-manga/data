@@ -7,6 +7,11 @@
    "title": {
     "en": "Neko to Matsu"
    },
+   "altTitles": [
+    {
+     "en": "The Cat And Matsu"
+    }
+   ],
    "description": {
     "en": "The life of a brave little cat and his pet man."
    },
@@ -25,6 +30,8 @@
       "name": {
        "en": "Historical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +42,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -43,8 +52,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +66,8 @@
       "name": {
        "en": "4-Koma"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -65,59 +78,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-10-06T08:37:44+00:00",
+   "updatedAt": "2021-05-25T15:48:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "733ff61a-8855-4657-8c91-9262120f8540",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Hidebu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "733ff61a-8855-4657-8c91-9262120f8540",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takahashi Hidebu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bda88116-b614-4318-8025-ae4538ee47fe",
-   "type": "chapter"
-  },
-  {
-   "id": "39a12d9e-b702-4033-9fc9-6d2e1e68e0b5",
-   "type": "chapter"
-  },
-  {
-   "id": "89516fcf-8989-47f1-b6eb-57827d8757c5",
-   "type": "chapter"
-  },
-  {
-   "id": "6e7c9ac0-4e09-4048-ba8c-f6cf14033f40",
-   "type": "chapter"
-  },
-  {
-   "id": "33771934-028e-4cb3-8744-691e866a923e",
-   "type": "tag"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b11fda93-8f1d-4bef-b2ed-8803d3733170",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "71685a53-5763-4f95-a6b4-0b6f22fd99cd",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:29:11+00:00",
+    "description": "",
+    "fileName": "8643a342-f65a-4607-8305-29b8b824a2f2.jpg",
+    "updatedAt": "2021-05-24T17:29:11+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

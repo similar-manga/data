@@ -7,6 +7,11 @@
    "title": {
     "en": "Sonic the Hedgehog Story Comic"
    },
+   "altTitles": [
+    {
+     "en": "ソニック・ザ・ヘッジホッグ ストーリーコミック"
+    }
+   ],
    "description": {
     "en": "Sonic the Hedgehog Story Comic is a three-volume promotional comic for Sonic the Hedgehog distributed alongside the Japanese magazine Mega Drive Fan.\r\nThe comic tells the story of the first game, with Sonic traversing across South Island and rescuing his animal friends from Dr. Eggman.\r\n\r\nAs the comic was created before the final release of the game, there is a number of references to old concepts and prototype material. Sonic is the lead singer of a band, travels through Sparkling Zone and Clockwork Zone, and the final issue details how Sonic became the mascot of a deceased pilot."
    },
@@ -25,6 +30,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -35,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +54,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,63 +66,53 @@
       "name": {
        "en": "Video Games"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-04-16T15:40:48+00:00",
+   "updatedAt": "2019-04-16T15:40:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "cb0277f2-cda1-4dcb-b276-538bc8b11509",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "SEGA",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "69ef7542-ddeb-4eb6-b6a8-04c7b8c68229",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Toyoda Eitaro",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "15493472-f486-43e3-b7c2-33d23d33d9ae",
-   "type": "chapter"
-  },
-  {
-   "id": "4f35d1d3-6901-4e08-be37-d9331899c716",
-   "type": "chapter"
-  },
-  {
-   "id": "85b84cc9-30d4-4206-ba47-accca7d7f4e2",
-   "type": "chapter"
-  },
-  {
-   "id": "1e89ccf6-5b49-4ae8-b290-332bd3c0afe6",
-   "type": "chapter"
-  },
-  {
-   "id": "e6fa8dd4-cbc1-4829-b6e8-cee075553995",
-   "type": "chapter"
-  },
-  {
-   "id": "63bf798c-1cfd-442a-a923-6a7f3cb7d1a0",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
-   "type": "tag"
+   "id": "fec958c6-8920-4fcb-ac18-384b38ae28e2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:08:16+00:00",
+    "description": "",
+    "fileName": "f760cc21-b956-45bf-bc32-e10a2cf9b884.jpg",
+    "updatedAt": "2021-05-24T17:08:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

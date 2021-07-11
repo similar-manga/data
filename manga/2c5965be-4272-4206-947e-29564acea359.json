@@ -7,6 +7,23 @@
    "title": {
     "en": "Baeg Dosa"
    },
+   "altTitles": [
+    {
+     "en": "Dosa"
+    },
+    {
+     "en": "White Ascetic"
+    },
+    {
+     "en": "White Guru"
+    },
+    {
+     "en": "White Taoist"
+    },
+    {
+     "en": "백도사"
+    }
+   ],
    "description": {
     "en": "In a world where man and man-beast coexist, the violent king reigns ruthlessly over the man-beasts. Join the adventure to free man-beast from the tyrant's oppression."
    },
@@ -28,6 +45,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +57,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -48,6 +69,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,6 +81,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -68,43 +93,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-06-08T22:47:00+00:00",
+   "updatedAt": "2019-06-08T22:47:00+00:00"
   }
  },
  "relationships": [
   {
    "id": "b42a09cf-268c-49bb-8fb6-57f35322e3a9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "늴릴",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "083eaf66-1500-4c91-8eda-72e9f796f61e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "이끼",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "76767491-184b-4f68-b5d4-3cad004a25ec",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:14:50+00:00",
+    "description": "",
+    "fileName": "5cb99f5e-c579-405a-bf04-3fea31ac5b19.jpg",
+    "updatedAt": "2021-05-24T17:14:50+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -11,7 +11,6 @@
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "ongoing",
    "contentRating": "pornographic",
@@ -23,6 +22,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -33,39 +34,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-05-12T17:19:14+00:00",
+   "updatedAt": "2021-05-25T15:38:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "8bdd989c-67e6-4101-a3cb-50e9733e9251",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nagisuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "70f3c6fa-220f-4ffc-8c7d-1592e27bca38",
-   "type": "chapter"
-  },
-  {
-   "id": "2d85aa10-bde7-4e19-b2d2-53080f7043bb",
-   "type": "chapter"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "f54bd08e-a911-4fdb-b934-5be61f5e79b2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:55:41+00:00",
+    "description": "",
+    "fileName": "5be9e3bb-1337-4818-9aff-e38174e8e295.jpg",
+    "updatedAt": "2021-05-24T17:55:41+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

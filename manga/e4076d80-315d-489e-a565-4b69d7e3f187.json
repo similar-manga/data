@@ -7,6 +7,26 @@
    "title": {
     "en": "Loveletter from..."
    },
+   "altTitles": [
+    {
+     "en": "Love Letter from"
+    },
+    {
+     "en": "Love Letter from..."
+    },
+    {
+     "en": "Loveletter from"
+    },
+    {
+     "en": "Loveletter from・・・"
+    },
+    {
+     "en": "Loveletter from..."
+    },
+    {
+     "en": "情書來自…"
+    }
+   ],
    "description": {
     "en": "Included stories:\r\n\r\n- Loveletter from...\r\n- Diorama\r\n- Tsuki wa Yume o Miru ka"
    },
@@ -31,6 +51,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +63,8 @@
       "name": {
        "en": "Anthology"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -51,47 +75,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-09-08T00:22:58+00:00",
+   "updatedAt": "2021-05-25T15:48:52+00:00"
   }
  },
  "relationships": [
   {
    "id": "14ee73b6-86b7-4dce-a86d-9e7b1bfc581b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aruko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "14ee73b6-86b7-4dce-a86d-9e7b1bfc581b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aruko",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c75c5cfa-50fb-45e2-9f86-cff96eab97fe",
-   "type": "chapter"
-  },
-  {
-   "id": "c5a3edcf-ad09-47a3-ba44-01cf97dd7bfb",
-   "type": "chapter"
-  },
-  {
-   "id": "07781238-b81d-4a37-8a63-bf120bc5b490",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "51d83883-4103-437c-b4b1-731cb73d786c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "0d75c340-5959-4f4f-b044-e2ac6fc0d908",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:44:15+00:00",
+    "description": "",
+    "fileName": "30b15113-23ef-4d17-abac-1d19dc42a0ee.jpg",
+    "updatedAt": "2021-05-24T16:44:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

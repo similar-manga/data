@@ -7,6 +7,17 @@
    "title": {
     "en": "Catboy Catday"
    },
+   "altTitles": [
+    {
+     "en": "Cat Boy Cat Day"
+    },
+    {
+     "en": "Kitty Kitty Boy Of The Day"
+    },
+    {
+     "en": "고양소년의 고양한 날"
+    }
+   ],
    "description": {
     "en": "One day, I woke up to find that my cat has become a human!\r\nA new day with cat boy."
    },
@@ -27,6 +38,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,8 +48,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,6 +62,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -57,6 +74,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -67,83 +86,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-02-14T05:20:03+00:00",
+   "updatedAt": "2021-05-25T15:42:33+00:00"
   }
  },
  "relationships": [
   {
    "id": "465cc9b2-8aa4-40f0-bcab-339c7eb77741",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mary",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "465cc9b2-8aa4-40f0-bcab-339c7eb77741",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Mary",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "97810d08-b7aa-4a7d-bbb4-ed308da2c48b",
-   "type": "chapter"
-  },
-  {
-   "id": "a4202184-496d-4227-836d-4ad44e8e647a",
-   "type": "chapter"
-  },
-  {
-   "id": "2aeb0d30-c457-4252-b142-155bc49a3378",
-   "type": "chapter"
-  },
-  {
-   "id": "10db7367-a00f-410e-926f-b7f4f0e9d9f9",
-   "type": "chapter"
-  },
-  {
-   "id": "81dcdf59-3d28-4e5c-a6bd-17e7c1f1cc96",
-   "type": "chapter"
-  },
-  {
-   "id": "fb14ddee-76f0-4dea-a3aa-28d16005bdf5",
-   "type": "chapter"
-  },
-  {
-   "id": "bd5eaa42-83dd-49e8-95f0-a4f7eeac34b7",
-   "type": "chapter"
-  },
-  {
-   "id": "93bd778a-1cb7-4790-b9c7-8187c7e29de9",
-   "type": "chapter"
-  },
-  {
-   "id": "45b71205-ecb8-499d-918e-746308871e12",
-   "type": "chapter"
-  },
-  {
-   "id": "f98690b2-09ef-42c3-a9a1-3f00b5e04b88",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "0dfa8af6-c4d3-4f02-b1f3-59e776381832",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:01:15+00:00",
+    "description": "",
+    "fileName": "098a1306-ec33-40f8-9b9d-1d85aadab623.jpg",
+    "updatedAt": "2021-05-24T17:01:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

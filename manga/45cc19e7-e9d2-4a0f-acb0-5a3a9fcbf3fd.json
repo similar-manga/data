@@ -7,6 +7,11 @@
    "title": {
     "en": "Perfect Fit"
    },
+   "altTitles": [
+    {
+     "en": "パーファクトフィット"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -15,7 +20,6 @@
    },
    "originalLanguage": "ja",
    "lastVolume": "2",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +30,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -34,8 +40,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +54,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -56,39 +66,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-12-28T13:22:51+00:00",
+   "updatedAt": "2019-12-28T13:22:51+00:00"
   }
  },
  "relationships": [
   {
    "id": "bbcd4029-c4fe-4d16-bbad-9fea0f587b67",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tanato",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "bbcd4029-c4fe-4d16-bbad-9fea0f587b67",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Tanato",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "1e4077b5-6949-4f09-b903-e7a54b6bb89a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:39:08+00:00",
+    "description": "",
+    "fileName": "9a882ca4-fb96-4bb2-97f4-534238d935ce.jpg",
+    "updatedAt": "2021-05-24T17:39:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

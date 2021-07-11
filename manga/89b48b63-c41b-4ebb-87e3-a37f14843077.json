@@ -7,6 +7,11 @@
    "title": {
     "en": "Little Sweet Delusion"
    },
+   "altTitles": [
+    {
+     "en": "Küçük Tatlı Delilik"
+    }
+   ],
    "description": {
     "en": "A four-page fairytale cross between Red Riding Hood and Snow White, with a surprisingly dark twist."
    },
@@ -18,7 +23,6 @@
     "mu": "6721"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -29,6 +33,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,6 +45,8 @@
       "name": {
        "en": "Horror"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -49,47 +57,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-18T21:08:24+00:00",
+   "updatedAt": "2021-05-25T15:44:49+00:00"
   }
  },
  "relationships": [
   {
    "id": "429c71ee-157a-45fa-95c3-dd42c53463e8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hasegawa Shunsuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "429c71ee-157a-45fa-95c3-dd42c53463e8",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hasegawa Shunsuke",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "bd0d3070-a6ff-4913-9bd2-b292e555e3df",
-   "type": "chapter"
-  },
-  {
-   "id": "075df089-29a0-4471-b33f-51ec518511c3",
-   "type": "chapter"
-  },
-  {
-   "id": "0dc47574-8fe9-45d1-bee3-a52c66e7f93f",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "cdad7e68-1419-41dd-bdce-27753074a640",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "12f6436a-8f8d-4f07-bd7e-9b493f3f6ffc",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:15+00:00",
+    "description": "",
+    "fileName": "f00877dc-963c-429c-911f-437cbdf84c4b.jpg",
+    "updatedAt": "2021-05-24T16:50:15+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

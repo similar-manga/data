@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Tokai no Tom \u0026amp; Sawyer"
+    "en": "Tokai no Tom \u0026 Sawyer"
    },
+   "altTitles": [
+    {
+     "en": "Machi no Tom \u0026 Sawyer"
+    },
+    {
+     "en": "都会〈まち〉のトム＆ソーヤ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -17,7 +25,6 @@
     "mu": "125314"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shounen",
    "status": "completed",
    "contentRating": "safe",
@@ -29,27 +36,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2019-09-03T09:06:16+00:00",
+   "updatedAt": "2019-09-03T09:06:16+00:00"
   }
  },
  "relationships": [
   {
    "id": "805ce334-c3b5-4865-86ef-409702784fe8",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HAYAMINE Kaoru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "ae98039f-5433-4c2d-a2b8-067223954fd2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fukushima Haruka",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "bac68947-195a-4f34-9da8-da7217a2a6e1",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:25:09+00:00",
+    "description": "",
+    "fileName": "07212112-5838-4456-b615-eee06478b5ed.jpg",
+    "updatedAt": "2021-05-24T17:25:09+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

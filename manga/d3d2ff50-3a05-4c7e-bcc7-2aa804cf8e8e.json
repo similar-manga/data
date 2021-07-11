@@ -7,6 +7,14 @@
    "title": {
     "en": "Boku no Ichiban Nagai Hi"
    },
+   "altTitles": [
+    {
+     "en": "El día más largo de mi vida"
+    },
+    {
+     "en": "僕の一番長い日"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -26,6 +34,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -36,6 +46,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,6 +58,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -56,43 +70,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-09-01T07:50:19+00:00",
+   "updatedAt": "2021-05-25T15:48:11+00:00"
   }
  },
  "relationships": [
   {
    "id": "2336c2f6-a7d7-4980-ad68-bbbf564254ad",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kusakabe Yuuhei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2336c2f6-a7d7-4980-ad68-bbbf564254ad",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Kusakabe Yuuhei",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7e571709-134f-4061-8a85-418e51a77bb6",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "76bdd1a1-a5c0-4ff5-8ecd-cbfa03681a3a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:08:39+00:00",
+    "description": "",
+    "fileName": "4aec0a9d-5b61-4380-b1ab-7cd1be62dd3b.jpg",
+    "updatedAt": "2021-05-24T18:08:39+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

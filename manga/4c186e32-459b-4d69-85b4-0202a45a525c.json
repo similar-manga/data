@@ -7,6 +7,14 @@
    "title": {
     "en": "Kanojo to Kanojo no Neko"
    },
+   "altTitles": [
+    {
+     "en": "She and Her Cat"
+    },
+    {
+     "en": "Она и её кот"
+    }
+   ],
    "description": {
     "en": "A cat reminisces about his life with and feelings for his owner, a single woman."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Animals"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,59 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-01-02T02:32:53+00:00",
+   "updatedAt": "2021-05-25T15:42:09+00:00"
   }
  },
  "relationships": [
   {
    "id": "41bc363f-a93b-43b9-aaad-310256e7b8f3",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Shinkai Makoto",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "2d3845fa-e596-488f-b705-fff36d9ba23f",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Yamaguchi Tsubasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f7246c8b-cf1a-428f-815f-5226e05668b9",
-   "type": "chapter"
-  },
-  {
-   "id": "fe0afd90-e6b2-4902-ad25-3870e445b5a3",
-   "type": "chapter"
-  },
-  {
-   "id": "d10f70e4-81a8-4591-a647-ef164991cd04",
-   "type": "chapter"
-  },
-  {
-   "id": "8205f7ea-5345-4ab8-9328-091b658293eb",
-   "type": "chapter"
-  },
-  {
-   "id": "13099bb6-29bd-434d-ad06-6ee08efe7add",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "8d948aca-9f6b-4fc9-b850-d6a0347df860",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:56:32+00:00",
+    "description": "",
+    "fileName": "58493839-d158-4f1d-855b-688e617f783c.jpg",
+    "updatedAt": "2021-05-24T16:56:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
    "title": {
     "en": "My Favourite Person Came to My Part-Time Job!"
    },
+   "altTitles": [
+    {
+     "en": "バイト先に好きな人が来ちゃった"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -14,7 +19,6 @@
     "raw": "https://twitter.com/folder_hn/status/1314403206668017664"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -25,6 +29,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +41,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -45,6 +53,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +65,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -65,55 +77,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-11-14T16:59:23+00:00",
+   "updatedAt": "2021-05-25T15:46:58+00:00"
   }
  },
  "relationships": [
   {
    "id": "e51c30ca-d59d-4440-9ab8-2b68a950b96b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Folder_hn",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "e51c30ca-d59d-4440-9ab8-2b68a950b96b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Folder_hn",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "cbc11d06-5070-4aa3-8efd-d72151e0192a",
-   "type": "chapter"
-  },
-  {
-   "id": "24f1cbf8-bdc5-4fa4-ab7f-d0808756b270",
-   "type": "chapter"
-  },
-  {
-   "id": "484d6f99-730e-4df2-8656-5b6d8d314d8b",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "6edbdb95-a621-4f11-8b38-6a7cdaca9720",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:18:43+00:00",
+    "description": "",
+    "fileName": "752ac99e-4a82-4f02-aa3b-e9672ebfe8b5.jpg",
+    "updatedAt": "2021-05-24T18:18:43+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

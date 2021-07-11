@@ -5,13 +5,17 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Haikyuu!! - KageHina\u0026rsquo;s Steamy Hotspring Trip (Doujinshi)"
+    "en": "Haikyuu!! - KageHina’s Steamy Hotspring Trip (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "KageHi Onsen Yukemuri Ryojou"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "josei",
    "status": "completed",
    "contentRating": "safe",
@@ -21,8 +25,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -33,6 +39,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -43,39 +51,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2021-01-26T17:25:28+00:00",
+   "updatedAt": "2021-05-25T15:43:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "8b83aca6-9cc6-4016-9323-4055a4c9f0a7",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Akoyagai To Aumale Ebi /Ooki Bonta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "adf9e098-4f5f-4d1c-b609-af677b0eb7f2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ooki Bonta",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "8a96de3d-31be-48c2-a849-f5915445a4e0",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "29eb7548-da88-4f86-b117-39d1ee7c2ac2",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:28:45+00:00",
+    "description": "",
+    "fileName": "9f245622-44c7-49d5-8af7-ab72ed53375a.png",
+    "updatedAt": "2021-05-24T18:28:45+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -7,6 +7,14 @@
    "title": {
     "en": "Aa! Seishun no Koushien"
    },
+   "altTitles": [
+    {
+     "en": "Ah! Seishun no Koushien"
+    },
+    {
+     "en": "ああ!青春の甲子園"
+    }
+   ],
    "description": {
     "en": "Combining some of the early works of Adachi Mitsuru, these books include the two stories Hatsukoi Koshien and Nakimushi Koushien, respectively covering 2 and 4 volumes. Both are focused on baseball youth and the desire to reach Koushien, the famous stage of the high school baseball national championships. Volume 7 and the end of Volume 6 contain a selection of short stories."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Sports"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,79 +75,53 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-17T20:13:27+00:00",
+   "updatedAt": "2021-05-25T15:44:25+00:00"
   }
  },
  "relationships": [
   {
    "id": "535c5ca1-f7a6-4f64-b698-7781cb9f4f7d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "YAMASAKI Juuzou",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a3d6caa5-9c97-4632-a237-d385a9e5a4c5",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ADACHI Mitsuru",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "331ae64b-48f2-4077-9707-790c87bfac5d",
-   "type": "chapter"
-  },
-  {
-   "id": "91b7a5c4-d0fc-4012-9a9b-2caa69ae1b4e",
-   "type": "chapter"
-  },
-  {
-   "id": "3a93ea2e-e834-44c4-9653-aaf9ca735256",
-   "type": "chapter"
-  },
-  {
-   "id": "23b4d2c3-18af-424e-9a6a-fc74409339a3",
-   "type": "chapter"
-  },
-  {
-   "id": "48068f55-227a-4377-9d73-097252fe8d2a",
-   "type": "chapter"
-  },
-  {
-   "id": "ea600536-63d6-4624-8bb0-6b9722bfb40c",
-   "type": "chapter"
-  },
-  {
-   "id": "00b2183a-434a-45f1-9a15-9a7cccaae287",
-   "type": "chapter"
-  },
-  {
-   "id": "9285a558-c323-47c3-aebd-fb5d0d997f7d",
-   "type": "chapter"
-  },
-  {
-   "id": "7d49c430-be30-434b-a26f-f10b221d4916",
-   "type": "chapter"
-  },
-  {
-   "id": "a942ee22-98a6-4c0b-8694-c32abacc4eee",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
+   "id": "84f7805a-74bc-4fc0-a647-6d0ba563fd69",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:42:13+00:00",
+    "description": "",
+    "fileName": "53697f83-9d1a-40dd-a1c7-09e71966171a.jpg",
+    "updatedAt": "2021-05-24T16:42:13+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

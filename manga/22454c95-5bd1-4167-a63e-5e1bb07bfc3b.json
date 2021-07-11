@@ -5,8 +5,22 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Petite P\u0026ecirc;che!"
+    "en": "Petite Pêche!"
    },
+   "altTitles": [
+    {
+     "en": "Little Peach!"
+    },
+    {
+     "en": "Petite Peche!"
+    },
+    {
+     "en": "プティトゥ・ペッシュ!"
+    },
+    {
+     "en": "我的小小治癒之桃"
+    }
+   ],
    "description": {
     "en": "Teen Magazine editor, Yoriko, stumbles into a mysterious cafe that is only open at night and seems to be run by a witch!"
    },
@@ -18,7 +32,6 @@
     "mu": "112517"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "shoujo",
    "status": "completed",
    "contentRating": "safe",
@@ -30,6 +43,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,39 +55,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-05-16T09:06:26+00:00",
+   "updatedAt": "2021-05-25T15:40:20+00:00"
   }
  },
  "relationships": [
   {
    "id": "d162127e-7665-4956-b756-c618ced56ef9",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HATORI Bisco",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d162127e-7665-4956-b756-c618ced56ef9",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HATORI Bisco",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f124bd2e-ccb7-4b86-a44a-da35379e4c6f",
-   "type": "chapter"
-  },
-  {
-   "id": "75b1cdd3-38b5-45e9-b7bc-b4736a800a02",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "2cd110d3-d2d9-4ff8-90f9-eb541bf10b37",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:12:02+00:00",
+    "description": "",
+    "fileName": "4755299c-84c9-48eb-9518-38c7936fd63c.jpg",
+    "updatedAt": "2021-05-24T17:12:02+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

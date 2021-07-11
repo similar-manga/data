@@ -7,6 +7,14 @@
    "title": {
     "en": "The Park at Night"
    },
+   "altTitles": [
+    {
+     "en": "Yoru no Kouen"
+    },
+    {
+     "en": "夜の公園"
+    }
+   ],
    "description": {
     "en": "A couple's night in the park.\r\n\r\nFrom Garo 1982-08"
    },
@@ -18,7 +26,6 @@
     "mu": "123045"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "suggestive",
    "tags": [
@@ -29,6 +36,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -39,39 +48,53 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-04T06:28:08+00:00",
+   "updatedAt": "2021-05-25T15:43:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "c370fad4-3b24-41a0-be06-d3c9dab8a463",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Eguchi Mitsumasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "c370fad4-3b24-41a0-be06-d3c9dab8a463",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Eguchi Mitsumasa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "14e20f74-3f60-494b-8164-51402bedd251",
-   "type": "chapter"
-  },
-  {
-   "id": "0e67760c-e002-4d8f-8bae-839827a0cc2a",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
+   "id": "e135c05f-dafd-4f11-a847-f429f23793b3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:50:25+00:00",
+    "description": "",
+    "fileName": "4ae8b383-71f2-4c59-ab5e-844bc18cb6a9.jpg",
+    "updatedAt": "2021-05-24T16:50:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

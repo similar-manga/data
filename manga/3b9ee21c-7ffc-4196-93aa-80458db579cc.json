@@ -5,8 +5,16 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Ore ga Ojou-sama Gakkou ni \u0026quot;Shomin Sample\u0026quot; Toshite Spinoff Sareta Ken"
+    "en": "Ore ga Ojou-sama Gakkou ni \"Shomin Sample\" Toshite Spinoff Sareta Ken"
    },
+   "altTitles": [
+    {
+     "en": "Shomin Sample Spin-off"
+    },
+    {
+     "en": "俺がお嬢様学校に「庶民サンプル」としてスピンオフされた件"
+    }
+   ],
    "description": {
     "en": "Spin-off that focuses on Kimito's daily life at Seikan Academy trying to teach Aika and the Commoner Club Members the world of a commoner, while dealing with mishaps and chaos that's caused by both Aika's idiocy and Kimito's tendency to tease and trick her at the worst possible moment."
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Harem"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -61,79 +75,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-11-13T11:02:25+00:00",
+   "updatedAt": "2021-05-25T15:41:23+00:00"
   }
  },
  "relationships": [
   {
    "id": "0d9c3670-2464-4b99-bccf-ea66dedc9c62",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nanatsuki Takafumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "b3341351-17f4-433f-b717-42f47cd0d900",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Sw",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "9972aea7-aee5-4020-9f61-6dbd2d762e21",
-   "type": "chapter"
-  },
-  {
-   "id": "7e172522-3cf4-47ce-af20-3c223859d980",
-   "type": "chapter"
-  },
-  {
-   "id": "730194a3-22b1-441d-93c6-d2d560e8291e",
-   "type": "chapter"
-  },
-  {
-   "id": "6ee6ba36-0c8c-49c8-9b2b-4cfd6bcaffda",
-   "type": "chapter"
-  },
-  {
-   "id": "85dbd4c7-f067-4fd7-86c2-a916ed564e37",
-   "type": "chapter"
-  },
-  {
-   "id": "4a18f242-fda3-48a9-a001-82e360200419",
-   "type": "chapter"
-  },
-  {
-   "id": "f3243c82-73ae-421c-bcc6-616b3f87f8a6",
-   "type": "chapter"
-  },
-  {
-   "id": "f45b85b8-1640-4ee3-bb42-b74643c00e2e",
-   "type": "chapter"
-  },
-  {
-   "id": "deab6acd-50e1-43f7-9add-d5dfd2b0c94c",
-   "type": "chapter"
-  },
-  {
-   "id": "edd60eba-dd76-4009-86ea-2e8336179fbc",
-   "type": "chapter"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "d913e7c6-694f-4f04-a9b2-a6e58b0d5195",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:51:27+00:00",
+    "description": "",
+    "fileName": "5eab1c1d-2537-4c03-8c56-7df6b595c924.jpg",
+    "updatedAt": "2021-05-24T16:51:27+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

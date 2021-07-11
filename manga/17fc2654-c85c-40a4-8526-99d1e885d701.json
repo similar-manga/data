@@ -7,6 +7,17 @@
    "title": {
     "en": "Beautiful Name"
    },
+   "altTitles": [
+    {
+     "en": "A Very Good Name"
+    },
+    {
+     "en": "الاسم الجميل"
+    },
+    {
+     "en": "ビューティフルネーム"
+    }
+   ],
    "description": {
     "en": "From Here:\r\nFirst year high school student Karin holds tightly to the memory of her childhood love Yuuki-kun; so tightly that she still wears her hair in the same childhood style (two ponytails) to be sure that if they ever meet again, he'll recognize her. Delivering papers to the school infirmary, she meets up with a boy who seems to be coughing up blood (of course it's actually juice). He's an incorrigible prankster who can't resist teasing Karin constantly and pursues her even after she tells him she's still loyal to her first love, much to her consternation!"
    },
@@ -31,6 +42,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +54,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,51 +66,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-12-10T17:22:01+00:00",
+   "updatedAt": "2021-05-25T15:39:48+00:00"
   }
  },
  "relationships": [
   {
    "id": "9b6e4e1c-789d-476a-988a-60170ee9e69b",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katayama Kozue",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "9b6e4e1c-789d-476a-988a-60170ee9e69b",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Katayama Kozue",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "b5c4c6d2-a7d1-4d28-aa97-07520eee5608",
-   "type": "chapter"
-  },
-  {
-   "id": "f746b319-a1e4-46f9-b081-4226fc151055",
-   "type": "chapter"
-  },
-  {
-   "id": "442d75cc-bec4-464a-a43b-6ab05add9264",
-   "type": "chapter"
-  },
-  {
-   "id": "92c7b9c9-36f8-4f76-813d-e3251a8a534f",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "bf2f7bd5-cc6a-4f60-96c5-5739b3a749c3",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:54:08+00:00",
+    "description": "",
+    "fileName": "1d6a532f-0563-4570-aed5-f3c245c1451d.jpg",
+    "updatedAt": "2021-05-24T16:54:08+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

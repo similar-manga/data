@@ -7,6 +7,14 @@
    "title": {
     "en": "Futari no Lion"
    },
+   "altTitles": [
+    {
+     "en": "The Two Lions"
+    },
+    {
+     "en": "ふたりのライオン"
+    }
+   ],
    "description": {
     "en": "Junpei Shishido is a friendly guy who gets along well with anyone and everyone. One day, he meets a young man at university who acts aloof and distant towards him, and yet he looks familiar?"
    },
@@ -28,8 +36,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -40,6 +50,8 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -50,67 +62,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-07-22T15:49:01+00:00",
+   "updatedAt": "2021-05-25T15:38:57+00:00"
   }
  },
  "relationships": [
   {
    "id": "745767e1-6e77-4cb5-af91-290fe31af12d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Furuya Nagisa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "745767e1-6e77-4cb5-af91-290fe31af12d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Furuya Nagisa",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "31f6b322-4fde-4497-bc8f-db721e6a0b97",
-   "type": "chapter"
-  },
-  {
-   "id": "6c5cc328-f3ca-45b3-8f9f-5f403af74bcc",
-   "type": "chapter"
-  },
-  {
-   "id": "e695aa65-3636-4ba4-9842-95c1bdd5477e",
-   "type": "chapter"
-  },
-  {
-   "id": "95d06826-7a02-4030-950f-0ec4d8631830",
-   "type": "chapter"
-  },
-  {
-   "id": "3ce00e59-1243-4e9c-8d43-6b878fa072d7",
-   "type": "chapter"
-  },
-  {
-   "id": "035a883e-afe3-4270-928f-4d500bf14ab7",
-   "type": "chapter"
-  },
-  {
-   "id": "ad7ad9a3-d6d9-4567-8b8d-b6458c8388aa",
-   "type": "chapter"
-  },
-  {
-   "id": "2a439a2e-9f73-417c-a2be-3fca4ac933c2",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "99d00a5b-04f5-4f44-924a-9c9503847d4d",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:19:58+00:00",
+    "description": "",
+    "fileName": "2a2efdbc-baaf-44ed-a7ce-7824d03842b3.jpg",
+    "updatedAt": "2021-05-24T17:19:58+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

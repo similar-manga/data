@@ -25,6 +25,8 @@
       "name": {
        "en": "Official Colored"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -35,6 +37,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -45,6 +49,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -55,6 +61,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -65,6 +73,8 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -75,6 +85,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -85,91 +97,53 @@
       "name": {
        "en": "Full Color"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-17T12:04:06+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "c1c4fd65-6138-4d4a-b14b-cee65cce25fe",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Angellina",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "23b17eff-8f7b-40b3-86a2-c053d5ec1a2e",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Takoyaki",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "fce604b1-c10d-4fc9-9a3b-8fa7d6546d43",
-   "type": "chapter"
-  },
-  {
-   "id": "f154ed3a-5b90-40ee-a1e5-758de60b558a",
-   "type": "chapter"
-  },
-  {
-   "id": "c4e16469-fcf4-445d-b3e8-c1193b33ed1a",
-   "type": "chapter"
-  },
-  {
-   "id": "3066ddfc-aabc-408f-91c7-f4c58bc8b2dd",
-   "type": "chapter"
-  },
-  {
-   "id": "ee8b32c7-bbd5-4fce-ad88-b8b9ad03ae0e",
-   "type": "chapter"
-  },
-  {
-   "id": "b5583be1-842d-407b-972a-7b8974bad96a",
-   "type": "chapter"
-  },
-  {
-   "id": "92411ba9-e271-4e15-a8be-6f578e589e11",
-   "type": "chapter"
-  },
-  {
-   "id": "0c2ed659-c7e6-415f-b0b9-749907621e0f",
-   "type": "chapter"
-  },
-  {
-   "id": "2b551d64-0103-4b4d-ad44-306f8cd530bd",
-   "type": "chapter"
-  },
-  {
-   "id": "cfa695f5-aff9-44b3-89de-3facc19912fb",
-   "type": "chapter"
-  },
-  {
-   "id": "320831a8-4026-470b-94f6-8353740e6f04",
-   "type": "tag"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-   "type": "tag"
+   "id": "baf8d3fd-2828-4f3e-af19-c85d9149fdda",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:52:47+00:00",
+    "description": "",
+    "fileName": "5b2e04f5-6bb9-4503-8771-b423257159d0.png",
+    "updatedAt": "2021-05-24T17:52:47+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

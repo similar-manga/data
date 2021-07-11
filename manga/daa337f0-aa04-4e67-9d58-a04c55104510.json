@@ -5,13 +5,20 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Hokuto no Ken \u0026amp; Toaru Kagaku no Railgun - Toaru Kenpouka no Goushouha (Doujinshi)"
+    "en": "Hokuto no Ken \u0026 Toaru Kagaku no Railgun - Toaru Kenpouka no Goushouha (Doujinshi)"
    },
+   "altTitles": [
+    {
+     "en": "(C84) とある拳法家の剛掌波 (とある科学の超電磁砲)"
+    },
+    {
+     "en": "Fist of the North Star \u0026 A Certain Scientific Railgun - Toaru Kenpouka no Goushouha"
+    }
+   ],
    "description": {
     "en": ""
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "completed",
    "contentRating": "safe",
    "tags": [
@@ -22,6 +29,8 @@
       "name": {
        "en": "Psychological"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -32,6 +41,8 @@
       "name": {
        "en": "Doujinshi"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -42,6 +53,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -52,55 +65,77 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-03-13T07:26:22+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "8c646bef-5b0b-4809-80ed-32c098a74b14",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ojou No Yokushitsu (Circle)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a3cd96b0-fe6f-4cbe-a392-b43fa0e2682d",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "8c646bef-5b0b-4809-80ed-32c098a74b14",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Ojou No Yokushitsu (Circle)",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "a3cd96b0-fe6f-4cbe-a392-b43fa0e2682d",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Aya",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "6daaf494-57a1-49c0-a00c-57d0ef008248",
-   "type": "chapter"
-  },
-  {
-   "id": "acf1b858-40ba-460c-a55e-e94d412417e4",
-   "type": "chapter"
-  },
-  {
-   "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
-   "type": "tag"
-  },
-  {
-   "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "edc553ea-b182-4fbd-8b7b-cc81ccf6389c",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:04:23+00:00",
+    "description": "",
+    "fileName": "902026cf-860f-4cac-8e24-d36b1d836f33.jpg",
+    "updatedAt": "2021-05-24T17:04:23+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

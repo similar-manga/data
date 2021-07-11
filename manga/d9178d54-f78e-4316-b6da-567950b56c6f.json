@@ -7,8 +7,13 @@
    "title": {
     "en": "Dungeon Tuber!!!"
    },
+   "altTitles": [
+    {
+     "en": "ダンジョン・チューバ―!!!"
+    }
+   ],
    "description": {
-    "en": "Once upon a time, there was a powerful demon world who threatened the world, bringing death and destruction in his wake. Humanity banded together and, after much hardship, were able to defeat him. \r\n\r\nMillennia have passed since. While the demon lord is dead, his influence still rings throughout the world. Dungeons pop across the world frequently, filled with both treasure and danger. And a new trend has been created as a result. \r\n\r\nThey\u0026rsquo;re a bunch of teenagers, all looking for popularity. Utilizing fairy-mounted cameras, they livestream their adventures in these dungeons for the world to see. They live for both the risk and the views. They are Dungeon Tubers."
+    "en": "Once upon a time, there was a powerful demon world who threatened the world, bringing death and destruction in his wake. Humanity banded together and, after much hardship, were able to defeat him. \r\n\r\nMillennia have passed since. While the demon lord is dead, his influence still rings throughout the world. Dungeons pop across the world frequently, filled with both treasure and danger. And a new trend has been created as a result. \r\n\r\nThey’re a bunch of teenagers, all looking for popularity. Utilizing fairy-mounted cameras, they livestream their adventures in these dungeons for the world to see. They live for both the risk and the views. They are Dungeon Tubers."
    },
    "links": {
     "mu": "154294"
@@ -26,6 +31,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +43,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,47 +55,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2019-12-02T04:09:41+00:00",
+   "updatedAt": "2021-05-25T15:48:27+00:00"
   }
  },
  "relationships": [
   {
    "id": "1cfae74a-fcc1-45c5-9373-305f0f4ec467",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "HEN",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "2409f39d-3523-4794-9846-c217b0d5959d",
-   "type": "chapter"
-  },
-  {
-   "id": "3debc120-0f2d-4fdc-b651-6b90a7a768e0",
-   "type": "chapter"
-  },
-  {
-   "id": "3097d321-82f6-4699-88fe-196e335e16bd",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "da1adf7c-555d-4f6b-bf2e-b9b28997e9cf",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:35:55+00:00",
+    "description": "",
+    "fileName": "a556e76e-a6aa-47c0-bb30-3e7611f1475c.jpg",
+    "updatedAt": "2021-05-24T17:35:55+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

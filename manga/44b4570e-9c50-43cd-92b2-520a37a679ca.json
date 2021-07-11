@@ -7,6 +7,20 @@
    "title": {
     "en": "Galette des rois - Joouheika no Kashi Shokunin"
    },
+   "altTitles": [
+    {
+     "en": "Galette des Rois"
+    },
+    {
+     "en": "Galette des rois - Joou Heika no Kashi Shokunin"
+    },
+    {
+     "en": "ガレット・デ・ロワ～女王陛下の菓子職人～"
+    },
+    {
+     "en": "女王陛下的甜品师"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +45,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,51 +57,53 @@
       "name": {
        "en": "Cooking"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-02-07T09:41:23+00:00",
+   "updatedAt": "2021-05-25T15:41:46+00:00"
   }
  },
  "relationships": [
   {
    "id": "821bbfd4-b534-4379-a6ff-498196273435",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hato Rami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "821bbfd4-b534-4379-a6ff-498196273435",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hato Rami",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "c242cb37-9b18-421b-b86f-fff98ed311a1",
-   "type": "chapter"
-  },
-  {
-   "id": "722828fd-38ad-4c1c-9396-a982282d1336",
-   "type": "chapter"
-  },
-  {
-   "id": "d1f24cb6-fe73-434d-a1b7-1a2dc9cc166b",
-   "type": "chapter"
-  },
-  {
-   "id": "64a6c427-70a2-491f-965d-d16134003d8d",
-   "type": "chapter"
-  },
-  {
-   "id": "99c294bc-3d5f-4b35-b9aa-3bded8aa77e0",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
-   "type": "tag"
+   "id": "d4eba20b-1993-4f4d-a044-dffdc88c0c5a",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:43:01+00:00",
+    "description": "",
+    "fileName": "8b679fd0-ef73-4934-a250-3cb34bd75f29.jpg",
+    "updatedAt": "2021-05-24T18:43:01+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

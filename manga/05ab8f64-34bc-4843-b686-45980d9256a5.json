@@ -7,6 +7,11 @@
    "title": {
     "en": "Winter Woods"
    },
+   "altTitles": [
+    {
+     "en": "윈터우즈"
+    }
+   ],
    "description": {
     "en": "A colorful fairytale-like story of Winter, who wants to become a living human and Jane, who wants to become a best selling fairytale author."
    },
@@ -33,6 +38,8 @@
       "name": {
        "en": "Long Strip"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -43,6 +50,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -53,6 +62,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -63,6 +74,8 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -73,6 +86,8 @@
       "name": {
        "en": "Supernatural"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     },
@@ -83,87 +98,53 @@
       "name": {
        "en": "Mystery"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
    "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "createdAt": "2018-10-18T04:59:13+00:00",
+   "updatedAt": "2018-10-18T04:59:13+00:00"
   }
  },
  "relationships": [
   {
    "id": "3902a0f2-e577-4f7c-950d-7c09c6831cbb",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "cosmos",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "4f6e521c-69e9-49f0-b5a7-ce685640ea57",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Banji",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "f8ed42b5-baca-410a-9b66-74cd982a073a",
-   "type": "chapter"
-  },
-  {
-   "id": "8af1cde6-9b4f-4267-a3f4-9273f990f9f0",
-   "type": "chapter"
-  },
-  {
-   "id": "1558dc76-b775-4205-8823-c5056c1d295e",
-   "type": "chapter"
-  },
-  {
-   "id": "2e626e8f-037a-4627-85f6-bdcac4ec9df3",
-   "type": "chapter"
-  },
-  {
-   "id": "64f2450a-bd91-4e2f-b2d4-e657167e9b9f",
-   "type": "chapter"
-  },
-  {
-   "id": "35ce6d0c-7ad8-4136-929a-9e9bace90238",
-   "type": "chapter"
-  },
-  {
-   "id": "b0d85d20-1927-478d-9bb3-22837fecf9d9",
-   "type": "chapter"
-  },
-  {
-   "id": "80297ad3-79ad-4bcd-82f9-6098249328f3",
-   "type": "chapter"
-  },
-  {
-   "id": "92f5c299-c0cb-49a1-820f-9c1ff488f750",
-   "type": "chapter"
-  },
-  {
-   "id": "8211ea30-3c99-415a-b42b-e6b123b4eb25",
-   "type": "chapter"
-  },
-  {
-   "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
-   "type": "tag"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
-  },
-  {
-   "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-   "type": "tag"
-  },
-  {
-   "id": "ee968100-4191-4968-93d3-f82d72be7e46",
-   "type": "tag"
+   "id": "69760d0d-a8f4-4f4e-93d4-fd2b31c0e0e9",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T16:48:31+00:00",
+    "description": "",
+    "fileName": "2d54836c-27dd-4a06-ae31-9152c8813e63.jpg",
+    "updatedAt": "2021-05-24T16:48:31+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

@@ -15,7 +15,6 @@
     "engtl": "https://www.lezhin.com/en/library/comic/en-US/3points_en"
    },
    "originalLanguage": "ko",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "erotica",
    "tags": [
@@ -24,8 +23,10 @@
      "type": "tag",
      "attributes": {
       "name": {
-       "en": "Boy's Love"
+       "en": "Boys' Love"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,39 +37,53 @@
       "name": {
        "en": "Web Comic"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-14T22:51:26+00:00",
+   "updatedAt": "2021-05-25T15:48:03+00:00"
   }
  },
  "relationships": [
   {
    "id": "b5208a87-ddf4-421c-89a6-eccfb1c69964",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "White Eared",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66b25141-3761-4130-b3ce-c917ad1ea011",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "5c448882-9fcd-4a42-a7db-48416bbcb898",
-   "type": "chapter"
-  },
-  {
-   "id": "1385366b-ffc3-4fac-9089-2f1fdb7abb28",
-   "type": "chapter"
-  },
-  {
-   "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
-   "type": "tag"
-  },
-  {
-   "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
-   "type": "tag"
+   "id": "34bda94b-6cf6-4fb6-a3fa-843e8bb64952",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:52:25+00:00",
+    "description": "",
+    "fileName": "4f0954d4-71d5-415c-a14c-139a34573e29.jpg",
+    "updatedAt": "2021-05-24T17:52:25+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

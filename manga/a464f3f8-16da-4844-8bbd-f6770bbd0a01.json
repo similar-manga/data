@@ -7,6 +7,29 @@
    "title": {
     "en": "My Dream, My Work"
    },
+   "altTitles": [
+    {
+     "en": "Küçük Drama"
+    },
+    {
+     "en": "Mini Drama - Toast"
+    },
+    {
+     "en": "Mini Drama [Toast]"
+    },
+    {
+     "en": "Mini Drama: Toast"
+    },
+    {
+     "en": "Tost"
+    },
+    {
+     "en": "나의 꿈"
+    },
+    {
+     "en": "나의 일"
+    }
+   ],
    "description": {
     "en": "This is a story of a boy who dreams of being with a girlfriend on the night of the first snowfall of the year and a girl who he happened to cross paths with on the night of the first snowfall of the year. The girl, however, mistakes him for a pickpocket when he tries to return the wallet that she dropped. Already in a bad mood from a breakup, the girl mysteriously gives him a piece of toast and leaves him standing there in awe. Was it fate or coincidence that those two happened to meet each other on the night of the first snowfall of the year?"
    },
@@ -28,6 +51,8 @@
       "name": {
        "en": "Romance"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -38,6 +63,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -48,6 +75,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -58,67 +87,53 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-06-11T01:54:20+00:00",
+   "updatedAt": "2021-05-25T15:46:01+00:00"
   }
  },
  "relationships": [
   {
    "id": "d735ddd6-44cb-4820-a607-705d7675455c",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Seok-Woo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "d735ddd6-44cb-4820-a607-705d7675455c",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Seok-Woo",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "7a54827d-9c35-475c-9476-1c1f91bfab3f",
-   "type": "chapter"
-  },
-  {
-   "id": "8f0ffb72-8e00-4ad1-b673-8815df845125",
-   "type": "chapter"
-  },
-  {
-   "id": "985061b2-c702-476a-8f18-16023d612dc9",
-   "type": "chapter"
-  },
-  {
-   "id": "971fe85a-e7ef-428b-910f-087216179cc8",
-   "type": "chapter"
-  },
-  {
-   "id": "6e39cc99-d215-403b-bd13-45270d188c89",
-   "type": "chapter"
-  },
-  {
-   "id": "6bbfdce6-b36b-401b-95fa-cbed088e7c8c",
-   "type": "chapter"
-  },
-  {
-   "id": "d098f585-7d62-4dce-850e-8db20dfcdc42",
-   "type": "chapter"
-  },
-  {
-   "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
+   "id": "41377fb5-6b26-4f1d-a4a7-0e3cfe6829c7",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T18:37:07+00:00",
+    "description": "",
+    "fileName": "e28753c3-676a-4a37-84dd-f89a16d69fda.jpg",
+    "updatedAt": "2021-05-24T18:37:07+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

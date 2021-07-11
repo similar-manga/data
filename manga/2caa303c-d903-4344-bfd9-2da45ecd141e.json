@@ -15,7 +15,6 @@
     "mu": "173892"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "publicationDemographic": "seinen",
    "status": "completed",
    "contentRating": "safe",
@@ -27,6 +26,8 @@
       "name": {
        "en": "Oneshot"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     },
@@ -37,6 +38,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -47,55 +50,53 @@
       "name": {
        "en": "School Life"
       },
+      "description": null,
+      "group": "theme",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-12-10T22:30:55+00:00",
+   "updatedAt": "2021-05-25T15:40:44+00:00"
   }
  },
  "relationships": [
   {
    "id": "66208046-3929-4cad-9092-65ba8314571a",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hanzutsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "66208046-3929-4cad-9092-65ba8314571a",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Hanzutsu",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "79d4081b-84f4-46f0-8821-e0bab780d962",
-   "type": "chapter"
-  },
-  {
-   "id": "01877de9-ba29-465d-b411-fb115f42bc9c",
-   "type": "chapter"
-  },
-  {
-   "id": "45147dbf-74be-461d-ad76-996b2a6a8bfc",
-   "type": "chapter"
-  },
-  {
-   "id": "00a7ae5e-73ca-4750-9013-17dba5b1b32a",
-   "type": "chapter"
-  },
-  {
-   "id": "d2989ae5-1276-41e2-bc46-f8e625213f3d",
-   "type": "chapter"
-  },
-  {
-   "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-   "type": "tag"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
-   "type": "tag"
+   "id": "668ce4a8-93f6-4f89-9b96-646935e8c23f",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:15:18+00:00",
+    "description": "",
+    "fileName": "1e7c4a5f-6b9e-41df-b752-ae182a6972cd.png",
+    "updatedAt": "2021-05-28T23:15:18+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

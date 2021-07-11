@@ -7,6 +7,14 @@
    "title": {
     "en": "Dr. Kumahige"
    },
+   "altTitles": [
+    {
+     "en": "Dr.クマひげ"
+    },
+    {
+     "en": "流氓俠醫"
+    }
+   ],
    "description": {
     "en": "[url=https://www.books.com.tw/products/0010302123] Official Chinese [/url]"
    },
@@ -31,6 +39,8 @@
       "name": {
        "en": "Drama"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,6 +51,8 @@
       "name": {
        "en": "Medical"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -51,6 +63,8 @@
       "name": {
        "en": "Slice of Life"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -61,79 +75,53 @@
       "name": {
        "en": "Tragedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-04-22T01:17:55+00:00",
+   "updatedAt": "2021-05-25T15:49:15+00:00"
   }
  },
  "relationships": [
   {
    "id": "c5226a56-ae7a-4060-a020-1b0a3098a8fe",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Fumimura Sho",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "77b03efd-edd6-4b8a-9d24-a6a7ca845751",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Nagayasu Takumi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "baae8eaa-047b-4b65-9259-7a7adeb49b0f",
-   "type": "chapter"
-  },
-  {
-   "id": "cf3b704d-03d6-4e67-8138-b20437a2be86",
-   "type": "chapter"
-  },
-  {
-   "id": "728dc2b9-58af-40a9-8799-ae28cf4b48a7",
-   "type": "chapter"
-  },
-  {
-   "id": "63ebadf8-8ebf-4ee5-8bba-36c2b023cc25",
-   "type": "chapter"
-  },
-  {
-   "id": "d33351d5-f341-4622-8892-4f06c0d6f9e3",
-   "type": "chapter"
-  },
-  {
-   "id": "3d3f4b90-03bb-45b5-8a0e-2aca94263c7a",
-   "type": "chapter"
-  },
-  {
-   "id": "30208faf-92b3-4146-8dd4-602c2ea95c6d",
-   "type": "chapter"
-  },
-  {
-   "id": "bc26354e-74f4-4e27-a2a6-7fdf03ada12a",
-   "type": "chapter"
-  },
-  {
-   "id": "6508318a-6cb6-4a0e-ad25-70f3dfd0cb0b",
-   "type": "chapter"
-  },
-  {
-   "id": "808b4f0d-fc09-4cbd-a631-2eeaf4927e62",
-   "type": "chapter"
-  },
-  {
-   "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
-   "type": "tag"
-  },
-  {
-   "id": "c8cbe35b-1b2b-4a3f-9c37-db84c4514856",
-   "type": "tag"
-  },
-  {
-   "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-   "type": "tag"
-  },
-  {
-   "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
-   "type": "tag"
+   "id": "8de62729-a1f2-4f2e-b610-30f5368b9d8e",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:53:17+00:00",
+    "description": "",
+    "fileName": "d2c7b22d-807d-44f9-bed4-afff6c8dd47b.jpg",
+    "updatedAt": "2021-05-24T17:53:17+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

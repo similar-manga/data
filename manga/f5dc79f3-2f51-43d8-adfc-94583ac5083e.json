@@ -7,6 +7,11 @@
    "title": {
     "en": "Fate/Extra CCC"
    },
+   "altTitles": [
+    {
+     "en": "フェイト/エクストラ　ＣＣＣ"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -15,7 +20,6 @@
     "mu": "122385"
    },
    "originalLanguage": "ja",
-   "lastChapter": "0",
    "status": "ongoing",
    "contentRating": "safe",
    "tags": [
@@ -26,6 +30,8 @@
       "name": {
        "en": "Action"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -36,6 +42,8 @@
       "name": {
        "en": "Comedy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -46,47 +54,53 @@
       "name": {
        "en": "Adaptation"
       },
+      "description": null,
+      "group": "format",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2020-01-23T23:39:20+00:00",
+   "updatedAt": "2021-05-25T15:49:40+00:00"
   }
  },
  "relationships": [
   {
    "id": "e7754143-2043-42e6-ad24-800a235d4c98",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "Type-Moon",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "6759f9db-7bb8-4bbd-9ee6-4ec43c72b954",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "ROBI~NA",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "763d93b3-aaca-414e-a85f-ba0eada03636",
-   "type": "chapter"
-  },
-  {
-   "id": "99f69bd9-3fea-4f6e-9ad0-83b800ff050f",
-   "type": "chapter"
-  },
-  {
-   "id": "47b204cb-b40e-4397-a944-5e33319d1c8f",
-   "type": "chapter"
-  },
-  {
-   "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-   "type": "tag"
-  },
-  {
-   "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
-   "type": "tag"
-  },
-  {
-   "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-   "type": "tag"
+   "id": "7d28f2fc-333c-4f6a-8320-58f380af5950",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-24T17:42:16+00:00",
+    "description": "",
+    "fileName": "44a85e80-5c12-41c8-82d6-1c68effa2878.jpg",
+    "updatedAt": "2021-05-24T17:42:16+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }

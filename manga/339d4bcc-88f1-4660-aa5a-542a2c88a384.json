@@ -5,8 +5,40 @@
   "type": "manga",
   "attributes": {
    "title": {
-    "en": "Pok\u0026eacute;mon Zensho"
+    "en": "Pokémon Zensho"
    },
+   "altTitles": [
+    {
+     "en": "Pocket Monsters"
+    },
+    {
+     "en": "Pocket Monsters The Complete Story"
+    },
+    {
+     "en": "Pocket Monsters Zensho"
+    },
+    {
+     "en": "Pokémon"
+    },
+    {
+     "en": "Pokémon The Complete Story"
+    },
+    {
+     "en": "Pokémon Unabridged"
+    },
+    {
+     "en": "Pokemon"
+    },
+    {
+     "en": "Pokemon Zensho"
+    },
+    {
+     "en": "ポケットモンスター全書"
+    },
+    {
+     "en": "漫畫版 神寶貝全書"
+    }
+   ],
    "description": {
     "en": ""
    },
@@ -31,6 +63,8 @@
       "name": {
        "en": "Adventure"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     },
@@ -41,35 +75,53 @@
       "name": {
        "en": "Fantasy"
       },
+      "description": null,
+      "group": "genre",
       "version": 1
      }
     }
    ],
-   "version": 1,
-   "createdAt": "2021-04-19T21:46:43+00:00",
-   "updatedAt": "2021-04-19T21:46:43+00:00"
+   "version": 2,
+   "createdAt": "2018-08-26T08:57:55+00:00",
+   "updatedAt": "2021-05-25T15:40:59+00:00"
   }
  },
  "relationships": [
   {
    "id": "321160ac-26d4-4ffe-b84c-b82d6d1556b2",
-   "type": "author"
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NAKAMURA Satomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
    "id": "321160ac-26d4-4ffe-b84c-b82d6d1556b2",
-   "type": "artist"
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "imageUrl": null,
+    "name": "NAKAMURA Satomi",
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1
+   }
   },
   {
-   "id": "710f1e81-4092-4436-aba3-5d9b869a6598",
-   "type": "chapter"
-  },
-  {
-   "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-   "type": "tag"
-  },
-  {
-   "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-   "type": "tag"
+   "id": "ef66b55c-ed7f-4f5d-a719-37c16eb83573",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-28T23:13:32+00:00",
+    "description": "",
+    "fileName": "6e0e3202-c7a2-4c77-80fd-260615f7a5ac.jpg",
+    "updatedAt": "2021-05-28T23:13:32+00:00",
+    "version": 1,
+    "volume": null
+   }
   }
  ]
 }
