@@ -10,7 +10,7 @@
     "en": "Natural Born Heisei 2"
    },
    {
-    "en": "平成生まれ２"
+    "ja": "平成生まれ２"
    }
   ],
   "description": {
@@ -26,6 +26,9 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
@@ -64,9 +67,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 11,
   "createdAt": "2020-02-29T12:08:12+00:00",
-  "updatedAt": "2021-05-25T15:41:38+00:00"
+  "updatedAt": "2022-01-23T21:33:58+00:00"
  },
  "relationships": [
   {
@@ -81,6 +85,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hatopopoko",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -89,6 +94,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -104,6 +110,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hatopopoko",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -112,24 +119,32 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "55df12da-b7b6-4fc0-b710-04d0e0d966ae",
+   "id": "eb5cc71e-02d1-4f8f-9557-a1c1c6d4214c",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:46:53+00:00",
+    "createdAt": "2021-05-23T07:18:23+00:00",
     "description": "",
-    "fileName": "60929faa-5189-4921-84dc-133186d26ed3.jpg",
-    "updatedAt": "2021-05-24T17:46:53+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "91993aae-f1c0-40f0-b72f-0d48ecf7b651.png",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T07:18:23+00:00",
+    "version": 2,
+    "volume": "1"
    }
   },
   {
    "id": "4ecfa422-3594-4106-808b-6c361db6ac2a",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
+  },
+  {
+   "id": "63325f26-9dba-4f5b-be5c-de87e4085a5f",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

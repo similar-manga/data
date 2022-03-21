@@ -29,6 +29,11 @@
   "lastChapter": "25",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "pt-br",
+   "de"
+  ],
   "tags": [
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
@@ -91,9 +96,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 5,
   "createdAt": "2018-03-05T10:59:38+00:00",
-  "updatedAt": "2021-11-21T23:25:25+00:00"
+  "updatedAt": "2022-01-26T16:13:45+00:00"
  },
  "relationships": [
   {
@@ -108,6 +114,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "ZUN",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -116,6 +123,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -131,6 +139,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hirasaka Makoto",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -139,28 +148,32 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "1e994d6f-6991-4ff5-be98-65255db25162",
+   "id": "b285012f-7ce1-4f4e-ab34-c7a9e33f60c9",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:03:37+00:00",
+    "createdAt": "2021-05-23T06:27:22+00:00",
     "description": "",
-    "fileName": "3dc60c75-e824-4ce2-b846-326a73c7eeef.jpg",
-    "updatedAt": "2021-05-24T17:03:37+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "595e7b59-b27a-4ade-9267-a396f965e494.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T06:27:22+00:00",
+    "version": 2,
+    "volume": "3"
    }
   },
   {
-   "id": "9a954c41-dcc4-4781-b0c5-6300e4e76a99",
-   "type": "manga"
+   "id": "6f33985b-e607-4957-b0b9-62b8424e0a2f",
+   "type": "manga",
+   "related": "sequel"
   },
   {
-   "id": "6f33985b-e607-4957-b0b9-62b8424e0a2f",
-   "type": "manga"
+   "id": "9a954c41-dcc4-4781-b0c5-6300e4e76a99",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

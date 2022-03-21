@@ -64,6 +64,13 @@
   "status": "completed",
   "year": 2014,
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "en",
+   "es-la",
+   "pl",
+   "pt-br",
+   "ru"
+  ],
   "tags": [
    {
     "id": "2d1f5d56-a1e5-4d0d-a961-2193588b08ec",
@@ -162,9 +169,10 @@
     }
    }
   ],
-  "version": 6,
+  "state": "published",
+  "version": 8,
   "createdAt": "2018-09-12T21:31:42+00:00",
-  "updatedAt": "2021-12-03T20:45:06+00:00"
+  "updatedAt": "2022-01-24T21:44:43+00:00"
  },
  "relationships": [
   {
@@ -179,6 +187,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fushimi Tsukasa",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -187,6 +196,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -202,6 +212,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Rin",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -210,6 +221,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -220,6 +232,7 @@
     "createdAt": "2021-11-21T17:35:33+00:00",
     "description": "",
     "fileName": "59bc61e1-4070-47cf-a75a-289b9ab1394a.jpg",
+    "locale": "ja",
     "updatedAt": "2021-11-21T17:35:33+00:00",
     "version": 1,
     "volume": "12"
@@ -227,31 +240,43 @@
   },
   {
    "id": "1a88187b-fc17-4b36-9e1f-e78c1226114d",
-   "type": "manga"
-  },
-  {
-   "id": "ac10aabb-2577-4a7e-af6d-0fc51f9a870c",
-   "type": "manga"
-  },
-  {
-   "id": "e11d0112-1a6a-44f1-bcdb-dd73c804743f",
-   "type": "manga"
-  },
-  {
-   "id": "b5e7d99c-b5b0-4ce3-a7fc-d004a44ebaf0",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "3c21ed34-3f7c-4aae-9d80-5d49cf6698f2",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "aae2b5e2-3d2d-4d89-8940-d040f50cb6e2",
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "ac10aabb-2577-4a7e-af6d-0fc51f9a870c",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "b5e7d99c-b5b0-4ce3-a7fc-d004a44ebaf0",
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "dc45298e-c92c-48e8-9a91-6ba29dd48c10",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "e11d0112-1a6a-44f1-bcdb-dd73c804743f",
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "e4d0095c-1066-4075-ac63-6805ca011661",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
   }
  ]
 }

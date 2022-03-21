@@ -33,6 +33,16 @@
   "status": "completed",
   "year": 2008,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "es",
+   "en",
+   "pt-br",
+   "pl",
+   "fr",
+   "it",
+   "vi",
+   "id"
+  ],
   "tags": [
    {
     "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
@@ -107,9 +117,10 @@
     }
    }
   ],
-  "version": 4,
+  "state": "published",
+  "version": 7,
   "createdAt": "2018-02-16T13:12:21+00:00",
-  "updatedAt": "2021-11-30T19:57:17+00:00"
+  "updatedAt": "2022-01-25T10:11:55+00:00"
  },
  "relationships": [
   {
@@ -124,6 +135,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ryukishi07",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -132,6 +144,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -147,6 +160,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Natsumi Kei",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -155,6 +169,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -165,6 +180,7 @@
     "createdAt": "2021-05-24T16:48:13+00:00",
     "description": "",
     "fileName": "e3e203d8-0f6c-40ff-a0c2-fe07b37ec68b.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:48:13+00:00",
     "version": 1,
     "volume": null
@@ -172,19 +188,23 @@
   },
   {
    "id": "3953028c-a0c1-4279-b6af-ab9759a09f9f",
-   "type": "manga"
-  },
-  {
-   "id": "fabcc8f2-49d5-48ab-b7e0-d6d29cbc78c3",
-   "type": "manga"
-  },
-  {
-   "id": "fe5b40a2-061e-4f09-8f04-86e26aae5649",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "d326d556-57d3-445a-993d-68ba401dc6f0",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "fabcc8f2-49d5-48ab-b7e0-d6d29cbc78c3",
+   "type": "manga",
+   "related": "alternate_story"
+  },
+  {
+   "id": "fe5b40a2-061e-4f09-8f04-86e26aae5649",
+   "type": "manga",
+   "related": "side_story"
   }
  ]
 }

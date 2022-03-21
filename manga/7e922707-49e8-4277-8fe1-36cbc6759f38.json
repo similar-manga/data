@@ -3,17 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Zelda no Densetsu - Toki no Ocarina  3D"
+   "en": "The Legend of Zelda - Ocarina of Time 3D"
   },
   "altTitles": [
    {
-    "en": "Legend of Zelda - Ocarina of Time 3D"
+    "ja": "ゼルダの伝説 時のオカリナ3D"
    },
    {
-    "en": "The Legend of Zelda - Ocarina of Time 3D"
-   },
-   {
-    "en": "ゼルダの伝説 時のオカリナ3D"
+    "ja-ro": "Zelda no Densetsu - Toki no Ocarina  3D"
    }
   ],
   "description": {
@@ -22,7 +19,14 @@
   "originalLanguage": "ja",
   "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 2011,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "es-la",
+   "de",
+   "en",
+   "fr"
+  ],
   "tags": [
    {
     "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
@@ -33,6 +37,18 @@
      },
      "description": null,
      "group": "format",
+     "version": 1
+    }
+   },
+   {
+    "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Action"
+     },
+     "description": null,
+     "group": "genre",
      "version": 1
     }
    },
@@ -71,11 +87,36 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
+   },
+   {
+    "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Full Color"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2019-02-27T15:13:15+00:00",
-  "updatedAt": "2021-05-25T15:44:18+00:00"
+  "updatedAt": "2022-03-13T00:47:43+00:00"
  },
  "relationships": [
   {
@@ -90,6 +131,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Himekawa Akira",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -98,6 +140,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -113,6 +156,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Himekawa Akira",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -121,6 +165,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -131,18 +176,21 @@
     "createdAt": "2021-05-24T17:02:51+00:00",
     "description": "",
     "fileName": "9555bb7c-06ed-4c9c-adbf-03579302215e.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:02:51+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
-   "type": "manga"
+   "id": "24322835-916a-4054-887b-2d39fed55de7",
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
-   "id": "24322835-916a-4054-887b-2d39fed55de7",
-   "type": "manga"
+   "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

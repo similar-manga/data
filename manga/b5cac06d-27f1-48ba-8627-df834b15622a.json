@@ -30,6 +30,10 @@
   "publicationDemographic": "shoujo",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "pt-br",
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -68,9 +72,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-05-12T22:11:54+00:00",
-  "updatedAt": "2021-05-25T15:46:50+00:00"
+  "updatedAt": "2022-01-30T20:45:10+00:00"
  },
  "relationships": [
   {
@@ -85,6 +90,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Todo Izumi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -93,6 +99,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -108,6 +115,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Futago Kamikita",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -116,52 +124,67 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "0d79ffdb-f278-4fe0-9564-de67546ebb03",
+   "id": "c7d13ec4-57b2-4f79-9b9b-ae28960997f8",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T18:18:32+00:00",
+    "createdAt": "2021-05-23T07:47:11+00:00",
     "description": "",
-    "fileName": "c31a50d8-46db-493d-a5a2-7b83087b8ceb.jpg",
-    "updatedAt": "2021-05-24T18:18:32+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "0398cc7c-afcd-47c4-a975-4295d80299d7.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T07:47:11+00:00",
+    "version": 2,
+    "volume": "1"
    }
   },
   {
-   "id": "c5ae4d1c-1f2f-407a-a659-f9e6e1adf58b",
-   "type": "manga"
-  },
-  {
-   "id": "bbfe9259-e78e-4f28-bf0d-066e9378f393",
-   "type": "manga"
-  },
-  {
-   "id": "330b56a4-1097-4b43-9dd8-3cbb9c42927b",
-   "type": "manga"
-  },
-  {
    "id": "23116720-1caf-4792-b331-639650ff4339",
-   "type": "manga"
-  },
-  {
-   "id": "2a54c697-8c53-47f0-8ee6-03e66a673daf",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "28a426d8-702d-45c0-a819-7ec37bc6f112",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
-   "id": "fa9ee49b-9b60-42a9-bb6c-345cfbebdf24",
-   "type": "manga"
+   "id": "2a54c697-8c53-47f0-8ee6-03e66a673daf",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "330b56a4-1097-4b43-9dd8-3cbb9c42927b",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "4aaf7084-23ca-4e21-a66c-78d49a6d09fc",
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "73375bd1-e944-4edb-af01-5ce19e20c273",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "bbfe9259-e78e-4f28-bf0d-066e9378f393",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "c5ae4d1c-1f2f-407a-a659-f9e6e1adf58b",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "fa9ee49b-9b60-42a9-bb6c-345cfbebdf24",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

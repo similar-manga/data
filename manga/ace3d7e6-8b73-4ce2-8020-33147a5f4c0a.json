@@ -3,20 +3,20 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Boku no nee-san"
+   "en": "Boku no Nee-san"
   },
   "altTitles": [
-   {
-    "en": "Boku no Neesan"
-   },
    {
     "en": "My Older Sister"
    },
    {
-    "en": "ぼくのねえさん"
+    "ja-ro": "Boku no Neesan"
    },
    {
-    "en": "我的姐姐"
+    "ja": "ぼくのねえさん"
+   },
+   {
+    "ja": "我的姐姐"
    }
   ],
   "description": {
@@ -31,7 +31,13 @@
   "originalLanguage": "ja",
   "publicationDemographic": "shounen",
   "status": "ongoing",
+  "year": 2018,
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "en",
+   "zh-hk",
+   "es-la"
+  ],
   "tags": [
    {
     "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
@@ -130,9 +136,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2019-07-24T15:18:30+00:00",
-  "updatedAt": "2021-05-25T15:46:25+00:00"
+  "updatedAt": "2022-01-26T02:16:30+00:00"
  },
  "relationships": [
   {
@@ -147,6 +154,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yamada Pasta",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -155,6 +163,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -170,6 +179,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yamada Pasta",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -178,6 +188,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -188,6 +199,7 @@
     "createdAt": "2021-05-24T17:20:11+00:00",
     "description": "",
     "fileName": "d56431d2-b642-4d62-a5d8-c9c30cbc3d0c.png",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:20:11+00:00",
     "version": 1,
     "volume": null
@@ -195,7 +207,8 @@
   },
   {
    "id": "c9592477-6419-4279-8cc2-1bbd8efa03f0",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
   }
  ]
 }

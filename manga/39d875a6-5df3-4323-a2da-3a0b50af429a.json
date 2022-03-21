@@ -45,6 +45,14 @@
   "publicationDemographic": "shounen",
   "status": "ongoing",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "fr",
+   "es-la",
+   "pl",
+   "id",
+   "ru"
+  ],
   "tags": [
    {
     "id": "0bc90acb-ccc1-44ca-a34a-b9f3a73259d0",
@@ -155,9 +163,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 8,
   "createdAt": "2018-09-10T08:19:02+00:00",
-  "updatedAt": "2021-05-25T15:41:22+00:00"
+  "updatedAt": "2022-03-06T13:02:39+00:00"
  },
  "relationships": [
   {
@@ -172,6 +181,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Tang Jia San Shao",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -180,6 +190,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -195,6 +206,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Mu Feng Chun",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -203,40 +215,47 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "cc3e0113-dbfc-4fd2-8428-77845463896f",
+   "id": "45d17291-591e-4abe-9e41-4fc50fec594d",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T16:44:31+00:00",
+    "createdAt": "2022-03-06T13:02:38+00:00",
     "description": "",
-    "fileName": "e1ee8283-a2d1-4991-bdf9-715d52ad3203.png",
-    "updatedAt": "2021-05-24T16:44:31+00:00",
+    "fileName": "1ce4873a-7198-4452-9af5-b2f35c6df4ff.jpg",
+    "locale": "zh",
+    "updatedAt": "2022-03-06T13:02:38+00:00",
     "version": 1,
-    "volume": null
+    "volume": "2"
    }
   },
   {
-   "id": "5949f68d-9202-40e8-bfbc-fc16e1849058",
-   "type": "manga"
-  },
-  {
-   "id": "f2560480-8b67-457b-8895-9de643f681e9",
-   "type": "manga"
-  },
-  {
-   "id": "cb43f574-ccd1-41ff-ba72-bc74d57ba78a",
-   "type": "manga"
-  },
-  {
    "id": "13538cca-ae64-4afa-b11c-83064642f70a",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "523ac7ed-0b24-4598-b440-814d8bdcf540",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "5949f68d-9202-40e8-bfbc-fc16e1849058",
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "cb43f574-ccd1-41ff-ba72-bc74d57ba78a",
+   "type": "manga",
+   "related": "side_story"
+  },
+  {
+   "id": "f2560480-8b67-457b-8895-9de643f681e9",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

@@ -25,6 +25,10 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "it",
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -135,9 +139,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-03-01T12:32:19+00:00",
-  "updatedAt": "2021-05-25T15:47:30+00:00"
+  "updatedAt": "2022-01-25T00:45:23+00:00"
  },
  "relationships": [
   {
@@ -152,6 +157,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nomura Tetsuya",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -160,6 +166,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -175,6 +182,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Amano Shiro",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -183,6 +191,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -193,26 +202,31 @@
     "createdAt": "2021-05-24T17:00:00+00:00",
     "description": "",
     "fileName": "ebe22a4e-4d3f-4c54-a643-1ca143c0ce04.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:00:00+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "a741a7fe-5b79-4f1a-b430-da93db374839",
-   "type": "manga"
-  },
-  {
-   "id": "90f33e51-c6e9-4d8f-8f6d-a461b954ac0a",
-   "type": "manga"
+   "id": "28b9bf3a-9481-4d59-a20f-e4538a356bc0",
+   "type": "manga",
+   "related": "prequel"
   },
   {
    "id": "2e0d9aa4-e652-4cdc-8d64-b87a74a62d29",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
-   "id": "28b9bf3a-9481-4d59-a20f-e4538a356bc0",
-   "type": "manga"
+   "id": "90f33e51-c6e9-4d8f-8f6d-a461b954ac0a",
+   "type": "manga",
+   "related": "main_story"
+  },
+  {
+   "id": "a741a7fe-5b79-4f1a-b430-da93db374839",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

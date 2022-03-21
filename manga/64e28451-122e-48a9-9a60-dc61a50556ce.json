@@ -7,16 +7,16 @@
   },
   "altTitles": [
    {
-    "en": "Cthulhu no Yobigoe (TANABE Gou)"
+    "ja-ro": "Cthulhu no Yobigoe"
    },
    {
-    "en": "クトゥルフの呼び声"
+    "ja": "クトゥルフの呼び声"
    },
    {
-    "en": "克苏鲁的呼唤"
+    "zh": "克苏鲁的呼唤"
    },
    {
-    "en": "克蘇魯的呼喚"
+    "zh-hk": "克蘇魯的呼喚"
    }
   ],
   "description": {
@@ -36,6 +36,10 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "zh-hk",
+   "en"
+  ],
   "tags": [
    {
     "id": "cdad7e68-1419-41dd-bdce-27753074a640",
@@ -74,9 +78,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-11-23T05:23:40+00:00",
-  "updatedAt": "2021-05-25T15:43:11+00:00"
+  "updatedAt": "2022-01-28T20:47:09+00:00"
  },
  "relationships": [
   {
@@ -91,6 +96,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Howard Phillips Lovecraft",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -99,6 +105,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -114,6 +121,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Tanabe Gou",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -122,6 +130,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -132,30 +141,36 @@
     "createdAt": "2021-05-24T17:34:50+00:00",
     "description": "",
     "fileName": "d2a72209-cb64-439b-bd2b-4348d1fb748c.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:34:50+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "342df7f0-6607-4e64-8801-0280ccb07d61",
-   "type": "manga"
-  },
-  {
-   "id": "639ab984-5864-42b3-8dee-8909678bccde",
-   "type": "manga"
-  },
-  {
-   "id": "8c7b9c24-d33e-44bf-bf67-41728cd805b8",
-   "type": "manga"
-  },
-  {
    "id": "2b4b4e2f-229a-4547-bd4f-f61d8ff20082",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "2bac493e-6368-4a4a-aa05-a21b74014cd5",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "342df7f0-6607-4e64-8801-0280ccb07d61",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "639ab984-5864-42b3-8dee-8909678bccde",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "8c7b9c24-d33e-44bf-bf67-41728cd805b8",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

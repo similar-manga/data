@@ -10,13 +10,13 @@
     "en": "Freezing: Zero"
    },
    {
-    "en": "Заморозка: Начало Отсчета"
+    "ru": "Заморозка: Начало Отсчета"
    },
    {
-    "en": "フリージングZERO"
+    "ja": "フリージングZERO"
    },
    {
-    "en": "프리징ZERO"
+    "ko": "프리징ZERO"
    }
   ],
   "description": {
@@ -34,7 +34,14 @@
   "lastChapter": "38",
   "publicationDemographic": "seinen",
   "status": "completed",
+  "year": 2012,
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "de",
+   "ru",
+   "pt-br",
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -133,16 +140,19 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-04-22T15:08:49+00:00",
-  "updatedAt": "2021-05-25T15:38:47+00:00"
+  "updatedAt": "2022-02-15T22:15:05+00:00"
  },
  "relationships": [
   {
    "id": "d21a9418-817a-43e5-a4d2-bf1e7391d7ec",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Im Dal-Young (Lim Dall-young, 임달영) is a South Korean author. He is best known for creating works such as Freezing and Unbalance Unbalance, as well as the founder of Artlim Media. \n\nRather infamously, he is also well-known for putting his series on indefinite hiatuses while deciding to start new works. Be wary of attachment to his series, since you’ll never know when they’ll end.  "
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -150,14 +160,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Im Dal-Young",
+    "naver": "http://blog.naver.com/cdggam",
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-02-14T22:49:06+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -173,6 +185,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Jeong Soo Cheol",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -181,6 +194,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -191,26 +205,31 @@
     "createdAt": "2021-05-24T17:57:12+00:00",
     "description": "",
     "fileName": "b384283c-fae4-4d79-894e-d06dac56ff26.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:57:12+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "981d6916-01da-4c90-87a3-b1b613083325",
-   "type": "manga"
-  },
-  {
-   "id": "7f1466ea-089c-4210-888d-99d3c5b77ca1",
-   "type": "manga"
-  },
-  {
    "id": "087ca0c7-33e8-4c71-b8eb-64bf27aedb11",
-   "type": "manga"
+   "type": "manga",
+   "related": "main_story"
   },
   {
    "id": "0b079f5d-df81-4de3-8143-7c6b61dc055c",
-   "type": "manga"
+   "type": "manga",
+   "related": "main_story"
+  },
+  {
+   "id": "7f1466ea-089c-4210-888d-99d3c5b77ca1",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "981d6916-01da-4c90-87a3-b1b613083325",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

@@ -10,13 +10,13 @@
     "en": "The Wizard of Darkness"
    },
    {
-    "en": "エコエコアザラク"
+    "ja": "エコエコアザラク"
    },
    {
-    "en": "勾魂魔女"
+    "ja": "勾魂魔女"
    },
    {
-    "en": "報應上身"
+    "zh": "報應上身"
    }
   ],
   "description": {
@@ -27,7 +27,7 @@
    "amz": "https://www.amazon.co.jp/gp/product/B074CGYTCQ",
    "ap": "eko-eko-azarak",
    "bw": "series/5870",
-   "ebj": "https://www.ebookjapan.jp/ebj/129570",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/129570/",
    "kt": "15060",
    "mal": "55901",
    "mu": "86712"
@@ -37,7 +37,12 @@
   "lastChapter": "186",
   "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 1975,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "pt-br",
+   "en"
+  ],
   "tags": [
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
@@ -48,6 +53,18 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Gore"
+     },
+     "description": null,
+     "group": "content",
      "version": 1
     }
    },
@@ -124,9 +141,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2018-12-21T00:19:21+00:00",
-  "updatedAt": "2021-05-25T15:44:41+00:00"
+  "updatedAt": "2022-02-02T02:05:08+00:00"
  },
  "relationships": [
   {
@@ -141,6 +159,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Koga Shinichi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -149,6 +168,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -164,6 +184,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Koga Shinichi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -172,6 +193,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -182,18 +204,21 @@
     "createdAt": "2021-05-24T16:55:11+00:00",
     "description": "",
     "fileName": "b6c27044-0308-4fae-bd50-7f85c1de0ecf.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:55:11+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "32617585-ea65-42d4-8c46-14ce4c638996",
-   "type": "manga"
+   "id": "1b6ae33a-6616-4bc4-b836-4dbcb3a25964",
+   "type": "manga",
+   "related": "spin_off"
   },
   {
-   "id": "1b6ae33a-6616-4bc4-b836-4dbcb3a25964",
-   "type": "manga"
+   "id": "32617585-ea65-42d4-8c46-14ce4c638996",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

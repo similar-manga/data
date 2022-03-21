@@ -3,53 +3,50 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Baron: Neko no Danshaku"
+   "en": "Baron: The Cat Returns"
   },
   "altTitles": [
    {
-    "en": "Baron, Neko no Danshaku"
+    "ja-ro": "Baron: Neko no Danshaku"
    },
    {
     "en": "Baron: The Cat Baron"
    },
    {
-    "en": "Baron: The Cat Returns"
+    "de": "Das Königreich der Katzen"
    },
    {
-    "en": "Das Königreich der Katzen"
+    "es": "La gratitud de los gatos"
    },
    {
-    "en": "La gratitud de los gatos"
+    "it": "La Ricompensa del Gatto"
    },
    {
-    "en": "La Ricompensa del Gatto"
+    "fr": "Le Royaume des chats"
    },
    {
-    "en": "Le Royaume des chats"
+    "es-la": "O Reino dos Gatos"
    },
    {
-    "en": "O Reino dos Gatos"
+    "ru": "Барон, кошачий лорд"
    },
    {
-    "en": "Барон, кошачий лорд"
+    "ar": "بارون نكو نو دانشاكو"
    },
    {
-    "en": "بارون نكو نو دانشاكو"
+    "th": "เจ้าแมวยอดนักสืบ"
    },
    {
-    "en": "เจ้าแมวยอดนักสืบ"
+    "ja": "バロン―猫の男爵"
    },
    {
-    "en": "バロン―猫の男爵"
+    "zh": "猫男爵"
    },
    {
-    "en": "猫男爵"
+    "zh-hk": "貓男爵"
    },
    {
-    "en": "貓男爵"
-   },
-   {
-    "en": "바론고양이 남작"
+    "ko": "바론고양이 남작"
    }
   ],
   "description": {
@@ -65,8 +62,8 @@
   },
   "originalLanguage": "ja",
   "lastVolume": "1",
-  "publicationDemographic": "shoujo",
   "status": "completed",
+  "year": 2002,
   "contentRating": "safe",
   "tags": [
    {
@@ -94,6 +91,18 @@
     }
    },
    {
+    "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Magic"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
     "type": "tag",
     "attributes": {
@@ -104,11 +113,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Supernatural"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
    }
   ],
-  "version": 1,
+  "state": "published",
+  "version": 2,
   "createdAt": "2018-09-12T19:25:03+00:00",
-  "updatedAt": "2018-09-12T19:25:03+00:00"
+  "updatedAt": "2022-02-06T00:02:32+00:00"
  },
  "relationships": [
   {
@@ -123,6 +145,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hiiragi Aoi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -131,6 +154,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -146,6 +170,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hiiragi Aoi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -154,6 +179,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -164,22 +190,26 @@
     "createdAt": "2021-05-24T16:44:43+00:00",
     "description": "",
     "fileName": "1d4527c3-71b7-4b2b-8a9e-f65567f1764b.jpg",
-    "updatedAt": "2021-05-24T16:44:43+00:00",
-    "version": 1,
-    "volume": null
+    "locale": "ja",
+    "updatedAt": "2022-02-06T00:02:31+00:00",
+    "version": 2,
+    "volume": "1"
    }
   },
   {
-   "id": "cb59b4ab-f9a1-4616-af39-7eb030b94559",
-   "type": "manga"
+   "id": "48c08a03-96c2-4f55-8423-825be4d0e543",
+   "type": "manga",
+   "related": "adapted_from"
   },
   {
-   "id": "48c08a03-96c2-4f55-8423-825be4d0e543",
-   "type": "manga"
+   "id": "cb59b4ab-f9a1-4616-af39-7eb030b94559",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "e24e58a3-f0c0-4e2a-a045-f222cb37949f",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
   }
  ]
 }

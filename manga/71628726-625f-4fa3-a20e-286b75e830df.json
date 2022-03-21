@@ -67,9 +67,10 @@
     }
    }
   ],
-  "version": 1,
+  "state": "published",
+  "version": 2,
   "createdAt": "2019-07-09T06:59:08+00:00",
-  "updatedAt": "2019-07-09T06:59:08+00:00"
+  "updatedAt": "2022-02-12T12:32:32+00:00"
  },
  "relationships": [
   {
@@ -84,6 +85,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Oomori Fujino",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -92,11 +94,12 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "9cc49da1-6823-4467-a1f1-276c6a1fe5cd",
+   "id": "ae9cad5f-475c-415c-8f14-71a37626707d",
    "type": "artist",
    "attributes": {
     "biography": [],
@@ -106,7 +109,8 @@
     "fantia": null,
     "imageUrl": null,
     "melonBook": null,
-    "name": "Choborau Nyopomi",
+    "name": "Choboraunyopomi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -115,6 +119,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -125,34 +130,41 @@
     "createdAt": "2021-05-24T17:18:19+00:00",
     "description": "",
     "fileName": "cb545ae4-a351-4c0b-8cb2-a391b091c6f3.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:18:19+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "8b459a49-b40f-4614-90a2-dc0a9209a42f",
-   "type": "manga"
-  },
-  {
-   "id": "8fab2727-d42f-4a41-b5fa-7ac809ec0f5a",
-   "type": "manga"
-  },
-  {
-   "id": "cf16ea31-d883-4458-8eef-72c9651373b7",
-   "type": "manga"
-  },
-  {
-   "id": "dfffa880-4154-40d1-abd2-0dff94248908",
-   "type": "manga"
+   "id": "06e02a8d-f80b-407b-a970-c8b60ec30e8f",
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "5fe60a5e-2713-4ec1-aa01-9fcea64ef787",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
-   "id": "06e02a8d-f80b-407b-a970-c8b60ec30e8f",
-   "type": "manga"
+   "id": "8b459a49-b40f-4614-90a2-dc0a9209a42f",
+   "type": "manga",
+   "related": "adapted_from"
+  },
+  {
+   "id": "8fab2727-d42f-4a41-b5fa-7ac809ec0f5a",
+   "type": "manga",
+   "related": "alternate_story"
+  },
+  {
+   "id": "cf16ea31-d883-4458-8eef-72c9651373b7",
+   "type": "manga",
+   "related": "adapted_from"
+  },
+  {
+   "id": "dfffa880-4154-40d1-abd2-0dff94248908",
+   "type": "manga",
+   "related": "adapted_from"
   }
  ]
 }

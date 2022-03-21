@@ -20,7 +20,7 @@
    "al": "38483",
    "amz": "https://www.amazon.co.jp/gp/product/B074CHW3P3",
    "bw": "series/4274",
-   "ebj": "https://www.ebookjapan.jp/ebj/132638/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/132638/",
    "mal": "8483",
    "mu": "31454",
    "raw": "https://pocket.shonenmagazine.com/episode/13933686331613941890"
@@ -31,6 +31,12 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "en",
+   "pt-br",
+   "pl",
+   "ru"
+  ],
   "tags": [
    {
     "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
@@ -93,9 +99,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 6,
   "createdAt": "2018-01-18T14:46:30+00:00",
-  "updatedAt": "2021-05-25T15:45:05+00:00"
+  "updatedAt": "2022-01-25T05:00:39+00:00"
  },
  "relationships": [
   {
@@ -110,6 +117,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Seo Kouji",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -118,6 +126,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -133,6 +142,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Seo Kouji",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -141,6 +151,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -151,30 +162,36 @@
     "createdAt": "2021-05-24T17:18:10+00:00",
     "description": "",
     "fileName": "bc0955cb-f9dd-4ef4-b790-b92f06f07991.png",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:18:10+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "ae014c8f-0d87-4844-bcfb-08c9de2f2b3b",
-   "type": "manga"
-  },
-  {
    "id": "69766b88-5843-4c6b-8c2b-e1da42e4c55f",
-   "type": "manga"
+   "type": "manga",
+   "related": "shared_universe"
   },
   {
-   "id": "f91224ca-1e79-489b-b3ea-44b36f3d630d",
-   "type": "manga"
+   "id": "ae014c8f-0d87-4844-bcfb-08c9de2f2b3b",
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "eb5c81e8-5d5b-4552-b582-ee9c29c5368b",
-   "type": "manga"
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "f91224ca-1e79-489b-b3ea-44b36f3d630d",
+   "type": "manga",
+   "related": "alternate_story"
   },
   {
    "id": "fae7c31a-3be5-401e-ab91-885160e04ebc",
-   "type": "manga"
+   "type": "manga",
+   "related": "shared_universe"
   }
  ]
 }

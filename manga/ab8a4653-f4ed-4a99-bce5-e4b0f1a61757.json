@@ -32,6 +32,10 @@
   "lastChapter": "7",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "pt-br"
+  ],
   "tags": [
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
@@ -94,16 +98,19 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-06-28T03:23:15+00:00",
-  "updatedAt": "2021-05-25T15:46:17+00:00"
+  "updatedAt": "2022-01-25T03:40:24+00:00"
  },
  "relationships": [
   {
    "id": "d516fd6a-09d2-4295-b9f2-a7ef2cddf584",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "[Artist's DLSite](https://www.dlsite.com/home/circle/profile/=/maker_id/RG35072.html)"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -111,14 +118,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Tsumura Chita",
+    "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://www.pixiv.net/en/users/49913",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "https://twitter.com/TsumuraChita",
+    "updatedAt": "2022-03-10T01:46:59+00:00",
+    "version": 3,
+    "website": "https://tsumurachita.com/",
+    "weibo": null,
     "youtube": null
    }
   },
@@ -126,7 +135,9 @@
    "id": "d516fd6a-09d2-4295-b9f2-a7ef2cddf584",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "[Artist's DLSite](https://www.dlsite.com/home/circle/profile/=/maker_id/RG35072.html)"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -134,14 +145,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Tsumura Chita",
+    "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://www.pixiv.net/en/users/49913",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "https://twitter.com/TsumuraChita",
+    "updatedAt": "2022-03-10T01:46:59+00:00",
+    "version": 3,
+    "website": "https://tsumurachita.com/",
+    "weibo": null,
     "youtube": null
    }
   },
@@ -152,6 +165,7 @@
     "createdAt": "2021-05-24T18:38:57+00:00",
     "description": "",
     "fileName": "84d60488-55d2-4a93-bbf1-213079f403d8.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:38:57+00:00",
     "version": 1,
     "volume": null
@@ -159,11 +173,13 @@
   },
   {
    "id": "045d7882-bddc-43fa-abc8-4acf5199b76c",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "7e8c7034-2da2-4bb5-a627-fa21d4f8984a",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

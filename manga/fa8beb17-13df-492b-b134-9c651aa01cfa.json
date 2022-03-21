@@ -50,6 +50,11 @@
   "status": "completed",
   "year": 2008,
   "contentRating": "erotica",
+  "availableTranslatedLanguages": [
+   "pl",
+   "en",
+   "pt-br"
+  ],
   "tags": [
    {
     "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
@@ -72,6 +77,18 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sexual Violence"
+     },
+     "description": null,
+     "group": "content",
      "version": 1
     }
    },
@@ -100,16 +117,19 @@
     }
    }
   ],
-  "version": 4,
+  "state": "published",
+  "version": 10,
   "createdAt": "2018-01-22T11:38:50+00:00",
-  "updatedAt": "2021-11-19T11:46:02+00:00"
+  "updatedAt": "2022-02-15T19:11:13+00:00"
  },
  "relationships": [
   {
    "id": "fe6b9b18-b1db-4e22-a303-cef1d527a051",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Entered Waseda University in 1994. His real family name is Nakagawa.\n\nCircle: Jidou Hanbaiki (じどうはんばいき). "
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -117,14 +137,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Amazume Ryuta",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "twitter": "https://twitter.com/arogiso",
+    "updatedAt": "2022-01-24T02:42:46+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -132,7 +154,9 @@
    "id": "fe6b9b18-b1db-4e22-a303-cef1d527a051",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Entered Waseda University in 1994. His real family name is Nakagawa.\n\nCircle: Jidou Hanbaiki (じどうはんばいき). "
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -140,44 +164,51 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Amazume Ryuta",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "twitter": "https://twitter.com/arogiso",
+    "updatedAt": "2022-01-24T02:42:46+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "fc9beabd-55fb-4ffc-b708-855de7114f91",
+   "id": "9f1e3453-2637-4f4c-b96e-696ffd5e285a",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-23T06:19:30+00:00",
+    "createdAt": "2021-05-24T17:00:17+00:00",
     "description": "",
-    "fileName": "1b6a55db-b221-4c29-90a7-69893c347edf.jpg",
-    "updatedAt": "2021-05-23T06:19:30+00:00",
+    "fileName": "472a245e-2962-434c-af72-31aaa2671328.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-11-19T11:45:16+00:00",
     "version": 2,
-    "volume": "9"
+    "volume": "18"
    }
   },
   {
-   "id": "a9faed1c-ca7a-4410-ab9d-69dd366f2b9e",
-   "type": "manga"
+   "id": "0b525cfb-abcc-4e4d-8f3d-c7d07ac03a05",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "0b5dc24c-cbd1-4348-abeb-7e54a0705635",
-   "type": "manga"
+   "type": "manga",
+   "related": "colored"
   },
   {
    "id": "0de26487-aee7-4e8c-86f5-84ecfe50a2ac",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
   },
   {
-   "id": "0b525cfb-abcc-4e4d-8f3d-c7d07ac03a05",
-   "type": "manga"
+   "id": "a9faed1c-ca7a-4410-ab9d-69dd366f2b9e",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

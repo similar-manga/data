@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Akagi - Yami ni Oritatta Tensai"
+   "en": "Akagi: The Genius Who Fell Into Darkness"
   },
   "altTitles": [
    {
-    "en": "Akagi - The Genius who Fell Into the Darkness"
+    "ja": "アカギ－闇に降り立った天才"
    },
    {
-    "ja": "アカギ－闇に降り立った天才"
+    "ja-ro": "Akagi - Yami ni Oritatta Tensai"
    }
   ],
   "description": {
@@ -31,6 +31,12 @@
   "status": "completed",
   "year": 1991,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "es",
+   "it",
+   "ru"
+  ],
   "tags": [
    {
     "id": "31932a7e-5b8e-49a6-9f12-2afa39dc544c",
@@ -69,9 +75,10 @@
     }
    }
   ],
-  "version": 4,
+  "state": "published",
+  "version": 9,
   "createdAt": "2018-03-23T14:51:36+00:00",
-  "updatedAt": "2021-11-22T14:36:32+00:00"
+  "updatedAt": "2022-02-06T02:16:06+00:00"
  },
  "relationships": [
   {
@@ -86,6 +93,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fukumoto Nobuyuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -94,6 +102,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -109,6 +118,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fukumoto Nobuyuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -117,36 +127,52 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "3abac399-c5aa-4fce-ad5f-e7744821df25",
+   "id": "fc3444d3-9cd0-4fa8-a9b9-49836335e09f",
    "type": "cover_art",
    "attributes": {
     "createdAt": "2021-05-23T06:52:40+00:00",
     "description": "",
-    "fileName": "0397f3dd-1d52-4b07-871c-4d9bef17c4c8.jpg",
+    "fileName": "e16dbf65-3b8a-4bb5-9dfd-39bdec8aee7d.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-23T06:52:40+00:00",
     "version": 2,
-    "volume": "9"
+    "volume": "36"
    }
   },
   {
    "id": "01e6296c-9c0f-4329-8854-036aec11595b",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
   },
   {
-   "id": "92a46ccf-cf75-41dd-8a69-7016e4521102",
-   "type": "manga"
+   "id": "5a722dd2-bf17-4f10-b54a-f9a62f32e0c7",
+   "type": "manga",
+   "related": "spin_off"
   },
   {
    "id": "6606dab5-2af7-4392-97b1-655bf080e993",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "92a46ccf-cf75-41dd-8a69-7016e4521102",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "a80ac925-c01e-4826-9ecc-28c5645f1721",
+   "type": "manga",
+   "related": "spin_off"
   },
   {
    "id": "ad346e32-d784-4f19-ae27-b9480145f569",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

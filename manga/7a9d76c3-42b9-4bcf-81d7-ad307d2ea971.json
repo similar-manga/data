@@ -47,6 +47,17 @@
   "publicationDemographic": "seinen",
   "status": "ongoing",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "fr",
+   "it",
+   "en",
+   "ru",
+   "es-la",
+   "id",
+   "es",
+   "tr",
+   "pl"
+  ],
   "tags": [
    {
     "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
@@ -193,16 +204,19 @@
     }
    }
   ],
-  "version": 6,
+  "state": "published",
+  "version": 14,
   "createdAt": "2019-05-31T20:04:06+00:00",
-  "updatedAt": "2021-12-06T15:19:39+00:00"
+  "updatedAt": "2022-01-25T09:15:43+00:00"
  },
  "relationships": [
   {
    "id": "03e4afc4-cd94-45a0-bb36-dfd34fa370b3",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "**Hirohiko Araki** (荒木 飛呂彦, born June 7, 1960) is a Japanese manga artist. He is best known for his long-running series JoJo's Bizarre Adventure, which was first published in Weekly Shōnen Jump in 1987 and has sold over 100 million copies as of 2016 in Japan alone.\n\nAraki participated in the Junior Baseball Team in primary school and Kendo Club in middle school. He has a pair of twin younger sisters. Because he was often bullied by his sister, he would hide away to read manga. He liked manga when he was a child, so he wants to be a manga artist. His favorite works are Star of the Giants by Kajiwara Ikki , and Babel II by Yokoyama. Araki had the experience of shaking hands with Tezuka Osamu.\n\nHe likes western pop music, horror movies and Italy very much. We can see a lot of the above elements in his representative work JOJO.His painting style was influenced by Renaissance paintings, especially Michelangelo.\n\nHe gets up at 10 a.m. every day, draws a Name on Sunday, finishes the draft from Monday to Thursday, rests on Friday and Saturday, and doesn't stay up late. This work and rest lasted more than ten years . The work and rest of this law is influenced by the manga artist [Akimoto Osamu](https://mangadex.org/author/1cd79d33-68b3-4879-b67a-834055ef99eb/akimoto-osamu). Although he is over 50, his face does not show his old state. He is even joked by other manga artists and fans as \"the younger he lives\", \"Immortality\", \"using corrugation or stone ghost face\", \"in fact, he is also a Stand, and his ability is that he will not grow old\"."
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -210,14 +224,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hirohiko Araki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "updatedAt": "2022-01-01T11:39:05+00:00",
+    "version": 3,
+    "website": "http://www.araki-jojo.com/",
+    "weibo": null,
     "youtube": null
    }
   },
@@ -225,7 +241,9 @@
    "id": "03e4afc4-cd94-45a0-bb36-dfd34fa370b3",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "**Hirohiko Araki** (荒木 飛呂彦, born June 7, 1960) is a Japanese manga artist. He is best known for his long-running series JoJo's Bizarre Adventure, which was first published in Weekly Shōnen Jump in 1987 and has sold over 100 million copies as of 2016 in Japan alone.\n\nAraki participated in the Junior Baseball Team in primary school and Kendo Club in middle school. He has a pair of twin younger sisters. Because he was often bullied by his sister, he would hide away to read manga. He liked manga when he was a child, so he wants to be a manga artist. His favorite works are Star of the Giants by Kajiwara Ikki , and Babel II by Yokoyama. Araki had the experience of shaking hands with Tezuka Osamu.\n\nHe likes western pop music, horror movies and Italy very much. We can see a lot of the above elements in his representative work JOJO.His painting style was influenced by Renaissance paintings, especially Michelangelo.\n\nHe gets up at 10 a.m. every day, draws a Name on Sunday, finishes the draft from Monday to Thursday, rests on Friday and Saturday, and doesn't stay up late. This work and rest lasted more than ten years . The work and rest of this law is influenced by the manga artist [Akimoto Osamu](https://mangadex.org/author/1cd79d33-68b3-4879-b67a-834055ef99eb/akimoto-osamu). Although he is over 50, his face does not show his old state. He is even joked by other manga artists and fans as \"the younger he lives\", \"Immortality\", \"using corrugation or stone ghost face\", \"in fact, he is also a Stand, and his ability is that he will not grow old\"."
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -233,14 +251,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hirohiko Araki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "updatedAt": "2022-01-01T11:39:05+00:00",
+    "version": 3,
+    "website": "http://www.araki-jojo.com/",
+    "weibo": null,
     "youtube": null
    }
   },
@@ -251,6 +271,7 @@
     "createdAt": "2021-05-24T17:13:56+00:00",
     "description": "",
     "fileName": "3e480be5-1fc2-445a-a5df-fd33a41875a4.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:13:56+00:00",
     "version": 1,
     "volume": null
@@ -258,11 +279,13 @@
   },
   {
    "id": "1044287a-73df-48d0-b0b2-5327f32dd651",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   },
   {
    "id": "c086153a-0162-412a-9914-a7b2633d0cd3",
-   "type": "manga"
+   "type": "manga",
+   "related": "monochrome"
   }
  ]
 }

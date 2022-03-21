@@ -16,7 +16,7 @@
   "links": {
    "al": "81987",
    "ap": "fate-hollow-ataraxia",
-   "ebj": "https://www.ebookjapan.jp/ebj/215601/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/215601/",
    "kt": "10498",
    "mal": "51987",
    "mu": "98616"
@@ -25,6 +25,11 @@
   "publicationDemographic": "shounen",
   "status": "ongoing",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "fr",
+   "pt-br"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -51,6 +56,7 @@
     }
    }
   ],
+  "state": "published",
   "version": 2,
   "createdAt": "2018-08-27T13:27:36+00:00",
   "updatedAt": "2021-05-25T15:49:32+00:00"
@@ -68,6 +74,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Type-Moon",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -76,6 +83,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -91,6 +99,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Medori",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -99,6 +108,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -109,62 +119,81 @@
     "createdAt": "2021-05-24T16:43:09+00:00",
     "description": "",
     "fileName": "24548f04-385a-4439-b763-5a78ee448083.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:43:09+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "69614e08-645c-4267-bb55-6b8b4485316c",
-   "type": "manga"
-  },
-  {
-   "id": "d42ff2ef-b818-4712-8c2b-4c821c8599da",
-   "type": "manga"
-  },
-  {
-   "id": "bb1563c3-d5dd-4589-8394-43efb725b8cf",
-   "type": "manga"
+   "id": "155618a9-bd2b-41f9-abc3-a9f159447f27",
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "1bd75596-892e-41c9-afd0-046d53fb5ced",
-   "type": "manga"
-  },
-  {
-   "id": "e6c69c7e-2812-4d16-9c4b-cdfbd48f0ae2",
-   "type": "manga"
-  },
-  {
-   "id": "bfd26b44-3fb3-4b61-996a-7121d62082ce",
-   "type": "manga"
-  },
-  {
-   "id": "e9fb02c0-24d0-4b92-9ad3-f465f28da015",
-   "type": "manga"
-  },
-  {
-   "id": "f0ac0f6e-18c1-433e-8920-b6ac5acfc60d",
-   "type": "manga"
-  },
-  {
-   "id": "b443ff38-f6ef-4100-992e-dcdcfb842044",
-   "type": "manga"
-  },
-  {
-   "id": "bbd2292d-6c8a-4815-891f-b5022a5ba8c1",
-   "type": "manga"
-  },
-  {
-   "id": "155618a9-bd2b-41f9-abc3-a9f159447f27",
-   "type": "manga"
-  },
-  {
-   "id": "8f8d1c7d-494f-4619-909e-b116ac2ccf9b",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "21f5800a-13b8-44f1-8e50-3cff94f1397d",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
+  },
+  {
+   "id": "4cebfd41-d231-4e26-968a-6b5807d30488",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "69614e08-645c-4267-bb55-6b8b4485316c",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "8f8d1c7d-494f-4619-909e-b116ac2ccf9b",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "b443ff38-f6ef-4100-992e-dcdcfb842044",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "bb1563c3-d5dd-4589-8394-43efb725b8cf",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "bbd2292d-6c8a-4815-891f-b5022a5ba8c1",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "bfd26b44-3fb3-4b61-996a-7121d62082ce",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "d42ff2ef-b818-4712-8c2b-4c821c8599da",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "e6c69c7e-2812-4d16-9c4b-cdfbd48f0ae2",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "e9fb02c0-24d0-4b92-9ad3-f465f28da015",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "f0ac0f6e-18c1-433e-8920-b6ac5acfc60d",
+   "type": "manga",
+   "related": "doujinshi"
   }
  ]
 }

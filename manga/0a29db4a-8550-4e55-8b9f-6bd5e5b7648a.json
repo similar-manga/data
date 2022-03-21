@@ -27,7 +27,7 @@
    "amz": "https://www.amazon.co.jp/gp/product/B074CG22L6",
    "ap": "sekaioni",
    "bw": "series/124301 ",
-   "ebj": "https://www.ebookjapan.jp/ebj/174212",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/174212/",
    "kt": "25374",
    "mal": "59299",
    "mu": "81129",
@@ -39,7 +39,23 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "es-la"
+  ],
   "tags": [
+   {
+    "id": "2d1f5d56-a1e5-4d0d-a961-2193588b08ec",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Loli"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
     "type": "tag",
@@ -61,6 +77,30 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sexual Violence"
+     },
+     "description": null,
+     "group": "content",
+     "version": 1
+    }
+   },
+   {
+    "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Gore"
+     },
+     "description": null,
+     "group": "content",
      "version": 1
     }
    },
@@ -125,9 +165,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-08-08T07:44:15+00:00",
-  "updatedAt": "2021-05-25T15:39:14+00:00"
+  "updatedAt": "2022-03-01T19:34:29+00:00"
  },
  "relationships": [
   {
@@ -142,6 +183,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Okabe Uru",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -150,6 +192,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -165,6 +208,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Okabe Uru",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -173,6 +217,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -183,6 +228,7 @@
     "createdAt": "2021-05-24T16:39:33+00:00",
     "description": "",
     "fileName": "77cce910-6e41-4f5a-9bad-2f814440dcc2.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:39:33+00:00",
     "version": 1,
     "volume": null
@@ -190,7 +236,8 @@
   },
   {
    "id": "ec0c3270-4dff-43a7-a545-02f9af2c87f4",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
   }
  ]
 }

@@ -88,6 +88,15 @@
   "publicationDemographic": "shounen",
   "status": "ongoing",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "it",
+   "en",
+   "es-la",
+   "de",
+   "id",
+   "pt-br",
+   "ru"
+  ],
   "tags": [
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
@@ -210,9 +219,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 5,
   "createdAt": "2019-07-14T14:41:06+00:00",
-  "updatedAt": "2021-05-25T15:45:13+00:00"
+  "updatedAt": "2022-01-25T04:54:40+00:00"
  },
  "relationships": [
   {
@@ -227,6 +237,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yuumikan",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -235,6 +246,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -250,6 +262,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Oimoto Jirou",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -258,6 +271,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -268,26 +282,31 @@
     "createdAt": "2021-05-24T17:18:56+00:00",
     "description": "",
     "fileName": "f033da80-f5f2-4e72-84a7-827e282b2775.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:18:56+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "d7247563-8451-436d-81b3-91b046939ef2",
-   "type": "manga"
-  },
-  {
-   "id": "9eadb43a-bd2a-4fe5-8bbb-47c462cb64b0",
-   "type": "manga"
+   "id": "4c9427e7-a35a-4246-a3c0-732a4e35f9a6",
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "520c6daa-b348-457d-a857-f990f1628624",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
-   "id": "4c9427e7-a35a-4246-a3c0-732a4e35f9a6",
-   "type": "manga"
+   "id": "9eadb43a-bd2a-4fe5-8bbb-47c462cb64b0",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "d7247563-8451-436d-81b3-91b046939ef2",
+   "type": "manga",
+   "related": "doujinshi"
   }
  ]
 }

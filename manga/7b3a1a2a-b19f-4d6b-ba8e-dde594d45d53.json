@@ -42,6 +42,9 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "33771934-028e-4cb3-8744-691e866a923e",
@@ -128,16 +131,19 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-09-07T05:54:50+00:00",
-  "updatedAt": "2021-05-25T15:44:10+00:00"
+  "updatedAt": "2022-01-25T04:25:55+00:00"
  },
  "relationships": [
   {
    "id": "ec121b69-edeb-4624-955e-71aa1be927ee",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Writes hentai under the pseudonym AZUMA Kenji\n\nFormer assistant of [Hoshino Yukinobu](https://mangadex.org/author/706826f2-20a1-413f-a874-706f1b1f64f0/hoshino-yukinobu). "
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -145,14 +151,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ohnishi Kouichi",
+    "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://www.pixiv.net/en/users/6944",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "http://twitter.com/kouichi_ohnishi",
+    "updatedAt": "2022-01-24T04:40:48+00:00",
+    "version": 2,
+    "website": "http://ohnishikoichi.jimdo.com/",
+    "weibo": null,
     "youtube": null
    }
   },
@@ -160,7 +168,9 @@
    "id": "ec121b69-edeb-4624-955e-71aa1be927ee",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Writes hentai under the pseudonym AZUMA Kenji\n\nFormer assistant of [Hoshino Yukinobu](https://mangadex.org/author/706826f2-20a1-413f-a874-706f1b1f64f0/hoshino-yukinobu). "
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -168,14 +178,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ohnishi Kouichi",
+    "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://www.pixiv.net/en/users/6944",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "http://twitter.com/kouichi_ohnishi",
+    "updatedAt": "2022-01-24T04:40:48+00:00",
+    "version": 2,
+    "website": "http://ohnishikoichi.jimdo.com/",
+    "weibo": null,
     "youtube": null
    }
   },
@@ -186,6 +198,7 @@
     "createdAt": "2021-05-24T16:44:13+00:00",
     "description": "",
     "fileName": "44537df7-800b-4c5c-95a3-74ccb2e7861f.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:44:13+00:00",
     "version": 1,
     "volume": null
@@ -193,11 +206,13 @@
   },
   {
    "id": "29d486b5-8722-4b01-b2f0-2eaf0a69cb2f",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "fd70bf21-be6b-4412-8291-8d676c77428e",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

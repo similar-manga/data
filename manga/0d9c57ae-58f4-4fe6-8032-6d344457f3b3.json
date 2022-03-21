@@ -54,6 +54,9 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
@@ -140,9 +143,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-01-28T12:13:57+00:00",
-  "updatedAt": "2021-05-25T15:39:22+00:00"
+  "updatedAt": "2022-01-24T20:47:26+00:00"
  },
  "relationships": [
   {
@@ -157,6 +161,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kanazawa Nobuaki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -165,6 +170,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -180,6 +186,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Renda Hitori",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -188,6 +195,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -198,22 +206,26 @@
     "createdAt": "2021-05-24T18:06:49+00:00",
     "description": "",
     "fileName": "8f3c682d-5a50-431e-9874-f99114b69a54.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:06:49+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "b44fc85a-8b81-40f3-83b3-cbfcefba325a",
-   "type": "manga"
+   "id": "403721a8-0793-431f-b47c-89eb04f402ae",
+   "type": "manga",
+   "related": "prequel"
   },
   {
    "id": "6e11edac-eb6c-46d5-9cd4-04e1e817e1ba",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
   },
   {
-   "id": "403721a8-0793-431f-b47c-89eb04f402ae",
-   "type": "manga"
+   "id": "b44fc85a-8b81-40f3-83b3-cbfcefba325a",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

@@ -46,6 +46,11 @@
   "publicationDemographic": "shounen",
   "status": "ongoing",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "fr",
+   "it"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -132,9 +137,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2018-09-21T11:51:08+00:00",
-  "updatedAt": "2021-05-25T15:42:24+00:00"
+  "updatedAt": "2022-01-24T23:57:37+00:00"
  },
  "relationships": [
   {
@@ -149,6 +155,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Tang Jia San Shao",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -157,6 +164,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -172,6 +180,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hei Zhi Shi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -180,6 +189,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -190,34 +200,41 @@
     "createdAt": "2021-05-24T16:45:39+00:00",
     "description": "",
     "fileName": "3e4df766-5e0d-4600-8d80-cd5fef9fe601.png",
+    "locale": "zh",
     "updatedAt": "2021-05-24T16:45:39+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "5949f68d-9202-40e8-bfbc-fc16e1849058",
-   "type": "manga"
-  },
-  {
-   "id": "f2560480-8b67-457b-8895-9de643f681e9",
-   "type": "manga"
-  },
-  {
-   "id": "cb43f574-ccd1-41ff-ba72-bc74d57ba78a",
-   "type": "manga"
-  },
-  {
    "id": "13538cca-ae64-4afa-b11c-83064642f70a",
-   "type": "manga"
-  },
-  {
-   "id": "39d875a6-5df3-4323-a2da-3a0b50af429a",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "3397fcf6-18bb-4983-8daa-2b0ccd79487e",
-   "type": "manga"
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "39d875a6-5df3-4323-a2da-3a0b50af429a",
+   "type": "manga",
+   "related": "prequel"
+  },
+  {
+   "id": "5949f68d-9202-40e8-bfbc-fc16e1849058",
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "cb43f574-ccd1-41ff-ba72-bc74d57ba78a",
+   "type": "manga",
+   "related": "side_story"
+  },
+  {
+   "id": "f2560480-8b67-457b-8895-9de643f681e9",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

@@ -3,23 +3,20 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Zelda no Densetsu - 4-tsu no Tsurugi +"
+   "en": "The Legend of Zelda - Four Swords Adventures"
   },
   "altTitles": [
-   {
-    "en": "The Legend of Zelda - Four Swords Adventure"
-   },
-   {
-    "en": "The Legend of Zelda - Four Swords Adventures"
-   },
    {
     "en": "The Legend of Zelda - Four Swords Plus"
    },
    {
-    "en": "Zelda no Densetsu - Yotsu no Tsurugi +"
+    "ja-ro": "Zelda no Densetsu - Yotsu no Tsurugi +"
    },
    {
-    "en": "ゼルダの伝説 4つの剣+"
+    "ja": "ゼルダの伝説 4つの剣+"
+   },
+   {
+    "ja-ro": "Zelda no Densetsu - 4-tsu no Tsurugi +"
    }
   ],
   "description": {
@@ -31,9 +28,15 @@
    "mu": "2313"
   },
   "originalLanguage": "ja",
+  "lastVolume": "2",
   "lastChapter": "12",
+  "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 2004,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -82,11 +85,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-04-03T04:12:38+00:00",
-  "updatedAt": "2021-05-25T15:45:12+00:00"
+  "updatedAt": "2022-03-13T00:57:17+00:00"
  },
  "relationships": [
   {
@@ -101,6 +117,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nintendo",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -109,6 +126,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -124,6 +142,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Himekawa Akira",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -132,6 +151,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -142,14 +162,16 @@
     "createdAt": "2021-05-24T17:06:44+00:00",
     "description": "",
     "fileName": "ea209f5e-21b1-4e94-a524-4e3c988a6d63.jpg",
-    "updatedAt": "2021-05-24T17:06:44+00:00",
-    "version": 1,
-    "volume": null
+    "locale": "ja",
+    "updatedAt": "2022-03-13T00:57:17+00:00",
+    "version": 2,
+    "volume": "2"
    }
   },
   {
    "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

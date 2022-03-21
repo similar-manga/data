@@ -3,17 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Zelda no Densetsu - Fushigi no Boushi"
+   "en": "The Legend of Zelda - The Minish Cap"
   },
   "altTitles": [
    {
-    "en": "The Legend of Zelda - The Minish Cap"
+    "ru": "Легенда Зельды: Шляпа Миниша"
    },
    {
-    "en": "Легенда Зельды: Шляпа Миниша"
+    "ja": "ゼルダの伝説 ふしぎのぼうし"
    },
    {
-    "en": "ゼルダの伝説 ふしぎのぼうし"
+    "ja-ro": "Zelda no Densetsu - Fushigi no Boushi"
    }
   ],
   "description": {
@@ -27,9 +27,16 @@
    "mu": "2853"
   },
   "originalLanguage": "ja",
+  "lastVolume": "1",
   "lastChapter": "6",
+  "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 2006,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "it",
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -66,11 +73,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-04-03T06:19:17+00:00",
-  "updatedAt": "2021-05-25T15:45:20+00:00"
+  "updatedAt": "2022-03-12T23:58:10+00:00"
  },
  "relationships": [
   {
@@ -85,6 +105,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nintendo",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -93,6 +114,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -108,6 +130,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Himekawa Akira",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -116,6 +139,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -126,6 +150,7 @@
     "createdAt": "2021-05-24T17:06:45+00:00",
     "description": "",
     "fileName": "76f3f0db-10a2-4963-84e4-3e2de22c8680.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:06:45+00:00",
     "version": 1,
     "volume": null
@@ -133,7 +158,8 @@
   },
   {
    "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

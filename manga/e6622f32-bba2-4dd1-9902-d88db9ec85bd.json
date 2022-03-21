@@ -27,7 +27,12 @@
   "lastChapter": "5",
   "publicationDemographic": "shoujo",
   "status": "completed",
+  "year": 1999,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "es"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -66,9 +71,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-06-29T17:54:30+00:00",
-  "updatedAt": "2021-05-25T15:48:59+00:00"
+  "updatedAt": "2022-03-14T12:22:30+00:00"
  },
  "relationships": [
   {
@@ -83,6 +89,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Shigema Kei",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -91,6 +98,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -106,6 +114,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Naruse Kaori",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -114,6 +123,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -124,30 +134,36 @@
     "createdAt": "2021-05-28T23:16:26+00:00",
     "description": "",
     "fileName": "1ba4d223-df39-4b9f-b049-1cd9e33b5bc6.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-28T23:16:26+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "9d15581c-27e6-43e5-b425-3a82567679fa",
-   "type": "manga"
-  },
-  {
-   "id": "95606acf-264b-4aeb-8298-9c5e3a0195de",
-   "type": "manga"
-  },
-  {
    "id": "05c14279-72d2-4696-a974-59a7e709e3e3",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "4f1374ac-08a8-4c49-b099-df6749efa8b1",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
+  },
+  {
+   "id": "95606acf-264b-4aeb-8298-9c5e3a0195de",
+   "type": "manga",
+   "related": "side_story"
+  },
+  {
+   "id": "9d15581c-27e6-43e5-b425-3a82567679fa",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "de1a52a0-039f-42f7-8362-dd53f5d60577",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

@@ -13,7 +13,7 @@
     "en": "One OP Joker"
    },
    {
-    "en": "Wanope Joker"
+    "ja-ro": "Wanope Joker"
    },
    {
     "ru": "Джокер: Операция одиночки"
@@ -23,7 +23,7 @@
    }
   ],
   "description": {
-   "en": "The dastardly Joker faces up against his archnemesis in a new way! He now has to take care of him as a baby?  \nAfter Batman fell into a chemical vat turning him into a baby, Joker must now raise him to be Batman. What will happen next?!?  \n\n\n---",
+   "en": "The dastardly Joker faces up against his archnemesis in a new way! He now has to take care of him as a baby?  \nAfter Batman fell into a chemical vat turning him into a baby, Joker must now raise him to be Batman. What will happen next?!?",
    "ru": "Бэтмен загадочным образом превратился в ребёнка и угодил прямо под опеку Джокера, который решил взрастить того по своему образу и подобию.."
   },
   "links": {
@@ -43,6 +43,12 @@
   "status": "ongoing",
   "year": 2021,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "zh",
+   "en",
+   "it",
+   "pt-br"
+  ],
   "tags": [
    {
     "id": "07251805-a27e-4d59-b488-f0bfbec15168",
@@ -50,6 +56,18 @@
     "attributes": {
      "name": {
       "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sci-Fi"
      },
      "description": null,
      "group": "genre",
@@ -151,11 +169,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Supernatural"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
    }
   ],
-  "version": 5,
+  "state": "published",
+  "version": 9,
   "createdAt": "2021-01-14T15:11:56+00:00",
-  "updatedAt": "2021-12-05T09:20:51+00:00"
+  "updatedAt": "2022-02-14T09:17:24+00:00"
  },
  "relationships": [
   {
@@ -170,6 +201,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Miyakawa Satoshi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -178,6 +210,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -193,6 +226,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Gotou Keisuke",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -201,24 +235,27 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "5e492183-7fcc-4f62-b091-792ce565f2ce",
+   "id": "23cbe465-3a7b-4a75-9b32-a0f8ef6b514c",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-11-10T15:42:40+00:00",
+    "createdAt": "2022-02-14T09:17:24+00:00",
     "description": "",
-    "fileName": "3b0dfb08-6e7b-4b7d-9d25-6aa232eb4ca4.jpg",
-    "updatedAt": "2021-11-10T15:42:40+00:00",
+    "fileName": "9174d5b9-fef6-42e6-84ba-e444a3bd8b74.jpg",
+    "locale": "ja",
+    "updatedAt": "2022-02-14T09:17:24+00:00",
     "version": 1,
-    "volume": "1"
+    "volume": "2"
    }
   },
   {
    "id": "c5b2a1ce-051e-4e8e-a2fa-6a2866b1784a",
-   "type": "manga"
+   "type": "manga",
+   "related": "alternate_story"
   }
  ]
 }

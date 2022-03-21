@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "California Monogatari"
+   "en": "California Story"
   },
   "altTitles": [
    {
-    "en": "California Story"
+    "ja-ro": "California Monogatari"
    },
    {
-    "en": "カリフォルニア物語"
+    "ja": "カリフォルニア物語"
    }
   ],
   "description": {
@@ -25,9 +25,14 @@
   },
   "originalLanguage": "ja",
   "lastVolume": "8",
+  "lastChapter": "4",
   "publicationDemographic": "shoujo",
   "status": "completed",
+  "year": 1978,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
@@ -102,9 +107,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 5,
   "createdAt": "2020-11-06T00:01:38+00:00",
-  "updatedAt": "2021-05-25T15:48:11+00:00"
+  "updatedAt": "2022-02-02T01:53:06+00:00"
  },
  "relationships": [
   {
@@ -119,6 +125,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yoshida Akimi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -127,6 +134,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -142,6 +150,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yoshida Akimi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -150,24 +159,27 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "bddc5b6a-0b5c-4f28-b5ca-7e7643174017",
+   "id": "5aceb7a0-c9bb-4f20-8c8e-3969748647ae",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T18:17:45+00:00",
+    "createdAt": "2021-05-23T07:46:18+00:00",
     "description": "",
-    "fileName": "289261ea-b859-4237-8879-a1002e821ff2.jpg",
-    "updatedAt": "2021-05-24T18:17:45+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "90db4465-9d00-42ec-83d3-9c53a986518a.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T07:46:18+00:00",
+    "version": 2,
+    "volume": "8"
    }
   },
   {
    "id": "9a502e35-1051-4e4c-b055-5ab211954fa4",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

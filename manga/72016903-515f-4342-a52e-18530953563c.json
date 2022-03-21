@@ -3,17 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Zelda no Densetsu - Fushigi no Kinomi Daichi no Shou"
+   "en": "The Legend of Zelda - Oracle of Seasons"
   },
   "altTitles": [
-   {
-    "en": "The Legend of Zelda - Oracle of Seasons"
-   },
    {
     "en": "The Legend of Zelda - The Mysterious Nut, Earth Chapter"
    },
    {
-    "en": "ゼルダの伝説 ふしぎの木の実 大地の章"
+    "ja": "ゼルダの伝説 ふしぎの木の実 大地の章"
+   },
+   {
+    "ja-ro": "Zelda no Densetsu - Fushigi no Kinomi Daichi no Shou"
    }
   ],
   "description": {
@@ -27,9 +27,15 @@
    "mu": "2314"
   },
   "originalLanguage": "ja",
+  "lastVolume": "1",
   "lastChapter": "10",
+  "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 2001,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -78,11 +84,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-04-03T05:47:37+00:00",
-  "updatedAt": "2021-05-25T15:43:43+00:00"
+  "updatedAt": "2022-03-12T23:55:26+00:00"
  },
  "relationships": [
   {
@@ -97,6 +116,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nintendo",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -105,6 +125,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -120,6 +141,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Himekawa Akira",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -128,6 +150,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -138,18 +161,21 @@
     "createdAt": "2021-05-24T17:06:44+00:00",
     "description": "",
     "fileName": "8df0c147-ebb4-4a74-8336-b1f38b75dcde.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:06:44+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "87a173b5-5c1b-4db9-81db-b1fea5dcc174",
-   "type": "manga"
+   "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
-   "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
-   "type": "manga"
+   "id": "87a173b5-5c1b-4db9-81db-b1fea5dcc174",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

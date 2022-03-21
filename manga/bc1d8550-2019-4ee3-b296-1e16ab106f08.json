@@ -31,6 +31,13 @@
   "originalLanguage": "ja",
   "status": "completed",
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "id",
+   "pt-br",
+   "tr",
+   "en",
+   "es-la"
+  ],
   "tags": [
    {
     "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
@@ -81,9 +88,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-07-27T09:16:07+00:00",
-  "updatedAt": "2021-05-25T15:47:06+00:00"
+  "updatedAt": "2022-01-24T21:05:19+00:00"
  },
  "relationships": [
   {
@@ -98,6 +106,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Shimahara",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -106,6 +115,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -121,6 +131,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Shimahara",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -129,6 +140,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -139,6 +151,7 @@
     "createdAt": "2021-05-24T17:20:33+00:00",
     "description": "",
     "fileName": "66d8eb56-447e-4a18-87a8-a258e2189162.png",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:20:33+00:00",
     "version": 1,
     "volume": null
@@ -146,11 +159,13 @@
   },
   {
    "id": "872f1c0f-a42a-466a-b80e-6faa744707df",
-   "type": "manga"
+   "type": "manga",
+   "related": "alternate_story"
   },
   {
    "id": "9eff432a-621c-431d-a88b-1cb526482574",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
   }
  ]
 }

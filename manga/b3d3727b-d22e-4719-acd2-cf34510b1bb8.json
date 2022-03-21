@@ -33,7 +33,7 @@
    "amz": "https://www.amazon.co.jp/gp/product/B074CFS5JJ/",
    "ap": "ashita-wa-doyoubi",
    "bw": "series/124581",
-   "ebj": "https://www.ebookjapan.jp/ebj/354255/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/354255/",
    "kt": "37511",
    "mal": "97699",
    "mu": "129153"
@@ -44,6 +44,13 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "pt-br",
+   "es",
+   "en",
+   "id",
+   "tr"
+  ],
   "tags": [
    {
     "id": "2d1f5d56-a1e5-4d0d-a961-2193588b08ec",
@@ -82,9 +89,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 4,
   "createdAt": "2018-12-26T05:23:00+00:00",
-  "updatedAt": "2021-09-28T22:11:08+00:00"
+  "updatedAt": "2022-01-25T02:59:39+00:00"
  },
  "relationships": [
   {
@@ -99,14 +107,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yamamoto Souichirou",
+    "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://www.pixiv.net/users/61937",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "twitter": "https://twitter.com/udon0531",
+    "updatedAt": "2022-02-10T22:12:20+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -122,14 +132,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yamamoto Souichirou",
+    "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://www.pixiv.net/users/61937",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "twitter": "https://twitter.com/udon0531",
+    "updatedAt": "2022-02-10T22:12:20+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -140,6 +152,7 @@
     "createdAt": "2021-05-24T16:55:44+00:00",
     "description": "",
     "fileName": "bc8d9814-44cc-4fc2-b6f7-03698b420177.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:55:44+00:00",
     "version": 1,
     "volume": null
@@ -147,23 +160,28 @@
   },
   {
    "id": "1ab5f7e0-7768-457c-9f63-19471b6503cc",
-   "type": "manga"
-  },
-  {
-   "id": "ddcebfa2-05a0-4fcd-9cd4-60d779c38f2c",
-   "type": "manga"
-  },
-  {
-   "id": "6e445564-d9a8-4862-bff1-f4d6be6dba2c",
-   "type": "manga"
+   "type": "manga",
+   "related": "shared_universe"
   },
   {
    "id": "2de56033-a745-486e-86cc-8cc4ac12d208",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "6e445564-d9a8-4862-bff1-f4d6be6dba2c",
+   "type": "manga",
+   "related": "main_story"
   },
   {
    "id": "954bd0a2-f43e-434a-8baa-ce971c0e7ed6",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "ddcebfa2-05a0-4fcd-9cd4-60d779c38f2c",
+   "type": "manga",
+   "related": "alternate_story"
   }
  ]
 }

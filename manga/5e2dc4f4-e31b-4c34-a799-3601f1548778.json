@@ -42,7 +42,22 @@
   "status": "completed",
   "year": 1998,
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
+   {
+    "id": "39730448-9a5f-48a2-85b0-a70db87b1233",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Demons"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
    {
     "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
     "type": "tag",
@@ -52,6 +67,18 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "65761a2a-415e-47f3-bef2-a9dababba7a6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Reverse Harem"
+     },
+     "description": null,
+     "group": "theme",
      "version": 1
     }
    },
@@ -116,9 +143,10 @@
     }
    }
   ],
-  "version": 6,
+  "state": "published",
+  "version": 8,
   "createdAt": "2018-02-05T05:58:36+00:00",
-  "updatedAt": "2021-11-12T19:34:43+00:00"
+  "updatedAt": "2022-01-01T16:42:07+00:00"
  },
  "relationships": [
   {
@@ -132,15 +160,17 @@
     "fantia": null,
     "imageUrl": null,
     "melonBook": null,
-    "name": "Kim Young Hee",
+    "name": "Kim Young-hee",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "updatedAt": "2022-01-04T08:49:43+00:00",
+    "version": 3,
+    "website": "http://yheehompyro.com/?ckattempt=1",
+    "weibo": null,
     "youtube": null
    }
   },
@@ -155,37 +185,42 @@
     "fantia": null,
     "imageUrl": null,
     "melonBook": null,
-    "name": "Kim Young Hee",
+    "name": "Kim Young-hee",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "updatedAt": "2022-01-04T08:49:43+00:00",
+    "version": 3,
+    "website": "http://yheehompyro.com/?ckattempt=1",
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "7aa343c4-def3-4fad-8f73-8512e175d66a",
+   "id": "52466154-0a74-4f88-ac1f-5aa968a15e12",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-11-10T20:41:58+00:00",
+    "createdAt": "2021-11-10T20:41:56+00:00",
     "description": "",
-    "fileName": "8ebcf65a-aaa7-4774-8b38-4c77eeba36c4.jpg",
-    "updatedAt": "2021-11-10T20:41:58+00:00",
+    "fileName": "802f6edb-3823-466b-ba55-9fb433be9610.jpg",
+    "locale": "ko",
+    "updatedAt": "2021-11-10T20:41:56+00:00",
     "version": 1,
-    "volume": "9"
+    "volume": "12"
    }
   },
   {
-   "id": "b40ce67d-5470-459d-90ea-c4b09903b995",
-   "type": "manga"
+   "id": "48d44823-2521-430f-89f5-a6a43dc2c566",
+   "type": "manga",
+   "related": "prequel"
   },
   {
-   "id": "48d44823-2521-430f-89f5-a6a43dc2c566",
-   "type": "manga"
+   "id": "b40ce67d-5470-459d-90ea-c4b09903b995",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

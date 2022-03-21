@@ -39,6 +39,10 @@
   "status": "completed",
   "year": 2006,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "pt-br"
+  ],
   "tags": [
    {
     "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
@@ -101,9 +105,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 4,
   "createdAt": "2018-03-11T01:01:31+00:00",
-  "updatedAt": "2021-11-30T18:38:54+00:00"
+  "updatedAt": "2022-01-25T02:41:50+00:00"
  },
  "relationships": [
   {
@@ -118,6 +123,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ryukishi07",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -126,6 +132,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -141,6 +148,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Suzuragi Karin",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -149,6 +157,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -159,26 +168,31 @@
     "createdAt": "2021-05-23T06:36:31+00:00",
     "description": "",
     "fileName": "df6bcc1a-2be6-47a9-aac5-f283068aa1b3.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-23T06:36:31+00:00",
     "version": 2,
     "volume": "4"
    }
   },
   {
-   "id": "e46d9f83-63a8-443e-a3ba-3d3d465ee94d",
-   "type": "manga"
-  },
-  {
    "id": "07e43a60-e0f7-494f-b7ed-cab185254731",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "b7764e53-3395-41cf-b042-36e5d35a4e33",
-   "type": "manga"
+   "type": "manga",
+   "related": "alternate_story"
+  },
+  {
+   "id": "e46d9f83-63a8-443e-a3ba-3d3d465ee94d",
+   "type": "manga",
+   "related": "prequel"
   },
   {
    "id": "e54b20ef-8db2-4e9a-ba6c-e7e226eded35",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
   }
  ]
 }

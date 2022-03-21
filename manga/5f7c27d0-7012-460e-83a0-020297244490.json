@@ -30,6 +30,12 @@
   "status": "completed",
   "year": 2002,
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "pl",
+   "en",
+   "pt-br",
+   "tr"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -128,16 +134,19 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 9,
   "createdAt": "2018-01-30T03:48:31+00:00",
-  "updatedAt": "2021-11-30T22:02:47+00:00"
+  "updatedAt": "2022-01-25T06:21:39+00:00"
  },
  "relationships": [
   {
    "id": "d1fdd0e0-b817-4b17-9972-7082b6f4a7c7",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Lynn Okamoto (岡本倫, Okamoto Rin) is a Japanese manga artist and a former employee of Bandai. His most famous work is the series Elfen Lied which was adapted in a 13-episode anime series by the studio Arms. He lives in Tokyo, Japan.\n\nThe asteroid [49382 Lynnokamoto](https://en.wikipedia.org/wiki/List_of_minor_planets:_49001%E2%80%9350000#382) (1998 XG5) was named after him.\n\n\n\n"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -145,14 +154,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Okamoto Lynn",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-01-11T08:50:24+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -160,7 +171,9 @@
    "id": "d1fdd0e0-b817-4b17-9972-7082b6f4a7c7",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Lynn Okamoto (岡本倫, Okamoto Rin) is a Japanese manga artist and a former employee of Bandai. His most famous work is the series Elfen Lied which was adapted in a 13-episode anime series by the studio Arms. He lives in Tokyo, Japan.\n\nThe asteroid [49382 Lynnokamoto](https://en.wikipedia.org/wiki/List_of_minor_planets:_49001%E2%80%9350000#382) (1998 XG5) was named after him.\n\n\n\n"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -168,14 +181,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Okamoto Lynn",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-01-11T08:50:24+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -186,6 +201,7 @@
     "createdAt": "2021-05-24T18:24:14+00:00",
     "description": "",
     "fileName": "9cb40741-5ccb-48df-9422-3e9ce0215a8f.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:24:14+00:00",
     "version": 1,
     "volume": null
@@ -193,7 +209,8 @@
   },
   {
    "id": "9e49d426-349f-49e5-8960-4557a6d85c4c",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
   }
  ]
 }

@@ -3,18 +3,22 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Kuroi Hon"
+   "en": "Black Book"
   },
   "altTitles": [
    {
-    "en": "Black Book"
+    "ja": "黒異本"
    },
    {
-    "en": "黒異本"
+    "ja-ro": "Kuro Ihon"
+   },
+   {
+    "ja-ro": "Kuroi Hon"
    }
   ],
   "description": {
-   "en": "Seven stories adapted from the horror of Hokazono Masaya."
+   "en": "Seven stories adapted from the horror of Hokazono Masaya.",
+   "pt-br": "Coletânea com 8 one-shots de puro terror."
   },
   "links": {
    "al": "96162",
@@ -28,7 +32,13 @@
   "lastChapter": "8",
   "publicationDemographic": "seinen",
   "status": "completed",
+  "year": 2014,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "es-la",
+   "pt-br"
+  ],
   "tags": [
    {
     "id": "cdad7e68-1419-41dd-bdce-27753074a640",
@@ -43,9 +53,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-11-23T18:31:25+00:00",
-  "updatedAt": "2021-05-25T15:41:07+00:00"
+  "updatedAt": "2022-01-24T23:02:41+00:00"
  },
  "relationships": [
   {
@@ -60,6 +71,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hokazono Masaya",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -68,6 +80,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -83,6 +96,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Motosuke Takaminato",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -91,6 +105,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -101,6 +116,7 @@
     "createdAt": "2021-05-24T16:52:27+00:00",
     "description": "",
     "fileName": "dac672e5-e6c1-42c8-8216-87efda454b09.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:52:27+00:00",
     "version": 1,
     "volume": null
@@ -108,11 +124,13 @@
   },
   {
    "id": "4a8f2ead-7275-4a87-96b5-addc3fd65971",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "583bb5a4-6b5a-4ca1-82f2-5d9b4109c6eb",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

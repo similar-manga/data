@@ -22,6 +22,9 @@
   "status": "completed",
   "year": 2003,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
@@ -132,9 +135,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-04-21T07:32:56+00:00",
-  "updatedAt": "2021-11-22T16:57:01+00:00"
+  "updatedAt": "2022-01-25T06:27:34+00:00"
  },
  "relationships": [
   {
@@ -149,6 +153,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nintendo",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -157,6 +162,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -172,6 +178,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Tazawa Kouji",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -180,6 +187,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -195,6 +203,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ishikawa Kenji",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -203,6 +212,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -213,6 +223,7 @@
     "createdAt": "2021-05-24T17:08:53+00:00",
     "description": "",
     "fileName": "97a0d364-0a02-4884-b3fd-79f15bcc741e.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:08:53+00:00",
     "version": 1,
     "volume": null
@@ -220,31 +231,38 @@
   },
   {
    "id": "01586f0f-6bab-4984-9b55-235fb40d1505",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "04683ab2-89d9-431a-8b3e-72e23be543b7",
-   "type": "manga"
-  },
-  {
-   "id": "7f798830-c270-414e-ac0c-7728b692841d",
-   "type": "manga"
-  },
-  {
-   "id": "66b74db5-9290-401c-ba45-4a1119c5ea40",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "4b3953a5-52ff-463f-bc2f-83413f4ba747",
-   "type": "manga"
-  },
-  {
-   "id": "5de460b1-500c-4d16-9e9e-6f4cf554ef6a",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "5cff4e88-e6b7-4a75-a1be-ec975f6bfd75",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "5de460b1-500c-4d16-9e9e-6f4cf554ef6a",
+   "type": "manga",
+   "related": "main_story"
+  },
+  {
+   "id": "66b74db5-9290-401c-ba45-4a1119c5ea40",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "7f798830-c270-414e-ac0c-7728b692841d",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

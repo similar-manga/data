@@ -38,6 +38,9 @@
    },
    {
     "ko": "일곱개의 대죄"
+   },
+   {
+    "zh-hk": "七大罪"
    }
   ],
   "description": {
@@ -63,6 +66,18 @@
   "status": "completed",
   "year": 2012,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "ru",
+   "en",
+   "pl",
+   "id",
+   "es",
+   "it",
+   "ar",
+   "es-la",
+   "pt-br",
+   "th"
+  ],
   "tags": [
    {
     "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
@@ -149,9 +164,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 12,
   "createdAt": "2018-06-14T18:01:43+00:00",
-  "updatedAt": "2021-12-10T19:57:20+00:00"
+  "updatedAt": "2022-01-27T14:59:39+00:00"
  },
  "relationships": [
   {
@@ -166,6 +182,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Suzuki Nakaba",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -174,6 +191,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -189,6 +207,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Suzuki Nakaba",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -197,6 +216,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -207,34 +227,41 @@
     "createdAt": "2021-05-24T18:37:34+00:00",
     "description": "",
     "fileName": "3fac63df-9127-4d48-8e14-75e1d08d8946.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:37:34+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "727bda2a-d15f-456b-b34e-4daa43ab653c",
-   "type": "manga"
+   "id": "34019331-7377-4e2c-837e-f6e1ab2b5ef7",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "696dff90-c45d-43f3-8e02-1453590c0d33",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "727bda2a-d15f-456b-b34e-4daa43ab653c",
+   "type": "manga",
+   "related": "colored"
   },
   {
    "id": "ace62c1e-2d70-4517-b2f4-baa147db82f7",
-   "type": "manga"
-  },
-  {
-   "id": "34019331-7377-4e2c-837e-f6e1ab2b5ef7",
-   "type": "manga"
-  },
-  {
-   "id": "ee0bd657-5eb4-42a7-9ab1-5886c594989b",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
   },
   {
    "id": "e828e396-528d-4680-a7f1-ad5e7d54b635",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
+  },
+  {
+   "id": "ee0bd657-5eb4-42a7-9ab1-5886c594989b",
+   "type": "manga",
+   "related": "side_story"
   }
  ]
 }

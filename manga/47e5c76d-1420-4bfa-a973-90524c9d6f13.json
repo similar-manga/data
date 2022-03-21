@@ -58,6 +58,17 @@
   "status": "ongoing",
   "year": 1997,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "pt-br",
+   "tr",
+   "es",
+   "ms",
+   "it",
+   "no",
+   "fr",
+   "es-la"
+  ],
   "tags": [
    {
     "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
@@ -132,9 +143,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 4,
   "createdAt": "2018-04-06T08:08:02+00:00",
-  "updatedAt": "2021-11-21T21:37:51+00:00"
+  "updatedAt": "2022-03-04T16:56:16+00:00"
  },
  "relationships": [
   {
@@ -149,6 +161,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hidenori Kusaka",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -157,6 +170,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -172,6 +186,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Satoshi Yamamoto",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -180,48 +195,57 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "00245124-04a0-4f0e-b312-0781fc9fc1f8",
+   "id": "d1446318-cf01-45d1-8a91-c8f1927b8f7c",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:39:13+00:00",
+    "createdAt": "2022-03-04T16:56:14+00:00",
     "description": "",
-    "fileName": "b8bb8ad5-ff87-4048-b595-5c1924dd2a71.jpg",
-    "updatedAt": "2021-05-24T17:39:13+00:00",
+    "fileName": "ab7958f0-ddfa-4183-aab2-91aa09875e80.jpg",
+    "locale": "ja",
+    "updatedAt": "2022-03-04T16:56:14+00:00",
     "version": 1,
-    "volume": null
+    "volume": "61"
    }
   },
   {
    "id": "5888d21a-7ecd-4f75-8e98-781f88c74317",
-   "type": "manga"
-  },
-  {
-   "id": "8be4e41b-6dc6-4840-ae4a-bbe74d75086b",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "7330f20b-5cac-469b-a232-7dd002175f07",
-   "type": "manga"
-  },
-  {
-   "id": "b5126a8b-97ff-47ad-82cb-e3773611ec25",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "882b1e22-ac83-4613-b8f1-7c48138fa584",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "8be4e41b-6dc6-4840-ae4a-bbe74d75086b",
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "9ff6924b-2dc8-4d3a-849e-a88b0d4e642b",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "b5126a8b-97ff-47ad-82cb-e3773611ec25",
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "e3e3076a-bee7-40e0-87db-f9c79e4ac9d5",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

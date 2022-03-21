@@ -21,7 +21,7 @@
   },
   "links": {
    "al": "103233",
-   "ebj": "https://www.ebookjapan.jp/ebj/27327/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/27327/",
    "kt": "13449",
    "mal": "35691",
    "mu": "75222"
@@ -31,6 +31,10 @@
   "lastChapter": "8",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "tr"
+  ],
   "tags": [
    {
     "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
@@ -105,9 +109,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-05-04T06:17:28+00:00",
-  "updatedAt": "2021-05-25T15:42:24+00:00"
+  "updatedAt": "2022-01-24T22:33:13+00:00"
  },
  "relationships": [
   {
@@ -122,6 +127,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ichikawa Kei",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -130,6 +136,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -145,6 +152,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ichikawa Kei",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -153,6 +161,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -163,22 +172,26 @@
     "createdAt": "2021-05-24T18:08:53+00:00",
     "description": "",
     "fileName": "535c9aed-66fd-473f-8b33-d25ab117f360.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:08:53+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "359cc5dd-8006-427d-86bb-b83798a6d25a",
-   "type": "manga"
-  },
-  {
    "id": "0a1f22fd-81e0-4358-8ff2-d24e9a0d93ea",
-   "type": "manga"
+   "type": "manga",
+   "related": "main_story"
   },
   {
    "id": "171413a2-40b7-4cf2-882f-0f780e773add",
-   "type": "manga"
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "359cc5dd-8006-427d-86bb-b83798a6d25a",
+   "type": "manga",
+   "related": "side_story"
   }
  ]
 }

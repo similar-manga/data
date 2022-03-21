@@ -3,17 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Tobaku Hakairoku Kaiji"
+   "en": "Gambling Heathen Kaiji - Kaiji Part 2"
   },
   "altTitles": [
-   {
-    "en": "Gambling Heathen Kaiji"
-   },
    {
     "en": "Kaiji Part 2"
    },
    {
     "ja": "賭博破戒録 カイジ"
+   },
+   {
+    "ja-ro": "Tobaku Hakairoku Kaiji"
    }
   ],
   "description": {
@@ -25,7 +25,8 @@
    "ap": "tobaku-hakairoku-kaiji",
    "kt": "7919",
    "mal": "3573",
-   "mu": "63121"
+   "mu": "63121",
+   "raw": "https://kc.kodansha.co.jp/title?code=1000003329"
   },
   "originalLanguage": "ja",
   "lastVolume": "13",
@@ -34,6 +35,9 @@
   "status": "completed",
   "year": 2000,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
@@ -72,9 +76,10 @@
     }
    }
   ],
-  "version": 4,
+  "state": "published",
+  "version": 6,
   "createdAt": "2018-05-01T23:56:23+00:00",
-  "updatedAt": "2021-11-22T14:07:08+00:00"
+  "updatedAt": "2022-02-06T20:52:51+00:00"
  },
  "relationships": [
   {
@@ -89,6 +94,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fukumoto Nobuyuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -97,6 +103,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -112,6 +119,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fukumoto Nobuyuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -120,32 +128,47 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "7f4d9269-6ffc-4f82-bbe0-84ad95151094",
+   "id": "47656451-34c2-4f25-8624-909bb6d1e46a",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-23T07:38:44+00:00",
+    "createdAt": "2021-05-23T07:38:42+00:00",
     "description": "",
-    "fileName": "1ff07ee6-19b4-44ec-96e2-d5c2b7fae8e4.jpg",
-    "updatedAt": "2021-05-23T07:38:44+00:00",
+    "fileName": "74b2b57a-10c9-421a-81c6-1a441f7fb022.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T07:38:42+00:00",
     "version": 2,
-    "volume": "9"
+    "volume": "13"
    }
   },
   {
-   "id": "8f542695-6d90-48a3-bee7-cc84175857ee",
-   "type": "manga"
+   "id": "15a16d96-3817-4882-ad62-a93ba4c093ea",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "3b522001-480a-4caa-b77c-5d438e4118e2",
+   "type": "manga",
+   "related": "spin_off"
   },
   {
    "id": "805973c7-1c02-4cdd-a9c8-6a98dd0e203a",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   },
   {
-   "id": "15a16d96-3817-4882-ad62-a93ba4c093ea",
-   "type": "manga"
+   "id": "8f542695-6d90-48a3-bee7-cc84175857ee",
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "a80ac925-c01e-4826-9ecc-28c5645f1721",
+   "type": "manga",
+   "related": "spin_off"
   }
  ]
 }

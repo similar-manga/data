@@ -27,6 +27,11 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "en",
+   "id",
+   "es-la"
+  ],
   "tags": [
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
@@ -77,9 +82,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 6,
   "createdAt": "2019-08-13T22:53:14+00:00",
-  "updatedAt": "2021-11-13T16:18:21+00:00"
+  "updatedAt": "2022-01-25T06:26:50+00:00"
  },
  "relationships": [
   {
@@ -94,6 +100,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Anthology",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -102,6 +109,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -117,6 +125,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Anthology",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -125,6 +134,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -135,26 +145,31 @@
     "createdAt": "2021-05-24T17:22:42+00:00",
     "description": "",
     "fileName": "830eba2d-33bb-4fbe-a8f2-bd5dace8cfa6.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:22:42+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
+   "id": "084f390c-e8b1-471a-aa68-2aa29d454ec6",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
    "id": "3e1349bd-ee65-4d2c-9945-da3d577bddd9",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "94b7f175-e3bd-444e-bc87-fb8470adca58",
-   "type": "manga"
-  },
-  {
-   "id": "084f390c-e8b1-471a-aa68-2aa29d454ec6",
-   "type": "manga"
+   "type": "manga",
+   "related": "based_on"
   },
   {
    "id": "d52a2ce5-5ea1-4bef-9a0e-58519caaecd8",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

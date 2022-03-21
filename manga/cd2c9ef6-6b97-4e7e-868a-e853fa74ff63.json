@@ -5,15 +5,29 @@
   "title": {
    "en": "Nyan-Nyan Cantata"
   },
+  "altTitles": [
+   {
+    "ja": "にゃんにゃんカンタータ"
+   }
+  ],
   "description": {
    "en": "Included in volume 4 of *Kuzu no Honkai*."
   },
   "links": {
+   "al": "101205",
    "mu": "83812"
   },
   "originalLanguage": "ja",
   "status": "completed",
+  "year": 2014,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "uk",
+   "fr",
+   "tr",
+   "pt-br",
+   "en"
+  ],
   "tags": [
    {
     "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
@@ -24,6 +38,30 @@
      },
      "description": null,
      "group": "format",
+     "version": 1
+    }
+   },
+   {
+    "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Romance"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": null,
+     "group": "genre",
      "version": 1
     }
    },
@@ -40,16 +78,19 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 5,
   "createdAt": "2018-10-31T09:35:48+00:00",
-  "updatedAt": "2021-05-25T15:47:46+00:00"
+  "updatedAt": "2022-01-25T08:44:07+00:00"
  },
  "relationships": [
   {
    "id": "c384dc8c-afbd-46bf-8b0b-810d398a1489",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Mengo Yokoyari dropped out of high school to become a mangaka assistant. She wanted to become a manga artist since she was little.\n\nYokoyari made her debut in 2009 with Maken☆H Zemi!, which was published in Magazine WOoooo! and later collected as part of the Mokkai Shiyo? compilation.\n\nAfter contributing regularly to the magazine, she was invited by a Futabasha editor to draw a series for one its magazines. It would materialize as Haruwaka, Yokoyari's first serialization work.\n\nShe married someone from outside the manga industry on February 22, 2019."
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -57,14 +98,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yokoyari Mengo",
+    "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://www.pixiv.net/users/75189",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "twitter": "https://twitter.com/yorimen",
+    "updatedAt": "2022-01-02T10:06:42+00:00",
+    "version": 4,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -72,7 +115,9 @@
    "id": "c384dc8c-afbd-46bf-8b0b-810d398a1489",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Mengo Yokoyari dropped out of high school to become a mangaka assistant. She wanted to become a manga artist since she was little.\n\nYokoyari made her debut in 2009 with Maken☆H Zemi!, which was published in Magazine WOoooo! and later collected as part of the Mokkai Shiyo? compilation.\n\nAfter contributing regularly to the magazine, she was invited by a Futabasha editor to draw a series for one its magazines. It would materialize as Haruwaka, Yokoyari's first serialization work.\n\nShe married someone from outside the manga industry on February 22, 2019."
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -80,14 +125,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yokoyari Mengo",
+    "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://www.pixiv.net/users/75189",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "twitter": "https://twitter.com/yorimen",
+    "updatedAt": "2022-01-02T10:06:42+00:00",
+    "version": 4,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -98,18 +145,21 @@
     "createdAt": "2021-05-24T16:50:00+00:00",
     "description": "",
     "fileName": "412f86b5-eb0d-4c8a-9d3e-2d8fd98a0e02.png",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:50:00+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "6a06b979-0ada-44f2-b1ae-fceb70180af4",
-   "type": "manga"
+   "id": "24856a89-229a-4cca-9fae-8c70ee1eebd9",
+   "type": "manga",
+   "related": "alternate_story"
   },
   {
-   "id": "24856a89-229a-4cca-9fae-8c70ee1eebd9",
-   "type": "manga"
+   "id": "6a06b979-0ada-44f2-b1ae-fceb70180af4",
+   "type": "manga",
+   "related": "main_story"
   }
  ]
 }

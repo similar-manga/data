@@ -3,17 +3,20 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Mushoku Tensei ~Even if it's a 4-koma, I'll Get Serious~"
+   "en": "Mushoku Tensei: 4-koma ni natte mo Honki dasu"
   },
   "altTitles": [
    {
-    "en": "Mushoku Tensei ~4Koma~"
+    "en": "Mushoku Tensei~Even if it's a 4-koma, I'll Get Serious~"
    },
    {
-    "en": "Mushoku Tensei: 4-koma ni natte mo Honki dasu"
+    "ja-ro": "Mushoku Tensei: 4-koma ni natte mo Honki dasu"
    },
    {
-    "en": "無職転生～4コマになっても本気だす～"
+    "ja": "無職転生～4コマになっても本気だす～"
+   },
+   {
+    "zh-hk": "無職轉生～4格也要拿出真本事～"
    }
   ],
   "description": {
@@ -28,6 +31,11 @@
   "publicationDemographic": "seinen",
   "status": "ongoing",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "pt-br",
+   "en",
+   "ru"
+  ],
   "tags": [
    {
     "id": "0bc90acb-ccc1-44ca-a34a-b9f3a73259d0",
@@ -126,9 +134,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2020-03-12T15:25:03+00:00",
-  "updatedAt": "2021-05-25T15:42:55+00:00"
+  "updatedAt": "2022-03-16T14:12:18+00:00"
  },
  "relationships": [
   {
@@ -143,6 +152,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Rifujin na Magonote",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -151,6 +161,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -166,6 +177,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kaede Nogiwa",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -174,6 +186,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -184,14 +197,21 @@
     "createdAt": "2021-05-24T17:48:21+00:00",
     "description": "",
     "fileName": "53d4c268-eb9a-41a9-aadb-d975ac55af16.jpg",
-    "updatedAt": "2021-05-24T17:48:21+00:00",
-    "version": 1,
-    "volume": null
+    "locale": "ja",
+    "updatedAt": "2022-03-09T19:51:16+00:00",
+    "version": 2,
+    "volume": "3"
    }
   },
   {
    "id": "bd6d0982-0091-4945-ad70-c028ed3c0917",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
+  },
+  {
+   "id": "dc481ed5-4925-4f3c-bac1-e73f1e7ed338",
+   "type": "manga",
+   "related": "adapted_from"
   }
  ]
 }

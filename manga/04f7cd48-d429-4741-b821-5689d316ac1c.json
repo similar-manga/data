@@ -36,6 +36,14 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "nl",
+   "en",
+   "es-la",
+   "fr",
+   "pt-br",
+   "pl"
+  ],
   "tags": [
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
@@ -74,9 +82,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2018-07-14T09:52:22+00:00",
-  "updatedAt": "2021-05-25T15:38:57+00:00"
+  "updatedAt": "2022-01-24T23:29:46+00:00"
  },
  "relationships": [
   {
@@ -91,6 +100,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Sankaku Head",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -99,6 +109,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -114,6 +125,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Sankaku Head",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -122,6 +134,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -132,6 +145,7 @@
     "createdAt": "2021-05-24T18:40:59+00:00",
     "description": "",
     "fileName": "71590dff-fa1c-480c-9d4d-32ee6295cd10.png",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:40:59+00:00",
     "version": 1,
     "volume": null
@@ -139,15 +153,18 @@
   },
   {
    "id": "30483b93-1867-48f2-88fc-aa493644275a",
-   "type": "manga"
-  },
-  {
-   "id": "c0be53d9-6ccd-4e0b-b6df-dc9c97da09d4",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
   },
   {
    "id": "63e00bb1-6325-47a6-a89a-97efc06571ba",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "c0be53d9-6ccd-4e0b-b6df-dc9c97da09d4",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

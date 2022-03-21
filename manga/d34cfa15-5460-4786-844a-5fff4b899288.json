@@ -22,6 +22,10 @@
   "status": "completed",
   "year": 2019,
   "contentRating": "erotica",
+  "availableTranslatedLanguages": [
+   "en",
+   "es"
+  ],
   "tags": [
    {
     "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
@@ -32,6 +36,18 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sexual Violence"
+     },
+     "description": null,
+     "group": "content",
      "version": 1
     }
    },
@@ -48,9 +64,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 4,
   "createdAt": "2020-08-20T01:23:30+00:00",
-  "updatedAt": "2021-11-12T07:35:03+00:00"
+  "updatedAt": "2022-03-10T12:17:38+00:00"
  },
  "relationships": [
   {
@@ -65,6 +82,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nagi Wataru",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -73,6 +91,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -88,6 +107,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nagi Wataru",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -96,6 +116,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -106,6 +127,7 @@
     "createdAt": "2021-05-24T18:07:14+00:00",
     "description": "",
     "fileName": "cbb739cc-a76a-4733-a96b-81e3ad44bec4.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:07:14+00:00",
     "version": 1,
     "volume": null
@@ -113,7 +135,8 @@
   },
   {
    "id": "0b1cd38e-e50b-45a6-89c3-47675660e3ce",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
   }
  ]
 }

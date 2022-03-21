@@ -32,6 +32,11 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "en",
+   "fr",
+   "es"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -58,6 +63,7 @@
     }
    }
   ],
+  "state": "published",
   "version": 4,
   "createdAt": "2018-10-12T06:30:46+00:00",
   "updatedAt": "2021-11-19T04:11:18+00:00"
@@ -75,6 +81,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Taniguchi Goro",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -83,6 +90,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -98,6 +106,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Okouchi Ichiro",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -106,6 +115,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -121,6 +131,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Morita Shigeru",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -129,6 +140,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -144,14 +156,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Toujou Chika",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "twitter": "https://twitter.com/yooochika",
+    "updatedAt": "2022-02-05T00:49:40+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -162,30 +176,36 @@
     "createdAt": "2021-05-24T16:47:52+00:00",
     "description": "",
     "fileName": "93b01d75-edc2-4585-ba20-fff16fbc2be7.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:47:52+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "93081ca5-b90b-47f5-804c-6d224e011b35",
-   "type": "manga"
-  },
-  {
-   "id": "7c71eb97-5a02-41cf-b116-92b20ba832ce",
-   "type": "manga"
+   "id": "55be8e16-fdd9-4f19-b32f-f0d1c313e8b9",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "678b0682-b887-4de4-b774-addf10d16c8b",
-   "type": "manga"
-  },
-  {
-   "id": "55be8e16-fdd9-4f19-b32f-f0d1c313e8b9",
-   "type": "manga"
+   "type": "manga",
+   "related": "main_story"
   },
   {
    "id": "7440fa76-b53c-4f19-ae4f-48863d114b7b",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "7c71eb97-5a02-41cf-b116-92b20ba832ce",
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "93081ca5-b90b-47f5-804c-6d224e011b35",
+   "type": "manga",
+   "related": "side_story"
   }
  ]
 }

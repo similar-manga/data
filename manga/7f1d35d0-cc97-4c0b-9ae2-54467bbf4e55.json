@@ -8,6 +8,12 @@
   "altTitles": [
    {
     "en": "Yamato the White Fighter"
+   },
+   {
+    "ja": "白い戦士ヤマト"
+   },
+   {
+    "en": "White Fighter Yamato"
    }
   ],
   "description": {
@@ -25,7 +31,11 @@
   "lastChapter": "100",
   "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 1978,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -36,6 +46,18 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Animals"
+     },
+     "description": null,
+     "group": "theme",
      "version": 1
     }
    },
@@ -52,9 +74,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2020-02-16T20:43:09+00:00",
-  "updatedAt": "2021-05-25T15:44:18+00:00"
+  "updatedAt": "2022-03-07T03:21:09+00:00"
  },
  "relationships": [
   {
@@ -69,6 +92,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takahashi Yoshihiro",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -77,6 +101,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -92,6 +117,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takahashi Yoshihiro",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -100,6 +126,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -110,18 +137,21 @@
     "createdAt": "2021-05-24T17:45:22+00:00",
     "description": "",
     "fileName": "a64666e1-c5a8-40f8-8769-1046720e2e86.png",
-    "updatedAt": "2021-05-24T17:45:22+00:00",
-    "version": 1,
-    "volume": null
+    "locale": "ja",
+    "updatedAt": "2022-03-07T03:21:09+00:00",
+    "version": 2,
+    "volume": "1"
    }
   },
   {
-   "id": "ae92b0f2-80a6-4cbb-b076-c315695d40b8",
-   "type": "manga"
+   "id": "8b95bca5-51d3-41dd-86ee-c718372585be",
+   "type": "manga",
+   "related": "sequel"
   },
   {
-   "id": "8b95bca5-51d3-41dd-86ee-c718372585be",
-   "type": "manga"
+   "id": "ae92b0f2-80a6-4cbb-b076-c315695d40b8",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

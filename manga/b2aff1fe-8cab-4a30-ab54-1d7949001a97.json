@@ -3,11 +3,11 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Anne no Seishun"
+   "en": "Anne of Avonlea"
   },
   "altTitles": [
    {
-    "en": "Anne of Avonlea"
+    "ja-ro": "Anne no Seishun"
    },
    {
     "en": "Anne's Youth"
@@ -16,13 +16,13 @@
     "en": "Red Haired Anne 4"
    },
    {
-    "en": "Юность Энн"
+    "ru": "Юность Энн"
    },
    {
-    "en": "アンの青春"
+    "ja": "アンの青春"
    },
    {
-    "en": "앤의 청춘"
+    "ko": "앤의 청춘"
    }
   ],
   "description": {
@@ -36,10 +36,15 @@
    "mu": "39240"
   },
   "originalLanguage": "ja",
+  "lastVolume": "1",
   "lastChapter": "6",
   "publicationDemographic": "shoujo",
   "status": "completed",
+  "year": 1998,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "33771934-028e-4cb3-8744-691e866a923e",
@@ -100,11 +105,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-03-31T08:08:22+00:00",
-  "updatedAt": "2021-05-25T15:46:42+00:00"
+  "updatedAt": "2022-02-02T00:03:10+00:00"
  },
  "relationships": [
   {
@@ -119,6 +137,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Lucy Maud Montgomery",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -127,6 +146,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -142,6 +162,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Igarashi Yumiko",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -150,6 +171,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -165,6 +187,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Igarashi Yumiko",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -173,6 +196,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -183,6 +207,7 @@
     "createdAt": "2021-05-24T17:06:26+00:00",
     "description": "",
     "fileName": "1adf6880-6ea6-4890-b5d1-e873aaea9f63.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:06:26+00:00",
     "version": 1,
     "volume": null
@@ -190,11 +215,13 @@
   },
   {
    "id": "3417bba9-855f-4318-97fd-e2a9aff1c1cb",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "9e114ad1-8a63-4034-b193-2375e3058305",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

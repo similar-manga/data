@@ -33,6 +33,10 @@
   "status": "completed",
   "year": 2021,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "tr",
+   "en"
+  ],
   "tags": [
    {
     "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
@@ -95,9 +99,10 @@
     }
    }
   ],
-  "version": 4,
+  "state": "published",
+  "version": 5,
   "createdAt": "2020-07-10T02:50:46+00:00",
-  "updatedAt": "2021-11-24T21:53:33+00:00"
+  "updatedAt": "2022-01-24T22:05:18+00:00"
  },
  "relationships": [
   {
@@ -112,6 +117,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Sakyou Aya",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -120,6 +126,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -135,6 +142,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Sakyou Aya",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -143,6 +151,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -153,6 +162,7 @@
     "createdAt": "2021-11-10T08:17:01+00:00",
     "description": "",
     "fileName": "382968d2-b36a-4a4d-bf6c-e875ca9322e0.jpg",
+    "locale": "ja",
     "updatedAt": "2021-11-10T08:17:01+00:00",
     "version": 1,
     "volume": "2"
@@ -160,31 +170,38 @@
   },
   {
    "id": "0462ddc7-c81f-455a-87e3-7f229e96f2e4",
-   "type": "manga"
-  },
-  {
-   "id": "b64d3f03-8229-4b18-ade4-69dc863482d4",
-   "type": "manga"
-  },
-  {
-   "id": "afb7447e-f85e-4465-babd-a5c44fd6795d",
-   "type": "manga"
-  },
-  {
-   "id": "a21161f0-fbe5-4651-ae9b-d2a948cc319d",
-   "type": "manga"
-  },
-  {
-   "id": "21bccf23-0c41-4984-83d7-74407625396b",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
   },
   {
    "id": "099e4d71-4566-4175-aba1-d5ac4fac61ab",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
+  },
+  {
+   "id": "21bccf23-0c41-4984-83d7-74407625396b",
+   "type": "manga",
+   "related": "adapted_from"
+  },
+  {
+   "id": "a21161f0-fbe5-4651-ae9b-d2a948cc319d",
+   "type": "manga",
+   "related": "adapted_from"
+  },
+  {
+   "id": "afb7447e-f85e-4465-babd-a5c44fd6795d",
+   "type": "manga",
+   "related": "adapted_from"
+  },
+  {
+   "id": "b64d3f03-8229-4b18-ade4-69dc863482d4",
+   "type": "manga",
+   "related": "adapted_from"
   },
   {
    "id": "bc4cb988-ae95-48a7-879d-084768e8c93c",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
   }
  ]
 }

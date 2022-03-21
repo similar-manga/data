@@ -13,13 +13,13 @@
     "en": "Magia Record: Puella Magi Madoka Magica Side Story"
    },
    {
-    "en": "マギ☆レコ"
+    "ja": "マギ☆レコ"
    },
    {
-    "en": "マギア☆レコード"
+    "ja": "マギア☆レコード"
    },
    {
-    "en": "マギアレコード 魔法少女まどか☆マギカ外伝"
+    "ja": "マギアレコード 魔法少女まどか☆マギカ外伝"
    }
   ],
   "description": {
@@ -35,6 +35,12 @@
   "originalLanguage": "ja",
   "status": "ongoing",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "id",
+   "es-la",
+   "en",
+   "it"
+  ],
   "tags": [
    {
     "id": "81c836c9-914a-4eca-981a-560dad663e73",
@@ -85,9 +91,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-08-08T03:34:44+00:00",
-  "updatedAt": "2021-05-25T15:44:49+00:00"
+  "updatedAt": "2022-01-30T02:10:23+00:00"
  },
  "relationships": [
   {
@@ -102,6 +109,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Magica Quartet",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -110,6 +118,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -125,6 +134,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fuji Fujino",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -133,6 +143,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -143,6 +154,7 @@
     "createdAt": "2021-05-24T17:22:01+00:00",
     "description": "",
     "fileName": "a95b9951-fd03-4672-899e-795cad60477a.png",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:22:01+00:00",
     "version": 1,
     "volume": null
@@ -150,23 +162,28 @@
   },
   {
    "id": "5a23148d-fa26-4f8f-a38b-28654b709721",
-   "type": "manga"
-  },
-  {
-   "id": "ae853b9b-99dc-4c19-923f-96f160c452f1",
-   "type": "manga"
-  },
-  {
-   "id": "c52565c9-d99a-4380-9dc8-67369d448eb7",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "ace2a375-db4a-419c-82f6-32ea3eed5dfa",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "ae853b9b-99dc-4c19-923f-96f160c452f1",
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "b53c2194-42b3-458e-91ec-289b7e568a56",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "c52565c9-d99a-4380-9dc8-67369d448eb7",
+   "type": "manga",
+   "related": "based_on"
   }
  ]
 }

@@ -16,6 +16,9 @@
   "originalLanguage": "ja",
   "status": "completed",
   "contentRating": "pornographic",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "ace04997-f6bd-436e-b261-779182193d3d",
@@ -26,6 +29,18 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Doujinshi"
+     },
+     "description": null,
+     "group": "format",
      "version": 1
     }
    },
@@ -42,9 +57,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2019-07-23T12:55:27+00:00",
-  "updatedAt": "2021-05-25T15:41:15+00:00"
+  "updatedAt": "2022-02-24T22:28:37+00:00"
  },
  "relationships": [
   {
@@ -59,6 +75,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Pirokobo",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -67,6 +84,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -82,6 +100,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Piro",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -90,6 +109,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -100,6 +120,7 @@
     "createdAt": "2021-05-24T17:20:03+00:00",
     "description": "",
     "fileName": "27f0dc3a-2150-4e59-a44d-0cc9689be281.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:20:03+00:00",
     "version": 1,
     "volume": null
@@ -107,7 +128,8 @@
   },
   {
    "id": "bcfa196d-d162-45f5-a224-61d26b04a077",
-   "type": "manga"
+   "type": "manga",
+   "related": "based_on"
   }
  ]
 }

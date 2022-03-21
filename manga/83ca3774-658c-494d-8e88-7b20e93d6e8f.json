@@ -7,13 +7,13 @@
   },
   "altTitles": [
    {
-    "en": "Dokumushi"
+    "ja-ro": "Dokumushi"
    },
    {
-    "en": "Killer Instinct (FR)"
+    "en": "Killer Instinct"
    },
    {
-    "en": "ドクムシ"
+    "ja": "ドクムシ"
    }
   ],
   "description": {
@@ -33,7 +33,13 @@
   "lastVolume": "6",
   "publicationDemographic": "seinen",
   "status": "completed",
+  "year": 2013,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "es-la",
+   "en",
+   "id"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -106,11 +112,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Tragedy"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 5,
   "createdAt": "2019-06-26T22:25:40+00:00",
-  "updatedAt": "2021-09-19T18:07:21+00:00"
+  "updatedAt": "2022-01-27T11:19:22+00:00"
  },
  "relationships": [
   {
@@ -125,6 +144,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yazu Michio",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -133,6 +153,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -148,6 +169,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Aida Keito",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -156,6 +178,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -166,6 +189,7 @@
     "createdAt": "2021-05-23T06:43:50+00:00",
     "description": "",
     "fileName": "6ed8ffc0-055a-4eb8-a1b5-14c7b54a8043.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-23T06:43:50+00:00",
     "version": 2,
     "volume": "5"
@@ -173,7 +197,8 @@
   },
   {
    "id": "2e06cadf-5571-4666-98d6-c0191253b69c",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
   }
  ]
 }

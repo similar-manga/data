@@ -3,26 +3,20 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Versailles no Bara"
+   "en": "The Rose of Versailles"
   },
   "altTitles": [
    {
-    "en": "La Rose de Versailles"
+    "fr": "La Rose de Versailles"
    },
    {
-    "en": "Rose of Versailles"
+    "ja-ro": "Versailles no Bara"
    },
    {
-    "en": "The Rose of Versailles"
+    "ja": "ベルサイユのばら"
    },
    {
-    "en": "Versaille no Bara"
-   },
-   {
-    "en": "ベルサイユのばら"
-   },
-   {
-    "en": "凡尔赛的玫瑰"
+    "zh": "凡尔赛的玫瑰"
    }
   ],
   "description": {
@@ -30,8 +24,9 @@
   },
   "links": {
    "al": "30660",
+   "amz": "https://www.amazon.co.jp/dp/B07571SD2S",
    "ap": "versailles-no-bara",
-   "engtl": "http://www.udonentertainment.com/blog/?s=The+Rose+of+Versailles",
+   "engtl": "https://store.udonentertainment.com/products/the-rose-of-versailles-volume-1",
    "kt": "1493",
    "mal": "660",
    "mu": "1365"
@@ -41,7 +36,12 @@
   "lastChapter": "82",
   "publicationDemographic": "shoujo",
   "status": "completed",
+  "year": 1972,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "tr"
+  ],
   "tags": [
    {
     "id": "33771934-028e-4cb3-8744-691e866a923e",
@@ -116,9 +116,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 7,
   "createdAt": "2018-05-16T12:44:18+00:00",
-  "updatedAt": "2021-05-25T15:50:05+00:00"
+  "updatedAt": "2022-02-02T22:23:17+00:00"
  },
  "relationships": [
   {
@@ -133,6 +134,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ikeda Riyoko",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -141,6 +143,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -156,6 +159,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ikeda Riyoko",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -164,24 +168,32 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "ce239755-cacd-4fff-b5cc-d400414a4362",
+   "id": "27494dd7-1e93-4e1a-b47e-cab87174f7e1",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-28T23:15:24+00:00",
+    "createdAt": "2022-02-02T22:17:59+00:00",
     "description": "",
-    "fileName": "69a2255e-d8ed-418a-a40a-001f239da2ac.jpg",
-    "updatedAt": "2021-05-28T23:15:24+00:00",
+    "fileName": "0f663e6b-fcb6-4eae-ae4e-bc26e0d264c8.jpg",
+    "locale": "ja",
+    "updatedAt": "2022-02-02T22:17:59+00:00",
     "version": 1,
-    "volume": null
+    "volume": "14"
    }
   },
   {
    "id": "85262269-39da-4264-8baf-1ed084907582",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "d07394fa-b35f-4e39-a8a1-1e9a59c4774b",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

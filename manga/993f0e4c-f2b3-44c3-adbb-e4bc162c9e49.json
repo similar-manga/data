@@ -24,6 +24,14 @@
   "lastChapter": "90",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "it",
+   "fr",
+   "en",
+   "pt-br",
+   "id",
+   "pl"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -74,9 +82,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-03-22T09:54:01+00:00",
-  "updatedAt": "2021-05-25T15:45:29+00:00"
+  "updatedAt": "2022-01-24T07:25:26+00:00"
  },
  "relationships": [
   {
@@ -91,6 +100,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Min (민)",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -99,6 +109,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -114,6 +125,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Baek Seung Hoon",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -122,6 +134,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -132,6 +145,7 @@
     "createdAt": "2021-05-24T17:05:26+00:00",
     "description": "",
     "fileName": "4b80a680-228b-4c69-b8a3-82b5b8153e24.jpg",
+    "locale": "ko",
     "updatedAt": "2021-05-24T17:05:26+00:00",
     "version": 1,
     "volume": null
@@ -139,19 +153,23 @@
   },
   {
    "id": "3e1751e6-5664-4824-97a8-950f07b2fde1",
-   "type": "manga"
-  },
-  {
-   "id": "61fb0616-a85a-4774-89f9-923398a98636",
-   "type": "manga"
-  },
-  {
-   "id": "58eaeace-28c2-48ae-8835-e71a22900839",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "5744351d-5336-437b-a90b-73514ce21346",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
+  },
+  {
+   "id": "58eaeace-28c2-48ae-8835-e71a22900839",
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "61fb0616-a85a-4774-89f9-923398a98636",
+   "type": "manga",
+   "related": "shared_universe"
   }
  ]
 }

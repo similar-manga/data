@@ -42,6 +42,10 @@
   "status": "completed",
   "year": 2018,
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "en",
+   "ru"
+  ],
   "tags": [
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
@@ -92,9 +96,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 4,
   "createdAt": "2019-03-19T05:54:50+00:00",
-  "updatedAt": "2021-11-19T17:06:44+00:00"
+  "updatedAt": "2022-01-24T21:59:57+00:00"
  },
  "relationships": [
   {
@@ -109,6 +114,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Akatsuki Natsume",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -117,6 +123,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -132,6 +139,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kasumi Morino",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -140,6 +148,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -150,26 +159,31 @@
     "createdAt": "2021-11-19T20:19:24+00:00",
     "description": "",
     "fileName": "521d08d9-2a2e-41b4-baa0-7d0440a67650.jpg",
+    "locale": "ja",
     "updatedAt": "2021-11-19T20:19:24+00:00",
     "version": 1,
     "volume": "4.1"
    }
   },
   {
+   "id": "03426dd2-63c5-493e-853e-485d7c7dc9c0",
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
    "id": "939de251-3c43-42fd-ac6b-5676b3328e9d",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   },
   {
    "id": "b11f5afb-b2cd-4f42-b015-89daa75b3f1d",
-   "type": "manga"
-  },
-  {
-   "id": "03426dd2-63c5-493e-853e-485d7c7dc9c0",
-   "type": "manga"
+   "type": "manga",
+   "related": "shared_universe"
   },
   {
    "id": "bcfa196d-d162-45f5-a224-61d26b04a077",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
   }
  ]
 }

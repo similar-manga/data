@@ -32,6 +32,11 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "es",
+   "pt-br"
+  ],
   "tags": [
    {
     "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
@@ -118,9 +123,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-10-28T19:55:15+00:00",
-  "updatedAt": "2021-05-25T15:48:59+00:00"
+  "updatedAt": "2022-01-25T05:25:56+00:00"
  },
  "relationships": [
   {
@@ -135,6 +141,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kawakami Ryou",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -143,6 +150,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -158,6 +166,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Koudon",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -166,6 +175,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -176,18 +186,26 @@
     "createdAt": "2021-05-24T17:31:49+00:00",
     "description": "",
     "fileName": "e2e410ec-f430-431b-bc36-6a9eebb4819f.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:31:49+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "52b63e5d-03a5-4a3a-b5e1-23ce9b4ff557",
-   "type": "manga"
+   "id": "08b0e968-df13-44ca-9124-c38bfa1b295f",
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
-   "id": "08b0e968-df13-44ca-9124-c38bfa1b295f",
-   "type": "manga"
+   "id": "52b63e5d-03a5-4a3a-b5e1-23ce9b4ff557",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "594da5f8-a665-4199-be91-365b8ff1992f",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

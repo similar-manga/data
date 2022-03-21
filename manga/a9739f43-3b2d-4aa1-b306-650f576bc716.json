@@ -35,6 +35,9 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
@@ -97,6 +100,7 @@
     }
    }
   ],
+  "state": "published",
   "version": 2,
   "createdAt": "2019-04-03T11:35:53+00:00",
   "updatedAt": "2021-05-25T15:46:17+00:00"
@@ -114,6 +118,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hongo Akiyoshi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -122,6 +127,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -137,6 +143,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yu Yuen Wong",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -145,6 +152,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -160,6 +168,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yu Yuen Wong",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -168,6 +177,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -178,58 +188,71 @@
     "createdAt": "2021-05-24T17:06:47+00:00",
     "description": "",
     "fileName": "1aaed5f0-18bf-4c25-b183-df7d6d4c0b83.jpg",
+    "locale": "zh",
     "updatedAt": "2021-05-24T17:06:47+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "ec385a6f-2a1e-4a55-a113-880b17b3efc6",
-   "type": "manga"
-  },
-  {
-   "id": "de23c1b0-a485-4fa2-ae7f-d6d1809b596a",
-   "type": "manga"
-  },
-  {
-   "id": "eff18e81-fe71-47ad-9c32-77ec5553f00c",
-   "type": "manga"
-  },
-  {
    "id": "230c038a-9195-425a-8c00-9125fa5c7b26",
-   "type": "manga"
-  },
-  {
-   "id": "7ba15047-3e9a-45db-9046-1969eb36a244",
-   "type": "manga"
-  },
-  {
-   "id": "5affa94f-687a-4a08-90fe-99b113a5f6c2",
-   "type": "manga"
-  },
-  {
-   "id": "64ad9366-67e4-4bd0-a4cc-c1e9cdb057cd",
-   "type": "manga"
-  },
-  {
-   "id": "c1d990dd-9ff2-4e47-b93d-5e56e34c5069",
-   "type": "manga"
-  },
-  {
-   "id": "7bdd01bb-2428-4b1a-b2e0-2892e92c1ae2",
-   "type": "manga"
-  },
-  {
-   "id": "c18a8fa3-9493-489c-897d-7fef44379b9b",
-   "type": "manga"
-  },
-  {
-   "id": "ea01341d-ca83-4896-be99-0487e9a8fa7a",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "49ae6f0a-a2b0-4cae-93c4-0d377a10163d",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "5affa94f-687a-4a08-90fe-99b113a5f6c2",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "64ad9366-67e4-4bd0-a4cc-c1e9cdb057cd",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "7ba15047-3e9a-45db-9046-1969eb36a244",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "7bdd01bb-2428-4b1a-b2e0-2892e92c1ae2",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "c18a8fa3-9493-489c-897d-7fef44379b9b",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "c1d990dd-9ff2-4e47-b93d-5e56e34c5069",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "de23c1b0-a485-4fa2-ae7f-d6d1809b596a",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "ea01341d-ca83-4896-be99-0487e9a8fa7a",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "ec385a6f-2a1e-4a55-a113-880b17b3efc6",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "eff18e81-fe71-47ad-9c32-77ec5553f00c",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

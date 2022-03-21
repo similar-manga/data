@@ -13,10 +13,10 @@
     "en": "The Grimoire of Usami - The Secret Sealing Club's Otherworld Photography Record"
    },
    {
-    "en": "The Grimoire of Usami Hifuu Kurabu Ikai Satsuei Kiroku"
+    "ja-ro": "The Grimoire of Usami Hifuu Kurabu Ikai Satsuei Kiroku"
    },
    {
-    "en": "The Grimoire of Usami 秘封倶楽部異界撮影記録"
+    "ja": "The Grimoire of Usami 秘封倶楽部異界撮影記録"
    }
   ],
   "description": {
@@ -33,6 +33,10 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "es-la",
+   "en"
+  ],
   "tags": [
    {
     "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
@@ -131,9 +135,10 @@
     }
    }
   ],
-  "version": 1,
+  "state": "published",
+  "version": 2,
   "createdAt": "2019-11-30T13:38:26+00:00",
-  "updatedAt": "2019-11-30T13:38:26+00:00"
+  "updatedAt": "2022-02-15T19:14:28+00:00"
  },
  "relationships": [
   {
@@ -148,6 +153,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "ZUN",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -156,6 +162,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -171,6 +178,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Genji Asai",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -179,29 +187,34 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "662a816c-2f65-4a81-a42c-d9cc35aa452a",
+   "id": "9d135ef9-64fb-430b-9578-7c529a993964",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Benishake\nBenisyake\nべにしゃけ"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
     "fantia": null,
     "imageUrl": null,
     "melonBook": null,
-    "name": "Benishake",
+    "name": "Poprication (Benisyake)",
+    "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://www.pixiv.net/users/1033632",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "twitter": "https://twitter.com/benisyakedon",
+    "updatedAt": "2022-02-15T19:13:20+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -217,6 +230,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Azuma Aya",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -225,6 +239,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -235,18 +250,21 @@
     "createdAt": "2021-05-24T17:35:46+00:00",
     "description": "",
     "fileName": "4ca043be-abf9-498b-82ca-4eae2cba1aeb.png",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:35:46+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "f07b92fc-2d37-49b4-a837-eff9ec834ef5",
-   "type": "manga"
+   "id": "18ef1e92-f574-4c8c-99af-555e44ba418e",
+   "type": "manga",
+   "related": "adapted_from"
   },
   {
-   "id": "18ef1e92-f574-4c8c-99af-555e44ba418e",
-   "type": "manga"
+   "id": "f07b92fc-2d37-49b4-a837-eff9ec834ef5",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

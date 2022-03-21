@@ -16,7 +16,7 @@
     "en": "Scarlet Order: Dance in the Vampire Bund 2"
    },
    {
-    "en": "Танец на Набережной Вампиров: Алый орден"
+    "ru": "Танец на Набережной Вампиров: Алый орден"
    }
   ],
   "description": {
@@ -36,6 +36,10 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "ru",
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -134,9 +138,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-09-12T06:45:12+00:00",
-  "updatedAt": "2021-05-25T15:48:35+00:00"
+  "updatedAt": "2022-02-18T18:18:30+00:00"
  },
  "relationships": [
   {
@@ -151,6 +156,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Tamaki Nozomu",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -159,6 +165,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -174,6 +181,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Tamaki Nozomu",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -182,6 +190,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -192,6 +201,7 @@
     "createdAt": "2021-05-24T16:44:41+00:00",
     "description": "",
     "fileName": "22073853-141c-4b8b-ac20-e0e5a88a50cf.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:44:41+00:00",
     "version": 1,
     "volume": null
@@ -199,19 +209,23 @@
   },
   {
    "id": "24ce3a31-9e0d-41a1-87e8-b867a8cd8d06",
-   "type": "manga"
-  },
-  {
-   "id": "f64bf8e6-2a6f-4233-9acc-41731bee076f",
-   "type": "manga"
-  },
-  {
-   "id": "72265368-9a36-4270-b91d-ced7f1f92b4d",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "3a1c264a-50b3-491b-ac17-a068a99f3aff",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "72265368-9a36-4270-b91d-ced7f1f92b4d",
+   "type": "manga",
+   "related": "prequel"
+  },
+  {
+   "id": "f64bf8e6-2a6f-4233-9acc-41731bee076f",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

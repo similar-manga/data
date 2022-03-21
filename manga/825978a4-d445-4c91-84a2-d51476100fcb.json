@@ -3,14 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Chuukan Kanriroku Tonegawa"
+   "en": "Middle Manager Tonegawa"
   },
   "altTitles": [
    {
-    "en": "Middle Manager Tonegawa"
+    "ja": "中間管理録トネガワ"
    },
    {
-    "ja": "中間管理録トネガワ"
+    "ja-ro": "Chuukan Kanriroku Tonegawa"
+   },
+   {
+    "en": "Mr. Tonegawa Middle Management Blues"
    }
   ],
   "description": {
@@ -32,6 +35,9 @@
   "status": "completed",
   "year": 2015,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
@@ -82,9 +88,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 5,
   "createdAt": "2018-11-07T08:20:40+00:00",
-  "updatedAt": "2021-11-22T13:59:29+00:00"
+  "updatedAt": "2022-03-12T23:29:33+00:00"
  },
  "relationships": [
   {
@@ -99,6 +106,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fukumoto Nobuyuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -107,6 +115,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -122,6 +131,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hagiwara Tensei",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -130,6 +140,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -145,6 +156,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Miyoshi Tomoki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -153,6 +165,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -168,6 +181,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hashimoto Tomohiro",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -176,28 +190,37 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "ce9d7bb5-dafb-4f9b-860d-c491370b0dd4",
+   "id": "43f3b2cf-5fd3-4f33-b6da-64edf1bba79c",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-23T05:54:12+00:00",
+    "createdAt": "2021-05-23T05:54:08+00:00",
     "description": "",
-    "fileName": "457f2873-4876-4daa-a4c5-d3430cefcc3d.png",
-    "updatedAt": "2021-05-23T05:54:12+00:00",
+    "fileName": "b51d101f-9f71-425e-85fa-c1693928fd37.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T05:54:08+00:00",
     "version": 2,
-    "volume": "9"
+    "volume": "10"
    }
   },
   {
-   "id": "8f542695-6d90-48a3-bee7-cc84175857ee",
-   "type": "manga"
+   "id": "3b522001-480a-4caa-b77c-5d438e4118e2",
+   "type": "manga",
+   "related": "shared_universe"
   },
   {
    "id": "805973c7-1c02-4cdd-a9c8-6a98dd0e203a",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
+  },
+  {
+   "id": "8f542695-6d90-48a3-bee7-cc84175857ee",
+   "type": "manga",
+   "related": "shared_universe"
   }
  ]
 }

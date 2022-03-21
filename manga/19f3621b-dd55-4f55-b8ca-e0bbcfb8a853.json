@@ -21,25 +21,28 @@
   "status": "completed",
   "year": 2003,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
+   {
+    "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Oneshot"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
+   },
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
     "type": "tag",
     "attributes": {
      "name": {
       "en": "Sci-Fi"
-     },
-     "description": null,
-     "group": "genre",
-     "version": 1
-    }
-   },
-   {
-    "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-    "type": "tag",
-    "attributes": {
-     "name": {
-      "en": "Action"
      },
      "description": null,
      "group": "genre",
@@ -71,9 +74,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 4,
   "createdAt": "2019-04-08T14:01:14+00:00",
-  "updatedAt": "2021-11-21T14:34:40+00:00"
+  "updatedAt": "2022-01-12T13:31:34+00:00"
  },
  "relationships": [
   {
@@ -88,6 +92,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takamisaki Ryou",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -96,6 +101,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -111,6 +117,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takamisaki Ryou",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -119,6 +126,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -129,6 +137,7 @@
     "createdAt": "2021-11-21T14:34:43+00:00",
     "description": "",
     "fileName": "30745bba-2f4e-4cdc-963d-f8d3e68fa4a1.png",
+    "locale": "ja",
     "updatedAt": "2021-11-21T14:34:43+00:00",
     "version": 1,
     "volume": "1"
@@ -136,7 +145,8 @@
   },
   {
    "id": "085a46d0-2adc-42f3-9fd3-4874000e2421",
-   "type": "manga"
+   "type": "manga",
+   "related": "main_story"
   }
  ]
 }

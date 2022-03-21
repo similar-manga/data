@@ -3,35 +3,29 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Hameln no Violin Hiki"
+   "en": "The Violinist of Hamelin"
   },
   "altTitles": [
    {
-    "en": "Cây đàn kỳ diệu"
+    "vi": "Cây đàn kỳ diệu"
    },
    {
-    "en": "Hamelin no Violin Hiki"
+    "ja-ro": "Hamelin no Violin Hiki"
    },
    {
-    "en": "Hameln"
+    "it": "Violinista de Hamelin"
    },
    {
-    "en": "The Violinist of Hamelin"
+    "ja": "ハーメルンのバイオリン弾き"
    },
    {
-    "en": "The Violinist of Hameln"
+    "ja": "魔法提琴手"
    },
    {
-    "en": "Violinist of Hameln"
+    "en": "Violonist of Hameln"
    },
    {
-    "en": "Violinista de Hamelin"
-   },
-   {
-    "en": "ハーメルンのバイオリン弾き"
-   },
-   {
-    "en": "魔法提琴手"
+    "ja-ro": "Hameln no Violin Hiki"
    }
   ],
   "description": {
@@ -50,6 +44,10 @@
   "status": "completed",
   "year": 1991,
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "en",
+   "ru"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -136,9 +134,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 5,
   "createdAt": "2018-04-08T19:45:44+00:00",
-  "updatedAt": "2021-12-12T08:35:34+00:00"
+  "updatedAt": "2022-02-20T01:31:19+00:00"
  },
  "relationships": [
   {
@@ -153,6 +152,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Watanabe Michiaki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -161,6 +161,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -176,6 +177,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Watanabe Michiaki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -184,16 +186,27 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "a9919c79-b3c3-4fd2-94e7-1f1eca53b3fb",
-   "type": "cover_art"
+   "id": "5dba3710-d404-4f9b-9c6b-051b6c997e93",
+   "type": "cover_art",
+   "attributes": {
+    "createdAt": "2021-05-23T07:13:02+00:00",
+    "description": "",
+    "fileName": "0501d45d-efa6-4a73-8308-292f34364aee.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T07:13:02+00:00",
+    "version": 2,
+    "volume": "37"
+   }
   },
   {
    "id": "28153424-d86d-4629-8661-e0232acb525d",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

@@ -32,6 +32,8 @@
    "al": "33388",
    "amz": "https://www.amazon.co.jp/gp/product/B074CH4D2H",
    "ap": "kiss-and-never-cry",
+   "cdj": "https://www.cdjapan.co.jp/searches?term.media_format=\u0026f=major\u0026q=%E3%82%AD%E3%82%B9%26%E3%83%8D%E3%83%90%E3%83%BC%E3%82%AF%E3%83%A9%E3%82%A4",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/120841/",
    "kt": "7404",
    "mal": "3388",
    "mu": "7384"
@@ -43,6 +45,10 @@
   "status": "completed",
   "year": 2006,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "pt-br",
+   "en"
+  ],
   "tags": [
    {
     "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
@@ -129,16 +135,19 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 4,
   "createdAt": "2018-02-08T22:37:39+00:00",
-  "updatedAt": "2021-11-10T21:07:50+00:00"
+  "updatedAt": "2022-01-26T13:44:44+00:00"
  },
  "relationships": [
   {
    "id": "856bbcee-7377-466b-ba03-aa1c3bd80fe7",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Born December 1st. Born in Kanagawa prefecture. In 1994, she was selected for the Kodansha \"mimi \u0026 Kiss Autumn Newcomer Manga Award\" and made her debut in December of the same year with \"Sugao ni Kiss shite\" in \"Kiss\" magazine. Her masterpiece \"Kimi wa Petto\" was made into a drama starring Koyuki and Jun Matsumoto in 2003, and won the 27th Kodansha Manga Award in the same year. It was a hit with a cumulative total of over 4 million copies. Was a reporter for Yomiuri Shimbun.\n\n(Source: Mangaupdates)"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -146,14 +155,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ogawa Yayoi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2021-12-31T10:21:26+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -161,7 +172,9 @@
    "id": "856bbcee-7377-466b-ba03-aa1c3bd80fe7",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Born December 1st. Born in Kanagawa prefecture. In 1994, she was selected for the Kodansha \"mimi \u0026 Kiss Autumn Newcomer Manga Award\" and made her debut in December of the same year with \"Sugao ni Kiss shite\" in \"Kiss\" magazine. Her masterpiece \"Kimi wa Petto\" was made into a drama starring Koyuki and Jun Matsumoto in 2003, and won the 27th Kodansha Manga Award in the same year. It was a hit with a cumulative total of over 4 million copies. Was a reporter for Yomiuri Shimbun.\n\n(Source: Mangaupdates)"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -169,32 +182,36 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ogawa Yayoi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2021-12-31T10:21:26+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "8c3501e4-e675-4fc4-a92d-4b81564f985d",
+   "id": "02597880-2360-4fef-a224-9266b6f8b76b",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-11-10T21:07:55+00:00",
+    "createdAt": "2021-11-10T21:07:54+00:00",
     "description": "",
-    "fileName": "3de8f9a5-0125-4345-9901-131972d06397.jpg",
-    "updatedAt": "2021-11-10T21:07:55+00:00",
+    "fileName": "b7b78513-f706-4c47-b367-a5a4a8f70911.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-11-10T21:07:54+00:00",
     "version": 1,
-    "volume": "9"
+    "volume": "11"
    }
   },
   {
    "id": "228dac80-ea4a-460f-8c8c-150110180ba1",
-   "type": "manga"
+   "type": "manga",
+   "related": "shared_universe"
   }
  ]
 }

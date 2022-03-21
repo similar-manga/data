@@ -3,14 +3,15 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Sakura Trick Maple Season (Doujinshi)"
+   "en": "Sakura Trick - Maple Season (Doujinshi)"
   },
-  "description": {
-   "en": ""
-  },
+  "description": null,
   "originalLanguage": "ja",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
@@ -49,16 +50,19 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2021-02-21T05:00:32+00:00",
-  "updatedAt": "2021-05-25T15:47:46+00:00"
+  "updatedAt": "2022-01-29T07:35:00+00:00"
  },
  "relationships": [
   {
    "id": "f69db7c8-7a05-4995-ac3d-7af8ecddb04d",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Also known under by his doujin circle name: Gutstoma."
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -66,14 +70,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Tachi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-01-29T07:36:37+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -81,7 +87,9 @@
    "id": "f69db7c8-7a05-4995-ac3d-7af8ecddb04d",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Also known under by his doujin circle name: Gutstoma."
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -89,14 +97,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Tachi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-01-29T07:36:37+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -107,18 +117,21 @@
     "createdAt": "2021-05-24T18:32:25+00:00",
     "description": "",
     "fileName": "1f7357cc-7964-435c-bb3a-16b7da148c63.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:32:25+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "647513b0-7aa7-4686-b6f8-90bb493b92cc",
-   "type": "manga"
+   "id": "0ab7fe14-d37b-4afe-92c6-b88a28c671d9",
+   "type": "manga",
+   "related": "prequel"
   },
   {
-   "id": "0ab7fe14-d37b-4afe-92c6-b88a28c671d9",
-   "type": "manga"
+   "id": "647513b0-7aa7-4686-b6f8-90bb493b92cc",
+   "type": "manga",
+   "related": "main_story"
   }
  ]
 }

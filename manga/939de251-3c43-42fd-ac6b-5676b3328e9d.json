@@ -47,6 +47,12 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "en",
+   "id",
+   "pl",
+   "pt-br"
+  ],
   "tags": [
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
@@ -97,9 +103,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2019-01-01T10:43:04+00:00",
-  "updatedAt": "2021-05-25T15:45:13+00:00"
+  "updatedAt": "2022-01-24T21:29:25+00:00"
  },
  "relationships": [
   {
@@ -114,6 +121,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Akatsuki Natsume",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -122,6 +130,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -137,6 +146,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kasumi Morino",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -145,6 +155,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -155,26 +166,31 @@
     "createdAt": "2021-05-24T16:56:27+00:00",
     "description": "",
     "fileName": "3352479a-6849-480d-b4d5-d544418c5aa8.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:56:27+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "b11f5afb-b2cd-4f42-b015-89daa75b3f1d",
-   "type": "manga"
+   "id": "03426dd2-63c5-493e-853e-485d7c7dc9c0",
+   "type": "manga",
+   "related": "shared_universe"
   },
   {
    "id": "965da0d6-2d7c-4d72-b0ad-3d72ae71935f",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "b11f5afb-b2cd-4f42-b015-89daa75b3f1d",
+   "type": "manga",
+   "related": "shared_universe"
   },
   {
    "id": "bcfa196d-d162-45f5-a224-61d26b04a077",
-   "type": "manga"
-  },
-  {
-   "id": "03426dd2-63c5-493e-853e-485d7c7dc9c0",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
   }
  ]
 }

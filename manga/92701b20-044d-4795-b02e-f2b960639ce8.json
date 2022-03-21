@@ -10,10 +10,10 @@
     "en": "Crows: The Aftermath"
    },
    {
-    "en": "Sonogo no Crows"
+    "ja-ro": "Sonogo no Crows"
    },
    {
-    "en": "その後のクローズ"
+    "ja": "その後のクローズ"
    }
   ],
   "description": {
@@ -21,7 +21,10 @@
   },
   "links": {
    "al": "54839",
+   "amz": "https://www.amazon.co.jp/dp/B00AQY8B4M/",
    "ap": "sono-go-no-crows",
+   "bw": "dee8fb2ae6-7999-4e68-b831-7eaf8ee96a02/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/125402/",
    "kt": "17492",
    "mal": "24839",
    "mu": "32424"
@@ -31,6 +34,10 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "it"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -69,9 +76,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2019-01-15T06:37:49+00:00",
-  "updatedAt": "2021-05-25T15:45:13+00:00"
+  "updatedAt": "2022-01-31T06:05:49+00:00"
  },
  "relationships": [
   {
@@ -86,6 +94,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takahashi Hiroshi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -94,6 +103,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -109,6 +119,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takahashi Hiroshi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -117,32 +128,37 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "10eb1f74-6ac7-4f23-94a4-9496681153ba",
+   "id": "b25cdd10-ed80-4d22-af65-b91ca5ad0ae8",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T16:57:54+00:00",
+    "createdAt": "2022-01-31T06:05:49+00:00",
     "description": "",
-    "fileName": "8fa5995d-581d-4536-9e70-f50127311b1f.jpg",
-    "updatedAt": "2021-05-24T16:57:54+00:00",
+    "fileName": "5ca0f56c-b09f-49c7-b98e-564d75e4b3a0.jpg",
+    "locale": "ja",
+    "updatedAt": "2022-01-31T06:05:49+00:00",
     "version": 1,
-    "volume": null
+    "volume": "1"
    }
   },
   {
-   "id": "e2949aaa-1054-41c5-a727-30b4d7c9967d",
-   "type": "manga"
-  },
-  {
    "id": "13785f54-007b-485d-8997-be0f0523e189",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   },
   {
    "id": "a95f521e-b307-487c-83c9-311c7cf953c3",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "e2949aaa-1054-41c5-a727-30b4d7c9967d",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

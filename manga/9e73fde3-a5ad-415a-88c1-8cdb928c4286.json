@@ -3,32 +3,29 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Kamui Den"
+   "en": "The Legend of Kamui"
   },
   "altTitles": [
    {
-    "en": "Kamui-den"
+    "ja-ro": "Kamui-den Daiichibu"
    },
    {
-    "en": "Kamui-den Daiichibu"
+    "ja-ro": "Kamuiden"
    },
    {
-    "en": "Kamuiden"
-   },
-   {
-    "en": "La leyenda de Kamui"
+    "es": "La leyenda de Kamui"
    },
    {
     "en": "Tales of Kamui"
    },
    {
-    "en": "The Legend of Kamui"
+    "ja": "カムイ伝"
    },
    {
-    "en": "カムイ伝"
+    "ja": "カムイ外伝 第一部"
    },
    {
-    "en": "カムイ外伝 第一部"
+    "ja-ro": "Kamui Den"
    }
   ],
   "description": {
@@ -46,8 +43,24 @@
   "lastChapter": "71",
   "publicationDemographic": "seinen",
   "status": "completed",
+  "year": 1964,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "33771934-028e-4cb3-8744-691e866a923e",
     "type": "tag",
@@ -73,11 +86,35 @@
     }
    },
    {
+    "id": "489dd859-9b61-4c37-af75-5b18e88daafc",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Ninja"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
     "type": "tag",
     "attributes": {
      "name": {
       "en": "Martial Arts"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "81183756-1453-4c81-aa9e-f6e1b63be016",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Samurai"
      },
      "description": null,
      "group": "theme",
@@ -93,6 +130,18 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Military"
+     },
+     "description": null,
+     "group": "theme",
      "version": 1
     }
    },
@@ -121,9 +170,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-11-11T14:11:14+00:00",
-  "updatedAt": "2021-05-25T15:45:45+00:00"
+  "updatedAt": "2022-03-13T01:32:16+00:00"
  },
  "relationships": [
   {
@@ -138,6 +188,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Shirato Sanpei",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -146,6 +197,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -161,6 +213,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Shirato Sanpei",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -169,6 +222,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -179,14 +233,16 @@
     "createdAt": "2021-05-24T16:51:13+00:00",
     "description": "",
     "fileName": "96d6741b-93ec-4af8-a0b9-91cb26821da3.jpg",
-    "updatedAt": "2021-05-24T16:51:13+00:00",
-    "version": 1,
-    "volume": null
+    "locale": "ja",
+    "updatedAt": "2022-03-13T01:32:15+00:00",
+    "version": 2,
+    "volume": "15"
    }
   },
   {
    "id": "1e428406-0629-405a-941d-f47a2cdf94bf",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

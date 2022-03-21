@@ -38,6 +38,9 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "erotica",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "07251805-a27e-4d59-b488-f0bfbec15168",
@@ -124,6 +127,18 @@
     }
    },
    {
+    "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Girls' Love"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
     "type": "tag",
     "attributes": {
@@ -160,6 +175,18 @@
     }
    },
    {
+    "id": "da2d50ca-3018-4cc0-ac7a-6b7d472a29ea",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Delinquents"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "ee968100-4191-4968-93d3-f82d72be7e46",
     "type": "tag",
     "attributes": {
@@ -184,9 +211,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 8,
   "createdAt": "2018-11-20T09:47:17+00:00",
-  "updatedAt": "2021-05-25T15:42:17+00:00"
+  "updatedAt": "2022-01-25T06:37:57+00:00"
  },
  "relationships": [
   {
@@ -201,6 +229,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fujimi Yasutaka",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -209,6 +238,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -224,6 +254,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Shuu Hirose",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -232,6 +263,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -247,6 +279,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Jang Sung-Rak (REDICE Studio)",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -255,6 +288,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -265,6 +299,7 @@
     "createdAt": "2021-05-24T16:52:07+00:00",
     "description": "",
     "fileName": "bddadce9-3deb-49d5-91e7-6a8b0f7e0eb0.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:52:07+00:00",
     "version": 1,
     "volume": null
@@ -272,11 +307,13 @@
   },
   {
    "id": "7e538d58-7927-41fa-af10-9b13a743977b",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "99dde7cc-a349-4609-9a42-7a78af61fc62",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
   }
  ]
 }

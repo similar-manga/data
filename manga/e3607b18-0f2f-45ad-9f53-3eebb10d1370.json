@@ -3,14 +3,11 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Alien Nine Next"
+   "en": "Alien 9 Next"
   },
   "altTitles": [
    {
-    "en": "Alien 9 Next"
-   },
-   {
-    "en": "エイリアン９ネクスト"
+    "ja": "エイリアン９ネクスト"
    }
   ],
   "description": {
@@ -18,6 +15,7 @@
   },
   "links": {
    "al": "113107",
+   "amz": "https://www.amazon.co.jp/gp/product/B07BHZDCHK",
    "mal": "119416",
    "mu": "148595"
   },
@@ -26,7 +24,11 @@
   "lastChapter": "3",
   "publicationDemographic": "seinen",
   "status": "completed",
+  "year": 2015,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
@@ -113,9 +115,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2019-05-20T21:16:56+00:00",
-  "updatedAt": "2021-05-25T15:48:51+00:00"
+  "updatedAt": "2021-12-23T19:25:47+00:00"
  },
  "relationships": [
   {
@@ -130,6 +133,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Tomizawa Hitoshi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -138,6 +142,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -153,6 +158,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Tomizawa Hitoshi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -161,32 +167,37 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "517105d9-31d8-4f17-a542-628730277ca9",
+   "id": "c7f5aa09-17ef-4f7d-858b-b5ee9d762601",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:12:36+00:00",
+    "createdAt": "2021-05-23T06:39:09+00:00",
     "description": "",
-    "fileName": "28895f9c-c357-435a-b7d5-b4452e25a200.jpg",
-    "updatedAt": "2021-05-24T17:12:36+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "b19045e2-5160-4565-bc26-fbcc049a554f.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T06:39:09+00:00",
+    "version": 2,
+    "volume": "3"
    }
   },
   {
-   "id": "a29dfd0b-bc61-40a2-8b27-c84357b120e2",
-   "type": "manga"
+   "id": "587d905c-7b4a-401b-a23b-946535ce4d5d",
+   "type": "manga",
+   "related": "side_story"
   },
   {
-   "id": "587d905c-7b4a-401b-a23b-946535ce4d5d",
-   "type": "manga"
+   "id": "a29dfd0b-bc61-40a2-8b27-c84357b120e2",
+   "type": "manga",
+   "related": "prequel"
   },
   {
    "id": "e80ed37d-4aaf-427b-9d3e-3f22f3e17cc4",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

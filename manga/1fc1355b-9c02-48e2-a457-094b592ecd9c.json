@@ -21,7 +21,7 @@
    "amz": "https://www.amazon.co.jp/gp/product/B074CKY692",
    "ap": "monkey-peak",
    "bw": "series/104055",
-   "ebj": "https://www.ebookjapan.jp/ebj/395793/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/395793/",
    "kt": "47660",
    "mal": "104440",
    "mu": "140475"
@@ -32,6 +32,11 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "pl",
+   "en",
+   "ru"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -154,9 +159,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 11,
   "createdAt": "2019-11-27T00:41:01+00:00",
-  "updatedAt": "2021-05-25T15:40:12+00:00"
+  "updatedAt": "2022-01-25T07:50:28+00:00"
  },
  "relationships": [
   {
@@ -171,6 +177,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Shinasaka Kouji",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -179,6 +186,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -194,6 +202,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kumeta Akihiro",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -202,6 +211,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -212,6 +222,7 @@
     "createdAt": "2021-05-24T17:35:17+00:00",
     "description": "",
     "fileName": "314f65d3-3419-459f-a69e-a8dff2f08bab.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:35:17+00:00",
     "version": 1,
     "volume": null
@@ -219,11 +230,13 @@
   },
   {
    "id": "c4b2d313-d189-4058-bd96-92c9ff583273",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "eb02e6fa-2b2d-43b6-9805-928d533c34e9",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

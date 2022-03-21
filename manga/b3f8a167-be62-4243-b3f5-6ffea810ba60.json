@@ -21,7 +21,7 @@
    "amz": "https://www.amazon.co.jp/gp/product/B074CGYT15/",
    "ap": "apocalypse-zero",
    "bw": "series/5876",
-   "ebj": "https://www.ebookjapan.jp/ebj/19789/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/19789/",
    "kt": "2183",
    "mal": "1001",
    "mu": "2114"
@@ -32,6 +32,10 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "erotica",
+  "availableTranslatedLanguages": [
+   "en",
+   "pt-br"
+  ],
   "tags": [
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
@@ -178,9 +182,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 5,
   "createdAt": "2018-02-15T22:57:30+00:00",
-  "updatedAt": "2021-05-25T15:46:42+00:00"
+  "updatedAt": "2022-01-24T23:52:10+00:00"
  },
  "relationships": [
   {
@@ -195,6 +200,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yamaguchi Takayuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -203,6 +209,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -218,6 +225,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yamaguchi Takayuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -226,6 +234,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -236,6 +245,7 @@
     "createdAt": "2021-05-24T16:47:45+00:00",
     "description": "",
     "fileName": "88f761db-9973-41d6-adf4-bbb371876657.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:47:45+00:00",
     "version": 1,
     "volume": null
@@ -243,23 +253,28 @@
   },
   {
    "id": "292677c4-d994-47f9-b451-303ef836af79",
-   "type": "manga"
-  },
-  {
-   "id": "d2786486-e307-49c9-8b66-5a516548de2c",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "a0da4c3b-6256-482a-b2c3-f04251e3774e",
-   "type": "manga"
+   "type": "manga",
+   "related": "alternate_story"
   },
   {
-   "id": "fce506b5-0102-4a38-9272-81a93ca1e98f",
-   "type": "manga"
+   "id": "d2786486-e307-49c9-8b66-5a516548de2c",
+   "type": "manga",
+   "related": "alternate_story"
   },
   {
    "id": "f18a36d8-0225-4187-bbc2-c603ae6140bf",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
+  },
+  {
+   "id": "fce506b5-0102-4a38-9272-81a93ca1e98f",
+   "type": "manga",
+   "related": "side_story"
   }
  ]
 }

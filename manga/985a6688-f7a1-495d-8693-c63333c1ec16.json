@@ -3,19 +3,21 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume o Minai - Sister Panic (Doujinshi)"
+   "en": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume o Minai - Sisters Panic (Doujinshi)"
   },
   "altTitles": [
    {
-    "en": "シスターズ パニック"
+    "ja": "シスターズ★パニック (青春ブタ野郎はバニーガール先輩の夢を見ない)"
    }
   ],
-  "description": {
-   "en": ""
-  },
+  "description": null,
   "originalLanguage": "ja",
   "status": "completed",
+  "year": 2019,
   "contentRating": "pornographic",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
@@ -42,11 +44,37 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2020-06-26T16:25:55+00:00",
-  "updatedAt": "2021-05-25T15:45:29+00:00"
+  "updatedAt": "2022-03-01T02:21:00+00:00"
  },
  "relationships": [
+  {
+   "id": "b17f9d3e-4faa-4d5f-a6e9-1def15ba3cf7",
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Kayoudou (Circle)",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "f210e9c4-1e37-4bd1-9cd4-6ad3f3ffd013",
    "type": "author",
@@ -59,6 +87,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Matsuka",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -67,6 +96,32 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
+  {
+   "id": "b17f9d3e-4faa-4d5f-a6e9-1def15ba3cf7",
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Kayoudou (Circle)",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -82,6 +137,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Matsuka",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -90,6 +146,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -100,22 +157,26 @@
     "createdAt": "2021-05-24T18:00:49+00:00",
     "description": "",
     "fileName": "fa46fe6c-1107-4727-a3b3-7162b268bd91.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:00:49+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "30a58045-1fe8-4d93-8aaf-3b66b9d723fd",
-   "type": "manga"
+   "id": "1654b70b-8d2d-4460-a157-4cb3292e3bcd",
+   "type": "manga",
+   "related": "prequel"
   },
   {
-   "id": "1654b70b-8d2d-4460-a157-4cb3292e3bcd",
-   "type": "manga"
+   "id": "30a58045-1fe8-4d93-8aaf-3b66b9d723fd",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "b15632d7-88d0-4233-9815-c01e75cabda8",
-   "type": "manga"
+   "type": "manga",
+   "related": "based_on"
   }
  ]
 }

@@ -3,17 +3,26 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "So, Do You Want to Go Out, or...?"
+   "en": "How Do We Relationship?"
   },
   "altTitles": [
    {
-    "ja": "Tsukiatte agete mo ii ka na"
+    "ja-ro": "Tsukiatte agete mo ii ka na"
    },
    {
     "ja": "付き合ってあげてもいいかな"
    },
    {
-    "mn": "Boleh 'kok, jadian"
+    "en": "So, Do You Want to Go Out, or...?"
+   },
+   {
+    "de": "Lust auf ein Date?"
+   },
+   {
+    "ko": "사귀어 주더라도 괜찮을까나"
+   },
+   {
+    "th": "ลองใจให้ตกหลุมรัก"
    }
   ],
   "description": {
@@ -32,8 +41,27 @@
   "originalLanguage": "ja",
   "publicationDemographic": "shounen",
   "status": "ongoing",
-  "contentRating": "safe",
+  "year": 2018,
+  "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "en",
+   "es-la",
+   "pt-br",
+   "it"
+  ],
   "tags": [
+   {
+    "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Psychological"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
     "type": "tag",
@@ -52,6 +80,18 @@
     "attributes": {
      "name": {
       "en": "Girls' Love"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
      },
      "description": null,
      "group": "genre",
@@ -81,11 +121,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Music"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
    }
   ],
-  "version": 4,
+  "state": "published",
+  "version": 9,
   "createdAt": "2019-07-29T10:52:15+00:00",
-  "updatedAt": "2021-09-12T02:01:35+00:00"
+  "updatedAt": "2022-03-07T20:07:18+00:00"
  },
  "relationships": [
   {
@@ -100,6 +153,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "tmfly",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -108,6 +162,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -123,6 +178,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "tmfly",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -131,6 +187,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -141,6 +198,7 @@
     "createdAt": "2021-09-12T02:01:27+00:00",
     "description": "",
     "fileName": "69588351-d3b1-42bc-b0af-6f75dd84653f.jpg",
+    "locale": "ja",
     "updatedAt": "2021-09-12T02:01:27+00:00",
     "version": 2,
     "volume": "7"
@@ -148,7 +206,8 @@
   },
   {
    "id": "93477e09-3546-4841-b88f-e2456efc058d",
-   "type": "manga"
+   "type": "manga",
+   "related": "preserialization"
   }
  ]
 }

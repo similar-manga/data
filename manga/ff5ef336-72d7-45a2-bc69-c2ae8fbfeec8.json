@@ -63,6 +63,12 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "ar",
+   "tr",
+   "en",
+   "pl"
+  ],
   "tags": [
    {
     "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
@@ -221,9 +227,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 10,
   "createdAt": "2018-02-05T20:13:27+00:00",
-  "updatedAt": "2021-05-25T15:50:05+00:00"
+  "updatedAt": "2022-01-25T03:52:52+00:00"
  },
  "relationships": [
   {
@@ -238,6 +245,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hanazawa Kengo",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -246,6 +254,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -261,6 +270,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hanazawa Kengo",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -269,6 +279,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -279,26 +290,31 @@
     "createdAt": "2021-05-24T18:41:33+00:00",
     "description": "",
     "fileName": "e2233f63-5a54-4220-84f9-2da8143d8a87.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:41:33+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "b8592412-4a19-4342-ae34-c4f8c1fbce4b",
-   "type": "manga"
-  },
-  {
    "id": "3219429d-f4b1-4c44-917c-e9c4e9817756",
-   "type": "manga"
-  },
-  {
-   "id": "5d279916-fef8-446a-b05a-4cd6285eab9a",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
   },
   {
    "id": "5558d668-27bd-4a0e-9151-674b0bd0a90f",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "5d279916-fef8-446a-b05a-4cd6285eab9a",
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "b8592412-4a19-4342-ae34-c4f8c1fbce4b",
+   "type": "manga",
+   "related": "spin_off"
   }
  ]
 }

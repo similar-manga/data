@@ -3,29 +3,23 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Hadashi no Gen"
+   "en": "Barefoot Gen"
   },
   "altTitles": [
    {
-    "en": "Barefoot Gen"
+    "de": "Barfuß durch Hiroshima"
    },
    {
-    "en": "Barefoot Gen: A Cartoon Story of Hiroshima"
-   },
-   {
-    "en": "Barfuß durch Hiroshima"
-   },
-   {
-    "en": "Gen d'Hiroshima"
+    "fr": "Gen d'Hiroshima"
    },
    {
     "en": "Gen of Hiroshima"
    },
    {
-    "en": "Hiroshima"
+    "ja": "はだしのゲン"
    },
    {
-    "en": "はだしのゲン"
+    "ja-ro": "Hadashi no Gen"
    }
   ],
   "description": {
@@ -47,8 +41,24 @@
   "lastChapter": "54",
   "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 1972,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "33771934-028e-4cb3-8744-691e866a923e",
     "type": "tag",
@@ -70,6 +80,30 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Crime"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Mafia"
+     },
+     "description": null,
+     "group": "theme",
      "version": 1
     }
    },
@@ -110,9 +144,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 6,
   "createdAt": "2019-02-03T23:57:42+00:00",
-  "updatedAt": "2021-05-25T15:43:35+00:00"
+  "updatedAt": "2022-03-16T22:19:17+00:00"
  },
  "relationships": [
   {
@@ -127,6 +162,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nakazawa Keiji",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -135,6 +171,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -150,6 +187,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nakazawa Keiji",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -158,6 +196,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -168,6 +207,7 @@
     "createdAt": "2021-05-24T17:00:10+00:00",
     "description": "",
     "fileName": "8805d539-8d75-4f0d-a814-28c5f9e7d10a.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:00:10+00:00",
     "version": 1,
     "volume": null
@@ -175,7 +215,8 @@
   },
   {
    "id": "7595bccd-85d8-4315-9f64-27d41f016e4b",
-   "type": "manga"
+   "type": "manga",
+   "related": "alternate_story"
   }
  ]
 }

@@ -3,17 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Tobaku Datenroku Kaiji"
+   "en": "Gambling Outcast Kaiji - Kaiji Part 3"
   },
   "altTitles": [
-   {
-    "en": "Gambling Outcast Kaiji"
-   },
    {
     "en": "Kaiji Part 3"
    },
    {
     "ja": "賭博堕天録カイジ"
+   },
+   {
+    "ja-ro": "Tobaku Datenroku Kaiji"
    }
   ],
   "description": {
@@ -25,7 +25,8 @@
    "ap": "tobaku-datenroku-kaiji",
    "kt": "7921",
    "mal": "3574",
-   "mu": "54729"
+   "mu": "54729",
+   "raw": "https://kc.kodansha.co.jp/title?code=1000003330"
   },
   "originalLanguage": "ja",
   "lastVolume": "13",
@@ -34,6 +35,12 @@
   "status": "completed",
   "year": 2004,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "tr",
+   "es",
+   "vi"
+  ],
   "tags": [
    {
     "id": "31932a7e-5b8e-49a6-9f12-2afa39dc544c",
@@ -72,9 +79,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 6,
   "createdAt": "2018-02-06T03:36:42+00:00",
-  "updatedAt": "2021-11-22T14:10:23+00:00"
+  "updatedAt": "2022-02-06T20:54:46+00:00"
  },
  "relationships": [
   {
@@ -89,6 +97,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fukumoto Nobuyuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -97,6 +106,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -112,6 +122,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fukumoto Nobuyuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -120,6 +131,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -130,18 +142,26 @@
     "createdAt": "2021-05-24T18:41:55+00:00",
     "description": "",
     "fileName": "220debcd-71eb-4a93-b98b-42e6313a8c6c.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:41:55+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "f7ddbe46-c4ec-4ba5-be7d-b100fc3bb34d",
-   "type": "manga"
+   "id": "06679cb6-764a-4a2b-8db4-ab068f9a5ea3",
+   "type": "manga",
+   "related": "sequel"
   },
   {
-   "id": "06679cb6-764a-4a2b-8db4-ab068f9a5ea3",
-   "type": "manga"
+   "id": "a80ac925-c01e-4826-9ecc-28c5645f1721",
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "f7ddbe46-c4ec-4ba5-be7d-b100fc3bb34d",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

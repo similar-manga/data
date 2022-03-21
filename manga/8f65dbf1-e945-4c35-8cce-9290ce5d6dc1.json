@@ -3,14 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Imouto e"
+   "en": "To My Sister"
   },
   "altTitles": [
    {
-    "en": "Kız Kardeşime"
+    "pl": "Kız Kardeşime"
    },
    {
-    "en": "To My Sister"
+    "ja-ro": "Imouto e"
+   },
+   {
+    "ja": "妹へ"
    }
   ],
   "description": {
@@ -20,11 +23,20 @@
   "links": {
    "al": "54978",
    "kt": "17784",
-   "mal": "24978"
+   "mal": "24978",
+   "mu": "189222"
   },
   "originalLanguage": "ja",
   "status": "completed",
+  "year": 1982,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "pl",
+   "tr",
+   "it",
+   "en",
+   "ru"
+  ],
   "tags": [
    {
     "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
@@ -49,18 +61,33 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Full Color"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-04-26T13:39:54+00:00",
-  "updatedAt": "2021-05-25T15:45:05+00:00"
+  "updatedAt": "2022-02-03T00:48:19+00:00"
  },
  "relationships": [
   {
    "id": "6cdfb695-afc4-43af-bf76-20b2a4b37a7f",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "**THE WORLD'S MOST OUTSTANDING ANIMATION DIRECTOR**\n=="
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -68,14 +95,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Miyazaki Hayao",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-01-11T09:07:31+00:00",
+    "version": 3,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -83,7 +112,9 @@
    "id": "6cdfb695-afc4-43af-bf76-20b2a4b37a7f",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "**THE WORLD'S MOST OUTSTANDING ANIMATION DIRECTOR**\n=="
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -91,27 +122,30 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Miyazaki Hayao",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-01-11T09:07:31+00:00",
+    "version": 3,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "d7f92357-f911-4f7c-86ee-0a5130e88624",
+   "id": "6322ba28-8258-429a-a881-89e143f406ac",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:09:35+00:00",
+    "createdAt": "2022-01-01T07:28:41+00:00",
     "description": "",
-    "fileName": "4b887bf6-d329-4a71-a96b-736040b7cfc7.jpg",
-    "updatedAt": "2021-05-24T17:09:35+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "5d493a77-b369-4ef3-a2df-b03ce9d3d9c7.jpg",
+    "locale": "ja",
+    "updatedAt": "2022-01-01T07:29:07+00:00",
+    "version": 2,
+    "volume": "1"
    }
   }
  ]

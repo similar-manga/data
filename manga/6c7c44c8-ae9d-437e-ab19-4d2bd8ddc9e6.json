@@ -10,10 +10,10 @@
     "en": "A Certain Idol Accelerator-sama"
    },
    {
-    "en": "To Aru Idol no Accelerator-sama"
+    "ja-ro": "To Aru Idol no Accelerator-sama"
    },
    {
-    "en": "Toaru Guuzou no Ippou Tsuukou-sama"
+    "ja-ro": "Toaru Guuzou no Ippou Tsuukou-sama"
    },
    {
     "ru": "Некий идол - Акселератор"
@@ -23,7 +23,7 @@
    }
   ],
   "description": {
-   "en": "A project to develop new superpowers is underway in Academy City. That project will turn Accelerator into a –?!  \n\n\n---",
+   "en": "A project to develop new superpowers is underway in Academy City. That project will turn Accelerator into a –?!",
    "ru": "Комедийный спин-офф «Некого научного Акселератора», повествующий о нелёгком пути Акселератора в идолы."
   },
   "links": {
@@ -44,7 +44,26 @@
   "status": "completed",
   "year": 2015,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "es-la",
+   "th",
+   "en",
+   "fr",
+   "es"
+  ],
   "tags": [
+   {
+    "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sci-Fi"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "2d1f5d56-a1e5-4d0d-a961-2193588b08ec",
     "type": "tag",
@@ -118,9 +137,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 5,
   "createdAt": "2018-11-25T21:42:32+00:00",
-  "updatedAt": "2021-11-19T22:17:38+00:00"
+  "updatedAt": "2022-01-28T15:25:09+00:00"
  },
  "relationships": [
   {
@@ -135,6 +155,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kamachi Kazuma",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -143,6 +164,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -158,6 +180,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Tatitu Teto",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -166,28 +189,32 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "492addb6-bca2-4f14-9c97-f8ab418bd251",
+   "id": "8632282c-95e5-4f74-89dc-b81a7d745452",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T16:52:42+00:00",
+    "createdAt": "2021-05-23T05:59:24+00:00",
     "description": "",
-    "fileName": "4efddacc-7508-48ec-bada-d0dc00f8221b.jpg",
-    "updatedAt": "2021-05-24T16:52:42+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "67f6835d-91d2-424f-ac9c-a4356c0f68e6.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T05:59:24+00:00",
+    "version": 2,
+    "volume": "4"
    }
   },
   {
    "id": "229e5177-2e71-4642-bd56-a9b0b0ba0e60",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
   },
   {
    "id": "e8d89021-c5e3-4f1c-aa21-fd275344b136",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

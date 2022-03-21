@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Zelda no Densetsu - Mugen no Sunadokei"
+   "en": "The Legend of Zelda - Phantom Hourglass"
   },
   "altTitles": [
    {
-    "en": "The Legend of Zelda - Phantom Hourglass"
+    "ja": "ゼルダの伝説 夢幻の砂時計"
    },
    {
-    "en": "ゼルダの伝説 夢幻の砂時計"
+    "ja-ro": "Zelda no Densetsu - Mugen no Sunadokei"
    }
   ],
   "description": {
@@ -24,9 +24,15 @@
    "mu": "41574"
   },
   "originalLanguage": "ja",
+  "lastVolume": "1",
   "lastChapter": "12",
+  "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 2009,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -75,11 +81,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-04-27T00:13:07+00:00",
-  "updatedAt": "2021-05-25T15:43:11+00:00"
+  "updatedAt": "2022-03-13T00:49:15+00:00"
  },
  "relationships": [
   {
@@ -94,6 +113,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nintendo",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -102,6 +122,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -117,6 +138,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Himekawa Akira",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -125,6 +147,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -140,6 +163,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Himekawa Akira",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -148,6 +172,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -158,6 +183,7 @@
     "createdAt": "2021-05-24T17:09:37+00:00",
     "description": "",
     "fileName": "76cdc317-af5c-4a1f-a94f-c32adb97e6a7.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:09:37+00:00",
     "version": 1,
     "volume": null
@@ -165,7 +191,8 @@
   },
   {
    "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

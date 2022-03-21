@@ -44,6 +44,10 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "es-la"
+  ],
   "tags": [
    {
     "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
@@ -116,11 +120,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 4,
+  "state": "published",
+  "version": 14,
   "createdAt": "2020-01-12T01:07:25+00:00",
-  "updatedAt": "2021-12-04T04:10:24+00:00"
+  "updatedAt": "2022-02-09T19:23:59+00:00"
  },
  "relationships": [
   {
@@ -135,6 +152,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kamono Udon",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -143,6 +161,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -150,7 +169,9 @@
    "id": "2232ebb0-6133-4550-9955-a2848eeb2067",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "__Gender:__ Male\n__Current Residence:__ Tokyo, Japan\n\n[Blog](http://savanavas.blog.shinobi.jp/)"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -158,14 +179,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "SAVAN",
+    "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://www.pixiv.net/en/users/3949726",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "https://twitter.com/savan_navas",
+    "updatedAt": "2022-01-02T17:37:59+00:00",
+    "version": 2,
+    "website": "http://innocentworks.art.coocan.jp/",
+    "weibo": null,
     "youtube": null
    }
   },
@@ -176,6 +199,7 @@
     "createdAt": "2021-05-24T17:40:54+00:00",
     "description": "",
     "fileName": "240db096-0868-4387-8956-d341aec6bf87.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:40:54+00:00",
     "version": 1,
     "volume": null

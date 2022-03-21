@@ -7,10 +7,13 @@
   },
   "altTitles": [
    {
-    "en": "Megaman X5"
+    "en": "Mega Man X5"
    },
    {
     "zh-hk": "洛克人X5"
+   },
+   {
+    "ja": "ロックマンX5"
    }
   ],
   "description": {
@@ -29,6 +32,9 @@
   "status": "completed",
   "year": 2001,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
@@ -55,11 +61,11 @@
     }
    },
    {
-    "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+    "id": "50880a9d-5440-4732-9afb-8f457127e836",
     "type": "tag",
     "attributes": {
      "name": {
-      "en": "Comedy"
+      "en": "Mecha"
      },
      "description": null,
      "group": "genre",
@@ -67,11 +73,11 @@
     }
    },
    {
-    "id": "50880a9d-5440-4732-9afb-8f457127e836",
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
     "type": "tag",
     "attributes": {
      "name": {
-      "en": "Mecha"
+      "en": "Drama"
      },
      "description": null,
      "group": "genre",
@@ -91,9 +97,10 @@
     }
    }
   ],
-  "version": 6,
+  "state": "published",
+  "version": 9,
   "createdAt": "2019-04-01T23:11:17+00:00",
-  "updatedAt": "2021-12-09T21:51:39+00:00"
+  "updatedAt": "2022-01-29T05:40:19+00:00"
  },
  "relationships": [
   {
@@ -108,6 +115,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Wu Heyi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -116,6 +124,7 @@
     "updatedAt": "2021-11-10T17:27:17+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -131,6 +140,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Wu Heyi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -139,40 +149,52 @@
     "updatedAt": "2021-11-10T17:27:17+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "2dfa52b4-effb-4f0e-9f68-3e507d35d8b0",
+   "id": "e881f2ad-23a5-4036-be11-0fc029daa386",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:06:35+00:00",
+    "createdAt": "2022-01-06T14:48:01+00:00",
     "description": "",
-    "fileName": "94793076-d17c-43de-9bb8-387397a120f7.jpg",
-    "updatedAt": "2021-11-10T17:29:28+00:00",
-    "version": 2,
+    "fileName": "4abc6d76-e915-481c-819e-837346e45070.png",
+    "locale": "zh-hk",
+    "updatedAt": "2022-01-06T14:48:01+00:00",
+    "version": 1,
     "volume": "2"
    }
   },
   {
-   "id": "4f3738aa-4426-4282-8afb-34d9a495caf6",
-   "type": "manga"
-  },
-  {
-   "id": "8396cc8b-f8ac-4c3a-9e00-c771996b6e14",
-   "type": "manga"
-  },
-  {
-   "id": "db9820de-2b02-49e1-b32b-78330b22819a",
-   "type": "manga"
-  },
-  {
    "id": "2300ddd8-4bc7-4282-8891-d72e0c9bd22e",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "39f81ed6-342b-4fa1-adb2-d9e24bcf9455",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "4f3738aa-4426-4282-8afb-34d9a495caf6",
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "678c9164-f397-4ed9-bb05-c256e0efeccc",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "8396cc8b-f8ac-4c3a-9e00-c771996b6e14",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "db9820de-2b02-49e1-b32b-78330b22819a",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

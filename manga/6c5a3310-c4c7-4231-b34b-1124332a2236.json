@@ -7,19 +7,19 @@
   },
   "altTitles": [
    {
-    "en": "Ginga Tetsudō Surī Nain"
+    "ja-ro": "Ginga Tetsudō Surī Nain"
    },
    {
-    "en": "Ginga Tetsudou 999"
+    "ja-ro": "Ginga Tetsudou 999"
    },
    {
-    "en": "Goodbye Galaxy Express 999"
+    "ja-ro": "Sayonara Ginga Tetsudou 999"
    },
    {
-    "en": "Sayonara Ginga Tetsudou 999"
+    "ja": "銀河鉄道999"
    },
    {
-    "en": "銀河鉄道999"
+    "en": "Sayonara Galaxy Express 999"
    }
   ],
   "description": {
@@ -37,7 +37,11 @@
   "lastChapter": "121",
   "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 1977,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
@@ -88,6 +92,18 @@
     }
    },
    {
+    "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Gore"
+     },
+     "description": null,
+     "group": "content",
+     "version": 1
+    }
+   },
+   {
     "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
     "type": "tag",
     "attributes": {
@@ -100,9 +116,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 4,
   "createdAt": "2018-04-21T20:40:41+00:00",
-  "updatedAt": "2021-11-11T14:50:03+00:00"
+  "updatedAt": "2022-02-02T01:08:44+00:00"
  },
  "relationships": [
   {
@@ -117,6 +134,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Matsumoto Leiji",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -125,6 +143,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -140,6 +159,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Matsumoto Leiji",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -148,28 +168,42 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "70572cfb-c53c-4fbd-b113-dd2cb3ef0b76",
+   "id": "e27a7fb9-dd24-4f1b-bc31-41c937c41b85",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:56:29+00:00",
+    "createdAt": "2021-05-23T07:28:50+00:00",
     "description": "",
-    "fileName": "4f61a821-cf88-450d-809d-2e5d0c314f4b.jpg",
-    "updatedAt": "2021-05-24T17:56:29+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "246cd39c-cb20-47e0-ba7b-de42ebef867e.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T07:28:50+00:00",
+    "version": 2,
+    "volume": "18"
    }
   },
   {
-   "id": "df9dd952-acc3-4eae-bfc7-7023137424c5",
-   "type": "manga"
+   "id": "283f8818-43c4-4c1d-9b9e-52a2529414f7",
+   "type": "manga",
+   "related": "alternate_story"
   },
   {
-   "id": "283f8818-43c4-4c1d-9b9e-52a2529414f7",
-   "type": "manga"
+   "id": "95cbeaa9-b7f1-4108-844c-127b366b7fd9",
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "9a7515a7-2c1a-40bc-b8d6-556d7f6d48fe",
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "df9dd952-acc3-4eae-bfc7-7023137424c5",
+   "type": "manga",
+   "related": "shared_universe"
   }
  ]
 }

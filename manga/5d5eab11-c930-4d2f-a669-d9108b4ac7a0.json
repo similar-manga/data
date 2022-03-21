@@ -7,7 +7,7 @@
   },
   "altTitles": [
    {
-    "en": "食戟のサンジ"
+    "ja": "食戟のサンジ"
    }
   ],
   "description": {
@@ -23,21 +23,18 @@
   },
   "originalLanguage": "ja",
   "publicationDemographic": "shounen",
-  "status": "completed",
+  "status": "ongoing",
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "it",
+   "es-la",
+   "en",
+   "ru",
+   "id",
+   "ca",
+   "es"
+  ],
   "tags": [
-   {
-    "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
-    "type": "tag",
-    "attributes": {
-     "name": {
-      "en": "Oneshot"
-     },
-     "description": null,
-     "group": "format",
-     "version": 1
-    }
-   },
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
     "type": "tag",
@@ -73,11 +70,24 @@
      "group": "theme",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 9,
   "createdAt": "2019-07-10T23:05:22+00:00",
-  "updatedAt": "2021-05-25T15:42:48+00:00"
+  "updatedAt": "2022-02-24T11:31:38+00:00"
  },
  "relationships": [
   {
@@ -92,6 +102,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Tsukuda Yuuto",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -100,6 +111,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -115,6 +127,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Saeki Shun",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -123,6 +136,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -133,22 +147,26 @@
     "createdAt": "2021-05-24T17:18:31+00:00",
     "description": "",
     "fileName": "1db96f98-6a53-42f4-b211-b04154dc13eb.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:18:31+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "a1c7c817-4e59-43b7-9365-09675a149a6f",
-   "type": "manga"
+   "id": "5f20891f-0136-4fa8-afb7-d72f2af23c65",
+   "type": "manga",
+   "related": "adapted_from"
   },
   {
-   "id": "5f20891f-0136-4fa8-afb7-d72f2af23c65",
-   "type": "manga"
+   "id": "a1c7c817-4e59-43b7-9365-09675a149a6f",
+   "type": "manga",
+   "related": "adapted_from"
   },
   {
    "id": "f107142c-8865-4224-9bf8-220689c6f1f2",
-   "type": "manga"
+   "type": "manga",
+   "related": "colored"
   }
  ]
 }

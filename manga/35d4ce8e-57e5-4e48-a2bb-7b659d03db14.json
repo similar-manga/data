@@ -26,6 +26,12 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "it",
+   "en",
+   "es",
+   "ro"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -124,9 +130,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 4,
   "createdAt": "2018-07-26T17:54:11+00:00",
-  "updatedAt": "2021-12-08T22:45:28+00:00"
+  "updatedAt": "2022-01-25T04:44:32+00:00"
  },
  "relationships": [
   {
@@ -141,6 +148,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Boichi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -149,6 +157,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -164,6 +173,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Boichi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -172,6 +182,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -182,22 +193,26 @@
     "createdAt": "2021-05-24T18:42:15+00:00",
     "description": "",
     "fileName": "f4832e86-f3f4-4287-a658-fa11e2c4eef9.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:42:15+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "e9413364-1a5c-4264-9677-a19c532ac458",
-   "type": "manga"
+   "id": "4ce79663-bea0-448b-87dd-a17e3d126f42",
+   "type": "manga",
+   "related": "shared_universe"
   },
   {
    "id": "d8de5f5f-692d-4d8f-9275-2d8cb98b702b",
-   "type": "manga"
+   "type": "manga",
+   "related": "main_story"
   },
   {
-   "id": "4ce79663-bea0-448b-87dd-a17e3d126f42",
-   "type": "manga"
+   "id": "e9413364-1a5c-4264-9677-a19c532ac458",
+   "type": "manga",
+   "related": "shared_universe"
   }
  ]
 }

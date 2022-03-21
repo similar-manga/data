@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Tobaku Haouden Zero: Gyanki-hen"
+   "en": "Gambling Emperor Legend Zero: The Gambling Spirit Arc"
   },
   "altTitles": [
    {
-    "en": "Gambling Emperor Legend Zero: The Gambling Spirit Arc"
+    "ja": "賭博覇王伝 零 ギャン鬼編"
    },
    {
-    "ja": "賭博覇王伝 零 ギャン鬼編"
+    "ja-ro": "Tobaku Haouden Zero: Gyanki-hen"
    }
   ],
   "description": {
@@ -22,7 +22,8 @@
    "ap": "tobaku-haouden-rei-gyankihen",
    "kt": "20175",
    "mal": "26657",
-   "mu": "68427"
+   "mu": "68427",
+   "raw": "https://kc.kodansha.co.jp/title?code=1000003241"
   },
   "originalLanguage": "ja",
   "lastVolume": "10",
@@ -31,6 +32,9 @@
   "status": "completed",
   "year": 2011,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
@@ -38,6 +42,18 @@
     "attributes": {
      "name": {
       "en": "Psychological"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sports"
      },
      "description": null,
      "group": "genre",
@@ -57,9 +73,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 6,
   "createdAt": "2018-02-09T02:19:17+00:00",
-  "updatedAt": "2021-11-22T15:46:39+00:00"
+  "updatedAt": "2022-02-06T20:59:52+00:00"
  },
  "relationships": [
   {
@@ -74,6 +91,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fukumoto Nobuyuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -82,6 +100,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -97,6 +116,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fukumoto Nobuyuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -105,24 +125,32 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "0e853f4b-639c-4f54-9bf5-833bbd8f215a",
+   "id": "5fae19fb-eab5-4f96-b7c5-394e492bc329",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-23T05:31:29+00:00",
+    "createdAt": "2021-05-23T05:31:28+00:00",
     "description": "",
-    "fileName": "c66c0bdd-46e9-4fb8-ae70-db1bd378e288.jpg",
-    "updatedAt": "2021-05-23T05:31:29+00:00",
+    "fileName": "e8af1b78-1489-4fc1-a3a3-682a68811dd6.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T05:31:28+00:00",
     "version": 2,
-    "volume": "9.1"
+    "volume": "10"
    }
   },
   {
    "id": "09c26859-dbcc-470a-8239-9ea862c04c40",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
+  },
+  {
+   "id": "a80ac925-c01e-4826-9ecc-28c5645f1721",
+   "type": "manga",
+   "related": "spin_off"
   }
  ]
 }

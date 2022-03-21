@@ -3,21 +3,24 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Getta to watashi"
+   "en": "Getter and I"
   },
   "altTitles": [
    {
-    "en": "Getter and me"
+    "es": "Getter y yo"
    },
    {
-    "en": "Getter y yo"
+    "ja": "ゲッターと私"
    },
    {
-    "en": "ゲッターと私"
+    "ja-ro": "Getta to watashi"
    }
   ],
   "description": {
    "en": "A autobiography about the creation of Getter Robo  \n  \nThose chapters were included in Getter Robo Go Getter Saga edition and Getter Robo 40 Shuunenkinen Gengaten"
+  },
+  "links": {
+   "mu": "176588"
   },
   "originalLanguage": "ja",
   "lastVolume": "1",
@@ -25,7 +28,23 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "pt-br"
+  ],
   "tags": [
+   {
+    "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sci-Fi"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
     "type": "tag",
@@ -49,18 +68,33 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Slice of Life"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
-  "version": 1,
+  "state": "published",
+  "version": 2,
   "createdAt": "2020-09-01T16:16:54+00:00",
-  "updatedAt": "2020-09-01T16:16:54+00:00"
+  "updatedAt": "2022-03-06T01:40:50+00:00"
  },
  "relationships": [
   {
    "id": "1a76535a-b389-4e42-9130-a71d0ec94611",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Kiyoshi Nagai, better known by the pen name Go Nagai, is a Japanese manga artist and a prolific author of science fiction, fantasy, horror and erotica. He made his professional debut in 1967 with Meakashi Polikichi, but is best known for creating popular 1970s manga and anime series such as Cutie Honey, Devilman and Mazinger Z. He is credited with creating the super robot genre and for designing the first mecha robots piloted by a user from within a cockpit with Mazinger Z, and for pioneering the magical girl genre with Cutie Honey, the post-apocalyptic genre with Violence Jack, and the ecchi genre with Harenchi Gakuen. In 2005, he became a Character Design professor at the Osaka University of Arts. He has been a member of the Tezuka Osamu Cultural Prize's nominating committee since 2009. "
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -68,14 +102,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nagai Go",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-02-13T22:46:38+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -91,6 +127,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ishikawa Ken",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -99,6 +136,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -114,6 +152,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ishikawa Ken",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -122,6 +161,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -132,6 +172,7 @@
     "createdAt": "2021-05-24T18:08:40+00:00",
     "description": "",
     "fileName": "3a7b91d8-a6a4-47ab-af1c-099e1b35ba95.png",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:08:40+00:00",
     "version": 1,
     "volume": null
@@ -139,7 +180,8 @@
   },
   {
    "id": "f35a8c30-3f9c-4105-818d-63673ff2c1b6",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
   }
  ]
 }

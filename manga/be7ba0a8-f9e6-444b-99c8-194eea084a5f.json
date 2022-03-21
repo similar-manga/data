@@ -37,6 +37,9 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "33771934-028e-4cb3-8744-691e866a923e",
@@ -75,9 +78,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-07-12T04:02:57+00:00",
-  "updatedAt": "2021-05-25T15:47:14+00:00"
+  "updatedAt": "2022-01-25T06:13:37+00:00"
  },
  "relationships": [
   {
@@ -92,6 +96,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Shimada Fumikane",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -100,6 +105,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -115,6 +121,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Projekt Kagonish",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -123,6 +130,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -138,6 +146,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ningen",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -146,6 +155,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -156,26 +166,31 @@
     "createdAt": "2021-05-24T18:40:41+00:00",
     "description": "",
     "fileName": "f81fc13f-6676-4f6e-bf1d-03393a673d5b.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:40:41+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "ab9ad2ab-f6ee-4670-90a3-8c9d138b6f43",
-   "type": "manga"
-  },
-  {
    "id": "432ba54a-767f-4c69-9c4f-9e9018cbac59",
-   "type": "manga"
-  },
-  {
-   "id": "b28528c9-8a75-4b34-857c-efa431de8982",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "60fe39c1-3166-43a9-a5dc-76518f507c01",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "ab9ad2ab-f6ee-4670-90a3-8c9d138b6f43",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "b28528c9-8a75-4b34-857c-efa431de8982",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

@@ -3,35 +3,41 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Thomas no Shinzou"
+   "en": "Heart of Thomas"
   },
   "altTitles": [
    {
-    "en": "Heart of Thomas"
+    "ja-ro": "Thomas no Shinzou"
    },
    {
-    "en": "Mitsukuni no Musume"
+    "ja-ro": "Mitsukuni no Musume"
    },
    {
-    "en": "The Heart of Thomas"
+    "ja-ro": "Touma no Shinzou"
    },
    {
-    "en": "Thoma no Shinzou"
+    "ja": "トーマの心臓"
    },
    {
-    "en": "Thomas no Shinzō"
+    "zh": "天使心"
    },
    {
-    "en": "Touma no Shinzou"
+    "zh": "托马的心脏"
    },
    {
-    "en": "トーマの心臓"
+    "ko": "토마의 심장"
    },
    {
-    "en": "天使心"
+    "fr": "Le Cœur de Thomas"
    },
    {
-    "en": "托马的心脏"
+    "it": "Il cuore di Thomas"
+   },
+   {
+    "es": "El corazón de Thomas"
+   },
+   {
+    "pt-br": "O Coração de Thomas"
    }
   ],
   "description": {
@@ -39,9 +45,10 @@
   },
   "links": {
    "al": "39152",
+   "amz": "https://www.amazon.co.jp/-/en/%E8%90%A9%E5%B0%BE%E6%9C%9B%E9%83%BD-ebook/dp/B00MORJPNA/ref=sr_1_1?crid=HBBBVL08WE50\u0026keywords=%E3%83%88%E3%83%BC%E3%83%9E%E3%81%AE%E5%BF%83%E8%87%93\u0026qid=1647212431\u0026sprefix=%E3%83%88%E3%83%BC%E3%83%9E%E3%81%AE%E5%BF%83%E8%87%93%2Caps%2C110\u0026sr=8-1",
    "ap": "the-heart-of-thomas",
    "cdj": "http://www.cdjapan.co.jp/product/NEOBK-88979?s_ssid=e4ea25c716bab506",
-   "ebj": "https://www.ebookjapan.jp/ebj/7785/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/107450/",
    "engtl": "http://www.fantagraphics.com/heartofthomas/",
    "kt": "18547",
    "mal": "9152",
@@ -52,7 +59,12 @@
   "lastChapter": "7.5",
   "publicationDemographic": "shoujo",
   "status": "completed",
+  "year": 1974,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "tr"
+  ],
   "tags": [
    {
     "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
@@ -115,9 +127,10 @@
     }
    }
   ],
-  "version": 1,
+  "state": "published",
+  "version": 5,
   "createdAt": "2018-05-23T16:45:46+00:00",
-  "updatedAt": "2018-05-23T16:45:46+00:00"
+  "updatedAt": "2022-03-13T23:01:01+00:00"
  },
  "relationships": [
   {
@@ -132,6 +145,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hagio Moto",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -140,6 +154,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -155,6 +170,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hagio Moto",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -163,24 +179,32 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "bcebdb03-f9ce-4f7a-96a6-bbcdef7e3ab1",
+   "id": "92d549d4-f448-4fcd-a2b4-ad402b734dd0",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T18:30:27+00:00",
+    "createdAt": "2021-05-23T07:54:23+00:00",
     "description": "",
-    "fileName": "05999ac0-94f2-4901-af4b-897b085b9e04.jpg",
-    "updatedAt": "2021-05-24T18:30:27+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "b9eb9506-4ebd-42e1-8622-f5f885ed54b8.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T07:54:23+00:00",
+    "version": 2,
+    "volume": "3"
    }
   },
   {
    "id": "b7b9e72e-8672-41b5-b741-9fe972fda2fa",
-   "type": "manga"
+   "type": "manga",
+   "related": "alternate_story"
+  },
+  {
+   "id": "f3113c67-51ca-4985-88fe-6be4f9b805bb",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

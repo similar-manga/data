@@ -18,7 +18,7 @@
    "al": "30332",
    "amz": "https://www.amazon.co.jp/dp/B07571GKFW",
    "ap": "gravitation",
-   "ebj": "https://www.ebookjapan.jp/ebj/202799/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/202799/",
    "kt": "754",
    "mal": "332",
    "mu": "765",
@@ -30,6 +30,10 @@
   "publicationDemographic": "shoujo",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "pl"
+  ],
   "tags": [
    {
     "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
@@ -68,6 +72,18 @@
     }
    },
    {
+    "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sexual Violence"
+     },
+     "description": null,
+     "group": "content",
+     "version": 1
+    }
+   },
+   {
     "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
     "type": "tag",
     "attributes": {
@@ -78,11 +94,36 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "ddefd648-5140-4e5f-ba18-4eca4071d19b",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Shota"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Music"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-04-05T20:03:37+00:00",
-  "updatedAt": "2021-05-25T15:47:07+00:00"
+  "updatedAt": "2022-03-07T04:24:10+00:00"
  },
  "relationships": [
   {
@@ -97,6 +138,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Murakami Maki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -105,6 +147,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -120,6 +163,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Murakami Maki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -128,36 +172,42 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "f4a04021-4604-4f39-95d3-6c5a288a8c9f",
+   "id": "1dbb6cff-52ff-4f27-9a70-495f5871ab52",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:07:02+00:00",
+    "createdAt": "2021-05-23T06:34:23+00:00",
     "description": "",
-    "fileName": "341c6809-c50f-459d-b9ea-763d045a45b8.jpg",
-    "updatedAt": "2021-05-24T17:07:02+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "67514f38-c003-44b0-9af2-1a0df38d1377.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T06:34:23+00:00",
+    "version": 2,
+    "volume": "12"
    }
   },
   {
-   "id": "e50e9350-3870-44f3-8858-57ade4332195",
-   "type": "manga"
-  },
-  {
    "id": "4c602c08-4919-4547-b6d2-406483677aef",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
   },
   {
    "id": "770c7631-5536-40eb-b818-5514626e4972",
-   "type": "manga"
+   "type": "manga",
+   "related": "alternate_story"
   },
   {
    "id": "7ea8bfd6-03e3-42d3-91ed-4bfa9bebd6ad",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "e50e9350-3870-44f3-8858-57ade4332195",
+   "type": "manga",
+   "related": "spin_off"
   }
  ]
 }

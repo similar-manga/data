@@ -53,6 +53,15 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "ru",
+   "pl",
+   "ar",
+   "en",
+   "id",
+   "pt-br",
+   "de"
+  ],
   "tags": [
    {
     "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
@@ -151,9 +160,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2019-01-10T23:12:16+00:00",
-  "updatedAt": "2021-05-25T15:46:34+00:00"
+  "updatedAt": "2022-01-25T00:12:11+00:00"
  },
  "relationships": [
   {
@@ -168,6 +178,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kamoshida Hajime",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -176,6 +187,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -191,6 +203,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nanamiya Tsugumi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -199,6 +212,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -209,46 +223,66 @@
     "createdAt": "2021-05-24T16:57:26+00:00",
     "description": "",
     "fileName": "970e953a-351c-4d8a-a83d-e2c162e50255.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:57:26+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "a77b83dd-16d4-4d0f-b01b-86e98c67c243",
-   "type": "manga"
-  },
-  {
-   "id": "a6bef360-180a-45a3-b367-cd66bb71da23",
-   "type": "manga"
-  },
-  {
    "id": "1654b70b-8d2d-4460-a157-4cb3292e3bcd",
-   "type": "manga"
-  },
-  {
-   "id": "985a6688-f7a1-495d-8693-c63333c1ec16",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "17c68f3f-be90-4705-a816-d75a2c189b9b",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
-   "id": "86880e33-c888-4543-bf94-fb14a27afe80",
-   "type": "manga"
-  },
-  {
-   "id": "83035517-3ea5-450d-bb41-e6a63b987261",
-   "type": "manga"
-  },
-  {
-   "id": "d0a814cc-2469-4f35-b73d-73aa27709df6",
-   "type": "manga"
+   "id": "30a58045-1fe8-4d93-8aaf-3b66b9d723fd",
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "3f51ef6f-7f11-4abe-a5b9-d449623ee9c4",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "590fd677-394f-440b-94cc-4468991cbe55",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "83035517-3ea5-450d-bb41-e6a63b987261",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "86880e33-c888-4543-bf94-fb14a27afe80",
+   "type": "manga",
+   "related": "side_story"
+  },
+  {
+   "id": "985a6688-f7a1-495d-8693-c63333c1ec16",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "a6bef360-180a-45a3-b367-cd66bb71da23",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "a77b83dd-16d4-4d0f-b01b-86e98c67c243",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "d0a814cc-2469-4f35-b73d-73aa27709df6",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

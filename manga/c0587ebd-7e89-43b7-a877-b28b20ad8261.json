@@ -31,7 +31,7 @@
    "ap": "fate-kaleid-liner-prisma-illya",
    "bw": "series/146",
    "cdj": "http://www.cdjapan.co.jp/product/NEOBK-480839",
-   "ebj": "https://www.ebookjapan.jp/ebj/17771/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/17771/",
    "kt": "7782",
    "mal": "3526",
    "mu": "19408"
@@ -42,6 +42,10 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "ru",
+   "en"
+  ],
   "tags": [
    {
     "id": "2d1f5d56-a1e5-4d0d-a961-2193588b08ec",
@@ -104,9 +108,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2018-03-14T22:57:10+00:00",
-  "updatedAt": "2021-05-25T15:47:14+00:00"
+  "updatedAt": "2022-01-25T09:22:43+00:00"
  },
  "relationships": [
   {
@@ -121,6 +126,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hiroyama Hiroshi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -129,6 +135,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -144,6 +151,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Type-Moon",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -152,6 +160,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -167,6 +176,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hiroyama Hiroshi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -175,6 +185,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -185,30 +196,36 @@
     "createdAt": "2021-05-24T17:14:12+00:00",
     "description": "",
     "fileName": "7d31a35c-802e-408c-8945-9b4c1482c01d.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:14:12+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "ec7dd89e-2a1a-41c7-b60e-c8e74a2fe1db",
-   "type": "manga"
-  },
-  {
-   "id": "f5f9c2f1-bc44-40cd-bb79-710819ac0a91",
-   "type": "manga"
+   "id": "18c41d02-408a-4a84-9aba-713eb3269376",
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "1ef555de-ceaa-4677-a26a-96afe62ccc99",
-   "type": "manga"
-  },
-  {
-   "id": "18c41d02-408a-4a84-9aba-713eb3269376",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "21f5800a-13b8-44f1-8e50-3cff94f1397d",
-   "type": "manga"
+   "type": "manga",
+   "related": "alternate_story"
+  },
+  {
+   "id": "ec7dd89e-2a1a-41c7-b60e-c8e74a2fe1db",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "f5f9c2f1-bc44-40cd-bb79-710819ac0a91",
+   "type": "manga",
+   "related": "spin_off"
   }
  ]
 }

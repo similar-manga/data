@@ -16,10 +16,10 @@
     "en": "Laid-Back Camp"
    },
    {
-    "en": "Yuru Camp"
+    "ja-ro": "Yuru Camp"
    },
    {
-    "en": "Yurukyan"
+    "ja-ro": "Yurukyan"
    },
    {
     "ru": "Лагерь с ночёвкой △"
@@ -50,6 +50,12 @@
   "status": "ongoing",
   "year": 2015,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "es-la",
+   "en",
+   "pt-br",
+   "id"
+  ],
   "tags": [
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
@@ -112,9 +118,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 9,
   "createdAt": "2019-02-02T03:38:11+00:00",
-  "updatedAt": "2021-11-14T17:53:26+00:00"
+  "updatedAt": "2022-03-05T13:54:17+00:00"
  },
  "relationships": [
   {
@@ -129,14 +136,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Afro",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "twitter": "https://twitter.com/afro_2021",
+    "updatedAt": "2022-03-06T22:19:17+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -152,52 +161,61 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Afro",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "twitter": "https://twitter.com/afro_2021",
+    "updatedAt": "2022-03-06T22:19:17+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "b4ab60e4-80f8-4f2a-88cc-a782dab528f0",
+   "id": "6e40c986-ac0c-48db-9dcf-493c83dc50d4",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T16:59:56+00:00",
+    "createdAt": "2022-03-05T13:54:17+00:00",
     "description": "",
-    "fileName": "09b47ecd-0d7e-481d-920c-c4a5c20c44ba.jpg",
-    "updatedAt": "2021-05-24T16:59:56+00:00",
+    "fileName": "bacdd9f6-61e9-4814-99dd-b70e35589138.jpg",
+    "locale": "ja",
+    "updatedAt": "2022-03-05T13:54:17+00:00",
     "version": 1,
-    "volume": null
+    "volume": "13"
    }
   },
   {
-   "id": "a59e6ab0-0769-4aa5-8a20-c54d4184da65",
-   "type": "manga"
-  },
-  {
    "id": "05ef1fa9-ae22-4a7a-9b9b-3538ea67fd0d",
-   "type": "manga"
-  },
-  {
-   "id": "9eb755bb-de4c-432b-aa87-38bae5311258",
-   "type": "manga"
-  },
-  {
-   "id": "486441e9-e0d8-4ece-ae5a-a35c813620b2",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "0c314411-6431-4c5e-89cb-f69b8a993545",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "486441e9-e0d8-4ece-ae5a-a35c813620b2",
+   "type": "manga",
+   "related": "spin_off"
   },
   {
    "id": "695841f4-6087-4333-8f1c-d45a6bc677f7",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "9eb755bb-de4c-432b-aa87-38bae5311258",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "a59e6ab0-0769-4aa5-8a20-c54d4184da65",
+   "type": "manga",
+   "related": "doujinshi"
   }
  ]
 }

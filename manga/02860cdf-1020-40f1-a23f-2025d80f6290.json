@@ -3,26 +3,23 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "GTO"
+   "en": "GTO: Great Teacher Onizuka"
   },
   "altTitles": [
    {
-    "en": "El gran maestro Onizuka"
+    "es": "El gran maestro Onizuka"
    },
    {
-    "en": "Great Teacher Onizuka"
+    "ru": "Великий учитель Онидзука"
    },
    {
-    "en": "Великий учитель Онидзука"
+    "th": "คุณครูพันธุ์หายาก"
    },
    {
-    "en": "คุณครูพันธุ์หายาก"
+    "ko": "반항하지마"
    },
    {
-    "en": "ジー ティー オー"
-   },
-   {
-    "en": "반항하지마!"
+    "ja": "ジーティーオー"
    }
   ],
   "description": {
@@ -32,18 +29,27 @@
    "al": "30336",
    "amz": "https://www.amazon.co.jp/gp/product/B074C8MD6D",
    "ap": "gto",
-   "bw": "series/4277",
+   "bw": "series/4277/",
    "ebj": "https://ebookjapan.yahoo.co.jp/books/148062/",
+   "engtl": "https://kodansha.us/series/gto-great-teacher-onizuka/",
    "kt": "766",
    "mal": "336",
-   "mu": "185"
+   "mu": "185",
+   "raw": "https://kc.kodansha.co.jp/title?code=1000000010"
   },
   "originalLanguage": "ja",
   "lastVolume": "25",
   "lastChapter": "200.1",
   "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 1997,
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "ru",
+   "pt-br",
+   "en",
+   "tr"
+  ],
   "tags": [
    {
     "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
@@ -118,9 +124,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 9,
   "createdAt": "2018-01-24T12:43:18+00:00",
-  "updatedAt": "2021-05-25T15:38:47+00:00"
+  "updatedAt": "2022-02-02T01:26:18+00:00"
  },
  "relationships": [
   {
@@ -135,6 +142,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fujisawa Tohru",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -143,6 +151,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -158,6 +167,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fujisawa Tohru",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -166,44 +176,52 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "62223b64-3c1d-4f54-bd4d-4fb1d767b1fc",
+   "id": "e5bea206-1568-4fe2-8f74-7cac05263d0a",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:22:01+00:00",
+    "createdAt": "2021-05-23T06:49:59+00:00",
     "description": "",
-    "fileName": "4cd295e6-71c1-4090-9602-fd4eface5547.jpg",
-    "updatedAt": "2021-05-24T17:22:01+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "f7bc884a-2f57-4e31-9004-7a9bf71ea8f7.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T06:49:59+00:00",
+    "version": 2,
+    "volume": "25"
    }
   },
   {
-   "id": "98c5868e-c2bd-4a6b-af3b-206c59436f62",
-   "type": "manga"
-  },
-  {
-   "id": "ee9c06f4-a805-45e3-84c5-5e6c5a96c45a",
-   "type": "manga"
-  },
-  {
-   "id": "ca799261-dbbb-4a27-a34f-34bc607751cd",
-   "type": "manga"
+   "id": "04a2b91d-1aa8-4db6-85a7-6bbc99919670",
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "857a4d6b-7228-42e1-b49c-bbb50a8befdd",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   },
   {
-   "id": "04a2b91d-1aa8-4db6-85a7-6bbc99919670",
-   "type": "manga"
+   "id": "98c5868e-c2bd-4a6b-af3b-206c59436f62",
+   "type": "manga",
+   "related": "side_story"
+  },
+  {
+   "id": "ca799261-dbbb-4a27-a34f-34bc607751cd",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "e44068f9-879f-4af4-81ca-93d82ccc1bf4",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
+  },
+  {
+   "id": "ee9c06f4-a805-45e3-84c5-5e6c5a96c45a",
+   "type": "manga",
+   "related": "side_story"
   }
  ]
 }

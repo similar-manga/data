@@ -3,17 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Zelda no Densetsu - Kamigami no Triforce (Cagiva Ataru)"
+   "en": "The Legend of Zelda: A Link to the Past (CAGIVA Ataru)"
   },
   "altTitles": [
    {
     "en": "The Legend of Zelda: A Link to the Past (1995)"
    },
    {
-    "en": "The Legend of Zelda: A Link to the Past (CAGIVA Ataru)"
+    "ja": "ゼルダの伝説 神々のトライフォース (かぢば あたる)"
    },
    {
-    "en": "ゼルダの伝説 神々のトライフォース (かぢば あたる)"
+    "ja-ro": "Zelda no Densetsu - Kamigami no Triforce (Cagiva Ataru)"
    }
   ],
   "description": {
@@ -26,9 +26,15 @@
    "mu": "2316"
   },
   "originalLanguage": "ja",
+  "lastVolume": "3",
   "lastChapter": "18",
+  "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 1995,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -77,11 +83,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-04-02T09:12:50+00:00",
-  "updatedAt": "2021-05-25T15:40:44+00:00"
+  "updatedAt": "2022-03-13T00:12:21+00:00"
  },
  "relationships": [
   {
@@ -96,6 +115,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Cagiva Ataru",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -104,6 +124,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -119,6 +140,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Cagiva Ataru",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -127,6 +149,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -137,22 +160,26 @@
     "createdAt": "2021-05-24T17:06:38+00:00",
     "description": "",
     "fileName": "dbdac92e-86a9-42bb-afa9-90545c6f5d97.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:06:38+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "a373c624-cac2-48a2-b7aa-f49d99e3a219",
-   "type": "manga"
+   "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
+   "type": "manga",
+   "related": "alternate_story"
   },
   {
-   "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
-   "type": "manga"
+   "id": "a373c624-cac2-48a2-b7aa-f49d99e3a219",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "bb3f8e06-9049-4b3d-9654-30bf11d65338",
-   "type": "manga"
+   "type": "manga",
+   "related": "alternate_story"
   }
  ]
 }

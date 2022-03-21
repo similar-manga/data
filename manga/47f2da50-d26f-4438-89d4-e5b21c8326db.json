@@ -21,7 +21,7 @@
    "amz": "https://www.amazon.co.jp/gp/product/B075NLKM25",
    "ap": "kamen-rider-spirits",
    "bw": "series/4477",
-   "ebj": "https://www.ebookjapan.jp/ebj/15356/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/15356/",
    "kt": "10153",
    "mal": "4742",
    "mu": "1970"
@@ -31,7 +31,12 @@
   "lastChapter": "96",
   "publicationDemographic": "seinen",
   "status": "completed",
+  "year": 2001,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "es"
+  ],
   "tags": [
    {
     "id": "0bc90acb-ccc1-44ca-a34a-b9f3a73259d0",
@@ -238,16 +243,19 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-04-07T08:24:27+00:00",
-  "updatedAt": "2021-05-25T15:41:53+00:00"
+  "updatedAt": "2022-03-16T14:48:14+00:00"
  },
  "relationships": [
   {
    "id": "36f5f595-0196-4d0a-aae1-0f730679d10a",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "漫画の王様\nKING OF MANGA\n=="
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -255,14 +263,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ishinomori Shotaro",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-01-13T09:51:12+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -278,6 +288,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Muraeda Kenichi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -286,6 +297,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -301,6 +313,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Muraeda Kenichi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -309,6 +322,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -319,22 +333,26 @@
     "createdAt": "2021-05-24T17:40:20+00:00",
     "description": "",
     "fileName": "e0a3b113-6f8c-4ba2-807e-ee81934ca230.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:40:20+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "87d74323-b8e0-43bb-973f-6bada02a8a81",
-   "type": "manga"
+   "id": "56f3f735-31c4-46a1-bc89-7260c9bade1e",
+   "type": "manga",
+   "related": "adapted_from"
   },
   {
-   "id": "56f3f735-31c4-46a1-bc89-7260c9bade1e",
-   "type": "manga"
+   "id": "87d74323-b8e0-43bb-973f-6bada02a8a81",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "c7dbc70f-89b7-41ac-8010-29748bcb5702",
-   "type": "manga"
+   "type": "manga",
+   "related": "alternate_story"
   }
  ]
 }

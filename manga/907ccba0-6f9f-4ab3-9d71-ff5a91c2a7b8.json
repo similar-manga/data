@@ -33,6 +33,13 @@
   "status": "completed",
   "year": 2010,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "pt-br",
+   "ar",
+   "en",
+   "fr",
+   "vi"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -143,9 +150,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 5,
   "createdAt": "2018-02-23T12:28:52+00:00",
-  "updatedAt": "2021-11-30T20:23:53+00:00"
+  "updatedAt": "2022-01-25T10:24:41+00:00"
  },
  "relationships": [
   {
@@ -160,6 +168,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ryukishi07",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -168,6 +177,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -183,6 +193,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Momoyama Hinase",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -191,6 +202,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -201,6 +213,7 @@
     "createdAt": "2021-05-24T16:54:13+00:00",
     "description": "",
     "fileName": "0ac2a816-511d-4e89-9c76-c2e66252c8d7.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:54:13+00:00",
     "version": 1,
     "volume": null
@@ -208,11 +221,13 @@
   },
   {
    "id": "15e4d8b9-2a1e-4db0-82a9-ecd92411a0b8",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "cee1a059-dc4e-42d6-b96a-fa0253b7accd",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

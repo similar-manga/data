@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Natsuko no Sake"
+   "en": "Natsuko's Sake"
   },
   "altTitles": [
    {
-    "en": "Natsuko's Sake"
+    "ja": "夏子の酒"
    },
    {
-    "ja": "夏子の酒"
+    "ja-ro": "Natsuko no Sake"
    }
   ],
   "description": {
@@ -32,6 +32,9 @@
   "status": "completed",
   "year": 1988,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
@@ -70,16 +73,19 @@
     }
    }
   ],
-  "version": 7,
+  "state": "published",
+  "version": 9,
   "createdAt": "2021-02-28T11:08:39+00:00",
-  "updatedAt": "2021-11-11T12:11:20+00:00"
+  "updatedAt": "2022-02-28T03:40:25+00:00"
  },
  "relationships": [
   {
    "id": "6b69169c-258a-42a6-9f9c-d99b8d1df594",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Inspired by ISHINOMORI Shotaro’s Manga Nyuumon he later became assistant to Ishinomori after graduated from high school.\n\nKOSHINO Ryou, OHTAGAKI Yasuo, YAMAMOTO Osamu and YANO Kentaro were once his assistants.\n(Source: Mangaupdates)"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -87,14 +93,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Oze Akira",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-01-02T10:03:26+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -102,7 +110,9 @@
    "id": "6b69169c-258a-42a6-9f9c-d99b8d1df594",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Inspired by ISHINOMORI Shotaro’s Manga Nyuumon he later became assistant to Ishinomori after graduated from high school.\n\nKOSHINO Ryou, OHTAGAKI Yasuo, YAMAMOTO Osamu and YANO Kentaro were once his assistants.\n(Source: Mangaupdates)"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -110,28 +120,36 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Oze Akira",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-01-02T10:03:26+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "0796e74b-fb4a-4f1f-92d0-1b77c1894746",
+   "id": "4f07ef4d-7e39-4d20-8fe6-a26aa6c5219c",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-23T07:55:47+00:00",
+    "createdAt": "2021-12-30T10:07:39+00:00",
     "description": "",
-    "fileName": "0fc75fe5-edb7-4a0a-8176-48d97a0e9eef.jpg",
-    "updatedAt": "2021-05-23T07:55:47+00:00",
-    "version": 2,
+    "fileName": "b72d5918-fb4f-41e9-af68-b319f18df445.png",
+    "locale": "ja",
+    "updatedAt": "2021-12-30T10:07:39+00:00",
+    "version": 1,
     "volume": "12"
    }
+  },
+  {
+   "id": "f718a019-afd2-4a59-a86a-c1d36e432560",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

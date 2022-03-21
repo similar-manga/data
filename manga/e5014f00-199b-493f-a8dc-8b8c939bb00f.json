@@ -3,7 +3,7 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Shin Kurosawa - Saikyou Densetsu"
+   "en": "The New Legend of the Strongest Man Kurosawa"
   },
   "altTitles": [
    {
@@ -11,6 +11,9 @@
    },
    {
     "ja": "新黒沢 最強伝説"
+   },
+   {
+    "ja-ro": "Shin Kurosawa - Saikyou Densetsu"
    }
   ],
   "description": {
@@ -22,7 +25,8 @@
    "ap": "shin-kurosawa-saikyou-densetsu",
    "kt": "25511",
    "mal": "58209",
-   "mu": "95265"
+   "mu": "95265",
+   "raw": "https://comics.shogakukan.co.jp/book-series?cd=31301"
   },
   "originalLanguage": "ja",
   "lastVolume": "21",
@@ -31,6 +35,11 @@
   "status": "completed",
   "year": 2013,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "tr",
+   "pt-br"
+  ],
   "tags": [
    {
     "id": "33771934-028e-4cb3-8744-691e866a923e",
@@ -93,9 +102,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 5,
   "createdAt": "2018-10-02T16:26:35+00:00",
-  "updatedAt": "2021-11-22T14:58:12+00:00"
+  "updatedAt": "2022-02-06T20:56:01+00:00"
  },
  "relationships": [
   {
@@ -110,6 +120,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fukumoto Nobuyuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -118,6 +129,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -133,6 +145,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fukumoto Nobuyuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -141,6 +154,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -151,6 +165,7 @@
     "createdAt": "2021-05-24T16:46:45+00:00",
     "description": "",
     "fileName": "24cf7637-66fd-4c35-9a0d-be3d66922e67.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:46:45+00:00",
     "version": 1,
     "volume": null
@@ -158,7 +173,13 @@
   },
   {
    "id": "18ac9156-8341-4662-8380-e0e83ee31bda",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
+  },
+  {
+   "id": "a80ac925-c01e-4826-9ecc-28c5645f1721",
+   "type": "manga",
+   "related": "spin_off"
   }
  ]
 }

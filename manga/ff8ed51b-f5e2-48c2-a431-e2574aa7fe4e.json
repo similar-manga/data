@@ -3,28 +3,34 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "HeartCatch Precure!"
+   "en": "Heartcatch Pretty Cure!"
   },
+  "altTitles": [
+   {
+    "ja-ro": "Heartcatch Precure!"
+   },
+   {
+    "ja": "ハートキャッチプリキュア！"
+   },
+   {
+    "ja-ro": "Hātokyacchi Purikyua!"
+   }
+  ],
   "description": {
    "en": "Tsubomi Hanasaki is a second year middle school student who loves flowers and plants. When she moves to the Myodou academy, she decides to change her personality. But meeting the spirits of the Great Heart Tree and becoming a brave Pretty Cure is so much more than she bargained for!  \nTogether with her new classmate, Erika Kurumi, she will fight against the Messengers of the Desert, who want to steal the Flowers of the Heart to rule the world."
   },
   "originalLanguage": "ja",
+  "lastVolume": "1",
+  "lastChapter": "13",
   "publicationDemographic": "shoujo",
   "status": "completed",
+  "year": 2010,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "fr",
+   "pl"
+  ],
   "tags": [
-   {
-    "id": "7064a261-a137-4d3a-8848-2d385de3a99c",
-    "type": "tag",
-    "attributes": {
-     "name": {
-      "en": "Superhero"
-     },
-     "description": null,
-     "group": "genre",
-     "version": 1
-    }
-   },
    {
     "id": "81c836c9-914a-4eca-981a-560dad663e73",
     "type": "tag",
@@ -34,42 +40,6 @@
      },
      "description": null,
      "group": "genre",
-     "version": 1
-    }
-   },
-   {
-    "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-    "type": "tag",
-    "attributes": {
-     "name": {
-      "en": "Magic"
-     },
-     "description": null,
-     "group": "theme",
-     "version": 1
-    }
-   },
-   {
-    "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-    "type": "tag",
-    "attributes": {
-     "name": {
-      "en": "Fantasy"
-     },
-     "description": null,
-     "group": "genre",
-     "version": 1
-    }
-   },
-   {
-    "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
-    "type": "tag",
-    "attributes": {
-     "name": {
-      "en": "Supernatural"
-     },
-     "description": null,
-     "group": "theme",
      "version": 1
     }
    },
@@ -86,9 +56,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2021-03-13T05:43:41+00:00",
-  "updatedAt": "2021-05-25T15:50:05+00:00"
+  "updatedAt": "2022-02-18T14:50:04+00:00"
  },
  "relationships": [
   {
@@ -103,6 +74,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Todo Izumi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -111,11 +83,12 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "8883f23c-daf0-4812-91c8-4a45f7625b5a",
+   "id": "67b5d5de-f07a-4cca-bab6-c4bcb88a110b",
    "type": "artist",
    "attributes": {
     "biography": [],
@@ -125,7 +98,8 @@
     "fantia": null,
     "imageUrl": null,
     "melonBook": null,
-    "name": "Futago Kamikita",
+    "name": "Kamikita Twins",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -134,6 +108,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -144,10 +119,16 @@
     "createdAt": "2021-05-24T18:34:50+00:00",
     "description": "",
     "fileName": "ce0b792e-aab7-46b7-aa69-ea3a4d653455.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:34:50+00:00",
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "4aaf7084-23ca-4e21-a66c-78d49a6d09fc",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

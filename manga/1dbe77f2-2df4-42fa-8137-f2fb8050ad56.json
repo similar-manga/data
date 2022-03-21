@@ -28,6 +28,12 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "en",
+   "ru",
+   "es-la",
+   "vi"
+  ],
   "tags": [
    {
     "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
@@ -126,16 +132,19 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-06-26T15:02:25+00:00",
-  "updatedAt": "2021-05-25T15:40:04+00:00"
+  "updatedAt": "2022-01-25T05:43:08+00:00"
  },
  "relationships": [
   {
    "id": "d21a9418-817a-43e5-a4d2-bf1e7391d7ec",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Im Dal-Young (Lim Dall-young, 임달영) is a South Korean author. He is best known for creating works such as Freezing and Unbalance Unbalance, as well as the founder of Artlim Media. \n\nRather infamously, he is also well-known for putting his series on indefinite hiatuses while deciding to start new works. Be wary of attachment to his series, since you’ll never know when they’ll end.  "
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -143,14 +152,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Im Dal-Young",
+    "naver": "http://blog.naver.com/cdggam",
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-02-14T22:49:06+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -166,6 +177,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Lee Hye Sung",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -174,6 +186,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -184,6 +197,7 @@
     "createdAt": "2021-05-24T17:16:49+00:00",
     "description": "",
     "fileName": "c0d1aeee-0e7a-4ac2-8e55-10982b3cda1b.jpg",
+    "locale": "ko",
     "updatedAt": "2021-05-24T17:16:49+00:00",
     "version": 1,
     "volume": null
@@ -191,7 +205,8 @@
   },
   {
    "id": "6b6b7c36-3757-4749-a302-1c01291d8973",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

@@ -34,7 +34,7 @@
    "ap": "magical-girl-site",
    "bw": "series/13978",
    "cdj": "http://www.cdjapan.co.jp/product/NEOBK-1622065",
-   "ebj": "https://www.ebookjapan.jp/ebj/217978/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/217978/",
    "engtl": "http://www.sevenseasentertainment.com/series/magical-girl-site/",
    "kt": "17285",
    "mal": "57295",
@@ -46,6 +46,14 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "es-la",
+   "en",
+   "hu",
+   "pt-br",
+   "pl",
+   "he"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -168,9 +176,10 @@
     }
    }
   ],
-  "version": 4,
+  "state": "published",
+  "version": 6,
   "createdAt": "2018-08-03T05:18:54+00:00",
-  "updatedAt": "2021-11-19T10:26:32+00:00"
+  "updatedAt": "2022-01-25T09:45:21+00:00"
  },
  "relationships": [
   {
@@ -185,6 +194,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Satou Kentarou",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -193,6 +203,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -208,6 +219,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Satou Kentarou",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -216,6 +228,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -226,22 +239,26 @@
     "createdAt": "2021-05-24T18:43:00+00:00",
     "description": "",
     "fileName": "23c6d15c-e668-4b8d-b8c7-738a001f23e3.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:43:00+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "e1e6e955-e79b-4ddc-9648-292932ec609e",
-   "type": "manga"
-  },
-  {
    "id": "149cf48f-1e07-4df8-97f9-5acd61211709",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   },
   {
    "id": "1fab0e5e-e089-42d8-a877-206ab6fc6a21",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "e1e6e955-e79b-4ddc-9648-292932ec609e",
+   "type": "manga",
+   "related": "side_story"
   }
  ]
 }

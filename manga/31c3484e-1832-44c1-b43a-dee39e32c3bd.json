@@ -42,6 +42,13 @@
   "status": "completed",
   "year": 2015,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "tr",
+   "ar",
+   "pt-br",
+   "es-la"
+  ],
   "tags": [
    {
     "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
@@ -104,16 +111,19 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 6,
   "createdAt": "2019-01-03T14:25:50+00:00",
-  "updatedAt": "2021-11-19T06:57:30+00:00"
+  "updatedAt": "2022-01-25T04:42:24+00:00"
  },
  "relationships": [
   {
    "id": "b5404016-ed55-429d-ab61-1ebbccf53815",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Shin-ichi Sakamoto (Japanese: 坂本眞一, Hepburn: Sakamoto Shin-ichi, born July 19, 1972) is a Japanese manga artist known for his seinen manga series Kokou no Hito and the Innocent duology. Both Kokou no Hito and Innocent were awarded an Excellence Award at the Japan Media Arts Festival. His newest series #DRCL midnight children began serialization in Grand Jump in 2021.\n\n"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -121,14 +131,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Sakamoto Shinichi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "http://twitter.com/14MOUNTAIN",
+    "updatedAt": "2022-02-06T00:01:38+00:00",
+    "version": 3,
+    "website": "http://instagram.com/14mountain",
+    "weibo": null,
     "youtube": null
    }
   },
@@ -136,7 +148,9 @@
    "id": "b5404016-ed55-429d-ab61-1ebbccf53815",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Shin-ichi Sakamoto (Japanese: 坂本眞一, Hepburn: Sakamoto Shin-ichi, born July 19, 1972) is a Japanese manga artist known for his seinen manga series Kokou no Hito and the Innocent duology. Both Kokou no Hito and Innocent were awarded an Excellence Award at the Japan Media Arts Festival. His newest series #DRCL midnight children began serialization in Grand Jump in 2021.\n\n"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -144,32 +158,36 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Sakamoto Shinichi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "http://twitter.com/14MOUNTAIN",
+    "updatedAt": "2022-02-06T00:01:38+00:00",
+    "version": 3,
+    "website": "http://instagram.com/14mountain",
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "3bf2fe7b-3d1b-4f2c-8ece-cf4747adcf13",
+   "id": "4a1a1ba2-a983-4f49-af30-ba6d9ea36d9f",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-23T06:09:14+00:00",
+    "createdAt": "2021-05-23T06:09:13+00:00",
     "description": "",
-    "fileName": "8f0f31ad-27ba-4b2f-a680-fb102f01bf47.jpg",
-    "updatedAt": "2021-05-23T06:09:14+00:00",
+    "fileName": "c5c41896-fbd7-42a4-980d-4067aa44e920.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T06:09:13+00:00",
     "version": 2,
-    "volume": "9"
+    "volume": "12"
    }
   },
   {
    "id": "fa85b2aa-370c-41c5-96ae-29b05c848f3d",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

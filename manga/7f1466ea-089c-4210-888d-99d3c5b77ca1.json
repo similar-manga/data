@@ -3,12 +3,9 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Freezing Omake"
+   "en": "Freezing DVD Special"
   },
   "altTitles": [
-   {
-    "en": "Freezing DVD Special"
-   },
    {
     "en": "Freezing Extra"
    },
@@ -19,16 +16,17 @@
     "en": "Freezing Side Story"
    },
    {
-    "en": "Freezing Tokuten Manga"
+    "ja-ro": "Freezing Tokuten Manga"
    },
    {
-    "en": "フリージング 特典漫画"
+    "ja": "フリージング 特典漫画"
    }
   ],
   "description": {
    "en": "Short stories included in the \"Freezing Magazine\" bundled with the first press release of the Blu-Ray/DVD volumes of the Freezing anime."
   },
   "links": {
+   "al": "133110",
    "ap": "freezing-tokuten-manga",
    "kt": "49014",
    "mal": "106481"
@@ -37,7 +35,11 @@
   "lastChapter": "6",
   "publicationDemographic": "seinen",
   "status": "completed",
+  "year": 2011,
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -112,16 +114,19 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 5,
   "createdAt": "2019-01-27T08:19:41+00:00",
-  "updatedAt": "2021-05-25T15:44:18+00:00"
+  "updatedAt": "2022-02-15T22:17:52+00:00"
  },
  "relationships": [
   {
    "id": "d21a9418-817a-43e5-a4d2-bf1e7391d7ec",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Im Dal-Young (Lim Dall-young, 임달영) is a South Korean author. He is best known for creating works such as Freezing and Unbalance Unbalance, as well as the founder of Artlim Media. \n\nRather infamously, he is also well-known for putting his series on indefinite hiatuses while deciding to start new works. Be wary of attachment to his series, since you’ll never know when they’ll end.  "
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -129,14 +134,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Im Dal-Young",
+    "naver": "http://blog.naver.com/cdggam",
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-02-14T22:49:06+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -147,6 +154,7 @@
     "createdAt": "2021-05-24T16:59:16+00:00",
     "description": "",
     "fileName": "dbe986a4-2942-4fb2-9f7d-d686aec291a7.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:59:16+00:00",
     "version": 1,
     "volume": null
@@ -154,19 +162,23 @@
   },
   {
    "id": "0272f671-0a04-4236-9852-7eddce55ed1b",
-   "type": "manga"
+   "type": "manga",
+   "related": "based_on"
   },
   {
    "id": "087ca0c7-33e8-4c71-b8eb-64bf27aedb11",
-   "type": "manga"
+   "type": "manga",
+   "related": "main_story"
   },
   {
    "id": "0b079f5d-df81-4de3-8143-7c6b61dc055c",
-   "type": "manga"
+   "type": "manga",
+   "related": "main_story"
   },
   {
    "id": "981d6916-01da-4c90-87a3-b1b613083325",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

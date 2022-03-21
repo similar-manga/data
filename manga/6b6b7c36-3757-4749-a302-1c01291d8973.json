@@ -43,6 +43,13 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "en",
+   "ru",
+   "de",
+   "tr",
+   "it"
+  ],
   "tags": [
    {
     "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
@@ -105,16 +112,19 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 5,
   "createdAt": "2018-01-20T05:17:45+00:00",
-  "updatedAt": "2021-05-25T15:43:27+00:00"
+  "updatedAt": "2022-01-25T05:43:21+00:00"
  },
  "relationships": [
   {
    "id": "d21a9418-817a-43e5-a4d2-bf1e7391d7ec",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Im Dal-Young (Lim Dall-young, 임달영) is a South Korean author. He is best known for creating works such as Freezing and Unbalance Unbalance, as well as the founder of Artlim Media. \n\nRather infamously, he is also well-known for putting his series on indefinite hiatuses while deciding to start new works. Be wary of attachment to his series, since you’ll never know when they’ll end.  "
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -122,14 +132,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Im Dal-Young",
+    "naver": "http://blog.naver.com/cdggam",
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-02-14T22:49:06+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -145,6 +157,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Lee Soo Hyun",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -153,6 +166,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -163,22 +177,26 @@
     "createdAt": "2021-05-24T16:42:01+00:00",
     "description": "",
     "fileName": "02a9b786-0559-4aa9-bbdc-f08b1ea7f71a.png",
+    "locale": "ko",
     "updatedAt": "2021-05-24T16:42:01+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "8b1542ed-b510-4eee-a4e6-fcbe0fc65620",
-   "type": "manga"
+   "id": "1dbe77f2-2df4-42fa-8137-f2fb8050ad56",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "5f69cec5-a56b-4875-8ec8-693d99e02570",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
-   "id": "1dbe77f2-2df4-42fa-8137-f2fb8050ad56",
-   "type": "manga"
+   "id": "8b1542ed-b510-4eee-a4e6-fcbe0fc65620",
+   "type": "manga",
+   "related": "alternate_story"
   }
  ]
 }

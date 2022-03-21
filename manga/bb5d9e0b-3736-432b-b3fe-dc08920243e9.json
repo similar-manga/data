@@ -46,6 +46,11 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "ru",
+   "fr"
+  ],
   "tags": [
    {
     "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
@@ -108,9 +113,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 9,
   "createdAt": "2018-06-26T09:10:23+00:00",
-  "updatedAt": "2021-05-25T15:47:06+00:00"
+  "updatedAt": "2022-01-25T07:53:55+00:00"
  },
  "relationships": [
   {
@@ -125,6 +131,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takeoka Hazuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -133,6 +140,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -148,6 +156,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Tiv",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -156,6 +165,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -166,22 +176,36 @@
     "createdAt": "2021-05-24T18:38:48+00:00",
     "description": "",
     "fileName": "e426996a-d0ed-45a7-bdc2-514ca2bac623.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:38:48+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "7bee0d50-f466-4fa1-8338-7c804be45187",
-   "type": "manga"
+   "id": "48c3f749-c37a-4e13-ac61-94ef19dce6bc",
+   "type": "manga",
+   "related": "spin_off"
   },
   {
    "id": "63a7cdb7-5430-4089-9c9e-6611c1c67ac6",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
-   "id": "48c3f749-c37a-4e13-ac61-94ef19dce6bc",
-   "type": "manga"
+   "id": "7bee0d50-f466-4fa1-8338-7c804be45187",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "93fab62e-1de7-4fea-812c-9dbf68ff6f39",
+   "type": "manga",
+   "related": "side_story"
+  },
+  {
+   "id": "93fab62e-1de7-4fea-812c-9dbf68ff6f39",
+   "type": "manga",
+   "related": "spin_off"
   }
  ]
 }

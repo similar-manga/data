@@ -3,18 +3,21 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Zelda no Densetsu (Ran Maru)"
+   "en": "The Legend of Zelda (Ran Maru)"
   },
   "altTitles": [
    {
     "en": "The Legend of Zelda: The Hyrule Fantasy"
    },
    {
-    "en": "ゼルダの伝説 わんぱっくコミックス"
+    "ja": "ゼルダの伝説 わんぱっくコミックス"
+   },
+   {
+    "ja-ro": "Zelda no Densetsu (Ran Maru)"
    }
   ],
   "description": {
-   "en": "Legend of Zelda adaptation by Ranmaru."
+   "en": "Legend of Zelda adaptation by Ranmaru, a former assistant of Mitsuteru Yokoyama(Tetsujin 28-go, Giant Robo, Romance of the Three Kingdoms) and Shinji Wada(Sukeban Deka, Alisa of the Silver Hair, and Pygmalio)\n\nPreviously released by Viz Media under their \"Viz Kids\" imprint under the title \"The Legend of Zelda: The Hyrule Fantasy\""
   },
   "links": {
    "al": "127530",
@@ -23,9 +26,14 @@
    "mu": "143752"
   },
   "originalLanguage": "ja",
+  "lastVolume": "1",
   "publicationDemographic": "shounen",
-  "status": "ongoing",
+  "status": "completed",
+  "year": 1986,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -50,11 +58,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-04-26T22:38:08+00:00",
-  "updatedAt": "2021-05-25T15:39:40+00:00"
+  "updatedAt": "2022-03-13T00:17:43+00:00"
  },
  "relationships": [
   {
@@ -69,6 +90,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ran Maru",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -77,6 +99,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -92,6 +115,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ran Maru",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -100,6 +124,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -110,6 +135,7 @@
     "createdAt": "2021-05-24T17:09:37+00:00",
     "description": "",
     "fileName": "ed582d34-3e0c-4c7e-a13d-e51ff26ac57e.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:09:37+00:00",
     "version": 1,
     "volume": null
@@ -117,11 +143,13 @@
   },
   {
    "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "406d9733-804c-4c1a-8489-3bb7e04db516",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

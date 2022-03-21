@@ -7,16 +7,16 @@
   },
   "altTitles": [
    {
-    "en": "Olive et Tom"
+    "fr": "Olive et Tom"
    },
    {
-    "en": "Tsubasa - Giấc mơ sân cỏ"
+    "vi": "Tsubasa - Giấc mơ sân cỏ"
    },
    {
-    "en": "キャプテン翼"
+    "ja": "キャプテン翼"
    },
    {
-    "en": "足球小将"
+    "zh": "足球小将"
    }
   ],
   "description": {
@@ -35,8 +35,28 @@
   "lastChapter": "114",
   "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 1981,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "hu",
+   "es-la",
+   "fr",
+   "it"
+  ],
   "tags": [
+   {
+    "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Comedy"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
     "type": "tag",
@@ -60,11 +80,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "School Life"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-02-04T17:18:45+00:00",
-  "updatedAt": "2021-05-25T15:45:20+00:00"
+  "updatedAt": "2022-03-07T03:18:57+00:00"
  },
  "relationships": [
   {
@@ -79,6 +112,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takahashi Yoichi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -87,6 +121,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -102,6 +137,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takahashi Yoichi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -110,44 +146,52 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "3f1874f2-6092-4f98-8628-c527cc37ffe6",
+   "id": "d7554b29-ca33-4fb8-ae0d-ed3cc10e3836",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T18:40:34+00:00",
+    "createdAt": "2021-05-23T08:10:07+00:00",
     "description": "",
-    "fileName": "c06c40df-d3c4-4c55-bcbf-89ec0bf4e2f4.jpg",
-    "updatedAt": "2021-05-24T18:40:34+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "6c77e30e-8fe7-4bbe-a3b7-612b44aee060.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T08:10:07+00:00",
+    "version": 2,
+    "volume": "37"
    }
   },
   {
-   "id": "5f087b94-2700-40c6-9904-3662acc38fdc",
-   "type": "manga"
-  },
-  {
-   "id": "ef13b636-2a2b-4213-9ed7-c748b158ed5f",
-   "type": "manga"
-  },
-  {
-   "id": "6359c1ab-6428-4dc3-acf0-e7918c9828b1",
-   "type": "manga"
-  },
-  {
-   "id": "8c4e59eb-2c36-418f-9875-908ecef491c3",
-   "type": "manga"
+   "id": "2874635c-54c8-43a3-ad46-b901ce6714af",
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "3ba413e9-52bc-4ca9-b5f0-f55335e2f880",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
   },
   {
-   "id": "2874635c-54c8-43a3-ad46-b901ce6714af",
-   "type": "manga"
+   "id": "5f087b94-2700-40c6-9904-3662acc38fdc",
+   "type": "manga",
+   "related": "side_story"
+  },
+  {
+   "id": "6359c1ab-6428-4dc3-acf0-e7918c9828b1",
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "8c4e59eb-2c36-418f-9875-908ecef491c3",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "ef13b636-2a2b-4213-9ed7-c748b158ed5f",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

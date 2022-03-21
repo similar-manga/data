@@ -37,6 +37,10 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "es-la"
+  ],
   "tags": [
    {
     "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
@@ -99,9 +103,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 4,
   "createdAt": "2018-04-26T17:49:25+00:00",
-  "updatedAt": "2021-10-13T21:19:14+00:00"
+  "updatedAt": "2022-02-25T05:07:29+00:00"
  },
  "relationships": [
   {
@@ -116,6 +121,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Oosawa Mitsuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -124,6 +130,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -139,6 +146,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Oosawa Mitsuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -147,6 +155,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -157,34 +166,41 @@
     "createdAt": "2021-10-13T21:18:57+00:00",
     "description": "",
     "fileName": "66570c95-356c-47c6-b64d-81c6fe6f442c.jpg",
+    "locale": "ja",
     "updatedAt": "2021-10-13T21:18:57+00:00",
     "version": 2,
     "volume": "13"
    }
   },
   {
-   "id": "d320eeff-08d2-424d-9513-77b17b219354",
-   "type": "manga"
-  },
-  {
    "id": "7da3a22b-151c-43c6-97df-0e86a71ea2ce",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "9259bdc2-d6f1-4bf8-b4a7-725f34f4b8fd",
-   "type": "manga"
+   "type": "manga",
+   "related": "alternate_story"
   },
   {
    "id": "99830840-8b6f-479f-8524-d220ba162007",
-   "type": "manga"
-  },
-  {
-   "id": "d720f17c-473b-410e-adab-a1c5543fcc09",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "b7119473-48c9-41f3-97b1-4550580d242c",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "d320eeff-08d2-424d-9513-77b17b219354",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "d720f17c-473b-410e-adab-a1c5543fcc09",
+   "type": "manga",
+   "related": "alternate_story"
   }
  ]
 }

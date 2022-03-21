@@ -13,13 +13,13 @@
     "en": "New Mobile Report Gundam Wing: Ground Zero"
    },
    {
-    "en": "Shin Kidou Senki Gundam W: Ground Zero"
+    "ja-ro": "Shin Kidou Senki Gundam W: Ground Zero"
    },
    {
-    "en": "Shin Kidou Senki Gundam Wing: Ground Zero"
+    "ja-ro": "Shin Kidou Senki Gundam Wing: Ground Zero"
    },
    {
-    "en": "新機動戦記ガンダムＷ グランド・ゼロ"
+    "ja": "新機動戦記ガンダムＷ グランド・ゼロ"
    }
   ],
   "description": {
@@ -38,6 +38,9 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -88,9 +91,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-05-19T06:10:15+00:00",
-  "updatedAt": "2021-05-25T15:48:11+00:00"
+  "updatedAt": "2022-02-16T00:51:15+00:00"
  },
  "relationships": [
   {
@@ -105,6 +109,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fuyunagi Reku",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -113,6 +118,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -128,6 +134,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fuyunagi Reku",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -136,6 +143,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -146,22 +154,26 @@
     "createdAt": "2021-05-24T18:26:18+00:00",
     "description": "",
     "fileName": "490e34c5-f00c-46b5-97b2-47b490e808de.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:26:18+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "b0ad7446-5601-46ed-a79d-ea5c1ec7d555",
-   "type": "manga"
-  },
-  {
    "id": "176c0c8d-8c77-467f-8046-6c726d8e80b9",
-   "type": "manga"
+   "type": "manga",
+   "related": "alternate_story"
   },
   {
    "id": "8ac88e16-c927-4647-b66f-666a047b05ca",
-   "type": "manga"
+   "type": "manga",
+   "related": "main_story"
+  },
+  {
+   "id": "b0ad7446-5601-46ed-a79d-ea5c1ec7d555",
+   "type": "manga",
+   "related": "alternate_story"
   }
  ]
 }

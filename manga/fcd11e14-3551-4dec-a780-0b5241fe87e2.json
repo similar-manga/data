@@ -3,29 +3,23 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Ameiro Kouchakan Kandan"
+   "en": "Chatting at the Amber Teahouse"
   },
   "altTitles": [
    {
-    "en": "Ameiro Kochakan Kandan"
-   },
-   {
-    "en": "Ameiro Kohchakan Kandan"
-   },
-   {
-    "en": "Chatting at the Amber Teahouse"
+    "ja-ro": "Ameiro Kouchakan Kandan"
    },
    {
     "en": "Chatting Over Tea at the Amber Teahouse"
    },
    {
-    "en": "Otomeiro Stay Tune"
+    "ja-ro": "Otomeiro Stay Tune"
    },
    {
-    "en": "Беседа за чашечкой чая"
+    "ru": "Беседа за чашечкой чая"
    },
    {
-    "en": "飴色紅茶館歓談"
+    "zh": "飴色紅茶館歓談"
    }
   ],
   "description": {
@@ -39,9 +33,14 @@
    "mu": "39024"
   },
   "originalLanguage": "ja",
-  "lastChapter": "19",
+  "lastVolume": "2",
+  "lastChapter": "16",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "tr"
+  ],
   "tags": [
    {
     "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
@@ -92,9 +91,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 6,
   "createdAt": "2018-04-28T07:49:01+00:00",
-  "updatedAt": "2021-05-25T15:49:56+00:00"
+  "updatedAt": "2022-02-04T14:59:36+00:00"
  },
  "relationships": [
   {
@@ -109,6 +109,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fujieda Miyabi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -117,6 +118,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -132,6 +134,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fujieda Miyabi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -140,28 +143,32 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "21bca272-fa39-4f43-81aa-bab825c54b20",
+   "id": "54d391ab-da50-4f77-a42e-65357c16c5b0",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T18:02:47+00:00",
+    "createdAt": "2021-05-23T07:35:00+00:00",
     "description": "",
-    "fileName": "67decc6f-246f-42b1-8e00-c6779d87fa65.png",
-    "updatedAt": "2021-05-24T18:02:47+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "bd550385-3e5f-461c-9df3-5f1312acba6a.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T07:35:00+00:00",
+    "version": 2,
+    "volume": "2.1"
    }
   },
   {
    "id": "5bc3b0e2-9950-4300-a745-f350251a1a7f",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "b0c2a176-4476-4f16-b84c-b61e9a2a46bf",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

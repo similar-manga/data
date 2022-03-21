@@ -13,7 +13,7 @@
     "en": "Minecraft: Anime Edition"
    },
    {
-    "en": "Майнкрафт вайфу"
+    "ru": "Майнкрафт вайфу"
    }
   ],
   "description": {
@@ -26,6 +26,17 @@
   "originalLanguage": "en",
   "status": "ongoing",
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "ru",
+   "id",
+   "tr",
+   "en",
+   "pt-br",
+   "it",
+   "fr",
+   "pl",
+   "cs"
+  ],
   "tags": [
    {
     "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
@@ -112,6 +123,18 @@
     }
    },
    {
+    "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Slice of Life"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
     "type": "tag",
     "attributes": {
@@ -124,9 +147,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 7,
   "createdAt": "2020-08-01T16:46:35+00:00",
-  "updatedAt": "2021-05-25T15:46:25+00:00"
+  "updatedAt": "2022-03-17T18:32:26+00:00"
  },
  "relationships": [
   {
@@ -141,6 +165,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Merryweather",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -149,6 +174,7 @@
     "updatedAt": "2021-07-22T09:53:35+00:00",
     "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -164,6 +190,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ermao Wu",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -172,6 +199,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -182,6 +210,7 @@
     "createdAt": "2021-05-24T18:05:09+00:00",
     "description": "",
     "fileName": "f39bf535-9ca0-465d-920f-a115accee89a.jpg",
+    "locale": "en",
     "updatedAt": "2021-05-24T18:05:09+00:00",
     "version": 1,
     "volume": null
@@ -189,11 +218,13 @@
   },
   {
    "id": "3ffc37c7-8f02-42bf-881e-40825d94b402",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
   },
   {
    "id": "8c6e1006-adfa-4921-97d4-41fc0de8a488",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

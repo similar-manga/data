@@ -3,17 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Ten - Tenhou-doori no Kaidanji"
+   "en": "Ten - The Nice Guy on the Path of Tenho"
   },
   "altTitles": [
    {
     "en": "Ten - The Blessed Way of the Nice Guy"
    },
    {
-    "en": "Ten - The Nice Guy on the Path of Tenhou"
+    "ja": "天－天和通りの快男児"
    },
    {
-    "ja": "天－天和通りの快男児"
+    "ja-ro": "Ten - Tenhou-doori no Kaidanji"
    }
   ],
   "description": {
@@ -34,6 +34,10 @@
   "status": "completed",
   "year": 1989,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "ru"
+  ],
   "tags": [
    {
     "id": "31932a7e-5b8e-49a6-9f12-2afa39dc544c",
@@ -84,9 +88,10 @@
     }
    }
   ],
-  "version": 4,
+  "state": "published",
+  "version": 9,
   "createdAt": "2018-05-01T21:49:45+00:00",
-  "updatedAt": "2021-11-11T15:23:21+00:00"
+  "updatedAt": "2022-03-05T20:42:48+00:00"
  },
  "relationships": [
   {
@@ -101,6 +106,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fukumoto Nobuyuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -109,6 +115,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -124,6 +131,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fukumoto Nobuyuki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -132,32 +140,37 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "5bda92dd-d4ed-4f10-8c49-1f8051fc9c32",
+   "id": "16cd7e88-36b2-4f5e-860e-f08d40246a98",
    "type": "cover_art",
    "attributes": {
     "createdAt": "2021-05-23T07:38:34+00:00",
     "description": "",
-    "fileName": "1e9f14e1-3e79-4a03-8715-29e7b0d867c2.jpg",
+    "fileName": "f35492e5-59e0-4a93-a27f-ed9b3b2add8c.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-23T07:38:34+00:00",
     "version": 2,
-    "volume": "9"
+    "volume": "18"
    }
   },
   {
-   "id": "92a46ccf-cf75-41dd-8a69-7016e4521102",
-   "type": "manga"
+   "id": "8bc23154-4ec3-40c0-9443-220d57af5352",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "8e44a10a-8116-430a-9e17-ba4dd58b4137",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   },
   {
-   "id": "8bc23154-4ec3-40c0-9443-220d57af5352",
-   "type": "manga"
+   "id": "92a46ccf-cf75-41dd-8a69-7016e4521102",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

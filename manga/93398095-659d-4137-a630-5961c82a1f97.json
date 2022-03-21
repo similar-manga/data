@@ -10,19 +10,19 @@
     "en": "HCLW"
    },
    {
-    "en": "Yeolleb Jeonsa"
+    "NULL": "Yeolleb Jeonsa"
    },
    {
-    "en": "Высокоуровневый воин"
+    "ru": "Высокоуровневый воин"
    },
    {
-    "en": "Хардкорный воин"
+    "ru": "Хардкорный воин"
    },
    {
-    "en": "열렙전사"
+    "ko": "열렙전사"
    },
    {
-    "en": "열렙전사 Lucid Adventure"
+    "ko": "열렙전사 Lucid Adventure"
    }
   ],
   "description": {
@@ -37,7 +37,13 @@
   },
   "originalLanguage": "ko",
   "status": "ongoing",
+  "year": 2016,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "fr",
+   "en",
+   "pt-br"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -48,6 +54,18 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "39730448-9a5f-48a2-85b0-a70db87b1233",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Demons"
+     },
+     "description": null,
+     "group": "theme",
      "version": 1
     }
    },
@@ -64,6 +82,18 @@
     }
    },
    {
+    "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Mafia"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
     "type": "tag",
     "attributes": {
@@ -76,11 +106,35 @@
     }
    },
    {
+    "id": "8c86611e-fab7-4986-9dec-d1a2f44acdd5",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Virtual Reality"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
     "type": "tag",
     "attributes": {
      "name": {
       "en": "Video Games"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Magic"
      },
      "description": null,
      "group": "theme",
@@ -98,11 +152,48 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Web Comic"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
+   },
+   {
+    "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Supernatural"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Full Color"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 6,
   "createdAt": "2018-12-18T06:21:44+00:00",
-  "updatedAt": "2021-05-25T15:45:13+00:00"
+  "updatedAt": "2022-01-24T21:08:15+00:00"
  },
  "relationships": [
   {
@@ -117,6 +208,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kim Se Hun",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -125,6 +217,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -140,6 +233,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kim Se Hun",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -148,6 +242,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -158,6 +253,7 @@
     "createdAt": "2021-05-24T16:54:54+00:00",
     "description": "",
     "fileName": "969adf83-05ad-4ed1-8931-b2e652085986.jpg",
+    "locale": "ko",
     "updatedAt": "2021-05-24T16:54:54+00:00",
     "version": 1,
     "volume": null
@@ -165,7 +261,8 @@
   },
   {
    "id": "0462b321-f83c-42bb-8b26-582454734b6c",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
   }
  ]
 }

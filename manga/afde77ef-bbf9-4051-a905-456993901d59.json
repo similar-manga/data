@@ -37,7 +37,7 @@
   "links": {
    "al": "56178",
    "bw": "series/8859",
-   "ebj": "https://www.ebookjapan.jp/ebj/25625/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/25625/",
    "engtl": "https://www.tokyopop.com/book-catalogue-new-titles/laughing-under-the-clouds-vol-1",
    "mal": "80469",
    "mu": "61338"
@@ -48,6 +48,12 @@
   "publicationDemographic": "shoujo",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "ca",
+   "fr",
+   "ru"
+  ],
   "tags": [
    {
     "id": "33771934-028e-4cb3-8744-691e866a923e",
@@ -146,9 +152,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 5,
   "createdAt": "2018-01-29T14:37:00+00:00",
-  "updatedAt": "2021-05-25T15:46:34+00:00"
+  "updatedAt": "2022-01-25T00:52:21+00:00"
  },
  "relationships": [
   {
@@ -163,6 +170,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Karakara Kemuri",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -171,6 +179,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -186,6 +195,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Karakara Kemuri",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -194,6 +204,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -204,6 +215,7 @@
     "createdAt": "2021-05-24T18:18:31+00:00",
     "description": "",
     "fileName": "d8ec7eca-f772-4d90-a9ec-53727d23bc01.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:18:31+00:00",
     "version": 1,
     "volume": null
@@ -211,19 +223,23 @@
   },
   {
    "id": "4e9a85a7-e7b0-4f9e-8a0b-afcf3e9c9d62",
-   "type": "manga"
-  },
-  {
-   "id": "b28e476a-1295-47bc-a2f3-acd20428eab6",
-   "type": "manga"
-  },
-  {
-   "id": "ada26361-bee6-4788-a52a-53a5747e7e82",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
   },
   {
    "id": "62483e75-b9c1-49d2-b1ef-0e800d713d89",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
+  },
+  {
+   "id": "ada26361-bee6-4788-a52a-53a5747e7e82",
+   "type": "manga",
+   "related": "side_story"
+  },
+  {
+   "id": "b28e476a-1295-47bc-a2f3-acd20428eab6",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

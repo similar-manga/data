@@ -3,17 +3,20 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Fuuma no Kojiro - Jo no Maki"
+   "en": "Kojiro of the Fuma - Opening Chapter"
   },
   "altTitles": [
    {
-    "en": "Fûma no Kojirô : Jo no Maki"
+    "ja-ro": "Fûma no Kojirô : Jo no Maki"
    },
    {
-    "en": "Fuuma no Kojirou Tsuide no maki"
+    "ja-ro": "Fuuma no Kojirou Tsuide no maki"
    },
    {
-    "en": "Fuuma no Kojirou: Jo no Maki"
+    "ja-ro": "Fuuma no Kojirou: Jo no Maki"
+   },
+   {
+    "ja": "風魔の小次郎　序の巻"
    }
   ],
   "description": {
@@ -24,11 +27,28 @@
   },
   "originalLanguage": "ja",
   "lastVolume": "1",
-  "lastChapter": "03",
+  "lastChapter": "3",
   "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 2019,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "es-la",
+   "pt-br"
+  ],
   "tags": [
+   {
+    "id": "33771934-028e-4cb3-8744-691e866a923e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Historical"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
     "type": "tag",
@@ -38,6 +58,18 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "489dd859-9b61-4c37-af75-5b18e88daafc",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Ninja"
+     },
+     "description": null,
+     "group": "theme",
      "version": 1
     }
    },
@@ -52,11 +84,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Martial Arts"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2020-03-17T23:07:01+00:00",
-  "updatedAt": "2021-05-25T15:42:48+00:00"
+  "updatedAt": "2022-02-06T01:55:18+00:00"
  },
  "relationships": [
   {
@@ -71,6 +116,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kurumada Masami",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -79,6 +125,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -94,6 +141,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kurumada Masami",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -102,24 +150,27 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "1528bfad-79ae-4f21-ae8d-5b3341e38afa",
+   "id": "76963ad3-bcd5-4f8e-baaa-5c0aca2b7284",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:49:00+00:00",
+    "createdAt": "2021-05-23T07:20:15+00:00",
     "description": "",
-    "fileName": "54506cc4-82b7-4b04-a1ff-d911eb3396c4.jpg",
-    "updatedAt": "2021-05-24T17:49:00+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "0d2a961f-8fbd-4ff8-bfd1-e8226bec8425.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T07:20:15+00:00",
+    "version": 2,
+    "volume": "3"
    }
   },
   {
    "id": "7a680caa-3538-40ae-9103-bcb39d53ad0f",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

@@ -38,6 +38,9 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "2bd2e8d0-f146-434a-9b51-fc9ff2c5fe6a",
@@ -64,9 +67,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-01-14T13:44:40+00:00",
-  "updatedAt": "2021-05-25T15:44:18+00:00"
+  "updatedAt": "2022-01-25T03:20:04+00:00"
  },
  "relationships": [
   {
@@ -81,6 +85,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Toshimichi Mori",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -89,6 +94,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -104,6 +110,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Arc System Works",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -112,6 +119,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -127,6 +135,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Sumeragi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -135,6 +144,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -145,6 +155,7 @@
     "createdAt": "2021-05-24T16:57:53+00:00",
     "description": "",
     "fileName": "5378060d-5c57-4cfa-88ea-a57304b67939.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:57:53+00:00",
     "version": 1,
     "volume": null
@@ -152,23 +163,28 @@
   },
   {
    "id": "221b4382-5217-45b8-863b-f7dc590c3dca",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "492fea45-6172-43f8-8065-6986d54c8389",
-   "type": "manga"
-  },
-  {
-   "id": "e476c383-9111-4a81-a2ed-3e3622c2e2d2",
-   "type": "manga"
-  },
-  {
-   "id": "db2a89b6-7377-4415-8e3e-995cba442bec",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "6e2a022d-4063-4b7f-bab5-669ac0ce3dbd",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "db2a89b6-7377-4415-8e3e-995cba442bec",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "e476c383-9111-4a81-a2ed-3e3622c2e2d2",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

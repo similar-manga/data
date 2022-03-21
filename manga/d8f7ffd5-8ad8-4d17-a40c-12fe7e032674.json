@@ -50,7 +50,12 @@
   "lastChapter": "149",
   "publicationDemographic": "shoujo",
   "status": "completed",
+  "year": 2008,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "ru",
+   "en"
+  ],
   "tags": [
    {
     "id": "33771934-028e-4cb3-8744-691e866a923e",
@@ -109,6 +114,18 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "65761a2a-415e-47f3-bef2-a9dababba7a6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Reverse Harem"
+     },
+     "description": null,
+     "group": "theme",
      "version": 1
     }
    },
@@ -185,9 +202,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-02-07T02:18:08+00:00",
-  "updatedAt": "2021-05-25T15:48:19+00:00"
+  "updatedAt": "2021-12-29T15:26:50+00:00"
  },
  "relationships": [
   {
@@ -202,6 +220,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Suzuki Julietta",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -210,6 +229,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -225,6 +245,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Suzuki Julietta",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -233,6 +254,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -243,6 +265,7 @@
     "createdAt": "2021-05-24T18:42:50+00:00",
     "description": "",
     "fileName": "8453e762-13ff-490e-852e-34d9e1ed5f01.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:42:50+00:00",
     "version": 1,
     "volume": null
@@ -250,7 +273,8 @@
   },
   {
    "id": "7d001fca-2db6-458a-a83b-b94837ec8839",
-   "type": "manga"
+   "type": "manga",
+   "related": "preserialization"
   }
  ]
 }

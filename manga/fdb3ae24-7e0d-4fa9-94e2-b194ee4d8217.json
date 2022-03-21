@@ -43,7 +43,7 @@
    "ap": "bokura-no-kiseki",
    "bw": "series/4059",
    "cdj": "http://www.cdjapan.co.jp/series/3104",
-   "ebj": "https://www.ebookjapan.jp/ebj/142317/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/142317/",
    "kt": "3329",
    "mal": "16686",
    "mu": "34396"
@@ -53,6 +53,10 @@
   "status": "ongoing",
   "year": 2008,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "id"
+  ],
   "tags": [
    {
     "id": "0bc90acb-ccc1-44ca-a34a-b9f3a73259d0",
@@ -199,16 +203,19 @@
     }
    }
   ],
-  "version": 5,
+  "state": "published",
+  "version": 8,
   "createdAt": "2018-01-21T05:02:30+00:00",
-  "updatedAt": "2021-12-11T20:55:04+00:00"
+  "updatedAt": "2022-01-30T04:27:07+00:00"
  },
  "relationships": [
   {
    "id": "fc216f23-181c-4fd3-8f18-0c946c39a949",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Kumeta Natsuitoguchi is a female mangaka who graduated from the Japanese Collage of art designers Sendai school in 2001, her work \"by silent Festival\" won the Square Enix prize of the 4th century New Cartoon Contest.\n\nAssociated Names:\nKumeta Natsuitoguchi"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -216,14 +223,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kumeta Natsuo",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "https://twitter.com/kume_natsu",
+    "updatedAt": "2022-01-03T11:54:03+00:00",
+    "version": 2,
+    "website": "https://kumenatsu7.hatenablog.com/",
+    "weibo": null,
     "youtube": null
    }
   },
@@ -231,7 +240,9 @@
    "id": "fc216f23-181c-4fd3-8f18-0c946c39a949",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Kumeta Natsuitoguchi is a female mangaka who graduated from the Japanese Collage of art designers Sendai school in 2001, her work \"by silent Festival\" won the Square Enix prize of the 4th century New Cartoon Contest.\n\nAssociated Names:\nKumeta Natsuitoguchi"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -239,36 +250,41 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kumeta Natsuo",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "https://twitter.com/kume_natsu",
+    "updatedAt": "2022-01-03T11:54:03+00:00",
+    "version": 2,
+    "website": "https://kumenatsu7.hatenablog.com/",
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "7f8807ba-f3ab-435b-9a5f-9c2604fa4885",
+   "id": "c3c8f88b-0430-4f0d-a9a6-e4ab860c751d",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-11-29T18:12:48+00:00",
+    "createdAt": "2021-11-22T09:54:48+00:00",
     "description": "",
-    "fileName": "9ed16aec-35ab-40f7-a2a8-983971ee4eeb.jpg",
-    "updatedAt": "2021-11-29T18:12:48+00:00",
+    "fileName": "9b069179-e2ea-4b0e-ac25-25086bdef35d.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-11-22T09:54:48+00:00",
     "version": 1,
-    "volume": null
+    "volume": "25"
    }
   },
   {
-   "id": "cd9b4092-b03c-4fee-9e0f-e94707138464",
-   "type": "manga"
+   "id": "545b6c2b-603c-45fb-ad5b-54f508aac44c",
+   "type": "manga",
+   "related": "side_story"
   },
   {
-   "id": "545b6c2b-603c-45fb-ad5b-54f508aac44c",
-   "type": "manga"
+   "id": "cd9b4092-b03c-4fee-9e0f-e94707138464",
+   "type": "manga",
+   "related": "side_story"
   }
  ]
 }

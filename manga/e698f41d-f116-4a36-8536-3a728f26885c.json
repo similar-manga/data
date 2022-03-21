@@ -10,19 +10,19 @@
     "en": "Lupin III T"
    },
    {
-    "en": "Lupin Sansei T - Gyakuten Chaser Hen"
+    "ja-ro": "Lupin Sansei T - Gyakuten Chaser Hen"
    },
    {
     "en": "Lupin the Third T"
    },
    {
-    "en": "ルパン三世T デッドマン オークション編"
+    "ja": "ルパン三世T デッドマン オークション編"
    },
    {
-    "en": "ルパン三世T どっちが勝つか三代目VS十三代目編"
+    "ja": "ルパン三世T どっちが勝つか三代目VS十三代目編"
    },
    {
-    "en": "ルパン三世T 逆転チェイサー編"
+    "ja": "ルパン三世T 逆転チェイサー編"
    }
   ],
   "description": {
@@ -36,6 +36,9 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -60,11 +63,48 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Crime"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "df33b754-73a3-4c54-80e6-1a74a8058539",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Police"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
    }
   ],
-  "version": 5,
+  "state": "published",
+  "version": 7,
   "createdAt": "2018-12-27T08:49:23+00:00",
-  "updatedAt": "2021-12-12T13:52:22+00:00"
+  "updatedAt": "2022-02-01T15:38:51+00:00"
  },
  "relationships": [
   {
@@ -79,6 +119,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Togekinoko",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -87,6 +128,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -102,6 +144,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Monkey Punch",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -110,6 +153,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -125,6 +169,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Togekinoko",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -133,6 +178,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -143,6 +189,7 @@
     "createdAt": "2021-05-24T16:55:53+00:00",
     "description": "",
     "fileName": "b36ef64a-8d55-4259-b668-523138c73476.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:55:53+00:00",
     "version": 1,
     "volume": null
@@ -150,7 +197,8 @@
   },
   {
    "id": "50fe4f79-8c94-4052-bf66-2cf87f8efd34",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

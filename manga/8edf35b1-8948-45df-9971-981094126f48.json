@@ -42,6 +42,14 @@
   "status": "completed",
   "year": 2002,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "es",
+   "pl",
+   "pt-br",
+   "zh",
+   "zh-hk"
+  ],
   "tags": [
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
@@ -104,9 +112,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 7,
   "createdAt": "2018-02-27T20:57:45+00:00",
-  "updatedAt": "2021-11-30T22:27:46+00:00"
+  "updatedAt": "2022-01-25T09:40:23+00:00"
  },
  "relationships": [
   {
@@ -121,6 +130,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Amano Kozue",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -129,6 +139,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -144,6 +155,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Amano Kozue",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -152,6 +164,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -162,30 +175,36 @@
     "createdAt": "2021-05-24T16:58:29+00:00",
     "description": "",
     "fileName": "700c3efe-58d9-4f5f-bb83-7fdfc4d1b258.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:58:29+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "cba4e5d6-67a0-47a0-b37a-c06e9bf25d93",
-   "type": "manga"
-  },
-  {
-   "id": "e86a8d14-376e-4705-a9b5-8b00a7006488",
-   "type": "manga"
+   "id": "c3133cdf-87c6-42e6-a9b2-1514775aa0a3",
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "cad76ec6-ca22-42f6-96f8-eca164da6545",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
-   "id": "c3133cdf-87c6-42e6-a9b2-1514775aa0a3",
-   "type": "manga"
+   "id": "cba4e5d6-67a0-47a0-b37a-c06e9bf25d93",
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "da294b4f-bf0e-49e8-88ff-b25ad70583f1",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
+  },
+  {
+   "id": "e86a8d14-376e-4705-a9b5-8b00a7006488",
+   "type": "manga",
+   "related": "doujinshi"
   }
  ]
 }

@@ -17,7 +17,22 @@
   "publicationDemographic": "shoujo",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
+   {
+    "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Oneshot"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
+   },
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
     "type": "tag",
@@ -31,31 +46,36 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-04-02T17:07:45+00:00",
-  "updatedAt": "2021-05-25T15:48:35+00:00"
+  "updatedAt": "2022-01-12T12:49:42+00:00"
  },
  "relationships": [
   {
    "id": "8b75c1d0-ed3e-44df-88c0-29e230c17919",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Funato Akira is her real name.\n\nShe started out as a doujin artist, then made her name as the illustrator for other people's manga before starting her own series \"Under the Rose.\""
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
-    "fanBox": null,
+    "fanBox": "https://funato.fanbox.cc/",
     "fantia": null,
     "imageUrl": null,
     "melonBook": null,
     "name": "Funato Akari",
+    "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://www.pixiv.net/users/13159559",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "https://twitter.com/8under_the_rose",
+    "updatedAt": "2022-01-27T00:16:52+00:00",
+    "version": 2,
+    "website": "http://himalamp.asablo.jp/blog/",
+    "weibo": null,
     "youtube": null
    }
   },
@@ -63,22 +83,26 @@
    "id": "8b75c1d0-ed3e-44df-88c0-29e230c17919",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Funato Akira is her real name.\n\nShe started out as a doujin artist, then made her name as the illustrator for other people's manga before starting her own series \"Under the Rose.\""
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
-    "fanBox": null,
+    "fanBox": "https://funato.fanbox.cc/",
     "fantia": null,
     "imageUrl": null,
     "melonBook": null,
     "name": "Funato Akari",
+    "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://www.pixiv.net/users/13159559",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "https://twitter.com/8under_the_rose",
+    "updatedAt": "2022-01-27T00:16:52+00:00",
+    "version": 2,
+    "website": "http://himalamp.asablo.jp/blog/",
+    "weibo": null,
     "youtube": null
    }
   },
@@ -89,18 +113,21 @@
     "createdAt": "2021-05-24T17:06:41+00:00",
     "description": "",
     "fileName": "1024c79b-44c5-44b0-9b35-f81dcf5fefde.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:06:41+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "e6622f32-bba2-4dd1-9902-d88db9ec85bd",
-   "type": "manga"
+   "id": "9d15581c-27e6-43e5-b425-3a82567679fa",
+   "type": "manga",
+   "related": "prequel"
   },
   {
-   "id": "9d15581c-27e6-43e5-b425-3a82567679fa",
-   "type": "manga"
+   "id": "e6622f32-bba2-4dd1-9902-d88db9ec85bd",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

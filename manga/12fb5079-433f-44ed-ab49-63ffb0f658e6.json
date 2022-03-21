@@ -3,12 +3,9 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Codename wa Sailor V"
+   "en": "Codename: Sailor V"
   },
   "altTitles": [
-   {
-    "en": "Codename: Sailor V"
-   },
    {
     "pl": "Hasło brzmi: Sailor V"
    },
@@ -20,10 +17,13 @@
    },
    {
     "zh-hk": "美少女戰士·前傳"
+   },
+   {
+    "ja-ro": "Codename wa Sailor V"
    }
   ],
   "description": {
-   "en": "Like Sailor Moon, Minako Aino is a normal 13-year-old schoolgirl until a fateful day when a white cat introduces himself to her and tells her she has the power to transform into the hero, Sailor V. Using a magic pen to transform, Sailor V fights the evil agents of the Dark Agency as she strives to protect the earth."
+   "en": "Before Sailor Moon, Minako Aino was a normal 13-year-old schoolgirl until a fateful day when a white cat introduced himself to her and tells her she has the power to transform into the hero, Sailor V. Using a magic pen to transform, Sailor V fights the evil agents of the Dark Agency as she strives to protect the earth."
   },
   "links": {
    "al": "30854",
@@ -41,7 +41,22 @@
   "status": "completed",
   "year": 1993,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
     "type": "tag",
@@ -79,6 +94,66 @@
     }
    },
    {
+    "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sports"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "81c836c9-914a-4eca-981a-560dad663e73",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Magical Girls"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Magic"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
     "type": "tag",
     "attributes": {
@@ -103,6 +178,18 @@
     }
    },
    {
+    "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Slice of Life"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
     "type": "tag",
     "attributes": {
@@ -115,9 +202,10 @@
     }
    }
   ],
-  "version": 4,
+  "state": "published",
+  "version": 7,
   "createdAt": "2019-04-02T23:59:21+00:00",
-  "updatedAt": "2021-12-09T19:50:44+00:00"
+  "updatedAt": "2022-03-11T17:27:44+00:00"
  },
  "relationships": [
   {
@@ -132,6 +220,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takeuchi Naoko",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -140,6 +229,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -155,6 +245,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takeuchi Naoko",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -163,6 +254,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -173,6 +265,7 @@
     "createdAt": "2021-12-09T19:50:46+00:00",
     "description": "",
     "fileName": "e4f7854a-9b10-4102-8d6f-72fbb4613a8c.jpg",
+    "locale": "ja",
     "updatedAt": "2021-12-09T19:50:46+00:00",
     "version": 1,
     "volume": "2"
@@ -180,7 +273,8 @@
   },
   {
    "id": "e39944f5-15bf-4464-9556-a4e9b3945571",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

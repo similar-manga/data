@@ -31,7 +31,11 @@
   "lastChapter": "8.5",
   "publicationDemographic": "seinen",
   "status": "completed",
+  "year": 1988,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "cdad7e68-1419-41dd-bdce-27753074a640",
@@ -46,9 +50,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-01-20T15:23:05+00:00",
-  "updatedAt": "2021-05-25T15:50:05+00:00"
+  "updatedAt": "2022-03-16T14:32:33+00:00"
  },
  "relationships": [
   {
@@ -63,6 +68,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Morohoshi Daijirou",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -71,6 +77,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -86,6 +93,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Morohoshi Daijirou",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -94,6 +102,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -104,30 +113,36 @@
     "createdAt": "2021-05-24T16:58:28+00:00",
     "description": "",
     "fileName": "006f813d-1e77-4fdd-9378-2cd074f8aea5.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:58:28+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "d0886a25-54f7-4b27-b9ef-3d01556b3718",
-   "type": "manga"
-  },
-  {
    "id": "1f936872-4a49-4834-a2d1-6b0f6cd445dc",
-   "type": "manga"
-  },
-  {
-   "id": "cf41fb03-ea36-4b6c-8512-9927586db3db",
-   "type": "manga"
-  },
-  {
-   "id": "e68b2b8c-13b5-4e3b-a48e-854372fd7cf0",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "b8008850-442d-4c62-8ebb-ada181c5449e",
-   "type": "manga"
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "cf41fb03-ea36-4b6c-8512-9927586db3db",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "d0886a25-54f7-4b27-b9ef-3d01556b3718",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "e68b2b8c-13b5-4e3b-a48e-854372fd7cf0",
+   "type": "manga",
+   "related": "adapted_from"
   }
  ]
 }

@@ -3,29 +3,23 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Y十M"
+   "en": "The Yagyu Ninja Scrolls: Revenge of the Hori Clan"
   },
   "altTitles": [
    {
-    "en": "The Yagyu Ninja Scrolls: Revenge of the Hori Clan"
-   },
-   {
-    "en": "Y- Ju -M - Yagyu Ninpocho"
-   },
-   {
-    "en": "Y+M"
+    "en": "Y十M"
    },
    {
     "en": "Y10M"
    },
    {
-    "en": "Yagyuu Ninpouchou"
+    "ja-ro": "Yagyuu Ninpouchou"
    },
    {
-    "en": "Y十M ～柳生忍法帖～"
+    "ja": "Y十M ～柳生忍法帖～"
    },
    {
-    "en": "와이쥬엠 야규인첩법"
+    "ko": "와이쥬엠 야규인첩법"
    }
   ],
   "description": {
@@ -44,8 +38,24 @@
   "lastChapter": "100",
   "publicationDemographic": "seinen",
   "status": "completed",
+  "year": 2005,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
+   {
+    "id": "33771934-028e-4cb3-8744-691e866a923e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Historical"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
     "type": "tag",
@@ -69,11 +79,24 @@
      "group": "theme",
      "version": 1
     }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 5,
   "createdAt": "2018-02-05T20:45:07+00:00",
-  "updatedAt": "2021-05-25T15:46:50+00:00"
+  "updatedAt": "2022-02-27T21:58:02+00:00"
  },
  "relationships": [
   {
@@ -88,6 +111,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yamada Fuutarou",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -96,6 +120,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -111,6 +136,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Segawa Masaki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -119,24 +145,27 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "1190250d-bd33-4f05-baec-8c2ae29a11bc",
+   "id": "40e12a0c-a329-47b0-a147-80af0daa79ce",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T18:41:36+00:00",
+    "createdAt": "2022-02-27T21:58:01+00:00",
     "description": "",
-    "fileName": "cdd15b6b-b9d1-4067-92fa-d26f6c3b7a48.png",
-    "updatedAt": "2021-05-24T18:41:36+00:00",
+    "fileName": "9bde7ae1-dd56-4a47-9f75-93fd18ee658e.jpg",
+    "locale": "ja",
+    "updatedAt": "2022-02-27T21:58:01+00:00",
     "version": 1,
-    "volume": null
+    "volume": "11"
    }
   },
   {
    "id": "36cf3ba9-6f0e-430f-9eef-20f4ed26739f",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

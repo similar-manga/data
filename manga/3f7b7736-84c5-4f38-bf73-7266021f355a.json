@@ -350,6 +350,13 @@
   "publicationDemographic": "josei",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "it",
+   "hu",
+   "ru",
+   "pt-br",
+   "en"
+  ],
   "tags": [
    {
     "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
@@ -448,16 +455,19 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-03-27T08:02:18+00:00",
-  "updatedAt": "2021-05-25T15:41:38+00:00"
+  "updatedAt": "2022-01-25T04:47:19+00:00"
  },
  "relationships": [
   {
    "id": "bf07c05f-a69f-4690-982f-406d369a2034",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Junji Ito (Japanese: 伊藤 潤二, Hepburn: Itō Junji, born July 31, 1963) is a Japanese horror manga artist. Some of his most notable works include Tomie, a series chronicling an immortal girl who drives her stricken admirers to madness; Spiral Into Horror Uzumaki, a three-volume series about a town obsessed with spirals; and Gyo, a two-volume story where fish are controlled by a strain of sentient bacteria called \"the death stench.\" His other works include Itou Junji Kyoufu Manga Collection, a collection of different short stories including a series of stories named Souichi's Journal of Delights, and Junji Ito's Cat Diary: Yon \u0026 Mu, a self-parody about him and his wife living in a house with two cats. Ito's work has developed a substantial cult following, with some deeming him a significant figure in recent horror iconography.\n\nIn 2006, Junji married Ayako Ishiguro (石黒亜矢子), a picture book artist. As of 2013, they have two children."
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -465,14 +475,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Itou Junji",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-01-02T05:31:29+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -480,7 +492,9 @@
    "id": "bf07c05f-a69f-4690-982f-406d369a2034",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Junji Ito (Japanese: 伊藤 潤二, Hepburn: Itō Junji, born July 31, 1963) is a Japanese horror manga artist. Some of his most notable works include Tomie, a series chronicling an immortal girl who drives her stricken admirers to madness; Spiral Into Horror Uzumaki, a three-volume series about a town obsessed with spirals; and Gyo, a two-volume story where fish are controlled by a strain of sentient bacteria called \"the death stench.\" His other works include Itou Junji Kyoufu Manga Collection, a collection of different short stories including a series of stories named Souichi's Journal of Delights, and Junji Ito's Cat Diary: Yon \u0026 Mu, a self-parody about him and his wife living in a house with two cats. Ito's work has developed a substantial cult following, with some deeming him a significant figure in recent horror iconography.\n\nIn 2006, Junji married Ayako Ishiguro (石黒亜矢子), a picture book artist. As of 2013, they have two children."
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -488,14 +502,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Itou Junji",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-01-02T05:31:29+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -506,6 +522,7 @@
     "createdAt": "2021-05-24T17:28:19+00:00",
     "description": "",
     "fileName": "07eed868-6aef-4241-9095-72a58186ac6c.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:28:19+00:00",
     "version": 1,
     "volume": null
@@ -513,11 +530,13 @@
   },
   {
    "id": "40d2c692-2eeb-4e0e-b79f-5112bd37fb8a",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "9ad2d9a1-8e01-48f6-b979-a03b1050a2bd",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

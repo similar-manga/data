@@ -28,7 +28,12 @@
   "lastChapter": "5",
   "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 1975,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "pt-br"
+  ],
   "tags": [
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
@@ -103,16 +108,19 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-04-29T07:33:45+00:00",
-  "updatedAt": "2021-05-25T15:44:41+00:00"
+  "updatedAt": "2022-01-05T11:29:25+00:00"
  },
  "relationships": [
   {
    "id": "1a76535a-b389-4e42-9130-a71d0ec94611",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Kiyoshi Nagai, better known by the pen name Go Nagai, is a Japanese manga artist and a prolific author of science fiction, fantasy, horror and erotica. He made his professional debut in 1967 with Meakashi Polikichi, but is best known for creating popular 1970s manga and anime series such as Cutie Honey, Devilman and Mazinger Z. He is credited with creating the super robot genre and for designing the first mecha robots piloted by a user from within a cockpit with Mazinger Z, and for pioneering the magical girl genre with Cutie Honey, the post-apocalyptic genre with Violence Jack, and the ecchi genre with Harenchi Gakuen. In 2005, he became a Character Design professor at the Osaka University of Arts. He has been a member of the Tezuka Osamu Cultural Prize's nominating committee since 2009. "
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -120,14 +128,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nagai Go",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-02-13T22:46:38+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -143,6 +153,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ishikawa Ken",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -151,6 +162,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -166,6 +178,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ishikawa Ken",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -174,6 +187,32 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
+  {
+   "id": "cb94f9d0-af59-4e1e-b134-80a291b91ae7",
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Dynamic Pro",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -184,30 +223,36 @@
     "createdAt": "2021-05-24T18:03:50+00:00",
     "description": "",
     "fileName": "5719fe5d-47fc-467b-9b45-d342331f64a1.jpg",
-    "updatedAt": "2021-05-24T18:03:50+00:00",
-    "version": 1,
-    "volume": null
+    "locale": "ja",
+    "updatedAt": "2022-01-05T11:29:25+00:00",
+    "version": 2,
+    "volume": "1"
    }
   },
   {
    "id": "4ef6ab6c-9506-4612-bc2a-322ea13827b2",
-   "type": "manga"
-  },
-  {
-   "id": "f35a8c30-3f9c-4105-818d-63673ff2c1b6",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "5ab1cab6-353a-46db-bb3e-d00bad0d73ed",
-   "type": "manga"
-  },
-  {
-   "id": "6a1040cf-bae1-42ee-aea1-f82e6f9000c3",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
   },
   {
    "id": "5b5feb0b-b96a-40f9-8779-182b9bfbbdc3",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "6a1040cf-bae1-42ee-aea1-f82e6f9000c3",
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "f35a8c30-3f9c-4105-818d-63673ff2c1b6",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

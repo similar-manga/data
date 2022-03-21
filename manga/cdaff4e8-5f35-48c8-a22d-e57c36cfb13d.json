@@ -7,16 +7,16 @@
   },
   "altTitles": [
    {
-    "en": "Fushigi Yugi - Byakko Ibun"
+    "ja-ro": "Fushigi Yugi - Byakko Ibun"
    },
    {
     "en": "Fushigi Yugi - Curious Tales of the Byakko"
    },
    {
-    "en": "Fushigi Yuugi Byakko Ibun"
+    "ja-ro": "Fushigi Yuugi Byakko Ibun"
    },
    {
-    "en": "ふしぎ遊戯～白虎異聞"
+    "ja": "ふしぎ遊戯～白虎異聞"
    }
   ],
   "description": {
@@ -80,9 +80,10 @@
     }
    }
   ],
-  "version": 1,
+  "state": "published",
+  "version": 2,
   "createdAt": "2018-10-23T18:29:27+00:00",
-  "updatedAt": "2018-10-23T18:29:27+00:00"
+  "updatedAt": "2022-01-27T02:28:29+00:00"
  },
  "relationships": [
   {
@@ -97,6 +98,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Watase Yuu",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -105,6 +107,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -120,6 +123,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Watase Yuu",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -128,6 +132,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -138,22 +143,26 @@
     "createdAt": "2021-05-24T16:49:10+00:00",
     "description": "",
     "fileName": "a5fe4dc2-4581-4d98-b566-f285677cbdfb.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:49:10+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "be12a501-be51-441c-951f-6c340237b152",
-   "type": "manga"
-  },
-  {
    "id": "15def101-a7ed-469f-b93c-549aa861cf54",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "72b3ae65-f936-42b7-966a-891014ddebf4",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "be12a501-be51-441c-951f-6c340237b152",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

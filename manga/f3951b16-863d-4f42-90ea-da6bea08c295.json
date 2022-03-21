@@ -30,6 +30,9 @@
   "status": "completed",
   "year": 2017,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -128,9 +131,10 @@
     }
    }
   ],
-  "version": 6,
+  "state": "published",
+  "version": 7,
   "createdAt": "2021-10-10T09:02:45+00:00",
-  "updatedAt": "2021-11-09T20:00:07+00:00"
+  "updatedAt": "2022-01-25T05:09:43+00:00"
  },
  "relationships": [
   {
@@ -145,6 +149,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takahiro",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -153,6 +158,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -168,6 +174,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kotamaru",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -176,6 +183,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -186,14 +194,26 @@
     "createdAt": "2021-10-10T09:03:03+00:00",
     "description": "",
     "fileName": "bb929544-3176-4225-b54a-0db33fc91a90.jpg",
+    "locale": "ja",
     "updatedAt": "2021-10-10T09:03:03+00:00",
     "version": 1,
     "volume": "2"
    }
   },
   {
-   "id": "4550150d-31ea-444e-a822-dbdd14702c7a",
-   "type": "user"
+   "id": "44c2cb9b-5bde-4f48-9159-b11d11e36a75",
+   "type": "manga",
+   "related": "adapted_from"
+  },
+  {
+   "id": "4a51c325-bc78-4935-9c5e-6236bb595d5f",
+   "type": "manga",
+   "related": "prequel"
+  },
+  {
+   "id": "9ede8765-1f52-4831-b868-841e2fe00491",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

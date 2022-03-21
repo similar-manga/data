@@ -7,25 +7,25 @@
   },
   "altTitles": [
    {
-    "en": "Doraemon Thêm"
+    "vi": "Doraemon Thêm"
    },
    {
-    "en": "Đội quân Doraemon"
+    "vi": "Đội quân Doraemon"
    },
    {
-    "en": "Los Doraemons"
+    "es": "Los Doraemons"
    },
    {
     "en": "The Doraemons"
    },
    {
-    "en": "ザ☆ドラえもんズ―ドラえもんゲームコミック"
+    "ja": "ザ☆ドラえもんズ―ドラえもんゲームコミック"
    },
    {
-    "en": "哆啦A梦历险记"
+    "zh": "哆啦A梦历险记"
    },
    {
-    "en": "더 도라에몽즈"
+    "ko": "더 도라에몽즈"
    }
   ],
   "description": {
@@ -40,8 +40,13 @@
   },
   "originalLanguage": "ja",
   "lastVolume": "6",
+  "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 1991,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "id"
+  ],
   "tags": [
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
@@ -68,16 +73,19 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-08-31T01:21:42+00:00",
-  "updatedAt": "2021-05-25T15:44:18+00:00"
+  "updatedAt": "2022-02-05T20:07:36+00:00"
  },
  "relationships": [
   {
    "id": "42d595b6-d361-4f55-a04d-2010950d6d66",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Fujiko Fujio (藤子 不二雄) was a pen name of a manga writing duo formed by two Japanese manga artists. Their real names are Hiroshi Fujimoto (藤本 弘, Fujimoto Hiroshi, 1933–1996) and Motoo Abiko (安孫子 素雄, Abiko Motoo, born 1934). They formed their partnership in 1951, and used the Fujiko Fujio name from 1954 until dissolution of the partnership in 1987.\n\nFrom the outset they adopted a collaborative style where both worked simultaneously on the story and artwork, but as they diverged creatively they started releasing individual works under different names, Abiko as [Fujiko Fujio Ⓐ](https://mangadex.org/author/b755f10f-ad3d-4b22-ae7a-214025d70e72/fujiko-fujio-a) (藤子不二雄Ⓐ, Fujiko Fujio Ē, credited as Fujiko A. Fujio outside Japan), and Fujimoto as Fujiko F. Fujio (藤子・F・不二雄, Fujiko Efu Fujio). Throughout their career they won many individual and collaborative awards, and are best known for creating the popular and long-running series Doraemon, the main character of which is officially recognized as a cultural icon of modern Japan. Some influences of most of their projects are the works of acclaimed manga artist [Osamu Tezuka](https://mangadex.org/author/21575d70-b954-4e3a-80df-00192f413a83) and many US cartoons and comic books—including the works of Hanna-Barbera."
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -85,14 +93,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Fujiko F. Fujio",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-01-11T09:10:48+00:00",
+    "version": 3,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -108,6 +118,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Miyazaki Masaru",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -116,28 +127,32 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "85e36b4b-937f-4ffd-a7e0-f442189607ad",
+   "id": "85eb6b32-a460-4f72-8f69-82e119daeff5",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T16:43:29+00:00",
+    "createdAt": "2021-05-23T05:34:25+00:00",
     "description": "",
-    "fileName": "03047e29-9b15-4fea-9435-698627983159.jpg",
-    "updatedAt": "2021-05-24T16:43:29+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "e035055c-9219-44aa-a27f-ba45e7f3b5bc.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T05:34:25+00:00",
+    "version": 2,
+    "volume": "3"
    }
   },
   {
-   "id": "e36da8b0-feca-46dd-9120-d5dc2f3feae8",
-   "type": "manga"
+   "id": "4826e1fd-5c4c-4d19-8db1-f5c257b00fa4",
+   "type": "manga",
+   "related": "sequel"
   },
   {
-   "id": "4826e1fd-5c4c-4d19-8db1-f5c257b00fa4",
-   "type": "manga"
+   "id": "e36da8b0-feca-46dd-9120-d5dc2f3feae8",
+   "type": "manga",
+   "related": "adapted_from"
   }
  ]
 }

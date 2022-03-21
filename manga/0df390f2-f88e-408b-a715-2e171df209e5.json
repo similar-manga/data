@@ -3,7 +3,7 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Boogiepop wa warenai"
+   "en": "Boogiepop wa Warawanai"
   },
   "altTitles": [
    {
@@ -13,7 +13,7 @@
     "en": "Boogiepop Never Laughs"
    },
    {
-    "en": "ブギーポップは笑わない"
+    "ja": "ブギーポップは笑わない"
    }
   ],
   "description": {
@@ -83,9 +83,10 @@
     }
    }
   ],
-  "version": 1,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-06-09T07:45:14+00:00",
-  "updatedAt": "2019-06-09T07:45:14+00:00"
+  "updatedAt": "2022-03-06T04:01:17+00:00"
  },
  "relationships": [
   {
@@ -100,6 +101,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kadono Kouhei",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -108,6 +110,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -123,6 +126,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ogata Kouji",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -131,20 +135,32 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "ba0769ca-323d-4f48-8c89-750fa61aea45",
+   "id": "57546913-2ec8-4fdc-b361-93e3435e4996",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:14:52+00:00",
+    "createdAt": "2021-05-23T06:42:06+00:00",
     "description": "",
-    "fileName": "122f5e4f-e087-4497-8b96-48cacc12e863.jpg",
-    "updatedAt": "2021-05-24T17:14:52+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "19df2160-e748-4fbc-a281-a3fe3cf92f89.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T06:42:06+00:00",
+    "version": 2,
+    "volume": "2"
    }
+  },
+  {
+   "id": "cacdae50-7449-4278-a38d-b83c75cc4e5b",
+   "type": "manga",
+   "related": "alternate_story"
+  },
+  {
+   "id": "cacdae50-7449-4278-a38d-b83c75cc4e5b",
+   "type": "manga",
+   "related": "shared_universe"
   }
  ]
 }

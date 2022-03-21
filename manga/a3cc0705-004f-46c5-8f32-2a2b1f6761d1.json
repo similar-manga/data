@@ -7,13 +7,13 @@
   },
   "altTitles": [
    {
-    "en": "Henai Fumou-hen"
+    "ja-ro": "Henai Fumou-hen"
    },
    {
-    "en": "Messiah no Kyojitsu"
+    "ja-ro": "Messiah no Kyojitsu"
    },
    {
-    "en": "Messiah no Sentaku"
+    "ja-ro": "Messiah no Sentaku"
    },
    {
     "en": "Positive"
@@ -22,22 +22,22 @@
     "en": "Space Mozuku"
    },
    {
-    "en": "Uchuu no Mozuku"
+    "ja-ro": "Uchuu no Mozuku"
    },
    {
-    "en": "ポジ"
+    "ja": "ポジ"
    },
    {
-    "en": "メシアの凶日"
+    "ja": "メシアの凶日"
    },
    {
-    "en": "メシアの選択"
+    "ja": "メシアの選択"
    },
    {
-    "en": "変愛 不毛変"
+    "zh": "変愛 不毛変"
    },
    {
-    "en": "宇宙のもずく"
+    "ja": "宇宙のもずく"
    }
   ],
   "description": {
@@ -47,7 +47,7 @@
    "al": "103211",
    "amz": "https://www.amazon.co.jp/dp/B01FQE49H4",
    "ap": "poji",
-   "ebj": "https://www.ebookjapan.jp/ebj/363590/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/363590/",
    "kt": "38462",
    "mal": "100270",
    "mu": "131578"
@@ -56,8 +56,24 @@
   "lastVolume": "1",
   "lastChapter": "6",
   "status": "completed",
+  "year": 2016,
   "contentRating": "pornographic",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
+   {
+    "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sci-Fi"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
     "type": "tag",
@@ -93,11 +109,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sexual Violence"
+     },
+     "description": null,
+     "group": "content",
+     "version": 1
+    }
    }
   ],
-  "version": 1,
+  "state": "published",
+  "version": 4,
   "createdAt": "2019-01-18T10:37:00+00:00",
-  "updatedAt": "2019-01-18T10:37:00+00:00"
+  "updatedAt": "2022-02-24T16:49:56+00:00"
  },
  "relationships": [
   {
@@ -112,6 +141,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Harada",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -120,6 +150,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -135,6 +166,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Harada",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -143,36 +175,42 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "afaf5a2c-6af7-4feb-ab25-f5f71399fbe5",
+   "id": "f7fbba15-ecd7-4fe2-aec6-7c7ddd361850",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T16:58:15+00:00",
+    "createdAt": "2021-05-23T06:14:00+00:00",
     "description": "",
-    "fileName": "b1377c09-5fba-4fea-b8d2-0661357b82db.jpg",
-    "updatedAt": "2021-05-24T16:58:15+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "3766df76-40a8-46e3-9204-3efcd205b786.jpg",
+    "locale": "ja",
+    "updatedAt": "2021-05-23T06:14:00+00:00",
+    "version": 2,
+    "volume": "1"
    }
   },
   {
-   "id": "ef302b6f-bfcd-41e5-beb3-8940707d72c5",
-   "type": "manga"
-  },
-  {
-   "id": "6b2f85c8-425e-4c75-9c37-feb5a7961f20",
-   "type": "manga"
-  },
-  {
    "id": "0a1f22fd-81e0-4358-8ff2-d24e9a0d93ea",
-   "type": "manga"
+   "type": "manga",
+   "related": "main_story"
   },
   {
    "id": "628581db-61f4-461b-ac97-3d7800ff0018",
-   "type": "manga"
+   "type": "manga",
+   "related": "alternate_story"
+  },
+  {
+   "id": "6b2f85c8-425e-4c75-9c37-feb5a7961f20",
+   "type": "manga",
+   "related": "prequel"
+  },
+  {
+   "id": "ef302b6f-bfcd-41e5-beb3-8940707d72c5",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

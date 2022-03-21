@@ -27,6 +27,9 @@
   "status": "completed",
   "year": 2001,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "pt-br"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -49,6 +52,18 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "51d83883-4103-437c-b4b1-731cb73d786c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Anthology"
+     },
+     "description": null,
+     "group": "format",
      "version": 1
     }
    },
@@ -123,23 +138,12 @@
      "group": "theme",
      "version": 1
     }
-   },
-   {
-    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-    "type": "tag",
-    "attributes": {
-     "name": {
-      "en": "Adaptation"
-     },
-     "description": null,
-     "group": "format",
-     "version": 1
-    }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 4,
   "createdAt": "2021-11-18T01:33:16+00:00",
-  "updatedAt": "2021-11-18T12:27:25+00:00"
+  "updatedAt": "2022-01-31T17:00:24+00:00"
  },
  "relationships": [
   {
@@ -154,6 +158,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hideki Oowada",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -162,6 +167,7 @@
     "updatedAt": "2021-11-18T01:14:16+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -177,6 +183,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Hideki Oowada",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -185,6 +192,7 @@
     "updatedAt": "2021-11-18T01:14:16+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -195,14 +203,16 @@
     "createdAt": "2021-11-18T01:33:20+00:00",
     "description": "",
     "fileName": "46c9b66a-52c6-4118-9a68-cb20de19da2c.jpg",
+    "locale": "ja",
     "updatedAt": "2021-11-22T23:34:02+00:00",
     "version": 3,
     "volume": "1"
    }
   },
   {
-   "id": "05d0fbe6-845e-4549-89bf-4bb6e5cbb873",
-   "type": "user"
+   "id": "3b0af6bb-3ecc-4bb4-8462-53fc121aa483",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

@@ -7,16 +7,16 @@
   },
   "altTitles": [
    {
-    "en": "Kindaichi Shounen no Jikenbo (1998)"
+    "ja-ro": "Kindaichi Shounen no Jikenbo (1998)"
    },
    {
-    "en": "Kindaichi Shounen no Jikenbo Kēsu Shirīzu"
+    "ja-ro": "Kindaichi Shounen no Jikenbo Kēsu Shirīzu"
    },
    {
     "en": "The Kindaichi Case Files - Case Series"
    },
    {
-    "en": "金田一少年の事件簿 Caseシリーズ"
+    "ja": "金田一少年の事件簿 Caseシリーズ"
    }
   ],
   "description": {
@@ -38,6 +38,9 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
@@ -100,13 +103,14 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2019-03-31T19:44:54+00:00",
-  "updatedAt": "2021-05-25T15:49:32+00:00"
+  "updatedAt": "2022-02-23T19:30:55+00:00"
  },
  "relationships": [
   {
-   "id": "f4dbac59-c66e-4d8f-90fa-d48db6aa3242",
+   "id": "08c8237f-3bfd-487c-85fb-1ba337d8ddc1",
    "type": "author",
    "attributes": {
     "biography": [],
@@ -116,7 +120,8 @@
     "fantia": null,
     "imageUrl": null,
     "melonBook": null,
-    "name": "Amagi Seimaru",
+    "name": "Shin Kibayashi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -125,6 +130,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -140,6 +146,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Satou Fumiya",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -148,32 +155,37 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "1aff39e5-f97c-4f1c-b4ec-e2ea1dc0f248",
+   "id": "48abc820-08c4-4fed-934c-9134814fec5c",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:06:29+00:00",
+    "createdAt": "2021-05-23T06:33:27+00:00",
     "description": "",
-    "fileName": "41a53ad8-834c-40bf-bfc5-68fd12cca317.jpg",
-    "updatedAt": "2021-05-24T17:06:29+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "3b01d58e-ce04-4f5a-bdf9-1cd146820681.jpg",
+    "locale": "ja",
+    "updatedAt": "2022-02-16T00:39:54+00:00",
+    "version": 3,
+    "volume": "7.1"
    }
   },
   {
+   "id": "2ea4fb28-d9bd-4681-a029-cc6c2689253a",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
    "id": "346552a1-426e-468b-b2bf-1df2b0e937cb",
-   "type": "manga"
+   "type": "manga",
+   "related": "spin_off"
   },
   {
    "id": "ced910fb-8542-48bd-b87a-5ff662185295",
-   "type": "manga"
-  },
-  {
-   "id": "2ea4fb28-d9bd-4681-a029-cc6c2689253a",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

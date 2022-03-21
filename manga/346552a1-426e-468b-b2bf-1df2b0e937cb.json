@@ -34,6 +34,9 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
@@ -72,11 +75,37 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-06-28T11:53:36+00:00",
-  "updatedAt": "2021-05-25T15:41:07+00:00"
+  "updatedAt": "2022-02-23T19:36:29+00:00"
  },
  "relationships": [
+  {
+   "id": "08c8237f-3bfd-487c-85fb-1ba337d8ddc1",
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Shin Kibayashi",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "53d7e3e6-acef-46e4-ad66-e5510a64655d",
    "type": "author",
@@ -89,6 +118,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kanari Youzaburou",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -97,6 +127,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -112,6 +143,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Satou Fumiya",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -120,29 +152,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
-    "youtube": null
-   }
-  },
-  {
-   "id": "f4dbac59-c66e-4d8f-90fa-d48db6aa3242",
-   "type": "author",
-   "attributes": {
-    "biography": [],
-    "booth": null,
-    "createdAt": "2021-04-19T21:59:45+00:00",
-    "fanBox": null,
-    "fantia": null,
-    "imageUrl": null,
-    "melonBook": null,
-    "name": "Amagi Seimaru",
-    "nicoVideo": null,
-    "pixiv": null,
-    "skeb": null,
-    "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -158,6 +168,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Funatsu Shinpei",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -166,6 +177,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -176,22 +188,26 @@
     "createdAt": "2021-05-24T17:17:01+00:00",
     "description": "",
     "fileName": "59b5d249-7672-46d5-8308-0974bcb959bb.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:17:01+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "ced910fb-8542-48bd-b87a-5ff662185295",
-   "type": "manga"
+   "id": "2ea4fb28-d9bd-4681-a029-cc6c2689253a",
+   "type": "manga",
+   "related": "adapted_from"
   },
   {
-   "id": "2ea4fb28-d9bd-4681-a029-cc6c2689253a",
-   "type": "manga"
+   "id": "ced910fb-8542-48bd-b87a-5ff662185295",
+   "type": "manga",
+   "related": "adapted_from"
   },
   {
    "id": "f378234a-298a-4b78-bef5-205ab688566f",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
   }
  ]
 }

@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Zelda no Densetsu - Twilight Princess"
+   "en": "The Legend of Zelda: Twilight Princess"
   },
   "altTitles": [
    {
-    "en": "The Legend of Zelda: Twilight Princess"
+    "ja": "ゼルダの伝説 トワイライトプリンセス"
    },
    {
-    "ja": "ゼルダの伝説 トワイライトプリンセス"
+    "ja-ro": "Zelda no Densetsu - Twilight Princess"
    }
   ],
   "description": {
@@ -20,6 +20,7 @@
    "al": "96842",
    "amz": "https://www.amazon.co.jp/gp/product/B07VLJJJ82",
    "ap": "the-legend-of-zelda-twilight-princess",
+   "bw": "series/213175/",
    "ebj": "https://ebookjapan.yahoo.co.jp/books/552684/",
    "engtl": "https://www.viz.com/legend-of-zelda",
    "kt": "38020",
@@ -28,10 +29,14 @@
    "raw": "https://comics.shogakukan.co.jp/book-series?cd=44838"
   },
   "originalLanguage": "ja",
+  "lastVolume": "11",
   "publicationDemographic": "shounen",
-  "status": "ongoing",
+  "status": "completed",
   "year": 2016,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -68,11 +73,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 4,
+  "state": "published",
+  "version": 7,
   "createdAt": "2019-01-08T12:37:54+00:00",
-  "updatedAt": "2021-12-04T15:27:21+00:00"
+  "updatedAt": "2022-03-12T23:52:05+00:00"
  },
  "relationships": [
   {
@@ -87,6 +105,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Himekawa Akira",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -95,6 +114,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -110,6 +130,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Himekawa Akira",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -118,28 +139,32 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "ae5e3510-2184-4d3d-b0b5-57b48dd9f914",
+   "id": "8bed7ee3-d661-4ed7-a36e-04825f1f673b",
    "type": "cover_art",
    "attributes": {
     "createdAt": "2021-12-04T15:27:26+00:00",
     "description": "",
-    "fileName": "02766112-071f-41a8-8159-c74ed4051da9.jpg",
+    "fileName": "67465d47-b1f7-44b3-b754-9c8f88c3eece.jpg",
+    "locale": "ja",
     "updatedAt": "2021-12-04T15:27:26+00:00",
     "version": 1,
-    "volume": "9"
+    "volume": "10"
    }
   },
   {
-   "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
-   "type": "manga"
+   "id": "24322835-916a-4054-887b-2d39fed55de7",
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
-   "id": "24322835-916a-4054-887b-2d39fed55de7",
-   "type": "manga"
+   "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

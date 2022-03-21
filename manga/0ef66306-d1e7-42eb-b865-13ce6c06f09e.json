@@ -3,17 +3,20 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Island (Yang Kyung-Il)"
+   "en": "Island"
   },
   "altTitles": [
    {
-    "en": "Остров"
+    "ru": "Остров"
    },
    {
-    "en": "アイランド."
+    "ja": "アイランド."
    },
    {
-    "en": "아일랜드"
+    "ko": "아일랜드"
+   },
+   {
+    "zh-ro": "DEVIL'S ISLAND"
    }
   ],
   "description": {
@@ -32,6 +35,9 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -70,9 +76,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 5,
   "createdAt": "2019-04-04T16:05:35+00:00",
-  "updatedAt": "2021-05-25T15:39:22+00:00"
+  "updatedAt": "2022-02-23T21:49:35+00:00"
  },
  "relationships": [
   {
@@ -87,6 +94,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Youn In-Wan",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -95,6 +103,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -110,6 +119,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yang Kyung-Il",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -118,24 +128,42 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "ab397006-d69a-4f7d-9213-6f1cb4eb6777",
+   "id": "4a436763-b026-4557-9725-02146c635175",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:06:51+00:00",
+    "createdAt": "2022-02-23T21:49:35+00:00",
     "description": "",
-    "fileName": "e7301e44-a905-46ec-81f1-4906e1df8bae.jpg",
-    "updatedAt": "2021-05-24T17:06:51+00:00",
+    "fileName": "47404ab5-6140-44d1-96ff-ce0158bcf9c8.jpg",
+    "locale": "ko",
+    "updatedAt": "2022-02-23T21:49:35+00:00",
     "version": 1,
-    "volume": null
+    "volume": "1.1"
    }
   },
   {
+   "id": "3e873799-6f86-4f17-bc50-8b6ba07b9978",
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "78109cda-d748-44ed-8735-0f4da341bd95",
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
    "id": "ba7c56b3-668b-4e8d-ab8c-74c6bb944d6b",
-   "type": "manga"
+   "type": "manga",
+   "related": "alternate_story"
+  },
+  {
+   "id": "f0d61c20-48e7-4e63-b40d-cb497dc1ed45",
+   "type": "manga",
+   "related": "shared_universe"
   }
  ]
 }

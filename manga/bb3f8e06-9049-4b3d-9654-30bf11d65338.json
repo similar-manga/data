@@ -3,20 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Zelda no Densetsu - Kamigami no Triforce (Himekawa Akira)"
+   "en": "The Legend of Zelda - A Link to the Past (HIMEKAWA Akira)"
   },
   "altTitles": [
    {
-    "en": "The Legend of Zelda - A Link to the Past (2005)"
+    "ja": "ゼルダの伝説　神々のトライフォース"
    },
    {
-    "en": "The Legend of Zelda - A Link to the Past (HIMEKAWA Akira)"
-   },
-   {
-    "en": "The Legend of Zelda - Kamigami no Triforce (2005)"
-   },
-   {
-    "en": "ゼルダの伝説　神々のトライフォース"
+    "ja-ro": "Zelda no Densetsu - Kamigami no Triforce (Himekawa Akira)"
    }
   ],
   "description": {
@@ -30,9 +24,16 @@
    "mu": "2317"
   },
   "originalLanguage": "ja",
+  "lastVolume": "1",
   "lastChapter": "4",
+  "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 2005,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "ca",
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -81,11 +82,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-04-03T03:40:58+00:00",
-  "updatedAt": "2021-05-25T15:47:06+00:00"
+  "updatedAt": "2022-03-13T00:01:20+00:00"
  },
  "relationships": [
   {
@@ -100,6 +114,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nintendo",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -108,6 +123,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -123,6 +139,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Himekawa Akira",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -131,6 +148,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -141,18 +159,21 @@
     "createdAt": "2021-05-24T17:06:46+00:00",
     "description": "",
     "fileName": "7c98e00e-fe39-4d5a-ba6e-6959edb5d873.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:06:46+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
-   "type": "manga"
+   "id": "2d5e9a5f-51be-407c-9335-29f4b6d21ee7",
+   "type": "manga",
+   "related": "alternate_story"
   },
   {
-   "id": "2d5e9a5f-51be-407c-9335-29f4b6d21ee7",
-   "type": "manga"
+   "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
+   "type": "manga",
+   "related": "alternate_story"
   }
  ]
 }

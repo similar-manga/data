@@ -36,6 +36,12 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "pt-br",
+   "pl",
+   "fr",
+   "en"
+  ],
   "tags": [
    {
     "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
@@ -122,9 +128,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2018-02-03T12:17:23+00:00",
-  "updatedAt": "2021-05-25T15:49:32+00:00"
+  "updatedAt": "2022-01-25T02:57:33+00:00"
  },
  "relationships": [
   {
@@ -139,6 +146,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takenashi Eri",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -147,6 +155,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -162,6 +171,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takenashi Eri",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -170,6 +180,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -180,22 +191,26 @@
     "createdAt": "2021-05-24T18:39:26+00:00",
     "description": "",
     "fileName": "6b820b47-bb44-40cd-addf-acfb7af30353.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:39:26+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "db5297d2-3646-4cb5-92aa-e4c18b19b477",
-   "type": "manga"
-  },
-  {
    "id": "937f65e9-4f1a-49de-a733-b62e267f397d",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "d7af720e-5e41-48e7-b989-c744729e8c86",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "db5297d2-3646-4cb5-92aa-e4c18b19b477",
+   "type": "manga",
+   "related": "spin_off"
   }
  ]
 }

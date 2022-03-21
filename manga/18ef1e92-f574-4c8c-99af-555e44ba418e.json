@@ -30,7 +30,7 @@
    "al": "51054",
    "amz": "https://www.amazon.co.jp/dp/B074CH8W6R",
    "ap": "touhou-ibarakasen-wild-and-horned-hermit",
-   "ebj": "https://www.ebookjapan.jp/ebj/235352/",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/235352/",
    "kt": "10406",
    "mal": "21054",
    "mu": "56292"
@@ -41,6 +41,15 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "pt-br",
+   "es-la",
+   "en",
+   "vi",
+   "ru",
+   "fr",
+   "de"
+  ],
   "tags": [
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
@@ -91,9 +100,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 5,
   "createdAt": "2018-03-06T02:17:48+00:00",
-  "updatedAt": "2021-11-21T23:27:47+00:00"
+  "updatedAt": "2022-01-26T16:12:35+00:00"
  },
  "relationships": [
   {
@@ -108,6 +118,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "ZUN",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -116,6 +127,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -131,6 +143,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Azuma Aya",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -139,44 +152,52 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "e8e2b334-79ce-4f2d-8a74-0a81a60c273a",
+   "id": "1f582f7f-fb0b-4f61-a67c-f1c9816a5f51",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:04:12+00:00",
+    "createdAt": "2021-05-23T06:29:06+00:00",
     "description": "",
-    "fileName": "4a3696b4-e339-45c3-9f62-a6f8e10757e5.jpg",
-    "updatedAt": "2021-05-24T17:04:12+00:00",
-    "version": 1,
-    "volume": null
+    "fileName": "f8de2bd4-b519-4b34-9272-dd4e765e2de5.png",
+    "locale": "ja",
+    "updatedAt": "2022-01-26T16:12:34+00:00",
+    "version": 3,
+    "volume": "10.1"
    }
   },
   {
    "id": "0483d2ef-557e-43ae-9761-2f2f0677625a",
-   "type": "manga"
+   "type": "manga",
+   "related": "shared_universe"
   },
   {
    "id": "8b98e414-3eae-4b4f-b43b-5e75fbbb0014",
-   "type": "manga"
-  },
-  {
-   "id": "dbae4cf5-27de-40eb-b9e1-346c4f2cf8aa",
-   "type": "manga"
-  },
-  {
-   "id": "a2a738f4-0fe4-4968-95a8-5ebcb7f86f72",
-   "type": "manga"
-  },
-  {
-   "id": "f4fa3679-6918-4684-bcb6-377c9f336898",
-   "type": "manga"
+   "type": "manga",
+   "related": "shared_universe"
   },
   {
    "id": "9a954c41-dcc4-4781-b0c5-6300e4e76a99",
-   "type": "manga"
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "a2a738f4-0fe4-4968-95a8-5ebcb7f86f72",
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "dbae4cf5-27de-40eb-b9e1-346c4f2cf8aa",
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "f4fa3679-6918-4684-bcb6-377c9f336898",
+   "type": "manga",
+   "related": "shared_universe"
   }
  ]
 }

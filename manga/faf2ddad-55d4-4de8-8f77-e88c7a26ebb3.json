@@ -25,6 +25,11 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "es-la",
+   "pt-br",
+   "en"
+  ],
   "tags": [
    {
     "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
@@ -63,9 +68,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2019-07-05T16:58:24+00:00",
-  "updatedAt": "2021-05-25T15:49:56+00:00"
+  "updatedAt": "2022-01-25T06:13:01+00:00"
  },
  "relationships": [
   {
@@ -80,6 +86,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nakamura Kanata",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -88,6 +95,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -103,6 +111,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Gouto Sora",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -111,6 +120,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -121,26 +131,31 @@
     "createdAt": "2021-05-24T17:17:52+00:00",
     "description": "",
     "fileName": "20207a00-229c-48e3-bdf5-f4254a20619b.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:17:52+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "b43a47f7-84f5-4dbd-b0d2-f657fdfa10bb",
-   "type": "manga"
-  },
-  {
-   "id": "bace0db1-165f-4d6b-8c14-e98ef2ca0905",
-   "type": "manga"
-  },
-  {
    "id": "9e8cc445-2644-4d10-93ee-95af309ca3b0",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "b43a47f7-84f5-4dbd-b0d2-f657fdfa10bb",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "b7e32a9d-d3bb-40c1-aa3c-24fb724eafc5",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "bace0db1-165f-4d6b-8c14-e98ef2ca0905",
+   "type": "manga",
+   "related": "spin_off"
   }
  ]
 }

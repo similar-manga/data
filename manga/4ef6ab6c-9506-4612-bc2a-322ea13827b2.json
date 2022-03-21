@@ -31,7 +31,12 @@
   "lastChapter": "9",
   "publicationDemographic": "seinen",
   "status": "completed",
+  "year": 1996,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "pt-br",
+   "en"
+  ],
   "tags": [
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
@@ -106,16 +111,19 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2018-04-30T05:43:31+00:00",
-  "updatedAt": "2021-05-25T15:42:16+00:00"
+  "updatedAt": "2022-01-05T11:36:41+00:00"
  },
  "relationships": [
   {
    "id": "1a76535a-b389-4e42-9130-a71d0ec94611",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Kiyoshi Nagai, better known by the pen name Go Nagai, is a Japanese manga artist and a prolific author of science fiction, fantasy, horror and erotica. He made his professional debut in 1967 with Meakashi Polikichi, but is best known for creating popular 1970s manga and anime series such as Cutie Honey, Devilman and Mazinger Z. He is credited with creating the super robot genre and for designing the first mecha robots piloted by a user from within a cockpit with Mazinger Z, and for pioneering the magical girl genre with Cutie Honey, the post-apocalyptic genre with Violence Jack, and the ecchi genre with Harenchi Gakuen. In 2005, he became a Character Design professor at the Osaka University of Arts. He has been a member of the Tezuka Osamu Cultural Prize's nominating committee since 2009. "
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -123,14 +131,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Nagai Go",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-02-13T22:46:38+00:00",
+    "version": 2,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -146,6 +156,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ishikawa Ken",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -154,6 +165,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -169,6 +181,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ishikawa Ken",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -177,6 +190,32 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
+  {
+   "id": "cb94f9d0-af59-4e1e-b134-80a291b91ae7",
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Dynamic Pro",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -187,26 +226,31 @@
     "createdAt": "2021-05-24T18:04:47+00:00",
     "description": "",
     "fileName": "f92be3b8-593c-439f-9357-4133e27bcf4a.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:04:47+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "db58ba0c-dd1d-485c-969b-6e7986e42e5c",
-   "type": "manga"
+   "id": "082857f5-740c-4556-9625-479d52124eea",
+   "type": "manga",
+   "related": "spin_off"
   },
   {
    "id": "8810270c-5203-44b1-b120-c1c425a50ec6",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   },
   {
-   "id": "082857f5-740c-4556-9625-479d52124eea",
-   "type": "manga"
+   "id": "db58ba0c-dd1d-485c-969b-6e7986e42e5c",
+   "type": "manga",
+   "related": "spin_off"
   },
   {
    "id": "e25a28d8-ec62-4341-8119-3ad4925fbb06",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

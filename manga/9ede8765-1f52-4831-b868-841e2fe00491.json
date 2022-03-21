@@ -10,7 +10,7 @@
     "en": "Nogi Wakaba Is a Hero"
    },
    {
-    "en": "乃木若葉は勇者である"
+    "ja": "乃木若葉は勇者である"
    }
   ],
   "description": {
@@ -31,6 +31,12 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "es-la",
+   "id",
+   "en",
+   "pt-br"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -177,9 +183,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-01-08T17:22:51+00:00",
-  "updatedAt": "2021-05-25T15:45:45+00:00"
+  "updatedAt": "2022-01-27T19:22:46+00:00"
  },
  "relationships": [
   {
@@ -194,6 +201,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takahiro",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -202,6 +210,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -217,6 +226,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Akashiro Aoi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -225,6 +235,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -240,6 +251,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Takino Daisuke",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -248,6 +260,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -258,6 +271,7 @@
     "createdAt": "2021-05-24T16:57:11+00:00",
     "description": "",
     "fileName": "17843f12-7839-4839-9803-c40bf05b963c.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:57:11+00:00",
     "version": 1,
     "volume": null
@@ -265,27 +279,48 @@
   },
   {
    "id": "44c2cb9b-5bde-4f48-9159-b11d11e36a75",
-   "type": "manga"
-  },
-  {
-   "id": "501fc255-b6d7-465a-9383-24badc299c6a",
-   "type": "manga"
-  },
-  {
-   "id": "7f1d08cd-720b-4c3f-b1e4-e9317e900c30",
-   "type": "manga"
-  },
-  {
-   "id": "b5adc1ca-34d9-4f1f-b1cf-f5dfc8f498bf",
-   "type": "manga"
-  },
-  {
-   "id": "f5eb66b2-aeff-4639-9b82-8e4198033274",
-   "type": "manga"
+   "type": "manga",
+   "related": "adapted_from"
   },
   {
    "id": "4a51c325-bc78-4935-9c5e-6236bb595d5f",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "501fc255-b6d7-465a-9383-24badc299c6a",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "7f1d08cd-720b-4c3f-b1e4-e9317e900c30",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "b5adc1ca-34d9-4f1f-b1cf-f5dfc8f498bf",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "cf629197-049b-4f9a-bf55-cfdb9db76d5d",
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "d432e737-b646-4f11-96e0-d5810b3f04cc",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "f3951b16-863d-4f42-90ea-da6bea08c295",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "f5eb66b2-aeff-4639-9b82-8e4198033274",
+   "type": "manga",
+   "related": "based_on"
   }
  ]
 }

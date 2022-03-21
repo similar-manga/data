@@ -10,16 +10,16 @@
     "en": "GATE"
    },
    {
-    "NULL": "Gate - Au delà de la porte"
+    "fr": "Gate - Au delà de la porte"
    },
    {
-    "NULL": "Gate - Jieitai Kare no chi nite"
+    "ja-ro": "Gate - Jieitai Kare no chi nite"
    },
    {
     "en": "Gate - Where the JSDF Fought"
    },
    {
-    "ja": "Gate Jietai Kare no Chi nite, Kaku Tatakeri"
+    "ja-ro": "Gate Jietai Kare no Chi nite, Kaku Tatakeri"
    },
    {
     "en": "Gate: Thus the JSDF Fought There!"
@@ -28,10 +28,19 @@
     "ru": "Врата: там бьются наши воины"
    },
    {
-    "NULL": "เกท:หน่วยรบตะลุยโลกต่างมิติ"
+    "th": "เกท:หน่วยรบตะลุยโลกต่างมิติ"
    },
    {
     "ja": "ゲート 自衛隊彼の地にて、斯く戦えり"
+   },
+   {
+    "zh-hk": "門 自衛隊在彼之地如此戰鬥"
+   },
+   {
+    "ar": "غيت: قوات الدفاع الذاتي تقاتل في أرض غريبة"
+   },
+   {
+    "ko": "게이트 - 자위대. 그의 땅에서, 이처럼 싸우며"
    }
   ],
   "description": {
@@ -55,6 +64,17 @@
   "status": "ongoing",
   "year": 2011,
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "es",
+   "fr",
+   "tr",
+   "id",
+   "pt-br",
+   "ru",
+   "en",
+   "pl",
+   "es-la"
+  ],
   "tags": [
    {
     "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
@@ -249,9 +269,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 17,
   "createdAt": "2018-05-07T18:43:14+00:00",
-  "updatedAt": "2021-12-04T00:05:05+00:00"
+  "updatedAt": "2022-02-11T20:04:57+00:00"
  },
  "relationships": [
   {
@@ -266,6 +287,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yanai Takumi",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -274,6 +296,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -289,44 +312,51 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Sao Satoru",
+    "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://www.pixiv.net/users/4898802",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "https://twitter.com/niffysix",
+    "updatedAt": "2022-01-24T04:18:17+00:00",
+    "version": 2,
+    "website": "http://m-iroha.sakura.ne.jp/sao/sao-index.htm",
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "53b0d7f0-4f1d-4ffc-b83b-47633bdcc639",
+   "id": "775dad2b-e58a-487e-a59e-ee861eac079f",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T18:12:50+00:00",
+    "createdAt": "2022-01-27T16:32:06+00:00",
     "description": "",
-    "fileName": "099cea2c-0c10-4de2-92df-88e6517ec425.jpg",
-    "updatedAt": "2021-05-24T18:12:50+00:00",
+    "fileName": "73d2527f-43be-4f62-9df9-1fea55f9e74b.jpg",
+    "locale": "ja",
+    "updatedAt": "2022-01-27T16:32:06+00:00",
     "version": 1,
-    "volume": null
+    "volume": "20"
    }
   },
   {
    "id": "18c41d02-408a-4a84-9aba-713eb3269376",
-   "type": "manga"
-  },
-  {
-   "id": "e8bed0c1-1536-45a2-a52d-5183732d2c81",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "8495d45a-dbba-48be-8691-7d2a067e3f42",
-   "type": "manga"
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "d396e662-5da2-4669-92cc-1ec8b5253b94",
-   "type": "manga"
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "e8bed0c1-1536-45a2-a52d-5183732d2c81",
+   "type": "manga",
+   "related": "shared_universe"
   }
  ]
 }

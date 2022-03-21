@@ -19,6 +19,9 @@
   "originalLanguage": "ja",
   "status": "completed",
   "contentRating": "pornographic",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
@@ -55,11 +58,24 @@
      "group": "content",
      "version": 1
     }
+   },
+   {
+    "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Doujinshi"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-05-17T01:59:35+00:00",
-  "updatedAt": "2021-05-25T15:47:14+00:00"
+  "updatedAt": "2022-02-25T08:16:52+00:00"
  },
  "relationships": [
   {
@@ -74,6 +90,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Second Color",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -82,6 +99,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -97,6 +115,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Typehatena",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -105,6 +124,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -115,6 +135,7 @@
     "createdAt": "2021-05-24T17:12:07+00:00",
     "description": "",
     "fileName": "6fa28a08-69b5-4a09-860f-0fe434760c85.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:12:07+00:00",
     "version": 1,
     "volume": null
@@ -122,7 +143,8 @@
   },
   {
    "id": "c02343b3-74e4-4057-b34a-90e08d93f95a",
-   "type": "manga"
+   "type": "manga",
+   "related": "based_on"
   }
  ]
 }

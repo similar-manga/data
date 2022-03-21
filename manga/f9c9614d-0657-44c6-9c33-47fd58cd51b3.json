@@ -26,6 +26,10 @@
   "publicationDemographic": "shounen",
   "status": "ongoing",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "it"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -148,16 +152,19 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 4,
   "createdAt": "2020-10-18T10:08:07+00:00",
-  "updatedAt": "2021-05-25T15:49:48+00:00"
+  "updatedAt": "2022-01-24T22:41:35+00:00"
  },
  "relationships": [
   {
    "id": "963cbe7d-94fc-43cf-b5e1-355cdd1b1317",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Hiromu Arakawa (荒川 弘, Arakawa Hiromu, born May 8, 1973) is a Japanese manga artist. She is best known for the manga series Fullmetal Alchemist (2001–2010), which became a hit both domestically and internationally, and was adapted into two anime television series. She is also known for Silver Spoon (2011–2019) and the manga adaptation of The Heroic Legend of Arslan novels.\n\nArakawa states that Suihō Tagawa, the author of Norakuro, is the \"root of [her] style as an artist\". She also learned composition and drawing during her time as assistant of Hiroyuki Etō [ja]. She also cites Rumiko Takahashi, Shigeru Mizuki, and Kinnikuman by Yudetamago as influences and is a fan of Mike Mignola's work. Reviewers consider Fullmetal Alchemist to have steampunk influences.\n\n\u003eWhen the neighbor's little girl (three years old) knew I was a manga artist, I heard that she asked with expectant eyes, \"do you draw a  beautiful princess?\" I said, \"little girl, I'm sorry. What I draw are ugly men.\"\n\n ——Arakawa Hiromu"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -165,14 +172,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Arakawa Hiromu",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-01-01T13:18:17+00:00",
+    "version": 3,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -180,7 +189,9 @@
    "id": "963cbe7d-94fc-43cf-b5e1-355cdd1b1317",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "Hiromu Arakawa (荒川 弘, Arakawa Hiromu, born May 8, 1973) is a Japanese manga artist. She is best known for the manga series Fullmetal Alchemist (2001–2010), which became a hit both domestically and internationally, and was adapted into two anime television series. She is also known for Silver Spoon (2011–2019) and the manga adaptation of The Heroic Legend of Arslan novels.\n\nArakawa states that Suihō Tagawa, the author of Norakuro, is the \"root of [her] style as an artist\". She also learned composition and drawing during her time as assistant of Hiroyuki Etō [ja]. She also cites Rumiko Takahashi, Shigeru Mizuki, and Kinnikuman by Yudetamago as influences and is a fan of Mike Mignola's work. Reviewers consider Fullmetal Alchemist to have steampunk influences.\n\n\u003eWhen the neighbor's little girl (three years old) knew I was a manga artist, I heard that she asked with expectant eyes, \"do you draw a  beautiful princess?\" I said, \"little girl, I'm sorry. What I draw are ugly men.\"\n\n ——Arakawa Hiromu"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -188,14 +199,16 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Arakawa Hiromu",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2022-01-01T13:18:17+00:00",
+    "version": 3,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -206,6 +219,7 @@
     "createdAt": "2021-05-24T18:15:04+00:00",
     "description": "",
     "fileName": "8891e501-519d-4dde-8d96-60aec6d9198b.jpg",
+    "locale": "ko",
     "updatedAt": "2021-05-24T18:15:04+00:00",
     "version": 1,
     "volume": null
@@ -213,7 +227,8 @@
   },
   {
    "id": "dd8a907a-3850-4f95-ba03-ba201a8399e3",
-   "type": "manga"
+   "type": "manga",
+   "related": "based_on"
   }
  ]
 }

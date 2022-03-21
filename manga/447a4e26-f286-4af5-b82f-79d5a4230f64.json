@@ -3,17 +3,20 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Link no Bouken"
+   "en": "Zelda II: The Adventure of Link (MISHOUZAKI Yuu)"
   },
   "altTitles": [
    {
     "en": "The Adventure of Link"
    },
    {
-    "en": "Zelda no Densetsu - Link no Bouken"
+    "ja-ro": "Zelda no Densetsu - Rinku no Bouken (MISHOUZAKI Yuu)"
    },
    {
-    "en": "リンクの冒険"
+    "ja": "リンクの冒険"
+   },
+   {
+    "ja-ro": "Link no Bouken"
    }
   ],
   "description": {
@@ -29,7 +32,11 @@
   "lastChapter": "7",
   "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 1991,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -66,11 +73,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-04-02T04:59:33+00:00",
-  "updatedAt": "2021-05-25T15:41:46+00:00"
+  "updatedAt": "2022-03-13T00:22:43+00:00"
  },
  "relationships": [
   {
@@ -85,6 +105,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yuu Mishouzaki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -93,6 +114,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -108,6 +130,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yuu Mishouzaki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -116,6 +139,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -126,6 +150,7 @@
     "createdAt": "2021-05-24T17:06:40+00:00",
     "description": "",
     "fileName": "c173e162-82b9-4e9f-8866-81644f2f1f61.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:06:40+00:00",
     "version": 1,
     "volume": null
@@ -133,15 +158,18 @@
   },
   {
    "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "9ea704c7-6284-424e-a081-2b20b08434da",
-   "type": "manga"
+   "type": "manga",
+   "related": "alternate_story"
   },
   {
    "id": "dc8430bc-e07f-42bc-8f8e-0c192153c42e",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

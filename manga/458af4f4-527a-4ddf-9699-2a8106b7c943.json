@@ -3,17 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Seito Shokun!"
+   "en": "Attention All Students!"
   },
   "altTitles": [
-   {
-    "en": "Attention Students!"
-   },
    {
     "en": "Popcorn"
    },
    {
-    "en": "生徒諸君!"
+    "ja": "生徒諸君!"
+   },
+   {
+    "ja-ro": "Seito Shokun!"
    }
   ],
   "description": {
@@ -30,7 +30,11 @@
   "lastVolume": "24",
   "publicationDemographic": "shoujo",
   "status": "completed",
+  "year": 1978,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
@@ -93,9 +97,10 @@
     }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 5,
   "createdAt": "2021-03-06T18:03:41+00:00",
-  "updatedAt": "2021-05-25T15:41:46+00:00"
+  "updatedAt": "2022-03-07T04:48:08+00:00"
  },
  "relationships": [
   {
@@ -110,6 +115,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Shouji Youko",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -118,6 +124,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -133,6 +140,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Shouji Youko",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -141,6 +149,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -151,18 +160,26 @@
     "createdAt": "2021-05-24T18:33:59+00:00",
     "description": "",
     "fileName": "bc8c0fe1-71da-422a-b4a1-97bfce148e6f.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T18:33:59+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "7970c6ff-b846-4ee0-8f87-3a570de5818d",
-   "type": "manga"
+   "id": "151b2190-9396-40f3-9ecd-d12ffbeb7b7f",
+   "type": "manga",
+   "related": "side_story"
   },
   {
-   "id": "151b2190-9396-40f3-9ecd-d12ffbeb7b7f",
-   "type": "manga"
+   "id": "7970c6ff-b846-4ee0-8f87-3a570de5818d",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "954ffbc3-5f34-4257-88bb-9238145ecbab",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

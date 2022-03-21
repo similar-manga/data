@@ -23,6 +23,12 @@
   "status": "ongoing",
   "year": 2021,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "ru",
+   "pt-br",
+   "vi"
+  ],
   "tags": [
    {
     "id": "07251805-a27e-4d59-b488-f0bfbec15168",
@@ -61,9 +67,10 @@
     }
    }
   ],
-  "version": 5,
+  "state": "published",
+  "version": 7,
   "createdAt": "2021-11-25T07:43:17+00:00",
-  "updatedAt": "2021-12-08T15:27:19+00:00"
+  "updatedAt": "2022-02-11T12:42:57+00:00"
  },
  "relationships": [
   {
@@ -78,6 +85,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Natsumi Kei",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -86,6 +94,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -101,6 +110,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Ryukishi07",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -109,6 +119,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -124,6 +135,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Natsumi Kei",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -132,24 +144,37 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "93a49ffe-8080-4f79-a39c-8cf7070a2960",
+   "id": "ba0acd0d-40da-4ec4-814b-2c41715fce35",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-11-25T07:43:19+00:00",
+    "createdAt": "2022-01-17T18:59:29+00:00",
     "description": "",
-    "fileName": "cee11041-31c5-4d3f-9f5a-d7b5ec8f4999.png",
-    "updatedAt": "2021-12-03T19:29:58+00:00",
-    "version": 2,
-    "volume": ""
+    "fileName": "08020dcd-b3f3-4978-a66d-adf10654dfc5.jpg",
+    "locale": "ja",
+    "updatedAt": "2022-01-17T18:59:29+00:00",
+    "version": 1,
+    "volume": null
    }
   },
   {
-   "id": "38310449-6932-4feb-8b0e-1844aebdc3bd",
-   "type": "user"
+   "id": "0c0d59c5-8211-4f1f-9a4d-c6e51fbe51f4",
+   "type": "manga",
+   "related": "alternate_story"
+  },
+  {
+   "id": "0c0d59c5-8211-4f1f-9a4d-c6e51fbe51f4",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "12dca5e5-de97-4213-995f-7f0ff1e6ecce",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

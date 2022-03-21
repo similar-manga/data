@@ -61,6 +61,15 @@
   "publicationDemographic": "shounen",
   "status": "completed",
   "contentRating": "suggestive",
+  "availableTranslatedLanguages": [
+   "zh",
+   "es-la",
+   "en",
+   "it",
+   "pt-br",
+   "fr",
+   "id"
+  ],
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -159,9 +168,10 @@
     }
    }
   ],
-  "version": 3,
+  "state": "published",
+  "version": 5,
   "createdAt": "2018-08-10T06:10:25+00:00",
-  "updatedAt": "2021-12-05T13:06:20+00:00"
+  "updatedAt": "2022-01-25T00:48:31+00:00"
  },
  "relationships": [
   {
@@ -176,6 +186,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kamachi Kazuma",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -184,6 +195,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -199,6 +211,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Arata Yamaji",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -207,6 +220,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -217,38 +231,56 @@
     "createdAt": "2021-05-24T16:40:18+00:00",
     "description": "",
     "fileName": "5c31917c-4de8-4d32-b419-8e44c9fb8c0e.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T16:40:18+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "a828036b-c905-4798-aa84-593fef1e10ab",
-   "type": "manga"
+   "id": "034800c3-330c-437f-add5-00197020c21a",
+   "type": "manga",
+   "related": "spin_off"
   },
   {
    "id": "229e5177-2e71-4642-bd56-a9b0b0ba0e60",
-   "type": "manga"
+   "type": "manga",
+   "related": "main_story"
   },
   {
-   "id": "84568957-a4ff-4419-8bf6-35b08590b2eb",
-   "type": "manga"
+   "id": "397eb359-39c1-4fa8-8b5f-336507aca114",
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "4e0ab019-afcb-4fd9-98eb-fcb28cf7fc81",
+   "type": "manga",
+   "related": "shared_universe"
   },
   {
    "id": "6c7c44c8-ae9d-437e-ab19-4d2bd8ddc9e6",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
-   "id": "034800c3-330c-437f-add5-00197020c21a",
-   "type": "manga"
+   "id": "84568957-a4ff-4419-8bf6-35b08590b2eb",
+   "type": "manga",
+   "related": "shared_universe"
   },
   {
-   "id": "e10c02da-e7a3-40e2-8b3d-c6f769d4618c",
-   "type": "manga"
+   "id": "a828036b-c905-4798-aa84-593fef1e10ab",
+   "type": "manga",
+   "related": "shared_universe"
   },
   {
    "id": "d00bd104-d9b2-4ee9-a088-b5065d1c406a",
-   "type": "manga"
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "e10c02da-e7a3-40e2-8b3d-c6f769d4618c",
+   "type": "manga",
+   "related": "shared_universe"
   }
  ]
 }

@@ -40,6 +40,9 @@
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
   "tags": [
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
@@ -102,6 +105,7 @@
     }
    }
   ],
+  "state": "published",
   "version": 2,
   "createdAt": "2019-06-21T03:07:11+00:00",
   "updatedAt": "2021-05-25T15:46:09+00:00"
@@ -119,6 +123,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Atlus",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -127,6 +132,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -142,6 +148,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yasuo Kanou",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -150,6 +157,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -165,6 +173,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Yasuo Kanou",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -173,6 +182,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -183,66 +193,81 @@
     "createdAt": "2021-05-24T17:16:08+00:00",
     "description": "",
     "fileName": "36e7a963-9593-4f34-af45-84cb91f9bed6.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-24T17:16:08+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "ab01e0b7-b1ab-4bd3-9a90-bff4cfc3182a",
-   "type": "manga"
-  },
-  {
    "id": "1146f753-a0f3-4baa-87d4-5c1a3d5de85c",
-   "type": "manga"
-  },
-  {
-   "id": "c34c879e-df7e-4865-9ed2-962e13a48643",
-   "type": "manga"
-  },
-  {
-   "id": "5c8ca79d-a120-4dec-8000-e06e177f78bf",
-   "type": "manga"
-  },
-  {
-   "id": "48d9a7b4-b61f-49a1-aebc-11669ab3139c",
-   "type": "manga"
-  },
-  {
-   "id": "26aec3d0-f48f-4ce9-97ee-084cc2bbcda6",
-   "type": "manga"
-  },
-  {
-   "id": "b4d803e5-d825-456e-bb0e-77f05ffc1e63",
-   "type": "manga"
-  },
-  {
-   "id": "7e87b285-b6e3-4882-9c9e-22b4e8737a91",
-   "type": "manga"
-  },
-  {
-   "id": "9a8421be-9420-44f6-b8db-accd11107a12",
-   "type": "manga"
-  },
-  {
-   "id": "60846bad-6ab6-449f-98f8-6bd615e99974",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "12e2ab29-e28d-460c-bb14-2a6743281435",
-   "type": "manga"
-  },
-  {
-   "id": "25a38ff8-4cd4-4c7a-a20f-a85ee52bd0b4",
-   "type": "manga"
-  },
-  {
-   "id": "9b250b0a-7a27-41f0-a739-bdcf5bc0135d",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "2163c710-d78f-49ea-a1cf-79a03ac6a8a3",
-   "type": "manga"
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "25a38ff8-4cd4-4c7a-a20f-a85ee52bd0b4",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "26aec3d0-f48f-4ce9-97ee-084cc2bbcda6",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "48d9a7b4-b61f-49a1-aebc-11669ab3139c",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "5c8ca79d-a120-4dec-8000-e06e177f78bf",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "60846bad-6ab6-449f-98f8-6bd615e99974",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "7e87b285-b6e3-4882-9c9e-22b4e8737a91",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "9a8421be-9420-44f6-b8db-accd11107a12",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "9b250b0a-7a27-41f0-a739-bdcf5bc0135d",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "ab01e0b7-b1ab-4bd3-9a90-bff4cfc3182a",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "b4d803e5-d825-456e-bb0e-77f05ffc1e63",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "c34c879e-df7e-4865-9ed2-962e13a48643",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

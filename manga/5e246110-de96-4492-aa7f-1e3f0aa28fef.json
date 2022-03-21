@@ -3,17 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Shin Kozure Ookami: Lone Wolf"
+   "en": "Shin Lone Wolf and Cub : Ippiki Ookami"
   },
   "altTitles": [
    {
     "en": "New Lone Wolf \u0026 Cub"
    },
    {
-    "en": "New Lone Wolf and Cub"
+    "ja": "新・子連れ狼 LONE WOLF"
    },
    {
-    "en": "新・子連れ狼 LONE WOLF"
+    "ja-ro": "Shin Kozure Ookami: Lone Wolf"
    }
   ],
   "description": {
@@ -28,9 +28,11 @@
    "mu": "4785"
   },
   "originalLanguage": "ja",
+  "lastVolume": "11",
   "publicationDemographic": "seinen",
   "status": "completed",
-  "contentRating": "safe",
+  "year": 2003,
+  "contentRating": "suggestive",
   "tags": [
    {
     "id": "33771934-028e-4cb3-8744-691e866a923e",
@@ -69,6 +71,18 @@
     }
    },
    {
+    "id": "81183756-1453-4c81-aa9e-f6e1b63be016",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Samurai"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
     "type": "tag",
     "attributes": {
@@ -77,6 +91,18 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Gore"
+     },
+     "description": null,
+     "group": "content",
      "version": 1
     }
    },
@@ -93,9 +119,10 @@
     }
    }
   ],
-  "version": 1,
+  "state": "published",
+  "version": 3,
   "createdAt": "2019-04-26T13:08:15+00:00",
-  "updatedAt": "2019-04-26T13:08:15+00:00"
+  "updatedAt": "2022-02-13T03:49:19+00:00"
  },
  "relationships": [
   {
@@ -110,6 +137,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Koike Kazuo",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -118,6 +146,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -133,6 +162,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Kojima Goseki",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -141,6 +171,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -151,18 +182,21 @@
     "createdAt": "2021-05-24T17:09:35+00:00",
     "description": "",
     "fileName": "d43665f4-cb3a-4ee5-a0b4-f397f04fcb14.jpg",
-    "updatedAt": "2021-05-24T17:09:35+00:00",
-    "version": 1,
-    "volume": null
+    "locale": "ja",
+    "updatedAt": "2022-02-13T03:49:18+00:00",
+    "version": 2,
+    "volume": "1"
    }
   },
   {
    "id": "0aea1bd2-4bca-4856-8530-ea4d11a858cd",
-   "type": "manga"
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "526f68e3-4af1-460f-aea0-0fc29b0d6681",
-   "type": "manga"
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

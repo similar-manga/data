@@ -3,20 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Zelda no Densetsu - Skyward Sword"
+   "en": "The Legend of Zelda - Skyward Sword"
   },
   "altTitles": [
    {
-    "en": "The Legend of Zelda - Skyward Sword"
+    "ja-ro": "Zelda no Densetsu: Skyward Sword"
    },
    {
-    "en": "The Legend of Zelda: Skyward Sword"
-   },
-   {
-    "en": "Zelda no Densetsu: Skyward Sword"
-   },
-   {
-    "en": "ゼルダの伝説 スカイウォードソード"
+    "ja": "ゼルダの伝説 スカイウォードソード"
    }
   ],
   "description": {
@@ -28,8 +22,15 @@
    "mal": "33581"
   },
   "originalLanguage": "ja",
+  "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 2011,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en",
+   "ca",
+   "pt-br"
+  ],
   "tags": [
    {
     "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
@@ -78,11 +79,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
-  "version": 2,
+  "state": "published",
+  "version": 5,
   "createdAt": "2018-06-30T10:47:39+00:00",
-  "updatedAt": "2021-05-25T15:38:58+00:00"
+  "updatedAt": "2022-03-13T00:00:29+00:00"
  },
  "relationships": [
   {
@@ -97,6 +111,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Himekawa Akira",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -105,6 +120,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -120,6 +136,7 @@
     "imageUrl": null,
     "melonBook": null,
     "name": "Himekawa Akira",
+    "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
@@ -128,6 +145,7 @@
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
     "website": null,
+    "weibo": null,
     "youtube": null
    }
   },
@@ -138,18 +156,21 @@
     "createdAt": "2021-05-28T23:16:27+00:00",
     "description": "",
     "fileName": "7027fdee-ddda-4352-9263-a5a92a97b92b.jpg",
+    "locale": "ja",
     "updatedAt": "2021-05-28T23:16:27+00:00",
     "version": 1,
     "volume": null
    }
   },
   {
-   "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
-   "type": "manga"
+   "id": "24322835-916a-4054-887b-2d39fed55de7",
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
-   "id": "24322835-916a-4054-887b-2d39fed55de7",
-   "type": "manga"
+   "id": "382740ab-049b-470e-9f30-887f5b6cde0f",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }
