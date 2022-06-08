@@ -3,21 +3,12 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Kantai Collection -KanColle- Blue Resolution ~ Quantum Mechanics Rainbow (Doujinshi)"
+   "en": "Kantai Collection -KanColle- BLUE RESOLUTION ~ Quantum Mechanics Rainbow (Doujinshi)"
   },
-  "altTitles": [
-   {
-    "en": "(C85) Blue Resolution (艦隊これくしょん -艦これ-)"
-   },
-   {
-    "en": "Blue Resolution QMR"
-   }
-  ],
-  "description": {
-   "en": ""
-  },
+  "description": null,
   "originalLanguage": "ja",
   "status": "completed",
+  "year": 2013,
   "contentRating": "suggestive",
   "availableTranslatedLanguages": [
    "en"
@@ -36,6 +27,18 @@
     }
    },
    {
+    "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Comedy"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
     "type": "tag",
     "attributes": {
@@ -46,12 +49,24 @@
      "group": "format",
      "version": 1
     }
+   },
+   {
+    "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Slice of Life"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 6,
   "createdAt": "2018-08-28T14:47:20+00:00",
-  "updatedAt": "2021-05-25T15:38:57+00:00"
+  "updatedAt": "2022-05-13T05:23:46+00:00"
  },
  "relationships": [
   {
@@ -80,6 +95,31 @@
    }
   },
   {
+   "id": "72f0f5bd-7311-4f1b-99c0-3aacade43acc",
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Satake Yura",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
+  {
    "id": "7891d914-8ce6-481c-b775-ee0ebcfcf07c",
    "type": "author",
    "attributes": {
@@ -130,6 +170,31 @@
    }
   },
   {
+   "id": "72f0f5bd-7311-4f1b-99c0-3aacade43acc",
+   "type": "artist",
+   "attributes": {
+    "biography": [],
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Satake Yura",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
+  {
    "id": "7891d914-8ce6-481c-b775-ee0ebcfcf07c",
    "type": "artist",
    "attributes": {
@@ -155,17 +220,27 @@
    }
   },
   {
-   "id": "cb2304f4-5605-4f15-a47b-dab307a02106",
+   "id": "8a37d11c-fd05-46cf-a02a-575492e6bdc3",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T16:43:15+00:00",
+    "createdAt": "2022-05-12T21:04:03+00:00",
     "description": "",
-    "fileName": "73d882e7-d56d-40b1-af5b-0a800edca8d7.jpg",
+    "fileName": "d756f273-e6f9-4921-b9b6-a7890d141659.png",
     "locale": "ja",
-    "updatedAt": "2021-05-24T16:43:15+00:00",
+    "updatedAt": "2022-05-12T21:04:03+00:00",
     "version": 1,
-    "volume": null
+    "volume": "1"
    }
+  },
+  {
+   "id": "195f86aa-2982-410c-b13b-d02a940cd869",
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "3452e719-0d69-40a9-808f-e2c299c97efe",
+   "type": "manga",
+   "related": "shared_universe"
   }
  ]
 }

@@ -3,11 +3,11 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Kidou Senshi Gundam MSV Senki - Johnny Ridden"
+   "en": "Mobile Suit Gundam MSV Chronicles - Johnny Ridden"
   },
   "altTitles": [
    {
-    "en": "Kidou Senshi Gundam MSV Chronicles: Johnny Ridden"
+    "ja-ro": "Kidou Senshi Gundam MSV Chronicles: Johnny Ridden"
    },
    {
     "en": "Mobile Suit Gundam MSV Senki Johnny Ridden"
@@ -16,7 +16,10 @@
     "en": "Mobile Suit Variation War Johnny Ridden"
    },
    {
-    "en": "機動戦士ガンダムMSV戦記ジョニー・ライデン"
+    "ja": "機動戦士ガンダムMSV戦記ジョニー・ライデン"
+   },
+   {
+    "ja-ro": "Kidou Senshi Gundam MSV Senki - Johnny Ridden"
    }
   ],
   "description": {
@@ -32,12 +35,26 @@
   "originalLanguage": "ja",
   "lastVolume": "1",
   "lastChapter": "3",
+  "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 2007,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "en"
   ],
   "tags": [
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
     "type": "tag",
@@ -63,11 +80,47 @@
     }
    },
    {
+    "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Psychological"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "50880a9d-5440-4732-9afb-8f457127e836",
     "type": "tag",
     "attributes": {
      "name": {
       "en": "Mecha"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
      },
      "description": null,
      "group": "genre",
@@ -85,12 +138,48 @@
      "group": "theme",
      "version": 1
     }
+   },
+   {
+    "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Philosophical"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Tragedy"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 3,
   "createdAt": "2018-12-28T18:35:41+00:00",
-  "updatedAt": "2021-05-25T15:42:33+00:00"
+  "updatedAt": "2022-05-23T02:11:11+00:00"
  },
  "relationships": [
   {
@@ -151,15 +240,20 @@
     "description": "",
     "fileName": "6055821c-8d78-4d67-9f38-0859a16a76f4.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T16:56:01+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2022-05-23T02:11:11+00:00",
+    "version": 2,
+    "volume": "1"
    }
   },
   {
    "id": "146e72de-2e59-4f0e-8803-b5f8312cb8c4",
    "type": "manga",
    "related": "alternate_story"
+  },
+  {
+   "id": "146e72de-2e59-4f0e-8803-b5f8312cb8c4",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

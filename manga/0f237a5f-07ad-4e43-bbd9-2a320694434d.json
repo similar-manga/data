@@ -56,7 +56,7 @@
    }
   ],
   "description": {
-   "en": "Naofumi Iwatani, an uncharismatic Otaku who spends his days on games and manga, suddenly finds himself summoned to a parallel universe! He discovers he is one of four heroes equipped with legendary weapons and tasked with saving the world from its prophesied destruction.  \nAs the Shield Hero, the weakest of the heroes, all is not as it seems. Naofumi is soon alone, penniless, and betrayed. With no one to turn to, and nowhere to run, he is left with only his shield. Now, Naofumi must rise to become the legendary Shield Hero and save the world!  \n\n\n---",
+   "en": "Naofumi Iwatani, an uncharismatic Otaku who spends his days on games and manga, suddenly finds himself summoned to a parallel universe! He discovers he is one of four heroes equipped with legendary weapons and tasked with saving the world from its prophesied destruction.  \nAs the Shield Hero, the weakest of the heroes, all is not as it seems. Naofumi is soon alone, penniless, and betrayed. With no one to turn to, and nowhere to run, he is left with only his shield. Now, Naofumi must rise to become the legendary Shield Hero and save the world!",
    "ru": "Иватани Наофуми - типичный отаку, которого нагло призывают в другой мир и просят спасти его. Недолго ломаясь, он все-таки решается согласиться, попутно став одним из четырех героев - \"Героем Щита\". И все бы ничего, если бы парня не ограбили на третий день, да еще и в изнасиловании обвинили… Ограбленный и униженный перед обществом, Наофуми решает найти обидчиков и задать им жару. Помогать с этим ему будет девушка из расы енотолюдей, которую он выкупил у работорговца… \n\nАдаптация ранобэ Tate no Yuusha no Nariagari от Aneko Yusagi."
   },
   "links": {
@@ -83,9 +83,9 @@
    "es-la",
    "hu",
    "en",
+   "pt-br",
    "ru",
    "tr",
-   "pt-br",
    "ar",
    "it",
    "uk",
@@ -250,16 +250,18 @@
    }
   ],
   "state": "published",
-  "version": 34,
+  "version": 38,
   "createdAt": "2018-09-20T16:51:21+00:00",
-  "updatedAt": "2022-02-16T09:17:23+00:00"
+  "updatedAt": "2022-06-07T05:08:06+00:00"
  },
  "relationships": [
   {
    "id": "3b3522ac-8af1-4112-96a0-eef3eb8edd7c",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "**Alt names**:\nアネコユサギ"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -273,9 +275,9 @@
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "updatedAt": "2022-05-06T12:48:26+00:00",
+    "version": 2,
+    "website": "https://mypage.syosetu.com/172188/",
     "weibo": null,
     "youtube": null
    }
@@ -284,8 +286,10 @@
    "id": "7f432ca1-ae38-4280-8bbb-c1a9cff65528",
    "type": "artist",
    "attributes": {
-    "biography": [],
-    "booth": null,
+    "biography": {
+     "en": "**Alt names**:\nAiya Kyuu\nAiyaball\nあいやーぼーる\n眼球\n藍屋球"
+    },
+    "booth": "https://gan0kyu.booth.pm/",
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
     "fantia": null,
@@ -294,28 +298,28 @@
     "name": "Aiya Kyu",
     "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://www.pixiv.net/users/349014",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "https://twitter.com/gan0kyu",
+    "updatedAt": "2022-05-06T02:44:59+00:00",
+    "version": 2,
+    "website": "http://aiyah.seesaa.net/",
     "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "9478b094-1d20-4676-9a7e-4fb41fc5373f",
+   "id": "3ca4c072-36ad-4677-8d3f-a6b902a7de79",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2022-02-16T09:17:25+00:00",
+    "createdAt": "2022-06-07T05:08:06+00:00",
     "description": "",
-    "fileName": "db984f48-cf2a-4359-85ca-cc256c66d659.jpg",
+    "fileName": "d9b42310-8791-4027-ba12-83cdf08ee380.jpg",
     "locale": "ja",
-    "updatedAt": "2022-02-16T09:17:25+00:00",
+    "updatedAt": "2022-06-07T05:08:06+00:00",
     "version": 1,
-    "volume": "20"
+    "volume": "21"
    }
   },
   {
@@ -332,6 +336,11 @@
    "id": "5de63ed1-61ae-4f1a-8822-1b7e40e96e42",
    "type": "manga",
    "related": "spin_off"
+  },
+  {
+   "id": "677d80d9-d212-42b0-801a-08fc017f34b6",
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "7df1f449-d3e9-4507-9fb3-18d6238d76fa",
@@ -366,7 +375,17 @@
   {
    "id": "dfe09869-3e6d-4b1d-a8f7-9b9756b4c038",
    "type": "manga",
+   "related": "side_story"
+  },
+  {
+   "id": "dfe09869-3e6d-4b1d-a8f7-9b9756b4c038",
+   "type": "manga",
    "related": "spin_off"
+  },
+  {
+   "id": "fa525b20-252d-4fa5-9310-5e59b13450e9",
+   "type": "manga",
+   "related": "side_story"
   }
  ]
 }

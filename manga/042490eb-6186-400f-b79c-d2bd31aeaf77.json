@@ -3,20 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Kidou Senshi Gundam - Gyakushuu no Char"
+   "en": "Mobile Suit Gundam - Char's Counterattack (TOKITA Kouichi)"
   },
   "altTitles": [
    {
     "en": "Char's Counterattack (TOKITA Kouichi)"
    },
    {
-    "en": "Kidou Senshi Gandam - Gyakushu no Shaa"
+    "ja-ro": "Kidou Senshi Gandam - Gyakushu no Shaa"
    },
    {
-    "en": "Mobile Suit Gundam - Char's Counterattack"
-   },
-   {
-    "en": "機動戦士ガンダム 逆襲のシャア"
+    "ja": "機動戦士ガンダム 逆襲のシャア"
    }
   ],
   "description": {
@@ -33,10 +30,22 @@
   "originalLanguage": "ja",
   "lastVolume": "1",
   "lastChapter": "4",
-  "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 1998,
   "contentRating": "safe",
   "tags": [
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
     "type": "tag",
@@ -50,23 +59,23 @@
     }
    },
    {
-    "id": "2d1f5d56-a1e5-4d0d-a961-2193588b08ec",
-    "type": "tag",
-    "attributes": {
-     "name": {
-      "en": "Loli"
-     },
-     "description": null,
-     "group": "theme",
-     "version": 1
-    }
-   },
-   {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
     "type": "tag",
     "attributes": {
      "name": {
       "en": "Action"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Psychological"
      },
      "description": null,
      "group": "genre",
@@ -118,6 +127,18 @@
      },
      "description": null,
      "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": null,
+     "group": "genre",
      "version": 1
     }
    },
@@ -183,9 +204,9 @@
    }
   ],
   "state": "published",
-  "version": 1,
+  "version": 3,
   "createdAt": "2019-10-13T05:47:37+00:00",
-  "updatedAt": "2019-10-13T05:47:37+00:00"
+  "updatedAt": "2022-05-21T02:21:01+00:00"
  },
  "relationships": [
   {
@@ -271,10 +292,15 @@
     "description": "",
     "fileName": "e04d40bb-a41c-439a-b7c9-2934a725b478.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T17:30:00+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2022-05-21T02:20:41+00:00",
+    "version": 2,
+    "volume": "1"
    }
+  },
+  {
+   "id": "146e72de-2e59-4f0e-8803-b5f8312cb8c4",
+   "type": "manga",
+   "related": "prequel"
   },
   {
    "id": "23cd2a69-6890-490b-8a4e-e3f52b3f7338",
@@ -285,6 +311,16 @@
    "id": "37136be1-6737-4bf6-bdbb-6a784e05f76e",
    "type": "manga",
    "related": "side_story"
+  },
+  {
+   "id": "53f750df-53b0-4823-aa7b-0d69b90d853a",
+   "type": "manga",
+   "related": "prequel"
+  },
+  {
+   "id": "53f750df-53b0-4823-aa7b-0d69b90d853a",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "cfe4bb6c-5777-4125-bc3a-a61f36cdfc8d",

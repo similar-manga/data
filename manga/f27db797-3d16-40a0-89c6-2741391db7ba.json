@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Shin Subarashiki Kono Sekai"
+   "en": "NEO: The World Ends with You"
   },
   "altTitles": [
    {
     "ja": "新すばらしきこのせかい"
    },
    {
-    "en": "NEO: The World Ends with You"
+    "ja-ro": "Shin Subarashiki Kono Sekai"
    }
   ],
   "description": {
@@ -77,6 +77,30 @@
     }
    },
    {
+    "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Video Games"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Magic"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
     "type": "tag",
     "attributes": {
@@ -99,12 +123,36 @@
      "group": "theme",
      "version": 1
     }
+   },
+   {
+    "id": "ee968100-4191-4968-93d3-f82d72be7e46",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Mystery"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 4,
+  "version": 6,
   "createdAt": "2021-12-20T03:21:33+00:00",
-  "updatedAt": "2021-12-25T14:44:00+00:00"
+  "updatedAt": "2022-05-22T22:21:10+00:00"
  },
  "relationships": [
   {
@@ -169,6 +217,11 @@
     "version": 1,
     "volume": "1"
    }
+  },
+  {
+   "id": "a1a087c2-9d8c-417b-b405-316d89b54a14",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

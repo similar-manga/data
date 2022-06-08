@@ -8,10 +8,13 @@
   "altTitles": [
    {
     "ja": "ユニコ (小学一年生版)"
+   },
+   {
+    "ja-ro": "Unico (Shogaku Ichinensei)"
    }
   ],
   "description": {
-   "en": "Another version of the Unico story by Tezuka, done for the young children's magazine Shogaku Ichinensei (First Grader). Features Unico living with a human boy and new characters, like Ragon (a little dragon)."
+   "en": "The continuation of the Unico story by Tezuka, done for the young children's magazine Shogaku Ichinensei (First Grader). Features Unico living with a human boy and new characters, like Ragon (a little dragon)."
   },
   "originalLanguage": "ja",
   "lastVolume": "1",
@@ -21,6 +24,18 @@
   "year": 1980,
   "contentRating": "safe",
   "tags": [
+   {
+    "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Monsters"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
    {
     "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
     "type": "tag",
@@ -46,11 +61,47 @@
     }
    },
    {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
     "type": "tag",
     "attributes": {
      "name": {
       "en": "Magic"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "School Life"
      },
      "description": null,
      "group": "theme",
@@ -83,9 +134,9 @@
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 6,
   "createdAt": "2022-02-27T02:12:11+00:00",
-  "updatedAt": "2022-02-27T02:14:59+00:00"
+  "updatedAt": "2022-05-30T18:33:45+00:00"
  },
  "relationships": [
   {
@@ -159,6 +210,11 @@
    "id": "7b917b99-8fa0-4c11-9488-17bca1314f65",
    "type": "manga",
    "related": "alternate_story"
+  },
+  {
+   "id": "7b917b99-8fa0-4c11-9488-17bca1314f65",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

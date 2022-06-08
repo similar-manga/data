@@ -7,7 +7,10 @@
   },
   "altTitles": [
    {
-    "en": "鉄腕アトムクラブ [ジャングル大帝], Tetsuwan Atom kurabu [Jungle Taitei]"
+    "ja": "鉄腕アトムクラブ [ジャングル大帝]"
+   },
+   {
+    "ja-ro": "Tetsuwan Atom Kurabu [Jungle Taitei]"
    }
   ],
   "description": {
@@ -16,6 +19,7 @@
   "originalLanguage": "ja",
   "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 1966,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "en"
@@ -30,6 +34,18 @@
      },
      "description": null,
      "group": "format",
+     "version": 1
+    }
+   },
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
      "version": 1
     }
    },
@@ -58,6 +74,18 @@
     }
    },
    {
+    "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Comedy"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
     "type": "tag",
     "attributes": {
@@ -80,12 +108,36 @@
      "group": "format",
      "version": 1
     }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 3,
   "createdAt": "2020-12-22T03:38:01+00:00",
-  "updatedAt": "2021-05-25T15:40:11+00:00"
+  "updatedAt": "2022-05-19T01:54:38+00:00"
  },
  "relationships": [
   {
@@ -266,22 +318,27 @@
    }
   },
   {
-   "id": "96b5587c-7fd4-4f70-bfb3-169e6dda2215",
+   "id": "92f621c0-716c-4f9c-a029-f329ba656645",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T18:23:47+00:00",
+    "createdAt": "2021-05-23T07:49:51+00:00",
     "description": "",
-    "fileName": "99529fbf-d7f6-451f-a35b-b7d91f6df2f1.jpg",
+    "fileName": "1a2a56ea-503d-41bd-abfc-8775457cdf05.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T18:23:47+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2021-05-23T07:49:51+00:00",
+    "version": 2,
+    "volume": "28"
    }
   },
   {
    "id": "bad33763-70c6-40b7-8d14-190556fc55f0",
    "type": "manga",
    "related": "alternate_story"
+  },
+  {
+   "id": "bad33763-70c6-40b7-8d14-190556fc55f0",
+   "type": "manga",
+   "related": "alternate_version"
   }
  ]
 }

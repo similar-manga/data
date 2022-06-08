@@ -3,23 +3,23 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Subarashiki Kono Sekai"
+   "en": "The World Ends with You"
   },
   "altTitles": [
    {
     "en": "It's A Wonderful World"
    },
    {
-    "en": "Subarashiki Konosekai"
+    "ja-ro": "Subarashiki Konosekai"
    },
    {
-    "en": "The World Ends with You"
+    "ja": "すばらしきこのせかい"
    },
    {
-    "en": "すばらしきこのせかい"
+    "zh": "华丽的世界"
    },
    {
-    "en": "华丽的世界"
+    "en": "What a Wonderful World"
    }
   ],
   "description": {
@@ -36,6 +36,7 @@
   "lastChapter": "2",
   "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 2008,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "en",
@@ -43,11 +44,35 @@
   ],
   "tags": [
    {
+    "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Oneshot"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
+   },
+   {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
     "type": "tag",
     "attributes": {
      "name": {
       "en": "Action"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Comedy"
      },
      "description": null,
      "group": "genre",
@@ -65,12 +90,72 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Video Games"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Supernatural"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "ee968100-4191-4968-93d3-f82d72be7e46",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Mystery"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 5,
   "createdAt": "2018-04-08T07:05:52+00:00",
-  "updatedAt": "2021-05-25T15:45:53+00:00"
+  "updatedAt": "2022-05-22T22:21:05+00:00"
  },
  "relationships": [
   {
@@ -156,10 +241,15 @@
     "description": "",
     "fileName": "83212196-76f1-40a8-a7a0-e74c4bc1711b.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T17:41:21+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2022-05-16T19:11:40+00:00",
+    "version": 2,
+    "volume": "1"
    }
+  },
+  {
+   "id": "f27db797-3d16-40a0-89c6-2741391db7ba",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }

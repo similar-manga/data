@@ -3,12 +3,9 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Kenshirou ni Yoroshiku"
+   "en": "Send My Regards to Kenshiro"
   },
   "altTitles": [
-   {
-    "en": "Send My Regards to Kenshiro"
-   },
    {
     "ja-ro": "Kenyoro"
    },
@@ -17,6 +14,9 @@
    },
    {
     "zh": "穴界風雲"
+   },
+   {
+    "ja-ro": "Kenshirou ni Yoroshiku"
    }
   ],
   "description": {
@@ -29,6 +29,7 @@
    "bw": "series/258156/list/",
    "cdj": "https://www.cdjapan.co.jp/product/NEOBK-2510826",
    "ebj": "https://ebookjapan.yahoo.co.jp/books/597543/",
+   "kt": "kenshirou-ni-yoroshiku",
    "mal": "126880",
    "mu": "162289",
    "raw": "https://comic-days.com/episode/13933686331609116634"
@@ -59,11 +60,59 @@
     }
    },
    {
+    "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Crime"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Martial Arts"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
     "type": "tag",
     "attributes": {
      "name": {
       "en": "Mafia"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Office Workers"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "9467335a-1b83-4497-9231-765337a00b96",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Post-Apocalyptic"
      },
      "description": null,
      "group": "theme",
@@ -93,12 +142,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Slice of Life"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 13,
+  "version": 15,
   "createdAt": "2020-07-11T07:52:08+00:00",
-  "updatedAt": "2022-02-28T07:02:39+00:00"
+  "updatedAt": "2022-05-26T08:52:41+00:00"
  },
  "relationships": [
   {
@@ -163,6 +224,11 @@
     "version": 1,
     "volume": "5"
    }
+  },
+  {
+   "id": "75251a47-952c-4e38-b1c6-3572b9bfd481",
+   "type": "manga",
+   "related": "doujinshi"
   }
  ]
 }
