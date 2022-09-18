@@ -3,7 +3,7 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Battle Story Rockman.EXE"
+   "en": "Battle Story Mega Man Battle Network"
   },
   "altTitles": [
    {
@@ -11,6 +11,9 @@
    },
    {
     "ja": "バトルストーリーロックマンエグゼ"
+   },
+   {
+    "ja-ro": "Battle Story Rockman.EXE"
    }
   ],
   "description": {
@@ -20,7 +23,7 @@
    "al": "46702",
    "amz": "https://www.amazon.co.jp/dp/B09SKSSGBW",
    "ap": "battle-story-rockmanexe",
-   "bw": "series/342829/",
+   "bw": "series/342829",
    "ebj": "https://ebookjapan.yahoo.co.jp/books/682569/",
    "kt": "3355",
    "mal": "16702",
@@ -38,6 +41,18 @@
    "en"
   ],
   "tags": [
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
     "type": "tag",
@@ -75,6 +90,54 @@
     }
    },
    {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Video Games"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
     "type": "tag",
     "attributes": {
@@ -83,6 +146,18 @@
      },
      "description": null,
      "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Slice of Life"
+     },
+     "description": null,
+     "group": "genre",
      "version": 1
     }
    },
@@ -100,11 +175,36 @@
    }
   ],
   "state": "published",
-  "version": 10,
+  "version": 11,
   "createdAt": "2019-04-02T18:11:04+00:00",
-  "updatedAt": "2022-06-02T20:07:48+00:00"
+  "updatedAt": "2022-07-27T01:51:56+00:00"
  },
  "relationships": [
+  {
+   "id": "4d83a2f2-45e0-480d-8d2c-dad6e29e504a",
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Capcom",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "73afe7c3-6f80-488c-bb4c-03c522343cd2",
    "type": "author",
@@ -172,6 +272,11 @@
    "id": "085a46d0-2adc-42f3-9fd3-4874000e2421",
    "type": "manga",
    "related": "alternate_story"
+  },
+  {
+   "id": "085a46d0-2adc-42f3-9fd3-4874000e2421",
+   "type": "manga",
+   "related": "main_story"
   },
   {
    "id": "e0e9e8fe-9fbe-4e4e-992c-00c1f5694593",

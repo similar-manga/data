@@ -3,7 +3,7 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Rockman X2 - Ano Tokushu Buki o Ubae!"
+   "en": "Mega Man X2: Get Those Special Weapons!"
   },
   "altTitles": [
    {
@@ -11,6 +11,9 @@
    },
    {
     "en": "Rockman X2: Get Those Special Weapons!"
+   },
+   {
+    "ja-ro": "Rockman X2 - Ano Tokushu Buki o Ubae!"
    }
   ],
   "description": {
@@ -42,6 +45,30 @@
     }
    },
    {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sci-Fi"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
     "type": "tag",
     "attributes": {
@@ -62,6 +89,18 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": null,
+     "group": "theme",
      "version": 1
     }
    },
@@ -90,6 +129,42 @@
     }
    },
    {
+    "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Military"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "df33b754-73a3-4c54-80e6-1a74a8058539",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Police"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
     "type": "tag",
     "attributes": {
@@ -103,11 +178,36 @@
    }
   ],
   "state": "published",
-  "version": 4,
+  "version": 5,
   "createdAt": "2022-02-03T21:48:15+00:00",
-  "updatedAt": "2022-02-04T14:50:14+00:00"
+  "updatedAt": "2022-07-27T01:35:15+00:00"
  },
  "relationships": [
+  {
+   "id": "4d83a2f2-45e0-480d-8d2c-dad6e29e504a",
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Capcom",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "6b4b8184-174e-4328-a300-08255b8233f3",
    "type": "author",
@@ -175,6 +275,16 @@
    "id": "2300ddd8-4bc7-4282-8891-d72e0c9bd22e",
    "type": "manga",
    "related": "alternate_story"
+  },
+  {
+   "id": "2300ddd8-4bc7-4282-8891-d72e0c9bd22e",
+   "type": "manga",
+   "related": "main_story"
+  },
+  {
+   "id": "8396cc8b-f8ac-4c3a-9e00-c771996b6e14",
+   "type": "manga",
+   "related": "main_story"
   },
   {
    "id": "8396cc8b-f8ac-4c3a-9e00-c771996b6e14",

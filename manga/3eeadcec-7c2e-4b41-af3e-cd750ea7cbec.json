@@ -3,7 +3,7 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "The Metamorphosis"
+   "en": "The Metamorphosis (Variety Art Works)"
   },
   "altTitles": [
    {
@@ -14,6 +14,12 @@
    },
    {
     "ru": "Превращение"
+   },
+   {
+    "en": "Metamorphose (Variety Art Works)"
+   },
+   {
+    "pt": "A Metamorfose"
    }
   ],
   "description": {
@@ -75,6 +81,18 @@
     }
    },
    {
+    "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Philosophical"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "cdad7e68-1419-41dd-bdce-27753074a640",
     "type": "tag",
     "attributes": {
@@ -97,12 +115,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 5,
+  "version": 6,
   "createdAt": "2020-03-10T01:09:04+00:00",
-  "updatedAt": "2022-04-18T00:24:00+00:00"
+  "updatedAt": "2022-06-18T22:06:31+00:00"
  },
  "relationships": [
   {
@@ -163,10 +193,15 @@
     "description": "",
     "fileName": "63875661-9217-4678-b3d3-1466d746068b.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T17:48:02+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2022-06-18T22:06:31+00:00",
+    "version": 2,
+    "volume": "1"
    }
+  },
+  {
+   "id": "df99556f-85ce-4a16-97b2-4ed9c035490e",
+   "type": "manga",
+   "related": "spin_off"
   }
  ]
 }

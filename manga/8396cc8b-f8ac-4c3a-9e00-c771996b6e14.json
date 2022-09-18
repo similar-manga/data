@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Irregular Hunter Rockman X"
+   "en": "Maverick Hunter Mega Man X"
   },
   "altTitles": [
    {
-    "en": "Maverick Hunter Mega Man X"
+    "ja": "イレギュラーハンターロックマンX"
    },
    {
-    "ja": "イレギュラーハンターロックマンX"
+    "ja-ro": "Irregular Hunter Rockman X"
    }
   ],
   "description": {
@@ -73,6 +73,30 @@
     }
    },
    {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Video Games"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
     "type": "tag",
     "attributes": {
@@ -95,14 +119,51 @@
      "group": "format",
      "version": 1
     }
+   },
+   {
+    "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Tragedy"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 6,
+  "version": 9,
   "createdAt": "2019-03-02T18:09:06+00:00",
-  "updatedAt": "2022-02-06T01:11:03+00:00"
+  "updatedAt": "2022-08-23T01:43:06+00:00"
  },
  "relationships": [
+  {
+   "id": "4d83a2f2-45e0-480d-8d2c-dad6e29e504a",
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Capcom",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "6b4b8184-174e-4328-a300-08255b8233f3",
    "type": "author",
@@ -154,16 +215,16 @@
    }
   },
   {
-   "id": "293ad27e-25f3-4f58-99d0-d828bb41515c",
+   "id": "08bdfe4c-9e3c-4e9e-bd0f-602166b7ffd5",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-23T06:26:04+00:00",
+    "createdAt": "2022-08-23T01:43:05+00:00",
     "description": "",
-    "fileName": "aa955231-5bc8-4226-9544-fba23fc9798d.jpg",
+    "fileName": "8dc75173-c3a5-4462-91fc-3571f7a79908.png",
     "locale": "ja",
-    "updatedAt": "2021-11-18T20:04:40+00:00",
-    "version": 3,
-    "volume": "2"
+    "updatedAt": "2022-08-23T01:43:05+00:00",
+    "version": 1,
+    "volume": "2.1"
    }
   },
   {
@@ -175,6 +236,11 @@
    "id": "4de536ea-295a-42a0-a0aa-3ce506b9ea65",
    "type": "manga",
    "related": "shared_universe"
+  },
+  {
+   "id": "4de536ea-295a-42a0-a0aa-3ce506b9ea65",
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "4f3738aa-4426-4282-8afb-34d9a495caf6",

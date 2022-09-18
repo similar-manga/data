@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Rockman 8"
+   "en": "Mega Man 8"
   },
   "altTitles": [
    {
-    "en": "Mega Man 8"
+    "ja": "ロックマン8"
    },
    {
-    "ja": "ロックマン8"
+    "ja-ro": "Rockman 8"
    }
   ],
   "description": {
@@ -19,7 +19,7 @@
   "links": {
    "al": "52559",
    "amz": "https://www.amazon.co.jp/dp/B09NN1TS7N",
-   "bw": "series/333551/",
+   "bw": "series/333551",
    "ebj": "https://ebookjapan.yahoo.co.jp/books/671660/",
    "kt": "13652",
    "mal": "22559",
@@ -38,6 +38,18 @@
    "en"
   ],
   "tags": [
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
     "type": "tag",
@@ -63,11 +75,71 @@
     }
    },
    {
+    "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Comedy"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "50880a9d-5440-4732-9afb-8f457127e836",
     "type": "tag",
     "attributes": {
      "name": {
       "en": "Mecha"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Video Games"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
      },
      "description": null,
      "group": "genre",
@@ -88,11 +160,36 @@
    }
   ],
   "state": "published",
-  "version": 8,
+  "version": 9,
   "createdAt": "2019-11-11T11:05:03+00:00",
-  "updatedAt": "2022-04-02T18:50:33+00:00"
+  "updatedAt": "2022-07-08T02:40:36+00:00"
  },
  "relationships": [
+  {
+   "id": "4d83a2f2-45e0-480d-8d2c-dad6e29e504a",
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Capcom",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "53639f15-eda6-4cd4-8c39-90a6d45c0265",
    "type": "author",

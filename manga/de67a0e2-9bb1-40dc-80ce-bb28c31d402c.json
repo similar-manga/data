@@ -3,14 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Senya Ichiya Monogatari"
+   "en": "One Thousand and One Nights (Variety Art Works)"
   },
   "altTitles": [
    {
-    "en": "One Thousand and One Nights"
+    "ja-ro": "Senya Ichiya Monogatari"
    },
    {
-    "en": "千夜一夜物語"
+    "ja": "千夜一夜物語"
+   },
+   {
+    "en": "1001 Nights (Variety Art Works)"
    }
   ],
   "description": {
@@ -31,6 +34,30 @@
    "en"
   ],
   "tags": [
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Psychological"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
     "type": "tag",
@@ -66,12 +93,36 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
+   },
+   {
+    "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Tragedy"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 4,
   "createdAt": "2020-03-10T00:37:24+00:00",
-  "updatedAt": "2022-01-07T14:41:30+00:00"
+  "updatedAt": "2022-06-18T21:54:19+00:00"
  },
  "relationships": [
   {
@@ -132,10 +183,15 @@
     "description": "",
     "fileName": "a360ed26-0363-43c4-95be-782f3b9e315c.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T17:48:02+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2022-06-18T21:54:19+00:00",
+    "version": 2,
+    "volume": "1"
    }
+  },
+  {
+   "id": "bb5541c4-f4f0-49b4-b084-4cc832a16ef8",
+   "type": "manga",
+   "related": "alternate_story"
   }
  ]
 }

@@ -3,17 +3,20 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Rockman 11"
+   "en": "Mega Man 11"
   },
   "altTitles": [
    {
-    "en": "Mega Man 11"
+    "en": "Mega Man 11 - The Gears of Fate!!"
    },
    {
-    "en": "Rockman 11: The Gears of Fate!!"
+    "ja-ro": "Rockman 11: unmei no haguruma! !"
    },
    {
     "ja": "ロックマン11 運命の歯車!!"
+   },
+   {
+    "ja-ro": "Rockman 11"
    }
   ],
   "description": {
@@ -46,6 +49,18 @@
      },
      "description": null,
      "group": "format",
+     "version": 1
+    }
+   },
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
      "version": 1
     }
    },
@@ -86,6 +101,54 @@
     }
    },
    {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Video Games"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
     "type": "tag",
     "attributes": {
@@ -99,11 +162,36 @@
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 5,
   "createdAt": "2019-08-07T08:34:57+00:00",
-  "updatedAt": "2021-11-10T18:21:49+00:00"
+  "updatedAt": "2022-07-27T01:26:50+00:00"
  },
  "relationships": [
+  {
+   "id": "4d83a2f2-45e0-480d-8d2c-dad6e29e504a",
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Capcom",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "8e5e555f-299d-441f-a5f9-d4946a44baf8",
    "type": "author",
@@ -166,6 +254,11 @@
     "version": 4,
     "volume": "1"
    }
+  },
+  {
+   "id": "39f81ed6-342b-4fa1-adb2-d9e24bcf9455",
+   "type": "manga",
+   "related": "prequel"
   },
   {
    "id": "3c99c9e6-67d9-4bd1-9d9e-c72ec505d7e5",

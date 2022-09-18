@@ -28,7 +28,7 @@
    "al": "41425",
    "amz": "https://www.amazon.co.jp/gp/product/B0749Q76TX",
    "ap": "baki-the-grappler",
-   "bw": "series/3584/",
+   "bw": "series/3584",
    "ebj": "https://ebookjapan.yahoo.co.jp/books/119521/",
    "kt": "21437",
    "mal": "11425",
@@ -45,15 +45,27 @@
   "availableTranslatedLanguages": [
    "pt-br",
    "en",
+   "tr",
    "fr",
    "ru",
+   "he",
    "zh-hk",
    "pl",
-   "he",
-   "tr",
    "es"
   ],
   "tags": [
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
     "type": "tag",
@@ -63,6 +75,42 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Psychological"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Comedy"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": null,
+     "group": "theme",
      "version": 1
     }
    },
@@ -91,6 +139,18 @@
     }
    },
    {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
     "type": "tag",
     "attributes": {
@@ -113,12 +173,48 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "da2d50ca-3018-4cc0-ac7a-6b7d472a29ea",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Delinquents"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Slice of Life"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Tragedy"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 12,
+  "version": 14,
   "createdAt": "2018-03-08T19:12:06+00:00",
-  "updatedAt": "2022-04-16T17:09:18+00:00"
+  "updatedAt": "2022-09-12T23:31:53+00:00"
  },
  "relationships": [
   {
@@ -176,16 +272,16 @@
    }
   },
   {
-   "id": "f3273a04-8b2b-4f6b-aef7-fd43137bc936",
+   "id": "4783bb7e-c10c-4bf0-bda9-ce355c6d2693",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:06:46+00:00",
+    "createdAt": "2022-06-15T01:40:39+00:00",
     "description": "",
-    "fileName": "2394ad1b-4fa4-4fd4-a80b-8a33d8f07b11.jpg",
+    "fileName": "26fc9a27-fd9c-4d42-b623-cf07fcd59f35.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T17:06:46+00:00",
+    "updatedAt": "2022-06-15T01:40:39+00:00",
     "version": 1,
-    "volume": null
+    "volume": "1"
    }
   },
   {
@@ -225,6 +321,11 @@
   },
   {
    "id": "96aa1fc0-8585-4a73-a813-09fda4738bed",
+   "type": "manga",
+   "related": "side_story"
+  },
+  {
+   "id": "fe9b4485-550a-4823-84eb-8680283b5d9f",
    "type": "manga",
    "related": "side_story"
   }

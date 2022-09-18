@@ -3,18 +3,24 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Kidou Senshi Gundam - The Ghost of Neo Zeon"
+   "en": "Mobile Suit Gundam - The Ghost of Neo Zeon"
   },
+  "altTitles": [
+   {
+    "ja-ro": "Kidou Senshi Gundam - The Ghost of Neo Zeon"
+   }
+  ],
   "description": {
-   "en": "A Gundam comic from 1991’s Gundam Magazine set in Universal Century 0094 that exhibits an external mobile suit control system via the psycommu."
+   "en": "Gundam manga from 1991. Published in Kodansha's Gundam Magazine and set in Universal Century 0094 that exhibits an external mobile suit control system via the psycommu."
+  },
+  "links": {
+   "mu": "9703115973"
   },
   "originalLanguage": "ja",
+  "lastChapter": "1",
   "status": "completed",
   "year": 1991,
   "contentRating": "safe",
-  "availableTranslatedLanguages": [
-   "en"
-  ],
   "tags": [
    {
     "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
@@ -29,6 +35,42 @@
     }
    },
    {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sci-Fi"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Action"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "50880a9d-5440-4732-9afb-8f457127e836",
     "type": "tag",
     "attributes": {
@@ -39,16 +81,76 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Supernatural"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Tragedy"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 5,
   "createdAt": "2020-03-23T09:27:16+00:00",
-  "updatedAt": "2022-06-06T19:16:56+00:00"
+  "updatedAt": "2022-06-17T20:50:08+00:00"
  },
  "relationships": [
   {
-   "id": "1c7f628b-c637-4488-a925-bf5d897f89f6",
+   "id": "e7d31fe0-2de1-4e91-9100-6778bb465a2e",
    "type": "author",
    "attributes": {
     "biography": [],
@@ -58,7 +160,7 @@
     "fantia": null,
     "imageUrl": null,
     "melonBook": null,
-    "name": "Yoshiyuki Tomino",
+    "name": "Iwamura Toshiya",
     "naver": null,
     "nicoVideo": null,
     "pixiv": null,
@@ -73,7 +175,7 @@
    }
   },
   {
-   "id": "1c7f628b-c637-4488-a925-bf5d897f89f6",
+   "id": "e7d31fe0-2de1-4e91-9100-6778bb465a2e",
    "type": "artist",
    "attributes": {
     "biography": [],
@@ -83,7 +185,7 @@
     "fantia": null,
     "imageUrl": null,
     "melonBook": null,
-    "name": "Yoshiyuki Tomino",
+    "name": "Iwamura Toshiya",
     "naver": null,
     "nicoVideo": null,
     "pixiv": null,
@@ -109,6 +211,11 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "23cd2a69-6890-490b-8a4e-e3f52b3f7338",
+   "type": "manga",
+   "related": "prequel"
   },
   {
    "id": "fb5e36c6-07b1-4efc-bcd4-409fad9138bb",

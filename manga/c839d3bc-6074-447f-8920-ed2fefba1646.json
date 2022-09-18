@@ -3,7 +3,7 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "The Word of BUDDHA"
+   "en": "The Word of BUDDHA (Variety Art Works)"
   },
   "altTitles": [
    {
@@ -22,6 +22,7 @@
    "mu": "133914"
   },
   "originalLanguage": "ja",
+  "lastVolume": "1",
   "lastChapter": "10",
   "status": "completed",
   "year": 2010,
@@ -31,11 +32,59 @@
   ],
   "tags": [
    {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "33771934-028e-4cb3-8744-691e866a923e",
     "type": "tag",
     "attributes": {
      "name": {
       "en": "Historical"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Psychological"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Philosophical"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
      },
      "description": null,
      "group": "genre",
@@ -53,12 +102,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": null,
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 4,
+  "version": 5,
   "createdAt": "2019-04-15T23:50:59+00:00",
-  "updatedAt": "2022-02-27T22:00:15+00:00"
+  "updatedAt": "2022-06-18T22:12:52+00:00"
  },
  "relationships": [
   {
@@ -123,6 +184,16 @@
     "version": 2,
     "volume": "1"
    }
+  },
+  {
+   "id": "4e102d46-0a98-4249-8a42-98e4705b663e",
+   "type": "manga",
+   "related": "alternate_story"
+  },
+  {
+   "id": "e1d6dd1c-5ceb-44f7-bfe6-f74199288b07",
+   "type": "manga",
+   "related": "spin_off"
   }
  ]
 }

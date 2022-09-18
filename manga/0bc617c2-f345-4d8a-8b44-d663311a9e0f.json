@@ -3,22 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Ultraman Taro"
+   "en": "Ultraman Taro (ISHIKAWA Ken)"
   },
   "altTitles": [
    {
     "en": "Ultraman T"
    },
    {
-    "en": "Ultraman Tarou"
-   },
-   {
-    "en": "ウルトラマンタロウ"
+    "ja": "ウルトラマンタロウ"
    }
   ],
-  "description": {
-   "en": ""
-  },
+  "description": null,
   "links": {
    "mu": "62098"
   },
@@ -26,8 +21,21 @@
   "lastVolume": "1",
   "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 1973,
   "contentRating": "safe",
   "tags": [
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
     "type": "tag",
@@ -37,6 +45,18 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Monsters"
+     },
+     "description": null,
+     "group": "theme",
      "version": 1
     }
    },
@@ -65,6 +85,30 @@
     }
    },
    {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
     "type": "tag",
     "attributes": {
@@ -73,6 +117,18 @@
      },
      "description": null,
      "group": "content",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": null,
+     "group": "genre",
      "version": 1
     }
    },
@@ -99,12 +155,24 @@
      "group": "format",
      "version": 1
     }
+   },
+   {
+    "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Tragedy"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 1,
+  "version": 3,
   "createdAt": "2020-08-31T18:38:48+00:00",
-  "updatedAt": "2020-08-31T18:38:48+00:00"
+  "updatedAt": "2022-06-29T23:13:40+00:00"
  },
  "relationships": [
   {
@@ -169,6 +237,11 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "499c597c-2ba6-421b-9900-82d60435b518",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

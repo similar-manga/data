@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Rockman X2"
+   "en": "Mega Man X2"
   },
   "altTitles": [
    {
-    "en": "Mega Man X2"
+    "ja": "ロックマンX2"
    },
    {
-    "ja": "ロックマンX2"
+    "ja-ro": "Rockman X2"
    }
   ],
   "description": {
@@ -20,7 +20,7 @@
    "al": "51682",
    "amz": "https://www.amazon.co.jp/dp/B09C1VN85W/",
    "ap": "rockman-x2",
-   "bw": "de1827c8a5-694c-42db-ac01-e7a25be3676e/",
+   "bw": "de1827c8a5-694c-42db-ac01-e7a25be3676e",
    "ebj": "https://ebookjapan.yahoo.co.jp/books/651058/A002677367/",
    "kt": "11467",
    "mal": "21682",
@@ -76,6 +76,42 @@
     }
    },
    {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Video Games"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
     "type": "tag",
     "attributes": {
@@ -101,11 +137,36 @@
    }
   ],
   "state": "published",
-  "version": 8,
+  "version": 11,
   "createdAt": "2019-04-01T22:07:57+00:00",
-  "updatedAt": "2022-04-02T18:59:43+00:00"
+  "updatedAt": "2022-09-10T16:50:00+00:00"
  },
  "relationships": [
+  {
+   "id": "4d83a2f2-45e0-480d-8d2c-dad6e29e504a",
+   "type": "author",
+   "attributes": {
+    "biography": [],
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Capcom",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "64e8b6c1-be23-451f-87d2-e77ea40cd140",
    "type": "author",
@@ -173,6 +234,11 @@
    "id": "4de536ea-295a-42a0-a0aa-3ce506b9ea65",
    "type": "manga",
    "related": "alternate_story"
+  },
+  {
+   "id": "4de536ea-295a-42a0-a0aa-3ce506b9ea65",
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "4f3738aa-4426-4282-8afb-34d9a495caf6",

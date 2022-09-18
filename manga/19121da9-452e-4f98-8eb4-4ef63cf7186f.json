@@ -3,11 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "X"
+   "en": "X (CLAMP)"
   },
   "altTitles": [
    {
     "en": "X/1999"
+   },
+   {
+    "ru": "Икс ( Х )"
+   },
+   {
+    "ja": "エックス"
    }
   ],
   "description": {
@@ -52,6 +58,18 @@
      },
      "description": null,
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "39730448-9a5f-48a2-85b0-a70db87b1233",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Demons"
+     },
+     "description": null,
+     "group": "theme",
      "version": 1
     }
    },
@@ -104,6 +122,18 @@
     }
    },
    {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
     "type": "tag",
     "attributes": {
@@ -128,6 +158,18 @@
     }
    },
    {
+    "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Office Workers"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "9467335a-1b83-4497-9231-765337a00b96",
     "type": "tag",
     "attributes": {
@@ -145,6 +187,18 @@
     "attributes": {
      "name": {
       "en": "Magic"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Military"
      },
      "description": null,
      "group": "theme",
@@ -212,6 +266,18 @@
     }
    },
    {
+    "id": "da2d50ca-3018-4cc0-ac7a-6b7d472a29ea",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Delinquents"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
     "type": "tag",
     "attributes": {
@@ -261,9 +327,9 @@
    }
   ],
   "state": "published",
-  "version": 5,
+  "version": 6,
   "createdAt": "2019-03-20T07:46:13+00:00",
-  "updatedAt": "2022-03-23T23:47:38+00:00"
+  "updatedAt": "2022-07-02T02:25:12+00:00"
  },
  "relationships": [
   {
@@ -388,6 +454,11 @@
    "id": "a206e5f2-74d9-4d6a-a0ff-1b50559c4822",
    "type": "manga",
    "related": "prequel"
+  },
+  {
+   "id": "dfbb1fd7-4790-4db0-ae1d-2efa6c544ee4",
+   "type": "manga",
+   "related": "alternate_story"
   },
   {
    "id": "f830514d-f3e1-4b11-b18b-e5f7b6d9b861",

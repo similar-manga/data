@@ -7,7 +7,7 @@
   },
   "altTitles": [
    {
-    "en": "ドラえもん (松本大洋)"
+    "ja": "ドラえもん (松本大洋)"
    }
   ],
   "description": {
@@ -20,7 +20,9 @@
    "mu": "62765"
   },
   "originalLanguage": "ja",
+  "publicationDemographic": "seinen",
   "status": "completed",
+  "year": 1996,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "it",
@@ -66,11 +68,71 @@
     }
    },
    {
+    "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Comedy"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Philosophical"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
     "type": "tag",
     "attributes": {
      "name": {
       "en": "Drama"
+     },
+     "description": null,
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "School Life"
+     },
+     "description": null,
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Slice of Life"
      },
      "description": null,
      "group": "genre",
@@ -91,9 +153,9 @@
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 3,
   "createdAt": "2018-03-16T11:53:26+00:00",
-  "updatedAt": "2021-05-25T15:47:38+00:00"
+  "updatedAt": "2022-07-06T18:58:35+00:00"
  },
  "relationships": [
   {
@@ -164,6 +226,11 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "e36da8b0-feca-46dd-9120-d5dc2f3feae8",
+   "type": "manga",
+   "related": "adapted_from"
   }
  ]
 }
