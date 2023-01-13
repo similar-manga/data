@@ -33,8 +33,10 @@
   "availableTranslatedLanguages": [
    "pt-br",
    "en",
-   "it"
+   "it",
+   "es-la"
   ],
+  "latestUploadedChapter": "0f20f426-d565-45c5-b3c9-ff056ac8375b",
   "tags": [
    {
     "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
@@ -43,23 +45,59 @@
      "name": {
       "en": "Sports"
      },
-     "description": null,
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "School Life"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Slice of Life"
+     },
+     "description": {},
      "group": "genre",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 5,
+  "version": 7,
   "createdAt": "2018-03-30T18:53:04+00:00",
-  "updatedAt": "2022-03-27T11:55:43+00:00"
+  "updatedAt": "2022-09-24T07:11:45+00:00"
  },
  "relationships": [
   {
    "id": "010d0640-8eb9-4bfa-b519-030cb5b6523f",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -117,6 +155,11 @@
     "version": 2,
     "volume": "42"
    }
+  },
+  {
+   "id": "0e37a52c-ceb9-4599-a145-15eb4c56ad40",
+   "type": "manga",
+   "related": "shared_universe"
   }
  ]
 }

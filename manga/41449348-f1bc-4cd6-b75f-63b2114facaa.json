@@ -3,8 +3,16 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Toki wo Kakeru Shoujo After"
+   "en": "The Girl Who Leapt Through Time After"
   },
+  "altTitles": [
+   {
+    "ja-ro": "Toki wo Kakeru Shoujo After"
+   },
+   {
+    "ja": "時をかける少女 after"
+   }
+  ],
   "description": {
    "en": "Akari Yoshiyama, the daughter of Kazuko Yoshiyama, the first-generation time-skipping girl, tries to time-skip to 1972 to convey her mother’s feelings. But she somehow ends up in 1974…  \n  \n(Source: Jmanga)"
   },
@@ -16,8 +24,10 @@
    "mu": "47665"
   },
   "originalLanguage": "ja",
-  "publicationDemographic": "shounen",
-  "status": "ongoing",
+  "lastVolume": "1",
+  "publicationDemographic": "seinen",
+  "status": "completed",
+  "year": 2009,
   "contentRating": "safe",
   "tags": [
    {
@@ -27,8 +37,20 @@
      "name": {
       "en": "Sci-Fi"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "292e862b-2d17-4062-90a2-0356caa4ae27",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Time Travel"
+     },
+     "description": {},
+     "group": "theme",
      "version": 1
     }
    },
@@ -39,7 +61,7 @@
      "name": {
       "en": "Drama"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -51,23 +73,35 @@
      "name": {
       "en": "Slice of Life"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": {},
+     "group": "format",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 1,
+  "version": 2,
   "createdAt": "2019-03-13T21:41:13+00:00",
-  "updatedAt": "2019-03-13T21:41:13+00:00"
+  "updatedAt": "2022-10-25T15:27:15+00:00"
  },
  "relationships": [
   {
    "id": "5dac6d35-6bd1-4f02-bcb7-19ea0806568e",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -121,10 +155,15 @@
     "description": "",
     "fileName": "93300f82-8d8d-4b27-a215-eedec8697519.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T17:04:24+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2022-10-25T15:27:14+00:00",
+    "version": 2,
+    "volume": "1"
    }
+  },
+  {
+   "id": "0e42e425-d4e8-47e0-976a-07178a7377e9",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

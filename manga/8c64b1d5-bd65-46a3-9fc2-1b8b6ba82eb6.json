@@ -3,14 +3,29 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Itsudemo Kirby"
+   "en": "It's Kirby Time"
   },
   "altTitles": [
    {
-    "en": "Kirby Anytime"
+    "ja-ro": "Itsudemo Kirby"
    },
    {
     "ja": "いつでもカービィ"
+   },
+   {
+    "pt": "Contos do Kirby"
+   },
+   {
+    "fr": "Les Histoires de Kirby"
+   },
+   {
+    "es": "Los cuentos de Kirby"
+   },
+   {
+    "en": "Kirby is Always With You"
+   },
+   {
+    "en": "Kirby Anytime"
    }
   ],
   "description": {
@@ -20,6 +35,7 @@
    "amz": "https://www.amazon.co.jp/dp/B0977M5GB5",
    "bw": "series/261298",
    "ebj": "https://ebookjapan.yahoo.co.jp/books/603785/",
+   "engtl": "https://www.youtube.com/playlist?list=PL2JiZAV5BmDVHlo7EqsD12MaWf1aLUd6W",
    "mu": "162167",
    "raw": "https://www.shogakukan.co.jp/pr/itsudemokirby/"
   },
@@ -30,19 +46,8 @@
   "availableTranslatedLanguages": [
    "en"
   ],
+  "latestUploadedChapter": "88ed48c2-5062-4ae6-95e6-8ff32b97584c",
   "tags": [
-   {
-    "id": "320831a8-4026-470b-94f6-8353740e6f04",
-    "type": "tag",
-    "attributes": {
-     "name": {
-      "en": "Official Colored"
-     },
-     "description": null,
-     "group": "format",
-     "version": 1
-    }
-   },
    {
     "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
     "type": "tag",
@@ -50,7 +55,7 @@
      "name": {
       "en": "Video Games"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
      "version": 1
     }
@@ -62,7 +67,7 @@
      "name": {
       "en": "Fantasy"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -74,7 +79,7 @@
      "name": {
       "en": "Slice of Life"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -86,7 +91,7 @@
      "name": {
       "en": "Adaptation"
      },
-     "description": null,
+     "description": {},
      "group": "format",
      "version": 1
     }
@@ -98,23 +103,48 @@
      "name": {
       "en": "Full Color"
      },
-     "description": null,
+     "description": {},
      "group": "format",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 7,
+  "version": 13,
   "createdAt": "2020-04-27T04:46:35+00:00",
-  "updatedAt": "2022-07-30T23:49:19+00:00"
+  "updatedAt": "2022-12-22T17:35:24+00:00"
  },
  "relationships": [
+  {
+   "id": "024585df-57a6-4287-a500-f17c06799355",
+   "type": "author",
+   "attributes": {
+    "biography": {},
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Nintendo",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "cbbe4909-ab40-4f08-866f-b2d66bfe3f10",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -236,16 +266,16 @@
    }
   },
   {
-   "id": "26088bb2-0ee2-4b5d-91c0-55c43211841d",
+   "id": "0b71b188-2bc1-48d6-812c-b45fa31be25d",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2022-06-13T23:26:12+00:00",
+    "createdAt": "2022-10-03T21:48:39+00:00",
     "description": "",
-    "fileName": "02fe1580-69a7-48ab-8e8b-c640124362ac.jpg",
+    "fileName": "6991e91f-2d4f-4fc6-9fe9-f57797f17f76.jpg",
     "locale": "ja",
-    "updatedAt": "2022-06-13T23:26:12+00:00",
+    "updatedAt": "2022-10-03T21:48:39+00:00",
     "version": 1,
-    "volume": "8"
+    "volume": "9"
    }
   },
   {
@@ -275,6 +305,11 @@
   },
   {
    "id": "d4bae13f-cf12-4d24-971a-6ce3a994e2f8",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "f7a9fccd-a15f-40ee-a20e-75801e0b2a1a",
    "type": "manga",
    "related": "same_franchise"
   }

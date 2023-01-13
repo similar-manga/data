@@ -24,8 +24,20 @@
      "name": {
       "en": "Incest"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Doujinshi"
+     },
+     "description": {},
+     "group": "format",
      "version": 1
     }
    },
@@ -36,23 +48,23 @@
      "name": {
       "en": "Shota"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 1,
+  "version": 4,
   "createdAt": "2020-07-07T06:14:51+00:00",
-  "updatedAt": "2020-07-07T06:14:51+00:00"
+  "updatedAt": "2022-11-21T16:17:25+00:00"
  },
  "relationships": [
   {
    "id": "cd87ad49-06ee-418c-8e3d-38121158db5e",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -110,6 +122,11 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "40bc649f-7b49-4645-859e-6cd94136e722",
+   "type": "manga",
+   "related": "based_on"
   }
  ]
 }

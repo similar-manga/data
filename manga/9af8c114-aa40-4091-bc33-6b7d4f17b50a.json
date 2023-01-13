@@ -46,11 +46,25 @@
   "lastVolume": "12",
   "publicationDemographic": "shounen",
   "status": "cancelled",
+  "year": 2001,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "en"
   ],
+  "latestUploadedChapter": "00a7ec11-a9c3-464a-9300-9b66dd877393",
   "tags": [
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
     "type": "tag",
@@ -58,7 +72,7 @@
      "name": {
       "en": "Sci-Fi"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -70,7 +84,19 @@
      "name": {
       "en": "Action"
      },
-     "description": null,
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Psychological"
+     },
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -82,7 +108,7 @@
      "name": {
       "en": "Romance"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -94,8 +120,44 @@
      "name": {
       "en": "Mecha"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Military"
+     },
+     "description": {},
+     "group": "theme",
      "version": 1
     }
    },
@@ -106,23 +168,35 @@
      "name": {
       "en": "Drama"
      },
-     "description": null,
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Tragedy"
+     },
+     "description": {},
      "group": "genre",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 4,
   "createdAt": "2019-06-07T10:22:24+00:00",
-  "updatedAt": "2022-07-01T02:27:41+00:00"
+  "updatedAt": "2022-09-19T02:09:58+00:00"
  },
  "relationships": [
   {
    "id": "472b1660-2610-44f6-886d-c9195717318f",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -176,9 +250,9 @@
     "description": "",
     "fileName": "07c5c4c5-e5ad-45d3-8e8e-a0c55f5552bb.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T17:14:40+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2022-09-19T02:09:57+00:00",
+    "version": 2,
+    "volume": "12.1"
    }
   },
   {
@@ -195,6 +269,11 @@
    "id": "7e3ade15-6a35-444f-983b-4b7167f09bf1",
    "type": "manga",
    "related": "sequel"
+  },
+  {
+   "id": "f36895e4-5045-4a5c-a8ec-c073d8958433",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Ender no Game"
+   "en": "Ender's Game"
   },
   "altTitles": [
    {
-    "en": "Ender's Game"
+    "ja": "エンダーのゲーム"
    },
    {
-    "en": "エンダーのゲーム"
+    "ja-ro": "Ender no Game"
    }
   ],
   "description": {
@@ -31,8 +31,20 @@
      "name": {
       "en": "Oneshot"
      },
-     "description": null,
+     "description": {},
      "group": "format",
+     "version": 1
+    }
+   },
+   {
+    "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sci-Fi"
+     },
+     "description": {},
+     "group": "genre",
      "version": 1
     }
    },
@@ -43,23 +55,23 @@
      "name": {
       "en": "Psychological"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 1,
+  "version": 2,
   "createdAt": "2018-11-03T07:46:43+00:00",
-  "updatedAt": "2018-11-03T07:46:43+00:00"
+  "updatedAt": "2022-11-30T15:22:15+00:00"
  },
  "relationships": [
   {
    "id": "6f4cca0d-8602-4759-a975-9f124880d458",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,

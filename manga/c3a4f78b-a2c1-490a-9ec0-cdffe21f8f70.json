@@ -3,12 +3,9 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "REIGEN - Reikyuuchi Max 131 no Otoko"
+   "en": "REIGEN: The Man With Level 131 Max Spirit Power!"
   },
   "altTitles": [
-   {
-    "en": "Reigen: The Man With Level 131 Max Spirit Power!"
-   },
    {
     "ja": "REIGEN ～霊級値MAX131の男～"
    },
@@ -17,6 +14,12 @@
    },
    {
     "zh": "靈幻 ～靈級值滿131的男人～"
+   },
+   {
+    "ja-ro": "REIGEN - Reikyuuchi Max 131 no Otoko"
+   },
+   {
+    "en": "Mob Psycho 100: REIGEN"
    }
   ],
   "description": {
@@ -43,10 +46,24 @@
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "ru",
+   "hu",
    "en",
    "pt-br"
   ],
+  "latestUploadedChapter": "7a6ed02b-2d76-4a76-b8a4-c1a82b2e2478",
   "tags": [
+   {
+    "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Psychological"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
     "type": "tag",
@@ -54,8 +71,68 @@
      "name": {
       "en": "Comedy"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "92d6d951-ca5e-429c-ac78-451071cbf064",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Office Workers"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "da2d50ca-3018-4cc0-ac7a-6b7d472a29ea",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Delinquents"
+     },
+     "description": {},
+     "group": "theme",
      "version": 1
     }
    },
@@ -66,7 +143,7 @@
      "name": {
       "en": "Web Comic"
      },
-     "description": null,
+     "description": {},
      "group": "format",
      "version": 1
     }
@@ -78,7 +155,7 @@
      "name": {
       "en": "Slice of Life"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -90,16 +167,16 @@
      "name": {
       "en": "Supernatural"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 4,
+  "version": 5,
   "createdAt": "2019-03-26T09:24:39+00:00",
-  "updatedAt": "2021-12-07T18:21:47+00:00"
+  "updatedAt": "2022-09-18T04:35:40+00:00"
  },
  "relationships": [
   {
@@ -164,15 +241,20 @@
     "description": "",
     "fileName": "b454c07c-e433-4ee7-9ab0-4faff7078639.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T17:05:54+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2022-09-18T04:35:39+00:00",
+    "version": 2,
+    "volume": "1.1"
    }
   },
   {
    "id": "736a2bf0-f875-4b52-a7b4-e8c40505b68a",
    "type": "manga",
    "related": "adapted_from"
+  },
+  {
+   "id": "736a2bf0-f875-4b52-a7b4-e8c40505b68a",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

@@ -10,7 +10,7 @@
     "en": "Koe de Oshigoto! - Delusion Trance"
    }
   ],
-  "description": null,
+  "description": {},
   "originalLanguage": "ja",
   "publicationDemographic": "seinen",
   "status": "completed",
@@ -19,7 +19,20 @@
   "availableTranslatedLanguages": [
    "it"
   ],
+  "latestUploadedChapter": "7f316a17-9e7e-4055-889c-12759682b2db",
   "tags": [
+   {
+    "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Oneshot"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
+   },
    {
     "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
     "type": "tag",
@@ -27,7 +40,7 @@
      "name": {
       "en": "Doujinshi"
      },
-     "description": null,
+     "description": {},
      "group": "format",
      "version": 1
     }
@@ -39,23 +52,23 @@
      "name": {
       "en": "Slice of Life"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 4,
   "createdAt": "2021-11-06T15:09:29+00:00",
-  "updatedAt": "2022-03-20T11:55:21+00:00"
+  "updatedAt": "2022-10-18T14:13:43+00:00"
  },
  "relationships": [
   {
    "id": "10125353-6ca8-4fb5-a099-2749e3104067",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-11-06T14:47:19+00:00",
     "fanBox": null,
@@ -115,9 +128,24 @@
    }
   },
   {
+   "id": "6843f38b-a538-4029-82a6-02fe09bd1700",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "c8f5d773-dcb5-4dc0-98c8-6ee0f19bba9f",
+   "type": "manga",
+   "related": "based_on"
+  },
+  {
    "id": "c8f5d773-dcb5-4dc0-98c8-6ee0f19bba9f",
    "type": "manga",
    "related": "doujinshi"
+  },
+  {
+   "id": "c8f5d773-dcb5-4dc0-98c8-6ee0f19bba9f",
+   "type": "manga",
+   "related": "main_story"
   }
  ]
 }

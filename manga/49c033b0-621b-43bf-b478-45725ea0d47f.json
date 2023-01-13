@@ -8,6 +8,12 @@
   "altTitles": [
    {
     "en": "Turn A Gundam - Turn A “Korokoro”"
+   },
+   {
+    "ja": "∀ガンダム絵本 たーんえーころころ"
+   },
+   {
+    "ja-ro": "∀ Gandamu ehonta ̄ n e ̄ korokoro"
    }
   ],
   "description": {
@@ -29,6 +35,7 @@
    "pt-br",
    "en"
   ],
+  "latestUploadedChapter": "32e2fc9b-2103-49d4-9d3c-e10532f6183a",
   "tags": [
    {
     "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
@@ -37,8 +44,56 @@
      "name": {
       "en": "Oneshot"
      },
-     "description": null,
+     "description": {},
      "group": "format",
+     "version": 1
+    }
+   },
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sci-Fi"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Action"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Psychological"
+     },
+     "description": {},
+     "group": "genre",
      "version": 1
     }
    },
@@ -49,8 +104,44 @@
      "name": {
       "en": "Mecha"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Military"
+     },
+     "description": {},
+     "group": "theme",
      "version": 1
     }
    },
@@ -61,23 +152,35 @@
      "name": {
       "en": "Drama"
      },
-     "description": null,
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Tragedy"
+     },
+     "description": {},
      "group": "genre",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 4,
+  "version": 5,
   "createdAt": "2019-01-25T17:16:46+00:00",
-  "updatedAt": "2022-08-22T11:10:48+00:00"
+  "updatedAt": "2022-09-19T02:16:08+00:00"
  },
  "relationships": [
   {
    "id": "a00b8dc0-7293-4464-a3c4-72a9ec61ee15",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -131,9 +234,9 @@
     "description": "",
     "fileName": "9c107f19-96ad-4185-b928-417ba7873d33.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T16:59:03+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2022-09-19T02:16:07+00:00",
+    "version": 2,
+    "volume": "1"
    }
   },
   {
@@ -145,6 +248,11 @@
    "id": "df148d10-0c7e-4908-9be8-35c63c0190ef",
    "type": "manga",
    "related": "main_story"
+  },
+  {
+   "id": "f36895e4-5045-4a5c-a8ec-c073d8958433",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

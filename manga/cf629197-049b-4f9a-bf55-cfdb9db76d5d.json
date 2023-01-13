@@ -21,6 +21,7 @@
    "amz": "https://www.amazon.co.jp/dp/4049141108",
    "bw": "de40bf4159-d278-425f-814a-a18529bbb701",
    "cdj": "https://www.cdjapan.co.jp/product/NEOBK-2676342",
+   "mu": "zthbqsg",
    "raw": "https://comic-walker.com/contents/detail/KDCW_AM09202419010000_68/"
   },
   "originalLanguage": "ja",
@@ -31,6 +32,7 @@
   "availableTranslatedLanguages": [
    "en"
   ],
+  "latestUploadedChapter": "6918781e-840a-48b9-bd43-72309e8fa604",
   "tags": [
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
@@ -39,7 +41,7 @@
      "name": {
       "en": "Comedy"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -51,7 +53,7 @@
      "name": {
       "en": "4-Koma"
      },
-     "description": null,
+     "description": {},
      "group": "format",
      "version": 1
     }
@@ -63,7 +65,7 @@
      "name": {
       "en": "Fantasy"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -75,7 +77,7 @@
      "name": {
       "en": "Slice of Life"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -87,23 +89,25 @@
      "name": {
       "en": "Cooking"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 10,
+  "version": 11,
   "createdAt": "2021-10-10T09:31:44+00:00",
-  "updatedAt": "2022-02-22T21:11:51+00:00"
+  "updatedAt": "2022-11-02T11:54:52+00:00"
  },
  "relationships": [
   {
    "id": "2fb2f997-e449-4368-aff5-a78b8f04b2fd",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {
+     "en": "**Alt names**:\nタカヒロ\n\nFounded the adult game brand Minato Soft in 2006."
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -117,8 +121,8 @@
     "skeb": null,
     "tumblr": null,
     "twitter": "https://twitter.com/takahiro4p",
-    "updatedAt": "2022-06-21T19:43:18+00:00",
-    "version": 2,
+    "updatedAt": "2023-01-11T00:17:49+00:00",
+    "version": 3,
     "website": null,
     "weibo": null,
     "youtube": null
@@ -165,6 +169,11 @@
    }
   },
   {
+   "id": "1d91fca2-6c36-40fc-ab40-5c4c8646f3aa",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
    "id": "44c2cb9b-5bde-4f48-9159-b11d11e36a75",
    "type": "manga",
    "related": "same_franchise"
@@ -178,6 +187,11 @@
    "id": "9ede8765-1f52-4831-b868-841e2fe00491",
    "type": "manga",
    "related": "adapted_from"
+  },
+  {
+   "id": "d432e737-b646-4f11-96e0-d5810b3f04cc",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

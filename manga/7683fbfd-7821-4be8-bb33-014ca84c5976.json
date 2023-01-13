@@ -3,12 +3,9 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Mobile Suit Gundam F90"
+   "en": "Mobile Suit Gundam F90 (NAKAHARA Rei)"
   },
   "altTitles": [
-   {
-    "en": "Mobile Suit Gundam F90 (NAKAHARA Rei)"
-   },
    {
     "ja": "機動戦士ガンダムF90"
    },
@@ -34,11 +31,25 @@
   "lastChapter": "8",
   "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 1990,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "en"
   ],
+  "latestUploadedChapter": "5256e583-ea9f-40ef-bdd2-ed56321dc68b",
   "tags": [
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
     "type": "tag",
@@ -46,7 +57,7 @@
      "name": {
       "en": "Sci-Fi"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -58,7 +69,7 @@
      "name": {
       "en": "Action"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -70,7 +81,19 @@
      "name": {
       "en": "Psychological"
      },
-     "description": null,
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Romance"
+     },
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -82,7 +105,7 @@
      "name": {
       "en": "Comedy"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -94,7 +117,7 @@
      "name": {
       "en": "Mecha"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -106,8 +129,20 @@
      "name": {
       "en": "Survival"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": {},
+     "group": "genre",
      "version": 1
     }
    },
@@ -118,8 +153,32 @@
      "name": {
       "en": "Military"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": {},
+     "group": "format",
      "version": 1
     }
    },
@@ -130,23 +189,23 @@
      "name": {
       "en": "Tragedy"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 5,
   "createdAt": "2018-05-12T19:01:56+00:00",
-  "updatedAt": "2022-07-01T02:45:34+00:00"
+  "updatedAt": "2022-10-20T01:17:40+00:00"
  },
  "relationships": [
   {
    "id": "b5389d81-01c9-4ee0-86e6-55adeb195ca4",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -200,9 +259,9 @@
     "description": "",
     "fileName": "6ceeedab-4b82-432c-adbc-e99e405bff7c.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T18:18:24+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2022-09-18T21:34:42+00:00",
+    "version": 2,
+    "volume": "1"
    }
   },
   {
@@ -219,6 +278,11 @@
    "id": "9e668e5d-d046-4ffd-bfe3-eea1050a06d9",
    "type": "manga",
    "related": "prequel"
+  },
+  {
+   "id": "f36895e4-5045-4a5c-a8ec-c073d8958433",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

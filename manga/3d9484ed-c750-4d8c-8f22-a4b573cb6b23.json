@@ -3,7 +3,7 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Fuuma no Kojiro - Yagyu Ansatsu Cho"
+   "en": "Kojiro of the Fuma - Assassination of Yagyu"
   },
   "altTitles": [
    {
@@ -41,6 +41,7 @@
    "it",
    "pt-br"
   ],
+  "latestUploadedChapter": "d91e12fb-d962-4bda-9e05-0bd9bca74b43",
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -49,7 +50,7 @@
      "name": {
       "en": "Action"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -61,7 +62,7 @@
      "name": {
       "en": "Sports"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -73,23 +74,23 @@
      "name": {
       "en": "Martial Arts"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 4,
   "createdAt": "2018-11-18T02:22:53+00:00",
-  "updatedAt": "2021-05-25T15:41:30+00:00"
+  "updatedAt": "2022-09-27T07:01:27+00:00"
  },
  "relationships": [
   {
    "id": "75c02982-6af3-4d51-86eb-0cb5fc96e4b0",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -136,22 +137,32 @@
    }
   },
   {
-   "id": "dae72bc7-c56c-4f88-8ad4-0eca9e3f8f0b",
+   "id": "8a7a8e7d-450f-47fd-a33b-1c1844e5ab76",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T16:51:54+00:00",
+    "createdAt": "2022-09-25T02:30:12+00:00",
     "description": "",
-    "fileName": "8b6b4c11-7c67-41bf-9316-6dcad4ce873e.jpg",
+    "fileName": "8a3ddbbc-4ee8-480e-bdd7-27066e137e7f.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T16:51:54+00:00",
+    "updatedAt": "2022-09-25T02:30:12+00:00",
     "version": 1,
-    "volume": null
+    "volume": "6"
    }
+  },
+  {
+   "id": "5c149839-e620-4b08-bc91-3305776cbd75",
+   "type": "manga",
+   "related": "prequel"
   },
   {
    "id": "7a680caa-3538-40ae-9103-bcb39d53ad0f",
    "type": "manga",
    "related": "adapted_from"
+  },
+  {
+   "id": "bfac74ce-672e-4f2a-96d3-c243706e03d6",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

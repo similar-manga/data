@@ -3,20 +3,20 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Napoleon - Shishi no Jidai"
+   "en": "Napoleon - Age of the Lion"
   },
   "altTitles": [
    {
     "en": "Napoleon"
    },
    {
-    "en": "Napoleon - The Age of Lion"
+    "ja-ro": "Napoleon - Shishi no Jidai"
    },
    {
-    "en": "ナポレオン 獅子の時代"
+    "ja": "ナポレオン 獅子の時代"
    },
    {
-    "en": "拿破仑-狮子的时代"
+    "zh": "拿破仑-狮子的时代"
    }
   ],
   "description": {
@@ -30,9 +30,14 @@
    "mu": "14973"
   },
   "originalLanguage": "ja",
+  "lastVolume": "15",
   "publicationDemographic": "seinen",
   "status": "completed",
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
+  "latestUploadedChapter": "d5d63e22-6a91-4875-ab07-1371d5077d6f",
   "tags": [
    {
     "id": "33771934-028e-4cb3-8744-691e866a923e",
@@ -41,7 +46,7 @@
      "name": {
       "en": "Historical"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -53,23 +58,47 @@
      "name": {
       "en": "Action"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Military"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Gore"
+     },
+     "description": {},
+     "group": "content",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 1,
+  "version": 3,
   "createdAt": "2018-08-27T20:19:12+00:00",
-  "updatedAt": "2018-08-27T20:19:12+00:00"
+  "updatedAt": "2022-12-08T22:08:55+00:00"
  },
  "relationships": [
   {
    "id": "777e1190-99b2-4803-9e0a-74b05bf0725e",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -116,16 +145,16 @@
    }
   },
   {
-   "id": "817dcfb1-8e1b-4fb7-a650-cbd04edf6ce4",
+   "id": "ed453201-dfba-4e45-92c9-bf440c9e6803",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T16:43:11+00:00",
+    "createdAt": "2022-12-08T10:14:29+00:00",
     "description": "",
-    "fileName": "d9d8d97b-4d9c-4e70-a829-87fae22757c6.jpg",
+    "fileName": "23ac79fc-8bb9-498f-a582-492fbbb4981b.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T16:43:11+00:00",
+    "updatedAt": "2022-12-08T10:14:29+00:00",
     "version": 1,
-    "volume": null
+    "volume": "1"
    }
   }
  ]

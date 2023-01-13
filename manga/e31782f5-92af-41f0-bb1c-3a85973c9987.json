@@ -37,7 +37,20 @@
   "availableTranslatedLanguages": [
    "en"
   ],
+  "latestUploadedChapter": "885c921b-764c-4f60-97ab-f764c27e8d69",
   "tags": [
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
     "type": "tag",
@@ -45,7 +58,7 @@
      "name": {
       "en": "Sci-Fi"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -57,7 +70,19 @@
      "name": {
       "en": "Action"
      },
-     "description": null,
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Psychological"
+     },
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -69,8 +94,20 @@
      "name": {
       "en": "Mecha"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": {},
+     "group": "theme",
      "version": 1
     }
    },
@@ -81,23 +118,71 @@
      "name": {
       "en": "Adventure"
      },
-     "description": null,
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Military"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "da2d50ca-3018-4cc0-ac7a-6b7d472a29ea",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Delinquents"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Tragedy"
+     },
+     "description": {},
      "group": "genre",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 7,
+  "version": 9,
   "createdAt": "2018-06-28T12:21:29+00:00",
-  "updatedAt": "2022-06-19T17:19:54+00:00"
+  "updatedAt": "2022-09-18T20:50:51+00:00"
  },
  "relationships": [
   {
    "id": "55ffae2a-8153-479b-928e-397f94e74e2a",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -160,6 +245,11 @@
    "id": "cd4ff9e2-0cd7-4ea0-9aa2-651cb9592447",
    "type": "manga",
    "related": "main_story"
+  },
+  {
+   "id": "f36895e4-5045-4a5c-a8ec-c073d8958433",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

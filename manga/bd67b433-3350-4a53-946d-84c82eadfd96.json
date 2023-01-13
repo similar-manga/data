@@ -3,11 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Garouden (TANIGUCHI Jiro)"
+   "en": "Garoden (TANIGUCHI Jiro)"
   },
   "altTitles": [
    {
-    "en": "餓狼伝 (谷口ジロー)"
+    "ja": "餓狼伝 (谷口ジロー)"
+   },
+   {
+    "en": "Legend of the Hungry Wolves (TANIGUCHI Jiro)"
    }
   ],
   "description": {
@@ -25,11 +28,37 @@
   "lastChapter": "14",
   "publicationDemographic": "seinen",
   "status": "completed",
+  "year": 1989,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "en"
   ],
+  "latestUploadedChapter": "b8463406-c34e-489f-a961-ab5f9ffdfaf5",
   "tags": [
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Monsters"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
     "type": "tag",
@@ -37,7 +66,55 @@
      "name": {
       "en": "Action"
      },
-     "description": null,
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Psychological"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Animals"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sports"
+     },
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -49,23 +126,59 @@
      "name": {
       "en": "Martial Arts"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Philosophical"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Tragedy"
+     },
+     "description": {},
+     "group": "genre",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 4,
   "createdAt": "2018-05-27T21:01:21+00:00",
-  "updatedAt": "2021-05-25T15:47:06+00:00"
+  "updatedAt": "2022-12-23T23:27:09+00:00"
  },
  "relationships": [
   {
    "id": "1b54d486-e3f2-4e5d-bc7f-d1247ab1e4db",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -112,17 +225,22 @@
    }
   },
   {
-   "id": "64cc71e7-7123-4f94-8ea0-9af0fdc1c013",
+   "id": "ea445c10-f64e-4ae7-bd35-75b5702717f9",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T18:35:22+00:00",
+    "createdAt": "2022-12-23T23:27:08+00:00",
     "description": "",
-    "fileName": "98078655-f7f2-47e0-8476-b67162d9407f.jpg",
+    "fileName": "5aea322f-084f-4b48-9a8a-df391f90ccb9.png",
     "locale": "ja",
-    "updatedAt": "2021-05-24T18:35:22+00:00",
+    "updatedAt": "2022-12-23T23:27:08+00:00",
     "version": 1,
-    "volume": null
+    "volume": "1.1"
    }
+  },
+  {
+   "id": "dcebd4d5-d384-4079-8491-62bf1b9a9cd8",
+   "type": "manga",
+   "related": "alternate_story"
   }
  ]
 }

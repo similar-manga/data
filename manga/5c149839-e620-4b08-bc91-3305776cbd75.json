@@ -37,6 +37,7 @@
    "es-la",
    "pt-br"
   ],
+  "latestUploadedChapter": "99190bb2-1ac9-453d-a335-75ae157eb32f",
   "tags": [
    {
     "id": "33771934-028e-4cb3-8744-691e866a923e",
@@ -45,7 +46,7 @@
      "name": {
       "en": "Historical"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -57,7 +58,7 @@
      "name": {
       "en": "Action"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -69,7 +70,7 @@
      "name": {
       "en": "Ninja"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
      "version": 1
     }
@@ -81,7 +82,7 @@
      "name": {
       "en": "Sports"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -93,23 +94,23 @@
      "name": {
       "en": "Martial Arts"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 4,
+  "version": 7,
   "createdAt": "2020-03-17T23:07:01+00:00",
-  "updatedAt": "2022-08-13T02:35:01+00:00"
+  "updatedAt": "2022-09-25T02:30:50+00:00"
  },
  "relationships": [
   {
    "id": "75c02982-6af3-4d51-86eb-0cb5fc96e4b0",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -156,22 +157,32 @@
    }
   },
   {
-   "id": "76963ad3-bcd5-4f8e-baaa-5c0aca2b7284",
+   "id": "1528bfad-79ae-4f21-ae8d-5b3341e38afa",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-23T07:20:15+00:00",
+    "createdAt": "2021-05-24T17:49:00+00:00",
     "description": "",
-    "fileName": "0d2a961f-8fbd-4ff8-bfd1-e8226bec8425.jpg",
+    "fileName": "54506cc4-82b7-4b04-a1ff-d911eb3396c4.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-23T07:20:15+00:00",
+    "updatedAt": "2022-02-06T01:55:17+00:00",
     "version": 2,
-    "volume": "3"
+    "volume": "1.1"
    }
+  },
+  {
+   "id": "3d9484ed-c750-4d8c-8f22-a4b573cb6b23",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "7a680caa-3538-40ae-9103-bcb39d53ad0f",
    "type": "manga",
    "related": "sequel"
+  },
+  {
+   "id": "bfac74ce-672e-4f2a-96d3-c243706e03d6",
+   "type": "manga",
+   "related": "prequel"
   }
  ]
 }

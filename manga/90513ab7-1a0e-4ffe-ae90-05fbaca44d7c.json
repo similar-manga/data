@@ -3,15 +3,21 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Hoshi no Alien ni Doryokushou wo"
+   "en": "Hoshi no Alien ni Doryokushou wo."
   },
   "altTitles": [
    {
-    "en": "A Consolation Prize for the Stellarian"
+    "ja": "星のエイリアンに努力賞を。"
+   },
+   {
+    "ja-ro": "Hoshi no Alien ni Doryokushou wo"
    }
   ],
-  "description": null,
+  "description": {
+   "en": "Mapollo 3's debut work. It won Honorable Mention at the 34th Jump New World Manga Awards. This work appeared in Jump GIGA Summer 2020, along with [Kousaten Chindouchuu](https://mangadex.org/title/b5ea6113-b5ab-42eb-adcf-ae0b220b3ddb/kousaten-chindouchuu)."
+  },
   "links": {
+   "al": "125404",
    "kt": "hoshi-no-alien",
    "mal": "148966",
    "raw": "https://shonenjumpplus.com/episode/13933686331610152651"
@@ -24,6 +30,7 @@
   "availableTranslatedLanguages": [
    "en"
   ],
+  "latestUploadedChapter": "b5c761f9-1c91-45c3-8154-edec539cc215",
   "tags": [
    {
     "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
@@ -32,19 +39,7 @@
      "name": {
       "en": "Oneshot"
      },
-     "description": null,
-     "group": "format",
-     "version": 1
-    }
-   },
-   {
-    "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
-    "type": "tag",
-    "attributes": {
-     "name": {
-      "en": "Award Winning"
-     },
-     "description": null,
+     "description": {},
      "group": "format",
      "version": 1
     }
@@ -56,7 +51,7 @@
      "name": {
       "en": "Drama"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -68,7 +63,7 @@
      "name": {
       "en": "School Life"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
      "version": 1
     }
@@ -80,23 +75,23 @@
      "name": {
       "en": "Slice of Life"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 5,
+  "version": 12,
   "createdAt": "2022-05-29T10:09:56+00:00",
-  "updatedAt": "2022-07-06T11:32:18+00:00"
+  "updatedAt": "2022-12-29T01:04:41+00:00"
  },
  "relationships": [
   {
    "id": "d7f5de82-7e73-4f76-ae07-c750d196a573",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-10-10T11:44:47+00:00",
     "fanBox": null,
@@ -143,17 +138,27 @@
    }
   },
   {
-   "id": "84bf776d-9c65-472d-8a2f-9475b696d264",
+   "id": "034afc86-8669-412e-85bd-fdf71783563c",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2022-05-29T10:10:03+00:00",
+    "createdAt": "2022-12-27T15:54:54+00:00",
     "description": "",
-    "fileName": "66bcd7f7-8661-43f0-b616-a9e5eb9f078e.png",
+    "fileName": "7e4a9a38-ec9c-4615-94fa-2668c763ce2a.png",
     "locale": "ja",
-    "updatedAt": "2022-05-29T10:10:03+00:00",
+    "updatedAt": "2022-12-27T15:54:54+00:00",
     "version": 1,
     "volume": "1"
    }
+  },
+  {
+   "id": "13d5ac2b-e606-4f81-81f6-198de2af8536",
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
+   "id": "e5eb7dec-6f9f-4c66-a16d-c7aaf0d377bd",
+   "type": "manga",
+   "related": "shared_universe"
   }
  ]
 }

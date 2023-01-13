@@ -33,7 +33,7 @@
      "name": {
       "en": "Action"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -45,7 +45,7 @@
      "name": {
       "en": "Comedy"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -57,7 +57,7 @@
      "name": {
       "en": "Adventure"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -69,7 +69,7 @@
      "name": {
       "en": "Slice of Life"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -81,16 +81,16 @@
      "name": {
       "en": "Adaptation"
      },
-     "description": null,
+     "description": {},
      "group": "format",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 4,
   "createdAt": "2022-06-13T02:59:20+00:00",
-  "updatedAt": "2022-06-13T17:24:23+00:00"
+  "updatedAt": "2023-01-02T17:53:08+00:00"
  },
  "relationships": [
   {
@@ -124,7 +124,7 @@
    "id": "bd472db9-e214-458e-abc9-3cf71f6e2850",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2022-06-13T02:52:52+00:00",
     "fanBox": null,
@@ -171,17 +171,22 @@
    }
   },
   {
-   "id": "c04f40f7-6ede-4762-8352-62618afc1293",
+   "id": "0027085f-4ab4-4819-b35c-50cd174ca643",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2022-06-13T02:59:27+00:00",
+    "createdAt": "2023-01-02T17:53:07+00:00",
     "description": "",
-    "fileName": "a74b339b-4431-4d2d-98de-a60b1227eeec.png",
+    "fileName": "33697909-75e4-4565-baf1-07bad11eb18c.jpg",
     "locale": "ja",
-    "updatedAt": "2022-06-13T02:59:27+00:00",
+    "updatedAt": "2023-01-02T17:53:07+00:00",
     "version": 1,
-    "volume": "4"
+    "volume": "5"
    }
+  },
+  {
+   "id": "a1c7c817-4e59-43b7-9365-09675a149a6f",
+   "type": "manga",
+   "related": "adapted_from"
   }
  ]
 }

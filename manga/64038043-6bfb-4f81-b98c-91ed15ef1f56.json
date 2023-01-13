@@ -19,6 +19,7 @@
   "links": {
    "al": "110519",
    "amz": "https://www.amazon.co.jp/gp/product/B07QWNLL4Y",
+   "ap": "miracle-nikki",
    "bw": "series/155809",
    "ebj": "https://ebookjapan.yahoo.co.jp/books/452371/A001861534/",
    "kt": "53245",
@@ -35,6 +36,7 @@
   "availableTranslatedLanguages": [
    "en"
   ],
+  "latestUploadedChapter": "86163c49-9855-4e0b-b528-fa97d01394b9",
   "tags": [
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
@@ -43,7 +45,7 @@
      "name": {
       "en": "Comedy"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -55,7 +57,7 @@
      "name": {
       "en": "Adventure"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -67,7 +69,7 @@
      "name": {
       "en": "Video Games"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
      "version": 1
     }
@@ -79,7 +81,19 @@
      "name": {
       "en": "Isekai"
      },
-     "description": null,
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -91,23 +105,35 @@
      "name": {
       "en": "Fantasy"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": {},
+     "group": "format",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 4,
+  "version": 8,
   "createdAt": "2020-01-20T07:00:17+00:00",
-  "updatedAt": "2022-06-13T23:40:38+00:00"
+  "updatedAt": "2022-11-24T01:18:03+00:00"
  },
  "relationships": [
   {
    "id": "e248e00e-55e7-42d8-b916-2b9eee31e6bf",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -154,22 +180,27 @@
    }
   },
   {
-   "id": "9a7155a9-b5e2-4fc9-9361-378610805474",
+   "id": "32db7120-6027-4fcb-b4f3-fad33ce3bae8",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:41:51+00:00",
+    "createdAt": "2021-05-23T07:12:48+00:00",
     "description": "",
-    "fileName": "1fc9f835-9057-43aa-a3f1-5ee6f3b88cf7.jpg",
+    "fileName": "5406d986-8134-40f6-bb62-fab20aff8a80.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T17:41:51+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2021-05-23T07:12:48+00:00",
+    "version": 2,
+    "volume": "3"
    }
   },
   {
    "id": "551f10e8-091b-4a2f-bafc-a25a29453693",
    "type": "manga",
    "related": "same_franchise"
+  },
+  {
+   "id": "c9e825de-d245-4c8c-b351-970326805b4a",
+   "type": "manga",
+   "related": "alternate_story"
   }
  ]
 }

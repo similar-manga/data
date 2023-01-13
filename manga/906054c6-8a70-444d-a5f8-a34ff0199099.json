@@ -26,6 +26,10 @@
   "status": "completed",
   "year": 2011,
   "contentRating": "safe",
+  "availableTranslatedLanguages": [
+   "en"
+  ],
+  "latestUploadedChapter": "487b9c3c-e535-4bc0-91bf-952db4f0f340",
   "tags": [
    {
     "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
@@ -34,7 +38,7 @@
      "name": {
       "en": "Sci-Fi"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -46,7 +50,7 @@
      "name": {
       "en": "Time Travel"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
      "version": 1
     }
@@ -58,7 +62,19 @@
      "name": {
       "en": "Action"
      },
-     "description": null,
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Psychological"
+     },
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -70,7 +86,7 @@
      "name": {
       "en": "Romance"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -82,7 +98,7 @@
      "name": {
       "en": "Mecha"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -94,7 +110,7 @@
      "name": {
       "en": "Adventure"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -106,7 +122,19 @@
      "name": {
       "en": "Virtual Reality"
      },
-     "description": null,
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Video Games"
+     },
+     "description": {},
      "group": "theme",
      "version": 1
     }
@@ -118,7 +146,7 @@
      "name": {
       "en": "Military"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
      "version": 1
     }
@@ -130,23 +158,23 @@
      "name": {
       "en": "Drama"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 4,
+  "version": 11,
   "createdAt": "2021-03-13T17:51:53+00:00",
-  "updatedAt": "2022-07-01T03:02:19+00:00"
+  "updatedAt": "2022-11-27T17:34:37+00:00"
  },
  "relationships": [
   {
    "id": "55ffae2a-8153-479b-928e-397f94e74e2a",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -204,6 +232,21 @@
     "version": 1,
     "volume": "7"
    }
+  },
+  {
+   "id": "d75e832b-e4be-4a1b-bc54-4a1a358aa8e4",
+   "type": "manga",
+   "related": "prequel"
+  },
+  {
+   "id": "d75e832b-e4be-4a1b-bc54-4a1a358aa8e4",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "f36895e4-5045-4a5c-a8ec-c073d8958433",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

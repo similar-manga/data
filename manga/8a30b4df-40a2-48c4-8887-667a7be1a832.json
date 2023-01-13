@@ -7,10 +7,10 @@
   },
   "altTitles": [
    {
-    "en": "G-Reco"
+    "ja-ro": "G-Reco"
    },
    {
-    "en": "Gundam G no Reconguista"
+    "ja-ro": "Gundam G no Reconguista"
    },
    {
     "en": "Gundam: Reconguista in G"
@@ -33,7 +33,8 @@
    "ebj": "https://ebookjapan.yahoo.co.jp/books/276637/",
    "kt": "33065",
    "mal": "80843",
-   "mu": "114327"
+   "mu": "114327",
+   "raw": "https://comic-walker.com/contents/detail/KDCW_KS03000003010000_68/"
   },
   "originalLanguage": "ja",
   "publicationDemographic": "shounen",
@@ -48,7 +49,7 @@
      "name": {
       "en": "Sci-Fi"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -60,7 +61,7 @@
      "name": {
       "en": "Action"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -72,8 +73,20 @@
      "name": {
       "en": "Mecha"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": {},
+     "group": "theme",
      "version": 1
     }
    },
@@ -84,7 +97,7 @@
      "name": {
       "en": "Adventure"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -96,7 +109,7 @@
      "name": {
       "en": "Military"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
      "version": 1
     }
@@ -108,7 +121,19 @@
      "name": {
       "en": "Drama"
      },
-     "description": null,
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Slice of Life"
+     },
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -120,7 +145,7 @@
      "name": {
       "en": "Adaptation"
      },
-     "description": null,
+     "description": {},
      "group": "format",
      "version": 1
     }
@@ -132,23 +157,23 @@
      "name": {
       "en": "Music"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 5,
   "createdAt": "2019-09-23T16:41:01+00:00",
-  "updatedAt": "2022-06-30T13:42:34+00:00"
+  "updatedAt": "2022-11-19T02:26:30+00:00"
  },
  "relationships": [
   {
    "id": "1c7f628b-c637-4488-a925-bf5d897f89f6",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -195,17 +220,22 @@
    }
   },
   {
-   "id": "1316638f-1272-4f78-adaf-d6657ad2c13d",
+   "id": "747860dc-e0d5-4fd2-88dc-0adb765829a4",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:27:39+00:00",
+    "createdAt": "2021-05-23T06:55:30+00:00",
     "description": "",
-    "fileName": "d9a6e72f-7d42-4d2c-8d6a-2329de4cf8d3.jpg",
+    "fileName": "46f1c782-8eb3-452b-8348-0730c1d18f54.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T17:27:39+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2021-05-23T06:55:30+00:00",
+    "version": 2,
+    "volume": "5"
    }
+  },
+  {
+   "id": "f36895e4-5045-4a5c-a8ec-c073d8958433",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

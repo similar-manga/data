@@ -3,7 +3,7 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "I'm Miko!"
+   "en": "Miiko Desu!"
   },
   "altTitles": [
    {
@@ -20,9 +20,6 @@
    },
    {
     "ja": "山田小蜜子"
-   },
-   {
-    "ja-ro": "Miiko Desu!"
    }
   ],
   "description": {
@@ -47,6 +44,7 @@
   "availableTranslatedLanguages": [
    "en"
   ],
+  "latestUploadedChapter": "642cafef-117f-484b-bd85-bb0db701ce3e",
   "tags": [
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
@@ -55,7 +53,7 @@
      "name": {
       "en": "Comedy"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
@@ -67,7 +65,7 @@
      "name": {
       "en": "School Life"
      },
-     "description": null,
+     "description": {},
      "group": "theme",
      "version": 1
     }
@@ -79,23 +77,23 @@
      "name": {
       "en": "Slice of Life"
      },
-     "description": null,
+     "description": {},
      "group": "genre",
      "version": 1
     }
    }
   ],
   "state": "published",
-  "version": 4,
+  "version": 7,
   "createdAt": "2019-04-27T16:34:37+00:00",
-  "updatedAt": "2022-06-14T02:28:54+00:00"
+  "updatedAt": "2023-01-04T21:28:10+00:00"
  },
  "relationships": [
   {
    "id": "0011d448-eabf-4daf-b7c4-227459821b56",
    "type": "author",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -142,20 +140,25 @@
    }
   },
   {
-   "id": "4cb6e090-4958-4fa2-addb-92c1400c85a9",
+   "id": "d7da9702-7203-448f-af98-ee6f699bf088",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:09:42+00:00",
+    "createdAt": "2023-01-04T20:38:29+00:00",
     "description": "",
-    "fileName": "903d23b9-2264-4257-a086-98bc1c7d3518.jpg",
+    "fileName": "4af81783-58ea-4f79-a881-0a660a32c0e4.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T17:09:42+00:00",
+    "updatedAt": "2023-01-04T20:38:29+00:00",
     "version": 1,
-    "volume": null
+    "volume": "4"
    }
   },
   {
    "id": "31f08f69-f21c-4572-9ead-25e808d59c90",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "396925ce-f3b6-45b1-b5af-cc7d3b8f1d04",
    "type": "manga",
    "related": "sequel"
   }
