@@ -3,31 +3,26 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Delibird's Present"
+   "en": "Pokémon - Delibird's Present"
   },
   "altTitles": [
    {
-    "en": "Delibird no Present"
+    "ja-ro": "Delibird no Present"
    },
    {
-    "en": "Delibird no Purezento"
+    "ja-ro": "Delibird no Purezento"
    },
    {
-    "en": "Delibird'ün Hediyesi"
+    "tr": "Delibird'ün Hediyesi"
    },
    {
-    "en": "Pokémon - Delibird's Present"
+    "fr": "Pokémon - Le Cadeau de Cadoiseau"
    },
    {
-    "en": "Pokémon - Le Cadeau de Cadoiseau"
-   },
-   {
-    "en": "デリバードのプレゼント"
+    "ja": "デリバードのプレゼント"
    }
   ],
-  "description": {
-   "en": ""
-  },
+  "description": {},
   "links": {
    "mal": "117514",
    "mu": "152263"
@@ -36,6 +31,7 @@
   "lastChapter": "1",
   "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 2018,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "en",
@@ -57,11 +53,59 @@
     }
    },
    {
+    "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Monsters"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Action"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Animals"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
     "type": "tag",
     "attributes": {
      "name": {
       "en": "Comedy"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sports"
      },
      "description": {},
      "group": "genre",
@@ -79,14 +123,63 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Video Games"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Slice of Life"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 3,
   "createdAt": "2019-09-23T08:14:26+00:00",
-  "updatedAt": "2021-05-25T15:40:20+00:00"
+  "updatedAt": "2023-01-15T16:21:11+00:00"
  },
  "relationships": [
+  {
+   "id": "024585df-57a6-4287-a500-f17c06799355",
+   "type": "author",
+   "attributes": {
+    "biography": {},
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Nintendo",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "5e66fbf2-98f0-428b-a098-c58185ade4e1",
    "type": "author",
@@ -116,7 +209,7 @@
    "id": "d5394b57-33b8-4664-a803-341e3a0209d9",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -149,6 +242,11 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "32f56e0f-badb-4868-af34-8509dc1901d8",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }

@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Hoshi no Kirby - Ultra Super Pupupu Hero"
+   "en": "Kirby of the Stars - Ultra Super Pupupu Hero"
   },
   "altTitles": [
    {
-    "en": "Kirby of the Stars - Ultra Super Pupupu Hero"
+    "ja": "星のカービィ ウルトラスーパープププヒーロー"
    },
    {
-    "ja": "星のカービィ ウルトラスーパープププヒーロー"
+    "ja-ro": "Hoshi no Kirby - Ultra Super Pupupu Hero"
    }
   ],
   "description": {},
@@ -36,6 +36,18 @@
     "attributes": {
      "name": {
       "en": "Comedy"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
      },
      "description": {},
      "group": "genre",
@@ -77,14 +89,51 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 5,
   "createdAt": "2019-08-27T05:04:48+00:00",
-  "updatedAt": "2022-10-03T23:45:42+00:00"
+  "updatedAt": "2023-02-05T04:38:23+00:00"
  },
  "relationships": [
+  {
+   "id": "024585df-57a6-4287-a500-f17c06799355",
+   "type": "author",
+   "attributes": {
+    "biography": {},
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Nintendo",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "31bcd8d8-8a73-4747-9fc4-bfa4425555b1",
    "type": "author",
@@ -114,7 +163,7 @@
    "id": "d273b810-8b54-49bf-b8d6-021d03547877",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -143,9 +192,9 @@
     "description": "",
     "fileName": "70cde50b-6cec-4e8b-9824-3d1adab96c0c.png",
     "locale": "ja",
-    "updatedAt": "2021-05-24T17:24:17+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2023-02-05T04:38:22+00:00",
+    "version": 2,
+    "volume": "1"
    }
   },
   {
@@ -172,6 +221,16 @@
    "id": "bf4a285b-636d-4760-9a90-e538514bf024",
    "type": "manga",
    "related": "prequel"
+  },
+  {
+   "id": "c2368edc-fa68-4126-bbcf-1c7fdb2c4a29",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "dd9e1a92-f328-4120-831c-1e1fbef40c07",
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "f7a9fccd-a15f-40ee-a20e-75801e0b2a1a",

@@ -3,17 +3,20 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Mahou Tsukai PreCure!"
+   "en": "Witchy Pretty Cure!"
   },
   "altTitles": [
    {
-    "en": "Mahou Girls Precure!"
+    "ja-ro": "Mahou Girls Precure!"
    },
    {
     "en": "Mahou Tsukai Pretty Cure!"
    },
    {
-    "en": "魔法つかいプリキュア!"
+    "ja": "魔法つかいプリキュア!"
+   },
+   {
+    "ja-ro": "Mahō tsukai purikyua!"
    }
   ],
   "description": {
@@ -138,9 +141,9 @@
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 3,
   "createdAt": "2019-07-01T00:02:57+00:00",
-  "updatedAt": "2021-05-25T15:47:30+00:00"
+  "updatedAt": "2023-02-03T16:57:19+00:00"
  },
  "relationships": [
   {
@@ -172,7 +175,7 @@
    "id": "8883f23c-daf0-4812-91c8-4a45f7625b5a",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -238,6 +241,11 @@
   },
   {
    "id": "b5cac06d-27f1-48ba-8627-df834b15622a",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "d1f61e89-0a36-4c24-9859-7f565e0517a7",
    "type": "manga",
    "related": "same_franchise"
   },

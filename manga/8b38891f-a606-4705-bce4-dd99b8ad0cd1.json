@@ -3,14 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "StreetPassing: A Jumbled Book on the StreetPass Mii Plaza, Kirby, and Animal Crossing (Doujinshi)"
+   "en": "Kirby \u0026 Animal Crossing dj - A Perfect StreetPass Day"
   },
   "altTitles": [
    {
-    "en": "Surechigai Biyori - Surechigai Mii Hiroba, Kirby, Doubutsu no Mori, Gochamase Hon"
+    "ja-ro": "Surechigai Biyori - Surechigai Mii Hiroba, Kirby, Doubutsu no Mori, Gochamase Hon"
    },
    {
     "ja": "すれちがい日和 すれちがいMii広場 カービィどうぶつの森 ごちゃまぜ本"
+   },
+   {
+    "en": "StreetPassing: A Jumbled Book on the StreetPass Mii Plaza, Kirby, and Animal Crossing (Doujinshi)"
    }
   ],
   "description": {
@@ -38,6 +41,18 @@
      },
      "description": {},
      "group": "format",
+     "version": 1
+    }
+   },
+   {
+    "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Animals"
+     },
+     "description": {},
+     "group": "theme",
      "version": 1
     }
    },
@@ -76,14 +91,87 @@
      "group": "format",
      "version": 1
     }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Fantasy"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Slice of Life"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 4,
+  "version": 5,
   "createdAt": "2019-09-20T04:15:15+00:00",
-  "updatedAt": "2022-10-03T23:38:42+00:00"
+  "updatedAt": "2023-02-07T17:47:24+00:00"
  },
  "relationships": [
+  {
+   "id": "024585df-57a6-4287-a500-f17c06799355",
+   "type": "author",
+   "attributes": {
+    "biography": {},
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Nintendo",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "3adef083-2918-4d00-9584-411d1cb5e33b",
    "type": "author",
@@ -113,7 +201,7 @@
    "id": "3adef083-2918-4d00-9584-411d1cb5e33b",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": "https://nobol-m.booth.pm/",
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -142,9 +230,9 @@
     "description": "",
     "fileName": "32d0fca5-8bc0-4062-a73a-6bfab6ea425f.jpg",
     "locale": "ja",
-    "updatedAt": "2022-10-03T23:38:41+00:00",
-    "version": 3,
-    "volume": null
+    "updatedAt": "2023-02-07T17:47:24+00:00",
+    "version": 4,
+    "volume": "1"
    }
   }
  ]

@@ -3,7 +3,7 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Pocket Monsters SPECIAL Sword \u0026 Shield"
+   "en": "Pokémon SPECIAL Sword \u0026 Shield"
   },
   "altTitles": [
    {
@@ -11,6 +11,9 @@
    },
    {
     "ja": "ポケットモンスターSPECIAL ソード・シールド"
+   },
+   {
+    "en": "Pocket Monsters SPECIAL Sword \u0026 Shield"
    }
   ],
   "description": {
@@ -19,9 +22,12 @@
   "links": {
    "al": "116477",
    "amz": "https://www.amazon.co.jp/gp/product/B08QR9Y4RC",
-   "bw": "series/256022",
+   "ap": "pokemon-sword-and-shield",
+   "bw": "series/256022/list",
+   "cdj": "https://www.cdjapan.co.jp/product/NEOBK-2496284",
    "ebj": "https://ebookjapan.yahoo.co.jp/books/596616/",
    "engtl": "https://www.viz.com/read/manga/pokemon-sword-shield/all",
+   "kt": "pokemon-adventures-sword-shield",
    "mal": "140641",
    "mu": "159082",
    "raw": "https://csbs.shogakukan.co.jp/book?book_group_id=15415"
@@ -34,10 +40,23 @@
   "availableTranslatedLanguages": [
    "pt-br",
    "en",
+   "id",
    "it"
   ],
-  "latestUploadedChapter": "51238cb5-738c-4441-b879-e28c1b174d89",
+  "latestUploadedChapter": "143a0778-6162-4a3f-89c0-c4a9a8c7d385",
   "tags": [
+   {
+    "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Thriller"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
     "type": "tag",
@@ -75,11 +94,59 @@
     }
    },
    {
+    "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Comedy"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sports"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
     "type": "tag",
     "attributes": {
      "name": {
       "en": "Adventure"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Video Games"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
      },
      "description": {},
      "group": "genre",
@@ -109,14 +176,51 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 7,
+  "version": 9,
   "createdAt": "2020-04-08T15:24:44+00:00",
-  "updatedAt": "2022-12-18T14:03:07+00:00"
+  "updatedAt": "2023-03-19T02:52:24+00:00"
  },
  "relationships": [
+  {
+   "id": "024585df-57a6-4287-a500-f17c06799355",
+   "type": "author",
+   "attributes": {
+    "biography": {},
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Nintendo",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "35737c39-0c8c-4120-8bf8-60b0565b6937",
    "type": "author",
@@ -146,7 +250,7 @@
    "id": "b2ce1484-cd09-4098-a32d-17d0cafb52cc",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -168,16 +272,16 @@
    }
   },
   {
-   "id": "66d2b0f0-6052-4f90-9f29-af8e97dba175",
+   "id": "72d55715-afd8-42c5-8a3f-530ab96106f2",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2022-12-18T14:03:06+00:00",
+    "createdAt": "2023-02-09T06:17:06+00:00",
     "description": "",
-    "fileName": "d70ee714-22ee-475f-957a-84ceaab74851.jpg",
+    "fileName": "607105cd-5b02-49b7-8e92-875002f891e6.jpg",
     "locale": "ja",
-    "updatedAt": "2022-12-18T14:03:06+00:00",
+    "updatedAt": "2023-02-09T06:17:06+00:00",
     "version": 1,
-    "volume": "5"
+    "volume": "6"
    }
   },
   {

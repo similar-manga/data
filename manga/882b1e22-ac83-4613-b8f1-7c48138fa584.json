@@ -3,14 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Pocket Monsters SPECIAL X \u0026 Y"
+   "en": "Pokémon SPECIAL X \u0026 Y"
   },
   "altTitles": [
    {
-    "en": "Pokémon X•Y"
+    "en": "Pocket Monsters SPECIAL X \u0026 Y"
    },
    {
     "ja": "ポケットモンスターSPECIAL X・Y"
+   },
+   {
+    "en": "Pokémon X•Y"
    }
   ],
   "description": {
@@ -35,8 +38,20 @@
   "availableTranslatedLanguages": [
    "en"
   ],
-  "latestUploadedChapter": "e9402122-cbcd-46b2-8637-637540047963",
+  "latestUploadedChapter": "c2f4ac49-f6a1-4c79-b674-e2adb41f63e9",
   "tags": [
+   {
+    "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Monsters"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
     "type": "tag",
@@ -50,11 +65,47 @@
     }
    },
    {
+    "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Animals"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
     "type": "tag",
     "attributes": {
      "name": {
       "en": "Comedy"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Survival"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sports"
      },
      "description": {},
      "group": "genre",
@@ -74,6 +125,30 @@
     }
    },
    {
+    "id": "9438db5a-7e2a-4ac0-b39e-e0d95a34b8a8",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Video Games"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
     "type": "tag",
     "attributes": {
@@ -84,14 +159,75 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Slice of Life"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Supernatural"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 6,
+  "version": 7,
   "createdAt": "2018-09-22T14:45:51+00:00",
-  "updatedAt": "2022-06-13T23:13:09+00:00"
+  "updatedAt": "2023-02-07T18:07:17+00:00"
  },
  "relationships": [
+  {
+   "id": "024585df-57a6-4287-a500-f17c06799355",
+   "type": "author",
+   "attributes": {
+    "biography": {},
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Nintendo",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "35737c39-0c8c-4120-8bf8-60b0565b6937",
    "type": "author",
@@ -121,7 +257,7 @@
    "id": "b2ce1484-cd09-4098-a32d-17d0cafb52cc",
    "type": "artist",
    "attributes": {
-    "biography": [],
+    "biography": {},
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -143,16 +279,16 @@
    }
   },
   {
-   "id": "79bc471c-9f69-4f30-9463-6d8672044577",
+   "id": "23dcebf3-47fa-4f4a-b2f6-19e66a467dfb",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T16:45:46+00:00",
+    "createdAt": "2021-05-23T05:40:26+00:00",
     "description": "",
-    "fileName": "939b9dda-215c-4673-921f-98f719ac2669.png",
+    "fileName": "8be6bd75-a241-4d7b-a66e-27bac5214c68.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T16:45:46+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2023-02-07T18:07:16+00:00",
+    "version": 3,
+    "volume": "6.1"
    }
   },
   {
