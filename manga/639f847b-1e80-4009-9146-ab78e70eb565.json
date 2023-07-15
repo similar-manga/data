@@ -3,20 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Kuro"
+   "en": "Kuro - Digital Colored Comics"
   },
   "altTitles": [
    {
-    "en": "-שחור -קורו"
+    "he": "-שחור -קורו"
    },
    {
     "en": "Black"
    },
    {
-    "en": "Hitam"
-   },
-   {
-    "en": "Kuro - Digital Colored Comics"
+    "id": "Hitam"
    },
    {
     "en": "Kuro (Official Colored)"
@@ -25,19 +22,19 @@
     "es": "Negro"
    },
    {
-    "en": "Siyah"
+    "tr": "Siyah"
    },
    {
-    "en": "Svart"
+    "sv": "Svart"
    },
    {
     "en": "Куро"
    },
    {
-    "en": "سیاه"
+    "fa": "سیاه"
    },
    {
-    "en": "مشکی"
+    "fa": "مشکی"
    },
    {
     "ja": "クロ"
@@ -81,6 +78,18 @@
   ],
   "latestUploadedChapter": "65c43b4a-d6e8-4f2c-9def-7e13b16fad17",
   "tags": [
+   {
+    "id": "320831a8-4026-470b-94f6-8353740e6f04",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Official Colored"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
+   },
    {
     "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
     "type": "tag",
@@ -166,18 +175,6 @@
     }
    },
    {
-    "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
-    "type": "tag",
-    "attributes": {
-     "name": {
-      "en": "Full Color"
-     },
-     "description": {},
-     "group": "format",
-     "version": 1
-    }
-   },
-   {
     "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
     "type": "tag",
     "attributes": {
@@ -191,16 +188,18 @@
    }
   ],
   "state": "published",
-  "version": 6,
+  "version": 8,
   "createdAt": "2018-08-27T10:49:18+00:00",
-  "updatedAt": "2022-09-21T15:46:55+00:00"
+  "updatedAt": "2023-06-17T10:48:12+00:00"
  },
  "relationships": [
   {
    "id": "5e6ad669-80d4-4818-bb8c-dfad9464b32a",
    "type": "author",
    "attributes": {
-    "biography": {},
+    "biography": {
+     "en": "Alt names:\nSomato\nソウマトウ\nMayoibashi\nまよいばし\n\nA mangaka duo consisting of writer and designer Nori (のり) and artist Hisshi (ひっし), who were former assistants of Saitou Pro, the manga studio of Takao Saitou."
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": "https://somato.fanbox.cc/",
@@ -214,8 +213,8 @@
     "skeb": null,
     "tumblr": null,
     "twitter": "https://twitter.com/somatoma",
-    "updatedAt": "2022-06-21T04:20:01+00:00",
-    "version": 2,
+    "updatedAt": "2023-04-22T19:09:42+00:00",
+    "version": 3,
     "website": "https://so-ma-to.com/",
     "weibo": null,
     "youtube": null
@@ -225,7 +224,9 @@
    "id": "5e6ad669-80d4-4818-bb8c-dfad9464b32a",
    "type": "artist",
    "attributes": {
-    "biography": {},
+    "biography": {
+     "en": "Alt names:\nSomato\nソウマトウ\nMayoibashi\nまよいばし\n\nA mangaka duo consisting of writer and designer Nori (のり) and artist Hisshi (ひっし), who were former assistants of Saitou Pro, the manga studio of Takao Saitou."
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": "https://somato.fanbox.cc/",
@@ -239,8 +240,8 @@
     "skeb": null,
     "tumblr": null,
     "twitter": "https://twitter.com/somatoma",
-    "updatedAt": "2022-06-21T04:20:01+00:00",
-    "version": 2,
+    "updatedAt": "2023-04-22T19:09:42+00:00",
+    "version": 3,
     "website": "https://so-ma-to.com/",
     "weibo": null,
     "youtube": null
@@ -258,6 +259,11 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "e9e7af1c-6b46-43f1-957a-890040d207c9",
+   "type": "manga",
+   "related": "side_story"
   }
  ]
 }

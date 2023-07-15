@@ -26,18 +26,6 @@
   "contentRating": "safe",
   "tags": [
    {
-    "id": "320831a8-4026-470b-94f6-8353740e6f04",
-    "type": "tag",
-    "attributes": {
-     "name": {
-      "en": "Official Colored"
-     },
-     "description": {},
-     "group": "format",
-     "version": 1
-    }
-   },
-   {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
     "type": "tag",
     "attributes": {
@@ -108,19 +96,33 @@
      "group": "theme",
      "version": 1
     }
+   },
+   {
+    "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Full Color"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 8,
+  "version": 9,
   "createdAt": "2022-03-28T10:40:26+00:00",
-  "updatedAt": "2023-01-20T15:39:41+00:00"
+  "updatedAt": "2023-06-18T12:52:04+00:00"
  },
  "relationships": [
   {
    "id": "e5c67034-7cb2-4f3c-86c2-8e0ebe55186c",
    "type": "author",
    "attributes": {
-    "biography": {},
+    "biography": {
+     "en": "DOB\n1987-11-29"
+    },
     "booth": null,
     "createdAt": "2022-03-28T11:35:22+00:00",
     "fanBox": null,
@@ -134,8 +136,8 @@
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2022-03-28T11:35:22+00:00",
-    "version": 1,
+    "updatedAt": "2023-04-27T06:26:52+00:00",
+    "version": 2,
     "website": null,
     "weibo": null,
     "youtube": null
@@ -188,6 +190,15 @@
    "id": "da5c7cd3-43b4-4302-9615-1bd599944318",
    "type": "manga",
    "related": "main_story"
+  },
+  {
+   "id": "da5c7cd3-43b4-4302-9615-1bd599944318",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "c1d3fdad-f8f6-4b38-8939-e09278af1dd3",
+   "type": "creator"
   }
  ]
 }

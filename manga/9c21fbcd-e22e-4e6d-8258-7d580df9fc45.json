@@ -18,7 +18,7 @@
   },
   "links": {
    "al": "151808",
-   "amz": "https://www.amazon.co.jp/dp/4046820306?tag=kadokawacw01-22",
+   "amz": "https://www.amazon.co.jp/dp/B0BQWD1ZMZ",
    "ap": "lycoris-recoil",
    "bw": "series/389079",
    "cdj": "https://www.cdjapan.co.jp/product/NEODAI-150523",
@@ -36,13 +36,15 @@
   "availableTranslatedLanguages": [
    "pt-br",
    "en",
-   "vi",
-   "es-la",
    "it",
+   "vi",
+   "fr",
+   "es-la",
    "ru",
-   "tr"
+   "tr",
+   "pl"
   ],
-  "latestUploadedChapter": "291a9adc-9719-42bd-a073-81c1fd097409",
+  "latestUploadedChapter": "22cf277e-534f-4b9d-adaf-de61abbb94e9",
   "tags": [
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -103,12 +105,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 15,
+  "version": 17,
   "createdAt": "2022-09-03T23:33:22+00:00",
-  "updatedAt": "2023-02-04T13:55:29+00:00"
+  "updatedAt": "2023-06-09T22:58:09+00:00"
  },
  "relationships": [
   {
@@ -162,22 +176,32 @@
    }
   },
   {
-   "id": "8da84c79-6d00-4b26-aa0b-608ce05d3d03",
+   "id": "b5040c5d-7fd3-4b17-af5f-c96805c83aa4",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2023-02-02T21:41:49+00:00",
+    "createdAt": "2023-07-09T21:40:16+00:00",
     "description": "",
-    "fileName": "b08ec3dd-d51a-4f3e-a3a9-09adaf37d2c7.jpg",
+    "fileName": "d6d3c75c-bf41-47e4-9d23-53987fc50118.jpg",
     "locale": "ja",
-    "updatedAt": "2023-02-02T21:41:49+00:00",
+    "updatedAt": "2023-07-09T21:40:16+00:00",
     "version": 1,
-    "volume": "1"
+    "volume": "2"
    }
+  },
+  {
+   "id": "0b464b49-313e-4fa2-a669-90be42fa7c07",
+   "type": "manga",
+   "related": "side_story"
   },
   {
    "id": "0d6867bd-b15c-470f-a40b-b77256b3c866",
    "type": "manga",
    "related": "side_story"
+  },
+  {
+   "id": "27d8e472-6b72-4ae6-befe-5ea930a0a0d1",
+   "type": "manga",
+   "related": "doujinshi"
   },
   {
    "id": "2b1cf97b-b999-4d68-8162-dc121c1a3686",
@@ -190,6 +214,21 @@
    "related": "doujinshi"
   },
   {
+   "id": "3837341a-27ce-4674-b33e-df6c33339cea",
+   "type": "manga",
+   "related": "side_story"
+  },
+  {
+   "id": "827ebff3-c4c9-49da-b7f6-fd2fbe066731",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "999ee308-0fda-46b6-aff1-fa6e78418322",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
    "id": "c242dec1-5d72-49bf-ab58-59722057248c",
    "type": "manga",
    "related": "doujinshi"
@@ -198,6 +237,10 @@
    "id": "ebe0dc3c-e7de-4c7c-903d-570491ade8ab",
    "type": "manga",
    "related": "doujinshi"
+  },
+  {
+   "id": "0218ac4d-c69e-4670-8ea0-3bb161a3ef8d",
+   "type": "creator"
   }
  ]
 }

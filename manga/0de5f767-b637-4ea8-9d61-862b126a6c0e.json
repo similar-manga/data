@@ -3,21 +3,20 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Touhou - Kachikomi Tengu. (Doujinshi)"
+   "en": "Touhou - Kachikomi Tengu (Doujinshi)"
   },
   "altTitles": [
    {
-    "en": "(Dai-132-Ki Bunbunmaru. Shinbun Tomo no Kai) Foolish Tengu Raid (Touhou Project)"
+    "en": "Foolish Tengu Raid"
    },
    {
-    "en": "(Dai-132-Ki Bunbunmaru. Shinbun Tomo no Kai) Raider Tengu. (Touhou Project)"
+    "en": "Raider Tengu"
    }
   ],
-  "description": {
-   "en": ""
-  },
+  "description": {},
   "originalLanguage": "ja",
   "status": "completed",
+  "year": 2017,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "en"
@@ -59,12 +58,24 @@
      "group": "format",
      "version": 1
     }
+   },
+   {
+    "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Fantasy"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 3,
   "createdAt": "2020-02-13T19:53:56+00:00",
-  "updatedAt": "2021-05-25T15:39:22+00:00"
+  "updatedAt": "2023-04-30T15:39:08+00:00"
  },
  "relationships": [
   {
@@ -183,6 +194,11 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "fe38f42b-d942-402b-b95e-a8d1400cf916",
+   "type": "manga",
+   "related": "serialization"
   }
  ]
 }

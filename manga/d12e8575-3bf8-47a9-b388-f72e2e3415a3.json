@@ -3,21 +3,26 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Touhou - Saigo no Bansan (Doujinshi)"
+   "en": "Touhou - The Last Supper (Doujinshi)"
   },
   "altTitles": [
    {
-    "en": "(C93) The Last Supper (Touhou Project)"
+    "ja-ro": "Saigo no Bansan"
    },
    {
-    "en": "(C93) 最期の蛮餐 (東方project)"
+    "ja": "(C93) 最期の蛮餐 (東方project)"
+   },
+   {
+    "en": "The Last Supper"
+   },
+   {
+    "vi": "Yến Tiệc Cuối"
    }
   ],
-  "description": {
-   "en": ""
-  },
+  "description": {},
   "originalLanguage": "ja",
   "status": "completed",
+  "year": 2017,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "en"
@@ -42,6 +47,18 @@
     "attributes": {
      "name": {
       "en": "Action"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Psychological"
      },
      "description": {},
      "group": "genre",
@@ -74,9 +91,9 @@
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 3,
   "createdAt": "2020-03-17T02:00:34+00:00",
-  "updatedAt": "2021-05-25T15:48:03+00:00"
+  "updatedAt": "2023-04-30T15:45:03+00:00"
  },
  "relationships": [
   {
@@ -195,6 +212,11 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "fe38f42b-d942-402b-b95e-a8d1400cf916",
+   "type": "manga",
+   "related": "serialization"
   }
  ]
 }

@@ -3,11 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Two Girls Who Are Roughly the Same Height But Whose Proportions Are Completely Different"
+   "en": "Two Girls Who Are Roughly the Same Height but Whose Proportions Are Completely Different"
   },
   "altTitles": [
    {
     "ja": "身長は同じくらいなのに身体の部位の大きさが全然違う二人の話"
+   },
+   {
+    "ja-ro": "Shinchou wa Onaji Kurai Nano ni Karada no Bui no Ookisa ga Zenzen Chigau Futari no Hanashi"
    },
    {
     "id": "Dua Gadis Yang Tingginya Kira-Kira Sama Tapi Proporsinya Sangat Berbeda"
@@ -15,10 +18,12 @@
   ],
   "description": {},
   "links": {
-   "mu": "191598"
+   "mu": "191598",
+   "raw": "https://twitter.com/kntaid/status/1413834254589460484"
   },
   "originalLanguage": "ja",
   "status": "completed",
+  "year": 2021,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "id",
@@ -51,6 +56,18 @@
     }
    },
    {
+    "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Comedy"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
     "type": "tag",
     "attributes": {
@@ -73,19 +90,33 @@
      "group": "theme",
      "version": 1
     }
+   },
+   {
+    "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Web Comic"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 6,
   "createdAt": "2021-11-25T11:35:10+00:00",
-  "updatedAt": "2023-02-16T11:55:19+00:00"
+  "updatedAt": "2023-04-03T16:34:46+00:00"
  },
  "relationships": [
   {
    "id": "361d74fb-d10b-4a34-b54f-3c71df43bee2",
    "type": "author",
    "attributes": {
-    "biography": {},
+    "biography": {
+     "en": "Native name: アウェイ田"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": "https://aiaiaweida.fanbox.cc/",
@@ -99,8 +130,8 @@
     "skeb": null,
     "tumblr": null,
     "twitter": "https://twitter.com/Kntaid",
-    "updatedAt": "2022-04-12T18:29:16+00:00",
-    "version": 2,
+    "updatedAt": "2023-04-03T16:14:06+00:00",
+    "version": 3,
     "website": null,
     "weibo": null,
     "youtube": null
@@ -110,7 +141,9 @@
    "id": "361d74fb-d10b-4a34-b54f-3c71df43bee2",
    "type": "artist",
    "attributes": {
-    "biography": {},
+    "biography": {
+     "en": "Native name: アウェイ田"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": "https://aiaiaweida.fanbox.cc/",
@@ -124,8 +157,8 @@
     "skeb": null,
     "tumblr": null,
     "twitter": "https://twitter.com/Kntaid",
-    "updatedAt": "2022-04-12T18:29:16+00:00",
-    "version": 2,
+    "updatedAt": "2023-04-03T16:14:06+00:00",
+    "version": 3,
     "website": null,
     "weibo": null,
     "youtube": null
@@ -143,6 +176,10 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "68d62155-85fa-4851-94af-37402bf16252",
+   "type": "creator"
   }
  ]
 }

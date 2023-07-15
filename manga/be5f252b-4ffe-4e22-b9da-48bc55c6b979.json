@@ -3,21 +3,23 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Touhou - Shu no Ju (Doujinshi)"
+   "en": "Touhou - Curse of Crimson (Doujinshi)"
   },
   "altTitles": [
    {
-    "en": "(My Friend 3) Curse of Crimson (Touhou Project) "
+    "en": "Curse of Crimson"
    },
    {
-    "en": "(マイフレンド3) 朱の呪 (東方project)"
+    "ja": "(マイフレンド3) 朱の呪 (東方project)"
+   },
+   {
+    "ja-ro": "Shu no Ju"
    }
   ],
-  "description": {
-   "en": ""
-  },
+  "description": {},
   "originalLanguage": "ja",
   "status": "completed",
+  "year": 2016,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "en"
@@ -59,12 +61,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Fantasy"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 3,
   "createdAt": "2020-03-14T13:19:34+00:00",
-  "updatedAt": "2021-05-25T15:47:14+00:00"
+  "updatedAt": "2023-04-30T15:09:38+00:00"
  },
  "relationships": [
   {
@@ -183,6 +197,11 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "fe38f42b-d942-402b-b95e-a8d1400cf916",
+   "type": "manga",
+   "related": "serialization"
   }
  ]
 }

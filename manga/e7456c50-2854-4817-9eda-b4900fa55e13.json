@@ -3,11 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Super Bikkuriman"
+   "en": "Super Bikkuri Man"
   },
   "altTitles": [
    {
     "ja": "スーパービックリマン"
+   },
+   {
+    "ja-ro": "Super Bikkuriman"
    }
   ],
   "description": {},
@@ -31,9 +34,9 @@
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 4,
   "createdAt": "2023-03-16T02:51:37+00:00",
-  "updatedAt": "2023-03-16T02:51:43+00:00"
+  "updatedAt": "2023-06-25T06:55:22+00:00"
  },
  "relationships": [
   {
@@ -100,6 +103,11 @@
    }
   },
   {
+   "id": "4670e9e3-8b3e-455b-97ac-1545a65c4c7c",
+   "type": "manga",
+   "related": "alternate_version"
+  },
+  {
    "id": "72133284-8d14-4f6d-a822-939b8e051539",
    "type": "manga",
    "related": "same_franchise"
@@ -110,9 +118,18 @@
    "related": "same_franchise"
   },
   {
+   "id": "d91c5c8f-0549-464a-bb50-6cc30534b913",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
    "id": "ecc98867-43e9-45b9-819e-feefb5457e34",
    "type": "manga",
    "related": "same_franchise"
+  },
+  {
+   "id": "ecf379e6-bc34-42c4-b25d-63698875cdfb",
+   "type": "creator"
   }
  ]
 }

@@ -3,20 +3,20 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Rakudai Ninja Rantarou"
+   "en": "Dropout Ninja Rantaro"
   },
   "altTitles": [
    {
-    "en": "Dropout Ninja Rantaro"
+    "ja-ro": "Rakudai Ninja Rantarou"
    },
    {
-    "en": "Ninja loạn thị"
+    "vi": "Ninja loạn thị"
    },
    {
-    "en": "Rakudai Ninja Rantaro"
+    "ja-ro": "Rakudai Ninja Rantaro"
    },
    {
-    "en": "落第忍者乱太郎"
+    "ja": "落第忍者乱太郎"
    }
   ],
   "description": {
@@ -30,14 +30,28 @@
    "mu": "268"
   },
   "originalLanguage": "ja",
+  "lastVolume": "65",
   "publicationDemographic": "shounen",
-  "status": "ongoing",
+  "status": "completed",
+  "year": 1986,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "en"
   ],
   "latestUploadedChapter": "e184bdd5-58bb-4c33-b1e9-ca99a95462c2",
   "tags": [
+   {
+    "id": "489dd859-9b61-4c37-af75-5b18e88daafc",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Ninja"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
     "type": "tag",
@@ -52,9 +66,9 @@
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 3,
   "createdAt": "2018-05-21T10:56:21+00:00",
-  "updatedAt": "2021-05-25T15:47:46+00:00"
+  "updatedAt": "2023-07-09T00:21:15+00:00"
  },
  "relationships": [
   {
@@ -108,20 +122,40 @@
    }
   },
   {
-   "id": "93fdd3ed-5f4e-4f02-9677-fc932c8245a3",
+   "id": "52592f6c-d905-48b0-9ae4-1ca65500470a",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T18:28:21+00:00",
+    "createdAt": "2023-07-09T01:37:09+00:00",
     "description": "",
-    "fileName": "a8d3a799-0f48-42b3-b62e-3a8863d00cb7.jpg",
+    "fileName": "47d39ab6-1e9e-42f4-a6d0-69b8ce63d319.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T18:28:21+00:00",
+    "updatedAt": "2023-07-09T01:37:09+00:00",
     "version": 1,
-    "volume": null
+    "volume": "65"
    }
   },
   {
+   "id": "1e1127da-329a-4e22-af2b-168114eb7520",
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "20bb37b9-5c0c-4c7e-ad78-c4f1e41d979e",
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "3127b6f3-e231-4ba6-b2a7-6c7bc7623df7",
+   "type": "manga",
+   "related": "side_story"
+  },
+  {
    "id": "65817e01-a982-4043-bf89-0706c44def0f",
+   "type": "manga",
+   "related": "spin_off"
+  },
+  {
+   "id": "ce9318fa-f066-4a5c-8c69-ffb86159889f",
    "type": "manga",
    "related": "spin_off"
   }

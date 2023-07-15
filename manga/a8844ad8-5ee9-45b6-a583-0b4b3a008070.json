@@ -137,11 +137,36 @@
    }
   ],
   "state": "published",
-  "version": 5,
+  "version": 6,
   "createdAt": "2020-07-19T00:01:48+00:00",
-  "updatedAt": "2022-09-13T01:27:57+00:00"
+  "updatedAt": "2023-06-30T10:01:43+00:00"
  },
  "relationships": [
+  {
+   "id": "d4bd7c05-4986-424a-99d1-30d7d56daa95",
+   "type": "author",
+   "attributes": {
+    "biography": {},
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Fujiwara Yoshihide",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "dbac72c2-5454-4a67-a36b-12f9ab2a81c6",
    "type": "author",
@@ -169,7 +194,7 @@
   },
   {
    "id": "f40323a3-6ad4-4b28-b023-6e4d00e52980",
-   "type": "author",
+   "type": "artist",
    "attributes": {
     "biography": {},
     "booth": null,
@@ -193,31 +218,6 @@
    }
   },
   {
-   "id": "d4bd7c05-4986-424a-99d1-30d7d56daa95",
-   "type": "artist",
-   "attributes": {
-    "biography": {},
-    "booth": null,
-    "createdAt": "2021-04-19T21:59:45+00:00",
-    "fanBox": null,
-    "fantia": null,
-    "imageUrl": null,
-    "melonBook": null,
-    "name": "Fujiwara Yoshihide",
-    "naver": null,
-    "nicoVideo": null,
-    "pixiv": null,
-    "skeb": null,
-    "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
-    "weibo": null,
-    "youtube": null
-   }
-  },
-  {
    "id": "8df7cfd6-28da-4f2f-95d2-917df069d697",
    "type": "cover_art",
    "attributes": {
@@ -234,6 +234,11 @@
    "id": "3ed72a42-147d-4a57-a078-9e3632db4ab9",
    "type": "manga",
    "related": "sequel"
+  },
+  {
+   "id": "e90885ae-fa9f-4c51-a02a-24b4763e3ad7",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }
