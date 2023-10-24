@@ -3,14 +3,20 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Otaku Kyoumai"
+   "en": "Otaku Keimai"
   },
   "altTitles": [
    {
     "ja": "ヲタク兄妹"
    },
    {
-    "zh-hk": "宅兄宅妹"
+    "ja-ro": "Otaku Kyoudai"
+   },
+   {
+    "zh": "宅兄宅妹"
+   },
+   {
+    "en": "Otaku Siblings"
    }
   ],
   "description": {},
@@ -22,10 +28,23 @@
   "year": 2020,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
-   "zh"
+   "zh",
+   "en"
   ],
-  "latestUploadedChapter": "dfa1f50c-4e4d-47ac-ba90-222fa343541c",
+  "latestUploadedChapter": "ff1acf5f-5677-4161-9ffb-177caf3f080f",
   "tags": [
+   {
+    "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Oneshot"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
+   },
    {
     "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
     "type": "tag",
@@ -64,9 +83,9 @@
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 8,
   "createdAt": "2020-07-25T21:43:21+00:00",
-  "updatedAt": "2022-08-24T14:59:55+00:00"
+  "updatedAt": "2023-09-12T15:49:48+00:00"
  },
  "relationships": [
   {
@@ -135,6 +154,11 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "ad5e875e-abaa-4fa3-ab75-b93a172ed35c",
+   "type": "manga",
+   "related": "shared_universe"
   }
  ]
 }

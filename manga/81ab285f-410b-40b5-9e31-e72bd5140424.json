@@ -3,13 +3,8 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "6th"
+   "en": "6th°"
   },
-  "altTitles": [
-   {
-    "en": "6 °"
-   }
-  ],
   "description": {
    "en": "Every desire exposes what us humans are capable of. In the end, it's just you and I, a chance for retribution, and some forgiveness in hindsight.",
    "es-la": "Cada deseo expone lo que los humanos somos capaces de hacer. Al final, somos solo tú y yo, una oportunidad de venganza y algo de perdón en retrospectiva."
@@ -18,7 +13,8 @@
    "engtl": "https://www.webtoons.com/en/challenge/6th/list?title_no=389854\u0026page=1"
   },
   "originalLanguage": "en",
-  "status": "ongoing",
+  "status": "completed",
+  "year": 2020,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "es-la",
@@ -35,6 +31,18 @@
      },
      "description": {},
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Long Strip"
+     },
+     "description": {},
+     "group": "format",
      "version": 1
     }
    },
@@ -61,12 +69,24 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Full Color"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 3,
   "createdAt": "2020-11-23T19:27:02+00:00",
-  "updatedAt": "2022-02-15T20:50:30+00:00"
+  "updatedAt": "2023-09-21T05:27:15+00:00"
  },
  "relationships": [
   {
@@ -80,15 +100,15 @@
     "fantia": null,
     "imageUrl": null,
     "melonBook": null,
-    "name": "Vultie!",
+    "name": "vultie!",
     "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "twitter": "https://twitter.com/vooltie",
+    "updatedAt": "2023-09-21T05:23:40+00:00",
+    "version": 2,
     "website": null,
     "weibo": null,
     "youtube": null
@@ -105,15 +125,15 @@
     "fantia": null,
     "imageUrl": null,
     "melonBook": null,
-    "name": "Vultie!",
+    "name": "vultie!",
     "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "twitter": "https://twitter.com/vooltie",
+    "updatedAt": "2023-09-21T05:23:40+00:00",
+    "version": 2,
     "website": null,
     "weibo": null,
     "youtube": null
@@ -131,6 +151,11 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "ae2c4b0b-e3d6-41aa-9ad3-239b1fc8f0fb",
+   "type": "manga",
+   "related": "serialization"
   }
  ]
 }
