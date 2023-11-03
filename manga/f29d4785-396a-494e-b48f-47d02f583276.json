@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Fate/Stay Night - Unlimited Blade Works"
+   "en": "Fate/stay night [Unlimited Blade Works]"
   },
   "altTitles": [
    {
-    "ru": "Судьба/Ночь Схватки - Клинков Бесконечных Край"
+    "ja": "フェイト／ステイナイト アンリミテッドブレイドワークス"
    },
    {
-    "en": "Fate/stay night [Unlimited Blade Works]"
+    "ru": "Судьба/Ночь Схватки - Клинков Бесконечных Край"
    }
   ],
   "description": {
@@ -38,9 +38,10 @@
    "fr",
    "en",
    "ru",
-   "pt-br"
+   "pt-br",
+   "uk"
   ],
-  "latestUploadedChapter": "7dc62a89-8ac1-48fd-be06-6b5afed9940c",
+  "latestUploadedChapter": "e9218d7a-c5ec-48fe-8b54-975015c5a98b",
   "tags": [
    {
     "id": "33771934-028e-4cb3-8744-691e866a923e",
@@ -176,32 +177,34 @@
    }
   ],
   "state": "published",
-  "version": 14,
+  "version": 16,
   "createdAt": "2021-12-24T10:26:29+00:00",
-  "updatedAt": "2023-07-03T14:01:55+00:00"
+  "updatedAt": "2023-07-26T17:14:33+00:00"
  },
  "relationships": [
   {
    "id": "7b9374fb-9332-43d9-9371-ed5383ff95c6",
    "type": "author",
    "attributes": {
-    "biography": {},
+    "biography": {
+     "en": "**Native name**: タイプムーン \n\nOriginally a doujin circle and now a prominent Japanese game company specializing in visual novels.\n\n**Key people**:\n[Nasu Kinoko](https://mangadex.org/author/92d5cd4f-76f7-4165-8a42-8c8251eff6fb)\n[Takeuchi Takashi](https://mangadex.org/author/8d377ab3-c898-4bf1-9824-ca1d49819d7f)\n[Koyama Hirokazu](https://mangadex.org/author/3f5e4bd4-1900-43d3-8a38-7cd082cf4ef1)\n\n**Associated people**:\nSakurai Hikaru\n[Wada Arco](https://mangadex.org/author/e52fe4fb-bcac-47e8-a3b0-0955d56c42cb)\n[Higashide Yuuichirou](https://mangadex.org/author/d0658235-01cc-4604-9650-f315d4e743c5)\nKonoe Ototsugu"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
     "fantia": null,
     "imageUrl": null,
     "melonBook": null,
-    "name": "Type-Moon",
+    "name": "TYPE-MOON",
     "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "https://twitter.com/tmitterofficial",
+    "updatedAt": "2023-07-22T04:47:12+00:00",
+    "version": 4,
+    "website": "http://typemoon.com/",
     "weibo": null,
     "youtube": null
    }
@@ -275,9 +278,19 @@
    "related": "alternate_story"
   },
   {
+   "id": "4d6decd4-835d-4905-9534-2571dae07bcd",
+   "type": "manga",
+   "related": "shared_universe"
+  },
+  {
    "id": "5f3d8a01-3e20-4925-a8cc-79c891a0b687",
    "type": "manga",
    "related": "prequel"
+  },
+  {
+   "id": "f34f2b36-4a30-4ac9-bee1-630b3a37d7d9",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "fed545a0-d8f0-4606-8e21-5d161ec5ce0c",

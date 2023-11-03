@@ -3,11 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Kimi ga Shiranai Monogatari - Bakemonogatari dj."
+   "en": "Bakemonogatari - Kimi ga Shiranai Monogatari (Doujinshi)"
   },
   "altTitles": [
    {
-    "en": "[はまなす茶屋 (はまなす)] 君ガ知らない物語 (化物語)"
+    "ja": "君ガ知らない物語 (化物語)"
+   },
+   {
+    "ja-ro": "Kimi ga Shiranai Monogatari (Bakemonogatari)"
    }
   ],
   "description": {
@@ -33,12 +36,24 @@
      "group": "format",
      "version": 1
     }
+   },
+   {
+    "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Doujinshi"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 3,
   "createdAt": "2020-08-22T20:56:06+00:00",
-  "updatedAt": "2022-09-30T21:20:02+00:00"
+  "updatedAt": "2023-08-15T08:12:33+00:00"
  },
  "relationships": [
   {
@@ -153,6 +168,11 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "4265c437-7d57-4d31-9b1d-0e574a07b7b7",
+   "type": "manga",
+   "related": "based_on"
   }
  ]
 }

@@ -3,11 +3,11 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Delivery Sex"
+   "en": "Delivery Sex (Fan Colored)"
   },
   "altTitles": [
    {
-    "en": "デリバリーセックス"
+    "ja": "デリバリーセックス (Fan Colored)"
    }
   ],
   "description": {
@@ -37,12 +37,24 @@
      "group": "format",
      "version": 1
     }
+   },
+   {
+    "id": "7b2ce280-79ef-4c09-9b58-12b7c23a9b78",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Fan Colored"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 4,
   "createdAt": "2019-05-20T13:22:01+00:00",
-  "updatedAt": "2022-10-05T02:12:15+00:00"
+  "updatedAt": "2023-08-12T11:41:22+00:00"
  },
  "relationships": [
   {
@@ -107,6 +119,11 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "9e8aef2c-2020-4788-b0be-4f398bf7e822",
+   "type": "manga",
+   "related": "monochrome"
   }
  ]
 }
