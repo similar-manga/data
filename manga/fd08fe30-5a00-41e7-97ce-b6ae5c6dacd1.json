@@ -3,13 +3,23 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Uchuu Enban Daisensou"
+   "en": "The Great Battle of the Flying Saucers"
   },
+  "altTitles": [
+   {
+    "ja-ro": "Uchuu Enban Daisensou"
+   },
+   {
+    "ja": "宇宙円盤大戦争"
+   }
+  ],
   "description": {
    "en": "Prequel of Grendizer."
   },
   "originalLanguage": "ja",
+  "publicationDemographic": "shounen",
   "status": "completed",
+  "year": 1975,
   "contentRating": "safe",
   "availableTranslatedLanguages": [
    "fr"
@@ -27,12 +37,36 @@
      "group": "format",
      "version": 1
     }
+   },
+   {
+    "id": "50880a9d-5440-4732-9afb-8f457127e836",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Mecha"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "e64f6742-c834-471d-8d72-dd51fc02b835",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Aliens"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 4,
   "createdAt": "2019-02-21T20:26:25+00:00",
-  "updatedAt": "2023-06-02T01:13:16+00:00"
+  "updatedAt": "2023-11-11T09:12:04+00:00"
  },
  "relationships": [
   {
@@ -90,17 +124,22 @@
    }
   },
   {
-   "id": "cbaa33aa-e862-4fc0-a242-ea4f00072c68",
+   "id": "b6ef313b-bf33-4932-82da-c49001b88699",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:02:09+00:00",
+    "createdAt": "2023-11-11T09:12:04+00:00",
     "description": "",
-    "fileName": "195781af-8dfc-425e-91ac-03f754e89e0b.jpg",
+    "fileName": "78f7d60d-c77b-4ba3-8fce-2c46a54ae6ab.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T17:02:09+00:00",
+    "updatedAt": "2023-11-11T09:12:04+00:00",
     "version": 1,
-    "volume": null
+    "volume": "1"
    }
+  },
+  {
+   "id": "ed0f54fd-0093-4567-a0f2-49ee861bb36b",
+   "type": "manga",
+   "related": "alternate_version"
   }
  ]
 }
