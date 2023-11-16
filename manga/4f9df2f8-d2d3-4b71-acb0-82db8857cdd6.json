@@ -3,15 +3,9 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Petit Mignon"
+   "en": "Petit Mignon: Jujin Omegaverse"
   },
   "altTitles": [
-   {
-    "ja-ro": "Petit Mignon: Jujin Omegaverse"
-   },
-   {
-    "ja-ro": "Petit Mignon: Kemonohito Omegaverse"
-   },
    {
     "ja": "プチミニョン-獣人おめがばーす-"
    }
@@ -20,10 +14,11 @@
    "en": "A spin-off of Remnant: Kemonohito Omegaverse about Juda and Daath raising their kids. The trickster twins take the center stage."
   },
   "links": {
-   "amz": "https://www.amazon.co.jp/dp/4866572639/",
+   "amz": "https://www.amazon.co.jp/s?k=プチミニョン-獣人おめがばーす-",
    "cdj": "https://www.cdjapan.co.jp/searchuni?q=プチミニョン-獣人おめがばーす-",
    "ebj": "https://ebookjapan.yahoo.co.jp/books/570222/",
-   "mu": "146245"
+   "mu": "146245",
+   "raw": "https://www.cmoa.jp/title/187440/"
   },
   "originalLanguage": "ja",
   "status": "completed",
@@ -84,16 +79,18 @@
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 5,
   "createdAt": "2019-03-23T08:35:26+00:00",
-  "updatedAt": "2022-10-19T14:06:59+00:00"
+  "updatedAt": "2023-11-16T02:27:50+00:00"
  },
  "relationships": [
   {
    "id": "4da0ee80-6363-4eb7-86f1-dc01b5637a33",
    "type": "author",
    "attributes": {
-    "biography": {},
+    "biography": {
+     "en": "**Name** (in native language)\n羽純ハナ"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -103,13 +100,13 @@
     "name": "Hasumi Hana",
     "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://pixiv.net/member_illust.php?id=15436708",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "http://twitter.com/fw_kisskiss",
+    "updatedAt": "2023-11-14T08:22:14+00:00",
+    "version": 2,
+    "website": "https://hanabifw.wixsite.com/fwkisskiss",
     "weibo": null,
     "youtube": null
    }
@@ -118,7 +115,9 @@
    "id": "4da0ee80-6363-4eb7-86f1-dc01b5637a33",
    "type": "artist",
    "attributes": {
-    "biography": {},
+    "biography": {
+     "en": "**Name** (in native language)\n羽純ハナ"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -128,39 +127,44 @@
     "name": "Hasumi Hana",
     "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://pixiv.net/member_illust.php?id=15436708",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "http://twitter.com/fw_kisskiss",
+    "updatedAt": "2023-11-14T08:22:14+00:00",
+    "version": 2,
+    "website": "https://hanabifw.wixsite.com/fwkisskiss",
     "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "ce91b605-c3ec-4f21-a0e7-6a1d101cce6b",
+   "id": "01616b76-44ac-4228-9300-d770ff4246fc",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-23T06:31:49+00:00",
+    "createdAt": "2023-11-14T08:37:57+00:00",
     "description": "",
-    "fileName": "e53bb882-9b6c-49c4-ad7b-755eb06b999e.jpg",
+    "fileName": "a18cb084-289c-44cf-a5ff-1fcb9a62a5eb.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-23T06:31:49+00:00",
-    "version": 2,
-    "volume": "1"
+    "updatedAt": "2023-11-14T08:37:57+00:00",
+    "version": 1,
+    "volume": "2"
    }
   },
   {
    "id": "3453006a-baf2-416c-8097-c03461bf700c",
    "type": "manga",
-   "related": "adapted_from"
+   "related": "prequel"
   },
   {
    "id": "62e10a5f-c94a-40e6-b2bc-a21a81a01fd8",
    "type": "manga",
-   "related": "prequel"
+   "related": "adapted_from"
+  },
+  {
+   "id": "c8085ef7-0d6d-4f56-8b95-841039fed3c1",
+   "type": "manga",
+   "related": "sequel"
   }
  ]
 }
