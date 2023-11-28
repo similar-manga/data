@@ -3,11 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Ultraman is Back"
+   "en": "Return of Ultraman (SAKAGUCHI Hisashi)"
   },
   "altTitles": [
    {
     "ja": "帰ってきた ウルトラマン"
+   },
+   {
+    "ja-ro": "Kaettekita Ultraman"
    }
   ],
   "description": {},
@@ -18,6 +21,18 @@
   "year": 1970,
   "contentRating": "safe",
   "tags": [
+   {
+    "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sci-Fi"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
     "type": "tag",
@@ -56,9 +71,9 @@
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 3,
   "createdAt": "2023-11-14T05:33:00+00:00",
-  "updatedAt": "2023-11-14T05:33:14+00:00"
+  "updatedAt": "2023-11-24T01:46:36+00:00"
  },
  "relationships": [
   {
@@ -140,7 +155,17 @@
    "related": "alternate_version"
   },
   {
+   "id": "68552337-f534-4f17-a740-cc663f1cd5d7",
+   "type": "manga",
+   "related": "alternate_version"
+  },
+  {
    "id": "84b078f6-c6bf-4308-9a81-9296e960f25e",
+   "type": "manga",
+   "related": "alternate_version"
+  },
+  {
+   "id": "c7ce6ca2-0645-4433-abf5-e1b24eb42144",
    "type": "manga",
    "related": "alternate_version"
   },
