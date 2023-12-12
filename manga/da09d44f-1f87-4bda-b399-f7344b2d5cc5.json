@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "A, A Prime"
+   "en": "A-A'"
   },
   "altTitles": [
    {
-    "en": "4/4"
+    "en": "A, A Prime"
    },
    {
-    "ja": "A-A'"
+    "en": "4/4"
    },
    {
     "en": "A, A' [A, A Prime]"
@@ -33,10 +33,12 @@
   },
   "links": {
    "al": "34268",
+   "amz": "https://www.amazon.co.jp/dp/4091913857",
    "ap": "a-a",
    "kt": "9322",
    "mal": "4268",
-   "mu": "7483"
+   "mu": "7483",
+   "raw": "https://www.hagiomoto.net/works/096.html"
   },
   "originalLanguage": "ja",
   "lastVolume": "1",
@@ -136,16 +138,18 @@
    }
   ],
   "state": "published",
-  "version": 4,
+  "version": 6,
   "createdAt": "2019-03-25T17:03:09+00:00",
-  "updatedAt": "2023-08-10T18:38:24+00:00"
+  "updatedAt": "2023-12-11T03:25:37+00:00"
  },
  "relationships": [
   {
    "id": "76bc5e4b-1785-4ece-b3e8-2daa2ab82c9e",
    "type": "author",
    "attributes": {
-    "biography": {},
+    "biography": {
+     "en": "**Name** (in native language)\n萩尾望都"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -159,8 +163,8 @@
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2023-12-11T03:12:45+00:00",
+    "version": 2,
     "website": null,
     "weibo": null,
     "youtube": null
@@ -170,7 +174,9 @@
    "id": "76bc5e4b-1785-4ece-b3e8-2daa2ab82c9e",
    "type": "artist",
    "attributes": {
-    "biography": {},
+    "biography": {
+     "en": "**Name** (in native language)\n萩尾望都"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -184,8 +190,8 @@
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2023-12-11T03:12:45+00:00",
+    "version": 2,
     "website": null,
     "weibo": null,
     "youtube": null
@@ -203,6 +209,11 @@
     "version": 2,
     "volume": "1"
    }
+  },
+  {
+   "id": "7ca5fc09-ad86-43c3-ab52-d671765fd3f1",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }
