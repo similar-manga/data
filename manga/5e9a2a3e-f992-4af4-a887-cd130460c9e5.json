@@ -3,17 +3,23 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Baki Dou (2018)"
+   "en": "Bakidou (2018)"
   },
   "altTitles": [
    {
-    "en": "The Way of Baki (2018)"
+    "en": "Baki Part 5"
    },
    {
     "ru": "Путь Баки 2"
    },
    {
     "ja": "バキ道"
+   },
+   {
+    "en": "The Way of Baki (2018)"
+   },
+   {
+    "en": "Baki's Style (2018)"
    }
   ],
   "description": {
@@ -25,6 +31,7 @@
    "amz": "https://www.amazon.co.jp/gp/product/B07PJM8P1F",
    "ap": "baki-dou-2018",
    "bw": "series/193851",
+   "cdj": "https://www.cdjapan.co.jp/product/NEOBK-2511946",
    "ebj": "https://ebookjapan.yahoo.co.jp/books/528382/",
    "mal": "115749",
    "mu": "151336",
@@ -60,6 +67,18 @@
     }
    },
    {
+    "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Psychological"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
     "type": "tag",
     "attributes": {
@@ -80,6 +99,18 @@
      },
      "description": {},
      "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": {},
+     "group": "genre",
      "version": 1
     }
    },
@@ -106,12 +137,36 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "da2d50ca-3018-4cc0-ac7a-6b7d472a29ea",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Delinquents"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Supernatural"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 22,
+  "version": 25,
   "createdAt": "2019-08-14T00:28:13+00:00",
-  "updatedAt": "2023-07-01T18:13:52+00:00"
+  "updatedAt": "2023-12-12T03:08:02+00:00"
  },
  "relationships": [
   {
@@ -169,16 +224,16 @@
    }
   },
   {
-   "id": "ac9c32a9-fa1b-425a-813b-53b42492ee3a",
+   "id": "1e25cdf1-48fd-46a9-9cb2-e681133a3bb2",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2023-05-11T02:07:34+00:00",
+    "createdAt": "2023-09-17T08:09:57+00:00",
     "description": "",
-    "fileName": "476c9c81-bd0b-4793-951d-2c3a4279cff4.jpg",
+    "fileName": "330e069d-b6c7-472f-b571-cc119c07af46.jpg",
     "locale": "ja",
-    "updatedAt": "2023-05-11T02:07:34+00:00",
+    "updatedAt": "2023-09-17T08:09:57+00:00",
     "version": 1,
-    "volume": "16"
+    "volume": "17"
    }
   },
   {
@@ -199,7 +254,7 @@
   {
    "id": "ea3122bb-0c28-4669-8686-d6df1274512f",
    "type": "manga",
-   "related": "same_franchise"
+   "related": "prequel"
   }
  ]
 }
