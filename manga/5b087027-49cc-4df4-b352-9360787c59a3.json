@@ -3,11 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Primitive Boy Ryu"
+   "en": "Cave Boy Ryu (BABA Hideo)"
   },
   "altTitles": [
    {
     "ja": "原始少年リュウ"
+   },
+   {
+    "en": "Primitive Boy Ryu"
+   },
+   {
+    "ja-ro": "Genshi Shounen Ryuu"
    }
   ],
   "description": {},
@@ -41,6 +47,30 @@
     }
    },
    {
+    "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adventure"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Drama"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
     "type": "tag",
     "attributes": {
@@ -54,9 +84,9 @@
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 3,
   "createdAt": "2023-11-26T01:53:41+00:00",
-  "updatedAt": "2023-11-26T01:59:11+00:00"
+  "updatedAt": "2023-12-23T15:05:46+00:00"
  },
  "relationships": [
   {
@@ -125,7 +155,7 @@
   {
    "id": "a2a26fff-d218-4d1b-8f8f-28c81f41aab8",
    "type": "manga",
-   "related": "based_on"
+   "related": "alternate_story"
   },
   {
    "id": "ecf379e6-bc34-42c4-b25d-63698875cdfb",
