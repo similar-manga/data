@@ -3,14 +3,20 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Brave Story Shinsetsu - Jikkai no Tabibito"
+   "en": "Brave Story New Theory ～Travelers of The Ten Marks～"
   },
   "altTitles": [
    {
     "en": "Brave Story Shinsetsu: Travelers of The Ten Marks"
    },
    {
-    "en": "ブレイブストーリ　十戒の旅人"
+    "ja": "ブレイブストーリ　十戒の旅人"
+   },
+   {
+    "ja-ro": "Brave Story Shinsetsu - Jikkai no Tabibito"
+   },
+   {
+    "ja": "ブレイブ・ストーリー新説~十戒の旅人~"
    }
   ],
   "description": {
@@ -21,11 +27,25 @@
    "mu": "100524"
   },
   "originalLanguage": "ja",
-  "publicationDemographic": "shounen",
-  "status": "ongoing",
+  "lastVolume": "3",
+  "lastChapter": "14",
+  "publicationDemographic": "seinen",
+  "status": "completed",
   "year": 2013,
   "contentRating": "safe",
   "tags": [
+   {
+    "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Monsters"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
    {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
     "type": "tag",
@@ -64,9 +84,9 @@
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 4,
   "createdAt": "2018-10-18T20:49:03+00:00",
-  "updatedAt": "2022-10-20T13:48:27+00:00"
+  "updatedAt": "2023-12-28T06:18:39+00:00"
  },
  "relationships": [
   {
@@ -95,7 +115,7 @@
    }
   },
   {
-   "id": "93d706b0-7ae8-44a9-acc0-03f3dba54cf0",
+   "id": "81119220-58e6-44ab-b41f-1d1140334973",
    "type": "artist",
    "attributes": {
     "biography": {},
@@ -105,7 +125,7 @@
     "fantia": null,
     "imageUrl": null,
     "melonBook": null,
-    "name": "Ono Youichiro",
+    "name": "Ono Youichirou",
     "naver": null,
     "nicoVideo": null,
     "pixiv": null,
@@ -120,22 +140,22 @@
    }
   },
   {
-   "id": "8789ae44-20dd-4fc0-af83-42031f3da75d",
+   "id": "60dc3a16-e3c5-4f17-a10e-514c8e99eea0",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T16:48:36+00:00",
+    "createdAt": "2021-05-23T05:48:13+00:00",
     "description": "",
-    "fileName": "7928223b-d895-440f-bd2f-2d4ddad04d32.jpg",
+    "fileName": "331be8be-5363-4072-8828-e2d558682edb.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T16:48:36+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2021-05-23T05:48:13+00:00",
+    "version": 2,
+    "volume": "3"
    }
   },
   {
    "id": "7a1ae148-6b63-4d43-9b93-525d6916168a",
    "type": "manga",
-   "related": "main_story"
+   "related": "adapted_from"
   }
  ]
 }
