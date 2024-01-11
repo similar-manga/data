@@ -3,17 +3,11 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Showa Era Legend of Immortality Vampire"
+   "en": "Showa Era's Legend of The Immortal Vampire"
   },
   "altTitles": [
    {
     "ja": "昭和不老不死伝説 バンパイア"
-   },
-   {
-    "ja": "近未来不老不死伝説 バンパイア"
-   },
-   {
-    "en": "Near Future Legend of Immortality Vampire"
    }
   ],
   "description": {},
@@ -38,6 +32,18 @@
     }
    },
    {
+    "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Romance"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
     "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
     "type": "tag",
     "attributes": {
@@ -46,6 +52,18 @@
      },
      "description": {},
      "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sexual Violence"
+     },
+     "description": {},
+     "group": "content",
      "version": 1
     }
    },
@@ -72,12 +90,48 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "d7d1730f-6eb0-4ba6-9437-602cac38664c",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Vampires"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Supernatural"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Tragedy"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 4,
   "createdAt": "2024-01-01T11:33:23+00:00",
-  "updatedAt": "2024-01-01T12:23:02+00:00"
+  "updatedAt": "2024-01-02T14:57:34+00:00"
  },
  "relationships": [
   {
@@ -142,6 +196,11 @@
     "version": 1,
     "volume": "5.1"
    }
+  },
+  {
+   "id": "5d5155d2-e9bb-46fa-ab9c-f87e3de313e7",
+   "type": "manga",
+   "related": "sequel"
   },
   {
    "id": "ee405e2c-a246-409b-ab03-ce3a5c9a78e8",
