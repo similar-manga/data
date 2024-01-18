@@ -3,14 +3,17 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "2020 Pixiv BOOST Thank You Manga (Hamefura)"
+   "en": "Hamefura - 2020-Nen BOOST Kansha Manga (Doujinshi)"
   },
   "altTitles": [
    {
     "ja": "2020年BOOST感謝漫画"
    },
    {
-    "ja-ro": "2020-Nen BOOST Kansha Manga"
+    "ja-ro": "2020-Nen BOOST Kansha Manga (Hamefura)"
+   },
+   {
+    "en": "2020 Pixiv BOOST Thank You Manga (My Next Life as a Villainess)"
    }
   ],
   "description": {
@@ -89,6 +92,18 @@
     }
    },
    {
+    "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Doujinshi"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
+   },
+   {
     "id": "d14322ac-4d6f-4e9b-afd9-629d5f4d8a41",
     "type": "tag",
     "attributes": {
@@ -102,17 +117,44 @@
    }
   ],
   "state": "published",
-  "version": 4,
+  "version": 7,
   "createdAt": "2021-01-27T15:03:34+00:00",
-  "updatedAt": "2023-07-20T09:22:21+00:00"
+  "updatedAt": "2024-01-10T08:05:32+00:00"
  },
  "relationships": [
   {
-   "id": "ebfb702e-24f2-45a1-be05-485d3b27f568",
+   "id": "49682d8f-0cc3-44fc-bfdc-3d7368f7ab05",
    "type": "author",
    "attributes": {
     "biography": {},
     "booth": null,
+    "createdAt": "2024-01-10T05:01:18+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Yuribatake Bokujou (Circle)",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2024-01-10T05:01:18+00:00",
+    "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
+  {
+   "id": "ebfb702e-24f2-45a1-be05-485d3b27f568",
+   "type": "author",
+   "attributes": {
+    "biography": {
+     "en": "**Native name**: 紺\n\n**Circle name**: Yuribatake Bokujou"
+    },
+    "booth": "https://yuribatake.booth.pm/",
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
     "fantia": null,
@@ -121,11 +163,36 @@
     "name": "Kon",
     "naver": null,
     "nicoVideo": null,
+    "pixiv": "https://www.pixiv.net/en/users/1271285",
+    "skeb": null,
+    "tumblr": null,
+    "twitter": "https://twitter.com/pluto_305",
+    "updatedAt": "2024-01-10T08:00:18+00:00",
+    "version": 2,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
+  {
+   "id": "49682d8f-0cc3-44fc-bfdc-3d7368f7ab05",
+   "type": "artist",
+   "attributes": {
+    "biography": {},
+    "booth": null,
+    "createdAt": "2024-01-10T05:01:18+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "Yuribatake Bokujou (Circle)",
+    "naver": null,
+    "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
+    "updatedAt": "2024-01-10T05:01:18+00:00",
     "version": 1,
     "website": null,
     "weibo": null,
@@ -136,8 +203,10 @@
    "id": "ebfb702e-24f2-45a1-be05-485d3b27f568",
    "type": "artist",
    "attributes": {
-    "biography": {},
-    "booth": null,
+    "biography": {
+     "en": "**Native name**: 紺\n\n**Circle name**: Yuribatake Bokujou"
+    },
+    "booth": "https://yuribatake.booth.pm/",
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
     "fantia": null,
@@ -146,12 +215,12 @@
     "name": "Kon",
     "naver": null,
     "nicoVideo": null,
-    "pixiv": null,
+    "pixiv": "https://www.pixiv.net/en/users/1271285",
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "twitter": "https://twitter.com/pluto_305",
+    "updatedAt": "2024-01-10T08:00:18+00:00",
+    "version": 2,
     "website": null,
     "weibo": null,
     "youtube": null
@@ -173,7 +242,7 @@
   {
    "id": "c6bbbeca-f4fd-4595-9d4d-4ba31370d08c",
    "type": "manga",
-   "related": "adapted_from"
+   "related": "based_on"
   }
  ]
 }
