@@ -3,17 +3,23 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Star Driver: Kagayaki no Takuto"
+   "en": "STAR DRIVER: Kagayaki no Takuto"
   },
   "altTitles": [
    {
     "ja": "STAR DRIVER 輝きのタクト"
    },
    {
+    "en": "STAR DRIVER: Shining Takuto"
+   },
+   {
     "en": "Star Driver: Radiant Takuto"
    },
    {
     "en": "Star Driver: Takuto of The Radiance"
+   },
+   {
+    "en": "Star Driver"
    }
   ],
   "description": {
@@ -21,6 +27,7 @@
   },
   "links": {
    "al": "51908",
+   "amz": "https://www.amazon.co.jp/s?i=stripbooks\u0026rh=p_27%3ABONES%2Cp_28%3ASTAR+DRIVER+%E8%BC%9D%E3%81%8D%E3%81%AE%E3%82%BF%E3%82%AF%E3%83%88+%28%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%82%AC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9\u0026s=date-desc-rank",
    "ap": "star-driver-kagayaki-no-takuto",
    "kt": "12449",
    "mal": "21908",
@@ -61,35 +68,49 @@
      "group": "genre",
      "version": 1
     }
+   },
+   {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 7,
   "createdAt": "2018-09-12T14:08:27+00:00",
-  "updatedAt": "2023-12-20T21:19:14+00:00"
+  "updatedAt": "2024-02-25T09:35:43+00:00"
  },
  "relationships": [
   {
    "id": "837fe5f3-5e38-4c60-97e2-6c86107fcb1a",
    "type": "author",
    "attributes": {
-    "biography": {},
+    "biography": {
+     "en": "**Other Names**:\nbones\n株式会社ボンズ\n___\nThe renowned animation studio."
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
     "fantia": null,
     "imageUrl": null,
     "melonBook": null,
-    "name": "Bones",
+    "name": "BONES",
     "naver": null,
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "updatedAt": "2024-02-25T09:21:44+00:00",
+    "version": 4,
+    "website": "https://www.bones.co.jp/",
     "weibo": null,
     "youtube": null
    }
@@ -120,17 +141,22 @@
    }
   },
   {
-   "id": "8cec9c16-bd49-4ff7-b6c4-55e39302a7ac",
+   "id": "3a53765b-af32-46ea-80bb-9dac7b79f7b4",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T16:44:42+00:00",
+    "createdAt": "2024-02-25T09:15:02+00:00",
     "description": "",
-    "fileName": "7af4d569-f5d5-452a-82ed-9b4ab16816ba.jpg",
+    "fileName": "dd61159f-bf59-4da3-8c9e-4e55664f535c.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T16:44:42+00:00",
+    "updatedAt": "2024-02-25T09:15:02+00:00",
     "version": 1,
-    "volume": null
+    "volume": "3"
    }
+  },
+  {
+   "id": "b0a96a39-c04e-4ad9-bf36-a6fbb33564f8",
+   "type": "manga",
+   "related": "doujinshi"
   }
  ]
 }
