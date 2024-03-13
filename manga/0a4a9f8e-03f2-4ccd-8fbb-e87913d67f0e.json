@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Shingeki no Kyojin - Give Me (Doujinshi)"
+   "en": "Attack on Titan - Give Me (Doujinshi)"
   },
   "altTitles": [
    {
-    "en": "Shingeki no Kyojin dj - Give Me"
+    "ja-ro": "Shingeki no Kyojin - Give Me (Doujinshi)"
    },
    {
-    "ja": "進撃の巨人 dj - Give Me"
+    "ja": "進撃の巨人 - Give Me (Doujinshi)"
    }
   ],
   "description": {
@@ -28,6 +28,18 @@
   ],
   "latestUploadedChapter": "661eda3d-e75e-4e5f-9f0d-dd00f12fa355",
   "tags": [
+   {
+    "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Oneshot"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
+   },
    {
     "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
     "type": "tag",
@@ -90,9 +102,9 @@
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 4,
   "createdAt": "2020-01-07T11:53:36+00:00",
-  "updatedAt": "2023-03-26T04:11:29+00:00"
+  "updatedAt": "2024-03-09T06:54:21+00:00"
  },
  "relationships": [
   {
@@ -150,6 +162,33 @@
    }
   },
   {
+   "id": "5323c6aa-d0a8-4e31-90a0-45e87ace9f2b",
+   "type": "artist",
+   "attributes": {
+    "biography": {
+     "en": "**Members**:\n[Nenko](https://mangadex.org/author/593e979b-4b83-4ed0-b87c-ff6fd3abe06e) (ネン子)"
+    },
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "TOYPANO (Circle)",
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2023-03-26T04:09:26+00:00",
+    "version": 2,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
+  {
    "id": "593e979b-4b83-4ed0-b87c-ff6fd3abe06e",
    "type": "artist",
    "attributes": {
@@ -188,6 +227,11 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "304ceac3-8cdb-4fe7-acf7-2b6ff7a60613",
+   "type": "manga",
+   "related": "based_on"
   }
  ]
 }
