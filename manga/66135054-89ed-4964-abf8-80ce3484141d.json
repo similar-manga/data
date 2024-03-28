@@ -3,8 +3,13 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Shin Seiki Evangelion - Lock'n'Up (Doujinshi)"
+   "en": "Neon Genesis Evangelion - Lock'n'Up (Doujinshi)"
   },
+  "altTitles": [
+   {
+    "en": "Shin Seiki Evangelion - Lock'n'Up (Doujinshi)"
+   }
+  ],
   "description": {
    "en": "Kaworu x Shinji"
   },
@@ -19,6 +24,18 @@
   ],
   "latestUploadedChapter": "6cbf8dae-ed88-499d-9a2b-409fd2ada75c",
   "tags": [
+   {
+    "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Oneshot"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
+   },
    {
     "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
     "type": "tag",
@@ -45,9 +62,9 @@
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 3,
   "createdAt": "2019-05-21T23:08:20+00:00",
-  "updatedAt": "2021-05-25T15:43:11+00:00"
+  "updatedAt": "2024-03-23T05:37:48+00:00"
  },
  "relationships": [
   {
@@ -112,6 +129,11 @@
     "version": 1,
     "volume": null
    }
+  },
+  {
+   "id": "aaedcbda-ea61-4e7b-8143-7a475f327fbf",
+   "type": "manga",
+   "related": "based_on"
   }
  ]
 }
