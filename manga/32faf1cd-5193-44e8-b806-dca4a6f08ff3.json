@@ -3,8 +3,16 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Fantasy Fellows!"
+   "en": "FANTASY Fellows!"
   },
+  "altTitles": [
+   {
+    "ja": "ファンタジーフェローズ"
+   },
+   {
+    "ja-ro": "Fantasy Fellows"
+   }
+  ],
   "description": {
    "en": "A bonus anthology that came with Harta v.26.",
    "ja": "『ハルタ』volume26に付属。ファンタジーを題材とした描き下ろし漫画を収録している。なお掲載作家のうち空木哲生の作品は、本誌での自身の連載作「鴨の水かき」の番外編である。\n\n表紙：入江亜季○\n掲載陣：空木哲生、若槻久美子、古海鐘一、中村哲也、木村みなみ○、井上きぬ、渡邉紗代、大槻一翔○、中西芙海"
@@ -25,12 +33,24 @@
      "group": "format",
      "version": 1
     }
+   },
+   {
+    "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Fantasy"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 3,
+  "version": 6,
   "createdAt": "2023-11-24T07:28:12+00:00",
-  "updatedAt": "2023-11-24T20:59:48+00:00"
+  "updatedAt": "2024-04-25T01:12:09+00:00"
  },
  "relationships": [
   {
@@ -517,6 +537,11 @@
     "version": 1,
     "volume": "1"
    }
+  },
+  {
+   "id": "c1853733-84a7-43da-b534-e786afc60863",
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "77330537-c7e2-48e5-8c42-4b74ac46f654",
