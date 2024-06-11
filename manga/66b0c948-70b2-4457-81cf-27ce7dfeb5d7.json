@@ -3,14 +3,14 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Futari wa Precure Max Heart"
+   "en": "Futari wa Pretty Cure Max Heart"
   },
   "altTitles": [
    {
     "en": "Pretty Cure Max Heart"
    },
    {
-    "ja-ro": "Futari wa Pretty Cure Max Heart"
+    "ja-ro": "Futari wa Precure Max Heart"
    },
    {
     "ja": "ふたりはプリキュア　Ｍａｘ　Ｈｅａｒｔ"
@@ -37,6 +37,18 @@
   "year": 2005,
   "contentRating": "safe",
   "tags": [
+   {
+    "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Action"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
     "type": "tag",
@@ -99,16 +111,18 @@
    }
   ],
   "state": "published",
-  "version": 4,
+  "version": 6,
   "createdAt": "2019-11-24T15:41:38+00:00",
-  "updatedAt": "2024-04-23T10:32:13+00:00"
+  "updatedAt": "2024-06-09T00:58:22+00:00"
  },
  "relationships": [
   {
    "id": "0ca320d3-ff6e-44e1-92a0-63feb5fcb475",
    "type": "author",
    "attributes": {
-    "biography": {},
+    "biography": {
+     "en": "Todo Izumi is a pseudonym for unnamed Toei Animation staff. The name was created from 東映動画 大泉スタジオ(Toei Doka Oizumi Studio; Studio Oizumi of Toei Animation)."
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -123,8 +137,8 @@
     "skeb": null,
     "tumblr": null,
     "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "updatedAt": "2024-06-07T14:05:51+00:00",
+    "version": 2,
     "website": null,
     "weibo": null,
     "youtube": null
@@ -170,9 +184,29 @@
    }
   },
   {
+   "id": "0057b2de-1178-46be-a525-f19a2c0fbb2c",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
    "id": "02ae4f1b-59e5-4d31-bded-c0483542c322",
    "type": "manga",
    "related": "doujinshi"
+  },
+  {
+   "id": "1c787bc2-370b-47a5-9d30-38140ae213be",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "1e026e1b-f0a4-4bc6-9c87-db2de797319a",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "2a54c697-8c53-47f0-8ee6-03e66a673daf",
+   "type": "manga",
+   "related": "same_franchise"
   },
   {
    "id": "330b56a4-1097-4b43-9dd8-3cbb9c42927b",
@@ -185,12 +219,52 @@
    "related": "same_franchise"
   },
   {
+   "id": "4ba767d6-113d-4bf0-baae-466aa672ea5e",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
    "id": "73375bd1-e944-4edb-af01-5ce19e20c273",
    "type": "manga",
    "related": "prequel"
   },
   {
+   "id": "7a00b246-4d92-4f76-9da1-bac25ea3c72e",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "9273cbb6-8c86-4f56-94f1-42a737d2250d",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "b5cac06d-27f1-48ba-8627-df834b15622a",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "bbfe9259-e78e-4f28-bf0d-066e9378f393",
+   "type": "manga",
+   "related": "doujinshi"
+  },
+  {
+   "id": "c5ae4d1c-1f2f-407a-a659-f9e6e1adf58b",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
    "id": "d9fca1eb-18ef-424c-a3a6-97aaa2589bd9",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "f121ebb6-92dc-47c4-b24f-8ed46e43250e",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "ff8ed51b-f5e2-48c2-a431-e2574aa7fe4e",
    "type": "manga",
    "related": "same_franchise"
   }
