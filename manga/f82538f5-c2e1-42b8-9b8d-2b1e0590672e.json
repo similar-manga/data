@@ -3,26 +3,32 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Yahari Ore no Seishun Love Come wa Machigatteiru - GX Comic Anthology"
+   "en": "Yahari Ore no Seishun Love Come wa Machigatteiru. GX Comic Anthology"
   },
   "altTitles": [
    {
-    "en": "やはり俺の青春ラブコメはまちがっている。GXコミックアンソロジー"
+    "ja": "やはり俺の青春ラブコメはまちがっている。GXコミックアンソロジー"
+   },
+   {
+    "ja": "My youth romantic comedy is wrong as I expected.GXComicAnthology"
+   },
+   {
+    "en": "My Youth Romantic Comedy Is Wrong As I Expected. GX Comic Anthology"
    }
   ],
-  "description": {
-   "en": ""
-  },
+  "description": {},
   "links": {
-   "amz": "https://www.amazon.co.jp/gp/aw/d/B08C7V8V38/ref=redir_mdp_mobile_siteViewPreference?bsppEnabled=false\u0026bsppEnabled=false\u0026pc_redir=T1",
-   "bw": "series/254949",
+   "amz": "https://www.amazon.co.jp/dp/B08C7V8V38",
+   "bw": "de19cb5d9e-cad6-4709-b90e-986e3a7fb9c4",
    "cdj": "https://www.cdjapan.co.jp/product/NEOBK-2499857",
    "ebj": "https://ebookjapan.yahoo.co.jp/books/597554/A002410243/",
    "raw": "https://www.sunday-webry.com/detail.php?title_id=1138"
   },
   "originalLanguage": "ja",
-  "publicationDemographic": "seinen",
-  "status": "ongoing",
+  "lastVolume": "1",
+  "lastChapter": "7",
+  "status": "completed",
+  "year": 2020,
   "contentRating": "safe",
   "tags": [
    {
@@ -99,9 +105,9 @@
    }
   ],
   "state": "published",
-  "version": 1,
+  "version": 2,
   "createdAt": "2020-09-13T23:47:02+00:00",
-  "updatedAt": "2020-09-13T23:47:02+00:00"
+  "updatedAt": "2024-08-06T21:51:48+00:00"
  },
  "relationships": [
   {
@@ -159,22 +165,32 @@
    }
   },
   {
-   "id": "4fb82d07-0b5d-4f29-9ea7-3a5c84e5422e",
+   "id": "9808eb8c-ef69-4f1d-97c6-f34879ae76fc",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T18:10:15+00:00",
+    "createdAt": "2021-05-23T07:41:55+00:00",
     "description": "",
-    "fileName": "129a38e5-c54f-41e6-9ad0-2c6f3cc2d3a6.jpg",
+    "fileName": "bf35c3f9-4cf6-4127-b3e8-6280ab86bbc3.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T18:10:15+00:00",
-    "version": 1,
-    "volume": null
+    "updatedAt": "2021-05-23T07:41:55+00:00",
+    "version": 2,
+    "volume": "1"
    }
   },
   {
    "id": "0296dc0b-7635-4154-927a-33c2244c4503",
    "type": "manga",
-   "related": "main_story"
+   "related": "adapted_from"
+  },
+  {
+   "id": "23b51846-bec4-41e4-a9a2-a034064d01eb",
+   "type": "manga",
+   "related": "adapted_from"
+  },
+  {
+   "id": "45a9bcc2-fb06-44af-b4f9-4b0ae9c39a19",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }
