@@ -3,18 +3,28 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Hawkeye Falls in Love"
+   "en": "Love in the Hawk's Eye"
   },
   "altTitles": [
    {
     "ja": "鷹の目は恋をする"
+   },
+   {
+    "ja-ro": "Taka no Me wa Koi o Suru"
+   },
+   {
+    "ja-ro": "Taka no Me ha Koi wo Suru"
+   },
+   {
+    "en": "Hawkeye Falls in Love"
    }
   ],
   "description": {},
   "links": {
-   "raw": "https://twitter.com/isiyumi/status/1191660390045761536"
+   "raw": "https://x.com/search?q=from:@isiyumi 鷹の目は恋をする\u0026f=live"
   },
   "originalLanguage": "ja",
+  "lastChapter": "4",
   "status": "completed",
   "year": 2019,
   "contentRating": "safe",
@@ -23,6 +33,18 @@
   ],
   "latestUploadedChapter": "9e45e8ed-538d-4a30-b522-8b7f45078e81",
   "tags": [
+   {
+    "id": "256c8bd9-4904-4360-bf4f-508a76d67183",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Sci-Fi"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
    {
     "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
     "type": "tag",
@@ -46,12 +68,24 @@
      "group": "theme",
      "version": 1
     }
+   },
+   {
+    "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Web Comic"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 2,
+  "version": 5,
   "createdAt": "2023-03-09T21:25:00+00:00",
-  "updatedAt": "2023-03-09T21:25:43+00:00"
+  "updatedAt": "2024-08-19T15:58:52+00:00"
  },
  "relationships": [
   {
@@ -118,18 +152,23 @@
     "description": "",
     "fileName": "8595845c-1733-41aa-b084-e3bdf0edf308.jpg",
     "locale": "ja",
-    "updatedAt": "2023-03-09T21:25:07+00:00",
-    "version": 1,
-    "volume": "1"
+    "updatedAt": "2024-08-19T15:23:23+00:00",
+    "version": 2,
+    "volume": null
    }
   },
   {
    "id": "4bbbcf1a-f207-4d25-8be0-f08633b0947e",
    "type": "manga",
-   "related": "main_story"
+   "related": "shared_universe"
   },
   {
    "id": "9f549d78-ddcd-4868-95c5-f7fe6c6d7bf5",
+   "type": "manga",
+   "related": "serialization"
+  },
+  {
+   "id": "a1c01fa6-8c25-4d5a-b10e-37201f78daf6",
    "type": "manga",
    "related": "serialization"
   },
