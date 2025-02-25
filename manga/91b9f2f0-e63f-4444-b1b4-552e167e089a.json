@@ -7,10 +7,10 @@
   },
   "altTitles": [
    {
-    "en": "Insect Princess"
+    "ja": "蟲姫"
    },
    {
-    "fr": "Nuisible"
+    "en": "Insect Princess"
    },
    {
     "ru": "Принцесса-насекомое"
@@ -19,13 +19,13 @@
     "ar": "أميرة الحشرات"
    },
    {
-    "ja": "虫姬"
-   },
-   {
-    "zh": "蟲姫"
+    "zh": "虫姬"
    },
    {
     "vi": "Nữ Chúa Côn Trùng"
+   },
+   {
+    "fr": "Nuisible"
    }
   ],
   "description": {
@@ -34,12 +34,15 @@
   },
   "links": {
    "al": "95719",
-   "amz": "https://www.amazon.co.jp/蟲姫-1-画楽コミックス愛蔵版コミックス-里見-有/dp/4834284441/ref=sr_1_2?ie=UTF8\u0026qid=1543327318\u0026sr=8-2\u0026keywords=蟲姫",
-   "bw": "series/51945/list",
+   "amz": "https://www.amazon.co.jp/dp/B074C5MZRW",
+   "ap": "mushihime",
+   "bw": "series/51945",
+   "cdj": "https://www.cdjapan.co.jp/product/NEOBK-1826773",
    "ebj": "https://ebookjapan.yahoo.co.jp/books/324907/",
    "kt": "37405",
    "mal": "91946",
-   "mu": "99801"
+   "mu": "kd6vwvz",
+   "raw": "https://ynjn.jp/title/462"
   },
   "originalLanguage": "ja",
   "lastVolume": "3",
@@ -176,12 +179,60 @@
      "group": "theme",
      "version": 1
     }
+   },
+   {
+    "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Web Comic"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
+   },
+   {
+    "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Supernatural"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
+    "id": "ee968100-4191-4968-93d3-f82d72be7e46",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Mystery"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Tragedy"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
    }
   ],
   "state": "published",
-  "version": 8,
+  "version": 14,
   "createdAt": "2019-09-05T12:49:03+00:00",
-  "updatedAt": "2025-02-03T01:14:25+00:00"
+  "updatedAt": "2025-02-22T09:37:52+00:00"
  },
  "relationships": [
   {
@@ -214,7 +265,9 @@
    "id": "8a661840-ed5c-498d-b311-89af8fc632bb",
    "type": "artist",
    "attributes": {
-    "biography": {},
+    "biography": {
+     "en": "**Name In Native Language:** 里見有\n\n**Additional Sites:**\n- [Buy Me a Coffee](https://buymeacoffee.com/usatomin7)\n- [Instagram](https://www.instagram.com/_yusatomi_)\n- [Linktree](https://linktr.ee/yu_satomi)"
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -227,32 +280,42 @@
     "nicoVideo": null,
     "pixiv": null,
     "skeb": null,
-    "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
+    "tumblr": "https://satomiyu.tumblr.com/",
+    "twitter": "https://twitter.com/usatomi",
+    "updatedAt": "2025-02-22T05:55:22+00:00",
+    "version": 2,
     "website": null,
     "weibo": null,
     "youtube": null
    }
   },
   {
-   "id": "7f150409-d054-4fde-940a-dbb71e68347d",
+   "id": "340b61c3-aec7-440c-a013-deab53333407",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T17:25:25+00:00",
+    "createdAt": "2025-02-22T07:22:17+00:00",
     "description": "",
-    "fileName": "e8606d7c-456e-4ada-9807-977fe9187508.jpg",
+    "fileName": "5a1b8e02-a723-4371-b5fa-6ad498beda16.jpg",
     "locale": "ja",
-    "updatedAt": "2021-05-24T17:25:25+00:00",
+    "updatedAt": "2025-02-22T07:22:17+00:00",
     "version": 1,
-    "volume": null
+    "volume": "3"
    }
   },
   {
    "id": "ccf2d977-9d0d-4a6a-8f94-c218dd0578f3",
    "type": "manga",
    "related": "colored"
+  },
+  {
+   "id": "d0f39b5b-48d8-4434-9e21-055eeb574255",
+   "type": "manga",
+   "related": "alternate_version"
+  },
+  {
+   "id": "e94fafaf-2390-4162-8c41-6dd7c4eef978",
+   "type": "manga",
+   "related": "same_franchise"
   }
  ]
 }
