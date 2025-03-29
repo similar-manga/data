@@ -3,27 +3,30 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Night Patrol Sensei"
+   "en": "Night Patrol Teacher"
   },
   "altTitles": [
-   {
-    "fr": "Blessures nocturnes"
-   },
-   {
-    "en": "Night Patrol Teacher"
-   },
-   {
-    "ar": "المعلم يوماواري"
-   },
    {
     "ja": "夜回り先生"
    },
    {
+    "ja-ro": "Yomawari-sensei"
+   },
+   {
     "ja-ro": "Yomawari Sensei"
+   },
+   {
+    "en": "Night Patrol Sensei"
+   },
+   {
+    "fr": "Blessures nocturnes"
+   },
+   {
+    "ar": "المعلم يوماواري"
    }
   ],
   "description": {
-   "en": "The author, a high-school teacher, recounts his 12 years on \"night patrol\" in Yokohama City, where he comes face to face with youth dealing with issues ranging from self-mutilation to drug abuse."
+   "en": "The author, a high school teacher, recounts his 12 years on “night patrol” in Yokohama City, where he comes face to face with youth dealing with issues ranging from self-mutilation to drug abuse."
   },
   "links": {
    "al": "47910",
@@ -98,6 +101,18 @@
     }
    },
    {
+    "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Adaptation"
+     },
+     "description": {},
+     "group": "format",
+     "version": 1
+    }
+   },
+   {
     "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
     "type": "tag",
     "attributes": {
@@ -111,9 +126,9 @@
    }
   ],
   "state": "published",
-  "version": 6,
+  "version": 8,
   "createdAt": "2018-08-24T03:08:29+00:00",
-  "updatedAt": "2022-12-24T05:40:40+00:00"
+  "updatedAt": "2025-03-25T18:32:14+00:00"
  },
  "relationships": [
   {
@@ -146,7 +161,9 @@
    "id": "33e3d133-a9ec-4443-9ee3-5b6e8ecbdcad",
    "type": "artist",
    "attributes": {
-    "biography": {},
+    "biography": {
+     "en": "**Name In Native Language:** 土田世紀\n\n**Lived:** March 21, 1969–April 24, 2012\n\nHe died of liver cirrhosis at only 43."
+    },
     "booth": null,
     "createdAt": "2021-04-19T21:59:45+00:00",
     "fanBox": null,
@@ -160,10 +177,10 @@
     "pixiv": null,
     "skeb": null,
     "tumblr": null,
-    "twitter": null,
-    "updatedAt": "2021-04-19T21:59:45+00:00",
-    "version": 1,
-    "website": null,
+    "twitter": "https://twitter.com/goodbye20220424",
+    "updatedAt": "2025-03-25T17:29:21+00:00",
+    "version": 2,
+    "website": "https://tsuchida-seiki.com/",
     "weibo": null,
     "youtube": null
    }
@@ -183,6 +200,11 @@
   },
   {
    "id": "0bf88c35-148d-415b-9aad-9e698fad55f6",
+   "type": "manga",
+   "related": "sequel"
+  },
+  {
+   "id": "2de76582-2bea-423f-97f9-770918177033",
    "type": "manga",
    "related": "sequel"
   }

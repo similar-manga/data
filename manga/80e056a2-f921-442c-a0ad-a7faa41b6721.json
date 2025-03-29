@@ -3,14 +3,20 @@
  "type": "manga",
  "attributes": {
   "title": {
-   "en": "Space☆Dandy"
+   "en": "Space Dandy"
   },
   "altTitles": [
    {
-    "ko": "스페이스☆댄디"
+    "ja": "スペース☆ダンディ"
    },
    {
-    "ja": "スペース☆ダンディ"
+    "ja-ro": "Space☆Dandy"
+   },
+   {
+    "en": "Space☆Dandy"
+   },
+   {
+    "ko": "스페이스☆댄디"
    }
   ],
   "description": {
@@ -18,9 +24,12 @@
   },
   "links": {
    "al": "85537",
-   "amz": "https://www.amazon.co.jp/gp/product/B074CJ9S81",
+   "amz": "https://www.amazon.co.jp/dp/B074CJ9S81",
    "ap": "space-dandy",
-   "engtl": "https://yenpress.com/9780316272322/space-dandy-vol-1/",
+   "bw": "series/14197",
+   "cdj": "https://www.cdjapan.co.jp/searchuni?q=%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E2%98%86%E3%83%80%E3%83%B3%E3%83%87%E3%82%A3+%28%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%82%AC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%29\u0026order=relasc",
+   "ebj": "https://ebookjapan.yahoo.co.jp/books/230839/",
+   "engtl": "https://yenpress.com/series/space-dandy",
    "kt": "25289",
    "mal": "64217",
    "mu": "106155",
@@ -124,11 +133,39 @@
    }
   ],
   "state": "published",
-  "version": 5,
+  "version": 6,
   "createdAt": "2018-09-22T12:07:33+00:00",
-  "updatedAt": "2023-10-23T17:27:36+00:00"
+  "updatedAt": "2025-03-26T16:48:44+00:00"
  },
  "relationships": [
+  {
+   "id": "837fe5f3-5e38-4c60-97e2-6c86107fcb1a",
+   "type": "author",
+   "attributes": {
+    "biography": {
+     "en": "**Also Known As:** bones\n\n**Legal Name:** Bones Inc. (株式会社ボンズ)\n\nThe renowned animation studio."
+    },
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "BONES",
+    "namicomi": null,
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2024-10-17T03:59:27+00:00",
+    "version": 5,
+    "website": "https://www.bones.co.jp/",
+    "weibo": null,
+    "youtube": null
+   }
+  },
   {
    "id": "fc425a47-297e-41b6-8bc8-e41761de2ced",
    "type": "author",
@@ -240,17 +277,27 @@
    }
   },
   {
-   "id": "77f262fa-254b-4f38-a14f-43e8e13a73dc",
+   "id": "1780236c-4992-4bc3-9c2b-08d66cca8cfd",
    "type": "cover_art",
    "attributes": {
-    "createdAt": "2021-05-24T16:45:45+00:00",
+    "createdAt": "2025-03-26T16:48:43+00:00",
     "description": "",
-    "fileName": "104adcf2-9b42-4a79-9a3f-0cb560e9fde0.jpg",
+    "fileName": "dbc07d98-3e2a-430f-8b4d-4bf290f0782e.jpg",
     "locale": "ja",
-    "updatedAt": "2022-02-17T12:24:11+00:00",
-    "version": 2,
+    "updatedAt": "2025-03-26T16:48:43+00:00",
+    "version": 1,
     "volume": "2"
    }
+  },
+  {
+   "id": "4a57f9b3-5701-4e6e-b8a8-1f2635db65f7",
+   "type": "manga",
+   "related": "alternate_version"
+  },
+  {
+   "id": "fa7b2b23-9999-4d7e-a6f1-0db2280db8ca",
+   "type": "manga",
+   "related": "doujinshi"
   }
  ]
 }
