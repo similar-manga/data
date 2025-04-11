@@ -28,11 +28,35 @@
   "latestUploadedChapter": "408d6278-4980-44fe-ab03-c4067da7fb92",
   "tags": [
    {
+    "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Monsters"
+     },
+     "description": {},
+     "group": "theme",
+     "version": 1
+    }
+   },
+   {
     "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
     "type": "tag",
     "attributes": {
      "name": {
       "en": "Action"
+     },
+     "description": {},
+     "group": "genre",
+     "version": 1
+    }
+   },
+   {
+    "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+    "type": "tag",
+    "attributes": {
+     "name": {
+      "en": "Comedy"
      },
      "description": {},
      "group": "genre",
@@ -65,9 +89,9 @@
    }
   ],
   "state": "published",
-  "version": 6,
+  "version": 8,
   "createdAt": "2025-04-06T13:58:23+00:00",
-  "updatedAt": "2025-04-06T17:16:45+00:00"
+  "updatedAt": "2025-04-07T20:14:33+00:00"
  },
  "relationships": [
   {
@@ -91,6 +115,34 @@
     "twitter": null,
     "updatedAt": "2021-04-19T21:59:45+00:00",
     "version": 1,
+    "website": null,
+    "weibo": null,
+    "youtube": null
+   }
+  },
+  {
+   "id": "dbac72c2-5454-4a67-a36b-12f9ab2a81c6",
+   "type": "author",
+   "attributes": {
+    "biography": {
+     "en": "**Name In Native Language**: セガ"
+    },
+    "booth": null,
+    "createdAt": "2021-04-19T21:59:45+00:00",
+    "fanBox": null,
+    "fantia": null,
+    "imageUrl": null,
+    "melonBook": null,
+    "name": "SEGA",
+    "namicomi": null,
+    "naver": null,
+    "nicoVideo": null,
+    "pixiv": null,
+    "skeb": null,
+    "tumblr": null,
+    "twitter": null,
+    "updatedAt": "2024-04-25T11:56:15+00:00",
+    "version": 2,
     "website": null,
     "weibo": null,
     "youtube": null
@@ -137,6 +189,11 @@
   },
   {
    "id": "03f152b7-7326-40f4-9ba9-4d5e6edbc8a5",
+   "type": "manga",
+   "related": "same_franchise"
+  },
+  {
+   "id": "140b4bc8-1e89-42b8-93ec-b0b91f3fcc2d",
    "type": "manga",
    "related": "same_franchise"
   },
